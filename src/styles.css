@@ -234,6 +234,13 @@ select:focus, input:focus, button:focus-visible {
   margin-top: 3px;
   white-space: pre-wrap;
 }
+.strongs-xref {
+  color: var(--accent);
+  font-weight: 600;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+}
+.strongs-xref:hover { background: var(--accent-soft); }
 
 /* Occurrences nested under collapsible book headers */
 .book-group-header {

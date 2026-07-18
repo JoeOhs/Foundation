@@ -107,7 +107,13 @@ export default function ConcordancePanel({ request, onNavigate, onClose }: Conco
           <div className="pane-empty">No Strong’s-tagged matches for “{searchedFor}”.</div>
         )}
         {groups.length > 0 && (
-          <SmartSearchGroups groups={groups} onNavigate={onNavigate} showSectionLabel={false} />
+          <SmartSearchGroups
+            term={searchedFor}
+            groups={groups}
+            onNavigate={onNavigate}
+            onLookupNumber={(num) => { setInput(num); run(num); }}
+            showSectionLabel={false}
+          />
         )}
       </div>
     </div>

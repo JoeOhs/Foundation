@@ -141,8 +141,26 @@ export interface StrongsSearchHit {
   source_title: string;
 }
 
+export interface StrongsBookCount {
+  book: string;
+  count: number;
+}
+
+// A concordance group is pure aggregates — true totals computed in SQL with
+// no row cap, so 6,000-occurrence words report correctly. The actual verse
+// hits are fetched lazily per book when a book header is expanded
+// (strongsSearchHitsForBook), never all at once.
 export interface StrongsSearchGroup {
   strongs_number: string;
   dict: StrongsDictEntry | null;
-  hits: StrongsSearchHit[];
+  total: number;
+  books: StrongsBookCount[];
+}
+
+// Full-text search results: hits are capped per source (not globally, so
+// one dominant source can't crowd the others out) alongside each source's
+// true total for honest header counts.
+export interface SearchResults {
+  hits: SearchHit[];
+  entryTotals: { source_title: string; total: number }[];
 }

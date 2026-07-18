@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
-import { getStrongsWordsForEntries } from '../db';
+import { Fragment, useEffect, useState } from 'react';
+import { STRONGS_HITS_PER_BOOK, getStrongsWordsForEntries, strongsSearchHitsForBook } from '../db';
 import StrongsVerseText from './StrongsWords';
 import type { StrongsSearchGroup, StrongsSearchHit, StrongsWordRow } from '../types';
 
@@ -10,7 +10,7 @@ function cardTitle(g: StrongsSearchGroup): string {
   const parts = [g.strongs_number];
   if (d?.lemma) parts.push(d.lemma);
   if (d?.transliteration) parts.push(d.pronunciation ? `${d.transliteration} (${d.pronunciation})` : d.transliteration);
-  return `${parts.join(' — ')} (${g.hits.length})`;
+  return `${parts.join(' — ')} (${g.total.toLocaleString()})`;
 }
 
 // Full Strong's definition, with the KJV rendering summary appended when
@@ -22,9 +22,35 @@ function cardDefinition(g: StrongsSearchGroup): string | null {
   return d.full_def ?? d.short_def ?? null;
 }
 
+// Strong's definitions cross-reference other numbers ("a variation of
+// H3068…") — render those as clickable lookups so a related original word
+// is one click away instead of a manual retype.
+function LinkifiedDefinition({ text, onLookupNumber }: { text: string; onLookupNumber?: (num: string) => void }) {
+  if (!onLookupNumber) return <>{text}</>;
+  const parts = text.split(/\b([HG]\d{1,5})\b/);
+  return (
+    <>
+      {parts.map((part, i) =>
+        i % 2 === 1 ? (
+          <span key={i} className="strongs-xref" onClick={() => onLookupNumber(part)} title={`Look up ${part}`}>
+            {part}
+          </span>
+        ) : (
+          <Fragment key={i}>{part}</Fragment>
+        ),
+      )}
+    </>
+  );
+}
+
 interface SmartSearchGroupsProps {
+  // The term the groups were computed for — needed to fetch a book's verse
+  // hits on demand with the same match semantics.
+  term: string;
   groups: StrongsSearchGroup[];
   onNavigate: (hit: StrongsSearchHit) => void;
+  // Run a fresh lookup for a cross-referenced Strong's number.
+  onLookupNumber?: (num: string) => void;
   // The docked concordance pane hides this label (its whole body is the
   // grouped view); the search modal shows it to separate the section from
   // the plain full-text results below.
@@ -32,47 +58,53 @@ interface SmartSearchGroupsProps {
 }
 
 // The grouped-by-original-word concordance view, shared between the search
-// modal (as an additive section) and the docked Concordance pane. Each
-// group renders a sticky dictionary card (number/lemma/pronunciation +
-// definition, pinned while its occurrences scroll), followed by the
-// occurrences nested under collapsible per-book headers so a common word
-// isn't one endless verse list.
-export default function SmartSearchGroups({ groups, onNavigate, showSectionLabel = true }: SmartSearchGroupsProps) {
-  const [wordsByEntry, setWordsByEntry] = useState<Map<number, StrongsWordRow[]>>(new Map());
-  // keys are `${strongs_number}|${book}` so book toggles are independent
-  // across groups (Genesis under G26 vs Genesis under G5368).
+// modal (as an additive section) and the docked Concordance pane. Groups
+// carry true SQL-computed totals (never capped); each group renders a
+// sticky dictionary card, then collapsible per-book headers whose verse
+// hits are fetched only when expanded — so a 6,000-occurrence word costs
+// aggregate queries up front, not 6,000 rows.
+export default function SmartSearchGroups({ term, groups, onNavigate, onLookupNumber, showSectionLabel = true }: SmartSearchGroupsProps) {
   const [openBooks, setOpenBooks] = useState<Set<string>>(new Set());
+  const [hitsByKey, setHitsByKey] = useState<Map<string, StrongsSearchHit[]>>(new Map());
+  const [wordsByEntry, setWordsByEntry] = useState<Map<number, StrongsWordRow[]>>(new Map());
+  const [loadingKey, setLoadingKey] = useState<string | null>(null);
 
   useEffect(() => {
     setOpenBooks(new Set());
-    const entryIds = [...new Set(groups.flatMap((g) => g.hits.map((h) => h.entry_id)))];
-    getStrongsWordsForEntries(entryIds).then((rows) => {
-      const map = new Map<number, StrongsWordRow[]>();
-      for (const r of rows) {
-        if (!map.has(r.entry_id)) map.set(r.entry_id, []);
-        map.get(r.entry_id)!.push(r);
-      }
-      setWordsByEntry(map);
-    });
+    setHitsByKey(new Map());
+    setWordsByEntry(new Map());
   }, [groups]);
 
-  const toggleBook = (key: string) => {
-    setOpenBooks((prev) => {
-      const next = new Set(prev);
-      if (next.has(key)) next.delete(key);
-      else next.add(key);
-      return next;
-    });
-  };
-
-  // hits arrive ordered by canonical book order; Map preserves it
-  const booksOf = (g: StrongsSearchGroup): [string, StrongsSearchHit[]][] => {
-    const map = new Map<string, StrongsSearchHit[]>();
-    for (const h of g.hits) {
-      if (!map.has(h.book)) map.set(h.book, []);
-      map.get(h.book)!.push(h);
+  const toggleBook = async (g: StrongsSearchGroup, book: string) => {
+    const key = `${g.strongs_number}|${book}`;
+    if (openBooks.has(key)) {
+      setOpenBooks((prev) => {
+        const next = new Set(prev);
+        next.delete(key);
+        return next;
+      });
+      return;
     }
-    return [...map.entries()];
+    if (!hitsByKey.has(key)) {
+      setLoadingKey(key);
+      try {
+        const hits = await strongsSearchHitsForBook(term, g.strongs_number, book);
+        const entryIds = [...new Set(hits.map((h) => h.entry_id))];
+        const rows = await getStrongsWordsForEntries(entryIds);
+        setHitsByKey((prev) => new Map(prev).set(key, hits));
+        setWordsByEntry((prev) => {
+          const next = new Map(prev);
+          for (const r of rows) {
+            if (!next.has(r.entry_id)) next.set(r.entry_id, []);
+            next.get(r.entry_id)!.push(r);
+          }
+          return next;
+        });
+      } finally {
+        setLoadingKey(null);
+      }
+    }
+    setOpenBooks((prev) => new Set(prev).add(key));
   };
 
   return (
@@ -84,20 +116,30 @@ export default function SmartSearchGroups({ groups, onNavigate, showSectionLabel
           <div key={g.strongs_number} className="strongs-group">
             <div className="strongs-card">
               <div className="strongs-card-title">{cardTitle(g)}</div>
-              {definition && <div className="strongs-card-def">{definition}</div>}
+              {definition && (
+                <div className="strongs-card-def">
+                  <LinkifiedDefinition text={definition} onLookupNumber={onLookupNumber} />
+                </div>
+              )}
             </div>
-            {booksOf(g).map(([book, bookHits]) => {
+            {g.books.map(({ book, count }) => {
               const key = `${g.strongs_number}|${book}`;
               const open = openBooks.has(key);
+              const hits = hitsByKey.get(key) ?? [];
               return (
                 <div key={key} className="book-group">
-                  <div className="book-group-header" onClick={() => toggleBook(key)}>
-                    <span>{open ? '▾' : '▸'} {book}</span>
-                    <span className="book-group-count">{bookHits.length}</span>
+                  <div className="book-group-header" onClick={() => toggleBook(g, book)}>
+                    <span>{loadingKey === key ? '…' : open ? '▾' : '▸'} {book}</span>
+                    <span className="book-group-count">{count.toLocaleString()}</span>
                   </div>
                   {open && (
                     <div className="book-group-hits">
-                      {bookHits.map((h) => (
+                      {count > STRONGS_HITS_PER_BOOK && (
+                        <div className="pane-empty" style={{ padding: 6 }}>
+                          Showing first {STRONGS_HITS_PER_BOOK.toLocaleString()} of {count.toLocaleString()}.
+                        </div>
+                      )}
+                      {hits.map((h) => (
                         <div
                           className="search-hit"
                           key={`${h.entry_id}-${h.word_index}`}

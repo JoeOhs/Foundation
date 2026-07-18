@@ -1,7 +1,7 @@
 import Database from '@tauri-apps/plugin-sql';
 import type {
-  Book, Entry, EntryNote, Note, ParsedSource, SearchHit, Source, SourceType,
-  StrongsDictEntry, StrongsSearchGroup, StrongsSearchHit, StrongsWordRow,
+  Book, Entry, EntryNote, Note, ParsedSource, SearchHit, SearchResults, Source, SourceType,
+  StrongsBookCount, StrongsDictEntry, StrongsSearchGroup, StrongsSearchHit, StrongsWordRow,
 } from './types';
 
 // Connection is lazy and cached on globalThis rather than in module scope:
@@ -249,33 +249,65 @@ function ftsQuery(q: string): string {
     .join(' ');
 }
 
-export async function searchAll(q: string): Promise<SearchHit[]> {
+// Per-source display cap for full-text results. Applied per source via a
+// window function — a global LIMIT would let the first source (KJV) eat
+// the whole budget and hide every later source entirely for common words.
+const FTS_PER_SOURCE = 200;
+
+export async function searchAll(q: string): Promise<SearchResults> {
   const query = q.trim();
-  if (!query) return [];
+  if (!query) return { hits: [], entryTotals: [] };
   const db = await ensureDb();
   const entryHits = ftsAvailable()
     ? await db.select<SearchHit[]>(
-        `SELECT 'entry' AS kind, e.id AS id, s.id AS source_id, s.title AS source_title,
-                s.type AS source_type, b.name AS book, e.chapter AS chapter, e.verse AS verse,
-                e.position_ref AS position_ref,
-                snippet(entries_fts, 0, '<mark>', '</mark>', '…', 16) AS snippet
+        `SELECT kind, id, source_id, source_title, source_type, book, chapter, verse, position_ref, snippet FROM (
+           SELECT 'entry' AS kind, e.id AS id, s.id AS source_id, s.title AS source_title,
+                  s.type AS source_type, b.name AS book, e.chapter AS chapter, e.verse AS verse,
+                  e.position_ref AS position_ref,
+                  snippet(entries_fts, 0, '<mark>', '</mark>', '…', 16) AS snippet,
+                  ROW_NUMBER() OVER (PARTITION BY s.id ORDER BY b.sort_order, e.sort_order) AS rn
+           FROM entries_fts
+           JOIN entries e ON e.id = entries_fts.rowid
+           JOIN books b ON b.id = e.book_id
+           JOIN sources s ON s.id = b.source_id
+           WHERE entries_fts MATCH ?
+         ) WHERE rn <= ${FTS_PER_SOURCE}
+         ORDER BY source_id, rn`,
+        [ftsQuery(query)],
+      )
+    : await db.select<SearchHit[]>(
+        `SELECT kind, id, source_id, source_title, source_type, book, chapter, verse, position_ref, snippet FROM (
+           SELECT 'entry' AS kind, e.id AS id, s.id AS source_id, s.title AS source_title,
+                  s.type AS source_type, b.name AS book, e.chapter AS chapter, e.verse AS verse,
+                  e.position_ref AS position_ref, e.text AS snippet,
+                  ROW_NUMBER() OVER (PARTITION BY s.id ORDER BY b.sort_order, e.sort_order) AS rn
+           FROM entries e
+           JOIN books b ON b.id = e.book_id
+           JOIN sources s ON s.id = b.source_id
+           WHERE e.text LIKE ?
+         ) WHERE rn <= ${FTS_PER_SOURCE}
+         ORDER BY source_id, rn`,
+        [`%${query}%`],
+      );
+  // True per-source totals, independent of the display cap.
+  const entryTotals = ftsAvailable()
+    ? await db.select<{ source_title: string; total: number }[]>(
+        `SELECT s.title AS source_title, COUNT(*) AS total
          FROM entries_fts
          JOIN entries e ON e.id = entries_fts.rowid
          JOIN books b ON b.id = e.book_id
          JOIN sources s ON s.id = b.source_id
          WHERE entries_fts MATCH ?
-         ORDER BY s.id, b.sort_order, e.sort_order LIMIT 200`,
+         GROUP BY s.id`,
         [ftsQuery(query)],
       )
-    : await db.select<SearchHit[]>(
-        `SELECT 'entry' AS kind, e.id AS id, s.id AS source_id, s.title AS source_title,
-                s.type AS source_type, b.name AS book, e.chapter AS chapter, e.verse AS verse,
-                e.position_ref AS position_ref, e.text AS snippet
+    : await db.select<{ source_title: string; total: number }[]>(
+        `SELECT s.title AS source_title, COUNT(*) AS total
          FROM entries e
          JOIN books b ON b.id = e.book_id
          JOIN sources s ON s.id = b.source_id
          WHERE e.text LIKE ?
-         ORDER BY s.id, b.sort_order, e.sort_order LIMIT 200`,
+         GROUP BY s.id`,
         [`%${query}%`],
       );
   const noteHits = ftsAvailable()
@@ -299,7 +331,7 @@ export async function searchAll(q: string): Promise<SearchHit[]> {
          ORDER BY n.updated_at DESC LIMIT 100`,
         [`%${query}%`, `%${query}%`],
       );
-  return [...noteHits, ...entryHits];
+  return { hits: [...noteHits, ...entryHits], entryTotals };
 }
 
 // ---------- inserting sources (seed + import share this path) ----------
@@ -551,92 +583,77 @@ export function parseStrongsNumberQuery(term: string): string | null {
   return m ? `${m[1].toUpperCase()}${m[2]}` : null;
 }
 
+// Shared WHERE predicate for smart-search queries: a bare Strong's number
+// matches by number; anything else matches the term at a word boundary
+// within the (often multi-word) tagged span.
+function strongsMatch(term: string): { where: string; params: unknown[] } | null {
+  const query = term.trim();
+  if (!query) return null;
+  const number = parseStrongsNumberQuery(query);
+  if (number) return { where: 'sw.strongs_number = ?', params: [number] };
+  return {
+    where: '(sw.surface_text LIKE ? COLLATE NOCASE OR sw.surface_text LIKE ? COLLATE NOCASE)',
+    params: [`${query}%`, `% ${query}%`],
+  };
+}
+
 // True total of tagged word occurrences matching the term — counted as
 // distinct (entry, word slot) pairs so a word carrying two Strong's numbers
 // isn't counted twice, and unaffected by the display LIMIT in
 // strongsSmartSearch below. Accepts either an English surface-text prefix
 // or a bare Strong's number.
 export async function strongsOccurrenceCount(term: string): Promise<number> {
-  const query = term.trim();
-  if (!query) return 0;
+  const match = strongsMatch(term);
+  if (!match) return 0;
   const db = await ensureDb();
-  const number = parseStrongsNumberQuery(query);
-  const rows = number
-    ? await db.select<{ n: number }[]>(
-        `SELECT COUNT(*) AS n FROM (
-           SELECT DISTINCT entry_id, word_index FROM strongs_words WHERE strongs_number = ?
-         )`,
-        [number],
-      )
-    : await db.select<{ n: number }[]>(
-        `SELECT COUNT(*) AS n FROM (
-           SELECT DISTINCT entry_id, word_index FROM strongs_words
-           WHERE surface_text LIKE ? COLLATE NOCASE OR surface_text LIKE ? COLLATE NOCASE
-         )`,
-        [`${query}%`, `% ${query}%`],
-      );
+  const rows = await db.select<{ n: number }[]>(
+    `SELECT COUNT(*) AS n FROM (
+       SELECT DISTINCT sw.entry_id, sw.word_index FROM strongs_words sw WHERE ${match.where}
+     )`,
+    match.params,
+  );
   return rows[0].n;
 }
 
-// Smart search: surface-text prefix match (so love/loved/loveth group
-// together as candidates), grouped by which original word they actually
-// translate. A bare Strong's number (e.g. "H2708", "g26") instead looks up
-// that exact number directly — every verse where it occurs, regardless of
-// how it was rendered in English. Returns [] when no Strong's data is
-// installed — callers fall back to the regular FTS5 search unchanged.
+// Smart search, aggregates only: groups matches by Strong's number with
+// per-book counts computed entirely in SQL — no row cap, so true totals
+// even for 6,000-occurrence words ("LORD"). A bare Strong's number (e.g.
+// "H2708", "g26") looks up that exact number. Verse hits are fetched
+// separately, per book, by strongsSearchHitsForBook when a book is
+// expanded. Returns [] when no Strong's data is installed — callers fall
+// back to the regular FTS5 search unchanged.
 export async function strongsSmartSearch(term: string): Promise<StrongsSearchGroup[]> {
-  const query = term.trim();
-  if (!query) return [];
+  const match = strongsMatch(term);
+  if (!match) return [];
   const db = await ensureDb();
-  const number = parseStrongsNumberQuery(query);
-  const baseSelect = `
-    SELECT sw.entry_id AS entry_id, sw.word_index AS word_index, sw.strongs_number AS strongs_number,
-           e.text AS entry_text, b.name AS book, e.chapter AS chapter, e.verse AS verse,
-           s.id AS source_id, s.title AS source_title
-    FROM strongs_words sw
-    JOIN entries e ON e.id = sw.entry_id
-    JOIN books b ON b.id = e.book_id
-    JOIN sources s ON s.id = b.source_id`;
-  type Row = { entry_id: number; word_index: number; strongs_number: string; entry_text: string; book: string; chapter: number; verse: number; source_id: number; source_title: string };
-  const rows = number
-    ? await db.select<Row[]>(
-        `${baseSelect}
-         WHERE sw.strongs_number = ?
-         ORDER BY b.sort_order, e.chapter, e.verse
-         LIMIT 2000`,
-        [number],
-      )
-    : await db.select<Row[]>(
-        // Tagged spans are usually multi-word phrases ("my statutes",
-        // "a statute"), so the term must match at any word boundary within
-        // the span — a bare prefix match would only find spans that BEGIN
-        // with the term and silently miss most occurrences.
-        `${baseSelect}
-         WHERE sw.surface_text LIKE ? COLLATE NOCASE OR sw.surface_text LIKE ? COLLATE NOCASE
-         ORDER BY b.sort_order, e.chapter, e.verse
-         LIMIT 2000`,
-        [`${query}%`, `% ${query}%`],
-      );
+  const rows = await db.select<{ strongs_number: string; book: string; n: number }[]>(
+    `SELECT sw.strongs_number AS strongs_number, b.name AS book, COUNT(*) AS n
+     FROM strongs_words sw
+     JOIN entries e ON e.id = sw.entry_id
+     JOIN books b ON b.id = e.book_id
+     WHERE ${match.where}
+     GROUP BY sw.strongs_number, b.name
+     ORDER BY b.sort_order`,
+    match.params,
+  );
   if (rows.length === 0) {
     // A number lookup with no verse hits still surfaces the dictionary
     // entry (if one exists) so the definition is reachable directly.
+    const number = parseStrongsNumberQuery(term);
     if (number) {
       const dictRows = await db.select<StrongsDictEntry[]>(
         'SELECT * FROM strongs_dict WHERE strongs_number = ?',
         [number],
       );
-      if (dictRows.length > 0) return [{ strongs_number: number, dict: dictRows[0], hits: [] }];
+      if (dictRows.length > 0) return [{ strongs_number: number, dict: dictRows[0], total: 0, books: [] }];
     }
     return [];
   }
 
-  const byNumber = new Map<string, StrongsSearchHit[]>();
+  const byNumber = new Map<string, StrongsBookCount[]>();
   for (const r of rows) {
     if (!byNumber.has(r.strongs_number)) byNumber.set(r.strongs_number, []);
-    byNumber.get(r.strongs_number)!.push({
-      entry_id: r.entry_id, word_index: r.word_index, entry_text: r.entry_text, book: r.book,
-      chapter: r.chapter, verse: r.verse, source_id: r.source_id, source_title: r.source_title,
-    });
+    byNumber.get(r.strongs_number)!.push({ book: r.book, count: r.n });
   }
 
   const numbers = [...byNumber.keys()];
@@ -648,6 +665,39 @@ export async function strongsSmartSearch(term: string): Promise<StrongsSearchGro
   const dictByNumber = new Map(dictRows.map((d) => [d.strongs_number, d]));
 
   return [...byNumber.entries()]
-    .map(([strongs_number, hits]) => ({ strongs_number, hits, dict: dictByNumber.get(strongs_number) ?? null }))
-    .sort((a, b) => b.hits.length - a.hits.length);
+    .map(([strongs_number, books]) => ({
+      strongs_number,
+      books,
+      total: books.reduce((a, b) => a + b.count, 0),
+      dict: dictByNumber.get(strongs_number) ?? null,
+    }))
+    .sort((a, b) => b.total - a.total);
+}
+
+// Verse hits for one (search term, Strong's number, book) — fetched when a
+// book header is expanded in the results. Bounded per book, which no book
+// exceeds in practice (Psalms' H3068 is the max at ~700).
+export const STRONGS_HITS_PER_BOOK = 800;
+
+export async function strongsSearchHitsForBook(
+  term: string,
+  strongsNumber: string,
+  book: string,
+): Promise<StrongsSearchHit[]> {
+  const match = strongsMatch(term);
+  if (!match) return [];
+  const db = await ensureDb();
+  return db.select<StrongsSearchHit[]>(
+    `SELECT sw.entry_id AS entry_id, sw.word_index AS word_index,
+            e.text AS entry_text, b.name AS book, e.chapter AS chapter, e.verse AS verse,
+            s.id AS source_id, s.title AS source_title
+     FROM strongs_words sw
+     JOIN entries e ON e.id = sw.entry_id
+     JOIN books b ON b.id = e.book_id
+     JOIN sources s ON s.id = b.source_id
+     WHERE ${match.where} AND sw.strongs_number = ? AND b.name = ?
+     ORDER BY e.chapter, e.verse, sw.word_index
+     LIMIT ${STRONGS_HITS_PER_BOOK}`,
+    [...match.params, strongsNumber, book],
+  );
 }

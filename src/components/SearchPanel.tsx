@@ -20,6 +20,7 @@ interface SearchPanelProps {
 interface SearchSession {
   query: string;
   hits: SearchHit[];
+  entryTotals: { source_title: string; total: number }[];
   strongsGroups: StrongsSearchGroup[];
   totalOccurrences: number;
   lastSearched: string;
@@ -51,6 +52,7 @@ export default function SearchPanel({ initialQuery, onNavigate, onNavigateStrong
   const restore = initialQuery ? null : cachedSession;
   const [query, setQuery] = useState(initialQuery ?? restore?.query ?? '');
   const [hits, setHits] = useState<SearchHit[]>(restore?.hits ?? []);
+  const [entryTotals, setEntryTotals] = useState<{ source_title: string; total: number }[]>(restore?.entryTotals ?? []);
   const [strongsGroups, setStrongsGroups] = useState<StrongsSearchGroup[]>(restore?.strongsGroups ?? []);
   const [totalOccurrences, setTotalOccurrences] = useState(restore?.totalOccurrences ?? 0);
   // What the shown results are actually for — the hand-off button sends
@@ -64,8 +66,8 @@ export default function SearchPanel({ initialQuery, onNavigate, onNavigateStrong
   // Keep the module-scope cache current so closing the modal at any moment
   // (Escape, overlay click, ✕) loses nothing.
   useEffect(() => {
-    cachedSession = { query, hits, strongsGroups, totalOccurrences, lastSearched, searched };
-  }, [query, hits, strongsGroups, totalOccurrences, lastSearched, searched]);
+    cachedSession = { query, hits, entryTotals, strongsGroups, totalOccurrences, lastSearched, searched };
+  }, [query, hits, entryTotals, strongsGroups, totalOccurrences, lastSearched, searched]);
 
   const runQuery = async (term: string) => {
     const q = term.trim();
@@ -75,7 +77,8 @@ export default function SearchPanel({ initialQuery, onNavigate, onNavigateStrong
       const [plain, smart, total] = await Promise.all([
         searchAll(q), strongsSmartSearch(q), strongsOccurrenceCount(q),
       ]);
-      setHits(plain);
+      setHits(plain.hits);
+      setEntryTotals(plain.entryTotals);
       setStrongsGroups(smart);
       setTotalOccurrences(total);
       setLastSearched(q);
@@ -184,7 +187,13 @@ export default function SearchPanel({ initialQuery, onNavigate, onNavigateStrong
                   Open in pane →
                 </button>
               </div>
-              <SmartSearchGroups groups={strongsGroups} onNavigate={onNavigateStrongs} showSectionLabel={false} />
+              <SmartSearchGroups
+                term={lastSearched}
+                groups={strongsGroups}
+                onNavigate={onNavigateStrongs}
+                onLookupNumber={runFromHistory}
+                showSectionLabel={false}
+              />
             </div>
           )}
           {groups.map(([label, groupHits]) => {
@@ -195,9 +204,13 @@ export default function SearchPanel({ initialQuery, onNavigate, onNavigateStrong
               byBook.get(b)!.push(h);
             }
             const books = [...byBook.entries()];
+            const trueTotal = entryTotals.find((t) => t.source_title === label)?.total ?? groupHits.length;
             return (
               <div key={label}>
-                <div className="search-group-label">{label} · {groupHits.length}</div>
+                <div className="search-group-label">
+                  {label} · {trueTotal.toLocaleString()}
+                  {trueTotal > groupHits.length ? ` (showing first ${groupHits.length})` : ''}
+                </div>
                 {books.length <= 1
                   // single container (My Notes, freeform texts): nesting
                   // would just add a click — render flat
