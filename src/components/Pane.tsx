@@ -1,6 +1,11 @@
 import { useEffect, useMemo, useState } from 'react';
-import { getChapters, getEntries, listBooks } from '../db';
-import type { Book, Entry, Reference, Source, VerseSelection } from '../types';
+import { getChapters, getEntries, getStrongsWordsForEntries, listBooks } from '../db';
+import StrongsVerseText from './StrongsWords';
+import type { Book, Entry, Reference, Source, StrongsWordRow, VerseSelection } from '../types';
+
+export interface HighlightWord extends VerseSelection {
+  wordIndex: number;
+}
 
 interface PaneProps {
   sources: Source[];
@@ -8,23 +13,26 @@ interface PaneProps {
   refState: Reference;
   selection: VerseSelection | null;
   notedVerses: Set<number>;
+  highlightWord: HighlightWord | null;
   onSelect: (v: VerseSelection) => void;
   onChangeSource: (id: number) => void;
   onClose: () => void;
   canClose: boolean;
+  onWordClick?: (surfaceText: string) => void;
   bodyRef: (el: HTMLDivElement | null) => void;
   onScroll: () => void;
 }
 
 export default function Pane({
-  sources, sourceId, refState, selection, notedVerses,
-  onSelect, onChangeSource, onClose, canClose, bodyRef, onScroll,
+  sources, sourceId, refState, selection, notedVerses, highlightWord,
+  onSelect, onChangeSource, onClose, canClose, onWordClick, bodyRef, onScroll,
 }: PaneProps) {
   const source = sources.find((s) => s.id === sourceId);
   const [books, setBooks] = useState<Book[]>([]);
   const [localBook, setLocalBook] = useState<string | null>(null);
   const [entries, setEntries] = useState<Entry[]>([]);
   const [hasChapters, setHasChapters] = useState(true);
+  const [wordsByEntry, setWordsByEntry] = useState<Map<number, StrongsWordRow[]>>(new Map());
 
   useEffect(() => {
     let live = true;
@@ -56,6 +64,29 @@ export default function Pane({
     })();
     return () => { live = false; };
   }, [sourceId, effectiveBook, refState.chapter]);
+
+  // Strong's tagging exists only for (an installed add-on onto) the KJV, but
+  // this just asks "does this entry have any tagged words?" per chapter load
+  // rather than assuming anything about the source — untagged entries (every
+  // other translation, or KJV without the add-on) render exactly as before.
+  useEffect(() => {
+    const ids = entries.map((e) => e.id);
+    if (ids.length === 0) {
+      setWordsByEntry(new Map());
+      return;
+    }
+    let live = true;
+    getStrongsWordsForEntries(ids).then((rows) => {
+      if (!live) return;
+      const map = new Map<number, StrongsWordRow[]>();
+      for (const r of rows) {
+        if (!map.has(r.entry_id)) map.set(r.entry_id, []);
+        map.get(r.entry_id)!.push(r);
+      }
+      setWordsByEntry(map);
+    });
+    return () => { live = false; };
+  }, [entries]);
 
   const verseKeyed = entries.some((e) => e.verse !== null);
 
@@ -92,6 +123,12 @@ export default function Pane({
                 selection.book === refState.book &&
                 selection.chapter === (e.chapter ?? refState.chapter) &&
                 selection.verse === e.verse;
+              const isHighlightTarget =
+                highlightWord !== null &&
+                followsNav &&
+                highlightWord.book === refState.book &&
+                highlightWord.chapter === (e.chapter ?? refState.chapter) &&
+                highlightWord.verse === e.verse;
               return (
                 <div
                   key={e.id}
@@ -104,7 +141,12 @@ export default function Pane({
                   }
                 >
                   <span className="vnum">{e.verse}</span>
-                  {e.text}
+                  <StrongsVerseText
+                    text={e.text}
+                    words={wordsByEntry.get(e.id) ?? []}
+                    highlightWordIndex={isHighlightTarget ? highlightWord.wordIndex : null}
+                    onWordClick={onWordClick ? (slot) => onWordClick(slot.surface_text) : undefined}
+                  />
                   {e.verse !== null && followsNav && notedVerses.has(e.verse) && <span className="note-dot" title="Has notes" />}
                 </div>
               );

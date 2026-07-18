@@ -1,5 +1,7 @@
+import { fetch as httpFetch } from '@tauri-apps/plugin-http';
 import { insertParsedSource } from './db';
 import { bibleJsonToParsedSource, type BibleJsonBook } from './bibleJsonFormat';
+import { importKjvStrongs } from './strongsImport';
 import type { Source, SourceType } from './types';
 
 export interface LibraryEntry {
@@ -83,7 +85,9 @@ export async function downloadAndInstall(
   onProgress: (msg: string) => void,
 ): Promise<void> {
   onProgress('Downloading…');
-  const res = await fetch(entry.url);
+  // Tauri HTTP plugin (Rust-side request) rather than webview fetch, so
+  // downloads don't depend on each host's CORS policy.
+  const res = await httpFetch(entry.url);
   if (!res.ok) throw new Error(`Download failed (${res.status})`);
   const data: BibleJsonBook[] = await res.json();
   const parsed = bibleJsonToParsedSource(data, entry.title);
@@ -92,4 +96,40 @@ export async function downloadAndInstall(
     { title: entry.title, type: entry.type, language: entry.language, license_note: entry.license },
     (done, total) => onProgress(`Installing… ${Math.round((done / total) * 100)}%`),
   );
+}
+
+// ---------- add-ons ----------
+//
+// Not standalone sources — these attach extra data onto a translation
+// that's already in the library. Same curated, no-account, one-time-
+// download pattern as LIBRARY_MANIFEST, just surfaced as a second section
+// in the Library panel instead of a new source row.
+
+export interface LibraryAddon {
+  id: string;
+  title: string;
+  requiresSourceTitle: string;
+  license: string;
+  licenseDetail: string;
+  install: (onProgress: (msg: string) => void) => Promise<void>;
+}
+
+export const LIBRARY_ADDONS: LibraryAddon[] = [
+  {
+    id: 'kjv_strongs',
+    title: 'KJV — add Strong’s numbers',
+    requiresSourceTitle: 'King James Version',
+    license: 'public domain text; CC BY-SA dictionary data',
+    licenseDetail:
+      'Word-tagging from the CrossWire Bible Society KJV2003 OSIS module: "Any copyright that might be ' +
+      'obtained for this effort is held by CrossWire Bible Society © 2003-2023 and CrossWire Bible ' +
+      'Society hereby grants a general public license to use this text for any purpose." Dictionary glosses ' +
+      '(lemma, transliteration, definitions) are the public-domain Strong’s data (James Strong, d. 1894) ' +
+      'as structured by OpenScriptures, Copyright OpenScriptures, CC BY-SA.',
+    install: importKjvStrongs,
+  },
+];
+
+export function addonRequirementMet(addon: LibraryAddon, sources: Source[]): boolean {
+  return sources.some((s) => s.title === addon.requiresSourceTitle);
 }

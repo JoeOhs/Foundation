@@ -85,3 +85,52 @@ export interface ParsedSource {
   books: ParsedBook[];
   warnings: string[];
 }
+
+// ---------- Strong's numbers (KJV word-level tagging) ----------
+
+// One row per (entry, word slot, Strong's number). A word slot usually has
+// exactly one number, but occasionally two (e.g. an untranslated Hebrew
+// particle folded into the following word's rendering) — those share the
+// same entry_id/word_index and are grouped back together at render time.
+export interface StrongsWordRow {
+  entry_id: number;
+  word_index: number;
+  surface_text: string;
+  strongs_number: string;
+}
+
+export interface StrongsDictEntry {
+  strongs_number: string;
+  lemma: string | null;
+  transliteration: string | null;
+  pronunciation: string | null;
+  short_def: string | null;
+  full_def: string | null;
+}
+
+// A single visible word slot in a verse, after grouping StrongsWordRow by
+// word_index — one span to render, possibly tagged with more than one number.
+export interface StrongsWordSlot {
+  word_index: number;
+  surface_text: string;
+  strongs_numbers: string[];
+}
+
+// A smart-search hit: a verse where the searched surface text (e.g. "love",
+// "loved") was tagged with this particular Strong's number.
+export interface StrongsSearchHit {
+  entry_id: number;
+  word_index: number;
+  entry_text: string;
+  book: string;
+  chapter: number;
+  verse: number;
+  source_id: number;
+  source_title: string;
+}
+
+export interface StrongsSearchGroup {
+  strongs_number: string;
+  dict: StrongsDictEntry | null;
+  hits: StrongsSearchHit[];
+}

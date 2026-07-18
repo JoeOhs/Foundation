@@ -10,6 +10,8 @@ A personal, single-user, fully offline desktop Bible study application. Built wi
 - **Notes** — anchored to a verse, chapter, or book (shown across all translations), or free-floating. Stored locally in SQLite.
 - **Dark mode** — first-class theming via CSS variables; follows the OS by default with a manual toggle.
 - **Search** — SQLite FTS5 full-text search across all sources and notes, grouped by source, click-to-navigate.
+- **Smart search (KJV + Strong's numbers)** — an optional Library add-on tags the KJV with Strong's numbers; once installed, searching a word groups results by the original Hebrew/Greek word it actually translates (e.g. "love" splits into agapē vs phileō vs chesed), each group showing a gloss and its verse list with the matched word highlighted inline, plus a total occurrence count. Additive — regular full-text search always still runs alongside it. Tagged words in the reader are individually clickable to look up every other occurrence of that same original word.
+- **Concordance pane** — the grouped Strong's view is also available as a docked side pane (🔤 in the toolbar) that scrolls independently of the Bible panes, for longer study sessions. With the pane open, clicking a tagged word updates it in place; with it closed, word clicks open the search modal, which has an "Open in pane →" button to promote the lookup. Verse clicks in the pane navigate the reader without closing it.
 - **Readability** — adjustable reader font size, serif reading font, layout/theme/reference persistence between sessions.
 
 Seeded with two public-domain translations: King James Version and Bible in Basic English (`public/seed/`). More are available in-app via **Library**.
@@ -38,9 +40,12 @@ npm run tauri build   # produce a distributable build
 - `src/db.ts` — schema, migrations (FTS5 with LIKE fallback), and all queries. The database lives in the app config directory as `foundation.db`.
 - `src/importer.ts` — format sniffing and forgiving parsers for each import format.
 - `src/seed.ts` — first-run install of the bundled translations.
-- `src/library.ts` — curated manifest of downloadable public-domain translations, shares `src/bibleJsonFormat.ts` conversion with the seeder.
-- `src/components/` — Pane (reader column), NotesPanel, SearchPanel, ImportWizard, LibraryPanel.
+- `src/library.ts` — curated manifest of downloadable public-domain translations, shares `src/bibleJsonFormat.ts` conversion with the seeder; also defines the Library's add-ons (currently just KJV + Strong's numbers).
+- `src/strongsImport.ts` — dedicated one-time importer for the KJV+Strong's OSIS file and the OpenScriptures dictionaries (not part of the general `importer.ts` sniffing pipeline — this is a fixed, known format). Idempotent: safe to re-run, clears previous Strong's data for the KJV first.
+- `src/components/` — Pane (reader column), NotesPanel, SearchPanel, ImportWizard, LibraryPanel, StrongsWords (shared word-tagging/highlighting renderer used by both Pane and SearchPanel).
 
 ### Data model
 
 `sources` (a translation/commentary/reference work) → `books` (or a single synthetic container for freeform texts) → `entries` (verse-keyed via `chapter`/`verse`, or section-keyed via `position_ref`). `notes` anchor by canonical reference (`anchor_book`/`anchor_chapter`/`anchor_verse`) so a verse note appears in every translation, or by `entry_id` for imported non-canonical texts, or float free.
+
+`strongs_words` tags individual words of an `entries` row with a Strong's number (`entry_id`, `word_index`, `surface_text`, `strongs_number` — one row per tagged word; a word can have more than one number, sharing the same `word_index`). `strongs_dict` holds the lemma/transliteration/gloss for each number. Rendering never reconstructs verse text from `strongs_words` alone — the KJV OSIS source has ~21k translator-supplied words with no Strong's tag at all, so doing that would silently drop words. Instead, tagged spans are aligned onto the existing `entries.text` (see `alignWordsToText` in `src/components/StrongsWords.tsx`), so the visible reading is always exactly the already-correct entry text, just partitioned into clickable/highlightable spans plus plain filler wherever a slot can't be matched.

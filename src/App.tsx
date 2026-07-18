@@ -1,12 +1,13 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { getChapters, initDb, listBooks, listSources, notesForChapter } from './db';
 import { seedIfEmpty } from './seed';
-import Pane from './components/Pane';
+import Pane, { type HighlightWord } from './components/Pane';
 import NotesPanel from './components/NotesPanel';
 import SearchPanel from './components/SearchPanel';
 import ImportWizard from './components/ImportWizard';
 import LibraryPanel from './components/LibraryPanel';
-import type { Book, Reference, SearchHit, Source, VerseSelection } from './types';
+import ConcordancePanel from './components/ConcordancePanel';
+import type { Book, Reference, SearchHit, Source, StrongsSearchHit, VerseSelection } from './types';
 
 type Theme = 'dark' | 'light';
 
@@ -39,11 +40,36 @@ export default function App() {
   const [paneFlex, setPaneFlex] = useState<number[]>(() => loadPref('paneFlex', []));
   const [selection, setSelection] = useState<VerseSelection | null>(null);
   const [notedVerses, setNotedVerses] = useState<Set<number>>(new Set());
+  const [highlightWord, setHighlightWord] = useState<HighlightWord | null>(null);
 
   const [notesOpen, setNotesOpen] = useState<boolean>(() => loadPref('notesOpen', false));
+  const [concordanceOpen, setConcordanceOpen] = useState<boolean>(() => loadPref('concordanceOpen', false));
+  // seq bumps on every send so the pane re-runs the lookup even when the
+  // same term is sent twice (the user may have searched something else in
+  // the pane in between).
+  const [concordanceReq, setConcordanceReq] = useState<{ term: string; seq: number }>({ term: '', seq: 0 });
   const [searchOpen, setSearchOpen] = useState(false);
+  const [searchInitialQuery, setSearchInitialQuery] = useState<string | null>(null);
   const [importOpen, setImportOpen] = useState(false);
   const [libraryOpen, setLibraryOpen] = useState(false);
+
+  const openSearch = (prefill?: string) => {
+    setSearchInitialQuery(prefill ?? null);
+    setSearchOpen(true);
+  };
+
+  const sendToConcordance = (term: string) => {
+    setConcordanceReq((prev) => ({ term, seq: prev.seq + 1 }));
+    setConcordanceOpen(true);
+  };
+
+  // Clicking a tagged word: if the docked concordance pane is already open,
+  // feed it in place; otherwise fall back to the search modal (which has an
+  // "open in pane" button for promoting the session to the docked view).
+  const handleWordClick = (surfaceText: string) => {
+    if (concordanceOpen) sendToConcordance(surfaceText);
+    else openSearch(surfaceText);
+  };
 
   // theme: null = follow OS
   const [themeOverride, setThemeOverride] = useState<Theme | null>(() => loadPref('theme', null));
@@ -103,6 +129,7 @@ export default function App() {
   useEffect(() => { savePref('panes', paneSourceIds); }, [paneSourceIds]);
   useEffect(() => { savePref('paneFlex', paneFlex); }, [paneFlex]);
   useEffect(() => { savePref('notesOpen', notesOpen); }, [notesOpen]);
+  useEffect(() => { savePref('concordanceOpen', concordanceOpen); }, [concordanceOpen]);
   useEffect(() => { savePref('theme', themeOverride); }, [themeOverride]);
 
   // ---------- navigation data ----------
@@ -143,10 +170,13 @@ export default function App() {
     if (phase === 'ready') reloadNoteDots();
   }, [phase, reloadNoteDots]);
 
-  // clear verse selection when leaving the chapter
+  // clear verse selection and word highlight when leaving the chapter
   useEffect(() => {
     setSelection((sel) =>
       sel && sel.book === refState.book && sel.chapter === refState.chapter ? sel : null,
+    );
+    setHighlightWord((hw) =>
+      hw && hw.book === refState.book && hw.chapter === refState.chapter ? hw : null,
     );
   }, [refState]);
 
@@ -276,6 +306,23 @@ export default function App() {
     }
   };
 
+  // Shared by the search modal and the docked concordance pane: bring the
+  // hit's source into view, navigate, select, and highlight the exact word.
+  const goToStrongsHit = (hit: StrongsSearchHit) => {
+    if (!paneSourceIds.includes(hit.source_id)) {
+      setPaneSource(0, hit.source_id);
+    }
+    navigate(hit.book, hit.chapter);
+    setSelection({ book: hit.book, chapter: hit.chapter, verse: hit.verse });
+    setHighlightWord({ book: hit.book, chapter: hit.chapter, verse: hit.verse, wordIndex: hit.word_index });
+    scrollToVerse(hit.verse);
+  };
+
+  const handleStrongsNavigate = (hit: StrongsSearchHit) => {
+    setSearchOpen(false);
+    goToStrongsHit(hit);
+  };
+
   const refreshSources = async () => {
     setSources(await listSources());
   };
@@ -285,7 +332,7 @@ export default function App() {
     const onKey = (e: KeyboardEvent) => {
       if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'f') {
         e.preventDefault();
-        setSearchOpen(true);
+        openSearch();
       }
       if (e.key === 'Escape') {
         setSearchOpen(false);
@@ -343,7 +390,8 @@ export default function App() {
         <button className="icon" onClick={() => step(1)} title="Next chapter">▶</button>
         <button onClick={addPane} disabled={paneSourceIds.length >= 4} title="Add a parallel pane">+ Pane</button>
         <span className="spacer" />
-        <button onClick={() => setSearchOpen(true)} title="Search (Ctrl+F)">🔍 Search</button>
+        <button onClick={() => openSearch()} title="Search (Ctrl+F)">🔍 Search</button>
+        <button onClick={() => setConcordanceOpen((v) => !v)} title="Toggle concordance pane">🔤 Concordance</button>
         <button onClick={() => setLibraryOpen(true)} title="Download public domain texts">🌐 Library</button>
         <button onClick={() => setImportOpen(true)} title="Import a text">📥 Import</button>
         <button onClick={() => setNotesOpen((v) => !v)} title="Toggle notes panel">📝 Notes</button>
@@ -369,10 +417,12 @@ export default function App() {
                   refState={refState}
                   selection={selection}
                   notedVerses={notedVerses}
+                  highlightWord={highlightWord}
                   onSelect={setSelection}
                   onChangeSource={(id) => setPaneSource(i, id)}
                   onClose={() => closePane(i)}
                   canClose={paneSourceIds.length > 1}
+                  onWordClick={handleWordClick}
                   bodyRef={(el) => {
                     bodies.current[i] = el;
                     if (el) {
@@ -390,6 +440,13 @@ export default function App() {
             </div>
           )}
         </div>
+        {concordanceOpen && (
+          <ConcordancePanel
+            request={concordanceReq}
+            onNavigate={goToStrongsHit}
+            onClose={() => setConcordanceOpen(false)}
+          />
+        )}
         {notesOpen && (
           <NotesPanel
             refState={refState}
@@ -399,7 +456,18 @@ export default function App() {
           />
         )}
       </div>
-      {searchOpen && <SearchPanel onNavigate={handleSearchNavigate} onClose={() => setSearchOpen(false)} />}
+      {searchOpen && (
+        <SearchPanel
+          initialQuery={searchInitialQuery ?? undefined}
+          onNavigate={handleSearchNavigate}
+          onNavigateStrongs={handleStrongsNavigate}
+          onMoveToConcordance={(term) => {
+            sendToConcordance(term);
+            setSearchOpen(false);
+          }}
+          onClose={() => setSearchOpen(false)}
+        />
+      )}
       {libraryOpen && (
         <LibraryPanel sources={sources} onInstalled={refreshSources} onClose={() => setLibraryOpen(false)} />
       )}

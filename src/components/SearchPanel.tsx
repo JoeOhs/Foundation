@@ -1,9 +1,14 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { searchAll } from '../db';
-import type { SearchHit } from '../types';
+import { searchAll, strongsOccurrenceCount, strongsSmartSearch } from '../db';
+import SmartSearchGroups from './SmartSearchGroups';
+import type { SearchHit, StrongsSearchGroup, StrongsSearchHit } from '../types';
 
 interface SearchPanelProps {
+  initialQuery?: string;
   onNavigate: (hit: SearchHit) => void;
+  onNavigateStrongs: (hit: StrongsSearchHit) => void;
+  // Promote the current lookup to the docked concordance pane.
+  onMoveToConcordance: (term: string) => void;
   onClose: () => void;
 }
 
@@ -25,26 +30,43 @@ function hitRef(h: SearchHit): string {
   return h.book ?? '';
 }
 
-export default function SearchPanel({ onNavigate, onClose }: SearchPanelProps) {
-  const [query, setQuery] = useState('');
+export default function SearchPanel({ initialQuery, onNavigate, onNavigateStrongs, onMoveToConcordance, onClose }: SearchPanelProps) {
+  const [query, setQuery] = useState(initialQuery ?? '');
   const [hits, setHits] = useState<SearchHit[]>([]);
+  const [strongsGroups, setStrongsGroups] = useState<StrongsSearchGroup[]>([]);
+  const [totalOccurrences, setTotalOccurrences] = useState(0);
+  // What the shown results are actually for — the hand-off button sends
+  // this, not the input's current (possibly edited, un-searched) text.
+  const [lastSearched, setLastSearched] = useState('');
   const [searched, setSearched] = useState(false);
   const [busy, setBusy] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  useEffect(() => { inputRef.current?.focus(); }, []);
-
-  const run = async () => {
-    const q = query.trim();
+  const runQuery = async (term: string) => {
+    const q = term.trim();
     if (!q) return;
     setBusy(true);
     try {
-      setHits(await searchAll(q));
+      const [plain, smart, total] = await Promise.all([
+        searchAll(q), strongsSmartSearch(q), strongsOccurrenceCount(q),
+      ]);
+      setHits(plain);
+      setStrongsGroups(smart);
+      setTotalOccurrences(total);
+      setLastSearched(q);
       setSearched(true);
     } finally {
       setBusy(false);
     }
   };
+
+  useEffect(() => {
+    inputRef.current?.focus();
+    if (initialQuery) runQuery(initialQuery);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  const run = () => runQuery(query);
 
   const groups = useMemo(() => {
     const map = new Map<string, SearchHit[]>();
@@ -75,7 +97,26 @@ export default function SearchPanel({ onNavigate, onClose }: SearchPanelProps) {
         </div>
         <div className="modal-body">
           {!searched && <div className="pane-empty">Press <kbd>Enter</kbd> to search verse text, imported texts, and notes.</div>}
-          {searched && hits.length === 0 && <div className="pane-empty">No results for “{query}”.</div>}
+          {searched && hits.length === 0 && strongsGroups.length === 0 && (
+            <div className="pane-empty">No results for “{query}”.</div>
+          )}
+          {strongsGroups.length > 0 && (
+            <div>
+              <div className="search-group-label" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                <span>
+                  Grouped by original word (KJV) · “{lastSearched}…” — {totalOccurrences.toLocaleString()} total occurrence{totalOccurrences === 1 ? '' : 's'}
+                </span>
+                <button
+                  onClick={() => onMoveToConcordance(lastSearched)}
+                  title="Continue this lookup in the docked concordance pane"
+                  style={{ fontSize: 11, padding: '2px 8px' }}
+                >
+                  Open in pane →
+                </button>
+              </div>
+              <SmartSearchGroups groups={strongsGroups} onNavigate={onNavigateStrongs} showSectionLabel={false} />
+            </div>
+          )}
           {groups.map(([label, groupHits]) => (
             <div key={label}>
               <div className="search-group-label">{label} · {groupHits.length}</div>

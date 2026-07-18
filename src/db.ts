@@ -1,8 +1,23 @@
 import Database from '@tauri-apps/plugin-sql';
-import type { Book, Entry, Note, ParsedSource, SearchHit, Source, SourceType } from './types';
+import type {
+  Book, Entry, Note, ParsedSource, SearchHit, Source, SourceType,
+  StrongsDictEntry, StrongsSearchGroup, StrongsSearchHit, StrongsWordRow,
+} from './types';
 
-let db: Database;
-let ftsAvailable = false;
+// Connection is lazy and cached on globalThis rather than in module scope:
+// Vite HMR re-instantiates this module when it (or an upstream import)
+// changes, and a plain module-level `let db` would come back undefined —
+// every query then dies until a full window reload. The desktop runtime
+// keeps exactly one instance either way.
+type DbGlobals = { __foundationDb?: Promise<Database>; __foundationFts?: boolean };
+const g = globalThis as DbGlobals;
+
+function ensureDb(): Promise<Database> {
+  g.__foundationDb ??= Database.load('sqlite:foundation.db');
+  return g.__foundationDb;
+}
+
+const ftsAvailable = () => g.__foundationFts ?? false;
 
 // One statement per array element — the SQL plugin prepares a single
 // statement per execute() call.
@@ -45,6 +60,24 @@ const SCHEMA: string[] = [
   `CREATE INDEX IF NOT EXISTS idx_notes_entry ON notes(entry_id)`,
   `CREATE INDEX IF NOT EXISTS idx_notes_anchor ON notes(anchor_book, anchor_chapter, anchor_verse)`,
   `CREATE INDEX IF NOT EXISTS idx_books_source ON books(source_id)`,
+  `CREATE TABLE IF NOT EXISTS strongs_words (
+    id INTEGER PRIMARY KEY,
+    entry_id INTEGER NOT NULL REFERENCES entries(id),
+    word_index INTEGER NOT NULL,
+    surface_text TEXT NOT NULL,
+    strongs_number TEXT NOT NULL
+  )`,
+  `CREATE INDEX IF NOT EXISTS idx_strongs_words_entry ON strongs_words(entry_id)`,
+  `CREATE INDEX IF NOT EXISTS idx_strongs_words_number ON strongs_words(strongs_number)`,
+  `CREATE INDEX IF NOT EXISTS idx_strongs_words_surface ON strongs_words(surface_text COLLATE NOCASE)`,
+  `CREATE TABLE IF NOT EXISTS strongs_dict (
+    strongs_number TEXT PRIMARY KEY,
+    lemma TEXT,
+    transliteration TEXT,
+    pronunciation TEXT,
+    short_def TEXT,
+    full_def TEXT
+  )`,
 ];
 
 const FTS_SCHEMA: string[] = [
@@ -73,7 +106,7 @@ const FTS_SCHEMA: string[] = [
 ];
 
 export async function initDb(): Promise<void> {
-  db = await Database.load('sqlite:foundation.db');
+  const db = await ensureDb();
   for (const stmt of SCHEMA) {
     await db.execute(stmt);
   }
@@ -81,18 +114,20 @@ export async function initDb(): Promise<void> {
     for (const stmt of FTS_SCHEMA) {
       await db.execute(stmt);
     }
-    ftsAvailable = true;
+    g.__foundationFts = true;
   } catch (e) {
     console.warn('FTS5 unavailable, falling back to LIKE search', e);
-    ftsAvailable = false;
+    g.__foundationFts = false;
   }
 }
 
 export async function listSources(): Promise<Source[]> {
+  const db = await ensureDb();
   return db.select<Source[]>('SELECT id, title, type, language, license_note FROM sources ORDER BY id');
 }
 
 export async function listBooks(sourceId: number): Promise<Book[]> {
+  const db = await ensureDb();
   return db.select<Book[]>(
     'SELECT id, source_id, name, sort_order FROM books WHERE source_id = ? ORDER BY sort_order',
     [sourceId],
@@ -100,6 +135,7 @@ export async function listBooks(sourceId: number): Promise<Book[]> {
 }
 
 export async function getChapters(sourceId: number, bookName: string): Promise<number[]> {
+  const db = await ensureDb();
   const rows = await db.select<{ chapter: number }[]>(
     `SELECT DISTINCT e.chapter AS chapter FROM entries e
      JOIN books b ON b.id = e.book_id
@@ -117,6 +153,7 @@ export async function getEntries(
   bookName: string,
   chapter: number | null,
 ): Promise<Entry[]> {
+  const db = await ensureDb();
   if (chapter === null) {
     return db.select<Entry[]>(
       `SELECT e.* FROM entries e JOIN books b ON b.id = e.book_id
@@ -134,6 +171,7 @@ export async function getEntries(
 // ---------- notes ----------
 
 export async function notesForChapter(book: string, chapter: number): Promise<Note[]> {
+  const db = await ensureDb();
   return db.select<Note[]>(
     `SELECT * FROM notes WHERE anchor_book = ? AND (anchor_chapter = ? OR anchor_chapter IS NULL)
      ORDER BY anchor_verse IS NULL, anchor_verse, updated_at DESC`,
@@ -142,12 +180,14 @@ export async function notesForChapter(book: string, chapter: number): Promise<No
 }
 
 export async function freeNotes(): Promise<Note[]> {
+  const db = await ensureDb();
   return db.select<Note[]>(
     `SELECT * FROM notes WHERE anchor_book IS NULL AND entry_id IS NULL ORDER BY updated_at DESC`,
   );
 }
 
 export async function notesForEntry(entryId: number): Promise<Note[]> {
+  const db = await ensureDb();
   return db.select<Note[]>('SELECT * FROM notes WHERE entry_id = ? ORDER BY updated_at DESC', [entryId]);
 }
 
@@ -159,6 +199,7 @@ export async function addNote(note: {
   title?: string | null;
   content: string;
 }): Promise<void> {
+  const db = await ensureDb();
   await db.execute(
     `INSERT INTO notes (entry_id, anchor_book, anchor_chapter, anchor_verse, title, content)
      VALUES (?, ?, ?, ?, ?, ?)`,
@@ -174,6 +215,7 @@ export async function addNote(note: {
 }
 
 export async function updateNote(id: number, title: string | null, content: string): Promise<void> {
+  const db = await ensureDb();
   await db.execute(
     `UPDATE notes SET title = ?, content = ?, updated_at = datetime('now') WHERE id = ?`,
     [title, content, id],
@@ -181,6 +223,7 @@ export async function updateNote(id: number, title: string | null, content: stri
 }
 
 export async function deleteNote(id: number): Promise<void> {
+  const db = await ensureDb();
   await db.execute('DELETE FROM notes WHERE id = ?', [id]);
 }
 
@@ -197,7 +240,8 @@ function ftsQuery(q: string): string {
 export async function searchAll(q: string): Promise<SearchHit[]> {
   const query = q.trim();
   if (!query) return [];
-  const entryHits = ftsAvailable
+  const db = await ensureDb();
+  const entryHits = ftsAvailable()
     ? await db.select<SearchHit[]>(
         `SELECT 'entry' AS kind, e.id AS id, s.id AS source_id, s.title AS source_title,
                 s.type AS source_type, b.name AS book, e.chapter AS chapter, e.verse AS verse,
@@ -222,7 +266,7 @@ export async function searchAll(q: string): Promise<SearchHit[]> {
          ORDER BY s.id, b.sort_order, e.sort_order LIMIT 200`,
         [`%${query}%`],
       );
-  const noteHits = ftsAvailable
+  const noteHits = ftsAvailable()
     ? await db.select<SearchHit[]>(
         `SELECT 'note' AS kind, n.id AS id, NULL AS source_id, 'My Notes' AS source_title,
                 'notes' AS source_type, n.anchor_book AS book, n.anchor_chapter AS chapter,
@@ -255,6 +299,7 @@ export async function insertParsedSource(
   meta: { title: string; type: SourceType; language?: string | null; license_note?: string | null },
   onProgress?: (done: number, total: number) => void,
 ): Promise<number> {
+  const db = await ensureDb();
   const res = await db.execute(
     'INSERT INTO sources (title, type, language, license_note) VALUES (?, ?, ?, ?)',
     [meta.title, meta.type, meta.language ?? null, meta.license_note ?? null],
@@ -288,6 +333,7 @@ export async function insertParsedSource(
 }
 
 export async function deleteSource(sourceId: number): Promise<void> {
+  const db = await ensureDb();
   await db.execute(
     'DELETE FROM entries WHERE book_id IN (SELECT id FROM books WHERE source_id = ?)',
     [sourceId],
@@ -297,6 +343,169 @@ export async function deleteSource(sourceId: number): Promise<void> {
 }
 
 export async function sourceCount(): Promise<number> {
+  const db = await ensureDb();
   const rows = await db.select<{ n: number }[]>('SELECT COUNT(*) AS n FROM sources');
   return rows[0].n;
+}
+
+// ---------- Strong's numbers ----------
+
+export async function findSourceByTitle(title: string): Promise<Source | null> {
+  const db = await ensureDb();
+  const rows = await db.select<Source[]>(
+    'SELECT id, title, type, language, license_note FROM sources WHERE title = ? LIMIT 1',
+    [title],
+  );
+  return rows[0] ?? null;
+}
+
+// book/chapter/verse -> entry id, for matching an external verse-keyed
+// dataset (e.g. the Strong's-tagged OSIS file) onto already-seeded entries.
+export async function getEntryRefMap(sourceId: number): Promise<Map<string, number>> {
+  const db = await ensureDb();
+  const rows = await db.select<{ id: number; name: string; chapter: number; verse: number }[]>(
+    `SELECT e.id AS id, b.name AS name, e.chapter AS chapter, e.verse AS verse
+     FROM entries e JOIN books b ON b.id = e.book_id
+     WHERE b.source_id = ? AND e.chapter IS NOT NULL AND e.verse IS NOT NULL`,
+    [sourceId],
+  );
+  const map = new Map<string, number>();
+  for (const r of rows) map.set(`${r.name}|${r.chapter}|${r.verse}`, r.id);
+  return map;
+}
+
+export async function hasStrongsData(): Promise<boolean> {
+  const db = await ensureDb();
+  const rows = await db.select<{ n: number }[]>('SELECT COUNT(*) AS n FROM strongs_dict');
+  return rows[0].n > 0;
+}
+
+// Makes re-running the Strong's import safe: clears any previously
+// attached word tags for this source's entries, plus the whole dictionary
+// (which isn't source-specific), before re-inserting.
+export async function clearStrongsData(kjvSourceId: number): Promise<void> {
+  const db = await ensureDb();
+  await db.execute(
+    `DELETE FROM strongs_words WHERE entry_id IN (
+       SELECT e.id FROM entries e JOIN books b ON b.id = e.book_id WHERE b.source_id = ?
+     )`,
+    [kjvSourceId],
+  );
+  await db.execute('DELETE FROM strongs_dict');
+}
+
+const STRONGS_INSERT_BATCH = 400;
+
+export async function insertStrongsWordsBatch(
+  rows: { entry_id: number; word_index: number; surface_text: string; strongs_number: string }[],
+  onProgress?: (done: number, total: number) => void,
+): Promise<void> {
+  const db = await ensureDb();
+  for (let i = 0; i < rows.length; i += STRONGS_INSERT_BATCH) {
+    const batch = rows.slice(i, i + STRONGS_INSERT_BATCH);
+    const placeholders = batch.map(() => '(?, ?, ?, ?)').join(', ');
+    const params: unknown[] = [];
+    for (const r of batch) params.push(r.entry_id, r.word_index, r.surface_text, r.strongs_number);
+    await db.execute(
+      `INSERT INTO strongs_words (entry_id, word_index, surface_text, strongs_number) VALUES ${placeholders}`,
+      params,
+    );
+    onProgress?.(Math.min(i + batch.length, rows.length), rows.length);
+  }
+}
+
+export async function insertStrongsDictBatch(rows: StrongsDictEntry[]): Promise<void> {
+  const db = await ensureDb();
+  for (let i = 0; i < rows.length; i += STRONGS_INSERT_BATCH) {
+    const batch = rows.slice(i, i + STRONGS_INSERT_BATCH);
+    const placeholders = batch.map(() => '(?, ?, ?, ?, ?, ?)').join(', ');
+    const params: unknown[] = [];
+    for (const r of batch) {
+      params.push(r.strongs_number, r.lemma, r.transliteration, r.pronunciation, r.short_def, r.full_def);
+    }
+    await db.execute(
+      `INSERT OR REPLACE INTO strongs_dict
+         (strongs_number, lemma, transliteration, pronunciation, short_def, full_def)
+       VALUES ${placeholders}`,
+      params,
+    );
+  }
+}
+
+// Flat rows for a set of entries — grouped into render-ready word slots by
+// the caller (see src/strongsRender.tsx), since a slot may carry >1 number.
+export async function getStrongsWordsForEntries(entryIds: number[]): Promise<StrongsWordRow[]> {
+  if (entryIds.length === 0) return [];
+  const db = await ensureDb();
+  const placeholders = entryIds.map(() => '?').join(', ');
+  return db.select<StrongsWordRow[]>(
+    `SELECT entry_id, word_index, surface_text, strongs_number FROM strongs_words
+     WHERE entry_id IN (${placeholders}) ORDER BY entry_id, word_index`,
+    entryIds,
+  );
+}
+
+// True total of tagged word occurrences matching the term — counted as
+// distinct (entry, word slot) pairs so a word carrying two Strong's numbers
+// isn't counted twice, and unaffected by the display LIMIT in
+// strongsSmartSearch below.
+export async function strongsOccurrenceCount(term: string): Promise<number> {
+  const query = term.trim();
+  if (!query) return 0;
+  const db = await ensureDb();
+  const rows = await db.select<{ n: number }[]>(
+    `SELECT COUNT(*) AS n FROM (
+       SELECT DISTINCT entry_id, word_index FROM strongs_words
+       WHERE surface_text LIKE ? COLLATE NOCASE
+     )`,
+    [`${query}%`],
+  );
+  return rows[0].n;
+}
+
+// Smart search: surface-text prefix match (so love/loved/loveth group
+// together as candidates), grouped by which original word they actually
+// translate. Returns [] when no Strong's data is installed — callers fall
+// back to the regular FTS5 search unchanged.
+export async function strongsSmartSearch(term: string): Promise<StrongsSearchGroup[]> {
+  const query = term.trim();
+  if (!query) return [];
+  const db = await ensureDb();
+  const rows = await db.select<
+    { entry_id: number; word_index: number; strongs_number: string; entry_text: string; book: string; chapter: number; verse: number; source_id: number; source_title: string }[]
+  >(
+    `SELECT sw.entry_id AS entry_id, sw.word_index AS word_index, sw.strongs_number AS strongs_number,
+            e.text AS entry_text, b.name AS book, e.chapter AS chapter, e.verse AS verse,
+            s.id AS source_id, s.title AS source_title
+     FROM strongs_words sw
+     JOIN entries e ON e.id = sw.entry_id
+     JOIN books b ON b.id = e.book_id
+     JOIN sources s ON s.id = b.source_id
+     WHERE sw.surface_text LIKE ? COLLATE NOCASE
+     ORDER BY b.sort_order, e.chapter, e.verse
+     LIMIT 2000`,
+    [`${query}%`],
+  );
+  if (rows.length === 0) return [];
+
+  const byNumber = new Map<string, StrongsSearchHit[]>();
+  for (const r of rows) {
+    if (!byNumber.has(r.strongs_number)) byNumber.set(r.strongs_number, []);
+    byNumber.get(r.strongs_number)!.push({
+      entry_id: r.entry_id, word_index: r.word_index, entry_text: r.entry_text, book: r.book,
+      chapter: r.chapter, verse: r.verse, source_id: r.source_id, source_title: r.source_title,
+    });
+  }
+
+  const numbers = [...byNumber.keys()];
+  const placeholders = numbers.map(() => '?').join(', ');
+  const dictRows = await db.select<StrongsDictEntry[]>(
+    `SELECT * FROM strongs_dict WHERE strongs_number IN (${placeholders})`,
+    numbers,
+  );
+  const dictByNumber = new Map(dictRows.map((d) => [d.strongs_number, d]));
+
+  return [...byNumber.entries()]
+    .map(([strongs_number, hits]) => ({ strongs_number, hits, dict: dictByNumber.get(strongs_number) ?? null }))
+    .sort((a, b) => b.hits.length - a.hits.length);
 }

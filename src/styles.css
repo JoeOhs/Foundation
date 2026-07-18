@@ -194,6 +194,46 @@ select:focus, input:focus, button:focus-visible {
 }
 .section-entry .section-text { white-space: pre-wrap; }
 
+.strongs-word {
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+}
+.strongs-word:hover { background: var(--accent-soft); }
+.strongs-word.strongs-highlight {
+  background: var(--mark-bg);
+  border-bottom-style: solid;
+}
+
+.strongs-group {
+  margin-bottom: 14px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+}
+.strongs-group-header {
+  font-weight: 600;
+  font-size: 13px;
+  padding: 6px 8px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.strongs-group-header:hover { background: var(--bg-hover); }
+.strongs-full-def {
+  font-size: 12px;
+  color: var(--text-dim);
+  padding: 0 10px 8px 10px;
+  white-space: pre-wrap;
+}
+
+/* Docked concordance pane — inherits .notes-panel layout (fixed width,
+   own scrollbar in .notes-body, isolated from the reader panes). */
+.concordance-panel .concordance-search {
+  display: flex;
+  gap: 6px;
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+}
+.concordance-panel .concordance-search input { flex: 1; min-width: 0; }
+
 .pane-empty {
   color: var(--text-dim);
   font-family: var(--font-ui);

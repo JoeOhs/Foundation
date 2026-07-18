@@ -30,6 +30,25 @@ running list of what's done and what's next, not a commitment.
   uploads.
 - **Open source** — MIT-licensed (see `LICENSE`). The license covers the app
   only; imported/downloaded texts keep their own license status.
+- **KJV + Strong's numbers, with smart search.** An optional Library add-on
+  (`🌐 Library → Add-ons → "KJV — add Strong's numbers"`) tags each word of
+  the installed KJV with its original Hebrew/Greek Strong's number, sourced
+  from the CrossWire KJV2003 OSIS module (word tagging) and the
+  OpenScriptures Strong's Hebrew/Greek dictionaries (glosses) — see
+  `src/strongsImport.ts` for provenance and licensing detail on both. Once
+  installed, searching a word groups results by which original word it
+  actually translates (e.g. "love" splits into agapē vs phileō vs chesed),
+  each group showing a gloss, a verse list, and the specific occurrence
+  highlighted inline — this is additive to the regular full-text search,
+  which still runs and displays normally alongside it. In the reader,
+  Strong's-tagged words render as individually clickable spans (click one to
+  search every other occurrence of that same original word); words with no
+  match (untranslated particles, or any non-KJV/non-tagged source) render
+  exactly as before. Schema: `strongs_words` / `strongs_dict` in `src/db.ts`.
+  The grouped view also docks as a **Concordance pane** (🔤) beside the Bible
+  panes, scrolling in isolation, fed by word clicks when open — with the
+  search modal as the lighter-weight default when it's closed, including an
+  "Open in pane →" hand-off button and a total-occurrences count.
 
 ## Near-term
 
