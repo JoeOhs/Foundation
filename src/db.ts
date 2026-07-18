@@ -571,9 +571,9 @@ export async function strongsOccurrenceCount(term: string): Promise<number> {
     : await db.select<{ n: number }[]>(
         `SELECT COUNT(*) AS n FROM (
            SELECT DISTINCT entry_id, word_index FROM strongs_words
-           WHERE surface_text LIKE ? COLLATE NOCASE
+           WHERE surface_text LIKE ? COLLATE NOCASE OR surface_text LIKE ? COLLATE NOCASE
          )`,
-        [`${query}%`],
+        [`${query}%`, `% ${query}%`],
       );
   return rows[0].n;
 }
@@ -607,11 +607,15 @@ export async function strongsSmartSearch(term: string): Promise<StrongsSearchGro
         [number],
       )
     : await db.select<Row[]>(
+        // Tagged spans are usually multi-word phrases ("my statutes",
+        // "a statute"), so the term must match at any word boundary within
+        // the span — a bare prefix match would only find spans that BEGIN
+        // with the term and silently miss most occurrences.
         `${baseSelect}
-         WHERE sw.surface_text LIKE ? COLLATE NOCASE
+         WHERE sw.surface_text LIKE ? COLLATE NOCASE OR sw.surface_text LIKE ? COLLATE NOCASE
          ORDER BY b.sort_order, e.chapter, e.verse
          LIMIT 2000`,
-        [`${query}%`],
+        [`${query}%`, `% ${query}%`],
       );
   if (rows.length === 0) {
     // A number lookup with no verse hits still surfaces the dictionary
