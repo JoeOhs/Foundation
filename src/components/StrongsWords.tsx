@@ -89,9 +89,11 @@ interface StrongsVerseTextProps {
   // the word each is anchored to (or at the verse end for verse-level
   // notes). Empty/omitted means no markers, no footprint.
   notes?: EntryNote[];
-  // word_index of a specific word to highlight (e.g. arrived at via a smart
-  // search hit), independent of which strongs_number it carries.
-  highlightWordIndex?: number | null;
+  // word_indexes to highlight. A search-hit row highlights just its own
+  // occurrence; the reader highlights every slot sharing the clicked
+  // occurrence's Strong's number, so a word used twice in one verse
+  // (Ezek 5:6 "my statutes" ×2) lights up completely.
+  highlightWordIndexes?: ReadonlySet<number> | null;
   onWordClick?: (slot: StrongsWordSlot) => void;
 }
 
@@ -99,7 +101,7 @@ interface StrongsVerseTextProps {
 // Strong's-tagged words — used by both the reader (Pane.tsx) and the smart
 // search results list, so the two stay visually and behaviorally consistent.
 // Falls back to plain text automatically when `words` is empty.
-export default function StrongsVerseText({ text, words, notes = [], highlightWordIndex, onWordClick }: StrongsVerseTextProps) {
+export default function StrongsVerseText({ text, words, notes = [], highlightWordIndexes, onWordClick }: StrongsVerseTextProps) {
   const [hoverNoteId, setHoverNoteId] = useState<number | null>(null);
   const [pinnedNoteId, setPinnedNoteId] = useState<number | null>(null);
 
@@ -146,7 +148,7 @@ export default function StrongsVerseText({ text, words, notes = [], highlightWor
         seg.slot ? (
           <span key={i}>
             <span
-              className={`strongs-word${highlightWordIndex === seg.slot.word_index ? ' strongs-highlight' : ''}`}
+              className={`strongs-word${highlightWordIndexes?.has(seg.slot.word_index) ? ' strongs-highlight' : ''}`}
               title={seg.slot.strongs_numbers.join(', ')}
               onClick={(e) => {
                 if (!onWordClick) return;

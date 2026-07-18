@@ -137,6 +137,20 @@ export default function Pane({
                 highlightWord.book === refState.book &&
                 highlightWord.chapter === (e.chapter ?? refState.chapter) &&
                 highlightWord.verse === e.verse;
+              // Highlight every slot carrying the same Strong's number(s)
+              // as the clicked occurrence — a word used twice in one verse
+              // lights up in both places, not just the clicked one.
+              let highlightSet: Set<number> | null = null;
+              if (isHighlightTarget) {
+                const rows = wordsByEntry.get(e.id) ?? [];
+                const targetNumbers = new Set(
+                  rows.filter((r) => r.word_index === highlightWord.wordIndex).map((r) => r.strongs_number),
+                );
+                highlightSet = new Set(
+                  rows.filter((r) => targetNumbers.has(r.strongs_number)).map((r) => r.word_index),
+                );
+                if (highlightSet.size === 0) highlightSet = new Set([highlightWord.wordIndex]);
+              }
               return (
                 <div
                   key={e.id}
@@ -153,7 +167,7 @@ export default function Pane({
                     text={e.text}
                     words={wordsByEntry.get(e.id) ?? []}
                     notes={notesByEntry.get(e.id) ?? []}
-                    highlightWordIndex={isHighlightTarget ? highlightWord.wordIndex : null}
+                    highlightWordIndexes={highlightSet}
                     onWordClick={onWordClick ? (slot) => onWordClick(slot.surface_text) : undefined}
                   />
                   {e.verse !== null && followsNav && notedVerses.has(e.verse) && <span className="note-dot" title="Has notes" />}

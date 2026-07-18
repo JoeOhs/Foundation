@@ -110,7 +110,7 @@ export default function SmartSearchGroups({ groups, onNavigate, showSectionLabel
                             <StrongsVerseText
                               text={h.entry_text}
                               words={wordsByEntry.get(h.entry_id) ?? []}
-                              highlightWordIndex={h.word_index}
+                              highlightWordIndexes={new Set([h.word_index])}
                             />
                           </div>
                         </div>
