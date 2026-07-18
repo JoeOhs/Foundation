@@ -1,6 +1,6 @@
 import Database from '@tauri-apps/plugin-sql';
 import type {
-  Book, Entry, Note, ParsedSource, SearchHit, Source, SourceType,
+  Book, Entry, EntryNote, Note, ParsedSource, SearchHit, Source, SourceType,
   StrongsDictEntry, StrongsSearchGroup, StrongsSearchHit, StrongsWordRow,
 } from './types';
 
@@ -77,6 +77,18 @@ const SCHEMA: string[] = [
     pronunciation TEXT,
     short_def TEXT,
     full_def TEXT
+  )`,
+  `CREATE TABLE IF NOT EXISTS entry_notes (
+    id INTEGER PRIMARY KEY,
+    entry_id INTEGER NOT NULL REFERENCES entries(id),
+    word_index INTEGER,
+    note_text TEXT NOT NULL,
+    note_type TEXT
+  )`,
+  `CREATE INDEX IF NOT EXISTS idx_entry_notes_entry ON entry_notes(entry_id)`,
+  `CREATE TABLE IF NOT EXISTS meta (
+    key TEXT PRIMARY KEY,
+    value TEXT NOT NULL
   )`,
 ];
 
@@ -381,8 +393,9 @@ export async function hasStrongsData(): Promise<boolean> {
 }
 
 // Makes re-running the Strong's import safe: clears any previously
-// attached word tags for this source's entries, plus the whole dictionary
-// (which isn't source-specific), before re-inserting.
+// attached word tags and translator's notes for this source's entries,
+// plus the whole dictionary (which isn't source-specific), before
+// re-inserting.
 export async function clearStrongsData(kjvSourceId: number): Promise<void> {
   const db = await ensureDb();
   await db.execute(
@@ -391,7 +404,92 @@ export async function clearStrongsData(kjvSourceId: number): Promise<void> {
      )`,
     [kjvSourceId],
   );
+  await db.execute(
+    `DELETE FROM entry_notes WHERE entry_id IN (
+       SELECT e.id FROM entries e JOIN books b ON b.id = e.book_id WHERE b.source_id = ?
+     )`,
+    [kjvSourceId],
+  );
   await db.execute('DELETE FROM strongs_dict');
+}
+
+// ---------- meta flags (one-time migrations/repairs) ----------
+
+export async function getMeta(key: string): Promise<string | null> {
+  const db = await ensureDb();
+  const rows = await db.select<{ value: string }[]>('SELECT value FROM meta WHERE key = ?', [key]);
+  return rows[0]?.value ?? null;
+}
+
+export async function setMeta(key: string, value: string): Promise<void> {
+  const db = await ensureDb();
+  await db.execute('INSERT OR REPLACE INTO meta (key, value) VALUES (?, ?)', [key, value]);
+}
+
+// ---------- entry text repair ----------
+
+// id + current text for every verse-keyed entry of a source, keyed by
+// canonical reference — used to diff against a corrected seed conversion.
+export async function getEntryTexts(sourceId: number): Promise<Map<string, { id: number; text: string }>> {
+  const db = await ensureDb();
+  const rows = await db.select<{ id: number; name: string; chapter: number; verse: number; text: string }[]>(
+    `SELECT e.id AS id, b.name AS name, e.chapter AS chapter, e.verse AS verse, e.text AS text
+     FROM entries e JOIN books b ON b.id = e.book_id
+     WHERE b.source_id = ? AND e.chapter IS NOT NULL AND e.verse IS NOT NULL`,
+    [sourceId],
+  );
+  const map = new Map<string, { id: number; text: string }>();
+  for (const r of rows) map.set(`${r.name}|${r.chapter}|${r.verse}`, { id: r.id, text: r.text });
+  return map;
+}
+
+const UPDATE_BATCH = 200;
+
+// Batched UPDATE of entries.text by id. The FTS sync triggers fire per
+// row, so entries_fts stays consistent without extra work here.
+export async function updateEntryTexts(rows: { id: number; text: string }[]): Promise<void> {
+  const db = await ensureDb();
+  for (let i = 0; i < rows.length; i += UPDATE_BATCH) {
+    const batch = rows.slice(i, i + UPDATE_BATCH);
+    const cases = batch.map(() => 'WHEN ? THEN ?').join(' ');
+    const params: unknown[] = [];
+    for (const r of batch) params.push(r.id, r.text);
+    for (const r of batch) params.push(r.id);
+    await db.execute(
+      `UPDATE entries SET text = CASE id ${cases} END
+       WHERE id IN (${batch.map(() => '?').join(', ')})`,
+      params,
+    );
+  }
+}
+
+// ---------- translator's notes (entry_notes) ----------
+
+export async function insertEntryNotesBatch(
+  rows: { entry_id: number; word_index: number | null; note_text: string; note_type: string | null }[],
+): Promise<void> {
+  const db = await ensureDb();
+  for (let i = 0; i < rows.length; i += STRONGS_INSERT_BATCH) {
+    const batch = rows.slice(i, i + STRONGS_INSERT_BATCH);
+    const placeholders = batch.map(() => '(?, ?, ?, ?)').join(', ');
+    const params: unknown[] = [];
+    for (const r of batch) params.push(r.entry_id, r.word_index, r.note_text, r.note_type);
+    await db.execute(
+      `INSERT INTO entry_notes (entry_id, word_index, note_text, note_type) VALUES ${placeholders}`,
+      params,
+    );
+  }
+}
+
+export async function getEntryNotesForEntries(entryIds: number[]): Promise<EntryNote[]> {
+  if (entryIds.length === 0) return [];
+  const db = await ensureDb();
+  const placeholders = entryIds.map(() => '?').join(', ');
+  return db.select<EntryNote[]>(
+    `SELECT id, entry_id, word_index, note_text, note_type FROM entry_notes
+     WHERE entry_id IN (${placeholders}) ORDER BY entry_id, word_index`,
+    entryIds,
+  );
 }
 
 const STRONGS_INSERT_BATCH = 400;
@@ -445,48 +543,88 @@ export async function getStrongsWordsForEntries(entryIds: number[]): Promise<Str
   );
 }
 
+// "H2708", "g26", "H02708" → canonical "H2708"/"G26"; null for anything
+// that isn't a bare Strong's number. Zero-stripping matches the importer's
+// normalization so zero-padded OSIS-style input still finds rows.
+export function parseStrongsNumberQuery(term: string): string | null {
+  const m = term.trim().match(/^([HGhg])0*([1-9]\d*)$/);
+  return m ? `${m[1].toUpperCase()}${m[2]}` : null;
+}
+
 // True total of tagged word occurrences matching the term — counted as
 // distinct (entry, word slot) pairs so a word carrying two Strong's numbers
 // isn't counted twice, and unaffected by the display LIMIT in
-// strongsSmartSearch below.
+// strongsSmartSearch below. Accepts either an English surface-text prefix
+// or a bare Strong's number.
 export async function strongsOccurrenceCount(term: string): Promise<number> {
   const query = term.trim();
   if (!query) return 0;
   const db = await ensureDb();
-  const rows = await db.select<{ n: number }[]>(
-    `SELECT COUNT(*) AS n FROM (
-       SELECT DISTINCT entry_id, word_index FROM strongs_words
-       WHERE surface_text LIKE ? COLLATE NOCASE
-     )`,
-    [`${query}%`],
-  );
+  const number = parseStrongsNumberQuery(query);
+  const rows = number
+    ? await db.select<{ n: number }[]>(
+        `SELECT COUNT(*) AS n FROM (
+           SELECT DISTINCT entry_id, word_index FROM strongs_words WHERE strongs_number = ?
+         )`,
+        [number],
+      )
+    : await db.select<{ n: number }[]>(
+        `SELECT COUNT(*) AS n FROM (
+           SELECT DISTINCT entry_id, word_index FROM strongs_words
+           WHERE surface_text LIKE ? COLLATE NOCASE
+         )`,
+        [`${query}%`],
+      );
   return rows[0].n;
 }
 
 // Smart search: surface-text prefix match (so love/loved/loveth group
 // together as candidates), grouped by which original word they actually
-// translate. Returns [] when no Strong's data is installed — callers fall
-// back to the regular FTS5 search unchanged.
+// translate. A bare Strong's number (e.g. "H2708", "g26") instead looks up
+// that exact number directly — every verse where it occurs, regardless of
+// how it was rendered in English. Returns [] when no Strong's data is
+// installed — callers fall back to the regular FTS5 search unchanged.
 export async function strongsSmartSearch(term: string): Promise<StrongsSearchGroup[]> {
   const query = term.trim();
   if (!query) return [];
   const db = await ensureDb();
-  const rows = await db.select<
-    { entry_id: number; word_index: number; strongs_number: string; entry_text: string; book: string; chapter: number; verse: number; source_id: number; source_title: string }[]
-  >(
-    `SELECT sw.entry_id AS entry_id, sw.word_index AS word_index, sw.strongs_number AS strongs_number,
-            e.text AS entry_text, b.name AS book, e.chapter AS chapter, e.verse AS verse,
-            s.id AS source_id, s.title AS source_title
-     FROM strongs_words sw
-     JOIN entries e ON e.id = sw.entry_id
-     JOIN books b ON b.id = e.book_id
-     JOIN sources s ON s.id = b.source_id
-     WHERE sw.surface_text LIKE ? COLLATE NOCASE
-     ORDER BY b.sort_order, e.chapter, e.verse
-     LIMIT 2000`,
-    [`${query}%`],
-  );
-  if (rows.length === 0) return [];
+  const number = parseStrongsNumberQuery(query);
+  const baseSelect = `
+    SELECT sw.entry_id AS entry_id, sw.word_index AS word_index, sw.strongs_number AS strongs_number,
+           e.text AS entry_text, b.name AS book, e.chapter AS chapter, e.verse AS verse,
+           s.id AS source_id, s.title AS source_title
+    FROM strongs_words sw
+    JOIN entries e ON e.id = sw.entry_id
+    JOIN books b ON b.id = e.book_id
+    JOIN sources s ON s.id = b.source_id`;
+  type Row = { entry_id: number; word_index: number; strongs_number: string; entry_text: string; book: string; chapter: number; verse: number; source_id: number; source_title: string };
+  const rows = number
+    ? await db.select<Row[]>(
+        `${baseSelect}
+         WHERE sw.strongs_number = ?
+         ORDER BY b.sort_order, e.chapter, e.verse
+         LIMIT 2000`,
+        [number],
+      )
+    : await db.select<Row[]>(
+        `${baseSelect}
+         WHERE sw.surface_text LIKE ? COLLATE NOCASE
+         ORDER BY b.sort_order, e.chapter, e.verse
+         LIMIT 2000`,
+        [`${query}%`],
+      );
+  if (rows.length === 0) {
+    // A number lookup with no verse hits still surfaces the dictionary
+    // entry (if one exists) so the definition is reachable directly.
+    if (number) {
+      const dictRows = await db.select<StrongsDictEntry[]>(
+        'SELECT * FROM strongs_dict WHERE strongs_number = ?',
+        [number],
+      );
+      if (dictRows.length > 0) return [{ strongs_number: number, dict: dictRows[0], hits: [] }];
+    }
+    return [];
+  }
 
   const byNumber = new Map<string, StrongsSearchHit[]>();
   for (const r of rows) {

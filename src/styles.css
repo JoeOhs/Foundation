@@ -209,19 +209,116 @@ select:focus, input:focus, button:focus-visible {
   padding-bottom: 6px;
   border-bottom: 1px solid var(--border);
 }
-.strongs-group-header {
-  font-weight: 600;
-  font-size: 13px;
-  padding: 6px 8px;
-  cursor: pointer;
-  border-radius: 6px;
+
+/* Dictionary card: the concordance entry's identity + definition, framed
+   apart from the occurrence list and pinned while that list scrolls. */
+.strongs-card {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 9px 12px;
+  margin-bottom: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
 }
-.strongs-group-header:hover { background: var(--bg-hover); }
-.strongs-full-def {
-  font-size: 12px;
-  color: var(--text-dim);
-  padding: 0 10px 8px 10px;
+.strongs-card-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--accent);
+}
+.strongs-card-def {
+  font-size: 13px;
+  color: var(--text);
+  margin-top: 3px;
   white-space: pre-wrap;
+}
+
+/* Occurrences nested under collapsible book headers */
+.book-group-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.book-group-header:hover { background: var(--bg-hover); }
+.book-group-count {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-dim);
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: 99px;
+  padding: 1px 8px;
+}
+.book-group-hits {
+  margin: 2px 0 6px 10px;
+  border-left: 2px solid var(--border);
+  padding-left: 6px;
+}
+
+/* Search history chips (bounded, persisted) under the search modal header */
+.search-history {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px 0 16px;
+}
+.search-history-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-dim);
+}
+.search-history-chip {
+  font-size: 11px;
+  padding: 2px 9px;
+  border-radius: 99px;
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.search-history-clear { color: var(--text-dim); border-style: dashed; }
+
+/* Translator's-note footnote markers + popover. The marker is persistent
+   inline (no layout shift when the popover opens: the bubble is absolute). */
+.footnote-wrap { position: relative; }
+.footnote-marker {
+  font-family: var(--font-ui);
+  font-size: 0.65em;
+  vertical-align: super;
+  color: var(--accent);
+  cursor: pointer;
+  padding: 0 1px;
+  user-select: none;
+}
+.footnote-marker:hover { color: var(--text); }
+.footnote-pop {
+  position: absolute;
+  bottom: calc(100% + 4px);
+  left: 0;
+  z-index: 6;
+  display: block;
+  width: max-content;
+  max-width: 280px;
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 7px 10px;
+  font-family: var(--font-ui);
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--text);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  white-space: normal;
 }
 
 /* Docked concordance pane — inherits .notes-panel layout (fixed width,

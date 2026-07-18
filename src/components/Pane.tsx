@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
-import { getChapters, getEntries, getStrongsWordsForEntries, listBooks } from '../db';
+import { getChapters, getEntries, getEntryNotesForEntries, getStrongsWordsForEntries, listBooks } from '../db';
 import StrongsVerseText from './StrongsWords';
-import type { Book, Entry, Reference, Source, StrongsWordRow, VerseSelection } from '../types';
+import type { Book, Entry, EntryNote, Reference, Source, StrongsWordRow, VerseSelection } from '../types';
 
 export interface HighlightWord extends VerseSelection {
   wordIndex: number;
@@ -33,6 +33,7 @@ export default function Pane({
   const [entries, setEntries] = useState<Entry[]>([]);
   const [hasChapters, setHasChapters] = useState(true);
   const [wordsByEntry, setWordsByEntry] = useState<Map<number, StrongsWordRow[]>>(new Map());
+  const [notesByEntry, setNotesByEntry] = useState<Map<number, EntryNote[]>>(new Map());
 
   useEffect(() => {
     let live = true;
@@ -73,10 +74,11 @@ export default function Pane({
     const ids = entries.map((e) => e.id);
     if (ids.length === 0) {
       setWordsByEntry(new Map());
+      setNotesByEntry(new Map());
       return;
     }
     let live = true;
-    getStrongsWordsForEntries(ids).then((rows) => {
+    Promise.all([getStrongsWordsForEntries(ids), getEntryNotesForEntries(ids)]).then(([rows, noteRows]) => {
       if (!live) return;
       const map = new Map<number, StrongsWordRow[]>();
       for (const r of rows) {
@@ -84,6 +86,12 @@ export default function Pane({
         map.get(r.entry_id)!.push(r);
       }
       setWordsByEntry(map);
+      const noteMap = new Map<number, EntryNote[]>();
+      for (const n of noteRows) {
+        if (!noteMap.has(n.entry_id)) noteMap.set(n.entry_id, []);
+        noteMap.get(n.entry_id)!.push(n);
+      }
+      setNotesByEntry(noteMap);
     });
     return () => { live = false; };
   }, [entries]);
@@ -144,6 +152,7 @@ export default function Pane({
                   <StrongsVerseText
                     text={e.text}
                     words={wordsByEntry.get(e.id) ?? []}
+                    notes={notesByEntry.get(e.id) ?? []}
                     highlightWordIndex={isHighlightTarget ? highlightWord.wordIndex : null}
                     onWordClick={onWordClick ? (slot) => onWordClick(slot.surface_text) : undefined}
                   />

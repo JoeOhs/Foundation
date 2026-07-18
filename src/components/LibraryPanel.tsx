@@ -109,10 +109,11 @@ export default function LibraryPanel({ sources, onInstalled, onClose }: LibraryP
                 <div className="note-actions">
                   <button
                     className="primary"
-                    disabled={!ready || installed || !!busyId}
+                    disabled={!ready || !!busyId}
                     onClick={() => installAddon(addon)}
+                    title={installed ? 'Re-download and rebuild this add-on’s data (safe to re-run)' : undefined}
                   >
-                    {installed ? 'Installed' : busy ? progress || 'Working…' : 'Download & install'}
+                    {busy ? progress || 'Working…' : installed ? 'Reinstall / repair' : 'Download & install'}
                   </button>
                 </div>
               </div>

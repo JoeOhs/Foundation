@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { getChapters, initDb, listBooks, listSources, notesForChapter } from './db';
-import { seedIfEmpty } from './seed';
+import { repairSeededTextsIfNeeded, seedIfEmpty } from './seed';
 import Pane, { type HighlightWord } from './components/Pane';
 import NotesPanel from './components/NotesPanel';
 import SearchPanel from './components/SearchPanel';
@@ -88,6 +88,7 @@ export default function App() {
       try {
         await initDb();
         await seedIfEmpty(setSplashMsg);
+        await repairSeededTextsIfNeeded(setSplashMsg);
         const srcs = await listSources();
         setSources(srcs);
         setPaneSourceIds((prev) => {

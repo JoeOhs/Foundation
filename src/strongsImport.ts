@@ -1,8 +1,10 @@
 import { fetch as httpFetch } from '@tauri-apps/plugin-http';
 import { CANONICAL_BOOKS } from './bibleMeta';
 import {
-  clearStrongsData, findSourceByTitle, getEntryRefMap, insertStrongsDictBatch, insertStrongsWordsBatch,
+  clearStrongsData, findSourceByTitle, getEntryRefMap, insertEntryNotesBatch,
+  insertStrongsDictBatch, insertStrongsWordsBatch,
 } from './db';
+import { repairSeededTextsIfNeeded } from './seed';
 import type { StrongsDictEntry } from './types';
 
 // CrossWire Bible Society's KJV2003 OSIS module: the KJV text with inline
@@ -65,19 +67,33 @@ export interface StrongsImportRow {
   strongs_number: string;
 }
 
-export function parseOsis(osisText: string, refMap: Map<string, number>): { rows: StrongsImportRow[]; unmatchedVerses: number } {
+export interface EntryNoteImportRow {
+  entry_id: number;
+  word_index: number | null;
+  note_text: string;
+  note_type: string | null;
+}
+
+export interface ParsedOsis {
+  rows: StrongsImportRow[];
+  noteRows: EntryNoteImportRow[];
+  unmatchedVerses: number;
+}
+
+export function parseOsis(osisText: string, refMap: Map<string, number>): ParsedOsis {
   const doc = new DOMParser().parseFromString(osisText, 'text/xml');
   if (doc.querySelector('parsererror')) {
     throw new Error('The downloaded KJV+Strong’s file could not be parsed as XML.');
   }
 
   const rows: StrongsImportRow[] = [];
+  const noteRows: EntryNoteImportRow[] = [];
   let unmatchedVerses = 0;
   let currentRef: string | null = null;
   let currentEntryId: number | null = null;
   let wordIndex = 0;
 
-  const nodes = doc.querySelectorAll('verse, w');
+  const nodes = doc.querySelectorAll('verse, w, note');
   nodes.forEach((el) => {
     if (el.tagName === 'verse') {
       const sID = el.getAttribute('sID');
@@ -97,9 +113,31 @@ export function parseOsis(osisText: string, refMap: Map<string, number>): { rows
       }
       return;
     }
+
+    if (el.tagName === 'note') {
+      // Translator's note — captured separately, never tokenized into
+      // strongs_words, never part of verse text. Anchored to the tagged
+      // word it follows in document order; verse-level (NULL) when it
+      // precedes any tagged word.
+      if (currentEntryId === null) return;
+      const noteText = (el.textContent ?? '').replace(/\s+/g, ' ').trim();
+      if (!noteText) return;
+      noteRows.push({
+        entry_id: currentEntryId,
+        word_index: wordIndex > 0 ? wordIndex - 1 : null,
+        note_text: noteText,
+        note_type: el.getAttribute('type'),
+      });
+      return;
+    }
+
     // <w> element. Self-closing / empty ones are untranslated grammatical
     // markers with nothing to show — skip without consuming a word_index.
     if (currentEntryId === null) return;
+    // Defensive: a <w> nested inside a <note> is annotation content, not
+    // verse text (none exist in the current OSIS file, but this guarantees
+    // notes can never pollute strongs_words if that changes).
+    if (el.closest('note') !== null) return;
     const text = (el.textContent ?? '').trim();
     if (!text) return;
     const lemma = el.getAttribute('lemma');
@@ -112,7 +150,7 @@ export function parseOsis(osisText: string, refMap: Map<string, number>): { rows
     wordIndex++;
   });
 
-  return { rows, unmatchedVerses };
+  return { rows, noteRows, unmatchedVerses };
 }
 
 interface RawDictEntry {
@@ -163,12 +201,19 @@ export async function importKjvStrongs(onProgress: (msg: string) => void): Promi
     throw new Error('Install the King James Version from the Library first, then add Strong’s numbers.');
   }
 
+  // This importer only ever INSERTs into strongs_words / strongs_dict /
+  // entry_notes — entries.text is never written here. The seed-text repair
+  // (which fixes historical brace-note leakage in entries.text) is separate,
+  // offline, and diff-based; running it first guarantees tagging is aligned
+  // against clean verse text.
+  await repairSeededTextsIfNeeded(onProgress);
+
   onProgress('Downloading KJV with Strong’s tagging (~28 MB)…');
   const osisText = await fetchText(OSIS_URL);
 
   onProgress('Matching tagged words to your KJV text…');
   const refMap = await getEntryRefMap(kjv.id);
-  const { rows, unmatchedVerses } = parseOsis(osisText, refMap);
+  const { rows, noteRows, unmatchedVerses } = parseOsis(osisText, refMap);
   if (rows.length === 0) {
     throw new Error('No Strong’s-tagged words could be matched to the installed KJV. Try reinstalling the KJV from Library first.');
   }
@@ -186,6 +231,9 @@ export async function importKjvStrongs(onProgress: (msg: string) => void): Promi
   await insertStrongsWordsBatch(rows, (done, total) =>
     onProgress(`Storing tagged words… ${Math.round((done / total) * 100)}%`),
   );
+
+  onProgress('Storing translator’s notes…');
+  await insertEntryNotesBatch(noteRows);
 
   onProgress('Storing dictionary entries…');
   await insertStrongsDictBatch(dictRows);

@@ -49,6 +49,13 @@ running list of what's done and what's next, not a commitment.
   panes, scrolling in isolation, fed by word clicks when open — with the
   search modal as the lighter-weight default when it's closed, including an
   "Open in pane →" hand-off button and a total-occurrences count.
+- **Translator's notes as footnotes.** The KJV's ~7,000 marginal notes
+  (alternate readings, literal Hebrew/Greek renderings) are captured into
+  `entry_notes` during the Strong's import and shown as small `°` markers
+  with hover/click popovers — never inline in the verse text. This also
+  fixed a seeding-era bug where those notes leaked into `entries.text`
+  (braces stripped, note text kept); a one-time offline repair at boot
+  restores the affected ~6,500 verses from the corrected seed conversion.
 
 ## Near-term
 

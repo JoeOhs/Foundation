@@ -116,6 +116,18 @@ export interface StrongsWordSlot {
   strongs_numbers: string[];
 }
 
+// A translator's note (alternate reading, literal Hebrew/Greek rendering,
+// explanation) captured from the OSIS source. Anchored after a specific
+// tagged word via word_index, or verse-level when word_index is NULL.
+// Additive like strongs_words — never part of entries.text.
+export interface EntryNote {
+  id: number;
+  entry_id: number;
+  word_index: number | null;
+  note_text: string;
+  note_type: string | null;
+}
+
 // A smart-search hit: a verse where the searched surface text (e.g. "love",
 // "loved") was tagged with this particular Strong's number.
 export interface StrongsSearchHit {

@@ -1,4 +1,5 @@
-import type { StrongsWordRow, StrongsWordSlot } from '../types';
+import { useEffect, useState } from 'react';
+import type { EntryNote, StrongsWordRow, StrongsWordSlot } from '../types';
 
 // A word slot is usually one strongs_words row, but occasionally two rows
 // share a word_index (e.g. an untranslated Hebrew particle folded into the
@@ -45,9 +46,49 @@ export function alignWordsToText(text: string, slots: StrongsWordSlot[]): TextSe
   return segments;
 }
 
+// A translator's-note marker with its popover bubble. The marker is a
+// persistent superscript (so it never shifts layout by appearing); the
+// bubble is absolutely positioned. Hover shows it transiently; click pins
+// it open (for touch, and to keep it up while moving the mouse); clicking
+// the marker again or anywhere else dismisses a pinned popover.
+function FootnoteMarker({
+  note, open, onHover, onPin,
+}: {
+  note: EntryNote;
+  open: boolean;
+  onHover: (id: number | null) => void;
+  onPin: (id: number | null) => void;
+}) {
+  return (
+    <span className="footnote-wrap">
+      <span
+        className="footnote-marker"
+        title={open ? undefined : 'Translator’s note'}
+        onMouseEnter={() => onHover(note.id)}
+        onMouseLeave={() => onHover(null)}
+        onClick={(e) => {
+          e.stopPropagation();
+          onPin(open ? null : note.id);
+        }}
+      >
+        °
+      </span>
+      {open && (
+        <span className="footnote-pop" onClick={(e) => e.stopPropagation()}>
+          {note.note_text}
+        </span>
+      )}
+    </span>
+  );
+}
+
 interface StrongsVerseTextProps {
   text: string;
   words: StrongsWordRow[];
+  // Translator's notes for this entry — rendered as footnote markers after
+  // the word each is anchored to (or at the verse end for verse-level
+  // notes). Empty/omitted means no markers, no footprint.
+  notes?: EntryNote[];
   // word_index of a specific word to highlight (e.g. arrived at via a smart
   // search hit), independent of which strongs_number it carries.
   highlightWordIndex?: number | null;
@@ -58,29 +99,70 @@ interface StrongsVerseTextProps {
 // Strong's-tagged words — used by both the reader (Pane.tsx) and the smart
 // search results list, so the two stay visually and behaviorally consistent.
 // Falls back to plain text automatically when `words` is empty.
-export default function StrongsVerseText({ text, words, highlightWordIndex, onWordClick }: StrongsVerseTextProps) {
-  if (words.length === 0) return <>{text}</>;
+export default function StrongsVerseText({ text, words, notes = [], highlightWordIndex, onWordClick }: StrongsVerseTextProps) {
+  const [hoverNoteId, setHoverNoteId] = useState<number | null>(null);
+  const [pinnedNoteId, setPinnedNoteId] = useState<number | null>(null);
+
+  // Click-elsewhere dismiss for a click-pinned popover.
+  useEffect(() => {
+    if (pinnedNoteId === null) return;
+    const dismiss = () => setPinnedNoteId(null);
+    document.addEventListener('click', dismiss);
+    return () => document.removeEventListener('click', dismiss);
+  }, [pinnedNoteId]);
+
+  const renderMarkers = (forNotes: EntryNote[]) =>
+    forNotes.map((n) => (
+      <FootnoteMarker
+        key={n.id}
+        note={n}
+        open={pinnedNoteId === n.id || hoverNoteId === n.id}
+        onHover={setHoverNoteId}
+        onPin={setPinnedNoteId}
+      />
+    ));
+
+  if (words.length === 0 && notes.length === 0) return <>{text}</>;
+
   const segments = alignWordsToText(text, groupWordsByIndex(words));
+  // Notes anchored to a word_index that has a rendered segment attach after
+  // it; everything else (verse-level, or anchor didn't align) goes to the
+  // verse end so no note is ever silently dropped.
+  const renderedIndices = new Set(segments.filter((s) => s.slot).map((s) => s.slot!.word_index));
+  const notesByIndex = new Map<number, EntryNote[]>();
+  const verseEndNotes: EntryNote[] = [];
+  for (const n of notes) {
+    if (n.word_index !== null && renderedIndices.has(n.word_index)) {
+      if (!notesByIndex.has(n.word_index)) notesByIndex.set(n.word_index, []);
+      notesByIndex.get(n.word_index)!.push(n);
+    } else {
+      verseEndNotes.push(n);
+    }
+  }
+
   return (
     <>
       {segments.map((seg, i) =>
         seg.slot ? (
-          <span
-            key={i}
-            className={`strongs-word${highlightWordIndex === seg.slot.word_index ? ' strongs-highlight' : ''}`}
-            title={seg.slot.strongs_numbers.join(', ')}
-            onClick={(e) => {
-              if (!onWordClick) return;
-              e.stopPropagation();
-              onWordClick(seg.slot!);
-            }}
-          >
-            {seg.text}
+          <span key={i}>
+            <span
+              className={`strongs-word${highlightWordIndex === seg.slot.word_index ? ' strongs-highlight' : ''}`}
+              title={seg.slot.strongs_numbers.join(', ')}
+              onClick={(e) => {
+                if (!onWordClick) return;
+                e.stopPropagation();
+                onWordClick(seg.slot!);
+              }}
+            >
+              {seg.text}
+            </span>
+            {notesByIndex.has(seg.slot.word_index) && renderMarkers(notesByIndex.get(seg.slot.word_index)!)}
           </span>
         ) : (
           <span key={i}>{seg.text}</span>
         ),
       )}
+      {verseEndNotes.length > 0 && renderMarkers(verseEndNotes)}
     </>
   );
 }
