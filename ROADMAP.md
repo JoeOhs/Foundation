@@ -64,11 +64,24 @@ running list of what's done and what's next, not a commitment.
   shipping a new build. Once the project has a public repo, move the
   manifest to a JSON file hosted there so the list can grow without an app
   update — still no server, no accounts, just a static file fetch.
-- **More verified public-domain sources**, both Bible translations (e.g. the
-  World English Bible, once a reliable JSON source is confirmed) and
-  extra-biblical works (public-domain commentaries — Matthew Henry, Jamieson-
-  Fausset-Brown, etc. — once suitable plain-text sources are found and their
-  structure mapped to the freeform importer).
+- **More verified public-domain sources.** Seven added 2026-07-18 from
+  scrollmapper/bible_databases (ASV, BSB, YLT, Darby, Douay-Rheims
+  Challoner, Geneva 1599, JPS 1917 Tanakh — all individually
+  license-checked; see `src/library.ts`). Still open:
+  - *World English Bible* — canonical source is eBible.org, which
+    distributes zipped USFX/OSIS rather than raw JSON; needs an unzip step
+    in the importer plus adding `ebible.org` to the HTTP capability scope.
+    (Prefer static dumps over bible-api.com, which is rate-limited and asks
+    not to be bulk-scraped.)
+  - *Commentaries* — CCEL hosts Matthew Henry (both the Concise and the
+    full six-volume Commentary, explicitly marked public domain) and
+    Jamieson-Fausset-Brown in HTML and SWORD-module form. The SWORD route
+    is likely cleaner for verse-keyed import; CCEL's per-chapter HTML would
+    map to the freeform importer's `position_ref` model with a scoped
+    fetcher. Either way, manual license check per work before adding.
+  - scrollmapper's `bible_databases_deuterocanonical` companion repo, if
+    fuller Apocrypha coverage is ever wanted (DRC already carries its
+    deuterocanon).
 - **Table of contents / section navigation for freeform texts.** Long
   imported works (commentaries, books) currently just scroll linearly;
   a collapsible list of `position_ref` section headings to jump to would fix

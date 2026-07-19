@@ -1,8 +1,11 @@
 import { fetch as httpFetch } from '@tauri-apps/plugin-http';
 import { insertParsedSource } from './db';
-import { bibleJsonToParsedSource, type BibleJsonBook } from './bibleJsonFormat';
+import {
+  bibleJsonToParsedSource, scrollmapperJsonToParsedSource,
+  type BibleJsonBook, type ScrollmapperJson,
+} from './bibleJsonFormat';
 import { importKjvStrongs } from './strongsImport';
-import type { Source, SourceType } from './types';
+import type { ParsedSource, Source, SourceType } from './types';
 
 export interface LibraryEntry {
   id: string;
@@ -14,7 +17,10 @@ export interface LibraryEntry {
   // in the UI so the user can judge for themselves, since license status
   // for Bible translations varies a lot by edition/revision.
   licenseDetail: string;
-  format: 'bible-json';
+  // bible-json: thiagobodruk/bible shape; scrollmapper-json:
+  // scrollmapper/bible_databases shape. Both hosts are already allowed in
+  // the Rust HTTP capability scope (raw.githubusercontent.com).
+  format: 'bible-json' | 'scrollmapper-json';
   url: string;
 }
 
@@ -74,6 +80,77 @@ export const LIBRARY_MANIFEST: LibraryEntry[] = [
     format: 'bible-json',
     url: 'https://raw.githubusercontent.com/thiagobodruk/bible/master/json/zh_cuv.json',
   },
+  // ---- scrollmapper/bible_databases (github.com/scrollmapper) ----
+  {
+    id: 'en_asv',
+    title: 'American Standard Version',
+    language: 'English',
+    type: 'bible',
+    license: 'public domain',
+    licenseDetail: 'Published 1901; US copyright long expired. The classic formal-equivalence revision of the KJV tradition.',
+    format: 'scrollmapper-json',
+    url: 'https://raw.githubusercontent.com/scrollmapper/bible_databases/master/formats/json/ASV.json',
+  },
+  {
+    id: 'en_bsb',
+    title: 'Berean Standard Bible',
+    language: 'English',
+    type: 'bible',
+    license: 'public domain',
+    licenseDetail: 'Modern English translation dedicated to the public domain (CC0) by its publisher on 30 April 2023.',
+    format: 'scrollmapper-json',
+    url: 'https://raw.githubusercontent.com/scrollmapper/bible_databases/master/formats/json/BSB.json',
+  },
+  {
+    id: 'en_ylt',
+    title: 'Young’s Literal Translation',
+    language: 'English',
+    type: 'bible',
+    license: 'public domain',
+    licenseDetail: 'Robert Young’s hyper-literal translation; 1898 revised edition, author died 1888 — public domain.',
+    format: 'scrollmapper-json',
+    url: 'https://raw.githubusercontent.com/scrollmapper/bible_databases/master/formats/json/YLT.json',
+  },
+  {
+    id: 'en_darby',
+    title: 'Darby Translation',
+    language: 'English',
+    type: 'bible',
+    license: 'public domain',
+    licenseDetail: 'John Nelson Darby’s translation (d. 1882); 1890 edition — public domain.',
+    format: 'scrollmapper-json',
+    url: 'https://raw.githubusercontent.com/scrollmapper/bible_databases/master/formats/json/Darby.json',
+  },
+  {
+    id: 'en_drc',
+    title: 'Douay-Rheims (Challoner Revision)',
+    language: 'English',
+    type: 'bible',
+    license: 'public domain',
+    licenseDetail: 'Bishop Challoner’s 1749–1752 revision of the Douay-Rheims; the traditional Catholic English Bible, long in the public domain. Includes deuterocanonical books.',
+    format: 'scrollmapper-json',
+    url: 'https://raw.githubusercontent.com/scrollmapper/bible_databases/master/formats/json/DRC.json',
+  },
+  {
+    id: 'en_geneva',
+    title: 'Geneva Bible (1599)',
+    language: 'English',
+    type: 'bible',
+    license: 'public domain',
+    licenseDetail: 'The 16th-century Bible of the Reformation, predating the KJV — public domain by age.',
+    format: 'scrollmapper-json',
+    url: 'https://raw.githubusercontent.com/scrollmapper/bible_databases/master/formats/json/Geneva1599.json',
+  },
+  {
+    id: 'en_jps',
+    title: 'JPS Tanakh (1917)',
+    language: 'English',
+    type: 'bible',
+    license: 'public domain',
+    licenseDetail: 'Jewish Publication Society’s 1917 English Tanakh (Old Testament only); published before 1929 — US public domain.',
+    format: 'scrollmapper-json',
+    url: 'https://raw.githubusercontent.com/scrollmapper/bible_databases/master/formats/json/JPS.json',
+  },
 ];
 
 export function alreadyInstalled(entry: LibraryEntry, sources: Source[]): boolean {
@@ -89,8 +166,14 @@ export async function downloadAndInstall(
   // downloads don't depend on each host's CORS policy.
   const res = await httpFetch(entry.url);
   if (!res.ok) throw new Error(`Download failed (${res.status})`);
-  const data: BibleJsonBook[] = await res.json();
-  const parsed = bibleJsonToParsedSource(data, entry.title);
+  let parsed: ParsedSource;
+  if (entry.format === 'scrollmapper-json') {
+    const data: ScrollmapperJson = await res.json();
+    parsed = scrollmapperJsonToParsedSource(data, entry.title);
+  } else {
+    const data: BibleJsonBook[] = await res.json();
+    parsed = bibleJsonToParsedSource(data, entry.title);
+  }
   await insertParsedSource(
     parsed,
     { title: entry.title, type: entry.type, language: entry.language, license_note: entry.license },

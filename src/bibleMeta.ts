@@ -21,6 +21,7 @@ export const CANONICAL_BOOKS: string[] = [
 const ALIASES: Record<string, string> = {
   'song of songs': 'Song of Solomon', 'canticles': 'Song of Solomon',
   'psalm': 'Psalms', 'revelations': 'Revelation',
+  'revelation of john': 'Revelation', 'revelation of st. john': 'Revelation',
   'acts of the apostles': 'Acts',
 };
 

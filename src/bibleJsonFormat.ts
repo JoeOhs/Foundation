@@ -1,4 +1,4 @@
-import { CANONICAL_BOOKS } from './bibleMeta';
+import { CANONICAL_BOOKS, canonicalBookName } from './bibleMeta';
 import type { ParsedBook, ParsedSource } from './types';
 
 // Shared by the bundled seed (public/seed/*.json) and the downloadable
@@ -33,6 +33,35 @@ export function cleanBraceMarkup(verse: string): string {
   // Unbalanced leftovers (e.g. the «epistle subscription» colophons carry
   // mismatched braces in this dataset) — drop the brace chars, keep text.
   return out.replace(/[{}]/g, '').replace(/\s{2,}/g, ' ').trim();
+}
+
+// scrollmapper/bible_databases JSON shape: { translation, books: [{ name,
+// chapters: [{ chapter, verses: [{ verse, text }] }] }] }. Book names are
+// explicit (normalized to our canonical names where they match), so
+// non-66-book texts (JPS Tanakh, Douay-Rheims with deuterocanon) work too.
+export interface ScrollmapperJson {
+  translation?: string;
+  books: {
+    name: string;
+    chapters: { chapter: number; verses: { verse: number; text: string }[] }[];
+  }[];
+}
+
+export function scrollmapperJsonToParsedSource(data: ScrollmapperJson, title: string): ParsedSource {
+  const books: ParsedBook[] = data.books.map((b) => ({
+    name: canonicalBookName(b.name) ?? b.name,
+    entries: b.chapters.flatMap((ch) =>
+      ch.verses
+        .filter((v) => v.text && v.text.trim())
+        .map((v) => ({
+          chapter: ch.chapter,
+          verse: v.verse,
+          text: v.text.trim(),
+          position_ref: null,
+        })),
+    ),
+  }));
+  return { suggestedTitle: title, suggestedType: 'bible', structure: 'verse-keyed', books, warnings: [] };
 }
 
 export function bibleJsonToParsedSource(data: BibleJsonBook[], title: string): ParsedSource {

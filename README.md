@@ -5,7 +5,7 @@ A personal, single-user, fully offline desktop Bible study application. Built wi
 ## Features
 
 - **Parallel view** — up to 4 translations side by side in synced, resizable columns. Scrolling one pane scrolls the others to the same verse; navigation moves all panes together.
-- **Library downloader** — fetch additional public-domain Bible translations on demand from a hand-curated, license-checked list (`src/library.ts`). No account, no marketplace, no paid content — just a direct download into your local library.
+- **Library downloader** — fetch additional public-domain Bible translations on demand from a hand-curated, license-checked list (`src/library.ts`): ASV, Berean Standard Bible, Young's Literal, Darby, Douay-Rheims (with deuterocanon), Geneva 1599, JPS 1917 Tanakh, and several non-English classics. No account, no marketplace, no paid content — just a direct download into your local library.
 - **Import pipeline** — bring in plain text, Markdown, JSON, CSV/TSV, or XML. Verse-keyed texts map onto book/chapter/verse; anything else is stored as page/section-anchored entries. Unparseable input degrades gracefully to a freeform document instead of failing. Legacy SQLite-based module files you own can be read as a one-time personal data migration.
 - **Notes** — anchored to a verse, chapter, or book (shown across all translations), or free-floating. Stored locally in SQLite.
 - **Dark mode** — first-class theming via CSS variables; follows the OS by default with a manual toggle.
