@@ -1,0 +1,209 @@
+/* Theme registry CSS — token tables from THEMES.md. Each theme is a flat
+   block of custom properties on [data-theme] on <html>; switching themes
+   is an attribute swap, no stylesheet reload.
+
+   The rest of the stylesheet still consumes the original variable names
+   (--bg, --bg-panel, --text, --accent, ...); they're defined once below as
+   aliases of the new contract so every component picks up all six themes
+   without a rename sweep. */
+
+/* ---------- fallback theme: Obsidian (an unthemed state never breaks) --- */
+:root {
+  --bg-base: #0a0a0c;
+  --bg-surface: #151517;
+  --bg-surface-raised: #1c1c1f;
+  --bg-hover: #202023;
+  --border: #2a2a2e;
+  --border-strong: #6b6f78;
+  --text-primary: #e8e8ea;
+  --text-secondary: #a3a3aa;
+  --text-muted: #6e6e76;
+  --accent-primary: #c4c9d4;
+  --accent-secondary: #8a93a3;
+  --accent-tertiary: #dfae61;
+  --scrollbar-thumb: #3a3a3e;
+  --gradient-shell: linear-gradient(160deg, #0a0a0c 0%, #131316 45%, #0d0d10 75%, #050506 100%);
+  --danger: #e06c75;
+  color-scheme: dark;
+
+  /* ---- legacy aliases (pre-theme-registry variable names) ---- */
+  --bg: var(--bg-base);
+  --bg-panel: var(--bg-surface);
+  --bg-raised: var(--bg-surface-raised);
+  --text: var(--text-primary);
+  --text-dim: var(--text-secondary);
+  --accent: var(--accent-primary);
+  --accent-soft: color-mix(in srgb, var(--accent-primary) 16%, transparent);
+  --mark-bg: color-mix(in srgb, var(--accent-secondary) 32%, transparent);
+}
+
+[data-theme='midnight'] {
+  --bg-base: #0e0a1c;
+  --bg-surface: #181229;
+  --bg-surface-raised: #201934;
+  --bg-hover: #261f3d;
+  --border: #2e2547;
+  --border-strong: #7c5cff;
+  --text-primary: #e8e4f5;
+  --text-secondary: #a99fc7;
+  --text-muted: #6e6490;
+  --accent-primary: #8b6ef2;
+  --accent-secondary: #4fd7c4;
+  --accent-tertiary: #f2a3d0;
+  --scrollbar-thumb: #332a52;
+  --gradient-shell: radial-gradient(ellipse at top left, #241a3f 0%, #150f28 40%, #0e0a1c 100%);
+}
+
+[data-theme='cosmic'] {
+  --bg-base: #0a0014;
+  --bg-surface: #140a24;
+  --bg-surface-raised: #1c1030;
+  --bg-hover: #241736;
+  --border: #2c1b42;
+  --border-strong: #ff6ec7;
+  --text-primary: #f0e9fb;
+  --text-secondary: #b39ddb;
+  --text-muted: #7a5f9e;
+  --accent-primary: #00e5ff;
+  --accent-secondary: #ff6ec7;
+  --accent-tertiary: #a742ff;
+  --scrollbar-thumb: #3a2358;
+  --gradient-shell: linear-gradient(135deg, #0a0014 0%, #170a2e 35%, #240f3d 55%, #14082a 80%, #0a0014 100%);
+}
+
+[data-theme='sunset'] {
+  --bg-base: #1a0d08;
+  --bg-surface: #28140c;
+  --bg-surface-raised: #331a10;
+  --bg-hover: #3d2013;
+  --border: #452a1c;
+  --border-strong: #ff5722;
+  --text-primary: #fbe6d4;
+  --text-secondary: #d9a583;
+  --text-muted: #a3745a;
+  --accent-primary: #ff7043;
+  --accent-secondary: #ffab40;
+  --accent-tertiary: #ff1744;
+  --scrollbar-thumb: #4a2a18;
+  --gradient-shell: linear-gradient(180deg, #1a0d08 0%, #2b140a 40%, #3d1810 70%, #24100a 100%),
+    radial-gradient(circle at 50% 100%, rgba(255, 87, 34, 0.10), transparent 60%);
+}
+
+[data-theme='emerald'] {
+  --bg-base: #0e1f16;
+  --bg-surface: #16301f;
+  --bg-surface-raised: #1c3a27;
+  --bg-hover: #234630;
+  --border: #2b4d36;
+  --border-strong: #4caf7d;
+  --text-primary: #e6f2e9;
+  --text-secondary: #a8cbb4;
+  --text-muted: #729b80;
+  --accent-primary: #5fd393;
+  --accent-secondary: #d4a24e;
+  --accent-tertiary: #b08968;
+  --scrollbar-thumb: #2f5a3e;
+  --gradient-shell: linear-gradient(160deg, #0e1f16 0%, #163527 45%, #0f2a1c 75%, #0a1c12 100%);
+}
+
+[data-theme='nova'] {
+  --bg-base: #faf7f2;
+  --bg-surface: #ffffff;
+  --bg-surface-raised: #ffffff;
+  --bg-hover: #f2ede3;
+  --border: #e6ddd0;
+  --border-strong: #8fb8d9;
+  --text-primary: #2b2924;
+  --text-secondary: #6b6457;
+  --text-muted: #9a9284;
+  --accent-primary: #7ba7cc;
+  --accent-secondary: #e8a3b3;
+  --accent-tertiary: #a8cca0;
+  --scrollbar-thumb: #d9d0c0;
+  --gradient-shell: linear-gradient(160deg, #faf7f2 0%, #f5efe4 50%, #f0e8da 100%);
+  --danger: #c0392b;
+  color-scheme: light;
+  /* accent-soft/mark-bg need slightly stronger mixes on paper-white */
+  --accent-soft: color-mix(in srgb, var(--accent-primary) 20%, transparent);
+  --mark-bg: color-mix(in srgb, var(--accent-secondary) 45%, transparent);
+}
+
+/* ---------- per-theme signature details (THEMES.md) ---------- */
+
+/* Obsidian: faint bevel catching light along pane header top edges */
+[data-theme='obsidian'] .pane-header,
+:root:not([data-theme]) .pane-header {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+/* Midnight: glossy "wet ink" glow on the highlighted Strong's word */
+[data-theme='midnight'] .strongs-word.strongs-highlight {
+  box-shadow: 0 0 12px rgba(79, 215, 196, 0.35);
+}
+
+/* Cosmic: one restrained moving element — the pink "sun" glow drifts
+   slightly. Disabled entirely under prefers-reduced-motion. */
+[data-theme='cosmic'] body::before {
+  content: '';
+  position: fixed;
+  inset: -5%;
+  z-index: 0;
+  pointer-events: none;
+  background: radial-gradient(circle at 80% 20%, rgba(255, 110, 199, 0.12), transparent 50%);
+  animation: cosmic-drift 20s ease-in-out infinite alternate;
+}
+@keyframes cosmic-drift {
+  from { transform: translate(0, 0); }
+  to { transform: translate(2.5%, 2%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-theme='cosmic'] body::before { animation: none; }
+}
+
+/* Nova: elevation via shadow, not color (surface-raised is also white) */
+[data-theme='nova'] .modal,
+[data-theme='nova'] .footnote-pop,
+[data-theme='nova'] .theme-pop {
+  box-shadow: 0 10px 32px rgba(60, 50, 30, 0.18);
+}
+
+/* ---------- theme picker ---------- */
+.theme-picker { position: relative; }
+.theme-pop {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 6px);
+  z-index: 20;
+  background: var(--bg-surface-raised);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.3);
+  width: max-content;
+}
+.theme-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  background: transparent;
+  font-size: 12px;
+  color: var(--text-primary);
+}
+.theme-option:hover { background: var(--bg-hover); }
+.theme-option.active { border-color: var(--border-strong); }
+.theme-chips { display: flex; }
+.theme-chip {
+  width: 13px;
+  height: 13px;
+  border-radius: 4px;
+  margin-left: -4px;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+}
+.theme-chip:first-child { margin-left: 0; }

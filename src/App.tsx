@@ -7,9 +7,9 @@ import SearchPanel from './components/SearchPanel';
 import ImportWizard from './components/ImportWizard';
 import LibraryPanel from './components/LibraryPanel';
 import ConcordancePanel from './components/ConcordancePanel';
+import ThemePicker from './components/ThemePicker';
+import { applyTheme, normalizeStoredTheme, systemDefaultTheme, type ThemeId } from './themes';
 import type { Book, Reference, SearchHit, Source, StrongsSearchHit, VerseSelection } from './types';
-
-type Theme = 'dark' | 'light';
 
 function loadPref<T>(key: string, fallback: T): T {
   try {
@@ -23,9 +23,6 @@ function loadPref<T>(key: string, fallback: T): T {
 function savePref<T>(key: string, value: T): void {
   localStorage.setItem(`foundation.${key}`, JSON.stringify(value));
 }
-
-const systemTheme = (): Theme =>
-  window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
 
 export default function App() {
   const [phase, setPhase] = useState<'loading' | 'ready' | 'error'>('loading');
@@ -71,8 +68,11 @@ export default function App() {
     else openSearch(surfaceText);
   };
 
-  // theme: null = follow OS
-  const [themeOverride, setThemeOverride] = useState<Theme | null>(() => loadPref('theme', null));
+  // theme: null = follow OS (Obsidian on dark systems, Nova on light).
+  // Legacy stored 'dark'/'light' values migrate via normalizeStoredTheme.
+  const [themeOverride, setThemeOverride] = useState<ThemeId | null>(() =>
+    normalizeStoredTheme(loadPref<unknown>('theme', null)),
+  );
   const [readerSize, setReaderSize] = useState<number>(() => loadPref('readerSize', 17));
 
   const bodies = useRef<(HTMLDivElement | null)[]>([]);
@@ -107,14 +107,14 @@ export default function App() {
   }, []);
 
   // ---------- theme ----------
-  const theme = themeOverride ?? systemTheme();
+  const theme: ThemeId = themeOverride ?? systemDefaultTheme();
   useEffect(() => {
-    document.documentElement.dataset.theme = theme;
+    applyTheme(theme);
   }, [theme]);
   useEffect(() => {
     const mq = window.matchMedia('(prefers-color-scheme: light)');
     const listener = () => {
-      if (themeOverride === null) document.documentElement.dataset.theme = systemTheme();
+      if (themeOverride === null) applyTheme(systemDefaultTheme());
     };
     mq.addEventListener('change', listener);
     return () => mq.removeEventListener('change', listener);
@@ -398,13 +398,7 @@ export default function App() {
         <button onClick={() => setNotesOpen((v) => !v)} title="Toggle notes panel">📝 Notes</button>
         <button className="icon" onClick={() => setReaderSize((s) => Math.max(12, s - 1))} title="Smaller text">A−</button>
         <button className="icon" onClick={() => setReaderSize((s) => Math.min(28, s + 1))} title="Larger text">A+</button>
-        <button
-          className="icon"
-          onClick={() => setThemeOverride(theme === 'dark' ? 'light' : 'dark')}
-          title={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
-        >
-          {theme === 'dark' ? '☀' : '🌙'}
-        </button>
+        <ThemePicker current={theme} onSelect={setThemeOverride} />
       </div>
       <div className="main">
         <div className="panes">

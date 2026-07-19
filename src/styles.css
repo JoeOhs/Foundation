@@ -1,38 +1,10 @@
-/* Theme: CSS variables, dark & light. data-theme on <html>. */
+/* Theme variables live in themes.css (imported before this file).
+   Rule of the theme system: panes are FLAT (--bg-surface), only the app
+   shell carries the gradient — reading text never sits on a gradient. */
 :root {
   --font-ui: 'Segoe UI', system-ui, sans-serif;
   --font-reader: Georgia, 'Times New Roman', serif;
   --reader-size: 17px;
-}
-
-html[data-theme='dark'] {
-  --bg: #16181d;
-  --bg-panel: #1e2128;
-  --bg-raised: #262a33;
-  --bg-hover: #2e333e;
-  --text: #d8dae0;
-  --text-dim: #8a8f9c;
-  --accent: #7aa2f7;
-  --accent-soft: rgba(122, 162, 247, 0.16);
-  --border: #30343f;
-  --mark-bg: #4a4520;
-  --danger: #e06c75;
-  color-scheme: dark;
-}
-
-html[data-theme='light'] {
-  --bg: #f6f5f2;
-  --bg-panel: #ffffff;
-  --bg-raised: #efede8;
-  --bg-hover: #e7e4dd;
-  --text: #2b2a27;
-  --text-dim: #7a776f;
-  --accent: #3861c4;
-  --accent-soft: rgba(56, 97, 196, 0.12);
-  --border: #dcd9d1;
-  --mark-bg: #ffe9a8;
-  --danger: #c0392b;
-  color-scheme: light;
 }
 
 * { box-sizing: border-box; }
@@ -44,26 +16,36 @@ html, body, #root {
 
 body {
   font-family: var(--font-ui);
-  background: var(--bg);
+  background-color: var(--bg-base);
+  background-image: var(--gradient-shell);
+  background-attachment: fixed;
   color: var(--text);
   font-size: 14px;
   overflow: hidden;
 }
 
+/* stacked above the cosmic drift overlay (body::before, z-index 0) */
 .app {
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   height: 100%;
 }
 
+*::-webkit-scrollbar { width: 10px; height: 10px; }
+*::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); border-radius: 5px; }
+*::-webkit-scrollbar-track { background: transparent; }
+
 /* ---------- toolbar ---------- */
 
+/* transparent so the shell gradient shows through the app chrome */
 .toolbar {
   display: flex;
   align-items: center;
   gap: 8px;
   padding: 8px 12px;
-  background: var(--bg-panel);
+  background: transparent;
   border-bottom: 1px solid var(--border);
   flex-shrink: 0;
 }
@@ -120,7 +102,7 @@ select:focus, input:focus, button:focus-visible {
   min-width: 180px;
   flex: 1 1 0;
   border-right: 1px solid var(--border);
-  background: var(--bg);
+  background: var(--bg-surface); /* flat — protects reading contrast */
 }
 
 .pane-header {
@@ -216,7 +198,7 @@ select:focus, input:focus, button:focus-visible {
   position: sticky;
   top: 0;
   z-index: 3;
-  background: var(--bg-panel);
+  background: var(--bg-surface-raised);
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 9px 12px;
@@ -302,7 +284,9 @@ select:focus, input:focus, button:focus-visible {
   font-family: var(--font-ui);
   font-size: 0.65em;
   vertical-align: super;
-  color: var(--accent);
+  /* accent-secondary per THEMES.md — gold "gilt page edge" in Emerald,
+     and each theme's secondary tone elsewhere */
+  color: var(--accent-secondary);
   cursor: pointer;
   padding: 0 1px;
   user-select: none;
@@ -430,7 +414,7 @@ select:focus, input:focus, button:focus-visible {
 }
 
 .modal {
-  background: var(--bg-panel);
+  background: var(--bg-surface-raised);
   border: 1px solid var(--border);
   border-radius: 12px;
   width: min(720px, 92vw);
