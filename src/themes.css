@@ -178,11 +178,28 @@
   border: 1px solid var(--border);
   border-radius: 10px;
   padding: 8px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.3);
+  width: max-content;
+}
+.theme-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4px;
-  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.3);
-  width: max-content;
+}
+.theme-section-label {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  padding: 6px 10px 4px 10px;
+}
+.font-sample {
+  font-size: 14px;
+  line-height: 1;
+  width: 22px;
+  text-align: center;
+  color: var(--text-secondary);
 }
 .theme-option {
   display: flex;

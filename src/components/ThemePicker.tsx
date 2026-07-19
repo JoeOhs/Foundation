@@ -1,58 +1,91 @@
 import { useEffect, useRef, useState } from 'react';
 import { THEMES, THEME_IDS, applyTheme, type ThemeId } from '../themes';
+import { FONT_IDS, READER_FONTS, applyReaderFont, type FontId } from '../fonts';
 
 interface ThemePickerProps {
-  current: ThemeId;
-  onSelect: (id: ThemeId) => void;
+  currentTheme: ThemeId;
+  currentFont: FontId;
+  onSelectTheme: (id: ThemeId) => void;
+  onSelectFont: (id: FontId) => void;
 }
 
-// Six swatch buttons rather than a dropdown of names. Hovering an option
-// applies its theme live (pure attribute swap — instant, reversible);
-// leaving the panel restores the committed theme; clicking commits.
-export default function ThemePicker({ current, onSelect }: ThemePickerProps) {
+// The 🎨 appearance popover: six theme swatches plus the reader-font list.
+// Hovering an option applies it live (pure attribute/property swap —
+// instant, reversible); leaving the panel restores committed choices;
+// clicking commits.
+export default function ThemePicker({ currentTheme, currentFont, onSelectTheme, onSelectFont }: ThemePickerProps) {
   const [open, setOpen] = useState(false);
   const rootRef = useRef<HTMLDivElement>(null);
+
+  const restorePreview = () => {
+    applyTheme(currentTheme);
+    applyReaderFont(currentFont);
+  };
 
   useEffect(() => {
     if (!open) return;
     const close = (e: MouseEvent) => {
       if (rootRef.current && !rootRef.current.contains(e.target as Node)) {
-        applyTheme(current);
+        restorePreview();
         setOpen(false);
       }
     };
     document.addEventListener('mousedown', close);
     return () => document.removeEventListener('mousedown', close);
-  }, [open, current]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [open, currentTheme, currentFont]);
 
   return (
     <div className="theme-picker" ref={rootRef}>
-      <button className="icon" onClick={() => setOpen((v) => !v)} title="Theme">
+      <button className="icon" onClick={() => setOpen((v) => !v)} title="Appearance">
         🎨
       </button>
       {open && (
-        <div className="theme-pop" onMouseLeave={() => applyTheme(current)}>
-          {THEME_IDS.map((id) => {
-            const meta = THEMES[id];
-            return (
-              <button
-                key={id}
-                className={`theme-option${id === current ? ' active' : ''}`}
-                onMouseEnter={() => applyTheme(id)}
-                onClick={() => {
-                  onSelect(id);
-                  setOpen(false);
-                }}
-              >
-                <span className="theme-chips">
-                  {meta.swatch.map((c) => (
-                    <span key={c} className="theme-chip" style={{ background: c }} />
-                  ))}
-                </span>
-                {meta.label}
-              </button>
-            );
-          })}
+        <div className="theme-pop" onMouseLeave={restorePreview}>
+          <div className="theme-section-label">Theme</div>
+          <div className="theme-grid">
+            {THEME_IDS.map((id) => {
+              const meta = THEMES[id];
+              return (
+                <button
+                  key={id}
+                  className={`theme-option${id === currentTheme ? ' active' : ''}`}
+                  onMouseEnter={() => applyTheme(id)}
+                  onClick={() => {
+                    onSelectTheme(id);
+                    setOpen(false);
+                  }}
+                >
+                  <span className="theme-chips">
+                    {meta.swatch.map((c) => (
+                      <span key={c} className="theme-chip" style={{ background: c }} />
+                    ))}
+                  </span>
+                  {meta.label}
+                </button>
+              );
+            })}
+          </div>
+          <div className="theme-section-label">Reader font</div>
+          <div className="theme-grid">
+            {FONT_IDS.map((id) => {
+              const meta = READER_FONTS[id];
+              return (
+                <button
+                  key={id}
+                  className={`theme-option${id === currentFont ? ' active' : ''}`}
+                  onMouseEnter={() => applyReaderFont(id)}
+                  onClick={() => {
+                    onSelectFont(id);
+                    setOpen(false);
+                  }}
+                >
+                  <span className="font-sample" style={{ fontFamily: meta.stack }}>Aa</span>
+                  {meta.label}
+                </button>
+              );
+            })}
+          </div>
         </div>
       )}
     </div>

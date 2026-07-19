@@ -9,6 +9,7 @@ import LibraryPanel from './components/LibraryPanel';
 import ConcordancePanel from './components/ConcordancePanel';
 import ThemePicker from './components/ThemePicker';
 import { applyTheme, normalizeStoredTheme, systemDefaultTheme, type ThemeId } from './themes';
+import { applyReaderFont, normalizeStoredFont, type FontId } from './fonts';
 import type { Book, Reference, SearchHit, Source, StrongsSearchHit, VerseSelection } from './types';
 
 function loadPref<T>(key: string, fallback: T): T {
@@ -74,6 +75,9 @@ export default function App() {
     normalizeStoredTheme(loadPref<unknown>('theme', null)),
   );
   const [readerSize, setReaderSize] = useState<number>(() => loadPref('readerSize', 17));
+  const [readerFont, setReaderFont] = useState<FontId>(
+    () => normalizeStoredFont(loadPref<unknown>('readerFont', null)) ?? 'georgia',
+  );
 
   const bodies = useRef<(HTMLDivElement | null)[]>([]);
   const activePane = useRef<number>(-1);
@@ -124,6 +128,11 @@ export default function App() {
     document.documentElement.style.setProperty('--reader-size', `${readerSize}px`);
     savePref('readerSize', readerSize);
   }, [readerSize]);
+
+  useEffect(() => {
+    applyReaderFont(readerFont);
+    savePref('readerFont', readerFont);
+  }, [readerFont]);
 
   // ---------- persistence ----------
   useEffect(() => { savePref('ref', refState); }, [refState]);
@@ -398,7 +407,12 @@ export default function App() {
         <button onClick={() => setNotesOpen((v) => !v)} title="Toggle notes panel">📝 Notes</button>
         <button className="icon" onClick={() => setReaderSize((s) => Math.max(12, s - 1))} title="Smaller text">A−</button>
         <button className="icon" onClick={() => setReaderSize((s) => Math.min(28, s + 1))} title="Larger text">A+</button>
-        <ThemePicker current={theme} onSelect={setThemeOverride} />
+        <ThemePicker
+          currentTheme={theme}
+          currentFont={readerFont}
+          onSelectTheme={setThemeOverride}
+          onSelectFont={setReaderFont}
+        />
       </div>
       <div className="main">
         <div className="panes">

@@ -12,7 +12,7 @@ A personal, single-user, fully offline desktop Bible study application. Built wi
 - **Search** — SQLite FTS5 full-text search across all sources and notes, grouped by source, click-to-navigate.
 - **Smart search (KJV + Strong's numbers)** — an optional Library add-on tags the KJV with Strong's numbers; once installed, searching a word groups results by the original Hebrew/Greek word it actually translates (e.g. "love" splits into agapē vs phileō vs chesed), each group showing a gloss and its verse list with the matched word highlighted inline, plus a total occurrence count. Additive — regular full-text search always still runs alongside it. Tagged words in the reader are individually clickable to look up every other occurrence of that same original word.
 - **Concordance pane** — the grouped Strong's view is also available as a docked side pane (🔤 in the toolbar) that scrolls independently of the Bible panes, for longer study sessions. With the pane open, clicking a tagged word updates it in place; with it closed, word clicks open the search modal, which has an "Open in pane →" button to promote the lookup. Verse clicks in the pane navigate the reader without closing it.
-- **Readability** — adjustable reader font size, serif reading font, layout/theme/reference persistence between sessions.
+- **Readability** — adjustable reader font size and a curated reader-font choice (Georgia, Palatino, Cambria, Constantia, Segoe UI, Verdana — system font stacks only, nothing bundled or licensed), with layout/theme/font/reference persistence between sessions.
 
 Seeded with two public-domain translations: King James Version and Bible in Basic English (`public/seed/`). More are available in-app via **Library**.
 
