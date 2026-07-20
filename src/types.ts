@@ -51,6 +51,13 @@ export interface VerseSelection {
   verse: number;
 }
 
+// A selected verse carrying enough to render it into a note without a
+// re-query — text + which translation it came from.
+export interface SelectedVerse extends VerseSelection {
+  text: string;
+  sourceTitle: string;
+}
+
 export interface SearchHit {
   kind: 'entry' | 'note';
   id: number;

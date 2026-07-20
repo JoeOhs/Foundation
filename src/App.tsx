@@ -11,7 +11,8 @@ import ConcordancePanel from './components/ConcordancePanel';
 import ThemePicker from './components/ThemePicker';
 import { applyTheme, normalizeStoredTheme, systemDefaultTheme, type ThemeId } from './themes';
 import { applyReaderFont, normalizeStoredFont, type FontId } from './fonts';
-import type { Book, Reference, SearchHit, Source, StrongsSearchHit, VerseSelection } from './types';
+import { versesToMarkdown } from './scripture';
+import type { Book, Reference, SearchHit, SelectedVerse, Source, StrongsSearchHit, VerseSelection } from './types';
 
 function loadPref<T>(key: string, fallback: T): T {
   try {
@@ -47,9 +48,35 @@ export default function App() {
   });
   // Group B's shared reference (its lowest-index member navigates it)
   const [groupBRef, setGroupBRef] = useState<Reference>(() => loadPref('groupBRef', { book: 'Genesis', chapter: 1 }));
-  const [selection, setSelection] = useState<VerseSelection | null>(null);
+  const [selectedVerses, setSelectedVerses] = useState<SelectedVerse[]>([]);
+  const [selectionAnchor, setSelectionAnchor] = useState<VerseSelection | null>(null);
   const [notedVerses, setNotedVerses] = useState<Set<number>>(new Set());
   const [highlightWord, setHighlightWord] = useState<HighlightWord | null>(null);
+
+  // note-anchor default = first selected verse; keys drive pane highlight
+  const selection: VerseSelection | null = selectedVerses[0]
+    ? { book: selectedVerses[0].book, chapter: selectedVerses[0].chapter, verse: selectedVerses[0].verse }
+    : null;
+  const selectedKeys = useMemo(
+    () => new Set(selectedVerses.map((v) => `${v.book}|${v.chapter}|${v.verse}`)),
+    [selectedVerses],
+  );
+
+  const selectVerses = (verses: SelectedVerse[], anchor: VerseSelection) => {
+    setSelectedVerses(verses);
+    setSelectionAnchor(anchor);
+  };
+
+  // Single-verse select used by search/concordance navigation (text filled
+  // by the pane when the user actually clicks; empty here is fine for
+  // highlight + note anchor).
+  const selectSingle = (book: string, chapter: number, verse: number) => {
+    const v: SelectedVerse = { book, chapter, verse, text: '', sourceTitle: '' };
+    setSelectedVerses([v]);
+    setSelectionAnchor(v);
+  };
+
+  const clearSelection = () => setSelectedVerses([]);
 
   const [notesOpen, setNotesOpen] = useState<boolean>(() => loadPref('notesOpen', false));
   const [concordanceOpen, setConcordanceOpen] = useState<boolean>(() => loadPref('concordanceOpen', false));
@@ -78,6 +105,22 @@ export default function App() {
   const handleWordClick = (surfaceText: string) => {
     if (concordanceOpen) sendToConcordance(surfaceText);
     else openSearch(surfaceText);
+  };
+
+  // Insert the currently selected verses into the open note editor as a
+  // markdown blockquote. The editor (docked here, or the popped-out window
+  // in Phase D) listens for this window event and inserts at the cursor.
+  const addSelectionToNote = () => {
+    if (selectedVerses.length === 0) return;
+    const md = versesToMarkdown(selectedVerses);
+    const dispatch = () => window.dispatchEvent(new CustomEvent('foundation:insert-note-md', { detail: md }));
+    if (!notesOpen) {
+      setNotesOpen(true);
+      // wait for NotesPanel to mount its listener before dispatching
+      setTimeout(dispatch, 80);
+    } else {
+      dispatch();
+    }
   };
 
   // theme: null = follow OS (Obsidian on dark systems, Nova on light).
@@ -188,8 +231,11 @@ export default function App() {
 
   // clear verse selection and word highlight when leaving the chapter
   useEffect(() => {
-    setSelection((sel) =>
-      sel && sel.book === refState.book && sel.chapter === refState.chapter ? sel : null,
+    setSelectedVerses((vs) =>
+      vs.length && vs[0].book === refState.book && vs[0].chapter === refState.chapter ? vs : [],
+    );
+    setSelectionAnchor((a) =>
+      a && a.book === refState.book && a.chapter === refState.chapter ? a : null,
     );
     setHighlightWord((hw) =>
       hw && hw.book === refState.book && hw.chapter === refState.chapter ? hw : null,
@@ -327,7 +373,7 @@ export default function App() {
       if (hit.book && books.some((b) => b.name === hit.book)) {
         navigate(hit.book, hit.chapter ?? 1);
         if (hit.verse != null && hit.chapter != null) {
-          setSelection({ book: hit.book, chapter: hit.chapter, verse: hit.verse });
+          selectSingle(hit.book, hit.chapter, hit.verse);
           scrollToVerse(hit.verse);
         }
       }
@@ -340,7 +386,7 @@ export default function App() {
       }
       navigate(hit.book, hit.chapter ?? 1);
       if (hit.verse != null && hit.chapter != null) {
-        setSelection({ book: hit.book, chapter: hit.chapter, verse: hit.verse });
+        selectSingle(hit.book, hit.chapter, hit.verse);
         scrollToVerse(hit.verse);
       }
     } else if (hit.source_id != null) {
@@ -356,7 +402,7 @@ export default function App() {
       setPaneSource(0, hit.source_id);
     }
     navigate(hit.book, hit.chapter);
-    setSelection({ book: hit.book, chapter: hit.chapter, verse: hit.verse });
+    selectSingle(hit.book, hit.chapter, hit.verse);
     setHighlightWord({ book: hit.book, chapter: hit.chapter, verse: hit.verse, wordIndex: hit.word_index });
     scrollToVerse(hit.verse);
   };
@@ -445,11 +491,12 @@ export default function App() {
                   mode={paneModeOf(i)}
                   reference={paneReferenceOf(i)}
                   noteAnchorRef={refState}
-                  selection={selection}
+                  selectedKeys={selectedKeys}
+                  selectionAnchor={selectionAnchor}
                   notedVerses={notedVerses}
                   highlightWord={highlightWord}
                   onNavigate={(book, chapter) => handlePaneNavigate(i, book, chapter)}
-                  onSelect={setSelection}
+                  onSelectVerses={selectVerses}
                   onChangeSource={(id) => setPaneSource(i, id)}
                   onClose={() => closePane(i)}
                   canClose={paneSourceIds.length > 1}
@@ -485,6 +532,15 @@ export default function App() {
             onNotesChanged={reloadNoteDots}
             onClose={() => setNotesOpen(false)}
           />
+        )}
+        {selectedVerses.length > 0 && selectedVerses.some((v) => v.text) && (
+          <div className="verse-action-bar">
+            <span className="verse-action-count">
+              {selectedVerses.length} verse{selectedVerses.length > 1 ? 's' : ''} selected
+            </span>
+            <button className="primary" onClick={addSelectionToNote}>✎ Add to note</button>
+            <button className="icon" onClick={clearSelection} title="Clear selection">✕</button>
+          </div>
         )}
       </div>
       {searchOpen && (

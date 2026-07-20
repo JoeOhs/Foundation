@@ -1,5 +1,7 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { addNote, deleteNote, freeNotes, notesForChapter, updateNote } from '../db';
+import { renderMarkdown } from '../markdown';
+import NoteEditor, { type NoteEditorHandle } from './NoteEditor';
 import type { Note, Reference, VerseSelection } from '../types';
 
 type AnchorKind = 'verse' | 'chapter' | 'book' | 'free';
@@ -8,7 +10,12 @@ interface NotesPanelProps {
   refState: Reference;
   selection: VerseSelection | null;
   onNotesChanged: () => void;
-  onClose: () => void;
+  onClose?: () => void;
+  onPopOut?: () => void;
+  onImport?: () => void;
+  onExport?: () => void;
+  // popout window renders NotesPanel standalone (no docked chrome)
+  standalone?: boolean;
 }
 
 function anchorLabel(n: Note): string {
@@ -18,13 +25,16 @@ function anchorLabel(n: Note): string {
   return 'Free-floating';
 }
 
-export default function NotesPanel({ refState, selection, onNotesChanged, onClose }: NotesPanelProps) {
+export default function NotesPanel({
+  refState, selection, onNotesChanged, onClose, onPopOut, onImport, onExport, standalone,
+}: NotesPanelProps) {
   const [showFree, setShowFree] = useState(false);
   const [notes, setNotes] = useState<Note[]>([]);
   const [editing, setEditing] = useState<Note | null>(null);
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
   const [anchor, setAnchor] = useState<AnchorKind>('verse');
+  const editorRef = useRef<NoteEditorHandle>(null);
 
   const reload = useCallback(async () => {
     setNotes(showFree ? await freeNotes() : await notesForChapter(refState.book, refState.chapter));
@@ -39,10 +49,23 @@ export default function NotesPanel({ refState, selection, onNotesChanged, onClos
     else setAnchor('chapter');
   }, [selection, showFree]);
 
+  // Scripture inserted from the reader ("Add to note") arrives as a window
+  // event so it works whether the editor is docked or popped out. Bridged
+  // from the Tauri cross-window event in App/NotesWindow.
+  useEffect(() => {
+    const onInsert = (e: Event) => {
+      const md = (e as CustomEvent<string>).detail;
+      if (md) editorRef.current?.insertAtCursor(md);
+    };
+    window.addEventListener('foundation:insert-note-md', onInsert);
+    return () => window.removeEventListener('foundation:insert-note-md', onInsert);
+  }, []);
+
   const startEdit = (n: Note) => {
     setEditing(n);
     setTitle(n.title ?? '');
     setContent(n.content);
+    requestAnimationFrame(() => editorRef.current?.focus());
   };
 
   const cancelEdit = () => {
@@ -81,15 +104,18 @@ export default function NotesPanel({ refState, selection, onNotesChanged, onClos
   };
 
   return (
-    <div className="notes-panel">
+    <div className={`notes-panel${standalone ? ' notes-standalone' : ''}`}>
       <div className="notes-header">
         <span>Notes</span>
-        <div style={{ display: 'flex', gap: 6 }}>
+        <div style={{ display: 'flex', gap: 6, alignItems: 'center' }}>
           <button onClick={() => setShowFree(false)} disabled={!showFree}>
             {refState.book} {refState.chapter}
           </button>
           <button onClick={() => setShowFree(true)} disabled={showFree}>Free</button>
-          <button className="icon" onClick={onClose} title="Close notes">✕</button>
+          {onImport && <button className="icon" onClick={onImport} title="Import notes">📥</button>}
+          {onExport && <button className="icon" onClick={onExport} title="Export notes">📤</button>}
+          {onPopOut && <button className="icon" onClick={onPopOut} title="Open in a separate window">⧉</button>}
+          {onClose && <button className="icon" onClick={onClose} title="Close notes">✕</button>}
         </div>
       </div>
       <div className="notes-body">
@@ -102,7 +128,7 @@ export default function NotesPanel({ refState, selection, onNotesChanged, onClos
           <div className="note-card" key={n.id}>
             <div className="note-anchor">{anchorLabel(n)}</div>
             {n.title && <div className="note-title">{n.title}</div>}
-            <div className="note-content">{n.content}</div>
+            <div className="note-content note-md" dangerouslySetInnerHTML={{ __html: renderMarkdown(n.content) }} />
             <div className="note-actions">
               <button onClick={() => startEdit(n)}>Edit</button>
               <button className="danger" onClick={() => remove(n)}>Delete</button>
@@ -127,7 +153,7 @@ export default function NotesPanel({ refState, selection, onNotesChanged, onClos
           </div>
         )}
         <input type="text" placeholder="Title (optional)" value={title} onChange={(e) => setTitle(e.target.value)} />
-        <textarea placeholder="Write a note…" value={content} onChange={(e) => setContent(e.target.value)} />
+        <NoteEditor ref={editorRef} value={content} onChange={setContent} placeholder="Write a note in Markdown…" />
         <div className="row">
           <button className="primary" onClick={save} disabled={!content.trim()}>
             {editing ? 'Save changes' : 'Add note'}

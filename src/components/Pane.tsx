@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { getChapters, getEntries, getEntryNotesForEntries, getStrongsWordsForEntries, listBooks } from '../db';
 import StrongsVerseText from './StrongsWords';
-import type { Book, Entry, EntryNote, Reference, Source, StrongsWordRow, VerseSelection } from '../types';
+import type { Book, Entry, EntryNote, Reference, SelectedVerse, Source, StrongsWordRow, VerseSelection } from '../types';
 
 export interface HighlightWord extends VerseSelection {
   wordIndex: number;
@@ -22,11 +22,14 @@ interface PaneProps {
   reference: Reference;
   // Pane 1's reference — note dots apply only when this pane is showing it
   noteAnchorRef: Reference;
-  selection: VerseSelection | null;
+  // keys "book|chapter|verse" of currently selected verses, for highlight
+  selectedKeys: Set<string>;
+  // anchor for shift+click range extension (null starts a fresh selection)
+  selectionAnchor: VerseSelection | null;
   notedVerses: Set<number>;
   highlightWord: HighlightWord | null;
   onNavigate?: (book: string, chapter: number) => void;
-  onSelect: (v: VerseSelection) => void;
+  onSelectVerses: (verses: SelectedVerse[], anchor: VerseSelection) => void;
   onChangeSource: (id: number) => void;
   onClose: () => void;
   canClose: boolean;
@@ -36,8 +39,8 @@ interface PaneProps {
 }
 
 export default function Pane({
-  sources, sourceId, mode, reference, noteAnchorRef, selection, notedVerses, highlightWord,
-  onNavigate, onSelect, onChangeSource, onClose, canClose, onWordClick, bodyRef, onScroll,
+  sources, sourceId, mode, reference, noteAnchorRef, selectedKeys, selectionAnchor, notedVerses, highlightWord,
+  onNavigate, onSelectVerses, onChangeSource, onClose, canClose, onWordClick, bodyRef, onScroll,
 }: PaneProps) {
   const source = sources.find((s) => s.id === sourceId);
   const [books, setBooks] = useState<Book[]>([]);
@@ -138,6 +141,30 @@ export default function Pane({
 
   const showNav = mode === 'controller' || mode === 'solo';
   const verseKeyed = entries.some((e) => e.verse !== null);
+
+  // Verse click: plain click starts a one-verse selection; shift+click
+  // extends a contiguous range from the anchor (when it's in this same
+  // book/chapter), pulling verse text straight from the loaded entries.
+  const clickVerse = (e: React.MouseEvent, verse: number, verseChapter: number) => {
+    if (!effectiveBook) return;
+    const title = source?.title ?? '';
+    if (
+      e.shiftKey &&
+      selectionAnchor &&
+      selectionAnchor.book === effectiveBook &&
+      selectionAnchor.chapter === verseChapter
+    ) {
+      const lo = Math.min(selectionAnchor.verse, verse);
+      const hi = Math.max(selectionAnchor.verse, verse);
+      const range: SelectedVerse[] = entries
+        .filter((en) => en.verse != null && en.verse >= lo && en.verse <= hi)
+        .map((en) => ({ book: effectiveBook, chapter: verseChapter, verse: en.verse as number, text: en.text, sourceTitle: title }));
+      onSelectVerses(range, selectionAnchor);
+    } else {
+      const one: SelectedVerse = { book: effectiveBook, chapter: verseChapter, verse, text: entries.find((x) => x.verse === verse)?.text ?? '', sourceTitle: title };
+      onSelectVerses([one], one);
+    }
+  };
   const showsNoteAnchor =
     effectiveBook === noteAnchorRef.book && activeChapter === noteAnchorRef.chapter;
 
@@ -197,11 +224,9 @@ export default function Pane({
           ? entries.map((e) => {
               const verseChapter = e.chapter ?? activeChapter ?? 1;
               const isSel =
-                selection !== null &&
                 effectiveBook !== null &&
-                selection.book === effectiveBook &&
-                selection.chapter === verseChapter &&
-                selection.verse === e.verse;
+                e.verse !== null &&
+                selectedKeys.has(`${effectiveBook}|${verseChapter}|${e.verse}`);
               const isHighlightTarget =
                 highlightWord !== null &&
                 effectiveBook !== null &&
@@ -227,11 +252,7 @@ export default function Pane({
                   key={e.id}
                   data-verse={e.verse ?? undefined}
                   className={`verse${isSel ? ' selected' : ''}`}
-                  onClick={() =>
-                    e.verse !== null &&
-                    effectiveBook !== null &&
-                    onSelect({ book: effectiveBook, chapter: verseChapter, verse: e.verse })
-                  }
+                  onClick={(ev) => e.verse !== null && clickVerse(ev, e.verse, verseChapter)}
                 >
                   <span className="vnum">{e.verse}</span>
                   <StrongsVerseText
