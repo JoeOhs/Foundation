@@ -116,13 +116,17 @@ export default function App() {
   // Insert the currently selected verses into the open note editor as a
   // markdown blockquote. The editor (docked here, or the popped-out window
   // in Phase D) listens for this window event and inserts at the cursor.
-  const addSelectionToNote = () => {
+  const addSelectionToNote = async () => {
     if (selectedVerses.length === 0) return;
     const md = versesToMarkdown(selectedVerses);
     if (notesPopped) {
-      emitInsertMarkdown(md);
-      void focusNotesWindow();
-      return;
+      // route to the popout only if it's really still open; otherwise fall
+      // through to the docked editor (self-heals a missed close signal)
+      if (await focusNotesWindow()) {
+        emitInsertMarkdown(md);
+        return;
+      }
+      setNotesPopped(false);
     }
     const dispatch = () => window.dispatchEvent(new CustomEvent('foundation:insert-note-md', { detail: md }));
     if (!notesOpen) {
@@ -140,8 +144,15 @@ export default function App() {
     setNotesPopped(true);
   };
 
-  const toggleNotes = () => {
-    if (notesPopped) { void focusNotesWindow(); return; }
+  // Self-healing: if the popout was closed without us hearing the event,
+  // focusNotesWindow returns false — recover by reopening the docked panel.
+  const toggleNotes = async () => {
+    if (notesPopped) {
+      if (await focusNotesWindow()) return;
+      setNotesPopped(false);
+      setNotesOpen(true);
+      return;
+    }
     setNotesOpen((v) => !v);
   };
 

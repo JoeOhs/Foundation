@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { getCurrentWindow } from '@tauri-apps/api/window';
 import { initDb } from './db';
 import NotesPanel from './components/NotesPanel';
 import {
@@ -30,7 +31,12 @@ export default function NotesWindow() {
     onInsertMarkdown((md) =>
       window.dispatchEvent(new CustomEvent('foundation:insert-note-md', { detail: md })),
     ).then((u) => unlisteners.push(u));
-    // tell the main window we're gone so it can restore the docked panel
+    // Tell the main window we're gone so it restores the docked panel.
+    // Tauri window close doesn't reliably fire DOM `beforeunload`, so use
+    // the window's own close lifecycle; keep beforeunload as a backup.
+    getCurrentWindow()
+      .onCloseRequested(() => emitNotesClosed())
+      .then((u) => unlisteners.push(u));
     const onUnload = () => emitNotesClosed();
     window.addEventListener('beforeunload', onUnload);
     return () => {
