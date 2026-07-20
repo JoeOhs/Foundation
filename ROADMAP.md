@@ -56,6 +56,19 @@ running list of what's done and what's next, not a commitment.
   fixed a seeding-era bug where those notes leaked into `entries.text`
   (braces stripped, note text kept); a one-time offline repair at boot
   restores the affected ~6,500 verses from the corrected seed conversion.
+- **Themes + reader fonts.** Six CSS-variable themes (`src/themes.css`,
+  spec in `THEMES.md`) with per-theme gradient shells, and a curated set of
+  system reader fonts — both in the 🎨 Appearance popover with live hover
+  preview, alongside a text-size slider.
+- **Markdown notes workspace.** Notes are Markdown documents edited with a
+  formatting toolbar + Write/Preview (`marked` + `DOMPurify`;
+  `src/components/NoteEditor.tsx`). Shift+click selects verse ranges in the
+  reader and inserts them as scripture blockquotes (`src/scripture.ts`).
+  Import legacy notes from Markdown/text/RTF/HTML — converted to Markdown
+  (`src/notesconvert.ts`) — and export all notes to one Markdown file
+  (Rust `write_file_text` command). The panel pops out into a second Tauri
+  window (`?window=notes` → `src/NotesWindow.tsx`), sharing the database and
+  staying live-synced over cross-window events (`src/notesbus.ts`).
 
 ## Near-term
 

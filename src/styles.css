@@ -416,6 +416,27 @@ select:focus, input:focus, button:focus-visible {
   padding: 10px 12px;
 }
 
+.notes-status {
+  padding: 6px 12px;
+  font-size: 12px;
+  color: var(--accent-primary);
+  background: var(--accent-soft);
+  border-bottom: 1px solid var(--border);
+}
+
+/* popped-out notes window: fill the whole webview, shell gradient behind */
+.notes-window {
+  height: 100vh;
+  background-color: var(--bg-base);
+  background-image: var(--gradient-shell);
+  display: flex;
+}
+.notes-panel.notes-standalone {
+  width: 100%;
+  border-left: none;
+  background: var(--bg-surface);
+}
+
 .note-card {
   background: var(--bg-raised);
   border: 1px solid var(--border);

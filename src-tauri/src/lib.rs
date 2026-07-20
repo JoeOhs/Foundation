@@ -22,6 +22,13 @@ fn read_file_base64(path: String) -> Result<String, String> {
     Ok(base64::engine::general_purpose::STANDARD.encode(bytes))
 }
 
+/// Write UTF-8 text to a path the user picked in a save dialog — used to
+/// export notes as Markdown.
+#[tauri::command]
+fn write_file_text(path: String, contents: String) -> Result<(), String> {
+    std::fs::write(&path, contents).map_err(|e| format!("Could not write {path}: {e}"))
+}
+
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
 pub fn run() {
     tauri::Builder::default()
@@ -29,7 +36,7 @@ pub fn run() {
         .plugin(tauri_plugin_sql::Builder::default().build())
         .plugin(tauri_plugin_dialog::init())
         .plugin(tauri_plugin_http::init())
-        .invoke_handler(tauri::generate_handler![read_file_text, read_file_base64])
+        .invoke_handler(tauri::generate_handler![read_file_text, read_file_base64, write_file_text])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
 }

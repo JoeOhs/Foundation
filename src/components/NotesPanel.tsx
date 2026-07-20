@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { addNote, deleteNote, freeNotes, notesForChapter, updateNote } from '../db';
 import { renderMarkdown } from '../markdown';
+import { exportAllNotes, importNotesFromFiles } from '../notesio';
 import NoteEditor, { type NoteEditorHandle } from './NoteEditor';
 import type { Note, Reference, VerseSelection } from '../types';
 
@@ -12,8 +13,6 @@ interface NotesPanelProps {
   onNotesChanged: () => void;
   onClose?: () => void;
   onPopOut?: () => void;
-  onImport?: () => void;
-  onExport?: () => void;
   // popout window renders NotesPanel standalone (no docked chrome)
   standalone?: boolean;
 }
@@ -26,7 +25,7 @@ function anchorLabel(n: Note): string {
 }
 
 export default function NotesPanel({
-  refState, selection, onNotesChanged, onClose, onPopOut, onImport, onExport, standalone,
+  refState, selection, onNotesChanged, onClose, onPopOut, standalone,
 }: NotesPanelProps) {
   const [showFree, setShowFree] = useState(false);
   const [notes, setNotes] = useState<Note[]>([]);
@@ -34,6 +33,7 @@ export default function NotesPanel({
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
   const [anchor, setAnchor] = useState<AnchorKind>('verse');
+  const [status, setStatus] = useState('');
   const editorRef = useRef<NoteEditorHandle>(null);
 
   const reload = useCallback(async () => {
@@ -103,6 +103,33 @@ export default function NotesPanel({
     onNotesChanged();
   };
 
+  const flash = (msg: string) => {
+    setStatus(msg);
+    setTimeout(() => setStatus(''), 3000);
+  };
+
+  const doExport = async () => {
+    try {
+      const r = await exportAllNotes();
+      flash(r === 'saved' ? 'Notes exported.' : r === 'empty' ? 'No notes to export.' : '');
+    } catch (e) {
+      flash(`Export failed: ${String(e)}`);
+    }
+  };
+
+  const doImport = async () => {
+    try {
+      const n = await importNotesFromFiles();
+      if (n > 0) {
+        await reload();
+        onNotesChanged();
+        flash(`Imported ${n} note${n === 1 ? '' : 's'}.`);
+      }
+    } catch (e) {
+      flash(`Import failed: ${String(e)}`);
+    }
+  };
+
   return (
     <div className={`notes-panel${standalone ? ' notes-standalone' : ''}`}>
       <div className="notes-header">
@@ -112,12 +139,13 @@ export default function NotesPanel({
             {refState.book} {refState.chapter}
           </button>
           <button onClick={() => setShowFree(true)} disabled={showFree}>Free</button>
-          {onImport && <button className="icon" onClick={onImport} title="Import notes">📥</button>}
-          {onExport && <button className="icon" onClick={onExport} title="Export notes">📤</button>}
+          <button className="icon" onClick={doImport} title="Import notes (Markdown, text, RTF, HTML)">📥</button>
+          <button className="icon" onClick={doExport} title="Export all notes to Markdown">📤</button>
           {onPopOut && <button className="icon" onClick={onPopOut} title="Open in a separate window">⧉</button>}
           {onClose && <button className="icon" onClick={onClose} title="Close notes">✕</button>}
         </div>
       </div>
+      {status && <div className="notes-status">{status}</div>}
       <div className="notes-body">
         {notes.length === 0 && (
           <div className="pane-empty">

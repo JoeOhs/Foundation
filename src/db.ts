@@ -203,6 +203,15 @@ export async function notesForEntry(entryId: number): Promise<Note[]> {
   return db.select<Note[]>('SELECT * FROM notes WHERE entry_id = ? ORDER BY updated_at DESC', [entryId]);
 }
 
+// All notes, ordered by canonical anchor then recency — used for export.
+export async function allNotes(): Promise<Note[]> {
+  const db = await ensureDb();
+  return db.select<Note[]>(
+    `SELECT * FROM notes
+     ORDER BY anchor_book IS NULL, anchor_book, anchor_chapter, anchor_verse, updated_at DESC`,
+  );
+}
+
 export async function addNote(note: {
   entry_id?: number | null;
   anchor_book?: string | null;

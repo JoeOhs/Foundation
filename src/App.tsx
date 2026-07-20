@@ -12,6 +12,9 @@ import ThemePicker from './components/ThemePicker';
 import { applyTheme, normalizeStoredTheme, systemDefaultTheme, type ThemeId } from './themes';
 import { applyReaderFont, normalizeStoredFont, type FontId } from './fonts';
 import { versesToMarkdown } from './scripture';
+import {
+  emitInsertMarkdown, emitNotesContext, focusNotesWindow, onNotesChanged, onNotesClosed, openNotesWindow,
+} from './notesbus';
 import type { Book, Reference, SearchHit, SelectedVerse, Source, StrongsSearchHit, VerseSelection } from './types';
 
 function loadPref<T>(key: string, fallback: T): T {
@@ -79,6 +82,9 @@ export default function App() {
   const clearSelection = () => setSelectedVerses([]);
 
   const [notesOpen, setNotesOpen] = useState<boolean>(() => loadPref('notesOpen', false));
+  // notes moved to a separate window (session-only — not persisted, since a
+  // relaunch has no popout window)
+  const [notesPopped, setNotesPopped] = useState(false);
   const [concordanceOpen, setConcordanceOpen] = useState<boolean>(() => loadPref('concordanceOpen', false));
   // seq bumps on every send so the pane re-runs the lookup even when the
   // same term is sent twice (the user may have searched something else in
@@ -113,6 +119,11 @@ export default function App() {
   const addSelectionToNote = () => {
     if (selectedVerses.length === 0) return;
     const md = versesToMarkdown(selectedVerses);
+    if (notesPopped) {
+      emitInsertMarkdown(md);
+      void focusNotesWindow();
+      return;
+    }
     const dispatch = () => window.dispatchEvent(new CustomEvent('foundation:insert-note-md', { detail: md }));
     if (!notesOpen) {
       setNotesOpen(true);
@@ -121,6 +132,17 @@ export default function App() {
     } else {
       dispatch();
     }
+  };
+
+  const popOutNotes = async () => {
+    await openNotesWindow(refState);
+    setNotesOpen(false);
+    setNotesPopped(true);
+  };
+
+  const toggleNotes = () => {
+    if (notesPopped) { void focusNotesWindow(); return; }
+    setNotesOpen((v) => !v);
   };
 
   // theme: null = follow OS (Obsidian on dark systems, Nova on light).
@@ -198,6 +220,13 @@ export default function App() {
   useEffect(() => { savePref('concordanceOpen', concordanceOpen); }, [concordanceOpen]);
   useEffect(() => { savePref('theme', themeOverride); }, [themeOverride]);
 
+  // ---------- popped-out notes window sync ----------
+  // Keep the popout fed with the current reference + selection so its
+  // anchor picker matches the main window.
+  useEffect(() => {
+    if (notesPopped) emitNotesContext({ ref: refState, selection });
+  }, [notesPopped, refState, selection]);
+
   // ---------- navigation data ----------
   const primaryBible = useMemo(() => {
     const shown = paneSourceIds
@@ -228,6 +257,14 @@ export default function App() {
   useEffect(() => {
     if (phase === 'ready') reloadNoteDots();
   }, [phase, reloadNoteDots]);
+
+  useEffect(() => {
+    const uns: Array<() => void> = [];
+    onNotesClosed(() => setNotesPopped(false)).then((u) => uns.push(u));
+    // popout edited/imported notes → refresh the verse note-dots here
+    onNotesChanged(() => reloadNoteDots()).then((u) => uns.push(u));
+    return () => uns.forEach((u) => u());
+  }, [reloadNoteDots]);
 
   // clear verse selection and word highlight when leaving the chapter
   useEffect(() => {
@@ -469,7 +506,7 @@ export default function App() {
         <button onClick={() => setConcordanceOpen((v) => !v)} title="Toggle concordance pane">🔤 Concordance</button>
         <button onClick={() => setLibraryOpen(true)} title="Download public domain texts">🌐 Library</button>
         <button onClick={() => setImportOpen(true)} title="Import a text">📥 Import</button>
-        <button onClick={() => setNotesOpen((v) => !v)} title="Toggle notes panel">📝 Notes</button>
+        <button onClick={toggleNotes} title={notesPopped ? 'Notes are in a separate window' : 'Toggle notes panel'}>📝 Notes{notesPopped ? ' ⧉' : ''}</button>
         <ThemePicker
           currentTheme={theme}
           currentFont={readerFont}
@@ -525,12 +562,13 @@ export default function App() {
             onClose={() => setConcordanceOpen(false)}
           />
         )}
-        {notesOpen && (
+        {notesOpen && !notesPopped && (
           <NotesPanel
             refState={refState}
             selection={selection}
             onNotesChanged={reloadNoteDots}
             onClose={() => setNotesOpen(false)}
+            onPopOut={popOutNotes}
           />
         )}
         {selectedVerses.length > 0 && selectedVerses.some((v) => v.text) && (
