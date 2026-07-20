@@ -2,18 +2,25 @@ import { useEffect, useRef, useState } from 'react';
 import { THEMES, THEME_IDS, applyTheme, type ThemeId } from '../themes';
 import { FONT_IDS, READER_FONTS, applyReaderFont, type FontId } from '../fonts';
 
+export const READER_SIZE_MIN = 12;
+export const READER_SIZE_MAX = 28;
+
 interface ThemePickerProps {
   currentTheme: ThemeId;
   currentFont: FontId;
+  readerSize: number;
   onSelectTheme: (id: ThemeId) => void;
   onSelectFont: (id: FontId) => void;
+  onChangeSize: (px: number) => void;
 }
 
 // The 🎨 appearance popover: six theme swatches plus the reader-font list.
 // Hovering an option applies it live (pure attribute/property swap —
 // instant, reversible); leaving the panel restores committed choices;
 // clicking commits.
-export default function ThemePicker({ currentTheme, currentFont, onSelectTheme, onSelectFont }: ThemePickerProps) {
+export default function ThemePicker({
+  currentTheme, currentFont, readerSize, onSelectTheme, onSelectFont, onChangeSize,
+}: ThemePickerProps) {
   const [open, setOpen] = useState(false);
   const rootRef = useRef<HTMLDivElement>(null);
 
@@ -65,6 +72,21 @@ export default function ThemePicker({ currentTheme, currentFont, onSelectTheme, 
                 </button>
               );
             })}
+          </div>
+          <div className="theme-section-label">Text size</div>
+          <div className="size-slider-row">
+            <span className="size-hint" style={{ fontSize: 11 }}>A</span>
+            <input
+              type="range"
+              min={READER_SIZE_MIN}
+              max={READER_SIZE_MAX}
+              step={1}
+              value={readerSize}
+              onChange={(e) => onChangeSize(Number(e.target.value))}
+              title={`Reader text size: ${readerSize}px`}
+            />
+            <span className="size-hint" style={{ fontSize: 17 }}>A</span>
+            <span className="size-value">{readerSize}px</span>
           </div>
           <div className="theme-section-label">Reader font</div>
           <div className="theme-grid">

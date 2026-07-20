@@ -405,13 +405,13 @@ export default function App() {
         <button onClick={() => setLibraryOpen(true)} title="Download public domain texts">🌐 Library</button>
         <button onClick={() => setImportOpen(true)} title="Import a text">📥 Import</button>
         <button onClick={() => setNotesOpen((v) => !v)} title="Toggle notes panel">📝 Notes</button>
-        <button className="icon" onClick={() => setReaderSize((s) => Math.max(12, s - 1))} title="Smaller text">A−</button>
-        <button className="icon" onClick={() => setReaderSize((s) => Math.min(28, s + 1))} title="Larger text">A+</button>
         <ThemePicker
           currentTheme={theme}
           currentFont={readerFont}
+          readerSize={readerSize}
           onSelectTheme={setThemeOverride}
           onSelectFont={setReaderFont}
+          onChangeSize={setReaderSize}
         />
       </div>
       <div className="main">

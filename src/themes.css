@@ -201,6 +201,29 @@
   text-align: center;
   color: var(--text-secondary);
 }
+
+.size-slider-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 2px 10px 6px 10px;
+}
+.size-slider-row input[type='range'] {
+  flex: 1;
+  min-width: 140px;
+  accent-color: var(--accent-primary);
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+.size-hint { color: var(--text-secondary); line-height: 1; }
+.size-value {
+  font-size: 11px;
+  color: var(--text-muted);
+  min-width: 34px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
 .theme-option {
   display: flex;
   align-items: center;
