@@ -116,6 +116,44 @@ select:focus, input:focus, button:focus-visible {
 
 .pane-header select { flex: 1; min-width: 0; }
 .pane-header select.pane-chapter-select { flex: 0 0 auto; width: 62px; }
+.pane-loc-label {
+  font-size: 12px;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  padding: 0 6px;
+}
+
+/* sync menu (toolbar) */
+.sync-menu { position: relative; }
+.sync-pop { min-width: 300px; }
+.sync-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+.sync-pane-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 150px;
+  color: var(--text-primary);
+}
+.sync-leader-tag {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+.sync-choices { display: flex; gap: 4px; }
+.sync-choice { font-size: 11px; padding: 2px 8px; border-radius: 6px; }
+.sync-choice.active {
+  border-color: var(--border-strong);
+  color: var(--accent-primary);
+  font-weight: 600;
+}
 
 .pane-body {
   position: relative; /* offsetTop of verses is measured against this */

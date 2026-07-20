@@ -1,7 +1,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { getChapters, initDb, listBooks, listSources, notesForChapter } from './db';
+import { initDb, listBooks, listSources, notesForChapter } from './db';
 import { repairSeededTextsIfNeeded, seedIfEmpty } from './seed';
-import Pane, { type HighlightWord } from './components/Pane';
+import Pane, { type HighlightWord, type PaneMode } from './components/Pane';
+import SyncMenu, { type PaneGroup } from './components/SyncMenu';
 import NotesPanel from './components/NotesPanel';
 import SearchPanel from './components/SearchPanel';
 import ImportWizard from './components/ImportWizard';
@@ -32,12 +33,20 @@ export default function App() {
 
   const [sources, setSources] = useState<Source[]>([]);
   const [books, setBooks] = useState<Book[]>([]);
-  const [chapters, setChapters] = useState<number[]>([]);
   const [refState, setRefState] = useState<Reference>(() => loadPref('ref', { book: 'Genesis', chapter: 1 }));
   const [paneSourceIds, setPaneSourceIds] = useState<number[]>(() => loadPref('panes', []));
   const [paneFlex, setPaneFlex] = useState<number[]>(() => loadPref('paneFlex', []));
-  // parallel to paneSourceIds: false = pane navigates independently
-  const [paneSync, setPaneSync] = useState<boolean[]>(() => loadPref('paneSync', []));
+  // Sync assignment per pane. Pane 1 (index 0) is always 'A' — it leads
+  // group A, and notes/search navigation anchor to its position. Migrates
+  // the short-lived boolean paneSync pref.
+  const [paneGroups, setPaneGroups] = useState<PaneGroup[]>(() => {
+    const stored = loadPref<PaneGroup[] | null>('paneGroups', null);
+    if (stored) return stored;
+    const legacy = loadPref<boolean[] | null>('paneSync', null);
+    return legacy ? legacy.map((s) => (s ? 'A' : 'solo')) : [];
+  });
+  // Group B's shared reference (its lowest-index member navigates it)
+  const [groupBRef, setGroupBRef] = useState<Reference>(() => loadPref('groupBRef', { book: 'Genesis', chapter: 1 }));
   const [selection, setSelection] = useState<VerseSelection | null>(null);
   const [notedVerses, setNotedVerses] = useState<Set<number>>(new Set());
   const [highlightWord, setHighlightWord] = useState<HighlightWord | null>(null);
@@ -140,7 +149,8 @@ export default function App() {
   useEffect(() => { savePref('ref', refState); }, [refState]);
   useEffect(() => { savePref('panes', paneSourceIds); }, [paneSourceIds]);
   useEffect(() => { savePref('paneFlex', paneFlex); }, [paneFlex]);
-  useEffect(() => { savePref('paneSync', paneSync); }, [paneSync]);
+  useEffect(() => { savePref('paneGroups', paneGroups); }, [paneGroups]);
+  useEffect(() => { savePref('groupBRef', groupBRef); }, [groupBRef]);
   useEffect(() => { savePref('notesOpen', notesOpen); }, [notesOpen]);
   useEffect(() => { savePref('concordanceOpen', concordanceOpen); }, [concordanceOpen]);
   useEffect(() => { savePref('theme', themeOverride); }, [themeOverride]);
@@ -167,13 +177,6 @@ export default function App() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [primaryBible]);
 
-  useEffect(() => {
-    if (!primaryBible) return;
-    let live = true;
-    getChapters(primaryBible.id, refState.book).then((c) => { if (live) setChapters(c); });
-    return () => { live = false; };
-  }, [primaryBible, refState.book]);
-
   const reloadNoteDots = useCallback(async () => {
     const notes = await notesForChapter(refState.book, refState.chapter);
     setNotedVerses(new Set(notes.filter((n) => n.anchor_verse != null).map((n) => n.anchor_verse as number)));
@@ -193,33 +196,45 @@ export default function App() {
     );
   }, [refState]);
 
-  // ---------- chapter navigation ----------
+  // ---------- pane groups & navigation ----------
   const navigate = (book: string, chapter: number) => setRefState({ book, chapter });
 
-  const step = (dir: 1 | -1) => {
-    const ci = chapters.indexOf(refState.chapter);
-    const next = ci + dir;
-    if (next >= 0 && next < chapters.length) {
-      navigate(refState.book, chapters[next]);
-      return;
-    }
-    const bi = books.findIndex((b) => b.name === refState.book);
-    const nb = books[bi + dir];
-    if (!nb || !primaryBible) return;
-    if (dir === 1) navigate(nb.name, 1);
-    else {
-      getChapters(primaryBible.id, nb.name).then((c) => navigate(nb.name, c[c.length - 1] ?? 1));
-    }
+  const groupOf = (i: number): PaneGroup => (i === 0 ? 'A' : paneGroups[i] ?? 'A');
+
+  // A group's controller is its lowest-index member (always pane 0 for A).
+  const controllerOf = (g: 'A' | 'B'): number => {
+    if (g === 'A') return 0;
+    for (let i = 1; i < paneSourceIds.length; i++) if (groupOf(i) === 'B') return i;
+    return -1;
   };
 
-  // ---------- scroll sync ----------
-  // Unsynced panes are excluded in both directions: they neither drive the
-  // other panes nor get scrolled by them.
-  const isSynced = (i: number) => paneSync[i] ?? true;
+  const paneModeOf = (i: number): PaneMode => {
+    const g = groupOf(i);
+    if (g === 'solo') return 'solo';
+    return controllerOf(g) === i ? 'controller' : 'follower';
+  };
 
+  const paneReferenceOf = (i: number): Reference => (groupOf(i) === 'B' ? groupBRef : refState);
+
+  const handlePaneNavigate = (i: number, book: string, chapter: number) => {
+    if (groupOf(i) === 'B') setGroupBRef({ book, chapter });
+    else navigate(book, chapter);
+  };
+
+  const assignPaneGroup = (i: number, g: PaneGroup) => {
+    // First pane to join B aligns B's reference to where Pane 1 is, so the
+    // new group starts from a sensible place instead of a stale one.
+    if (g === 'B' && !paneSourceIds.some((_, j) => j !== i && groupOf(j) === 'B')) {
+      setGroupBRef(refState);
+    }
+    setPaneGroups(() => paneSourceIds.map((_, j) => (j === i ? g : groupOf(j))));
+  };
+
+  // ---------- scroll sync (within a group only) ----------
   const handleScroll = (i: number) => {
     if (activePane.current !== i) return;
-    if (!isSynced(i)) return;
+    const g = groupOf(i);
+    if (g === 'solo') return;
     const el = bodies.current[i];
     if (!el) return;
     const verses = el.querySelectorAll<HTMLElement>('[data-verse]');
@@ -232,26 +247,30 @@ export default function App() {
     }
     if (topVerse === null) return;
     bodies.current.forEach((other, j) => {
-      if (j === i || !other || !isSynced(j)) return;
+      if (j === i || !other || groupOf(j) !== g) return;
       const target = other.querySelector<HTMLElement>(`[data-verse="${topVerse}"]`);
       if (target) other.scrollTop = target.offsetTop;
     });
   };
 
-  // scroll synced panes to the top when the reference changes
+  // scroll a group's panes to the top when its reference changes
   useEffect(() => {
-    bodies.current.forEach((el, i) => { if (el && isSynced(i)) el.scrollTop = 0; });
+    bodies.current.forEach((el, i) => { if (el && groupOf(i) === 'A') el.scrollTop = 0; });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [refState]);
+  useEffect(() => {
+    bodies.current.forEach((el, i) => { if (el && groupOf(i) === 'B') el.scrollTop = 0; });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [groupBRef]);
 
-  // scroll to the selected verse when navigating from search — synced panes
-  // only; an unsynced pane on some other chapter shares verse numbers and
-  // would jump to the wrong place.
+  // scroll to the selected verse when navigating from search — group A only
+  // (search navigation drives Pane 1's group); other panes share verse
+  // numbers and would jump to the wrong place.
   const scrollToVerse = (verse: number) => {
     // wait for panes to load the new chapter before scrolling
     setTimeout(() => {
       bodies.current.forEach((el, i) => {
-        if (!el || !isSynced(i)) return;
+        if (!el || groupOf(i) !== 'A') return;
         const target = el.querySelector<HTMLElement>(`[data-verse="${verse}"]`);
         if (target) el.scrollTop = Math.max(0, target.offsetTop - 40);
       });
@@ -268,22 +287,14 @@ export default function App() {
     const unused = sources.find((s) => !paneSourceIds.includes(s.id)) ?? sources[0];
     setPaneSourceIds((prev) => [...prev, unused.id]);
     setPaneFlex((prev) => [...prev, 1]);
-    setPaneSync((prev) => [...prev, true]);
+    setPaneGroups((prev) => [...prev, 'A']);
   };
 
   const closePane = (i: number) => {
     setPaneSourceIds((prev) => prev.filter((_, j) => j !== i));
     setPaneFlex((prev) => prev.filter((_, j) => j !== i));
-    setPaneSync((prev) => prev.filter((_, j) => j !== i));
+    setPaneGroups((prev) => prev.filter((_, j) => j !== i));
     bodies.current.splice(i, 1);
-  };
-
-  const togglePaneSync = (i: number) => {
-    setPaneSync((prev) => {
-      const next = paneSourceIds.map((_, j) => prev[j] ?? true);
-      next[i] = !next[i];
-      return next;
-    });
   };
 
   const startResize = (i: number, e: React.MouseEvent) => {
@@ -400,27 +411,13 @@ export default function App() {
     <div className="app">
       <div className="toolbar">
         <span className="brand">Foundation</span>
-        <select
-          value={refState.book}
-          onChange={(e) => navigate(e.target.value, 1)}
-          title="Book"
-        >
-          {books.map((b) => (
-            <option key={b.id} value={b.name}>{b.name}</option>
-          ))}
-        </select>
-        <select
-          value={refState.chapter}
-          onChange={(e) => navigate(refState.book, Number(e.target.value))}
-          title="Chapter"
-        >
-          {(chapters.length > 0 ? chapters : [refState.chapter]).map((c) => (
-            <option key={c} value={c}>{c}</option>
-          ))}
-        </select>
-        <button className="icon" onClick={() => step(-1)} title="Previous chapter">◀</button>
-        <button className="icon" onClick={() => step(1)} title="Next chapter">▶</button>
         <button onClick={addPane} disabled={paneSourceIds.length >= 4} title="Add a parallel pane">+ Pane</button>
+        <SyncMenu
+          paneSourceIds={paneSourceIds}
+          sources={sources}
+          groups={paneSourceIds.map((_, i) => groupOf(i))}
+          onAssign={assignPaneGroup}
+        />
         <span className="spacer" />
         <button onClick={() => openSearch()} title="Search (Ctrl+F)">🔍 Search</button>
         <button onClick={() => setConcordanceOpen((v) => !v)} title="Toggle concordance pane">🔤 Concordance</button>
@@ -445,14 +442,15 @@ export default function App() {
                 <Pane
                   sources={sources}
                   sourceId={sid}
-                  refState={refState}
-                  synced={isSynced(i)}
+                  mode={paneModeOf(i)}
+                  reference={paneReferenceOf(i)}
+                  noteAnchorRef={refState}
                   selection={selection}
                   notedVerses={notedVerses}
                   highlightWord={highlightWord}
+                  onNavigate={(book, chapter) => handlePaneNavigate(i, book, chapter)}
                   onSelect={setSelection}
                   onChangeSource={(id) => setPaneSource(i, id)}
-                  onToggleSync={() => togglePaneSync(i)}
                   onClose={() => closePane(i)}
                   canClose={paneSourceIds.length > 1}
                   onWordClick={handleWordClick}
