@@ -115,6 +115,7 @@ select:focus, input:focus, button:focus-visible {
 }
 
 .pane-header select { flex: 1; min-width: 0; }
+.pane-header select.pane-chapter-select { flex: 0 0 auto; width: 62px; }
 
 .pane-body {
   position: relative; /* offsetTop of verses is measured against this */

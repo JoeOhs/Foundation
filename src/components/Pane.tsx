@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { getChapters, getEntries, getEntryNotesForEntries, getStrongsWordsForEntries, listBooks } from '../db';
 import StrongsVerseText from './StrongsWords';
 import type { Book, Entry, EntryNote, Reference, Source, StrongsWordRow, VerseSelection } from '../types';
@@ -11,11 +11,15 @@ interface PaneProps {
   sources: Source[];
   sourceId: number;
   refState: Reference;
+  // false = this pane navigates independently: its own book/chapter
+  // selectors, unaffected by global navigation and scroll-sync.
+  synced: boolean;
   selection: VerseSelection | null;
   notedVerses: Set<number>;
   highlightWord: HighlightWord | null;
   onSelect: (v: VerseSelection) => void;
   onChangeSource: (id: number) => void;
+  onToggleSync: () => void;
   onClose: () => void;
   canClose: boolean;
   onWordClick?: (surfaceText: string) => void;
@@ -24,12 +28,15 @@ interface PaneProps {
 }
 
 export default function Pane({
-  sources, sourceId, refState, selection, notedVerses, highlightWord,
-  onSelect, onChangeSource, onClose, canClose, onWordClick, bodyRef, onScroll,
+  sources, sourceId, refState, synced, selection, notedVerses, highlightWord,
+  onSelect, onChangeSource, onToggleSync, onClose, canClose, onWordClick, bodyRef, onScroll,
 }: PaneProps) {
   const source = sources.find((s) => s.id === sourceId);
   const [books, setBooks] = useState<Book[]>([]);
   const [localBook, setLocalBook] = useState<string | null>(null);
+  const [localChapter, setLocalChapter] = useState<number>(1);
+  const [chapters, setChapters] = useState<number[]>([]);
+  const [activeChapter, setActiveChapter] = useState<number | null>(null);
   const [entries, setEntries] = useState<Entry[]>([]);
   const [hasChapters, setHasChapters] = useState(true);
   const [wordsByEntry, setWordsByEntry] = useState<Map<number, StrongsWordRow[]>>(new Map());
@@ -45,26 +52,41 @@ export default function Pane({
     return () => { live = false; };
   }, [sourceId]);
 
-  // A source "follows" global navigation when it has the current book.
-  const followsNav = useMemo(() => books.some((b) => b.name === refState.book), [books, refState.book]);
-  const effectiveBook = followsNav ? refState.book : localBook;
+  // Follows global navigation only when synced AND the source actually has
+  // the current book (freeform texts without it always navigate locally).
+  const hasGlobalBook = useMemo(() => books.some((b) => b.name === refState.book), [books, refState.book]);
+  const followGlobal = synced && hasGlobalBook;
+  const effectiveBook = followGlobal ? refState.book : localBook;
+
+  // When unsyncing, seed local navigation from wherever the pane currently
+  // is, so the reading position doesn't jump.
+  const prevSynced = useRef(synced);
+  useEffect(() => {
+    if (prevSynced.current && !synced) {
+      if (hasGlobalBook) setLocalBook(refState.book);
+      setLocalChapter(activeChapter ?? refState.chapter);
+    }
+    prevSynced.current = synced;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [synced]);
 
   useEffect(() => {
     if (!effectiveBook) return;
     let live = true;
     (async () => {
-      const chapters = await getChapters(sourceId, effectiveBook);
-      const chaptered = chapters.length > 0;
-      const chapter = chaptered
-        ? chapters.includes(refState.chapter) ? refState.chapter : chapters[0]
-        : null;
+      const ch = await getChapters(sourceId, effectiveBook);
+      const chaptered = ch.length > 0;
+      const desired = followGlobal ? refState.chapter : localChapter;
+      const chapter = chaptered ? (ch.includes(desired) ? desired : ch[0]) : null;
       const rows = await getEntries(sourceId, effectiveBook, chapter);
       if (!live) return;
+      setChapters(ch);
       setHasChapters(chaptered);
+      setActiveChapter(chapter);
       setEntries(rows);
     })();
     return () => { live = false; };
-  }, [sourceId, effectiveBook, refState.chapter]);
+  }, [sourceId, effectiveBook, followGlobal, refState.chapter, localChapter]);
 
   // Strong's tagging exists only for (an installed add-on onto) the KJV, but
   // this just asks "does this entry have any tagged words?" per chapter load
@@ -106,13 +128,36 @@ export default function Pane({
             <option key={s.id} value={s.id}>{s.title}</option>
           ))}
         </select>
-        {!followsNav && books.length > 0 && (
-          <select value={localBook ?? ''} onChange={(e) => setLocalBook(e.target.value)} title="Section">
+        {!followGlobal && books.length > 0 && (
+          <select
+            value={localBook ?? ''}
+            onChange={(e) => { setLocalBook(e.target.value); setLocalChapter(1); }}
+            title="Book"
+          >
             {books.map((b) => (
               <option key={b.id} value={b.name}>{b.name}</option>
             ))}
           </select>
         )}
+        {!followGlobal && hasChapters && chapters.length > 0 && (
+          <select
+            className="pane-chapter-select"
+            value={activeChapter ?? chapters[0]}
+            onChange={(e) => setLocalChapter(Number(e.target.value))}
+            title="Chapter"
+          >
+            {chapters.map((c) => (
+              <option key={c} value={c}>{c}</option>
+            ))}
+          </select>
+        )}
+        <button
+          className="icon"
+          onClick={onToggleSync}
+          title={synced ? 'Synced with the other panes — click to navigate this pane independently' : 'Independent — click to re-sync with the other panes'}
+        >
+          {synced ? '🔗' : '⛓'}
+        </button>
         {canClose && (
           <button className="icon" onClick={onClose} title="Close pane">✕</button>
         )}
@@ -120,22 +165,23 @@ export default function Pane({
       <div className="pane-body" ref={bodyRef} onScroll={onScroll}>
         {entries.length === 0 && (
           <div className="pane-empty">
-            {source ? `${source.title} has no content for ${effectiveBook ?? 'this book'} ${hasChapters ? refState.chapter : ''}`.trim() : 'No source selected'}
+            {source ? `${source.title} has no content for ${effectiveBook ?? 'this book'} ${hasChapters && activeChapter ? activeChapter : ''}`.trim() : 'No source selected'}
           </div>
         )}
         {verseKeyed
           ? entries.map((e) => {
+              const verseChapter = e.chapter ?? activeChapter ?? 1;
               const isSel =
                 selection !== null &&
-                followsNav &&
-                selection.book === refState.book &&
-                selection.chapter === (e.chapter ?? refState.chapter) &&
+                effectiveBook !== null &&
+                selection.book === effectiveBook &&
+                selection.chapter === verseChapter &&
                 selection.verse === e.verse;
               const isHighlightTarget =
                 highlightWord !== null &&
-                followsNav &&
-                highlightWord.book === refState.book &&
-                highlightWord.chapter === (e.chapter ?? refState.chapter) &&
+                effectiveBook !== null &&
+                highlightWord.book === effectiveBook &&
+                highlightWord.chapter === verseChapter &&
                 highlightWord.verse === e.verse;
               // Highlight every slot carrying the same Strong's number(s)
               // as the clicked occurrence — a word used twice in one verse
@@ -158,8 +204,8 @@ export default function Pane({
                   className={`verse${isSel ? ' selected' : ''}`}
                   onClick={() =>
                     e.verse !== null &&
-                    followsNav &&
-                    onSelect({ book: refState.book, chapter: e.chapter ?? refState.chapter, verse: e.verse })
+                    effectiveBook !== null &&
+                    onSelect({ book: effectiveBook, chapter: verseChapter, verse: e.verse })
                   }
                 >
                   <span className="vnum">{e.verse}</span>
@@ -170,7 +216,7 @@ export default function Pane({
                     highlightWordIndexes={highlightSet}
                     onWordClick={onWordClick ? (slot) => onWordClick(slot.surface_text) : undefined}
                   />
-                  {e.verse !== null && followsNav && notedVerses.has(e.verse) && <span className="note-dot" title="Has notes" />}
+                  {e.verse !== null && followGlobal && notedVerses.has(e.verse) && <span className="note-dot" title="Has notes" />}
                 </div>
               );
             })

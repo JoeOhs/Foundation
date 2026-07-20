@@ -36,6 +36,8 @@ export default function App() {
   const [refState, setRefState] = useState<Reference>(() => loadPref('ref', { book: 'Genesis', chapter: 1 }));
   const [paneSourceIds, setPaneSourceIds] = useState<number[]>(() => loadPref('panes', []));
   const [paneFlex, setPaneFlex] = useState<number[]>(() => loadPref('paneFlex', []));
+  // parallel to paneSourceIds: false = pane navigates independently
+  const [paneSync, setPaneSync] = useState<boolean[]>(() => loadPref('paneSync', []));
   const [selection, setSelection] = useState<VerseSelection | null>(null);
   const [notedVerses, setNotedVerses] = useState<Set<number>>(new Set());
   const [highlightWord, setHighlightWord] = useState<HighlightWord | null>(null);
@@ -138,6 +140,7 @@ export default function App() {
   useEffect(() => { savePref('ref', refState); }, [refState]);
   useEffect(() => { savePref('panes', paneSourceIds); }, [paneSourceIds]);
   useEffect(() => { savePref('paneFlex', paneFlex); }, [paneFlex]);
+  useEffect(() => { savePref('paneSync', paneSync); }, [paneSync]);
   useEffect(() => { savePref('notesOpen', notesOpen); }, [notesOpen]);
   useEffect(() => { savePref('concordanceOpen', concordanceOpen); }, [concordanceOpen]);
   useEffect(() => { savePref('theme', themeOverride); }, [themeOverride]);
@@ -210,8 +213,13 @@ export default function App() {
   };
 
   // ---------- scroll sync ----------
+  // Unsynced panes are excluded in both directions: they neither drive the
+  // other panes nor get scrolled by them.
+  const isSynced = (i: number) => paneSync[i] ?? true;
+
   const handleScroll = (i: number) => {
     if (activePane.current !== i) return;
+    if (!isSynced(i)) return;
     const el = bodies.current[i];
     if (!el) return;
     const verses = el.querySelectorAll<HTMLElement>('[data-verse]');
@@ -224,24 +232,28 @@ export default function App() {
     }
     if (topVerse === null) return;
     bodies.current.forEach((other, j) => {
-      if (j === i || !other) return;
+      if (j === i || !other || !isSynced(j)) return;
       const target = other.querySelector<HTMLElement>(`[data-verse="${topVerse}"]`);
       if (target) other.scrollTop = target.offsetTop;
     });
   };
 
-  // scroll all panes to the top when the reference changes
+  // scroll synced panes to the top when the reference changes
   useEffect(() => {
-    bodies.current.forEach((el) => { if (el) el.scrollTop = 0; });
+    bodies.current.forEach((el, i) => { if (el && isSynced(i)) el.scrollTop = 0; });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [refState]);
 
-  // scroll to the selected verse when navigating from search
+  // scroll to the selected verse when navigating from search — synced panes
+  // only; an unsynced pane on some other chapter shares verse numbers and
+  // would jump to the wrong place.
   const scrollToVerse = (verse: number) => {
     // wait for panes to load the new chapter before scrolling
     setTimeout(() => {
-      bodies.current.forEach((el) => {
-        const target = el?.querySelector<HTMLElement>(`[data-verse="${verse}"]`);
-        if (el && target) el.scrollTop = Math.max(0, target.offsetTop - 40);
+      bodies.current.forEach((el, i) => {
+        if (!el || !isSynced(i)) return;
+        const target = el.querySelector<HTMLElement>(`[data-verse="${verse}"]`);
+        if (target) el.scrollTop = Math.max(0, target.offsetTop - 40);
       });
     }, 150);
   };
@@ -256,12 +268,22 @@ export default function App() {
     const unused = sources.find((s) => !paneSourceIds.includes(s.id)) ?? sources[0];
     setPaneSourceIds((prev) => [...prev, unused.id]);
     setPaneFlex((prev) => [...prev, 1]);
+    setPaneSync((prev) => [...prev, true]);
   };
 
   const closePane = (i: number) => {
     setPaneSourceIds((prev) => prev.filter((_, j) => j !== i));
     setPaneFlex((prev) => prev.filter((_, j) => j !== i));
+    setPaneSync((prev) => prev.filter((_, j) => j !== i));
     bodies.current.splice(i, 1);
+  };
+
+  const togglePaneSync = (i: number) => {
+    setPaneSync((prev) => {
+      const next = paneSourceIds.map((_, j) => prev[j] ?? true);
+      next[i] = !next[i];
+      return next;
+    });
   };
 
   const startResize = (i: number, e: React.MouseEvent) => {
@@ -424,11 +446,13 @@ export default function App() {
                   sources={sources}
                   sourceId={sid}
                   refState={refState}
+                  synced={isSynced(i)}
                   selection={selection}
                   notedVerses={notedVerses}
                   highlightWord={highlightWord}
                   onSelect={setSelection}
                   onChangeSource={(id) => setPaneSource(i, id)}
+                  onToggleSync={() => togglePaneSync(i)}
                   onClose={() => closePane(i)}
                   canClose={paneSourceIds.length > 1}
                   onWordClick={handleWordClick}
