@@ -411,6 +411,7 @@ export default function App() {
     <div className="app">
       <div className="toolbar">
         <span className="brand">Foundation</span>
+        <span className="spacer" />
         <button onClick={addPane} disabled={paneSourceIds.length >= 4} title="Add a parallel pane">+ Pane</button>
         <SyncMenu
           paneSourceIds={paneSourceIds}
@@ -418,7 +419,6 @@ export default function App() {
           groups={paneSourceIds.map((_, i) => groupOf(i))}
           onAssign={assignPaneGroup}
         />
-        <span className="spacer" />
         <button onClick={() => openSearch()} title="Search (Ctrl+F)">🔍 Search</button>
         <button onClick={() => setConcordanceOpen((v) => !v)} title="Toggle concordance pane">🔤 Concordance</button>
         <button onClick={() => setLibraryOpen(true)} title="Download public domain texts">🌐 Library</button>
