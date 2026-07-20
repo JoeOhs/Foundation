@@ -58,8 +58,11 @@ export default function ThemePicker({
                   key={id}
                   className={`theme-option${id === currentTheme ? ' active' : ''}`}
                   onMouseEnter={() => applyTheme(id)}
+                  onMouseLeave={() => applyTheme(currentTheme)}
                   onClick={() => {
                     onSelectTheme(id);
+                    // restore the other preview dimension before closing
+                    applyReaderFont(currentFont);
                     setOpen(false);
                   }}
                 >
@@ -97,8 +100,11 @@ export default function ThemePicker({
                   key={id}
                   className={`theme-option${id === currentFont ? ' active' : ''}`}
                   onMouseEnter={() => applyReaderFont(id)}
+                  onMouseLeave={() => applyReaderFont(currentFont)}
                   onClick={() => {
                     onSelectFont(id);
+                    // restore the other preview dimension before closing
+                    applyTheme(currentTheme);
                     setOpen(false);
                   }}
                 >
