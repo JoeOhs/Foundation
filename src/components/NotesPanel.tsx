@@ -160,7 +160,12 @@ export default function NotesPanel({
       )}
       {status && <div className="notes-status">{status}</div>}
       {tab === 'highlights' ? (
-        <HighlightsTab onNavigate={onNavigateVerse} version={highlightsVersion} onChanged={onHighlightsChanged} />
+        <HighlightsTab
+          onNavigate={onNavigateVerse}
+          version={highlightsVersion}
+          onChanged={onHighlightsChanged}
+          onNoteAdded={() => { reload(); onNotesChanged(); }}
+        />
       ) : (
       <>
       <div className="notes-body">
