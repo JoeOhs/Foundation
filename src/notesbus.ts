@@ -8,7 +8,6 @@ import type { Reference, VerseSelection } from './types';
 const CTX = 'notes:context'; // main → popout: current reference + selection
 const INSERT = 'notes:insert-md'; // main → popout: scripture markdown to insert
 const CHANGED = 'notes:changed'; // either → other: notes table changed, reload
-const CLOSED = 'notes:closed'; // popout → main: window is closing
 
 export const NOTES_WINDOW_LABEL = 'notes';
 
@@ -77,13 +76,6 @@ export function emitLinksChanged(): void {
 }
 export function onLinksChanged(cb: () => void): Promise<UnlistenFn> {
   return listen(LINKS_CHANGED, () => cb());
-}
-
-export function emitNotesClosed(): void {
-  void emit(CLOSED);
-}
-export function onNotesClosed(cb: () => void): Promise<UnlistenFn> {
-  return listen(CLOSED, () => cb());
 }
 
 // Open (or focus, if already open) the separate notes window, seeding its

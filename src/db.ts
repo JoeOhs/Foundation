@@ -237,11 +237,6 @@ export async function setNotePinned(id: number, pinned: boolean): Promise<void> 
   await db.execute('UPDATE notes SET pinned = ? WHERE id = ?', [pinned ? 1 : 0, id]);
 }
 
-export async function notesForEntry(entryId: number): Promise<Note[]> {
-  const db = await ensureDb();
-  return db.select<Note[]>('SELECT * FROM notes WHERE entry_id = ? ORDER BY updated_at DESC', [entryId]);
-}
-
 // All notes, ordered by canonical anchor then recency — used for export.
 export async function allNotes(): Promise<Note[]> {
   const db = await ensureDb();
@@ -593,16 +588,6 @@ export async function insertParsedSource(
     }
   }
   return sourceId;
-}
-
-export async function deleteSource(sourceId: number): Promise<void> {
-  const db = await ensureDb();
-  await db.execute(
-    'DELETE FROM entries WHERE book_id IN (SELECT id FROM books WHERE source_id = ?)',
-    [sourceId],
-  );
-  await db.execute('DELETE FROM books WHERE source_id = ?', [sourceId]);
-  await db.execute('DELETE FROM sources WHERE id = ?', [sourceId]);
 }
 
 export async function sourceCount(): Promise<number> {
