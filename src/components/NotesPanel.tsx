@@ -6,6 +6,7 @@ import { takePendingInsertMarkdown } from '../notesbus';
 import NoteEditor, { type NoteEditorHandle } from './NoteEditor';
 import HighlightsTab from './HighlightsTab';
 import LinksTab from './LinksTab';
+import { anchorLabel } from '../noteLabels';
 import type { Note, Reference, VerseSelection } from '../types';
 
 type AnchorKind = 'verse' | 'chapter' | 'book' | 'free';
@@ -25,13 +26,6 @@ interface NotesPanelProps {
   onLinksChanged: () => void;
   // popout window renders NotesPanel standalone (no docked chrome)
   standalone?: boolean;
-}
-
-function anchorLabel(n: Note): string {
-  if (n.anchor_book && n.anchor_verse != null) return `${n.anchor_book} ${n.anchor_chapter}:${n.anchor_verse}`;
-  if (n.anchor_book && n.anchor_chapter != null) return `${n.anchor_book} ${n.anchor_chapter} (chapter)`;
-  if (n.anchor_book) return `${n.anchor_book} (book)`;
-  return 'Freeform';
 }
 
 // Collapsed-header line: the title, or the first meaningful line of content.
