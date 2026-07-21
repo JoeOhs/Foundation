@@ -736,7 +736,7 @@ export default function App() {
                   ))}
                   <button className="hl-swatch hl-erase" title="Remove highlight" onClick={eraseHighlight}>⌫</button>
                 </span>
-                <button onClick={startLink} title="Bind this verse to another">🔗 Link</button>
+                <button onClick={startLink} title="Bind this verse to another">🔗 Bind</button>
                 <button className="primary" onClick={addSelectionToNote}>✎ Add to note</button>
                 <button className="icon" onClick={clearSelection} title="Clear selection">✕</button>
               </>
