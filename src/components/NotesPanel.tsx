@@ -33,6 +33,13 @@ function anchorLabel(n: Note): string {
   return 'Freeform';
 }
 
+// Collapsed-header line: the title, or the first meaningful line of content.
+function notePreview(n: Note): string {
+  if (n.title) return n.title;
+  const line = n.content.split('\n').find((l) => l.trim()) ?? '';
+  return line.replace(/[#>*_`~]/g, '').replace(/^\s*[-+]\s+/, '').trim().slice(0, 60) || '(empty note)';
+}
+
 export default function NotesPanel({
   refState, selection, onNotesChanged, onClose, onPopOut,
   onNavigateVerse, highlightsVersion, onHighlightsChanged, linksVersion, onLinksChanged, standalone,
@@ -45,7 +52,18 @@ export default function NotesPanel({
   const [content, setContent] = useState('');
   const [anchor, setAnchor] = useState<AnchorKind>('verse');
   const [status, setStatus] = useState('');
+  // note ids expanded in the list (collapsed by default for a tidy list)
+  const [expanded, setExpanded] = useState<Set<number>>(new Set());
   const editorRef = useRef<NoteEditorHandle>(null);
+
+  const toggleExpand = (id: number) => {
+    setExpanded((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      return next;
+    });
+  };
 
   const reload = useCallback(async () => {
     setNotes(showFree ? await freeNotes() : await notesForChapter(refState.book, refState.chapter));
@@ -191,22 +209,29 @@ export default function NotesPanel({
         )}
         {notes.map((n) => (
           <div className={`note-card${n.pinned ? ' pinned' : ''}`} key={n.id}>
-            <div className="note-card-head">
-              <div className="note-anchor">{n.pinned ? '📌 ' : ''}{anchorLabel(n)}</div>
+            <div className="note-card-head" onClick={() => toggleExpand(n.id)}>
+              <span className="note-collapse-caret">{expanded.has(n.id) ? '▾' : '▸'}</span>
+              <div className="note-head-text">
+                <div className="note-anchor">{n.pinned ? '📌 ' : ''}{anchorLabel(n)}</div>
+                <div className="note-head-title">{notePreview(n)}</div>
+              </div>
               <button
                 className={`icon note-pin${n.pinned ? ' active' : ''}`}
-                onClick={() => togglePin(n)}
+                onClick={(e) => { e.stopPropagation(); togglePin(n); }}
                 title={n.pinned ? 'Unpin' : 'Pin to top'}
               >
                 📌
               </button>
             </div>
-            {n.title && <div className="note-title">{n.title}</div>}
-            <div className="note-content note-md" dangerouslySetInnerHTML={{ __html: renderMarkdown(n.content) }} />
-            <div className="note-actions">
-              <button onClick={() => startEdit(n)}>Edit</button>
-              <button className="danger" onClick={() => remove(n)}>Delete</button>
-            </div>
+            {expanded.has(n.id) && (
+              <>
+                <div className="note-content note-md" dangerouslySetInnerHTML={{ __html: renderMarkdown(n.content) }} />
+                <div className="note-actions">
+                  <button onClick={() => startEdit(n)}>Edit</button>
+                  <button className="danger" onClick={() => remove(n)}>Delete</button>
+                </div>
+              </>
+            )}
           </div>
         ))}
       </div>

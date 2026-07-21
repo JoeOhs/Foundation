@@ -623,15 +623,33 @@ select:focus, input:focus, button:focus-visible {
 .note-card-head {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 6px;
-  margin-bottom: 4px;
+  cursor: pointer;
+  border-radius: 6px;
+  margin: -2px;
+  padding: 2px;
+}
+.note-card-head:hover { background: var(--bg-hover); }
+.note-collapse-caret {
+  flex-shrink: 0;
+  width: 12px;
+  font-size: 10px;
+  color: var(--text-muted);
+}
+.note-head-text { flex: 1; min-width: 0; }
+.note-head-title {
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .note-card .note-anchor {
   font-size: 11px;
   color: var(--accent);
   font-weight: 600;
 }
+.note-card .note-content { margin-top: 8px; }
 .note-pin {
   padding: 1px 5px;
   font-size: 12px;
