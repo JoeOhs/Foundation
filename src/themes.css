@@ -21,6 +21,7 @@
   --accent-primary: #c4c9d4;
   --accent-secondary: #8a93a3;
   --accent-tertiary: #dfae61;
+  --on-accent: #10131a; /* dark text on the light steel accent */
   --scrollbar-thumb: #3a3a3e;
   --gradient-shell: linear-gradient(160deg, #0a0a0c 0%, #131316 45%, #0d0d10 75%, #050506 100%);
   --danger: #e06c75;
@@ -50,6 +51,7 @@
   --accent-primary: #8b6ef2;
   --accent-secondary: #4fd7c4;
   --accent-tertiary: #f2a3d0;
+  --on-accent: #120a20; /* dark text reads better than white on this violet */
   --scrollbar-thumb: #332a52;
   --gradient-shell: radial-gradient(ellipse at top left, #241a3f 0%, #150f28 40%, #0e0a1c 100%);
 }
@@ -67,6 +69,7 @@
   --accent-primary: #00e5ff;
   --accent-secondary: #ff6ec7;
   --accent-tertiary: #a742ff;
+  --on-accent: #04121a; /* dark text on the bright cyan accent */
   --scrollbar-thumb: #3a2358;
   --gradient-shell: linear-gradient(135deg, #0a0014 0%, #170a2e 35%, #240f3d 55%, #14082a 80%, #0a0014 100%);
 }
@@ -84,6 +87,7 @@
   --accent-primary: #ff7043;
   --accent-secondary: #ffab40;
   --accent-tertiary: #ff1744;
+  --on-accent: #1a0d08; /* dark text reads better than white on this ember */
   --scrollbar-thumb: #4a2a18;
   --gradient-shell: linear-gradient(180deg, #1a0d08 0%, #2b140a 40%, #3d1810 70%, #24100a 100%),
     radial-gradient(circle at 50% 100%, rgba(255, 87, 34, 0.10), transparent 60%);
@@ -102,6 +106,7 @@
   --accent-primary: #5fd393;
   --accent-secondary: #d4a24e;
   --accent-tertiary: #b08968;
+  --on-accent: #0b1c12; /* dark text on the light leaf accent */
   --scrollbar-thumb: #2f5a3e;
   --gradient-shell: linear-gradient(160deg, #0e1f16 0%, #163527 45%, #0f2a1c 75%, #0a1c12 100%);
 }
@@ -119,6 +124,7 @@
   --accent-primary: #7ba7cc;
   --accent-secondary: #e8a3b3;
   --accent-tertiary: #a8cca0;
+  --on-accent: #1c2b36; /* dark text on the light sky accent */
   --scrollbar-thumb: #d9d0c0;
   --gradient-shell: linear-gradient(160deg, #faf7f2 0%, #f5efe4 50%, #f0e8da 100%);
   --danger: #c0392b;
