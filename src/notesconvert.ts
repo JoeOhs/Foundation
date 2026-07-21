@@ -5,7 +5,7 @@ function anchorLabel(n: Note): string {
   if (n.anchor_book && n.anchor_verse != null) return `${n.anchor_book} ${n.anchor_chapter}:${n.anchor_verse}`;
   if (n.anchor_book && n.anchor_chapter != null) return `${n.anchor_book} ${n.anchor_chapter} (chapter)`;
   if (n.anchor_book) return `${n.anchor_book} (book)`;
-  return 'Free-floating';
+  return 'Freeform';
 }
 
 // One human-readable, re-importable markdown document for all notes: each
