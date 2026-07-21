@@ -51,8 +51,10 @@ export function onNotesClosed(cb: () => void): Promise<UnlistenFn> {
 
 // Open (or focus, if already open) the separate notes window, seeding its
 // initial reference through the URL. Reuses the same bundle via
-// ?window=notes, which main.tsx routes to NotesWindow.
-export async function openNotesWindow(initial: Reference): Promise<void> {
+// ?window=notes, which main.tsx routes to NotesWindow. `onClosed` fires
+// when the window is destroyed — detected from here (the creating window)
+// so the popout's own close stays fully native and unblocked.
+export async function openNotesWindow(initial: Reference, onClosed?: () => void): Promise<void> {
   const existing = await WebviewWindow.getByLabel(NOTES_WINDOW_LABEL);
   if (existing) {
     await existing.setFocus();
@@ -68,6 +70,7 @@ export async function openNotesWindow(initial: Reference): Promise<void> {
     minHeight: 420,
   });
   w.once('tauri://error', (e) => console.error('Notes window failed to open', e));
+  if (onClosed) w.once('tauri://destroyed', () => onClosed());
 }
 
 export async function focusNotesWindow(): Promise<boolean> {

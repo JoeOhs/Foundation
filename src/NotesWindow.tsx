@@ -1,10 +1,7 @@
 import { useEffect, useState } from 'react';
-import { getCurrentWindow } from '@tauri-apps/api/window';
 import { initDb } from './db';
 import NotesPanel from './components/NotesPanel';
-import {
-  emitNotesChanged, emitNotesClosed, initialReferenceFromUrl, onInsertMarkdown, onNotesContext,
-} from './notesbus';
+import { emitNotesChanged, initialReferenceFromUrl, onInsertMarkdown, onNotesContext } from './notesbus';
 import type { Reference, VerseSelection } from './types';
 
 // Root of the popped-out notes window (a separate Tauri webview). Shares
@@ -31,18 +28,11 @@ export default function NotesWindow() {
     onInsertMarkdown((md) =>
       window.dispatchEvent(new CustomEvent('foundation:insert-note-md', { detail: md })),
     ).then((u) => unlisteners.push(u));
-    // Tell the main window we're gone so it restores the docked panel.
-    // Tauri window close doesn't reliably fire DOM `beforeunload`, so use
-    // the window's own close lifecycle; keep beforeunload as a backup.
-    getCurrentWindow()
-      .onCloseRequested(() => emitNotesClosed())
-      .then((u) => unlisteners.push(u));
-    const onUnload = () => emitNotesClosed();
-    window.addEventListener('beforeunload', onUnload);
-    return () => {
-      unlisteners.forEach((u) => u());
-      window.removeEventListener('beforeunload', onUnload);
-    };
+    // NB: the window's close is left entirely native — intercepting it (e.g.
+    // onCloseRequested) blocked the X from closing. The main window detects
+    // this window's disappearance instead (tauri://destroyed + a self-heal
+    // on the Notes button), so nothing here needs to run on close.
+    return () => unlisteners.forEach((u) => u());
   }, []);
 
   if (!ready) return <div className="splash"><div className="brand">Notes</div><div>Opening…</div></div>;

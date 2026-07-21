@@ -13,7 +13,7 @@ import { applyTheme, normalizeStoredTheme, systemDefaultTheme, type ThemeId } fr
 import { applyReaderFont, normalizeStoredFont, type FontId } from './fonts';
 import { versesToMarkdown } from './scripture';
 import {
-  emitInsertMarkdown, emitNotesContext, focusNotesWindow, onNotesChanged, onNotesClosed, openNotesWindow,
+  emitInsertMarkdown, emitNotesContext, focusNotesWindow, onNotesChanged, openNotesWindow,
 } from './notesbus';
 import type { Book, Reference, SearchHit, SelectedVerse, Source, StrongsSearchHit, VerseSelection } from './types';
 
@@ -139,7 +139,7 @@ export default function App() {
   };
 
   const popOutNotes = async () => {
-    await openNotesWindow(refState);
+    await openNotesWindow(refState, () => setNotesPopped(false));
     setNotesOpen(false);
     setNotesPopped(true);
   };
@@ -270,11 +270,10 @@ export default function App() {
   }, [phase, reloadNoteDots]);
 
   useEffect(() => {
-    const uns: Array<() => void> = [];
-    onNotesClosed(() => setNotesPopped(false)).then((u) => uns.push(u));
     // popout edited/imported notes → refresh the verse note-dots here
-    onNotesChanged(() => reloadNoteDots()).then((u) => uns.push(u));
-    return () => uns.forEach((u) => u());
+    let un: (() => void) | undefined;
+    onNotesChanged(() => reloadNoteDots()).then((u) => { un = u; });
+    return () => un?.();
   }, [reloadNoteDots]);
 
   // clear verse selection and word highlight when leaving the chapter
