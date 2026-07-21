@@ -35,6 +35,9 @@ function savePref<T>(key: string, value: T): void {
   localStorage.setItem(`foundation.${key}`, JSON.stringify(value));
 }
 
+// Pane 1 is pinned to this translation and its source selector is disabled.
+const LOCKED_PANE0_TITLE = 'King James Version';
+
 export default function App() {
   const [phase, setPhase] = useState<'loading' | 'ready' | 'error'>('loading');
   const [splashMsg, setSplashMsg] = useState('Opening library…');
@@ -212,11 +215,22 @@ export default function App() {
         setHighlighters(await listHighlighters());
         const srcs = await listSources();
         setSources(srcs);
+        // Pane 1 is locked to the KJV (see LOCKED_PANE0_TITLE).
+        const kjvId = srcs.find((s) => s.title === LOCKED_PANE0_TITLE)?.id
+          ?? srcs.find((s) => s.type === 'bible')?.id
+          ?? srcs[0]?.id;
         setPaneSourceIds((prev) => {
           const valid = prev.filter((id) => srcs.some((s) => s.id === id));
-          if (valid.length > 0) return valid;
-          const bibles = srcs.filter((s) => s.type === 'bible').map((s) => s.id);
-          return bibles.length >= 2 ? bibles.slice(0, 2) : srcs.slice(0, 1).map((s) => s.id);
+          let ids: number[];
+          if (valid.length > 0) ids = valid;
+          else {
+            const bibles = srcs.filter((s) => s.type === 'bible').map((s) => s.id);
+            ids = bibles.length >= 2 ? bibles.slice(0, 2) : srcs.slice(0, 1).map((s) => s.id);
+          }
+          // force pane 1 to the locked translation (replace, don't insert,
+          // so parallel arrays stay aligned)
+          if (kjvId != null) ids = ids.length ? [kjvId, ...ids.slice(1)] : [kjvId];
+          return ids;
         });
         setPhase('ready');
       } catch (e) {
@@ -226,6 +240,17 @@ export default function App() {
       }
     })();
   }, []);
+
+  // Keep pane 1 pinned to the KJV even across imports / hot reloads.
+  useEffect(() => {
+    if (sources.length === 0) return;
+    const kjvId = sources.find((s) => s.title === LOCKED_PANE0_TITLE)?.id;
+    if (kjvId == null) return;
+    setPaneSourceIds((prev) => {
+      if (prev.length > 0 && prev[0] === kjvId) return prev;
+      return prev.length ? [kjvId, ...prev.slice(1)] : [kjvId];
+    });
+  }, [sources]);
 
   // ---------- theme ----------
   const theme: ThemeId = themeOverride ?? systemDefaultTheme();
@@ -428,7 +453,15 @@ export default function App() {
 
   // ---------- panes ----------
   const setPaneSource = (i: number, id: number) => {
+    if (i === 0) return; // pane 1 is locked to the KJV
     setPaneSourceIds((prev) => prev.map((p, j) => (j === i ? id : p)));
+  };
+
+  // Bring a source into view without touching the locked pane 1: reuse it
+  // if already shown, else put it in pane 2 when one exists.
+  const showSource = (sourceId: number) => {
+    if (paneSourceIds.includes(sourceId)) return;
+    if (paneSourceIds.length > 1) setPaneSource(1, sourceId);
   };
 
   const addPane = () => {
@@ -484,26 +517,22 @@ export default function App() {
     }
     if (hit.book && books.some((b) => b.name === hit.book)) {
       // canonical text: make sure its source is visible, then navigate
-      if (hit.source_id != null && !paneSourceIds.includes(hit.source_id)) {
-        setPaneSource(0, hit.source_id);
-      }
+      if (hit.source_id != null) showSource(hit.source_id);
       navigate(hit.book, hit.chapter ?? 1);
       if (hit.verse != null && hit.chapter != null) {
         selectSingle(hit.book, hit.chapter, hit.verse);
         scrollToVerse(hit.verse);
       }
     } else if (hit.source_id != null) {
-      // freeform text: show its source in the first pane
-      setPaneSource(0, hit.source_id);
+      // freeform text: bring its source into a changeable pane
+      showSource(hit.source_id);
     }
   };
 
   // Shared by the search modal and the docked concordance pane: bring the
   // hit's source into view, navigate, select, and highlight the exact word.
   const goToStrongsHit = (hit: StrongsSearchHit) => {
-    if (!paneSourceIds.includes(hit.source_id)) {
-      setPaneSource(0, hit.source_id);
-    }
+    showSource(hit.source_id);
     navigate(hit.book, hit.chapter);
     selectSingle(hit.book, hit.chapter, hit.verse);
     setHighlightWord({ book: hit.book, chapter: hit.chapter, verse: hit.verse, wordIndex: hit.word_index });
@@ -602,6 +631,7 @@ export default function App() {
                   onNavigate={(book, chapter) => handlePaneNavigate(i, book, chapter)}
                   onSelectVerses={selectVerses}
                   onChangeSource={(id) => setPaneSource(i, id)}
+                  sourceLocked={i === 0}
                   onClose={() => closePane(i)}
                   canClose={paneSourceIds.length > 1}
                   onWordClick={handleWordClick}

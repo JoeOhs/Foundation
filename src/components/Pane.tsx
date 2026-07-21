@@ -38,6 +38,8 @@ interface PaneProps {
   onNavigate?: (book: string, chapter: number) => void;
   onSelectVerses: (verses: SelectedVerse[], anchor: VerseSelection) => void;
   onChangeSource: (id: number) => void;
+  // pane 1's translation is pinned (KJV) — its source selector is disabled
+  sourceLocked?: boolean;
   onClose: () => void;
   canClose: boolean;
   onWordClick?: (surfaceText: string) => void;
@@ -47,7 +49,7 @@ interface PaneProps {
 
 export default function Pane({
   sources, sourceId, mode, reference, noteAnchorRef, highlightsVersion, selectedKeys, selectionAnchor, notedVerses, highlightWord,
-  onNavigate, onSelectVerses, onChangeSource, onClose, canClose, onWordClick, bodyRef, onScroll,
+  onNavigate, onSelectVerses, onChangeSource, onClose, canClose, onWordClick, bodyRef, onScroll, sourceLocked,
 }: PaneProps) {
   const source = sources.find((s) => s.id === sourceId);
   const [books, setBooks] = useState<Book[]>([]);
@@ -190,7 +192,12 @@ export default function Pane({
   return (
     <div className="pane">
       <div className="pane-header">
-        <select value={sourceId} onChange={(e) => onChangeSource(Number(e.target.value))} title="Translation / source">
+        <select
+          value={sourceId}
+          disabled={sourceLocked}
+          onChange={(e) => onChangeSource(Number(e.target.value))}
+          title={sourceLocked ? 'Pane 1 is locked to the King James Version' : 'Translation / source'}
+        >
           {sources.map((s) => (
             <option key={s.id} value={s.id}>{s.title}</option>
           ))}
