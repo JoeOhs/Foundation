@@ -451,6 +451,7 @@ select:focus, input:focus, button:focus-visible {
   padding: 6px 10px;
   border-bottom: 1px solid var(--border);
 }
+.notes-tabs .spacer { flex: 1; }
 .notes-tab {
   background: transparent;
   border: none;

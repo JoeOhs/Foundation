@@ -144,6 +144,8 @@ export default function NotesPanel({
         <button className={`notes-tab${tab === 'notes' ? ' active' : ''}`} onClick={() => setTab('notes')}>Notes</button>
         <button className={`notes-tab${tab === 'highlights' ? ' active' : ''}`} onClick={() => setTab('highlights')}>Highlights</button>
         <span className="spacer" />
+        <button className="icon" onClick={doImport} title="Import notes (Markdown, text, RTF, HTML)">📥</button>
+        <button className="icon" onClick={doExport} title="Export all notes to Markdown">📤</button>
         {onPopOut && <button className="icon" onClick={onPopOut} title="Open in a separate window">⧉</button>}
         {onClose && <button className="icon" onClick={onClose} title="Close notes">✕</button>}
       </div>
@@ -153,9 +155,6 @@ export default function NotesPanel({
             {refState.book} {refState.chapter}
           </button>
           <button onClick={() => setShowFree(true)} disabled={showFree}>Free</button>
-          <span className="spacer" />
-          <button className="icon" onClick={doImport} title="Import notes (Markdown, text, RTF, HTML)">📥</button>
-          <button className="icon" onClick={doExport} title="Export all notes to Markdown">📤</button>
         </div>
       )}
       {status && <div className="notes-status">{status}</div>}
