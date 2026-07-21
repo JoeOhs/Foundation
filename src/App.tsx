@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
-  initDb, listBooks, listHighlighters, listSources, notesForChapter,
+  createLink, initDb, listBooks, listHighlighters, listSources, notesForChapter,
   removeHighlight, seedHighlightersIfEmpty, setHighlight,
 } from './db';
 import { repairSeededTextsIfNeeded, seedIfEmpty } from './seed';
@@ -16,8 +16,8 @@ import { applyTheme, normalizeStoredTheme, systemDefaultTheme, type ThemeId } fr
 import { applyReaderFont, normalizeStoredFont, type FontId } from './fonts';
 import { versesToMarkdown } from './scripture';
 import {
-  emitHighlightsChanged, emitInsertMarkdown, emitNotesContext, focusNotesWindow,
-  onHighlightsChanged, onNotesChanged, onNotesNavigate, openNotesWindow,
+  emitHighlightsChanged, emitInsertMarkdown, emitLinksChanged, emitNotesContext, focusNotesWindow,
+  onHighlightsChanged, onLinksChanged, onNotesChanged, onNotesNavigate, openNotesWindow,
 } from './notesbus';
 import { highlightBackground } from './components/Pane';
 import type { Book, Highlighter, Reference, SearchHit, SelectedVerse, Source, StrongsSearchHit, VerseSelection } from './types';
@@ -66,6 +66,9 @@ export default function App() {
   const [highlighters, setHighlighters] = useState<Highlighter[]>([]);
   // bump to force panes to re-query persistent highlights
   const [highlightsVersion, setHighlightsVersion] = useState(0);
+  const [linksVersion, setLinksVersion] = useState(0);
+  // first endpoint of an in-progress link (null when not binding)
+  const [pendingLink, setPendingLink] = useState<VerseSelection | null>(null);
 
   // note-anchor default = first selected verse; keys drive pane highlight
   const selection: VerseSelection | null = selectedVerses[0]
@@ -110,6 +113,24 @@ export default function App() {
   const handleHighlightsChanged = () => {
     setHighlightsVersion((n) => n + 1);
     void reloadHighlighters();
+  };
+
+  // ---------- verse linking (bind / loose) ----------
+  const firstSelected: VerseSelection | null = selectedVerses[0]
+    ? { book: selectedVerses[0].book, chapter: selectedVerses[0].chapter, verse: selectedVerses[0].verse }
+    : null;
+  const sameRef = (a: VerseSelection | null, b: VerseSelection | null) =>
+    !!a && !!b && a.book === b.book && a.chapter === b.chapter && a.verse === b.verse;
+
+  const startLink = () => { if (firstSelected) setPendingLink(firstSelected); };
+  const cancelLink = () => setPendingLink(null);
+  const completeBind = async () => {
+    if (!pendingLink || !firstSelected || sameRef(pendingLink, firstSelected)) return;
+    await createLink(pendingLink, firstSelected);
+    setPendingLink(null);
+    setSelectedVerses([]);
+    setLinksVersion((n) => n + 1);
+    emitLinksChanged();
   };
 
   const [notesOpen, setNotesOpen] = useState<boolean>(() => loadPref('notesOpen', false));
@@ -348,6 +369,13 @@ export default function App() {
     return () => un?.();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [books]);
+
+  useEffect(() => {
+    // links changed (possibly in the popout) → refresh bound outlines
+    let un: (() => void) | undefined;
+    onLinksChanged(() => setLinksVersion((n) => n + 1)).then((u) => { un = u; });
+    return () => un?.();
+  }, []);
 
   // clear verse selection and word highlight when leaving the chapter
   useEffect(() => {
@@ -624,6 +652,8 @@ export default function App() {
                   reference={paneReferenceOf(i)}
                   noteAnchorRef={refState}
                   highlightsVersion={highlightsVersion}
+                  linksVersion={linksVersion}
+                  pendingLink={pendingLink}
                   selectedKeys={selectedKeys}
                   selectionAnchor={selectionAnchor}
                   notedVerses={notedVerses}
@@ -669,27 +699,48 @@ export default function App() {
             onNavigateVerse={navigateToVerse}
             highlightsVersion={highlightsVersion}
             onHighlightsChanged={handleHighlightsChanged}
+            linksVersion={linksVersion}
+            onLinksChanged={() => setLinksVersion((n) => n + 1)}
           />
         )}
-        {selectedVerses.length > 0 && selectedVerses.some((v) => v.text) && (
+        {(pendingLink || (selectedVerses.length > 0 && selectedVerses.some((v) => v.text))) && (
           <div className="verse-action-bar">
-            <span className="verse-action-count">
-              {selectedVerses.length} verse{selectedVerses.length > 1 ? 's' : ''}
-            </span>
-            <span className="verse-action-swatches">
-              {highlighters.map((h) => (
-                <button
-                  key={h.id}
-                  className="hl-swatch"
-                  style={{ background: highlightBackground(h.color), borderColor: h.color }}
-                  title={`Highlight: ${h.label}`}
-                  onClick={() => applyHighlight(h.id)}
-                />
-              ))}
-              <button className="hl-swatch hl-erase" title="Remove highlight" onClick={eraseHighlight}>⌫</button>
-            </span>
-            <button className="primary" onClick={addSelectionToNote}>✎ Add to note</button>
-            <button className="icon" onClick={clearSelection} title="Clear selection">✕</button>
+            {pendingLink ? (
+              <>
+                <span className="verse-action-count">
+                  🔗 Linking {pendingLink.book} {pendingLink.chapter}:{pendingLink.verse} ↔
+                </span>
+                {firstSelected && !sameRef(firstSelected, pendingLink) ? (
+                  <button className="primary" onClick={completeBind}>
+                    Bind {firstSelected.book} {firstSelected.chapter}:{firstSelected.verse}
+                  </button>
+                ) : (
+                  <span className="verse-action-hint">select the verse to bind…</span>
+                )}
+                <button className="icon" onClick={cancelLink} title="Cancel link">✕</button>
+              </>
+            ) : (
+              <>
+                <span className="verse-action-count">
+                  {selectedVerses.length} verse{selectedVerses.length > 1 ? 's' : ''}
+                </span>
+                <span className="verse-action-swatches">
+                  {highlighters.map((h) => (
+                    <button
+                      key={h.id}
+                      className="hl-swatch"
+                      style={{ background: highlightBackground(h.color), borderColor: h.color }}
+                      title={`Highlight: ${h.label}`}
+                      onClick={() => applyHighlight(h.id)}
+                    />
+                  ))}
+                  <button className="hl-swatch hl-erase" title="Remove highlight" onClick={eraseHighlight}>⌫</button>
+                </span>
+                <button onClick={startLink} title="Bind this verse to another">🔗 Link</button>
+                <button className="primary" onClick={addSelectionToNote}>✎ Add to note</button>
+                <button className="icon" onClick={clearSelection} title="Clear selection">✕</button>
+              </>
+            )}
           </div>
         )}
       </div>

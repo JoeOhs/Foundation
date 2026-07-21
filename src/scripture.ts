@@ -23,6 +23,12 @@ export function versesReference(verses: SelectedVerse[]): string {
   return `${book} ${chapter}:${runs.join(', ')}`;
 }
 
+// Two bound verses rendered as a markdown fragment with a "linked with"
+// connector — used when sending a link to a note.
+export function linkToMarkdown(a: SelectedVerse, b: SelectedVerse): string {
+  return `${versesToMarkdown([a])}\n\n🔗 *linked with*\n\n${versesToMarkdown([b])}`;
+}
+
 // Render selected verses as a markdown blockquote suitable for insertion
 // into a note: a bold reference + source, then each verse (numbered when
 // more than one). Verses are ordered by number regardless of click order.

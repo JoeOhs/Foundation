@@ -1,7 +1,7 @@
 import Database from '@tauri-apps/plugin-sql';
 import type {
-  Book, Entry, EntryNote, HighlightRow, Highlighter, Note, ParsedSource, SearchHit,
-  SearchResults, Source, SourceType,
+  Book, Entry, EntryNote, HighlightRow, Highlighter, LinkRow, Note, ParsedSource, SearchHit,
+  SearchResults, Source, SourceType, VerseSelection,
   StrongsBookCount, StrongsDictEntry, StrongsSearchGroup, StrongsSearchHit, StrongsWordRow,
 } from './types';
 
@@ -107,6 +107,15 @@ const SCHEMA: string[] = [
   )`,
   // one highlighter per verse — applying another replaces it
   `CREATE UNIQUE INDEX IF NOT EXISTS idx_highlights_ref ON highlights(book, chapter, verse)`,
+  `CREATE TABLE IF NOT EXISTS links (
+    id INTEGER PRIMARY KEY,
+    book_a TEXT NOT NULL, chapter_a INTEGER NOT NULL, verse_a INTEGER NOT NULL,
+    book_b TEXT NOT NULL, chapter_b INTEGER NOT NULL, verse_b INTEGER NOT NULL,
+    highlighter_id INTEGER REFERENCES highlighters(id),
+    created_at TEXT DEFAULT (datetime('now'))
+  )`,
+  `CREATE INDEX IF NOT EXISTS idx_links_a ON links(book_a, chapter_a, verse_a)`,
+  `CREATE INDEX IF NOT EXISTS idx_links_b ON links(book_b, chapter_b, verse_b)`,
 ];
 
 const FTS_SCHEMA: string[] = [
@@ -303,10 +312,12 @@ export async function updateHighlighter(id: number, label: string, color: string
   await db.execute('UPDATE highlighters SET label = ?, color = ? WHERE id = ?', [label, color, id]);
 }
 
-// Deleting a highlighter removes every highlight that used it.
+// Deleting a highlighter removes every highlight that used it, and detaches
+// it from any links (the links survive, just uncolored).
 export async function deleteHighlighter(id: number): Promise<void> {
   const db = await ensureDb();
   await db.execute('DELETE FROM highlights WHERE highlighter_id = ?', [id]);
+  await db.execute('UPDATE links SET highlighter_id = NULL WHERE highlighter_id = ?', [id]);
   await db.execute('DELETE FROM highlighters WHERE id = ?', [id]);
 }
 
@@ -354,6 +365,81 @@ export async function listHighlights(): Promise<(HighlightRow & { text: string }
             ), '') AS text
      FROM highlights h JOIN highlighters hl ON hl.id = h.highlighter_id
      ORDER BY hl.sort_order, hl.id, h.book, h.chapter, h.verse`,
+  );
+}
+
+// ---------- links (verse bindings) ----------
+
+// Create a binding between two verses, unless the identical pair already
+// exists (in either direction).
+export async function createLink(a: VerseSelection, b: VerseSelection): Promise<void> {
+  const db = await ensureDb();
+  const dup = await db.select<{ n: number }[]>(
+    `SELECT COUNT(*) AS n FROM links WHERE
+       (book_a=? AND chapter_a=? AND verse_a=? AND book_b=? AND chapter_b=? AND verse_b=?)
+       OR (book_a=? AND chapter_a=? AND verse_a=? AND book_b=? AND chapter_b=? AND verse_b=?)`,
+    [a.book, a.chapter, a.verse, b.book, b.chapter, b.verse, b.book, b.chapter, b.verse, a.book, a.chapter, a.verse],
+  );
+  if (dup[0].n > 0) return;
+  await db.execute(
+    `INSERT INTO links (book_a, chapter_a, verse_a, book_b, chapter_b, verse_b) VALUES (?, ?, ?, ?, ?, ?)`,
+    [a.book, a.chapter, a.verse, b.book, b.chapter, b.verse],
+  );
+}
+
+export async function deleteLink(id: number): Promise<void> {
+  const db = await ensureDb();
+  await db.execute('DELETE FROM links WHERE id = ?', [id]);
+}
+
+export async function setLinkHighlighter(id: number, highlighterId: number | null): Promise<void> {
+  const db = await ensureDb();
+  await db.execute('UPDATE links SET highlighter_id = ? WHERE id = ?', [highlighterId, id]);
+}
+
+// verse -> optional color for one chapter — any verse that's an endpoint of
+// a link is "bound" (dashed outline); color comes from an associated
+// highlighter when set.
+export async function linksForChapter(book: string, chapter: number): Promise<Map<number, { color: string | null }>> {
+  const db = await ensureDb();
+  const rows = await db.select<{ verse: number; color: string | null }[]>(
+    `SELECT verse, color FROM (
+       SELECT l.verse_a AS verse, hl.color AS color FROM links l
+         LEFT JOIN highlighters hl ON hl.id = l.highlighter_id
+         WHERE l.book_a = ? AND l.chapter_a = ?
+       UNION ALL
+       SELECT l.verse_b AS verse, hl.color AS color FROM links l
+         LEFT JOIN highlighters hl ON hl.id = l.highlighter_id
+         WHERE l.book_b = ? AND l.chapter_b = ?
+     )`,
+    [book, chapter, book, chapter],
+  );
+  const map = new Map<number, { color: string | null }>();
+  for (const r of rows) {
+    const existing = map.get(r.verse);
+    // prefer a colored entry if the verse appears in several links
+    if (!existing || (existing.color === null && r.color !== null)) map.set(r.verse, { color: r.color });
+  }
+  return map;
+}
+
+// All links joined with each endpoint's verse text and highlighter color,
+// in canonical order of the first endpoint — for the Links tab.
+export async function listLinks(): Promise<LinkRow[]> {
+  const db = await ensureDb();
+  const verseText = (bookCol: string, chCol: string, vsCol: string) =>
+    `COALESCE((SELECT e.text FROM entries e JOIN books b ON b.id = e.book_id JOIN sources s ON s.id = b.source_id
+       WHERE s.type = 'bible' AND b.name = l.${bookCol} AND e.chapter = l.${chCol} AND e.verse = l.${vsCol}
+       ORDER BY s.id LIMIT 1), '')`;
+  return db.select<LinkRow[]>(
+    `SELECT l.id AS id, l.book_a AS book_a, l.chapter_a AS chapter_a, l.verse_a AS verse_a,
+            l.book_b AS book_b, l.chapter_b AS chapter_b, l.verse_b AS verse_b,
+            l.highlighter_id AS highlighter_id, l.created_at AS created_at,
+            hl.color AS color, hl.label AS label,
+            ${verseText('book_a', 'chapter_a', 'verse_a')} AS text_a,
+            ${verseText('book_b', 'chapter_b', 'verse_b')} AS text_b
+     FROM links l LEFT JOIN highlighters hl ON hl.id = l.highlighter_id
+     ORDER BY l.book_a, l.chapter_a, l.verse_a, l.id`,
   );
 }
 

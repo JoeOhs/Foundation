@@ -3,7 +3,7 @@ import { initDb } from './db';
 import NotesPanel from './components/NotesPanel';
 import {
   emitNotesChanged, emitNotesNavigate, initialReferenceFromUrl, onHighlightsChanged,
-  onInsertMarkdown, onNotesContext,
+  onInsertMarkdown, onLinksChanged, onNotesContext,
 } from './notesbus';
 import type { Reference, VerseSelection } from './types';
 
@@ -16,18 +16,20 @@ export default function NotesWindow() {
     initialReferenceFromUrl({ book: 'Genesis', chapter: 1 }),
   );
   const [selection, setSelection] = useState<VerseSelection | null>(null);
-  // local counter so the Highlights tab reloads when highlights change in
+  // local counters so the Highlights/Links tabs reload when they change in
   // the main window
   const [hlVersion, setHlVersion] = useState(0);
+  const [linkVersion, setLinkVersion] = useState(0);
 
   useEffect(() => {
     initDb().then(() => setReady(true));
   }, []);
 
   useEffect(() => {
-    let un: (() => void) | undefined;
-    onHighlightsChanged(() => setHlVersion((n) => n + 1)).then((u) => { un = u; });
-    return () => un?.();
+    const uns: Array<() => void> = [];
+    onHighlightsChanged(() => setHlVersion((n) => n + 1)).then((u) => uns.push(u));
+    onLinksChanged(() => setLinkVersion((n) => n + 1)).then((u) => uns.push(u));
+    return () => uns.forEach((u) => u());
   }, []);
 
   useEffect(() => {
@@ -59,6 +61,8 @@ export default function NotesWindow() {
         onNavigateVerse={(book, chapter, verse) => emitNotesNavigate({ book, chapter, verse })}
         highlightsVersion={hlVersion}
         onHighlightsChanged={() => setHlVersion((n) => n + 1)}
+        linksVersion={linkVersion}
+        onLinksChanged={() => setLinkVersion((n) => n + 1)}
       />
     </div>
   );

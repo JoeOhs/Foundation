@@ -67,6 +67,11 @@ running list of what's done and what's next, not a commitment.
   Notes panel manages the palette and lists highlighted verses grouped by
   color with jump-to-verse and add-to-note. Works in the popped-out notes
   window via the same cross-window events.
+- **Verse links (bindings).** Bind two verses across panes (`links` table:
+  two canonical endpoints + optional `highlighter_id` for color). Bound
+  verses render a dashed outline; a Links tab in the Notes panel lists
+  bindings with both verses' text, Loose (delete), add-to-note, and an
+  associate-highlighter swatch. Cross-window via `links:changed`.
 - **Markdown notes workspace.** Notes are Markdown documents edited with a
   formatting toolbar + Write/Preview (`marked` + `DOMPurify`;
   `src/components/NoteEditor.tsx`). Shift+click selects verse ranges in the

@@ -109,6 +109,7 @@ select:focus, input:focus, button:focus-visible {
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
 }
 .verse-action-count { font-size: 12px; color: var(--text-secondary); }
+.verse-action-hint { font-size: 12px; color: var(--text-muted); font-style: italic; }
 .verse-action-bar button.primary { font-size: 12px; padding: 4px 12px; border-radius: 99px; }
 .verse-action-swatches { display: flex; align-items: center; gap: 5px; }
 .hl-swatch {
@@ -223,6 +224,11 @@ select:focus, input:focus, button:focus-visible {
 /* selection is a ring so it coexists with a persistent highlight color;
    highlighted verses carry an inline background that wins over :hover */
 .verse.selected { box-shadow: inset 0 0 0 2px var(--accent-primary); }
+/* a bound verse (part of a link) gets a dashed outline — coexists with
+   the selection ring and highlight background; color set inline when the
+   link is associated with a highlighter */
+.verse.bound { outline: 1.5px dashed var(--accent-secondary); outline-offset: -2px; }
+.verse.link-pending { outline: 2px dashed var(--accent-primary); outline-offset: -2px; }
 .verse .vnum {
   font-family: var(--font-ui);
   font-size: 0.7em;
@@ -554,6 +560,44 @@ select:focus, input:focus, button:focus-visible {
   color: var(--text-muted);
   padding: 4px 8px 2px;
 }
+
+/* ---------- links tab ---------- */
+.links-tab { flex: 1; overflow-y: auto; padding: 10px 12px; }
+.link-item {
+  border: 1px solid var(--border);
+  border-left-width: 3px;
+  border-radius: 8px;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+}
+.link-endpoints { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.link-ref {
+  background: transparent;
+  border: none;
+  padding: 2px 4px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent-primary);
+  cursor: pointer;
+  border-radius: 4px;
+}
+.link-ref:hover { background: var(--bg-hover); }
+.link-arrow { font-size: 12px; color: var(--text-muted); }
+.link-texts { margin: 4px 0; }
+.link-text-snippet {
+  font-family: var(--font-reader);
+  font-size: 12px;
+  color: var(--text-secondary);
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.link-actions { display: flex; align-items: center; gap: 6px; margin-top: 6px; }
+.link-actions .spacer { flex: 1; }
+.link-associate { display: flex; gap: 4px; }
+.link-associate .hl-swatch { width: 15px; height: 15px; }
+.link-actions button { font-size: 12px; padding: 3px 8px; }
 
 /* popped-out notes window: fill the whole webview, shell gradient behind */
 .notes-window {

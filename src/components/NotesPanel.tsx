@@ -4,6 +4,7 @@ import { renderMarkdown } from '../markdown';
 import { exportAllNotes, importNotesFromFiles } from '../notesio';
 import NoteEditor, { type NoteEditorHandle } from './NoteEditor';
 import HighlightsTab from './HighlightsTab';
+import LinksTab from './LinksTab';
 import type { Note, Reference, VerseSelection } from '../types';
 
 type AnchorKind = 'verse' | 'chapter' | 'book' | 'free';
@@ -14,11 +15,13 @@ interface NotesPanelProps {
   onNotesChanged: () => void;
   onClose?: () => void;
   onPopOut?: () => void;
-  // Highlights tab: navigate the reader to a highlighted verse, and refresh
-  // state when highlights change here
+  // Highlights/Links tabs: navigate the reader to a verse, and refresh state
+  // when highlights/links change here
   onNavigateVerse: (book: string, chapter: number, verse: number) => void;
   highlightsVersion: number;
   onHighlightsChanged: () => void;
+  linksVersion: number;
+  onLinksChanged: () => void;
   // popout window renders NotesPanel standalone (no docked chrome)
   standalone?: boolean;
 }
@@ -32,9 +35,9 @@ function anchorLabel(n: Note): string {
 
 export default function NotesPanel({
   refState, selection, onNotesChanged, onClose, onPopOut,
-  onNavigateVerse, highlightsVersion, onHighlightsChanged, standalone,
+  onNavigateVerse, highlightsVersion, onHighlightsChanged, linksVersion, onLinksChanged, standalone,
 }: NotesPanelProps) {
-  const [tab, setTab] = useState<'notes' | 'highlights'>('notes');
+  const [tab, setTab] = useState<'notes' | 'highlights' | 'links'>('notes');
   const [showFree, setShowFree] = useState(false);
   const [notes, setNotes] = useState<Note[]>([]);
   const [editing, setEditing] = useState<Note | null>(null);
@@ -143,6 +146,7 @@ export default function NotesPanel({
       <div className="notes-tabs">
         <button className={`notes-tab${tab === 'notes' ? ' active' : ''}`} onClick={() => setTab('notes')}>Notes</button>
         <button className={`notes-tab${tab === 'highlights' ? ' active' : ''}`} onClick={() => setTab('highlights')}>Highlights</button>
+        <button className={`notes-tab${tab === 'links' ? ' active' : ''}`} onClick={() => setTab('links')}>Links</button>
         <span className="spacer" />
         <button className="icon" onClick={doImport} title="Import notes (Markdown, text, RTF, HTML)">📥</button>
         <button className="icon" onClick={doExport} title="Export all notes to Markdown">📤</button>
@@ -163,6 +167,13 @@ export default function NotesPanel({
           onNavigate={onNavigateVerse}
           version={highlightsVersion}
           onChanged={onHighlightsChanged}
+          onNoteAdded={() => { reload(); onNotesChanged(); }}
+        />
+      ) : tab === 'links' ? (
+        <LinksTab
+          onNavigate={onNavigateVerse}
+          version={linksVersion}
+          onChanged={onLinksChanged}
           onNoteAdded={() => { reload(); onNotesChanged(); }}
         />
       ) : (

@@ -149,6 +149,28 @@ export interface HighlightRow extends Highlight {
   color: string;
 }
 
+// A binding between two verses (canonical refs), optionally associated with
+// a highlighter for color/category. Both endpoints show a dashed outline.
+export interface Link {
+  id: number;
+  book_a: string;
+  chapter_a: number;
+  verse_a: number;
+  book_b: string;
+  chapter_b: number;
+  verse_b: number;
+  highlighter_id: number | null;
+  created_at: string;
+}
+
+// A link joined with each endpoint's verse text + associated highlighter.
+export interface LinkRow extends Link {
+  text_a: string;
+  text_b: string;
+  color: string | null;
+  label: string | null;
+}
+
 // A translator's note (alternate reading, literal Hebrew/Greek rendering,
 // explanation) captured from the OSIS source. Anchored after a specific
 // tagged word via word_index, or verse-level when word_index is NULL.

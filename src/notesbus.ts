@@ -58,6 +58,14 @@ export function onNotesNavigate(cb: (ref: VerseSelection) => void): Promise<Unli
   return listen<VerseSelection>(NAV, (e) => cb(e.payload));
 }
 
+const LINKS_CHANGED = 'links:changed'; // either → other: verse links changed
+export function emitLinksChanged(): void {
+  void emit(LINKS_CHANGED);
+}
+export function onLinksChanged(cb: () => void): Promise<UnlistenFn> {
+  return listen(LINKS_CHANGED, () => cb());
+}
+
 export function emitNotesClosed(): void {
   void emit(CLOSED);
 }

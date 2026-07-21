@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { getChapters, getEntries, getEntryNotesForEntries, getStrongsWordsForEntries, highlightsForChapter, listBooks } from '../db';
+import { getChapters, getEntries, getEntryNotesForEntries, getStrongsWordsForEntries, highlightsForChapter, linksForChapter, listBooks } from '../db';
 import StrongsVerseText from './StrongsWords';
 import type { Book, Entry, EntryNote, Reference, SelectedVerse, Source, StrongsWordRow, VerseSelection } from '../types';
 
@@ -29,6 +29,10 @@ interface PaneProps {
   noteAnchorRef: Reference;
   // bump to force a re-query of persistent verse highlights
   highlightsVersion: number;
+  // bump to force a re-query of verse links (bound outlines)
+  linksVersion: number;
+  // the in-progress link's first endpoint (dashed pending outline)
+  pendingLink: VerseSelection | null;
   // keys "book|chapter|verse" of currently selected verses, for highlight
   selectedKeys: Set<string>;
   // anchor for shift+click range extension (null starts a fresh selection)
@@ -48,7 +52,8 @@ interface PaneProps {
 }
 
 export default function Pane({
-  sources, sourceId, mode, reference, noteAnchorRef, highlightsVersion, selectedKeys, selectionAnchor, notedVerses, highlightWord,
+  sources, sourceId, mode, reference, noteAnchorRef, highlightsVersion, linksVersion, pendingLink,
+  selectedKeys, selectionAnchor, notedVerses, highlightWord,
   onNavigate, onSelectVerses, onChangeSource, onClose, canClose, onWordClick, bodyRef, onScroll, sourceLocked,
 }: PaneProps) {
   const source = sources.find((s) => s.id === sourceId);
@@ -62,6 +67,7 @@ export default function Pane({
   const [wordsByEntry, setWordsByEntry] = useState<Map<number, StrongsWordRow[]>>(new Map());
   const [notesByEntry, setNotesByEntry] = useState<Map<number, EntryNote[]>>(new Map());
   const [highlightsByVerse, setHighlightsByVerse] = useState<Map<number, { color: string; highlighterId: number }>>(new Map());
+  const [linksByVerse, setLinksByVerse] = useState<Map<number, { color: string | null }>>(new Map());
 
   useEffect(() => {
     let live = true;
@@ -159,6 +165,17 @@ export default function Pane({
     highlightsForChapter(effectiveBook, activeChapter).then((m) => { if (live) setHighlightsByVerse(m); });
     return () => { live = false; };
   }, [effectiveBook, activeChapter, highlightsVersion]);
+
+  // verse links (bound-outline) for the shown chapter
+  useEffect(() => {
+    if (!effectiveBook || activeChapter === null) {
+      setLinksByVerse(new Map());
+      return;
+    }
+    let live = true;
+    linksForChapter(effectiveBook, activeChapter).then((m) => { if (live) setLinksByVerse(m); });
+    return () => { live = false; };
+  }, [effectiveBook, activeChapter, linksVersion]);
 
   const showNav = mode === 'controller' || mode === 'solo';
   const verseKeyed = entries.some((e) => e.verse !== null);
@@ -274,12 +291,22 @@ export default function Pane({
                 if (highlightSet.size === 0) highlightSet = new Set([highlightWord.wordIndex]);
               }
               const hl = e.verse !== null ? highlightsByVerse.get(e.verse) : undefined;
+              const link = e.verse !== null ? linksByVerse.get(e.verse) : undefined;
+              const isPending =
+                pendingLink !== null &&
+                effectiveBook !== null &&
+                pendingLink.book === effectiveBook &&
+                pendingLink.chapter === verseChapter &&
+                pendingLink.verse === e.verse;
+              const style: React.CSSProperties = {};
+              if (hl) style.background = highlightBackground(hl.color);
+              if (link?.color) style.outlineColor = link.color;
               return (
                 <div
                   key={e.id}
                   data-verse={e.verse ?? undefined}
-                  className={`verse${isSel ? ' selected' : ''}${hl ? ' highlighted' : ''}`}
-                  style={hl ? { background: highlightBackground(hl.color) } : undefined}
+                  className={`verse${isSel ? ' selected' : ''}${hl ? ' highlighted' : ''}${link ? ' bound' : ''}${isPending ? ' link-pending' : ''}`}
+                  style={style}
                   onClick={(ev) => e.verse !== null && clickVerse(ev, e.verse, verseChapter)}
                 >
                   <span className="vnum">{e.verse}</span>
