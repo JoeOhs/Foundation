@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { addNote, deleteNote, freeNotes, notesForChapter, updateNote } from '../db';
+import { addNote, deleteNote, freeNotes, notesForChapter, setNotePinned, updateNote } from '../db';
 import { renderMarkdown } from '../markdown';
 import { exportAllNotes, importNotesFromFiles } from '../notesio';
 import NoteEditor, { type NoteEditorHandle } from './NoteEditor';
@@ -114,6 +114,11 @@ export default function NotesPanel({
     onNotesChanged();
   };
 
+  const togglePin = async (n: Note) => {
+    await setNotePinned(n.id, !n.pinned);
+    await reload();
+  };
+
   const flash = (msg: string) => {
     setStatus(msg);
     setTimeout(() => setStatus(''), 3000);
@@ -185,8 +190,17 @@ export default function NotesPanel({
           </div>
         )}
         {notes.map((n) => (
-          <div className="note-card" key={n.id}>
-            <div className="note-anchor">{anchorLabel(n)}</div>
+          <div className={`note-card${n.pinned ? ' pinned' : ''}`} key={n.id}>
+            <div className="note-card-head">
+              <div className="note-anchor">{n.pinned ? '📌 ' : ''}{anchorLabel(n)}</div>
+              <button
+                className={`icon note-pin${n.pinned ? ' active' : ''}`}
+                onClick={() => togglePin(n)}
+                title={n.pinned ? 'Unpin' : 'Pin to top'}
+              >
+                📌
+              </button>
+            </div>
             {n.title && <div className="note-title">{n.title}</div>}
             <div className="note-content note-md" dangerouslySetInnerHTML={{ __html: renderMarkdown(n.content) }} />
             <div className="note-actions">

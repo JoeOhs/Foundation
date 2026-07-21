@@ -4,6 +4,7 @@ import {
   removeHighlight, seedHighlightersIfEmpty, setHighlight,
 } from './db';
 import { repairSeededTextsIfNeeded, seedIfEmpty } from './seed';
+import { seedTutorialNoteIfNeeded } from './tutorialNote';
 import Pane, { type HighlightWord, type PaneMode } from './components/Pane';
 import SyncMenu, { type PaneGroup } from './components/SyncMenu';
 import NotesPanel from './components/NotesPanel';
@@ -233,6 +234,7 @@ export default function App() {
         await seedIfEmpty(setSplashMsg);
         await repairSeededTextsIfNeeded(setSplashMsg);
         await seedHighlightersIfEmpty();
+        await seedTutorialNoteIfNeeded();
         setHighlighters(await listHighlighters());
         const srcs = await listSources();
         setSources(srcs);

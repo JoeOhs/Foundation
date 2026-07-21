@@ -54,6 +54,7 @@ const SCHEMA: string[] = [
     anchor_verse INTEGER,
     title TEXT,
     content TEXT NOT NULL,
+    pinned INTEGER NOT NULL DEFAULT 0,
     created_at TEXT DEFAULT (datetime('now')),
     updated_at TEXT DEFAULT (datetime('now'))
   )`,
@@ -148,6 +149,13 @@ export async function initDb(): Promise<void> {
   for (const stmt of SCHEMA) {
     await db.execute(stmt);
   }
+  // Migration for databases created before the `pinned` column existed.
+  // ALTER ... ADD COLUMN throws if it already exists — harmless.
+  try {
+    await db.execute('ALTER TABLE notes ADD COLUMN pinned INTEGER NOT NULL DEFAULT 0');
+  } catch {
+    /* column already present */
+  }
   try {
     for (const stmt of FTS_SCHEMA) {
       await db.execute(stmt);
@@ -212,7 +220,7 @@ export async function notesForChapter(book: string, chapter: number): Promise<No
   const db = await ensureDb();
   return db.select<Note[]>(
     `SELECT * FROM notes WHERE anchor_book = ? AND (anchor_chapter = ? OR anchor_chapter IS NULL)
-     ORDER BY anchor_verse IS NULL, anchor_verse, updated_at DESC`,
+     ORDER BY pinned DESC, anchor_verse IS NULL, anchor_verse, updated_at DESC`,
     [book, chapter],
   );
 }
@@ -220,8 +228,13 @@ export async function notesForChapter(book: string, chapter: number): Promise<No
 export async function freeNotes(): Promise<Note[]> {
   const db = await ensureDb();
   return db.select<Note[]>(
-    `SELECT * FROM notes WHERE anchor_book IS NULL AND entry_id IS NULL ORDER BY updated_at DESC`,
+    `SELECT * FROM notes WHERE anchor_book IS NULL AND entry_id IS NULL ORDER BY pinned DESC, updated_at DESC`,
   );
+}
+
+export async function setNotePinned(id: number, pinned: boolean): Promise<void> {
+  const db = await ensureDb();
+  await db.execute('UPDATE notes SET pinned = ? WHERE id = ?', [pinned ? 1 : 0, id]);
 }
 
 export async function notesForEntry(entryId: number): Promise<Note[]> {
@@ -245,11 +258,12 @@ export async function addNote(note: {
   anchor_verse?: number | null;
   title?: string | null;
   content: string;
+  pinned?: boolean;
 }): Promise<void> {
   const db = await ensureDb();
   await db.execute(
-    `INSERT INTO notes (entry_id, anchor_book, anchor_chapter, anchor_verse, title, content)
-     VALUES (?, ?, ?, ?, ?, ?)`,
+    `INSERT INTO notes (entry_id, anchor_book, anchor_chapter, anchor_verse, title, content, pinned)
+     VALUES (?, ?, ?, ?, ?, ?, ?)`,
     [
       note.entry_id ?? null,
       note.anchor_book ?? null,
@@ -257,6 +271,7 @@ export async function addNote(note: {
       note.anchor_verse ?? null,
       note.title ?? null,
       note.content,
+      note.pinned ? 1 : 0,
     ],
   );
 }

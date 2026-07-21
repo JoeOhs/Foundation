@@ -36,6 +36,7 @@ export interface Note {
   anchor_verse: number | null;
   title: string | null;
   content: string;
+  pinned: number; // 0/1 — pinned notes sort to the top of their list
   created_at: string;
   updated_at: string;
 }
