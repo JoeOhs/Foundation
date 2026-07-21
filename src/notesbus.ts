@@ -16,6 +16,19 @@ export function isNotesWindow(): boolean {
   return new URLSearchParams(window.location.search).get('window') === 'notes';
 }
 
+// In-window handoff for "Add to note" when the notes panel is opened fresh:
+// the editor's insert listener isn't mounted yet, so the markdown is parked
+// here and the panel drains it on mount — deterministic, no timing guess.
+let pendingInsert: string | null = null;
+export function queueInsertMarkdown(md: string): void {
+  pendingInsert = md;
+}
+export function takePendingInsertMarkdown(): string | null {
+  const v = pendingInsert;
+  pendingInsert = null;
+  return v;
+}
+
 export interface NotesContext {
   ref: Reference;
   selection: VerseSelection | null;

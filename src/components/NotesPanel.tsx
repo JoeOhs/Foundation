@@ -2,6 +2,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { addNote, deleteNote, freeNotes, notesForChapter, setNotePinned, updateNote } from '../db';
 import { renderMarkdown } from '../markdown';
 import { exportAllNotes, importNotesFromFiles } from '../notesio';
+import { takePendingInsertMarkdown } from '../notesbus';
 import NoteEditor, { type NoteEditorHandle } from './NoteEditor';
 import HighlightsTab from './HighlightsTab';
 import LinksTab from './LinksTab';
@@ -87,6 +88,10 @@ export default function NotesPanel({
       if (md) editorRef.current?.insertAtCursor(md);
     };
     window.addEventListener('foundation:insert-note-md', onInsert);
+    // drain any markdown parked while this panel was mounting (Add to note
+    // on a freshly-opened panel)
+    const queued = takePendingInsertMarkdown();
+    if (queued) editorRef.current?.insertAtCursor(queued);
     return () => window.removeEventListener('foundation:insert-note-md', onInsert);
   }, []);
 

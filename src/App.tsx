@@ -19,6 +19,7 @@ import { versesToMarkdown } from './scripture';
 import {
   emitHighlightsChanged, emitInsertMarkdown, emitLinksChanged, emitNotesContext, focusNotesWindow,
   onHighlightsChanged, onLinksChanged, onNotesChanged, onNotesNavigate, openNotesWindow,
+  queueInsertMarkdown,
 } from './notesbus';
 import { highlightBackground } from './components/Pane';
 import type { Book, Highlighter, Reference, SearchHit, SelectedVerse, Source, StrongsSearchHit, VerseSelection } from './types';
@@ -181,13 +182,13 @@ export default function App() {
       }
       setNotesPopped(false);
     }
-    const dispatch = () => window.dispatchEvent(new CustomEvent('foundation:insert-note-md', { detail: md }));
     if (!notesOpen) {
+      // panel mounts fresh — park the markdown so it drains on mount rather
+      // than racing a fixed timeout against the listener attaching
+      queueInsertMarkdown(md);
       setNotesOpen(true);
-      // wait for NotesPanel to mount its listener before dispatching
-      setTimeout(dispatch, 80);
     } else {
-      dispatch();
+      window.dispatchEvent(new CustomEvent('foundation:insert-note-md', { detail: md }));
     }
   };
 
