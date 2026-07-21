@@ -45,26 +45,42 @@ export default function HighlightsTab({ onNavigate, version, onChanged, onNoteAd
   };
   const saveEdit = async () => {
     if (editingId === null) return;
-    await updateHighlighter(editingId, editLabel.trim() || 'Highlighter', editColor);
-    setEditingId(null);
-    changed();
+    try {
+      await updateHighlighter(editingId, editLabel.trim() || 'Highlighter', editColor);
+      setEditingId(null);
+      changed();
+    } catch (e) {
+      window.alert(`Couldn't save the highlighter: ${String(e)}`);
+    }
   };
   const removeHighlighter = async (h: Highlighter) => {
     if (!window.confirm(`Delete the "${h.label}" highlighter and all verses highlighted with it?`)) return;
-    await deleteHighlighter(h.id);
-    if (editingId === h.id) setEditingId(null);
-    changed();
+    try {
+      await deleteHighlighter(h.id);
+      if (editingId === h.id) setEditingId(null);
+      changed();
+    } catch (e) {
+      window.alert(`Couldn't delete the highlighter: ${String(e)}`);
+    }
   };
   const addNew = async () => {
-    const used = new Set(highlighters.map((h) => h.color));
-    const color = PALETTE.find((c) => !used.has(c)) ?? PALETTE[0];
-    await addHighlighter('New highlighter', color);
-    changed();
+    try {
+      const used = new Set(highlighters.map((h) => h.color));
+      const color = PALETTE.find((c) => !used.has(c)) ?? PALETTE[0];
+      await addHighlighter('New highlighter', color);
+      changed();
+    } catch (e) {
+      window.alert(`Couldn't add a highlighter: ${String(e)}`);
+    }
   };
 
   const unhighlight = async (r: HighlightRow) => {
-    await removeHighlight(r.book, r.chapter, r.verse);
-    changed();
+    try {
+      await removeHighlight(r.book, r.chapter, r.verse);
+      changed();
+    } catch (e) {
+      window.alert(`Couldn't remove the highlight: ${String(e)}`);
+    }
   };
 
   const verseMarkdown = (r: HighlightRow & { text: string }) =>

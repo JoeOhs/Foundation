@@ -102,14 +102,22 @@ export default function App() {
   // Apply / erase a highlighter across the selected verses, then refresh the
   // reader (version bump) and any other window (event).
   const applyHighlight = async (highlighterId: number) => {
-    for (const v of selectedVerses) await setHighlight(highlighterId, v.book, v.chapter, v.verse);
-    setHighlightsVersion((n) => n + 1);
-    emitHighlightsChanged();
+    try {
+      for (const v of selectedVerses) await setHighlight(highlighterId, v.book, v.chapter, v.verse);
+      setHighlightsVersion((n) => n + 1);
+      emitHighlightsChanged();
+    } catch (e) {
+      window.alert(`Couldn't apply the highlight: ${String(e)}`);
+    }
   };
   const eraseHighlight = async () => {
-    for (const v of selectedVerses) await removeHighlight(v.book, v.chapter, v.verse);
-    setHighlightsVersion((n) => n + 1);
-    emitHighlightsChanged();
+    try {
+      for (const v of selectedVerses) await removeHighlight(v.book, v.chapter, v.verse);
+      setHighlightsVersion((n) => n + 1);
+      emitHighlightsChanged();
+    } catch (e) {
+      window.alert(`Couldn't remove the highlight: ${String(e)}`);
+    }
   };
 
   const handleHighlightsChanged = () => {
@@ -128,11 +136,15 @@ export default function App() {
   const cancelLink = () => setPendingLink(null);
   const completeBind = async () => {
     if (!pendingLink || !firstSelected || sameRef(pendingLink, firstSelected)) return;
-    await createLink(pendingLink, firstSelected);
-    setPendingLink(null);
-    setSelectedVerses([]);
-    setLinksVersion((n) => n + 1);
-    emitLinksChanged();
+    try {
+      await createLink(pendingLink, firstSelected);
+      setPendingLink(null);
+      setSelectedVerses([]);
+      setLinksVersion((n) => n + 1);
+      emitLinksChanged();
+    } catch (e) {
+      window.alert(`Couldn't bind these verses: ${String(e)}`);
+    }
   };
 
   const [notesOpen, setNotesOpen] = useState<boolean>(() => loadPref('notesOpen', false));

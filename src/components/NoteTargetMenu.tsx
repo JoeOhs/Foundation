@@ -42,10 +42,21 @@ export default function NoteTargetMenu({ buildMarkdown, onAdded }: NoteTargetMen
   };
 
   const done = () => { setOpen(false); emitNotesChanged(); onAdded(); };
-  const create = async () => { await addNote({ content: buildMarkdown() }); done(); };
+  const create = async () => {
+    try {
+      await addNote({ content: buildMarkdown() });
+      done();
+    } catch (e) {
+      window.alert(`Couldn't create the note: ${String(e)}`);
+    }
+  };
   const append = async (n: Note) => {
-    await updateNote(n.id, n.title, `${n.content.trim()}\n\n${buildMarkdown()}`);
-    done();
+    try {
+      await updateNote(n.id, n.title, `${n.content.trim()}\n\n${buildMarkdown()}`);
+      done();
+    } catch (e) {
+      window.alert(`Couldn't add to the note: ${String(e)}`);
+    }
   };
 
   return (

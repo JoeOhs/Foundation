@@ -26,13 +26,21 @@ export default function LinksTab({ onNavigate, version, onChanged, onNoteAdded }
   const changed = () => { emitLinksChanged(); onChanged(); reload(); };
 
   const loose = async (l: LinkRow) => {
-    await deleteLink(l.id);
-    changed();
+    try {
+      await deleteLink(l.id);
+      changed();
+    } catch (e) {
+      window.alert(`Couldn't remove this link: ${String(e)}`);
+    }
   };
 
   const associate = async (l: LinkRow, highlighterId: number | null) => {
-    await setLinkHighlighter(l.id, l.highlighter_id === highlighterId ? null : highlighterId);
-    changed();
+    try {
+      await setLinkHighlighter(l.id, l.highlighter_id === highlighterId ? null : highlighterId);
+      changed();
+    } catch (e) {
+      window.alert(`Couldn't update this link: ${String(e)}`);
+    }
   };
 
   const linkMarkdown = (l: LinkRow) =>
