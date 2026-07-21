@@ -60,6 +60,13 @@ running list of what's done and what's next, not a commitment.
   spec in `THEMES.md`) with per-theme gradient shells, and a curated set of
   system reader fonts — both in the 🎨 Appearance popover with live hover
   preview, alongside a text-size slider.
+- **Highlighters.** Labeled, editable palette (`highlighters` table) applied
+  to verses (`highlights`, one color per canonical verse, unique-indexed
+  upsert) from the reader action bar. Highlights persist and render across
+  translations as a translucent verse background; a Highlights tab in the
+  Notes panel manages the palette and lists highlighted verses grouped by
+  color with jump-to-verse and add-to-note. Works in the popped-out notes
+  window via the same cross-window events.
 - **Markdown notes workspace.** Notes are Markdown documents edited with a
   formatting toolbar + Write/Preview (`marked` + `DOMPurify`;
   `src/components/NoteEditor.tsx`). Shift+click selects verse ranges in the

@@ -42,6 +42,22 @@ export function onNotesChanged(cb: () => void): Promise<UnlistenFn> {
   return listen(CHANGED, () => cb());
 }
 
+const HL_CHANGED = 'highlights:changed'; // either → other: highlights changed
+export function emitHighlightsChanged(): void {
+  void emit(HL_CHANGED);
+}
+export function onHighlightsChanged(cb: () => void): Promise<UnlistenFn> {
+  return listen(HL_CHANGED, () => cb());
+}
+
+const NAV = 'notes:navigate'; // popout → main: jump the reader to a verse
+export function emitNotesNavigate(ref: VerseSelection): void {
+  void emit(NAV, ref);
+}
+export function onNotesNavigate(cb: (ref: VerseSelection) => void): Promise<UnlistenFn> {
+  return listen<VerseSelection>(NAV, (e) => cb(e.payload));
+}
+
 export function emitNotesClosed(): void {
   void emit(CLOSED);
 }

@@ -3,6 +3,7 @@ import { addNote, deleteNote, freeNotes, notesForChapter, updateNote } from '../
 import { renderMarkdown } from '../markdown';
 import { exportAllNotes, importNotesFromFiles } from '../notesio';
 import NoteEditor, { type NoteEditorHandle } from './NoteEditor';
+import HighlightsTab from './HighlightsTab';
 import type { Note, Reference, VerseSelection } from '../types';
 
 type AnchorKind = 'verse' | 'chapter' | 'book' | 'free';
@@ -13,6 +14,11 @@ interface NotesPanelProps {
   onNotesChanged: () => void;
   onClose?: () => void;
   onPopOut?: () => void;
+  // Highlights tab: navigate the reader to a highlighted verse, and refresh
+  // state when highlights change here
+  onNavigateVerse: (book: string, chapter: number, verse: number) => void;
+  highlightsVersion: number;
+  onHighlightsChanged: () => void;
   // popout window renders NotesPanel standalone (no docked chrome)
   standalone?: boolean;
 }
@@ -25,8 +31,10 @@ function anchorLabel(n: Note): string {
 }
 
 export default function NotesPanel({
-  refState, selection, onNotesChanged, onClose, onPopOut, standalone,
+  refState, selection, onNotesChanged, onClose, onPopOut,
+  onNavigateVerse, highlightsVersion, onHighlightsChanged, standalone,
 }: NotesPanelProps) {
+  const [tab, setTab] = useState<'notes' | 'highlights'>('notes');
   const [showFree, setShowFree] = useState(false);
   const [notes, setNotes] = useState<Note[]>([]);
   const [editing, setEditing] = useState<Note | null>(null);
@@ -132,20 +140,29 @@ export default function NotesPanel({
 
   return (
     <div className={`notes-panel${standalone ? ' notes-standalone' : ''}`}>
-      <div className="notes-header">
-        <span>Notes</span>
-        <div style={{ display: 'flex', gap: 6, alignItems: 'center' }}>
+      <div className="notes-tabs">
+        <button className={`notes-tab${tab === 'notes' ? ' active' : ''}`} onClick={() => setTab('notes')}>Notes</button>
+        <button className={`notes-tab${tab === 'highlights' ? ' active' : ''}`} onClick={() => setTab('highlights')}>Highlights</button>
+        <span className="spacer" />
+        {onPopOut && <button className="icon" onClick={onPopOut} title="Open in a separate window">⧉</button>}
+        {onClose && <button className="icon" onClick={onClose} title="Close notes">✕</button>}
+      </div>
+      {tab === 'notes' && (
+        <div className="notes-subhead">
           <button onClick={() => setShowFree(false)} disabled={!showFree}>
             {refState.book} {refState.chapter}
           </button>
           <button onClick={() => setShowFree(true)} disabled={showFree}>Free</button>
+          <span className="spacer" />
           <button className="icon" onClick={doImport} title="Import notes (Markdown, text, RTF, HTML)">📥</button>
           <button className="icon" onClick={doExport} title="Export all notes to Markdown">📤</button>
-          {onPopOut && <button className="icon" onClick={onPopOut} title="Open in a separate window">⧉</button>}
-          {onClose && <button className="icon" onClick={onClose} title="Close notes">✕</button>}
         </div>
-      </div>
+      )}
       {status && <div className="notes-status">{status}</div>}
+      {tab === 'highlights' ? (
+        <HighlightsTab onNavigate={onNavigateVerse} version={highlightsVersion} onChanged={onHighlightsChanged} />
+      ) : (
+      <>
       <div className="notes-body">
         {notes.length === 0 && (
           <div className="pane-empty">
@@ -189,6 +206,8 @@ export default function NotesPanel({
           {editing && <button onClick={cancelEdit}>Cancel</button>}
         </div>
       </div>
+      </>
+      )}
     </div>
   );
 }

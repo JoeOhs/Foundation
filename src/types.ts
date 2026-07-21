@@ -123,6 +123,32 @@ export interface StrongsWordSlot {
   strongs_numbers: string[];
 }
 
+// A labeled highlighter color. `color` is a base hex; the reader renders
+// it translucent (color-mix) so text stays legible on any theme.
+export interface Highlighter {
+  id: number;
+  label: string;
+  color: string;
+  sort_order: number;
+}
+
+// A highlight applied to a verse, anchored by canonical reference so it
+// shows across every translation. At most one highlighter per verse.
+export interface Highlight {
+  id: number;
+  highlighter_id: number;
+  book: string;
+  chapter: number;
+  verse: number;
+  created_at: string;
+}
+
+// A highlighted verse joined with its highlighter, for the Highlights list.
+export interface HighlightRow extends Highlight {
+  label: string;
+  color: string;
+}
+
 // A translator's note (alternate reading, literal Hebrew/Greek rendering,
 // explanation) captured from the OSIS source. Anchored after a specific
 // tagged word via word_index, or verse-level when word_index is NULL.

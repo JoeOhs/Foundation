@@ -109,6 +109,23 @@ select:focus, input:focus, button:focus-visible {
 }
 .verse-action-count { font-size: 12px; color: var(--text-secondary); }
 .verse-action-bar button.primary { font-size: 12px; padding: 4px 12px; border-radius: 99px; }
+.verse-action-swatches { display: flex; align-items: center; gap: 5px; }
+.hl-swatch {
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border-radius: 50%;
+  border: 2px solid;
+  cursor: pointer;
+  font-size: 11px;
+  line-height: 1;
+}
+.hl-swatch:hover { transform: scale(1.12); }
+.hl-erase {
+  background: var(--bg-hover);
+  border-color: var(--border);
+  color: var(--text-secondary);
+}
 
 .panes {
   display: flex;
@@ -202,7 +219,9 @@ select:focus, input:focus, button:focus-visible {
   margin: 0 -6px;
 }
 .verse:hover { background: var(--bg-hover); }
-.verse.selected { background: var(--accent-soft); }
+/* selection is a ring so it coexists with a persistent highlight color;
+   highlighted verses carry an inline background that wins over :hover */
+.verse.selected { box-shadow: inset 0 0 0 2px var(--accent-primary); }
 .verse .vnum {
   font-family: var(--font-ui);
   font-size: 0.7em;
@@ -423,6 +442,76 @@ select:focus, input:focus, button:focus-visible {
   background: var(--accent-soft);
   border-bottom: 1px solid var(--border);
 }
+
+/* Notes | Highlights tabs + the action sub-header below them */
+.notes-tabs {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--border);
+}
+.notes-tab {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  border-radius: 0;
+  padding: 4px 8px;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+.notes-tab.active { color: var(--accent-primary); border-bottom-color: var(--accent-primary); }
+.notes-subhead {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+/* ---------- highlights tab ---------- */
+.highlights-tab { flex: 1; overflow-y: auto; display: flex; flex-direction: column; }
+.hl-manager { padding: 10px 12px; border-bottom: 1px solid var(--border); }
+.hl-manager-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px; }
+.hl-manager-row { display: flex; align-items: center; gap: 8px; padding: 4px 0; }
+.hl-manager-label { flex: 1; font-size: 13px; }
+.hl-manager-row .hl-swatch { flex-shrink: 0; cursor: default; }
+.hl-manager-row button.icon { padding: 2px 5px; }
+.hl-label-input { flex: 1; min-width: 0; }
+.hl-palette { display: flex; gap: 3px; }
+.hl-palette .hl-swatch { width: 16px; height: 16px; cursor: pointer; }
+.hl-swatch.picked { outline: 2px solid var(--text-primary); outline-offset: 1px; }
+
+.hl-list { flex: 1; padding: 8px 12px; }
+.hl-group { margin-bottom: 12px; }
+.hl-group-head {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  margin-bottom: 5px;
+}
+.hl-item {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+.hl-item-main { padding: 7px 10px; cursor: pointer; }
+.hl-item-ref { font-size: 11px; font-weight: 600; color: var(--accent-primary); }
+.hl-item-text {
+  font-family: var(--font-reader);
+  font-size: 13px;
+  margin-top: 2px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.hl-item-actions { display: flex; gap: 6px; padding: 6px 10px; }
+.hl-item-actions button { font-size: 12px; padding: 3px 8px; }
 
 /* popped-out notes window: fill the whole webview, shell gradient behind */
 .notes-window {

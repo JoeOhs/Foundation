@@ -1,7 +1,10 @@
 import { useEffect, useState } from 'react';
 import { initDb } from './db';
 import NotesPanel from './components/NotesPanel';
-import { emitNotesChanged, initialReferenceFromUrl, onInsertMarkdown, onNotesContext } from './notesbus';
+import {
+  emitNotesChanged, emitNotesNavigate, initialReferenceFromUrl, onHighlightsChanged,
+  onInsertMarkdown, onNotesContext,
+} from './notesbus';
 import type { Reference, VerseSelection } from './types';
 
 // Root of the popped-out notes window (a separate Tauri webview). Shares
@@ -13,9 +16,18 @@ export default function NotesWindow() {
     initialReferenceFromUrl({ book: 'Genesis', chapter: 1 }),
   );
   const [selection, setSelection] = useState<VerseSelection | null>(null);
+  // local counter so the Highlights tab reloads when highlights change in
+  // the main window
+  const [hlVersion, setHlVersion] = useState(0);
 
   useEffect(() => {
     initDb().then(() => setReady(true));
+  }, []);
+
+  useEffect(() => {
+    let un: (() => void) | undefined;
+    onHighlightsChanged(() => setHlVersion((n) => n + 1)).then((u) => { un = u; });
+    return () => un?.();
   }, []);
 
   useEffect(() => {
@@ -44,6 +56,9 @@ export default function NotesWindow() {
         refState={refState}
         selection={selection}
         onNotesChanged={emitNotesChanged}
+        onNavigateVerse={(book, chapter, verse) => emitNotesNavigate({ book, chapter, verse })}
+        highlightsVersion={hlVersion}
+        onHighlightsChanged={() => setHlVersion((n) => n + 1)}
       />
     </div>
   );

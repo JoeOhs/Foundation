@@ -1,7 +1,12 @@
 import { useEffect, useMemo, useState } from 'react';
-import { getChapters, getEntries, getEntryNotesForEntries, getStrongsWordsForEntries, listBooks } from '../db';
+import { getChapters, getEntries, getEntryNotesForEntries, getStrongsWordsForEntries, highlightsForChapter, listBooks } from '../db';
 import StrongsVerseText from './StrongsWords';
 import type { Book, Entry, EntryNote, Reference, SelectedVerse, Source, StrongsWordRow, VerseSelection } from '../types';
+
+// translucent so verse text stays legible on any theme surface
+export function highlightBackground(color: string): string {
+  return `color-mix(in srgb, ${color} 32%, transparent)`;
+}
 
 export interface HighlightWord extends VerseSelection {
   wordIndex: number;
@@ -22,6 +27,8 @@ interface PaneProps {
   reference: Reference;
   // Pane 1's reference — note dots apply only when this pane is showing it
   noteAnchorRef: Reference;
+  // bump to force a re-query of persistent verse highlights
+  highlightsVersion: number;
   // keys "book|chapter|verse" of currently selected verses, for highlight
   selectedKeys: Set<string>;
   // anchor for shift+click range extension (null starts a fresh selection)
@@ -39,7 +46,7 @@ interface PaneProps {
 }
 
 export default function Pane({
-  sources, sourceId, mode, reference, noteAnchorRef, selectedKeys, selectionAnchor, notedVerses, highlightWord,
+  sources, sourceId, mode, reference, noteAnchorRef, highlightsVersion, selectedKeys, selectionAnchor, notedVerses, highlightWord,
   onNavigate, onSelectVerses, onChangeSource, onClose, canClose, onWordClick, bodyRef, onScroll,
 }: PaneProps) {
   const source = sources.find((s) => s.id === sourceId);
@@ -52,6 +59,7 @@ export default function Pane({
   const [hasChapters, setHasChapters] = useState(true);
   const [wordsByEntry, setWordsByEntry] = useState<Map<number, StrongsWordRow[]>>(new Map());
   const [notesByEntry, setNotesByEntry] = useState<Map<number, EntryNote[]>>(new Map());
+  const [highlightsByVerse, setHighlightsByVerse] = useState<Map<number, { color: string; highlighterId: number }>>(new Map());
 
   useEffect(() => {
     let live = true;
@@ -138,6 +146,17 @@ export default function Pane({
     const nch = await getChapters(sourceId, nb.name);
     go(nb.name, dir === 1 ? nch[0] ?? 1 : nch[nch.length - 1] ?? 1);
   };
+
+  // persistent verse highlights for the shown chapter (canonical anchor)
+  useEffect(() => {
+    if (!effectiveBook || activeChapter === null) {
+      setHighlightsByVerse(new Map());
+      return;
+    }
+    let live = true;
+    highlightsForChapter(effectiveBook, activeChapter).then((m) => { if (live) setHighlightsByVerse(m); });
+    return () => { live = false; };
+  }, [effectiveBook, activeChapter, highlightsVersion]);
 
   const showNav = mode === 'controller' || mode === 'solo';
   const verseKeyed = entries.some((e) => e.verse !== null);
@@ -247,11 +266,13 @@ export default function Pane({
                 );
                 if (highlightSet.size === 0) highlightSet = new Set([highlightWord.wordIndex]);
               }
+              const hl = e.verse !== null ? highlightsByVerse.get(e.verse) : undefined;
               return (
                 <div
                   key={e.id}
                   data-verse={e.verse ?? undefined}
-                  className={`verse${isSel ? ' selected' : ''}`}
+                  className={`verse${isSel ? ' selected' : ''}${hl ? ' highlighted' : ''}`}
+                  style={hl ? { background: highlightBackground(hl.color) } : undefined}
                   onClick={(ev) => e.verse !== null && clickVerse(ev, e.verse, verseChapter)}
                 >
                   <span className="vnum">{e.verse}</span>

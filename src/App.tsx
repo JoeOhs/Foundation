@@ -1,5 +1,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { initDb, listBooks, listSources, notesForChapter } from './db';
+import {
+  initDb, listBooks, listHighlighters, listSources, notesForChapter,
+  removeHighlight, seedHighlightersIfEmpty, setHighlight,
+} from './db';
 import { repairSeededTextsIfNeeded, seedIfEmpty } from './seed';
 import Pane, { type HighlightWord, type PaneMode } from './components/Pane';
 import SyncMenu, { type PaneGroup } from './components/SyncMenu';
@@ -13,9 +16,11 @@ import { applyTheme, normalizeStoredTheme, systemDefaultTheme, type ThemeId } fr
 import { applyReaderFont, normalizeStoredFont, type FontId } from './fonts';
 import { versesToMarkdown } from './scripture';
 import {
-  emitInsertMarkdown, emitNotesContext, focusNotesWindow, onNotesChanged, openNotesWindow,
+  emitHighlightsChanged, emitInsertMarkdown, emitNotesContext, focusNotesWindow,
+  onHighlightsChanged, onNotesChanged, onNotesNavigate, openNotesWindow,
 } from './notesbus';
-import type { Book, Reference, SearchHit, SelectedVerse, Source, StrongsSearchHit, VerseSelection } from './types';
+import { highlightBackground } from './components/Pane';
+import type { Book, Highlighter, Reference, SearchHit, SelectedVerse, Source, StrongsSearchHit, VerseSelection } from './types';
 
 function loadPref<T>(key: string, fallback: T): T {
   try {
@@ -55,6 +60,9 @@ export default function App() {
   const [selectionAnchor, setSelectionAnchor] = useState<VerseSelection | null>(null);
   const [notedVerses, setNotedVerses] = useState<Set<number>>(new Set());
   const [highlightWord, setHighlightWord] = useState<HighlightWord | null>(null);
+  const [highlighters, setHighlighters] = useState<Highlighter[]>([]);
+  // bump to force panes to re-query persistent highlights
+  const [highlightsVersion, setHighlightsVersion] = useState(0);
 
   // note-anchor default = first selected verse; keys drive pane highlight
   const selection: VerseSelection | null = selectedVerses[0]
@@ -80,6 +88,26 @@ export default function App() {
   };
 
   const clearSelection = () => setSelectedVerses([]);
+
+  const reloadHighlighters = useCallback(async () => setHighlighters(await listHighlighters()), []);
+
+  // Apply / erase a highlighter across the selected verses, then refresh the
+  // reader (version bump) and any other window (event).
+  const applyHighlight = async (highlighterId: number) => {
+    for (const v of selectedVerses) await setHighlight(highlighterId, v.book, v.chapter, v.verse);
+    setHighlightsVersion((n) => n + 1);
+    emitHighlightsChanged();
+  };
+  const eraseHighlight = async () => {
+    for (const v of selectedVerses) await removeHighlight(v.book, v.chapter, v.verse);
+    setHighlightsVersion((n) => n + 1);
+    emitHighlightsChanged();
+  };
+
+  const handleHighlightsChanged = () => {
+    setHighlightsVersion((n) => n + 1);
+    void reloadHighlighters();
+  };
 
   const [notesOpen, setNotesOpen] = useState<boolean>(() => loadPref('notesOpen', false));
   // notes moved to a separate window (session-only — not persisted, since a
@@ -180,6 +208,8 @@ export default function App() {
         await initDb();
         await seedIfEmpty(setSplashMsg);
         await repairSeededTextsIfNeeded(setSplashMsg);
+        await seedHighlightersIfEmpty();
+        setHighlighters(await listHighlighters());
         const srcs = await listSources();
         setSources(srcs);
         setPaneSourceIds((prev) => {
@@ -276,6 +306,24 @@ export default function App() {
     return () => un?.();
   }, [reloadNoteDots]);
 
+  useEffect(() => {
+    // highlights/palette changed (possibly in the popout) → refresh reader
+    let un: (() => void) | undefined;
+    onHighlightsChanged(() => {
+      setHighlightsVersion((n) => n + 1);
+      void reloadHighlighters();
+    }).then((u) => { un = u; });
+    return () => un?.();
+  }, [reloadHighlighters]);
+
+  useEffect(() => {
+    // popout Highlights list asked to jump the reader to a verse
+    let un: (() => void) | undefined;
+    onNotesNavigate((r) => navigateToVerse(r.book, r.chapter, r.verse)).then((u) => { un = u; });
+    return () => un?.();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [books]);
+
   // clear verse selection and word highlight when leaving the chapter
   useEffect(() => {
     setSelectedVerses((vs) =>
@@ -368,6 +416,14 @@ export default function App() {
         if (target) el.scrollTop = Math.max(0, target.offsetTop - 40);
       });
     }, 150);
+  };
+
+  // Jump the reader to a verse (from the Highlights list or the popout).
+  const navigateToVerse = (book: string, chapter: number, verse: number) => {
+    if (!books.some((b) => b.name === book)) return;
+    navigate(book, chapter);
+    selectSingle(book, chapter, verse);
+    scrollToVerse(verse);
   };
 
   // ---------- panes ----------
@@ -538,6 +594,7 @@ export default function App() {
                   mode={paneModeOf(i)}
                   reference={paneReferenceOf(i)}
                   noteAnchorRef={refState}
+                  highlightsVersion={highlightsVersion}
                   selectedKeys={selectedKeys}
                   selectionAnchor={selectionAnchor}
                   notedVerses={notedVerses}
@@ -579,12 +636,27 @@ export default function App() {
             onNotesChanged={reloadNoteDots}
             onClose={() => setNotesOpen(false)}
             onPopOut={popOutNotes}
+            onNavigateVerse={navigateToVerse}
+            highlightsVersion={highlightsVersion}
+            onHighlightsChanged={handleHighlightsChanged}
           />
         )}
         {selectedVerses.length > 0 && selectedVerses.some((v) => v.text) && (
           <div className="verse-action-bar">
             <span className="verse-action-count">
-              {selectedVerses.length} verse{selectedVerses.length > 1 ? 's' : ''} selected
+              {selectedVerses.length} verse{selectedVerses.length > 1 ? 's' : ''}
+            </span>
+            <span className="verse-action-swatches">
+              {highlighters.map((h) => (
+                <button
+                  key={h.id}
+                  className="hl-swatch"
+                  style={{ background: highlightBackground(h.color), borderColor: h.color }}
+                  title={`Highlight: ${h.label}`}
+                  onClick={() => applyHighlight(h.id)}
+                />
+              ))}
+              <button className="hl-swatch hl-erase" title="Remove highlight" onClick={eraseHighlight}>⌫</button>
             </span>
             <button className="primary" onClick={addSelectionToNote}>✎ Add to note</button>
             <button className="icon" onClick={clearSelection} title="Clear selection">✕</button>

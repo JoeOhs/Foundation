@@ -1,6 +1,7 @@
 import Database from '@tauri-apps/plugin-sql';
 import type {
-  Book, Entry, EntryNote, Note, ParsedSource, SearchHit, SearchResults, Source, SourceType,
+  Book, Entry, EntryNote, HighlightRow, Highlighter, Note, ParsedSource, SearchHit,
+  SearchResults, Source, SourceType,
   StrongsBookCount, StrongsDictEntry, StrongsSearchGroup, StrongsSearchHit, StrongsWordRow,
 } from './types';
 
@@ -90,6 +91,22 @@ const SCHEMA: string[] = [
     key TEXT PRIMARY KEY,
     value TEXT NOT NULL
   )`,
+  `CREATE TABLE IF NOT EXISTS highlighters (
+    id INTEGER PRIMARY KEY,
+    label TEXT NOT NULL,
+    color TEXT NOT NULL,
+    sort_order INTEGER NOT NULL DEFAULT 0
+  )`,
+  `CREATE TABLE IF NOT EXISTS highlights (
+    id INTEGER PRIMARY KEY,
+    highlighter_id INTEGER NOT NULL REFERENCES highlighters(id),
+    book TEXT NOT NULL,
+    chapter INTEGER NOT NULL,
+    verse INTEGER NOT NULL,
+    created_at TEXT DEFAULT (datetime('now'))
+  )`,
+  // one highlighter per verse — applying another replaces it
+  `CREATE UNIQUE INDEX IF NOT EXISTS idx_highlights_ref ON highlights(book, chapter, verse)`,
 ];
 
 const FTS_SCHEMA: string[] = [
@@ -246,6 +263,98 @@ export async function updateNote(id: number, title: string | null, content: stri
 export async function deleteNote(id: number): Promise<void> {
   const db = await ensureDb();
   await db.execute('DELETE FROM notes WHERE id = ?', [id]);
+}
+
+// ---------- highlighters + highlights ----------
+
+const DEFAULT_HIGHLIGHTERS: { label: string; color: string }[] = [
+  { label: 'Yellow', color: '#f2c200' },
+  { label: 'Green', color: '#4caf50' },
+  { label: 'Blue', color: '#4a90d9' },
+  { label: 'Pink', color: '#e0669e' },
+  { label: 'Orange', color: '#ef8b3b' },
+];
+
+// Seed the starter palette once (idempotent via a meta flag). Labels and
+// colors are fully editable afterward.
+export async function seedHighlightersIfEmpty(): Promise<void> {
+  const db = await ensureDb();
+  const rows = await db.select<{ n: number }[]>('SELECT COUNT(*) AS n FROM highlighters');
+  if (rows[0].n > 0) return;
+  for (let i = 0; i < DEFAULT_HIGHLIGHTERS.length; i++) {
+    const h = DEFAULT_HIGHLIGHTERS[i];
+    await db.execute('INSERT INTO highlighters (label, color, sort_order) VALUES (?, ?, ?)', [h.label, h.color, i]);
+  }
+}
+
+export async function listHighlighters(): Promise<Highlighter[]> {
+  const db = await ensureDb();
+  return db.select<Highlighter[]>('SELECT id, label, color, sort_order FROM highlighters ORDER BY sort_order, id');
+}
+
+export async function addHighlighter(label: string, color: string): Promise<void> {
+  const db = await ensureDb();
+  const max = await db.select<{ m: number }[]>('SELECT COALESCE(MAX(sort_order), -1) AS m FROM highlighters');
+  await db.execute('INSERT INTO highlighters (label, color, sort_order) VALUES (?, ?, ?)', [label, color, max[0].m + 1]);
+}
+
+export async function updateHighlighter(id: number, label: string, color: string): Promise<void> {
+  const db = await ensureDb();
+  await db.execute('UPDATE highlighters SET label = ?, color = ? WHERE id = ?', [label, color, id]);
+}
+
+// Deleting a highlighter removes every highlight that used it.
+export async function deleteHighlighter(id: number): Promise<void> {
+  const db = await ensureDb();
+  await db.execute('DELETE FROM highlights WHERE highlighter_id = ?', [id]);
+  await db.execute('DELETE FROM highlighters WHERE id = ?', [id]);
+}
+
+// Apply (or re-color) a highlighter on a verse — one highlight per verse.
+export async function setHighlight(highlighterId: number, book: string, chapter: number, verse: number): Promise<void> {
+  const db = await ensureDb();
+  await db.execute(
+    `INSERT INTO highlights (highlighter_id, book, chapter, verse) VALUES (?, ?, ?, ?)
+     ON CONFLICT(book, chapter, verse) DO UPDATE SET highlighter_id = excluded.highlighter_id`,
+    [highlighterId, book, chapter, verse],
+  );
+}
+
+export async function removeHighlight(book: string, chapter: number, verse: number): Promise<void> {
+  const db = await ensureDb();
+  await db.execute('DELETE FROM highlights WHERE book = ? AND chapter = ? AND verse = ?', [book, chapter, verse]);
+}
+
+// verse -> highlighter color for one chapter (reader rendering)
+export async function highlightsForChapter(book: string, chapter: number): Promise<Map<number, { color: string; highlighterId: number }>> {
+  const db = await ensureDb();
+  const rows = await db.select<{ verse: number; color: string; highlighter_id: number }[]>(
+    `SELECT h.verse AS verse, hl.color AS color, h.highlighter_id AS highlighter_id
+     FROM highlights h JOIN highlighters hl ON hl.id = h.highlighter_id
+     WHERE h.book = ? AND h.chapter = ?`,
+    [book, chapter],
+  );
+  return new Map(rows.map((r) => [r.verse, { color: r.color, highlighterId: r.highlighter_id }]));
+}
+
+// All highlighted verses, joined with their highlighter, in canonical order
+// — for the Highlights list. Text is looked up from the KJV (or any bible)
+// so the list is readable without loading each chapter.
+export async function listHighlights(): Promise<(HighlightRow & { text: string })[]> {
+  const db = await ensureDb();
+  return db.select<(HighlightRow & { text: string })[]>(
+    `SELECT h.id AS id, h.highlighter_id AS highlighter_id, h.book AS book, h.chapter AS chapter,
+            h.verse AS verse, h.created_at AS created_at, hl.label AS label, hl.color AS color,
+            COALESCE((
+              SELECT e.text FROM entries e
+              JOIN books b ON b.id = e.book_id
+              JOIN sources s ON s.id = b.source_id
+              WHERE s.type = 'bible' AND b.name = h.book AND e.chapter = h.chapter AND e.verse = h.verse
+              ORDER BY s.id LIMIT 1
+            ), '') AS text
+     FROM highlights h JOIN highlighters hl ON hl.id = h.highlighter_id
+     ORDER BY hl.sort_order, hl.id, h.book, h.chapter, h.verse`,
+  );
 }
 
 // ---------- search ----------
