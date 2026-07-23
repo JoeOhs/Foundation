@@ -9,8 +9,11 @@ running list of what's done and what's next, not a commitment.
 - SQLite schema (`sources` / `books` / `entries` / `notes`) with FTS5 search.
 - Single-pane reader with book/chapter navigation.
 - Parallel view: up to 4 resizable, synced panes.
-- Import pipeline: plain text, Markdown, JSON, CSV/TSV, XML, with forgiving
-  fallback to a freeform document when structure can't be detected.
+- Import pipeline: plain text, Markdown, JSON, CSV/TSV, XML, EPUB, with
+  forgiving fallback to a freeform document when structure can't be
+  detected. EPUB imports also capture the book's table of contents into a
+  dedicated `toc_entries` table (see Near-term below for the reading pane
+  that will consume it).
 - One-time migration path for legacy SQLite-based module files the user
   already owns.
 - Notes anchored to verse/chapter/book (shared across translations) or
@@ -107,10 +110,12 @@ running list of what's done and what's next, not a commitment.
   - scrollmapper's `bible_databases_deuterocanonical` companion repo, if
     fuller Apocrypha coverage is ever wanted (DRC already carries its
     deuterocanon).
-- **Table of contents / section navigation for freeform texts.** Long
-  imported works (commentaries, books) currently just scroll linearly;
-  a collapsible list of `position_ref` section headings to jump to would fix
-  that.
+- **Dedicated freeform reading pane + Library UI split.** A separate,
+  independently-scrolling reading pane (distinct from the synced Bible
+  panes) with a TOC dropdown in its header, fed by a new "Imported" section
+  in the Library UI split out from the Bible-translation Library section.
+  The EPUB importer above already captures the `toc_entries` data this
+  pane's dropdown will consume — this item is just the UI on top of it.
 - **Per-source search filter**, so search can be scoped to one imported work
   instead of always searching everything.
 

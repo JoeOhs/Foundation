@@ -6,6 +6,7 @@ export interface Source {
   type: SourceType;
   language: string | null;
   license_note: string | null;
+  is_verse_keyed: number; // 0/1 — 0 for freeform library imports (e.g. EPUB)
 }
 
 export interface Book {
@@ -92,6 +93,32 @@ export interface ParsedSource {
   structure: 'verse-keyed' | 'freeform';
   books: ParsedBook[];
   warnings: string[];
+  suggestedAuthor?: string | null;
+  suggestedLanguage?: string | null;
+  suggestedLicenseNote?: string | null;
+  toc?: ParsedTocEntry[];
+}
+
+// One table-of-contents entry parsed from an EPUB's nav.xhtml/toc.ncx.
+// entryIndex indexes into the flattened, in-order list of entries across
+// all of ParsedSource.books[0].entries (EPUB imports produce a single
+// book) — resolved to a real entries.id at insert time. -1 if the TOC
+// pointed at a target no entry could be matched to.
+export interface ParsedTocEntry {
+  title: string;
+  level: number;
+  entryIndex: number;
+}
+
+// A toc_entries row read back from the DB (future reading-pane TOC dropdown).
+export interface TocEntryRow {
+  id: number;
+  source_id: number;
+  entry_id: number | null;
+  title: string;
+  level: number;
+  position_ref: string | null;
+  sort_order: number;
 }
 
 // ---------- Strong's numbers (KJV word-level tagging) ----------

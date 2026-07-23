@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { invoke } from '@tauri-apps/api/core';
 import { open } from '@tauri-apps/plugin-dialog';
-import { insertParsedSource } from '../db';
+import { insertParsedSource, insertTocEntries } from '../db';
 import { parseFile } from '../importer';
 import type { ParsedSource, SourceType } from '../types';
 
@@ -32,7 +32,7 @@ export default function ImportWizard({ onDone }: ImportWizardProps) {
       multiple: false,
       title: 'Import a text',
       filters: [
-        { name: 'Importable texts', extensions: ['txt', 'md', 'markdown', 'json', 'csv', 'tsv', 'xml', 'bblx', 'cmtx', 'dctx', 'topx', 'db', 'sqlite'] },
+        { name: 'Importable texts', extensions: ['txt', 'md', 'markdown', 'json', 'csv', 'tsv', 'xml', 'epub', 'bblx', 'cmtx', 'dctx', 'topx', 'db', 'sqlite'] },
         { name: 'All files', extensions: ['*'] },
       ],
     });
@@ -48,6 +48,7 @@ export default function ImportWizard({ onDone }: ImportWizardProps) {
       setFileName(path.replace(/^.*[\\/]/, ''));
       setTitle(result.suggestedTitle);
       setType(result.suggestedType);
+      if (result.suggestedLicenseNote) setLicenseNote(result.suggestedLicenseNote);
     } catch (e) {
       setError(String(e));
     } finally {
@@ -61,11 +62,12 @@ export default function ImportWizard({ onDone }: ImportWizardProps) {
     setBusy(true);
     setError('');
     try {
-      await insertParsedSource(
+      const sourceId = await insertParsedSource(
         parsed,
         { title: title.trim(), type, license_note: licenseNote.trim() || null },
         (done, total) => setProgress(`Importing… ${Math.round((done / total) * 100)}%`),
       );
+      if (parsed.toc && parsed.toc.length > 0) await insertTocEntries(sourceId, parsed);
       onDone(true);
     } catch (e) {
       setError(String(e));
@@ -102,6 +104,12 @@ export default function ImportWizard({ onDone }: ImportWizardProps) {
                 <label>File</label>
                 <div>{fileName} — {parsed.books.length} book/section container(s), {entryCount} entries, detected as <strong>{parsed.structure}</strong></div>
               </div>
+              {parsed.suggestedAuthor && (
+                <div className="import-field">
+                  <label>Author</label>
+                  <div>{parsed.suggestedAuthor}</div>
+                </div>
+              )}
               {parsed.warnings.map((w, i) => (
                 <div className="import-warning" key={i}>⚠ {w}</div>
               ))}

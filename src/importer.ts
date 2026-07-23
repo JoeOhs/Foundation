@@ -1,6 +1,7 @@
 import initSqlJs from 'sql.js';
+import { unzipSync } from 'fflate';
 import { CANONICAL_BOOKS, bookNameFromNumber, canonicalBookName } from './bibleMeta';
-import type { ParsedBook, ParsedEntry, ParsedSource } from './types';
+import type { ParsedBook, ParsedEntry, ParsedSource, ParsedTocEntry } from './types';
 
 // ---------------------------------------------------------------------------
 // Entry point: sniff the format, parse, and always return *something* —
@@ -13,6 +14,9 @@ export async function parseFile(fileName: string, bytes: Uint8Array): Promise<Pa
 
   if (isSqliteFile(bytes)) {
     return parseSqliteDb(bytes, baseName);
+  }
+  if (ext === 'epub' || isEpubFile(bytes)) {
+    return parseEpub(bytes, baseName);
   }
 
   const text = new TextDecoder('utf-8', { fatal: false }).decode(bytes).replace(/^﻿/, '');
@@ -516,5 +520,296 @@ export async function parseSqliteDb(bytes: Uint8Array, title: string): Promise<P
     );
   } finally {
     src.close();
+  }
+}
+
+// ---------------------------------------------------------------------------
+// EPUB: unzip, follow the manifest/spine for reading order, extract each
+// chapter's text (heading-sectioned, like Markdown), and capture the
+// nav.xhtml/toc.ncx table of contents pointing back at those sections.
+// Always freeform — no book/chapter/verse detection.
+// ---------------------------------------------------------------------------
+
+export function isEpubFile(bytes: Uint8Array): boolean {
+  // EPUB is a zip whose first entry must be an uncompressed "mimetype" file
+  // (the format's self-identifying signature, per the OCF spec).
+  if (bytes.length < 31 || bytes[0] !== 0x50 || bytes[1] !== 0x4b || bytes[2] !== 0x03 || bytes[3] !== 0x04) {
+    return false;
+  }
+  const nameLen = bytes[26] | (bytes[27] << 8);
+  if (bytes.length < 30 + nameLen) return false;
+  const name = new TextDecoder('utf-8', { fatal: false }).decode(bytes.slice(30, 30 + nameLen));
+  return name === 'mimetype';
+}
+
+function readZipText(files: Record<string, Uint8Array>, path: string): string | null {
+  const bytes = files[path] ?? files[path.replace(/^\//, '')];
+  if (!bytes) return null;
+  return new TextDecoder('utf-8', { fatal: false }).decode(bytes);
+}
+
+function parseXmlStrict(text: string): Document {
+  const doc = new DOMParser().parseFromString(text, 'text/xml');
+  if (doc.querySelector('parsererror')) throw new Error('Malformed XML');
+  return doc;
+}
+
+// EPUB/OPF/NCX documents use namespaced tags (dc:title, opf:item, ...); a
+// plain CSS selector won't match those, so compare local names directly.
+function localName(el: Element): string {
+  const t = el.tagName.toLowerCase();
+  return t.includes(':') ? t.slice(t.indexOf(':') + 1) : t;
+}
+
+function byLocalName(root: ParentNode, name: string): Element[] {
+  return Array.from(root.querySelectorAll('*')).filter((el) => localName(el) === name);
+}
+
+// Joins a manifest-relative href onto the OPF/nav file's directory and
+// resolves "../" segments — hrefs in the wild are frequently one directory
+// up from where they're referenced.
+function resolveHref(dir: string, href: string): string {
+  const parts = (dir + href.split('#')[0]).split('/');
+  const out: string[] = [];
+  for (const p of parts) {
+    if (p === '..') out.pop();
+    else if (p === '.' || p === '') continue;
+    else out.push(p);
+  }
+  return out.join('/');
+}
+
+function dirOf(path: string): string {
+  return path.includes('/') ? path.slice(0, path.lastIndexOf('/') + 1) : '';
+}
+
+// One heading-delimited section of chapter text, mirroring parseMarkdown's
+// section model: `title` is the heading (null for text before the first
+// heading), `texts` are the paragraph blocks under it.
+interface EpubSection {
+  title: string | null;
+  texts: string[];
+}
+
+// Walks a chapter's <body>, splitting it into heading-delimited sections and
+// recording which section every `id` attribute falls in (fragment targets
+// referenced by the TOC) — block elements (p, div, li, ...) become paragraph
+// breaks; inline formatting is flattened to plain text.
+function walkEpubBody(root: Element): { sections: EpubSection[]; idToSection: Map<string, number> } {
+  const sections: EpubSection[] = [{ title: null, texts: [] }];
+  const idToSection = new Map<string, number>();
+  let currentText = '';
+  const flush = () => {
+    const t = currentText.replace(/[ \t]+/g, ' ').replace(/\s*\n\s*/g, ' ').trim();
+    if (t) sections[sections.length - 1].texts.push(t);
+    currentText = '';
+  };
+  const HEADING = /^h[1-6]$/;
+  const BLOCK = new Set(['p', 'div', 'li', 'blockquote', 'section', 'article', 'pre', 'tr', 'td']);
+
+  function visit(node: Node) {
+    if (node.nodeType === Node.TEXT_NODE) {
+      currentText += node.textContent ?? '';
+      return;
+    }
+    if (node.nodeType !== Node.ELEMENT_NODE) return;
+    const el = node as Element;
+    const tag = el.tagName.toLowerCase();
+    if (tag === 'script' || tag === 'style') return;
+    if (HEADING.test(tag)) {
+      flush();
+      const text = (el.textContent ?? '').replace(/\s+/g, ' ').trim();
+      if (text) sections.push({ title: text, texts: [] });
+      const idx = sections.length - 1;
+      const id = el.getAttribute('id');
+      if (id) idToSection.set(id, idx);
+      el.querySelectorAll('[id]').forEach((d) => idToSection.set(d.getAttribute('id')!, idx));
+      return;
+    }
+    const id = el.getAttribute('id');
+    if (id) idToSection.set(id, sections.length - 1);
+    if (tag === 'br') currentText += '\n';
+    for (const child of Array.from(el.childNodes)) visit(child);
+    if (BLOCK.has(tag)) flush();
+  }
+  visit(root);
+  flush();
+
+  // Drop empty sections (e.g. a leading section with no text before the
+  // first heading) and remap idToSection onto the compacted indices.
+  const remap = new Map<number, number>();
+  const kept: EpubSection[] = [];
+  sections.forEach((s, i) => {
+    if (s.title || s.texts.length > 0) {
+      remap.set(i, kept.length);
+      kept.push(s);
+    }
+  });
+  const remappedIds = new Map<string, number>();
+  idToSection.forEach((v, k) => {
+    const mapped = remap.get(v);
+    if (mapped !== undefined) remappedIds.set(k, mapped);
+  });
+  return { sections: kept, idToSection: remappedIds };
+}
+
+// Resolves a TOC target ("chapter1.html#anchor") onto a flattened entry
+// index via the href[#id] -> entry-index map built while extracting
+// chapters. Falls back to the chapter's first entry if the exact fragment
+// wasn't captured as a section boundary.
+function resolveTocTarget(src: string, dir: string, anchorToEntry: Map<string, number>): number {
+  const [pathPart, frag] = src.split('#');
+  const href = resolveHref(dir, pathPart);
+  if (frag && anchorToEntry.has(`${href}#${frag}`)) return anchorToEntry.get(`${href}#${frag}`)!;
+  return anchorToEntry.get(href) ?? -1;
+}
+
+function parseNcxToc(xml: string, dir: string, anchorToEntry: Map<string, number>): ParsedTocEntry[] {
+  const doc = parseXmlStrict(xml);
+  const out: ParsedTocEntry[] = [];
+  const navMap = byLocalName(doc, 'navmap')[0];
+  function walk(parent: Element, level: number) {
+    const points = Array.from(parent.children).filter((c) => localName(c) === 'navpoint');
+    for (const np of points) {
+      const label = byLocalName(np, 'text')[0]?.textContent?.trim() ?? '';
+      const src = byLocalName(np, 'content')[0]?.getAttribute('src');
+      if (label) out.push({ title: label, level, entryIndex: src ? resolveTocTarget(src, dir, anchorToEntry) : -1 });
+      walk(np, level + 1);
+    }
+  }
+  if (navMap) walk(navMap, 0);
+  return out;
+}
+
+function parseNavToc(html: string, dir: string, anchorToEntry: Map<string, number>): ParsedTocEntry[] {
+  const doc = new DOMParser().parseFromString(html, 'text/html');
+  const navs = Array.from(doc.querySelectorAll('nav'));
+  const tocNav = navs.find((n) => (n.getAttribute('epub:type') ?? '').includes('toc')) ?? navs[0];
+  const out: ParsedTocEntry[] = [];
+  const topOl = tocNav?.querySelector('ol');
+  if (!topOl) return out;
+  function walk(ol: Element, level: number) {
+    Array.from(ol.children)
+      .filter((c) => c.tagName.toLowerCase() === 'li')
+      .forEach((li) => {
+        const a = li.querySelector('a');
+        const label = a?.textContent?.trim() ?? '';
+        const href = a?.getAttribute('href');
+        if (label) out.push({ title: label, level, entryIndex: href ? resolveTocTarget(href, dir, anchorToEntry) : -1 });
+        const childOl = Array.from(li.children).find((c) => c.tagName.toLowerCase() === 'ol');
+        if (childOl) walk(childOl, level + 1);
+      });
+  }
+  walk(topOl, 0);
+  return out;
+}
+
+export async function parseEpub(bytes: Uint8Array, baseName: string): Promise<ParsedSource> {
+  let files: Record<string, Uint8Array>;
+  try {
+    files = unzipSync(bytes);
+  } catch (e) {
+    return fallbackSource('', baseName, [`Couldn't open this EPUB (${String(e)}); imported as an empty document.`]);
+  }
+
+  try {
+    const containerXml = readZipText(files, 'META-INF/container.xml');
+    if (!containerXml) throw new Error('Missing META-INF/container.xml');
+    const opfPath = byLocalName(parseXmlStrict(containerXml), 'rootfile')[0]?.getAttribute('full-path');
+    if (!opfPath) throw new Error('No OPF rootfile declared');
+    const opfText = readZipText(files, opfPath);
+    if (!opfText) throw new Error(`OPF file not found: ${opfPath}`);
+    const opfDoc = parseXmlStrict(opfText);
+    const opfDir = dirOf(opfPath);
+
+    const metaEl = byLocalName(opfDoc, 'metadata')[0];
+    const firstText = (name: string): string | null =>
+      (metaEl ? byLocalName(metaEl, name)[0]?.textContent?.trim() : null) || null;
+    const suggestedTitle = firstText('title') || baseName;
+    const suggestedAuthor = firstText('creator');
+    const suggestedLanguage = firstText('language');
+    const suggestedLicenseNote = firstText('rights');
+
+    const manifestEl = byLocalName(opfDoc, 'manifest')[0];
+    const manifestItems = manifestEl ? byLocalName(manifestEl, 'item') : [];
+    const manifest = new Map<string, { href: string; mediaType: string }>();
+    manifestItems.forEach((item) => {
+      const id = item.getAttribute('id');
+      const href = item.getAttribute('href');
+      if (id && href) {
+        manifest.set(id, { href: resolveHref(opfDir, href), mediaType: item.getAttribute('media-type') ?? '' });
+      }
+    });
+
+    const spineEl = byLocalName(opfDoc, 'spine')[0];
+    const spineHrefs: string[] = [];
+    if (spineEl) {
+      byLocalName(spineEl, 'itemref').forEach((ref) => {
+        const idref = ref.getAttribute('idref');
+        const item = idref ? manifest.get(idref) : undefined;
+        if (item && /html|xml/.test(item.mediaType)) spineHrefs.push(item.href);
+      });
+    }
+    if (spineHrefs.length === 0) throw new Error('EPUB has no readable spine content');
+
+    // EPUB3 points at its nav document via manifest properties="nav";
+    // EPUB2 points at its NCX via the spine's toc="<manifest id>" attribute.
+    let navHref: string | null = null;
+    let navIsNcx = false;
+    const navItem = manifestItems.find((i) => (i.getAttribute('properties') ?? '').split(/\s+/).includes('nav'));
+    if (navItem) {
+      const href = navItem.getAttribute('href');
+      if (href) navHref = resolveHref(opfDir, href);
+    } else {
+      const ncxId = spineEl?.getAttribute('toc');
+      const ncxItem = ncxId ? manifest.get(ncxId) : undefined;
+      if (ncxItem) {
+        navHref = ncxItem.href;
+        navIsNcx = true;
+      }
+    }
+
+    const entries: ParsedEntry[] = [];
+    const anchorToEntry = new Map<string, number>();
+    for (const href of spineHrefs) {
+      const html = readZipText(files, href);
+      if (!html) continue;
+      const doc = new DOMParser().parseFromString(html, 'text/html');
+      const body = doc.body ?? doc.documentElement;
+      if (!body) continue;
+      const { sections, idToSection } = walkEpubBody(body);
+      const baseEntryIndex = entries.length;
+      anchorToEntry.set(href, baseEntryIndex);
+      sections.forEach((s) => {
+        entries.push({ chapter: null, verse: null, position_ref: s.title, text: s.texts.join('\n\n') });
+      });
+      idToSection.forEach((sectionIdx, id) => anchorToEntry.set(`${href}#${id}`, baseEntryIndex + sectionIdx));
+    }
+    if (entries.length === 0) {
+      return fallbackSource('', suggestedTitle, ['EPUB contained no extractable text.']);
+    }
+
+    let toc: ParsedTocEntry[] = [];
+    if (navHref) {
+      const navText = readZipText(files, navHref);
+      if (navText) {
+        const navDir = dirOf(navHref);
+        toc = navIsNcx ? parseNcxToc(navText, navDir, anchorToEntry) : parseNavToc(navText, navDir, anchorToEntry);
+      }
+    }
+
+    return {
+      suggestedTitle,
+      suggestedType: 'extra-biblical',
+      structure: 'freeform',
+      books: [{ name: suggestedTitle, entries }],
+      warnings: toc.length === 0 ? ['No table of contents found in this EPUB.'] : [],
+      suggestedAuthor,
+      suggestedLanguage,
+      suggestedLicenseNote,
+      toc,
+    };
+  } catch (e) {
+    return fallbackSource('', baseName, [`Couldn't parse this EPUB (${String(e)}); imported as an empty document.`]);
   }
 }

@@ -1,7 +1,7 @@
 import Database from '@tauri-apps/plugin-sql';
 import type {
   Book, Entry, EntryNote, HighlightRow, Highlighter, LinkRow, Note, ParsedSource, SearchHit,
-  SearchResults, Source, SourceType, VerseSelection,
+  SearchResults, Source, SourceType, TocEntryRow, VerseSelection,
   StrongsBookCount, StrongsDictEntry, StrongsSearchGroup, StrongsSearchHit, StrongsWordRow,
 } from './types';
 
@@ -117,6 +117,16 @@ const SCHEMA: string[] = [
   )`,
   `CREATE INDEX IF NOT EXISTS idx_links_a ON links(book_a, chapter_a, verse_a)`,
   `CREATE INDEX IF NOT EXISTS idx_links_b ON links(book_b, chapter_b, verse_b)`,
+  `CREATE TABLE IF NOT EXISTS toc_entries (
+    id INTEGER PRIMARY KEY,
+    source_id INTEGER NOT NULL REFERENCES sources(id),
+    entry_id INTEGER REFERENCES entries(id),
+    title TEXT NOT NULL,
+    level INTEGER NOT NULL DEFAULT 0,
+    position_ref TEXT,
+    sort_order INTEGER NOT NULL
+  )`,
+  `CREATE INDEX IF NOT EXISTS idx_toc_entries_source ON toc_entries(source_id, sort_order)`,
 ];
 
 const FTS_SCHEMA: string[] = [
@@ -157,6 +167,19 @@ export async function initDb(): Promise<void> {
     /* column already present */
   }
   try {
+    await db.execute('ALTER TABLE sources ADD COLUMN is_verse_keyed INTEGER NOT NULL DEFAULT 1');
+    // Backfill pre-existing freeform sources (imported before this column
+    // existed), which would otherwise incorrectly default to verse-keyed.
+    await db.execute(
+      `UPDATE sources SET is_verse_keyed = 0 WHERE id IN (
+         SELECT DISTINCT b.source_id FROM books b JOIN entries e ON e.book_id = b.id
+         WHERE e.chapter IS NULL
+       )`,
+    );
+  } catch {
+    /* column already present, or backfill already applied */
+  }
+  try {
     for (const stmt of FTS_SCHEMA) {
       await db.execute(stmt);
     }
@@ -169,7 +192,9 @@ export async function initDb(): Promise<void> {
 
 export async function listSources(): Promise<Source[]> {
   const db = await ensureDb();
-  return db.select<Source[]>('SELECT id, title, type, language, license_note FROM sources ORDER BY id');
+  return db.select<Source[]>(
+    'SELECT id, title, type, language, license_note, is_verse_keyed FROM sources ORDER BY id',
+  );
 }
 
 export async function listBooks(sourceId: number): Promise<Book[]> {
@@ -558,9 +583,10 @@ export async function insertParsedSource(
   onProgress?: (done: number, total: number) => void,
 ): Promise<number> {
   const db = await ensureDb();
+  const isVerseKeyed = parsed.structure === 'verse-keyed' ? 1 : 0;
   const res = await db.execute(
-    'INSERT INTO sources (title, type, language, license_note) VALUES (?, ?, ?, ?)',
-    [meta.title, meta.type, meta.language ?? null, meta.license_note ?? null],
+    'INSERT INTO sources (title, type, language, license_note, is_verse_keyed) VALUES (?, ?, ?, ?, ?)',
+    [meta.title, meta.type, meta.language ?? null, meta.license_note ?? null, isVerseKeyed],
   );
   const sourceId = res.lastInsertId as number;
   const total = parsed.books.reduce((n, b) => n + b.entries.length, 0);
@@ -590,6 +616,36 @@ export async function insertParsedSource(
   return sourceId;
 }
 
+// Inserts a parsed EPUB's table of contents. Requeries the just-inserted
+// entries (in sort_order) rather than threading entry ids back out of
+// insertParsedSource, so that function's signature/return type stays
+// unchanged for its other two call sites. No-ops if there's no TOC or no
+// book (both required for a real EPUB import).
+export async function insertTocEntries(sourceId: number, parsed: ParsedSource): Promise<void> {
+  if (!parsed.toc || parsed.toc.length === 0 || parsed.books.length === 0) return;
+  const db = await ensureDb();
+  const entries = await getEntries(sourceId, parsed.books[0].name, null);
+  const placeholders = parsed.toc.map(() => '(?, ?, ?, ?, ?, ?)').join(', ');
+  const params: unknown[] = [];
+  parsed.toc.forEach((t, i) => {
+    const entry = t.entryIndex >= 0 ? entries[t.entryIndex] : undefined;
+    params.push(sourceId, entry?.id ?? null, t.title, t.level, entry?.position_ref ?? null, i);
+  });
+  await db.execute(
+    `INSERT INTO toc_entries (source_id, entry_id, title, level, position_ref, sort_order) VALUES ${placeholders}`,
+    params,
+  );
+}
+
+export async function getTocEntries(sourceId: number): Promise<TocEntryRow[]> {
+  const db = await ensureDb();
+  return db.select<TocEntryRow[]>(
+    `SELECT id, source_id, entry_id, title, level, position_ref, sort_order FROM toc_entries
+     WHERE source_id = ? ORDER BY sort_order`,
+    [sourceId],
+  );
+}
+
 export async function sourceCount(): Promise<number> {
   const db = await ensureDb();
   const rows = await db.select<{ n: number }[]>('SELECT COUNT(*) AS n FROM sources');
@@ -601,7 +657,7 @@ export async function sourceCount(): Promise<number> {
 export async function findSourceByTitle(title: string): Promise<Source | null> {
   const db = await ensureDb();
   const rows = await db.select<Source[]>(
-    'SELECT id, title, type, language, license_note FROM sources WHERE title = ? LIMIT 1',
+    'SELECT id, title, type, language, license_note, is_verse_keyed FROM sources WHERE title = ? LIMIT 1',
     [title],
   );
   return rows[0] ?? null;

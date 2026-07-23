@@ -17,6 +17,7 @@
     "@tauri-apps/plugin-sql": "^2.4.0",
     "@types/dompurify": "^3.0.5",
     "dompurify": "^3.4.12",
+    "fflate": "^0.8.3",
     "marked": "^18.0.6",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
