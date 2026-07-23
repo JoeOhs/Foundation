@@ -1,17 +1,20 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import {
   addHighlighter, deleteHighlighter, listHighlighters, listHighlights,
-  removeHighlight, updateHighlighter,
+  removeHighlight, removeHighlightEntry, updateHighlighter,
 } from '../db';
 import { emitHighlightsChanged } from '../notesbus';
+import { requestConfirm } from '../confirmBus';
 import { highlightBackground } from './Pane';
 import NoteTargetMenu from './NoteTargetMenu';
-import { versesToMarkdown } from '../scripture';
-import type { Highlighter, HighlightRow } from '../types';
+import { entryToMarkdown, versesToMarkdown } from '../scripture';
+import type { Highlighter, HighlightRow, SelectedEntry } from '../types';
 
 interface HighlightsTabProps {
   // navigate the reader to a highlighted verse
   onNavigate: (book: string, chapter: number, verse: number) => void;
+  // navigate the reader to a highlighted imported entry
+  onNavigateEntry: (sourceId: number, entryId: number, entry?: SelectedEntry) => void;
   // bumped externally when highlights change elsewhere (reader, other window)
   version: number;
   onChanged: () => void;
@@ -22,9 +25,21 @@ interface HighlightsTabProps {
 // The palette colors offered when adding/recoloring a highlighter.
 const PALETTE = ['#f2c200', '#4caf50', '#4a90d9', '#e0669e', '#ef8b3b', '#9b6cd8', '#e5533c', '#20b2aa'];
 
-export default function HighlightsTab({ onNavigate, version, onChanged, onNoteAdded }: HighlightsTabProps) {
+// An entry-anchored HighlightRow reshaped into a SelectedEntry, for
+// building note markdown / navigating the reader to it.
+function rowToSelectedEntry(r: HighlightRow): SelectedEntry {
+  return {
+    entryId: r.entry_id as number,
+    sourceId: r.entry_source_id as number,
+    sourceTitle: r.entry_source_title ?? '',
+    positionRef: r.entry_position_ref,
+    text: r.text,
+  };
+}
+
+export default function HighlightsTab({ onNavigate, onNavigateEntry, version, onChanged, onNoteAdded }: HighlightsTabProps) {
   const [highlighters, setHighlighters] = useState<Highlighter[]>([]);
-  const [rows, setRows] = useState<(HighlightRow & { text: string })[]>([]);
+  const [rows, setRows] = useState<HighlightRow[]>([]);
   const [editingId, setEditingId] = useState<number | null>(null);
   const [editLabel, setEditLabel] = useState('');
   const [editColor, setEditColor] = useState('');
@@ -54,7 +69,7 @@ export default function HighlightsTab({ onNavigate, version, onChanged, onNoteAd
     }
   };
   const removeHighlighter = async (h: Highlighter) => {
-    if (!window.confirm(`Delete the "${h.label}" highlighter and all verses highlighted with it?`)) return;
+    if (!await requestConfirm(`Delete the "${h.label}" highlighter and all verses highlighted with it?`)) return;
     try {
       await deleteHighlighter(h.id);
       if (editingId === h.id) setEditingId(null);
@@ -76,15 +91,18 @@ export default function HighlightsTab({ onNavigate, version, onChanged, onNoteAd
 
   const unhighlight = async (r: HighlightRow) => {
     try {
-      await removeHighlight(r.book, r.chapter, r.verse);
+      if (r.entry_id !== null) await removeHighlightEntry(r.entry_id);
+      else await removeHighlight(r.book as string, r.chapter as number, r.verse as number);
       changed();
     } catch (e) {
       window.alert(`Couldn't remove the highlight: ${String(e)}`);
     }
   };
 
-  const verseMarkdown = (r: HighlightRow & { text: string }) =>
-    versesToMarkdown([{ book: r.book, chapter: r.chapter, verse: r.verse, text: r.text, sourceTitle: '' }]);
+  const rowMarkdown = (r: HighlightRow) =>
+    r.entry_id !== null
+      ? entryToMarkdown(rowToSelectedEntry(r))
+      : versesToMarkdown([{ book: r.book as string, chapter: r.chapter as number, verse: r.verse as number, text: r.text, sourceTitle: '' }]);
 
   // group highlighted verses under their highlighter
   const groups = useMemo(() => {
@@ -152,14 +170,18 @@ export default function HighlightsTab({ onNavigate, version, onChanged, onNoteAd
                 <div
                   className="hl-item-main"
                   style={{ background: highlightBackground(r.color) }}
-                  onClick={() => onNavigate(r.book, r.chapter, r.verse)}
-                  title="Go to verse"
+                  onClick={() => r.entry_id !== null
+                    ? onNavigateEntry(r.entry_source_id as number, r.entry_id, rowToSelectedEntry(r))
+                    : onNavigate(r.book as string, r.chapter as number, r.verse as number)}
+                  title={r.entry_id !== null ? 'Go to section' : 'Go to verse'}
                 >
-                  <div className="hl-item-ref">{r.book} {r.chapter}:{r.verse}</div>
+                  <div className="hl-item-ref">
+                    {r.entry_id !== null ? (r.entry_position_ref ?? r.entry_source_title) : `${r.book} ${r.chapter}:${r.verse}`}
+                  </div>
                   {r.text && <div className="hl-item-text">{r.text}</div>}
                 </div>
                 <div className="hl-item-actions">
-                  <NoteTargetMenu buildMarkdown={() => verseMarkdown(r)} onAdded={onNoteAdded} />
+                  <NoteTargetMenu buildMarkdown={() => rowMarkdown(r)} onAdded={onNoteAdded} />
                   <button className="danger" onClick={() => unhighlight(r)} title="Remove highlight">Remove</button>
                 </div>
               </div>

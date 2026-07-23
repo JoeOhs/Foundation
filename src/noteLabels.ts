@@ -7,5 +7,6 @@ export function anchorLabel(n: Note): string {
   if (n.anchor_book && n.anchor_verse != null) return `${n.anchor_book} ${n.anchor_chapter}:${n.anchor_verse}`;
   if (n.anchor_book && n.anchor_chapter != null) return `${n.anchor_book} ${n.anchor_chapter} (chapter)`;
   if (n.anchor_book) return `${n.anchor_book} (book)`;
+  if (n.entry_id != null) return 'Imported text';
   return 'Freeform';
 }

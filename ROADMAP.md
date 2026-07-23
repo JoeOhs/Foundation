@@ -12,14 +12,30 @@ running list of what's done and what's next, not a commitment.
 - Import pipeline: plain text, Markdown, JSON, CSV/TSV, XML, EPUB, with
   forgiving fallback to a freeform document when structure can't be
   detected. EPUB imports also capture the book's table of contents into a
-  dedicated `toc_entries` table (see Near-term below for the reading pane
-  that will consume it).
+  dedicated `toc_entries` table.
 - One-time migration path for legacy SQLite-based module files the user
   already owns.
-- Notes anchored to verse/chapter/book (shared across translations) or
-  free-floating.
+- **Dedicated imported-text panes.** Sources brought in via Import (EPUB
+  and other freeform texts) get their own independently-scrolling pane —
+  a static title + TOC dropdown instead of the translation/book/chapter
+  selectors, always navigating locally, never joining a Bible sync group.
+  Opened from a new "Imported texts" section in the Library, split out
+  from the downloadable Bible-translation list; always pinned to the
+  rightmost side of the panes window (`+ Pane` inserts new Bible panes
+  before them, never after). Each imported source can be deleted from that
+  same Library section — cascades to its highlights/notes/links and closes
+  its pane if open.
+- **Notes/Highlights/Links on imported texts.** Clicking a paragraph in an
+  imported-text pane offers the same action bar as clicking a verse:
+  highlight it, add it to a note, or bind it to another verse or section
+  (any combination — verse↔verse, verse↔entry, entry↔entry). `highlights`
+  and `links` anchor to either a canonical verse or a specific `entries`
+  row; `notes` already had `entry_id` for this. The Highlights/Links tabs
+  and the popped-out notes window all understand both anchor kinds.
+- Notes anchored to verse/chapter/book (shared across translations), a
+  section of an imported text, or free-floating.
 - Dark mode via CSS variables, OS-aware by default.
-- Full-text search across all sources and notes.
+- Full-text search across Bible translations and notes.
 - Font size controls, pane-layout/theme/reference persistence.
 - Windows installers (MSI + NSIS) via `tauri build`.
 
@@ -110,14 +126,8 @@ running list of what's done and what's next, not a commitment.
   - scrollmapper's `bible_databases_deuterocanonical` companion repo, if
     fuller Apocrypha coverage is ever wanted (DRC already carries its
     deuterocanon).
-- **Dedicated freeform reading pane + Library UI split.** A separate,
-  independently-scrolling reading pane (distinct from the synced Bible
-  panes) with a TOC dropdown in its header, fed by a new "Imported" section
-  in the Library UI split out from the Bible-translation Library section.
-  The EPUB importer above already captures the `toc_entries` data this
-  pane's dropdown will consume — this item is just the UI on top of it.
 - **Per-source search filter**, so search can be scoped to one imported work
-  instead of always searching everything.
+  (full-text search is currently Bible-only — see Done above).
 
 ## Longer-term / exploratory
 

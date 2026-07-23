@@ -50,24 +50,30 @@ export default function SyncMenu({ paneSourceIds, sources, groups, onAssign }: S
           {paneSourceIds.slice(1).map((sid, idx) => {
             const i = idx + 1;
             const g = groups[i] ?? 'A';
+            // Imported (freeform) texts are always their own dedicated,
+            // independent pane — they never join a Bible sync group.
+            const imported = sources.find((s) => s.id === sid)?.type !== 'bible';
             return (
               <div className="sync-row" key={i}>
                 <span className="sync-pane-name">{i + 1} · {titleOf(sid)}</span>
                 <span className="sync-choices">
                   <button
                     className={`sync-choice${g === 'A' ? ' active' : ''}`}
+                    disabled={imported}
                     onClick={() => onAssign(i, 'A')}
-                    title="Follow Pane 1"
+                    title={imported ? 'Imported texts always navigate independently' : 'Follow Pane 1'}
                   >
                     Synced
                   </button>
                   <button
                     className={`sync-choice${g === 'B' ? ' active' : ''}`}
-                    disabled={!groupBAllowed}
+                    disabled={!groupBAllowed || imported}
                     onClick={() => onAssign(i, 'B')}
-                    title={groupBAllowed
-                      ? 'Second sync group — its lowest pane leads it'
-                      : 'Needs at least 3 panes to form a second combination'}
+                    title={imported
+                      ? 'Imported texts always navigate independently'
+                      : groupBAllowed
+                        ? 'Second sync group — its lowest pane leads it'
+                        : 'Needs at least 3 panes to form a second combination'}
                   >
                     Group B
                   </button>

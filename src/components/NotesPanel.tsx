@@ -3,23 +3,30 @@ import { addNote, deleteNote, freeNotes, notesForChapter, setNotePinned, updateN
 import { renderMarkdown } from '../markdown';
 import { exportAllNotes, importNotesFromFiles } from '../notesio';
 import { takePendingInsertMarkdown } from '../notesbus';
+import { requestConfirm } from '../confirmBus';
 import NoteEditor, { type NoteEditorHandle } from './NoteEditor';
 import HighlightsTab from './HighlightsTab';
 import LinksTab from './LinksTab';
 import { anchorLabel } from '../noteLabels';
-import type { Note, Reference, VerseSelection } from '../types';
+import type { Note, Reference, SelectedEntry, VerseSelection } from '../types';
 
-type AnchorKind = 'verse' | 'chapter' | 'book' | 'free';
+type AnchorKind = 'verse' | 'entry' | 'chapter' | 'book' | 'free';
 
 interface NotesPanelProps {
   refState: Reference;
   selection: VerseSelection | null;
+  // the selected paragraph/section in an imported pane, if any — offers a
+  // "this section" anchor option alongside the verse one
+  entrySelection: SelectedEntry | null;
   onNotesChanged: () => void;
   onClose?: () => void;
   onPopOut?: () => void;
-  // Highlights/Links tabs: navigate the reader to a verse, and refresh state
-  // when highlights/links change here
+  // Highlights/Links tabs: navigate the reader to a verse or an imported
+  // entry, and refresh state when highlights/links change here
   onNavigateVerse: (book: string, chapter: number, verse: number) => void;
+  // `entry` (built from the row's own text/source/position_ref) lets the
+  // reader select the target immediately, mirroring onNavigateVerse.
+  onNavigateEntry: (sourceId: number, entryId: number, entry?: SelectedEntry) => void;
   highlightsVersion: number;
   onHighlightsChanged: () => void;
   linksVersion: number;
@@ -36,8 +43,8 @@ function notePreview(n: Note): string {
 }
 
 export default function NotesPanel({
-  refState, selection, onNotesChanged, onClose, onPopOut,
-  onNavigateVerse, highlightsVersion, onHighlightsChanged, linksVersion, onLinksChanged, standalone,
+  refState, selection, entrySelection, onNotesChanged, onClose, onPopOut,
+  onNavigateVerse, onNavigateEntry, highlightsVersion, onHighlightsChanged, linksVersion, onLinksChanged, standalone,
 }: NotesPanelProps) {
   const [tab, setTab] = useState<'notes' | 'highlights' | 'links'>('notes');
   const [showFree, setShowFree] = useState(false);
@@ -69,9 +76,10 @@ export default function NotesPanel({
   // default the anchor picker sensibly
   useEffect(() => {
     if (showFree) setAnchor('free');
+    else if (entrySelection) setAnchor('entry');
     else if (selection) setAnchor('verse');
     else setAnchor('chapter');
-  }, [selection, showFree]);
+  }, [selection, entrySelection, showFree]);
 
   // Scripture inserted from the reader ("Add to note") arrives as a window
   // event so it works whether the editor is docked or popped out. Bridged
@@ -110,6 +118,8 @@ export default function NotesPanel({
       const base = { title: title.trim() || null, content: content.trim() };
       if (anchor === 'verse' && selection) {
         await addNote({ ...base, anchor_book: selection.book, anchor_chapter: selection.chapter, anchor_verse: selection.verse });
+      } else if (anchor === 'entry' && entrySelection) {
+        await addNote({ ...base, entry_id: entrySelection.entryId });
       } else if (anchor === 'chapter') {
         await addNote({ ...base, anchor_book: refState.book, anchor_chapter: refState.chapter });
       } else if (anchor === 'book') {
@@ -124,7 +134,7 @@ export default function NotesPanel({
   };
 
   const remove = async (n: Note) => {
-    if (!window.confirm('Delete this note?')) return;
+    if (!await requestConfirm('Delete this note?')) return;
     await deleteNote(n.id);
     if (editing?.id === n.id) cancelEdit();
     await reload();
@@ -187,6 +197,7 @@ export default function NotesPanel({
       {tab === 'highlights' ? (
         <HighlightsTab
           onNavigate={onNavigateVerse}
+          onNavigateEntry={onNavigateEntry}
           version={highlightsVersion}
           onChanged={onHighlightsChanged}
           onNoteAdded={() => { reload(); onNotesChanged(); }}
@@ -194,6 +205,7 @@ export default function NotesPanel({
       ) : tab === 'links' ? (
         <LinksTab
           onNavigate={onNavigateVerse}
+          onNavigateEntry={onNavigateEntry}
           version={linksVersion}
           onChanged={onLinksChanged}
           onNoteAdded={() => { reload(); onNotesChanged(); }}
@@ -239,6 +251,11 @@ export default function NotesPanel({
         {!editing && (
           <div className="row">
             <select value={anchor} onChange={(e) => setAnchor(e.target.value as AnchorKind)}>
+              {entrySelection && (
+                <option value="entry">
+                  {entrySelection.positionRef ?? entrySelection.sourceTitle}
+                </option>
+              )}
               {selection && (
                 <option value="verse">
                   {selection.book} {selection.chapter}:{selection.verse}

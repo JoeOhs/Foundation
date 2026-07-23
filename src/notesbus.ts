@@ -1,6 +1,6 @@
 import { emit, listen, type UnlistenFn } from '@tauri-apps/api/event';
 import { WebviewWindow } from '@tauri-apps/api/webviewWindow';
-import type { Reference, VerseSelection } from './types';
+import type { Reference, SelectedEntry, VerseSelection } from './types';
 
 // Cross-window channels between the main window and the popped-out notes
 // window. Both share the same SQLite database; these events keep their UI
@@ -31,6 +31,7 @@ export function takePendingInsertMarkdown(): string | null {
 export interface NotesContext {
   ref: Reference;
   selection: VerseSelection | null;
+  entrySelection: SelectedEntry | null;
 }
 
 export function emitNotesContext(ctx: NotesContext): void {
@@ -68,6 +69,14 @@ export function emitNotesNavigate(ref: VerseSelection): void {
 }
 export function onNotesNavigate(cb: (ref: VerseSelection) => void): Promise<UnlistenFn> {
   return listen<VerseSelection>(NAV, (e) => cb(e.payload));
+}
+
+const NAV_ENTRY = 'notes:navigate-entry'; // popout → main: jump to an imported entry
+export function emitNotesNavigateEntry(entry: SelectedEntry): void {
+  void emit(NAV_ENTRY, entry);
+}
+export function onNotesNavigateEntry(cb: (entry: SelectedEntry) => void): Promise<UnlistenFn> {
+  return listen<SelectedEntry>(NAV_ENTRY, (e) => cb(e.payload));
 }
 
 const LINKS_CHANGED = 'links:changed'; // either → other: verse links changed

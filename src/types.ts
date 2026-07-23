@@ -160,43 +160,79 @@ export interface Highlighter {
   sort_order: number;
 }
 
-// A highlight applied to a verse, anchored by canonical reference so it
-// shows across every translation. At most one highlighter per verse.
+// A highlight applied to a verse (canonical reference, so it shows across
+// every translation) or to a specific imported entry (a freeform text's
+// section) — exactly one of (book/chapter/verse) or entry_id is set. At
+// most one highlighter per verse, and separately at most one per entry.
 export interface Highlight {
   id: number;
   highlighter_id: number;
-  book: string;
-  chapter: number;
-  verse: number;
+  book: string | null;
+  chapter: number | null;
+  verse: number | null;
+  entry_id: number | null;
   created_at: string;
 }
 
-// A highlighted verse joined with its highlighter, for the Highlights list.
+// A highlighted verse or entry joined with its highlighter and display
+// text, for the Highlights list. entry_source_id/entry_source_title/
+// entry_position_ref are only populated for entry-anchored rows.
 export interface HighlightRow extends Highlight {
   label: string;
   color: string;
+  entry_source_id: number | null;
+  text: string;
+  entry_source_title: string | null;
+  entry_position_ref: string | null;
 }
 
-// A binding between two verses (canonical refs), optionally associated with
-// a highlighter for color/category. Both endpoints show a dashed outline.
+// One endpoint of a binding: a canonical verse, or a specific imported entry.
+export type LinkEndpoint =
+  | { kind: 'verse'; book: string; chapter: number; verse: number }
+  | { kind: 'entry'; entryId: number };
+
+// A binding between two endpoints (each a verse or an imported entry),
+// optionally associated with a highlighter for color/category. Both
+// endpoints show a dashed outline.
 export interface Link {
   id: number;
-  book_a: string;
-  chapter_a: number;
-  verse_a: number;
-  book_b: string;
-  chapter_b: number;
-  verse_b: number;
+  book_a: string | null;
+  chapter_a: number | null;
+  verse_a: number | null;
+  entry_id_a: number | null;
+  book_b: string | null;
+  chapter_b: number | null;
+  verse_b: number | null;
+  entry_id_b: number | null;
   highlighter_id: number | null;
   created_at: string;
 }
 
-// A link joined with each endpoint's verse text + associated highlighter.
+// A link joined with each endpoint's display text + associated highlighter.
+// source_id_a/b, source_title_a/b, and position_ref_a/b are only populated
+// for entry-anchored endpoints (an entry has no book/chapter/verse label).
 export interface LinkRow extends Link {
   text_a: string;
   text_b: string;
+  source_id_a: number | null;
+  source_id_b: number | null;
+  source_title_a: string | null;
+  source_title_b: string | null;
+  position_ref_a: string | null;
+  position_ref_b: string | null;
   color: string | null;
   label: string | null;
+}
+
+// A clicked paragraph/section in an imported (freeform) pane — the
+// entry-anchored counterpart to SelectedVerse, used to build notes,
+// highlights, and links from imported text.
+export interface SelectedEntry {
+  entryId: number;
+  sourceId: number;
+  sourceTitle: string;
+  positionRef: string | null;
+  text: string;
 }
 
 // A translator's note (alternate reading, literal Hebrew/Greek rendering,

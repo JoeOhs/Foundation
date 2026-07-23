@@ -1,7 +1,7 @@
 import Database from '@tauri-apps/plugin-sql';
 import type {
-  Book, Entry, EntryNote, HighlightRow, Highlighter, LinkRow, Note, ParsedSource, SearchHit,
-  SearchResults, Source, SourceType, TocEntryRow, VerseSelection,
+  Book, Entry, EntryNote, HighlightRow, Highlighter, LinkEndpoint, LinkRow, Note, ParsedSource,
+  SearchHit, SearchResults, Source, SourceType, TocEntryRow,
   StrongsBookCount, StrongsDictEntry, StrongsSearchGroup, StrongsSearchHit, StrongsWordRow,
 } from './types';
 
@@ -98,25 +98,31 @@ const SCHEMA: string[] = [
     color TEXT NOT NULL,
     sort_order INTEGER NOT NULL DEFAULT 0
   )`,
+  // Anchored either to a canonical verse (book/chapter/verse) or to a
+  // specific imported entry (entry_id) — exactly one of the two is set.
+  // Fresh installs get this shape directly; existing databases are
+  // migrated in migrateEntryAnchoring below (SQLite can't relax a NOT
+  // NULL column in place). Indexes referencing entry_id/entry_id_a/
+  // entry_id_b are NOT created here — on a pre-existing database those
+  // columns don't exist yet at this point in boot, and this loop runs
+  // unguarded; migrateEntryAnchoring creates them once the shape is
+  // guaranteed correct, for both the fresh-install and migrated cases.
   `CREATE TABLE IF NOT EXISTS highlights (
     id INTEGER PRIMARY KEY,
     highlighter_id INTEGER NOT NULL REFERENCES highlighters(id),
-    book TEXT NOT NULL,
-    chapter INTEGER NOT NULL,
-    verse INTEGER NOT NULL,
+    book TEXT,
+    chapter INTEGER,
+    verse INTEGER,
+    entry_id INTEGER REFERENCES entries(id),
     created_at TEXT DEFAULT (datetime('now'))
   )`,
-  // one highlighter per verse — applying another replaces it
-  `CREATE UNIQUE INDEX IF NOT EXISTS idx_highlights_ref ON highlights(book, chapter, verse)`,
   `CREATE TABLE IF NOT EXISTS links (
     id INTEGER PRIMARY KEY,
-    book_a TEXT NOT NULL, chapter_a INTEGER NOT NULL, verse_a INTEGER NOT NULL,
-    book_b TEXT NOT NULL, chapter_b INTEGER NOT NULL, verse_b INTEGER NOT NULL,
+    book_a TEXT, chapter_a INTEGER, verse_a INTEGER, entry_id_a INTEGER REFERENCES entries(id),
+    book_b TEXT, chapter_b INTEGER, verse_b INTEGER, entry_id_b INTEGER REFERENCES entries(id),
     highlighter_id INTEGER REFERENCES highlighters(id),
     created_at TEXT DEFAULT (datetime('now'))
   )`,
-  `CREATE INDEX IF NOT EXISTS idx_links_a ON links(book_a, chapter_a, verse_a)`,
-  `CREATE INDEX IF NOT EXISTS idx_links_b ON links(book_b, chapter_b, verse_b)`,
   `CREATE TABLE IF NOT EXISTS toc_entries (
     id INTEGER PRIMARY KEY,
     source_id INTEGER NOT NULL REFERENCES sources(id),
@@ -154,8 +160,72 @@ const FTS_SCHEMA: string[] = [
   END`,
 ];
 
+// Pre-existing databases have `highlights`/`links` with NOT NULL verse
+// columns (pinned to canonical references only) — SQLite can't relax a
+// NOT NULL constraint with ALTER TABLE, so each is rebuilt in place,
+// widened to nullable + a new entry_id column, preserving every row.
+// Fresh installs already get the widened shape from SCHEMA above, so
+// table_info here reports entry_id already present and the rebuild is a
+// no-op — but the entry_id-referencing indexes are (re)created either way,
+// unconditionally, once the shape is guaranteed correct either way.
+async function migrateEntryAnchoring(db: Database): Promise<void> {
+  // Detect by column *presence*, not the verse column's notnull flag — the
+  // SQL plugin may serialize PRAGMA's notnull as a string ("0"/"1") rather
+  // than a number depending on the driver, which would make a `=== 1`
+  // check silently never match and skip the migration entirely.
+  const hlInfo = await db.select<{ name: string }[]>('PRAGMA table_info(highlights)');
+  if (hlInfo.length > 0 && !hlInfo.some((c) => c.name === 'entry_id')) {
+    await db.execute(`CREATE TABLE highlights_new (
+      id INTEGER PRIMARY KEY,
+      highlighter_id INTEGER NOT NULL REFERENCES highlighters(id),
+      book TEXT, chapter INTEGER, verse INTEGER, entry_id INTEGER REFERENCES entries(id),
+      created_at TEXT DEFAULT (datetime('now'))
+    )`);
+    await db.execute(
+      `INSERT INTO highlights_new (id, highlighter_id, book, chapter, verse, created_at)
+       SELECT id, highlighter_id, book, chapter, verse, created_at FROM highlights`,
+    );
+    await db.execute('DROP TABLE highlights');
+    await db.execute('ALTER TABLE highlights_new RENAME TO highlights');
+  }
+  await db.execute('CREATE UNIQUE INDEX IF NOT EXISTS idx_highlights_ref ON highlights(book, chapter, verse)');
+  await db.execute('CREATE UNIQUE INDEX IF NOT EXISTS idx_highlights_entry ON highlights(entry_id)');
+
+  const linksInfo = await db.select<{ name: string }[]>('PRAGMA table_info(links)');
+  if (linksInfo.length > 0 && !linksInfo.some((c) => c.name === 'entry_id_a')) {
+    await db.execute(`CREATE TABLE links_new (
+      id INTEGER PRIMARY KEY,
+      book_a TEXT, chapter_a INTEGER, verse_a INTEGER, entry_id_a INTEGER REFERENCES entries(id),
+      book_b TEXT, chapter_b INTEGER, verse_b INTEGER, entry_id_b INTEGER REFERENCES entries(id),
+      highlighter_id INTEGER REFERENCES highlighters(id),
+      created_at TEXT DEFAULT (datetime('now'))
+    )`);
+    await db.execute(
+      `INSERT INTO links_new (id, book_a, chapter_a, verse_a, book_b, chapter_b, verse_b, highlighter_id, created_at)
+       SELECT id, book_a, chapter_a, verse_a, book_b, chapter_b, verse_b, highlighter_id, created_at FROM links`,
+    );
+    await db.execute('DROP TABLE links');
+    await db.execute('ALTER TABLE links_new RENAME TO links');
+  }
+  await db.execute('CREATE INDEX IF NOT EXISTS idx_links_a ON links(book_a, chapter_a, verse_a)');
+  await db.execute('CREATE INDEX IF NOT EXISTS idx_links_b ON links(book_b, chapter_b, verse_b)');
+  await db.execute('CREATE INDEX IF NOT EXISTS idx_links_entry_a ON links(entry_id_a)');
+  await db.execute('CREATE INDEX IF NOT EXISTS idx_links_entry_b ON links(entry_id_b)');
+}
+
 export async function initDb(): Promise<void> {
   const db = await ensureDb();
+  // Migration for databases created before entry-anchored notes existed —
+  // this MUST run before the SCHEMA loop below, since `idx_notes_entry` in
+  // there references notes.entry_id unguarded and would fail immediately
+  // on a table that still predates that column (harmless no-op — including
+  // "no such table: notes" — if notes doesn't exist yet either; the SCHEMA
+  // loop creates it fresh, already including entry_id, in that case).
+  try {
+    await db.execute('ALTER TABLE notes ADD COLUMN entry_id INTEGER REFERENCES entries(id)');
+  } catch {
+    /* column already present, or table doesn't exist yet (fresh install) */
+  }
   for (const stmt of SCHEMA) {
     await db.execute(stmt);
   }
@@ -178,6 +248,14 @@ export async function initDb(): Promise<void> {
     );
   } catch {
     /* column already present, or backfill already applied */
+  }
+  try {
+    await migrateEntryAnchoring(db);
+  } catch (e) {
+    // Don't let a highlights/links migration failure brick the whole app —
+    // Bible reading, notes, and search don't depend on it. Highlighting or
+    // binding an entry may still fail downstream if this didn't succeed.
+    console.error('Highlights/links entry-anchoring migration failed', e);
   }
   try {
     for (const stmt of FTS_SCHEMA) {
@@ -250,11 +328,27 @@ export async function notesForChapter(book: string, chapter: number): Promise<No
   );
 }
 
+// Notes not anchored to a Bible book/chapter — pure freeform notes and
+// entry-anchored (imported-text) notes alike, since neither shows up under
+// any book/chapter browse view.
 export async function freeNotes(): Promise<Note[]> {
   const db = await ensureDb();
   return db.select<Note[]>(
-    `SELECT * FROM notes WHERE anchor_book IS NULL AND entry_id IS NULL ORDER BY pinned DESC, updated_at DESC`,
+    `SELECT * FROM notes WHERE anchor_book IS NULL ORDER BY pinned DESC, updated_at DESC`,
   );
+}
+
+// Which of the given imported entries have a note anchored to them —
+// drives the note-dot indicator in a freeform pane, mirroring notedVerses.
+export async function entriesWithNotes(entryIds: number[]): Promise<Set<number>> {
+  if (entryIds.length === 0) return new Set();
+  const db = await ensureDb();
+  const placeholders = entryIds.map(() => '?').join(', ');
+  const rows = await db.select<{ entry_id: number }[]>(
+    `SELECT DISTINCT entry_id FROM notes WHERE entry_id IN (${placeholders})`,
+    entryIds,
+  );
+  return new Set(rows.map((r) => r.entry_id));
 }
 
 export async function setNotePinned(id: number, pinned: boolean): Promise<void> {
@@ -371,6 +465,22 @@ export async function removeHighlight(book: string, chapter: number, verse: numb
   await db.execute('DELETE FROM highlights WHERE book = ? AND chapter = ? AND verse = ?', [book, chapter, verse]);
 }
 
+// Apply (or re-color) a highlighter on an imported entry — one per entry,
+// the freeform counterpart to setHighlight.
+export async function setHighlightEntry(highlighterId: number, entryId: number): Promise<void> {
+  const db = await ensureDb();
+  await db.execute(
+    `INSERT INTO highlights (highlighter_id, entry_id) VALUES (?, ?)
+     ON CONFLICT(entry_id) DO UPDATE SET highlighter_id = excluded.highlighter_id`,
+    [highlighterId, entryId],
+  );
+}
+
+export async function removeHighlightEntry(entryId: number): Promise<void> {
+  const db = await ensureDb();
+  await db.execute('DELETE FROM highlights WHERE entry_id = ?', [entryId]);
+}
+
 // verse -> highlighter color for one chapter (reader rendering)
 export async function highlightsForChapter(book: string, chapter: number): Promise<Map<number, { color: string; highlighterId: number }>> {
   const db = await ensureDb();
@@ -383,42 +493,84 @@ export async function highlightsForChapter(book: string, chapter: number): Promi
   return new Map(rows.map((r) => [r.verse, { color: r.color, highlighterId: r.highlighter_id }]));
 }
 
-// All highlighted verses, joined with their highlighter, in canonical order
-// — for the Highlights list. Text is looked up from the KJV (or any bible)
-// so the list is readable without loading each chapter.
-export async function listHighlights(): Promise<(HighlightRow & { text: string })[]> {
+// entry_id -> highlighter color, for a freeform pane's loaded entries.
+export async function highlightsForEntries(entryIds: number[]): Promise<Map<number, { color: string; highlighterId: number }>> {
+  if (entryIds.length === 0) return new Map();
   const db = await ensureDb();
-  return db.select<(HighlightRow & { text: string })[]>(
-    `SELECT h.id AS id, h.highlighter_id AS highlighter_id, h.book AS book, h.chapter AS chapter,
-            h.verse AS verse, h.created_at AS created_at, hl.label AS label, hl.color AS color,
-            COALESCE((
-              SELECT e.text FROM entries e
-              JOIN books b ON b.id = e.book_id
-              JOIN sources s ON s.id = b.source_id
-              WHERE s.type = 'bible' AND b.name = h.book AND e.chapter = h.chapter AND e.verse = h.verse
-              ORDER BY s.id LIMIT 1
-            ), '') AS text
+  const placeholders = entryIds.map(() => '?').join(', ');
+  const rows = await db.select<{ entry_id: number; color: string; highlighter_id: number }[]>(
+    `SELECT h.entry_id AS entry_id, hl.color AS color, h.highlighter_id AS highlighter_id
      FROM highlights h JOIN highlighters hl ON hl.id = h.highlighter_id
-     ORDER BY hl.sort_order, hl.id, h.book, h.chapter, h.verse`,
+     WHERE h.entry_id IN (${placeholders})`,
+    entryIds,
+  );
+  return new Map(rows.map((r) => [r.entry_id, { color: r.color, highlighterId: r.highlighter_id }]));
+}
+
+// All highlighted verses and entries, joined with their highlighter, in
+// display order — for the Highlights list. Verse text is looked up from
+// the KJV (or any bible) so the list is readable without loading each
+// chapter; entry text/source come straight off the highlighted entry.
+export async function listHighlights(): Promise<HighlightRow[]> {
+  const db = await ensureDb();
+  return db.select<HighlightRow[]>(
+    `SELECT h.id AS id, h.highlighter_id AS highlighter_id, h.book AS book, h.chapter AS chapter,
+            h.verse AS verse, h.entry_id AS entry_id, h.created_at AS created_at,
+            hl.label AS label, hl.color AS color,
+            CASE
+              WHEN h.entry_id IS NOT NULL THEN e.text
+              ELSE COALESCE((
+                SELECT ev.text FROM entries ev
+                JOIN books bv ON bv.id = ev.book_id
+                JOIN sources sv ON sv.id = bv.source_id
+                WHERE sv.type = 'bible' AND bv.name = h.book AND ev.chapter = h.chapter AND ev.verse = h.verse
+                ORDER BY sv.id LIMIT 1
+              ), '')
+            END AS text,
+            s.id AS entry_source_id,
+            s.title AS entry_source_title,
+            e.position_ref AS entry_position_ref
+     FROM highlights h
+     JOIN highlighters hl ON hl.id = h.highlighter_id
+     LEFT JOIN entries e ON e.id = h.entry_id
+     LEFT JOIN books b2 ON b2.id = e.book_id
+     LEFT JOIN sources s ON s.id = b2.source_id
+     ORDER BY hl.sort_order, hl.id, h.book, h.chapter, h.verse, e.sort_order`,
   );
 }
 
-// ---------- links (verse bindings) ----------
+// ---------- links (verse/entry bindings) ----------
 
-// Create a binding between two verses, unless the identical pair already
-// exists (in either direction).
-export async function createLink(a: VerseSelection, b: VerseSelection): Promise<void> {
+function linkEndpointCols(e: LinkEndpoint): { book: string | null; chapter: number | null; verse: number | null; entry: number | null } {
+  return e.kind === 'verse'
+    ? { book: e.book, chapter: e.chapter, verse: e.verse, entry: null }
+    : { book: null, chapter: null, verse: null, entry: e.entryId };
+}
+
+// Create a binding between two endpoints (each a verse or an imported
+// entry), unless the identical pair already exists (in either direction).
+// `IS` (not `=`) so NULL anchor columns compare equal across rows.
+export async function createLink(a: LinkEndpoint, b: LinkEndpoint): Promise<void> {
   const db = await ensureDb();
+  const ca = linkEndpointCols(a);
+  const cb = linkEndpointCols(b);
   const dup = await db.select<{ n: number }[]>(
     `SELECT COUNT(*) AS n FROM links WHERE
-       (book_a=? AND chapter_a=? AND verse_a=? AND book_b=? AND chapter_b=? AND verse_b=?)
-       OR (book_a=? AND chapter_a=? AND verse_a=? AND book_b=? AND chapter_b=? AND verse_b=?)`,
-    [a.book, a.chapter, a.verse, b.book, b.chapter, b.verse, b.book, b.chapter, b.verse, a.book, a.chapter, a.verse],
+       (book_a IS ? AND chapter_a IS ? AND verse_a IS ? AND entry_id_a IS ? AND
+        book_b IS ? AND chapter_b IS ? AND verse_b IS ? AND entry_id_b IS ?)
+       OR
+       (book_a IS ? AND chapter_a IS ? AND verse_a IS ? AND entry_id_a IS ? AND
+        book_b IS ? AND chapter_b IS ? AND verse_b IS ? AND entry_id_b IS ?)`,
+    [
+      ca.book, ca.chapter, ca.verse, ca.entry, cb.book, cb.chapter, cb.verse, cb.entry,
+      cb.book, cb.chapter, cb.verse, cb.entry, ca.book, ca.chapter, ca.verse, ca.entry,
+    ],
   );
   if (dup[0].n > 0) return;
   await db.execute(
-    `INSERT INTO links (book_a, chapter_a, verse_a, book_b, chapter_b, verse_b) VALUES (?, ?, ?, ?, ?, ?)`,
-    [a.book, a.chapter, a.verse, b.book, b.chapter, b.verse],
+    `INSERT INTO links (book_a, chapter_a, verse_a, entry_id_a, book_b, chapter_b, verse_b, entry_id_b)
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
+    [ca.book, ca.chapter, ca.verse, ca.entry, cb.book, cb.chapter, cb.verse, cb.entry],
   );
 }
 
@@ -458,8 +610,36 @@ export async function linksForChapter(book: string, chapter: number): Promise<Ma
   return map;
 }
 
-// All links joined with each endpoint's verse text and highlighter color,
-// in canonical order of the first endpoint — for the Links tab.
+// entry_id -> optional color, for a freeform pane's loaded entries — the
+// entry-anchored counterpart to linksForChapter.
+export async function linksForEntries(entryIds: number[]): Promise<Map<number, { color: string | null }>> {
+  if (entryIds.length === 0) return new Map();
+  const db = await ensureDb();
+  const placeholders = entryIds.map(() => '?').join(', ');
+  const rows = await db.select<{ entry_id: number; color: string | null }[]>(
+    `SELECT entry_id, color FROM (
+       SELECT l.entry_id_a AS entry_id, hl.color AS color FROM links l
+         LEFT JOIN highlighters hl ON hl.id = l.highlighter_id
+         WHERE l.entry_id_a IN (${placeholders})
+       UNION ALL
+       SELECT l.entry_id_b AS entry_id, hl.color AS color FROM links l
+         LEFT JOIN highlighters hl ON hl.id = l.highlighter_id
+         WHERE l.entry_id_b IN (${placeholders})
+     )`,
+    [...entryIds, ...entryIds],
+  );
+  const map = new Map<number, { color: string | null }>();
+  for (const r of rows) {
+    const existing = map.get(r.entry_id);
+    if (!existing || (existing.color === null && r.color !== null)) map.set(r.entry_id, { color: r.color });
+  }
+  return map;
+}
+
+// All links joined with each endpoint's display text/source and highlighter
+// color, in display order — for the Links tab. Entry-anchored endpoints
+// pull their text/source straight off the linked entry instead of the
+// verse-text subquery.
 export async function listLinks(): Promise<LinkRow[]> {
   const db = await ensureDb();
   const verseText = (bookCol: string, chCol: string, vsCol: string) =>
@@ -467,14 +647,27 @@ export async function listLinks(): Promise<LinkRow[]> {
        WHERE s.type = 'bible' AND b.name = l.${bookCol} AND e.chapter = l.${chCol} AND e.verse = l.${vsCol}
        ORDER BY s.id LIMIT 1), '')`;
   return db.select<LinkRow[]>(
-    `SELECT l.id AS id, l.book_a AS book_a, l.chapter_a AS chapter_a, l.verse_a AS verse_a,
-            l.book_b AS book_b, l.chapter_b AS chapter_b, l.verse_b AS verse_b,
+    `SELECT l.id AS id, l.book_a AS book_a, l.chapter_a AS chapter_a, l.verse_a AS verse_a, l.entry_id_a AS entry_id_a,
+            l.book_b AS book_b, l.chapter_b AS chapter_b, l.verse_b AS verse_b, l.entry_id_b AS entry_id_b,
             l.highlighter_id AS highlighter_id, l.created_at AS created_at,
             hl.color AS color, hl.label AS label,
-            ${verseText('book_a', 'chapter_a', 'verse_a')} AS text_a,
-            ${verseText('book_b', 'chapter_b', 'verse_b')} AS text_b
-     FROM links l LEFT JOIN highlighters hl ON hl.id = l.highlighter_id
-     ORDER BY l.book_a, l.chapter_a, l.verse_a, l.id`,
+            CASE WHEN l.entry_id_a IS NOT NULL THEN ea.text ELSE ${verseText('book_a', 'chapter_a', 'verse_a')} END AS text_a,
+            CASE WHEN l.entry_id_b IS NOT NULL THEN eb.text ELSE ${verseText('book_b', 'chapter_b', 'verse_b')} END AS text_b,
+            sa.id AS source_id_a,
+            sb.id AS source_id_b,
+            sa.title AS source_title_a,
+            sb.title AS source_title_b,
+            ea.position_ref AS position_ref_a,
+            eb.position_ref AS position_ref_b
+     FROM links l
+     LEFT JOIN highlighters hl ON hl.id = l.highlighter_id
+     LEFT JOIN entries ea ON ea.id = l.entry_id_a
+     LEFT JOIN books ba ON ba.id = ea.book_id
+     LEFT JOIN sources sa ON sa.id = ba.source_id
+     LEFT JOIN entries eb ON eb.id = l.entry_id_b
+     LEFT JOIN books bb ON bb.id = eb.book_id
+     LEFT JOIN sources sb ON sb.id = bb.source_id
+     ORDER BY l.book_a IS NULL, l.book_a, l.chapter_a, l.verse_a, l.id`,
   );
 }
 
@@ -650,6 +843,28 @@ export async function sourceCount(): Promise<number> {
   const db = await ensureDb();
   const rows = await db.select<{ n: number }[]>('SELECT COUNT(*) AS n FROM sources');
   return rows[0].n;
+}
+
+// Deletes a source and everything that anchors to its entries — highlights,
+// links, notes, translator's notes, tagged words, and its TOC — before
+// removing the entries/books/source themselves. Order matters: children
+// before parents, since nothing here relies on SQLite's (disabled by
+// default) foreign-key cascade.
+export async function deleteSource(sourceId: number): Promise<void> {
+  const db = await ensureDb();
+  const entriesSubquery = `SELECT id FROM entries WHERE book_id IN (SELECT id FROM books WHERE source_id = ?)`;
+  await db.execute(`DELETE FROM highlights WHERE entry_id IN (${entriesSubquery})`, [sourceId]);
+  await db.execute(
+    `DELETE FROM links WHERE entry_id_a IN (${entriesSubquery}) OR entry_id_b IN (${entriesSubquery})`,
+    [sourceId, sourceId],
+  );
+  await db.execute(`DELETE FROM notes WHERE entry_id IN (${entriesSubquery})`, [sourceId]);
+  await db.execute(`DELETE FROM entry_notes WHERE entry_id IN (${entriesSubquery})`, [sourceId]);
+  await db.execute(`DELETE FROM strongs_words WHERE entry_id IN (${entriesSubquery})`, [sourceId]);
+  await db.execute('DELETE FROM toc_entries WHERE source_id = ?', [sourceId]);
+  await db.execute(`DELETE FROM entries WHERE book_id IN (SELECT id FROM books WHERE source_id = ?)`, [sourceId]);
+  await db.execute('DELETE FROM books WHERE source_id = ?', [sourceId]);
+  await db.execute('DELETE FROM sources WHERE id = ?', [sourceId]);
 }
 
 // ---------- Strong's numbers ----------

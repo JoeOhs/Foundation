@@ -583,25 +583,32 @@ function dirOf(path: string): string {
   return path.includes('/') ? path.slice(0, path.lastIndexOf('/') + 1) : '';
 }
 
-// One heading-delimited section of chapter text, mirroring parseMarkdown's
-// section model: `title` is the heading (null for text before the first
-// heading), `texts` are the paragraph blocks under it.
-interface EpubSection {
+// One paragraph-level unit of chapter text. `title` is the heading it falls
+// directly under, set only on the FIRST paragraph after that heading (so
+// the heading prints once, like a printed book) — null everywhere else.
+// Each one becomes its own selectable/highlightable/notable entry, rather
+// than merging a whole chapter into a single unwieldy block.
+interface EpubParagraph {
   title: string | null;
-  texts: string[];
+  text: string;
 }
 
-// Walks a chapter's <body>, splitting it into heading-delimited sections and
-// recording which section every `id` attribute falls in (fragment targets
-// referenced by the TOC) — block elements (p, div, li, ...) become paragraph
-// breaks; inline formatting is flattened to plain text.
-function walkEpubBody(root: Element): { sections: EpubSection[]; idToSection: Map<string, number> } {
-  const sections: EpubSection[] = [{ title: null, texts: [] }];
-  const idToSection = new Map<string, number>();
+// Walks a chapter's <body>, splitting it into paragraph-level units and
+// recording which paragraph every `id` attribute resolves to (fragment
+// targets referenced by the TOC — the first paragraph at/after that id) —
+// block elements (p, div, li, ...) become paragraph breaks; inline
+// formatting is flattened to plain text.
+function walkEpubBody(root: Element): { paragraphs: EpubParagraph[]; idToParagraph: Map<string, number> } {
+  const paragraphs: EpubParagraph[] = [];
+  const idToParagraph = new Map<string, number>();
+  let pendingHeading: string | null = null;
   let currentText = '';
   const flush = () => {
     const t = currentText.replace(/[ \t]+/g, ' ').replace(/\s*\n\s*/g, ' ').trim();
-    if (t) sections[sections.length - 1].texts.push(t);
+    if (t) {
+      paragraphs.push({ title: pendingHeading, text: t });
+      pendingHeading = null;
+    }
     currentText = '';
   };
   const HEADING = /^h[1-6]$/;
@@ -619,38 +626,22 @@ function walkEpubBody(root: Element): { sections: EpubSection[]; idToSection: Ma
     if (HEADING.test(tag)) {
       flush();
       const text = (el.textContent ?? '').replace(/\s+/g, ' ').trim();
-      if (text) sections.push({ title: text, texts: [] });
-      const idx = sections.length - 1;
+      if (text) pendingHeading = text;
+      const idx = paragraphs.length; // index of the paragraph this heading will label
       const id = el.getAttribute('id');
-      if (id) idToSection.set(id, idx);
-      el.querySelectorAll('[id]').forEach((d) => idToSection.set(d.getAttribute('id')!, idx));
+      if (id) idToParagraph.set(id, idx);
+      el.querySelectorAll('[id]').forEach((d) => idToParagraph.set(d.getAttribute('id')!, idx));
       return;
     }
     const id = el.getAttribute('id');
-    if (id) idToSection.set(id, sections.length - 1);
+    if (id) idToParagraph.set(id, paragraphs.length);
     if (tag === 'br') currentText += '\n';
     for (const child of Array.from(el.childNodes)) visit(child);
     if (BLOCK.has(tag)) flush();
   }
   visit(root);
   flush();
-
-  // Drop empty sections (e.g. a leading section with no text before the
-  // first heading) and remap idToSection onto the compacted indices.
-  const remap = new Map<number, number>();
-  const kept: EpubSection[] = [];
-  sections.forEach((s, i) => {
-    if (s.title || s.texts.length > 0) {
-      remap.set(i, kept.length);
-      kept.push(s);
-    }
-  });
-  const remappedIds = new Map<string, number>();
-  idToSection.forEach((v, k) => {
-    const mapped = remap.get(v);
-    if (mapped !== undefined) remappedIds.set(k, mapped);
-  });
-  return { sections: kept, idToSection: remappedIds };
+  return { paragraphs, idToParagraph };
 }
 
 // Resolves a TOC target ("chapter1.html#anchor") onto a flattened entry
@@ -777,13 +768,18 @@ export async function parseEpub(bytes: Uint8Array, baseName: string): Promise<Pa
       const doc = new DOMParser().parseFromString(html, 'text/html');
       const body = doc.body ?? doc.documentElement;
       if (!body) continue;
-      const { sections, idToSection } = walkEpubBody(body);
+      const { paragraphs, idToParagraph } = walkEpubBody(body);
       const baseEntryIndex = entries.length;
       anchorToEntry.set(href, baseEntryIndex);
-      sections.forEach((s) => {
-        entries.push({ chapter: null, verse: null, position_ref: s.title, text: s.texts.join('\n\n') });
+      paragraphs.forEach((p) => {
+        entries.push({ chapter: null, verse: null, position_ref: p.title, text: p.text });
       });
-      idToSection.forEach((sectionIdx, id) => anchorToEntry.set(`${href}#${id}`, baseEntryIndex + sectionIdx));
+      idToParagraph.forEach((idx, id) => {
+        // A heading with no following paragraph in this chapter (rare) maps
+        // one past the last real entry — fall back to the chapter start.
+        const entryIdx = Math.min(idx, paragraphs.length - 1);
+        if (entryIdx >= 0) anchorToEntry.set(`${href}#${id}`, baseEntryIndex + entryIdx);
+      });
     }
     if (entries.length === 0) {
       return fallbackSource('', suggestedTitle, ['EPUB contained no extractable text.']);

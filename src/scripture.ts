@@ -1,4 +1,4 @@
-import type { SelectedVerse } from './types';
+import type { LinkRow, SelectedEntry, SelectedVerse } from './types';
 
 // A human reference for a run of selected verses: "John 3:16", "John
 // 3:16-18", or "John 3:16, 18" when the selection has gaps.
@@ -23,10 +23,40 @@ export function versesReference(verses: SelectedVerse[]): string {
   return `${book} ${chapter}:${runs.join(', ')}`;
 }
 
-// Two bound verses rendered as a markdown fragment with a "linked with"
-// connector — used when sending a link to a note.
-export function linkToMarkdown(a: SelectedVerse, b: SelectedVerse): string {
-  return `${versesToMarkdown([a])}\n\n🔗 *linked with*\n\n${versesToMarkdown([b])}`;
+// A single imported-entry selection rendered as a markdown blockquote —
+// the freeform counterpart to versesToMarkdown.
+export function entryToMarkdown(e: SelectedEntry): string {
+  const ref = e.positionRef ?? e.sourceTitle;
+  const source = e.sourceTitle && e.sourceTitle !== ref ? ` — ${e.sourceTitle}` : '';
+  return `> **${ref}**${source}\n>\n> ${e.text.trim()}`;
+}
+
+// A LinkRow's endpoint rendered as a markdown blockquote, dispatching on
+// whether it's a canonical verse or an imported entry.
+function linkEndpointMarkdown(
+  kind: 'a' | 'b',
+  l: LinkRow,
+): string {
+  const text = kind === 'a' ? l.text_a : l.text_b;
+  const entryId = kind === 'a' ? l.entry_id_a : l.entry_id_b;
+  if (entryId !== null) {
+    const ref = (kind === 'a' ? l.position_ref_a : l.position_ref_b) ?? (kind === 'a' ? l.source_title_a : l.source_title_b) ?? '';
+    const sourceTitle = kind === 'a' ? l.source_title_a : l.source_title_b;
+    const source = sourceTitle && sourceTitle !== ref ? ` — ${sourceTitle}` : '';
+    return `> **${ref}**${source}\n>\n> ${text.trim()}`;
+  }
+  const book = kind === 'a' ? l.book_a : l.book_b;
+  const chapter = kind === 'a' ? l.chapter_a : l.chapter_b;
+  const verse = kind === 'a' ? l.verse_a : l.verse_b;
+  return `> **${book} ${chapter}:${verse}**\n>\n> ${text.trim()}`;
+}
+
+// Both endpoints of a link (verse and/or imported entry, in any
+// combination) rendered as a markdown fragment — used when sending a link
+// to a note, replacing the verse-only linkToMarkdown above for the
+// generalized LinkRow shape.
+export function linkRowToMarkdown(l: LinkRow): string {
+  return `${linkEndpointMarkdown('a', l)}\n\n🔗 *linked with*\n\n${linkEndpointMarkdown('b', l)}`;
 }
 
 // Render selected verses as a markdown blockquote suitable for insertion

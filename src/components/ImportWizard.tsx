@@ -89,8 +89,8 @@ export default function ImportWizard({ onDone }: ImportWizardProps) {
         <div className="modal-body">
           {!parsed && (
             <div className="pane-empty" style={{ padding: 40 }}>
-              <p>Import plain text, Markdown, JSON, CSV/TSV, or XML.<br />
-              Verse-keyed texts map onto book/chapter/verse; anything else is kept as page/section entries.<br />
+              <p>Import plain text, Markdown, JSON, CSV/TSV, XML, or EPUB.<br />
+              Verse-keyed texts map onto book/chapter/verse; anything else (including EPUB) is kept as page/section entries.<br />
               Legacy SQLite-based files you own can also be read as a one-time migration.</p>
               <button className="primary" onClick={pickFile} disabled={busy}>
                 {busy ? progress || 'Working…' : 'Choose a file…'}

@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react';
 import { initDb } from './db';
 import NotesPanel from './components/NotesPanel';
 import {
-  emitNotesChanged, emitNotesNavigate, initialReferenceFromUrl, onHighlightsChanged,
-  onInsertMarkdown, onLinksChanged, onNotesContext,
+  emitNotesChanged, emitNotesNavigate, emitNotesNavigateEntry, initialReferenceFromUrl,
+  onHighlightsChanged, onInsertMarkdown, onLinksChanged, onNotesContext,
 } from './notesbus';
-import type { Reference, VerseSelection } from './types';
+import type { Reference, SelectedEntry, VerseSelection } from './types';
 
 // Root of the popped-out notes window (a separate Tauri webview). Shares
 // the app's SQLite database; receives the main window's current reference,
@@ -16,6 +16,7 @@ export default function NotesWindow() {
     initialReferenceFromUrl({ book: 'Genesis', chapter: 1 }),
   );
   const [selection, setSelection] = useState<VerseSelection | null>(null);
+  const [entrySelection, setEntrySelection] = useState<SelectedEntry | null>(null);
   // local counters so the Highlights/Links tabs reload when they change in
   // the main window
   const [hlVersion, setHlVersion] = useState(0);
@@ -37,6 +38,7 @@ export default function NotesWindow() {
     onNotesContext((ctx) => {
       setRefState(ctx.ref);
       setSelection(ctx.selection);
+      setEntrySelection(ctx.entrySelection);
     }).then((u) => unlisteners.push(u));
     // scripture "Add to note" from the main reader → local editor insert
     onInsertMarkdown((md) =>
@@ -57,8 +59,10 @@ export default function NotesWindow() {
         standalone
         refState={refState}
         selection={selection}
+        entrySelection={entrySelection}
         onNotesChanged={emitNotesChanged}
         onNavigateVerse={(book, chapter, verse) => emitNotesNavigate({ book, chapter, verse })}
+        onNavigateEntry={(_sourceId, _entryId, entry) => { if (entry) emitNotesNavigateEntry(entry); }}
         highlightsVersion={hlVersion}
         onHighlightsChanged={() => setHlVersion((n) => n + 1)}
         linksVersion={linkVersion}

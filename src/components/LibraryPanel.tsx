@@ -9,10 +9,19 @@ import type { Source } from '../types';
 interface LibraryPanelProps {
   sources: Source[];
   onInstalled: () => Promise<void>;
+  // Bring an imported (freeform) source into a reading pane.
+  onOpenImported: (sourceId: number) => void;
+  // Delete an imported source (with its highlights/notes/links).
+  onDeleteImported: (sourceId: number) => void;
   onClose: () => void;
 }
 
-export default function LibraryPanel({ sources, onInstalled, onClose }: LibraryPanelProps) {
+export default function LibraryPanel({ sources, onInstalled, onOpenImported, onDeleteImported, onClose }: LibraryPanelProps) {
+  // Sources brought in via the Import wizard (EPUB, Markdown, plain text,
+  // ...) rather than downloaded from the manifest below — is_verse_keyed
+  // distinguishes them from the Bible translations this panel otherwise
+  // deals with.
+  const imported = sources.filter((s) => s.is_verse_keyed === 0);
   const [busyId, setBusyId] = useState<string | null>(null);
   const [progress, setProgress] = useState('');
   const [error, setError] = useState('');
@@ -57,6 +66,7 @@ export default function LibraryPanel({ sources, onInstalled, onClose }: LibraryP
           <button className="icon" onClick={onClose} disabled={!!busyId}>✕</button>
         </div>
         <div className="modal-body">
+          <div className="search-group-label">Bible translations</div>
           <p style={{ color: 'var(--text-dim)', fontSize: 13, marginTop: 0 }}>
             Downloads a translation directly into your library — no account, no server, just a
             one-time fetch of a text that has been individually checked for public-domain status.
@@ -119,6 +129,31 @@ export default function LibraryPanel({ sources, onInstalled, onClose }: LibraryP
               </div>
             );
           })}
+
+          <div className="search-group-label">Imported texts</div>
+          {imported.length === 0 && (
+            <p style={{ color: 'var(--text-dim)', fontSize: 13, marginTop: 0 }}>
+              Texts you bring in yourself via <strong>Import a text</strong> (EPUB, Markdown, plain
+              text, ...) that aren't Bible translations show up here, not in the download list above.
+            </p>
+          )}
+          {imported.map((s) => (
+            <div className="note-card" key={s.id}>
+              <div className="note-title">{s.title}</div>
+              <div className="note-anchor" style={{ color: 'var(--text-dim)' }}>
+                {[s.type, s.language].filter(Boolean).join(' · ')}
+              </div>
+              {s.license_note && (
+                <div className="note-content" style={{ fontSize: 12, color: 'var(--text-dim)' }}>
+                  {s.license_note}
+                </div>
+              )}
+              <div className="note-actions">
+                <button onClick={() => onOpenImported(s.id)}>Open in a pane</button>
+                <button className="icon danger" onClick={() => onDeleteImported(s.id)} title="Delete this source">🗑</button>
+              </div>
+            </div>
+          ))}
         </div>
         <div className="modal-footer">
           <button onClick={onClose} disabled={!!busyId}>Close</button>

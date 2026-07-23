@@ -3,17 +3,33 @@ import { deleteLink, listHighlighters, listLinks, setLinkHighlighter } from '../
 import { emitLinksChanged } from '../notesbus';
 import { highlightBackground } from './Pane';
 import NoteTargetMenu from './NoteTargetMenu';
-import { linkToMarkdown } from '../scripture';
-import type { Highlighter, LinkRow } from '../types';
+import { linkRowToMarkdown } from '../scripture';
+import type { Highlighter, LinkRow, SelectedEntry } from '../types';
 
 interface LinksTabProps {
   onNavigate: (book: string, chapter: number, verse: number) => void;
+  onNavigateEntry: (sourceId: number, entryId: number, entry?: SelectedEntry) => void;
   version: number;
   onChanged: () => void;
   onNoteAdded: () => void;
 }
 
-export default function LinksTab({ onNavigate, version, onChanged, onNoteAdded }: LinksTabProps) {
+// A link endpoint's display label and navigation target, dispatching on
+// whether it's a canonical verse or an imported entry.
+function endpointLabel(l: LinkRow, kind: 'a' | 'b'): string {
+  const entryId = kind === 'a' ? l.entry_id_a : l.entry_id_b;
+  if (entryId !== null) {
+    const positionRef = kind === 'a' ? l.position_ref_a : l.position_ref_b;
+    const sourceTitle = kind === 'a' ? l.source_title_a : l.source_title_b;
+    return positionRef ?? sourceTitle ?? '';
+  }
+  const book = kind === 'a' ? l.book_a : l.book_b;
+  const chapter = kind === 'a' ? l.chapter_a : l.chapter_b;
+  const verse = kind === 'a' ? l.verse_a : l.verse_b;
+  return `${book} ${chapter}:${verse}`;
+}
+
+export default function LinksTab({ onNavigate, onNavigateEntry, version, onChanged, onNoteAdded }: LinksTabProps) {
   const [links, setLinks] = useState<LinkRow[]>([]);
   const [highlighters, setHighlighters] = useState<Highlighter[]>([]);
 
@@ -43,28 +59,38 @@ export default function LinksTab({ onNavigate, version, onChanged, onNoteAdded }
     }
   };
 
-  const linkMarkdown = (l: LinkRow) =>
-    linkToMarkdown(
-      { book: l.book_a, chapter: l.chapter_a, verse: l.verse_a, text: l.text_a, sourceTitle: '' },
-      { book: l.book_b, chapter: l.chapter_b, verse: l.verse_b, text: l.text_b, sourceTitle: '' },
-    );
+  const navigateEndpoint = (l: LinkRow, kind: 'a' | 'b') => {
+    const entryId = kind === 'a' ? l.entry_id_a : l.entry_id_b;
+    if (entryId !== null) {
+      const sourceId = (kind === 'a' ? l.source_id_a : l.source_id_b) as number;
+      const text = kind === 'a' ? l.text_a : l.text_b;
+      const positionRef = kind === 'a' ? l.position_ref_a : l.position_ref_b;
+      const sourceTitle = kind === 'a' ? l.source_title_a : l.source_title_b;
+      onNavigateEntry(sourceId, entryId, { entryId, sourceId, sourceTitle: sourceTitle ?? '', positionRef, text });
+    } else {
+      const book = kind === 'a' ? l.book_a : l.book_b;
+      const chapter = kind === 'a' ? l.chapter_a : l.chapter_b;
+      const verse = kind === 'a' ? l.verse_a : l.verse_b;
+      onNavigate(book as string, chapter as number, verse as number);
+    }
+  };
 
   return (
     <div className="links-tab">
       {links.length === 0 && (
         <div className="pane-empty">
-          No links yet. Select a verse, click 🔗 Link in the action bar, then select another verse and Bind them.
+          No links yet. Select a verse or an imported section, click 🔗 Link in the action bar, then select another and Bind them.
         </div>
       )}
       {links.map((l) => (
         <div className="link-item" key={l.id} style={l.color ? { borderColor: l.color } : undefined}>
           <div className="link-endpoints">
-            <button className="link-ref" onClick={() => onNavigate(l.book_a, l.chapter_a, l.verse_a)} title={l.text_a}>
-              {l.book_a} {l.chapter_a}:{l.verse_a}
+            <button className="link-ref" onClick={() => navigateEndpoint(l, 'a')} title={l.text_a}>
+              {endpointLabel(l, 'a')}
             </button>
             <span className="link-arrow">🔗</span>
-            <button className="link-ref" onClick={() => onNavigate(l.book_b, l.chapter_b, l.verse_b)} title={l.text_b}>
-              {l.book_b} {l.chapter_b}:{l.verse_b}
+            <button className="link-ref" onClick={() => navigateEndpoint(l, 'b')} title={l.text_b}>
+              {endpointLabel(l, 'b')}
             </button>
           </div>
           {(l.text_a || l.text_b) && (
@@ -86,7 +112,7 @@ export default function LinksTab({ onNavigate, version, onChanged, onNoteAdded }
               ))}
             </span>
             <span className="spacer" />
-            <NoteTargetMenu buildMarkdown={() => linkMarkdown(l)} onAdded={onNoteAdded} />
+            <NoteTargetMenu buildMarkdown={() => linkRowToMarkdown(l)} onAdded={onNoteAdded} />
             <button className="danger" onClick={() => loose(l)} title="Remove this link">Loose</button>
           </div>
         </div>

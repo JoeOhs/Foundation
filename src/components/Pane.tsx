@@ -1,7 +1,13 @@
-import { useEffect, useMemo, useState } from 'react';
-import { getChapters, getEntries, getEntryNotesForEntries, getStrongsWordsForEntries, highlightsForChapter, linksForChapter, listBooks } from '../db';
+import { useEffect, useMemo, useRef, useState } from 'react';
+import {
+  entriesWithNotes, getChapters, getEntries, getEntryNotesForEntries, getStrongsWordsForEntries,
+  getTocEntries, highlightsForChapter, highlightsForEntries, linksForChapter, linksForEntries, listBooks,
+} from '../db';
 import StrongsVerseText from './StrongsWords';
-import type { Book, Entry, EntryNote, Reference, SelectedVerse, Source, StrongsWordRow, VerseSelection } from '../types';
+import type {
+  Book, Entry, EntryNote, LinkEndpoint, Reference, SelectedEntry, SelectedVerse, Source,
+  StrongsWordRow, TocEntryRow, VerseSelection,
+} from '../types';
 
 // translucent so verse text stays legible on any theme surface
 export function highlightBackground(color: string): string {
@@ -27,20 +33,24 @@ interface PaneProps {
   reference: Reference;
   // Pane 1's reference — note dots apply only when this pane is showing it
   noteAnchorRef: Reference;
-  // bump to force a re-query of persistent verse highlights
+  // bump to force a re-query of persistent verse/entry highlights
   highlightsVersion: number;
-  // bump to force a re-query of verse links (bound outlines)
+  // bump to force a re-query of verse/entry links (bound outlines)
   linksVersion: number;
-  // the in-progress link's first endpoint (dashed pending outline)
-  pendingLink: VerseSelection | null;
+  // the in-progress link's first endpoint (dashed pending outline) — a
+  // verse or an imported entry
+  pendingLink: LinkEndpoint | null;
   // keys "book|chapter|verse" of currently selected verses, for highlight
   selectedKeys: Set<string>;
   // anchor for shift+click range extension (null starts a fresh selection)
   selectionAnchor: VerseSelection | null;
   notedVerses: Set<number>;
+  // id of the currently selected imported-pane entry (single-select only)
+  selectedEntryId: number | null;
   highlightWord: HighlightWord | null;
   onNavigate?: (book: string, chapter: number) => void;
   onSelectVerses: (verses: SelectedVerse[], anchor: VerseSelection) => void;
+  onSelectEntry: (entry: SelectedEntry) => void;
   onChangeSource: (id: number) => void;
   // pane 1's translation is pinned (KJV) — its source selector is disabled
   sourceLocked?: boolean;
@@ -53,10 +63,15 @@ interface PaneProps {
 
 export default function Pane({
   sources, sourceId, mode, reference, noteAnchorRef, highlightsVersion, linksVersion, pendingLink,
-  selectedKeys, selectionAnchor, notedVerses, highlightWord,
-  onNavigate, onSelectVerses, onChangeSource, onClose, canClose, onWordClick, bodyRef, onScroll, sourceLocked,
+  selectedKeys, selectionAnchor, notedVerses, selectedEntryId, highlightWord,
+  onNavigate, onSelectVerses, onSelectEntry, onChangeSource, onClose, canClose, onWordClick, bodyRef, onScroll, sourceLocked,
 }: PaneProps) {
   const source = sources.find((s) => s.id === sourceId);
+  // Imported texts (EPUB and other freeform library imports) always get
+  // their own dedicated pane: a static title + TOC dropdown instead of the
+  // translation-swap/book/chapter selectors, and never join a sync group.
+  const isImported = source ? source.type !== 'bible' : false;
+  const bibleSources = useMemo(() => sources.filter((s) => s.type === 'bible'), [sources]);
   const [books, setBooks] = useState<Book[]>([]);
   const [localBook, setLocalBook] = useState<string | null>(null);
   const [localChapter, setLocalChapter] = useState<number>(1);
@@ -68,6 +83,10 @@ export default function Pane({
   const [notesByEntry, setNotesByEntry] = useState<Map<number, EntryNote[]>>(new Map());
   const [highlightsByVerse, setHighlightsByVerse] = useState<Map<number, { color: string; highlighterId: number }>>(new Map());
   const [linksByVerse, setLinksByVerse] = useState<Map<number, { color: string | null }>>(new Map());
+  const [highlightsByEntry, setHighlightsByEntry] = useState<Map<number, { color: string; highlighterId: number }>>(new Map());
+  const [linksByEntry, setLinksByEntry] = useState<Map<number, { color: string | null }>>(new Map());
+  const [toc, setToc] = useState<TocEntryRow[]>([]);
+  const bodyElRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     let live = true;
@@ -78,6 +97,21 @@ export default function Pane({
     });
     return () => { live = false; };
   }, [sourceId]);
+
+  useEffect(() => {
+    if (!isImported) { setToc([]); return; }
+    let live = true;
+    getTocEntries(sourceId).then((rows) => { if (live) setToc(rows); });
+    return () => { live = false; };
+  }, [sourceId, isImported]);
+
+  // All of a freeform book's entries load in one shot (its single
+  // "chapter"), so jumping to a TOC target is a same-page scroll, not a
+  // re-fetch.
+  const jumpToToc = (entryId: number) => {
+    const el = bodyElRef.current?.querySelector(`[data-entry-id="${entryId}"]`);
+    el?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
 
   // Grouped panes follow the group reference when their source has that
   // book; sources without it (freeform texts) always navigate locally.
@@ -177,8 +211,39 @@ export default function Pane({
     return () => { live = false; };
   }, [effectiveBook, activeChapter, linksVersion]);
 
+  const [notedEntrySet, setNotedEntrySet] = useState<Set<number>>(new Set());
+
+  // Entry-anchored highlights/links/notes for a freeform pane's currently
+  // loaded entries (the whole book loads at once, so this doesn't need to
+  // re-run per "chapter" the way the verse-based effects above do).
+  useEffect(() => {
+    if (!isImported || entries.length === 0) {
+      setHighlightsByEntry(new Map());
+      setLinksByEntry(new Map());
+      setNotedEntrySet(new Set());
+      return;
+    }
+    let live = true;
+    const ids = entries.map((e) => e.id);
+    highlightsForEntries(ids).then((m) => { if (live) setHighlightsByEntry(m); });
+    linksForEntries(ids).then((m) => { if (live) setLinksByEntry(m); });
+    entriesWithNotes(ids).then((s) => { if (live) setNotedEntrySet(s); });
+    return () => { live = false; };
+  }, [isImported, entries, highlightsVersion, linksVersion]);
+
   const showNav = mode === 'controller' || mode === 'solo';
   const verseKeyed = entries.some((e) => e.verse !== null);
+
+  const clickEntry = (e: Entry) => {
+    if (!source) return;
+    onSelectEntry({
+      entryId: e.id,
+      sourceId: source.id,
+      sourceTitle: source.title,
+      positionRef: e.position_ref,
+      text: e.text,
+    });
+  };
 
   // Verse click: plain click starts a one-verse selection; shift+click
   // extends a contiguous range from the anchor (when it's in this same
@@ -209,55 +274,82 @@ export default function Pane({
   return (
     <div className="pane">
       <div className="pane-header">
-        <select
-          value={sourceId}
-          disabled={sourceLocked}
-          onChange={(e) => onChangeSource(Number(e.target.value))}
-          title={sourceLocked ? 'Pane 1 is locked to the King James Version' : 'Translation / source'}
-        >
-          {sources.map((s) => (
-            <option key={s.id} value={s.id}>{s.title}</option>
-          ))}
-        </select>
-        {showNav && books.length > 0 && (
-          <select
-            value={effectiveBook ?? ''}
-            onChange={(e) => go(e.target.value, 1)}
-            title="Book"
-          >
-            {books.map((b) => (
-              <option key={b.id} value={b.name}>{b.name}</option>
-            ))}
-          </select>
-        )}
-        {showNav && hasChapters && chapters.length > 0 && (
-          <select
-            className="pane-chapter-select"
-            value={activeChapter ?? chapters[0]}
-            onChange={(e) => effectiveBook && go(effectiveBook, Number(e.target.value))}
-            title="Chapter"
-          >
-            {chapters.map((c) => (
-              <option key={c} value={c}>{c}</option>
-            ))}
-          </select>
-        )}
-        {showNav && hasChapters && (
+        {isImported ? (
           <>
-            <button className="icon" onClick={() => stepChapter(-1)} title="Previous chapter">◀</button>
-            <button className="icon" onClick={() => stepChapter(1)} title="Next chapter">▶</button>
+            <span className="pane-title" title={source?.title}>{source?.title ?? 'Untitled'}</span>
+            {toc.length > 0 && (
+              <select
+                className="pane-toc-select"
+                value=""
+                onChange={(e) => { const id = Number(e.target.value); if (id) jumpToToc(id); e.target.value = ''; }}
+                title="Table of contents"
+              >
+                <option value="" disabled>Table of contents…</option>
+                {toc.map((t) => (
+                  <option key={t.id} value={t.entry_id ?? ''} disabled={t.entry_id === null}>
+                    {'—'.repeat(t.level)} {t.title}
+                  </option>
+                ))}
+              </select>
+            )}
           </>
-        )}
-        {mode === 'follower' && (
-          <span className="pane-loc-label" title="Following the group leader's navigation">
-            {effectiveBook ?? '—'}{hasChapters && activeChapter ? ` ${activeChapter}` : ''}
-          </span>
+        ) : (
+          <>
+            <select
+              value={sourceId}
+              disabled={sourceLocked}
+              onChange={(e) => onChangeSource(Number(e.target.value))}
+              title={sourceLocked ? 'Pane 1 is locked to the King James Version' : 'Translation / source'}
+            >
+              {bibleSources.map((s) => (
+                <option key={s.id} value={s.id}>{s.title}</option>
+              ))}
+            </select>
+            {showNav && books.length > 0 && (
+              <select
+                value={effectiveBook ?? ''}
+                onChange={(e) => go(e.target.value, 1)}
+                title="Book"
+              >
+                {books.map((b) => (
+                  <option key={b.id} value={b.name}>{b.name}</option>
+                ))}
+              </select>
+            )}
+            {showNav && hasChapters && chapters.length > 0 && (
+              <select
+                className="pane-chapter-select"
+                value={activeChapter ?? chapters[0]}
+                onChange={(e) => effectiveBook && go(effectiveBook, Number(e.target.value))}
+                title="Chapter"
+              >
+                {chapters.map((c) => (
+                  <option key={c} value={c}>{c}</option>
+                ))}
+              </select>
+            )}
+            {showNav && hasChapters && (
+              <>
+                <button className="icon" onClick={() => stepChapter(-1)} title="Previous chapter">◀</button>
+                <button className="icon" onClick={() => stepChapter(1)} title="Next chapter">▶</button>
+              </>
+            )}
+            {mode === 'follower' && (
+              <span className="pane-loc-label" title="Following the group leader's navigation">
+                {effectiveBook ?? '—'}{hasChapters && activeChapter ? ` ${activeChapter}` : ''}
+              </span>
+            )}
+          </>
         )}
         {canClose && (
           <button className="icon" onClick={onClose} title="Close pane">✕</button>
         )}
       </div>
-      <div className="pane-body" ref={bodyRef} onScroll={onScroll}>
+      <div
+        className="pane-body"
+        ref={(el) => { bodyElRef.current = el; bodyRef(el); }}
+        onScroll={onScroll}
+      >
         {entries.length === 0 && (
           <div className="pane-empty">
             {source ? `${source.title} has no content for ${effectiveBook ?? 'this book'} ${hasChapters && activeChapter ? activeChapter : ''}`.trim() : 'No source selected'}
@@ -294,6 +386,7 @@ export default function Pane({
               const link = e.verse !== null ? linksByVerse.get(e.verse) : undefined;
               const isPending =
                 pendingLink !== null &&
+                pendingLink.kind === 'verse' &&
                 effectiveBook !== null &&
                 pendingLink.book === effectiveBook &&
                 pendingLink.chapter === verseChapter &&
@@ -321,12 +414,29 @@ export default function Pane({
                 </div>
               );
             })
-          : entries.map((e) => (
-              <div key={e.id} className="section-entry" data-verse={e.sort_order + 1}>
-                {e.position_ref && <div className="section-ref">{e.position_ref}</div>}
-                <div className="section-text">{e.text}</div>
-              </div>
-            ))}
+          : entries.map((e) => {
+              const hl = highlightsByEntry.get(e.id);
+              const link = linksByEntry.get(e.id);
+              const isSel = selectedEntryId === e.id;
+              const isPending = pendingLink !== null && pendingLink.kind === 'entry' && pendingLink.entryId === e.id;
+              const style: React.CSSProperties = {};
+              if (hl) style.background = highlightBackground(hl.color);
+              if (link?.color) style.outlineColor = link.color;
+              return (
+                <div
+                  key={e.id}
+                  data-verse={e.sort_order + 1}
+                  data-entry-id={e.id}
+                  className={`section-entry${isSel ? ' selected' : ''}${hl ? ' highlighted' : ''}${link ? ' bound' : ''}${isPending ? ' link-pending' : ''}`}
+                  style={style}
+                  onClick={() => clickEntry(e)}
+                >
+                  {e.position_ref && <div className="section-ref">{e.position_ref}</div>}
+                  <div className="section-text">{e.text}</div>
+                  {notedEntrySet.has(e.id) && <span className="note-dot" title="Has notes" />}
+                </div>
+              );
+            })}
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
-  createLink, initDb, listBooks, listHighlighters, listSources, notesForChapter,
-  removeHighlight, seedHighlightersIfEmpty, setHighlight,
+  createLink, deleteSource, initDb, listBooks, listHighlighters, listSources, notesForChapter,
+  removeHighlight, removeHighlightEntry, seedHighlightersIfEmpty, setHighlight, setHighlightEntry,
 } from './db';
 import { repairSeededTextsIfNeeded, seedIfEmpty } from './seed';
 import { seedTutorialNoteIfNeeded } from './tutorialNote';
@@ -13,16 +13,21 @@ import ImportWizard from './components/ImportWizard';
 import LibraryPanel from './components/LibraryPanel';
 import ConcordancePanel from './components/ConcordancePanel';
 import ThemePicker from './components/ThemePicker';
+import ConfirmDialog from './components/ConfirmDialog';
+import { requestConfirm } from './confirmBus';
 import { applyTheme, normalizeStoredTheme, systemDefaultTheme, type ThemeId } from './themes';
 import { applyReaderFont, normalizeStoredFont, type FontId } from './fonts';
-import { versesToMarkdown } from './scripture';
+import { entryToMarkdown, versesToMarkdown } from './scripture';
 import {
-  emitHighlightsChanged, emitInsertMarkdown, emitLinksChanged, emitNotesContext, focusNotesWindow,
-  onHighlightsChanged, onLinksChanged, onNotesChanged, onNotesNavigate, openNotesWindow,
-  queueInsertMarkdown,
+  emitHighlightsChanged, emitInsertMarkdown, emitLinksChanged, emitNotesChanged, emitNotesContext,
+  focusNotesWindow, onHighlightsChanged, onLinksChanged, onNotesChanged, onNotesNavigate,
+  onNotesNavigateEntry, openNotesWindow, queueInsertMarkdown,
 } from './notesbus';
 import { highlightBackground } from './components/Pane';
-import type { Book, Highlighter, Reference, SearchHit, SelectedVerse, Source, StrongsSearchHit, VerseSelection } from './types';
+import type {
+  Book, Highlighter, LinkEndpoint, Reference, SearchHit, SelectedEntry, SelectedVerse, Source,
+  StrongsSearchHit, VerseSelection,
+} from './types';
 
 function loadPref<T>(key: string, fallback: T): T {
   try {
@@ -63,14 +68,20 @@ export default function App() {
   const [groupBRef, setGroupBRef] = useState<Reference>(() => loadPref('groupBRef', { book: 'Genesis', chapter: 1 }));
   const [selectedVerses, setSelectedVerses] = useState<SelectedVerse[]>([]);
   const [selectionAnchor, setSelectionAnchor] = useState<VerseSelection | null>(null);
+  // the currently selected paragraph/section in an imported pane — mutually
+  // exclusive with selectedVerses (selecting one clears the other)
+  const [selectedEntry, setSelectedEntry] = useState<SelectedEntry | null>(null);
   const [notedVerses, setNotedVerses] = useState<Set<number>>(new Set());
   const [highlightWord, setHighlightWord] = useState<HighlightWord | null>(null);
   const [highlighters, setHighlighters] = useState<Highlighter[]>([]);
   // bump to force panes to re-query persistent highlights
   const [highlightsVersion, setHighlightsVersion] = useState(0);
   const [linksVersion, setLinksVersion] = useState(0);
-  // first endpoint of an in-progress link (null when not binding)
-  const [pendingLink, setPendingLink] = useState<VerseSelection | null>(null);
+  // first endpoint of an in-progress link (null when not binding), plus a
+  // display label for the "Linking X ↔" banner (an entry endpoint carries
+  // no book/chapter/verse to format on the fly)
+  const [pendingLink, setPendingLink] = useState<LinkEndpoint | null>(null);
+  const [pendingLinkLabel, setPendingLinkLabel] = useState('');
 
   // note-anchor default = first selected verse; keys drive pane highlight
   const selection: VerseSelection | null = selectedVerses[0]
@@ -82,8 +93,15 @@ export default function App() {
   );
 
   const selectVerses = (verses: SelectedVerse[], anchor: VerseSelection) => {
+    setSelectedEntry(null);
     setSelectedVerses(verses);
     setSelectionAnchor(anchor);
+  };
+
+  const selectEntry = (entry: SelectedEntry) => {
+    setSelectedVerses([]);
+    setSelectionAnchor(null);
+    setSelectedEntry(entry);
   };
 
   // Single-verse select used by search/concordance navigation (text filled
@@ -91,19 +109,22 @@ export default function App() {
   // highlight + note anchor).
   const selectSingle = (book: string, chapter: number, verse: number) => {
     const v: SelectedVerse = { book, chapter, verse, text: '', sourceTitle: '' };
+    setSelectedEntry(null);
     setSelectedVerses([v]);
     setSelectionAnchor(v);
   };
 
-  const clearSelection = () => setSelectedVerses([]);
+  const clearSelection = () => { setSelectedVerses([]); setSelectedEntry(null); };
 
   const reloadHighlighters = useCallback(async () => setHighlighters(await listHighlighters()), []);
 
-  // Apply / erase a highlighter across the selected verses, then refresh the
-  // reader (version bump) and any other window (event).
+  // Apply / erase a highlighter across the selected verses (or the selected
+  // imported entry), then refresh the reader (version bump) and any other
+  // window (event).
   const applyHighlight = async (highlighterId: number) => {
     try {
-      for (const v of selectedVerses) await setHighlight(highlighterId, v.book, v.chapter, v.verse);
+      if (selectedEntry) await setHighlightEntry(highlighterId, selectedEntry.entryId);
+      else for (const v of selectedVerses) await setHighlight(highlighterId, v.book, v.chapter, v.verse);
       setHighlightsVersion((n) => n + 1);
       emitHighlightsChanged();
     } catch (e) {
@@ -112,7 +133,8 @@ export default function App() {
   };
   const eraseHighlight = async () => {
     try {
-      for (const v of selectedVerses) await removeHighlight(v.book, v.chapter, v.verse);
+      if (selectedEntry) await removeHighlightEntry(selectedEntry.entryId);
+      else for (const v of selectedVerses) await removeHighlight(v.book, v.chapter, v.verse);
       setHighlightsVersion((n) => n + 1);
       emitHighlightsChanged();
     } catch (e) {
@@ -125,25 +147,47 @@ export default function App() {
     void reloadHighlighters();
   };
 
-  // ---------- verse linking (bind / loose) ----------
+  // ---------- verse/entry linking (bind / loose) ----------
   const firstSelected: VerseSelection | null = selectedVerses[0]
     ? { book: selectedVerses[0].book, chapter: selectedVerses[0].chapter, verse: selectedVerses[0].verse }
     : null;
-  const sameRef = (a: VerseSelection | null, b: VerseSelection | null) =>
-    !!a && !!b && a.book === b.book && a.chapter === b.chapter && a.verse === b.verse;
+  // The link endpoint the current selection would bind — a verse or an
+  // imported entry — plus a human label for it.
+  const currentEndpoint: LinkEndpoint | null = selectedEntry
+    ? { kind: 'entry', entryId: selectedEntry.entryId }
+    : firstSelected
+      ? { kind: 'verse', ...firstSelected }
+      : null;
+  const currentLabel = selectedEntry
+    ? selectedEntry.positionRef ?? selectedEntry.sourceTitle
+    : firstSelected
+      ? `${firstSelected.book} ${firstSelected.chapter}:${firstSelected.verse}`
+      : '';
+  const sameEndpoint = (a: LinkEndpoint | null, b: LinkEndpoint | null): boolean => {
+    if (!a || !b) return false;
+    if (a.kind === 'verse' && b.kind === 'verse') return a.book === b.book && a.chapter === b.chapter && a.verse === b.verse;
+    if (a.kind === 'entry' && b.kind === 'entry') return a.entryId === b.entryId;
+    return false;
+  };
 
-  const startLink = () => { if (firstSelected) setPendingLink(firstSelected); };
-  const cancelLink = () => setPendingLink(null);
+  const startLink = () => {
+    if (!currentEndpoint) return;
+    setPendingLink(currentEndpoint);
+    setPendingLinkLabel(currentLabel);
+  };
+  const cancelLink = () => { setPendingLink(null); setPendingLinkLabel(''); };
   const completeBind = async () => {
-    if (!pendingLink || !firstSelected || sameRef(pendingLink, firstSelected)) return;
+    if (!pendingLink || !currentEndpoint || sameEndpoint(pendingLink, currentEndpoint)) return;
     try {
-      await createLink(pendingLink, firstSelected);
+      await createLink(pendingLink, currentEndpoint);
       setPendingLink(null);
+      setPendingLinkLabel('');
       setSelectedVerses([]);
+      setSelectedEntry(null);
       setLinksVersion((n) => n + 1);
       emitLinksChanged();
     } catch (e) {
-      window.alert(`Couldn't bind these verses: ${String(e)}`);
+      window.alert(`Couldn't bind these: ${String(e)}`);
     }
   };
 
@@ -179,12 +223,13 @@ export default function App() {
     else openSearch(surfaceText);
   };
 
-  // Insert the currently selected verses into the open note editor as a
-  // markdown blockquote. The editor (docked here, or the popped-out window
-  // in Phase D) listens for this window event and inserts at the cursor.
+  // Insert the currently selected verses (or the selected imported entry)
+  // into the open note editor as a markdown blockquote. The editor (docked
+  // here, or the popped-out window in Phase D) listens for this window
+  // event and inserts at the cursor.
   const addSelectionToNote = async () => {
-    if (selectedVerses.length === 0) return;
-    const md = versesToMarkdown(selectedVerses);
+    if (selectedVerses.length === 0 && !selectedEntry) return;
+    const md = selectedEntry ? entryToMarkdown(selectedEntry) : versesToMarkdown(selectedVerses);
     if (notesPopped) {
       // route to the popout only if it's really still open; otherwise fall
       // through to the docked editor (self-heals a missed close signal)
@@ -326,8 +371,8 @@ export default function App() {
   // Keep the popout fed with the current reference + selection so its
   // anchor picker matches the main window.
   useEffect(() => {
-    if (notesPopped) emitNotesContext({ ref: refState, selection });
-  }, [notesPopped, refState, selection]);
+    if (notesPopped) emitNotesContext({ ref: refState, selection, entrySelection: selectedEntry });
+  }, [notesPopped, refState, selection, selectedEntry]);
 
   // ---------- navigation data ----------
   const primaryBible = useMemo(() => {
@@ -386,6 +431,14 @@ export default function App() {
   }, [books]);
 
   useEffect(() => {
+    // popout Highlights/Links list asked to jump to an imported entry
+    let un: (() => void) | undefined;
+    onNotesNavigateEntry((entry) => navigateToEntry(entry.sourceId, entry.entryId, entry)).then((u) => { un = u; });
+    return () => un?.();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  useEffect(() => {
     // links changed (possibly in the popout) → refresh bound outlines
     let un: (() => void) | undefined;
     onLinksChanged(() => setLinksVersion((n) => n + 1)).then((u) => { un = u; });
@@ -431,6 +484,11 @@ export default function App() {
   };
 
   const assignPaneGroup = (i: number, g: PaneGroup) => {
+    // Imported (freeform) panes always navigate independently — never
+    // let them join a Bible sync group (the SyncMenu already disables
+    // this; guarded again here in case that's ever bypassed).
+    const isImportedPane = sources.find((s) => s.id === paneSourceIds[i])?.type !== 'bible';
+    if (isImportedPane && g !== 'solo') return;
     // First pane to join B aligns B's reference to where Pane 1 is, so the
     // new group starts from a sensible place instead of a stale one.
     if (g === 'B' && !paneSourceIds.some((_, j) => j !== i && groupOf(j) === 'B')) {
@@ -507,13 +565,74 @@ export default function App() {
     if (paneSourceIds.length > 1) setPaneSource(1, sourceId);
   };
 
+  // "+ Pane" always adds another Bible pane — imported texts get their own
+  // dedicated pane via "Open in a pane" in the Library instead. Inserted
+  // just before any trailing imported panes, not appended after them, so
+  // imported panes stay pinned rightmost instead of getting bumped inward.
   const addPane = () => {
     if (paneSourceIds.length >= 4 || sources.length === 0) return;
-    const unused = sources.find((s) => !paneSourceIds.includes(s.id)) ?? sources[0];
-    setPaneSourceIds((prev) => [...prev, unused.id]);
-    setPaneFlex((prev) => [...prev, 1]);
-    setPaneGroups((prev) => [...prev, 'A']);
+    const bibles = sources.filter((s) => s.type === 'bible');
+    const unused = bibles.find((s) => !paneSourceIds.includes(s.id)) ?? bibles[0] ?? sources[0];
+    const isImportedId = (id: number) => sources.find((s) => s.id === id)?.type !== 'bible';
+    let insertAt = paneSourceIds.length;
+    while (insertAt > 0 && isImportedId(paneSourceIds[insertAt - 1])) insertAt--;
+    setPaneSourceIds((prev) => [...prev.slice(0, insertAt), unused.id, ...prev.slice(insertAt)]);
+    setPaneFlex((prev) => [...prev.slice(0, insertAt), 1, ...prev.slice(insertAt)]);
+    setPaneGroups((prev) => [...prev.slice(0, insertAt), 'A', ...prev.slice(insertAt)]);
   };
+
+  // Bring an imported (freeform) source into its own dedicated pane from
+  // the Library's "Imported texts" section. Imported panes always sit
+  // rightmost — appended after every existing pane — so they never
+  // displace or get sandwiched between Bible panes. Always group 'solo':
+  // they never join a sync group (see assignPaneGroup/SyncMenu), which
+  // also keeps them out of the group-A scroll-reset/sync effects below.
+  const openImportedSource = (sourceId: number) => {
+    if (!paneSourceIds.includes(sourceId)) {
+      if (paneSourceIds.length < 4) {
+        setPaneSourceIds((prev) => [...prev, sourceId]);
+        setPaneFlex((prev) => [...prev, 1]);
+        setPaneGroups((prev) => [...prev, 'solo']);
+      } else {
+        const last = paneSourceIds.length - 1;
+        setPaneSource(last, sourceId);
+        setPaneGroups((prev) => prev.map((g, j) => (j === last ? 'solo' : g)));
+      }
+    }
+    setLibraryOpen(false);
+  };
+
+  // Jump to a specific imported entry (from the Highlights/Links list, or
+  // the popout) — opens/reuses that source's dedicated pane and scrolls to
+  // the entry, selecting it so the action bar comes up immediately.
+  const [pendingScrollEntry, setPendingScrollEntry] = useState<{ sourceId: number; entryId: number } | null>(null);
+  const scrollToEntry = (sourceId: number, entryId: number) => {
+    const i = paneSourceIds.indexOf(sourceId);
+    if (i === -1) return;
+    const el = bodies.current[i]?.querySelector<HTMLElement>(`[data-entry-id="${entryId}"]`);
+    el?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+  const navigateToEntry = (sourceId: number, entryId: number, entry?: SelectedEntry) => {
+    if (entry) selectEntry(entry);
+    if (!paneSourceIds.includes(sourceId)) {
+      openImportedSource(sourceId);
+      setPendingScrollEntry({ sourceId, entryId });
+    } else {
+      scrollToEntry(sourceId, entryId);
+    }
+  };
+  // Waits for the pane to actually mount + load its entries before
+  // scrolling — mirrors scrollToVerse's own fixed-delay heuristic above.
+  useEffect(() => {
+    if (!pendingScrollEntry) return;
+    if (!paneSourceIds.includes(pendingScrollEntry.sourceId)) return;
+    const t = setTimeout(() => {
+      scrollToEntry(pendingScrollEntry.sourceId, pendingScrollEntry.entryId);
+      setPendingScrollEntry(null);
+    }, 250);
+    return () => clearTimeout(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pendingScrollEntry, paneSourceIds]);
 
   const closePane = (i: number) => {
     setPaneSourceIds((prev) => prev.filter((_, j) => j !== i));
@@ -589,6 +708,32 @@ export default function App() {
 
   const refreshSources = async () => {
     setSources(await listSources());
+  };
+
+  // Delete an imported (freeform) source from the Library's "Imported
+  // texts" section — cascades to its highlights/notes/links (deleteSource
+  // handles that at the DB layer). Closes its pane if it's open, and
+  // refreshes every piece of state that could be showing its data.
+  const deleteImportedSourceHandler = async (sourceId: number) => {
+    const src = sources.find((s) => s.id === sourceId);
+    if (!src) return;
+    if (!await requestConfirm(
+      `Delete "${src.title}"? This also removes any highlights, notes, and links anchored to it. This can't be undone.`,
+    )) return;
+    try {
+      await deleteSource(sourceId);
+      const i = paneSourceIds.indexOf(sourceId);
+      if (i !== -1) closePane(i);
+      await refreshSources();
+      setHighlightsVersion((n) => n + 1);
+      setLinksVersion((n) => n + 1);
+      emitHighlightsChanged();
+      emitLinksChanged();
+      await reloadNoteDots();
+      emitNotesChanged();
+    } catch (e) {
+      window.alert(`Couldn't delete this source: ${String(e)}`);
+    }
   };
 
   // ---------- keyboard shortcuts ----------
@@ -672,9 +817,11 @@ export default function App() {
                   selectedKeys={selectedKeys}
                   selectionAnchor={selectionAnchor}
                   notedVerses={notedVerses}
+                  selectedEntryId={selectedEntry?.entryId ?? null}
                   highlightWord={highlightWord}
                   onNavigate={(book, chapter) => handlePaneNavigate(i, book, chapter)}
                   onSelectVerses={selectVerses}
+                  onSelectEntry={selectEntry}
                   onChangeSource={(id) => setPaneSource(i, id)}
                   sourceLocked={i === 0}
                   onClose={() => closePane(i)}
@@ -708,36 +855,40 @@ export default function App() {
           <NotesPanel
             refState={refState}
             selection={selection}
+            entrySelection={selectedEntry}
             onNotesChanged={reloadNoteDots}
             onClose={() => setNotesOpen(false)}
             onPopOut={popOutNotes}
             onNavigateVerse={navigateToVerse}
+            onNavigateEntry={navigateToEntry}
             highlightsVersion={highlightsVersion}
             onHighlightsChanged={handleHighlightsChanged}
             linksVersion={linksVersion}
             onLinksChanged={() => setLinksVersion((n) => n + 1)}
           />
         )}
-        {(pendingLink || (selectedVerses.length > 0 && selectedVerses.some((v) => v.text))) && (
+        {(pendingLink || selectedEntry || (selectedVerses.length > 0 && selectedVerses.some((v) => v.text))) && (
           <div className="verse-action-bar">
             {pendingLink ? (
               <>
                 <span className="verse-action-count">
-                  🔗 Linking {pendingLink.book} {pendingLink.chapter}:{pendingLink.verse} ↔
+                  🔗 Linking {pendingLinkLabel} ↔
                 </span>
-                {firstSelected && !sameRef(firstSelected, pendingLink) ? (
+                {currentEndpoint && !sameEndpoint(currentEndpoint, pendingLink) ? (
                   <button className="primary" onClick={completeBind}>
-                    Bind {firstSelected.book} {firstSelected.chapter}:{firstSelected.verse}
+                    Bind {currentLabel}
                   </button>
                 ) : (
-                  <span className="verse-action-hint">select the verse to bind…</span>
+                  <span className="verse-action-hint">select a verse or section to bind…</span>
                 )}
                 <button className="icon" onClick={cancelLink} title="Cancel link">✕</button>
               </>
             ) : (
               <>
                 <span className="verse-action-count">
-                  {selectedVerses.length} verse{selectedVerses.length > 1 ? 's' : ''}
+                  {selectedEntry
+                    ? (selectedEntry.positionRef ?? selectedEntry.sourceTitle)
+                    : `${selectedVerses.length} verse${selectedVerses.length > 1 ? 's' : ''}`}
                 </span>
                 <span className="verse-action-swatches">
                   {highlighters.map((h) => (
@@ -751,7 +902,7 @@ export default function App() {
                   ))}
                   <button className="hl-swatch hl-erase" title="Remove highlight" onClick={eraseHighlight}>⌫</button>
                 </span>
-                <button onClick={startLink} title="Bind this verse to another">🔗 Bind</button>
+                <button onClick={startLink} title="Bind this to another verse or section">🔗 Bind</button>
                 <button className="primary" onClick={addSelectionToNote}>✎ Add to note</button>
                 <button className="icon" onClick={clearSelection} title="Clear selection">✕</button>
               </>
@@ -772,7 +923,13 @@ export default function App() {
         />
       )}
       {libraryOpen && (
-        <LibraryPanel sources={sources} onInstalled={refreshSources} onClose={() => setLibraryOpen(false)} />
+        <LibraryPanel
+          sources={sources}
+          onInstalled={refreshSources}
+          onOpenImported={openImportedSource}
+          onDeleteImported={deleteImportedSourceHandler}
+          onClose={() => setLibraryOpen(false)}
+        />
       )}
       {importOpen && (
         <ImportWizard
@@ -782,6 +939,7 @@ export default function App() {
           }}
         />
       )}
+      <ConfirmDialog />
     </div>
   );
 }
