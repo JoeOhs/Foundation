@@ -140,7 +140,7 @@ export default function SearchPanel({ initialQuery, onNavigate, onNavigateStrong
           <input
             ref={inputRef}
             type="search"
-            placeholder="Search all sources and notes…"
+            placeholder="Search Bible text and notes…"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             onKeyDown={(e) => {
@@ -169,7 +169,7 @@ export default function SearchPanel({ initialQuery, onNavigate, onNavigateStrong
           </div>
         )}
         <div className="modal-body">
-          {!searched && <div className="pane-empty">Press <kbd>Enter</kbd> to search verse text, imported texts, and notes.</div>}
+          {!searched && <div className="pane-empty">Press <kbd>Enter</kbd> to search verse text and notes.</div>}
           {searched && hits.length === 0 && strongsGroups.length === 0 && (
             <div className="pane-empty">No results for “{query}”.</div>
           )}

@@ -509,7 +509,7 @@ export async function searchAll(q: string): Promise<SearchResults> {
            JOIN entries e ON e.id = entries_fts.rowid
            JOIN books b ON b.id = e.book_id
            JOIN sources s ON s.id = b.source_id
-           WHERE entries_fts MATCH ?
+           WHERE entries_fts MATCH ? AND s.type = 'bible'
          ) WHERE rn <= ${FTS_PER_SOURCE}
          ORDER BY source_id, rn`,
         [ftsQuery(query)],
@@ -523,7 +523,7 @@ export async function searchAll(q: string): Promise<SearchResults> {
            FROM entries e
            JOIN books b ON b.id = e.book_id
            JOIN sources s ON s.id = b.source_id
-           WHERE e.text LIKE ?
+           WHERE e.text LIKE ? AND s.type = 'bible'
          ) WHERE rn <= ${FTS_PER_SOURCE}
          ORDER BY source_id, rn`,
         [`%${query}%`],
@@ -536,7 +536,7 @@ export async function searchAll(q: string): Promise<SearchResults> {
          JOIN entries e ON e.id = entries_fts.rowid
          JOIN books b ON b.id = e.book_id
          JOIN sources s ON s.id = b.source_id
-         WHERE entries_fts MATCH ?
+         WHERE entries_fts MATCH ? AND s.type = 'bible'
          GROUP BY s.id`,
         [ftsQuery(query)],
       )
@@ -545,7 +545,7 @@ export async function searchAll(q: string): Promise<SearchResults> {
          FROM entries e
          JOIN books b ON b.id = e.book_id
          JOIN sources s ON s.id = b.source_id
-         WHERE e.text LIKE ?
+         WHERE e.text LIKE ? AND s.type = 'bible'
          GROUP BY s.id`,
         [`%${query}%`],
       );
