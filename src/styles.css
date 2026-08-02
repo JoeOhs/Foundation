@@ -632,6 +632,28 @@ select:focus, input:focus, button:focus-visible {
 }
 .search-history-clear { color: var(--text-dim); border-style: dashed; }
 
+.search-scope {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 0 16px 8px;
+}
+.search-scope-chip {
+  font-size: 11px;
+  padding: 3px 10px;
+  border-radius: 99px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+.search-scope-chip:hover { background: var(--bg-hover); }
+.search-scope-chip.active {
+  background: var(--accent-primary);
+  color: var(--bg-primary);
+  border-color: var(--accent-primary);
+}
+
 /* Translator's-note footnote markers + popover. The marker is persistent
    inline (no layout shift when the popover opens: the bubble is absolute). */
 .footnote-wrap { position: relative; }

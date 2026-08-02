@@ -2,21 +2,27 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { searchAll, strongsOccurrenceCount, strongsSmartSearch } from '../db';
 import { clearSearchHistory, loadSearchHistory, pushSearchHistory } from '../searchHistory';
 import SmartSearchGroups from './SmartSearchGroups';
-import type { SearchHit, StrongsSearchGroup, StrongsSearchHit } from '../types';
+import type { SearchHit, SourceCategory, StrongsSearchGroup, StrongsSearchHit } from '../types';
 
 interface SearchPanelProps {
   initialQuery?: string;
   onNavigate: (hit: SearchHit) => void;
   onNavigateStrongs: (hit: StrongsSearchHit) => void;
-  // Promote the current lookup to the docked concordance pane.
   onMoveToConcordance: (term: string) => void;
   onClose: () => void;
 }
 
-// The modal unmounts on close, so its last session lives here at module
-// scope — reopening restores the query and results instead of losing them
-// to an accidental Escape/overlay click. (Reset on full reload, which is
-// fine: the persistent, bounded history below covers re-running.)
+type SearchScope = SourceCategory | 'all';
+
+const SCOPE_OPTIONS: { id: SearchScope; label: string }[] = [
+  { id: 'bible', label: 'Bibles' },
+  { id: 'all', label: 'All sources' },
+  { id: 'commentary', label: 'Commentaries' },
+  { id: 'reference', label: 'Reference' },
+  { id: 'historical', label: 'Historical' },
+  { id: 'patristic', label: 'Church Fathers' },
+];
+
 interface SearchSession {
   query: string;
   hits: SearchHit[];
@@ -25,6 +31,7 @@ interface SearchSession {
   totalOccurrences: number;
   lastSearched: string;
   searched: boolean;
+  scope: SearchScope;
 }
 let cachedSession: SearchSession | null = null;
 
@@ -55,27 +62,29 @@ export default function SearchPanel({ initialQuery, onNavigate, onNavigateStrong
   const [entryTotals, setEntryTotals] = useState<{ source_title: string; total: number }[]>(restore?.entryTotals ?? []);
   const [strongsGroups, setStrongsGroups] = useState<StrongsSearchGroup[]>(restore?.strongsGroups ?? []);
   const [totalOccurrences, setTotalOccurrences] = useState(restore?.totalOccurrences ?? 0);
-  // What the shown results are actually for — the hand-off button sends
-  // this, not the input's current (possibly edited, un-searched) text.
   const [lastSearched, setLastSearched] = useState(restore?.lastSearched ?? '');
   const [searched, setSearched] = useState(restore?.searched ?? false);
+  const [scope, setScope] = useState<SearchScope>(restore?.scope ?? 'bible');
   const [busy, setBusy] = useState(false);
   const [history, setHistory] = useState<string[]>(loadSearchHistory);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  // Keep the module-scope cache current so closing the modal at any moment
-  // (Escape, overlay click, ✕) loses nothing.
   useEffect(() => {
-    cachedSession = { query, hits, entryTotals, strongsGroups, totalOccurrences, lastSearched, searched };
-  }, [query, hits, entryTotals, strongsGroups, totalOccurrences, lastSearched, searched]);
+    cachedSession = { query, hits, entryTotals, strongsGroups, totalOccurrences, lastSearched, searched, scope };
+  }, [query, hits, entryTotals, strongsGroups, totalOccurrences, lastSearched, searched, scope]);
 
-  const runQuery = async (term: string) => {
+  const runQuery = async (term: string, searchScope?: SearchScope) => {
     const q = term.trim();
     if (!q) return;
+    const activeScope = searchScope ?? scope;
+    const catFilter = activeScope === 'all' ? null : activeScope;
     setBusy(true);
     try {
+      const isBibleScope = activeScope === 'bible';
       const [plain, smart, total] = await Promise.all([
-        searchAll(q), strongsSmartSearch(q), strongsOccurrenceCount(q),
+        searchAll(q, catFilter),
+        isBibleScope ? strongsSmartSearch(q) : Promise.resolve([]),
+        isBibleScope ? strongsOccurrenceCount(q) : Promise.resolve(0),
       ]);
       setHits(plain.hits);
       setEntryTotals(plain.entryTotals);
@@ -102,6 +111,11 @@ export default function SearchPanel({ initialQuery, onNavigate, onNavigateStrong
   const runFromHistory = (term: string) => {
     setQuery(term);
     runQuery(term);
+  };
+
+  const changeScope = (newScope: SearchScope) => {
+    setScope(newScope);
+    if (lastSearched) runQuery(lastSearched, newScope);
   };
 
   const groups = useMemo(() => {
@@ -140,7 +154,7 @@ export default function SearchPanel({ initialQuery, onNavigate, onNavigateStrong
           <input
             ref={inputRef}
             type="search"
-            placeholder="Search Bible text and notes…"
+            placeholder={scope === 'bible' ? 'Search Bible text and notes…' : `Search ${SCOPE_OPTIONS.find((o) => o.id === scope)?.label ?? 'all sources'}…`}
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             onKeyDown={(e) => {
@@ -150,6 +164,18 @@ export default function SearchPanel({ initialQuery, onNavigate, onNavigateStrong
           />
           <button className="primary" onClick={run} disabled={busy}>Search</button>
           <button className="icon" onClick={onClose}>✕</button>
+        </div>
+        <div className="search-scope">
+          {SCOPE_OPTIONS.map((opt) => (
+            <button
+              key={opt.id}
+              className={`search-scope-chip${scope === opt.id ? ' active' : ''}`}
+              onClick={() => changeScope(opt.id)}
+              disabled={busy}
+            >
+              {opt.label}
+            </button>
+          ))}
         </div>
         {history.length > 0 && (
           <div className="search-history">
@@ -169,7 +195,7 @@ export default function SearchPanel({ initialQuery, onNavigate, onNavigateStrong
           </div>
         )}
         <div className="modal-body">
-          {!searched && <div className="pane-empty">Press <kbd>Enter</kbd> to search verse text and notes.</div>}
+          {!searched && <div className="pane-empty">Press <kbd>Enter</kbd> to search{scope === 'bible' ? ' Bible text and' : ''} notes.</div>}
           {searched && hits.length === 0 && strongsGroups.length === 0 && (
             <div className="pane-empty">No results for “{query}”.</div>
           )}
