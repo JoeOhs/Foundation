@@ -478,5 +478,5 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
 
 export const SERIES_NOTES: Record<string, string> = {
   'Ante-Nicene Fathers':
-    'Volume 10 (General Index) intentionally omitted — use Foundation\'s search to find content across all volumes instead.',
+    'Volume 10 (General Index) intentionally omitted — use Foundation\'s full-text search (scope: Church Fathers or All sources) to find content across all installed volumes.',
 };

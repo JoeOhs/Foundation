@@ -375,15 +375,16 @@ running list of what's done and what's next, not a commitment.
     draft the note column automatically; the notation and build script are
     ready for whatever produces the text, and the verification gates would
     still apply.
-  - Search deliberately still excludes this source: full-text search remains
-    scoped to `sources.type = 'bible'`, so neither the outline lines nor the
-    prose notes are searchable yet. Widening it is bundled with the
-    per-source search filter below.
   - Bullinger's roman/italic distinction between the two halves of a
     correspondence pair isn't captured in `structure_lines.label`; it stays
     visible only via the scanned page.
-- **Per-source search filter**, so search can be scoped to one imported work
-  (full-text search is currently Bible-only — see Done above).
+- **Per-source search filter — DONE.** Full-text search now covers all
+  installed sources (Bibles, commentaries, historical works, patristic
+  volumes). Scope chips in the search modal let the user filter by
+  category (Bibles, All sources, Commentaries, Reference, Historical,
+  Church Fathers). Defaults to Bibles to keep common-word results
+  manageable; "All sources" broadens to the full library. Strong's
+  concordance grouping only appears for Bible-scoped searches.
 - **Church Fathers — Ante-Nicene Fathers: COMPLETE (Vols. 1–9).**
   - Vol. 1 — Apostolic Fathers with Justin Martyr and Irenaeus (8 authors, 56 works, ~1,900 para)
   - Vol. 2 — Fathers of the Second Century: Hermas, Tatian, Athenagoras, Theophilus, Clement of Alexandria (5 authors, 18 works, ~2,980 para)
