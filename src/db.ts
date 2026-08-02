@@ -22,6 +22,19 @@ function ensureDb(): Promise<Database> {
 
 const ftsAvailable = () => g.__foundationFts ?? false;
 
+export async function backupDatabase(): Promise<string> {
+  const db = await ensureDb();
+  const rows = await db.select<Record<string, unknown>[]>(`PRAGMA database_list`);
+  const mainRow = rows.find((r) => r.name === 'main') ?? rows[0];
+  const mainFile = mainRow?.file as string | undefined;
+  if (!mainFile) throw new Error('Cannot determine database file path');
+  const dir = mainFile.replace(/[/\\][^/\\]+$/, '');
+  const ts = new Date().toISOString().replace(/[:.]/g, '-');
+  const backupPath = `${dir}/foundation-backup-${ts}.db`;
+  await db.execute(`VACUUM INTO ?`, [backupPath]);
+  return backupPath;
+}
+
 // One statement per array element — the SQL plugin prepares a single
 // statement per execute() call.
 const SCHEMA: string[] = [
@@ -827,15 +840,18 @@ function ftsQuery(q: string): string {
 // the whole budget and hide every later source entirely for common words.
 const FTS_PER_SOURCE = 200;
 
-export async function searchAll(q: string): Promise<SearchResults> {
+export async function searchAll(q: string, categoryFilter: SourceCategory | null = null): Promise<SearchResults> {
   const query = q.trim();
   if (!query) return { hits: [], entryTotals: [] };
   const db = await ensureDb();
+  const catClause = categoryFilter ? ` AND s.category = ?` : '';
+  const catParam = categoryFilter ? [categoryFilter] : [];
   const entryHits = ftsAvailable()
     ? await db.select<SearchHit[]>(
-        `SELECT kind, id, source_id, source_title, source_type, book, chapter, verse, position_ref, snippet FROM (
+        `SELECT kind, id, source_id, source_title, source_type, source_category, book, chapter, verse, position_ref, snippet FROM (
            SELECT 'entry' AS kind, e.id AS id, s.id AS source_id, s.title AS source_title,
-                  s.type AS source_type, b.name AS book, e.chapter AS chapter, e.verse AS verse,
+                  s.type AS source_type, s.category AS source_category,
+                  b.name AS book, e.chapter AS chapter, e.verse AS verse,
                   e.position_ref AS position_ref,
                   snippet(entries_fts, 0, '<mark>', '</mark>', '…', 16) AS snippet,
                   ROW_NUMBER() OVER (PARTITION BY s.id ORDER BY b.sort_order, e.sort_order) AS rn
@@ -843,26 +859,26 @@ export async function searchAll(q: string): Promise<SearchResults> {
            JOIN entries e ON e.id = entries_fts.rowid
            JOIN books b ON b.id = e.book_id
            JOIN sources s ON s.id = b.source_id
-           WHERE entries_fts MATCH ? AND s.type = 'bible'
+           WHERE entries_fts MATCH ?${catClause}
          ) WHERE rn <= ${FTS_PER_SOURCE}
          ORDER BY source_id, rn`,
-        [ftsQuery(query)],
+        [ftsQuery(query), ...catParam],
       )
     : await db.select<SearchHit[]>(
-        `SELECT kind, id, source_id, source_title, source_type, book, chapter, verse, position_ref, snippet FROM (
+        `SELECT kind, id, source_id, source_title, source_type, source_category, book, chapter, verse, position_ref, snippet FROM (
            SELECT 'entry' AS kind, e.id AS id, s.id AS source_id, s.title AS source_title,
-                  s.type AS source_type, b.name AS book, e.chapter AS chapter, e.verse AS verse,
+                  s.type AS source_type, s.category AS source_category,
+                  b.name AS book, e.chapter AS chapter, e.verse AS verse,
                   e.position_ref AS position_ref, e.text AS snippet,
                   ROW_NUMBER() OVER (PARTITION BY s.id ORDER BY b.sort_order, e.sort_order) AS rn
            FROM entries e
            JOIN books b ON b.id = e.book_id
            JOIN sources s ON s.id = b.source_id
-           WHERE e.text LIKE ? AND s.type = 'bible'
+           WHERE e.text LIKE ?${catClause}
          ) WHERE rn <= ${FTS_PER_SOURCE}
          ORDER BY source_id, rn`,
-        [`%${query}%`],
+        [`%${query}%`, ...catParam],
       );
-  // True per-source totals, independent of the display cap.
   const entryTotals = ftsAvailable()
     ? await db.select<{ source_title: string; total: number }[]>(
         `SELECT s.title AS source_title, COUNT(*) AS total
@@ -870,23 +886,24 @@ export async function searchAll(q: string): Promise<SearchResults> {
          JOIN entries e ON e.id = entries_fts.rowid
          JOIN books b ON b.id = e.book_id
          JOIN sources s ON s.id = b.source_id
-         WHERE entries_fts MATCH ? AND s.type = 'bible'
+         WHERE entries_fts MATCH ?${catClause}
          GROUP BY s.id`,
-        [ftsQuery(query)],
+        [ftsQuery(query), ...catParam],
       )
     : await db.select<{ source_title: string; total: number }[]>(
         `SELECT s.title AS source_title, COUNT(*) AS total
          FROM entries e
          JOIN books b ON b.id = e.book_id
          JOIN sources s ON s.id = b.source_id
-         WHERE e.text LIKE ? AND s.type = 'bible'
+         WHERE e.text LIKE ?${catClause}
          GROUP BY s.id`,
-        [`%${query}%`],
+        [`%${query}%`, ...catParam],
       );
   const noteHits = ftsAvailable()
     ? await db.select<SearchHit[]>(
         `SELECT 'note' AS kind, n.id AS id, NULL AS source_id, 'My Notes' AS source_title,
-                'notes' AS source_type, n.anchor_book AS book, n.anchor_chapter AS chapter,
+                'notes' AS source_type, NULL AS source_category,
+                n.anchor_book AS book, n.anchor_chapter AS chapter,
                 n.anchor_verse AS verse, NULL AS position_ref,
                 snippet(notes_fts, 1, '<mark>', '</mark>', '…', 16) AS snippet
          FROM notes_fts
@@ -897,7 +914,8 @@ export async function searchAll(q: string): Promise<SearchResults> {
       )
     : await db.select<SearchHit[]>(
         `SELECT 'note' AS kind, n.id AS id, NULL AS source_id, 'My Notes' AS source_title,
-                'notes' AS source_type, n.anchor_book AS book, n.anchor_chapter AS chapter,
+                'notes' AS source_type, NULL AS source_category,
+                n.anchor_book AS book, n.anchor_chapter AS chapter,
                 n.anchor_verse AS verse, NULL AS position_ref, n.content AS snippet
          FROM notes n
          WHERE n.content LIKE ? OR n.title LIKE ?

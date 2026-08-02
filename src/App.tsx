@@ -20,7 +20,7 @@ import { requestConfirm } from './confirmBus';
 import { BUNDLED_LIBRARY, type BundledLibraryEntry } from './library';
 import { COMPANION_APPENDIX_TITLE } from './companionAppendixImport';
 import { retireCompanionNotesTestSource } from './companionNotesImport';
-import { THEMES, applyTheme, normalizeStoredTheme, systemDefaultTheme, type ThemeId } from './themes';
+import { applyTheme, normalizeStoredTheme, systemDefaultTheme, type ThemeId } from './themes';
 import { applyReaderFont, normalizeStoredFont, type FontId } from './fonts';
 import { entryToMarkdown, versesToMarkdown } from './scripture';
 import {
@@ -377,7 +377,7 @@ export default function App() {
       : `0 2.4px ${(dropShadow * 0.5).toFixed(1)}px rgba(0,0,0,${(dropShadow * 0.10).toFixed(2)})`;
     document.documentElement.style.setProperty('--text-shadow', shadow);
     savePref('dropShadow', dropShadow);
-  }, [dropShadow, theme]);
+  }, [dropShadow]);
 
   useEffect(() => {
     applyReaderFont(readerFont);

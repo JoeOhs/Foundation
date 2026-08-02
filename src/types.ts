@@ -90,6 +90,7 @@ export interface SearchHit {
   source_id: number | null;
   source_title: string;
   source_type: string;
+  source_category: SourceCategory | null;
   book: string | null;
   chapter: number | null;
   verse: number | null;
