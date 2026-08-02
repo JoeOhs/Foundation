@@ -399,6 +399,18 @@ export async function initDb(): Promise<void> {
     console.warn('FTS5 unavailable, falling back to LIKE search', e);
     g.__foundationFts = false;
   }
+  // One-time backup before global search widening (query-only change,
+  // no schema migration, but the task requires a safety backup).
+  const BACKUP_KEY = 'foundation:global-search-backup';
+  if (!localStorage.getItem(BACKUP_KEY)) {
+    try {
+      const path = await backupDatabase();
+      localStorage.setItem(BACKUP_KEY, path);
+      console.log('[BACKUP] Pre-global-search backup created:', path);
+    } catch (e) {
+      console.warn('[BACKUP] Could not create pre-global-search backup:', e);
+    }
+  }
 }
 
 export async function listSources(): Promise<Source[]> {
