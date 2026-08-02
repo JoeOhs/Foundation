@@ -9,9 +9,11 @@ interface ThemePickerProps {
   currentTheme: ThemeId;
   currentFont: FontId;
   readerSize: number;
+  dropShadow: number;
   onSelectTheme: (id: ThemeId) => void;
   onSelectFont: (id: FontId) => void;
   onChangeSize: (px: number) => void;
+  onChangeShadow: (level: number) => void;
 }
 
 // The 🎨 appearance popover: six theme swatches plus the reader-font list.
@@ -19,7 +21,8 @@ interface ThemePickerProps {
 // instant, reversible); leaving the panel restores committed choices;
 // clicking commits.
 export default function ThemePicker({
-  currentTheme, currentFont, readerSize, onSelectTheme, onSelectFont, onChangeSize,
+  currentTheme, currentFont, readerSize, dropShadow,
+  onSelectTheme, onSelectFont, onChangeSize, onChangeShadow,
 }: ThemePickerProps) {
   const [open, setOpen] = useState(false);
   const rootRef = useRef<HTMLDivElement>(null);
@@ -90,6 +93,21 @@ export default function ThemePicker({
             />
             <span className="size-hint" style={{ fontSize: 17 }}>A</span>
             <span className="size-value">{readerSize}px</span>
+          </div>
+          <div className="theme-section-label">Drop shadow</div>
+          <div className="size-slider-row">
+            <span className="size-hint" style={{ fontSize: 11 }}>○</span>
+            <input
+              type="range"
+              min={0}
+              max={10}
+              step={1}
+              value={dropShadow}
+              onChange={(e) => onChangeShadow(Number(e.target.value))}
+              title={`Text drop shadow: ${dropShadow}`}
+            />
+            <span className="size-hint" style={{ fontSize: 14 }}>●</span>
+            <span className="size-value">{dropShadow === 0 ? 'Off' : dropShadow}</span>
           </div>
           <div className="theme-section-label">Reader font</div>
           <div className="theme-grid">

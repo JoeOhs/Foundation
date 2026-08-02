@@ -20,7 +20,7 @@ import { requestConfirm } from './confirmBus';
 import { BUNDLED_LIBRARY, type BundledLibraryEntry } from './library';
 import { COMPANION_APPENDIX_TITLE } from './companionAppendixImport';
 import { retireCompanionNotesTestSource } from './companionNotesImport';
-import { applyTheme, normalizeStoredTheme, systemDefaultTheme, type ThemeId } from './themes';
+import { THEMES, applyTheme, normalizeStoredTheme, systemDefaultTheme, type ThemeId } from './themes';
 import { applyReaderFont, normalizeStoredFont, type FontId } from './fonts';
 import { entryToMarkdown, versesToMarkdown } from './scripture';
 import {
@@ -289,6 +289,7 @@ export default function App() {
     normalizeStoredTheme(loadPref<unknown>('theme', null)),
   );
   const [readerSize, setReaderSize] = useState<number>(() => loadPref('readerSize', 17));
+  const [dropShadow, setDropShadow] = useState<number>(() => loadPref('dropShadow', 0));
   const [readerFont, setReaderFont] = useState<FontId>(
     () => normalizeStoredFont(loadPref<unknown>('readerFont', null)) ?? 'georgia',
   );
@@ -369,6 +370,14 @@ export default function App() {
     document.documentElement.style.setProperty('--reader-size', `${readerSize}px`);
     savePref('readerSize', readerSize);
   }, [readerSize]);
+
+  useEffect(() => {
+    const shadow = dropShadow === 0
+      ? 'none'
+      : `0 2.4px ${(dropShadow * 0.5).toFixed(1)}px rgba(0,0,0,${(dropShadow * 0.10).toFixed(2)})`;
+    document.documentElement.style.setProperty('--text-shadow', shadow);
+    savePref('dropShadow', dropShadow);
+  }, [dropShadow, theme]);
 
   useEffect(() => {
     applyReaderFont(readerFont);
@@ -939,9 +948,11 @@ export default function App() {
           currentTheme={theme}
           currentFont={readerFont}
           readerSize={readerSize}
+          dropShadow={dropShadow}
           onSelectTheme={setThemeOverride}
           onSelectFont={setReaderFont}
           onChangeSize={setReaderSize}
+          onChangeShadow={setDropShadow}
         />
       </div>
       <div className="main">
