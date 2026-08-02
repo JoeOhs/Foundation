@@ -1,12 +1,36 @@
 export type SourceType = 'bible' | 'commentary' | 'extra-biblical' | 'reference';
 
+// How a source is filed in the Library panel. Deliberately separate from
+// `type`, which is *behavioural* — `type === 'bible'` drives pane roles,
+// sync eligibility and search scoping (see sourceRoles.ts), and changing it
+// would move a source between panes. `category` is purely organisational,
+// and carries distinctions `type` cannot: Josephus ('historical') and an
+// EPUB ('imported') both have to be `type: 'extra-biblical'` to behave
+// correctly, yet belong in different Library sections.
+export type SourceCategory =
+  | 'bible'
+  | 'commentary'
+  | 'reference'
+  | 'historical'
+  // Dictionaries and devotionals live in the study footer (FooterPanel),
+  // not in a reading pane — the category is what routes them there.
+  | 'dictionary'
+  | 'devotional'
+  // Church Fathers collections (Ante-Nicene, Nicene and Post-Nicene).
+  | 'patristic'
+  | 'imported';
+
 export interface Source {
   id: number;
   title: string;
   type: SourceType;
+  // ISO 639-1 code ('en', 'ar', 'ru', 'zh') — never a display name. Required
+  // for a 'bible' category source, since the Library groups Bibles by
+  // language; optional elsewhere. Render via languageName() in language.ts.
   language: string | null;
   license_note: string | null;
   is_verse_keyed: number; // 0/1 — 0 for freeform library imports (e.g. EPUB)
+  category: SourceCategory;
 }
 
 export interface Book {
@@ -99,18 +123,29 @@ export interface ParsedSource {
   toc?: ParsedTocEntry[];
 }
 
-// One table-of-contents entry parsed from an EPUB's nav.xhtml/toc.ncx.
-// entryIndex indexes into the flattened, in-order list of entries across
-// all of ParsedSource.books[0].entries (EPUB imports produce a single
-// book) — resolved to a real entries.id at insert time. -1 if the TOC
-// pointed at a target no entry could be matched to.
+// One table-of-contents row, resolved to a real entries.id at insert time.
+//
+// `entryIndex` indexes into the entries of ParsedSource.books[bookIndex],
+// in their declared order. `bookIndex` defaults to 0, which is the whole
+// story for a single-book source like an EPUB; a compound work (Josephus:
+// one source, ~30 books) sets it per row so a TOC can span every book.
+// -1 as entryIndex means "no target" — a grouping heading (the "Work"
+// level of Work → Book → Chapter) that labels its children without being
+// jumpable itself.
+//
+// `level` is a 0-based nesting depth with no fixed ceiling: EPUB produces
+// 1-2 levels, a compound work produces 3.
 export interface ParsedTocEntry {
   title: string;
   level: number;
   entryIndex: number;
+  bookIndex?: number;
 }
 
-// A toc_entries row read back from the DB (future reading-pane TOC dropdown).
+// A toc_entries row read back from the DB, for the reading-pane TOC
+// dropdown. `chapter` mirrors the target entry's own chapter (null if the
+// source doesn't chapter its entries) — carried here so a jump can load
+// just that chapter instead of requiring the whole source already loaded.
 export interface TocEntryRow {
   id: number;
   source_id: number;
@@ -119,6 +154,63 @@ export interface TocEntryRow {
   level: number;
   position_ref: string | null;
   sort_order: number;
+  chapter: number | null;
+  // Joined from the target entry's book. Needed because a compound work
+  // restarts chapter numbering per book, so chapter alone can't identify
+  // where to jump. NULL for a grouping heading (no target entry).
+  book_name: string | null;
+}
+
+// The reference under the cursor, shared across panes so each can mark the
+// same verse. `verses` is a list because a Structure outline line covers a
+// range ("18, 19-") rather than a single verse.
+export interface HoveredVerses {
+  book: string;
+  chapter: number;
+  verses: number[];
+}
+
+// ---------- structure diagrams (Companion Bible outlines) ----------
+
+export interface StructureDiagramRow {
+  id: number;
+  source_id: number;
+  anchor_book: string;
+  anchor_chapter: number;
+  anchor_verse_start: number | null;
+  anchor_verse_end: number | null;
+  title: string;
+  reference_pdf_path: string | null;
+  reference_pdf_page: number | null;
+}
+
+// entry_id is null for a "bracket" line — one of Bullinger's bold letters
+// spanning a block of members without text of its own, so there's nothing
+// to read, highlight or annotate.
+export interface StructureLineRow {
+  id: number;
+  entry_id: number | null;
+  diagram_id: number;
+  parent_id: number | null;
+  sort_order: number;
+  depth: number;
+  label: string | null;
+  ref_range: string | null;
+}
+
+// One row per (group, member line) pair, as returned by the join in
+// getStructureForSource — a group repeats across its member lines.
+export interface StructureGroupRow {
+  id: number;
+  diagram_id: number;
+  label: string;
+  structure_line_id: number;
+}
+
+export interface StructureData {
+  diagrams: StructureDiagramRow[];
+  lines: StructureLineRow[];
+  groups: StructureGroupRow[];
 }
 
 // ---------- Strong's numbers (KJV word-level tagging) ----------

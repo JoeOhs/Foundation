@@ -1,0 +1,56 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Philemon
+# The Structure of the Epistle as a Whole.
+#
+# Hand-transcribed from the page scan (images/Screenshot 2026-07-25 130741.png),
+# with indentation checked against the word bounding boxes in
+# thecompanionbible_202504/50. Philemon_hocr.html.
+# Notation is documented in README.md in this directory.
+#
+# Indentation reproduces the page's staircase. Bullinger prints an
+# introversion by stepping each successive member of a correspondence
+# rightwards into the centre and back out again: inside C the series steps
+# G (x=748) → H (795) → J (902) → c (~950) → d (994) → K (1039), with the
+# K/K pair at the centre being the deepest point, then mirrors back out
+# through J → H → G. The six top-level members A B C C B A are true
+# siblings (x=360, 521, 748, 750, 521, 360) and stay at depth 0.
+
+[[diagram: The Structure of the Epistle as a Whole (Introversion)]]
+[[anchor: Philemon 1:1-25]]
+[[pdf: 50. Philemon_text.pdf]]
+[[pdf-page: 1]]
+
+A |  |
+  A | 1, 2 | EPISTOLARY SALUTATIONS.
+  B | 3 | BENEDICTION.
+B |  |
+  C | 4-6 | PAUL'S PRAYER FOR PHILEMON.
+  D |  |
+    a | 7- | PAUL'S JOY IN PHILEMON : CONFESSED.
+    b | -7 | BOWELS OF SAINTS REFRESHED.
+[[group: PAUL AND PHILEMON]]
+
+C |  |
+  G | 8 | I MIGHT ENJOIN (BUT I DO NOT).
+    H | 9 | PAUL THE AGED.
+      J |  |
+        c | 10, 11 | ONESIMUS PROFITABLE (ONESIMOS) TO THEE AND ME.
+          d | 12 | RECEIVE HIM AS MYSELF.
+            K | 13 | ONESIMUS MINISTERED IN THY STEAD.
+            K | 14 | THY BENEFIT.
+C |  |
+      J |  |
+        c | 15, 16 | BELOVED TO ME AND THEE.
+          d | 17 | RECEIVE HIM AS MYSELF.
+    H | 18, 19- | PAUL THE DEBTOR.
+  G | -19 | I DO NOT SAY (BUT I MIGHT).
+[[group: ONESIMUS]]
+
+B |  |
+  D |  |
+    a | 20- | PAUL'S JOY IN PHILEMON : BESOUGHT.
+    b | -20 | "REFRESH MY BOWELS."
+  C | 21, 22 | PHILEMON'S PRAYER FOR PAUL.
+A |  |
+  A | 23, 24 | EPISTOLARY.
+  B | 25 | BENEDICTION.
+[[group: PAUL AND PHILEMON]]

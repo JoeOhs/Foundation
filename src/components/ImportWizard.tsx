@@ -64,7 +64,14 @@ export default function ImportWizard({ onDone }: ImportWizardProps) {
     try {
       const sourceId = await insertParsedSource(
         parsed,
-        { title: title.trim(), type, license_note: licenseNote.trim() || null },
+        {
+          title: title.trim(),
+          type,
+          license_note: licenseNote.trim() || null,
+          // Whatever the parser could tell about the file (EPUB carries a
+          // dc:language). Normalised to an ISO code by insertParsedSource.
+          language: parsed.suggestedLanguage ?? null,
+        },
         (done, total) => setProgress(`Importing… ${Math.round((done / total) * 100)}%`),
       );
       if (parsed.toc && parsed.toc.length > 0) await insertTocEntries(sourceId, parsed);

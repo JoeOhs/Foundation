@@ -181,10 +181,10 @@ export default function SearchPanel({ initialQuery, onNavigate, onNavigateStrong
                 </span>
                 <button
                   onClick={() => onMoveToConcordance(lastSearched)}
-                  title="Continue this lookup in the docked concordance pane"
+                  title="Open this in the study footer's concordance tab"
                   style={{ fontSize: 11, padding: '2px 8px' }}
                 >
-                  Open in pane →
+                  Open in Study →
                 </button>
               </div>
               <SmartSearchGroups

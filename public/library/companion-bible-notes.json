@@ -1,0 +1,429 @@
+{
+  "provenance": {
+    "work": "The Companion Bible",
+    "author": "E. W. Bullinger",
+    "published": 1913,
+    "license": "Public domain (author died 1913).",
+    "transcribedFrom": "Internet Archive scan thecompanionbible_202504 (page image, HOCR, PDF and EPUB renderings), transcribed by hand. See companion-bible-notes/README.md."
+  },
+  "books": [
+    {
+      "book": "Philemon",
+      "slug": "philemon",
+      "diagrams": [
+        {
+          "title": "The Structure of the Epistle as a Whole (Introversion)",
+          "anchor_book": "Philemon",
+          "anchor_chapter": 1,
+          "anchor_verse_start": 1,
+          "anchor_verse_end": 25,
+          "reference_pdf_path": "/library/companion-bible-notes/philemon-pages.pdf",
+          "reference_pdf_page": 1,
+          "lines": [
+            {
+              "idx": 0,
+              "parent": null,
+              "depth": 0,
+              "label": "A",
+              "ref_range": null,
+              "text": null
+            },
+            {
+              "idx": 1,
+              "parent": 0,
+              "depth": 1,
+              "label": "A",
+              "ref_range": "1, 2",
+              "text": "EPISTOLARY SALUTATIONS."
+            },
+            {
+              "idx": 2,
+              "parent": 0,
+              "depth": 1,
+              "label": "B",
+              "ref_range": "3",
+              "text": "BENEDICTION."
+            },
+            {
+              "idx": 3,
+              "parent": null,
+              "depth": 0,
+              "label": "B",
+              "ref_range": null,
+              "text": null
+            },
+            {
+              "idx": 4,
+              "parent": 3,
+              "depth": 1,
+              "label": "C",
+              "ref_range": "4-6",
+              "text": "PAUL'S PRAYER FOR PHILEMON."
+            },
+            {
+              "idx": 5,
+              "parent": 3,
+              "depth": 1,
+              "label": "D",
+              "ref_range": null,
+              "text": null
+            },
+            {
+              "idx": 6,
+              "parent": 5,
+              "depth": 2,
+              "label": "a",
+              "ref_range": "7-",
+              "text": "PAUL'S JOY IN PHILEMON : CONFESSED."
+            },
+            {
+              "idx": 7,
+              "parent": 5,
+              "depth": 2,
+              "label": "b",
+              "ref_range": "-7",
+              "text": "BOWELS OF SAINTS REFRESHED."
+            },
+            {
+              "idx": 8,
+              "parent": null,
+              "depth": 0,
+              "label": "C",
+              "ref_range": null,
+              "text": null
+            },
+            {
+              "idx": 9,
+              "parent": 8,
+              "depth": 1,
+              "label": "G",
+              "ref_range": "8",
+              "text": "I MIGHT ENJOIN (BUT I DO NOT)."
+            },
+            {
+              "idx": 10,
+              "parent": 9,
+              "depth": 2,
+              "label": "H",
+              "ref_range": "9",
+              "text": "PAUL THE AGED."
+            },
+            {
+              "idx": 11,
+              "parent": 10,
+              "depth": 3,
+              "label": "J",
+              "ref_range": null,
+              "text": null
+            },
+            {
+              "idx": 12,
+              "parent": 11,
+              "depth": 4,
+              "label": "c",
+              "ref_range": "10, 11",
+              "text": "ONESIMUS PROFITABLE (ONESIMOS) TO THEE AND ME."
+            },
+            {
+              "idx": 13,
+              "parent": 12,
+              "depth": 5,
+              "label": "d",
+              "ref_range": "12",
+              "text": "RECEIVE HIM AS MYSELF."
+            },
+            {
+              "idx": 14,
+              "parent": 13,
+              "depth": 6,
+              "label": "K",
+              "ref_range": "13",
+              "text": "ONESIMUS MINISTERED IN THY STEAD."
+            },
+            {
+              "idx": 15,
+              "parent": 13,
+              "depth": 6,
+              "label": "K",
+              "ref_range": "14",
+              "text": "THY BENEFIT."
+            },
+            {
+              "idx": 16,
+              "parent": null,
+              "depth": 0,
+              "label": "C",
+              "ref_range": null,
+              "text": null
+            },
+            {
+              "idx": 17,
+              "parent": 16,
+              "depth": 3,
+              "label": "J",
+              "ref_range": null,
+              "text": null
+            },
+            {
+              "idx": 18,
+              "parent": 17,
+              "depth": 4,
+              "label": "c",
+              "ref_range": "15, 16",
+              "text": "BELOVED TO ME AND THEE."
+            },
+            {
+              "idx": 19,
+              "parent": 18,
+              "depth": 5,
+              "label": "d",
+              "ref_range": "17",
+              "text": "RECEIVE HIM AS MYSELF."
+            },
+            {
+              "idx": 20,
+              "parent": 16,
+              "depth": 2,
+              "label": "H",
+              "ref_range": "18, 19-",
+              "text": "PAUL THE DEBTOR."
+            },
+            {
+              "idx": 21,
+              "parent": 16,
+              "depth": 1,
+              "label": "G",
+              "ref_range": "-19",
+              "text": "I DO NOT SAY (BUT I MIGHT)."
+            },
+            {
+              "idx": 22,
+              "parent": null,
+              "depth": 0,
+              "label": "B",
+              "ref_range": null,
+              "text": null
+            },
+            {
+              "idx": 23,
+              "parent": 22,
+              "depth": 1,
+              "label": "D",
+              "ref_range": null,
+              "text": null
+            },
+            {
+              "idx": 24,
+              "parent": 23,
+              "depth": 2,
+              "label": "a",
+              "ref_range": "20-",
+              "text": "PAUL'S JOY IN PHILEMON : BESOUGHT."
+            },
+            {
+              "idx": 25,
+              "parent": 23,
+              "depth": 2,
+              "label": "b",
+              "ref_range": "-20",
+              "text": "\"REFRESH MY BOWELS.\""
+            },
+            {
+              "idx": 26,
+              "parent": 22,
+              "depth": 1,
+              "label": "C",
+              "ref_range": "21, 22",
+              "text": "PHILEMON'S PRAYER FOR PAUL."
+            },
+            {
+              "idx": 27,
+              "parent": null,
+              "depth": 0,
+              "label": "A",
+              "ref_range": null,
+              "text": null
+            },
+            {
+              "idx": 28,
+              "parent": 27,
+              "depth": 1,
+              "label": "A",
+              "ref_range": "23, 24",
+              "text": "EPISTOLARY."
+            },
+            {
+              "idx": 29,
+              "parent": 27,
+              "depth": 1,
+              "label": "B",
+              "ref_range": "25",
+              "text": "BENEDICTION."
+            }
+          ],
+          "groups": [
+            {
+              "label": "PAUL AND PHILEMON",
+              "members": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29
+              ]
+            },
+            {
+              "label": "ONESIMUS",
+              "members": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21
+              ]
+            }
+          ]
+        }
+      ],
+      "prose": [
+        {
+          "verse": null,
+          "text": "All that we know of Philemon is to be gathered from the Epistle bearing his name. He seems to have been a believer at Colosse, from the references to certain in the church there (see Notes below), and must have been possessed of means (v. 22). Paul's words indicate that he held his friend in high esteem."
+        },
+        {
+          "verse": null,
+          "text": "Onesimus is the Latinized form of the Greek Onesimos, which means \"useful\", or \"profitable\". He was a slave (v. 16), and, fleeing from his master, found his way to Rome, where he was, under Paul, led to become the Lord's freeman, and \"called being a servant (slave)\", he cared not for it, but was willing to return to his master's service, whether to continue as slave or as \"brother beloved\" (v. 16). Paul sends the letter by Onesimus."
+        },
+        {
+          "verse": null,
+          "text": "From Col. 4. 9. we learn that Paul had sent unto the church at Colosse Tychicus \"with Onesimus, a faithful and beloved brother, who is one of you\". For other references, see Notes."
+        },
+        {
+          "verse": null,
+          "text": "The Epistle was written during Paul's first imprisonment at Rome, probably in A.D. 62. In no one of his Epistles is more clearly shown the great heart of the apostle in his care for every member of the church. See 2 Cor. 11. 28, 29."
+        },
+        {
+          "verse": 1,
+          "text": "prisoner. Cp. Eph. 3. 1; 4. 1. 2 Tim. 1. 8. Jesus Christ = Christ Jesus. Ap. 98. XII. our = the. unto = to. dearly beloved. Gr. agapetos. Ap. 135. III. fellowlabourer. Gr. sunergos. See 1 Cor. 3. 9."
+        },
+        {
+          "verse": 2,
+          "text": "beloved. The texts read \"sister\". Apphia. Tradition says she was the wife of Philemon. Archippus. See Col. 4. 17. fellowsoldier. Only here and Phil. 2. 25, which see. church. Ap. 186. in. Gr. kata. Ap. 104. x. 2."
+        },
+        {
+          "verse": 3,
+          "text": "Grace. Gr. charis. Ap. 184. I. 1. from. Ap. 104. iv. God. Ap. 98. I. i. 1. Father. Ap. 98. III. Lord. Ap. 98. VI. i. 8. 2. B. Jesus Christ. Ap. 98. XI."
+        },
+        {
+          "verse": 4,
+          "text": "thank. Gr. eucharisteo. See Acts 27. 35. mention. Gr. mneia. See Rom. 1. 9, Eph. 1. 16. Elsewhere, 1 Thess. 1. 2. always. Ap. 151. II. Q. i. in. Gr. epi. Ap. 104. ix. 1. prayers. Gr. proseuche. Ap. 134. II. 2."
+        },
+        {
+          "verse": 5,
+          "text": "love = the love. Ap. 135. II. 1. faith = the faith. Ap. 150. II. 1. toward. Gr. pros. Ap. 104. xv. 3. Lord. Ap. 98. VI. i. 8. 2. A. Jesus. Ap. 98. X. toward. Gr. eis. Ap. 104. vi. saints = the saints. See Acts 9. 13."
+        },
+        {
+          "verse": 6,
+          "text": "That. Supply the ellipsis by \"(Praying) that\". communication = fellowship. Gr. koinonia. See Acts 2. 42. effectual. Gr. energes. See 1 Cor. 16. 9. Elsewhere, Heb. 4. 12. See Ap. 172. 4. by. Ap. 104. viii. acknowledging. Ap. 132. II. ii. in. Ap. 104. viii. you. The texts read \"us\". in. Gr. eis. Ap. 104. vi. Christ. Ap. 98. IX. Jesus. The texts omit."
+        },
+        {
+          "verse": 7,
+          "text": "we have. The texts read \"I had\". consolation. See Acts 4. 36. in. Ap. 104. ix. 2. bowels. See 2 Cor. 6. 12. are = have been. refreshed. See 1 Cor. 16. 18. by. Ap. 104. v. 1."
+        },
+        {
+          "verse": 8,
+          "text": "though... bold. Lit. having much boldness (Gr. parrhesia, freedom of speech). Cp. Acts 2. 29. enjoin = command. Gr. epitasso. convenient. Gr. aneko. See Eph. 5. 4."
+        },
+        {
+          "verse": 9,
+          "text": "Yet. Omit. for...sake. Ap. 104. v. 2. beseech. Ap. 134. I. 6. Cp. v. 7. aged. Gr. presbutes. See Tit. 2. 2. Elsewhere, Luke 1. 18. also, &c. = a prisoner also."
+        },
+        {
+          "verse": 10,
+          "text": "for. Ap. 104. xiii. 1. son. Ap. 108. i. have begotten = begat. Cp. Phil. 1. 12, 13."
+        },
+        {
+          "verse": 11,
+          "text": "unprofitable = not useful. Gr. achrestos. Only here. Fig. Meiosis. Ap. 6. profitable. Gr. euchrestos. See 2 Tim. 2. 21."
+        },
+        {
+          "verse": 12,
+          "text": "have. Omit. sent again = sent back. Ap. 174. 5. thou therefore receive. The texts omit, and read \"sent again to thee\". mine own bowels = as mine own self. Fig. Synecdoche. Ap. 6."
+        },
+        {
+          "verse": 13,
+          "text": "would, &c. = was minded (Ap. 102. 8) to retain. with. Ap. 104. xv. 3. that = in order that. Gr. hina. in...stead. Ap. 104. xvii. 1. might have, &c. = may minister. Ap. 190. III. 1. gospel. See Ap. 140."
+        },
+        {
+          "verse": 14,
+          "text": "without = apart from. Gr. choris. mind. Ap. 177. 2. would. Lit. was willing to. Ap. 102. 1. nothing. Gr. ouden. thy benefit. Lit. the good thing of thee. not. Ap. 105. II. it were. Omit. of. Ap. 104. x. 2. willingly = according to (Ap. 104. x. 2) free-will. Gr. hekousios. Only here. The adverb in Heb. 10. 26. 1 Pet. 5. 2."
+        },
+        {
+          "verse": 15,
+          "text": "perhaps. Gr. tacha. Only here and Rom. 5. 7. therefore = because of (Ap. 104. v. 2) this. departed = was separated. Gr. chorizo. First occ. Matt. 19. 6. for. Ap. 104. xv. 3. season. Lit. hour. Gr. hora. receive. Gr. apecho. See Matt. 6. 2. for ever. Ap. 151. II. B. iii."
+        },
+        {
+          "verse": 16,
+          "text": "Not now = No longer. Gr. ouketi. servant. Ap. 190. I. 2. above. Ap. 104. xvii. 2."
+        },
+        {
+          "verse": 17,
+          "text": "If. Ap. 118. 2. a. count. Lit. have. Gr. echo. partner = partaker. Gr. koinonos. See 1 Cor. 10. 18. receive. Gr. proslambano. \"You have received me; receive him in addition, as myself.\" Cp. Rom. 15. 7."
+        },
+        {
+          "verse": 18,
+          "text": "hath. Omit. put... on... account. Gr. ellogeo. Only here and Rom. 5. 13 (imputed)."
+        },
+        {
+          "verse": 19,
+          "text": "have written = wrote. repay. Gr. apotino. Only here. albeit = that. Gr. hina. how = that. owest... besides. Gr. prosopheilo. Only here."
+        },
+        {
+          "verse": 20,
+          "text": "let me have joy = may I profit. Gr. oninemi, the root-word from which comes onesimos. \"Let me have profit from thee, seeing I am sending back Onesimus (profitable) to thee.\" the Lord. The texts read \"Christ\". Ap. 98. IX."
+        },
+        {
+          "verse": 21,
+          "text": "Having confidence. Ap. 150. I. 2. knowing. Ap. 132. I. i. also do more = do more also. more than = above (Ap. 104. xvii. 2) that which."
+        },
+        {
+          "verse": 22,
+          "text": "withal. Gr. hama. See Col. 4. 3. 1 Tim. 5. 13. me also = also for me. lodging. Gr. xenia. Only here and Acts 28. 23. trust = hope. Gr. elpizo. through. Ap. 104. v. 1. given = granted as a favour. Gr. charizomai. Ap. 184. II. 1."
+        },
+        {
+          "verse": 23,
+          "text": "salute = greet. Gr. aspazomai. Cp. Col. 4. 12. Epaphras. See Col. 1. 7. fellowprisoner. Gr. sunaichmalotos. See Rom. 16. 7. Christ Jesus. Ap. 98. XII."
+        },
+        {
+          "verse": 24,
+          "text": "Marcus. See Acts 12. 12, 25; 15. 37, 39. Col. 4. 10. 2 Tim. 4. 11. 1 Pet. 5. 13. Aristarchus. See Acts 19. 29; 20. 4; 27. 2. Col. 4. 10. Demas. See Col. 4. 14. 2 Tim. 4. 10. Lucas. See Col. 4. 14. 2 Tim. 4. 11; also Int. Notes to Luke's Gospel, especially the foot-note."
+        },
+        {
+          "verse": 25,
+          "text": "The grace, &c. Paul's constant benediction. with. Ap. 104. xi. 1. spirit. Ap. 101. II. 9."
+        }
+      ],
+      "prose_heading": "NOTES ON THE EPISTLE TO PHILEMON"
+    }
+  ]
+}

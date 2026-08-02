@@ -1,7 +1,9 @@
 import Database from '@tauri-apps/plugin-sql';
+import { toLanguageCode } from './language';
 import type {
   Book, Entry, EntryNote, HighlightRow, Highlighter, LinkEndpoint, LinkRow, Note, ParsedSource,
-  SearchHit, SearchResults, Source, SourceType, TocEntryRow,
+  SearchHit, SearchResults, Source, SourceCategory, SourceType, TocEntryRow,
+  StructureData, StructureDiagramRow, StructureGroupRow, StructureLineRow,
   StrongsBookCount, StrongsDictEntry, StrongsSearchGroup, StrongsSearchHit, StrongsWordRow,
 } from './types';
 
@@ -29,6 +31,7 @@ const SCHEMA: string[] = [
     type TEXT NOT NULL,
     language TEXT,
     license_note TEXT,
+    category TEXT,
     created_at TEXT DEFAULT (datetime('now'))
   )`,
   `CREATE TABLE IF NOT EXISTS books (
@@ -130,9 +133,57 @@ const SCHEMA: string[] = [
     title TEXT NOT NULL,
     level INTEGER NOT NULL DEFAULT 0,
     position_ref TEXT,
-    sort_order INTEGER NOT NULL
+    sort_order INTEGER NOT NULL,
+    chapter INTEGER
   )`,
   `CREATE INDEX IF NOT EXISTS idx_toc_entries_source ON toc_entries(source_id, sort_order)`,
+  // Bullinger's Structure diagrams — his nested outlines of a book, stored
+  // as data rather than as page images so that highlights/links/notes work
+  // on an individual outline line with no schema of their own.
+  // reference_pdf_path/_page point at the scanned page this was transcribed
+  // from, for "View original page" — supplementary, never required.
+  `CREATE TABLE IF NOT EXISTS structure_diagrams (
+    id INTEGER PRIMARY KEY,
+    source_id INTEGER NOT NULL REFERENCES sources(id),
+    anchor_book TEXT NOT NULL,
+    anchor_chapter INTEGER NOT NULL,
+    anchor_verse_start INTEGER,
+    anchor_verse_end INTEGER,
+    title TEXT NOT NULL,
+    reference_pdf_path TEXT,
+    reference_pdf_page INTEGER
+  )`,
+  // Outline metadata only — a line's readable text lives in its entries
+  // row, so nothing downstream has to special-case a structure line.
+  // entry_id is nullable for "bracket" lines: one of Bullinger's bold
+  // letters that spans a block of members without carrying text of its own.
+  // Those have nothing to read, highlight or annotate, so they get no
+  // entries row rather than an empty one.
+  `CREATE TABLE IF NOT EXISTS structure_lines (
+    id INTEGER PRIMARY KEY,
+    entry_id INTEGER REFERENCES entries(id),
+    diagram_id INTEGER NOT NULL REFERENCES structure_diagrams(id),
+    parent_id INTEGER REFERENCES structure_lines(id),
+    sort_order INTEGER NOT NULL,
+    depth INTEGER NOT NULL,
+    label TEXT,
+    ref_range TEXT
+  )`,
+  // The braces down the right margin, labelling a span of lines. A group is
+  // often non-contiguous — Bullinger's correspondence pairs sit at opposite
+  // ends of the outline.
+  `CREATE TABLE IF NOT EXISTS structure_groups (
+    id INTEGER PRIMARY KEY,
+    diagram_id INTEGER NOT NULL REFERENCES structure_diagrams(id),
+    label TEXT NOT NULL
+  )`,
+  `CREATE TABLE IF NOT EXISTS structure_group_members (
+    group_id INTEGER NOT NULL REFERENCES structure_groups(id),
+    structure_line_id INTEGER NOT NULL REFERENCES structure_lines(id)
+  )`,
+  `CREATE INDEX IF NOT EXISTS idx_structure_diagrams_source ON structure_diagrams(source_id)`,
+  `CREATE INDEX IF NOT EXISTS idx_structure_lines_diagram ON structure_lines(diagram_id, sort_order)`,
+  `CREATE INDEX IF NOT EXISTS idx_structure_lines_entry ON structure_lines(entry_id)`,
 ];
 
 const FTS_SCHEMA: string[] = [
@@ -168,6 +219,23 @@ const FTS_SCHEMA: string[] = [
 // table_info here reports entry_id already present and the rebuild is a
 // no-op — but the entry_id-referencing indexes are (re)created either way,
 // unconditionally, once the shape is guaranteed correct either way.
+// Repairs `sources.language` rows written as display names. The seeder
+// wrote ISO codes ('en') while the Library manifest wrote names ('English',
+// 'Arabic'), so the same language could appear twice under two spellings —
+// which would split the Library's per-language Bible groups in half.
+// Rewrites only rows whose value isn't already the canonical code.
+async function normalizeSourceLanguages(db: Database): Promise<void> {
+  const rows = await db.select<{ language: string }[]>(
+    `SELECT DISTINCT language FROM sources WHERE language IS NOT NULL AND language <> ''`,
+  );
+  for (const { language } of rows) {
+    const code = toLanguageCode(language);
+    if (code && code !== language) {
+      await db.execute('UPDATE sources SET language = ? WHERE language = ?', [code, language]);
+    }
+  }
+}
+
 async function migrateEntryAnchoring(db: Database): Promise<void> {
   // Detect by column *presence*, not the verse column's notnull flag — the
   // SQL plugin may serialize PRAGMA's notnull as a string ("0"/"1") rather
@@ -249,6 +317,58 @@ export async function initDb(): Promise<void> {
   } catch {
     /* column already present, or backfill already applied */
   }
+  // Migration for databases created before sources carried a Library
+  // category. Backfilled from `type`, which is the only signal available:
+  // 'extra-biblical' has only ever been produced by the freeform import
+  // path, so it maps to 'imported'. Anything the backfill can't place still
+  // gets a category rather than NULL, so the Library never has to render an
+  // uncategorised row.
+  try {
+    await db.execute('ALTER TABLE sources ADD COLUMN category TEXT');
+  } catch {
+    /* column already present */
+  }
+  try {
+    await db.execute(
+      `UPDATE sources SET category = CASE type
+         WHEN 'bible' THEN 'bible'
+         WHEN 'commentary' THEN 'commentary'
+         WHEN 'reference' THEN 'reference'
+         WHEN 'extra-biblical' THEN 'imported'
+         ELSE 'imported' END
+       WHERE category IS NULL OR category = ''`,
+    );
+    // Every Bible needs a language for the Library's language grouping.
+    // Each translation shipped to date is English, and the seeder already
+    // wrote 'en'; this only repairs rows that have none.
+    await db.execute(
+      `UPDATE sources SET language = 'en'
+       WHERE category = 'bible' AND (language IS NULL OR language = '')`,
+    );
+    await normalizeSourceLanguages(db);
+  } catch (e) {
+    console.error('Source category backfill failed', e);
+  }
+  // Migration for databases whose structure_diagrams predates the switch
+  // from a cropped page image to the full scanned page PDF.
+  try {
+    await db.execute('ALTER TABLE structure_diagrams ADD COLUMN reference_pdf_path TEXT');
+  } catch {
+    /* column already present, or table doesn't exist yet */
+  }
+  try {
+    await db.execute('ALTER TABLE structure_diagrams ADD COLUMN reference_pdf_page INTEGER');
+  } catch {
+    /* column already present, or table doesn't exist yet */
+  }
+  // Migration for databases created before toc_entries carried its target
+  // entry's chapter — used to jump straight to that chapter instead of
+  // requiring the whole source already loaded (see Pane.tsx's jumpToEntry).
+  try {
+    await db.execute('ALTER TABLE toc_entries ADD COLUMN chapter INTEGER');
+  } catch {
+    /* column already present, or table doesn't exist yet */
+  }
   try {
     await migrateEntryAnchoring(db);
   } catch (e) {
@@ -271,7 +391,7 @@ export async function initDb(): Promise<void> {
 export async function listSources(): Promise<Source[]> {
   const db = await ensureDb();
   return db.select<Source[]>(
-    'SELECT id, title, type, language, license_note, is_verse_keyed FROM sources ORDER BY id',
+    'SELECT id, title, type, language, license_note, is_verse_keyed, category FROM sources ORDER BY id',
   );
 }
 
@@ -315,6 +435,27 @@ export async function getEntries(
      WHERE b.source_id = ? AND b.name = ? AND e.chapter = ? ORDER BY e.sort_order`,
     [sourceId, bookName, chapter],
   );
+}
+
+// An entry's own chapter, for jumping to an arbitrary entry (a cross-
+// reference or a Highlights/Links row, not necessarily a toc_entries
+// target) in a source whose entries are chaptered — load just that
+// chapter instead of requiring the whole source already in the DOM.
+// Where an entry lives, for jumping a pane to it. Both halves matter: a
+// compound work (one source, many books) restarts chapter numbering in every
+// book, so a chapter alone is ambiguous and a jump would land in whichever
+// book the pane happened to be showing.
+export async function getEntryLocation(
+  entryId: number,
+): Promise<{ book: string; chapter: number | null } | null> {
+  const db = await ensureDb();
+  const rows = await db.select<{ book: string; chapter: number | null }[]>(
+    `SELECT b.name AS book, e.chapter AS chapter
+     FROM entries e JOIN books b ON b.id = e.book_id
+     WHERE e.id = ?`,
+    [entryId],
+  );
+  return rows[0] ?? null;
 }
 
 // ---------- notes ----------
@@ -770,16 +911,44 @@ export async function searchAll(q: string): Promise<SearchResults> {
 
 const INSERT_BATCH = 400;
 
+// Mirrors the SQL backfill in initDb, so a source created at runtime and one
+// migrated from an older database land in the same Library section.
+function defaultCategoryForType(type: SourceType): SourceCategory {
+  switch (type) {
+    case 'bible': return 'bible';
+    case 'commentary': return 'commentary';
+    case 'reference': return 'reference';
+    default: return 'imported';
+  }
+}
+
 export async function insertParsedSource(
   parsed: ParsedSource,
-  meta: { title: string; type: SourceType; language?: string | null; license_note?: string | null },
+  meta: {
+    title: string;
+    type: SourceType;
+    language?: string | null;
+    license_note?: string | null;
+    // Library filing. Defaults from `type` when a caller doesn't say, which
+    // keeps every existing call site correct; only sources that `type` can't
+    // distinguish (Josephus as 'historical' vs an EPUB as 'imported') need
+    // to pass it explicitly.
+    category?: SourceCategory;
+  },
   onProgress?: (done: number, total: number) => void,
 ): Promise<number> {
   const db = await ensureDb();
   const isVerseKeyed = parsed.structure === 'verse-keyed' ? 1 : 0;
+  const category = meta.category ?? defaultCategoryForType(meta.type);
+  // Stored as an ISO code, never a display name — see language.ts. A Bible
+  // must end up with *some* language or it can't be grouped in the Library;
+  // the only path that can arrive without one is the Import wizard, whose
+  // file may carry no language metadata at all, so English is the fallback
+  // there rather than leaving it ungrouped.
+  const language = toLanguageCode(meta.language) ?? (category === 'bible' ? 'en' : null);
   const res = await db.execute(
-    'INSERT INTO sources (title, type, language, license_note, is_verse_keyed) VALUES (?, ?, ?, ?, ?)',
-    [meta.title, meta.type, meta.language ?? null, meta.license_note ?? null, isVerseKeyed],
+    'INSERT INTO sources (title, type, language, license_note, is_verse_keyed, category) VALUES (?, ?, ?, ?, ?, ?)',
+    [meta.title, meta.type, language, meta.license_note ?? null, isVerseKeyed, category],
   );
   const sourceId = res.lastInsertId as number;
   const total = parsed.books.reduce((n, b) => n + b.entries.length, 0);
@@ -809,33 +978,134 @@ export async function insertParsedSource(
   return sourceId;
 }
 
-// Inserts a parsed EPUB's table of contents. Requeries the just-inserted
+// Inserts a parsed source's table of contents. Requeries the just-inserted
 // entries (in sort_order) rather than threading entry ids back out of
 // insertParsedSource, so that function's signature/return type stays
-// unchanged for its other two call sites. No-ops if there's no TOC or no
-// book (both required for a real EPUB import).
+// unchanged for its other call sites. No-ops if there's no TOC or no book.
+//
+// Resolves per book (`ParsedTocEntry.bookIndex`, default 0) rather than
+// assuming one, so a compound work — one source, many books — can carry a
+// TOC spanning all of them. A row with entryIndex -1 is a grouping heading
+// and gets a NULL entry_id: it labels its children in the dropdown without
+// being jumpable itself.
 export async function insertTocEntries(sourceId: number, parsed: ParsedSource): Promise<void> {
   if (!parsed.toc || parsed.toc.length === 0 || parsed.books.length === 0) return;
   const db = await ensureDb();
-  const entries = await getEntries(sourceId, parsed.books[0].name, null);
-  const placeholders = parsed.toc.map(() => '(?, ?, ?, ?, ?, ?)').join(', ');
-  const params: unknown[] = [];
-  parsed.toc.forEach((t, i) => {
+  // One query per book that the TOC actually references, cached — a 30-book
+  // work would otherwise requery the same book once per chapter row.
+  const entriesByBook = new Map<number, Entry[]>();
+  const entriesFor = async (bookIndex: number): Promise<Entry[]> => {
+    const cached = entriesByBook.get(bookIndex);
+    if (cached) return cached;
+    const book = parsed.books[bookIndex];
+    const rows = book ? await getEntries(sourceId, book.name, null) : [];
+    entriesByBook.set(bookIndex, rows);
+    return rows;
+  };
+
+  const rows: unknown[][] = [];
+  for (let i = 0; i < parsed.toc.length; i++) {
+    const t = parsed.toc[i];
+    const entries = await entriesFor(t.bookIndex ?? 0);
     const entry = t.entryIndex >= 0 ? entries[t.entryIndex] : undefined;
-    params.push(sourceId, entry?.id ?? null, t.title, t.level, entry?.position_ref ?? null, i);
-  });
-  await db.execute(
-    `INSERT INTO toc_entries (source_id, entry_id, title, level, position_ref, sort_order) VALUES ${placeholders}`,
-    params,
-  );
+    rows.push([
+      sourceId, entry?.id ?? null, t.title, t.level,
+      entry?.position_ref ?? null, i, entry?.chapter ?? null,
+    ]);
+  }
+
+  // Batched: a compound work's TOC runs to hundreds of rows, and SQLite
+  // caps how many bound parameters one statement may carry.
+  for (let i = 0; i < rows.length; i += INSERT_BATCH) {
+    const batch = rows.slice(i, i + INSERT_BATCH);
+    const placeholders = batch.map(() => '(?, ?, ?, ?, ?, ?, ?)').join(', ');
+    await db.execute(
+      `INSERT INTO toc_entries (source_id, entry_id, title, level, position_ref, sort_order, chapter) VALUES ${placeholders}`,
+      batch.flat(),
+    );
+  }
 }
 
+// `book_name` is joined through the target entry rather than stored, so it
+// can't drift from the entry it points at. NULL for a grouping heading,
+// which has no target.
 export async function getTocEntries(sourceId: number): Promise<TocEntryRow[]> {
   const db = await ensureDb();
   return db.select<TocEntryRow[]>(
-    `SELECT id, source_id, entry_id, title, level, position_ref, sort_order FROM toc_entries
-     WHERE source_id = ? ORDER BY sort_order`,
+    `SELECT t.id AS id, t.source_id AS source_id, t.entry_id AS entry_id, t.title AS title,
+            t.level AS level, t.position_ref AS position_ref, t.sort_order AS sort_order,
+            t.chapter AS chapter, b.name AS book_name
+     FROM toc_entries t
+     LEFT JOIN entries e ON e.id = t.entry_id
+     LEFT JOIN books b ON b.id = e.book_id
+     WHERE t.source_id = ? ORDER BY t.sort_order`,
     [sourceId],
+  );
+}
+
+// Resolves one of Bullinger's "Ap. 98. XII" references to the entries row to
+// scroll to. The Appendixes import writes one toc_entries row per appendix,
+// titled "98. The Divine Names…", pointing at that appendix's first
+// paragraph — so the appendix itself is an exact lookup.
+//
+// `section` is best-effort on top of that: it scans only the paragraphs
+// belonging to this appendix for one that opens with that section label, and
+// silently falls back to the appendix's first paragraph. A miss just means a
+// slightly less precise jump, never a wrong one.
+export async function findAppendixEntry(
+  sourceId: number,
+  appendix: number,
+  section: string | null,
+): Promise<number | null> {
+  const db = await ensureDb();
+  const toc = await getTocEntries(sourceId);
+  const idx = toc.findIndex((t) => Number.parseInt(t.title, 10) === appendix);
+  if (idx === -1) return null;
+  const start = toc[idx].entry_id;
+  if (start === null) return null;
+  if (!section) return start;
+
+  const nextStart = toc[idx + 1]?.entry_id ?? null;
+  const rows = await db.select<{ id: number; text: string }[]>(
+    `SELECT e.id AS id, e.text AS text FROM entries e
+     JOIN books b ON b.id = e.book_id
+     WHERE b.source_id = ?
+       AND e.sort_order >= (SELECT sort_order FROM entries WHERE id = ?)
+       ${nextStart === null ? '' : 'AND e.sort_order < (SELECT sort_order FROM entries WHERE id = ?)'}
+     ORDER BY e.sort_order`,
+    nextStart === null ? [sourceId, start] : [sourceId, start, nextStart],
+  );
+  const escaped = section.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const heading = new RegExp(`^\\s*${escaped}[.).\\s]`);
+  const hit = rows.find((r) => heading.test(r.text));
+  return hit?.id ?? start;
+}
+
+// A dictionary article for the study footer: the headword lives in
+// position_ref (see smithsImport.ts), so lookup is a prefix match on it.
+export interface DictionaryHit {
+  id: number;
+  word: string;
+  text: string;
+}
+
+// Case-insensitive headword prefix search within one dictionary source.
+// An empty query returns the first entries alphabetically so the footer has
+// something to browse before the user types. LIKE special characters in the
+// query are escaped so "50%" can't wildcard-match.
+export async function dictionaryLookup(
+  sourceId: number,
+  query: string,
+  limit = 60,
+): Promise<DictionaryHit[]> {
+  const db = await ensureDb();
+  const escaped = query.trim().replace(/([%_\\])/g, '\\$1');
+  return db.select<DictionaryHit[]>(
+    `SELECT e.id AS id, e.position_ref AS word, e.text AS text
+     FROM entries e JOIN books b ON b.id = e.book_id
+     WHERE b.source_id = ? AND e.position_ref LIKE ? ESCAPE '\\' COLLATE NOCASE
+     ORDER BY e.position_ref COLLATE NOCASE LIMIT ?`,
+    [sourceId, `${escaped}%`, limit],
   );
 }
 
@@ -846,10 +1116,10 @@ export async function sourceCount(): Promise<number> {
 }
 
 // Deletes a source and everything that anchors to its entries — highlights,
-// links, notes, translator's notes, tagged words, and its TOC — before
-// removing the entries/books/source themselves. Order matters: children
-// before parents, since nothing here relies on SQLite's (disabled by
-// default) foreign-key cascade.
+// links, notes, translator's notes, tagged words, its TOC and its Structure
+// diagrams — before removing the entries/books/source themselves. Order
+// matters: children before parents, since nothing here relies on SQLite's
+// (disabled by default) foreign-key cascade.
 export async function deleteSource(sourceId: number): Promise<void> {
   const db = await ensureDb();
   const entriesSubquery = `SELECT id FROM entries WHERE book_id IN (SELECT id FROM books WHERE source_id = ?)`;
@@ -862,9 +1132,133 @@ export async function deleteSource(sourceId: number): Promise<void> {
   await db.execute(`DELETE FROM entry_notes WHERE entry_id IN (${entriesSubquery})`, [sourceId]);
   await db.execute(`DELETE FROM strongs_words WHERE entry_id IN (${entriesSubquery})`, [sourceId]);
   await db.execute('DELETE FROM toc_entries WHERE source_id = ?', [sourceId]);
+  await clearStructureData(sourceId);
   await db.execute(`DELETE FROM entries WHERE book_id IN (SELECT id FROM books WHERE source_id = ?)`, [sourceId]);
   await db.execute('DELETE FROM books WHERE source_id = ?', [sourceId]);
   await db.execute('DELETE FROM sources WHERE id = ?', [sourceId]);
+}
+
+// ---------- structure diagrams ----------
+
+// Removes a source's diagrams and everything hanging off them. Called by
+// deleteSource, and by the Companion Bible notes importer before a rebuild.
+// Children before parents, same as deleteSource.
+export async function clearStructureData(sourceId: number): Promise<void> {
+  const db = await ensureDb();
+  const diagrams = `SELECT id FROM structure_diagrams WHERE source_id = ?`;
+  await db.execute(
+    `DELETE FROM structure_group_members WHERE group_id IN (
+       SELECT id FROM structure_groups WHERE diagram_id IN (${diagrams}))`,
+    [sourceId],
+  );
+  await db.execute(`DELETE FROM structure_groups WHERE diagram_id IN (${diagrams})`, [sourceId]);
+  await db.execute(`DELETE FROM structure_lines WHERE diagram_id IN (${diagrams})`, [sourceId]);
+  await db.execute('DELETE FROM structure_diagrams WHERE source_id = ?', [sourceId]);
+}
+
+// Everything a pane needs to render a source's Structure diagrams: the
+// diagrams themselves, their lines in outline order, and which lines belong
+// to which brace group. Fetched per source (not per chapter) — a diagram is
+// small, and the pane keys it onto entries by entry_id.
+export async function getStructureForSource(sourceId: number): Promise<StructureData> {
+  const db = await ensureDb();
+  const diagrams = await db.select<StructureDiagramRow[]>(
+    `SELECT id, source_id, anchor_book, anchor_chapter, anchor_verse_start, anchor_verse_end,
+            title, reference_pdf_path, reference_pdf_page
+     FROM structure_diagrams WHERE source_id = ? ORDER BY anchor_chapter, anchor_verse_start, id`,
+    [sourceId],
+  );
+  if (diagrams.length === 0) return { diagrams: [], lines: [], groups: [] };
+  const lines = await db.select<StructureLineRow[]>(
+    `SELECT sl.id, sl.entry_id, sl.diagram_id, sl.parent_id, sl.sort_order, sl.depth, sl.label, sl.ref_range
+     FROM structure_lines sl
+     JOIN structure_diagrams sd ON sd.id = sl.diagram_id
+     WHERE sd.source_id = ? ORDER BY sl.diagram_id, sl.sort_order`,
+    [sourceId],
+  );
+  const groups = await db.select<StructureGroupRow[]>(
+    `SELECT sg.id, sg.diagram_id, sg.label, sgm.structure_line_id
+     FROM structure_groups sg
+     JOIN structure_group_members sgm ON sgm.group_id = sg.id
+     JOIN structure_diagrams sd ON sd.id = sg.diagram_id
+     WHERE sd.source_id = ? ORDER BY sg.id`,
+    [sourceId],
+  );
+  return { diagrams, lines, groups };
+}
+
+export async function insertStructureDiagram(
+  sourceId: number,
+  d: {
+    title: string;
+    anchor_book: string;
+    anchor_chapter: number;
+    anchor_verse_start: number | null;
+    anchor_verse_end: number | null;
+    reference_pdf_path: string | null;
+    reference_pdf_page: number | null;
+  },
+): Promise<number> {
+  const db = await ensureDb();
+  const res = await db.execute(
+    `INSERT INTO structure_diagrams
+       (source_id, anchor_book, anchor_chapter, anchor_verse_start, anchor_verse_end, title,
+        reference_pdf_path, reference_pdf_page)
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
+    [sourceId, d.anchor_book, d.anchor_chapter, d.anchor_verse_start, d.anchor_verse_end, d.title,
+     d.reference_pdf_path, d.reference_pdf_page],
+  );
+  return res.lastInsertId as number;
+}
+
+// Inserts outline lines in order, returning their new ids by input index.
+// One statement at a time rather than a batch: parent_id refers to an
+// already-inserted sibling line, so each row needs the previous rows' ids.
+export async function insertStructureLines(
+  diagramId: number,
+  lines: {
+    entryId: number | null;
+    parentIndex: number | null;
+    depth: number;
+    label: string | null;
+    refRange: string | null;
+  }[],
+): Promise<number[]> {
+  const db = await ensureDb();
+  const ids: number[] = [];
+  for (let i = 0; i < lines.length; i++) {
+    const l = lines[i];
+    const parentId = l.parentIndex === null ? null : ids[l.parentIndex];
+    const res = await db.execute(
+      `INSERT INTO structure_lines (entry_id, diagram_id, parent_id, sort_order, depth, label, ref_range)
+       VALUES (?, ?, ?, ?, ?, ?, ?)`,
+      [l.entryId, diagramId, parentId, i, l.depth, l.label, l.refRange],
+    );
+    ids.push(res.lastInsertId as number);
+  }
+  return ids;
+}
+
+export async function insertStructureGroups(
+  diagramId: number,
+  groups: { label: string; memberLineIds: number[] }[],
+): Promise<void> {
+  const db = await ensureDb();
+  for (const g of groups) {
+    if (g.memberLineIds.length === 0) continue;
+    const res = await db.execute(
+      'INSERT INTO structure_groups (diagram_id, label) VALUES (?, ?)',
+      [diagramId, g.label],
+    );
+    const groupId = res.lastInsertId as number;
+    const placeholders = g.memberLineIds.map(() => '(?, ?)').join(', ');
+    const params: unknown[] = [];
+    for (const lineId of g.memberLineIds) params.push(groupId, lineId);
+    await db.execute(
+      `INSERT INTO structure_group_members (group_id, structure_line_id) VALUES ${placeholders}`,
+      params,
+    );
+  }
 }
 
 // ---------- Strong's numbers ----------
@@ -872,7 +1266,7 @@ export async function deleteSource(sourceId: number): Promise<void> {
 export async function findSourceByTitle(title: string): Promise<Source | null> {
   const db = await ensureDb();
   const rows = await db.select<Source[]>(
-    'SELECT id, title, type, language, license_note, is_verse_keyed FROM sources WHERE title = ? LIMIT 1',
+    'SELECT id, title, type, language, license_note, is_verse_keyed, category FROM sources WHERE title = ? LIMIT 1',
     [title],
   );
   return rows[0] ?? null;

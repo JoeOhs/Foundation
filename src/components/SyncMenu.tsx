@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { isDedicatedPane } from '../sourceRoles';
 import type { Source } from '../types';
 
 // 'A' = synced with Pane 1 (which always leads group A); 'B' = second sync
@@ -51,8 +52,10 @@ export default function SyncMenu({ paneSourceIds, sources, groups, onAssign }: S
             const i = idx + 1;
             const g = groups[i] ?? 'A';
             // Imported (freeform) texts are always their own dedicated,
-            // independent pane — they never join a Bible sync group.
-            const imported = sources.find((s) => s.id === sid)?.type !== 'bible';
+            // independent pane — they never join a Bible sync group. A
+            // verse-keyed commentary does navigate by chapter, so it can.
+            const paneSource = sources.find((s) => s.id === sid);
+            const imported = paneSource ? isDedicatedPane(paneSource) : false;
             return (
               <div className="sync-row" key={i}>
                 <span className="sync-pane-name">{i + 1} · {titleOf(sid)}</span>

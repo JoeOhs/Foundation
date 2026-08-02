@@ -122,6 +122,7 @@ export default function SmartSearchGroups({ term, groups, onNavigate, onLookupNu
                 </div>
               )}
             </div>
+            <div className="strongs-books">
             {g.books.map(({ book, count }) => {
               const key = `${g.strongs_number}|${book}`;
               const open = openBooks.has(key);
@@ -162,6 +163,7 @@ export default function SmartSearchGroups({ term, groups, onNavigate, onLookupNu
                 </div>
               );
             })}
+            </div>
           </div>
         );
       })}

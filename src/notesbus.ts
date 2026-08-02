@@ -120,6 +120,63 @@ export async function focusNotesWindow(): Promise<boolean> {
   return false;
 }
 
+// ---------- original-page (PDF) viewer window ----------
+
+export const REF_PAGE_WINDOW_LABEL = 'refpage';
+
+export interface ReferencePage {
+  src: string;
+  page: number;
+  title: string;
+}
+
+export function isReferencePageWindow(): boolean {
+  return new URLSearchParams(window.location.search).get('window') === 'refpage';
+}
+
+// Opens the scanned page a Structure diagram was transcribed from, beside
+// the reader. Same pop-out pattern as the notes window — one reusable
+// labelled window routed by ?window=refpage — so a second "View original
+// page" swaps the document rather than piling up windows.
+export async function openReferencePageWindow(ref: ReferencePage): Promise<void> {
+  const q = new URLSearchParams({ window: 'refpage', src: ref.src, page: String(ref.page), title: ref.title });
+  const existing = await WebviewWindow.getByLabel(REF_PAGE_WINDOW_LABEL);
+  if (existing) {
+    await existing.setFocus();
+    await emit(REF_PAGE_SHOW, ref);
+    return;
+  }
+  // Taller than wide: these are book pages, and the PDF viewer's own
+  // toolbar takes a strip off the top.
+  const w = new WebviewWindow(REF_PAGE_WINDOW_LABEL, {
+    url: `index.html?${q.toString()}`,
+    title: `Foundation — ${ref.title}`,
+    width: 780,
+    height: 900,
+    minWidth: 360,
+    minHeight: 360,
+  });
+  w.once('tauri://error', (e) => console.error('Original-page window failed to open', e));
+}
+
+const REF_PAGE_SHOW = 'refpage:show';
+
+export function listenReferencePage(fn: (p: ReferencePage) => void): Promise<UnlistenFn> {
+  return listen<ReferencePage>(REF_PAGE_SHOW, (e) => fn(e.payload));
+}
+
+export function initialReferencePageFromUrl(): ReferencePage | null {
+  const q = new URLSearchParams(window.location.search);
+  const src = q.get('src');
+  if (!src) return null;
+  const page = Number(q.get('page'));
+  return {
+    src,
+    page: Number.isInteger(page) && page > 0 ? page : 1,
+    title: q.get('title') ?? 'Original page',
+  };
+}
+
 export function initialReferenceFromUrl(fallback: Reference): Reference {
   const q = new URLSearchParams(window.location.search);
   const book = q.get('book');

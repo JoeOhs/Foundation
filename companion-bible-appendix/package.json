@@ -1,0 +1,13 @@
+{
+  "name": "companion-bible-appendix-scraper",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Standalone data-prep script: scrapes E.W. Bullinger's 198 Companion Bible Appendixes from levendwater.org into a clean, importable JSON bundle for Foundation's Library. Not part of the Tauri app runtime.",
+  "scripts": {
+    "scrape": "node scrape.mjs"
+  },
+  "dependencies": {
+    "jsdom": "^25.0.1"
+  }
+}

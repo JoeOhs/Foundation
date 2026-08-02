@@ -1,20 +1,25 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
-  createLink, deleteSource, initDb, listBooks, listHighlighters, listSources, notesForChapter,
+  createLink, deleteSource, findAppendixEntry, initDb, listBooks, listHighlighters, listSources,
+  notesForChapter,
   removeHighlight, removeHighlightEntry, seedHighlightersIfEmpty, setHighlight, setHighlightEntry,
 } from './db';
 import { repairSeededTextsIfNeeded, seedIfEmpty } from './seed';
 import { seedTutorialNoteIfNeeded } from './tutorialNote';
-import Pane, { type HighlightWord, type PaneMode } from './components/Pane';
+import Pane, { type HighlightWord, type PaneHandle, type PaneMode } from './components/Pane';
 import SyncMenu, { type PaneGroup } from './components/SyncMenu';
 import NotesPanel from './components/NotesPanel';
 import SearchPanel from './components/SearchPanel';
 import ImportWizard from './components/ImportWizard';
 import LibraryPanel from './components/LibraryPanel';
-import ConcordancePanel from './components/ConcordancePanel';
+import FooterPanel, { footerTabForCategory, type FooterTab } from './components/FooterPanel';
+
 import ThemePicker from './components/ThemePicker';
 import ConfirmDialog from './components/ConfirmDialog';
 import { requestConfirm } from './confirmBus';
+import { BUNDLED_LIBRARY, type BundledLibraryEntry } from './library';
+import { COMPANION_APPENDIX_TITLE } from './companionAppendixImport';
+import { retireCompanionNotesTestSource } from './companionNotesImport';
 import { applyTheme, normalizeStoredTheme, systemDefaultTheme, type ThemeId } from './themes';
 import { applyReaderFont, normalizeStoredFont, type FontId } from './fonts';
 import { entryToMarkdown, versesToMarkdown } from './scripture';
@@ -24,9 +29,10 @@ import {
   onNotesNavigateEntry, openNotesWindow, queueInsertMarkdown,
 } from './notesbus';
 import { highlightBackground } from './components/Pane';
+import { isDedicatedPane } from './sourceRoles';
 import type {
-  Book, Highlighter, LinkEndpoint, Reference, SearchHit, SelectedEntry, SelectedVerse, Source,
-  StrongsSearchHit, VerseSelection,
+  Book, Highlighter, HoveredVerses, LinkEndpoint, Reference, SearchHit, SelectedEntry, SelectedVerse,
+  Source, StrongsSearchHit, VerseSelection,
 } from './types';
 
 function loadPref<T>(key: string, fallback: T): T {
@@ -73,6 +79,11 @@ export default function App() {
   const [selectedEntry, setSelectedEntry] = useState<SelectedEntry | null>(null);
   const [notedVerses, setNotedVerses] = useState<Set<number>>(new Set());
   const [highlightWord, setHighlightWord] = useState<HighlightWord | null>(null);
+  // The verse(s) under the cursor in any pane, so every other pane can mark
+  // the same reference. This is what ties a Companion Bible note (or an
+  // outline line covering a range) to the verse it annotates, in both
+  // directions, without touching scroll position.
+  const [hoveredVerses, setHoveredVerses] = useState<HoveredVerses | null>(null);
   const [highlighters, setHighlighters] = useState<Highlighter[]>([]);
   // bump to force panes to re-query persistent highlights
   const [highlightsVersion, setHighlightsVersion] = useState(0);
@@ -82,6 +93,9 @@ export default function App() {
   // no book/chapter/verse to format on the fly)
   const [pendingLink, setPendingLink] = useState<LinkEndpoint | null>(null);
   const [pendingLinkLabel, setPendingLinkLabel] = useState('');
+  // Transient status for work kicked off outside the Library panel — today,
+  // installing the Appendixes because a note's reference needed them.
+  const [busyMessage, setBusyMessage] = useState('');
 
   // note-anchor default = first selected verse; keys drive pane highlight
   const selection: VerseSelection | null = selectedVerses[0]
@@ -195,11 +209,12 @@ export default function App() {
   // notes moved to a separate window (session-only — not persisted, since a
   // relaunch has no popout window)
   const [notesPopped, setNotesPopped] = useState(false);
-  const [concordanceOpen, setConcordanceOpen] = useState<boolean>(() => loadPref('concordanceOpen', false));
-  // seq bumps on every send so the pane re-runs the lookup even when the
-  // same term is sent twice (the user may have searched something else in
-  // the pane in between).
   const [concordanceReq, setConcordanceReq] = useState<{ term: string; seq: number }>({ term: '', seq: 0 });
+  // ---------- study footer (concordance / dictionaries / commentaries) ----------
+  const [footerOpen, setFooterOpen] = useState<boolean>(() => loadPref('footerOpen', false));
+  const [footerTab, setFooterTab] = useState<FooterTab>(() => loadPref('footerTab', 'dictionary'));
+  const [footerHeight, setFooterHeight] = useState<number>(() => loadPref('footerHeight', 260));
+  // seq bumps per send so the same word can be looked up twice in a row
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchInitialQuery, setSearchInitialQuery] = useState<string | null>(null);
   const [importOpen, setImportOpen] = useState(false);
@@ -212,15 +227,16 @@ export default function App() {
 
   const sendToConcordance = (term: string) => {
     setConcordanceReq((prev) => ({ term, seq: prev.seq + 1 }));
-    setConcordanceOpen(true);
+    setFooterOpen(true);
+    setFooterTab('concordance');
   };
 
-  // Clicking a tagged word: if the docked concordance pane is already open,
-  // feed it in place; otherwise fall back to the search modal (which has an
-  // "open in pane" button for promoting the session to the docked view).
   const handleWordClick = (surfaceText: string) => {
-    if (concordanceOpen) sendToConcordance(surfaceText);
-    else openSearch(surfaceText);
+    if (footerOpen) {
+      sendToConcordance(surfaceText);
+    } else {
+      openSearch(surfaceText);
+    }
   };
 
   // Insert the currently selected verses (or the selected imported entry)
@@ -278,6 +294,7 @@ export default function App() {
   );
 
   const bodies = useRef<(HTMLDivElement | null)[]>([]);
+  const paneRefs = useRef<(PaneHandle | null)[]>([]);
   const activePane = useRef<number>(-1);
   const booted = useRef(false);
 
@@ -291,6 +308,7 @@ export default function App() {
         await initDb();
         await seedIfEmpty(setSplashMsg);
         await repairSeededTextsIfNeeded(setSplashMsg);
+        await retireCompanionNotesTestSource();
         await seedHighlightersIfEmpty();
         await seedTutorialNoteIfNeeded();
         setHighlighters(await listHighlighters());
@@ -364,7 +382,9 @@ export default function App() {
   useEffect(() => { savePref('paneGroups', paneGroups); }, [paneGroups]);
   useEffect(() => { savePref('groupBRef', groupBRef); }, [groupBRef]);
   useEffect(() => { savePref('notesOpen', notesOpen); }, [notesOpen]);
-  useEffect(() => { savePref('concordanceOpen', concordanceOpen); }, [concordanceOpen]);
+  useEffect(() => { savePref('footerOpen', footerOpen); }, [footerOpen]);
+  useEffect(() => { savePref('footerTab', footerTab); }, [footerTab]);
+  useEffect(() => { savePref('footerHeight', footerHeight); }, [footerHeight]);
   useEffect(() => { savePref('theme', themeOverride); }, [themeOverride]);
 
   // ---------- popped-out notes window sync ----------
@@ -487,8 +507,8 @@ export default function App() {
     // Imported (freeform) panes always navigate independently — never
     // let them join a Bible sync group (the SyncMenu already disables
     // this; guarded again here in case that's ever bypassed).
-    const isImportedPane = sources.find((s) => s.id === paneSourceIds[i])?.type !== 'bible';
-    if (isImportedPane && g !== 'solo') return;
+    const pane = sources.find((s) => s.id === paneSourceIds[i]);
+    if (pane && isDedicatedPane(pane) && g !== 'solo') return;
     // First pane to join B aligns B's reference to where Pane 1 is, so the
     // new group starts from a sensible place instead of a stale one.
     if (g === 'B' && !paneSourceIds.some((_, j) => j !== i && groupOf(j) === 'B')) {
@@ -498,10 +518,20 @@ export default function App() {
   };
 
   // ---------- scroll sync (within a group only) ----------
+  // Commentary panes follow their group's book/chapter but are left out of
+  // scroll sync in both directions: their content doesn't run parallel to
+  // the verse text (a Structure diagram is a block of outline lines with no
+  // verse numbers at all), so lining up scroll offsets by verse just yanks
+  // one pane or the other to an unrelated place.
+  const scrollSyncable = (i: number): boolean => {
+    const s = sources.find((x) => x.id === paneSourceIds[i]);
+    return s ? s.type === 'bible' : false;
+  };
+
   const handleScroll = (i: number) => {
     if (activePane.current !== i) return;
     const g = groupOf(i);
-    if (g === 'solo') return;
+    if (g === 'solo' || !scrollSyncable(i)) return;
     const el = bodies.current[i];
     if (!el) return;
     const verses = el.querySelectorAll<HTMLElement>('[data-verse]');
@@ -514,7 +544,7 @@ export default function App() {
     }
     if (topVerse === null) return;
     bodies.current.forEach((other, j) => {
-      if (j === i || !other || groupOf(j) !== g) return;
+      if (j === i || !other || groupOf(j) !== g || !scrollSyncable(j)) return;
       const target = other.querySelector<HTMLElement>(`[data-verse="${topVerse}"]`);
       if (target) other.scrollTop = target.offsetTop;
     });
@@ -573,9 +603,12 @@ export default function App() {
     if (paneSourceIds.length >= 4 || sources.length === 0) return;
     const bibles = sources.filter((s) => s.type === 'bible');
     const unused = bibles.find((s) => !paneSourceIds.includes(s.id)) ?? bibles[0] ?? sources[0];
-    const isImportedId = (id: number) => sources.find((s) => s.id === id)?.type !== 'bible';
+    const isDedicatedId = (id: number) => {
+      const s = sources.find((x) => x.id === id);
+      return s ? isDedicatedPane(s) : false;
+    };
     let insertAt = paneSourceIds.length;
-    while (insertAt > 0 && isImportedId(paneSourceIds[insertAt - 1])) insertAt--;
+    while (insertAt > 0 && isDedicatedId(paneSourceIds[insertAt - 1])) insertAt--;
     setPaneSourceIds((prev) => [...prev.slice(0, insertAt), unused.id, ...prev.slice(insertAt)]);
     setPaneFlex((prev) => [...prev.slice(0, insertAt), 1, ...prev.slice(insertAt)]);
     setPaneGroups((prev) => [...prev.slice(0, insertAt), 'A', ...prev.slice(insertAt)]);
@@ -587,7 +620,10 @@ export default function App() {
   // displace or get sandwiched between Bible panes. Always group 'solo':
   // they never join a sync group (see assignPaneGroup/SyncMenu), which
   // also keeps them out of the group-A scroll-reset/sync effects below.
-  const openImportedSource = (sourceId: number) => {
+  // The pane path itself, with no footer routing — also what the footer's
+  // own "Open as a pane" button calls to deliberately promote a dictionary
+  // out of the footer.
+  const openSourceAsPane = (sourceId: number) => {
     if (!paneSourceIds.includes(sourceId)) {
       if (paneSourceIds.length < 4) {
         setPaneSourceIds((prev) => [...prev, sourceId]);
@@ -602,6 +638,25 @@ export default function App() {
     setLibraryOpen(false);
   };
 
+  // Show the study footer on a given tab (installing/"opening" a footer
+  // work lands here rather than in a pane).
+  const openFooter = (tab: FooterTab) => {
+    setFooterTab(tab);
+    setFooterOpen(true);
+    setLibraryOpen(false);
+  };
+
+  // "Open" a source from the Library: footer works (dictionaries,
+  // devotionals) default to the study footer — the footer's own "Open as a
+  // pane" button is the explicit way to promote one into a pane — and
+  // everything else gets its dedicated pane.
+  const openImportedSource = (sourceId: number) => {
+    const source = sources.find((s) => s.id === sourceId);
+    const footerFor = source ? footerTabForCategory(source.category) : null;
+    if (footerFor) openFooter(footerFor);
+    else openSourceAsPane(sourceId);
+  };
+
   // Jump to a specific imported entry (from the Highlights/Links list, or
   // the popout) — opens/reuses that source's dedicated pane and scrolls to
   // the entry, selecting it so the action bar comes up immediately.
@@ -609,8 +664,10 @@ export default function App() {
   const scrollToEntry = (sourceId: number, entryId: number) => {
     const i = paneSourceIds.indexOf(sourceId);
     if (i === -1) return;
-    const el = bodies.current[i]?.querySelector<HTMLElement>(`[data-entry-id="${entryId}"]`);
-    el?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    // Delegates to the pane itself — it may need to switch chapters first
+    // (a chaptered dedicated source, e.g. the Companion Bible Appendixes,
+    // only has its current chapter's entries loaded/in the DOM at a time).
+    paneRefs.current[i]?.jumpToEntry(entryId);
   };
   const navigateToEntry = (sourceId: number, entryId: number, entry?: SelectedEntry) => {
     if (entry) selectEntry(entry);
@@ -639,6 +696,7 @@ export default function App() {
     setPaneFlex((prev) => prev.filter((_, j) => j !== i));
     setPaneGroups((prev) => prev.filter((_, j) => j !== i));
     bodies.current.splice(i, 1);
+    paneRefs.current.splice(i, 1);
   };
 
   const startResize = (i: number, e: React.MouseEvent) => {
@@ -710,10 +768,20 @@ export default function App() {
     setSources(await listSources());
   };
 
+  // Deletes a source's DB rows (cascading to its highlights/notes/links —
+  // deleteSource handles that at the DB layer) and closes its pane if
+  // open. Shared by the explicit "delete" action and by reinstalling a
+  // bundled work (which needs the old copy gone before the fresh one goes
+  // in). Does NOT refresh `sources` or bump highlight/link/note-dot state
+  // itself — callers that don't immediately reinstall must do that.
+  const removeSourceEverywhere = async (sourceId: number) => {
+    await deleteSource(sourceId);
+    const i = paneSourceIds.indexOf(sourceId);
+    if (i !== -1) closePane(i);
+  };
+
   // Delete an imported (freeform) source from the Library's "Imported
-  // texts" section — cascades to its highlights/notes/links (deleteSource
-  // handles that at the DB layer). Closes its pane if it's open, and
-  // refreshes every piece of state that could be showing its data.
+  // texts" section.
   const deleteImportedSourceHandler = async (sourceId: number) => {
     const src = sources.find((s) => s.id === sourceId);
     if (!src) return;
@@ -721,9 +789,7 @@ export default function App() {
       `Delete "${src.title}"? This also removes any highlights, notes, and links anchored to it. This can't be undone.`,
     )) return;
     try {
-      await deleteSource(sourceId);
-      const i = paneSourceIds.indexOf(sourceId);
-      if (i !== -1) closePane(i);
+      await removeSourceEverywhere(sourceId);
       await refreshSources();
       setHighlightsVersion((n) => n + 1);
       setLinksVersion((n) => n + 1);
@@ -734,6 +800,85 @@ export default function App() {
     } catch (e) {
       window.alert(`Couldn't delete this source: ${String(e)}`);
     }
+  };
+
+  // Install (or, if already installed, reinstall/repair) a bundled
+  // reference/commentary work from the Library — mirrors the Strong's
+  // add-on's "Reinstall / repair" behavior. A reinstall removes the old
+  // copy (and anything anchored to it) first, then installs fresh. Freeform
+  // works open straight into their own dedicated pane; verse-keyed ones just
+  // become available in the normal pane picker.
+  const installBundledSource = async (
+    entry: BundledLibraryEntry,
+    onProgress: (msg: string) => void,
+  ): Promise<void> => {
+    const existing = sources.find((s) => s.title === entry.title);
+    if (existing) {
+      onProgress('Removing previous install…');
+      await removeSourceEverywhere(existing.id);
+      setHighlightsVersion((n) => n + 1);
+      setLinksVersion((n) => n + 1);
+      emitHighlightsChanged();
+      emitLinksChanged();
+      await reloadNoteDots();
+      emitNotesChanged();
+    }
+    const sourceId = await entry.install(onProgress);
+    await refreshSources();
+    // Route by the entry's own category, not by looking the source up in
+    // `sources` — that state is stale in this closure (refreshSources just
+    // ran, but this render's array predates it), so a lookup would miss the
+    // brand-new source and drop a dictionary into a pane.
+    const footerFor = footerTabForCategory(entry.category);
+    if (footerFor) openFooter(footerFor);
+    // A verse-keyed work reads beside a translation, so it belongs in the
+    // normal pane picker — forcing it into a dedicated solo pane would take
+    // it straight back out of the sync group it's meant to join.
+    else if (!entry.verseKeyed) openSourceAsPane(sourceId);
+  };
+
+  // ---------- following Bullinger's cross-references ----------
+
+  // Scripture always lands in the main KJV pane: navigate() drives group A,
+  // which pane 1 leads. A reference to a book this translation doesn't have
+  // is ignored by navigateToVerse rather than half-navigating.
+  const followScriptureRef = (book: string, chapter: number, verse: number | null) => {
+    navigateToVerse(book, chapter, verse ?? 1);
+  };
+
+  // Appendix references need the Appendixes source present. If it isn't
+  // installed, offer to install it and continue to the reference afterwards
+  // — the reference is the reason the user is being asked at all.
+  const followAppendixRef = async (appendix: number, section: string | null) => {
+    let source = sources.find((s) => s.title === COMPANION_APPENDIX_TITLE);
+    if (!source) {
+      const entry = BUNDLED_LIBRARY.find((e) => e.title === COMPANION_APPENDIX_TITLE);
+      if (!entry) return;
+      const ok = await requestConfirm(
+        `Appendix ${appendix} is part of The Companion Bible Appendixes, which aren't installed yet.\n\n`
+        + 'Install them now? They ship with the app — this needs no internet connection.',
+        'Install',
+      );
+      if (!ok) return;
+      try {
+        setBusyMessage(`Installing ${COMPANION_APPENDIX_TITLE}…`);
+        await entry.install((msg) => setBusyMessage(msg));
+        const refreshed = await listSources();
+        setSources(refreshed);
+        source = refreshed.find((s) => s.title === COMPANION_APPENDIX_TITLE);
+      } catch (e) {
+        setBusyMessage('');
+        await requestConfirm(`Could not install the Appendixes: ${String(e)}`, 'OK');
+        return;
+      }
+      setBusyMessage('');
+    }
+    if (!source) return;
+    const target = await findAppendixEntry(source.id, appendix, section);
+    if (target === null) return;
+    // Opens the Appendixes' own pane if it isn't already showing, then
+    // scrolls to the paragraph.
+    navigateToEntry(source.id, target);
   };
 
   // ---------- keyboard shortcuts ----------
@@ -786,7 +931,7 @@ export default function App() {
           onAssign={assignPaneGroup}
         />
         <button onClick={() => openSearch()} title="Search (Ctrl+F)">🔍 Search</button>
-        <button onClick={() => setConcordanceOpen((v) => !v)} title="Toggle concordance pane">🔤 Concordance</button>
+        <button onClick={() => setFooterOpen((v) => !v)} title="Toggle the study footer (concordance, dictionaries, commentaries)">📚 Study</button>
         <button onClick={() => setLibraryOpen(true)} title="Download public domain texts">🌐 Library</button>
         <button onClick={() => setImportOpen(true)} title="Import a text">📥 Import</button>
         <button onClick={toggleNotes} title={notesPopped ? 'Notes are in a separate window' : 'Toggle notes panel'}>📝 Notes{notesPopped ? ' ⧉' : ''}</button>
@@ -800,12 +945,17 @@ export default function App() {
         />
       </div>
       <div className="main">
+        {/* Panes + study footer stack in a column so the footer spans only
+            as far as the reading panes — the Notes panel sits beside both,
+            never underneath the footer. */}
+        <div className="main-center">
         <div className="panes">
           {paneSourceIds.map((sid, i) => (
             <div key={i} style={{ display: 'contents' }}>
               {i > 0 && <div className="pane-resizer" onMouseDown={(e) => startResize(i, e)} />}
               <div style={{ display: 'flex', flex: `${flex[i]} 1 0%`, minWidth: 0 }}>
                 <Pane
+                  ref={(el) => { paneRefs.current[i] = el; }}
                   sources={sources}
                   sourceId={sid}
                   mode={paneModeOf(i)}
@@ -819,13 +969,17 @@ export default function App() {
                   notedVerses={notedVerses}
                   selectedEntryId={selectedEntry?.entryId ?? null}
                   highlightWord={highlightWord}
+                  hoveredVerses={hoveredVerses}
+                  onHoverVerses={setHoveredVerses}
+                  onScriptureRef={followScriptureRef}
+                  onAppendixRef={followAppendixRef}
                   onNavigate={(book, chapter) => handlePaneNavigate(i, book, chapter)}
                   onSelectVerses={selectVerses}
                   onSelectEntry={selectEntry}
                   onChangeSource={(id) => setPaneSource(i, id)}
                   sourceLocked={i === 0}
                   onClose={() => closePane(i)}
-                  canClose={paneSourceIds.length > 1}
+                  canClose={i !== 0 && paneSourceIds.length > 1}
                   onWordClick={handleWordClick}
                   bodyRef={(el) => {
                     bodies.current[i] = el;
@@ -844,13 +998,22 @@ export default function App() {
             </div>
           )}
         </div>
-        {concordanceOpen && (
-          <ConcordancePanel
-            request={concordanceReq}
-            onNavigate={goToStrongsHit}
-            onClose={() => setConcordanceOpen(false)}
+        {footerOpen && (
+          <FooterPanel
+            sources={sources}
+            tab={footerTab}
+            onSelectTab={setFooterTab}
+            height={footerHeight}
+            onResize={setFooterHeight}
+            onClose={() => setFooterOpen(false)}
+            concordanceRequest={concordanceReq}
+            onOpenAsPane={openSourceAsPane}
+            onScriptureRef={followScriptureRef}
+            onAppendixRef={followAppendixRef}
+            onConcordanceNavigate={goToStrongsHit}
           />
         )}
+        </div>
         {notesOpen && !notesPopped && (
           <NotesPanel
             refState={refState}
@@ -866,6 +1029,9 @@ export default function App() {
             linksVersion={linksVersion}
             onLinksChanged={() => setLinksVersion((n) => n + 1)}
           />
+        )}
+        {busyMessage && (
+          <div className="busy-bar">{busyMessage}</div>
         )}
         {(pendingLink || selectedEntry || (selectedVerses.length > 0 && selectedVerses.some((v) => v.text))) && (
           <div className="verse-action-bar">
@@ -928,6 +1094,7 @@ export default function App() {
           onInstalled={refreshSources}
           onOpenImported={openImportedSource}
           onDeleteImported={deleteImportedSourceHandler}
+          onInstallBundled={installBundledSource}
           onClose={() => setLibraryOpen(false)}
         />
       )}

@@ -1,0 +1,10 @@
+{
+  "name": "josephus-builder",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Standalone data-prep script: downloads Josephus's complete works in William Whiston's public-domain 1737 translation from Project Gutenberg and builds the importable JSON bundle for Foundation's Library. Not part of the Tauri app runtime.",
+  "scripts": {
+    "build": "node build.mjs"
+  }
+}

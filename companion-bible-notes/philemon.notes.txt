@@ -1,0 +1,88 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Philemon
+# Marginal (side) notes, to be read alongside the KJV text.
+#
+# Format:  VERSE | TEXT      —  verse 0 = a book-level introductory note
+#          [[heading: TEXT]] — the page's own heading over those notes
+#
+# COMPLETE: all 25 verses, plus the four introductory notes.
+#
+# ---------------------------------------------------------------------
+# Sources and how they were combined
+# ---------------------------------------------------------------------
+# All three supplied sources (HOCR, EPUB, PDF) are renderings of the SAME
+# Tesseract OCR pass over the Internet Archive scan `thecompanionbible_202504`
+# (printed pages 1820-1822, per the *_page_numbers.json). They therefore
+# agree on OCR errors, and cross-referencing them fixes reading order and
+# completeness rather than character accuracy:
+#
+#   - PDF  (`pdftotext -layout`) was the primary source: it alone preserves
+#     the two-column page, keeping the note column separate from the KJV
+#     column and in verse order.
+#   - EPUB was used to recover the bottom-of-page note blocks, which the
+#     PDF's column detection splits into interleaved fragments.
+#   - HOCR word bounding boxes were used to settle which column a stray
+#     fragment belonged to.
+#
+# ---------------------------------------------------------------------
+# Correction policy
+# ---------------------------------------------------------------------
+# Corrected (verifiable):
+#   - Bullinger's transliterated Greek, where OCR mangled it. A trailing
+#     omega is consistently misread as "d": epitassd -> epitasso,
+#     apotind -> apotino, proslamband -> proslambano, chorizd -> chorizo,
+#     apechd -> apecho, eucharisted -> eucharisteo. Also koininia ->
+#     koinonia, hoindnos -> koinonos, sunaichmalitos -> sunaichmalotos,
+#     kama -> hama, elpize -> elpizo, achrestos/euchrestos, choris,
+#     aneko, parrhesia, presbutes, Synecdoche.
+#     Greek is written in plain ASCII (no macrons), as elsewhere in this app.
+#   - Two appendix numbers, checked against the appendix titles already
+#     bundled in companion-bible-appendix/companion_bible_appendixes.json:
+#       "Ap. 185" on *agapetos*/*love* -> Ap. 135 ("Synonymous Words for
+#       'Love'"). Ap. 185 is "The Formulae of Baptism" and cannot be meant.
+#       "Ap. 182" on *acknowledging*/*knowing* -> Ap. 132 ("Synonymous
+#       Words for 'Know', 'Knowledge'"). Ap. 182 is "The Lord's Brethren".
+#   - Plain typographic slips: "Ap. 98. Li. 1" -> "Ap. 98. I. i. 1";
+#     "IIL" -> "III"; "Ay." -> "Ap."; "IL" -> "II"; "First oce." ->
+#     "First occ."; "Only bere" -> "Only here"; "conficerce" ->
+#     "confidence"; the verse number "5" OCR'd as "8" on the *love/faith*
+#     note.
+#
+# Left exactly as OCR'd (not confidently verifiable, so not guessed at):
+#   - "Ap. 98. VI. i. 8. 2. B" / "...2. A" — the "8" is likely a letter,
+#     but which one can't be confirmed from these scans.
+#   - "Ap. 151. II. Q. i." on *always*.
+#
+# Re-run `node build.mjs` after editing.
+
+[[heading: NOTES ON THE EPISTLE TO PHILEMON]]
+
+0 | All that we know of Philemon is to be gathered from the Epistle bearing his name. He seems to have been a believer at Colosse, from the references to certain in the church there (see Notes below), and must have been possessed of means (v. 22). Paul's words indicate that he held his friend in high esteem.
+0 | Onesimus is the Latinized form of the Greek Onesimos, which means "useful", or "profitable". He was a slave (v. 16), and, fleeing from his master, found his way to Rome, where he was, under Paul, led to become the Lord's freeman, and "called being a servant (slave)", he cared not for it, but was willing to return to his master's service, whether to continue as slave or as "brother beloved" (v. 16). Paul sends the letter by Onesimus.
+0 | From Col. 4. 9. we learn that Paul had sent unto the church at Colosse Tychicus "with Onesimus, a faithful and beloved brother, who is one of you". For other references, see Notes.
+0 | The Epistle was written during Paul's first imprisonment at Rome, probably in A.D. 62. In no one of his Epistles is more clearly shown the great heart of the apostle in his care for every member of the church. See 2 Cor. 11. 28, 29.
+
+1 | prisoner. Cp. Eph. 3. 1; 4. 1. 2 Tim. 1. 8. Jesus Christ = Christ Jesus. Ap. 98. XII. our = the. unto = to. dearly beloved. Gr. agapetos. Ap. 135. III. fellowlabourer. Gr. sunergos. See 1 Cor. 3. 9.
+2 | beloved. The texts read "sister". Apphia. Tradition says she was the wife of Philemon. Archippus. See Col. 4. 17. fellowsoldier. Only here and Phil. 2. 25, which see. church. Ap. 186. in. Gr. kata. Ap. 104. x. 2.
+3 | Grace. Gr. charis. Ap. 184. I. 1. from. Ap. 104. iv. God. Ap. 98. I. i. 1. Father. Ap. 98. III. Lord. Ap. 98. VI. i. 8. 2. B. Jesus Christ. Ap. 98. XI.
+4 | thank. Gr. eucharisteo. See Acts 27. 35. mention. Gr. mneia. See Rom. 1. 9, Eph. 1. 16. Elsewhere, 1 Thess. 1. 2. always. Ap. 151. II. Q. i. in. Gr. epi. Ap. 104. ix. 1. prayers. Gr. proseuche. Ap. 134. II. 2.
+5 | love = the love. Ap. 135. II. 1. faith = the faith. Ap. 150. II. 1. toward. Gr. pros. Ap. 104. xv. 3. Lord. Ap. 98. VI. i. 8. 2. A. Jesus. Ap. 98. X. toward. Gr. eis. Ap. 104. vi. saints = the saints. See Acts 9. 13.
+6 | That. Supply the ellipsis by "(Praying) that". communication = fellowship. Gr. koinonia. See Acts 2. 42. effectual. Gr. energes. See 1 Cor. 16. 9. Elsewhere, Heb. 4. 12. See Ap. 172. 4. by. Ap. 104. viii. acknowledging. Ap. 132. II. ii. in. Ap. 104. viii. you. The texts read "us". in. Gr. eis. Ap. 104. vi. Christ. Ap. 98. IX. Jesus. The texts omit.
+7 | we have. The texts read "I had". consolation. See Acts 4. 36. in. Ap. 104. ix. 2. bowels. See 2 Cor. 6. 12. are = have been. refreshed. See 1 Cor. 16. 18. by. Ap. 104. v. 1.
+8 | though... bold. Lit. having much boldness (Gr. parrhesia, freedom of speech). Cp. Acts 2. 29. enjoin = command. Gr. epitasso. convenient. Gr. aneko. See Eph. 5. 4.
+9 | Yet. Omit. for...sake. Ap. 104. v. 2. beseech. Ap. 134. I. 6. Cp. v. 7. aged. Gr. presbutes. See Tit. 2. 2. Elsewhere, Luke 1. 18. also, &c. = a prisoner also.
+10 | for. Ap. 104. xiii. 1. son. Ap. 108. i. have begotten = begat. Cp. Phil. 1. 12, 13.
+11 | unprofitable = not useful. Gr. achrestos. Only here. Fig. Meiosis. Ap. 6. profitable. Gr. euchrestos. See 2 Tim. 2. 21.
+12 | have. Omit. sent again = sent back. Ap. 174. 5. thou therefore receive. The texts omit, and read "sent again to thee". mine own bowels = as mine own self. Fig. Synecdoche. Ap. 6.
+13 | would, &c. = was minded (Ap. 102. 8) to retain. with. Ap. 104. xv. 3. that = in order that. Gr. hina. in...stead. Ap. 104. xvii. 1. might have, &c. = may minister. Ap. 190. III. 1. gospel. See Ap. 140.
+14 | without = apart from. Gr. choris. mind. Ap. 177. 2. would. Lit. was willing to. Ap. 102. 1. nothing. Gr. ouden. thy benefit. Lit. the good thing of thee. not. Ap. 105. II. it were. Omit. of. Ap. 104. x. 2. willingly = according to (Ap. 104. x. 2) free-will. Gr. hekousios. Only here. The adverb in Heb. 10. 26. 1 Pet. 5. 2.
+15 | perhaps. Gr. tacha. Only here and Rom. 5. 7. therefore = because of (Ap. 104. v. 2) this. departed = was separated. Gr. chorizo. First occ. Matt. 19. 6. for. Ap. 104. xv. 3. season. Lit. hour. Gr. hora. receive. Gr. apecho. See Matt. 6. 2. for ever. Ap. 151. II. B. iii.
+16 | Not now = No longer. Gr. ouketi. servant. Ap. 190. I. 2. above. Ap. 104. xvii. 2.
+17 | If. Ap. 118. 2. a. count. Lit. have. Gr. echo. partner = partaker. Gr. koinonos. See 1 Cor. 10. 18. receive. Gr. proslambano. "You have received me; receive him in addition, as myself." Cp. Rom. 15. 7.
+18 | hath. Omit. put... on... account. Gr. ellogeo. Only here and Rom. 5. 13 (imputed).
+19 | have written = wrote. repay. Gr. apotino. Only here. albeit = that. Gr. hina. how = that. owest... besides. Gr. prosopheilo. Only here.
+20 | let me have joy = may I profit. Gr. oninemi, the root-word from which comes onesimos. "Let me have profit from thee, seeing I am sending back Onesimus (profitable) to thee." the Lord. The texts read "Christ". Ap. 98. IX.
+21 | Having confidence. Ap. 150. I. 2. knowing. Ap. 132. I. i. also do more = do more also. more than = above (Ap. 104. xvii. 2) that which.
+22 | withal. Gr. hama. See Col. 4. 3. 1 Tim. 5. 13. me also = also for me. lodging. Gr. xenia. Only here and Acts 28. 23. trust = hope. Gr. elpizo. through. Ap. 104. v. 1. given = granted as a favour. Gr. charizomai. Ap. 184. II. 1.
+23 | salute = greet. Gr. aspazomai. Cp. Col. 4. 12. Epaphras. See Col. 1. 7. fellowprisoner. Gr. sunaichmalotos. See Rom. 16. 7. Christ Jesus. Ap. 98. XII.
+24 | Marcus. See Acts 12. 12, 25; 15. 37, 39. Col. 4. 10. 2 Tim. 4. 11. 1 Pet. 5. 13. Aristarchus. See Acts 19. 29; 20. 4; 27. 2. Col. 4. 10. Demas. See Col. 4. 14. 2 Tim. 4. 10. Lucas. See Col. 4. 14. 2 Tim. 4. 11; also Int. Notes to Luke's Gospel, especially the foot-note.
+25 | The grace, &c. Paul's constant benediction. with. Ap. 104. xi. 1. spirit. Ap. 101. II. 9.
