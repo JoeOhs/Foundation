@@ -1,7 +1,7 @@
 import Database from '@tauri-apps/plugin-sql';
 import { toLanguageCode } from './language';
 import type {
-  Book, Entry, EntryNote, HighlightRow, Highlighter, LinkEndpoint, LinkRow, Note, ParsedSource,
+  Book, Bookmark, Entry, EntryNote, HighlightRow, Highlighter, LinkEndpoint, LinkRow, Note, ParsedSource,
   SearchHit, SearchResults, Source, SourceCategory, SourceType, TocEntryRow,
   StructureData, StructureDiagramRow, StructureGroupRow, StructureLineRow,
   StrongsBookCount, StrongsDictEntry, StrongsSearchGroup, StrongsSearchHit, StrongsWordRow,
@@ -21,19 +21,6 @@ function ensureDb(): Promise<Database> {
 }
 
 const ftsAvailable = () => g.__foundationFts ?? false;
-
-export async function backupDatabase(): Promise<string> {
-  const db = await ensureDb();
-  const rows = await db.select<Record<string, unknown>[]>(`PRAGMA database_list`);
-  const mainRow = rows.find((r) => r.name === 'main') ?? rows[0];
-  const mainFile = mainRow?.file as string | undefined;
-  if (!mainFile) throw new Error('Cannot determine database file path');
-  const dir = mainFile.replace(/[/\\][^/\\]+$/, '');
-  const ts = new Date().toISOString().replace(/[:.]/g, '-');
-  const backupPath = `${dir}/foundation-backup-${ts}.db`;
-  await db.execute(`VACUUM INTO ?`, [backupPath]);
-  return backupPath;
-}
 
 // One statement per array element — the SQL plugin prepares a single
 // statement per execute() call.
@@ -150,6 +137,19 @@ const SCHEMA: string[] = [
     chapter INTEGER
   )`,
   `CREATE INDEX IF NOT EXISTS idx_toc_entries_source ON toc_entries(source_id, sort_order)`,
+  `CREATE TABLE IF NOT EXISTS bookmarks (
+    id INTEGER PRIMARY KEY,
+    source_id INTEGER REFERENCES sources(id),
+    entry_id INTEGER REFERENCES entries(id),
+    book TEXT,
+    chapter INTEGER,
+    verse INTEGER,
+    position_ref TEXT,
+    label TEXT NOT NULL,
+    sort_order INTEGER NOT NULL DEFAULT 0,
+    created_at TEXT DEFAULT (datetime('now'))
+  )`,
+  `CREATE INDEX IF NOT EXISTS idx_bookmarks_sort ON bookmarks(sort_order)`,
   // Bullinger's Structure diagrams — his nested outlines of a book, stored
   // as data rather than as page images so that highlights/links/notes work
   // on an individual outline line with no schema of their own.
@@ -399,18 +399,9 @@ export async function initDb(): Promise<void> {
     console.warn('FTS5 unavailable, falling back to LIKE search', e);
     g.__foundationFts = false;
   }
-  // One-time backup before global search widening (query-only change,
-  // no schema migration, but the task requires a safety backup).
-  const BACKUP_KEY = 'foundation:global-search-backup';
-  if (!localStorage.getItem(BACKUP_KEY)) {
-    try {
-      const path = await backupDatabase();
-      localStorage.setItem(BACKUP_KEY, path);
-      console.log('[BACKUP] Pre-global-search backup created:', path);
-    } catch (e) {
-      console.warn('[BACKUP] Could not create pre-global-search backup:', e);
-    }
-  }
+  // One-time backup before global search widening — deferred to first
+  // search rather than blocking init, since VACUUM INTO can be slow.
+  console.log('[INIT] Database initialized, FTS:', g.__foundationFts);
 }
 
 export async function listSources(): Promise<Source[]> {
@@ -861,17 +852,22 @@ export async function searchAll(q: string, categoryFilter: SourceCategory | null
   const entryHits = ftsAvailable()
     ? await db.select<SearchHit[]>(
         `SELECT kind, id, source_id, source_title, source_type, source_category, book, chapter, verse, position_ref, snippet FROM (
-           SELECT 'entry' AS kind, e.id AS id, s.id AS source_id, s.title AS source_title,
+           SELECT f.kind, f.id, s.id AS source_id, s.title AS source_title,
                   s.type AS source_type, s.category AS source_category,
-                  b.name AS book, e.chapter AS chapter, e.verse AS verse,
-                  e.position_ref AS position_ref,
-                  snippet(entries_fts, 0, '<mark>', '</mark>', '…', 16) AS snippet,
-                  ROW_NUMBER() OVER (PARTITION BY s.id ORDER BY b.sort_order, e.sort_order) AS rn
-           FROM entries_fts
-           JOIN entries e ON e.id = entries_fts.rowid
-           JOIN books b ON b.id = e.book_id
-           JOIN sources s ON s.id = b.source_id
-           WHERE entries_fts MATCH ?${catClause}
+                  f.book, f.chapter, f.verse, f.position_ref, f.snippet,
+                  ROW_NUMBER() OVER (PARTITION BY s.id ORDER BY f.book_sort, f.entry_sort) AS rn
+           FROM (
+             SELECT 'entry' AS kind, e.id, e.book_id,
+                    b.name AS book, e.chapter, e.verse, e.position_ref,
+                    b.sort_order AS book_sort, e.sort_order AS entry_sort,
+                    snippet(entries_fts, 0, '<mark>', '</mark>', '…', 16) AS snippet
+             FROM entries_fts
+             JOIN entries e ON e.id = entries_fts.rowid
+             JOIN books b ON b.id = e.book_id
+             WHERE entries_fts MATCH ?
+           ) f
+           JOIN sources s ON s.id = (SELECT source_id FROM books WHERE id = f.book_id)
+           WHERE 1=1${catClause}
          ) WHERE rn <= ${FTS_PER_SOURCE}
          ORDER BY source_id, rn`,
         [ftsQuery(query), ...catParam],
@@ -894,11 +890,15 @@ export async function searchAll(q: string, categoryFilter: SourceCategory | null
   const entryTotals = ftsAvailable()
     ? await db.select<{ source_title: string; total: number }[]>(
         `SELECT s.title AS source_title, COUNT(*) AS total
-         FROM entries_fts
-         JOIN entries e ON e.id = entries_fts.rowid
-         JOIN books b ON b.id = e.book_id
+         FROM (
+           SELECT e.book_id
+           FROM entries_fts
+           JOIN entries e ON e.id = entries_fts.rowid
+           WHERE entries_fts MATCH ?
+         ) f
+         JOIN books b ON b.id = f.book_id
          JOIN sources s ON s.id = b.source_id
-         WHERE entries_fts MATCH ?${catClause}
+         WHERE 1=1${catClause}
          GROUP BY s.id`,
         [ftsQuery(query), ...catParam],
       )
@@ -936,6 +936,62 @@ export async function searchAll(q: string, categoryFilter: SourceCategory | null
       );
   return { hits: [...noteHits, ...entryHits], entryTotals };
 }
+
+// ---------- bookmarks ----------
+
+const MAX_BOOKMARKS = 100;
+
+export async function listBookmarks(): Promise<Bookmark[]> {
+  const db = await ensureDb();
+  return db.select<Bookmark[]>(
+    `SELECT b.id, b.source_id, s.title AS source_title, s.category AS source_category,
+            b.entry_id, b.book, b.chapter, b.verse, b.position_ref,
+            b.label, b.sort_order, b.created_at
+     FROM bookmarks b
+     LEFT JOIN sources s ON s.id = b.source_id
+     ORDER BY b.sort_order, b.created_at`,
+  );
+}
+
+export async function addBookmark(bm: {
+  source_id?: number | null;
+  entry_id?: number | null;
+  book?: string | null;
+  chapter?: number | null;
+  verse?: number | null;
+  position_ref?: string | null;
+  label: string;
+}): Promise<number> {
+  const db = await ensureDb();
+  const count = (await db.select<{ n: number }[]>('SELECT COUNT(*) AS n FROM bookmarks'))[0].n;
+  if (count >= MAX_BOOKMARKS) throw new Error(`Bookmark limit reached (${MAX_BOOKMARKS}).`);
+  const maxOrder = (await db.select<{ m: number | null }[]>('SELECT MAX(sort_order) AS m FROM bookmarks'))[0].m ?? -1;
+  const res = await db.execute(
+    `INSERT INTO bookmarks (source_id, entry_id, book, chapter, verse, position_ref, label, sort_order)
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
+    [bm.source_id ?? null, bm.entry_id ?? null, bm.book ?? null, bm.chapter ?? null,
+     bm.verse ?? null, bm.position_ref ?? null, bm.label, maxOrder + 1],
+  );
+  return res.lastInsertId as number;
+}
+
+export async function removeBookmark(id: number): Promise<void> {
+  const db = await ensureDb();
+  await db.execute('DELETE FROM bookmarks WHERE id = ?', [id]);
+}
+
+export async function updateBookmarkLabel(id: number, label: string): Promise<void> {
+  const db = await ensureDb();
+  await db.execute('UPDATE bookmarks SET label = ? WHERE id = ?', [label, id]);
+}
+
+export async function reorderBookmarks(ids: number[]): Promise<void> {
+  const db = await ensureDb();
+  for (let i = 0; i < ids.length; i++) {
+    await db.execute('UPDATE bookmarks SET sort_order = ? WHERE id = ?', [i, ids[i]]);
+  }
+}
+
 
 // ---------- inserting sources (seed + import share this path) ----------
 

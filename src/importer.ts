@@ -794,6 +794,26 @@ export async function parseEpub(bytes: Uint8Array, baseName: string): Promise<Pa
       }
     }
 
+    // Split entries into chapters using top-level TOC boundaries so the
+    // pane only loads one section at a time instead of the entire book.
+    if (toc.length > 0) {
+      const topLevel = toc.reduce((m, t) => Math.min(m, t.level), Infinity);
+      const boundaries = toc
+        .filter((t) => t.level === topLevel && t.entryIndex >= 0)
+        .map((t) => t.entryIndex);
+      if (boundaries.length > 1) {
+        let chapter = 1;
+        let bi = 0;
+        for (let i = 0; i < entries.length; i++) {
+          if (bi < boundaries.length && i >= boundaries[bi]) {
+            chapter = bi + 1;
+            bi++;
+          }
+          entries[i].chapter = chapter;
+        }
+      }
+    }
+
     return {
       suggestedTitle,
       suggestedType: 'extra-biblical',

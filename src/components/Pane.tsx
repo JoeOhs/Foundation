@@ -106,8 +106,20 @@ interface PaneProps {
 
 // Imperative surface for jumping this pane to an arbitrary entry from
 // outside (a cross-reference, a Highlights/Links row) — see jumpToEntry.
+export interface PaneBookmarkInfo {
+  sourceId: number;
+  sourceTitle: string;
+  sourceCategory: string | null;
+  book: string | null;
+  chapter: number | null;
+  entryId: number | null;
+  positionRef: string | null;
+  label: string;
+}
+
 export interface PaneHandle {
   jumpToEntry: (entryId: number) => void;
+  getBookmarkInfo: () => PaneBookmarkInfo | null;
 }
 
 function Pane({
@@ -212,7 +224,33 @@ function Pane({
     }
   }, [entries, pendingScrollEntryId]);
 
-  useImperativeHandle(ref, () => ({ jumpToEntry }));
+  useImperativeHandle(ref, () => ({
+    jumpToEntry,
+    getBookmarkInfo: (): PaneBookmarkInfo | null => {
+      if (!source) return null;
+      if (navigable) {
+        return {
+          sourceId: source.id, sourceTitle: source.title,
+          sourceCategory: source.category, book: effectiveBook,
+          chapter: activeChapter, entryId: null, positionRef: null,
+          label: effectiveBook && activeChapter != null
+            ? `${effectiveBook} ${activeChapter}` : source.title,
+        };
+      }
+      const tocEntry = activeTocEntry;
+      const firstEntry = entries[0] ?? null;
+      return {
+        sourceId: source.id, sourceTitle: source.title,
+        sourceCategory: source.category,
+        book: effectiveBook, chapter: activeChapter,
+        entryId: tocEntry?.entry_id ?? firstEntry?.id ?? null,
+        positionRef: tocEntry?.title ?? firstEntry?.position_ref ?? null,
+        label: tocEntry?.title
+          ? `${source.title} — ${tocEntry.title}`
+          : source.title,
+      };
+    },
+  }));
 
   // Which TOC entry the pane is currently showing — only meaningful for a
   // chaptered source (e.g. the Companion Bible Appendixes, one chapter per
@@ -670,6 +708,12 @@ function Pane({
                   </option>
                 ))}
               </select>
+            )}
+            {(hasChapters || books.length > 1) && (
+              <>
+                <button className="icon" onClick={() => stepChapter(-1)} title="Previous section">◀</button>
+                <button className="icon" onClick={() => stepChapter(1)} title="Next section">▶</button>
+              </>
             )}
           </>
         ) : (

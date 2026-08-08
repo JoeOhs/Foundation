@@ -15,8 +15,8 @@ interface SearchPanelProps {
 type SearchScope = SourceCategory | 'all';
 
 const SCOPE_OPTIONS: { id: SearchScope; label: string }[] = [
-  { id: 'bible', label: 'Bibles' },
   { id: 'all', label: 'All sources' },
+  { id: 'bible', label: 'Bibles' },
   { id: 'commentary', label: 'Commentaries' },
   { id: 'reference', label: 'Reference' },
   { id: 'historical', label: 'Historical' },
@@ -93,6 +93,8 @@ export default function SearchPanel({ initialQuery, onNavigate, onNavigateStrong
       setLastSearched(q);
       setSearched(true);
       setHistory(pushSearchHistory(q));
+    } catch (e) {
+      console.error('[SEARCH ERROR]', e);
     } finally {
       setBusy(false);
     }

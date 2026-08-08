@@ -44,7 +44,8 @@ function notePreview(n: Note): string {
 
 export default function NotesPanel({
   refState, selection, entrySelection, onNotesChanged, onClose, onPopOut,
-  onNavigateVerse, onNavigateEntry, highlightsVersion, onHighlightsChanged, linksVersion, onLinksChanged, standalone,
+  onNavigateVerse, onNavigateEntry, highlightsVersion, onHighlightsChanged, linksVersion, onLinksChanged,
+  standalone,
 }: NotesPanelProps) {
   const [tab, setTab] = useState<'notes' | 'highlights' | 'links'>('notes');
   const [showFree, setShowFree] = useState(false);

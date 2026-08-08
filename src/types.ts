@@ -66,6 +66,21 @@ export interface Note {
   updated_at: string;
 }
 
+export interface Bookmark {
+  id: number;
+  source_id: number | null;
+  source_title: string | null;
+  source_category: SourceCategory | null;
+  entry_id: number | null;
+  book: string | null;
+  chapter: number | null;
+  verse: number | null;
+  position_ref: string | null;
+  label: string;
+  sort_order: number;
+  created_at: string;
+}
+
 export interface Reference {
   book: string;
   chapter: number;

@@ -9,6 +9,7 @@ import { seedTutorialNoteIfNeeded } from './tutorialNote';
 import Pane, { type HighlightWord, type PaneHandle, type PaneMode } from './components/Pane';
 import SyncMenu, { type PaneGroup } from './components/SyncMenu';
 import NotesPanel from './components/NotesPanel';
+import BookmarksTab from './components/BookmarksTab';
 import SearchPanel from './components/SearchPanel';
 import ImportWizard from './components/ImportWizard';
 import LibraryPanel from './components/LibraryPanel';
@@ -88,6 +89,7 @@ export default function App() {
   // bump to force panes to re-query persistent highlights
   const [highlightsVersion, setHighlightsVersion] = useState(0);
   const [linksVersion, setLinksVersion] = useState(0);
+  const [bookmarksVersion, setBookmarksVersion] = useState(0);
   // first endpoint of an in-progress link (null when not binding), plus a
   // display label for the "Linking X ↔" banner (an entry endpoint carries
   // no book/chapter/verse to format on the fly)
@@ -219,6 +221,18 @@ export default function App() {
   const [searchInitialQuery, setSearchInitialQuery] = useState<string | null>(null);
   const [importOpen, setImportOpen] = useState(false);
   const [libraryOpen, setLibraryOpen] = useState(false);
+  const [bookmarksOpen, setBookmarksOpen] = useState(false);
+
+  useEffect(() => {
+    if (!bookmarksOpen) return;
+    const onClick = (e: MouseEvent) => {
+      if (bookmarksWrapRef.current && !bookmarksWrapRef.current.contains(e.target as Node)) {
+        setBookmarksOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', onClick);
+    return () => document.removeEventListener('mousedown', onClick);
+  }, [bookmarksOpen]);
 
   const openSearch = (prefill?: string) => {
     setSearchInitialQuery(prefill ?? null);
@@ -298,6 +312,7 @@ export default function App() {
   const paneRefs = useRef<(PaneHandle | null)[]>([]);
   const activePane = useRef<number>(-1);
   const booted = useRef(false);
+  const bookmarksWrapRef = useRef<HTMLDivElement>(null);
 
   // ---------- boot ----------
   useEffect(() => {
@@ -506,6 +521,15 @@ export default function App() {
   };
 
   const paneReferenceOf = (i: number): Reference => (groupOf(i) === 'B' ? groupBRef : refState);
+
+  const getPaneBookmarkInfos = () => {
+    const infos: import('./components/Pane').PaneBookmarkInfo[] = [];
+    for (let i = 0; i < paneSourceIds.length; i++) {
+      const info = paneRefs.current[i]?.getBookmarkInfo();
+      if (info) infos.push(info);
+    }
+    return infos;
+  };
 
   const handlePaneNavigate = (i: number, book: string, chapter: number) => {
     if (groupOf(i) === 'B') setGroupBRef({ book, chapter });
@@ -944,6 +968,21 @@ export default function App() {
         <button onClick={() => setLibraryOpen(true)} title="Download public domain texts">🌐 Library</button>
         <button onClick={() => setImportOpen(true)} title="Import a text">📥 Import</button>
         <button onClick={toggleNotes} title={notesPopped ? 'Notes are in a separate window' : 'Toggle notes panel'}>📝 Notes{notesPopped ? ' ⧉' : ''}</button>
+        <div className="bookmarks-menu-wrap" ref={bookmarksWrapRef}>
+          <button onClick={() => setBookmarksOpen((v) => !v)} title="Bookmarks">🔖 Bookmarks</button>
+          {bookmarksOpen && (
+            <div className="bookmarks-dropdown">
+              <BookmarksTab
+                paneInfos={getPaneBookmarkInfos()}
+                onNavigateVerse={(book, chapter, verse) => { navigateToVerse(book, chapter, verse); setBookmarksOpen(false); }}
+                onNavigateEntry={(sourceId, entryId, entry) => { navigateToEntry(sourceId, entryId, entry); setBookmarksOpen(false); }}
+                onNavigateRef={(book, chapter) => { navigate(book, chapter); setBookmarksOpen(false); }}
+                version={bookmarksVersion}
+                onChanged={() => setBookmarksVersion((n) => n + 1)}
+              />
+            </div>
+          )}
+        </div>
         <ThemePicker
           currentTheme={theme}
           currentFont={readerFont}
