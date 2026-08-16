@@ -550,6 +550,37 @@ running list of what's done and what's next, not a commitment.
   none nested, none self-closing, and all sit inside a `<p>` — which is why
   stripping must precede paragraph extraction.
 
+  All 14 volumes now share **one importer generation**. The data-prep
+  scripts had drifted into seven variants and the importers into three, so
+  Vols 1–4 still showed doubled book names ("Editor's Preface — Editor's
+  Preface") and sat a TOC level deeper than the collapse rule intends, and
+  Vols 1–8 never got the label folding. Every `npnf1NN/build.mjs` and
+  `src/npnf1NNImport.ts` is now byte-identical bar its own constants and
+  provenance note (verified by hashing with ids and titles normalised away
+  — a single hash across all fourteen). Rebuilding Vols 1–11 through it:
+
+  - Vols 1–4 gain descriptive TOC titles. Their original builder preferred
+    `shorttitle`, which CCEL uses for truncated labels, so the City of God
+    read "Book I" / "Chapter 1" and now reads "Book I. Augustin censures the
+    pagans…" / "Chapter 1. Of the Adversaries…".
+  - Vol 1's Prolegomena collapses from four one-chapter works into one work
+    of four chapters (23 works → 19).
+  - Vols 2 and 4 drop their "Editor's Preface" group (13 paragraphs each).
+    Their own skip lists always named it, but a broken character class meant
+    the curly apostrophe never normalised. Vols 5–14 have excluded it all
+    along; this makes 2 and 4 agree. Reversible by dropping
+    `"editor's preface"` from `isSkippableDiv1`.
+  - Duplicate chapter titles in Vols 5, 6 and 7 are resolved by folding.
+
+  Note for any future re-import: `entries` carries FTS5 triggers, so a
+  volume can only be rebuilt from inside the app (the Tauri SQL plugin has
+  FTS5; a plain SQLite client does not). And the Library's reinstall path
+  deletes the source row and inserts a new one, so it does **not** preserve
+  `source_id` — any highlights, links or notes anchored to that volume are
+  cascaded away with it. Harmless while a volume carries no user data, but
+  it needs an in-place rebuild before re-importing anything a user has
+  annotated.
+
   Still open:
   - Series II (14 volumes, various authors) — the last open stage of the
     Church Fathers collection, not yet started. Expect another
