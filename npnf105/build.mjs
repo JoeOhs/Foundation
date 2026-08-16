@@ -2,15 +2,21 @@
 // Fathers, Series I, Volume 5 from CCEL, parses, strips footnotes, writes
 // npnf105.json for Foundation's compound-work import.
 //
-// PROVENANCE — NPNF Series I, Vol. 5: Augustine: Anti-Pelagian Writings.
+// PROVENANCE — NPNF Series I, Vol. 5:
+// Augustine: Anti-Pelagian Writings.
 // Edited by Philip Schaff. First published 1886–1889. Public domain.
 //
-// FOOTNOTES: Excluded (same as all prior patristic volumes).
+// FOOTNOTES: Excluded (same as all NPNF Series I volumes). Audited against
+// this volume rather than assumed: <note> is the only apparatus element, all
+// 3,717 are balanced, none nested and none self-closing, so the non-greedy
+// strip is safe; every one sits inside a <p>, so stripping must happen before
+// paragraph extraction. Three different <note> attribute conventions turn up
+// across Series I — `id,n,place` (most volumes), `id,n` (Vol. 10) and
+// `anchored,id,n,place` (Vol. 13) — so the strip is kept attribute-agnostic.
 //
-// STRUCTURE — this volume, like Vols 6–8, mixes two shapes in one file:
-// treatises whose div2s are Books (holding div3 chapters), and treatises
-// whose div2s ARE the chapters. See groupDiv2s() for how the two are told
-// apart; Vol. 2's one-work-per-div2 rule would shatter the latter shape.
+// STRUCTURE — mixes both shapes in one file: treatises whose div2s are
+// Books (holding div3 chapters) and treatises whose div2s ARE the chapters.
+// See groupDiv2s() for how the two are told apart.
 
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -130,6 +136,58 @@ function extractParagraphs(content) {
 
 function cleanTitle(raw) { return stripTags(raw).replace(/\s+/g, ' ').trim(); }
 
+// A sequence label — "Homily II", "Book VI", "Letter I" — as opposed to a
+// descriptive title. "Chapter" belongs here because Vol. 13's commentary on
+// Galatians numbers its sections that way where its homilies use "Homily".
+function isSequenceLabel(t) {
+  return /^(homily|homilies|letter|instruction|book|sermon|tractate|discourse|chapter|part)\s+[ivxlcdm\d]+\.?$/i.test(t);
+}
+
+// Folds a sequence label into a descriptive title, but only when it adds
+// something: a title that is already the label, or already opens with it,
+// is left alone.
+function foldSequenceLabel(title, label) {
+  if (!label) return title;
+  if (!title) return label;
+  if (isSequenceLabel(title)) return title;
+  if (normalizeForMatch(title).startsWith(normalizeForMatch(label))) return title;
+  return `${label}. ${title}`;
+}
+
+// Where a homily's number lives varies by volume, and two of them repeat
+// their `title` across consecutive homilies, so the number has to be found
+// or the TOC shows indistinguishable rows:
+//
+//   * Vol. 10  — number in `shorttitle` ("Homily II"), scripture in `title`
+//                ("Matthew I. 1.", repeated three times running).
+//   * Vol. 14  — `shorttitle` is empty and `title` repeats ("John 1.1" three
+//                times), but each homily's own first paragraph is its number
+//                ("Homily II."). That is text from the source, not a guess.
+//   * Vol. 13  — same as Vol. 14, one level deeper: its homilies are div3,
+//                titled by scripture range and each opening with its number.
+//                Those titles are already distinct, so folding is about
+//                reading consistently beside the other volumes, not rescuing
+//                ambiguity.
+//   * Vols. 9, 11, 12 — `title` already carries both, so this is a no-op.
+//
+// Applied at div2 and div3 alike, since which level holds a homily varies.
+function divTitle(div, paragraphs) {
+  const title = cleanTitle(div.title);
+  const short = cleanTitle(div.shorttitle);
+  if (short && !title) return short;
+  if (short && title === short) return title;
+
+  let label = isSequenceLabel(short) ? short : '';
+  if (!label) {
+    const lead = (paragraphs && paragraphs[0] ? paragraphs[0] : '').trim();
+    if (isSequenceLabel(lead)) label = lead.replace(/\.$/, '');
+  }
+  // "Homily I" in shorttitle vs "Homily 1" in title — prefer the shorttitle,
+  // whose numbering matches its siblings
+  if (label && isSequenceLabel(title) && short && isSequenceLabel(short)) return short;
+  return foldSequenceLabel(title || short, label);
+}
+
 function normalizeForMatch(t) {
   return t.toLowerCase().replace(/[‘’“”]/g, "'").replace(/[.\s]+$/, '').trim();
 }
@@ -138,6 +196,10 @@ function isSkippableDiv1(div) {
   const t = normalizeForMatch(div.title);
   if (t === '' || t === 'title page' || t === 'preface' || t === 'contents') return true;
   if (t === 'table of contents' || t === "editor's preface" || t === 'credits') return true;
+  // the series half-title boilerplate ("A SELECT LIBRARY / OF THE / NICENE
+  // AND…"), which Vol. 11 calls "Series Title Page" and Vol. 12 "Series
+  // Title" — not content either way
+  if (/^series title( page)?$/.test(t) || t === 'title page') return true;
   if (/\bindex(es)?\b/.test(t)) return true;
   return false;
 }
@@ -155,7 +217,9 @@ function isSkippableDiv2(title) {
 // argument. Kept (it's real content) but as its own single-chapter work, so
 // it doesn't get swept into the run of body chapters below it.
 function isFrontMatterDiv2(title) {
-  const t = normalizeForMatch(title);
+  // a leading "the" is incidental — Vol. 11 writes "The Argument" where
+  // Vol. 5 writes "Argument."
+  const t = normalizeForMatch(title).replace(/^the\s+/, '');
   return /^(preface|advertisement|argument|introduction|introductory (essay|note|notice))\b/.test(t)
     || /^(translator|editor|author)'s (preface|introductory note|introductory notice|note|notice)\b/.test(t)
     || /^(introductory note|note on the following work|extract from|retractations)\b/.test(t)
@@ -186,17 +250,17 @@ function isFrontMatterDiv2(title) {
 function groupDiv2s(div2s, sectionName) {
   const kept = [];
   for (const div2 of div2s) {
-    const title = cleanTitle(div2.title || div2.shorttitle);
-    if (!title || isSkippableDiv2(title)) continue;
-    const parts = splitDivs(div2.content, 3).map((div3) => ({
-      title: cleanTitle(div3.title || div3.shorttitle),
-      paragraphs: extractParagraphs(div3.content),
-    })).filter((p) => p.paragraphs.length > 0);
-    kept.push({
-      title,
-      parts,
-      paragraphs: parts.length > 0 ? [] : extractParagraphs(div2.content),
-    });
+    // skippability is judged on the source's own title, before any folding
+    const rawTitle = cleanTitle(div2.title || div2.shorttitle);
+    if (!rawTitle || isSkippableDiv2(rawTitle)) continue;
+    const parts = splitDivs(div2.content, 3).map((div3) => {
+      const div3Paragraphs = extractParagraphs(div3.content);
+      return { title: divTitle(div3, div3Paragraphs), paragraphs: div3Paragraphs };
+    }).filter((p) => p.paragraphs.length > 0);
+    const paragraphs = parts.length > 0 ? [] : extractParagraphs(div2.content);
+    const title = divTitle(div2, paragraphs);
+    if (!title) continue;
+    kept.push({ title, parts, paragraphs });
   }
 
   const nestedText = kept.reduce((n, d) => n + d.parts.reduce((m, p) => m + p.paragraphs.length, 0), 0);
@@ -215,13 +279,19 @@ function groupDiv2s(div2s, sectionName) {
           title,
           chapters: parts.map((p, i) => ({ number: i + 1, title: p.title || `Section ${i + 1}`, paragraphs: p.paragraphs })),
         });
+        continue;
+      }
+      // one chapter, div3 headings preserved as leading lines
+      const merged = [];
+      for (const p of parts) {
+        if (p.title) merged.push(p.title);
+        merged.push(...p.paragraphs);
+      }
+      // subdivided front matter (Vol. 10's Introductory Essay) still opens
+      // the section rather than becoming its first body chapter
+      if (isFrontMatterDiv2(title) && bodyChapters.length === 0) {
+        works.push({ title, chapters: [{ number: 1, title, paragraphs: merged }] });
       } else {
-        // one chapter, div3 headings preserved as leading lines
-        const merged = [];
-        for (const p of parts) {
-          if (p.title) merged.push(p.title);
-          merged.push(...p.paragraphs);
-        }
         bodyChapters.push({ number: bodyChapters.length + 1, title, paragraphs: merged });
       }
       continue;
