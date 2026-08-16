@@ -1,0 +1,10 @@
+{
+  "name": "npnf102-builder",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Standalone data-prep script: downloads Nicene and Post-Nicene Fathers, Series I, Vol. 2 from CCEL's public-domain ThML XML and builds the importable JSON bundle for Foundation's Library. Not part of the Tauri app runtime.",
+  "scripts": {
+    "build": "node build.mjs"
+  }
+}

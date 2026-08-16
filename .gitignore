@@ -37,3 +37,6 @@ skills-lock.json
 *.njsproj
 *.sln
 *.sw?
+
+# Purchased/licensed Bible license files (LCP credentials, non-public-domain)
+licensed-bibles/

@@ -1,4 +1,10 @@
-export type SourceType = 'bible' | 'commentary' | 'extra-biblical' | 'reference';
+// 'commentary' is a commentary read in a pane (the Companion Bible's notes);
+// 'footer-commentary' is one read in the study footer's Commentary tab as a
+// strip of verse cells under the reading panes (JFB). The two behave
+// differently enough — one occupies a pane, the other never can — that they
+// can't share a type; see sourceRoles.ts.
+export type SourceType =
+  | 'bible' | 'commentary' | 'footer-commentary' | 'extra-biblical' | 'reference';
 
 // How a source is filed in the Library panel. Deliberately separate from
 // `type`, which is *behavioural* — `type === 'bible'` drives pane roles,
@@ -45,9 +51,15 @@ export interface Entry {
   book_id: number;
   chapter: number | null;
   verse: number | null;
+  // For a verse-range entry, the verses it covers within its own chapter, in
+  // the notation versesInRefRange() parses ("5", "5-6", "18, 19-"). Shared by
+  // the Companion Bible's Structure lines and JFB's footer comments.
   position_ref: string | null;
   text: string;
   sort_order: number;
+  // The author's own section heading over this entry, where the source has
+  // one (JFB's "Ge 2:2-7. The First Sabbath."). Null for everything else.
+  heading: string | null;
 }
 
 // Notes anchor by canonical reference (book/chapter/verse) so a verse note
@@ -125,6 +137,8 @@ export interface ParsedEntry {
   verse: number | null;
   position_ref: string | null;
   text: string;
+  // Optional: only sources that carry their own section headings set it.
+  heading?: string | null;
 }
 
 export interface ParsedSource {

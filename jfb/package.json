@@ -1,0 +1,10 @@
+{
+  "name": "jfb-builder",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Standalone data-prep script: extracts the verse-anchored comment blocks from the CrossWire Bible Society's public-domain OSIS edition of the Jamieson, Fausset & Brown commentary (1871) and builds the importable JSON bundle for Foundation's Library. Not part of the Tauri app runtime.",
+  "scripts": {
+    "build": "node build.mjs"
+  }
+}

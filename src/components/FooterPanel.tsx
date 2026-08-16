@@ -1,9 +1,14 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { dictionaryLookup, hasStrongsData, strongsSmartSearch, type DictionaryHit } from '../db';
 import { clearSearchHistory, loadSearchHistory, pushSearchHistory } from '../searchHistory';
+import FooterCommentary from './FooterCommentary';
 import ReferenceText from './ReferenceText';
 import SmartSearchGroups from './SmartSearchGroups';
-import type { Source, SourceCategory, StrongsSearchGroup, StrongsSearchHit } from '../types';
+import { isFooterOnly } from '../sourceRoles';
+import type {
+  HoveredVerses, Reference, Source, SourceCategory, SourceType,
+  StrongsSearchGroup, StrongsSearchHit,
+} from '../types';
 
 export type FooterTab = 'concordance' | 'dictionary' | 'commentary';
 
@@ -25,8 +30,17 @@ const TABS: { id: FooterTab; label: string; empty: string }[] = [
   },
 ];
 
-export function footerTabForCategory(category: SourceCategory): FooterTab | null {
-  if (category === 'dictionary') return 'dictionary';
+// Which footer tab a source belongs in, or null if it belongs in a pane.
+//
+// Keyed on `type` as well as `category` because the two can't be read
+// separately here: JFB and the Companion Bible are both filed under
+// category 'commentary', but only the footer-commentary *type* belongs in
+// the footer — the Companion Bible reads in its own pane.
+export function footerTabForSource(
+  source: { type: SourceType; category: SourceCategory },
+): FooterTab | null {
+  if (source.type === 'footer-commentary') return 'commentary';
+  if (source.category === 'dictionary') return 'dictionary';
   return null;
 }
 
@@ -38,6 +52,12 @@ interface FooterPanelProps {
   onResize: (height: number) => void;
   onClose: () => void;
   concordanceRequest: { term: string; seq: number };
+  // Pane 1's reference — the Commentary tab follows it.
+  reference: Reference;
+  hoveredVerses: HoveredVerses | null;
+  onHoverVerses: (hovered: HoveredVerses | null) => void;
+  // The pane selection, which pins the Commentary tab's strip.
+  selectedVerses: HoveredVerses | null;
   onOpenAsPane: (sourceId: number) => void;
   onScriptureRef: (book: string, chapter: number, verse: number | null) => void;
   onAppendixRef: (appendix: number, section: string | null) => void;
@@ -57,7 +77,7 @@ let cachedConcordance: ConcordanceCache | null = null;
 
 export default function FooterPanel({
   sources, tab, onSelectTab, height, onResize, onClose,
-  concordanceRequest, onOpenAsPane,
+  concordanceRequest, onOpenAsPane, reference, hoveredVerses, onHoverVerses, selectedVerses,
   onScriptureRef, onAppendixRef, onConcordanceNavigate,
 }: FooterPanelProps) {
   // ---- dictionary state ----
@@ -65,6 +85,7 @@ export default function FooterPanel({
     () => sources.filter((s) => s.category === 'dictionary'),
     [sources],
   );
+  const footerCommentaries = useMemo(() => sources.filter(isFooterOnly), [sources]);
   const [dictionaryId, setDictionaryId] = useState<number | null>(null);
   const [query, setQuery] = useState('');
   const [letter, setLetter] = useState<string | null>(null);
@@ -318,7 +339,19 @@ export default function FooterPanel({
   let body: React.ReactNode;
   if (tab === 'concordance') body = concordanceBody;
   else if (tab === 'dictionary') body = dictionaryBody;
-  else body = <div className="pane-empty footer-empty">{emptyMessage}</div>;
+  else {
+    body = (
+      <FooterCommentary
+        sources={footerCommentaries}
+        reference={reference}
+        hoveredVerses={hoveredVerses}
+        onHoverVerses={onHoverVerses}
+        selectedVerses={selectedVerses}
+        onScriptureRef={onScriptureRef}
+        onAppendixRef={onAppendixRef}
+      />
+    );
+  }
 
   return (
     <div className="footer-panel" style={{ height }}>

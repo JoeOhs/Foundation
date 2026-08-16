@@ -86,8 +86,9 @@ running list of what's done and what's next, not a commitment.
   with the wide shape used for a parallel layout: the headword list reads
   beside its article, not above it. The Dictionary tab is live, shipping
   **Smith's Bible Dictionary (1884)** as a bundled Library work (~4,600
-  articles); Commentary and Devotional are placeholders until footer-shaped
-  content exists (the Companion Bible works keep their own panes).
+  articles). The Commentary tab is live too (see below); Devotional remains
+  a placeholder until footer-shaped content exists (the Companion Bible
+  works keep their own panes).
   Lookup is a case-insensitive headword prefix query (`dictionaryLookup` in
   `src/db.ts` — the headword lives in `entries.position_ref`, one book per
   initial letter, so the dictionary reuses the standard
@@ -107,6 +108,52 @@ running list of what's done and what's next, not a commitment.
   `smiths-dictionary/build.mjs` (standalone, run outside the app), which
   refuses any module not marked public domain and fails the build if any
   markup or fewer than ~4,000 entries survive parsing.
+- **Footer commentary: Jamieson, Fausset & Brown (1871).** The study
+  footer's Commentary tab, shipping **JFB** as a bundled Library work —
+  19,442 verse-anchored comments across all 66 books. A new source *type*,
+  `footer-commentary`, distinct from the `commentary` type the Companion
+  Bible's notes use: both are verse-keyed, but the Companion Bible reads in
+  its own pane while JFB is footer-only (`isFooterOnly` in
+  `src/sourceRoles.ts` keeps it out of every pane's source picker). Both
+  still file under the `commentary` *category* in the Library, which is
+  organisational only — so `footerTabForSource` routes on type, not
+  category, or the Companion Bible would be dragged into the footer.
+  The tab is a horizontal strip of verse cells scoped to Pane 1's chapter,
+  re-populating as you turn the page — read by scanning left-to-right in
+  verse order, deliberately not the Dictionary tab's headword-beside-article
+  shape. Hovering a verse in any reading pane marks and scrolls to its
+  comment cell (and back again) through the existing `hoveredVerses`
+  mechanism. **Clicking** a verse pins the strip to it: hover-follow alone
+  isn't readable, because moving the mouse from a verse down to its comment
+  drags the cursor across every verse in between, and each one scrolls the
+  comment away before you reach it. A pin marks its cells, holds position,
+  and suppresses hover entirely until released (✕ on the pin chip, or
+  clearing the pane selection). A selection landing on no comment doesn't
+  pin, so clicking an uncommented verse leaves the strip live rather than
+  freezing it on nothing. A comment covering a verse range is **one** entries row —
+  `entries.verse` holds the first verse covered, `entries.position_ref` the
+  whole range ("5-6") in the notation `versesInRefRange()` already parses for
+  Bullinger's Structure lines (moved to `src/scripture.ts` so both share it).
+  `buildChapterIndex` builds the verse → comments index once per chapter
+  load, not per hover. That index is what resolves **overlaps**: 2,713 verses
+  carry more than one comment (JFB comments on 1 Chr 1:4-23 and again on
+  1 Chr 1:12), and both are shown — the narrower nested inside the wider
+  one's cell. One new nullable column, `entries.heading`, carries JFB's own
+  section headings (1,275 of them, e.g. "Ge 2:2-7. The First Sabbath.")
+  as the label above a cell; no new tables.
+  **Provenance:** the CrossWire Bible Society's `jfb` OSIS module
+  (`DistributionLicense: Public Domain`, derived from CCEL's transcription);
+  all three authors died over a century ago. Built by `jfb/build.mjs`
+  (standalone, run outside the app), which refuses any module not marked
+  public domain, parses the file as a flat milestone stream rather than a DOM
+  tree (comments cross `<p>` boundaries — Genesis 2:1 spans three
+  paragraphs), and fails loudly on any `osisID` it can't parse.
+  **Excluded, deliberately:** both introductions, both of David Brown's
+  chronological tables (Parables, Miracles), the per-book introductions and
+  the OSIS header — none is verse-anchored, so none can be placed in a
+  verse-keyed footer. Logged block by block to `jfb/jfb-exclusions.txt`
+  (571 blocks, ~708 KB), same audit-trail standard as the Josephus
+  footnote-exclusion and ANF Vol. 10 precedents.
 - **Open source** — MIT-licensed (see `LICENSE`). The license covers the app
   only; imported/downloaded texts keep their own license status.
 - **KJV + Strong's numbers, with smart search.** An optional Library add-on
@@ -123,7 +170,17 @@ running list of what's done and what's next, not a commitment.
   Strong's-tagged words render as individually clickable spans (click one to
   search every other occurrence of that same original word); words with no
   match (untranslated particles, or any non-KJV/non-tagged source) render
-  exactly as before. Schema: `strongs_words` / `strongs_dict` in `src/db.ts`.
+  exactly as before. A click looks the word up by its own Strong's
+  number(s), not by its English text — going through the English surface
+  ranked every original word sharing that rendering by frequency, so
+  clicking "unto God" (H410) in Gen 35:1 led with H430 and reported a count
+  that shifted with the tagged span rather than the word. Spans are located
+  with punctuation folded (typographic apostrophes, en-dashes), which the
+  source and the seeded text disagree on; that recovers ~2,700 otherwise
+  unclickable tagged words. The ~2,000 spans still unmatched are a
+  versification difference — the source puts those words in a neighbouring
+  verse — and fall back to plain text, since verse text is never rebuilt
+  from tags. Schema: `strongs_words` / `strongs_dict` in `src/db.ts`.
   The grouped view also docks as a **Concordance pane** (🔤) beside the Bible
   panes, scrolling in isolation, fed by word clicks when open — with the
   search modal as the lighter-weight default when it's closed, including an
@@ -138,7 +195,15 @@ running list of what's done and what's next, not a commitment.
 - **Themes + reader fonts.** Six CSS-variable themes (`src/themes.css`,
   spec in `THEMES.md`) with per-theme gradient shells, and a curated set of
   system reader fonts — both in the 🎨 Appearance popover with live hover
-  preview, alongside a text-size slider.
+  preview, alongside a text-size slider. **Texture system** implemented
+  per THEMES.md § "Texture & depth": shared SVG feTurbulence grain overlay
+  on `body::after`, per-theme grain tuning (Obsidian brushed-metal lines,
+  Midnight frosted-glass modals, Sunset heat-shimmer tint, Emerald edge
+  vignette, Nova warm paper-grain shadows), Cosmic drift gated by
+  `--texture-opacity`, and a global "Enhanced depth" toggle in the
+  Appearance popover (`data-texture="off"` on `<html>`, persisted via
+  `loadPref`/`savePref`). Auto-defaults to off when `prefers-reduced-motion`
+  or `prefers-contrast: more` is set.
 - **Highlighters.** Labeled, editable palette (`highlighters` table) applied
   to verses (`highlights`, one color per canonical verse, unique-indexed
   upsert) from the reader action bar. Highlights persist and render across
@@ -156,8 +221,11 @@ running list of what's done and what's next, not a commitment.
   `src/components/NoteEditor.tsx`). Shift+click selects verse ranges in the
   reader and inserts them as scripture blockquotes (`src/scripture.ts`).
   Import legacy notes from Markdown/text/RTF/HTML — converted to Markdown
-  (`src/notesconvert.ts`) — and export all notes to one Markdown file
-  (Rust `write_file_text` command). The panel pops out into a second Tauri
+  (`src/notesconvert.ts`) — and export to one Markdown file (Rust
+  `write_file_text` command) through a picker
+  (`src/components/NoteExportDialog.tsx`) that groups notes by anchor and
+  starts fully selected, so exporting everything stays one click while any
+  subset is a few checkboxes. The panel pops out into a second Tauri
   window (`?window=notes` → `src/NotesWindow.tsx`), sharing the database and
   staying live-synced over cross-window events (`src/notesbus.ts`).
 
@@ -406,10 +474,88 @@ running list of what's done and what's next, not a commitment.
   Filed in the Library under "Church Fathers" → "Ante-Nicene Fathers" (series
   sub-grouping).
 
-- **Church Fathers — Nicene and Post-Nicene Fathers (Series I and II).**
-  28 volumes total (14 per series). Not yet started — the next open stage
-  of the Church Fathers collection. Same `patristic` category, separate
-  series sub-groups ("Nicene and Post-Nicene Fathers, Series I" / "Series II").
+- **Church Fathers — Nicene and Post-Nicene Fathers, Series I: COMPLETE (Vols. 1–14).**
+  - Vol. 1 — Augustine: Prolegomena, Confessions, Letters (4 sections, 23 works, ~2,915 para)
+  - Vol. 2 — Augustine: City of God, On Christian Doctrine (4 sections, 32 works, ~2,448 para)
+  - Vol. 3 — Augustine: On the Holy Trinity, Doctrinal Treatises, Moral Treatises (4 sections, 18 works, ~1,580 para)
+  - Vol. 4 — Augustine: Anti-Manichaean Writings, Anti-Donatist Writings (3 sections, 17 works, ~2,361 para)
+  - Vol. 5 — Augustine: Anti-Pelagian Writings (18 sections, 54 works, ~2,464 para)
+  - Vol. 6 — Augustine: Sermon on the Mount, Harmony of the Gospels, Homilies on the Gospels (4 sections, 11 works, ~1,955 para)
+  - Vol. 7 — Augustine: Homilies on the Gospel of John, Homilies on the First Epistle of John, Soliloquies (3 sections, 5 works, ~1,652 para)
+  - Vol. 8 — Augustine: Expositions on the Psalms (1 section, 3 works, ~2,940 para)
+  - Vol. 9 — Chrysostom: On the Priesthood, Ascetic Treatises, Select Homilies and Letters, Homilies on the Statues (17 sections, 28 works, ~1,191 para)
+  - Vol. 10 — Chrysostom: Homilies on the Gospel of St. Matthew (2 sections, 4 works, ~4,682 para)
+  - Vol. 11 — Chrysostom: Homilies on the Acts of the Apostles and the Epistle to the Romans (5 sections, 7 works, ~1,437 para)
+  - Vol. 12 — Chrysostom: Homilies on First and Second Corinthians (2 sections, 3 works, ~2,908 para)
+  - Vol. 13 — Chrysostom: Homilies on Galatians through Philemon (4 sections, 14 works, ~3,373 para)
+  - Vol. 14 — Chrysostom: Homilies on the Gospel of St. John, Homilies on Hebrews (3 sections, 7 works, ~3,892 para)
+
+  Each installed from a bundled JSON built by `npnf1NN/build.mjs` from CCEL's
+  public-domain ThML XML. Same compound-work + nested toc_entries pattern as
+  Ante-Nicene Fathers: one `patristic` source per volume, Section → Work →
+  Chapter TOC hierarchy adapted to each work's actual structure (Augustine's
+  Confessions has Books with Chapters; Letters is a flat list). Schaff's
+  editorial footnotes excluded. Filed in the Library under "Church Fathers" →
+  "Nicene and Post-Nicene Fathers, Series I" (series sub-grouping).
+
+  Vols. 5–8 needed a structural rule Vols. 1–4 did not. Those volumes mix
+  treatises whose div2s are Books (holding div3 chapters) with works whose
+  div2s *are* the chapters — Vol. 7's 125 Tractates on John, Vol. 6's 97
+  Sermons, Vol. 8's 150 Psalm expositions. Vol. 2's one-work-per-div2 rule
+  would have shattered those into dozens of one-chapter works, so
+  `groupDiv2s()` decides by where the body text actually lives: mostly inside
+  div3s means a Book container, mostly held directly by div2s means a flat
+  run that becomes one work's chapters. The count of div3-bearing div2s is
+  *not* a usable signal — four Psalms are internally subdivided (Psalm CXIX
+  into its 22 acrostic stanzas), and those stay one chapter each with the
+  stanza headings kept inline, so Vol. 8 lands as exactly 150 expositions,
+  Psalm I–CL.
+
+  The Chrysostom volumes (9–11) are a third structural shape, and a flatter
+  one: there is no div3 anywhere in them. A div1 is a work and a div2 is a
+  Book, Letter, Instruction or Homily holding its text directly, so the
+  natural depth is Work → Homily rather than Augustine's Book → Chapter.
+  `groupDiv2s()` lands on that unchanged, but the importer now drops the
+  group header when a section holds exactly one work of its own name (Vol.
+  11's 55 homilies on Acts), which would otherwise render the same title
+  twice — once as a disabled header, once as the work beneath it — and push
+  homilies a level deeper than they need.
+
+  Vols. 12–14 kept the flat shape except Vol. 13, the one volume in the
+  series with div3 throughout: its ten epistles are not ten div1s but three,
+  matching the original three-part publication (Galatians+Ephesians;
+  Philippians+Colossians+Thessalonians; Timothy+Titus+Philemon), with div2 an
+  epistle and div3 a homily. `groupDiv2s()` reads that as a Book container
+  and gives every epistle its own work, so all ten stay delineated.
+
+  Where a homily's number lives is the thing that varied most, and
+  `divTitle()` — applied at div2 and div3 alike, since which level holds a
+  homily also varies — handles the three cases found:
+  - **Vol. 10** puts the sequence in `shorttitle` ("Homily II") and the
+    scripture in `title` ("Matthew I. 1.", repeated three times running).
+  - **Vol. 14** leaves `shorttitle` empty and repeats `title` ("John 1.1"
+    three times), so neither attribute distinguishes its homilies. The number
+    comes from each homily's own opening paragraph ("Homily II.") — source
+    text, not inference. 88 John homilies, zero duplicate titles after
+    folding.
+  - **Vols. 9, 11, 12** already carry both in `title`; **Vol. 13**'s 114
+    scripture-range titles are distinct already, so folding there is about
+    reading consistently beside the others, not rescuing ambiguity.
+
+  Footnote conventions are likewise not uniform — three turned up across the
+  series: `<note id n place>` (most volumes), `<note id n>` (Vol. 10) and
+  `<note anchored id n place>` (Vol. 13). The strip is attribute-agnostic so
+  none of it broke, but every volume was audited rather than assumed: in all
+  fourteen `<note>` is the only apparatus element, every one is balanced,
+  none nested, none self-closing, and all sit inside a `<p>` — which is why
+  stripping must precede paragraph extraction.
+
+  Still open:
+  - Series II (14 volumes, various authors) — the last open stage of the
+    Church Fathers collection, not yet started. Expect another
+    structural-discovery pass: Series II spans many authors (Eusebius,
+    Socrates, Sozomen, Theodoret, Jerome, Gregory, Basil…) rather than the
+    two of Series I, so shape variance is likelier to be wider, not narrower.
 
 ## Longer-term / exploratory
 

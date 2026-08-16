@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useState } from 'react';
 import { hasStrongsData } from '../db';
 import { languageName } from '../language';
+import { footerTabForSource } from './FooterPanel';
+import { isFooterOnly } from '../sourceRoles';
 import {
   BUNDLED_LIBRARY, LIBRARY_ADDONS, LIBRARY_MANIFEST, SERIES_NOTES, addonRequirementMet, downloadAndInstall,
   type BundledLibraryEntry, type LibraryAddon, type LibraryEntry,
@@ -248,7 +250,11 @@ export default function LibraryPanel({
     const installed = !!row.source;
     // A verse-keyed work is picked in an ordinary Bible pane, so pushing it
     // into a dedicated pane would be wrong; only freeform works get "Open".
-    const canOpen = installed && row.source && row.source.is_verse_keyed === 0;
+    // A footer commentary is the exception: it's verse-keyed but appears in
+    // no pane picker at all, so without this its only route back after
+    // install would be to find the right footer tab by hand.
+    const canOpen = installed && row.source
+      && (row.source.is_verse_keyed === 0 || isFooterOnly(row.source));
     return (
       <div className="note-card library-row" key={row.key}>
         <div className="note-title">{row.title}</div>
@@ -264,7 +270,7 @@ export default function LibraryPanel({
         <div className="note-actions">
           {canOpen && row.source && (
             <button onClick={() => onOpenImported(row.source!.id)}>
-              {row.category === 'dictionary' || row.category === 'devotional'
+              {footerTabForSource(row.source)
                 ? 'Open in the study footer'
                 : 'Open in a pane'}
             </button>

@@ -16,7 +16,22 @@ import { ANF07_TITLE, installANF07 } from './anf07Import';
 import { ANF08_TITLE, installANF08 } from './anf08Import';
 import { ANF09_TITLE, installANF09 } from './anf09Import';
 import { JOSEPHUS_TITLE, installJosephus } from './josephusImport';
+import { NPNF101_TITLE, installNPNF101 } from './npnf101Import';
+import { NPNF102_TITLE, installNPNF102 } from './npnf102Import';
+import { NPNF103_TITLE, installNPNF103 } from './npnf103Import';
+import { NPNF104_TITLE, installNPNF104 } from './npnf104Import';
+import { NPNF105_TITLE, installNPNF105 } from './npnf105Import';
+import { NPNF106_TITLE, installNPNF106 } from './npnf106Import';
+import { NPNF107_TITLE, installNPNF107 } from './npnf107Import';
+import { NPNF108_TITLE, installNPNF108 } from './npnf108Import';
+import { NPNF109_TITLE, installNPNF109 } from './npnf109Import';
+import { NPNF110_TITLE, installNPNF110 } from './npnf110Import';
+import { NPNF111_TITLE, installNPNF111 } from './npnf111Import';
+import { NPNF112_TITLE, installNPNF112 } from './npnf112Import';
+import { NPNF113_TITLE, installNPNF113 } from './npnf113Import';
+import { NPNF114_TITLE, installNPNF114 } from './npnf114Import';
 import { SMITHS_TITLE, installSmiths } from './smithsImport';
+import { JFB_TITLE, installJfb } from './jfbImport';
 import { importKjvStrongs } from './strongsImport';
 import type { ParsedSource, Source, SourceCategory, SourceType } from './types';
 
@@ -460,6 +475,216 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
     install: installANF09,
   },
   {
+    id: 'npnf101',
+    title: NPNF101_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'patristic',
+    series: 'Nicene and Post-Nicene Fathers, Series I',
+    license: 'public domain',
+    licenseDetail:
+      'Nicene and Post-Nicene Fathers, Series I, Vol. 1. Edited by Philip Schaff (first published ' +
+      '1886, Buffalo, NY, by the Christian Literature Publishing Co.). Editor deceased 1893; text in ' +
+      'the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf101). ' +
+      'Editorial footnotes excluded. Built by npnf101/build.mjs.',
+    install: installNPNF101,
+  },
+  {
+    id: 'npnf102',
+    title: NPNF102_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'patristic',
+    series: 'Nicene and Post-Nicene Fathers, Series I',
+    license: 'public domain',
+    licenseDetail:
+      'Nicene and Post-Nicene Fathers, Series I, Vol. 2. Edited by Philip Schaff (first published ' +
+      '1886–1889, Buffalo, NY, by the Christian Literature Publishing Co.). Editor deceased 1893; text ' +
+      'in the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf102). ' +
+      'Editorial footnotes excluded. Built by npnf102/build.mjs.',
+    install: installNPNF102,
+  },
+  {
+    id: 'npnf103',
+    title: NPNF103_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'patristic',
+    series: 'Nicene and Post-Nicene Fathers, Series I',
+    license: 'public domain',
+    licenseDetail:
+      'Nicene and Post-Nicene Fathers, Series I, Vol. 3. Edited by Philip Schaff (first published ' +
+      '1886–1889, Buffalo, NY, by the Christian Literature Publishing Co.). Editor deceased 1893; text ' +
+      'in the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf103). ' +
+      'Editorial footnotes excluded. Built by npnf103/build.mjs.',
+    install: installNPNF103,
+  },
+  {
+    id: 'npnf104',
+    title: NPNF104_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'patristic',
+    series: 'Nicene and Post-Nicene Fathers, Series I',
+    license: 'public domain',
+    licenseDetail:
+      'Nicene and Post-Nicene Fathers, Series I, Vol. 4. Edited by Philip Schaff (first published ' +
+      '1886–1889, Buffalo, NY, by the Christian Literature Publishing Co.). Editor deceased 1893; text ' +
+      'in the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf104). ' +
+      'Editorial footnotes excluded. Built by npnf104/build.mjs.',
+    install: installNPNF104,
+  },
+  {
+    id: 'npnf105',
+    title: NPNF105_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'patristic',
+    series: 'Nicene and Post-Nicene Fathers, Series I',
+    license: 'public domain',
+    licenseDetail:
+      'Nicene and Post-Nicene Fathers, Series I, Vol. 5. Edited by Philip Schaff (first published ' +
+      '1886–1889, Buffalo, NY, by the Christian Literature Publishing Co.). Editor deceased 1893; text ' +
+      'in the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf105). ' +
+      'Editorial footnotes excluded. Built by npnf105/build.mjs.',
+    install: installNPNF105,
+  },
+  {
+    id: 'npnf106',
+    title: NPNF106_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'patristic',
+    series: 'Nicene and Post-Nicene Fathers, Series I',
+    license: 'public domain',
+    licenseDetail:
+      'Nicene and Post-Nicene Fathers, Series I, Vol. 6. Edited by Philip Schaff (first published ' +
+      '1886–1889, Buffalo, NY, by the Christian Literature Publishing Co.). Editor deceased 1893; text ' +
+      'in the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf106). ' +
+      'Editorial footnotes excluded. Built by npnf106/build.mjs.',
+    install: installNPNF106,
+  },
+  {
+    id: 'npnf107',
+    title: NPNF107_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'patristic',
+    series: 'Nicene and Post-Nicene Fathers, Series I',
+    license: 'public domain',
+    licenseDetail:
+      'Nicene and Post-Nicene Fathers, Series I, Vol. 7. Edited by Philip Schaff (first published ' +
+      '1886–1889, Buffalo, NY, by the Christian Literature Publishing Co.). Editor deceased 1893; text ' +
+      'in the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf107). ' +
+      'Editorial footnotes excluded. Built by npnf107/build.mjs.',
+    install: installNPNF107,
+  },
+  {
+    id: 'npnf108',
+    title: NPNF108_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'patristic',
+    series: 'Nicene and Post-Nicene Fathers, Series I',
+    license: 'public domain',
+    licenseDetail:
+      'Nicene and Post-Nicene Fathers, Series I, Vol. 8. Edited by Philip Schaff (first published ' +
+      '1886–1889, Buffalo, NY, by the Christian Literature Publishing Co.). Editor deceased 1893; text ' +
+      'in the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf108). ' +
+      'Editorial footnotes excluded. Built by npnf108/build.mjs.',
+    install: installNPNF108,
+  },
+  {
+    id: 'npnf109',
+    title: NPNF109_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'patristic',
+    series: 'Nicene and Post-Nicene Fathers, Series I',
+    license: 'public domain',
+    licenseDetail:
+      'Nicene and Post-Nicene Fathers, Series I, Vol. 9. Edited by Philip Schaff (first published ' +
+      '1886–1889, Buffalo, NY, by the Christian Literature Publishing Co.). Editor deceased 1893; text ' +
+      'in the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf109). ' +
+      'Editorial footnotes excluded. Built by npnf109/build.mjs.',
+    install: installNPNF109,
+  },
+  {
+    id: 'npnf110',
+    title: NPNF110_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'patristic',
+    series: 'Nicene and Post-Nicene Fathers, Series I',
+    license: 'public domain',
+    licenseDetail:
+      'Nicene and Post-Nicene Fathers, Series I, Vol. 10. Edited by Philip Schaff (first published ' +
+      '1886–1889, Buffalo, NY, by the Christian Literature Publishing Co.). Editor deceased 1893; text ' +
+      'in the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf110). ' +
+      'Editorial footnotes excluded. Built by npnf110/build.mjs.',
+    install: installNPNF110,
+  },
+  {
+    id: 'npnf111',
+    title: NPNF111_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'patristic',
+    series: 'Nicene and Post-Nicene Fathers, Series I',
+    license: 'public domain',
+    licenseDetail:
+      'Nicene and Post-Nicene Fathers, Series I, Vol. 11. Edited by Philip Schaff (first published ' +
+      '1886–1889, Buffalo, NY, by the Christian Literature Publishing Co.). Editor deceased 1893; text ' +
+      'in the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf111). ' +
+      'Editorial footnotes excluded. Built by npnf111/build.mjs.',
+    install: installNPNF111,
+  },
+  {
+    id: 'npnf112',
+    title: NPNF112_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'patristic',
+    series: 'Nicene and Post-Nicene Fathers, Series I',
+    license: 'public domain',
+    licenseDetail:
+      'Nicene and Post-Nicene Fathers, Series I, Vol. 12. Edited by Philip Schaff (first published ' +
+      '1886–1889, Buffalo, NY, by the Christian Literature Publishing Co.). Editor deceased 1893; text ' +
+      'in the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf112). ' +
+      'Editorial footnotes excluded. Built by npnf112/build.mjs.',
+    install: installNPNF112,
+  },
+  {
+    id: 'npnf113',
+    title: NPNF113_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'patristic',
+    series: 'Nicene and Post-Nicene Fathers, Series I',
+    license: 'public domain',
+    licenseDetail:
+      'Nicene and Post-Nicene Fathers, Series I, Vol. 13. Edited by Philip Schaff (first published ' +
+      '1886–1889, Buffalo, NY, by the Christian Literature Publishing Co.). Editor deceased 1893; text ' +
+      'in the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf113). ' +
+      'Editorial footnotes excluded. Built by npnf113/build.mjs.',
+    install: installNPNF113,
+  },
+  {
+    id: 'npnf114',
+    title: NPNF114_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'patristic',
+    series: 'Nicene and Post-Nicene Fathers, Series I',
+    license: 'public domain',
+    licenseDetail:
+      'Nicene and Post-Nicene Fathers, Series I, Vol. 14. Edited by Philip Schaff (first published ' +
+      '1886–1889, Buffalo, NY, by the Christian Literature Publishing Co.). Editor deceased 1893; text ' +
+      'in the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf114). ' +
+      'Editorial footnotes excluded. Built by npnf114/build.mjs.',
+    install: installNPNF114,
+  },
+  {
     id: 'smiths_dictionary',
     title: SMITHS_TITLE,
     language: 'en',
@@ -474,9 +699,30 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       + 'pane. Built by smiths-dictionary/build.mjs, which refuses any module not marked public domain.',
     install: installSmiths,
   },
+  {
+    id: 'jfb_commentary',
+    title: JFB_TITLE,
+    language: 'en',
+    type: 'footer-commentary',
+    category: 'commentary',
+    verseKeyed: true,
+    license: 'public domain',
+    licenseDetail:
+      'Robert Jamieson (1802–1880), A. R. Fausset (1821–1910) and David Brown (1803–1897), '
+      + 'Commentary Critical and Explanatory on the Whole Bible, 1871 — public domain; all three authors '
+      + "died more than a century ago. Text from the CrossWire Bible Society's OSIS edition "
+      + "(DistributionLicense: Public Domain), derived from CCEL's transcription. 19,442 verse-anchored "
+      + "comments across all 66 books; reads in the study footer's Commentary tab, following Pane 1's "
+      + 'chapter, not in a pane of its own. The introductions and the chronological tables of the Parables '
+      + 'and Miracles are excluded — they anchor to no verse (see jfb/jfb-exclusions.txt). Built by '
+      + 'jfb/build.mjs, which refuses any module not marked public domain.',
+    install: installJfb,
+  },
 ];
 
 export const SERIES_NOTES: Record<string, string> = {
   'Ante-Nicene Fathers':
     'Volume 10 (General Index) intentionally omitted — use Foundation\'s full-text search (scope: Church Fathers or All sources) to find content across all installed volumes.',
+  'Nicene and Post-Nicene Fathers, Series I':
+    'Volumes 1–4 available (Augustine). Volumes 5–14 (Augustine continued, then Chrysostom) coming in future batches.',
 };

@@ -73,3 +73,27 @@ export function versesToMarkdown(verses: SelectedVerse[]): string {
   });
   return `> **${ref}**${source}\n>\n${lines.join('\n')}`;
 }
+
+// The verses an entry's printed range (entries.position_ref) refers to — the
+// inverse of versesReference above. Bullinger writes these as "3", "1, 2",
+// "4-6", and with a hyphen marking half a verse: "7-" (first part of 7),
+// "-7" (second part), "18, 19-". A partial verse still means that whole verse
+// for the purpose of pointing at the text.
+//
+// Shared by the Companion Bible's Structure lines and JFB's footer comments,
+// which is why it lives here rather than in either component.
+export function versesInRefRange(ref: string | null): number[] {
+  if (!ref) return [];
+  const out = new Set<number>();
+  for (const part of ref.split(',')) {
+    const span = /^\s*(\d+)\s*-\s*(\d+)\s*$/.exec(part);
+    if (span) {
+      const [lo, hi] = [Number(span[1]), Number(span[2])].sort((a, b) => a - b);
+      for (let v = lo; v <= hi; v++) out.add(v);
+      continue;
+    }
+    const one = /(\d+)/.exec(part);
+    if (one) out.add(Number(one[1]));
+  }
+  return [...out];
+}
