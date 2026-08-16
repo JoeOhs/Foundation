@@ -47,7 +47,8 @@ const SCHEMA: string[] = [
     verse INTEGER,
     position_ref TEXT,
     text TEXT NOT NULL,
-    sort_order INTEGER NOT NULL
+    sort_order INTEGER NOT NULL,
+    heading TEXT
   )`,
   `CREATE TABLE IF NOT EXISTS notes (
     id INTEGER PRIMARY KEY,
@@ -374,6 +375,14 @@ export async function initDb(): Promise<void> {
   } catch {
     /* column already present, or table doesn't exist yet */
   }
+  // Migration for databases created before entries carried the source's own
+  // section heading (JFB's "Ge 2:2-7. The First Sabbath."). Nullable with no
+  // backfill: no source that predates it has headings to recover.
+  try {
+    await db.execute('ALTER TABLE entries ADD COLUMN heading TEXT');
+  } catch {
+    /* column already present */
+  }
   // Migration for databases created before toc_entries carried its target
   // entry's chapter — used to jump straight to that chapter instead of
   // requiring the whole source already loaded (see Pane.tsx's jumpToEntry).
@@ -530,11 +539,14 @@ export async function addNote(note: {
   title?: string | null;
   content: string;
   pinned?: boolean;
+  // Pinned notes list by updated_at DESC, so seeded notes pass an explicit
+  // timestamp to fix their position. Omit for user notes — defaults to now.
+  updated_at?: string;
 }): Promise<void> {
   const db = await ensureDb();
   await db.execute(
-    `INSERT INTO notes (entry_id, anchor_book, anchor_chapter, anchor_verse, title, content, pinned)
-     VALUES (?, ?, ?, ?, ?, ?, ?)`,
+    `INSERT INTO notes (entry_id, anchor_book, anchor_chapter, anchor_verse, title, content, pinned, updated_at)
+     VALUES (?, ?, ?, ?, ?, ?, ?, COALESCE(?, datetime('now')))`,
     [
       note.entry_id ?? null,
       note.anchor_book ?? null,
@@ -543,6 +555,7 @@ export async function addNote(note: {
       note.title ?? null,
       note.content,
       note.pinned ? 1 : 0,
+      note.updated_at ?? null,
     ],
   );
 }
@@ -1003,6 +1016,7 @@ function defaultCategoryForType(type: SourceType): SourceCategory {
   switch (type) {
     case 'bible': return 'bible';
     case 'commentary': return 'commentary';
+    case 'footer-commentary': return 'commentary';
     case 'reference': return 'reference';
     default: return 'imported';
   }
@@ -1048,13 +1062,13 @@ export async function insertParsedSource(
     const bookId = bres.lastInsertId as number;
     for (let i = 0; i < book.entries.length; i += INSERT_BATCH) {
       const batch = book.entries.slice(i, i + INSERT_BATCH);
-      const placeholders = batch.map(() => '(?, ?, ?, ?, ?, ?)').join(', ');
+      const placeholders = batch.map(() => '(?, ?, ?, ?, ?, ?, ?)').join(', ');
       const params: unknown[] = [];
       batch.forEach((e, j) => {
-        params.push(bookId, e.chapter, e.verse, e.position_ref, e.text, i + j);
+        params.push(bookId, e.chapter, e.verse, e.position_ref, e.text, i + j, e.heading ?? null);
       });
       await db.execute(
-        `INSERT INTO entries (book_id, chapter, verse, position_ref, text, sort_order) VALUES ${placeholders}`,
+        `INSERT INTO entries (book_id, chapter, verse, position_ref, text, sort_order, heading) VALUES ${placeholders}`,
         params,
       );
       done += batch.length;
@@ -1538,14 +1552,35 @@ export function parseStrongsNumberQuery(term: string): string | null {
   return m ? `${m[1].toUpperCase()}${m[2]}` : null;
 }
 
-// Shared WHERE predicate for smart-search queries: a bare Strong's number
-// matches by number; anything else matches the term at a word boundary
+// "H410", "H853 H1254", "H853,H1254" → canonical number list; null unless
+// every token is a bare Strong's number. A tagged word slot can carry more
+// than one number (18k of them do — "created" is H853+H1254), so clicking
+// one has to be able to ask about all of its numbers at once.
+export function parseStrongsNumberList(term: string): string[] | null {
+  const tokens = term.trim().split(/[\s,]+/).filter(Boolean);
+  if (tokens.length === 0) return null;
+  const numbers: string[] = [];
+  for (const token of tokens) {
+    const number = parseStrongsNumberQuery(token);
+    if (!number) return null;
+    if (!numbers.includes(number)) numbers.push(number);
+  }
+  return numbers;
+}
+
+// Shared WHERE predicate for smart-search queries: bare Strong's numbers
+// match by number; anything else matches the term at a word boundary
 // within the (often multi-word) tagged span.
 function strongsMatch(term: string): { where: string; params: unknown[] } | null {
   const query = term.trim();
   if (!query) return null;
-  const number = parseStrongsNumberQuery(query);
-  if (number) return { where: 'sw.strongs_number = ?', params: [number] };
+  const numbers = parseStrongsNumberList(query);
+  if (numbers) {
+    return {
+      where: `sw.strongs_number IN (${numbers.map(() => '?').join(', ')})`,
+      params: numbers,
+    };
+  }
   return {
     where: '(sw.surface_text LIKE ? COLLATE NOCASE OR sw.surface_text LIKE ? COLLATE NOCASE)',
     params: [`${query}%`, `% ${query}%`],
@@ -1591,16 +1626,19 @@ export async function strongsSmartSearch(term: string): Promise<StrongsSearchGro
      ORDER BY b.sort_order`,
     match.params,
   );
+  const requested = parseStrongsNumberList(term);
   if (rows.length === 0) {
     // A number lookup with no verse hits still surfaces the dictionary
     // entry (if one exists) so the definition is reachable directly.
-    const number = parseStrongsNumberQuery(term);
-    if (number) {
+    if (requested) {
       const dictRows = await db.select<StrongsDictEntry[]>(
-        'SELECT * FROM strongs_dict WHERE strongs_number = ?',
-        [number],
+        `SELECT * FROM strongs_dict WHERE strongs_number IN (${requested.map(() => '?').join(', ')})`,
+        requested,
       );
-      if (dictRows.length > 0) return [{ strongs_number: number, dict: dictRows[0], total: 0, books: [] }];
+      const byNum = new Map(dictRows.map((d) => [d.strongs_number, d]));
+      return requested
+        .filter((n) => byNum.has(n))
+        .map((n) => ({ strongs_number: n, dict: byNum.get(n)!, total: 0, books: [] }));
     }
     return [];
   }
@@ -1626,7 +1664,14 @@ export async function strongsSmartSearch(term: string): Promise<StrongsSearchGro
       total: books.reduce((a, b) => a + b.count, 0),
       dict: dictByNumber.get(strongs_number) ?? null,
     }))
-    .sort((a, b) => b.total - a.total);
+    // An explicit number lookup keeps the caller's order — clicking a word
+    // in the reader must lead with that word's own number. Frequency order
+    // would bury it under whatever commoner word shares its rendering.
+    .sort((a, b) =>
+      requested
+        ? requested.indexOf(a.strongs_number) - requested.indexOf(b.strongs_number)
+        : b.total - a.total,
+    );
 }
 
 // Verse hits for one (search term, Strong's number, book) — fetched when a

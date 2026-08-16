@@ -5,34 +5,16 @@ import {
   highlightsForEntries, linksForChapter, linksForEntries, listBooks,
 } from '../db';
 import { openReferencePageWindow } from '../notesbus';
-import { isEntryAnchored, isNavigable } from '../sourceRoles';
+import { versesInRefRange } from '../scripture';
+import { isEntryAnchored, isFooterOnly, isNavigable } from '../sourceRoles';
 import ReferenceText from './ReferenceText';
 import StrongsVerseText from './StrongsWords';
 import type {
   Book, Entry, EntryNote, LinkEndpoint, Reference, SelectedEntry, SelectedVerse, Source,
-  HoveredVerses, StrongsWordRow, StructureData, StructureDiagramRow, StructureLineRow, TocEntryRow,
+  HoveredVerses, StrongsWordRow, StrongsWordSlot, StructureData, StructureDiagramRow, StructureLineRow, TocEntryRow,
   VerseSelection,
 } from '../types';
 
-// The verses a Structure line's printed range refers to. Bullinger writes
-// these as "3", "1, 2", "4-6", and with a hyphen marking half a verse:
-// "7-" (first part of 7), "-7" (second part), "18, 19-". A partial verse
-// still means that whole verse for the purpose of pointing at the text.
-export function versesInRefRange(ref: string | null): number[] {
-  if (!ref) return [];
-  const out = new Set<number>();
-  for (const part of ref.split(',')) {
-    const span = /^\s*(\d+)\s*-\s*(\d+)\s*$/.exec(part);
-    if (span) {
-      const [lo, hi] = [Number(span[1]), Number(span[2])].sort((a, b) => a - b);
-      for (let v = lo; v <= hi; v++) out.add(v);
-      continue;
-    }
-    const one = /(\d+)/.exec(part);
-    if (one) out.add(Number(one[1]));
-  }
-  return [...out];
-}
 
 // A consecutive run of outline lines under one brace (label null = no brace).
 interface GroupRun {
@@ -99,7 +81,9 @@ interface PaneProps {
   sourceLocked?: boolean;
   onClose: () => void;
   canClose: boolean;
-  onWordClick?: (surfaceText: string) => void;
+  // Receives the whole slot, not just its text — the slot's Strong's
+  // numbers are what the concordance needs to look the word up exactly.
+  onWordClick?: (slot: StrongsWordSlot) => void;
   bodyRef: (el: HTMLDivElement | null) => void;
   onScroll: () => void;
 }
@@ -138,7 +122,12 @@ function Pane({
   // navigable and entry-anchored.
   const navigable = source ? isNavigable(source) : false;
   const entryAnchored = source ? isEntryAnchored(source) : false;
-  const pickableSources = useMemo(() => sources.filter(isNavigable), [sources]);
+  // Footer commentaries navigate by reference but are read in the study
+  // footer, never in a pane, so they're kept out of the picker.
+  const pickableSources = useMemo(
+    () => sources.filter((s) => isNavigable(s) && !isFooterOnly(s)),
+    [sources],
+  );
   const [books, setBooks] = useState<Book[]>([]);
   const [localBook, setLocalBook] = useState<string | null>(null);
   const [localChapter, setLocalChapter] = useState<number>(1);
@@ -662,7 +651,7 @@ function Pane({
             words={wordsByEntry.get(e.id) ?? []}
             notes={notesByEntry.get(e.id) ?? []}
             highlightWordIndexes={highlightSet}
-            onWordClick={onWordClick ? (slot) => onWordClick(slot.surface_text) : undefined}
+            onWordClick={onWordClick}
           />
         )}
         {noted && <span className="note-dot" title="Has notes" />}

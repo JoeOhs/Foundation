@@ -19,6 +19,32 @@ interface TextSegment {
   slot: StrongsWordSlot | null;
 }
 
+// The Strong's source and the seeded KJV text disagree on punctuation: the
+// tagged spans carry typographic apostrophes and en-dashes ("his wife’s",
+// "Tubal–cain") where the verse text has ASCII or nothing at all ("his
+// wife's", "Tubalcain"). Matching literally loses those spans — ~2,700
+// tagged words across the KJV had no clickable span because of it — so
+// comparison runs on a punctuation-folded copy.
+const APOSTROPHES = /[‘’ʼ´`]/; // ‘ ’ ʼ ´ `
+const DASHES = /[-‐-―−]/; // - ‐ ‑ ‒ – — ― −
+
+// Folds the match-only differences away, keeping `offsets[i]` pointing at the
+// source index of folded character `i` so a match can be sliced back out of
+// the original string verbatim.
+function foldForMatch(s: string): { folded: string; offsets: number[] } {
+  let folded = '';
+  const offsets: number[] = [];
+  for (let i = 0; i < s.length; i++) {
+    const c = s[i];
+    if (DASHES.test(c)) continue;
+    // one output char per input char keeps offsets a straight 1:1 map
+    const lower = c.toLowerCase();
+    folded += APOSTROPHES.test(c) ? "'" : (lower.length === 1 ? lower : c);
+    offsets.push(i);
+  }
+  return { folded, offsets };
+}
+
 // The KJV+Strong's source tags most, but not all, words — translators'
 // supplied words (traditionally italicized, ~21k of them) carry no Strong's
 // number and so have no row in strongs_words at all. Rather than
@@ -27,22 +53,26 @@ interface TextSegment {
 // tagged slots onto the entry's existing, already-correct text — a greedy
 // left-to-right substring match — so the visible reading is always exactly
 // entries.text, just partitioned into clickable/highlightable spans plus
-// plain filler wherever a slot can't be located (e.g. minor transcription
-// differences between the JSON seed and the OSIS source).
+// plain filler wherever a slot can't be located (~2,000 spans, where the
+// source's versification puts the words in a neighbouring verse).
 export function alignWordsToText(text: string, slots: StrongsWordSlot[]): TextSegment[] {
   const segments: TextSegment[] = [];
-  const lower = text.toLowerCase();
-  let cursor = 0;
+  const { folded, offsets } = foldForMatch(text);
+  let searchFrom = 0; // cursor in folded space
+  let emitted = 0; // cursor in original-text space
   for (const slot of slots) {
-    const needle = slot.surface_text.trim().toLowerCase();
+    const needle = foldForMatch(slot.surface_text.trim()).folded;
     if (!needle) continue;
-    const idx = lower.indexOf(needle, cursor);
-    if (idx === -1) continue;
-    if (idx > cursor) segments.push({ text: text.slice(cursor, idx), slot: null });
-    segments.push({ text: text.slice(idx, idx + needle.length), slot });
-    cursor = idx + needle.length;
+    const at = folded.indexOf(needle, searchFrom);
+    if (at === -1) continue;
+    const start = offsets[at];
+    const end = offsets[at + needle.length - 1] + 1;
+    if (start > emitted) segments.push({ text: text.slice(emitted, start), slot: null });
+    segments.push({ text: text.slice(start, end), slot });
+    emitted = end;
+    searchFrom = at + needle.length;
   }
-  if (cursor < text.length) segments.push({ text: text.slice(cursor), slot: null });
+  if (emitted < text.length) segments.push({ text: text.slice(emitted), slot: null });
   return segments;
 }
 
