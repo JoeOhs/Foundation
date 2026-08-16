@@ -10,3 +10,12 @@ export function anchorLabel(n: Note): string {
   if (n.entry_id != null) return 'Imported text';
   return 'Freeform';
 }
+
+// Collapsed one-line summary: the title, or the first meaningful line of
+// content with its Markdown syntax stripped. Shared by the note list and
+// the export picker so a note reads the same in both.
+export function notePreview(n: Note): string {
+  if (n.title) return n.title;
+  const line = n.content.split('\n').find((l) => l.trim()) ?? '';
+  return line.replace(/[#>*_`~]/g, '').replace(/^\s*[-+]\s+/, '').trim().slice(0, 60) || '(empty note)';
+}

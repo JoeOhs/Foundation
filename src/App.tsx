@@ -13,7 +13,7 @@ import BookmarksTab from './components/BookmarksTab';
 import SearchPanel from './components/SearchPanel';
 import ImportWizard from './components/ImportWizard';
 import LibraryPanel from './components/LibraryPanel';
-import FooterPanel, { footerTabForCategory, type FooterTab } from './components/FooterPanel';
+import FooterPanel, { footerTabForSource, type FooterTab } from './components/FooterPanel';
 
 import ThemePicker from './components/ThemePicker';
 import ConfirmDialog from './components/ConfirmDialog';
@@ -21,7 +21,7 @@ import { requestConfirm } from './confirmBus';
 import { BUNDLED_LIBRARY, type BundledLibraryEntry } from './library';
 import { COMPANION_APPENDIX_TITLE } from './companionAppendixImport';
 import { retireCompanionNotesTestSource } from './companionNotesImport';
-import { applyTheme, normalizeStoredTheme, systemDefaultTheme, type ThemeId } from './themes';
+import { applyTheme, applyTexture, normalizeStoredTheme, systemDefaultTheme, systemDefaultTexture, type TexturePref, type ThemeId } from './themes';
 import { applyReaderFont, normalizeStoredFont, type FontId } from './fonts';
 import { entryToMarkdown, versesToMarkdown } from './scripture';
 import {
@@ -33,7 +33,7 @@ import { highlightBackground } from './components/Pane';
 import { isDedicatedPane } from './sourceRoles';
 import type {
   Book, Highlighter, HoveredVerses, LinkEndpoint, Reference, SearchHit, SelectedEntry, SelectedVerse,
-  Source, StrongsSearchHit, VerseSelection,
+  Source, StrongsSearchHit, StrongsWordSlot, VerseSelection,
 } from './types';
 
 function loadPref<T>(key: string, fallback: T): T {
@@ -105,6 +105,20 @@ export default function App() {
     : null;
   const selectedKeys = useMemo(
     () => new Set(selectedVerses.map((v) => `${v.book}|${v.chapter}|${v.verse}`)),
+    [selectedVerses],
+  );
+  // The selection as a reference, for the study footer's Commentary tab —
+  // clicking a verse pins its comment there so hovering the pane on the way
+  // down to read it doesn't scroll the comment away. A selection is always
+  // within one chapter, so the first verse's book/chapter labels the set.
+  const selectedReference: HoveredVerses | null = useMemo(
+    () => (selectedVerses[0]
+      ? {
+        book: selectedVerses[0].book,
+        chapter: selectedVerses[0].chapter,
+        verses: selectedVerses.map((v) => v.verse),
+      }
+      : null),
     [selectedVerses],
   );
 
@@ -245,11 +259,20 @@ export default function App() {
     setFooterTab('concordance');
   };
 
-  const handleWordClick = (surfaceText: string) => {
+  // Look the word up by its own Strong's number(s). Searching the English
+  // surface text instead would rank every original word sharing that
+  // rendering by frequency, so clicking "unto God" (H410) led with H430 —
+  // and the count moved with the tagged span ("And God" vs "unto God")
+  // rather than describing the word actually clicked.
+  const handleWordClick = (slot: StrongsWordSlot) => {
+    const term = slot.strongs_numbers.length > 0
+      ? slot.strongs_numbers.join(' ')
+      : slot.surface_text.trim();
+    if (!term) return;
     if (footerOpen) {
-      sendToConcordance(surfaceText);
+      sendToConcordance(term);
     } else {
-      openSearch(surfaceText);
+      openSearch(term);
     }
   };
 
@@ -307,6 +330,11 @@ export default function App() {
   const [readerFont, setReaderFont] = useState<FontId>(
     () => normalizeStoredFont(loadPref<unknown>('readerFont', null)) ?? 'georgia',
   );
+  const [texture, setTexture] = useState<TexturePref>(() => {
+    const stored = loadPref<unknown>('texture', null);
+    if (stored === 'on' || stored === 'off') return stored;
+    return systemDefaultTexture();
+  });
 
   const bodies = useRef<(HTMLDivElement | null)[]>([]);
   const paneRefs = useRef<(PaneHandle | null)[]>([]);
@@ -398,6 +426,11 @@ export default function App() {
     applyReaderFont(readerFont);
     savePref('readerFont', readerFont);
   }, [readerFont]);
+
+  useEffect(() => {
+    applyTexture(texture);
+    savePref('texture', texture);
+  }, [texture]);
 
   // ---------- persistence ----------
   useEffect(() => { savePref('ref', refState); }, [refState]);
@@ -685,7 +718,7 @@ export default function App() {
   // everything else gets its dedicated pane.
   const openImportedSource = (sourceId: number) => {
     const source = sources.find((s) => s.id === sourceId);
-    const footerFor = source ? footerTabForCategory(source.category) : null;
+    const footerFor = source ? footerTabForSource(source) : null;
     if (footerFor) openFooter(footerFor);
     else openSourceAsPane(sourceId);
   };
@@ -858,11 +891,11 @@ export default function App() {
     }
     const sourceId = await entry.install(onProgress);
     await refreshSources();
-    // Route by the entry's own category, not by looking the source up in
-    // `sources` — that state is stale in this closure (refreshSources just
+    // Route by the entry's own type/category, not by looking the source up
+    // in `sources` — that state is stale in this closure (refreshSources just
     // ran, but this render's array predates it), so a lookup would miss the
     // brand-new source and drop a dictionary into a pane.
-    const footerFor = footerTabForCategory(entry.category);
+    const footerFor = footerTabForSource(entry);
     if (footerFor) openFooter(footerFor);
     // A verse-keyed work reads beside a translation, so it belongs in the
     // normal pane picker — forcing it into a dedicated solo pane would take
@@ -988,10 +1021,12 @@ export default function App() {
           currentFont={readerFont}
           readerSize={readerSize}
           dropShadow={dropShadow}
+          texture={texture}
           onSelectTheme={setThemeOverride}
           onSelectFont={setReaderFont}
           onChangeSize={setReaderSize}
           onChangeShadow={setDropShadow}
+          onToggleTexture={setTexture}
         />
       </div>
       <div className="main">
@@ -1058,6 +1093,10 @@ export default function App() {
             onClose={() => setFooterOpen(false)}
             concordanceRequest={concordanceReq}
             onOpenAsPane={openSourceAsPane}
+            reference={refState}
+            hoveredVerses={hoveredVerses}
+            onHoverVerses={setHoveredVerses}
+            selectedVerses={selectedReference}
             onScriptureRef={followScriptureRef}
             onAppendixRef={followAppendixRef}
             onConcordanceNavigate={goToStrongsHit}

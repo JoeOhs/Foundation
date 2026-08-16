@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { THEMES, THEME_IDS, applyTheme, type ThemeId } from '../themes';
+import { THEMES, THEME_IDS, applyTheme, applyTexture, type ThemeId, type TexturePref } from '../themes';
 import { FONT_IDS, READER_FONTS, applyReaderFont, type FontId } from '../fonts';
 
 export const READER_SIZE_MIN = 12;
@@ -10,10 +10,12 @@ interface ThemePickerProps {
   currentFont: FontId;
   readerSize: number;
   dropShadow: number;
+  texture: TexturePref;
   onSelectTheme: (id: ThemeId) => void;
   onSelectFont: (id: FontId) => void;
   onChangeSize: (px: number) => void;
   onChangeShadow: (level: number) => void;
+  onToggleTexture: (pref: TexturePref) => void;
 }
 
 // The 🎨 appearance popover: six theme swatches plus the reader-font list.
@@ -21,8 +23,8 @@ interface ThemePickerProps {
 // instant, reversible); leaving the panel restores committed choices;
 // clicking commits.
 export default function ThemePicker({
-  currentTheme, currentFont, readerSize, dropShadow,
-  onSelectTheme, onSelectFont, onChangeSize, onChangeShadow,
+  currentTheme, currentFont, readerSize, dropShadow, texture,
+  onSelectTheme, onSelectFont, onChangeSize, onChangeShadow, onToggleTexture,
 }: ThemePickerProps) {
   const [open, setOpen] = useState(false);
   const rootRef = useRef<HTMLDivElement>(null);
@@ -78,6 +80,22 @@ export default function ThemePicker({
                 </button>
               );
             })}
+          </div>
+          <div className="theme-section-label">Texture</div>
+          <div className="size-slider-row">
+            <label style={{ display: 'flex', alignItems: 'center', gap: 8, cursor: 'pointer', fontSize: 12, color: 'var(--text-primary)' }}>
+              <input
+                type="checkbox"
+                checked={texture === 'on'}
+                onChange={(e) => {
+                  const pref: TexturePref = e.target.checked ? 'on' : 'off';
+                  onToggleTexture(pref);
+                  applyTexture(pref);
+                }}
+                style={{ accentColor: 'var(--accent-primary)' }}
+              />
+              Enhanced depth
+            </label>
           </div>
           <div className="theme-section-label">Text size</div>
           <div className="size-slider-row">

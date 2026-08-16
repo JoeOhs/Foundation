@@ -209,6 +209,191 @@ contrast ratios matter most here — `--text-primary` on `--bg-surface` is
 
 ---
 
+## Native form controls
+
+A `<select>` left at the browser default (`appearance: auto`) has its box
+themed by our CSS but its **arrow drawn by the UA in system colours**, which
+makes every dropdown read as un-themed next to the controls around it — in
+all six themes, not just the dark ones. So `select` sets `appearance: none`
+and draws the caret itself (two `linear-gradient` halves of a chevron) on
+`--text-secondary`, which means it tracks the theme like the rest of the
+control. `padding-right: 26px` is the caret's room; trimming it runs the
+option text under the caret.
+
+The **open option list** needs its own rule. Chromium renders a select's
+popup itself on Windows rather than handing it to the OS menu system, so
+`select option` does take our `background-color`/`color` — without that rule
+the rows fall back to the browser's own grey panel, which is what makes an
+opened dropdown look un-themed even when the closed control is correct.
+`option:checked` gets `--bg-hover` so the current row reads as selected in
+the theme's own palette rather than the Windows highlight blue.
+
+`color-scheme` (set per theme in `themes.css`: `dark` on `:root`, `light` on
+`nova`) still matters as the fallback for any chrome that does reach the
+platform renderer — scrollbars inside a long popup, for one.
+
+## Texture & depth
+
+Flat gradients read as "dark mode with a hue," not as six distinct
+materials. This section pushes each theme toward its actual namesake —
+metal, glass, neon-grid, lava, canopy, paper — using pure CSS/SVG only
+(no bundled image assets, so nothing here touches the offline/licensing
+constraints).
+
+### Shared technique: grain overlay
+
+Before anything theme-specific, one shared layer does the most work: a
+fixed, full-viewport noise texture over the gradient shell, generated
+inline via SVG `feTurbulence` (no asset file) at very low opacity with
+`mix-blend-mode: soft-light` *(shipped: `overlay` acts as `screen` on dark
+backgrounds — a flat brightness wash with no visible texture; `soft-light`
+adds grain without the wash; Nova overrides to `multiply` since paper
+fiber must darken white, not lighten it)*. This alone turns a smooth
+gradient into something that reads as a *surface*.
+
+```css
+.app-shell::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  opacity: calc(var(--grain-opacity, 0.05) * var(--texture-opacity));
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml;utf8,\
+    <svg xmlns='http://www.w3.org/2000/svg'>\
+      <filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/></filter>\
+      <rect width='100%25' height='100%25' filter='url(%23n)'/>\
+    </svg>");
+}
+```
+
+`--grain-opacity` and `--grain-tint` (set via `filter: sepia() hue-rotate()`
+on the pseudo-element, or a CSS `filter` on the SVG itself) are set per
+theme so the same mechanism produces brushed-metal grain, paper fiber, or
+heat-shimmer depending on context. `--texture-opacity` is the master
+toggle described below — multiplying by it means grain (and everything
+else in this section) degrades to fully invisible with the toggle off,
+with no separate code path.
+
+### Per-theme signature texture
+
+**Obsidian — machined metal**
+- Replace the flat sheen with a `repeating-linear-gradient` of
+  near-invisible diagonal light/dark lines — brushed aluminum under
+  raking light.
+- Beveled panes: `box-shadow: inset 1px 1px 0 rgba(255,255,255,0.04), inset -1px -1px 0 rgba(0,0,0,0.4)` — reads as a machined plate, not a flat rectangle.
+- A specular line (`linear-gradient(90deg, transparent, var(--accent-tertiary), transparent)` at 1px height, ~15% opacity) under the active pane header.
+
+**Midnight — glass and gemstone**
+- Modals/popovers get `backdrop-filter: blur(16px)` over a translucent
+  `--bg-surface-raised` — frosted glass floating over the violet depth,
+  not a flat card.
+- A small offset radial-gradient "facet" highlight on cards, mimicking
+  light hitting one face of a cut gem.
+- A sparse star-speckle overlay across the whole app (`.app::after`,
+  tiled `radial-gradient` dots at offset `background-size`s so no grid
+  pattern emerges, `mix-blend-mode: screen` at ~half opacity) —
+  barely-there stars that survive the panes' opaque backgrounds.
+- *(shipped)* The token set was darkened from the original table
+  (`--bg-base: #070512`, `--bg-surface: #100b1e`) — "close to black with
+  speckles of stars" needed a near-black base, not dark violet.
+
+**Cosmic — galactic nebula** *(shipped direction — replaced the original
+"synthwave grid" concept, which read as scanlines rather than "cosmic")*
+- A nebula field of soft radial/conic gradient patches on `body::before`
+  (behind the panes), visible through shell gaps, with the slow 20s drift
+  animation.
+- A *very* faint full-viewport nebula wash on `.app::after`
+  (`mix-blend-mode: screen`, alphas ≤0.06, huge soft ellipses only — hard
+  edges or higher alphas bleed color into the reading panes) so the
+  galactic feel carries over the panes without touching legibility.
+
+**Sunset — lava and ember**
+- Grain tinted orange/red here specifically (`--grain-tint: sepia(1) saturate(3) hue-rotate(-20deg)`), so it reads as ash/heat-shimmer.
+- Stack two or three radial glows at different sizes/positions/opacities
+  near the bottom instead of one clean circle — closer to how uneven lava
+  light actually looks.
+- Section dividers use a jagged `clip-path` (small repeating triangle
+  notches) instead of a straight hairline — cracked earth rather than a
+  ruled line.
+
+**Emerald — canopy and forest floor**
+- Dappled light: 4–5 soft, irregularly-placed low-opacity radial
+  gradients scattered across the shell (varying size, ~4-8% opacity) —
+  sunlight through leaves, breaks up flatness more than one directional
+  gradient can.
+- A faint wood-grain streak (`repeating-linear-gradient` with irregular
+  stop spacing) on raised/earthy surfaces — settings panels, gold-accented
+  elements.
+- Slightly stronger edge vignette (`radial-gradient` darkening toward the
+  corners) than the other themes — forest depth, things receding into
+  shadow.
+
+**Nova — paper and daylight**
+- Needs texture most — flat white reads cheapest of the six. Paper-grain
+  via the shared technique, warm-tinted, at a *higher* opacity than the
+  dark themes (paper fiber is more visible than metal grain).
+- Elevation via soft, warm-tinted diffuse shadows
+  (`box-shadow: 0 2px 12px rgba(120,100,70,0.08)`) instead of black
+  shadows — daylight-on-paper shadows are soft and warm, not dark.
+- Optional: a faint deckle/fiber edge (irregular `clip-path` or a subtle
+  `mask-image` noise on the border) on Notes cards specifically, since
+  Notes is the "physical page" surface of the app.
+
+### Restraint
+
+Texture should read as *material*, not *decoration* — this is a calm
+study tool, not a game UI. Keep motion limited to the one spot already
+flagged in Cosmic. Keep grain/noise opacity low enough to be felt rather
+than seen. And treat each theme's signature technique (grid for Cosmic,
+bevel for Obsidian, glass for Midnight, grain for Nova) as the one thing
+that theme is *for*, rather than piling every technique onto every theme
+equally.
+
+### User toggle: texture on/off
+
+All of the above is gated by a single global control — "Texture" or
+"Enhanced depth" — in the Appearance popover next to the theme picker.
+One switch for all six themes, since the mechanism (grain, bevels, glass
+blur, grid, dappled light, paper fiber) is the same technique family
+throughout.
+
+**Mechanism:** a single CSS variable drives every opacity-based texture
+layer, so turning it off is instant and requires no re-render:
+
+```css
+:root {
+  --texture-opacity: 1;
+}
+[data-texture="off"] {
+  --texture-opacity: 0;
+}
+```
+
+Every opacity-based effect above multiplies by `var(--texture-opacity)`
+rather than using a hardcoded value (see the grain example). Effects that
+aren't opacity-driven — Midnight's `backdrop-filter: blur()`, Cosmic's
+`transform`-based grid — need an explicit
+`[data-texture="off"] .glass-modal { backdrop-filter: none; }` style
+override, since a blur can't be faded via one shared variable.
+
+**Persistence:** one more field alongside the existing `ThemeId`, stored
+through the same mechanism already persisting layout/theme/reference:
+
+```ts
+interface AppearanceSettings {
+  theme: ThemeId;
+  texture: "on" | "off";
+}
+```
+
+**Default:** on. But respect `prefers-reduced-motion` and
+`prefers-contrast: more` at first launch — auto-default to off if either
+is set, same spirit as the existing OS-awareness for dark/light mode.
+
+---
+
 ## Integration plan for Claude Code
 
 ### 1. Replace the boolean dark-mode flag with a theme registry
@@ -341,3 +526,9 @@ chips) rather than a dropdown of names. Selecting one:
 - Don't let `--accent-tertiary` ("rare" colors) leak into more than one
   or two UI touchpoints per theme — that's what keeps six themes from
   turning into six busy themes.
+- The texture toggle (see above) is itself an accessibility feature —
+  make sure `[data-texture="off"]` truly zeroes out every layer (grain,
+  glass blur, grid transform, dappled light) rather than just the ones
+  that happen to be opacity-based, or a user with `prefers-contrast` /
+  motion sensitivity who relied on the auto-default still gets partial
+  texture.

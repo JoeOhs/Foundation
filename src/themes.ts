@@ -38,3 +38,19 @@ export function normalizeStoredTheme(value: unknown): ThemeId | null {
 export function applyTheme(id: ThemeId): void {
   document.documentElement.dataset.theme = id;
 }
+
+export type TexturePref = 'on' | 'off';
+
+export function systemDefaultTexture(): TexturePref {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return 'off';
+  if (window.matchMedia('(prefers-contrast: more)').matches) return 'off';
+  return 'on';
+}
+
+export function applyTexture(pref: TexturePref): void {
+  if (pref === 'off') {
+    document.documentElement.dataset.texture = 'off';
+  } else {
+    delete document.documentElement.dataset.texture;
+  }
+}

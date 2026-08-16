@@ -81,7 +81,8 @@ const NoteEditor = forwardRef<NoteEditorHandle, NoteEditorProps>(
           <button type="button" title="Numbered list" onClick={() => prefix((i) => `${i + 1}. `)}>1.</button>
           <button type="button" title="Link (Ctrl+K)" onClick={() => wrap('[', '](url)', 'link text')}>🔗</button>
           <button type="button" title="Inline code" onClick={() => wrap('`', '`', 'code')}>{'</>'}</button>
-          <span className="md-toolbar-spacer" />
+        </div>
+        <div className="md-tab-row">
           <button
             type="button"
             className={`md-tab${tab === 'write' ? ' active' : ''}`}

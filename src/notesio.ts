@@ -1,15 +1,18 @@
 import { invoke } from '@tauri-apps/api/core';
 import { open, save } from '@tauri-apps/plugin-dialog';
-import { addNote, allNotes } from './db';
+import { addNote } from './db';
 import { legacyToMarkdown, notesToMarkdownExport } from './notesconvert';
+import type { Note } from './types';
 
 // ---- Tauri-side actions (dialog + file IO + DB) ----
 
-export async function exportAllNotes(): Promise<'saved' | 'empty' | 'cancelled'> {
-  const notes = await allNotes();
+// Writes the given notes to one Markdown file. The set is chosen upstream in
+// the export picker (which starts with everything ticked, so "all" is still
+// one click), keeping a single export path regardless of the selection.
+export async function exportNotes(notes: Note[]): Promise<'saved' | 'empty' | 'cancelled'> {
   if (notes.length === 0) return 'empty';
   const path = await save({
-    title: 'Export notes',
+    title: notes.length === 1 ? 'Export note' : `Export ${notes.length} notes`,
     defaultPath: `foundation-notes-${new Date().toISOString().slice(0, 10)}.md`,
     filters: [{ name: 'Markdown', extensions: ['md'] }],
   });

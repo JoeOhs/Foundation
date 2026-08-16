@@ -39,11 +39,11 @@
 }
 
 [data-theme='midnight'] {
-  --bg-base: #0e0a1c;
-  --bg-surface: #181229;
-  --bg-surface-raised: #201934;
-  --bg-hover: #261f3d;
-  --border: #2e2547;
+  --bg-base: #070512;
+  --bg-surface: #100b1e;
+  --bg-surface-raised: #17102a;
+  --bg-hover: #1d1533;
+  --border: #251c3d;
   --border-strong: #7c5cff;
   --text-primary: #e8e4f5;
   --text-secondary: #a99fc7;
@@ -53,7 +53,7 @@
   --accent-tertiary: #f2a3d0;
   --on-accent: #120a20; /* dark text reads better than white on this violet */
   --scrollbar-thumb: #332a52;
-  --gradient-shell: radial-gradient(ellipse at top left, #241a3f 0%, #150f28 40%, #0e0a1c 100%);
+  --gradient-shell: radial-gradient(ellipse at top left, #1a1230 0%, #0e0920 40%, #070512 100%);
 }
 
 [data-theme='cosmic'] {
@@ -116,7 +116,7 @@
   --bg-surface: #ffffff;
   --bg-surface-raised: #ffffff;
   --bg-hover: #f2ede3;
-  --border: #e6ddd0;
+  --border: #d4cabb;
   --border-strong: #8fb8d9;
   --text-primary: #2b2924;
   --text-secondary: #6b6457;
@@ -125,7 +125,7 @@
   --accent-secondary: #e8a3b3;
   --accent-tertiary: #a8cca0;
   --on-accent: #1c2b36; /* dark text on the light sky accent */
-  --scrollbar-thumb: #d9d0c0;
+  --scrollbar-thumb: #c8bfad;
   --gradient-shell: linear-gradient(160deg, #faf7f2 0%, #f5efe4 50%, #f0e8da 100%);
   --danger: #c0392b;
   color-scheme: light;
@@ -134,29 +134,205 @@
   --mark-bg: color-mix(in srgb, var(--accent-secondary) 45%, transparent);
 }
 
-/* ---------- per-theme signature details (THEMES.md) ---------- */
+/* ================================================================
+   Texture system (THEMES.md § Texture & depth)
+   ================================================================
+   - body::after  = grain overlay (z-index 9999, above .app z-index 1)
+   - body::before = cosmic nebula (z-index 0, behind .app)
+   - --texture-opacity gates all opacity-based layers
+   - non-opacity effects get [data-texture="off"] overrides
+   - ALL themes get bevel treatment on .pane for depth
+   ================================================================ */
 
-/* Obsidian: faint bevel catching light along pane header top edges */
-[data-theme='obsidian'] .pane-header,
-:root:not([data-theme]) .pane-header {
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+:root {
+  --texture-opacity: 1;
+  --grain-opacity: 0.18;
+}
+[data-texture="off"] {
+  --texture-opacity: 0;
 }
 
-/* Midnight: glossy "wet ink" glow on the highlighted Strong's word */
+/* --- Shared grain overlay: SVG feTurbulence noise, fixed full-viewport ---
+   soft-light blend adds visible texture without the flat brightness wash
+   that overlay causes on dark backgrounds. */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: calc(var(--grain-opacity) * var(--texture-opacity));
+  mix-blend-mode: soft-light;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='4' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+  background-size: 256px 256px;
+}
+
+/* --- Shared bevel on all panes --- */
+.pane {
+  box-shadow:
+    inset 1px 1px 0 rgba(255,255,255,0.08),
+    inset -1px -1px 0 rgba(0,0,0,0.5);
+}
+.pane-header {
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.10);
+}
+.pane-header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  opacity: calc(0.35 * var(--texture-opacity));
+  background: linear-gradient(90deg, transparent, var(--accent-primary), transparent);
+  pointer-events: none;
+}
+[data-texture="off"] .pane {
+  box-shadow: none;
+}
+[data-texture="off"] .pane-header {
+  box-shadow: none;
+}
+
+/* ========================== OBSIDIAN ========================== */
+
+[data-theme='obsidian'],
+:root:not([data-theme]) {
+  --grain-opacity: 0.28;
+}
+
+/* Brushed-metal diagonal lines layered with the noise grain */
+[data-theme='obsidian'] body::after,
+:root:not([data-theme]) body::after {
+  background-image:
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='4' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>"),
+    repeating-linear-gradient(
+      135deg,
+      rgba(255,255,255,0.08) 0px,
+      rgba(255,255,255,0.08) 1px,
+      transparent 1px,
+      transparent 4px
+    );
+  background-size: 256px 256px, auto;
+}
+
+/* Obsidian-specific stronger machined bevel */
+[data-theme='obsidian'] .pane,
+:root:not([data-theme]) .pane {
+  box-shadow:
+    inset 1px 1px 0 rgba(255,255,255,0.12),
+    inset -1px -1px 0 rgba(0,0,0,0.65);
+}
+[data-texture="off"][data-theme='obsidian'] .pane,
+[data-texture="off"]:not([data-theme]) .pane {
+  box-shadow: none;
+}
+
+/* Brass specular accent on Obsidian header */
+[data-theme='obsidian'] .pane-header::after,
+:root:not([data-theme]) .pane-header::after {
+  opacity: calc(0.50 * var(--texture-opacity));
+  background: linear-gradient(90deg, transparent, var(--accent-tertiary), transparent);
+}
+
+/* ========================== MIDNIGHT ========================== */
+
+[data-theme='midnight'] {
+  --grain-opacity: 0.12;
+}
+
+/* Midnight bevel: violet-tinted light edge */
+[data-theme='midnight'] .pane {
+  box-shadow:
+    inset 1px 1px 0 rgba(139,110,242,0.10),
+    inset -1px -1px 0 rgba(0,0,0,0.6);
+}
+[data-texture="off"][data-theme='midnight'] .pane {
+  box-shadow: none;
+}
+
+/* Frosted glass on modals/popovers */
+[data-theme='midnight'] .modal,
+[data-theme='midnight'] .footnote-pop,
+[data-theme='midnight'] .theme-pop {
+  backdrop-filter: blur(20px) saturate(1.3);
+  background: rgba(32, 25, 52, 0.72);
+}
+[data-texture="off"][data-theme='midnight'] .modal,
+[data-texture="off"][data-theme='midnight'] .footnote-pop,
+[data-texture="off"][data-theme='midnight'] .theme-pop {
+  backdrop-filter: none;
+  background: var(--bg-surface-raised);
+}
+
+/* Glossy "wet ink" glow on the highlighted Strong's word */
 [data-theme='midnight'] .strongs-word.strongs-highlight {
-  box-shadow: 0 0 12px rgba(79, 215, 196, 0.35);
+  box-shadow: 0 0 16px rgba(79, 215, 196, 0.5);
 }
 
-/* Cosmic: one restrained moving element — the pink "sun" glow drifts
-   slightly. Disabled entirely under prefers-reduced-motion. */
+/* Star speckles over the whole app — two tiled dot layers at offset sizes
+   so the pattern doesn't read as a grid. screen blend = pinpricks of light
+   on the near-black violet; far too sparse/faint to disturb reading. */
+[data-theme='midnight'] .app::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9998;
+  mix-blend-mode: screen;
+  opacity: calc(0.55 * var(--texture-opacity));
+  background-image:
+    radial-gradient(circle 1px at 20% 30%, rgba(200,185,255,0.65), transparent 1.5px),
+    radial-gradient(circle 1px at 70% 65%, rgba(139,110,242,0.5), transparent 1.5px),
+    radial-gradient(circle 1.5px at 45% 80%, rgba(79,215,196,0.4), transparent 2px),
+    radial-gradient(circle 1px at 85% 15%, rgba(242,163,208,0.45), transparent 1.5px),
+    radial-gradient(circle 1px at 10% 60%, rgba(200,185,255,0.4), transparent 1.5px),
+    radial-gradient(circle 1.5px at 60% 40%, rgba(255,255,255,0.35), transparent 2px);
+  background-size: 210px 210px, 260px 260px, 330px 330px, 290px 290px, 240px 240px, 370px 370px;
+}
+[data-texture="off"][data-theme='midnight'] .app::after {
+  display: none;
+}
+
+/* ========================== COSMIC ========================== */
+
+[data-theme='cosmic'] {
+  --grain-opacity: 0.08;
+}
+
+/* Cosmic bevel: cyan light edge, purple dark edge */
+[data-theme='cosmic'] .pane {
+  box-shadow:
+    inset 1px 1px 0 rgba(0,229,255,0.10),
+    inset -1px -1px 0 rgba(167,66,255,0.15);
+}
+[data-texture="off"][data-theme='cosmic'] .pane {
+  box-shadow: none;
+}
+
+/* Galactic nebula on body::before — outside .app's stacking context,
+   so panes' opaque backgrounds fully occlude it. Visible only in shell
+   gaps (header bar, pane dividers). */
 [data-theme='cosmic'] body::before {
   content: '';
   position: fixed;
-  inset: -5%;
+  inset: 0;
   z-index: 0;
   pointer-events: none;
-  background: radial-gradient(circle at 80% 20%, rgba(255, 110, 199, 0.12), transparent 50%);
-  animation: cosmic-drift 20s ease-in-out infinite alternate;
+  opacity: var(--texture-opacity);
+  background:
+    radial-gradient(ellipse 160px 110px at 78% 16%, rgba(0,229,255,0.22), transparent),
+    radial-gradient(ellipse 120px 80px at 86% 30%, rgba(167,66,255,0.20), transparent),
+    radial-gradient(ellipse 180px 90px at 62% 10%, rgba(255,110,199,0.14), transparent),
+    radial-gradient(ellipse 140px 100px at 20% 72%, rgba(255,110,199,0.38), transparent),
+    radial-gradient(ellipse 170px 80px at 12% 60%, rgba(167,66,255,0.28), transparent),
+    radial-gradient(ellipse 110px 70px at 30% 82%, rgba(0,229,255,0.22), transparent),
+    radial-gradient(ellipse 150px 80px at 50% 38%, rgba(167,66,255,0.20), transparent),
+    radial-gradient(ellipse 100px 70px at 42% 52%, rgba(0,229,255,0.16), transparent),
+    radial-gradient(ellipse 120px 90px at 6% 28%, rgba(0,229,255,0.22), transparent),
+    radial-gradient(ellipse 90px 60px at 93% 55%, rgba(255,110,199,0.20), transparent),
+    radial-gradient(ellipse 130px 70px at 55% 88%, rgba(167,66,255,0.16), transparent),
+    radial-gradient(ellipse 100px 80px at 38% 14%, rgba(0,229,255,0.14), transparent);
 }
 @keyframes cosmic-drift {
   from { transform: translate(0, 0); }
@@ -165,12 +341,211 @@
 @media (prefers-reduced-motion: reduce) {
   [data-theme='cosmic'] body::before { animation: none; }
 }
+[data-texture="off"][data-theme='cosmic'] body::before {
+  display: none;
+}
 
-/* Nova: elevation via shadow, not color (surface-raised is also white) */
+/* Faint luminous nebula wash OVER the whole app (.app::after) — screen
+   blend on dark surfaces reads as glowing gas. Alphas kept ≤0.06 and
+   gradients huge/soft so reading text stays untouched and no hard color
+   edges appear on panes. */
+[data-theme='cosmic'] .app::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9998;
+  mix-blend-mode: screen;
+  opacity: var(--texture-opacity);
+  animation: cosmic-drift 20s ease-in-out infinite alternate;
+  /* Three globular cloud clusters: each is 3-4 overlapping ellipses of
+     different hues offset slightly, so colors mix inside the cloud body
+     instead of reading as separate single-color washes. */
+  background:
+    /* cluster: upper right */
+    radial-gradient(ellipse 30% 22% at 76% 14%, rgba(0,229,255,0.07), transparent 65%),
+    radial-gradient(ellipse 24% 18% at 82% 21%, rgba(167,66,255,0.075), transparent 65%),
+    radial-gradient(ellipse 20% 15% at 71% 23%, rgba(255,110,199,0.06), transparent 65%),
+    radial-gradient(ellipse 14% 10% at 78% 18%, rgba(240,233,251,0.05), transparent 60%),
+    /* cluster: lower left */
+    radial-gradient(ellipse 28% 20% at 16% 76%, rgba(255,110,199,0.065), transparent 65%),
+    radial-gradient(ellipse 22% 16% at 24% 70%, rgba(167,66,255,0.06), transparent 65%),
+    radial-gradient(ellipse 18% 13% at 12% 68%, rgba(0,229,255,0.05), transparent 65%),
+    /* faint mid-field wisp bridging the two */
+    radial-gradient(ellipse 34% 20% at 48% 44%, rgba(167,66,255,0.035), transparent 70%),
+    radial-gradient(ellipse 24% 14% at 55% 38%, rgba(0,229,255,0.03), transparent 70%);
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-theme='cosmic'] .app::after { animation: none; }
+}
+[data-texture="off"][data-theme='cosmic'] .app::after {
+  display: none;
+}
+
+/* ========================== SUNSET ========================== */
+
+[data-theme='sunset'] {
+  --grain-opacity: 0.22;
+}
+
+/* Sunset bevel: warm amber light edge */
+[data-theme='sunset'] .pane {
+  box-shadow:
+    inset 1px 1px 0 rgba(255,171,64,0.10),
+    inset -1px -1px 0 rgba(0,0,0,0.55);
+}
+[data-texture="off"][data-theme='sunset'] .pane {
+  box-shadow: none;
+}
+
+/* Heat-shimmer tinted grain — sepia filter tints the noise warm */
+[data-theme='sunset'] body::after {
+  filter: sepia(0.6) saturate(2) hue-rotate(-15deg);
+}
+
+/* Stacked radial ember glows visible in shell gaps */
+[data-theme='sunset'] body {
+  background-image: var(--gradient-shell),
+    radial-gradient(circle at 50% 100%, rgba(255,87,34,0.25), transparent 55%),
+    radial-gradient(ellipse at 25% 92%, rgba(255,112,67,0.18), transparent 35%),
+    radial-gradient(ellipse at 78% 88%, rgba(255,171,64,0.15), transparent 40%);
+}
+
+/* Faint firelight rising from below, over the whole app — uneven: three
+   overlapping glows of different sizes, like distant lava light. */
+[data-theme='sunset'] .app::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9998;
+  mix-blend-mode: screen;
+  opacity: var(--texture-opacity);
+  background:
+    radial-gradient(ellipse 70% 30% at 50% 104%, rgba(255,87,34,0.10), transparent 70%),
+    radial-gradient(ellipse 35% 18% at 22% 102%, rgba(255,112,67,0.08), transparent 70%),
+    radial-gradient(ellipse 40% 22% at 80% 103%, rgba(255,171,64,0.06), transparent 70%);
+}
+[data-texture="off"][data-theme='sunset'] .app::after {
+  display: none;
+}
+
+/* ========================== EMERALD ========================== */
+
+[data-theme='emerald'] {
+  --grain-opacity: 0.20;
+}
+
+/* Emerald bevel: leaf-green light edge */
+[data-theme='emerald'] .pane {
+  box-shadow:
+    inset 1px 1px 0 rgba(95,211,147,0.10),
+    inset -1px -1px 0 rgba(0,0,0,0.5);
+}
+[data-texture="off"][data-theme='emerald'] .pane {
+  box-shadow: none;
+}
+
+/* Edge vignette — forest depth */
+[data-theme='emerald'] body {
+  background-image: var(--gradient-shell),
+    radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.25) 100%);
+}
+
+/* Dappled light spots visible through shell gaps */
+[data-theme='emerald'] .app::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+  opacity: var(--texture-opacity);
+  background:
+    radial-gradient(circle 120px at 18% 12%, rgba(95,211,147,0.18), transparent 100%),
+    radial-gradient(circle 90px at 62% 28%, rgba(95,211,147,0.14), transparent 100%),
+    radial-gradient(circle 100px at 38% 65%, rgba(212,162,78,0.12), transparent 100%),
+    radial-gradient(circle 80px at 82% 55%, rgba(95,211,147,0.10), transparent 100%),
+    radial-gradient(circle 110px at 8% 80%, rgba(176,137,104,0.08), transparent 100%);
+}
+[data-texture="off"][data-theme='emerald'] .app::before {
+  display: none;
+}
+
+/* Gem gleam: diagonal facet sheens of contrasting emerald light sweeping
+   the whole app — light catching the faces of a cut stone. */
+[data-theme='emerald'] .app::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9998;
+  mix-blend-mode: screen;
+  opacity: var(--texture-opacity);
+  background:
+    linear-gradient(115deg,
+      transparent 28%,
+      rgba(95,211,147,0.10) 40%,
+      rgba(140,255,190,0.055) 45%,
+      transparent 58%),
+    linear-gradient(65deg,
+      transparent 52%,
+      rgba(95,211,147,0.075) 66%,
+      transparent 82%),
+    radial-gradient(ellipse 42% 30% at 82% 16%, rgba(95,211,147,0.09), transparent 68%);
+}
+[data-texture="off"][data-theme='emerald'] .app::after {
+  display: none;
+}
+
+/* ========================== NOVA ========================== */
+
+[data-theme='nova'] {
+  --grain-opacity: 0.15;
+}
+
+/* Nova: grain overlay uses multiply blend (darkens white = visible fiber) */
+[data-theme='nova'] body::after {
+  mix-blend-mode: multiply;
+}
+
+/* Nova bevel: white highlight top, subtle shadow bottom + elevation */
+[data-theme='nova'] .pane {
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.8),
+    inset 0 -1px 0 rgba(0,0,0,0.06),
+    0 2px 16px rgba(120,100,70,0.12);
+}
+[data-texture="off"][data-theme='nova'] .pane {
+  box-shadow: none;
+}
+
+/* Nova header: recessed bottom edge on light bg */
+[data-theme='nova'] .pane-header {
+  box-shadow: inset 0 -1px 0 rgba(0,0,0,0.06);
+}
+[data-theme='nova'] .pane-header::after {
+  opacity: calc(0.25 * var(--texture-opacity));
+  background: linear-gradient(90deg, transparent, var(--accent-primary), transparent);
+}
+
+/* Warm elevation shadows on modals */
 [data-theme='nova'] .modal,
 [data-theme='nova'] .footnote-pop,
 [data-theme='nova'] .theme-pop {
-  box-shadow: 0 10px 32px rgba(60, 50, 30, 0.18);
+  box-shadow: 0 10px 40px rgba(60, 50, 30, 0.22);
+}
+
+/* ========================== Accessibility ========================== */
+
+@media (prefers-contrast: more) {
+  :root:not([data-texture]) {
+    --texture-opacity: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  :root:not([data-texture]) {
+    --texture-opacity: 0;
+  }
 }
 
 /* ---------- theme picker ---------- */

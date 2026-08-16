@@ -1,13 +1,14 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { addNote, deleteNote, freeNotes, notesForChapter, setNotePinned, updateNote } from '../db';
 import { renderMarkdown } from '../markdown';
-import { exportAllNotes, importNotesFromFiles } from '../notesio';
+import { exportNotes, importNotesFromFiles } from '../notesio';
 import { takePendingInsertMarkdown } from '../notesbus';
 import { requestConfirm } from '../confirmBus';
 import NoteEditor, { type NoteEditorHandle } from './NoteEditor';
 import HighlightsTab from './HighlightsTab';
+import NoteExportDialog from './NoteExportDialog';
 import LinksTab from './LinksTab';
-import { anchorLabel } from '../noteLabels';
+import { anchorLabel, notePreview } from '../noteLabels';
 import type { Note, Reference, SelectedEntry, VerseSelection } from '../types';
 
 type AnchorKind = 'verse' | 'entry' | 'chapter' | 'book' | 'free';
@@ -35,13 +36,6 @@ interface NotesPanelProps {
   standalone?: boolean;
 }
 
-// Collapsed-header line: the title, or the first meaningful line of content.
-function notePreview(n: Note): string {
-  if (n.title) return n.title;
-  const line = n.content.split('\n').find((l) => l.trim()) ?? '';
-  return line.replace(/[#>*_`~]/g, '').replace(/^\s*[-+]\s+/, '').trim().slice(0, 60) || '(empty note)';
-}
-
 export default function NotesPanel({
   refState, selection, entrySelection, onNotesChanged, onClose, onPopOut,
   onNavigateVerse, onNavigateEntry, highlightsVersion, onHighlightsChanged, linksVersion, onLinksChanged,
@@ -57,6 +51,9 @@ export default function NotesPanel({
   const [status, setStatus] = useState('');
   // note ids expanded in the list (collapsed by default for a tidy list)
   const [expanded, setExpanded] = useState<Set<number>>(new Set());
+  // height of the markdown writing area, set by the editor's top drag handle
+  const [editorHeight, setEditorHeight] = useState(160);
+  const [exportOpen, setExportOpen] = useState(false);
   const editorRef = useRef<NoteEditorHandle>(null);
 
   const toggleExpand = (id: number) => {
@@ -152,10 +149,13 @@ export default function NotesPanel({
     setTimeout(() => setStatus(''), 3000);
   };
 
-  const doExport = async () => {
+  const doExport = async (chosen: Note[]) => {
+    setExportOpen(false);
     try {
-      const r = await exportAllNotes();
-      flash(r === 'saved' ? 'Notes exported.' : r === 'empty' ? 'No notes to export.' : '');
+      const r = await exportNotes(chosen);
+      flash(r === 'saved'
+        ? `Exported ${chosen.length} note${chosen.length === 1 ? '' : 's'}.`
+        : r === 'empty' ? 'No notes to export.' : '');
     } catch (e) {
       flash(`Export failed: ${String(e)}`);
     }
@@ -174,6 +174,23 @@ export default function NotesPanel({
     }
   };
 
+  // Dragging the editor's top edge upward grows the writing area; the notes
+  // list above it takes whatever height is left.
+  const onEditorResize = useCallback((e: React.MouseEvent) => {
+    e.preventDefault();
+    const startY = e.clientY;
+    const startH = editorHeight;
+    const onMove = (ev: MouseEvent) => {
+      setEditorHeight(Math.min(600, Math.max(80, startH + (startY - ev.clientY))));
+    };
+    const onUp = () => {
+      document.removeEventListener('mousemove', onMove);
+      document.removeEventListener('mouseup', onUp);
+    };
+    document.addEventListener('mousemove', onMove);
+    document.addEventListener('mouseup', onUp);
+  }, [editorHeight]);
+
   return (
     <div className={`notes-panel${standalone ? ' notes-standalone' : ''}`}>
       <div className="notes-tabs">
@@ -182,16 +199,16 @@ export default function NotesPanel({
         <button className={`notes-tab${tab === 'links' ? ' active' : ''}`} onClick={() => setTab('links')}>Links</button>
         <span className="spacer" />
         <button className="icon" onClick={doImport} title="Import notes (Markdown, text, RTF, HTML)">📥</button>
-        <button className="icon" onClick={doExport} title="Export all notes to Markdown">📤</button>
+        <button className="icon" onClick={() => setExportOpen(true)} title="Export notes to Markdown (choose which)">📤</button>
         {onPopOut && <button className="icon" onClick={onPopOut} title="Open in a separate window">⧉</button>}
         {onClose && <button className="icon" onClick={onClose} title="Close notes">✕</button>}
       </div>
       {tab === 'notes' && (
         <div className="notes-subhead">
+          <button onClick={() => setShowFree(true)} disabled={showFree}>Free-form</button>
           <button onClick={() => setShowFree(false)} disabled={!showFree}>
             {refState.book} {refState.chapter}
           </button>
-          <button onClick={() => setShowFree(true)} disabled={showFree}>Free</button>
         </div>
       )}
       {status && <div className="notes-status">{status}</div>}
@@ -248,6 +265,7 @@ export default function NotesPanel({
         ))}
       </div>
       <div className="note-editor">
+        {!standalone && <div className="note-editor-resizer" onMouseDown={onEditorResize} />}
         {editing && <div className="note-anchor">Editing note — {anchorLabel(editing)}</div>}
         {!editing && (
           <div className="row">
@@ -269,7 +287,13 @@ export default function NotesPanel({
           </div>
         )}
         <input type="text" placeholder="Title (optional)" value={title} onChange={(e) => setTitle(e.target.value)} />
-        <NoteEditor ref={editorRef} value={content} onChange={setContent} placeholder="Write a note in Markdown…" />
+        <NoteEditor
+          ref={editorRef}
+          value={content}
+          onChange={setContent}
+          placeholder="Write a note in Markdown…"
+          minHeight={standalone ? undefined : editorHeight}
+        />
         <div className="row">
           <button className="primary" onClick={save} disabled={!content.trim()}>
             {editing ? 'Save changes' : 'Add note'}
@@ -278,6 +302,9 @@ export default function NotesPanel({
         </div>
       </div>
       </>
+      )}
+      {exportOpen && (
+        <NoteExportDialog onExport={doExport} onClose={() => setExportOpen(false)} />
       )}
     </div>
   );
