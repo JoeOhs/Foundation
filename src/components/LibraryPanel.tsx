@@ -46,11 +46,6 @@ function compareByTitle(a: { title: string }, b: { title: string }): number {
   return a.title.localeCompare(b.title, undefined, { numeric: true });
 }
 
-// Below this, a section opens expanded — a two-item list costs nothing to
-// show, while the Bibles section (already a dozen, and the category the
-// project expects to grow most) would otherwise fill the panel on open.
-const AUTO_EXPAND_MAX = 3;
-
 // One row in the panel, normalised across the three things that can appear
 // in a category section: a downloadable manifest entry, a bundled work, and
 // a source that only exists in the database (a user's own import). Add-ons
@@ -91,8 +86,7 @@ export default function LibraryPanel({
   const [error, setError] = useState('');
   const [strongsInstalled, setStrongsInstalled] = useState(false);
   const [filter, setFilter] = useState('');
-  // Explicit user toggles; sections not named here fall back to the
-  // size-based default in `isOpen`.
+  // Explicit user toggles for this visit; anything not named here is closed.
   const [toggled, setToggled] = useState<Record<string, boolean>>({});
 
   useEffect(() => { hasStrongsData().then(setStrongsInstalled); }, []);
@@ -243,13 +237,16 @@ export default function LibraryPanel({
   }, [rows, query]);
 
   // A filter implies you want to see what matched, so searching expands
-  // everything; otherwise small sections open and large ones stay folded.
-  const isOpen = (key: string, count: number): boolean => {
+  // everything. Otherwise every section starts folded, so the panel always
+  // opens as a plain list of categories rather than a mix of open and closed
+  // ones. The panel unmounts on close, which resets these toggles, so
+  // reopening returns to that state.
+  const isOpen = (key: string): boolean => {
     if (query) return true;
-    return toggled[key] ?? count <= AUTO_EXPAND_MAX;
+    return toggled[key] ?? false;
   };
-  const toggle = (key: string, count: number) => {
-    setToggled((prev) => ({ ...prev, [key]: !isOpen(key, count) }));
+  const toggle = (key: string) => {
+    setToggled((prev) => ({ ...prev, [key]: !isOpen(key) }));
   };
 
   const renderRow = (row: Row) => {
@@ -344,13 +341,13 @@ export default function LibraryPanel({
           )}
 
           {visibleSections.map((section) => {
-            const open = isOpen(section.category, section.count);
+            const open = isOpen(section.category);
             return (
               <div className="library-section" key={section.category}>
                 <button
                   className="library-section-head"
                   aria-expanded={open}
-                  onClick={() => toggle(section.category, section.count)}
+                  onClick={() => toggle(section.category)}
                 >
                   <span className="library-caret">{open ? '▾' : '▸'}</span>
                   <span className="library-section-title">{section.label}</span>
@@ -360,13 +357,13 @@ export default function LibraryPanel({
                   group.label === null
                     ? <div key={group.key}>{group.rows.map(renderRow)}</div>
                     : (() => {
-                        const gOpen = isOpen(group.key, group.rows.length);
+                        const gOpen = isOpen(group.key);
                         return (
                           <div className="library-subsection" key={group.key}>
                             <button
                               className="library-subsection-head"
                               aria-expanded={gOpen}
-                              onClick={() => toggle(group.key, group.rows.length)}
+                              onClick={() => toggle(group.key)}
                             >
                               <span className="library-caret">{gOpen ? '▾' : '▸'}</span>
                               {group.label}
