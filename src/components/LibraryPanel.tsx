@@ -39,6 +39,13 @@ const CATEGORY_LABELS: { category: SourceCategory; label: string }[] = [
 // adding a readable pane work.
 const ADDON_CATEGORIES: SourceCategory[] = ['dictionary', 'devotional'];
 
+// Titles carry volume numbers, so a plain string sort files "Vol. 10" between
+// "Vol. 1" and "Vol. 2". `numeric` compares digit runs by value, which orders
+// a 14-volume series the way it's shelved.
+function compareByTitle(a: { title: string }, b: { title: string }): number {
+  return a.title.localeCompare(b.title, undefined, { numeric: true });
+}
+
 // Below this, a section opens expanded — a two-item list costs nothing to
 // show, while the Bibles section (already a dozen, and the category the
 // project expects to grow most) would otherwise fill the panel on open.
@@ -195,7 +202,7 @@ export default function LibraryPanel({
       const matching = rows
         .filter((r) => r.category === category)
         .filter((r) => !query || rowHaystack(r, label).includes(query))
-        .sort((a, b) => a.title.localeCompare(b.title));
+        .sort(compareByTitle);
 
       let groups: { key: string; label: string | null; rows: Row[] }[];
       if (category === 'bible') {
@@ -312,7 +319,7 @@ export default function LibraryPanel({
   const addonRows = rows
     .filter((r) => ADDON_CATEGORIES.includes(r.category))
     .filter((r) => !query || rowHaystack(r, 'Add-ons').includes(query))
-    .sort((a, b) => a.title.localeCompare(b.title));
+    .sort(compareByTitle);
 
   return (
     <div className="modal-overlay" onClick={() => !busyId && onClose()}>

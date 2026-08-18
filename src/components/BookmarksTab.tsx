@@ -142,7 +142,9 @@ export default function BookmarksTab({
 
   const sorted = [...bookmarks];
   if (sortMode === 'alpha') {
-    sorted.sort((a, b) => a.label.localeCompare(b.label));
+    // `numeric` so a bookmark on "… Vol. 10" files after "Vol. 9", not
+    // between "Vol. 1" and "Vol. 2"
+    sorted.sort((a, b) => a.label.localeCompare(b.label, undefined, { numeric: true }));
   } else if (sortMode === 'category') {
     sorted.sort((a, b) => {
       const ca = CATEGORY_ORDER[a.source_category ?? ''] ?? 99;
