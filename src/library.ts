@@ -724,5 +724,5 @@ export const SERIES_NOTES: Record<string, string> = {
   'Ante-Nicene Fathers':
     'Volume 10 (General Index) intentionally omitted — use Foundation\'s full-text search (scope: Church Fathers or All sources) to find content across all installed volumes.',
   'Nicene and Post-Nicene Fathers, Series I':
-    'Volumes 1–4 available (Augustine). Volumes 5–14 (Augustine continued, then Chrysostom) coming in future batches.',
+    'All 14 volumes available (Augustine, Vols. 1–8; Chrysostom, Vols. 9–14).',
 };
