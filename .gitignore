@@ -17,10 +17,10 @@ src-tauri/target
 src-tauri/gen
 
 # Data-prep raw/intermediate files (large binaries, not needed at runtime)
-companion-bible-notes/thecompanionbible_202504/
-companion-bible-notes/thecompanionbible_202504_epub/
-companion-bible-notes/thecompanionbible_202504_pdf/
-companion-bible-notes/thecompanionbible_202504_json/
+tools/companion-bible-notes/thecompanionbible_202504/
+tools/companion-bible-notes/thecompanionbible_202504_epub/
+tools/companion-bible-notes/thecompanionbible_202504_pdf/
+tools/companion-bible-notes/thecompanionbible_202504_json/
 
 # Local AI-assistant/session artifacts
 .claude/

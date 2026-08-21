@@ -4,7 +4,7 @@ import type { ParsedBook, ParsedEntry, ParsedSource, ParsedTocEntry } from './ty
 export const ANF09_TITLE =
   'Ante-Nicene Fathers, Vol. 9: Recently Discovered Additions to Early Christian Literature';
 
-const BUNDLE_URL = '/library/anf09.json';
+const BUNDLE_URL = '/library/patristic/anf09.json';
 
 interface BundledChapter {
   number: number;

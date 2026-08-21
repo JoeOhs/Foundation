@@ -4,7 +4,7 @@ import type { ParsedBook, ParsedEntry, ParsedSource, ParsedTocEntry } from './ty
 export const NPNF108_TITLE =
   'Nicene and Post-Nicene Fathers, Series I, Vol. 8: Augustine: Expositions on the Psalms';
 
-const BUNDLE_URL = '/library/npnf108.json';
+const BUNDLE_URL = '/library/patristic/npnf108.json';
 
 interface BundledChapter { number: number; title: string; paragraphs: string[]; }
 interface BundledWork { title: string; chapters: BundledChapter[]; }

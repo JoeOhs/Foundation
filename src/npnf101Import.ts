@@ -4,7 +4,7 @@ import type { ParsedBook, ParsedEntry, ParsedSource, ParsedTocEntry } from './ty
 export const NPNF101_TITLE =
   'Nicene and Post-Nicene Fathers, Series I, Vol. 1: Augustine: Prolegomena, Confessions, Letters';
 
-const BUNDLE_URL = '/library/npnf101.json';
+const BUNDLE_URL = '/library/patristic/npnf101.json';
 
 interface BundledChapter { number: number; title: string; paragraphs: string[]; }
 interface BundledWork { title: string; chapters: BundledChapter[]; }

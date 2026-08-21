@@ -4,7 +4,7 @@ import type { ParsedBook, ParsedEntry, ParsedSource, ParsedTocEntry } from './ty
 export const NPNF103_TITLE =
   'Nicene and Post-Nicene Fathers, Series I, Vol. 3: Augustine: On the Holy Trinity, Doctrinal Treatises, Moral Treatises';
 
-const BUNDLE_URL = '/library/npnf103.json';
+const BUNDLE_URL = '/library/patristic/npnf103.json';
 
 interface BundledChapter { number: number; title: string; paragraphs: string[]; }
 interface BundledWork { title: string; chapters: BundledChapter[]; }

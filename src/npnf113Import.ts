@@ -4,7 +4,7 @@ import type { ParsedBook, ParsedEntry, ParsedSource, ParsedTocEntry } from './ty
 export const NPNF113_TITLE =
   'Nicene and Post-Nicene Fathers, Series I, Vol. 13: Chrysostom: Homilies on Galatians, Ephesians, Philippians, Colossians, Thessalonians, Timothy, Titus, and Philemon';
 
-const BUNDLE_URL = '/library/npnf113.json';
+const BUNDLE_URL = '/library/patristic/npnf113.json';
 
 interface BundledChapter { number: number; title: string; paragraphs: string[]; }
 interface BundledWork { title: string; chapters: BundledChapter[]; }

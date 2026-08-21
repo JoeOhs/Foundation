@@ -31,7 +31,7 @@ import type { ParsedBook, ParsedEntry, ParsedSource, ParsedTocEntry } from './ty
 // them to a word position would mean guessing which digits are which, and a
 // wrong guess corrupts the text. Dropping them loses Whiston's commentary
 // but keeps Josephus exact, which is the right way round.
-const BUNDLE_URL = '/library/josephus.json';
+const BUNDLE_URL = '/library/historical/josephus.json';
 
 export const JOSEPHUS_TITLE = 'Josephus — Complete Works (trans. William Whiston, 1737)';
 

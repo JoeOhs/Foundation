@@ -105,7 +105,7 @@ running list of what's done and what's next, not a commitment.
   archive.org page scans (e.g. `dictionaryofbwi01smit`), whose ABBYY OCR is
   heavily corrupted ("I'-gj^pt" for "Egypt") and covers only one volume of
   the four-volume unabridged edition. Built by
-  `smiths-dictionary/build.mjs` (standalone, run outside the app), which
+  `tools/smiths-dictionary/build.mjs` (standalone, run outside the app), which
   refuses any module not marked public domain and fails the build if any
   markup or fewer than ~4,000 entries survive parsing.
 - **Footer commentary: Jamieson, Fausset & Brown (1871).** The study
@@ -143,7 +143,7 @@ running list of what's done and what's next, not a commitment.
   as the label above a cell; no new tables.
   **Provenance:** the CrossWire Bible Society's `jfb` OSIS module
   (`DistributionLicense: Public Domain`, derived from CCEL's transcription);
-  all three authors died over a century ago. Built by `jfb/build.mjs`
+  all three authors died over a century ago. Built by `tools/jfb/build.mjs`
   (standalone, run outside the app), which refuses any module not marked
   public domain, parses the file as a flat milestone stream rather than a DOM
   tree (comments cross `<p>` boundaries — Genesis 2:1 spans three
@@ -151,7 +151,7 @@ running list of what's done and what's next, not a commitment.
   **Excluded, deliberately:** both introductions, both of David Brown's
   chronological tables (Parables, Miracles), the per-book introductions and
   the OSIS header — none is verse-anchored, so none can be placed in a
-  verse-keyed footer. Logged block by block to `jfb/jfb-exclusions.txt`
+  verse-keyed footer. Logged block by block to `tools/jfb/jfb-exclusions.txt`
   (571 blocks, ~708 KB), same audit-trail standard as the Josephus
   footnote-exclusion and ANF Vol. 10 precedents.
 - **Open source** — MIT-licensed (see `LICENSE`). The license covers the app
@@ -193,10 +193,10 @@ running list of what's done and what's next, not a commitment.
   (braces stripped, note text kept); a one-time offline repair at boot
   restores the affected ~6,500 verses from the corrected seed conversion.
 - **Themes + reader fonts.** Six CSS-variable themes (`src/themes.css`,
-  spec in `THEMES.md`) with per-theme gradient shells, and a curated set of
+  spec in `docs/THEMES.md`) with per-theme gradient shells, and a curated set of
   system reader fonts — both in the 🎨 Appearance popover with live hover
   preview, alongside a text-size slider. **Texture system** implemented
-  per THEMES.md § "Texture & depth": shared SVG feTurbulence grain overlay
+  per docs/THEMES.md § "Texture & depth": shared SVG feTurbulence grain overlay
   on `body::after`, per-theme grain tuning (Obsidian brushed-metal lines,
   Midnight frosted-glass modals, Sunset heat-shimmer tint, Emerald edge
   vignette, Nova warm paper-grain shadows), Cosmic drift gated by
@@ -265,7 +265,7 @@ running list of what's done and what's next, not a commitment.
     Work → Book → Chapter TOC dropdown. Each chapter is an `entries.chapter`
     purely as a loading unit, so the pane fetches one chapter at a time
     instead of all 2,280 sections — the same fix the Appendixes needed.
-    Built by `josephus/build.mjs` (standalone, run outside the app), which
+    Built by `tools/josephus/build.mjs` (standalone, run outside the app), which
     hard-fails on any edition whose Gutenberg header doesn't say
     `Translator: William Whiston` — the modern translations (Loeb, Feldman,
     Mason/Brill) are separately copyrighted and must never be substituted.
@@ -277,7 +277,7 @@ running list of what's done and what's next, not a commitment.
     captured into an `entry_notes`-style table because anchoring them would
     mean guessing which digits are markers, and a wrong guess rewrites the
     text; losing Whiston's commentary is the better trade. See
-    `josephus/README.md` and the header of `src/josephusImport.ts`.
+    `tools/josephus/README.md` and the header of `src/josephusImport.ts`.
 
     The generalisation this drove lives in `db.ts`, not in the Josephus
     importer: `insertTocEntries` used to hard-code `parsed.books[0]`, so a
@@ -293,10 +293,10 @@ running list of what's done and what's next, not a commitment.
     change to adopt the same TOC treatment.
   - *Companion Bible Appendixes* (E.W. Bullinger, public domain) — all 198
     scraped and cleaned to Markdown by a standalone script
-    (`companion-bible-appendix/scrape.mjs`, run outside the app with
+    (`tools/companion-bible-appendix/scrape.mjs`, run outside the app with
     `node scrape.mjs`; not part of `src-tauri` or the app runtime), then
     packaged and wired up as a bundled (no-network) Library entry: the
-    JSON ships at `public/library/companion-bible-appendixes.json`,
+    JSON ships at `public/library/commentaries/companion-bible-appendixes.json`,
     `src/companionAppendixImport.ts` is its dedicated, fixed-schema
     importer (flattens the archival Markdown to the plain text every
     freeform entry already uses, builds one `entries` row per paragraph —
@@ -353,13 +353,13 @@ running list of what's done and what's next, not a commitment.
     opens the archive's own page PDF in a pop-out window (`?window=refpage`,
     same pattern as the notes popout) where it can be scrolled and zoomed by
     the webview's built-in PDF viewer — the whole scanned chapter, not a
-    cropped image. `companion-bible-notes/build.mjs` copies the referenced
-    PDF into `public/library/` so it ships offline. Never required: a diagram
+    cropped image. `tools/companion-bible-notes/build.mjs` copies the referenced
+    PDF into `public/library/commentaries/companion-bible-notes/` so it ships offline. Never required: a diagram
     with no `[[pdf:]]` renders exactly the same, minus the link.
   - *Prose notes* — ordinary verse-keyed entries, no new table.
 
   Transcribed by hand from page scans via a small indentation-based notation
-  and compiled by a standalone script (`companion-bible-notes/build.mjs`, run
+  and compiled by a standalone script (`tools/companion-bible-notes/build.mjs`, run
   outside the app with `node build.mjs`; notation documented in that
   directory's README). The parser rejects rather than guesses on ambiguous
   indentation, malformed verse ranges or unresolvable group references —
@@ -393,13 +393,13 @@ running list of what's done and what's next, not a commitment.
   Bullinger's marginal notes are **complete for all 25 verses**, plus his
   four introductory notes, transcribed by cross-referencing the four
   renderings of the Internet Archive scan supplied under
-  `companion-bible-notes/` (page image, HOCR, PDF, EPUB — all from one OCR
+  `tools/companion-bible-notes/` (page image, HOCR, PDF, EPUB — all from one OCR
   pass, so they fix reading order rather than character accuracy). The PDF's
   `-layout` output was primary, since it alone keeps the note column
   separate and in verse order. OCR damage to Bullinger's transliterated
   Greek was repaired, and two appendix cross-references were corrected
   against the appendix titles already bundled in
-  `companion-bible-appendix/` — Ap. 185 → 135 on *agapetos*, Ap. 182 → 132
+  `tools/companion-bible-appendix/` — Ap. 185 → 135 on *agapetos*, Ap. 182 → 132
   on *acknowledging*/*knowing*. The full correction policy, including what
   was deliberately left as-OCR'd, is in the header of `philemon.notes.txt`.
 
@@ -427,7 +427,7 @@ running list of what's done and what's next, not a commitment.
   **Adding a book is now a data task, not an engineering one.** The pipeline
   is per-book: transcribe, `node build.mjs --book=<slug>` to compile and
   validate that book alone, test it in the app, then `--all` to fold it into
-  the single `public/library/companion-bible-notes.json` that deploys with
+  the single `public/library/commentaries/companion-bible-notes.json` that deploys with
   the app. The importer installs whatever books the bundle holds, so no code
   changes per book. The full workflow — source-selection, the staircase
   pitfall, the OCR correction policy, and the two automated verification

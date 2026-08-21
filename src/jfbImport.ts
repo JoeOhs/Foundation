@@ -29,7 +29,7 @@ import type { ParsedBook, ParsedSource } from './types';
 
 export const JFB_TITLE = 'Jamieson, Fausset & Brown Commentary (1871)';
 
-const BUNDLE_URL = '/library/jfb.json';
+const BUNDLE_URL = '/library/commentaries/jfb.json';
 
 interface BundleComment {
   chapter: number;

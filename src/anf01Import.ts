@@ -4,7 +4,7 @@ import type { ParsedBook, ParsedEntry, ParsedSource, ParsedTocEntry } from './ty
 export const ANF01_TITLE =
   'Ante-Nicene Fathers, Vol. 1: The Apostolic Fathers with Justin Martyr and Irenaeus';
 
-const BUNDLE_URL = '/library/anf01.json';
+const BUNDLE_URL = '/library/patristic/anf01.json';
 
 interface BundledChapter {
   number: number;

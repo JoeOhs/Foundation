@@ -4,7 +4,7 @@ import type { ParsedBook, ParsedEntry, ParsedSource, ParsedTocEntry } from './ty
 export const NPNF111_TITLE =
   'Nicene and Post-Nicene Fathers, Series I, Vol. 11: Chrysostom: Homilies on the Acts of the Apostles and the Epistle to the Romans';
 
-const BUNDLE_URL = '/library/npnf111.json';
+const BUNDLE_URL = '/library/patristic/npnf111.json';
 
 interface BundledChapter { number: number; title: string; paragraphs: string[]; }
 interface BundledWork { title: string; chapters: BundledChapter[]; }

@@ -4,7 +4,7 @@ import type { ParsedBook, ParsedEntry, ParsedSource, ParsedTocEntry } from './ty
 export const NPNF106_TITLE =
   'Nicene and Post-Nicene Fathers, Series I, Vol. 6: Augustine: Sermon on the Mount, Harmony of the Gospels, Homilies on the Gospels';
 
-const BUNDLE_URL = '/library/npnf106.json';
+const BUNDLE_URL = '/library/patristic/npnf106.json';
 
 interface BundledChapter { number: number; title: string; paragraphs: string[]; }
 interface BundledWork { title: string; chapters: BundledChapter[]; }

@@ -4,7 +4,7 @@ import type { ParsedBook, ParsedEntry, ParsedSource, ParsedTocEntry } from './ty
 export const NPNF102_TITLE =
   'Nicene and Post-Nicene Fathers, Series I, Vol. 2: Augustine: City of God, On Christian Doctrine';
 
-const BUNDLE_URL = '/library/npnf102.json';
+const BUNDLE_URL = '/library/patristic/npnf102.json';
 
 interface BundledChapter { number: number; title: string; paragraphs: string[]; }
 interface BundledWork { title: string; chapters: BundledChapter[]; }

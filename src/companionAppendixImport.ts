@@ -8,7 +8,7 @@ import type { ParsedEntry, ParsedSource, ParsedTocEntry } from './types';
 // under public/library/ and installed from local disk, same trick as
 // src/seed.ts's bundled KJV/BBE — no network call, unlike every other
 // Library entry in src/library.ts.
-const BUNDLE_URL = '/library/companion-bible-appendixes.json';
+const BUNDLE_URL = '/library/commentaries/companion-bible-appendixes.json';
 
 export const COMPANION_APPENDIX_TITLE = 'The Companion Bible Appendixes';
 

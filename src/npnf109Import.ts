@@ -4,7 +4,7 @@ import type { ParsedBook, ParsedEntry, ParsedSource, ParsedTocEntry } from './ty
 export const NPNF109_TITLE =
   'Nicene and Post-Nicene Fathers, Series I, Vol. 9: Chrysostom: On the Priesthood, Ascetic Treatises, Select Homilies and Letters, Homilies on the Statues';
 
-const BUNDLE_URL = '/library/npnf109.json';
+const BUNDLE_URL = '/library/patristic/npnf109.json';
 
 interface BundledChapter { number: number; title: string; paragraphs: string[]; }
 interface BundledWork { title: string; chapters: BundledChapter[]; }

@@ -4,7 +4,7 @@ import type { ParsedBook, ParsedEntry, ParsedSource, ParsedTocEntry } from './ty
 export const NPNF110_TITLE =
   'Nicene and Post-Nicene Fathers, Series I, Vol. 10: Chrysostom: Homilies on the Gospel of St. Matthew';
 
-const BUNDLE_URL = '/library/npnf110.json';
+const BUNDLE_URL = '/library/patristic/npnf110.json';
 
 interface BundledChapter { number: number; title: string; paragraphs: string[]; }
 interface BundledWork { title: string; chapters: BundledChapter[]; }

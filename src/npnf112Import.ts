@@ -4,7 +4,7 @@ import type { ParsedBook, ParsedEntry, ParsedSource, ParsedTocEntry } from './ty
 export const NPNF112_TITLE =
   'Nicene and Post-Nicene Fathers, Series I, Vol. 12: Chrysostom: Homilies on First and Second Corinthians';
 
-const BUNDLE_URL = '/library/npnf112.json';
+const BUNDLE_URL = '/library/patristic/npnf112.json';
 
 interface BundledChapter { number: number; title: string; paragraphs: string[]; }
 interface BundledWork { title: string; chapters: BundledChapter[]; }

@@ -4,7 +4,7 @@ import type { ParsedBook, ParsedEntry, ParsedSource, ParsedTocEntry } from './ty
 export const NPNF107_TITLE =
   'Nicene and Post-Nicene Fathers, Series I, Vol. 7: Augustine: Homilies on the Gospel of John, Homilies on the First Epistle of John, Soliloquies';
 
-const BUNDLE_URL = '/library/npnf107.json';
+const BUNDLE_URL = '/library/patristic/npnf107.json';
 
 interface BundledChapter { number: number; title: string; paragraphs: string[]; }
 interface BundledWork { title: string; chapters: BundledChapter[]; }

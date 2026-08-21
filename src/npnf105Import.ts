@@ -4,7 +4,7 @@ import type { ParsedBook, ParsedEntry, ParsedSource, ParsedTocEntry } from './ty
 export const NPNF105_TITLE =
   'Nicene and Post-Nicene Fathers, Series I, Vol. 5: Augustine: Anti-Pelagian Writings';
 
-const BUNDLE_URL = '/library/npnf105.json';
+const BUNDLE_URL = '/library/patristic/npnf105.json';
 
 interface BundledChapter { number: number; title: string; paragraphs: string[]; }
 interface BundledWork { title: string; chapters: BundledChapter[]; }

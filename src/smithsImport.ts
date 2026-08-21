@@ -15,7 +15,7 @@ import type { ParsedBook, ParsedSource, ParsedTocEntry } from './types';
 
 export const SMITHS_TITLE = "Smith's Bible Dictionary (1884)";
 
-const BUNDLE_URL = '/library/smiths.json';
+const BUNDLE_URL = '/library/reference/smiths.json';
 
 interface BundledEntry { word: string; text: string }
 interface BundledLetter { letter: string; entries: BundledEntry[] }

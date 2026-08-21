@@ -301,7 +301,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'E.W. Bullinger (1837–1913) — public domain. Scraped from Levend Water\'s public-domain hosting ' +
       '(levendwater.org/companion/) into a clean Markdown bundle shipped with the app; installs 198 short ' +
       'commentary articles as their own browsable source, no network call required. See ' +
-      'companion-bible-appendix/scrape.mjs for scrape provenance.',
+      'tools/companion-bible-appendix/scrape.mjs for scrape provenance.',
     install: installCompanionAppendixes,
   },
   {
@@ -316,7 +316,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'his Structure diagrams, encoded as nested outlines so individual lines can be highlighted, bound ' +
       'and annotated, plus the side-notes themselves, with his scripture and appendix cross-references ' +
       'clickable. Reads alongside a translation in a normal pane. Hand-transcribed from the 1913 edition ' +
-      'at the Internet Archive; see companion-bible-notes/ for the transcription, its notation and its ' +
+      'at the Internet Archive; see tools/companion-bible-notes/ for the transcription, its notation and its ' +
       'build script. Installs whichever books have been transcribed so far.',
     verseKeyed: true,
     install: installCompanionNotes,
@@ -334,7 +334,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'the Jews, all twenty books of the Antiquities, The Life of Flavius Josephus and Against Apion ' +
       '— ~2,280 sections under a Work → Book → Chapter table of contents. Whiston\'s own translator ' +
       'footnotes are deliberately excluded, so the text is Josephus\'s only. Built by ' +
-      'josephus/build.mjs, which refuses any edition that isn\'t Whiston\'s.',
+      'tools/josephus/build.mjs, which refuses any edition that isn\'t Whiston\'s.',
     install: installJosephus,
   },
   {
@@ -350,7 +350,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       '1867, Edinburgh); revised for the American edition by A. Cleveland Coxe (first published 1885, ' +
       'Buffalo, NY). All editors deceased before 1930; text in the public domain in the United States. ' +
       'Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/anf01). Editorial footnotes (both Roberts/Donaldson ' +
-      'and Coxe) are excluded from the text. Built by anf01/build.mjs.',
+      'and Coxe) are excluded from the text. Built by tools/anf/anf01/build.mjs.',
     install: installANF01,
   },
   {
@@ -366,7 +366,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       '1867, Edinburgh); revised for the American edition by A. Cleveland Coxe (first published 1885, ' +
       'Buffalo, NY). All editors deceased before 1930; text in the public domain in the United States. ' +
       'Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/anf02). Editorial footnotes (both Roberts/Donaldson ' +
-      'and Coxe) are excluded from the text. Built by anf02/build.mjs.',
+      'and Coxe) are excluded from the text. Built by tools/anf/anf02/build.mjs.',
     install: installANF02,
   },
   {
@@ -381,7 +381,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'Ante-Nicene Fathers, Vol. 3. Edited by Alexander Roberts and James Donaldson (first published ' +
       '1867, Edinburgh); revised for the American edition by A. Cleveland Coxe (first published 1885, ' +
       'Buffalo, NY). All editors deceased before 1930; text in the public domain in the United States. ' +
-      'Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/anf03). Editorial footnotes excluded. Built by anf03/build.mjs.',
+      'Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/anf03). Editorial footnotes excluded. Built by tools/anf/anf03/build.mjs.',
     install: installANF03,
   },
   {
@@ -396,7 +396,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'Ante-Nicene Fathers, Vol. 4. Edited by Alexander Roberts and James Donaldson (first published ' +
       '1867, Edinburgh); revised for the American edition by A. Cleveland Coxe (first published 1885, ' +
       'Buffalo, NY). All editors deceased before 1930; text in the public domain in the United States. ' +
-      'Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/anf04). Editorial footnotes excluded. Built by anf04/build.mjs.',
+      'Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/anf04). Editorial footnotes excluded. Built by tools/anf/anf04/build.mjs.',
     install: installANF04,
   },
   {
@@ -411,7 +411,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'Ante-Nicene Fathers, Vol. 5. Edited by Alexander Roberts and James Donaldson (first published ' +
       '1867, Edinburgh); revised for the American edition by A. Cleveland Coxe (first published 1885, ' +
       'Buffalo, NY). All editors deceased before 1930; text in the public domain in the United States. ' +
-      'Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/anf05). Editorial footnotes excluded. Built by anf05/build.mjs.',
+      'Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/anf05). Editorial footnotes excluded. Built by tools/anf/anf05/build.mjs.',
     install: installANF05,
   },
   {
@@ -426,7 +426,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'Ante-Nicene Fathers, Vol. 6. Edited by Alexander Roberts and James Donaldson (first published ' +
       '1867, Edinburgh); revised for the American edition by A. Cleveland Coxe (first published 1885, ' +
       'Buffalo, NY). All editors deceased before 1930; text in the public domain in the United States. ' +
-      'Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/anf06). Editorial footnotes excluded. Built by anf06/build.mjs.',
+      'Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/anf06). Editorial footnotes excluded. Built by tools/anf/anf06/build.mjs.',
     install: installANF06,
   },
   {
@@ -441,7 +441,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'Ante-Nicene Fathers, Vol. 7. Edited by Alexander Roberts and James Donaldson (first published ' +
       '1867, Edinburgh); revised for the American edition by A. Cleveland Coxe (first published 1885, ' +
       'Buffalo, NY). All editors deceased before 1930; text in the public domain in the United States. ' +
-      'Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/anf07). Editorial footnotes excluded. Built by anf07/build.mjs.',
+      'Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/anf07). Editorial footnotes excluded. Built by tools/anf/anf07/build.mjs.',
     install: installANF07,
   },
   {
@@ -456,7 +456,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'Ante-Nicene Fathers, Vol. 8. Edited by Alexander Roberts and James Donaldson (first published ' +
       '1867, Edinburgh); revised for the American edition by A. Cleveland Coxe (first published 1885, ' +
       'Buffalo, NY). All editors deceased before 1930; text in the public domain in the United States. ' +
-      'Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/anf08). Editorial footnotes excluded. Built by anf08/build.mjs.',
+      'Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/anf08). Editorial footnotes excluded. Built by tools/anf/anf08/build.mjs.',
     install: installANF08,
   },
   {
@@ -471,7 +471,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'Ante-Nicene Fathers, Vol. 9. Edited by Alexander Roberts and James Donaldson (first published ' +
       '1867, Edinburgh); revised for the American edition by A. Cleveland Coxe (first published 1885, ' +
       'Buffalo, NY). All editors deceased before 1930; text in the public domain in the United States. ' +
-      'Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/anf09). Editorial footnotes excluded. Built by anf09/build.mjs.',
+      'Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/anf09). Editorial footnotes excluded. Built by tools/anf/anf09/build.mjs.',
     install: installANF09,
   },
   {
@@ -486,7 +486,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'Nicene and Post-Nicene Fathers, Series I, Vol. 1. Edited by Philip Schaff (first published ' +
       '1886, Buffalo, NY, by the Christian Literature Publishing Co.). Editor deceased 1893; text in ' +
       'the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf101). ' +
-      'Editorial footnotes excluded. Built by npnf101/build.mjs.',
+      'Editorial footnotes excluded. Built by tools/npnf1/npnf101/build.mjs.',
     install: installNPNF101,
   },
   {
@@ -501,7 +501,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'Nicene and Post-Nicene Fathers, Series I, Vol. 2. Edited by Philip Schaff (first published ' +
       '1886–1889, Buffalo, NY, by the Christian Literature Publishing Co.). Editor deceased 1893; text ' +
       'in the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf102). ' +
-      'Editorial footnotes excluded. Built by npnf102/build.mjs.',
+      'Editorial footnotes excluded. Built by tools/npnf1/npnf102/build.mjs.',
     install: installNPNF102,
   },
   {
@@ -516,7 +516,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'Nicene and Post-Nicene Fathers, Series I, Vol. 3. Edited by Philip Schaff (first published ' +
       '1886–1889, Buffalo, NY, by the Christian Literature Publishing Co.). Editor deceased 1893; text ' +
       'in the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf103). ' +
-      'Editorial footnotes excluded. Built by npnf103/build.mjs.',
+      'Editorial footnotes excluded. Built by tools/npnf1/npnf103/build.mjs.',
     install: installNPNF103,
   },
   {
@@ -531,7 +531,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'Nicene and Post-Nicene Fathers, Series I, Vol. 4. Edited by Philip Schaff (first published ' +
       '1886–1889, Buffalo, NY, by the Christian Literature Publishing Co.). Editor deceased 1893; text ' +
       'in the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf104). ' +
-      'Editorial footnotes excluded. Built by npnf104/build.mjs.',
+      'Editorial footnotes excluded. Built by tools/npnf1/npnf104/build.mjs.',
     install: installNPNF104,
   },
   {
@@ -546,7 +546,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'Nicene and Post-Nicene Fathers, Series I, Vol. 5. Edited by Philip Schaff (first published ' +
       '1886–1889, Buffalo, NY, by the Christian Literature Publishing Co.). Editor deceased 1893; text ' +
       'in the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf105). ' +
-      'Editorial footnotes excluded. Built by npnf105/build.mjs.',
+      'Editorial footnotes excluded. Built by tools/npnf1/npnf105/build.mjs.',
     install: installNPNF105,
   },
   {
@@ -561,7 +561,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'Nicene and Post-Nicene Fathers, Series I, Vol. 6. Edited by Philip Schaff (first published ' +
       '1886–1889, Buffalo, NY, by the Christian Literature Publishing Co.). Editor deceased 1893; text ' +
       'in the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf106). ' +
-      'Editorial footnotes excluded. Built by npnf106/build.mjs.',
+      'Editorial footnotes excluded. Built by tools/npnf1/npnf106/build.mjs.',
     install: installNPNF106,
   },
   {
@@ -576,7 +576,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'Nicene and Post-Nicene Fathers, Series I, Vol. 7. Edited by Philip Schaff (first published ' +
       '1886–1889, Buffalo, NY, by the Christian Literature Publishing Co.). Editor deceased 1893; text ' +
       'in the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf107). ' +
-      'Editorial footnotes excluded. Built by npnf107/build.mjs.',
+      'Editorial footnotes excluded. Built by tools/npnf1/npnf107/build.mjs.',
     install: installNPNF107,
   },
   {
@@ -591,7 +591,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'Nicene and Post-Nicene Fathers, Series I, Vol. 8. Edited by Philip Schaff (first published ' +
       '1886–1889, Buffalo, NY, by the Christian Literature Publishing Co.). Editor deceased 1893; text ' +
       'in the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf108). ' +
-      'Editorial footnotes excluded. Built by npnf108/build.mjs.',
+      'Editorial footnotes excluded. Built by tools/npnf1/npnf108/build.mjs.',
     install: installNPNF108,
   },
   {
@@ -606,7 +606,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'Nicene and Post-Nicene Fathers, Series I, Vol. 9. Edited by Philip Schaff (first published ' +
       '1886–1889, Buffalo, NY, by the Christian Literature Publishing Co.). Editor deceased 1893; text ' +
       'in the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf109). ' +
-      'Editorial footnotes excluded. Built by npnf109/build.mjs.',
+      'Editorial footnotes excluded. Built by tools/npnf1/npnf109/build.mjs.',
     install: installNPNF109,
   },
   {
@@ -621,7 +621,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'Nicene and Post-Nicene Fathers, Series I, Vol. 10. Edited by Philip Schaff (first published ' +
       '1886–1889, Buffalo, NY, by the Christian Literature Publishing Co.). Editor deceased 1893; text ' +
       'in the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf110). ' +
-      'Editorial footnotes excluded. Built by npnf110/build.mjs.',
+      'Editorial footnotes excluded. Built by tools/npnf1/npnf110/build.mjs.',
     install: installNPNF110,
   },
   {
@@ -636,7 +636,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'Nicene and Post-Nicene Fathers, Series I, Vol. 11. Edited by Philip Schaff (first published ' +
       '1886–1889, Buffalo, NY, by the Christian Literature Publishing Co.). Editor deceased 1893; text ' +
       'in the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf111). ' +
-      'Editorial footnotes excluded. Built by npnf111/build.mjs.',
+      'Editorial footnotes excluded. Built by tools/npnf1/npnf111/build.mjs.',
     install: installNPNF111,
   },
   {
@@ -651,7 +651,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'Nicene and Post-Nicene Fathers, Series I, Vol. 12. Edited by Philip Schaff (first published ' +
       '1886–1889, Buffalo, NY, by the Christian Literature Publishing Co.). Editor deceased 1893; text ' +
       'in the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf112). ' +
-      'Editorial footnotes excluded. Built by npnf112/build.mjs.',
+      'Editorial footnotes excluded. Built by tools/npnf1/npnf112/build.mjs.',
     install: installNPNF112,
   },
   {
@@ -666,7 +666,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'Nicene and Post-Nicene Fathers, Series I, Vol. 13. Edited by Philip Schaff (first published ' +
       '1886–1889, Buffalo, NY, by the Christian Literature Publishing Co.). Editor deceased 1893; text ' +
       'in the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf113). ' +
-      'Editorial footnotes excluded. Built by npnf113/build.mjs.',
+      'Editorial footnotes excluded. Built by tools/npnf1/npnf113/build.mjs.',
     install: installNPNF113,
   },
   {
@@ -681,7 +681,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'Nicene and Post-Nicene Fathers, Series I, Vol. 14. Edited by Philip Schaff (first published ' +
       '1886–1889, Buffalo, NY, by the Christian Literature Publishing Co.). Editor deceased 1893; text ' +
       'in the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf114). ' +
-      'Editorial footnotes excluded. Built by npnf114/build.mjs.',
+      'Editorial footnotes excluded. Built by tools/npnf1/npnf114/build.mjs.',
     install: installNPNF114,
   },
   {
@@ -696,7 +696,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       + 'CrossWire SWORD "Smith" module (DistributionLicense: Public Domain), a hand-transcribed edition '
       + 'chosen over the archive.org page scans, whose OCR text is heavily corrupted and covers only one '
       + 'volume of four. ~4,600 headword articles; reads in the study footer\'s Dictionary tab, not in a '
-      + 'pane. Built by smiths-dictionary/build.mjs, which refuses any module not marked public domain.',
+      + 'pane. Built by tools/smiths-dictionary/build.mjs, which refuses any module not marked public domain.',
     install: installSmiths,
   },
   {
@@ -715,7 +715,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       + "comments across all 66 books; reads in the study footer's Commentary tab, following Pane 1's "
       + 'chapter, not in a pane of its own. The introductions and the chronological tables of the Parables '
       + 'and Miracles are excluded — they anchor to no verse (see jfb/jfb-exclusions.txt). Built by '
-      + 'jfb/build.mjs, which refuses any module not marked public domain.',
+      + 'tools/jfb/build.mjs, which refuses any module not marked public domain.',
     install: installJfb,
   },
 ];

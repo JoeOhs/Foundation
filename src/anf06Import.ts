@@ -4,7 +4,7 @@ import type { ParsedBook, ParsedEntry, ParsedSource, ParsedTocEntry } from './ty
 export const ANF06_TITLE =
   'Ante-Nicene Fathers, Vol. 6: Gregory Thaumaturgus, Dionysius the Great, Julius Africanus, Anatolius, and Minor Writers, Methodius, Arnobius';
 
-const BUNDLE_URL = '/library/anf06.json';
+const BUNDLE_URL = '/library/patristic/anf06.json';
 
 interface BundledChapter {
   number: number;

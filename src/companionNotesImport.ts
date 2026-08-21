@@ -25,7 +25,7 @@ import type { ParsedEntry, ParsedSource } from './types';
 
 export const COMPANION_NOTES_TITLE = 'The Companion Bible — E.W. Bullinger (Notes)';
 
-const BUNDLE_URL = '/library/companion-bible-notes.json';
+const BUNDLE_URL = '/library/commentaries/companion-bible-notes.json';
 
 const LICENSE_NOTE =
   'Public domain. The Companion Bible (1913) by E. W. Bullinger, who died in 1913. ' +
