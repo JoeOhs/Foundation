@@ -1,0 +1,16 @@
+{
+  "name": "npnf2-builders",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Standalone data-prep scripts: download Nicene and Post-Nicene Fathers, Series II from CCEL's public-domain ThML XML and build the importable JSON bundles for Foundation's Library. Each volume builds independently; they share only the parsing module in shared/. Not part of the Tauri app runtime.",
+  "scripts": {
+    "build:npnf201": "node npnf201/build.mjs",
+    "build:npnf202": "node npnf202/build.mjs",
+    "build:npnf203": "node npnf203/build.mjs",
+    "build:npnf204": "node npnf204/build.mjs",
+    "build:npnf205": "node npnf205/build.mjs",
+    "build:npnf206": "node npnf206/build.mjs",
+    "verify": "esbuild _verify/verify.ts --bundle --platform=node --format=esm --outfile=_verify/verify.mjs --external:node:* --alias:@tauri-apps/plugin-sql=./_verify/shim-sql.ts && node --no-warnings _verify/verify.mjs"
+  }
+}

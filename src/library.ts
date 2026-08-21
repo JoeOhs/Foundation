@@ -30,6 +30,12 @@ import { NPNF111_TITLE, installNPNF111 } from './npnf111Import';
 import { NPNF112_TITLE, installNPNF112 } from './npnf112Import';
 import { NPNF113_TITLE, installNPNF113 } from './npnf113Import';
 import { NPNF114_TITLE, installNPNF114 } from './npnf114Import';
+import { NPNF201_TITLE, installNPNF201 } from './npnf201Import';
+import { NPNF202_TITLE, installNPNF202 } from './npnf202Import';
+import { NPNF203_TITLE, installNPNF203 } from './npnf203Import';
+import { NPNF204_TITLE, installNPNF204 } from './npnf204Import';
+import { NPNF205_TITLE, installNPNF205 } from './npnf205Import';
+import { NPNF206_TITLE, installNPNF206 } from './npnf206Import';
 import { SMITHS_TITLE, installSmiths } from './smithsImport';
 import { JFB_TITLE, installJfb } from './jfbImport';
 import { importKjvStrongs } from './strongsImport';
@@ -685,6 +691,105 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
     install: installNPNF114,
   },
   {
+    id: 'npnf201',
+    title: NPNF201_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'patristic',
+    series: 'Nicene and Post-Nicene Fathers, Series II',
+    license: 'public domain',
+    licenseDetail:
+      'Nicene and Post-Nicene Fathers, Series II, Vol. 1. Edited by Philip Schaff and Henry Wace ' +
+      '(first published 1890, New York, by the Christian Literature Publishing Co.). Both editors ' +
+      'deceased before 1925 (Schaff 1893, Wace 1924); text in the public domain in the United States. ' +
+      'Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf201). Editorial footnotes excluded. ' +
+      'Built by tools/npnf2/npnf201/build.mjs.',
+    install: installNPNF201,
+  },
+  {
+    id: 'npnf202',
+    title: NPNF202_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'patristic',
+    series: 'Nicene and Post-Nicene Fathers, Series II',
+    license: 'public domain',
+    licenseDetail:
+      'Nicene and Post-Nicene Fathers, Series II, Vol. 2. Edited by Philip Schaff and Henry Wace ' +
+      '(first published 1890, New York, by the Christian Literature Publishing Co.). Both editors ' +
+      'deceased before 1925 (Schaff 1893, Wace 1924); text in the public domain in the United States. ' +
+      'Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf202). Editorial footnotes excluded. ' +
+      'Built by tools/npnf2/npnf202/build.mjs.',
+    install: installNPNF202,
+  },
+  {
+    id: 'npnf203',
+    title: NPNF203_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'patristic',
+    series: 'Nicene and Post-Nicene Fathers, Series II',
+    license: 'public domain',
+    licenseDetail:
+      'Nicene and Post-Nicene Fathers, Series II, Vol. 3. Edited by Philip Schaff and Henry Wace ' +
+      '(first published 1892, New York, by the Christian Literature Publishing Co.). Both editors ' +
+      'deceased before 1925 (Schaff 1893, Wace 1924); text in the public domain in the United States. ' +
+      'Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf203). Editorial footnotes excluded. ' +
+      'Built by tools/npnf2/npnf203/build.mjs.',
+    install: installNPNF203,
+  },
+  {
+    id: 'npnf204',
+    title: NPNF204_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'patristic',
+    series: 'Nicene and Post-Nicene Fathers, Series II',
+    license: 'public domain',
+    licenseDetail:
+      'Nicene and Post-Nicene Fathers, Series II, Vol. 4. Edited by Philip Schaff and Henry Wace, ' +
+      'this volume edited by Archibald Robertson (first published 1892, New York, by the Christian Literature ' +
+      'Publishing Co.). All editors deceased before 1935 (Schaff 1893, Wace 1924, Robertson 1931); ' +
+      'text in the public domain in the United States. ' +
+      'Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf204). Editorial footnotes excluded. ' +
+      'Built by tools/npnf2/npnf204/build.mjs.',
+    install: installNPNF204,
+  },
+  {
+    id: 'npnf205',
+    title: NPNF205_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'patristic',
+    series: 'Nicene and Post-Nicene Fathers, Series II',
+    license: 'public domain',
+    licenseDetail:
+      'Nicene and Post-Nicene Fathers, Series II, Vol. 5. Edited by Philip Schaff and Henry Wace, ' +
+      'translated by William Moore and Henry Austin Wilson (first published 1892, New York, by the Christian Literature ' +
+      'Publishing Co.). Both editors deceased before 1925 (Schaff 1893, Wace 1924); text in the ' +
+      'public domain in the United States. ' +
+      'Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf205). Editorial footnotes excluded. ' +
+      'Built by tools/npnf2/npnf205/build.mjs.',
+    install: installNPNF205,
+  },
+  {
+    id: 'npnf206',
+    title: NPNF206_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'patristic',
+    series: 'Nicene and Post-Nicene Fathers, Series II',
+    license: 'public domain',
+    licenseDetail:
+      'Nicene and Post-Nicene Fathers, Series II, Vol. 6. Edited by Philip Schaff and Henry Wace, ' +
+      'translated by W. H. Fremantle with G. Lewis and W. G. Martley (first published 1892, New York, by the Christian Literature ' +
+      'Publishing Co.). Both editors deceased before 1925 (Schaff 1893, Wace 1924); text in the ' +
+      'public domain in the United States. ' +
+      'Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf206). Editorial footnotes excluded. ' +
+      'Built by tools/npnf2/npnf206/build.mjs.',
+    install: installNPNF206,
+  },
+  {
     id: 'smiths_dictionary',
     title: SMITHS_TITLE,
     language: 'en',
@@ -725,4 +830,6 @@ export const SERIES_NOTES: Record<string, string> = {
     'Volume 10 (General Index) intentionally omitted — use Foundation\'s full-text search (scope: Church Fathers or All sources) to find content across all installed volumes.',
   'Nicene and Post-Nicene Fathers, Series I':
     'All 14 volumes available (Augustine, Vols. 1–8; Chrysostom, Vols. 9–14).',
+  'Nicene and Post-Nicene Fathers, Series II':
+    'Volumes 1–6 available (Eusebius; Socrates and Sozomen; Theodoret, Jerome, Gennadius and Rufinus; Athanasius; Gregory of Nyssa; Jerome). Volumes 7–14 coming in future batches.',
 };

@@ -581,12 +581,111 @@ running list of what's done and what's next, not a commitment.
   it needs an in-place rebuild before re-importing anything a user has
   annotated.
 
+- **Church Fathers — Nicene and Post-Nicene Fathers, Series II: Vols. 1–6
+  of 14.**
+  - Vol. 1 — Eusebius: Church History, Life of Constantine the Great,
+    Oration in Praise of Constantine (2 sections, 3 work groups, 32 works,
+    674 chapters, 4,974 para)
+  - Vol. 2 — Socrates, Sozomenus: Church Histories (2 sections, 22 works,
+    511 chapters, 2,354 para)
+  - Vol. 3 — Theodoret, Jerome and Gennadius, Rufinus and Jerome:
+    Historical Writings (3 sections, 3 work groups, 39 works, 871
+    chapters, 5,497 para)
+  - Vol. 4 — Athanasius: Select Works and Letters (21 sections, 4 work
+    groups, 59 works, 407 chapters, 4,309 para)
+  - Vol. 5 — Gregory of Nyssa: Dogmatic Treatises, Select Writings and
+    Letters (9 sections, 3 work groups, 32 works, 249 chapters, 1,607 para)
+  - Vol. 6 — Jerome: The Principal Works of St. Jerome (4 sections, 15
+    works, 211 chapters, 2,826 para)
+
+  Same shape as the other two patristic series — one `patristic` source
+  per volume, bundled JSON built from CCEL's public-domain ThML XML,
+  editorial footnotes excluded — filed in the Library under "Church
+  Fathers" → "Nicene and Post-Nicene Fathers, Series II". Series II is
+  co-edited by Philip Schaff **and Henry Wace**, recorded distinctly from
+  Series I's Schaff-only provenance.
+
+  Three things Series I's unified importer could not do, added here and
+  shared by all three volumes from `tools/npnf2/shared/thml.mjs` rather
+  than copied per volume (the copying is what let Series I Vols. 1–8
+  drift):
+  - **Depth recursion.** Series I stopped at div3. Vols. 1 and 3 run to
+    div4 — a div2 container holding div3 Books holding div4 chapters — so
+    the container-vs-flat-run test is applied recursively instead of
+    hard-coded to div2/div3. A container of containers emits a TOC *group*
+    (Section → Group → Work → Chapter); Series I's walk would have
+    collapsed each such Book into one undivided chapter and dropped 687
+    div4 headings across the two volumes.
+  - **Prefix label recovery.** Series I could read a sequence label from a
+    `shorttitle` or from a leading paragraph that *was* the label ("Homily
+    II."). Vol. 2's 487 chapters and Vol. 3's 342 carry neither: the
+    number opens the first paragraph as a prefix ("Chapter II.—By what
+    Means…"), which is now read as well.
+  - **Sibling label-kind inference.** Theodoret's 182 letters lead with a
+    bare "II. To the Same." after a first letter whose `shorttitle` reads
+    "Letter I". Without the kind, dozens of them read "To the Same." and
+    are indistinguishable in the TOC. The kind comes from whichever
+    siblings do spell it out. A bare numeral is believed only where it
+    behaves like a count of the run (greater than the last number, no
+    greater than the position), which is what stops Jerome's "II. Jerome."
+    — numbering his part of the volume — from renaming his first Life.
+
+  Also new: a container division's own opening paragraphs are kept (Vol.
+  1's Prolegomena opens with five before its first chapter); Series I
+  dropped them. And the downloader is built on `node:https` with no body
+  timeout — CCEL streams these chunked and slowly, and `fetch()` aborted
+  every attempt at Vol. 1 (5.4 MB) at its 300s limit.
+
+  Footnote convention audited per volume, not assumed: all three use
+  `<note id,n,place>` — 8,677 notes, all balanced, none nested or
+  self-closing. Series I had three different conventions across 14
+  volumes, so the strip stays attribute-agnostic.
+
+  Vol. 3's four works are not four peer div1s: the source gives three,
+  splitting the middle one at div2 so Jerome's *Lives of Illustrious Men*
+  and Gennadius's continuation sit one level below Theodoret and Rufinus.
+  They still resolve to separate works, by the same rule that keeps Series
+  I Vol. 11's Acts and Romans apart.
+
+  Vols. 4–6 forced four more changes into the shared module, all of them
+  found by treating each volume as its own discovery pass rather than as a
+  repeat of a proven pattern. None of the four changes any run in
+  Vols. 1–3, which rebuild byte-identically:
+  - **Index skipping narrowed to apparatus naming.** The old rule matched
+    the word "index" anywhere in a title and silently dropped Vol. 4's
+    div2 *The Festal Letters, and their Index.* — fifty letters. It now
+    matches only "Indexes", "Index of…", "General Index to…", which also
+    keeps Vol. 4's div3 *Index.*, the ancient Festal Index and 49
+    paragraphs of real text.
+  - **Front matter no longer votes on run shape.** Even once kept, those
+    fifty letters collapsed into two chapters: the editor's 564-paragraph
+    introduction to them outweighed the letters in the container-vs-flat
+    test. Front matter is split off by both branches anyway, so its bulk
+    says nothing about how the body is shaped.
+  - **"From Letter N.—" read as a label.** Vol. 4 prints the letters
+    surviving only in excerpt that way; without it seven rows were titled
+    by their year alone beside fifty siblings reading "Letter N."
+  - **Repeated sibling titles qualified.** Vol. 6's twenty Vulgate
+    prefaces are one flat list with an unmarked divider at position 15, so
+    *Chronicles.* appears at 5 and again at 16. The structure is left as
+    the source wrote it — inventing a level from a guess is worse than a
+    longer title — and only the repeated row takes the divider's name.
+
+  Vol. 5 is also the first volume whose footnotes do *not* use the
+  `id,n,place` convention every other volume shares: all 2,272 carry
+  `anchored,id,n,place`. The strip is attribute-agnostic and was
+  unaffected, which is the point of auditing rather than assuming.
+
   Still open:
-  - Series II (14 volumes, various authors) — the last open stage of the
-    Church Fathers collection, not yet started. Expect another
-    structural-discovery pass: Series II spans many authors (Eusebius,
-    Socrates, Sozomen, Theodoret, Jerome, Gregory, Basil…) rather than the
-    two of Series I, so shape variance is likelier to be wider, not narrower.
+  - Series II Vols. 7–14 — the last open stage of the Church Fathers
+    collection. Vols. 1–6 are done (above); the eight that remain add
+    Cyril of Jerusalem, Gregory Nazianzen, Basil, Hilary, Ambrose,
+    Jerome's letters and select works, Sulpitius Severus, Vincent of
+    Lérins, John Cassian, Chrysostom's *On the Priesthood*, the Leonine
+    and Gregorian letters, and the Seven Ecumenical Councils.
+    Each is its own structural-discovery pass: Vols. 4–6 each turned up
+    real variance after Vols. 1–3 had already "proven" the pattern, and
+    nothing there should be assumed to carry into Vol. 7.
 
 ## Longer-term / exploratory
 
