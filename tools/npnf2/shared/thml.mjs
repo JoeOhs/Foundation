@@ -56,9 +56,25 @@
 // 4 and 5 were data loss, not cosmetics: between them they were dropping all
 // fifty of Athanasius's Festal and Personal Letters, and the fix is why
 // Vol. 4 carries 4,309 paragraphs rather than 3,449.
+//
+// Added for Vols. 7–9:
+//
+//   8. "LECTURE" IS A SEQUENCE KIND. Cyril of Jerusalem's twenty-three
+//      Catechetical Lectures (Vol. 7) number themselves "Lecture II." and
+//      nothing else in the run carries the number. Without the kind in the
+//      list, all twenty-three were titled by subject alone — "On Baptism.",
+//      "Of Faith." — with no lecture number anywhere in the TOC.
+//
+//   9. A DIVISION WITH CHILDREN IS NOT A TITLE PAGE. See isSkippableDiv1()
+//      and sectionNameFromTitlePage(). This was data loss on the scale of
+//      rules 4 and 5: Vol. 9 files the whole Hilary of Poitiers half of the
+//      volume — its Introduction, De Synodis, the twelve books of De
+//      Trinitate and the Homilies on the Psalms, 1,042 paragraphs — under a
+//      div1 whose title attribute reads, simply, "Title Page". The old rule
+//      matched that title and dropped all of it.
 
 const SEQUENCE_KINDS =
-  'homily|homilies|letter|instruction|book|sermon|tractate|discourse|chapter|part|section|note|dialogue|demonstration|oration';
+  'homily|homilies|letter|lecture|instruction|book|sermon|tractate|discourse|chapter|part|section|note|dialogue|demonstration|oration';
 
 export function stripNotes(xml) { return xml.replace(/<note\b[^>]*>[\s\S]*?<\/note>/gi, ''); }
 function stripIndexes(xml) { return xml.replace(/<index\b[^>]*\/>/gi, ''); }
@@ -259,15 +275,50 @@ function isApparatusIndex(t) {
 // only ever showed "Preface."; Vol. 4 titles the same document "Editorial
 // Preface." and prints a second, inner title page, and Vol. 6 has
 // "Translator's Preface." — all the same class of page.
-function isSkippableDiv1(div) {
+//
+// `hasChildren` is what stops this from being data loss. A title page, a
+// preface or a series title is a leaf — one page of front matter, no
+// divisions under it — and that is how it looked in every volume up to
+// Vol. 8. Vol. 9 breaks it: the entire Hilary of Poitiers half of that
+// volume, six div2s and 1,042 paragraphs, sits inside a div1 whose title
+// attribute is the bare string "Title Page". The page itself is really
+// there, as that div1's first child; the attribute simply names the
+// container after its opening page. So the front-matter titles are only
+// believed of a division that holds no divisions, and apparatus indexes —
+// which genuinely are containers, of index sections — keep being skipped
+// either way.
+function isSkippableDiv1(div, hasChildren) {
   const t = normalizeForMatch(div.title);
+  if (isApparatusIndex(t)) return true;
+  if (hasChildren) return false;
   if (t === '' || t === 'preface' || t === 'contents') return true;
   if (t === 'table of contents' || t === 'credits') return true;
   if (/^(second |third |inner )?title page$/.test(t)) return true;
   if (/^(editorial|editor's|translator's|author's|publishers') preface$/.test(t)) return true;
   if (/^series title( page)?$/.test(t)) return true;
-  if (isApparatusIndex(t)) return true;
   return false;
+}
+
+// The name of a section whose own title attribute is only front matter,
+// read off the section's printed title page — the child division the
+// attribute was named after. Vol. 9's Hilary half opens "St. Hilary of
+// Poitiers." / "Select Works.", which is exactly the "Author: Work." form
+// its sibling div1 spells out in its own title attribute.
+//
+// Only the leading title lines are taken; the credits below them
+// ("Translated", "by", "The Rev. E. W. Watson, M.A.") name people, not the
+// section. The volume's own series title page is rejected outright — it
+// belongs to no one section — so a volume that files everything under one
+// untitled div1 still yields nothing here rather than a wrong name.
+function sectionNameFromTitlePage(div2s) {
+  const page = div2s.find((d) => normalizeForMatch(cleanTitle(d.title || d.shorttitle)) === 'title page');
+  if (!page) return '';
+  const lines = extractParagraphs(page.content)
+    .map((p) => p.replace(/\s+/g, ' ').trim())
+    .filter((p) => p && !/^(translated|edited|by|and others|with)\b/i.test(p));
+  const name = lines.slice(0, 2).join(' ').trim();
+  if (!name || /^(a select library|nicene and post-nicene fathers)/i.test(name)) return '';
+  return name;
 }
 
 function isSkippableDiv(title) {
@@ -491,11 +542,13 @@ export function buildBundle(xml, opts) {
   let totalParagraphs = 0;
 
   for (const div1 of div1s) {
-    if (isSkippableDiv1(div1)) continue;
-    const sectionName = cleanTitle(div1.title || div1.shorttitle);
+    const div2s = splitDivs(div1.content, 2);
+    if (isSkippableDiv1(div1, div2s.length > 0)) continue;
+    const rawName = cleanTitle(div1.title || div1.shorttitle);
+    const sectionName = isSkippableDiv1(div1, false)
+      ? sectionNameFromTitlePage(div2s) : rawName;
     if (!sectionName) continue;
 
-    const div2s = splitDivs(div1.content, 2);
     let works = [];
 
     if (div2s.length > 0) {

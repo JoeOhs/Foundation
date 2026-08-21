@@ -581,7 +581,7 @@ running list of what's done and what's next, not a commitment.
   it needs an in-place rebuild before re-importing anything a user has
   annotated.
 
-- **Church Fathers — Nicene and Post-Nicene Fathers, Series II: Vols. 1–6
+- **Church Fathers — Nicene and Post-Nicene Fathers, Series II: Vols. 1–9
   of 14.**
   - Vol. 1 — Eusebius: Church History, Life of Constantine the Great,
     Oration in Praise of Constantine (2 sections, 3 work groups, 32 works,
@@ -597,6 +597,12 @@ running list of what's done and what's next, not a commitment.
     Letters (9 sections, 3 work groups, 32 works, 249 chapters, 1,607 para)
   - Vol. 6 — Jerome: The Principal Works of St. Jerome (4 sections, 15
     works, 211 chapters, 2,826 para)
+  - Vol. 7 — Cyril of Jerusalem, Gregory Nazianzen (3 sections, 1 work
+    group, 16 works, 152 chapters, 2,361 para)
+  - Vol. 8 — Basil: Letters and Select Works (5 sections, 9 works, 420
+    chapters, 2,394 para)
+  - Vol. 9 — Hilary of Poitiers, John of Damascus (2 sections, 3 work
+    groups, 13 works, 124 chapters, 1,716 para)
 
   Same shape as the other two patristic series — one `patristic` source
   per volume, bundled JSON built from CCEL's public-domain ThML XML,
@@ -676,16 +682,59 @@ running list of what's done and what's next, not a commitment.
   `anchored,id,n,place`. The strip is attribute-agnostic and was
   unaffected, which is the point of auditing rather than assuming.
 
+  Vols. 7–9 forced two more changes into the shared module, and again the
+  discipline of auditing each volume rather than trusting the pattern is
+  what found them. Neither changes any run in Vols. 1–6, which rebuild
+  byte-identically:
+  - **"Lecture" added as a sequence kind.** Cyril of Jerusalem's
+    twenty-three Catechetical Lectures number themselves in their opening
+    paragraph ("Lecture II.") and nowhere else — only "Lecture I" carries
+    a `shorttitle` — so without the kind all twenty-three read as bare
+    subjects in the TOC ("On Baptism.", "Of Faith.") with no number
+    anywhere.
+  - **A division with children is not a title page.** This was data loss
+    on the scale of the Vol. 4 index bug. Vol. 9 files the *entire* Hilary
+    of Poitiers half of the volume — Introduction, *De Synodis*, the
+    twelve books of *De Trinitate*, the Homilies on the Psalms, 1,042
+    paragraphs — inside a div1 whose `title` attribute is the bare string
+    "Title Page", because the container is named after its own opening
+    page. The old skip rule matched the title and dropped all of it, and
+    nothing would have looked wrong: it would simply have been a John of
+    Damascus volume with Hilary's name on the cover. Front-matter titles
+    are now believed only of a division that holds no divisions (apparatus
+    indexes, which really are containers, keep being skipped either way),
+    and the section's name is read off its printed title page — "St.
+    Hilary of Poitiers. Select Works.", the same *Author: Work.* form the
+    sibling div1 spells out in its own attribute.
+
+  Counts were checked against what each volume claims to hold rather than
+  only against dangling TOC rows, which is the check that would have caught
+  the Vol. 4 bug: Cyril's Procatechesis + Lectures I–XXIII (24), Gregory's
+  25 select orations and 99 select letters, Basil's *De Spiritu Sancto*
+  (30 chapters), the nine homilies of the Hexæmeron, all 366 numbered
+  letters (in 356 rows — the source itself collapses three short groups of
+  fragments into one division each), Hilary's twelve books of *De
+  Trinitate* and three Psalm homilies, and John of Damascus's Exposition at
+  14/30/29/27 chapters across its four books. Vol. 8's "Genealogical
+  Tables" division is genuinely empty — a single scanned plate with no
+  caption — and is dropped with nothing lost.
+
+  Footnotes stayed on the majority convention for all three: `<note
+  id,n,place>`, 10,836 notes, all balanced, none nested or self-closing,
+  and every note of 60 characters or more searched for verbatim in the
+  built text with zero matches.
+
   Still open:
-  - Series II Vols. 7–14 — the last open stage of the Church Fathers
-    collection. Vols. 1–6 are done (above); the eight that remain add
-    Cyril of Jerusalem, Gregory Nazianzen, Basil, Hilary, Ambrose,
+  - Series II Vols. 10–14 — the last open stage of the Church Fathers
+    collection. Vols. 1–9 are done (above); the five that remain add
+    Ambrose, Chrysostom's *On the Priesthood* and ascetic treatises,
     Jerome's letters and select works, Sulpitius Severus, Vincent of
-    Lérins, John Cassian, Chrysostom's *On the Priesthood*, the Leonine
-    and Gregorian letters, and the Seven Ecumenical Councils.
-    Each is its own structural-discovery pass: Vols. 4–6 each turned up
-    real variance after Vols. 1–3 had already "proven" the pattern, and
-    nothing there should be assumed to carry into Vol. 7.
+    Lérins, John Cassian, the Leonine and Gregorian letters, and the Seven
+    Ecumenical Councils.
+    Each is its own structural-discovery pass: Vols. 4–6 and again Vols.
+    7–9 each turned up real variance after the volumes before them had
+    already "proven" the pattern, and nothing there should be assumed to
+    carry into Vol. 10.
 
 ## Longer-term / exploratory
 

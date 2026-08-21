@@ -36,6 +36,9 @@ import { NPNF203_TITLE, installNPNF203 } from './npnf203Import';
 import { NPNF204_TITLE, installNPNF204 } from './npnf204Import';
 import { NPNF205_TITLE, installNPNF205 } from './npnf205Import';
 import { NPNF206_TITLE, installNPNF206 } from './npnf206Import';
+import { NPNF207_TITLE, installNPNF207 } from './npnf207Import';
+import { NPNF208_TITLE, installNPNF208 } from './npnf208Import';
+import { NPNF209_TITLE, installNPNF209 } from './npnf209Import';
 import { SMITHS_TITLE, installSmiths } from './smithsImport';
 import { JFB_TITLE, installJfb } from './jfbImport';
 import { importKjvStrongs } from './strongsImport';
@@ -788,6 +791,59 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf206). Editorial footnotes excluded. ' +
       'Built by tools/npnf2/npnf206/build.mjs.',
     install: installNPNF206,
+  },
+  {
+    id: 'npnf207',
+    title: NPNF207_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'patristic',
+    series: 'Nicene and Post-Nicene Fathers, Series II',
+    license: 'public domain',
+    licenseDetail:
+      'Nicene and Post-Nicene Fathers, Series II, Vol. 7. Edited by Philip Schaff and Henry Wace, ' +
+      'Cyril of Jerusalem translated by Edwin Hamilton Gifford and Gregory Nazianzen by Charles Gordon ' +
+      'Browne and James Edward Swallow (first published 1894, New York, by the Christian Literature ' +
+      'Publishing Co.). Both editors deceased before 1925 (Schaff 1893, Wace 1924); text in the ' +
+      'public domain in the United States. ' +
+      'Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf207). Editorial footnotes excluded. ' +
+      'Built by tools/npnf2/npnf207/build.mjs.',
+    install: installNPNF207,
+  },
+  {
+    id: 'npnf208',
+    title: NPNF208_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'patristic',
+    series: 'Nicene and Post-Nicene Fathers, Series II',
+    license: 'public domain',
+    licenseDetail:
+      'Nicene and Post-Nicene Fathers, Series II, Vol. 8. Edited by Philip Schaff and Henry Wace, ' +
+      'translated with notes by Blomfield Jackson (first published 1895, New York, by the Christian ' +
+      'Literature Publishing Co.). Both editors deceased before 1925 (Schaff 1893, Wace 1924); text ' +
+      'in the public domain in the United States. ' +
+      'Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf208). Editorial footnotes excluded. ' +
+      'Built by tools/npnf2/npnf208/build.mjs.',
+    install: installNPNF208,
+  },
+  {
+    id: 'npnf209',
+    title: NPNF209_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'patristic',
+    series: 'Nicene and Post-Nicene Fathers, Series II',
+    license: 'public domain',
+    licenseDetail:
+      'Nicene and Post-Nicene Fathers, Series II, Vol. 9. Edited by Philip Schaff and Henry Wace, ' +
+      'Hilary of Poitiers translated by E. W. Watson and L. Pullan under the editorship of W. Sanday ' +
+      'and John of Damascus by S. D. F. Salmond (first published 1899, New York, by the Christian ' +
+      'Literature Publishing Co.). Both editors deceased before 1925 (Schaff 1893, Wace 1924); text ' +
+      'in the public domain in the United States. ' +
+      'Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf209). Editorial footnotes excluded. ' +
+      'Built by tools/npnf2/npnf209/build.mjs.',
+    install: installNPNF209,
   },
   {
     id: 'smiths_dictionary',
