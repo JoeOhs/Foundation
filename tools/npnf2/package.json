@@ -14,6 +14,11 @@
     "build:npnf207": "node npnf207/build.mjs",
     "build:npnf208": "node npnf208/build.mjs",
     "build:npnf209": "node npnf209/build.mjs",
+    "build:npnf210": "node npnf210/build.mjs",
+    "build:npnf211": "node npnf211/build.mjs",
+    "build:npnf212": "node npnf212/build.mjs",
+    "build:npnf213": "node npnf213/build.mjs",
+    "build:npnf214": "node npnf214/build.mjs",
     "verify": "esbuild _verify/verify.ts --bundle --platform=node --format=esm --outfile=_verify/verify.mjs --external:node:* --alias:@tauri-apps/plugin-sql=./_verify/shim-sql.ts && node --no-warnings _verify/verify.mjs"
   }
 }

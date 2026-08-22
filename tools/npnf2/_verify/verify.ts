@@ -13,12 +13,14 @@
 // path the desktop app actually uses. FTS behaviour has to be confirmed in
 // the running app.
 //
-// Currently pointed at Series II Vols. 7-9 (batch 3). Two neighbours from
-// the other patristic series are installed alongside them — Ante-Nicene
-// Fathers Vol. 1 and NPNF Series I Vol. 1 — so that "this batch does not
-// disturb anything else" is measured rather than assumed: their row counts
-// are taken before the new volumes arrive and compared again after a
-// Series II volume has been re-imported and deleted.
+// Currently pointed at Series II Vols. 10-14 (batch 4), which completes the
+// series and the whole Church Fathers collection. Three neighbours from
+// elsewhere in the collection are installed alongside them — Ante-Nicene
+// Fathers Vol. 1, NPNF Series I Vol. 1 and Series II Vol. 9, the last volume
+// of the previous batch — so that "this batch does not disturb anything
+// else" is measured rather than assumed: their row counts are taken before
+// the new volumes arrive and compared again after a new volume has been
+// re-imported and deleted.
 import fs from 'node:fs';
 import Database from '@tauri-apps/plugin-sql';
 import {
@@ -28,16 +30,22 @@ import {
 } from '../../../src/db';
 import { installANF01 } from '../../../src/anf01Import';
 import { installNPNF101 } from '../../../src/npnf101Import';
-import { installNPNF207 } from '../../../src/npnf207Import';
-import { installNPNF208 } from '../../../src/npnf208Import';
 import { installNPNF209 } from '../../../src/npnf209Import';
+import { installNPNF210 } from '../../../src/npnf210Import';
+import { installNPNF211 } from '../../../src/npnf211Import';
+import { installNPNF212 } from '../../../src/npnf212Import';
+import { installNPNF213 } from '../../../src/npnf213Import';
+import { installNPNF214 } from '../../../src/npnf214Import';
 
 const BUNDLES: Record<string, string> = {
   '/library/patristic/anf01.json': '../../public/library/patristic/anf01.json',
   '/library/patristic/npnf101.json': '../../public/library/patristic/npnf101.json',
-  '/library/patristic/npnf207.json': '../../public/library/patristic/npnf207.json',
-  '/library/patristic/npnf208.json': '../../public/library/patristic/npnf208.json',
   '/library/patristic/npnf209.json': '../../public/library/patristic/npnf209.json',
+  '/library/patristic/npnf210.json': '../../public/library/patristic/npnf210.json',
+  '/library/patristic/npnf211.json': '../../public/library/patristic/npnf211.json',
+  '/library/patristic/npnf212.json': '../../public/library/patristic/npnf212.json',
+  '/library/patristic/npnf213.json': '../../public/library/patristic/npnf213.json',
+  '/library/patristic/npnf214.json': '../../public/library/patristic/npnf214.json',
 };
 (globalThis as unknown as { fetch: unknown }).fetch = async (url: string) => ({
   ok: true, status: 200, json: async () => JSON.parse(fs.readFileSync(BUNDLES[url], 'utf8')),
@@ -111,22 +119,46 @@ function chaptersUnder(toc: { title: string; level: number }[], work: string) {
   return best;
 }
 
+const ROMAN: Record<string, number> = { I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000 };
+const roman = (s: string) => {
+  const d = s.split('').map((c) => ROMAN[c] ?? 0);
+  return d.reduce((t, n, i) => t + (n < (d[i + 1] ?? 0) ? -n : n), 0);
+};
+
+// The numbers a run actually prints, for checking a sequence against the
+// total the source claims rather than only against dangling rows. Returns
+// them sorted, so a gap or a repeat is visible.
+function numbersIn(rows: string[], kind: string) {
+  const re = new RegExp(String.raw`^${kind}\s+([IVXLCDM]+)\b`, 'i');
+  return rows.map((t) => t.match(re)).filter((m): m is RegExpMatchArray => !!m).map((m) => roman(m[1]));
+}
+
+function gapless(nums: number[]) {
+  const sorted = [...nums].sort((a, b) => a - b);
+  return sorted.every((n, i) => n === i + 1);
+}
+
 async function main() {
   await initDb();
   await seedHighlightersIfEmpty();
 
-  log('\n=== Neighbours from the other patristic series (baseline) ===');
+  log('\n=== Neighbours from elsewhere in the collection (baseline) ===');
   const anf1 = await installANF01(() => {});
   const npnf1_1 = await installNPNF101(() => {});
+  const npnf2_9 = await installNPNF209(() => {});
   const baseANF = await counts(anf1);
   const baseNPNF1 = await counts(npnf1_1);
+  const baseNPNF29 = await counts(npnf2_9);
   check('ANF Vol. 1 installed', baseANF.entries > 0, `${baseANF.entries} entries`);
   check('NPNF I Vol. 1 installed', baseNPNF1.entries > 0, `${baseNPNF1.entries} entries`);
+  check('NPNF II Vol. 9 installed', baseNPNF29.entries > 0, `${baseNPNF29.entries} entries`);
 
   const installers: [string, number, (f: (m: string) => void) => Promise<number>][] = [
-    ['Vol. 7 Cyril of Jerusalem, Gregory Nazianzen', 7, installNPNF207],
-    ['Vol. 8 Basil', 8, installNPNF208],
-    ['Vol. 9 Hilary of Poitiers, John of Damascus', 9, installNPNF209],
+    ['Vol. 10 Ambrose', 10, installNPNF210],
+    ['Vol. 11 Sulpitius Severus, Vincent of Lérins, John Cassian', 11, installNPNF211],
+    ['Vol. 12 Leo the Great, Gregory the Great (I)', 12, installNPNF212],
+    ['Vol. 13 Gregory the Great (II), Ephraim Syrus, Aphrahat', 13, installNPNF213],
+    ['Vol. 14 The Seven Ecumenical Councils', 14, installNPNF214],
   ];
   const ids: Record<number, number> = {};
   const tocs: Record<number, { title: string; level: number }[]> = {};
@@ -140,91 +172,235 @@ async function main() {
     log(`  top-level sections: ${topLevel(tocs[n]).join(' | ')}`);
   }
 
-  log('\n=== Two authors per volume, each its own top-level branch ===');
+  log('\n=== Authors kept apart, as the source itself divides them ===');
   {
-    const t7 = topLevel(tocs[7]);
-    check('Vol. 7 keeps Cyril and Gregory apart',
-      t7.some((s) => /Cyril/i.test(s)) && t7.filter((s) => /Gregory Nazianzen/i.test(s)).length === 2,
-      t7.join(' | '));
-    check('Vol. 7 Cyril section holds no Gregory row and vice versa',
-      !/Gregory/i.test(t7.find((s) => /Cyril/i.test(s)) ?? '')
-      && !t7.some((s) => /Gregory/i.test(s) && /Cyril/i.test(s)));
+    // Vol. 11 bills three authors and the source gives each one a div1, so
+    // three top-level sections is the answer this volume should reach.
+    const t11 = topLevel(tocs[11]);
+    check('Vol. 11 gives Sulpitius Severus, Vincent and Cassian a section each',
+      t11.length === 3 && t11.some((s) => /Sulpitius Severus/i.test(s))
+      && t11.some((s) => /Vincent of L/i.test(s)) && t11.some((s) => /John Cassian/i.test(s)),
+      t11.join(' | '));
 
-    const t9 = topLevel(tocs[9]);
-    check('Vol. 9 keeps Hilary and John of Damascus apart',
-      t9.some((s) => /Hilary/i.test(s)) && t9.some((s) => /John of Damascus/i.test(s)),
-      t9.join(' | '));
-    check('Vol. 9 Hilary branch is not absorbed into John of Damascus', t9.length === 2, `${t9.length} sections`);
+    // Vol. 13 bills three authors and the source gives only two div1s,
+    // Ephraim and Aphrahat sharing the second. Asserting two sections here
+    // is asserting that the source's arrangement was preserved rather than
+    // re-cut, and that neither author was dropped out of the shared one.
+    const t13 = topLevel(tocs[13]);
+    check('Vol. 13 keeps Gregory separate and Ephraim with Aphrahat, as the source does',
+      t13.length === 2 && t13.some((s) => /Gregory the Great/i.test(s))
+      && t13.some((s) => /Ephraim/i.test(s) && /Aphrahat/i.test(s)),
+      t13.join(' | '));
+    const shared = tocs[13].filter((r) => r.level === 1).map((r) => r.title);
+    check('Vol. 13 shared section holds both Ephraim and Aphrahat works',
+      shared.some((s) => /^Ephraim Syrus:/.test(s)) && shared.some((s) => /^Aphrahat:/.test(s)),
+      shared.filter((s) => /^(Ephraim|Aphrahat)/.test(s)).length + ' prefixed works');
   }
 
-  log('\n=== Counts against what the source itself claims ===');
-  check('Cyril: Procatechesis + Lectures I-XXIII = 24 chapters',
-    chaptersUnder(tocs[7], 'The Catechetical Lectures of S. Cyril.').length === 24,
-    `${chaptersUnder(tocs[7], 'The Catechetical Lectures of S. Cyril.').length}`);
-  check('Gregory: 25 select orations',
-    chaptersUnder(tocs[7], 'Select Orations of Saint Gregory Nazianzen.').length === 25,
-    `${chaptersUnder(tocs[7], 'Select Orations of Saint Gregory Nazianzen.').length}`);
+  log('\n=== Gregory the Great across Vols. 12 and 13, split as the source splits him ===');
   {
-    // 366 numbered letters in 356 rows: the source collapses three short
-    // groups of fragments into one division each.
-    const letters = chaptersUnder(tocs[8], 'The Letters.');
-    const ROMAN: Record<string, number> = { I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000 };
-    const value = (s: string) => {
-      const d = s.split('').map((c) => ROMAN[c] ?? 0);
-      return d.reduce((t, n, i) => t + (n < (d[i + 1] ?? 0) ? -n : n), 0);
+    // Some Books carry a trailing clause from the source ("Book I. The Month
+    // of September, Indiction IX., …") and some do not, and a Book's title
+    // appears again as a chapter row one level down, so the rows are taken
+    // at the level the Books themselves sit at.
+    const registerBooks = (toc: { title: string; level: number }[]) => {
+      const rows = toc.filter((r) => /^Book [IVX]+\b/.test(r.title));
+      const level = Math.min(...rows.map((r) => r.level));
+      return rows.filter((r) => r.level === level).map((r) => roman(r.title.slice(5).split(/[.\s]/)[0]));
     };
-    const seen = new Set<number>();
-    for (const t of letters) for (const m of t.matchAll(/Letters? ([IVXLCDM]+)\b/g)) seen.add(value(m[1]));
-    // Two of the three collapsed rows name only their first number in the
-    // heading ("Letters CCCLXI-CCCLXV"), so the rest of each range is
-    // covered by that row.
-    for (const r of [[330, 333], [361, 365]]) {
-      if (seen.has(r[0])) for (let i = r[0]; i <= r[1]; i++) seen.add(i);
-    }
-    // The third takes its heading from the source's div title, "Without
-    // address.", and carries CCCXVI-CCCXIX only in its first line of text.
-    // It is the one row in the run with no number at all, and it sits
-    // between CCCXV and CCCXX, which is what is asserted here rather than
-    // simply forgiving the gap.
-    const unnumbered = letters.filter((t) => !/Letters? [IVXLCDM]+\b/.test(t));
-    const at = letters.findIndex((t) => !/Letters? [IVXLCDM]+\b/.test(t));
-    if (unnumbered.length === 1 && /CCCXV\./.test(letters[at - 1]) && /CCCXX\./.test(letters[at + 1])) {
-      for (let i = 316; i <= 319; i++) seen.add(i);
-    }
-    const missing = [...Array(366).keys()].map((i) => i + 1).filter((i) => !seen.has(i));
-    check('Basil: 356 letter rows covering all 366 numbered letters',
-      letters.length === 356 && missing.length === 0,
-      `${letters.length} rows, missing ${missing.join(',') || 'none'}`);
-  }
-  check('Basil: Hexaemeron is nine homilies',
-    chaptersUnder(tocs[8], 'The Hexæmeron.').length === 9,
-    `${chaptersUnder(tocs[8], 'The Hexæmeron.').length}`);
-  check('Basil: De Spiritu Sancto is thirty chapters',
-    chaptersUnder(tocs[8], 'De Spiritu Sancto.').length === 30,
-    `${chaptersUnder(tocs[8], 'De Spiritu Sancto.').length}`);
-  check('Hilary: De Trinitate is twelve books',
-    chaptersUnder(tocs[9], 'De Trinitate or On the Trinity.').length === 12,
-    `${chaptersUnder(tocs[9], 'De Trinitate or On the Trinity.').length}`);
-  check('Hilary: Homilies on the Psalms are three',
-    chaptersUnder(tocs[9], 'Homilies on the Psalms.').length === 3,
-    `${chaptersUnder(tocs[9], 'Homilies on the Psalms.').length}`);
-  for (const [book, n] of [['Book I', 14], ['Book II', 30], ['Book III', 29], ['Book IV', 27]] as [string, number][]) {
-    check(`John of Damascus: Exposition ${book} has ${n} chapters`,
-      chaptersUnder(tocs[9], book).length === n, `${chaptersUnder(tocs[9], book).length}`);
+    const books12 = registerBooks(tocs[12]);
+    const books13 = registerBooks(tocs[13]);
+    check('Vol. 12 carries Register Books I-VIII',
+      books12.length === 8 && Math.min(...books12) === 1 && Math.max(...books12) === 8,
+      books12.sort((a, b) => a - b).join(','));
+    check('Vol. 13 carries Register Books IX-XIV, continuing where Vol. 12 stops',
+      books13.length === 6 && Math.min(...books13) === 9 && Math.max(...books13) === 14,
+      books13.sort((a, b) => a - b).join(','));
+    check('Vol. 12 also carries the Book of Pastoral Rule, in four Parts',
+      chaptersUnder(tocs[12], 'The Book of Pastoral Rule.').length === 5,
+      // Preface + Parts I-IV
+      `${chaptersUnder(tocs[12], 'The Book of Pastoral Rule.').length} rows (preface + 4 parts)`);
   }
 
-  log('\n=== Re-running Vol. 8 alone (idempotency / removability) ===');
-  const before7 = await counts(ids[7]);
-  const before9 = await counts(ids[9]);
-  const again = await installNPNF208(() => {});
-  check('re-import is a separate source row, not a mutation of the first', again !== ids[8]);
+  log('\n=== Counts against what each source itself claims ===');
+
+  // --- Vol. 10 Ambrose -------------------------------------------------
+  for (const [book, n] of [['Book I.', 50], ['Book II.', 30], ['Book III.', 22]] as [string, number][]) {
+    const rows = chaptersUnder(tocs[10], book);
+    check(`Vol. 10 De Officiis ${book} has ${n} chapters`, rows.length === n, `${rows.length}`);
+  }
+  check('Vol. 10 On the Mysteries: introduction + 9 chapters',
+    chaptersUnder(tocs[10], 'On the Mysteries.').length === 10,
+    `${chaptersUnder(tocs[10], 'On the Mysteries.').length}`);
+  check('Vol. 10 Concerning Widows: introduction + 15 chapters',
+    chaptersUnder(tocs[10], 'Concerning Widows.').length === 16,
+    `${chaptersUnder(tocs[10], 'Concerning Widows.').length}`);
+  check('Vol. 10 Letters: the 15 documents the editor selected',
+    chaptersUnder(tocs[10], 'Selections from the Letters of St. Ambrose.').length === 15,
+    `${chaptersUnder(tocs[10], 'Selections from the Letters of St. Ambrose.').length}`);
+  // Rule 12's regression guard: this row is the section's own opening
+  // paragraphs, which nothing read before Vol. 10 forced the question.
+  check("Vol. 10 keeps the editor's Note on the Letters of St. Ambrose",
+    tocs[10].some((r) => r.title === 'Note on the Letters of St. Ambrose.'));
+  // Rule 10's regression guard.
+  check('Vol. 10 does not open with a "Title Pages." section',
+    !topLevel(tocs[10]).some((s) => /^Title Pages?\.?$/i.test(s)), topLevel(tocs[10])[0]);
+
+  // --- Vol. 11 ---------------------------------------------------------
+  {
+    const commonitory = chaptersUnder(tocs[11],
+      'The Commonitory of Vincent of Lérins, For the Antiquity and Universality of the Catholic Faith '
+      + 'Against the Profane Novelties of All Heresies.');
+    const chapters = numbersIn(commonitory, 'Chapter');
+    check('Vol. 11 Commonitory: 33 chapters, numbered I-XXXIII with no gaps',
+      chapters.length === 33 && gapless(chapters), `${chapters.length} chapters`);
+    check('Vol. 11 Commonitory: the three appendices are kept too',
+      commonitory.filter((t) => /^Appendix/i.test(t)).length === 3,
+      `${commonitory.filter((t) => /^Appendix/i.test(t)).length}`);
+
+    const institutes = chaptersUnder(tocs[11],
+      'The Twelve Books on the Institutes of the Cœnobia, and the Remedies for the Eight Principal Faults.');
+    const books = numbersIn(institutes, 'Book');
+    check('Vol. 11 Institutes: twelve Books, as its own title says',
+      books.length === 12 && gapless(books), `${books.length}`);
+
+    // Two of the conferences the translator declined to render hold a single
+    // chapter of their own name, which repeats their title one level down,
+    // so the run is taken at the shallowest level it appears on.
+    const confRows = tocs[11].filter((r) => /^Conference [IVXL]+\b/.test(r.title));
+    const confLevel = Math.min(...confRows.map((r) => r.level));
+    const conferences = confRows.filter((r) => r.level === confLevel)
+      .map((r) => roman(r.title.slice(11).split(/[.\s]/)[0]));
+    check('Vol. 11 Conferences: all 24, across the source\'s three Parts',
+      conferences.length === 24 && gapless(conferences), `${conferences.length}`);
+
+    const incarnation = chaptersUnder(tocs[11],
+      'The Seven Books of John Cassian on the Incarnation of the Lord, Against Nestorius.');
+    const inBooks = numbersIn(incarnation, 'Book');
+    check('Vol. 11 On the Incarnation: seven Books, as its own title says',
+      inBooks.length === 7 && gapless(inBooks), `${inBooks.length}`);
+  }
+
+  // --- Vol. 12 Leo -----------------------------------------------------
+  {
+    // Leo's 173 letters reconcile exactly, and the reconciliation is worth
+    // spelling out because "167 rows" on its own would look six short. The
+    // source prints three of the ranges as one row each — "A Series of
+    // Letters." for LV-LVIII and again for LXII-LXIV, and "The former to
+    // Marcian Augustus, and the other to Julian the Bishop." for CXXI-CXXII
+    // — so 164 letters have a row of their own and the remaining nine sit
+    // inside those three. 164 + 9 = 173, with nothing unaccounted for.
+    const letters = chaptersUnder(tocs[12], 'Letters.');
+    const nums = numbersIn(letters, 'Letter');
+    const numbered = new Set(nums);
+    const grouped = [55, 56, 57, 58, 62, 63, 64, 121, 122];
+    const unaccounted = [...Array(173).keys()].map((i) => i + 1)
+      .filter((i) => !numbered.has(i) && !grouped.includes(i));
+    check('Vol. 12 Leo: 167 rows covering all 173 letters, nine of them in three grouped rows',
+      letters.length === 167 && numbered.size === 164 && unaccounted.length === 0,
+      `${letters.length} rows, ${numbered.size} numbered, unaccounted ${unaccounted.join(',') || 'none'}`);
+    check('Vol. 12 Leo: no two letter rows read alike',
+      new Set(letters).size === letters.length, `${new Set(letters).size} distinct of ${letters.length}`);
+
+    const sermons = chaptersUnder(tocs[12], 'Sermons.');
+    const sNums = numbersIn(sermons, 'Sermon');
+    check('Vol. 12 Leo: 48 sermons, a numbered selection out of the 96',
+      sermons.length === 48 && sNums.length === 48 && Math.max(...sNums) === 95,
+      `${sermons.length} rows, highest ${Math.max(...sNums)}`);
+  }
+
+  // --- Vol. 13 Ephraim and Aphrahat ------------------------------------
+  {
+    const claims: [string, number][] = [
+      ['Ephraim Syrus: Nineteen Hymns on the Nativity of Christ in the Flesh.', 19],
+      ['Ephraim Syrus: Fifteen Hymns For the Feast of the Epiphany.', 15],
+      ['Ephraim Syrus: The Pearl. Seven Hymns on the Faith.', 7],
+      ['Ephraim Syrus: Three Homilies.', 3],
+    ];
+    for (const [work, n] of claims) {
+      const rows = chaptersUnder(tocs[13], work);
+      check(`Vol. 13 "${work.replace('Ephraim Syrus: ', '')}" holds ${n}, as its title counts them`,
+        rows.length === n, `${rows.length}`);
+    }
+    const nisibene = chaptersUnder(tocs[13], 'Ephraim Syrus: The Nisibene Hymns.');
+    check('Vol. 13 Nisibene Hymns: all 47 divisions the source marks up',
+      nisibene.length === 47, `${nisibene.length}`);
+    const demos = chaptersUnder(tocs[13], 'Aphrahat: Select Demonstrations.');
+    check("Vol. 13 Aphrahat: eight Demonstrations plus the Inquirer's letter",
+      demos.length === 9, `${demos.length}`);
+  }
+
+  // --- Vol. 14 the councils --------------------------------------------
+  {
+    // The documented canon count of every council and local synod in the
+    // volume. This is the check the batch treats as mandatory: a collection
+    // silently short by a canon would otherwise look perfectly well-formed.
+    const CANONS: [string, number][] = [
+      ['The Canons of the 318 Holy Fathers Assembled in the City of Nice, in Bithynia.', 20],
+      ['The Canons of the Council of Ancyra.', 25],
+      ['The Canons of the Holy and Blessed Fathers Who Assembled at Neocæsarea, Which are Indeed Later '
+        + 'in Date Than Those Made at Ancyra, But More Ancient Than the Nicene: However, the Synod of Nice '
+        + 'Has Been Placed Before Them on Account of Its Peculiar Dignity.', 15],
+      ['The Canons of the Holy Fathers Assembled at Gangra, Which Were Set Forth After the Council of Nice.', 20],
+      ['The Canons of the Blessed and Holy Fathers Assembled at Antioch in Syria.', 25],
+      ['The Canons of the Synod Held in the City of Laodicea, in Phrygia Pacatiana, in which Many Blessed '
+        + 'Fathers from Divers Provinces of Asia Were Gathered Together.', 60],
+      ['Canons of the One Hundred and Fifty Fathers who assembled at Constantinople during the Consulate '
+        + 'of those Illustrious Men, Flavius Eucherius and Flavius Evagrius on the VII of the Ides of July.', 7],
+      ['The Canons of the Two Hundred Holy and Blessed Fathers Who Met at Ephesus.', 8],
+      ['The Canons of the Council in Trullo.', 102],
+      ['The Canons of the Council of Sardica.', 20],
+      ['The Canons of the 217 Blessed Fathers who assembled at Carthage.', 138],
+      ['The Canons of the Holy and Ecumenical Seventh Council.', 22],
+    ];
+    for (const [work, n] of CANONS) {
+      const nums = numbersIn(chaptersUnder(tocs[14], work), 'Canon');
+      const name = work.split(/[,.]/)[0].slice(0, 46);
+      check(`Vol. 14 ${name}: ${n} canons, numbered I-${n} with no gaps`,
+        nums.length === n && gapless(nums), `${nums.length} canons`);
+    }
+    // Chalcedon is the one collection the source itself numbers oddly: it
+    // runs I-XXVIII, then XXX and XXXI, skipping the number XXIX, under a
+    // heading that calls the set "The XXX Canons". Asserting the shape the
+    // source actually prints is the point - a check that demanded I-XXX
+    // gapless would fail on a correct import.
+    const chalcedon = numbersIn(
+      chaptersUnder(tocs[14], 'The XXX Canons of the Holy and Fourth Synods, of Chalcedon.'), 'Canon');
+    check('Vol. 14 Chalcedon: 30 canons, the source skipping the number XXIX',
+      chalcedon.length === 30 && Math.max(...chalcedon) === 31 && !chalcedon.includes(29),
+      `${chalcedon.length} canons, highest ${Math.max(...chalcedon)}`);
+
+    const t14 = topLevel(tocs[14]);
+    for (const council of ['First Council of Nice', 'First Council of Constantinople', 'Council of Ephesus',
+      'Council of Chalcedon', 'Second Council of Constantinople', 'Third Council of Constantinople',
+      'Second Council of Nice']) {
+      check(`Vol. 14 has a top-level section for the ${council}`,
+        t14.some((s) => s.includes(council)), '');
+    }
+    // Rule 13's regression guard: the extracts resume under an unchanged
+    // heading after each document quoted in full, and two rows of one
+    // council that read alike are exactly what this volume produced before.
+    check('Vol. 14 repeated work titles are qualified rather than left identical',
+      tocs[14].some((r) => /— Extracts from the Acts/.test(r.title)),
+      tocs[14].filter((r) => /— Extracts from the Acts/.test(r.title)).length + ' qualified');
+    check('Vol. 14 does not open with a "Title Pages." section',
+      !t14.some((s) => /^Title Pages?\.?$/i.test(s)), t14[0]);
+  }
+
+  log('\n=== Re-running Vol. 12 alone (idempotency / removability) ===');
+  const before = Object.fromEntries(await Promise.all(
+    [10, 11, 13, 14].map(async (n) => [n, await counts(ids[n])] as const)));
+  const again = await installNPNF212(() => {});
+  check('re-import is a separate source row, not a mutation of the first', again !== ids[12]);
   await deleteSource(again);
-  const after8 = (await listSources()).filter((s) => s.title.includes('Vol. 8'));
-  check('deleting the re-import leaves exactly one Vol. 8', after8.length === 1, `${after8.length} rows`);
-  check('Vol. 7 unaffected', JSON.stringify(await counts(ids[7])) === JSON.stringify(before7));
-  check('Vol. 9 unaffected', JSON.stringify(await counts(ids[9])) === JSON.stringify(before9));
+  const after12 = (await listSources()).filter((s) => s.title.includes('Vol. 12'));
+  check('deleting the re-import leaves exactly one Vol. 12', after12.length === 1, `${after12.length} rows`);
+  for (const n of [10, 11, 13, 14]) {
+    check(`Vol. ${n} unaffected`, JSON.stringify(await counts(ids[n])) === JSON.stringify(before[n]));
+  }
   check('ANF Vol. 1 unaffected', JSON.stringify(await counts(anf1)) === JSON.stringify(baseANF));
   check('NPNF I Vol. 1 unaffected', JSON.stringify(await counts(npnf1_1)) === JSON.stringify(baseNPNF1));
+  check('NPNF II Vol. 9 unaffected', JSON.stringify(await counts(npnf2_9)) === JSON.stringify(baseNPNF29));
 
   log('\n=== Search ===');
   // The scope test only means something if another category is present to be
@@ -236,9 +412,11 @@ async function main() {
     const bk = await db.execute('INSERT INTO books (source_id, name, sort_order) VALUES (?, ?, 0)',
       [src.lastInsertId, 'Decoy']);
     await db.execute('INSERT INTO entries (book_id, chapter, verse, text, sort_order) VALUES (?, 1, 1, ?, 0)',
-      [bk.lastInsertId, 'Procatechesis Libanius theandric all appear here in a non-patristic source.']);
+      [bk.lastInsertId, 'Holophernes Cœnobia Eutyches Nisibene Quinisext all appear here in a non-patristic source.']);
   }
-  const probes: [string, number][] = [['Procatechesis', 7], ['Libanius', 8], ['theandric', 9]];
+  const probes: [string, number][] = [
+    ['Holophernes', 10], ['Cœnobia', 11], ['Eutyches', 12], ['Nisibene', 13], ['Quinisext', 14],
+  ];
   for (const [q, vol] of probes) {
     const all = await searchAll(q, null);
     const scoped = await searchAll(q, 'patristic');
@@ -252,7 +430,7 @@ async function main() {
   }
 
   log('\n=== Highlight / add-to-note / link, one entry per volume ===');
-  for (const n of [7, 8, 9]) {
+  for (const n of [10, 11, 12, 13, 14]) {
     const books = await listBooks(ids[n]);
     const entries = await getEntries(ids[n], books[0].name, 1);
     const e = entries[0];
@@ -270,27 +448,40 @@ async function main() {
     check(`Vol. ${n}: "add to note" stored against the entry`, !!added && added.entry_id === e.id);
     if (added) await deleteNote(added.id);
 
-    await createLink({ kind: 'entry', entryId: e.id }, { kind: 'entry', entryId: entries[1].id });
-    const links = await listLinks();
-    check(`Vol. ${n}: link created between two entries`, links.length > 0, `${links.length} link(s)`);
-    for (const l of links) await deleteLink(l.id);
+    if (entries[1]) {
+      await createLink({ kind: 'entry', entryId: e.id }, { kind: 'entry', entryId: entries[1].id });
+      const links = await listLinks();
+      check(`Vol. ${n}: link created between two entries`, links.length > 0, `${links.length} link(s)`);
+      for (const l of links) await deleteLink(l.id);
+    }
   }
 
-  log('\n=== Delete cascade (Vol. 9) ===');
-  const v9 = ids[9];
-  await deleteSource(v9);
+  log('\n=== Delete cascade, one volume at a time ===');
   const db = await Database.load('sqlite:foundation.db');
   const one = async (sql: string) => ((await db.select(sql)) as { c: number }[])[0].c;
-  check('Vol. 9 books gone', (await one(`SELECT COUNT(*) c FROM books WHERE source_id=${v9}`)) === 0);
-  check('Vol. 9 TOC gone', (await one(`SELECT COUNT(*) c FROM toc_entries WHERE source_id=${v9}`)) === 0);
+  for (const n of [10, 11, 12, 13, 14]) {
+    const victim = ids[n];
+    const survivors = [10, 11, 12, 13, 14].filter((m) => m > n);
+    const survivorCounts = Object.fromEntries(await Promise.all(
+      survivors.map(async (m) => [m, await counts(ids[m])] as const)));
+    await deleteSource(victim);
+    check(`Vol. ${n} books gone`, (await one(`SELECT COUNT(*) c FROM books WHERE source_id=${victim}`)) === 0);
+    check(`Vol. ${n} TOC gone`, (await one(`SELECT COUNT(*) c FROM toc_entries WHERE source_id=${victim}`)) === 0);
+    check(`Vol. ${n} no longer listed`, !(await listSources()).some((s) => s.id === victim));
+    for (const m of survivors) {
+      check(`Vol. ${m} intact after deleting Vol. ${n}`,
+        JSON.stringify(await counts(ids[m])) === JSON.stringify(survivorCounts[m]));
+    }
+    check(`ANF Vol. 1 intact after deleting Vol. ${n}`,
+      JSON.stringify(await counts(anf1)) === JSON.stringify(baseANF));
+    check(`NPNF I Vol. 1 intact after deleting Vol. ${n}`,
+      JSON.stringify(await counts(npnf1_1)) === JSON.stringify(baseNPNF1));
+    check(`NPNF II Vol. 9 intact after deleting Vol. ${n}`,
+      JSON.stringify(await counts(npnf2_9)) === JSON.stringify(baseNPNF29));
+  }
   check('no orphaned entries anywhere', (await one('SELECT COUNT(*) c FROM entries WHERE book_id NOT IN (SELECT id FROM books)')) === 0);
   check('no orphaned notes anywhere', (await one('SELECT COUNT(*) c FROM notes WHERE entry_id IS NOT NULL AND entry_id NOT IN (SELECT id FROM entries)')) === 0);
   check('no orphaned TOC rows anywhere', (await one('SELECT COUNT(*) c FROM toc_entries WHERE source_id NOT IN (SELECT id FROM sources)')) === 0);
-  check('Vol. 9 no longer listed', !(await listSources()).some((s) => s.id === v9));
-  check('Vol. 7 intact after the delete', JSON.stringify(await counts(ids[7])) === JSON.stringify(before7));
-  check('Vol. 8 intact after the delete', (await counts(ids[8])).entries > 0);
-  check('ANF Vol. 1 intact after the delete', JSON.stringify(await counts(anf1)) === JSON.stringify(baseANF));
-  check('NPNF I Vol. 1 intact after the delete', JSON.stringify(await counts(npnf1_1)) === JSON.stringify(baseNPNF1));
 
   log('\nSources at end: ' + (await listSources()).map((s) => s.title.slice(0, 55)).join(' | '));
   log(failures === 0 ? '\nALL CHECKS PASSED' : `\n${failures} CHECK(S) FAILED`);

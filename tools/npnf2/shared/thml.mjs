@@ -72,6 +72,33 @@
 //      Trinitate and the Homilies on the Psalms, 1,042 paragraphs — under a
 //      div1 whose title attribute reads, simply, "Title Page". The old rule
 //      matched that title and dropped all of it.
+//
+// Added for Vols. 10–14, which complete the series:
+//
+//  10. "TITLE PAGES" IS A TITLE PAGE. Vols. 10 and 14 head their front
+//      matter with the plural, which the singular pattern missed, so both
+//      volumes opened with a section of publisher's boilerplate.
+//
+//  11. A CONTAINER'S OWN TEXT IS ITS OWN PARAGRAPHS. See ownParagraphs().
+//
+//  12. A SECTION'S OWN OPENING PARAGRAPHS ARE KEPT. See buildBundle(). This
+//      was the batch's silent loss, though a small one: two paragraphs of
+//      Vol. 10, the editor's note explaining that his sixteen letters of
+//      Ambrose are a selection from ninety-one, were read by nothing.
+//
+//  13. REPEATED WORK TITLES QUALIFIED. See disambiguateWorks().
+//
+// Vol. 14 was expected to need a deeper TOC model — it is canons and
+// conciliar decrees rather than authored prose — and on inspection does not.
+// Each council is a div1, each document within it a div2, each canon a div3,
+// which is the section → work → chapter shape the other thirteen use; the
+// canon collections carry the text mass, so every council but the Fifth and
+// Sixth reads as a container run on the existing vote. Those two enacted no
+// canons, so they have no subdivided document and read as flat runs: their
+// documents are chapters of one work rather than works. That is the same
+// rule reaching a different answer on different data, not a failure of it.
+//
+// Rules 10–13 change nothing in Vols. 1–9: all nine rebuild byte-identically.
 
 const SEQUENCE_KINDS =
   'homily|homilies|letter|lecture|instruction|book|sermon|tractate|discourse|chapter|part|section|note|dialogue|demonstration|oration';
@@ -145,11 +172,33 @@ function extractParagraphs(content) {
 // child division. A container's own opening paragraphs are real text —
 // the Prolegomena of Vol. 1 opens with five of them — so they are kept
 // rather than dropped along with the child markup.
+//
+// RULE 11. Only real paragraph elements count as own text. extractParagraphs
+// falls back to the bare text of a division carrying no <p> at all, which is
+// right for a leaf whose text was never marked up and wrong for a container:
+// the only thing standing between a container's opening tag and its first
+// child is the printed heading. Vols. 1-9 and 12-14 never reach the fallback
+// here; Vol. 10 and Vol. 11 reach it sixty-eight times between them, and all
+// sixty-eight are display headings restating the division's own title — "On
+// the Mysteries.", "Three Books on the Duties of the Clergy. by St. Ambrose,
+// Bishop of Milan. Book I." Left in, each became either a one-paragraph work
+// sitting beside the work it names or a spurious opening chapter, which is
+// why Ambrose's De Officiis Book I read as 51 chapters against the source's
+// 50, and De Mysteriis as 11 against its 9.
 function ownParagraphs(content) {
-  return extractParagraphs(content.replace(/<div\d\b[\s\S]*$/i, ''));
+  const pre = content.replace(/<div\d\b[\s\S]*$/i, '');
+  if (!/<(?:p|li)\b[^>]*>[\s\S]*?<\/(?:p|li)>/i.test(pre)) return [];
+  return extractParagraphs(pre);
 }
 
 function cleanTitle(raw) { return stripTags(raw).replace(/\s+/g, ' ').trim(); }
+
+// The heading a division prints above its own text, before any child
+// division. Used only to name a section's opening note (rule 12).
+function leadingHeading(content) {
+  const m = content.replace(/<div\d\b[\s\S]*$/i, '').match(/<h[1-6]\b[^>]*>([\s\S]*?)<\/h[1-6]>/i);
+  return m ? cleanTitle(m[1]) : '';
+}
 
 function normalizeForMatch(t) {
   return t.toLowerCase().replace(/[‘’“”]/g, "'").replace(/[.\s]+$/, '').trim();
@@ -293,7 +342,7 @@ function isSkippableDiv1(div, hasChildren) {
   if (hasChildren) return false;
   if (t === '' || t === 'preface' || t === 'contents') return true;
   if (t === 'table of contents' || t === 'credits') return true;
-  if (/^(second |third |inner )?title page$/.test(t)) return true;
+  if (/^(second |third |inner )?title pages?$/.test(t)) return true;
   if (/^(editorial|editor's|translator's|author's|publishers') preface$/.test(t)) return true;
   if (/^series title( page)?$/.test(t)) return true;
   return false;
@@ -323,7 +372,7 @@ function sectionNameFromTitlePage(div2s) {
 
 function isSkippableDiv(title) {
   const t = normalizeForMatch(title);
-  if (t === '' || t === 'title page') return true;
+  if (t === '' || t === 'title page' || t === 'title pages') return true;
   if (isApparatusIndex(t)) return true;
   if (/\bpages? of the print edition\b/.test(t)) return true;
   if (/^(greek|hebrew|german|latin|french) words and phrases$/.test(t)) return true;
@@ -508,6 +557,24 @@ function chapterQualifier(title) {
   return m ? `${m[1]} ${m[2]}` : title;
 }
 
+// RULE 13. The same repair, applied to the works of one section rather than
+// the chapters of one work. Vol. 14 is the first volume to need it: a
+// council's documents are printed in the order the acts were read, so the
+// extracts resume under the same heading after each document quoted in full,
+// and Ephesus carries two works titled "Extracts from the Acts. Session I.
+// (Continued)." with Chalcedon two of "…Session II. (Continued)." Works are
+// bucketed by their TOC group first, because two works of the same name under
+// different groups already read apart in the table of contents.
+function disambiguateWorks(works) {
+  const buckets = new Map();
+  for (const w of works) {
+    const key = w.group ?? '';
+    if (!buckets.has(key)) buckets.set(key, []);
+    buckets.get(key).push(w);
+  }
+  for (const bucket of buckets.values()) disambiguateChapters(bucket);
+}
+
 function disambiguateChapters(chapters) {
   const original = chapters.map((ch) => ch.title);
   const counts = new Map();
@@ -555,6 +622,28 @@ export function buildBundle(xml, opts) {
       const resolved = resolveRun(div2s, 2, sectionName);
       works = resolved.works;
       totalParagraphs += resolved.counted;
+      // RULE 12. A section's own opening paragraphs, i.e. what the div1 holds
+      // before its first div2. resolveRun is handed the children and never
+      // sees them, so until Vol. 10 they were dropped unread — which was
+      // silent, because no volume before it had any. Vol. 10 has two: the
+      // editor's "Note on the Letters of St. Ambrose.", explaining that these
+      // sixteen are a selection out of the ninety-one epistles the Benedictine
+      // editors count genuine. It goes in ahead of the works it introduces, as
+      // its own work, the same shape resolveRun gives front matter one level
+      // down. (Vol. 2 also has one such paragraph, inside its "General
+      // Indexes" div1, which is skipped as apparatus before reaching here.)
+      const opening = ownParagraphs(div1.content);
+      if (opening.length > 0) {
+        // The note prints its own heading, and that heading names the row
+        // better than the section's title does — Vol. 10's reads "Note on
+        // the Letters of St. Ambrose." beside a section called "Selections
+        // from the Letters of St. Ambrose." It is read off the heading
+        // element, so it is the source's own words; where there is no
+        // heading the section's name stands in.
+        const title = leadingHeading(div1.content) || sectionName;
+        works.unshift({ title, chapters: [{ number: 1, title, paragraphs: opening }] });
+        totalParagraphs += opening.length;
+      }
     } else {
       const paragraphs = extractParagraphs(div1.content);
       if (paragraphs.length > 0) {
@@ -563,7 +652,9 @@ export function buildBundle(xml, opts) {
       }
     }
 
-    if (works.length > 0) authors.push({ name: sectionName, works });
+    if (works.length === 0) continue;
+    disambiguateWorks(works);
+    authors.push({ name: sectionName, works });
   }
 
   return {

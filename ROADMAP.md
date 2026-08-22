@@ -581,8 +581,11 @@ running list of what's done and what's next, not a commitment.
   it needs an in-place rebuild before re-importing anything a user has
   annotated.
 
-- **Church Fathers — Nicene and Post-Nicene Fathers, Series II: Vols. 1–9
-  of 14.**
+- **Church Fathers — Nicene and Post-Nicene Fathers, Series II: COMPLETE
+  (Vols. 1–14).** This volume set completes the whole Church Fathers
+  collection: Ante-Nicene Fathers (9 volumes), NPNF Series I (14) and
+  NPNF Series II (14) — **37 volumes**, all installed from bundled JSON
+  with no network call at read time.
   - Vol. 1 — Eusebius: Church History, Life of Constantine the Great,
     Oration in Praise of Constantine (2 sections, 3 work groups, 32 works,
     674 chapters, 4,974 para)
@@ -603,6 +606,16 @@ running list of what's done and what's next, not a commitment.
     chapters, 2,394 para)
   - Vol. 9 — Hilary of Poitiers, John of Damascus (2 sections, 3 work
     groups, 13 works, 124 chapters, 1,716 para)
+  - Vol. 10 — Ambrose: Select Works and Letters (3 sections, 5 work
+    groups, 28 works, 354 chapters, 3,634 para)
+  - Vol. 11 — Sulpitius Severus, Vincent of Lérins, John Cassian
+    (3 sections, 8 work groups, 66 works, 1,149 chapters, 2,394 para)
+  - Vol. 12 — Leo the Great, Gregory the Great Part I (2 sections, 2 work
+    groups, 19 works, 562 chapters, 3,690 para)
+  - Vol. 13 — Gregory the Great Part II, Ephraim Syrus, Aphrahat
+    (2 sections, 1 work group, 19 works, 263 chapters, 3,249 para)
+  - Vol. 14 — The Seven Ecumenical Councils (15 sections, 7 work groups,
+    105 works, 694 chapters, 7,600 para)
 
   Same shape as the other two patristic series — one `patristic` source
   per volume, bundled JSON built from CCEL's public-domain ThML XML,
@@ -724,17 +737,82 @@ running list of what's done and what's next, not a commitment.
   and every note of 60 characters or more searched for verbatim in the
   built text with zero matches.
 
-  Still open:
-  - Series II Vols. 10–14 — the last open stage of the Church Fathers
-    collection. Vols. 1–9 are done (above); the five that remain add
-    Ambrose, Chrysostom's *On the Priesthood* and ascetic treatises,
-    Jerome's letters and select works, Sulpitius Severus, Vincent of
-    Lérins, John Cassian, the Leonine and Gregorian letters, and the Seven
-    Ecumenical Councils.
-    Each is its own structural-discovery pass: Vols. 4–6 and again Vols.
-    7–9 each turned up real variance after the volumes before them had
-    already "proven" the pattern, and nothing there should be assumed to
-    carry into Vol. 10.
+  Vols. 10–14 close the series, and forced four more changes into the
+  shared module. None changes any run in Vols. 1–9, which rebuild
+  byte-identically:
+  - **"Title Pages" is a title page.** Vols. 10 and 14 head their front
+    matter with the plural, which the singular pattern missed, so both
+    opened with a section of publisher's boilerplate.
+  - **A container's own text is its own paragraphs.** `extractParagraphs`
+    falls back to the bare text of a division carrying no `<p>` at all,
+    which is right for a leaf and wrong for a container: the only thing
+    between a container's opening tag and its first child is the printed
+    heading. Vols. 10 and 11 hit the fallback sixty-eight times between
+    them, every one a heading restating the division's own title, and
+    Ambrose's *De Officiis* Book I came out with 51 chapters against the
+    source's 50 and *De Mysteriis* with 11 against its 9.
+  - **A section's own opening paragraphs are kept.** This batch's silent
+    loss, though a small one. `resolveRun` is handed a div1's children and
+    never sees what the div1 holds itself, so Vol. 10's two opening
+    paragraphs were read by nothing — the editor's *Note on the Letters of
+    St. Ambrose*, which is exactly the note the reader needs there: it
+    says the sixteen letters printed are a selection out of the ninety-one
+    the Benedictine editors count genuine.
+  - **Repeated work titles qualified.** The chapter-level repair of Vols.
+    4–6, applied to the works of a section. Vol. 14 prints a council's
+    documents in the order the acts were read, so the extracts resume
+    under an unchanged heading after each document quoted in full, giving
+    Ephesus two works titled *Extracts from the Acts. Session I.
+    (Continued).* and Chalcedon two of *…Session II. (Continued).*
+
+  **Vol. 14 is a different kind of book** — canons and conciliar decrees,
+  not authored prose — and was treated as a fresh discovery pass on the
+  assumption that none of the chapter/homily/letter handling would apply.
+  It needed no new depth model. The source lays it out as div1 = a council
+  or a collection of local synods, div2 = one of its documents (a creed, a
+  letter, an excursus, a session's extracts, or its collection of canons),
+  div3 = a single canon with its notes — which is the same Section → Work
+  → Chapter shape the other thirteen use, with the council in the slot an
+  author takes elsewhere. Forcing a Council → Canon model on it would have
+  flattened away the sessions, letters and definitions that sit beside the
+  canons. Eleven of its thirteen council and synod sections read as
+  container runs on the existing vote; the Fifth and Sixth Councils
+  enacted no canons, so they have no subdivided document, read as flat
+  runs, and their documents become chapters of one work. Same rule,
+  different data.
+
+  Counts were again checked against what each volume claims rather than
+  only against dangling TOC rows. Every canon collection in Vol. 14 was
+  verified canon by canon against the documented total — Nicaea I 20,
+  Constantinople I 7, Ephesus 8, Chalcedon 30, Trullo 102, Nicaea II 22,
+  Ancyra 25, Neocæsarea 15, Gangra 20, Antioch 25, Laodicea 60, Sardica
+  20, Carthage 138 — each numbered I–N with no gaps or repeats. Leo's 173
+  letters reconcile exactly across 167 rows, the source itself printing
+  three ranges as one row each. Elsewhere: Ambrose's *De Officiis* at
+  50/30/22 chapters, *De Mysteriis* at 9 and *Concerning Widows* at 15;
+  Vincent's 33 chapters and three appendices; Cassian's twelve Books, 24
+  Conferences and seven Books on the Incarnation; Gregory's Register Books
+  I–VIII in Vol. 12 continuing as IX–XIV in Vol. 13; and Ephraim's hymn
+  sets, whose own titles count them (19 on the Nativity, 15 for the
+  Epiphany, seven in *The Pearl*, three Homilies).
+
+  Four apparent shortfalls turned out to be the source's own and are
+  recorded rather than repaired. Cassian's Institutes Book VI and
+  Conferences XII and XXII hold one paragraph each, because the translator
+  declined to render them ("We have thought best to omit altogether the
+  translation of this book"). Leo's 48 sermons are a numbered selection
+  out of 96. Chalcedon's canons run I–XXVIII, XXX, XXXI — the print
+  edition skips the number XXIX under a heading calling the set "The XXX
+  Canons". And Ephraim's Nisibene section has 47 divisions of which two
+  are the editor's bracketed notes on hymns wanting, so it prints 45
+  hymns where Gwynn's preface says forty-six; every division in the file
+  is in the bundle and no hymn heading hides inside a sibling.
+
+  Footnote conventions were audited per volume rather than assumed, and
+  the batch splits: Vols. 10, 13 and 14 use `<note id,n,place>`, Vols. 11
+  and 12 use `<note id,n>`. 10,077 notes across the five, all balanced,
+  none nested or self-closing, and every note of 60 characters or more
+  searched for verbatim in the built text with zero matches.
 
 ## Longer-term / exploratory
 

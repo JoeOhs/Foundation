@@ -39,6 +39,11 @@ import { NPNF206_TITLE, installNPNF206 } from './npnf206Import';
 import { NPNF207_TITLE, installNPNF207 } from './npnf207Import';
 import { NPNF208_TITLE, installNPNF208 } from './npnf208Import';
 import { NPNF209_TITLE, installNPNF209 } from './npnf209Import';
+import { NPNF210_TITLE, installNPNF210 } from './npnf210Import';
+import { NPNF211_TITLE, installNPNF211 } from './npnf211Import';
+import { NPNF212_TITLE, installNPNF212 } from './npnf212Import';
+import { NPNF213_TITLE, installNPNF213 } from './npnf213Import';
+import { NPNF214_TITLE, installNPNF214 } from './npnf214Import';
 import { SMITHS_TITLE, installSmiths } from './smithsImport';
 import { JFB_TITLE, installJfb } from './jfbImport';
 import { importKjvStrongs } from './strongsImport';
@@ -846,6 +851,89 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
     install: installNPNF209,
   },
   {
+    id: 'npnf210',
+    title: NPNF210_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'patristic',
+    series: 'Nicene and Post-Nicene Fathers, Series II',
+    license: 'public domain',
+    licenseDetail:
+      'Nicene and Post-Nicene Fathers, Series II, Vol. 10. Edited by Philip Schaff and Henry Wace, '
+      + 'translated by H. de Romestin with E. de Romestin and H. T. F. Duckworth (first published 1896, New '
+      + 'York, by the Christian Literature Publishing Co.). Published in the United States before 1929; text '
+      + 'in the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf210). '
+      + 'Editorial footnotes excluded. Built by tools/npnf2/npnf210/build.mjs.',
+    install: installNPNF210,
+  },
+  {
+    id: 'npnf211',
+    title: NPNF211_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'patristic',
+    series: 'Nicene and Post-Nicene Fathers, Series II',
+    license: 'public domain',
+    licenseDetail:
+      'Nicene and Post-Nicene Fathers, Series II, Vol. 11. Edited by Philip Schaff and Henry Wace; '
+      + 'Sulpitius Severus translated by Alexander Roberts, Vincent of Lérins by C. A. Heurtley, and John '
+      + 'Cassian by Edgar C. S. Gibson (first published 1894, New York, by the Christian Literature '
+      + 'Publishing Co.). Published in the United States before 1929; text in the public domain in the United '
+      + 'States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf211). Editorial footnotes excluded. Built '
+      + 'by tools/npnf2/npnf211/build.mjs.',
+    install: installNPNF211,
+  },
+  {
+    id: 'npnf212',
+    title: NPNF212_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'patristic',
+    series: 'Nicene and Post-Nicene Fathers, Series II',
+    license: 'public domain',
+    licenseDetail:
+      'Nicene and Post-Nicene Fathers, Series II, Vol. 12. Edited by Philip Schaff and Henry Wace; Leo the '
+      + 'Great translated by Charles Lett Feltoe and Gregory the Great by James Barmby (first published 1895, '
+      + 'New York, by the Christian Literature Publishing Co.). Published in the United States before 1929; '
+      + 'text in the public domain in the United States. Source: CCEL\'s ThML XML '
+      + '(ccel.org/ccel/schaff/npnf212). Editorial footnotes excluded. Built by '
+      + 'tools/npnf2/npnf212/build.mjs.',
+    install: installNPNF212,
+  },
+  {
+    id: 'npnf213',
+    title: NPNF213_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'patristic',
+    series: 'Nicene and Post-Nicene Fathers, Series II',
+    license: 'public domain',
+    licenseDetail:
+      'Nicene and Post-Nicene Fathers, Series II, Vol. 13. Edited by Philip Schaff and Henry Wace; Gregory '
+      + 'the Great translated by James Barmby, Ephraim Syrus by J. B. Morris, A. Edward Johnston and J. T. S. '
+      + 'Stopford, and Aphrahat edited and translated by John Gwynn (first published 1898, New York, by the '
+      + 'Christian Literature Publishing Co.). Published in the United States before 1929; text in the public '
+      + 'domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf213). Editorial '
+      + 'footnotes excluded. Built by tools/npnf2/npnf213/build.mjs.',
+    install: installNPNF213,
+  },
+  {
+    id: 'npnf214',
+    title: NPNF214_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'patristic',
+    series: 'Nicene and Post-Nicene Fathers, Series II',
+    license: 'public domain',
+    licenseDetail:
+      'Nicene and Post-Nicene Fathers, Series II, Vol. 14. Series edited by Philip Schaff and Henry Wace; '
+      + 'this volume edited, with notes and translations, by Henry R. Percival (first published 1900, New '
+      + 'York, by the Christian Literature Publishing Co.). Published in the United States before 1929; text '
+      + 'in the public domain in the United States. Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/npnf214). '
+      + 'Editorial footnotes excluded. Built by tools/npnf2/npnf214/build.mjs.',
+    install: installNPNF214,
+  },
+  {
     id: 'smiths_dictionary',
     title: SMITHS_TITLE,
     language: 'en',
@@ -887,5 +975,9 @@ export const SERIES_NOTES: Record<string, string> = {
   'Nicene and Post-Nicene Fathers, Series I':
     'All 14 volumes available (Augustine, Vols. 1–8; Chrysostom, Vols. 9–14).',
   'Nicene and Post-Nicene Fathers, Series II':
-    'Volumes 1–6 available (Eusebius; Socrates and Sozomen; Theodoret, Jerome, Gennadius and Rufinus; Athanasius; Gregory of Nyssa; Jerome). Volumes 7–14 coming in future batches.',
+    'All 14 volumes available (Eusebius; Socrates and Sozomen; Theodoret, Jerome, Gennadius and Rufinus; '
+    + 'Athanasius; Gregory of Nyssa; Jerome; Cyril of Jerusalem and Gregory Nazianzen; Basil; Hilary of '
+    + 'Poitiers and John of Damascus; Ambrose; Sulpitius Severus, Vincent of Lérins and John Cassian; Leo '
+    + 'the Great and Gregory the Great; Ephraim Syrus and Aphrahat; the Seven Ecumenical Councils). With '
+    + 'this series the Church Fathers collection is complete — 37 volumes across all three series.',
 };
