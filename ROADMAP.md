@@ -228,6 +228,77 @@ running list of what's done and what's next, not a commitment.
   subset is a few checkboxes. The panel pops out into a second Tauri
   window (`?window=notes` → `src/NotesWindow.tsx`), sharing the database and
   staying live-synced over cross-window events (`src/notesbus.ts`).
+- **Talmud (Bavli) — William Davidson Talmud.** The complete Babylonian
+  Talmud in Rabbi Adin Even-Israel Steinsaltz's English translation, shipped
+  as bundled Library works with no network call at read time: 37 tractates,
+  5,349 dafim, 81,481 paragraphs. A **compound work** in the Josephus mould
+  — one `books` row per tractate, entries anchored by `position_ref`
+  (`"Berakhot 2a"`) rather than canonical verse, since the Talmud isn't
+  Bible-verse-keyed — with a three-level **Seder → Tractate → Daf** table of
+  contents built on the existing `ParsedTocEntry.bookIndex` / grouping-row
+  (`entryIndex: -1`) machinery, so no new `toc_entries` schema was needed.
+  Paragraph-per-entry granularity, not one entry per daf, for the same reason
+  the Companion Bible Appendixes and the EPUB importer chose it: highlights,
+  notes and links need a paragraph-sized selection unit. `entries.chapter`
+  carries the daf *ordinal* purely as a loading unit (the printed `2a`/`2b`
+  citation isn't an integer and lives in `position_ref`), so a pane fetches
+  one daf at a time instead of Seder Moed's 21,000 paragraphs at once.
+  **Split into six sources, one per Seder**, rather than one atomic install.
+  Josephus folds four works into a single entry because it totals 4MB; the
+  Talmud is 43MB, and one blob would be ~3.5× the largest bundle the Library
+  ships (JFB, 12MB). Per-Seder keeps the biggest install (Moed, 11.1MB) just
+  inside that established ceiling and lets a user take the orders they
+  actually study — the same reasoning that split the Church Fathers into 37
+  independently installable volumes. Per-*tractate* was considered and
+  rejected: it would flatten the Seder level out of the TOC, and
+  Seder → Tractate → Daf is how the work is navigated.
+  A new `SourceCategory`, **`rabbinic`**, files it in its own collapsible
+  Library section (grouped by series, like the Church Fathers) with a
+  matching **Rabbinic** search scope chip. Deliberately not `historical` —
+  which stays Josephus-only, an actual historian's narrative — and not
+  `commentary`, which is reserved for works commenting on the Bible
+  (Companion Bible, JFB). `rabbinic` is the umbrella for the Mishnah and
+  Midrash Rabbah later, parallel to how `patristic` became its own category
+  once the Church Fathers outgrew being filed elsewhere. Behaviourally it is
+  `type: 'extra-biblical'`, the same bucket as Josephus and EPUB imports:
+  its own pane, no sync group, out of verse-scoped search.
+  **Licence — the one deliberate exception.** This is the only text in the
+  Library that is not public domain. It is **CC BY-NC 4.0**: shareable and
+  adaptable with attribution, **non-commercial use only**. Foundation makes
+  no money and ships offline, so it sits inside those terms — but that is a
+  fact about this app, not a general licence to add more non-PD texts, and
+  the exception should not be generalised without the same explicit
+  sign-off. The restriction sits alongside, but is separate from, this
+  project's own MIT-licensed code. It is disclosed **in the Library panel
+  itself** via `SERIES_NOTES['Babylonian Talmud']`, rendered the same way the
+  ANF Vol. 10 omission note is — visible where the user decides whether to
+  install, not buried in a comment — and repeated in each entry's
+  `licenseDetail` and in `sources.license_note`.
+  **Provenance:** the William Davidson Talmud, published by
+  [Sefaria](https://www.sefaria.org/) — Rabbi Adin Even-Israel Steinsaltz's
+  English translation of the Koren Noé Talmud (Koren Publishers Jerusalem),
+  the digital edition underwritten by the **William Davidson Foundation**.
+  Chosen over the only public-domain alternative, Michael Rodkinson's 1918
+  translation, which covers roughly a third of the tractates and was harshly
+  criticised by its contemporaries for translation quality; Steinsaltz is
+  complete and modern, and that completeness was the deciding factor. Built
+  by `tools/talmud/build.mjs` (standalone, run outside the app), which
+  **hard-fails** if Sefaria's metadata reports anything other than the
+  `CC-BY-NC` licence token, or a version that isn't the William Davidson
+  edition — so an upstream licence change breaks the build instead of
+  shipping silently. (Sefaria carries no version number in that field; the
+  4.0 comes from their site-wide terms, so the guard pins the exact token
+  they publish.) The script also captures Sefaria's Talmud↔Tanakh citation
+  links to `tools/talmud/links.json` — 24,345 of them across all 37 tractates
+  and 40 Tanakh books — unused by the app today; see the pinned
+  verse-citation item below.
+  **Known limitation:** Sefaria distinguishes Steinsaltz's explanatory
+  expansions from the literal translation with `<b>` markup. `entries.text`
+  is plain text everywhere in this app and no pane renders markup, so the
+  build strips it and the two read as one continuous text. Restoring the
+  distinction would mean either markup in `entries.text` (which the
+  additive-only rule in CLAUDE.md exists to prevent) or an additive span
+  table in the `strongs_words` mould — not attempted here.
 
 ## Near-term
 
@@ -816,6 +887,61 @@ running list of what's done and what's next, not a commitment.
 
 ## Longer-term / exploratory
 
+- **Talmud commentary & study aids.** Documented, not built. Four tiers,
+  cheapest first:
+  1. *Guides and introductions* (Darkhei HaTalmud, Mevo HaTalmud,
+     Steinsaltz's *Introductions to the Babylonian Talmud*). Freeform
+     reference works in their own pane, TOC-driven, cross-linked from a
+     tractate's opening the way Bullinger's appendix cross-references work
+     today. No new schema — the cheapest tier by a wide margin. Sefaria
+     already shelves these under Bavli → Guides.
+  2. *Classical line-by-line marginalia* (Rashi, Tosafot). **Not** a
+     commentary pane: extend **Parallel View** so Rashi/Tosafot read beside
+     the Talmud text the way translations read beside each other today. That
+     requires generalising scroll/selection sync to key on the Talmud's own
+     `position_ref` (daf/amud) instead of canonical verse — the same seam
+     that made Structure diagrams opt out of scroll sync, approached from the
+     opposite side. The structural work is the sync generalisation, not the
+     import.
+  3. *Modern topical commentaries* (Rav Shagar's *Ahevukha Ad Mavet*, *Beur
+     Reuven* on Bava Kamma, Hauptman's *Rereading the Rabbis*, Soloveitchik's
+     *Reshimot Shiurim*, *Daf Shevui*). Selective rather than systematic —
+     these cover particular tractates, not the whole Talmud — so: freeform
+     works with cross-reference links into specific passages, added one at a
+     time, **each individually licence-checked**. An open-ended curation
+     list, the same shape as the additional-translations item below, and
+     subject to the same caveat: the Talmud's CC BY-NC exception covers the
+     Steinsaltz translation only and extends to nothing here automatically.
+  4. *Steinsaltz's own explanatory expansions.* The Talmud already ships with
+     commentary woven into it: Sefaria marks Steinsaltz's added explanation
+     apart from the literal Gemara translation with `<b>` markup, and
+     `build.mjs` strips it, so the two currently read as one undifferentiated
+     text (see the "Known limitation" in the Current entry above). That makes
+     this the same problem as tiers 1-3 — telling commentary apart from the
+     primary text — except the commentary is already inside the bundle being
+     shipped rather than a separate work, so there is nothing to source or
+     licence-check. Fix means capturing the `<b>` span boundaries during the
+     build (they are being discarded, not lost — `htmlToText` still has them
+     at strip time) into an additive table in the `strongs_words` /
+     `entry_notes` mould, then rendering the distinction — a subtle inline
+     style, not a separate pane. Follow-on work once the commentary-tiers
+     approach is actually being built, not a blocker for the base translation.
+- **Mishnah and Midrash Rabbah** as further `rabbinic`-category sources. The
+  category was introduced as an umbrella for exactly this, so each should be
+  a bundle and an importer, not a schema change. Licence checked per work —
+  do not assume the Talmud's exception carries over.
+- **Talmud verse-citation linkage.** Connect the Talmud's own citations of
+  specific Bible verses into the Bible study side, using the Sefaria
+  Talmud↔Tanakh link data already captured to `tools/talmud/links.json`
+  during the build. Explicitly a *different* feature from the
+  commentary-on-Talmud work above: this points from a Bible verse out to the
+  Talmud, not from the Talmud out to its commentators. Surfaced as small
+  footnote-style markers on the affected verse — the same visual weight as
+  `entry_notes`' `°` markers — rather than a JFB-style systematic strip
+  under every verse: the citation density is far too uneven across the canon
+  for that pattern to fit — the captured data has Leviticus drawing 6,357
+  links and Obadiah 9, a ~700x spread, with the Torah taking two thirds of
+  the total and long stretches elsewhere drawing almost nothing.
 - **Additional Bible translations in more languages.** The Library ships
   four languages today (English, Arabic, Russian, Chinese) and the intent is
   to keep widening that. The groundwork is done rather than the work itself:

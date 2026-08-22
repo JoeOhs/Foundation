@@ -8,7 +8,7 @@ type SortMode = 'manual' | 'category' | 'alpha';
 
 const CATEGORY_ORDER: Record<string, number> = {
   bible: 0, commentary: 1, reference: 2, dictionary: 3,
-  historical: 4, patristic: 5, devotional: 6, imported: 7,
+  historical: 4, patristic: 5, rabbinic: 6, devotional: 7, imported: 8,
 };
 
 function categoryLabel(cat: SourceCategory | null): string {
@@ -20,6 +20,7 @@ function categoryLabel(cat: SourceCategory | null): string {
     case 'dictionary': return 'Dictionaries';
     case 'historical': return 'Historical';
     case 'patristic': return 'Church Fathers';
+    case 'rabbinic': return 'Rabbinic';
     case 'devotional': return 'Devotionals';
     case 'imported': return 'Imported';
     default: return 'Other';

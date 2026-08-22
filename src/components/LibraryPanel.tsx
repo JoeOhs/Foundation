@@ -30,8 +30,16 @@ const CATEGORY_LABELS: { category: SourceCategory; label: string }[] = [
   { category: 'reference', label: 'Reference works' },
   { category: 'historical', label: 'Historical works' },
   { category: 'patristic', label: 'Church Fathers' },
+  { category: 'rabbinic', label: 'Rabbinic literature' },
   { category: 'imported', label: 'Imported' },
 ];
+
+// Categories whose rows sub-group by `series` rather than listing flat:
+// the Church Fathers by their three series, the Talmud by its corpus (so the
+// six Sedarim sit under one heading, and so SERIES_NOTES has somewhere to
+// hang the CC BY-NC disclaimer). Bibles group too, but by language, which is
+// a different key and so a different branch below.
+const SERIES_GROUPED: SourceCategory[] = ['patristic', 'rabbinic'];
 
 // Footer works (dictionaries, devotionals) file under the Add-ons section
 // rather than getting category sections of their own: like the Strong's
@@ -213,7 +221,7 @@ export default function LibraryPanel({
             label: `${languageName(code)} (${rs.length})`,
             rows: rs,
           }));
-      } else if (category === 'patristic') {
+      } else if (SERIES_GROUPED.includes(category)) {
         const bySeries = new Map<string, Row[]>();
         for (const r of matching) {
           const s = r.series ?? 'Other';

@@ -46,6 +46,7 @@ import { NPNF213_TITLE, installNPNF213 } from './npnf213Import';
 import { NPNF214_TITLE, installNPNF214 } from './npnf214Import';
 import { SMITHS_TITLE, installSmiths } from './smithsImport';
 import { JFB_TITLE, installJfb } from './jfbImport';
+import { TALMUD_SEDARIM, installTalmudSeder, talmudTitle } from './talmudImport';
 import { importKjvStrongs } from './strongsImport';
 import type { ParsedSource, Source, SourceCategory, SourceType } from './types';
 
@@ -967,9 +968,48 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       + 'tools/jfb/build.mjs, which refuses any module not marked public domain.',
     install: installJfb,
   },
+  // The Talmud ships as six sources, one per Seder — see talmudImport.ts for
+  // why it isn't one atomic install the way Josephus is. Generated rather
+  // than written out six times: the six differ only in Seder name and
+  // tractate count, so a copy-pasted block would be five chances to get the
+  // licence note subtly wrong on the one non-public-domain text here.
+  ...TALMUD_SEDARIM.map((seder) => ({
+    id: `talmud_${seder.key}`,
+    title: talmudTitle(seder),
+    language: 'en',
+    type: 'extra-biblical' as SourceType,
+    category: 'rabbinic' as SourceCategory,
+    series: 'Babylonian Talmud',
+    license: 'CC BY-NC 4.0',
+    licenseDetail:
+      `${seder.label} of the Babylonian Talmud — ${seder.tractates} `
+      + `tractate${seder.tractates === 1 ? '' : 's'}, under a Seder → Tractate → Daf table of `
+      + 'contents, one entry per paragraph so any passage can be highlighted, annotated and bound. '
+      + 'English translation by Rabbi Adin Even-Israel Steinsaltz, from the William Davidson digital '
+      + 'edition of the Koren Noé Talmud (Koren Publishers Jerusalem), underwritten by the William '
+      + 'Davidson Foundation and published by Sefaria. NOT public domain: licensed CC BY-NC 4.0, free to '
+      + 'share with attribution for NON-COMMERCIAL use only — the one exception to this Library’s '
+      + 'public-domain-only rule (see the note under this section). Steinsaltz’s explanatory '
+      + 'expansions are interleaved with the literal text, as in the printed edition. Built by '
+      + 'tools/talmud/build.mjs, which refuses any version Sefaria does not report as CC-BY-NC.',
+    install: installTalmudSeder(seder),
+  })),
 ];
 
 export const SERIES_NOTES: Record<string, string> = {
+  // The Library's one deliberate exception to public-domain-only sourcing.
+  // Surfaced here, in the panel itself, rather than left in a code comment or
+  // a tooltip: a user deciding whether to install this should see the terms
+  // at the moment they decide.
+  'Babylonian Talmud':
+    'The only text in this Library that is not public domain. The William Davidson Talmud is licensed '
+    + 'CC BY-NC 4.0 — Rabbi Adin Even-Israel Steinsaltz’s English translation of the Koren Noé '
+    + 'Talmud (Koren Publishers Jerusalem), underwritten by the William Davidson Foundation and published '
+    + 'by Sefaria. You may share and adapt it with attribution, for non-commercial purposes only. That '
+    + 'restriction sits alongside, but is separate from, Foundation’s own MIT-licensed code. It was '
+    + 'included anyway because the only public-domain English Talmud (Michael Rodkinson, 1918) covers '
+    + 'roughly a third of the tractates and was judged poor by its contemporaries; the Steinsaltz '
+    + 'translation is complete and modern, and that completeness decided it.',
   'Ante-Nicene Fathers':
     'Volume 10 (General Index) intentionally omitted — use Foundation\'s full-text search (scope: Church Fathers or All sources) to find content across all installed volumes.',
   'Nicene and Post-Nicene Fathers, Series I':

@@ -1,0 +1,6 @@
+{
+  "name": "foundation-talmud-builder",
+  "private": true,
+  "type": "module",
+  "description": "Builds the William Davidson Talmud bundles under public/library/rabbinic/ from Sefaria API. Run manually; not part of the app."
+}

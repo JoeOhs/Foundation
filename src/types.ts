@@ -24,6 +24,12 @@ export type SourceCategory =
   | 'devotional'
   // Church Fathers collections (Ante-Nicene, Nicene and Post-Nicene).
   | 'patristic'
+  // Rabbinic literature — the Talmud today, with the Mishnah and Midrash
+  // Rabbah to follow. Deliberately not 'historical' (which stays Josephus
+  // only: an actual historian's narrative) and not 'commentary' (reserved
+  // for works commenting on the Bible), the same way 'patristic' became its
+  // own category once the Church Fathers outgrew being filed elsewhere.
+  | 'rabbinic'
   | 'imported';
 
 export interface Source {

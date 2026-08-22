@@ -21,6 +21,9 @@ tools/companion-bible-notes/thecompanionbible_202504/
 tools/companion-bible-notes/thecompanionbible_202504_epub/
 tools/companion-bible-notes/thecompanionbible_202504_pdf/
 tools/companion-bible-notes/thecompanionbible_202504_json/
+# Talmud scrape cache: ~64MB of tractate JSON plus one file per daf of link
+# data. Rebuildable with tools/talmud/build.mjs.
+tools/talmud/raw/
 
 # Local AI-assistant/session artifacts
 .claude/
