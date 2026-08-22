@@ -51,7 +51,7 @@
 //   4. APPARATUS-ONLY INDEX SKIPPING. See isApparatusIndex().
 //   5. FRONT MATTER EXCLUDED FROM THE RUN-SHAPE VOTE. See resolveRun().
 //   6. "From Letter N.—" READ AS A LABEL. See labelFromPrefix().
-//   7. REPEATED SIBLING TITLES QUALIFIED. See disambiguateChapters().
+//   7. REPEATED SIBLING TITLES QUALIFIED. See disambiguateSiblingTitles().
 //
 // 4 and 5 were data loss, not cosmetics: between them they were dropping all
 // fifty of Athanasius's Festal and Personal Letters, and the fix is why
@@ -522,7 +522,7 @@ function resolveRun(divs, level, containerTitle) {
   }
 
   if (bodyChapters.length > 0) works.push({ title: containerTitle, chapters: bodyChapters });
-  for (const w of works) disambiguateChapters(w.chapters);
+  for (const w of works) disambiguateSiblingTitles(w.chapters);
   return { works, counted, isContainerRun };
 }
 
@@ -572,10 +572,10 @@ function disambiguateWorks(works) {
     if (!buckets.has(key)) buckets.set(key, []);
     buckets.get(key).push(w);
   }
-  for (const bucket of buckets.values()) disambiguateChapters(bucket);
+  for (const bucket of buckets.values()) disambiguateSiblingTitles(bucket);
 }
 
-function disambiguateChapters(chapters) {
+function disambiguateSiblingTitles(chapters) {
   const original = chapters.map((ch) => ch.title);
   const counts = new Map();
   for (const t of original) counts.set(t, (counts.get(t) || 0) + 1);
