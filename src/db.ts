@@ -856,6 +856,19 @@ function ftsQuery(q: string): string {
 // the whole budget and hide every later source entirely for common words.
 const FTS_PER_SOURCE = 200;
 
+// A freeform source only stores position_ref on the first entry of each
+// section (a Talmud daf, a Josephus chapter), so a hit landing mid-section
+// has none of its own. Resolve it to the nearest preceding labelled entry in
+// the same chapter — otherwise the UI falls back to the chapter number, which
+// for these sources is a loading-unit ordinal, not a citation.
+const RESOLVED_POSITION_REF = `COALESCE(
+  e.position_ref,
+  (SELECT p.position_ref FROM entries p
+    WHERE p.book_id = e.book_id AND p.chapter = e.chapter
+      AND p.sort_order <= e.sort_order AND p.position_ref IS NOT NULL
+    ORDER BY p.sort_order DESC LIMIT 1)
+)`;
+
 export async function searchAll(q: string, categoryFilter: SourceCategory | null = null): Promise<SearchResults> {
   const query = q.trim();
   if (!query) return { hits: [], entryTotals: [] };
@@ -871,7 +884,8 @@ export async function searchAll(q: string, categoryFilter: SourceCategory | null
                   ROW_NUMBER() OVER (PARTITION BY s.id ORDER BY f.book_sort, f.entry_sort) AS rn
            FROM (
              SELECT 'entry' AS kind, e.id, e.book_id,
-                    b.name AS book, e.chapter, e.verse, e.position_ref,
+                    b.name AS book, e.chapter, e.verse,
+                    ${RESOLVED_POSITION_REF} AS position_ref,
                     b.sort_order AS book_sort, e.sort_order AS entry_sort,
                     snippet(entries_fts, 0, '<mark>', '</mark>', '…', 16) AS snippet
              FROM entries_fts
@@ -890,7 +904,7 @@ export async function searchAll(q: string, categoryFilter: SourceCategory | null
            SELECT 'entry' AS kind, e.id AS id, s.id AS source_id, s.title AS source_title,
                   s.type AS source_type, s.category AS source_category,
                   b.name AS book, e.chapter AS chapter, e.verse AS verse,
-                  e.position_ref AS position_ref, e.text AS snippet,
+                  ${RESOLVED_POSITION_REF} AS position_ref, e.text AS snippet,
                   ROW_NUMBER() OVER (PARTITION BY s.id ORDER BY b.sort_order, e.sort_order) AS rn
            FROM entries e
            JOIN books b ON b.id = e.book_id

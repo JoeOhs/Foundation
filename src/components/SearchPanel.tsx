@@ -49,8 +49,8 @@ function snippetHtml(s: string): string {
 
 function hitRef(h: SearchHit): string {
   if (h.book && h.verse != null) return `${h.book} ${h.chapter}:${h.verse}`;
-  if (h.book && h.chapter != null) return `${h.book} ${h.chapter}`;
   if (h.position_ref) return h.position_ref;
+  if (h.book && h.chapter != null) return `${h.book} ${h.chapter}`;
   return h.book ?? '';
 }
 

@@ -330,7 +330,7 @@ export default function LibraryPanel({
     <div className="modal-overlay" onClick={() => !busyId && onClose()}>
       <div className="modal" onClick={(e) => e.stopPropagation()}>
         <div className="modal-header">
-          <h2>Public domain library</h2>
+          <h2>Library</h2>
           <button className="icon" onClick={onClose} disabled={!!busyId}>✕</button>
         </div>
         <div className="library-filter">

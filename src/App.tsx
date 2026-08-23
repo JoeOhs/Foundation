@@ -810,8 +810,9 @@ export default function App() {
         scrollToVerse(hit.verse);
       }
     } else if (hit.source_id != null) {
-      // freeform text: bring its source into a changeable pane
-      showSource(hit.source_id);
+      // freeform text: open/reuse its dedicated pane and scroll to the hit
+      // itself — at Talmud scale, landing anywhere in the source is useless.
+      navigateToEntry(hit.source_id, hit.id);
     }
   };
 

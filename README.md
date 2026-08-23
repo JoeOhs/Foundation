@@ -22,7 +22,7 @@ Seeded with two public-domain translations: King James Version and Bible in Basi
 
 Foundation's source code is MIT-licensed — see [LICENSE](LICENSE). This is a personal, non-commercial project; there's no intent to monetize it, and contributions are welcome.
 
-The MIT license covers the app itself, not the texts you load into it. Bible translations and other texts you import or download keep whatever license or public-domain status they already have — check the license note shown for each source. The bundled seed and the in-app Library only include translations that have been individually verified as public domain; see `src/library.ts` for the reasoning behind each entry.
+The MIT license covers the app itself, not the texts you load into it. Bible translations and other texts you import or download keep whatever license or public-domain status they already have — check the license note shown for each source. The bundled seed and the in-app Library only include texts that have been individually verified as public domain, with one deliberate, disclosed exception — the CC BY-NC 4.0 William Davidson Talmud described above; see `src/library.ts` for the reasoning behind each entry.
 
 See [ROADMAP.md](ROADMAP.md) for planned work.
 
