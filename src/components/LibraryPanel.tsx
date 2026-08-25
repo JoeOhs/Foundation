@@ -35,10 +35,11 @@ const CATEGORY_LABELS: { category: SourceCategory; label: string }[] = [
 ];
 
 // Categories whose rows sub-group by `series` rather than listing flat:
-// the Church Fathers by their three series, the Talmud by its corpus (so the
-// six Sedarim sit under one heading, and so SERIES_NOTES has somewhere to
-// hang the CC BY-NC disclaimer). Bibles group too, but by language, which is
-// a different key and so a different branch below.
+// the Church Fathers by their three series, the Talmud by its corpus — the
+// Bavli's six Sedarim under one heading and the Yerushalmi under its own, so
+// the two are not read as one work, and so SERIES_NOTES has somewhere to hang
+// each corpus's licence disclaimer. Bibles group too, but by language, which
+// is a different key and so a different branch below.
 const SERIES_GROUPED: SourceCategory[] = ['patristic', 'rabbinic'];
 
 // Footer works (dictionaries, devotionals) file under the Add-ons section

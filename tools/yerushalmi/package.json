@@ -1,0 +1,6 @@
+{
+  "name": "foundation-yerushalmi-builder",
+  "private": true,
+  "type": "module",
+  "description": "Builds the Jerusalem Talmud bundle under public/library/rabbinic/ from Sefaria's published export bucket. Run manually; not part of the app."
+}

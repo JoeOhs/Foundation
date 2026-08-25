@@ -299,6 +299,78 @@ running list of what's done and what's next, not a commitment.
   distinction would mean either markup in `entries.text` (which the
   additive-only rule in CLAUDE.md exists to prevent) or an additive span
   table in the `strongs_words` mould — not attempted here.
+- **Talmud (Yerushalmi) — the Jerusalem Talmud.** The complete Yerushalmi in
+  Heinrich W. Guggenheimer's English translation, shipped as a bundled
+  Library work with no network call at read time: 39 tractates across five
+  Sedarim, 2,204 halakhot, 12,243 paragraphs. Built on the Bavli's
+  compound-work pattern above rather than a new one — one `books` row per
+  tractate, freeform entries anchored by `position_ref`, a three-level table
+  of contents on the existing `ParsedTocEntry.bookIndex` / grouping-row
+  (`entryIndex: -1`) machinery, paragraph-per-entry granularity so any
+  passage can be highlighted, annotated and bound. Same `rabbinic` category,
+  so the existing **Rabbinic** search chip picks it up with no search-scope
+  work; a distinct `'Jerusalem Talmud'` series keeps it a group of its own
+  under Rabbinic literature rather than merging into the Bavli's.
+  **Cited by chapter and halakhah**, not daf. The Yerushalmi has no standard
+  pagination, and Sefaria's text array for it is three levels deep
+  (Chapter → Halakhah → Segment) against the Bavli's two, plainly 1-indexed
+  with none of the notional-daf-1 offset `dafLabel()` exists to correct —
+  verified against Berakhot (9 chapters), Shabbat (24) and Niddah (4), all
+  three matching the printed tractate. So the TOC is
+  **Seder → Tractate → Chapter:Halakhah**, `position_ref` reads
+  `"Jerusalem Talmud Berakhot 1:1"`, and `entries.chapter` carries the
+  halakhah *ordinal* as a loading unit exactly as the Bavli carries the daf's.
+  **One source, not six.** The Bavli splits per Seder because it is 43MB and
+  one blob would be ~3.5× the largest bundle the Library ships. The
+  Yerushalmi is a different size of problem: **7.3MB**, one install already
+  inside that ceiling. Splitting it per Seder anyway would have produced a
+  Seder Tahorot install of a single tractate (Niddah, 98 paragraphs, ~90KB) —
+  a Library row costing more to explain than it saves to skip. The Seder
+  survives as the top level of the TOC instead of as an install boundary.
+  Only five Sedarim appear because only five have Yerushalmi: Kodashim has
+  none at all, and Tahorot survives only as Niddah — a fact about the work,
+  not a gap in the build.
+  **Licence — not a second exception.** Guggenheimer's translation is
+  **CC BY**: attribution only, with none of the non-commercial restriction
+  the Bavli carries, so it is *looser* than the Talmud exception and does not
+  extend it. It is still not public domain, so the attribution obligation is
+  disclosed in the Library panel itself via
+  `SERIES_NOTES['Jerusalem Talmud']`, and repeated in the entry's
+  `licenseDetail` and in `sources.license_note`.
+  **Provenance:** Heinrich W. Guggenheimer's translation and commentary,
+  published in 17 volumes by Walter de Gruyter (Berlin, 1999–2015) and
+  digitised and published by [Sefaria](https://www.sefaria.org/). Chosen over
+  two alternatives, on completeness measured rather than assumed:
+  Moses Schwab's 1886 translation is the only public-domain English
+  Yerushalmi but covers Berakhot alone — 1 of 39 tractates — and Sefaria's
+  **CC0** "Sefaria Community Translation", whose looser licence would have
+  been preferred on terms alone, turns out to reach only 20 tractates and 116
+  segments: **0.9%** of the corpus, a crowd-filled placeholder rather than an
+  edition. Guggenheimer is 39 of 39 tractates with 2 empty segments in the
+  whole work. Built by `tools/yerushalmi/build.mjs` (standalone, run outside
+  the app), which **hard-fails** if Sefaria's metadata reports anything other
+  than the `CC-BY` licence token or a version that isn't Guggenheimer's, and
+  which also cross-checks the tractate list it is about to build against what
+  Sefaria actually publishes — the canonical Seder order has to be pinned in
+  the script, since the export carries none, so a tractate renamed or added
+  upstream fails the build instead of being silently dropped or misshelved.
+  **Fetch path:** Sefaria's own published export bucket
+  ([Sefaria-Export](https://github.com/Sefaria/Sefaria-Export)) rather than
+  their live API — the same per-version metadata (`license`, `versionTitle`,
+  `versionSource`) that the licence guard reads off an API response, but one
+  request per tractate instead of one per daf, and no rate limiting.
+  **Known limitation:** Guggenheimer's edition is a translation *and
+  commentary*, and Sefaria splices the commentary into the middle of the
+  translated sentence as footnotes — roughly a third of the shipped
+  characters. The build strips them: inlining them would weld a note into the
+  sentence it interrupts, which is the same note-leak that had to be repaired
+  out of `entries.text` once already (the `{braces}` repair in `src/seed.ts`).
+  That is a real loss, not a rounding error. Restoring the notes belongs in
+  an additive `entry_notes` path — see the pinned item below — not in
+  `entries.text`. Note also that Guggenheimer uses bare angle brackets as an
+  editorial convention for supplied text (`<and were there until this day.>`);
+  those are content and are preserved, which is why the builder's tag strip
+  is a closed whitelist rather than a general `<[^>]+>` pass at that stage.
 
 ## Near-term
 
@@ -887,7 +959,7 @@ running list of what's done and what's next, not a commitment.
 
 ## Longer-term / exploratory
 
-- **Talmud commentary & study aids.** Documented, not built. Four tiers,
+- **Talmud commentary & study aids.** Documented, not built. Five tiers,
   cheapest first:
   1. *Guides and introductions* (Darkhei HaTalmud, Mevo HaTalmud,
      Steinsaltz's *Introductions to the Babylonian Talmud*). Freeform
@@ -926,6 +998,20 @@ running list of what's done and what's next, not a commitment.
      `entry_notes` mould, then rendering the distinction — a subtle inline
      style, not a separate pane. Follow-on work once the commentary-tiers
      approach is actually being built, not a blocker for the base translation.
+  5. *Guggenheimer's footnotes on the Yerushalmi.* The same shape as tier 4,
+     and the larger loss of the two: the Jerusalem Talmud bundle drops
+     roughly a third of its characters at build time because Guggenheimer's
+     commentary arrives as footnotes spliced into the middle of the
+     translated sentence (see the "Known limitation" in the Current entry
+     above). Unlike Steinsaltz's expansions, these are not inline
+     alternatives to the primary text but genuine notes — they have a natural
+     home in `entry_notes`, anchored to the paragraph they interrupt, with no
+     need to render an inline distinction at all. `tools/yerushalmi/build.mjs`
+     already isolates each note exactly (`stripFootnotes` walks `<i>` depth to
+     find the span it is discarding), so the capture side is close to free;
+     the work is the notes UI, which is why this is pinned rather than built.
+     Doing it would also make the Yerushalmi the first Library source to use
+     `entry_notes` for anything other than Strong's data.
 - **Mishnah and Midrash Rabbah** as further `rabbinic`-category sources. The
   category was introduced as an umbrella for exactly this, so each should be
   a bundle and an importer, not a schema change. Licence checked per work —

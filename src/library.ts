@@ -47,6 +47,7 @@ import { NPNF214_TITLE, installNPNF214 } from './npnf214Import';
 import { SMITHS_TITLE, installSmiths } from './smithsImport';
 import { JFB_TITLE, installJfb } from './jfbImport';
 import { TALMUD_SEDARIM, installTalmudSeder, talmudTitle } from './talmudImport';
+import { YERUSHALMI_TITLE, installYerushalmi } from './yerushalmiImport';
 import { importKjvStrongs } from './strongsImport';
 import type { ParsedSource, Source, SourceCategory, SourceType } from './types';
 
@@ -994,6 +995,26 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       + 'tools/talmud/build.mjs, which refuses any version Sefaria does not report as CC-BY-NC.',
     install: installTalmudSeder(seder),
   })),
+  {
+    id: 'yerushalmi',
+    title: YERUSHALMI_TITLE,
+    language: 'en',
+    type: 'extra-biblical' as SourceType,
+    category: 'rabbinic' as SourceCategory,
+    series: 'Jerusalem Talmud',
+    license: 'CC BY',
+    licenseDetail:
+      'The complete Jerusalem Talmud — 39 tractates across five Sedarim, under a Seder → '
+      + 'Tractate → Chapter:Halakhah table of contents, one entry per paragraph so any passage '
+      + 'can be highlighted, annotated and bound. Cited by chapter and halakhah ("Berakhot 1:1"), '
+      + 'not by daf: the Yerushalmi has no standard pagination. English translation by Heinrich W. '
+      + 'Guggenheimer, published in 17 volumes by Walter de Gruyter (Berlin, 1999–2015) and '
+      + 'digitised by Sefaria. NOT public domain, but licensed CC BY — attribution only, with '
+      + 'none of the non-commercial restriction the Bavli carries. Guggenheimer’s explanatory '
+      + 'footnotes are omitted (see the note under this section). Built by tools/yerushalmi/build.mjs, '
+      + 'which refuses any version Sefaria does not report as CC-BY.',
+    install: installYerushalmi,
+  },
 ];
 
 export const SERIES_NOTES: Record<string, string> = {
@@ -1010,6 +1031,20 @@ export const SERIES_NOTES: Record<string, string> = {
     + 'included anyway because the only public-domain English Talmud (Michael Rodkinson, 1918) covers '
     + 'roughly a third of the tractates and was judged poor by its contemporaries; the Steinsaltz '
     + 'translation is complete and modern, and that completeness decided it.',
+  // Not a second exception to the public-domain rule: CC BY is attribution
+  // only. The note is here because the reader still has an attribution
+  // obligation, and because the footnote omission changes what they get.
+  'Jerusalem Talmud':
+    'Not public domain, but licensed CC BY — free to share and adapt, including commercially, '
+    + 'so long as the translator is credited. The English is Heinrich W. Guggenheimer’s '
+    + 'translation and commentary, published in 17 volumes by Walter de Gruyter (Berlin, '
+    + '1999–2015) and digitised and published by Sefaria. It was chosen over the only '
+    + 'public-domain English Yerushalmi (Moses Schwab, 1886), which covers Berakhot alone — 1 of '
+    + '39 tractates — and over Sefaria’s CC0 “Community Translation”, which '
+    + 'despite its looser licence reaches only 20 tractates and under 1% of the corpus; '
+    + 'completeness decided it, as it did for the Bavli. Guggenheimer’s footnotes are not '
+    + 'included: Sefaria splices them into the middle of the translated sentence, and this '
+    + 'Library’s reading column is plain text.',
   'Ante-Nicene Fathers':
     'Volume 10 (General Index) intentionally omitted — use Foundation\'s full-text search (scope: Church Fathers or All sources) to find content across all installed volumes.',
   'Nicene and Post-Nicene Fathers, Series I':

@@ -24,6 +24,9 @@ tools/companion-bible-notes/thecompanionbible_202504_json/
 # Talmud scrape cache: ~64MB of tractate JSON plus one file per daf of link
 # data. Rebuildable with tools/talmud/build.mjs.
 tools/talmud/raw/
+# Yerushalmi download cache: one JSON per tractate from Sefaria's export
+# bucket. Rebuildable with tools/yerushalmi/build.mjs.
+tools/yerushalmi/raw/
 
 # Local AI-assistant/session artifacts
 .claude/
