@@ -989,8 +989,8 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       + 'English translation by Rabbi Adin Even-Israel Steinsaltz, from the William Davidson digital '
       + 'edition of the Koren Noé Talmud (Koren Publishers Jerusalem), underwritten by the William '
       + 'Davidson Foundation and published by Sefaria. NOT public domain: licensed CC BY-NC 4.0, free to '
-      + 'share with attribution for NON-COMMERCIAL use only — the one exception to this Library’s '
-      + 'public-domain-only rule (see the note under this section). Steinsaltz’s explanatory '
+      + 'share with attribution for NON-COMMERCIAL use only — the one text in this Library carrying '
+      + 'a non-commercial restriction (see the note under this section). Steinsaltz’s explanatory '
       + 'expansions are interleaved with the literal text, as in the printed edition. Built by '
       + 'tools/talmud/build.mjs, which refuses any version Sefaria does not report as CC-BY-NC.',
     install: installTalmudSeder(seder),
@@ -1018,12 +1018,13 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
 ];
 
 export const SERIES_NOTES: Record<string, string> = {
-  // The Library's one deliberate exception to public-domain-only sourcing.
+  // The Library's one deliberate exception to commercially-free sourcing.
   // Surfaced here, in the panel itself, rather than left in a code comment or
   // a tooltip: a user deciding whether to install this should see the terms
   // at the moment they decide.
   'Babylonian Talmud':
-    'The only text in this Library that is not public domain. The William Davidson Talmud is licensed '
+    'Not public domain, and the only text in this Library restricted to non-commercial use. '
+    + 'The William Davidson Talmud is licensed '
     + 'CC BY-NC 4.0 — Rabbi Adin Even-Israel Steinsaltz’s English translation of the Koren Noé '
     + 'Talmud (Koren Publishers Jerusalem), underwritten by the William Davidson Foundation and published '
     + 'by Sefaria. You may share and adapt it with attribution, for non-commercial purposes only. That '
