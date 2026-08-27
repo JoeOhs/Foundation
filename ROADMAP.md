@@ -371,6 +371,70 @@ running list of what's done and what's next, not a commitment.
   editorial convention for supplied text (`<and were there until this day.>`);
   those are content and are preserved, which is why the builder's tag strip
   is a closed whitelist rather than a general `<[^>]+>` pass at that stage.
+- **Fox's Book of Martyrs — Gutenberg #22400 compilation.** John Foxe's
+  martyrology as a freeform historical narrative, in the same mould as
+  Josephus: a single-compiler primary source, not Bible-verse-keyed,
+  navigated by a hand-built table of contents rather than book/chapter/verse.
+  **One source, not a compound work** — Josephus folds four Gutenberg texts
+  into one entry and the Talmud splits into six, but this is one Gutenberg
+  text end to end, so it is one `sources` row with one book beneath it and
+  the 23 printed chapters carried in `entries.chapter`.
+  **Two-level TOC, Chapter → named entry**, built on the same
+  `ParsedTocEntry.bookIndex` / grouping-row machinery generalised for
+  Josephus and the Talmud — no `toc_entries` schema change. Unlike Josephus's
+  "Work" level, the chapter row is *jumpable* rather than a bare grouping
+  heading: chapters IX, XI and XV are a single continuous narrative with no
+  named sub-entries, and as grouping rows they would be unreachable dead rows
+  in the dropdown.
+  `position_ref`-anchored, like Josephus and the Talmud, with a readable
+  citation (`Chapter II — The First Persecution under Nero, A. D. 67`) on the
+  paragraph that opens each named entry; `searchAll` already resolves a hit
+  to the nearest preceding labelled entry in the same chapter.
+  Paragraph-per-entry granularity, not chapter-per-entry and not one entry
+  per named sub-section — a single martyr's account often runs several
+  paragraphs (Cyprian, Origen, Vincent), and highlights, notes and links need
+  a paragraph-sized selection unit. `entries.heading`, the nullable column
+  added for JFB, carries each named sub-entry's own heading rather than a
+  parallel column being invented.
+  Files under the existing **`historical`** category alongside Josephus, and
+  under `type: 'extra-biblical'` — its own pane, no sync group, out of
+  verse-scoped search. Deliberately *not* a new category: unlike the Talmud,
+  which needed `rabbinic` because it is neither commentary-on-the-Bible nor
+  historian's narrative, this is exactly the compiler's narrative
+  `historical` already exists for. `historical` is already a search scope
+  chip, so search coverage needed no change.
+  **Provenance:** Project Gutenberg ebook
+  [#22400](https://www.gutenberg.org/ebooks/22400), released 25 August 2007,
+  produced by the **Online Distributed Proofreading Team** (pgdp.net) —
+  *Fox's Book of Martyrs, Or A History of the Lives, Sufferings, and
+  Triumphant Deaths of the Primitive Protestant Martyrs*, published by The
+  John C. Winston Co. **This is not Foxe's own text.** It is a 19th-century
+  compilation and abridgement built *on* his work — its own preface says so
+  ("This work is strictly what its title page imports, a COMPILATION…") —
+  whose unnamed editor extended it to cover persecution history down to 1830;
+  Foxe died in 1587 and his *Actes and Monuments* appeared in 1563/1570. That
+  distinction is recorded in `sources.license_note` and repeated in the
+  Library panel's entry, the same care taken to distinguish Whiston's
+  Josephus from a modern copyrighted translation. Chosen over the
+  better-known **1926 Forbush edition**, whose clean-text availability is
+  weaker — scans and OCR rather than a DP-proofread plain text — and over
+  sourcing ***Actes and Monuments*** directly: far larger, Early Modern
+  English, and no equivalently clean public-domain digitisation currently in
+  hand. Public domain (pre-1928 US publication), so a normal addition to the
+  Library rather than an exception like the Talmud. Built by
+  `tools/foxe/build.mjs`, which **hard-fails** if the download no longer
+  carries Gutenberg's standard licence boilerplate, and again if the parse
+  doesn't yield 23 titled chapters with named sub-entries everywhere except
+  IX/XI/XV — a parser that has drifted from the text stops the build instead
+  of shipping a bundle quietly missing half the martyrs.
+  The compiler's own bracketed asides, signed `--_Ed._`, are **kept** in
+  `entries.text`: they are part of this edition, not a proofreading artifact
+  and not a footnote of the kind stripped from Josephus and the Church
+  Fathers. `node build.mjs --audit` lists every signed aside and every other
+  long bracketed passage, so the rule is checked against all of them rather
+  than inferred from the first one found. Gutenberg's `_underscore_` italics
+  are unwrapped, since `entries.text` is plain text everywhere and no pane
+  renders markup — the same call the Talmud import made with Sefaria's `<b>`.
 
 ## Near-term
 

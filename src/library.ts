@@ -16,6 +16,7 @@ import { ANF07_TITLE, installANF07 } from './anf07Import';
 import { ANF08_TITLE, installANF08 } from './anf08Import';
 import { ANF09_TITLE, installANF09 } from './anf09Import';
 import { JOSEPHUS_TITLE, installJosephus } from './josephusImport';
+import { FOXE_TITLE, installFoxe } from './foxeImport';
 import { NPNF101_TITLE, installNPNF101 } from './npnf101Import';
 import { NPNF102_TITLE, installNPNF102 } from './npnf102Import';
 import { NPNF103_TITLE, installNPNF103 } from './npnf103Import';
@@ -352,6 +353,25 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'footnotes are deliberately excluded, so the text is Josephus\'s only. Built by ' +
       'tools/josephus/build.mjs, which refuses any edition that isn\'t Whiston\'s.',
     install: installJosephus,
+  },
+  {
+    id: 'foxe_martyrs',
+    title: FOXE_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'historical',
+    license: 'public domain',
+    licenseDetail:
+      'Credited to John Foxe (1516/17–1587); published by The John C. Winston Co. — public domain, ' +
+      'from Project Gutenberg (ebook #22400, released 2007), produced by the Online Distributed ' +
+      'Proofreading Team. Twenty-three chapters of martyrdom accounts from Stephen to the ' +
+      'nineteenth century, under a Chapter → named entry table of contents. ' +
+      'Note the edition: this is a 19th-century compilation and abridgement built on Foxe\'s work ' +
+      '— its own preface calls it "strictly ... a COMPILATION" — extended by its unnamed editor to ' +
+      'cover persecution history down to 1830, not a transcription of Foxe\'s original 1563/1570 ' +
+      '"Actes and Monuments". Built by tools/foxe/build.mjs, which refuses a file that no longer ' +
+      'carries Gutenberg\'s licence boilerplate.',
+    install: installFoxe,
   },
   {
     id: 'anf01',
