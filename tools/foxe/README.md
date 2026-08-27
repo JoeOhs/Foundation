@@ -64,13 +64,38 @@ martyrs, persecutions, events). The front-matter CONTENTS section implies
 that shape but is **not a parsing spec** — the body doesn't mark sub-entries
 uniformly:
 
-- Chapter I names apostles as `_I. St. Stephen_` (roman numeral + name).
+- Chapter I names apostles as `_I. St. Stephen_` — roman numeral + name.
 - Chapter II names persecutions as
-  `_The First Persecution under Nero, A. D. 67._`.
+  `_The First Persecution under Nero, A. D. 67._` — ordinal word +
+  descriptive title.
+- Chapter III uses a bare descriptive title with **no numbering scheme at
+  all**: `_Persecutions under the Arian Heretics._`,
+  `_Persecution under Julian the Apostate._`
 
-Both are the same underlying thing: a short, wholly-italicised block
-standing alone as its own paragraph. The parser detects that *shape* rather
-than either syntax. Chapter headers (`CHAPTER I.` plus an ALL-CAPS title
+All three are the same underlying thing: a short, wholly-italicised block
+standing alone as its own paragraph, immediately followed by body text. The
+parser detects that *shape* and nothing else. In particular it applies **no
+lexical test** — keying on a roman numeral or an ordinal word would silently
+miss every Chapter III heading, and there may be further conventions in the
+chapters not yet read.
+
+Trailing punctuation sits on **either side** of the closing marker,
+inconsistently:
+
+| | |
+|---|---|
+| inside | `_II. James the Great._` |
+| outside | `_IV. Matthew_,`  `_IX. Peter_,`  `_The Eighth Persecution, under Valerian, A. D. 257_,` |
+
+So the block is *not* required to end with an underscore — only for the tail
+after the closing marker to be punctuation. Requiring it drops every heading
+of the second shape without a trace. The punctuation is trimmed off the
+label whichever side it sat on: a comma in `_IV. Matthew_,` belongs
+grammatically to the sentence that follows ("Whose occupation was…"), but
+the label is used as a TOC row and as the `position_ref` citation, where a
+dangling comma is noise. **The paragraph text is left exactly as the source
+has it** — nothing is absorbed into or removed from `entries.text` to
+compensate. Chapter headers (`CHAPTER I.` plus an ALL-CAPS title
 line) are consistent throughout and are the reliable top-level split point;
 CONTENTS repeats them, so the body is taken as the last run of chapter
 headers counting from I without gaps.

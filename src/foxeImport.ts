@@ -22,6 +22,14 @@ import type { ParsedBook, ParsedEntry, ParsedSource, ParsedTocEntry } from './ty
 // one Gutenberg text end to end, so it is one source with one book. The
 // chapters live in entries.chapter rather than in books rows.
 //
+// HEADINGS — the named sub-entry titles in this bundle are produced by
+// structural detection in build.mjs, not by any lexical rule: the text uses
+// at least three conventions (roman numeral + name, ordinal word +
+// descriptive title, and a bare descriptive title with no numbering).
+// Trailing punctuation is trimmed from the label, which is what this file
+// turns into a TOC row and a position_ref citation; the paragraph text is
+// untouched. See tools/foxe/README.md.
+//
 // EDITORIAL ASIDES — the compiler's own bracketed interjections, signed
 // "--Ed.", are kept in entries.text. They are his voice inside the text, not
 // a proofreading artifact and not a footnote of the kind stripped from

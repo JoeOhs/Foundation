@@ -210,21 +210,48 @@ function toParagraphs(lines) {
 const MAX_HEADING_CHARS = 160;
 function asSubEntryHeading(block) {
   const flat = normalizeWhitespace(block);
-  if (!flat.startsWith('_') || !flat.endsWith('_')) return null;
   if (flat.length > MAX_HEADING_CHARS) return null;
+  if (!flat.startsWith('_')) return null;
   // A wholly-italicised block has exactly one opening and one closing
   // marker; more than that is a paragraph of running text that happens to
   // begin and end with emphasis.
   if ((flat.match(/_/g) ?? []).length !== 2) return null;
-  const inner = flat.slice(1, -1).trim();
+  // The closing marker is NOT reliably the last character. The text places
+  // a heading's trailing punctuation on either side of it, inconsistently:
+  //   "_II. James the Great._"                     period inside
+  //   "_IV. Matthew_,"  "_IX. Peter_,"             comma outside
+  //   "_The Eighth Persecution, under Valerian, A. D. 257_,"   comma outside
+  // Requiring the block to END with an underscore silently drops every
+  // heading of the second shape, so the tail after the closing marker is
+  // allowed to be punctuation — and only punctuation, since a word there
+  // means this is running prose, not a heading.
+  const close = flat.lastIndexOf('_');
+  const tail = flat.slice(close + 1);
+  if (!/^[.,;:—-]*$/.test(tail)) return null;
+
+  const inner = flat.slice(1, close).trim();
   if (!inner) return null;
-  // Deliberately no "does this read like a sentence?" heuristic. Both real
-  // conventions are sentence-shaped by that measure — "_I. St. Stephen_"
-  // and "_The First Persecution under Nero, A. D. 67._" both carry a period
+  // Deliberately no "does this read like a sentence?" heuristic. Every real
+  // convention is sentence-shaped by that measure — "_I. St. Stephen_" and
+  // "_The First Persecution under Nero, A. D. 67._" both carry a period
   // followed by a capital — so such a test rejects the very headings this
-  // exists to find. The shape checks above are the signal; `--audit` prints
-  // every heading detected so the whole list can be read at once.
-  return inner.replace(/\s*\.\s*$/, '');
+  // exists to find. Nor is there any lexical test for a numbering scheme:
+  // the text uses at least three conventions, and Chapter III's is a bare
+  // descriptive title with no numbering at all
+  // ("_Persecutions under the Arian Heretics._"), so keying on a roman
+  // numeral or an ordinal word would miss it. The structural shape above —
+  // a short, wholly-italicised block standing alone as its own paragraph —
+  // is the whole signal; `--audit` prints every heading detected so the
+  // list can be read at once.
+  //
+  // Trailing punctuation is trimmed off the *label* whichever side of the
+  // marker it sat on. That is a deliberate call, not an accident: a comma
+  // in "_IV. Matthew_," belongs grammatically to the sentence that follows
+  // ("Whose occupation was..."), but the label is used as a TOC row and as
+  // the position_ref citation, where a dangling comma is just noise. The
+  // paragraph text itself is left exactly as the source has it — nothing is
+  // absorbed into or removed from entries.text to compensate.
+  return inner.replace(/\s*[.,;:]+\s*$/, '');
 }
 
 // The 19th-century compiler's own bracketed asides, signed `--_Ed._`. These

@@ -427,6 +427,20 @@ running list of what's done and what's next, not a commitment.
   doesn't yield 23 titled chapters with named sub-entries everywhere except
   IX/XI/XV — a parser that has drifted from the text stops the build instead
   of shipping a bundle quietly missing half the martyrs.
+  **Heading detection is structural, never lexical.** The front-matter
+  CONTENTS page is not a parsing spec: the body marks named sub-entries with
+  at least three conventions — roman numeral + name (`_I. St. Stephen_`),
+  ordinal word + descriptive title (`_The First Persecution under Nero, A. D.
+  67._`) and, in Chapter III, a bare descriptive title with no numbering at
+  all (`_Persecutions under the Arian Heretics._`). All three are one shape:
+  a short, wholly-italicised block standing alone as its own paragraph. The
+  parser keys on that and nothing else, so a fourth convention in the
+  chapters not yet read still parses. Trailing punctuation sits on either
+  side of the closing italic marker (`_II. James the Great._` but
+  `_IV. Matthew_,`), so the block is not required to end with the marker —
+  only for the tail after it to be punctuation. That punctuation is trimmed
+  from the TOC/`position_ref` label whichever side it sat on, while
+  `entries.text` keeps the source's own wording untouched.
   The compiler's own bracketed asides, signed `--_Ed._`, are **kept** in
   `entries.text`: they are part of this edition, not a proofreading artifact
   and not a footnote of the kind stripped from Josephus and the Church
