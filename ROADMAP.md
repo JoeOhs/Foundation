@@ -427,6 +427,25 @@ running list of what's done and what's next, not a commitment.
   doesn't yield 23 titled chapters with named sub-entries everywhere except
   IX/XI/XV — a parser that has drifted from the text stops the build instead
   of shipping a bundle quietly missing half the martyrs.
+  Built out to **2,715 paragraphs across the 23 chapters, with 195 named
+  entries**; the bundle is 1.5MB, comfortably inside the ceiling Josephus
+  (4.2MB) already set.
+  **Two anomalies in the source, handled rather than hidden.** The body's
+  chapter headers are misnumbered twice — position 13 is printed
+  `CHAPTER XII.` and position 19 `CHAPTER IX.`, each duplicating an earlier
+  numeral, where the CONTENTS page correctly says XIII and XIX (the
+  chapters' own titles confirm which is which). Chapter numbers are
+  therefore taken from **position, never from the printed numeral**: a
+  numeral taken at face value would give two chapters numbered 12 and two
+  numbered 9, and since `entries.chapter` is the pane's loading unit, two
+  pairs of chapters would have silently merged and their TOC rows collided.
+  The displayed numeral is derived from position too, so the dropdown reads
+  XIII and XIX rather than repeating XII and IX — that corrects a navigation
+  label only; no chapter text is altered, and both anomalies are recorded in
+  the bundle's `metadata.source_anomalies`. Chapter VII additionally has no
+  ALL-CAPS body title at all, opening straight onto an italic heading
+  carrying the same words CONTENTS prints in capitals, so a missing title is
+  reported but is not a build failure.
   **Heading detection is structural, never lexical.** The front-matter
   CONTENTS page is not a parsing spec: the body marks named sub-entries with
   at least three conventions — roman numeral + name (`_I. St. Stephen_`),
@@ -434,8 +453,13 @@ running list of what's done and what's next, not a commitment.
   67._`) and, in Chapter III, a bare descriptive title with no numbering at
   all (`_Persecutions under the Arian Heretics._`). All three are one shape:
   a short, wholly-italicised block standing alone as its own paragraph. The
-  parser keys on that and nothing else, so a fourth convention in the
-  chapters not yet read still parses. Trailing punctuation sits on either
+  parser keys on that and nothing else, so a fourth convention would still
+  parse. The length cap on such a block is measured, not guessed: of the 196
+  candidates in the real text the median is 38 characters and the longest
+  163, with nothing between 164 and 400, so the cap sits at 300 in that gap.
+  An earlier cap of 160 silently dropped the two longest headings — Wishart's
+  and the Gunpowder Plot's — taking chapters XII and XIV's only named entries
+  with them. Trailing punctuation sits on either
   side of the closing italic marker (`_II. James the Great._` but
   `_IV. Matthew_,`), so the block is not required to end with the marker —
   only for the tail after it to be punctuation. That punctuation is trimmed

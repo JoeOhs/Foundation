@@ -195,6 +195,16 @@ function romanToInt(s) {
 // Chapter-level headers in the body are consistent throughout: a bare
 // "CHAPTER I." line, followed by an ALL-CAPS title. This is the only
 // structural split point the text can be trusted on.
+const ROMAN_NUMERALS = [[10, 'X'], [9, 'IX'], [5, 'V'], [4, 'IV'], [1, 'I']];
+function intToRoman(n) {
+  let out = '';
+  let rest = n;
+  for (const [value, glyph] of ROMAN_NUMERALS) {
+    while (rest >= value) { out += glyph; rest -= value; }
+  }
+  return out;
+}
+
 const CHAPTER_RE = /^\s*CHAPTER\s+([IVXL]+)\.?\s*$/;
 
 // entries.text is plain text everywhere in this app and no pane renders
@@ -232,7 +242,17 @@ function toParagraphs(lines) {
 // I's `_I. St. Stephen_` — are the same underlying thing. So this detects
 // the *shape* (a short, wholly-italicised block standing alone as its own
 // paragraph) rather than either fixed heading syntax.
-const MAX_HEADING_CHARS = 160;
+// Headings wrap across up to three lines, so the cap is on the rejoined
+// length, and it is measured rather than guessed. Across the real text there
+// are 196 wholly-italicised standalone blocks: median 38 characters, 90th
+// percentile 79, longest 163 (Wishart's, below). Nothing at all falls
+// between 164 and 400, so any threshold in that gap is equally safe; 300
+// takes the middle of it. The first cap tried here was 160, which silently
+// dropped the two longest — Wishart at 163 and the Gunpowder Plot at 161 —
+// taking chapters XII and XIV's only sub-entries with them. A cap that
+// merely looks generous is not good enough: it has to sit in a gap the text
+// actually has.
+const MAX_HEADING_CHARS = 300;
 function asSubEntryHeading(block) {
   const flat = normalizeWhitespace(block);
   if (flat.length > MAX_HEADING_CHARS) return null;
@@ -300,23 +320,50 @@ function splitChapters(text) {
   const headers = [];
   lines.forEach((line, i) => {
     const m = line.match(CHAPTER_RE);
-    if (m) headers.push({ line: i, number: romanToInt(m[1]), roman: m[1] });
+    if (m) headers.push({ line: i, printed: m[1], number: romanToInt(m[1]) });
   });
   if (headers.length === 0) throw new Error('No "CHAPTER N." headers found — the text or the parser has changed.');
 
-  // Walk backwards to the start of the final ascending-from-1 run.
-  let end = headers.length - 1;
-  let start = end;
-  while (start > 0 && headers[start - 1].number === headers[start].number - 1) start--;
-  if (headers[start].number !== 1) {
-    throw new Error(`Body chapter run starts at ${headers[start].number}, not 1 — parser drifted.`);
-  }
-  const body = headers.slice(start, end + 1);
+  // The body is found by locating its opening "CHAPTER I." — NOT by walking
+  // back over an ascending run of numerals, because the numerals cannot be
+  // trusted. The body headers carry two transcription typos, each
+  // duplicating an earlier numeral:
+  //
+  //   position 13 is printed "CHAPTER XII."  (CONTENTS correctly says XIII)
+  //   position 19 is printed "CHAPTER IX."   (CONTENTS correctly says XIX)
+  //
+  // Both are confirmed against the CONTENTS list and against the chapters'
+  // own titles ("PERSECUTIONS IN ENGLAND DURING THE REIGN OF QUEEN MARY",
+  // "PERSECUTIONS OF THE BAPTIST MISSIONARIES IN INDIA..."). An
+  // ascending-run scan stops dead at the first of them.
+  //
+  // CONTENTS repeats every chapter header before the body, so there are two
+  // "CHAPTER I." lines and the body's is the later one. Of the candidates,
+  // the one leaving exactly EXPECTED_CHAPTERS headers to the end is
+  // preferred, which self-corrects if a typo ever produces a third.
+  const openings = headers.filter((h) => h.number === 1);
+  if (openings.length === 0) throw new Error('No "CHAPTER I." header found — cannot locate the body.');
+  const exact = openings.filter((h) => headers.length - headers.indexOf(h) === EXPECTED_CHAPTERS);
+  const opening = exact.length > 0 ? exact[exact.length - 1] : openings[openings.length - 1];
+  const body = headers.slice(headers.indexOf(opening));
 
+  // Chapter numbers come from POSITION, never from the printed numeral.
+  // entries.chapter is the pane's loading unit and must be unique: taking
+  // the numerals at face value would number two chapters 12 and two 9,
+  // silently merging two pairs of chapters into one loading unit apiece and
+  // colliding their TOC rows. The displayed numeral is derived from the
+  // position too, so the table of contents reads XIII and XIX instead of
+  // repeating XII and IX — that corrects a navigation label only; no
+  // chapter text is altered.
   return body.map((h, i) => {
     const from = h.line + 1;
     const to = i + 1 < body.length ? body[i + 1].line : lines.length;
-    return { number: h.number, roman: h.roman, lines: lines.slice(from, to) };
+    return {
+      number: i + 1,
+      roman: intToRoman(i + 1),
+      printedRoman: h.printed,
+      lines: lines.slice(from, to),
+    };
   });
 }
 
@@ -367,6 +414,10 @@ function parseChapter(chapter, audit) {
   return {
     number: chapter.number,
     roman: chapter.roman,
+    // What the body actually printed. Kept even when it equals `roman`, so
+    // the bundle records the source's own numbering rather than only the
+    // corrected one — the two disagree at positions 13 and 19.
+    printedRoman: chapter.printedRoman,
     title,
     units: units.filter((u) => u.paragraphs.length > 0),
   };
@@ -385,7 +436,12 @@ function validate(chapters) {
   for (const c of chapters) {
     const paragraphs = c.units.reduce((n, u) => n + u.paragraphs.length, 0);
     if (paragraphs === 0) problems.push(`Chapter ${c.roman} has no paragraphs`);
-    if (!c.title) problems.push(`Chapter ${c.roman} has no ALL-CAPS title line`);
+    // A missing ALL-CAPS title is NOT a failure. Chapter VII genuinely has
+    // none: its body opens straight onto the italic heading "_An Account of
+    // the Persecutions in Bohemia under the Papacy._", which carries the
+    // same words the CONTENTS page prints in capitals. It is reported so
+    // the omission stays visible, and the chapter simply reads "Chapter VII"
+    // in the table of contents with that heading as its first child.
     const named = c.units.filter((u) => u.heading !== null).length;
     const shouldBeChildless = EXPECTED_CHILDLESS.includes(c.number);
     if (shouldBeChildless && named > 0) {
@@ -394,6 +450,17 @@ function validate(chapters) {
     if (!shouldBeChildless && named === 0) {
       problems.push(`Chapter ${c.roman} parsed no named sub-entries — heading detection may have failed`);
     }
+  }
+  const misnumbered = chapters.filter((c) => c.printedRoman !== c.roman);
+  if (misnumbered.length > 0) {
+    console.warn(
+      '  ! body chapter headers misnumbered in the source (corrected by position): ' +
+      misnumbered.map((c) => `printed ${c.printedRoman} at position ${c.number} -> ${c.roman}`).join('; '),
+    );
+  }
+  const untitled = chapters.filter((c) => !c.title).map((c) => c.roman);
+  if (untitled.length > 0) {
+    console.warn(`  ! no ALL-CAPS body title: ${untitled.join(', ')} (see validate() — not a failure)`);
   }
   if (problems.length > 0) {
     throw new Error(
@@ -457,6 +524,19 @@ async function main() {
         'covers the digitisation and imposes no further restriction. Note the edition: this is a ' +
         '19th-century compilation and abridgement of Foxe\'s work, extended by its editor to 1830, ' +
         'not Foxe\'s original 1563/1570 "Actes and Monuments".',
+      // Anomalies found in the source and handled rather than hidden — see
+      // splitChapters() and validate(). Recorded here so a reader of the
+      // bundle sees them without reading the builder.
+      source_anomalies: [
+        ...chapters
+          .filter((c) => c.printedRoman !== c.roman)
+          .map((c) => `body header at position ${c.number} is printed "CHAPTER ${c.printedRoman}." ` +
+            `(CONTENTS correctly says ${c.roman}); numbering taken from position, text unaltered`),
+        ...chapters
+          .filter((c) => !c.title)
+          .map((c) => `chapter ${c.roman} has no ALL-CAPS body title; its opening italic heading ` +
+            'carries the same words the CONTENTS page prints in capitals'),
+      ],
       chapter_count: chapters.length,
       named_entry_count: totalNamed,
       paragraph_count: totalParagraphs,

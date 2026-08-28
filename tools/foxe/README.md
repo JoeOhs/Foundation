@@ -119,6 +119,41 @@ line) are consistent throughout and are the reliable top-level split point;
 CONTENTS repeats them, so the body is taken as the last run of chapter
 headers counting from I without gaps.
 
+The length cap on a heading block is **measured, not guessed**. Of the 196
+candidates in the real text the median is 38 characters and the longest 163
+(Wishart's, which wraps across three lines); nothing falls between 164 and
+400, so the cap sits at 300, in the middle of that gap. An earlier cap of 160
+silently dropped the two longest — Wishart's at 163 and the Gunpowder Plot's
+at 161 — taking chapters XII and XIV's only named entries with them. A cap
+that merely looks generous is not enough; it has to sit in a gap the text
+actually has.
+
+## Two anomalies in the source
+
+**The body's chapter headers are misnumbered twice.** Position 13 is printed
+`CHAPTER XII.` and position 19 `CHAPTER IX.`, each duplicating an earlier
+numeral; the CONTENTS page correctly says XIII and XIX, and the chapters'
+own titles confirm which is which.
+
+So chapter numbers come from **position, never from the printed numeral**.
+Taking the numerals at face value would number two chapters 12 and two 9 —
+and since `entries.chapter` is the pane's loading unit, two pairs of chapters
+would silently merge and their TOC rows collide. Locating the body by
+scanning back over an ascending run of numerals fails for the same reason, so
+it is found by its opening `CHAPTER I.` instead. The displayed numeral is
+derived from position too, so the dropdown reads XIII and XIX rather than
+repeating XII and IX — **this corrects a navigation label only; no chapter
+text is altered.** Both are printed as build warnings and recorded in
+`metadata.source_anomalies`.
+
+**Chapter VII has no ALL-CAPS body title.** It opens straight onto the italic
+heading `_An Account of the Persecutions in Bohemia under the Papacy._`,
+carrying the same words CONTENTS prints in capitals. A missing title is
+reported but is not a build failure; the chapter reads "Chapter VII" in the
+dropdown with that heading as its first child.
+
+## Chapters without named sub-entries
+
 Chapters **IX, XI and XV** have no named sub-entries — a single continuous
 narrative apiece. That's expected, and `build.mjs` asserts it, so a genuine
 failure of heading detection can't hide behind "this chapter just has none".
@@ -148,8 +183,9 @@ the Talmud import made with Sefaria's `<b>` markup.
 ## The build refuses to ship a half-read book
 
 `validate()` asserts the parsed shape against what the printed book is known
-to contain: 23 chapters, every chapter with a title and at least one
-paragraph, named sub-entries present in every chapter except IX/XI/XV. Any
+to contain: 23 chapters, every chapter with at least one paragraph, and named
+sub-entries present in every chapter except IX/XI/XV. The current build
+yields **2,715 paragraphs and 195 named entries** across the 23 chapters. Any
 mismatch is a build **failure**, not a warning. A parser that has drifted
 from the text should stop the build, not produce a bundle that installs
 cleanly and is quietly missing half the martyrs.

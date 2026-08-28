@@ -364,8 +364,9 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
     licenseDetail:
       'Credited to John Foxe (1516/17–1587); published by The John C. Winston Co. — public domain, ' +
       'from Project Gutenberg (ebook #22400, released 2007), produced by the Online Distributed ' +
-      'Proofreading Team. Twenty-three chapters of martyrdom accounts from Stephen to the ' +
-      'nineteenth century, under a Chapter → named entry table of contents. ' +
+      'Proofreading Team. 2,715 paragraphs across 23 chapters of martyrdom accounts, from Stephen ' +
+      'to the persecutions of the 1820s, under a Chapter → named entry table of contents with 195 ' +
+      'named entries. ' +
       'Note the edition: this is a 19th-century compilation and abridgement built on Foxe\'s work ' +
       '— its own preface calls it "strictly ... a COMPILATION" — extended by its unnamed editor to ' +
       'cover persecution history down to 1830, not a transcription of Foxe\'s original 1563/1570 ' +
