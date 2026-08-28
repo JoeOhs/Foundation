@@ -659,17 +659,31 @@ function Pane({
     );
   };
 
-  const renderSection = (e: Entry) => {
+  // An entry carrying a heading but no citation of its own is *apparatus*
+  // attached to the block above it, not a new block: Riley's Explanation of
+  // a fable and his footnotes on it (see src/ovidImport.ts). It renders set
+  // apart — a divider and smaller type. A source whose headings sit on
+  // entries that also carry a position_ref (Fox's named sub-entries) is
+  // unaffected: there the heading is already part of the citation, and
+  // printing it twice would just be noise.
+  const isApparatus = (e: Entry) => e.heading !== null && e.position_ref === null;
+
+  // `showHeading` is false for the second and later paragraphs of one run of
+  // apparatus — they carry the same heading so they style alike, but the
+  // label belongs at the top of the run only.
+  const renderSection = (e: Entry, showHeading: boolean) => {
     const { cls, style, noted } = decorate(e, activeChapter ?? 1);
+    const apparatus = isApparatus(e);
     return (
       <div
         key={e.id}
         data-verse={e.sort_order + 1}
         data-entry-id={e.id}
-        className={`section-entry${cls}`}
+        className={`section-entry${apparatus ? ' section-apparatus' : ''}${cls}`}
         style={style}
         onClick={() => clickEntry(e)}
       >
+        {apparatus && showHeading && <div className="section-apparatus-heading">{e.heading}</div>}
         {e.position_ref && <div className="section-ref">{e.position_ref}</div>}
         <div className="section-text">{renderText(e.text, activeChapter ?? 1)}</div>
         {noted && <span className="note-dot" title="Has notes" />}
@@ -769,13 +783,15 @@ function Pane({
         )}
         {/* Shape is per entry, not per pane: a commentary mixes outline
             lines with verse-keyed prose in the same chapter. */}
-        {entries.map((e) => {
+        {entries.map((e, i) => {
           const block = diagramBlocks.get(e.id);
           if (block) return renderDiagram(block);
           // Already drawn as part of its diagram block above.
           if (entryIdsInDiagrams.has(e.id)) return null;
           if (e.verse !== null) return renderVerse(e);
-          return renderSection(e);
+          const prev = entries[i - 1];
+          const opensRun = !prev || !isApparatus(prev) || prev.heading !== e.heading;
+          return renderSection(e, opensRun);
         })}
       </div>
     </div>

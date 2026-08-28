@@ -17,6 +17,7 @@ import { ANF08_TITLE, installANF08 } from './anf08Import';
 import { ANF09_TITLE, installANF09 } from './anf09Import';
 import { JOSEPHUS_TITLE, installJosephus } from './josephusImport';
 import { FOXE_TITLE, installFoxe } from './foxeImport';
+import { OVID_TITLE, installOvid } from './ovidImport';
 import { NPNF101_TITLE, installNPNF101 } from './npnf101Import';
 import { NPNF102_TITLE, installNPNF102 } from './npnf102Import';
 import { NPNF103_TITLE, installNPNF103 } from './npnf103Import';
@@ -353,6 +354,27 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'footnotes are deliberately excluded, so the text is Josephus\'s only. Built by ' +
       'tools/josephus/build.mjs, which refuses any edition that isn\'t Whiston\'s.',
     install: installJosephus,
+  },
+  {
+    id: 'ovid_riley',
+    title: OVID_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'historical',
+    license: 'public domain',
+    licenseDetail:
+      'Ovid (43 BC – AD 17/18), translated into English prose by Henry T. Riley (1851, Bohn\'s ' +
+      'Classical Library; translator died 1878) — public domain, from Project Gutenberg ebooks ' +
+      '21765 (Books I–VII, from the George Bell & Sons reprint of 1893) and 26073 (Books VIII–XV, ' +
+      'from the David McKay reprint of 1899). One source containing the complete poem: fifteen books ' +
+      'of fables under a Book → Fable table of contents. Unlike Whiston\'s Josephus, Riley\'s own ' +
+      'apparatus is kept — his "Explanation" of each fable and his numbered footnotes read at the ' +
+      'foot of the fable they belong to, not in the study footer, since he is commenting on a ' +
+      'classical poem rather than on scripture. The reprints\' page and line locator numbers are ' +
+      'stripped as typesetting artifacts, and both publishers\' introductions and the Synoptical ' +
+      'View are excluded as front matter. Built by tools/ovid/build.mjs, which refuses any edition ' +
+      'that isn\'t Riley\'s.',
+    install: installOvid,
   },
   {
     id: 'foxe_martyrs',

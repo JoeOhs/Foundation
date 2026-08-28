@@ -474,6 +474,95 @@ running list of what's done and what's next, not a commitment.
   are unwrapped, since `entries.text` is plain text everywhere and no pane
   renders markup — the same call the Talmud import made with Sefaria's `<b>`.
 
+- **Ovid's Metamorphoses — Riley translation (1851).** The complete poem in
+  Henry T. Riley's literal English prose, as a freeform classical work: fifteen
+  books of numbered Fables, not Bible-verse-keyed, navigated by a hand-built
+  table of contents. **A compound work in the Josephus mould** — two separate
+  Project Gutenberg texts (Books I–VII, 21765; Books VIII–XV, 26073) folded
+  into ONE `historical` source with fifteen `books` rows beneath it, rather
+  than two Library entries for one poem.
+  **Two-level TOC, Book → Fable**, on the same `ParsedTocEntry.bookIndex` /
+  grouping-row machinery generalised for Josephus and the Talmud — no
+  `toc_entries` schema change. Two levels rather than Josephus's three because
+  Josephus folds four distinct *works* together and needs a Work level above
+  the books; the Metamorphoses is one work already, so Book → Fable is the
+  natural depth. Like Fox's chapter rows and unlike Josephus's Work rows, the
+  book row is *jumpable* rather than a bare grouping heading: with only two
+  levels there is no third level for a grouping row to label, so an
+  unjumpable one would be a dead row in the dropdown.
+  `position_ref`-anchored, like Josephus and the Talmud, with the citation
+  (`I.7`, Book.Fable) on the paragraph that opens each fable; `searchAll`
+  already resolves a hit to the nearest preceding labelled entry in the same
+  chapter. Each fable is an `entries.chapter` purely as a loading unit, so the
+  pane fetches one fable at a time. Paragraph-per-entry granularity, not
+  fable-per-entry — highlights, notes and links need a paragraph-sized
+  selection unit, the same reasoning every other freeform import here used.
+  Files under the existing **`historical`** category alongside Josephus, and
+  under `type: 'extra-biblical'` — its own pane, no sync group, out of
+  verse-scoped search. Deliberately *not* a new category for one work.
+  `historical` was scoped to "an actual historian's narrative" and Ovid is a
+  poet, but the *shape* is what the category sorts on — freeform,
+  non-Biblical, compound, `position_ref`-anchored — and that is exactly
+  Josephus's shape. If a second non-historical classical text is ever added,
+  revisit then. `historical` is already a search scope chip, so search
+  coverage needed no change and no chip was added.
+  **Riley's apparatus is kept, and kept out of the footer.** He closes each
+  fable with his own "Explanation" of it, and each book with numbered
+  footnotes. Both render at the foot of the fable they belong to, *inside the
+  pane*, labelled through `entries.heading` — the nullable column added for
+  JFB — and set apart from the narrative by a divider and smaller type. They
+  are deliberately **not** routed to the Study footer's Commentary tab even
+  though the plumbing would accept them: that tab is for works commenting on
+  *the Bible* (JFB today), and Riley is commenting on a classical poem, so
+  filing him there would be a category error. The pane's rule for this is
+  generic rather than Ovid-specific — an entry carrying a heading but no
+  `position_ref` of its own is apparatus attached to the block above it —
+  which leaves Fox's named sub-entries, whose headings sit on entries that do
+  carry a citation, rendering exactly as before.
+  **Footnotes are captured, not excluded** — the opposite call from Josephus,
+  for a concrete reason rather than a change of heart. Whiston's are dropped
+  because the transcription fuses their markers onto the preceding word as
+  bare digits, indistinguishable from a numeral belonging to Josephus.
+  Riley's are cleanly delimited: bracketed markers, and endnotes that open by
+  naming the Latin line they hang on (`Ver. 5.`). They are numbered per
+  *book*, though, not per fable, so the mapping is **derived, not assumed**:
+  the reprints' page-margin locators (`I. 6-26`) are harvested before they
+  are stripped, giving each fable a Latin line range, and a note is filed
+  under the fable whose range contains its `Ver.` A note that can't be placed
+  is **not guessed at** — it goes to the book's last fable under an explicit
+  `Notes — Book I (unmapped)` label, counted in the bundle's metadata, so a
+  failed mapping is visible rather than silently filed against the wrong
+  passage.
+  The page/line locators themselves are **stripped entirely** from the
+  reading text. They are typesetting artifacts of the two reprints, not
+  Ovid's or Riley's words, and unlike JFB's verse ranges there is no parallel
+  worth preserving. Front matter — both publishers' introductions and the
+  "Synoptical View", a book-by-book plot synopsis — is **excluded and
+  logged** into the bundle's `metadata.exclusions`, the same audit-trail
+  standard as Whiston's Josephus front matter and JFB's introductions.
+  **Provenance:** Publius Ovidius Naso (43 BC – AD 17/18), translated into
+  English prose by **Henry T. Riley** (1816–1878), first published 1851 in
+  Bohn's Classical Library. The two source transcriptions are of the **George
+  Bell & Sons** reprint (London, 1893) and the **David McKay** reprint
+  (Philadelphia, 1899): Project Gutenberg ebooks
+  [#21765](https://www.gutenberg.org/ebooks/21765) (Books I–VII) and
+  [#26073](https://www.gutenberg.org/ebooks/26073) (Books VIII–XV). Riley
+  died in 1878 and both reprints are pre-1928 US publications, so this is
+  public domain twice over — a normal addition, with no licence exception to
+  guard the way the Talmud has one. Built by `tools/ovid/build.mjs`, which
+  hard-fails on any edition whose Gutenberg header doesn't name Riley — the
+  modern translations (Melville, Lombardo, Martin, Raeburn) are separately
+  copyrighted — and again if the parse doesn't yield fifteen books numbered
+  I–XV with prose in every fable.
+  **Not yet built out.** The importer, the Library entry, the pane rendering
+  and the builder are in place and exercised end to end, but the bundle
+  itself has not been generated: `gutenberg.org` was unreachable from the
+  environment this was written in, so the builder's structural patterns were
+  written against the printed edition's known layout rather than against a
+  reading of the two transcriptions. Run `node tools/ovid/build.mjs --inspect`
+  first and check its output against the regexes before shipping a bundle;
+  see `tools/ovid/README.md`.
+
 ## Near-term
 
 - **Remote-fetched manifest.** The library list is currently bundled with the

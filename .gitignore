@@ -27,6 +27,9 @@ tools/talmud/raw/
 # Yerushalmi download cache: one JSON per tractate from Sefaria's export
 # bucket. Rebuildable with tools/yerushalmi/build.mjs.
 tools/yerushalmi/raw/
+# Ovid download cache: the two Project Gutenberg plain-text files behind
+# Riley's Metamorphoses. Rebuildable with tools/ovid/build.mjs.
+tools/ovid/raw/
 
 # Local AI-assistant/session artifacts
 .claude/
