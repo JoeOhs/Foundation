@@ -129,19 +129,44 @@ async function loadRaw(refetch) {
 // wording is gone, the file is not the release this bundle is allowed to
 // ship and the build fails rather than quietly importing it.
 function assertGutenbergLicense(raw) {
-  const header = raw.slice(0, 6000);
-  const licensed =
-    /This eBook is for the use of anyone anywhere/i.test(header) ||
-    /is for the use of anyone anywhere in the United States and most other parts of the world at no cost/i.test(header);
-  if (!licensed) {
+  // Matched against whitespace-normalised text, never the raw file. Every
+  // phrase below spans more than one word, and Gutenberg hard-wraps its
+  // boilerplate at ~72 columns, so a wrap falling inside a phrase makes a
+  // raw-text regex fail on a perfectly good file. Normalising first is what
+  // makes this guard about the wording rather than about the line breaks.
+  const flat = (chunk) => chunk.replace(/\s+/g, ' ');
+  const header = flat(raw.slice(0, 8000));
+  const footer = flat(raw.slice(-25000));
+
+  // PG has re-generated its boilerplate over the years, and this ebook's
+  // vintage (2007) predates the current wording, so the file's header
+  // depends on when the copy was produced:
+  //   older  "This eBook is for the use of anyone anywhere at no cost and
+  //           with almost no restrictions whatsoever."
+  //   current"This ebook is for the use of anyone anywhere in the United
+  //           States and most other parts of the world at no cost..."
+  // The archive.org mirror carries the older form, gutenberg.org the
+  // current one. Rather than pin either, this matches the stem both share
+  // and have kept across every revision — and case-insensitively, since
+  // "eBook" became "ebook" in the rewrite.
+  const LICENSE_MARKERS = [
+    /for the use of anyone anywhere/i,
+    /THE FULL PROJECT GUTENBERG LICENSE/i,
+    /Project Gutenberg(?:-tm)? License/i,
+  ];
+  const found = LICENSE_MARKERS.filter((re) => re.test(header) || re.test(footer));
+  if (found.length === 0) {
     throw new Error(
-      `PG ${GUTENBERG_ID} no longer carries Project Gutenberg's standard licence boilerplate ` +
-      '("This eBook is for the use of anyone anywhere..."). Refusing to build: only text confirmed ' +
-      'to ship under the PG licence may be bundled.',
+      `PG ${GUTENBERG_ID} carries none of Project Gutenberg's licence markers ` +
+      '(the "for the use of anyone anywhere" grant, or the full licence section). ' +
+      'Refusing to build: only text confirmed to ship under the PG licence may be bundled.',
     );
   }
-  if (!/Foxe/i.test(header) && !/Martyrs/i.test(header)) {
-    throw new Error(`PG ${GUTENBERG_ID} header does not name Foxe or the Book of Martyrs — wrong file?`);
+
+  // "Fox's" in this edition's own title, not "Foxe's" — so the surname is
+  // matched with the final "e" optional rather than spelled one way.
+  if (!/Fox'?e?'?s Book of Martyrs/i.test(header) && !/Book of Martyrs/i.test(header)) {
+    throw new Error(`PG ${GUTENBERG_ID} header does not name the Book of Martyrs — wrong file?`);
   }
 }
 

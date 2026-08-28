@@ -52,10 +52,29 @@ re-verify before trusting a bundle built that way.
 Public domain: pre-1928 US publication. Project Gutenberg's own licence
 covers the digitisation and imposes no further restriction, so this is a
 normal addition to the Library's public-domain-only catalogue — not an
-exception like the Talmud. `build.mjs` **hard-fails** if the downloaded file
-no longer carries Gutenberg's standard licence boilerplate ("This eBook is
-for the use of anyone anywhere…"), the same discipline `tools/jfb` and
-`tools/smiths-dictionary` apply to their OSIS `DistributionLicense` fields.
+exception like the Talmud. `build.mjs` **hard-fails** if the file carries none of Gutenberg's licence
+markers, the same discipline `tools/jfb` and `tools/smiths-dictionary` apply
+to their OSIS `DistributionLicense` fields.
+
+The guard is deliberately not pinned to one exact string. PG has re-generated
+its boilerplate over the years, and this ebook's 2007 vintage predates the
+current wording, so which one a copy carries depends on when it was
+produced:
+
+| | |
+|---|---|
+| older (archive.org mirror) | "This eBook is for the use of anyone anywhere **at no cost and with almost no restrictions whatsoever.**" |
+| current (gutenberg.org) | "This ebook is for the use of anyone anywhere **in the United States and most other parts of the world at no cost…**" |
+
+Note also `eBook` → `ebook`. So the guard matches the stem both vintages
+share — "for the use of anyone anywhere" — case-insensitively, and accepts
+the full licence section in the footer as an independent second signal.
+
+It matches against **whitespace-normalised** text, never the raw file. Every
+marker is more than one word and PG hard-wraps at ~72 columns, so a line
+break falling inside a phrase would make a raw-text regex reject a perfectly
+good file. Normalising first is what keeps this a check on the wording rather
+than on the line breaks.
 
 ## Structure, and why the parser distrusts the CONTENTS page
 
