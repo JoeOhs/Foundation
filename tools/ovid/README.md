@@ -4,38 +4,20 @@ Standalone builder for the Library's **Ovid — Metamorphoses** entry.
 Run outside the app; nothing here is part of the Tauri runtime.
 
 ```
-node build.mjs             # download (or reuse raw/ cache) and build
-node build.mjs --refetch    # ignore the cache and re-download
-node build.mjs --inspect    # print candidate structural lines and stop
-node build.mjs --audit      # also print per-fable line ranges and footnote counts
+node build.mjs             # parse raw/ and build
+node build.mjs --inspect   # report the structure found in raw/ and stop
+node build.mjs --audit     # also print per-unit paragraph and note counts
 ```
 
 Writes `ovid.json` here and a copy to
 `public/library/historical/ovid.json`, which is what ships with the app.
-`raw/` is a download cache and is git-ignored — delete it to force a clean
-fetch.
+`raw/` holds the two source files and is git-ignored.
 
-## Run `--inspect` before trusting a build
-
-The structural patterns in `build.mjs` — book, fable, explanation, footnote
-and locator shapes — were written against the printed edition's known layout,
-**not** against a byte-for-byte reading of these two transcriptions, because
-Project Gutenberg was unreachable from the environment the importer was
-written in. `--inspect` downloads both files and prints every line the
-patterns match, plus every unmatched ALL-CAPS line (the likeliest sign of a
-heading convention the patterns don't know about). Check that output against
-the regexes before shipping a bundle.
-
-That is not a formality. Everything downstream of the parse — which fable a
-paragraph belongs to, which fable a footnote is filed under — is derived from
-these patterns, and a pattern that silently matches nothing produces a bundle
-that installs cleanly and is missing half the poem. `validate()` catches the
-gross failures (see below); `--inspect` is what catches the subtle ones.
+Current build: **136 fables in 123 units across 15 books, 788 paragraphs of
+translation, 350 paragraphs of Riley's Explanations, 1,273 footnotes** —
+2,411 entries, 1.5MB, comfortably inside the 4.2MB ceiling Josephus set.
 
 ## Which edition this is
-
-Two Project Gutenberg texts, split the way Josephus's four are, folded into
-one Library entry:
 
 | | | |
 |---|---|---|
@@ -48,97 +30,132 @@ reprints are pre-1928 US publications, so this is public domain twice over —
 a normal addition to the Library's public-domain-only catalogue, not an
 exception like the Talmud.
 
-`build.mjs` **hard-fails** if a downloaded file's Gutenberg header doesn't
-name Riley, the same discipline `tools/josephus` applies to Whiston. The
-modern translations — Melville, Lombardo, Martin, Raeburn — are separately
-copyrighted and must never be substituted in, however much more readable
-they may be.
+`build.mjs` **hard-fails** if a file's header doesn't name Riley, the same
+discipline `tools/josephus` applies to Whiston. The modern translations —
+Melville, Lombardo, Martin, Raeburn — are separately copyrighted and must
+never be substituted in.
 
-## Structure
+## Why this parses the HTML, not the plain text
 
-15 books, each a run of numbered **Fables**. Each fable is prose, then
-Riley's own `EXPLANATION.` of it. Each book closes with a numbered footnote
-block. The citation is `Book.Fable` — `I.7` — a `position_ref` anchor, not a
-Bible reference, the same shape as Josephus's Book.Chapter.Section and the
-Talmud's daf/amud.
+Gutenberg offers both. The HTML is not merely more convenient here — it is
+the only shape that carries the structure this bundle needs:
 
-Books are headed with the ordinal spelled out (`BOOK THE THIRTEENTH.`), so
-the ordinal words are the lookup; a numeral form is accepted as a fallback so
-a differently-set reprint doesn't silently yield zero books.
+| | plain text | HTML |
+|---|---|---|
+| book / fable boundaries | guess from line shape | `name="bookXIV"`, `name="bookXIV_fableIII"` |
+| footnote → fable | infer from Latin line ranges | `href="#note8_3"`, exact |
+| Riley's commentary | guess from an `EXPLANATION.` line | `p.explanation` |
+| fable synopsis | indistinguishable from prose | `p.synopsis` |
+| page/line locators | strip by regex, mid-sentence | `span.pagenum`, `span.linenum` |
 
-## Numbering comes from position, never from the printed numeral
+The last row is the one that would have done real damage. The reprints
+interleave locators inside sentences —
 
-Book and fable numbers are taken from where a heading *sits*, not from the
-numeral printed on it. This is the lesson Fox's Book of Martyrs taught on
-first contact with its real Gutenberg text: that book prints two duplicate
-chapter numerals, and taking them at face value would have merged two pairs
-of chapters, because `entries.chapter` is the pane's loading unit — a
-repeated number silently fuses two units and collides their TOC rows. The
-same fault is available here, and here it would also give two fables the same
-`I.7`-style citation.
+> …the whole universe,<sup>2</sup> **I. 6-26** which men…
 
-The printed numeral is still read, but only to be checked against the
-position. A disagreement is a **warning**, recorded in
-`metadata.source_anomalies` and printed at the end of the build, not a
-failure — the point is that the parse stays correct *and* the discrepancy
-stays visible.
+— so a plain-text build has to strip them by pattern. But Riley *also* cites
+classical works in exactly that form inside his own notes: *"See the story of
+Aristæus and the recovery of his bees, in the Fourth Book of Virgil's
+Georgics, **I. 281-314**."* A regex tight enough to catch the furniture
+catches the citation too, and silently mangles Riley. Because the locators
+are wrapped in their own spans, this build removes them by *element* and
+leaves the citation untouched. That case is checked after every build.
 
-Fable counts run past fifteen in the longer books, so a fable's display
-numeral is generated rather than looked up in the fifteen-entry book table; a
-sixteenth fable reads `Fable XVI`, not `Fable 16`.
+The inline footnote anchors matter almost as much: each marker links to the
+note it points at, so a note is filed under the unit whose prose carries its
+marker. The mapping is **exact**, not inferred from line ranges, and the
+build fails if any note is left unclaimed. All 1,273 map.
 
-## Page and line locators are stripped — but harvested first
+## The two files are not marked up alike
 
-The reprints interleave page/line locator numbers mid-sentence:
+Books I–VII head each book with `<h2>` inside a `div.chapter`. Books VIII–XV
+use `<h4 class="chapter">` and have **no chapter div at all**. Neither the
+heading level nor the wrapper is a safe signal, so the parser keys on the
+anchor names, which both files share.
 
-> …the whole universe,2 **I. 6-26** which men…
+Riley's own footnotes are `note<book>_<n>`; the Gutenberg transcriber's added
+notes are `note<book>_<LETTER>`. That one difference is what keeps them
+apart — and it is why the transcriber's supplementary notes are excluded
+while Riley's are kept.
 
-These are typesetting artifacts, not Ovid's or Riley's words, and they are
-stripped from the reading text entirely. There is no parallel to preserve
-here, unlike JFB's verse ranges.
+## Fables are split on their printed heading, not on their anchors
 
-They are **harvested before they are stripped**, though, because they are the
-only thing in the file that records which Latin lines a given fable covers.
-That range is what files each footnote under its owning fable.
+Riley sometimes prints **two or three fables under one heading**:
 
-## Footnotes are captured, not excluded — and mapped, not guessed
+- `FABLES VI AND VII.` (Book II)
+- `FABLES V. AND VI.` (Books XI, XII, XIII)
+- `FABLES IV. V. AND VI.` (Book XV)
 
-The opposite call from Josephus, for a concrete reason rather than a change
-of heart. Whiston's notes are dropped because the transcription fuses their
-markers onto the preceding word as bare digits, with no way to tell a marker
-from a numeral belonging to Josephus (`Genesis 44:20`). Riley's are cleanly
-delimited: bracketed markers in the text, numbered endnotes that open by
-naming the Latin line they hang on (`Ver. 5.`).
+and the two files disagree about how to anchor that. Book II gives such a
+heading a **single** anchor (`bookII_fableVI`, with no `fableVII` anywhere);
+Book XIII gives **one per fable** (`fableIII` and `fableIV` inside the same
+`<h5>`). So counting anchors yields a different set of units in each file,
+and splitting on them cuts a combined heading in half — leaving a phantom
+unit holding no prose at all.
 
-Notes are numbered **per book**, keyed to a Latin line, not to a fable. So
-the mapping is derived: a note's `Ver. N` is matched against each fable's
-harvested line range, and the note is filed under the fable that contains it.
+The heading is what the printed book divides on, so it is what this divides
+on. Every numeral in the heading is a fable the unit covers.
 
-A note that **can't** be placed — no `Ver.` at all, or no fable range
-covering it — is not guessed at. It goes to the book's last fable under an
-explicit `Notes — Book I (unmapped)` label, so it is visible and findable
-rather than silently filed against the wrong passage. Every unmapped note is
-counted in `metadata.unmapped_footnotes` and reported in
-`metadata.exclusions`. If `--audit` shows unmapped counts running high for a
-book, that is a signal the locator harvest failed for it, not that Riley
-wrote vague notes.
+### Ordinal and citation are different numbers, deliberately
 
-## Front matter is excluded, and logged
+This is the part worth not collapsing:
 
-Both publishers' introductions (Bell 1893, McKay 1899) and the **Synoptical
-View** — a book-by-book plot synopsis — are editorial framing, not fable
-content, and the generated `toc_entries` supersede the synopsis anyway. They
-are dropped at the first `BOOK THE …` heading, and what was dropped is
-recorded in `metadata.exclusions` rather than vanishing silently. Same
-audit-trail standard as Whiston's Josephus front matter and JFB's
-introductions.
+- **`entries.chapter` carries the unit's ordinal** — its position in the
+  book. It is the pane's *loading* unit, so it must be dense and unique
+  within its book; taken from position, it cannot repeat, and two units can
+  therefore never merge. That is the fault Fox's Book of Martyrs exposed on
+  first contact with its real text, where two duplicated chapter numerals
+  would have fused two pairs of chapters.
+- **`position_ref` carries Riley's own numbering** — `II.8`, or `II.6-7`
+  where one heading covers two fables, or `XV.4-6` where it covers three.
+
+Numbering the units by position *and* citing them by position would have
+renumbered every fable after a combined heading: Riley's Fable VIII in Book
+II would have been cited `II.7`, and so on to the end of the book. Splitting
+the two keeps the loading unit safe and the citation honest.
+
+## What is excluded, and logged
+
+Every exclusion is recorded in `metadata.exclusions` rather than dropped
+silently — this project's standing audit-trail rule.
+
+- Both publishers' introductions (`div.intro`) and the **Synoptical View**, a
+  book-by-book plot synopsis, which falls away with everything before the
+  first book anchor. Editorial framing, not the poem; the generated
+  `toc_entries` supersede the synopsis anyway.
+- The Gutenberg transcriber's own apparatus: `div.mynote` / `p.mynote`
+  (including notes *about* Riley's notes, which sit inside the footnote
+  blocks rather than in the front matter, so cutting front matter alone would
+  not catch them) and `div.endnote` (supplementary notes he added himself).
+- Back matter from the first of the `texts` / `errors` / `lines` / `names` /
+  `footnotes` anchors to the end: his note on the texts used, an errata list,
+  and three indexes.
+
+Riley's `<i>` — the words he supplied that the Latin only implies — is
+unwrapped rather than dropped: `entries.text` is plain text everywhere in
+this app and no pane renders markup, so the emphasis is lost but the words
+are kept, the same call the Talmud import made with Sefaria's `<b>` and Foxe
+with Gutenberg's `_underscores_`. Greek is kept as its own characters.
+
+## One real anomaly in the source
+
+Book XIII's printed fable numbering reads **1, 3, 4, 5, 6, 7, 8** — no Fable
+II. The Gutenberg transcriber suspected the same thing and marked the
+heading `<ins class="correction" title="error for 'Fables I. and II.'?">`,
+i.e. the McKay reprint most likely dropped "and II." from a combined heading.
+
+The build **reports** this in `metadata.source_anomalies` rather than
+guessing at it. Reading order and loading units are unaffected — only the
+printed citation is, and Book XIII's unit 1 is cited `XIII.1` rather than
+`XIII.1-2` because `XIII.1` is what the page actually prints. Recording the
+doubt is better than encoding a guess as a citation.
 
 ## The build refuses to ship a half-read poem
 
-`validate()` asserts the parsed shape against what the printed work is known
-to contain: **15 books, numbered 1–15 with no gaps**, every book with at
-least one fable, every fable with at least one paragraph of prose. Each
-volume is separately asserted to yield exactly the books it is supposed to
-(`21765` → I–VII, `26073` → VIII–XV), so downloading the wrong file is a
-build failure rather than a bundle with eight books in it. Any mismatch stops
-the build.
+`validate()` asserts the parsed shape against what the printed work contains:
+**15 books numbered I–XV with no gaps**, every book with at least one unit,
+every unit with prose, and **every footnote claimed by a marker in the text**.
+That last one is the sharpest check in the file: an unclaimed note means a
+marker was missed, which means prose was missed. Each volume is separately
+asserted to yield exactly the books it should, so supplying the wrong file is
+a build failure rather than a bundle with eight books in it.

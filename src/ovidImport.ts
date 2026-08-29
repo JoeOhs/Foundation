@@ -9,7 +9,14 @@ import type { ParsedBook, ParsedEntry, ParsedSource, ParsedTocEntry } from './ty
 //
 // A compound work in the Josephus mould: two separate Gutenberg texts
 // (21765, Books I–VII; 26073, Books VIII–XV) combined into ONE source with
-// fifteen books under it. The TOC is two levels, Book → Fable, not the three
+// fifteen books under it.
+//
+// UNITS ARE NOT ALWAYS ONE FABLE. Riley sometimes prints two or three fables
+// under a single heading ("FABLES IV. V. AND VI."). The heading is what the
+// book divides on, so it is what a pane loads: entries.chapter carries the
+// unit's ordinal — dense and unique within its book, which is what stops two
+// units merging — while position_ref carries Riley's own numbering, "XV.4-6"
+// where a unit spans three. The TOC is two levels, Book → Fable, not the three
 // Josephus needs: Josephus has Work → Book → Chapter because it folds four
 // distinct works together, whereas the Metamorphoses is one work already, so
 // Book → Fable is the natural depth. Both run on the same
@@ -26,11 +33,10 @@ import type { ParsedBook, ParsedEntry, ParsedSource, ParsedTocEntry } from './ty
 // for a concrete reason rather than a change of heart. Whiston's notes are
 // dropped because the transcription fuses their markers onto the preceding
 // word as bare digits, with no way to tell a marker from a numeral belonging
-// to Josephus. Riley's are cleanly delimited: bracketed markers in the text,
-// numbered endnotes keyed to a Latin line ("Ver. 5."), which is what lets
-// the builder file each note under the Fable whose line-range contains it.
-// A note that can't be placed is labelled as unmapped rather than guessed
-// at — see the heading constants below.
+// to Josephus. Riley's are anchored: the builder parses Gutenberg's HTML,
+// where every marker links to the note it points at, so a note is filed
+// under the unit whose prose carries its marker. That mapping is exact
+// rather than inferred, and the build fails if any note is left unclaimed.
 //
 // EXPLANATIONS: Riley closes each Fable with his own "Explanation" of it.
 // These deliberately do NOT go to the study footer's Commentary tab. That
@@ -47,32 +53,41 @@ export const OVID_TITLE = 'Ovid — Metamorphoses (trans. Henry T. Riley, 1851)'
 // fable itself, so they are constants rather than strings written twice.
 const EXPLANATION_HEADING = 'Explanation';
 const NOTES_HEADING = 'Notes';
-const unmappedNotesHeading = (bookRoman: string) => `Notes — Book ${bookRoman} (unmapped)`;
 
 interface BundledNote {
   number: number;
-  // The Latin line the note keys itself to, null when the note didn't name
-  // one — which is what makes it unmappable.
+  // The Latin line the note keys itself to ("Ver. 5."), where it names one.
+  // Carried for provenance; the note is filed by its marker, not by this.
   ver: number | null;
   text: string;
 }
 
 interface BundledFable {
-  number: number;
-  roman: string;
-  title: string;
-  line_from: number | null;
-  line_to: number | null;
+  // Position within the book. This is the loading unit (entries.chapter),
+  // never a citation.
+  ordinal: number;
+  // The fable number(s) Riley printed over this unit — [8], or [6, 7] where
+  // he prints two under one heading ("FABLES VI AND VII.").
+  numerals: number[];
+  label: string;
+  citation: string;
   paragraphs: string[];
   explanation: string[];
   notes: BundledNote[];
-  unmapped_notes: BundledNote[];
+}
+
+// Book I opens on THE ARGUMENT, Ovid's proem, before Fable I.
+interface BundledPreamble {
+  title: string;
+  paragraphs: string[];
+  notes: BundledNote[];
 }
 
 interface BundledBook {
   number: number;
   roman: string;
   name: string;
+  preamble: BundledPreamble | null;
   fables: BundledFable[];
 }
 
@@ -86,11 +101,13 @@ interface BundledOvidFile {
     reprints: string[];
     license_note: string;
     total_books: number;
+    total_units: number;
     total_fables: number;
     total_paragraphs: number;
+    total_explanation_paragraphs: number;
     total_footnotes: number;
-    unmapped_footnotes: number;
     exclusions: string[];
+    source_anomalies: string[];
   };
   books: BundledBook[];
 }
@@ -114,52 +131,72 @@ function buildParsedSource(data: BundledOvidFile): ParsedSource {
     // Book → Fable in order. Same shape as Josephus's chapterRows.
     const fableRows: ParsedTocEntry[] = [];
 
+    // Riley's apparatus, at the foot of the unit it belongs to. These carry a
+    // heading and NO position_ref, which is exactly how the pane tells them
+    // apart from the narrative: an entry with a heading but no citation of
+    // its own is apparatus attached to the block above it. entries.heading is
+    // the nullable column added for JFB's section headings, reused rather
+    // than a parallel column being invented. The heading repeats on every
+    // paragraph of a run rather than sitting on the first alone, because it
+    // is what marks the entry as apparatus at all; the pane prints the label
+    // once, at the top of the run.
+    const pushApparatus = (chapter: number, texts: string[], heading: string) => {
+      for (const text of texts) {
+        entries.push({ chapter, verse: null, position_ref: null, heading, text });
+      }
+    };
+
+    // Book I's preamble is THE ARGUMENT — Ovid's proem, his own words, not
+    // apparatus. It rides in the first unit so it keeps that unit's loading
+    // chapter, but under its own citation and its own TOC row, so it is
+    // neither folded invisibly into Fable I nor renumbered around.
+    if (book.preamble && book.preamble.paragraphs.length > 0) {
+      const ref = `${book.roman} — ${book.preamble.title}`;
+      book.preamble.paragraphs.forEach((text, i) => {
+        entries.push({
+          chapter: book.fables[0].ordinal,
+          verse: null,
+          position_ref: i === 0 ? ref : null,
+          heading: null,
+          text,
+        });
+      });
+      pushApparatus(book.fables[0].ordinal, book.preamble.notes.map(formatNote), NOTES_HEADING);
+      fableRows.push({
+        title: book.preamble.title,
+        level: 1,
+        entryIndex: 0,
+        bookIndex,
+      });
+    }
+
     for (const fable of book.fables) {
       const firstEntryOfFable = entries.length;
-      const citation = `${book.roman}.${fable.number}`;
 
       fable.paragraphs.forEach((text, i) => {
         entries.push({
-          chapter: fable.number,
+          // The unit's ordinal, not Riley's numeral: entries.chapter is the
+          // pane's loading unit and has to be dense and unique within the
+          // book. Where Riley prints two fables under one heading his
+          // numerals skip, and the citation below carries that faithfully.
+          chapter: fable.ordinal,
           verse: null,
-          // The citation goes on the paragraph that opens the fable.
-          // Repeating it on every paragraph would just be noise in the
-          // reading column, and searchAll already resolves a hit to the
-          // nearest preceding labelled entry in the same chapter.
-          position_ref: i === 0 ? citation : null,
+          // The citation goes on the paragraph that opens the unit —
+          // "II.8", or "II.6-7" for a combined heading. Repeating it on
+          // every paragraph would just be noise in the reading column, and
+          // searchAll already resolves a hit to the nearest preceding
+          // labelled entry in the same chapter.
+          position_ref: i === 0 ? fable.citation : null,
           heading: null,
           text,
         });
       });
 
-      // Riley's apparatus, at the foot of the fable it belongs to. These
-      // carry a heading and NO position_ref, which is exactly how the pane
-      // tells them apart from the narrative: an entry with a heading but no
-      // citation of its own is apparatus attached to the block above it.
-      // entries.heading is the nullable column added for JFB's section
-      // headings, reused rather than a parallel column being invented. The
-      // heading repeats on every paragraph of a run rather than sitting on
-      // the first alone, because it is what marks the entry as apparatus at
-      // all; the pane prints the label once, at the top of the run.
-      const pushApparatus = (texts: string[], heading: string) => {
-        for (const text of texts) {
-          entries.push({ chapter: fable.number, verse: null, position_ref: null, heading, text });
-        }
-      };
-
-      pushApparatus(fable.explanation, EXPLANATION_HEADING);
-      pushApparatus(fable.notes.map(formatNote), NOTES_HEADING);
-      // Notes the builder could not place by line range are filed under the
-      // book's last fable — but under their own label, so the reader can see
-      // they belong to the book rather than to this fable. Guessing an owner
-      // would put Riley's note against the wrong passage silently, which is
-      // worse than an honest label.
-      pushApparatus(fable.unmapped_notes.map(formatNote), unmappedNotesHeading(book.roman));
+      pushApparatus(fable.ordinal, fable.explanation, EXPLANATION_HEADING);
+      pushApparatus(fable.ordinal, fable.notes.map(formatNote), NOTES_HEADING);
 
       fableRows.push({
-        title: fable.title
-          ? `Fable ${fable.roman}. ${fable.title}`
-          : `Fable ${fable.roman}`,
+        title: `${fable.label} (${fable.citation})`,
         level: 1,
         entryIndex: firstEntryOfFable,
         bookIndex,
@@ -168,7 +205,7 @@ function buildParsedSource(data: BundledOvidFile): ParsedSource {
 
     if (entries.length === 0) continue;
     books.push({ name: book.name, entries });
-    // Level 0 — the book, opening on its first fable. Jumpable rather than a
+    // Level 0 — the book, opening on its first unit. Jumpable rather than a
     // bare grouping row: with only two levels there is no third level for a
     // grouping row to label, and an unreachable row in the dropdown would be
     // dead weight. Same call Fox's Book of Martyrs made.

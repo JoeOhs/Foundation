@@ -366,14 +366,15 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'Ovid (43 BC – AD 17/18), translated into English prose by Henry T. Riley (1851, Bohn\'s ' +
       'Classical Library; translator died 1878) — public domain, from Project Gutenberg ebooks ' +
       '21765 (Books I–VII, from the George Bell & Sons reprint of 1893) and 26073 (Books VIII–XV, ' +
-      'from the David McKay reprint of 1899). One source containing the complete poem: fifteen books ' +
-      'of fables under a Book → Fable table of contents. Unlike Whiston\'s Josephus, Riley\'s own ' +
-      'apparatus is kept — his "Explanation" of each fable and his numbered footnotes read at the ' +
-      'foot of the fable they belong to, not in the study footer, since he is commenting on a ' +
-      'classical poem rather than on scripture. The reprints\' page and line locator numbers are ' +
-      'stripped as typesetting artifacts, and both publishers\' introductions and the Synoptical ' +
-      'View are excluded as front matter. Built by tools/ovid/build.mjs, which refuses any edition ' +
-      'that isn\'t Riley\'s.',
+      'from the David McKay reprint of 1899). One source containing the complete poem: 136 fables across ' +
+      'fifteen books, under a Book → Fable table of contents. Unlike Whiston\'s Josephus, Riley\'s ' +
+      'own apparatus is kept — his "Explanation" of each fable and all 1,273 of his footnotes read ' +
+      'at the foot of the fable they belong to, not in the study footer, since he is commenting on ' +
+      'a classical poem rather than on scripture. Each footnote is filed by the marker that points ' +
+      'at it, so the mapping is exact. The reprints\' page and line locator numbers are stripped as ' +
+      'typesetting artifacts, and both publishers\' introductions, the Synoptical View and the ' +
+      'Gutenberg transcriber\'s own notes and indexes are excluded as apparatus. Built by ' +
+      'tools/ovid/build.mjs, which refuses any edition that isn\'t Riley\'s.',
     install: installOvid,
   },
   {

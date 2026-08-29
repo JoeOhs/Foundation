@@ -1,3 +1,17 @@
+  The page/line locators themselves are **stripped entirely** from the reading
+  text. They are typesetting artifacts of the two reprints, not Ovid's or
+  Riley's words, and unlike JFB's verse ranges there is no parallel worth
+  preserving. They are removed by *element* (`span.linenum`, `span.pagenum`)
+  rather than by pattern, and that distinction turned out to matter: Riley
+  cites classical works in exactly the locators' form inside his own notes
+  ("in the Fourth Book of Virgil's Georgics, I. 281-314"), so a regex tight
+  enough to catch the furniture would have silently mangled the citation. The
+  case is checked after every build. Front matter — both publishers'
+  introductions and the "Synoptical View", a book-by-book plot synopsis — is
+  **excluded and logged** into the bundle's `metadata.exclusions`, along with
+  the Gutenberg transcriber's own notes, supplementary notes and indexes, the
+  same audit-trail standard as Whiston's Josephus front matter and JFB's
+  introductions.
 # Roadmap
 
 Foundation is a personal, open-source, non-commercial project. There's no
@@ -523,16 +537,12 @@ running list of what's done and what's next, not a commitment.
   for a concrete reason rather than a change of heart. Whiston's are dropped
   because the transcription fuses their markers onto the preceding word as
   bare digits, indistinguishable from a numeral belonging to Josephus.
-  Riley's are cleanly delimited: bracketed markers, and endnotes that open by
-  naming the Latin line they hang on (`Ver. 5.`). They are numbered per
-  *book*, though, not per fable, so the mapping is **derived, not assumed**:
-  the reprints' page-margin locators (`I. 6-26`) are harvested before they
-  are stripped, giving each fable a Latin line range, and a note is filed
-  under the fable whose range contains its `Ver.` A note that can't be placed
-  is **not guessed at** — it goes to the book's last fable under an explicit
-  `Notes — Book I (unmapped)` label, counted in the bundle's metadata, so a
-  failed mapping is visible rather than silently filed against the wrong
-  passage.
+  Riley's are *anchored*: the builder parses Gutenberg's HTML rather than its
+  plain text, and there every marker links to the note it points at, so a note
+  is filed under the unit whose prose carries its marker. The mapping is
+  **exact rather than inferred**, and the build fails if a single note is left
+  unclaimed — an unclaimed note means a marker was missed, which means prose
+  was missed. All **1,273** map.
   The page/line locators themselves are **stripped entirely** from the
   reading text. They are typesetting artifacts of the two reprints, not
   Ovid's or Riley's words, and unlike JFB's verse ranges there is no parallel
@@ -554,22 +564,48 @@ running list of what's done and what's next, not a commitment.
   modern translations (Melville, Lombardo, Martin, Raeburn) are separately
   copyrighted — and again if the parse doesn't yield fifteen books numbered
   I–XV with prose in every fable.
-  **Book and fable numbers come from position, never from the printed
-  numeral** — the lesson Fox's Book of Martyrs taught on first contact with
-  its real Gutenberg text, applied here before first contact rather than
-  after. A duplicate printed numeral would merge two fables (the fable number
-  is `entries.chapter`, the pane's loading unit) and give two entries the same
-  `I.7` citation. The printed numeral is still read and checked against the
-  position, with any disagreement recorded in the bundle's
-  `metadata.source_anomalies` rather than hidden.
-  **Not yet built out.** The importer, the Library entry, the pane rendering
-  and the builder are in place and exercised end to end, but the bundle
-  itself has not been generated: `gutenberg.org` was unreachable from the
-  environment this was written in, so the builder's structural patterns were
-  written against the printed edition's known layout rather than against a
-  reading of the two transcriptions. Run `node tools/ovid/build.mjs --inspect`
-  first and check its output against the regexes before shipping a bundle;
-  see `tools/ovid/README.md`.
+  **Units are not always one fable, and the ordinal is not the citation.**
+  Riley sometimes prints two or three fables under a single heading ("FABLES
+  IV. V. AND VI."), and the two source files disagree about how to anchor
+  that — Book II gives such a heading one anchor, Book XIII one per fable —
+  so the split is on the printed heading, which is what the book itself
+  divides on. That forces two different numbers, deliberately kept apart:
+  `entries.chapter` carries the **unit's ordinal**, dense and unique within
+  its book because it comes from position, which is what stops two units
+  merging (the fault Fox's Book of Martyrs exposed on first contact with its
+  real text, where two duplicated chapter numerals would have fused two pairs
+  of chapters); `position_ref` carries **Riley's own numbering** — `II.8`, or
+  `II.6-7`, or `XV.4-6`. Numbering the units by position *and* citing them by
+  position would have renumbered every fable after a combined heading, citing
+  Riley's Fable VIII in Book II as `II.7` and so on to the end of the book.
+  **One real anomaly in the source, reported rather than guessed at.** Book
+  XIII's printed fable numbering reads 1, 3, 4, 5, 6, 7, 8 — no Fable II. The
+  Gutenberg transcriber suspected the same and marked the heading `error for
+  'Fables I. and II.'?`, so the McKay reprint most likely dropped "and II."
+  from a combined heading. It is recorded in `metadata.source_anomalies`;
+  reading order and loading units are unaffected, and the unit is cited
+  `XIII.1` because that is what the page prints. Recording the doubt beats
+  encoding a guess as a citation.
+  **Built out to 136 fables in 123 units across the 15 books** — 788
+  paragraphs of translation, 350 paragraphs of Riley's Explanations and 1,273
+  footnotes, 2,411 entries in all; the bundle is 1.5MB, comfortably inside the
+  4.2MB ceiling Josephus set. Book I additionally keeps **THE ARGUMENT**,
+  Ovid's proem, which stands before Fable I: it is his own words, not
+  apparatus, so it carries its own citation and its own TOC row rather than
+  being folded invisibly into Fable I or dropped.
+  **The builder parses Gutenberg's HTML, not its plain text**, and that is a
+  design decision rather than a convenience. The HTML marks book and fable
+  boundaries with stable anchors, classes Riley's commentary (`p.explanation`)
+  and his fable synopses (`p.synopsis`), links every footnote marker to its
+  note, and — decisively — wraps the two reprints' page and line locators in
+  their own spans. In the plain-text edition every one of those is a guess.
+  The two files are not marked up alike, either: Books I–VII head each book
+  with `<h2>` inside a `div.chapter`, Books VIII–XV with `<h4 class="chapter">`
+  and no chapter div at all, so the parser keys on the anchor names both
+  share. See `tools/ovid/README.md`.
+
+  Still outstanding: the live install and the highlight/note/link round-trip,
+  which need the running app and the real database.
 
 ## Near-term
 
