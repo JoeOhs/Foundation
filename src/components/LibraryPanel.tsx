@@ -41,7 +41,12 @@ const CATEGORY_LABELS: { category: SourceCategory; label: string }[] = [
 // the two are not read as one work, and so SERIES_NOTES has somewhere to hang
 // each corpus's licence disclaimer. Bibles group too, but by language, which
 // is a different key and so a different branch below.
-const SERIES_GROUPED: SourceCategory[] = ['patristic', 'rabbinic'];
+//
+// 'reformation' groups for the second reason rather than the first: two
+// volumes would list fine flat, but the edition's series heading is where
+// SERIES_NOTES says these are 2 of 6 volumes — and it is the structure the
+// remaining four slot into when they land.
+const SERIES_GROUPED: SourceCategory[] = ['patristic', 'rabbinic', 'reformation'];
 
 // Footer works (dictionaries, devotionals) file under the Add-ons section
 // rather than getting category sections of their own: like the Strong's
