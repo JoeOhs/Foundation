@@ -474,6 +474,84 @@ running list of what's done and what's next, not a commitment.
   are unwrapped, since `entries.text` is plain text everywhere and no pane
   renders markup — the same call the Talmud import made with Sefaria's `<b>`.
 
+- **Reformation writings — Luther, Philadelphia Edition.** *Partially
+  landed: the category and its UI are in; the text itself is not yet built —
+  see "Blocked" at the end of this entry.*
+  Martin Luther's collected works as a freeform, `position_ref`-anchored
+  library work in the same mould as Josephus, the Talmud and the martyrology
+  — treatises, sermons and catechisms read straight through under a
+  hand-built table of contents, never keyed to Bible book/chapter/verse.
+  **A new `reformation` category**, parallel to `patristic` and `rabbinic`,
+  each of which became its own category once its content stopped fitting
+  anywhere else. Deliberately *not* `historical`, which stays Josephus and
+  the martyrology — an actual historian's narrative, not treatises, sermons
+  and catechisms — and *not* `commentary`, which is reserved for works
+  commenting on the Bible, which most of this collection is not. Named for
+  the **movement rather than for Luther**, so Calvin, Melanchthon and the
+  rest can file here later without reopening the question.
+  `type: 'extra-biblical'`, the same behavioural bucket as Josephus and the
+  Talmud — its own pane, no sync group, out of verse-scoped search.
+  A **"Reformation" search scope chip** sits alongside Bibles / All sources /
+  Commentaries / Reference / Historical / Church Fathers / Rabbinic;
+  `searchAll` already filters on `sources.category` generically, so the chip
+  needed no query change. The Library panel gets a matching collapsible
+  "Reformation works" section — every section starts folded, and an empty
+  category renders nothing, so the wiring is inert until the first source
+  installs.
+  **Planned shape, to be confirmed against the actual markup:** likely one
+  source per volume (6 total), following the Church Fathers' per-volume
+  precedent rather than one 6-volume blob — to be decided against real
+  exported size the way the Talmud's per-Seder split was, and recorded here
+  once it is. One `books` row per treatise/sermon/work within a volume (the
+  edition already organises this way: "An Open Letter to the Christian
+  Nobility", "The Babylonian Captivity of the Church", "A Treatise on
+  Christian Liberty", each with its own introduction and named translator),
+  a two-level **Work → Section** TOC on the existing
+  `ParsedTocEntry.bookIndex` / grouping-row machinery — no `toc_entries`
+  schema change — and paragraph-per-entry granularity, since highlights,
+  notes and links all need a paragraph-sized selection unit. Whether each
+  work's introduction author and translator are worth capturing as metadata
+  (the way `entries.heading` carries JFB's section headings) or left as front
+  matter inside the work's own entries is a question for the structure pass,
+  not one to answer before the markup is seen. Editorial and translator
+  footnotes are to be **excluded from `entries.text` and logged** to
+  `tools/luther/luther-exclusions.txt`, the same audit-trail standard the JFB
+  and Josephus builds hold to. No `highlights`/`links`/`notes` change is
+  needed — entry anchoring already covers non-canonical sources.
+  **Provenance:** *Works of Martin Luther, with Introductions and Notes* —
+  the **Philadelphia Edition**, A. J. Holman Company, 1915–1932, six
+  volumes, a team of Lutheran scholars (Adolph Spaeth, L. D. Reed, Henry
+  Eyster Jacobs and others) translating Luther's major treatises, sermons and
+  catechisms directly from the German and Latin, each piece carrying its own
+  introduction and named translator. Public domain — published 1915–1932, US
+  copyright long expired — so a normal addition to the Library rather than an
+  exception like the Bavli, and no disclaimer to show. Chosen over the
+  **Lenker** translation series (1904 onward, also public domain, but
+  organised as verse-by-verse Scripture commentary rather than collected
+  treatises — a plausible *second* source later, not a substitute for this
+  one) and over **Henry Cole's** 1820s *Select Works*, which is earlier,
+  thinner, and superseded in scholarly regard by the Philadelphia Edition.
+  Cross-linking Luther's own Scripture citations into the study pane is
+  **out of scope** here for the same reason the Talmud's verse-citation item
+  is pinned rather than built: a separate feature, not needed to ship the
+  base text.
+  **Blocked: the text is not built.** `tools/luther/build.mjs` and
+  `src/lutherImport.ts` are not written, and nothing ships under
+  `public/library/reformation/` yet. This project's standing rule is to
+  **fetch and inspect the real markup before writing extraction logic** —
+  the Philadelphia Edition's Gutenberg HTML has never been examined, and it
+  cannot be assumed to mirror Josephus's plaintext or the Talmud's JSON
+  export. `www.gutenberg.org` is refused by the egress policy of the
+  environment this work was done in (403 on CONNECT), so no volume could be
+  fetched, its Gutenberg header could not be checked for public-domain
+  status or Philadelphia-Edition identity, and the footnote/apparatus
+  question could not be answered. Writing a parser against a guessed
+  structure would be exactly the failure the rule exists to prevent, so the
+  builder, the importer, the `LIBRARY_MANIFEST`/`BUNDLED_LIBRARY` entry and
+  the README's Library bullet were all deliberately left for the pass that
+  can see the source. What landed is only the category and its UI, which
+  depend on none of that.
+
 ## Near-term
 
 - **Remote-fetched manifest.** The library list is currently bundled with the
@@ -1060,6 +1138,24 @@ running list of what's done and what's next, not a commitment.
   searched for verbatim in the built text with zero matches.
 
 ## Longer-term / exploratory
+
+- **Lenker's Luther commentary series** as a second `reformation` source.
+  J. N. Lenker's translations (Genesis, the Psalms, and others, 1904 onward)
+  are public domain and cover ground the Philadelphia Edition does not, but
+  they are organised as **verse-by-verse Scripture commentary** rather than
+  as collected treatises. That may well warrant a verse-keyed or
+  footer-commentary treatment — closer to JFB than to the freeform pane the
+  Philadelphia Edition uses — so it gets its own structure investigation
+  when picked up, not an assumption that it matches the Luther brief.
+  Individually licence-checked before import, like everything else here.
+
+- **Other Reformers** — Calvin, Melanchthon, Zwingli and others — as future
+  `reformation`-category sources. An open-ended curation list, the same shape
+  as "additional Bible translations in more languages": each candidate
+  edition individually licence-checked and structure-investigated before
+  import, rather than a fixed set committed to up front. The category was
+  deliberately named for the movement rather than for Luther so these can
+  land without relitigating where they file.
 
 - **Talmud commentary & study aids.** Documented, not built. Five tiers,
   cheapest first:

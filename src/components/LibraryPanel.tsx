@@ -31,6 +31,7 @@ const CATEGORY_LABELS: { category: SourceCategory; label: string }[] = [
   { category: 'historical', label: 'Historical works' },
   { category: 'patristic', label: 'Church Fathers' },
   { category: 'rabbinic', label: 'Rabbinic literature' },
+  { category: 'reformation', label: 'Reformation works' },
   { category: 'imported', label: 'Imported' },
 ];
 
