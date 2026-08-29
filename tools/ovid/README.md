@@ -66,6 +66,27 @@ Books are headed with the ordinal spelled out (`BOOK THE THIRTEENTH.`), so
 the ordinal words are the lookup; a numeral form is accepted as a fallback so
 a differently-set reprint doesn't silently yield zero books.
 
+## Numbering comes from position, never from the printed numeral
+
+Book and fable numbers are taken from where a heading *sits*, not from the
+numeral printed on it. This is the lesson Fox's Book of Martyrs taught on
+first contact with its real Gutenberg text: that book prints two duplicate
+chapter numerals, and taking them at face value would have merged two pairs
+of chapters, because `entries.chapter` is the pane's loading unit — a
+repeated number silently fuses two units and collides their TOC rows. The
+same fault is available here, and here it would also give two fables the same
+`I.7`-style citation.
+
+The printed numeral is still read, but only to be checked against the
+position. A disagreement is a **warning**, recorded in
+`metadata.source_anomalies` and printed at the end of the build, not a
+failure — the point is that the parse stays correct *and* the discrepancy
+stays visible.
+
+Fable counts run past fifteen in the longer books, so a fable's display
+numeral is generated rather than looked up in the fifteen-entry book table; a
+sixteenth fable reads `Fable XVI`, not `Fable 16`.
+
 ## Page and line locators are stripped — but harvested first
 
 The reprints interleave page/line locator numbers mid-sentence:

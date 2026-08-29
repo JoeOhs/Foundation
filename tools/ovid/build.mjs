@@ -202,6 +202,23 @@ function normalizeWhitespace(text) {
   return text.replace(/[ \t]+/g, ' ').replace(/\s*\n\s*/g, ' ').trim();
 }
 
+// Fable counts run past fifteen in the longer books, so the display numeral
+// is generated rather than looked up in ROMAN_NUMERALS (which only covers the
+// fifteen books). A fable falling off the end of that table would otherwise
+// read "Fable 16" in the dropdown while every other row read "Fable XV".
+function intToRoman(n) {
+  const table = [
+    [1000, 'M'], [900, 'CM'], [500, 'D'], [400, 'CD'], [100, 'C'], [90, 'XC'],
+    [50, 'L'], [40, 'XL'], [10, 'X'], [9, 'IX'], [5, 'V'], [4, 'IV'], [1, 'I'],
+  ];
+  let out = '';
+  let rest = n;
+  for (const [value, numeral] of table) {
+    while (rest >= value) { out += numeral; rest -= value; }
+  }
+  return out;
+}
+
 function romanToInt(s) {
   const map = { I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000 };
   let total = 0;
@@ -280,7 +297,7 @@ function splitOffFrontMatter(lines, volume, log) {
 }
 
 // Parses one volume into books → fables, plus each book's endnote list.
-function parseVolume(volume, raw, log) {
+function parseVolume(volume, raw, log, anomalies) {
   assertRiley(volume, raw);
   let lines = stripGutenbergWrapper(raw).split('\n');
   lines = splitOffFrontMatter(lines, volume, log);
@@ -300,20 +317,57 @@ function parseVolume(volume, raw, log) {
     buffer = [];
   };
 
-  const startBook = (number) => {
+  // Book and fable numbers come from POSITION, never from the printed
+  // numeral. This is the lesson Fox's Book of Martyrs taught on first contact
+  // with its real Gutenberg text (see 02aaa00): that book prints two
+  // duplicate chapter numerals, and taking them at face value would have
+  // merged two pairs of chapters — entries.chapter is the pane's loading
+  // unit, so a duplicate number silently fuses two units and collides their
+  // TOC rows. The same fault is available here, and the same defence applies.
+  // The printed numeral is still read, but only to be checked against the
+  // position and reported when they disagree.
+  const startBook = (printedNumber, rawHeading) => {
     flush();
+    // `expectedBooks` is this volume's own run (I–VII or VIII–XV), so
+    // position within the volume gives the book its number.
+    const number = volume.expectedBooks[books.length];
+    if (number === undefined) {
+      throw new Error(
+        `PG ${volume.gutenbergId}: found more book headings than the ${volume.expectedBooks.length} ` +
+        `this volume should contain (at "${rawHeading.trim()}").`,
+      );
+    }
+    if (printedNumber !== number) {
+      anomalies.push(
+        `PG ${volume.gutenbergId}: book at position ${books.length + 1} of this volume is printed ` +
+        `"${rawHeading.trim()}" (numeral ${printedNumber}) but sits where Book ${number} belongs. ` +
+        'Numbered from position; the printed numeral is not used.',
+      );
+    }
     book = { number, roman: ROMAN_NUMERALS[number], fables: [], notes: [] };
     books.push(book);
     fable = null;
     mode = 'prose';
   };
 
-  const startFable = (number, title) => {
+  const startFable = (printedNumber, title, rawHeading) => {
     flush();
-    if (!book) throw new Error(`PG ${volume.gutenbergId}: FABLE ${number} before any BOOK heading.`);
+    if (!book) throw new Error(`PG ${volume.gutenbergId}: FABLE ${printedNumber} before any BOOK heading.`);
+    // Position within the book, for the same reason as above: the fable
+    // number becomes entries.chapter and half of the "I.7" citation, so a
+    // repeated printed numeral would merge two fables and give two entries
+    // the same reference.
+    const number = book.fables.length + 1;
+    if (printedNumber !== number) {
+      anomalies.push(
+        `PG ${volume.gutenbergId}: fable at position ${number} of Book ${book.roman} is printed ` +
+        `"${rawHeading.trim()}" (numeral ${printedNumber}). Numbered from position; the printed ` +
+        'numeral is not used.',
+      );
+    }
     fable = {
       number,
-      roman: ROMAN_NUMERALS[number] ?? String(number),
+      roman: intToRoman(number),
       title: normalizeWhitespace(title ?? '').replace(/\s*\.\s*$/, ''),
       paragraphs: [],
       explanation: [],
@@ -360,13 +414,13 @@ function parseVolume(volume, raw, log) {
     }
     const bookMatch = line.match(BOOK_RE);
     if (bookMatch) {
-      const number = bookMatch[1]
+      const printed = bookMatch[1]
         ? ORDINAL_WORDS.indexOf(bookMatch[1].toUpperCase())
         : romanToInt(bookMatch[2]);
-      if (number > 0) { startBook(number); continue; }
+      if (printed > 0) { startBook(printed, line); continue; }
     }
     const fableMatch = line.match(FABLE_RE);
-    if (fableMatch) { startFable(romanToInt(fableMatch[1]), fableMatch[2]); continue; }
+    if (fableMatch) { startFable(romanToInt(fableMatch[1]), fableMatch[2], line); continue; }
     if (EXPLANATION_RE.test(line)) { flush(); mode = 'explanation'; continue; }
     if (FOOTNOTE_BLOCK_RE.test(line)) { flush(); noteBuffer = []; continue; }
     buffer.push(line);
@@ -467,13 +521,16 @@ async function main() {
   const inspectOnly = process.argv.includes('--inspect');
   const audit = process.argv.includes('--audit');
   const log = [];
+  // Faults in the printed source itself, recorded rather than hidden —
+  // same treatment Fox's Book of Martyrs gives its two misnumbered chapters.
+  const anomalies = [];
   let books = [];
 
   for (const volume of VOLUMES) {
     process.stdout.write(`Books ${volume.id.toUpperCase()} (PG ${volume.gutenbergId})… `);
     const raw = await loadRaw(volume, refetch);
     if (inspectOnly) { console.log(''); inspect(volume, raw); continue; }
-    const parsed = parseVolume(volume, raw, log);
+    const parsed = parseVolume(volume, raw, log, anomalies);
     const got = parsed.map((b) => b.number);
     if (got.join(',') !== volume.expectedBooks.join(',')) {
       throw new Error(
@@ -535,6 +592,7 @@ async function main() {
       total_footnotes: totalNotes,
       unmapped_footnotes: unmappedTotal,
       exclusions: log,
+      source_anomalies: anomalies,
     },
     books: books.map((b) => ({
       number: b.number,
@@ -560,6 +618,7 @@ async function main() {
   await fs.writeFile(DEPLOY_PATH, json, 'utf8');
   console.log(`\n${totalFables} fables, ${totalParagraphs} paragraphs, ${totalNotes} footnotes across ${books.length} books`);
   for (const line of log) console.log(`  note: ${line}`);
+  for (const line of anomalies) console.log(`  ANOMALY: ${line}`);
   console.log(`wrote ${OUTPUT_PATH}`);
   console.log(`wrote ${DEPLOY_PATH}`);
 }

@@ -554,6 +554,14 @@ running list of what's done and what's next, not a commitment.
   modern translations (Melville, Lombardo, Martin, Raeburn) are separately
   copyrighted — and again if the parse doesn't yield fifteen books numbered
   I–XV with prose in every fable.
+  **Book and fable numbers come from position, never from the printed
+  numeral** — the lesson Fox's Book of Martyrs taught on first contact with
+  its real Gutenberg text, applied here before first contact rather than
+  after. A duplicate printed numeral would merge two fables (the fable number
+  is `entries.chapter`, the pane's loading unit) and give two entries the same
+  `I.7` citation. The printed numeral is still read and checked against the
+  position, with any disagreement recorded in the bundle's
+  `metadata.source_anomalies` rather than hidden.
   **Not yet built out.** The importer, the Library entry, the pane rendering
   and the builder are in place and exercised end to end, but the bundle
   itself has not been generated: `gutenberg.org` was unreachable from the
