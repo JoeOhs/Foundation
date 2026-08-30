@@ -395,7 +395,15 @@ running list of what's done and what's next, not a commitment.
   paragraphs (Cyprian, Origen, Vincent), and highlights, notes and links need
   a paragraph-sized selection unit. `entries.heading`, the nullable column
   added for JFB, carries each named sub-entry's own heading rather than a
-  parallel column being invented.
+  parallel column being invented. **Amended during the Luther work**: this
+  originally *also* appended the heading to `position_ref`, which is what
+  actually put it on screen back when `Pane.tsx` rendered `position_ref` and
+  ignored `heading`. Once the pane learned to render `heading` the duplicate
+  would have printed every unit name twice, so it was removed and `heading`
+  now carries it alone — with the search citation's dependency on that
+  duplication moved into `RESOLVED_POSITION_REF` rather than dropped. Foxe's
+  paragraph and named-entry counts are unchanged (2,715 and 195); the label
+  moved fields, nothing was lost.
   Files under the existing **`historical`** category alongside Josephus, and
   under `type: 'extra-biblical'` — its own pane, no sync group, out of
   verse-scoped search. Deliberately *not* a new category: unlike the Talmud,
@@ -534,6 +542,23 @@ running list of what's done and what's next, not a commitment.
   **marginal sidenotes** are lifted onto `entries.heading`, the nullable
   column added for JFB and reused by Foxe, rather than dropped or left inline
   as bracketed noise mid-column.
+  **A defect found and fixed before any live verification.** `entries.heading`
+  was, until this work, rendered in exactly one place — `FooterCommentary.tsx`,
+  the JFB footer strip. The reading pane rendered `position_ref` and ignored
+  `heading` entirely, so all 532 sidenotes were stored and invisible. Foxe
+  appeared unaffected only because it *duplicated* its heading into
+  `position_ref`; its own `entries.heading` was equally a no-op. `Pane.tsx` now
+  renders `heading` beneath the section citation, which is why an otherwise
+  unrelated **`foxeImport.ts` changed as a dependency of this fix**: with the
+  pane rendering both fields, Foxe's duplicate would have printed every unit
+  name twice, so the duplication was removed and `heading` carries it alone.
+  The one thing that depended on that duplication — the search citation, which
+  resolved a mid-unit hit to the nearest preceding `position_ref` and so got
+  the unit name for free — moved with it: `RESOLVED_POSITION_REF` now folds the
+  nearest preceding `heading` into its *fallback* branch only, so a Foxe hit
+  still cites "Chapter I — I. St. Stephen" while JFB, whose every entry carries
+  its own `position_ref`, short-circuits and is untouched. The column is no
+  longer a silent no-op for any future pane source that writes to it.
   **Provenance:** *Works of Martin Luther, with Introductions and Notes* —
   the Philadelphia Edition, **A. J. Holman Company**, Philadelphia, 1915–1932,
   translated by a team of Lutheran scholars: **Henry Eyster Jacobs**, **Adolph

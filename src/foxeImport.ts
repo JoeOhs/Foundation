@@ -106,7 +106,15 @@ function buildParsedSource(data: BundledFoxeFile): ParsedSource {
           // it on every paragraph would just be noise in the reading
           // column, and searchAll already resolves a hit to the nearest
           // preceding labelled entry in the same chapter.
-          position_ref: i === 0 ? (unit.heading ? `${chapterRef} — ${unit.heading}` : chapterRef) : null,
+          //
+          // The chapter reference ONLY. This used to carry the unit's
+          // heading appended to it as well — which is what made Foxe's
+          // headings appear to display, back when Pane.tsx rendered
+          // position_ref and ignored heading entirely. Now that the pane
+          // renders both, the duplicate would print the unit name twice on
+          // every opening paragraph, so it comes out here and `heading`
+          // below carries it alone, which is what that column is for.
+          position_ref: i === 0 ? chapterRef : null,
           // entries.heading is the column added for JFB's own section
           // headings; a named sub-entry is exactly that, so it is reused
           // rather than a parallel column invented.

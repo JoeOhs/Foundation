@@ -96,7 +96,10 @@ Kept:
   (`[1]`, `[30]`) — a greedier rule would silently delete every citation.
 - **The printed marginal sidenotes** (532 of them), lifted onto
   `entries.heading` rather than dropped or left inline as bracketed noise
-  mid-column. All 532 occupy a paragraph of their own immediately before the
+  mid-column. They render as a label above their paragraph — but note that
+  `Pane.tsx` had to be taught to render `entries.heading` at all before that
+  was true: until then the column was displayed only in the JFB footer strip,
+  and these were stored but invisible. See ROADMAP.md. All 532 occupy a paragraph of their own immediately before the
   paragraph they label — verified, not assumed. 22 sit against a section
   break, where the section heading already says the same thing; the build
   reports them.
