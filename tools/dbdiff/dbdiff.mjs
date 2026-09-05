@@ -33,9 +33,30 @@ if (!backupPath || !livePath) {
 // rather than a raw ENOENT stack. The common mistakes are pasting a
 // placeholder verbatim and pointing at a backup that was never taken, so
 // when the file is missing we list the backups that do exist beside it.
+//
+// Existence alone is not enough: a directory exists, so an existence-only
+// guard returned early and let readFileSync throw a raw EISDIR stack — the
+// exact failure this function was added to prevent. Passing the containing
+// folder instead of the file is an easy slip when the two differ by one
+// path segment, so it gets its own message rather than being lumped in with
+// "not found". Readability is checked here too, so a permission problem
+// surfaces as a diagnostic rather than as an EACCES trace further down.
 function mustExist(p, label) {
-  if (fs.existsSync(p)) return;
-  console.error(`\n${label} not found:\n  ${p}\n`);
+  let stat = null;
+  try {
+    fs.accessSync(p, fs.constants.R_OK);
+    stat = fs.statSync(p);
+  } catch { /* fall through to the diagnostics below */ }
+  if (stat?.isFile()) return;
+
+  if (stat && !stat.isFile()) {
+    console.error(`\n${label} is not a file:\n  ${p}\n`);
+    console.error('That path is a directory. Pass the database file itself —');
+    console.error('on Windows, %APPDATA%\\com.foundation.biblestudy\\foundation.db\n');
+    process.exit(1);
+  }
+
+  console.error(`\n${label} not found, or not readable:\n  ${p}\n`);
   try {
     const dir = path.dirname(p);
     const found = fs.readdirSync(dir)

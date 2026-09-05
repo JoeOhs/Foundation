@@ -13,6 +13,12 @@ node tools/dbdiff/dbdiff.mjs "<backup.db>" "<live.db>" [--expect-changed "Foxe,.
 Read-only: both files are loaded into memory and neither is written to. Uses
 the `sql.js` already in `node_modules`, so there is nothing to install.
 
+Each path is checked before anything is opened, and the three ways it can be
+wrong are reported distinctly: a directory (easy to pass by mistake, since the
+folder and the file differ by one path segment), a file that is missing or
+unreadable, and — when a backup is missing — a listing of the `*.backup-*`
+files that do exist beside it, or a plain statement that there are none.
+
 On Windows the live database is at
 `%APPDATA%\com.foundation.biblestudy\foundation.db`.
 
