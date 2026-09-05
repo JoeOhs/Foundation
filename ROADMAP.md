@@ -583,8 +583,9 @@ running list of what's done and what's next, not a commitment.
   than shipping a doubtful text: on provenance (a file whose Gutenberg header
   does not name this edition and the matching volume, carry the matching
   ebook id, show the Holman imprint and printed year, and carry the licence
-  boilerplate); on structure (eight declared work boundaries per volume, each
-  found exactly once and in document order); and on **conservation** — every
+  boilerplate); on structure (every declared boundary — nine in Vol. I, eight in
+  Vol. II, the difference being Vol. I's own volume-level introduction — found
+  exactly once and in document order); and on **conservation** — every
   body paragraph must end up either in a bundle or in a logged exclusion, so
   a mis-declared boundary or a runaway FOOTNOTES block cannot swallow real
   treatise text while the build still reports success. That third gate exists

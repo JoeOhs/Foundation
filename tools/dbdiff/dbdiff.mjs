@@ -79,11 +79,25 @@ const srcA = new Map(rows(A, 'SELECT id,title,category FROM sources').map(r => [
 const srcB = new Map(rows(B, 'SELECT id,title,category FROM sources').map(r => [r[0], r]));
 const titlesA = new Map([...srcA.values()].map(r => [r[1], r]));
 const titlesB = new Map([...srcB.values()].map(r => [r[1], r]));
+// Source-level changes feed the verdict, they are not merely narrated. A
+// source that vanished, or that was silently deleted and reinserted under a
+// new id, is exactly the kind of damage this tool exists to catch — reporting
+// it neutrally and still printing OK at the end would be worse than not
+// checking. Only ADDED is unconditionally benign: adding sources is the point
+// of an install.
+const isExpected = (title) => expected.some((x) => title.toLowerCase().includes(x));
+let sourceIssues = 0;
 for (const [title, r] of titlesB) if (!titlesA.has(title)) console.log(`  + ADDED    [${r[2]}] ${title}`);
-for (const [title, r] of titlesA) if (!titlesB.has(title)) console.log(`  - REMOVED  [${r[2]}] ${title}`);
+for (const [title, r] of titlesA) {
+  if (titlesB.has(title)) continue;
+  if (isExpected(title)) { console.log(`  ~ REMOVED  [${r[2]}] ${title} (expected)`); }
+  else { console.log(`  ! REMOVED  [${r[2]}] ${title} — was not expected to disappear`); sourceIssues++; }
+}
 for (const [title, rb] of titlesB) {
   const ra = titlesA.get(title);
-  if (ra && ra[0] !== rb[0]) console.log(`  ~ REINSTALLED (new id ${ra[0]} -> ${rb[0]}) ${title}`);
+  if (!ra || ra[0] === rb[0]) continue;
+  if (isExpected(title)) console.log(`  ~ REINSTALLED (id ${ra[0]} -> ${rb[0]}) ${title} (expected — you reinstalled it)`);
+  else { console.log(`  ! REINSTALLED (id ${ra[0]} -> ${rb[0]}) ${title} — deleted and reinserted unexpectedly`); sourceIssues++; }
 }
 
 // The check that matters: for every source present in BOTH by title and with
@@ -93,13 +107,18 @@ let checked = 0, mutated = 0;
 for (const [title, ra] of titlesA) {
   const rb = titlesB.get(title);
   if (!rb || ra[0] !== rb[0]) continue; // added, removed, or reinstalled — reported above
-  const q = (db) => rows(db, `SELECT e.id, e.chapter, e.verse, IFNULL(e.position_ref,''), IFNULL(e.heading,''), e.text
+  // book_id and sort_order are compared too: an entry moved to another book
+  // within the same source, or left in place but reordered, changes what the
+  // reader sees while every other field stays identical. For a freeform
+  // source, sort_order IS the reading order.
+  const q = (db) => rows(db, `SELECT e.id, e.book_id, e.chapter, e.verse, IFNULL(e.position_ref,''),
+        e.sort_order, IFNULL(e.heading,''), e.text
       FROM entries e JOIN books b ON b.id = e.book_id WHERE b.source_id = ${ra[0]} ORDER BY e.id`);
   const ea = q(A), eb = q(B);
-  const isExpected = expected.some((x) => title.toLowerCase().includes(x));
+  const expectedHere = isExpected(title);
   checked++;
   const report = (msg) => {
-    if (isExpected) console.log(`  ~ ${title}: ${msg} (expected — you reinstalled it)`);
+    if (expectedHere) console.log(`  ~ ${title}: ${msg} (expected — you reinstalled it)`);
     else { console.log(`  ! ${title}: ${msg}`); mutated++; }
   };
   if (ea.length !== eb.length) { report(`entry count ${ea.length} -> ${eb.length}`); continue; }
@@ -108,11 +127,30 @@ for (const [title, ra] of titlesA) {
   if (diffs) report(`${diffs} entry row(s) changed`);
 }
 console.log(`  ${checked} source(s) compared row-by-row; ${mutated} changed unexpectedly.`);
-console.log(mutated === 0 ? '  OK — no pre-existing source was mutated.' : '  ** INVESTIGATE **');
 
 console.log('\n=== user data (must never shrink) ===');
+// A table missing from the live database is total loss of that data, not a
+// query error to swallow. Presence is checked separately so the two cases
+// cannot be confused — silently skipping here would have reported a dropped
+// notes table as nothing at all.
+const hasTable = (db, t) =>
+  rows(db, `SELECT COUNT(*) FROM sqlite_master WHERE type='table' AND name='${t}'`)[0][0] > 0;
+let userDataLost = 0;
 for (const t of ['notes', 'highlights', 'links', 'bookmarks', 'highlighters']) {
-  let a = 0, b = 0;
-  try { a = rows(A, `SELECT COUNT(*) FROM ${t}`)[0][0]; b = rows(B, `SELECT COUNT(*) FROM ${t}`)[0][0]; } catch { continue; }
-  console.log(`  ${t.padEnd(14)} ${a} -> ${b}  ${b < a ? '** LOST ROWS **' : 'ok'}`);
+  const inA = hasTable(A, t), inB = hasTable(B, t);
+  if (!inA && !inB) { console.log(`  ${t.padEnd(14)} (absent from both)`); continue; }
+  if (inA && !inB) { console.log(`  ${t.padEnd(14)} ** TABLE MISSING from the live database **`); userDataLost++; continue; }
+  if (!inA && inB) { console.log(`  ${t.padEnd(14)} (new table, not in the backup)`); continue; }
+  const a = rows(A, `SELECT COUNT(*) FROM ${t}`)[0][0];
+  const b = rows(B, `SELECT COUNT(*) FROM ${t}`)[0][0];
+  const lost = b < a;
+  if (lost) userDataLost++;
+  console.log(`  ${t.padEnd(14)} ${a} -> ${b}  ${lost ? '** LOST ROWS **' : 'ok'}`);
 }
+
+const problems = mutated + sourceIssues + userDataLost;
+console.log(`\n=== verdict ===`);
+console.log(problems === 0
+  ? '  OK — sources added only; nothing pre-existing was mutated, removed or lost.'
+  : `  ** INVESTIGATE ** ${sourceIssues} unexpected source change(s), ${mutated} mutated source(s), ${userDataLost} user-data loss(es).`);
+process.exitCode = problems === 0 ? 0 : 1;

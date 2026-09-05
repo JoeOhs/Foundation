@@ -58,8 +58,10 @@ const DEPLOY_DIR = path.join(__dirname, '..', '..', 'public', 'library', 'reform
 // while Volume I only settles into that shape from its fifth work on — its
 // first four are introduced variously by a half-title <h4>, by a bare
 // INTRODUCTION heading, or by a styled <p> title block with no heading tag
-// at all. Declaring the eight boundaries per volume and asserting every one
-// of them is found, in order, is the same call tools/josephus/build.mjs and
+// at all. Declaring every boundary — nine in Volume I (its eight works plus
+// the volume's own introduction and translators' note) and eight in Volume II,
+// which has no volume-level introduction — and asserting every one of them
+// is found, in order, is the same call tools/josephus/build.mjs and
 // tools/foxe/build.mjs make when they pin their expected book and chapter
 // counts: a parser that has drifted from the text stops the build instead of
 // shipping a volume quietly missing half its treatises.

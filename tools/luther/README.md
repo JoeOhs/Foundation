@@ -51,8 +51,10 @@ document order, nothing else.
   except its tag.
 
 Reading both with one inferred rule would need special-casing anyway and
-would fail silently when it guessed wrong. So the eight boundaries per volume
-are declared in `VOLUMES`, and every one is asserted present and in order —
+would fail silently when it guessed wrong. So every boundary is declared in
+`VOLUMES` — nine in Vol. I (its eight works plus the volume's own introduction
+and translators' note) and eight in Vol. II, which has no volume-level
+introduction — and every one is asserted present and in order —
 the same call `tools/josephus/build.mjs` and `tools/foxe/build.mjs` make when
 they pin their expected book and chapter counts.
 
