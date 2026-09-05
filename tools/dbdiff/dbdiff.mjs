@@ -29,6 +29,32 @@ if (!backupPath || !livePath) {
   console.error('usage: node tools/dbdiff/dbdiff.mjs "<backup.db>" "<live.db>" [--expect-changed "Foxe"]');
   process.exit(1);
 }
+// Checked before opening anything, so a wrong path gives a usable message
+// rather than a raw ENOENT stack. The common mistakes are pasting a
+// placeholder verbatim and pointing at a backup that was never taken, so
+// when the file is missing we list the backups that do exist beside it.
+function mustExist(p, label) {
+  if (fs.existsSync(p)) return;
+  console.error(`\n${label} not found:\n  ${p}\n`);
+  try {
+    const dir = path.dirname(p);
+    const found = fs.readdirSync(dir)
+      .filter((f) => f.includes('.backup-'))
+      .map((f) => ({ f, t: fs.statSync(path.join(dir, f)).mtime }))
+      .sort((a, b) => b.t - a.t);
+    if (found.length) {
+      console.error('Backups that do exist in that folder, newest first:');
+      for (const { f, t } of found) console.error(`  ${f}   (${t.toISOString()})`);
+    } else {
+      console.error(`No *.backup-* files in ${dir} — it looks like no backup was taken.`);
+    }
+  } catch { /* directory unreadable; the path error above is enough */ }
+  console.error('');
+  process.exit(1);
+}
+mustExist(backupPath, 'Backup database');
+mustExist(livePath, 'Live database');
+
 const SQL = await initSqlJs({ locateFile: () => path.join(REPO, 'node_modules/sql.js/dist/sql-wasm.wasm') });
 const open = (p) => new SQL.Database(new Uint8Array(fs.readFileSync(p)));
 const A = open(backupPath), B = open(livePath);
