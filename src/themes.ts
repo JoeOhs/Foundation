@@ -13,7 +13,7 @@ export interface ThemeMeta {
 export const THEMES: Record<ThemeId, ThemeMeta> = {
   obsidian: { label: 'Obsidian', mode: 'dark', swatch: ['#0a0a0c', '#c4c9d4', '#dfae61'] },
   midnight: { label: 'Midnight', mode: 'dark', swatch: ['#0e0a1c', '#8b6ef2', '#4fd7c4'] },
-  cosmic: { label: 'Cosmic', mode: 'dark', swatch: ['#140a24', '#a742ff', '#00e5ff'] },
+  cosmic: { label: 'Cosmic', mode: 'dark', swatch: ['#140a24', '#7a5f9e', '#b39ddb'] },
   sunset: { label: 'Sunset', mode: 'dark', swatch: ['#1a0d08', '#ff7043', '#ffab40'] },
   emerald: { label: 'Emerald', mode: 'dark', swatch: ['#0e1f16', '#5fd393', '#d4a24e'] },
   nova: { label: 'Nova', mode: 'light', swatch: ['#faf7f2', '#7ba7cc', '#e8a3b3'] },
