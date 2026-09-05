@@ -57,25 +57,26 @@
 }
 
 [data-theme='cosmic'] {
-  /* Full shuffle: every slot re-dealt from the same palette. Panes drop to
-     the darkest value and the shell lifts above them, the two dim text
-     tones trade places, and the accents rotate again so purple leads. */
+  /* Random deal: the six dark values were shuffled across the surface
+     slots and the five chromatic values across the accent/text slots
+     (--text-primary pinned, since reading text has to stay legible).
+     Panes land on a much lighter violet than any previous variant. */
   --bg-base: #140a24;
-  --bg-surface: #0a0014;
-  --bg-surface-raised: #241736;
-  --bg-hover: #1c1030;
-  --border: #3a2358;
+  --bg-surface: #3a2358;
+  --bg-surface-raised: #1c1030;
+  --bg-hover: #0a0014;
+  --border: #2c1b42;
   --border-strong: #a742ff;
   --text-primary: #f0e9fb;
-  --text-secondary: #7a5f9e;
-  --text-muted: #b39ddb;
-  --accent-primary: #a742ff;
-  --accent-secondary: #00e5ff;
-  --accent-tertiary: #ff6ec7;
-  --on-accent: #f0e9fb; /* light text — the purple accent is too dark for dark text */
-  --scrollbar-thumb: #2c1b42;
-  --gradient-shell: linear-gradient(200deg, #170a2e 0%, #0a0014 30%, #240f3d 60%, #14082a 85%, #170a2e 100%),
-    radial-gradient(circle at 18% 78%, rgba(0, 229, 255, 0.12), transparent 50%);
+  --text-secondary: #a742ff;
+  --text-muted: #ff6ec7;
+  --accent-primary: #7a5f9e;
+  --accent-secondary: #b39ddb;
+  --accent-tertiary: #00e5ff;
+  --on-accent: #f0e9fb; /* light text — the muted-violet accent is too dark for dark text */
+  --scrollbar-thumb: #241736;
+  --gradient-shell: linear-gradient(180deg, #140a24 0%, #1c1030 60%, #241736 100%),
+    radial-gradient(ellipse 120% 90% at 50% 100%, rgba(0, 229, 255, 0.16), transparent 70%);
 }
 
 [data-theme='sunset'] {
@@ -324,26 +325,20 @@ body::after {
   z-index: 0;
   pointer-events: none;
   opacity: var(--texture-opacity);
-  /* Re-laid out: the dense knot moves from the upper right to the lower
-     right, a second bank rises on the upper left, and the mid-field
-     stragglers shift to a diagonal instead of a centre cluster. */
-  background:
-    radial-gradient(ellipse 170px 100px at 84% 74%, rgba(167,66,255,0.24), transparent),
-    radial-gradient(ellipse 130px 85px at 74% 84%, rgba(255,110,199,0.20), transparent),
-    radial-gradient(ellipse 190px 95px at 92% 62%, rgba(0,229,255,0.15), transparent),
-    radial-gradient(ellipse 150px 105px at 14% 22%, rgba(167,66,255,0.36), transparent),
-    radial-gradient(ellipse 180px 85px at 26% 12%, rgba(0,229,255,0.26), transparent),
-    radial-gradient(ellipse 115px 75px at 6% 36%, rgba(255,110,199,0.22), transparent),
-    radial-gradient(ellipse 145px 85px at 40% 30%, rgba(0,229,255,0.18), transparent),
-    radial-gradient(ellipse 105px 70px at 58% 48%, rgba(167,66,255,0.16), transparent),
-    radial-gradient(ellipse 125px 95px at 70% 22%, rgba(255,110,199,0.20), transparent),
-    radial-gradient(ellipse 95px 65px at 8% 88%, rgba(0,229,255,0.22), transparent),
-    radial-gradient(ellipse 135px 75px at 46% 92%, rgba(167,66,255,0.18), transparent),
-    radial-gradient(ellipse 105px 80px at 30% 60%, rgba(255,110,199,0.14), transparent);
+  /* One oval only: wider than the viewport, centred horizontally, its
+     centre pinned to the bottom edge so the app sits inside the upper
+     half of the glow and the falloff runs straight up the screen. */
+  background: radial-gradient(
+    ellipse 110% 85% at 50% 100%,
+    rgba(167,66,255,0.34) 0%,
+    rgba(255,110,199,0.20) 35%,
+    rgba(0,229,255,0.10) 60%,
+    transparent 80%
+  );
 }
 @keyframes cosmic-drift {
-  from { transform: translate(0, 0); }
-  to { transform: translate(-2.5%, 2%); }
+  from { transform: translateY(0); }
+  to { transform: translateY(-2.5%); }
 }
 @media (prefers-reduced-motion: reduce) {
   [data-theme='cosmic'] body::before { animation: none; }
@@ -352,10 +347,9 @@ body::after {
   display: none;
 }
 
-/* Faint luminous nebula wash OVER the whole app (.app::after) — screen
-   blend on dark surfaces reads as glowing gas. Alphas kept <= 0.06 and
-   gradients huge/soft so reading text stays untouched and no hard color
-   edges appear on panes. */
+/* The same oval, far fainter, screened OVER the app so the glow reads
+   through the panes instead of only in the shell gaps. Alphas stay low
+   enough that reading text is untouched. */
 [data-theme='cosmic'] .app::after {
   content: "";
   position: fixed;
@@ -365,22 +359,13 @@ body::after {
   mix-blend-mode: screen;
   opacity: var(--texture-opacity);
   animation: cosmic-drift 20s ease-in-out infinite alternate;
-  /* Clusters swapped corners to follow the layer beneath: the heavy one
-     now sits lower right, the lighter one upper left, and the bridging
-     wisp runs the opposite diagonal. */
-  background:
-    /* cluster: lower right */
-    radial-gradient(ellipse 30% 22% at 80% 78%, rgba(167,66,255,0.07), transparent 65%),
-    radial-gradient(ellipse 24% 18% at 72% 84%, rgba(0,229,255,0.075), transparent 65%),
-    radial-gradient(ellipse 20% 15% at 86% 70%, rgba(255,110,199,0.06), transparent 65%),
-    radial-gradient(ellipse 14% 10% at 79% 76%, rgba(240,233,251,0.05), transparent 60%),
-    /* cluster: upper left */
-    radial-gradient(ellipse 28% 20% at 18% 20%, rgba(0,229,255,0.065), transparent 65%),
-    radial-gradient(ellipse 22% 16% at 27% 27%, rgba(167,66,255,0.06), transparent 65%),
-    radial-gradient(ellipse 18% 13% at 10% 30%, rgba(255,110,199,0.05), transparent 65%),
-    /* faint mid-field wisp bridging the two */
-    radial-gradient(ellipse 34% 20% at 52% 52%, rgba(255,110,199,0.035), transparent 70%),
-    radial-gradient(ellipse 24% 14% at 44% 60%, rgba(167,66,255,0.03), transparent 70%);
+  background: radial-gradient(
+    ellipse 110% 85% at 50% 100%,
+    rgba(167,66,255,0.07) 0%,
+    rgba(255,110,199,0.05) 40%,
+    rgba(0,229,255,0.03) 65%,
+    transparent 80%
+  );
 }
 @media (prefers-reduced-motion: reduce) {
   [data-theme='cosmic'] .app::after { animation: none; }
