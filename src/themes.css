@@ -57,28 +57,39 @@
 }
 
 [data-theme='cosmic'] {
-  /* Random deal: the six dark values were shuffled across the surface
-     slots and the five chromatic values across the accent/text slots
-     (--text-primary pinned, since reading text has to stay legible),
-     then cyan pulled back to the primary accent so selected state reads
-     brighter than unselected. Panes land on a much lighter violet than
-     any previous variant. */
-  --bg-base: #140a24;
+  /* Violet is the body of the theme, cyan the single accent, pink kept
+     for the Strong's glow only. Surface ramp runs light-to-lighter so
+     hover lifts off the pane instead of dropping to near-black. */
+  --bg-base: #241736;
   --bg-surface: #3a2358;
-  --bg-surface-raised: #1c1030;
-  --bg-hover: #0a0014;
-  --border: #2c1b42;
-  --border-strong: #a742ff;
+  --bg-surface-raised: #452a68;
+  --bg-hover: #4d3178;
+  --border: #55397e;
+  --border-strong: #5fc9db;
   --text-primary: #f0e9fb;
-  --text-secondary: #a742ff;
-  --text-muted: #ff6ec7;
-  --accent-primary: #00e5ff;
-  --accent-secondary: #b39ddb;
-  --accent-tertiary: #7a5f9e;
-  --on-accent: #04121a; /* dark text on the bright cyan accent */
-  --scrollbar-thumb: #241736;
-  --gradient-shell: linear-gradient(180deg, #140a24 0%, #1c1030 60%, #241736 100%),
+  --text-secondary: #b39ddb;
+  --text-muted: #7a5f9e;
+  --accent-primary: #5fc9db; /* muted cyan — full #00e5ff is too loud on 2px outlines */
+  --accent-secondary: #ff6ec7; /* pink lives here, on the Strong's glow, and nowhere else */
+  --accent-tertiary: #00e5ff; /* rare: full-strength cyan for small details */
+  --on-accent: #06171c; /* dark text on the muted cyan accent */
+  --scrollbar-thumb: #55397e;
+  --gradient-shell: linear-gradient(180deg, #241736 0%, #2c1b42 60%, #3a2358 100%),
     radial-gradient(ellipse 96% 72% at 50% 100%, rgba(0, 229, 255, 0.16), transparent 70%);
+}
+
+/* Panes sit slightly translucent so the bottom oval reads through them and
+   the app feels like one surface rather than cards on an unrelated glow.
+   Kept at 94% — enough to see, not enough to disturb reading contrast. */
+[data-theme='cosmic'] .pane,
+[data-theme='cosmic'] .notes-panel,
+[data-theme='cosmic'] .footer-panel {
+  background: color-mix(in srgb, var(--bg-surface) 94%, transparent);
+}
+[data-texture="off"][data-theme='cosmic'] .pane,
+[data-texture="off"][data-theme='cosmic'] .notes-panel,
+[data-texture="off"][data-theme='cosmic'] .footer-panel {
+  background: var(--bg-surface);
 }
 
 [data-theme='sunset'] {
@@ -363,9 +374,9 @@ body::after {
   animation: cosmic-drift 20s ease-in-out infinite alternate;
   background: radial-gradient(
     ellipse 88% 68% at 50% 100%,
-    rgba(167,66,255,0.07) 0%,
-    rgba(255,110,199,0.05) 40%,
-    rgba(0,229,255,0.03) 65%,
+    rgba(167,66,255,0.11) 0%,
+    rgba(255,110,199,0.08) 40%,
+    rgba(0,229,255,0.05) 65%,
     transparent 80%
   );
 }
