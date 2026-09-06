@@ -49,6 +49,7 @@ import { SMITHS_TITLE, installSmiths } from './smithsImport';
 import { JFB_TITLE, installJfb } from './jfbImport';
 import { TALMUD_SEDARIM, installTalmudSeder, talmudTitle } from './talmudImport';
 import { YERUSHALMI_TITLE, installYerushalmi } from './yerushalmiImport';
+import { LUTHER_VOLUMES, installLutherVolume, lutherTitle } from './lutherImport';
 import { importKjvStrongs } from './strongsImport';
 import type { ParsedSource, Source, SourceCategory, SourceType } from './types';
 
@@ -1036,6 +1037,31 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       + 'which refuses any version Sefaria does not report as CC-BY.',
     install: installYerushalmi,
   },
+  ...LUTHER_VOLUMES.map((vol) => ({
+    id: `luther_${vol.key}`,
+    title: lutherTitle(vol),
+    language: 'en',
+    type: 'extra-biblical' as SourceType,
+    category: 'reformation' as SourceCategory,
+    series: 'Works of Martin Luther (Philadelphia Edition)',
+    license: 'public domain',
+    licenseDetail:
+      `Volume ${vol.roman} of "Works of Martin Luther, with Introductions and Notes" — the `
+      + `Philadelphia Edition, A. J. Holman Company, ${vol.year}, in which a team of Lutheran `
+      + 'scholars (Henry Eyster Jacobs, Adolph Spaeth, Charles M. Jacobs, A. T. W. Steinhaeuser, '
+      + 'J. J. Schindel, W. A. Lambert, A. Steimle and others) translated Luther directly from the '
+      + `German and Latin. ${vol.treatises} treatises, sermons and open letters, one book each`
+      + (vol.hasFrontMatterBook ? ', alongside the volume\'s own introduction and translators\' note' : '')
+      + ', under a Work → Section table of contents, one entry per paragraph so any passage can be '
+      + 'highlighted, annotated and bound. Each work keeps its own scholarly introduction and its '
+      + 'translator\'s signature; the editors\' numbered footnotes are excluded from the text and '
+      + 'logged to tools/luther/luther-exclusions.txt. Public domain — US copyright on a '
+      + `${vol.year} publication has long expired — digitised by Project Gutenberg `
+      + `(ebook #${vol.gutenbergId}), produced by Michael McDermott from Internet Archive scans. `
+      + 'Built by tools/luther/build.mjs, which refuses any file that does not name this edition '
+      + 'and volume, and refuses to drop a single paragraph without logging it.',
+    install: installLutherVolume(vol),
+  })),
 ];
 
 export const SERIES_NOTES: Record<string, string> = {
@@ -1067,6 +1093,14 @@ export const SERIES_NOTES: Record<string, string> = {
     + 'completeness decided it, as it did for the Bavli. Guggenheimer’s footnotes are not '
     + 'included: Sefaria splices them into the middle of the translated sentence, and this '
     + 'Library’s reading column is plain text.',
+  // Two of the edition's six volumes, said plainly in the panel itself so the
+  // section never reads as the complete Works. III–VI are not on Gutenberg —
+  // they exist as page scans and need an OCR pass, not this importer.
+  'Works of Martin Luther (Philadelphia Edition)':
+    'Volumes I and II of six. These are the two volumes Project Gutenberg has digitised as clean '
+    + 'transcribed text (#31604 and #34904); Volumes III–VI survive only as page-scanned images on '
+    + 'the Internet Archive, which needs a transcription pass of its own before they can ship. '
+    + 'Public domain throughout — no licence restriction, unlike the Talmud above.',
   'Ante-Nicene Fathers':
     'Volume 10 (General Index) intentionally omitted — use Foundation\'s full-text search (scope: Church Fathers or All sources) to find content across all installed volumes.',
   'Nicene and Post-Nicene Fathers, Series I':

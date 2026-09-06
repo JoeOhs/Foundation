@@ -315,6 +315,19 @@ select:focus, input:focus, button:focus-visible {
 .section-entry.selected { box-shadow: inset 0 0 0 2px var(--accent-primary); }
 .section-entry.bound { outline: 1.5px dashed var(--accent-secondary); outline-offset: -2px; }
 .section-entry.link-pending { outline: 2px dashed var(--accent-primary); outline-offset: -2px; }
+/* An entry's own heading (Foxe's named sub-entries, Luther's printed marginal
+   sidenotes) — the counterpart to .commentary-heading in the study footer.
+   Deliberately not uppercase, unlike the .section-ref above it: where an entry
+   carries both, the two labels stack, and making them differ keeps the pair
+   readable as citation-then-title rather than one run-on block. */
+.section-entry .section-heading {
+  font-family: var(--font-ui);
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 3px;
+}
+
 .section-entry .section-ref {
   font-family: var(--font-ui);
   font-size: 12px;

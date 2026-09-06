@@ -861,9 +861,27 @@ const FTS_PER_SOURCE = 200;
 // has none of its own. Resolve it to the nearest preceding labelled entry in
 // the same chapter — otherwise the UI falls back to the chapter number, which
 // for these sources is a loading-unit ordinal, not a citation.
+// The resolved label folds in the nearest preceding entries.heading as well,
+// so a hit inside a named unit cites the unit and not just its chapter
+// ("Chapter II — The First Persecution under Nero", not "Chapter II"). Foxe
+// used to get that for free by duplicating its heading into position_ref;
+// that duplication was removed once Pane.tsx started rendering heading (it
+// would have printed the unit name twice), so the citation's dependency on it
+// moves here rather than being silently dropped.
+//
+// Only the *fallback* branch does this. An entry carrying its own
+// position_ref still resolves to exactly that, untouched — which is what
+// keeps JFB, whose every entry has both a position_ref and a heading, citing
+// its verse range as before.
 const RESOLVED_POSITION_REF = `COALESCE(
   e.position_ref,
-  (SELECT p.position_ref FROM entries p
+  (SELECT p.position_ref || COALESCE(' — ' || (
+            SELECT h.heading FROM entries h
+              WHERE h.book_id = e.book_id AND h.chapter = e.chapter
+                AND h.sort_order <= e.sort_order AND h.sort_order >= p.sort_order
+                AND h.heading IS NOT NULL
+              ORDER BY h.sort_order DESC LIMIT 1), '')
+     FROM entries p
     WHERE p.book_id = e.book_id AND p.chapter = e.chapter
       AND p.sort_order <= e.sort_order AND p.position_ref IS NOT NULL
     ORDER BY p.sort_order DESC LIMIT 1)

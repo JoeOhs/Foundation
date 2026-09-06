@@ -263,7 +263,9 @@ running list of what's done and what's next, not a commitment.
   `type: 'extra-biblical'`, the same bucket as Josephus and EPUB imports:
   its own pane, no sync group, out of verse-scoped search.
   **Licence — the one deliberate exception.** This is the only text in the
-  Library that is not public domain. It is **CC BY-NC 4.0**: shareable and
+  Library restricted to non-commercial use — the Jerusalem Talmud, added
+  later, is also not public domain, but CC BY, attribution only. It is
+  **CC BY-NC 4.0**: shareable and
   adaptable with attribution, **non-commercial use only**. Foundation makes
   no money and ships offline, so it sits inside those terms — but that is a
   fact about this app, not a general licence to add more non-PD texts, and
@@ -395,7 +397,15 @@ running list of what's done and what's next, not a commitment.
   paragraphs (Cyprian, Origen, Vincent), and highlights, notes and links need
   a paragraph-sized selection unit. `entries.heading`, the nullable column
   added for JFB, carries each named sub-entry's own heading rather than a
-  parallel column being invented.
+  parallel column being invented. **Amended during the Luther work**: this
+  originally *also* appended the heading to `position_ref`, which is what
+  actually put it on screen back when `Pane.tsx` rendered `position_ref` and
+  ignored `heading`. Once the pane learned to render `heading` the duplicate
+  would have printed every unit name twice, so it was removed and `heading`
+  now carries it alone — with the search citation's dependency on that
+  duplication moved into `RESOLVED_POSITION_REF` rather than dropped. Foxe's
+  paragraph and named-entry counts are unchanged (2,715 and 195); the label
+  moved fields, nothing was lost.
   Files under the existing **`historical`** category alongside Josephus, and
   under `type: 'extra-biblical'` — its own pane, no sync group, out of
   verse-scoped search. Deliberately *not* a new category: unlike the Talmud,
@@ -473,6 +483,135 @@ running list of what's done and what's next, not a commitment.
   than inferred from the first one found. Gutenberg's `_underscore_` italics
   are unwrapped, since `entries.text` is plain text everywhere and no pane
   renders markup — the same call the Talmud import made with Sefaria's `<b>`.
+
+- **Reformation writings — Luther, Philadelphia Edition (Vols. I–II).**
+  Martin Luther's major treatises, sermons and open letters as a freeform,
+  `position_ref`-anchored library work in the same mould as Josephus, the
+  Talmud and the martyrology — read straight through under a hand-built table
+  of contents, never keyed to Bible book/chapter/verse.
+  **Two of the edition's six volumes**, and the Library says so rather than
+  implying otherwise: the source titles carry "Vol. I" / "Vol. II" and the
+  panel's series note states the scope outright. Volumes I (1915) and II
+  (1916) are the two Project Gutenberg has digitised as clean transcribed
+  text (#31604, #34904); III–VI exist only as page scans and are pinned
+  below. Staging it this way — ship what is cleanly available, prove the
+  pattern, extend later — is how the Companion Bible shipped Philemon first
+  and how the patristic volumes arrived one at a time rather than as a single
+  37-volume commitment.
+  **A new `reformation` category**, parallel to `patristic` and `rabbinic`,
+  each of which became its own category once its content stopped fitting
+  anywhere else. Deliberately *not* `historical`, which stays narrative
+  history — Josephus and the martyrology, not treatises, sermons and
+  catechisms — and *not* `commentary`, which is reserved for works commenting
+  on the Bible, which most of this collection is not. Named for the
+  **movement rather than for Luther**, so Calvin, Melanchthon and the rest can
+  file here later without reopening the question.
+  `type: 'extra-biblical'`, the same behavioural bucket as Josephus and the
+  Talmud — its own pane per volume, no sync group, out of verse-scoped
+  search. A **"Reformation" search scope chip** sits alongside the existing
+  ones; `searchAll` already filters on `sources.category` generically, so the
+  chip needed no query change.
+  **One source per volume**, the Church Fathers' precedent rather than
+  Josephus's four-works-in-one. Neither volume is near the size that forced
+  the Talmud's per-Seder split (0.71MB and 0.84MB against JFB's 12MB), so the
+  split is about shelving, not bytes: it is how every other multi-volume work
+  here is filed, and it is what Volumes III–VI slot into without restructuring
+  I–II. **One `books` row per work** — the eight treatises in each volume, plus
+  Volume I's own general introduction and translators' note, which are kept
+  for the same reason each work's introduction is kept, for 17 books in all —
+  and a
+  two-level **Work → Section TOC** on the existing `ParsedTocEntry.bookIndex`
+  / grouping-row machinery, no `toc_entries` schema change. The work row is a
+  grouping heading (`entryIndex: -1`) as Josephus's is; unlike Foxe, where
+  three chapters had no named sub-entries and would have become unreachable
+  dead rows, every work here has sections beneath it. A section index becomes
+  `entries.chapter` purely as a *loading* unit, so the pane fetches one
+  section at a time instead of pulling a 553-paragraph treatise into the DOM.
+  Paragraph-per-entry granularity — a section can run to 233 paragraphs, and
+  highlights, notes and links need a paragraph-sized selection unit.
+  **Editorial apparatus excluded, content kept, and the difference argued
+  rather than assumed.** The translators' and editors' numbered FOOTNOTES
+  blocks, the front matter and the printed back-matter index (page numbers
+  only, meaningless without the print pagination the text does not carry) are
+  excluded and logged to `tools/luther/luther-exclusions.txt`, the standard
+  JFB and Josephus set. Kept: each work's **scholarly introduction and its
+  translator's signature** — the edition is titled "with Introductions and
+  Notes", the introductions are content, and the attribution stays where the
+  edition puts it rather than being lifted into a metadata column `books` does
+  not have; and the **bracketed Scripture citations** (`[Matt. 16:18]`, ~960
+  of them), which is why the inline footnote-marker strip is numeric-only —
+  a greedier rule would have silently deleted every citation. The 532 printed
+  **marginal sidenotes** are lifted onto `entries.heading`, the nullable
+  column added for JFB and reused by Foxe, rather than dropped or left inline
+  as bracketed noise mid-column.
+  **A defect found and fixed before any live verification.** `entries.heading`
+  was, until this work, rendered in exactly one place — `FooterCommentary.tsx`,
+  the JFB footer strip. The reading pane rendered `position_ref` and ignored
+  `heading` entirely, so all 532 sidenotes were stored and invisible. Foxe
+  appeared unaffected only because it *duplicated* its heading into
+  `position_ref`; its own `entries.heading` was equally a no-op. `Pane.tsx` now
+  renders `heading` beneath the section citation, which is why an otherwise
+  unrelated **`foxeImport.ts` changed as a dependency of this fix**: with the
+  pane rendering both fields, Foxe's duplicate would have printed every unit
+  name twice, so the duplication was removed and `heading` carries it alone.
+  The one thing that depended on that duplication — the search citation, which
+  resolved a mid-unit hit to the nearest preceding `position_ref` and so got
+  the unit name for free — moved with it: `RESOLVED_POSITION_REF` now folds the
+  nearest preceding `heading` into its *fallback* branch only, so a Foxe hit
+  still cites "Chapter I — I. St. Stephen" while JFB, whose every entry carries
+  its own `position_ref`, short-circuits and is untouched. The column is no
+  longer a silent no-op for any future pane source that writes to it.
+  **Provenance:** *Works of Martin Luther, with Introductions and Notes* —
+  the Philadelphia Edition, **A. J. Holman Company**, Philadelphia, 1915–1932,
+  translated by a team of Lutheran scholars: **Henry Eyster Jacobs**, **Adolph
+  Spaeth**, **Charles M. Jacobs**, **A. T. W. Steinhaeuser**, **J. J.
+  Schindel**, **W. A. Lambert**, **A. Steimle**, **J. L. Neve** and others,
+  each work carrying its own introduction and translator credit. Digitised as
+  Project Gutenberg ebooks [#31604](https://www.gutenberg.org/ebooks/31604)
+  (Vol. I, released 2010) and
+  [#34904](https://www.gutenberg.org/ebooks/34904) (Vol. II, released 2011),
+  both produced by **Michael McDermott** from Internet Archive scans. Public
+  domain — US copyright on a 1915/1916 publication has long expired — so a
+  normal addition rather than an exception like the Bavli, and no disclaimer
+  to show. Chosen over the **Lenker** translation series (1904 onward, also
+  public domain, but organised as verse-by-verse Scripture commentary rather
+  than collected treatises — a plausible *second* source later, not a
+  substitute) and over **Henry Cole's** 1820s *Select Works*, earlier,
+  thinner, and superseded in scholarly regard by the Philadelphia Edition.
+  Cross-linking Luther's own Scripture citations into the study pane is out of
+  scope for the same reason the Talmud's verse-citation item is pinned rather
+  than built: a separate feature, not needed to ship the base text.
+  **Built by `tools/luther/build.mjs`, which hard-fails three ways** rather
+  than shipping a doubtful text: on provenance (a file whose Gutenberg header
+  does not name this edition and the matching volume, carry the matching
+  ebook id, show the Holman imprint and printed year, and carry the licence
+  boilerplate); on structure (every declared boundary — nine in Vol. I, eight in
+  Vol. II, the difference being Vol. I's own volume-level introduction — found
+  exactly once and in document order); and on **conservation** — every
+  body paragraph must end up either in a bundle or in a logged exclusion, so
+  a mis-declared boundary or a runaway FOOTNOTES block cannot swallow real
+  treatise text while the build still reports success. That third gate exists
+  because this project has shipped exactly that shape of bug once already
+  (the `{braces}` note-leak repaired in `src/seed.ts`).
+  **Work boundaries are declared, not inferred**, because the two volumes are
+  marked up differently and neither carries semantic markup to lean on — five
+  CSS classes in the whole file, all Gutenberg's own chrome, and sequential
+  autogenerated ids. Volume II is regular (`<h3>` title, `<h3> INTRODUCTION`,
+  eight times); Volume I has no `<h3>` at all, demotes `FOOTNOTES` from
+  `<h4>` to `<h5>`, and opens its first four works variously by half-title, by
+  a bare INTRODUCTION with the title *after* it, or by a styled `<p>` that is
+  a heading in everything but its tag. Inference would have needed
+  special-casing anyway and would have failed silently when it guessed wrong.
+  Built out to **17 books, 140 sections and 1,997 paragraphs** across the two
+  volumes — 0.72MB and 0.84MB, against the 12MB JFB ceiling.
+  **Two source anomalies, handled rather than hidden.** Volume I's "A
+  Discussion of Confession" skips **FOURTH** in its numbered points (FIRST,
+  SECOND, THIRD, FIFTH … LAST) — the edition's own numbering, confirmed
+  against both the HTML and the plain-text release, with no missing text
+  between them. And the edition sets what is one printed heading as several
+  successive tags ("CHAPTER I" / "THE FIRST IMAGE" / "THE EVIL WITHIN US"),
+  which are joined back with " — "; read one-heading-per-section they would
+  have produced empty sections and silently dropped the chapter numbering.
 
 ## Near-term
 
@@ -1060,6 +1199,38 @@ running list of what's done and what's next, not a commitment.
   searched for verbatim in the built text with zero matches.
 
 ## Longer-term / exploratory
+
+- **Volumes III–VI of the Philadelphia Edition**, completing the six-volume
+  set begun with Vols. I–II. Not digitised on Project Gutenberg: they exist
+  as page-scanned editions on the Internet Archive
+  (`archive.org/details/worksofmartinlut02luth` and siblings), which is raw
+  scans rather than clean transcribed text — closer to the Companion Bible's
+  OCR/hand-transcription pipeline than to the fetch-and-parse-clean-HTML
+  approach `tools/luther/build.mjs` takes, and not a mechanical extension of
+  it. **Confirm the imprint before treating them as the same edition**:
+  III–VI carry "A. J. Holman and The Castle Press" rather than I–II's plain
+  "A. J. Holman Company", which is very likely nothing more than a printer
+  change but should be established rather than assumed, since the builder's
+  provenance gate is pinned to the imprint. Needs its own structure
+  investigation when picked up.
+
+- **Lenker's Luther commentary series** as a further `reformation` source.
+  J. N. Lenker's translations (Genesis, the Psalms, and others, 1904 onward)
+  are public domain and cover ground the Philadelphia Edition does not, but
+  they are organised as **verse-by-verse Scripture commentary** rather than
+  as collected treatises. That may well warrant a verse-keyed or
+  footer-commentary treatment — closer to JFB than to the freeform pane the
+  Philadelphia Edition uses — so it gets its own structure investigation
+  when picked up, not an assumption that it matches the Luther brief.
+  Individually licence-checked before import, like everything else here.
+
+- **Other Reformers** — Calvin, Melanchthon, Zwingli and others — as future
+  `reformation`-category sources. An open-ended curation list, the same shape
+  as "additional Bible translations in more languages": each candidate
+  edition individually licence-checked and structure-investigated before
+  import, rather than a fixed set committed to up front. The category was
+  deliberately named for the movement rather than for Luther so these can
+  land without relitigating where they file.
 
 - **Talmud commentary & study aids.** Documented, not built. Five tiers,
   cheapest first:

@@ -25,11 +25,20 @@ export type SourceCategory =
   // Church Fathers collections (Ante-Nicene, Nicene and Post-Nicene).
   | 'patristic'
   // Rabbinic literature — the Talmud today, with the Mishnah and Midrash
-  // Rabbah to follow. Deliberately not 'historical' (which stays Josephus
-  // only: an actual historian's narrative) and not 'commentary' (reserved
+  // Rabbah to follow. Deliberately not 'historical' (which stays narrative
+  // history — Josephus and the martyrology) and not 'commentary' (reserved
   // for works commenting on the Bible), the same way 'patristic' became its
   // own category once the Church Fathers outgrew being filed elsewhere.
   | 'rabbinic'
+  // Reformation-era writings — Luther today, with other Reformers (Calvin,
+  // Melanchthon, Zwingli) to follow. Named for the movement rather than for
+  // Luther so a second Reformer doesn't reopen the question. Deliberately
+  // not 'historical' (which stays Josephus and the martyrology: narrative
+  // history, not treatises, sermons and catechisms) and not 'commentary'
+  // (reserved for works commenting on the Bible, which most of this
+  // collection is not) — the same reasoning that made 'patristic' and
+  // 'rabbinic' their own categories.
+  | 'reformation'
   | 'imported';
 
 export interface Source {

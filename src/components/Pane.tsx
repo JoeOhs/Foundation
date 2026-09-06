@@ -671,6 +671,15 @@ function Pane({
         onClick={() => clickEntry(e)}
       >
         {e.position_ref && <div className="section-ref">{e.position_ref}</div>}
+        {/* The entry's own heading, where its source carries one: Foxe's named
+            sub-entries, Luther's printed marginal sidenotes. Rendered here for
+            the same reason FooterCommentary renders it for JFB — it is the
+            author's or editor's own label for this passage, and without it the
+            column is a wall of undifferentiated paragraphs. Ordered after
+            position_ref so the pair reads broad-to-fine (the section citation,
+            then the label within it). Until this landed the column was a
+            no-op for every pane source that wrote to it. */}
+        {e.heading && <div className="section-heading">{e.heading}</div>}
         <div className="section-text">{renderText(e.text, activeChapter ?? 1)}</div>
         {noted && <span className="note-dot" title="Has notes" />}
       </div>
