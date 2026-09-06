@@ -74,8 +74,8 @@
   --accent-tertiary: #00e5ff; /* rare: full-strength cyan for small details */
   --on-accent: #06171c; /* dark text on the muted cyan accent */
   --scrollbar-thumb: #55397e;
-  --gradient-shell: linear-gradient(180deg, #241736 0%, #2c1b42 60%, #3a2358 100%),
-    radial-gradient(ellipse 96% 72% at 50% 100%, rgba(0, 229, 255, 0.16), transparent 70%);
+  --gradient-shell: radial-gradient(ellipse 96% 72% at 50% 100%, rgba(0, 229, 255, 0.16), transparent 70%),
+    radial-gradient(ellipse 120% 100% at 50% 100%, #3a2358 0%, #241736 45%, #150c22 100%);
 }
 
 /* Panes sit slightly translucent so the bottom oval reads through them and
@@ -341,13 +341,22 @@ body::after {
   /* One oval only, centred horizontally with its centre pinned to the
      bottom edge, so the app sits inside the upper half of the glow and
      the falloff runs straight up the screen. */
-  background: radial-gradient(
-    ellipse 88% 68% at 50% 100%,
-    rgba(167,66,255,0.34) 0%,
-    rgba(255,110,199,0.20) 35%,
-    rgba(0,229,255,0.10) 60%,
-    transparent 80%
-  );
+  background:
+    radial-gradient(
+      ellipse 88% 68% at 50% 100%,
+      rgba(167,66,255,0.34) 0%,
+      rgba(255,110,199,0.20) 35%,
+      rgba(0,229,255,0.10) 60%,
+      transparent 80%
+    ),
+    /* vignette: clear over the glow, deepening towards the outer edges so
+       the oval reads as light falling off into dark rather than a band */
+    radial-gradient(
+      ellipse 100% 80% at 50% 100%,
+      transparent 32%,
+      rgba(8,0,18,0.42) 68%,
+      rgba(8,0,18,0.78) 100%
+    );
 }
 @keyframes cosmic-drift {
   from { transform: translateY(0); }
