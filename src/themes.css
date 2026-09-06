@@ -79,12 +79,11 @@
 }
 
 /* Panes sit slightly translucent so the bottom oval reads through them and
-   the app feels like one surface rather than cards on an unrelated glow.
-   Kept at 94% — enough to see, not enough to disturb reading contrast. */
+   the app feels like one surface rather than cards on an unrelated glow. */
 [data-theme='cosmic'] .pane,
 [data-theme='cosmic'] .notes-panel,
 [data-theme='cosmic'] .footer-panel {
-  background: color-mix(in srgb, var(--bg-surface) 94%, transparent);
+  background: color-mix(in srgb, var(--bg-surface) 80%, transparent);
 }
 [data-texture="off"][data-theme='cosmic'] .pane,
 [data-texture="off"][data-theme='cosmic'] .notes-panel,
