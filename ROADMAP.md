@@ -263,7 +263,9 @@ running list of what's done and what's next, not a commitment.
   `type: 'extra-biblical'`, the same bucket as Josephus and EPUB imports:
   its own pane, no sync group, out of verse-scoped search.
   **Licence — the one deliberate exception.** This is the only text in the
-  Library that is not public domain. It is **CC BY-NC 4.0**: shareable and
+  Library restricted to non-commercial use — the Jerusalem Talmud, added
+  later, is also not public domain, but CC BY, attribution only. It is
+  **CC BY-NC 4.0**: shareable and
   adaptable with attribution, **non-commercial use only**. Foundation makes
   no money and ships offline, so it sits inside those terms — but that is a
   fact about this app, not a general licence to add more non-PD texts, and
