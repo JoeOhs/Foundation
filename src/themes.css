@@ -83,8 +83,16 @@
 [data-theme='cosmic'] .pane,
 [data-theme='cosmic'] .notes-panel,
 [data-theme='cosmic'] .footer-panel {
-  background: color-mix(in srgb, var(--bg-surface) 80%, transparent);
+  background: color-mix(in srgb, var(--bg-surface) 70%, transparent);
 }
+/* Strong's word hover: --accent-soft is derived from --accent-primary, so
+   by default a tagged word hovers washed-out cyan. Pull it to the pink of
+   the Strong's glow instead, so tag and hover read as the same feature. */
+[data-theme='cosmic'] .strongs-word:hover,
+[data-theme='cosmic'] .strongs-xref:hover {
+  background: color-mix(in srgb, var(--accent-secondary) 34%, transparent);
+}
+
 [data-texture="off"][data-theme='cosmic'] .pane,
 [data-texture="off"][data-theme='cosmic'] .notes-panel,
 [data-texture="off"][data-theme='cosmic'] .footer-panel {
