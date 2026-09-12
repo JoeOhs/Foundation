@@ -1720,13 +1720,100 @@ coordinates still separate cleanly.
   when picked up, not an assumption that it matches the Luther brief.
   Individually licence-checked before import, like everything else here.
 
-- **Other Reformers** — Calvin, Melanchthon, Zwingli and others — as future
-  `reformation`-category sources. An open-ended curation list, the same shape
-  as "additional Bible translations in more languages": each candidate
-  edition individually licence-checked and structure-investigated before
-  import, rather than a fixed set committed to up front. The category was
-  deliberately named for the movement rather than for Luther so these can
-  land without relitigating where they file.
+- **Other Reformation-era contemporaries of Luther**, individually
+  researched rather than assumed as a group. Confirmed candidates, each
+  its own future `reformation`-category source unless noted otherwise:
+  1. **John Calvin — *Institutes of the Christian Religion*.** The
+     obvious anchor alongside Luther. Two real translation candidates,
+     both long PD: **Henry Beveridge's 1845 translation** (hosted on
+     CCEL; generally the more polished, more commonly cited 19th-century
+     English rendering) and **John Allen's 1813 translation** (Project
+     Gutenberg #45001/#64392, revised through a "Sixth American
+     Edition"). Beveridge is the likely pick for quality; Allen is the
+     Gutenberg-native option if consistency with how Foxe and Luther were
+     sourced matters more. A third, earlier option — Thomas Norton's 1561
+     translation, the original English rendering, on CCEL — is the
+     Rodkinson of this list: historically significant, archaic English,
+     a curiosity rather than a primary reading copy.
+  2. **John Calvin — *Commentaries*.** A second, much larger candidate:
+     45 volumes covering nearly the whole Bible, translated by the Calvin
+     Translation Society (Edinburgh, 1844–56), on CCEL and partly on
+     Internet Archive/Gutenberg. **Belongs under `commentary`, not
+     `reformation`** — verse-anchored Scripture commentary, the same
+     shape as JFB and the Companion Bible, not systematic theology. Flag
+     this category distinction explicitly when scoping it; don't let it
+     drift into `reformation` by association with Calvin's other work.
+  3. **Philip Melanchthon — *The Book of Concord* (Bente/Dau, 1921).**
+     Melanchthon's two most significant primary works — the Augsburg
+     Confession and its Apology, plus the Treatise on the Power and
+     Primacy of the Pope — are contained in this compilation alongside
+     Luther's catechisms and the Formula of Concord. Confirmed
+     public-domain (publisher-declared, Concordia Publishing House,
+     1921). See the separate Book of Concord implementation brief for
+     the mixed-authorship compound-work structure — not duplicated here.
+  4. **Huldrych Zwingli — *Selected Works of Huldrich Zwingli*** (trans.
+     Samuel Macauley Jackson, 1901). Zwingli independently originated
+     Reformation ideas in Zurich at roughly the same time as Luther, not
+     as his follower. Confirmed public domain (explicitly marked so by
+     the Online Library of Liberty, which hosts it; also on Internet
+     Archive). Covers his major writings including the 67 Articles.
+     Note: Jackson's edition may represent only the first of an intended
+     larger series — confirm exactly what it covers before treating it
+     as complete, rather than assuming parity with a finished collected
+     works.
+  5. **Heinrich Bullinger — *The Decades*** (trans. H.I., ed. Thomas
+     Harding, Parker Society, Cambridge, 1849–52, 4 volumes). Zwingli's
+     successor in Zurich; the Decades were, by some measure, more widely
+     circulated in England during the Reformation than Calvin's
+     Institutes. Confirmed public domain, full text on Internet Archive.
+     Incidental note: Bullinger is recorded as a relative of E. W.
+     Bullinger, whose Companion Bible notes and appendixes are already in
+     this Library — worth a line in the eventual provenance note, not
+     load-bearing for the decision to include him.
+  6. **John Knox — *The Works of John Knox*** (ed. David Laing,
+     1846–1864, 6–7 volumes). Wrote natively in English — no translation
+     quality question at all, the same advantage Foxe has. Confirmed on
+     Project Gutenberg (at least Vols. 1–2 digitized) and complete on
+     CCEL. Includes *History of the Reformation in Scotland* and *The
+     First Blast of the Trumpet Against the Monstrous Regiment of
+     Women*.
+  7. **William Tyndale — collected *Works*** (ed. Rev. Henry Walter,
+     Parker Society, 1848–1850, 3 volumes: *Doctrinal Treatises*,
+     *Expositions and Notes*, *An Answer to Sir Thomas More's Dialogue*).
+     Wrote natively in English. Confirmed public domain — 1848–1850
+     Parker Society publication, no plausible copyright claim. **Source
+     quality is the open question here, not PD status**: only Internet
+     Archive page scans were found during this research pass, no clean
+     transcribed-text source (unlike Zwingli/Bullinger/Knox, all found
+     with usable transcriptions). This likely needs the same
+     OCR-quality-assessment and coordinate-to-markup treatment Luther
+     Vol. III required, not a straightforward fetch-and-parse — confirm
+     with a real Phase 0b-style inspection before scoping any build,
+     rather than assuming it matches the easier candidates on this list.
+
+  **Investigated and found too thin to be a real candidate yet:**
+  **Martin Bucer** (Strasbourg, hugely influential on both Calvin and the
+  English Reformation) has much thinner and more scattered English
+  translation coverage than the names above — closer to the Loci
+  Communes situation than to Zwingli/Bullinger/Knox. Not pinned as a
+  numbered candidate; would need its own dedicated research pass before
+  being treated as viable.
+
+  **Investigated and explicitly declined:** Melanchthon's *Loci
+  Communes* — his foundational systematic theology, not covered by the
+  Book of Concord above — has no complete public-domain English
+  translation at any edition (1521/1535/1543/1559) that could be found.
+  Every modern scholarly translation (Manschreck 1965, Preus 1992,
+  Christian Preus 2014) is in-copyright. The closest Reformation-era
+  material, a 1548 partial translation of a different, shorter work
+  (*The Justification of Man by Faith Only*), survives only as
+  unrestored page scans and doesn't cover the actual Loci Communes.
+  Declined for now, not silently dropped — same standard as the
+  Yerushalmi brief's "stop and report rather than proceed on a maybe."
+
+  Each candidate above gets its own implementation brief and its own
+  license/structure verification when picked up — this list records
+  research findings, not build authorization.
 
 - **Talmud commentary & study aids.** Documented, not built. Five tiers,
   cheapest first:
