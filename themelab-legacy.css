@@ -1,0 +1,113 @@
+/* ============================================================
+   THEME LAB ONLY — master's Cosmic (palette, opaque panes, bevel all
+   unchanged) with ONE transplant: its twelve-ellipse nebula and three
+   cloud clusters are replaced by the new theme's single bottom-anchored
+   oval, to isolate what the oval alone does to the old colours.
+
+   The oval reuses the three hues the old palette already has, so nothing
+   new is introduced. Not loaded by the app; themelab-compare.html is the
+   only consumer. To recover master's Cosmic untouched:
+     git show origin/master:src/themes.css
+   ============================================================ */
+
+[data-theme='cosmic-old'] {
+  --bg-base: #0a0014;
+  --bg-surface: #140a24;
+  --bg-surface-raised: #1c1030;
+  --bg-hover: #241736;
+  --border: #2c1b42;
+  --border-strong: #ff6ec7;
+  --text-primary: #f0e9fb;
+  --text-secondary: #b39ddb;
+  --text-muted: #7a5f9e;
+  --accent-primary: #00e5ff;
+  --accent-secondary: #ff6ec7;
+  --accent-tertiary: #a742ff;
+  --on-accent: #04121a; /* dark text on the bright cyan accent */
+  --scrollbar-thumb: #3a2358;
+  --gradient-shell: linear-gradient(135deg, #0a0014 0%, #170a2e 35%, #240f3d 55%, #14082a 80%, #0a0014 100%);
+}
+
+/* ========================== COSMIC ========================== */
+
+[data-theme='cosmic-old'] {
+  --grain-opacity: 0.08;
+}
+
+/* Cosmic bevel: cyan light edge, purple dark edge */
+[data-theme='cosmic-old'] .pane {
+  box-shadow:
+    inset 1px 1px 0 rgba(0,229,255,0.10),
+    inset -1px -1px 0 rgba(167,66,255,0.15);
+}
+[data-texture="off"][data-theme='cosmic-old'] .pane {
+  box-shadow: none;
+}
+
+/* Galactic nebula on body::before — outside .app's stacking context,
+   so panes' opaque backgrounds fully occlude it. Visible only in shell
+   gaps (header bar, pane dividers). */
+[data-theme='cosmic-old'] body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: var(--texture-opacity);
+  /* TRANSPLANT: one oval, centred horizontally with its centre pinned to
+     the bottom edge, in place of the original twelve scattered ellipses. */
+  background:
+    radial-gradient(
+      ellipse 88% 68% at 50% 100%,
+      rgba(167,66,255,0.34) 0%,
+      rgba(255,110,199,0.20) 35%,
+      rgba(0,229,255,0.10) 60%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse 100% 80% at 50% 100%,
+      transparent 32%,
+      rgba(8,0,18,0.42) 68%,
+      rgba(8,0,18,0.78) 100%
+    );
+}
+@keyframes cosmic-old-drift {
+  from { transform: translateY(0); }
+  to { transform: translateY(-2.5%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-theme='cosmic-old'] body::before { animation: none; }
+}
+[data-texture="off"][data-theme='cosmic-old'] body::before {
+  display: none;
+}
+
+/* Faint luminous nebula wash OVER the whole app (.app::after) — screen
+   blend on dark surfaces reads as glowing gas. Alphas kept ≤0.06 and
+   gradients huge/soft so reading text stays untouched and no hard color
+   edges appear on panes. */
+[data-theme='cosmic-old'] .app::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9998;
+  mix-blend-mode: screen;
+  opacity: var(--texture-opacity);
+  animation: cosmic-old-drift 20s ease-in-out infinite alternate;
+  /* TRANSPLANT: the same oval, far fainter, in place of the three clusters. */
+  background: radial-gradient(
+    ellipse 88% 68% at 50% 100%,
+    rgba(167,66,255,0.11) 0%,
+    rgba(255,110,199,0.08) 40%,
+    rgba(0,229,255,0.05) 65%,
+    transparent 80%
+  );
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-theme='cosmic-old'] .app::after { animation: none; }
+}
+[data-texture="off"][data-theme='cosmic-old'] .app::after {
+  display: none;
+}
+

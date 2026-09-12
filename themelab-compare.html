@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Foundation — Cosmic comparison (dev only)</title>
+<style>
+  :root { color-scheme: dark; }
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #0c0c10;
+    color: #e8e8ef;
+    font: 13px/1.4 system-ui, sans-serif;
+  }
+  .bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 7px 12px;
+    border-bottom: 1px solid #26262e;
+    flex: 0 0 auto;
+  }
+  .bar h1 { font-size: 13px; font-weight: 600; margin: 0 8px 0 0; }
+  .bar button { font: inherit; padding: 3px 9px; background: #1d1d24; color: inherit;
+                border: 1px solid #33333d; border-radius: 5px; cursor: pointer; }
+  .bar button:hover { background: #2a2a33; }
+  .spacer { flex: 1; }
+  .hint { color: #8a8a99; }
+
+  .frames { flex: 1; display: flex; min-height: 0; }
+  .frames.stacked { flex-direction: column; }
+  .side { flex: 1; display: flex; flex-direction: column; min-width: 0; min-height: 0; }
+  .side + .side { border-left: 1px solid #26262e; }
+  .frames.stacked .side + .side { border-left: 0; border-top: 1px solid #26262e; }
+  .label {
+    padding: 4px 10px;
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #9a9aab;
+    background: #131318;
+    flex: 0 0 auto;
+  }
+  iframe { flex: 1; width: 100%; border: 0; display: block; }
+</style>
+</head>
+<body>
+<div class="bar">
+  <h1>Cosmic — old palette + new oval, vs new</h1>
+  <button onclick="setSplit('side')">Side by side</button>
+  <button onclick="setSplit('stacked')">Stacked</button>
+  <button onclick="swap()">Swap sides</button>
+  <button onclick="reload()">Reload both</button>
+  <span class="spacer"></span>
+  <span class="hint">Each pane is the real theme lab in an iframe — its own body::before, so the gradients are genuine.</span>
+</div>
+<div class="frames" id="frames">
+  <div class="side">
+    <div class="label" id="labelA">Old palette + new oval</div>
+    <iframe id="a" src="/themelab.html?theme=cosmic-old&bare"></iframe>
+  </div>
+  <div class="side">
+    <div class="label" id="labelB">New — this branch</div>
+    <iframe id="b" src="/themelab.html?theme=cosmic&bare"></iframe>
+  </div>
+</div>
+<script>
+  function setSplit(mode) {
+    document.getElementById('frames').className = 'frames' + (mode === 'stacked' ? ' stacked' : '');
+  }
+  function swap() {
+    const a = document.getElementById('a'), b = document.getElementById('b');
+    const la = document.getElementById('labelA'), lb = document.getElementById('labelB');
+    [a.src, b.src] = [b.src, a.src];
+    [la.textContent, lb.textContent] = [lb.textContent, la.textContent];
+  }
+  function reload() {
+    for (const f of document.querySelectorAll('iframe')) f.contentWindow.location.reload();
+  }
+</script>
+</body>
+</html>
