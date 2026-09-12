@@ -1561,9 +1561,56 @@ running list of what's done and what's next, not a commitment.
   that decides either of them, not manual judgement.
 - **Other public-domain Christian apologists** as candidates for the same
   `apologetics` category — which is why it is named for the genre rather
-  than for Chesterton. **C.S. Lewis is not a candidate**: most of his work is
-  still in copyright, and no amount of wanting *Mere Christianity* on the
-  shelf changes that.
+  than for Chesterton. A pinned, not-yet-built curation list, one title at a
+  time, **each individually licence-checked** the same way Chesterton's four
+  titles were:
+  1. **Thomas Aquinas — *Summa Contra Gentiles*.** A full-length medieval
+     apologetic case for the faith addressed to non-believers — arguably the
+     category's missing anchor. Public domain, but the exact edition needs
+     pinning before `assertGutenbergPublicDomain()`'s style of build-time
+     guard can apply: candidates are Rickaby's 1905 *Of God and His
+     Creatures* and the English Dominican Fathers' 1920s translation. No
+     single clean bulk-text source located yet, unlike the titles below.
+  2. **Blaise Pascal — *Pensées*.** His notes toward a planned "Apology for
+     the Christian Religion." Project Gutenberg #18269 (W.F. Trotter
+     translation) — a clean source needing no extra verification beyond the
+     standard PD guard.
+  3. **William Paley — *Evidences of Christianity*** (1794). Argument from
+     design and historical evidence. Project Gutenberg #14780.
+  4. **Joseph Butler — *The Analogy of Religion*** (1736). An 18th-century
+     reply to deism. Project Gutenberg #53346.
+  5. **John Henry Newman — *Apologia Pro Vita Sua*** (1864). His own
+     intellectual/spiritual defense of his conversion — "apologia" is
+     literally the title. Project Gutenberg #19690 and #22088 (two
+     editions — pick one).
+  6. **Simon Greenleaf — *Testimony of the Evangelists*** (1874). A Harvard
+     law professor applying courtroom rules of evidence to the Gospel
+     accounts — a distinct legal-evidentiary angle from the rest of this
+     list. Public domain (author died 1853), but only found on archive.org
+     so far, not Gutenberg — needs the same OCR-quality scrutiny Smith's
+     Bible Dictionary got before its CrossWire module was chosen over the
+     corrupted archive.org scan.
+  7. **Frank Morison — *Who Moved the Stone?*** (1930). A resurrection-
+     focused apologetic. Notable because it only entered US public domain in
+     2026 under the rolling pre-1931 cutoff — right at the boundary rather
+     than comfortably inside it, so the build-time PD guard matters more
+     here than for the older titles above; confirm the exact edition/date
+     before building against it.
+
+  Each is a standalone `apologetics` source rather than a compound work —
+  Chesterton's four titles are one author's coherent body of work, which is
+  why they're bundled; these are seven separate authors and stand alone.
+
+  **Not for this category — flagged separately.** Eusebius's *Praeparatio
+  Evangelica* (Preparation for the Gospel, Gifford's 1903 translation) is a
+  major ancient apologetic work not yet in the Library, but Eusebius already
+  has a `patristic` volume (NPNF Series II Vol. 1, Church History/Life of
+  Constantine) — so this belongs as an addition to the existing patristic
+  collection, not a new `apologetics` entry. Pinned here only as a pointer,
+  not scoped further.
+
+  **C.S. Lewis is not a candidate**: most of his work is still in copyright,
+  and no amount of wanting *Mere Christianity* on the shelf changes that.
 
 - **Volumes IV–VI of the Philadelphia Edition.** Blocked on US copyright,
   not on effort — see the investigation below. Vol. III shipped; IV and V
