@@ -23,6 +23,7 @@ const SCOPE_OPTIONS: { id: SearchScope; label: string }[] = [
   { id: 'patristic', label: 'Church Fathers' },
   { id: 'rabbinic', label: 'Rabbinic' },
   { id: 'reformation', label: 'Reformation' },
+  { id: 'apologetics', label: 'Apologetics' },
 ];
 
 interface SearchSession {

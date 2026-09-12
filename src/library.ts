@@ -54,6 +54,7 @@ import { JFB_TITLE, installJfb } from './jfbImport';
 import { TALMUD_SEDARIM, installTalmudSeder, talmudTitle } from './talmudImport';
 import { YERUSHALMI_TITLE, installYerushalmi } from './yerushalmiImport';
 import { LUTHER_VOLUMES, installLutherVolume, lutherTitle } from './lutherImport';
+import { CHESTERTON_TITLE, installChesterton } from './chestertonImport';
 import { importKjvStrongs } from './strongsImport';
 import type { ParsedSource, Source, SourceCategory, SourceType } from './types';
 
@@ -1119,6 +1120,26 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       + 'and volume, and refuses to drop a single paragraph without logging it.',
     install: installLutherVolume(vol),
   })),
+  {
+    id: 'chesterton_apologetics',
+    title: CHESTERTON_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'apologetics',
+    license: 'public domain',
+    licenseDetail:
+      'G.K. Chesterton (1874–1936) — public domain, from Project Gutenberg. One source containing '
+      + 'four works of Christian apologetics and theology: Heretics (1905, ebook #470), Orthodoxy '
+      + '(1908, #16769), St. Francis of Assisi (1923, #63084) and The Everlasting Man (1925, '
+      + '#65688) — 918 paragraphs across 58 chapters under a Title → Chapter table of contents. '
+      + 'His apologetics only: the Father Brown stories, his poetry and his general social '
+      + 'criticism are deliberately out of scope. Two later titles are deliberately absent — St. '
+      + 'Thomas Aquinas (1933) and The Catholic Church and Conversion (1926) — neither being on '
+      + 'Gutenberg, and Aquinas sitting close enough to the rolling US public-domain cutoff that '
+      + 'it must not be eyeballed. Built by tools/chesterton/build.mjs, which refuses any file '
+      + 'that does not carry Gutenberg\'s licence boilerplate and name Chesterton as its author.',
+    install: installChesterton,
+  },
 ];
 
 export const SERIES_NOTES: Record<string, string> = {
