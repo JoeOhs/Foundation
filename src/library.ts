@@ -21,6 +21,7 @@ import {
 } from './hippolytusApostolicTraditionImport';
 import { JOSEPHUS_TITLE, installJosephus } from './josephusImport';
 import { FOXE_TITLE, installFoxe } from './foxeImport';
+import { OVID_TITLE, installOvid } from './ovidImport';
 import { NPNF101_TITLE, installNPNF101 } from './npnf101Import';
 import { NPNF102_TITLE, installNPNF102 } from './npnf102Import';
 import { NPNF103_TITLE, installNPNF103 } from './npnf103Import';
@@ -359,6 +360,28 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'footnotes are deliberately excluded, so the text is Josephus\'s only. Built by ' +
       'tools/josephus/build.mjs, which refuses any edition that isn\'t Whiston\'s.',
     install: installJosephus,
+  },
+  {
+    id: 'ovid_riley',
+    title: OVID_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'historical',
+    license: 'public domain',
+    licenseDetail:
+      'Ovid (43 BC – AD 17/18), translated into English prose by Henry T. Riley (1851, Bohn\'s ' +
+      'Classical Library; translator died 1878) — public domain, from Project Gutenberg ebooks ' +
+      '21765 (Books I–VII, from the George Bell & Sons reprint of 1893) and 26073 (Books VIII–XV, ' +
+      'from the David McKay reprint of 1899). One source containing the complete poem: 136 fables across ' +
+      'fifteen books, under a Book → Fable table of contents. Unlike Whiston\'s Josephus, Riley\'s ' +
+      'own apparatus is kept — his "Explanation" of each fable and all 1,273 of his footnotes read ' +
+      'at the foot of the fable they belong to, not in the study footer, since he is commenting on ' +
+      'a classical poem rather than on scripture. Each footnote is filed by the marker that points ' +
+      'at it, so the mapping is exact. The reprints\' page and line locator numbers are stripped as ' +
+      'typesetting artifacts, and both publishers\' introductions, the Synoptical View and the ' +
+      'Gutenberg transcriber\'s own notes and indexes are excluded as apparatus. Built by ' +
+      'tools/ovid/build.mjs, which refuses any edition that isn\'t Riley\'s.',
+    install: installOvid,
   },
   {
     id: 'foxe_martyrs',

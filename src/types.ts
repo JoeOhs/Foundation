@@ -84,6 +84,13 @@ export interface Entry {
   // The author's own section heading over this entry, where the source has
   // one (JFB's "Ge 2:2-7. The First Sabbath."). Null for everything else.
   heading: string | null;
+  // 1 when this entry is the author's or translator's apparatus attached to
+  // the block above it rather than the work itself - Riley's "Explanation" of
+  // a fable of the Metamorphoses, and his footnotes on it. The reading pane
+  // sets it apart; everything else is 0. Never inferred from the other
+  // columns: Luther's marginal sidenotes look identical from the outside and
+  // are not apparatus.
+  is_apparatus: number;
 }
 
 // Notes anchor by canonical reference (book/chapter/verse) so a verse note
@@ -163,6 +170,9 @@ export interface ParsedEntry {
   text: string;
   // Optional: only sources that carry their own section headings set it.
   heading?: string | null;
+  // Optional: set by an importer that knows this paragraph is the author's or
+  // translator's apparatus, not the work. See Entry.is_apparatus.
+  isApparatus?: boolean;
 }
 
 export interface ParsedSource {

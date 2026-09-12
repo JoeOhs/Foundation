@@ -1,3 +1,17 @@
+  The page/line locators themselves are **stripped entirely** from the reading
+  text. They are typesetting artifacts of the two reprints, not Ovid's or
+  Riley's words, and unlike JFB's verse ranges there is no parallel worth
+  preserving. They are removed by *element* (`span.linenum`, `span.pagenum`)
+  rather than by pattern, and that distinction turned out to matter: Riley
+  cites classical works in exactly the locators' form inside his own notes
+  ("in the Fourth Book of Virgil's Georgics, I. 281-314"), so a regex tight
+  enough to catch the furniture would have silently mangled the citation. The
+  case is checked after every build. Front matter — both publishers'
+  introductions and the "Synoptical View", a book-by-book plot synopsis — is
+  **excluded and logged** into the bundle's `metadata.exclusions`, along with
+  the Gutenberg transcriber's own notes, supplementary notes and indexes, the
+  same audit-trail standard as Whiston's Josephus front matter and JFB's
+  introductions.
 # Roadmap
 
 Foundation is a personal, open-source, non-commercial project. There's no
@@ -714,6 +728,130 @@ running list of what's done and what's next, not a commitment.
   (1925, #65688). All four were published in 1925 or earlier and are public
   domain in the US. No disclaimer accompanies this source: unlike the two
   Talmuds it is not an exception to the Library's public-domain rule.
+- **Ovid's Metamorphoses — Riley translation (1851).** The complete poem in
+  Henry T. Riley's literal English prose, as a freeform classical work: fifteen
+  books of numbered Fables, not Bible-verse-keyed, navigated by a hand-built
+  table of contents. **A compound work in the Josephus mould** — two separate
+  Project Gutenberg texts (Books I–VII, 21765; Books VIII–XV, 26073) folded
+  into ONE `historical` source with fifteen `books` rows beneath it, rather
+  than two Library entries for one poem.
+  **Two-level TOC, Book → Fable**, on the same `ParsedTocEntry.bookIndex` /
+  grouping-row machinery generalised for Josephus and the Talmud — no
+  `toc_entries` schema change. Two levels rather than Josephus's three because
+  Josephus folds four distinct *works* together and needs a Work level above
+  the books; the Metamorphoses is one work already, so Book → Fable is the
+  natural depth. Like Fox's chapter rows and unlike Josephus's Work rows, the
+  book row is *jumpable* rather than a bare grouping heading: with only two
+  levels there is no third level for a grouping row to label, so an
+  unjumpable one would be a dead row in the dropdown.
+  `position_ref`-anchored, like Josephus and the Talmud, with the citation
+  (`I.7`, Book.Fable) on the paragraph that opens each fable; `searchAll`
+  already resolves a hit to the nearest preceding labelled entry in the same
+  chapter. Each fable is an `entries.chapter` purely as a loading unit, so the
+  pane fetches one fable at a time. Paragraph-per-entry granularity, not
+  fable-per-entry — highlights, notes and links need a paragraph-sized
+  selection unit, the same reasoning every other freeform import here used.
+  Files under the existing **`historical`** category alongside Josephus, and
+  under `type: 'extra-biblical'` — its own pane, no sync group, out of
+  verse-scoped search. Deliberately *not* a new category for one work.
+  `historical` was scoped to "an actual historian's narrative" and Ovid is a
+  poet, but the *shape* is what the category sorts on — freeform,
+  non-Biblical, compound, `position_ref`-anchored — and that is exactly
+  Josephus's shape. If a second non-historical classical text is ever added,
+  revisit then. `historical` is already a search scope chip, so search
+  coverage needed no change and no chip was added.
+  **Riley's apparatus is kept, and kept out of the footer.** He closes each
+  fable with his own "Explanation" of it, and each book with numbered
+  footnotes. Both render at the foot of the fable they belong to, *inside the
+  pane*, labelled through `entries.heading` — the nullable column added for
+  JFB — and set apart from the narrative by a divider and smaller type. They
+  are deliberately **not** routed to the Study footer's Commentary tab even
+  though the plumbing would accept them: that tab is for works commenting on
+  *the Bible* (JFB today), and Riley is commenting on a classical poem, so
+  filing him there would be a category error.
+  **The pane is told, not left to guess** — one new column,
+  `entries.is_apparatus`, set by the importer that knows. This was originally
+  inferred instead, from "carries a heading but no `position_ref` of its
+  own", which is true of Riley's notes and equally true of Luther's printed
+  **marginal sidenotes**: 571 paragraphs across Vols. I–III that are part of
+  his text, not footnotes on it, and that the inference would have dimmed and
+  rule-separated. The branch predated Vol. III and could not have seen it.
+  The lesson is the one `entries.heading` already taught — a presentational
+  rule inferred from data that happens to correlate will find the next source
+  that correlates by accident.
+  **Footnotes are captured, not excluded** — the opposite call from Josephus,
+  for a concrete reason rather than a change of heart. Whiston's are dropped
+  because the transcription fuses their markers onto the preceding word as
+  bare digits, indistinguishable from a numeral belonging to Josephus.
+  Riley's are *anchored*: the builder parses Gutenberg's HTML rather than its
+  plain text, and there every marker links to the note it points at, so a note
+  is filed under the unit whose prose carries its marker. The mapping is
+  **exact rather than inferred**, and the build fails if a single note is left
+  unclaimed — an unclaimed note means a marker was missed, which means prose
+  was missed. All **1,273** map.
+  The page/line locators themselves are **stripped entirely** from the
+  reading text. They are typesetting artifacts of the two reprints, not
+  Ovid's or Riley's words, and unlike JFB's verse ranges there is no parallel
+  worth preserving. Front matter — both publishers' introductions and the
+  "Synoptical View", a book-by-book plot synopsis — is **excluded and
+  logged** into the bundle's `metadata.exclusions`, the same audit-trail
+  standard as Whiston's Josephus front matter and JFB's introductions.
+  **Provenance:** Publius Ovidius Naso (43 BC – AD 17/18), translated into
+  English prose by **Henry T. Riley** (1816–1878), first published 1851 in
+  Bohn's Classical Library. The two source transcriptions are of the **George
+  Bell & Sons** reprint (London, 1893) and the **David McKay** reprint
+  (Philadelphia, 1899): Project Gutenberg ebooks
+  [#21765](https://www.gutenberg.org/ebooks/21765) (Books I–VII) and
+  [#26073](https://www.gutenberg.org/ebooks/26073) (Books VIII–XV). Riley
+  died in 1878 and both reprints are pre-1928 US publications, so this is
+  public domain twice over — a normal addition, with no licence exception to
+  guard the way the Talmud has one. Built by `tools/ovid/build.mjs`, which
+  hard-fails on any edition whose Gutenberg header doesn't name Riley — the
+  modern translations (Melville, Lombardo, Martin, Raeburn) are separately
+  copyrighted — and again if the parse doesn't yield fifteen books numbered
+  I–XV with prose in every fable.
+  **Units are not always one fable, and the ordinal is not the citation.**
+  Riley sometimes prints two or three fables under a single heading ("FABLES
+  IV. V. AND VI."), and the two source files disagree about how to anchor
+  that — Book II gives such a heading one anchor, Book XIII one per fable —
+  so the split is on the printed heading, which is what the book itself
+  divides on. That forces two different numbers, deliberately kept apart:
+  `entries.chapter` carries the **unit's ordinal**, dense and unique within
+  its book because it comes from position, which is what stops two units
+  merging (the fault Fox's Book of Martyrs exposed on first contact with its
+  real text, where two duplicated chapter numerals would have fused two pairs
+  of chapters); `position_ref` carries **Riley's own numbering** — `II.8`, or
+  `II.6-7`, or `XV.4-6`. Numbering the units by position *and* citing them by
+  position would have renumbered every fable after a combined heading, citing
+  Riley's Fable VIII in Book II as `II.7` and so on to the end of the book.
+  **One real anomaly in the source, reported rather than guessed at.** Book
+  XIII's printed fable numbering reads 1, 3, 4, 5, 6, 7, 8 — no Fable II. The
+  Gutenberg transcriber suspected the same and marked the heading `error for
+  'Fables I. and II.'?`, so the McKay reprint most likely dropped "and II."
+  from a combined heading. It is recorded in `metadata.source_anomalies`;
+  reading order and loading units are unaffected, and the unit is cited
+  `XIII.1` because that is what the page prints. Recording the doubt beats
+  encoding a guess as a citation.
+  **Built out to 136 fables in 123 units across the 15 books** — 788
+  paragraphs of translation, 350 paragraphs of Riley's Explanations and 1,273
+  footnotes, 2,411 entries in all; the bundle is 1.5MB, comfortably inside the
+  4.2MB ceiling Josephus set. Book I additionally keeps **THE ARGUMENT**,
+  Ovid's proem, which stands before Fable I: it is his own words, not
+  apparatus, so it carries its own citation and its own TOC row rather than
+  being folded invisibly into Fable I or dropped.
+  **The builder parses Gutenberg's HTML, not its plain text**, and that is a
+  design decision rather than a convenience. The HTML marks book and fable
+  boundaries with stable anchors, classes Riley's commentary (`p.explanation`)
+  and his fable synopses (`p.synopsis`), links every footnote marker to its
+  note, and — decisively — wraps the two reprints' page and line locators in
+  their own spans. In the plain-text edition every one of those is a guess.
+  The two files are not marked up alike, either: Books I–VII head each book
+  with `<h2>` inside a `div.chapter`, Books VIII–XV with `<h4 class="chapter">`
+  and no chapter div at all, so the parser keys on the anchor names both
+  share. See `tools/ovid/README.md`.
+
+  Still outstanding: the live install and the highlight/note/link round-trip,
+  which need the running app and the real database.
 
 ## Near-term
 
