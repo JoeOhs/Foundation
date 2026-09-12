@@ -340,10 +340,22 @@ with no separate code path.
   not a flat card.
 - A small offset radial-gradient "facet" highlight on cards, mimicking
   light hitting one face of a cut gem.
-- A sparse star-speckle overlay across the whole app (`.app::after`,
-  tiled `radial-gradient` dots at offset `background-size`s so no grid
-  pattern emerges, `mix-blend-mode: screen` at ~half opacity) —
-  barely-there stars that survive the panes' opaque backgrounds.
+- A sparse starfield across the whole app (`.app::after`, tiled
+  `radial-gradient` dots at offset `background-size`s so no grid pattern
+  emerges, `mix-blend-mode: screen` at ~half opacity) — barely-there stars
+  that survive the panes' opaque backgrounds.
+- *(shipped)* The field is drawn in **four magnitudes** rather than one.
+  Each layer tiles at its own size, and a larger tile means fewer stars per
+  screen, so brightness and rarity move together: mag 1 at 620–700px tiles
+  (alpha ~0.9, a couple per screen) down to mag 4 at 170–210px (alpha
+  ~0.25, dense dust). The top two magnitudes are drawn as a hard ~1.5px
+  core **plus a 6–7px halo at alpha ~0.12 at the same position** — the
+  halo is what makes a star read as *brighter* rather than merely
+  *bigger*; raising alpha or radius alone just inflates it. Measured
+  luminance runs from a sky floor of 14 to 231 at the beacons, against
+  roughly 2× spread when every layer sat at the same magnitude.
+  Keep the gradient count and the `background-size` list in lockstep — a
+  mismatch silently misaligns every layer.
 - *(shipped)* The token set was darkened from the original table
   (`--bg-base: #070512`, `--bg-surface: #100b1e`) — "close to black with
   speckles of stars" needed a near-black base, not dark violet.
