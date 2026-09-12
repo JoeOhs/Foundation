@@ -25,6 +25,28 @@ interface HighlightsTabProps {
 // The palette colors offered when adding/recoloring a highlighter.
 const PALETTE = ['#f2c200', '#4caf50', '#4a90d9', '#e0669e', '#ef8b3b', '#9b6cd8', '#e5533c', '#20b2aa'];
 
+// Which highlighters the user has hidden from the list below. A pure view
+// filter — no highlight is ever removed — kept in localStorage so the
+// chosen view survives a restart.
+const HIDDEN_KEY = 'foundation.hiddenHighlighters';
+
+function loadHidden(): number[] {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(HIDDEN_KEY) ?? '[]') as unknown;
+    return Array.isArray(parsed) ? parsed.filter((n): n is number => typeof n === 'number') : [];
+  } catch {
+    return [];
+  }
+}
+
+function saveHidden(ids: number[]) {
+  try {
+    localStorage.setItem(HIDDEN_KEY, JSON.stringify(ids));
+  } catch {
+    /* a full or unavailable store just means the choice isn't remembered */
+  }
+}
+
 // An entry-anchored HighlightRow reshaped into a SelectedEntry, for
 // building note markdown / navigating the reader to it.
 function rowToSelectedEntry(r: HighlightRow): SelectedEntry {
@@ -43,6 +65,16 @@ export default function HighlightsTab({ onNavigate, onNavigateEntry, version, on
   const [editingId, setEditingId] = useState<number | null>(null);
   const [editLabel, setEditLabel] = useState('');
   const [editColor, setEditColor] = useState('');
+  const [hidden, setHidden] = useState<number[]>(() => loadHidden());
+
+  const hiddenSet = useMemo(() => new Set(hidden), [hidden]);
+  const toggleHidden = (id: number) => {
+    setHidden((prev) => {
+      const next = prev.includes(id) ? prev.filter((n) => n !== id) : [...prev, id];
+      saveHidden(next);
+      return next;
+    });
+  };
 
   const reload = useCallback(async () => {
     setHighlighters(await listHighlighters());
@@ -73,6 +105,7 @@ export default function HighlightsTab({ onNavigate, onNavigateEntry, version, on
     try {
       await deleteHighlighter(h.id);
       if (editingId === h.id) setEditingId(null);
+      if (hiddenSet.has(h.id)) toggleHidden(h.id);
       changed();
     } catch (e) {
       window.alert(`Couldn't delete the highlighter: ${String(e)}`);
@@ -107,9 +140,10 @@ export default function HighlightsTab({ onNavigate, onNavigateEntry, version, on
   // group highlighted verses under their highlighter
   const groups = useMemo(() => {
     return highlighters
+      .filter((h) => !hiddenSet.has(h.id))
       .map((h) => ({ highlighter: h, verses: rows.filter((r) => r.highlighter_id === h.id) }))
       .filter((g) => g.verses.length > 0);
-  }, [highlighters, rows]);
+  }, [highlighters, rows, hiddenSet]);
 
   return (
     <div className="highlights-tab">
@@ -145,6 +179,12 @@ export default function HighlightsTab({ onNavigate, onNavigateEntry, version, on
               <>
                 <span className="hl-swatch" style={{ background: highlightBackground(h.color), borderColor: h.color }} />
                 <span className="hl-manager-label">{h.label}</span>
+                <button
+                  className={`icon${hiddenSet.has(h.id) ? ' hl-hidden-toggle' : ''}`}
+                  onClick={() => toggleHidden(h.id)}
+                  title={hiddenSet.has(h.id) ? `Show ${h.label} highlights` : `Hide ${h.label} highlights`}
+                  aria-pressed={hiddenSet.has(h.id)}
+                >{hiddenSet.has(h.id) ? '🚫' : '👁'}</button>
                 <button className="icon" onClick={() => startEdit(h)} title="Edit">✎</button>
                 <button className="icon danger" onClick={() => removeHighlighter(h)} title="Delete">🗑</button>
               </>
@@ -157,6 +197,11 @@ export default function HighlightsTab({ onNavigate, onNavigateEntry, version, on
         {rows.length === 0 && (
           <div className="pane-empty">
             No highlights yet. Select verses in the reader and pick a highlighter color.
+          </div>
+        )}
+        {rows.length > 0 && groups.length === 0 && (
+          <div className="pane-empty">
+            Every highlighter is hidden. Use the 👁 button above to show one again.
           </div>
         )}
         {groups.map(({ highlighter, verses }) => (

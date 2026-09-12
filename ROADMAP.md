@@ -236,8 +236,11 @@ running list of what's done and what's next, not a commitment.
   upsert) from the reader action bar. Highlights persist and render across
   translations as a translucent verse background; a Highlights tab in the
   Notes panel manages the palette and lists highlighted verses grouped by
-  color with jump-to-verse and add-to-note. Works in the popped-out notes
-  window via the same cross-window events.
+  color with jump-to-verse and add-to-note. Each highlighter in the palette
+  manager carries an eye toggle that filters its group out of that list
+  (a view-only filter, remembered in `localStorage`, never touching the
+  stored highlights or the reader's rendering). Works in the popped-out
+  notes window via the same cross-window events.
 - **Verse links (bindings).** Bind two verses across panes (`links` table:
   two canonical endpoints + optional `highlighter_id` for color). Bound
   verses render a dashed outline; a Links tab in the Notes panel lists
