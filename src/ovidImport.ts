@@ -131,18 +131,25 @@ function buildParsedSource(data: BundledOvidFile): ParsedSource {
     // Book → Fable in order. Same shape as Josephus's chapterRows.
     const fableRows: ParsedTocEntry[] = [];
 
-    // Riley's apparatus, at the foot of the unit it belongs to. These carry a
-    // heading and NO position_ref, which is exactly how the pane tells them
-    // apart from the narrative: an entry with a heading but no citation of
-    // its own is apparatus attached to the block above it. entries.heading is
-    // the nullable column added for JFB's section headings, reused rather
-    // than a parallel column being invented. The heading repeats on every
-    // paragraph of a run rather than sitting on the first alone, because it
-    // is what marks the entry as apparatus at all; the pane prints the label
-    // once, at the top of the run.
+    // Riley's apparatus, at the foot of the unit it belongs to. Marked
+    // explicitly with isApparatus, which is what the pane renders on; the
+    // label itself rides on entries.heading, the nullable column added for
+    // JFB's section headings, reused rather than a parallel column invented.
+    //
+    // The flag is not redundant with the heading. These entries do happen to
+    // carry a heading and no position_ref, and the pane once inferred
+    // apparatus from exactly that — but so do Luther's printed marginal
+    // sidenotes, which are part of his text rather than notes on it. Whether
+    // a paragraph is apparatus is something only its importer knows.
+    //
+    // The heading repeats on every paragraph of a run rather than sitting on
+    // the first alone, so the run styles as one unit; the pane prints the
+    // label once, at the top.
     const pushApparatus = (chapter: number, texts: string[], heading: string) => {
       for (const text of texts) {
-        entries.push({ chapter, verse: null, position_ref: null, heading, text });
+        entries.push({
+          chapter, verse: null, position_ref: null, heading, text, isApparatus: true,
+        });
       }
     };
 

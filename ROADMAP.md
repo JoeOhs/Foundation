@@ -768,11 +768,17 @@ running list of what's done and what's next, not a commitment.
   are deliberately **not** routed to the Study footer's Commentary tab even
   though the plumbing would accept them: that tab is for works commenting on
   *the Bible* (JFB today), and Riley is commenting on a classical poem, so
-  filing him there would be a category error. The pane's rule for this is
-  generic rather than Ovid-specific — an entry carrying a heading but no
-  `position_ref` of its own is apparatus attached to the block above it —
-  which leaves Fox's named sub-entries, whose headings sit on entries that do
-  carry a citation, rendering exactly as before.
+  filing him there would be a category error.
+  **The pane is told, not left to guess** — one new column,
+  `entries.is_apparatus`, set by the importer that knows. This was originally
+  inferred instead, from "carries a heading but no `position_ref` of its
+  own", which is true of Riley's notes and equally true of Luther's printed
+  **marginal sidenotes**: 571 paragraphs across Vols. I–III that are part of
+  his text, not footnotes on it, and that the inference would have dimmed and
+  rule-separated. The branch predated Vol. III and could not have seen it.
+  The lesson is the one `entries.heading` already taught — a presentational
+  rule inferred from data that happens to correlate will find the next source
+  that correlates by accident.
   **Footnotes are captured, not excluded** — the opposite call from Josephus,
   for a concrete reason rather than a change of heart. Whiston's are dropped
   because the transcription fuses their markers onto the preceding word as

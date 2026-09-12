@@ -48,7 +48,8 @@ const SCHEMA: string[] = [
     position_ref TEXT,
     text TEXT NOT NULL,
     sort_order INTEGER NOT NULL,
-    heading TEXT
+    heading TEXT,
+    is_apparatus INTEGER NOT NULL DEFAULT 0
   )`,
   `CREATE TABLE IF NOT EXISTS notes (
     id INTEGER PRIMARY KEY,
@@ -380,6 +381,28 @@ export async function initDb(): Promise<void> {
   // backfill: no source that predates it has headings to recover.
   try {
     await db.execute('ALTER TABLE entries ADD COLUMN heading TEXT');
+  } catch {
+    /* column already present */
+  }
+  // Migration for databases created before entries could be marked as the
+  // author's or translator's apparatus rather than the work itself (Riley's
+  // "Explanation" of each fable of the Metamorphoses, and his footnotes on
+  // it). Defaults to 0, which is correct for every source that predates it.
+  // The one case it is not correct for is an Ovid installed before this
+  // column existed: its apparatus will read as ordinary narrative until the
+  // source is reinstalled from the Library ("Reinstall / repair"). Nothing is
+  // lost by leaving it — the text is all there, only the styling is — so
+  // this is not worth a backfill that would have to guess.
+  //
+  // This is a column rather than something the pane infers. It was inferred
+  // once - "has a heading but no position_ref" - and that quietly caught
+  // Luther, whose printed marginal sidenotes live in entries.heading on
+  // paragraphs with no citation of their own: 571 of them across Vols. I-III
+  // would have been dimmed and rule-separated as though they were somebody's
+  // footnotes. Whether a paragraph is apparatus is a fact about the text that
+  // only its importer knows, so the importer records it.
+  try {
+    await db.execute('ALTER TABLE entries ADD COLUMN is_apparatus INTEGER NOT NULL DEFAULT 0');
   } catch {
     /* column already present */
   }
@@ -1094,13 +1117,16 @@ export async function insertParsedSource(
     const bookId = bres.lastInsertId as number;
     for (let i = 0; i < book.entries.length; i += INSERT_BATCH) {
       const batch = book.entries.slice(i, i + INSERT_BATCH);
-      const placeholders = batch.map(() => '(?, ?, ?, ?, ?, ?, ?)').join(', ');
+      const placeholders = batch.map(() => '(?, ?, ?, ?, ?, ?, ?, ?)').join(', ');
       const params: unknown[] = [];
       batch.forEach((e, j) => {
-        params.push(bookId, e.chapter, e.verse, e.position_ref, e.text, i + j, e.heading ?? null);
+        params.push(
+          bookId, e.chapter, e.verse, e.position_ref, e.text, i + j, e.heading ?? null,
+          e.isApparatus ? 1 : 0,
+        );
       });
       await db.execute(
-        `INSERT INTO entries (book_id, chapter, verse, position_ref, text, sort_order, heading) VALUES ${placeholders}`,
+        `INSERT INTO entries (book_id, chapter, verse, position_ref, text, sort_order, heading, is_apparatus) VALUES ${placeholders}`,
         params,
       );
       done += batch.length;

@@ -659,14 +659,17 @@ function Pane({
     );
   };
 
-  // An entry carrying a heading but no citation of its own is *apparatus*
-  // attached to the block above it, not a new block: Riley's Explanation of
-  // a fable and his footnotes on it (see src/ovidImport.ts). It renders set
-  // apart — a divider and smaller type. A source whose headings sit on
-  // entries that also carry a position_ref (Fox's named sub-entries) is
-  // unaffected: there the heading is already part of the citation, and
-  // printing it twice would just be noise.
-  const isApparatus = (e: Entry) => e.heading !== null && e.position_ref === null;
+  // Apparatus is the author's or translator's own commentary attached to the
+  // block above it rather than the work itself — Riley's Explanation of a
+  // fable and his footnotes on it (see src/ovidImport.ts). It renders set
+  // apart: a divider and smaller type.
+  //
+  // The importer says so; the pane does not guess. An earlier version of this
+  // inferred it from "has a heading but no position_ref", which is true of
+  // Riley's notes and also true of Luther's printed marginal sidenotes —
+  // 571 paragraphs across Vols. I–III that are part of the text, not
+  // footnotes on it, and would have been dimmed and rule-separated.
+  const isApparatus = (e: Entry) => e.is_apparatus === 1;
 
   // `showHeading` is false for the second and later paragraphs of one run of
   // apparatus — they carry the same heading so they style alike, but the
@@ -692,8 +695,13 @@ function Pane({
             column is a wall of undifferentiated paragraphs. Ordered after
             position_ref so the pair reads broad-to-fine (the section citation,
             then the label within it). Until this landed the column was a
-            no-op for every pane source that wrote to it. */}
-        {e.heading && <div className="section-heading">{e.heading}</div>}
+            no-op for every pane source that wrote to it.
+
+            Apparatus is excluded: there the heading is the run's label and is
+            already drawn above, once for the whole run. Rendering it here too
+            printed it twice on the opening paragraph and again on every
+            paragraph after it. */}
+        {e.heading && !apparatus && <div className="section-heading">{e.heading}</div>}
         <div className="section-text">{renderText(e.text, activeChapter ?? 1)}</div>
         {noted && <span className="note-dot" title="Has notes" />}
       </div>
