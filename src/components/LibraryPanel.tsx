@@ -32,6 +32,7 @@ const CATEGORY_LABELS: { category: SourceCategory; label: string }[] = [
   { category: 'patristic', label: 'Church Fathers' },
   { category: 'rabbinic', label: 'Rabbinic literature' },
   { category: 'reformation', label: 'Reformation works' },
+  { category: 'apologetics', label: 'Apologetics' },
   { category: 'imported', label: 'Imported' },
 ];
 

@@ -645,6 +645,76 @@ running list of what's done and what's next, not a commitment.
   which are joined back with " — "; read one-heading-per-section they would
   have produced empty sections and silently dropped the chapter numbering.
 
+- **G.K. Chesterton — Christian Apologetics.** Four of Chesterton's works of
+  apologetics and theology as a freeform, `position_ref`-anchored library work
+  in the same mould as Josephus, the Talmud, the martyrology and Luther —
+  read straight through under a hand-built table of contents, never keyed to
+  Bible book/chapter/verse. *Heretics* (1905), *Orthodoxy* (1908),
+  *St. Francis of Assisi* (1923) and *The Everlasting Man* (1925): 918
+  paragraphs across 58 chapters.
+  **His apologetics only.** Chesterton also wrote detective fiction, poetry
+  and a great deal of social criticism, and none of it is here. That is the
+  point of the entry rather than a gap in it: a Library row meaning
+  "Chesterton's Christian writings" stops meaning anything the moment Father
+  Brown is filed under it.
+  **A new `apologetics` category**, parallel to `patristic`, `rabbinic` and
+  `reformation`, each of which became its own category once its content
+  stopped fitting anywhere else. Deliberately *not* `historical` — that stays
+  an actual historian's narrative, Josephus and the martyrology, where
+  Chesterton is arguing a case rather than narrating events — and *not*
+  `commentary`, which is reserved for works commenting on the Bible itself,
+  which these do not do verse by verse. Named for the **genre rather than for
+  Chesterton**, so other public-domain apologists can file here later without
+  reopening the question.
+  `type: 'extra-biblical'`, the same behavioural bucket as Josephus and
+  Luther — its own pane, no sync group, out of verse-scoped search. An
+  **"Apologetics" search scope chip** sits alongside the existing ones;
+  `searchAll` already filters on `sources.category` generically, so the chip
+  needed no query change.
+  **One compound source, not four Library rows** — Josephus's precedent
+  rather than Luther's one-source-per-volume. Four near-identical rows would
+  be Library clutter for what is really one shelf, the same reasoning that
+  keeps the Wars, the Antiquities, the Life and Against Apion under a single
+  Josephus row. **One `books` row per title**, and a two-level
+  **Title → Chapter TOC** on the existing `ParsedTocEntry.bookIndex` /
+  grouping-row machinery, no `toc_entries` schema change. Unlike Josephus's
+  "Work" row the title row is jumpable rather than a bare grouping heading:
+  here one title is exactly one book, so the row has an obvious place to
+  open. A chapter index becomes `entries.chapter` purely as a *loading* unit,
+  so the pane fetches one chapter at a time. Paragraph-per-entry granularity,
+  since highlights, notes and links all need a paragraph-sized selection unit.
+  **The Everlasting Man's parts are folded into the chapter label**
+  ("Part 1, Chapter 3") rather than given a TOC level of their own. The
+  machinery would carry a third level quite happily — Josephus uses one — but
+  it is the only one of the four books with parts, and a dropdown whose depth
+  changes between books reads as a glitch. Its prefatory note, introduction,
+  conclusion and two appendices are all Chesterton's own writing and are all
+  kept, labelled as themselves.
+  **Built by `tools/chesterton/build.mjs`, which hard-fails rather than
+  shipping a doubtful text**: on licence (a file carrying none of Project
+  Gutenberg's licence boilerplate), on authorship (a header not declaring
+  `Author: G. K. Chesterton`, or not naming the title asked for — so a
+  mistyped ebook number fails loudly instead of shipping somebody else's
+  book), and on structure (each book's chapter count, a title on every
+  numbered chapter, and a word-count floor per chapter, so a Gutenberg
+  re-release that changes a heading's spelling fails the build instead of
+  quietly shipping a book with half its chapters swallowed into the one
+  before). **Four parsers, not one sniffer**: the four transcriptions mark
+  their chapters four different ways — a bare `I.  Title` line, a
+  `CHAPTER I.--_Title_` line, a `CHAPTER I` line with its title beneath, an
+  indented `_Chapter I_` / `_Title_` pair — and there is no honest common
+  regex, so each book gets its own small named parser. Gutenberg's boilerplate
+  and each transcription's non-Chesterton matter (the repeated tables of
+  contents, *Heretics*'s transcriber-written biography, *The Everlasting
+  Man*'s transcriber's note, *St. Francis*'s publisher catalogue and
+  printer's colophon) are stripped and never reach `entries.text`.
+  **Provenance:** Project Gutenberg, the same trust basis as Josephus and
+  Fox's Book of Martyrs — *Heretics* (1905, ebook #470), *Orthodoxy* (1908,
+  #16769), *St. Francis of Assisi* (1923, #63084) and *The Everlasting Man*
+  (1925, #65688). All four were published in 1925 or earlier and are public
+  domain in the US. No disclaimer accompanies this source: unlike the two
+  Talmuds it is not an exception to the Library's public-domain rule.
+
 ## Near-term
 
 - **Remote-fetched manifest.** The library list is currently bundled with the
@@ -1342,6 +1412,20 @@ running list of what's done and what's next, not a commitment.
   searched for verbatim in the built text with zero matches.
 
 ## Longer-term / exploratory
+
+- **Further Chesterton titles, if their public-domain status is
+  independently confirmed.** *St. Thomas Aquinas* (1933) and *The Catholic
+  Church and Conversion* (1926). Neither is on Project Gutenberg as of the
+  Chesterton build, and Aquinas sits close enough to the rolling US
+  public-domain cutoff (published 1930 or earlier → public domain as of
+  1 January 2026) that it must not be eyeballed. Pinned, not built:
+  `assertGutenbergPublicDomain()` in `tools/chesterton/build.mjs` is the gate
+  that decides either of them, not manual judgement.
+- **Other public-domain Christian apologists** as candidates for the same
+  `apologetics` category — which is why it is named for the genre rather
+  than for Chesterton. **C.S. Lewis is not a candidate**: most of his work is
+  still in copyright, and no amount of wanting *Mere Christianity* on the
+  shelf changes that.
 
 - **Volumes IV–VI of the Philadelphia Edition.** Blocked on US copyright,
   not on effort — see the investigation below. Vol. III shipped; IV and V

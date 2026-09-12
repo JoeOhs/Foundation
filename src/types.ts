@@ -39,6 +39,15 @@ export type SourceCategory =
   // collection is not) — the same reasoning that made 'patristic' and
   // 'rabbinic' their own categories.
   | 'reformation'
+  // Christian apologetics — Chesterton today, with other public-domain
+  // apologists to follow. Named for the genre rather than for Chesterton so
+  // a second apologist doesn't reopen the question. Deliberately not
+  // 'historical' (which stays Josephus and the martyrology: an actual
+  // historian's narrative, where this is a case being argued) and not
+  // 'commentary' (reserved for works commenting on the Bible, which these
+  // don't do verse by verse) — the same reasoning that made 'patristic',
+  // 'rabbinic' and 'reformation' their own categories.
+  | 'apologetics'
   | 'imported';
 
 export interface Source {
