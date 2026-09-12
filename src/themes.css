@@ -295,9 +295,16 @@ body::after {
   box-shadow: 0 0 16px rgba(79, 215, 196, 0.5);
 }
 
-/* Star speckles over the whole app — two tiled dot layers at offset sizes
-   so the pattern doesn't read as a grid. screen blend = pinpricks of light
-   on the near-black violet; far too sparse/faint to disturb reading. */
+/* Starfield over the whole app, in four magnitudes so the sky has depth
+   instead of reading as one uniform speckle. Each layer tiles at its own
+   size, and a larger tile means fewer stars per screen — so brightness and
+   rarity move together, the way a real sky looks: many faint, a handful
+   bright.
+
+   The two brightest magnitudes are drawn as a hard core plus a wide, very
+   low-alpha halo at the same position, which is what makes them read as
+   *brighter* rather than merely *bigger*. screen blend = pinpricks of
+   light on the near-black violet; still far too sparse to disturb reading. */
 [data-theme='midnight'] .app::after {
   content: "";
   position: fixed;
@@ -307,13 +314,35 @@ body::after {
   mix-blend-mode: screen;
   opacity: calc(0.55 * var(--texture-opacity));
   background-image:
-    radial-gradient(circle 1px at 20% 30%, rgba(200,185,255,0.65), transparent 1.5px),
-    radial-gradient(circle 1px at 70% 65%, rgba(139,110,242,0.5), transparent 1.5px),
-    radial-gradient(circle 1.5px at 45% 80%, rgba(79,215,196,0.4), transparent 2px),
-    radial-gradient(circle 1px at 85% 15%, rgba(242,163,208,0.45), transparent 1.5px),
-    radial-gradient(circle 1px at 10% 60%, rgba(200,185,255,0.4), transparent 1.5px),
-    radial-gradient(circle 1.5px at 60% 40%, rgba(255,255,255,0.35), transparent 2px);
-  background-size: 210px 210px, 260px 260px, 330px 330px, 290px 290px, 240px 240px, 370px 370px;
+    /* mag 1 — two rare beacons: core + bloom halo */
+    radial-gradient(circle 1.6px at 72% 24%, rgba(255,255,255,0.95), transparent 2.2px),
+    radial-gradient(circle 7px at 72% 24%, rgba(200,185,255,0.13), transparent 9px),
+    radial-gradient(circle 1.5px at 23% 71%, rgba(226,244,255,0.90), transparent 2.1px),
+    radial-gradient(circle 6px at 23% 71%, rgba(139,110,242,0.12), transparent 8px),
+    /* mag 2 — bright, with a tighter halo */
+    radial-gradient(circle 1.3px at 45% 80%, rgba(79,215,196,0.72), transparent 1.9px),
+    radial-gradient(circle 4px at 45% 80%, rgba(79,215,196,0.09), transparent 5.5px),
+    radial-gradient(circle 1.2px at 85% 15%, rgba(242,163,208,0.68), transparent 1.8px),
+    radial-gradient(circle 4px at 85% 15%, rgba(242,163,208,0.08), transparent 5.5px),
+    /* mag 3 — the ordinary field */
+    radial-gradient(circle 1px at 20% 30%, rgba(200,185,255,0.48), transparent 1.5px),
+    radial-gradient(circle 1px at 60% 40%, rgba(255,255,255,0.42), transparent 1.5px),
+    radial-gradient(circle 1px at 10% 60%, rgba(200,185,255,0.38), transparent 1.5px),
+    /* mag 4 — faint dust, densest tiles */
+    radial-gradient(circle 0.8px at 70% 65%, rgba(139,110,242,0.30), transparent 1.2px),
+    radial-gradient(circle 0.8px at 33% 12%, rgba(200,185,255,0.26), transparent 1.2px),
+    radial-gradient(circle 0.7px at 88% 52%, rgba(226,244,255,0.24), transparent 1.1px);
+  background-size:
+    620px 620px, 620px 620px,   /* mag 1 — rarest */
+    700px 700px, 700px 700px,
+    430px 430px, 430px 430px,   /* mag 2 */
+    390px 390px, 390px 390px,
+    290px 290px,                /* mag 3 */
+    330px 330px,
+    260px 260px,
+    190px 190px,                /* mag 4 — densest */
+    170px 170px,
+    210px 210px;
 }
 [data-texture="off"][data-theme='midnight'] .app::after {
   display: none;
