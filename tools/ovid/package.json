@@ -1,0 +1,11 @@
+{
+  "name": "ovid-builder",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Standalone data-prep script: downloads Ovid's Metamorphoses in Henry T. Riley's public-domain 1851 prose translation from Project Gutenberg (ebooks 21765 and 26073) and builds the importable JSON bundle for Foundation's Library. Not part of the Tauri app runtime.",
+  "scripts": {
+    "build": "node build.mjs",
+    "inspect": "node build.mjs --inspect"
+  }
+}
