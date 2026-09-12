@@ -204,6 +204,19 @@ running list of what's done and what's next, not a commitment.
   Appearance popover (`data-texture="off"` on `<html>`, persisted via
   `loadPref`/`savePref`). Auto-defaults to off when `prefers-reduced-motion`
   or `prefers-contrast: more` is set.
+- **Cosmic reworked** (`docs/THEMES.md` § 3 updated; the original spec is
+  kept there under a collapsed section). Live testing showed the black base
+  with full-strength cyan and pink read as unserious, and the scattered
+  nebula was invisible behind opaque panes. Now violet-bodied with one
+  bottom-anchored oval and a vignette, panes at 60% opacity so the glow
+  carries across the frame (13.3:1 / 9.7:1 reading contrast, both clear of
+  AAA; `data-texture="off"` restores opaque panes), muted cyan as the single
+  accent, and pink reserved for the Strong's glow and its word hover. A
+  dev-only harness lives at the repo root — `themelab.html` renders the real
+  stylesheets against representative markup, `themelab-compare.html` frames
+  it twice for side-by-side theme comparison, and `themelab-legacy.css`
+  holds the superseded Cosmic for that purpose. None of the three is
+  referenced by the app or included in its bundle.
 - **Highlighters.** Labeled, editable palette (`highlighters` table) applied
   to verses (`highlights`, one color per canonical verse, unique-indexed
   upsert) from the reader action bar. Highlights persist and render across

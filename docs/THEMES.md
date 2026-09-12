@@ -100,7 +100,54 @@ highlight background.
 
 ---
 
-## 3. Cosmic — black with vaporwave color
+## 3. Cosmic — violet with a bottom-anchored glow
+
+Revised after live testing; the original spec (deep-black base, full-strength
+cyan and pink across the UI, a twelve-ellipse nebula) is kept below for
+reference. The black base plus hot accents read as unserious in long use, and
+the scattered nebula was invisible behind opaque panes.
+
+| Token | Value | Use |
+|---|---|---|
+| `--bg-base` | `#241736` | shell |
+| `--bg-surface` | `#3a2358` | panes |
+| `--bg-surface-raised` | `#452a68` | modals |
+| `--bg-hover` | `#4d3178` | hover |
+| `--border` | `#55397e` | dividers |
+| `--border-strong` | `#5fc9db` | active pane |
+| `--text-primary` | `#f0e9fb` | reading text |
+| `--text-secondary` | `#b39ddb` | labels |
+| `--text-muted` | `#7a5f9e` | footnotes |
+| `--accent-primary` | `#5fc9db` | links — muted cyan; full `#00e5ff` is too loud on 2px outlines |
+| `--accent-secondary` | `#ff6ec7` | Strong's glow (pink) — the only place pink appears |
+| `--accent-tertiary` | `#00e5ff` | rare — full-strength cyan detail |
+| `--scrollbar-thumb` | `#55397e` | |
+| `--gradient-shell` | cyan glow at `50% 100%` over a radial base, lightest at the bottom centre, darkest in the upper corners | |
+
+Three rules carry the theme:
+
+- **One oval, anchored to the bottom.** `ellipse 88% 68% at 50% 100%` on
+  `body::before`, with a vignette beneath it deepening to
+  `rgba(8,0,18,0.78)` at the edges, so light falls off into dark instead of
+  ending in a band. The same oval is screened faintly over the app on
+  `.app::after`.
+- **Panes at 60% opacity** (`color-mix` with `--bg-surface`), so the oval
+  reads through the whole frame rather than only in the shell gaps. This is
+  what makes the glow visible at all — with opaque panes the gradient is
+  effectively hidden, whatever its shape. Reading contrast measures 13.3:1
+  at the top of a column and 9.7:1 at the lit bottom, both clear of AAA.
+  `data-texture="off"` restores fully opaque panes.
+- **Violet carries the UI, cyan is the single accent, pink is reserved for
+  Strong's** — including `.strongs-word:hover`, which needs a per-theme
+  override because `--accent-soft` derives from `--accent-primary` and would
+  otherwise hover washed-out cyan.
+
+Signature detail: the oval drifts vertically 2.5% over 20s
+(`prefers-reduced-motion` disables it). One moving element, not several.
+
+<details>
+<summary>Original spec (superseded)</summary>
+
 
 The boldest theme. Deep black base keeps it usable for long reading; the
 vaporwave palette lives in accents and the shell gradient only.
@@ -126,6 +173,8 @@ Signature detail: this is the one theme worth a *very* restrained animated
 touch — the pink radial glow in the header can drift 2–3% over 20s
 (`prefers-reduced-motion` disables it entirely). Everything else in this
 theme stays still; one moving element, not several.
+
+</details>
 
 ---
 
@@ -299,15 +348,14 @@ with no separate code path.
   (`--bg-base: #070512`, `--bg-surface: #100b1e`) — "close to black with
   speckles of stars" needed a near-black base, not dark violet.
 
-**Cosmic — galactic nebula** *(shipped direction — replaced the original
-"synthwave grid" concept, which read as scanlines rather than "cosmic")*
-- A nebula field of soft radial/conic gradient patches on `body::before`
-  (behind the panes), visible through shell gaps, with the slow 20s drift
-  animation.
-- A *very* faint full-viewport nebula wash on `.app::after`
-  (`mix-blend-mode: screen`, alphas ≤0.06, huge soft ellipses only — hard
-  edges or higher alphas bleed color into the reading panes) so the
-  galactic feel carries over the panes without touching legibility.
+**Cosmic — one bottom-anchored glow** *(current; replaced the scattered
+nebula field, which opaque panes hid almost entirely)*
+- A single oval on `body::before` centred at `50% 100%`, plus a vignette
+  darkening the outer edges, with the slow 20s vertical drift.
+- The same oval screened faintly over the app on `.app::after`
+  (`mix-blend-mode: screen`, alphas ≤0.11).
+- Translucent panes are part of the effect, not a separate decision — see
+  § 3 above.
 
 **Sunset — lava and ember**
 - Grain tinted orange/red here specifically (`--grain-tint: sepia(1) saturate(3) hue-rotate(-20deg)`), so it reads as ash/heat-shimmer.
