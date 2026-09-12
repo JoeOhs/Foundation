@@ -1047,7 +1047,9 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
     license: 'public domain',
     licenseDetail:
       `Volume ${vol.roman} of "Works of Martin Luther, with Introductions and Notes" — the `
-      + `Philadelphia Edition, A. J. Holman Company, ${vol.year}, in which a team of Lutheran `
+      + `Philadelphia Edition, ${vol.digitisation.kind === 'archive'
+        ? 'A. J. Holman Company and The Castle Press'
+        : 'A. J. Holman Company'}, ${vol.year}, in which a team of Lutheran `
       + 'scholars (Henry Eyster Jacobs, Adolph Spaeth, Charles M. Jacobs, A. T. W. Steinhaeuser, '
       + 'J. J. Schindel, W. A. Lambert, A. Steimle and others) translated Luther directly from the '
       + `German and Latin. ${vol.treatises} treatises, sermons and open letters, one book each`
@@ -1055,10 +1057,30 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       + ', under a Work → Section table of contents, one entry per paragraph so any passage can be '
       + 'highlighted, annotated and bound. Each work keeps its own scholarly introduction and its '
       + 'translator\'s signature; the editors\' numbered footnotes are excluded from the text and '
-      + 'logged to tools/luther/luther-exclusions.txt. Public domain — US copyright on a '
-      + `${vol.year} publication has long expired — digitised by Project Gutenberg `
-      + `(ebook #${vol.gutenbergId}), produced by Michael McDermott from Internet Archive scans. `
-      + 'Built by tools/luther/build.mjs, which refuses any file that does not name this edition '
+      + 'logged to tools/luther/luther-exclusions.txt. '
+      + (vol.digitisation.kind === 'archive'
+        // Volume III's provenance is genuinely different from I–II's and is
+        // spelled out rather than smoothed over: a later printing, a
+        // different imprint, a different route to public domain, and a text
+        // recovered from OCR rather than from a proof-read transcription.
+        ? 'This volume carries the A. J. Holman Company and The Castle Press imprint, which the '
+          + 'set adds from Volume III on; its title page prints no edition name, and the name '
+          + '"Philadelphia Edition" in fact belongs to the later Muhlenberg Press reprint. Public '
+          + 'domain — published 1930, so its 95-year US copyright term expired on 1 January 2026. '
+          + 'That date is read off the printed copyright notice, not from Internet Archive\'s '
+          + 'catalogue record, which gives the six-volume set\'s date of 1915 and is wrong for '
+          + `this volume. Text recovered from the page scan (${vol.digitisation.iaIdentifier}, `
+          + 'Princeton Theological Seminary copy) by tools/luther/vol3-normalise.mjs, which '
+          + 'rebuilds the printed marginal notes and footnotes from the scan\'s own page geometry '
+          + 'and is checked against two further scans of the volume. Being OCR rather than a '
+          + 'transcription, it carries occasional misread words; marginal Scripture references '
+          + 'are kept only where they resolve to a real book and chapter, and the rest are '
+          + 'dropped and logged rather than shown wrong.'
+        : 'Public domain — US copyright on a '
+          + `${vol.year} publication has long expired — digitised by Project Gutenberg `
+          + `(ebook #${vol.digitisation.gutenbergId}), produced by Michael McDermott from `
+          + 'Internet Archive scans.')
+      + ' Built by tools/luther/build.mjs, which refuses any file that does not name this edition '
       + 'and volume, and refuses to drop a single paragraph without logging it.',
     install: installLutherVolume(vol),
   })),
@@ -1093,14 +1115,20 @@ export const SERIES_NOTES: Record<string, string> = {
     + 'completeness decided it, as it did for the Bavli. Guggenheimer’s footnotes are not '
     + 'included: Sefaria splices them into the middle of the translated sentence, and this '
     + 'Library’s reading column is plain text.',
-  // Two of the edition's six volumes, said plainly in the panel itself so the
-  // section never reads as the complete Works. III–VI are not on Gutenberg —
-  // they exist as page scans and need an OCR pass, not this importer.
+  // Three of the edition's six volumes, said plainly in the panel itself so
+  // the section never reads as the complete Works — and the reason the other
+  // three are absent is stated too, because "not yet available" and "still in
+  // copyright until a named date" are different things and the second is the
+  // true one here.
   'Works of Martin Luther (Philadelphia Edition)':
-    'Volumes I and II of six. These are the two volumes Project Gutenberg has digitised as clean '
-    + 'transcribed text (#31604 and #34904); Volumes III–VI survive only as page-scanned images on '
-    + 'the Internet Archive, which needs a transcription pass of its own before they can ship. '
-    + 'Public domain throughout — no licence restriction, unlike the Talmud above.',
+    'Volumes I to III of six. Volumes I and II come from Project Gutenberg\'s transcriptions '
+    + '(#31604 and #34904); Volume III has no transcription and is recovered from Internet Archive '
+    + 'page scans by OCR, so it reads a little rougher than the two before it. Volumes IV–VI are '
+    + 'not here because they are still under US copyright: IV and V (1931) until 1 January 2027, '
+    + 'VI (1932) until 1 January 2028 — and Volume V\'s copyright was renewed, so its date is '
+    + 'certain. Everything installed here is public domain, with no licence restriction, unlike '
+    + 'the Talmud above. Note that "Philadelphia Edition" is the name the later Muhlenberg Press '
+    + 'reprint gave the set; the original Holman printings carry no edition name of their own.',
   'Ante-Nicene Fathers':
     'Volume 10 (General Index) intentionally omitted — use Foundation\'s full-text search (scope: Church Fathers or All sources) to find content across all installed volumes.',
   'Nicene and Post-Nicene Fathers, Series I':

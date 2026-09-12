@@ -1,0 +1,834 @@
+Luther Vol. III — hOCR normalisation report
+
+Generated: 2026-09-06T16:11:18.930Z
+Primary scan: worksofmartinlut03luth_0 — Holman & Castle Press printing (Princeton Theological Seminary copy)
+
+hOCR pages: 478 (461 carrying text)
+OCR lines total: 17900
+  body: 13851
+  footnote: 1063
+  running heads (dropped): 310
+  marginal notes: 736
+  display-page lines not used in a title: 21
+  lines on pages with no text block (dropped): 1443
+
+Marginal Scripture citations kept: 415
+Marginal Scripture citations dropped as unresolvable: 104
+Marginal topic notes kept as [Sidenote: ...]: 95
+Marginal notes dropped as unreadable: 122
+
+--- cross-scan control ---
+Two further scans of this volume (the Muhlenberg Press reprint of the same
+text) are read as a control on the primary. They are not imported: their
+pagination and line breaks differ, and only the Holman & Castle Press
+printing carries this volume's own imprint and copyright notice.
+  worksofmartinlut03luth: 476 pages, 3 display pages, 9698 distinct words, 94.4% also seen in the primary
+  worksofmartinlut0003vari: 480 pages, 5 display pages, 7775 distinct words, 96.6% also seen in the primary
+
+--- display pages (work boundaries as the scan presents them) ---
+  hOCR page 11: AN ARGUMENT DEFENSE OF ALL THE ARTICLES OF MARTIN LUTHER IN THE ROMAN BULL
+  hOCR page 123: THE MAGNIFICAT TRANSLATED AND EXPLAINED
+  hOCR page 207: AN EARNEST EXHORTATION FOR ALL CHRISTIANS, WARNING THEM AGAINST INSURRECTION AND REBELLION
+  hOCR page 229: SECULAR AUTHORITY TO WHAT EXTENT IT SHOULD BE OBEYED
+  hOCR page 281: LUTHER’S WRITINGS AGAINST EMSER I. TO THE LEIPZIG GOAT
+  hOCR page 293: II. REPLY TO THE ANSWER OF THE LEIPZIG GOAT
+  hOCR page 313: Ill. MARTIN LUTHER’S ANSWER SUPERCHRISTIAN, SUPERSPIRITUAL, AND SUPERLEARNED BOOK OF GOAT EMSER OF LEIPZIG WITH A GLANCE AT HIS COMRADE MURNER
+  hOCR page 409: TO THE KNIGHTS OF THE TEUTONIC ORDER AN EXHORTATION THAT THEY LAY ASIDE FALSE CHASTITY AND TAKE UPON THEM THE TRUE CHASTITY OF WEDLOCK
+  hOCR page 435: INDEX SCRIPTURE REFERENCES
+
+--- marginal Scripture citations kept, as printed -> as emitted ---
+Emitted with the canonical book name rather than the printed
+abbreviation. The printed form is itself OCR and is often damaged, so a
+resolved reference is the honest thing to carry; the printed form is
+kept here beside it so any resolution can be checked.
+  p22: "Luke 24:39" -> Luke 24:39
+  p24: "Matt. 9:2" -> Matthew 9:2
+  p24: "Matt. 13:58" -> Matthew 13:58
+  p24: "Mark I1:24" -> Mark 11:24
+  p24: "Jas. 1:5 ff." -> James 1:5 ff.
+  p25: "Rom. 14:28" -> Romans 14:28
+  p25: "Mark 16:16" -> Mark 16:16
+  p25: "Acts 8:36 £." -> Acts 8:36 ff.
+  p26: "Rom. 10:10" -> Romans 10:10
+  p26: "Rom. 4:3" -> Romans 4:3
+  p26: "Gen. 15:6" -> Genesis 15:6
+  p27: "Mark 16:16" -> Mark 16:16
+  p27: "Matt. 24:18" -> Matthew 24:18
+  p30: "Acts 15:11" -> Acts 15:11
+  p31: "Rom. 7:7" -> Romans 7:7
+  p31: "Gal. 5:17" -> Galatians 5:17
+  p31: "Rom. 7:18 f." -> Romans 7:18 f.
+  p32: "Rom. 6:12" -> Romans 6:12
+  p32: "Gen. 3:15" -> Genesis 3:15
+  p32: "Gal. 5:24" -> Galatians 5:24
+  p32: "1 Pet. 2:11" -> 1 Peter 2:11
+  p32: "Rom. 9:22 £." -> Romans 9:22 ff.
+  p34: "Col. 3:5" -> Colossians 3:5
+  p34: "Rom. 8:13" -> Romans 8:13
+  p34: "Rom. 7:22" -> Romans 7:22
+  p35: "Gal. 5:18 ff." -> Galatians 5:18 ff.
+  p35: "1 John 1:8" -> 1 John 1:8
+  p35: "Heb. 12:1" -> Hebrews 12:1
+  p35: "John 15:3" -> John 15:3
+  p35: "John 15:5" -> John 15:5
+  p35: "Ps, 51:10" -> Psalms 51:10
+  p36: "Ps. 19:12" -> Psalms 19:12
+  p36: "Eph. 4:19" -> Ephesians 4:19
+  p36: "Luke 10:34 f." -> Luke 10:34 f.
+  p37: "2 Cor. 3:18" -> 2 Corinthians 3:18
+  p37: "Matt. 6:9 f." -> Matthew 6:9 f.
+  p38: "Rom. 7:25" -> Romans 7:25
+  p38: "Matt. 5:22" -> Matthew 5:22
+  p38: "Rom. 7:7" -> Romans 7:7
+  p38: "Eph. 4:14" -> Ephesians 4:14
+  p40: "Rom. 8:1" -> Romans 8:1
+  p40: "Rom. 7:14 ff." -> Romans 7:14 ff.
+  p41: "Rom. 3:24 ff." -> Romans 3:24 ff.
+  p43: "2 Pet. 3:13" -> 2 Peter 3:13
+  p43: "Eph. 5:26" -> Ephesians 5:26
+  p44: "Exod. 13:18" -> Exodus 13:18
+  p44: "Ps. 105:37" -> Psalms 105:37
+  p45: "1 John 4:18" -> 1 John 4:18
+  p45: "Ps, 2:5" -> Psalms 2:5
+  p45: "Ps. 6:2 f." -> Psalms 6:2 f.
+  p45: "Prov. 28:1" -> Proverbs 28:1
+  p45: "Deut. 28:65" -> Deuteronomy 28:65
+  p45: "Ps. 112:73" -> Psalms 112:73
+  p46: "Matt. 5:18" -> Matthew 5:18
+  p46: "John 8:11" -> John 8:11
+  p46: "Matt. 9:2" -> Matthew 9:2
+  p46: "Matt. 5:17" -> Matthew 5:17
+  p47: "Ps. 89:32" -> Psalms 89:32
+  p47: "1 Cor. 13:31" -> 1 Corinthians 13:31
+  p50: "1 Tim. 4:1" -> 1 Timothy 4:1
+  p51: "1 Cor. 15:56" -> 1 Corinthians 15:56
+  p52: "Matt. 21:21" -> Matthew 21:21
+  p55: "Rev. 3:20" -> Revelation 3:20
+  p55: "Acts 9:3 ff." -> Acts 9:3 ff.
+  p55: "Isa. 41:3" -> Isaiah 41:3
+  p55: "Luke 1:28 ff," -> Luke 1:28 ff.
+  p57: "Matt. 16:19" -> Matthew 16:19
+  p60: "Ps. 19:12" -> Psalms 19:12
+  p62: "Matt. 9:2" -> Matthew 9:2
+  p62: "Luke 7:50" -> Luke 7:50
+  p63: "Matt. 16:19" -> Matthew 16:19
+  p64: "Rom. 3:24;; 5:15 fi." -> Romans 3:24; 5:15 ff.
+  p64: "Ps, 25:11" -> Psalms 25:11
+  p64: "Isa. 48:9,; 10" -> Isaiah 48:9; 48:10
+  p65: "Matt. 8:8" -> Matthew 8:8
+  p65: "Mark 9:23" -> Mark 9:23
+  p65: "Matt. 8:13" -> Matthew 8:13
+  p66: "Mark 16:16" -> Mark 16:16
+  p67: "Mark 16:16" -> Mark 16:16
+  p69: "Eph. 4:5" -> Ephesians 4:5
+  p70: "2 Cor. 10:18" -> 2 Corinthians 10:18
+  p70: "1 Cor. 4:4" -> 1 Corinthians 4:4
+  p70: "Ps, 19:12" -> Psalms 19:12
+  p72: "Rom. 5:1" -> Romans 5:1
+  p72: "Acts 15:9" -> Acts 15:9
+  p72: "Rom. 14:23" -> Romans 14:23
+  p73: "1 Cor. 11:28" -> 1 Corinthians 11:28
+  p73: "Ps. 19:12" -> Psalms 19:12
+  p73: "1 Cor. 4:4" -> 1 Corinthians 4:4
+  p74: "Gal. 1:8" -> Galatians 1:8
+  p74: "Matt. 26:26 £." -> Matthew 26:26 ff.
+  p74: "Luke 22:19 f." -> Luke 22:19 f.
+  p75: "1 Cor. 10:17" -> 1 Corinthians 10:17
+  p75: "1 Cor. 11:28 ff." -> 1 Corinthians 11:28 ff.
+  p79: "Luke 22:19" -> Luke 22:19
+  p82: "2 Thess. 2:3" -> 2 Thessalonians 2:3
+  p82: "Matt. 24:5" -> Matthew 24:5
+  p82: "Matt. 24:24" -> Matthew 24:24
+  p83: "1 Cor. 6:12" -> 1 Corinthians 6:12
+  p83: "Ps. 89:32" -> Psalms 89:32
+  p85: "Rev. 17:8" -> Revelation 17:8
+  p85: "Gal. 1:8" -> Galatians 1:8
+  p85: "2 Thess. 2:4" -> 2 Thessalonians 2:4
+  p89: "Matt. 16:18" -> Matthew 16:18
+  p90: "1 Pet. 5:9" -> 1 Peter 5:9
+  p94: "Acts 8:14" -> Acts 8:14
+  p94: "Acts 1:21 fi." -> Acts 1:21 ff.
+  p95: "Eph. 4:4 f." -> Ephesians 4:4 f.
+  p95: "Matt. 16:19" -> Matthew 16:19
+  p98: "Matt. 24:15, 24" -> Matthew 24:15, 24
+  p98: "Matt. 23:10" -> Matthew 23:10
+  p98: "Jas. 3:1" -> James 3:1
+  p99: "2 Pet. 2:1" -> 2 Peter 2:1
+  p100: "2 Cor. 3:6" -> 2 Corinthians 3:6
+  p100: "Rom. 8:2" -> Romans 8:2
+  p102: "Gal. 1:8" -> Galatians 1:8
+  p104: "Eph. 4:4 ff." -> Ephesians 4:4 ff.
+  p105: "Isa. 64:6" -> Isaiah 64:6
+  p105: "Ps. 143:2" -> Psalms 143:2
+  p106: "Matt. 7:17" -> Matthew 7:17
+  p106: "Gen. 4:4 £." -> Genesis 4:4 ff.
+  p106: "Isa. 59:2" -> Isaiah 59:2
+  p106: "Ps. 143:2" -> Psalms 143:2
+  p108: "Ps. 143:2" -> Psalms 143:2
+  p110: "John 18:28" -> John 18:28
+  p110: "Acts 7:52" -> Acts 7:52
+  p113: "Ps. 19:12" -> Psalms 19:12
+  p113: "Rom. 3:19 f." -> Romans 3:19 f.
+  p113: "Mic. 2:9" -> Micah 2:9
+  p114: "Rom. 14:23" -> Romans 14:23
+  p114: "Matt. 24:15" -> Matthew 24:15
+  p115: "Gen. - 6:3;; 8:21" -> Genesis 6:3; 8:21
+  p115: "Gen. 6:3" -> Genesis 6:3
+  p115: "Gal. 5:17" -> Galatians 5:17
+  p116: "2 Pet. 2:1" -> 2 Peter 2:1
+  p117: "2 Thess. 2:10" -> 2 Thessalonians 2:10
+  p118: "Matt. 12:32" -> Matthew 12:32
+  p118: "Mark 3:29" -> Mark 3:29
+  p130: "Prov. 2I:I" -> Proverbs 21:1
+  p130: "1 Sam. 26:9" -> 1 Samuel 26:9
+  p130: "Ps. 82:6" -> Psalms 82:6
+  p130: "Zeph. 3:3" -> Zephaniah 3:3
+  p130: "Jer. 51:34" -> Jeremiah 51:34
+  p130: "Ezek. 14:21" -> Ezekiel 14:21
+  p130: "Rom. 12:8" -> Romans 12:8
+  p134: "Prov. 30:13" -> Proverbs 30:13
+  p134: "Rom. 12:16" -> Romans 12:16
+  p135: "Ps. 21:6" -> Psalms 21:6
+  p135: "Ps. 45:17" -> Psalms 45:17
+  p137: "Ps. 34:8" -> Psalms 34:8
+  p138: "1 Thess. 5:23" -> 1 Thessalonians 5:23
+  p138: "Ps. 51:10" -> Psalms 51:10
+  p138: "Ps. 78:37" -> Psalms 78:37
+  p143: "Mark 9:23" -> Mark 9:23
+  p143: "Matt. 17:20" -> Matthew 17:20
+  p143: "Ps. 49:18" -> Psalms 49:18
+  p146: "Phil. 4:12" -> Philippians 4:12
+  p146: "Ps. 49:18" -> Psalms 49:18
+  p146: "John 6:26" -> John 6:26
+  p149: "Num. 11:4ff." -> Numbers 11:4 ff.
+  p150: "Prov. 25:6" -> Proverbs 25:6
+  p151: "Ps. 116:10" -> Psalms 116:10
+  p151: "Zech. 12:4" -> Zechariah 12:4
+  p151: "Ps. 32:8" -> Psalms 32:8
+  p151: "1 Cor. 1:27f," -> 1 Corinthians 1:27 f.
+  p154: "Luke 1:29" -> Luke 1:29
+  p154: "Matt. 5:20; 18:9" -> Matthew 5:20; 18:9
+  p154: "Gen. 3:7" -> Genesis 3:7
+  p155: "Ps. 113:6" -> Psalms 113:6
+  p156: "Jer. 9:23f." -> Jeremiah 9:23 f.
+  p156: "2 Cor. 10:17" -> 2 Corinthians 10:17
+  p158: "Matt. 7:15" -> Matthew 7:15
+  p158: "Acts 15:12" -> Acts 15:12
+  p158: "Luke 24: 34f." -> Luke 24:34 f.
+  p159: "Matt. 20:11f." -> Matthew 20:11 f.
+  p159: "Luke 16:10" -> Luke 16:10
+  p159: "Matt. 20:15" -> Matthew 20:15
+  p160: "Gen. 4:4f." -> Genesis 4:4 f.
+  p162: "Luke 1:28" -> Luke 1:28
+  p166: "Matt. 6:7" -> Matthew 6:7
+  p166: "John 4:24" -> John 4:24
+  p166: "Prov. 27:14" -> Proverbs 27:14
+  p167: "Rom. I2:11" -> Romans 12:11
+  p168: "Luke 1:29" -> Luke 1:29
+  p169: "1 Sam. 2:9" -> 1 Samuel 2:9
+  p169: "2 Cor. 3:5" -> 2 Corinthians 3:5
+  p170: "John 5:17" -> John 5:17
+  p170: "Eph. 3:20" -> Ephesians 3:20
+  p171: "Ex. 30:25" -> Exodus 30:25
+  p172: "Rom. 12:10" -> Romans 12:10
+  p174: "Jer. 9:23f." -> Jeremiah 9:23 f.
+  p176: "Jer. 48:20f." -> Jeremiah 48:20 f.
+  p176: "Ps. 58:4" -> Psalms 58:4
+  p176: "Ps. 22:21" -> Psalms 22:21
+  p176: "Jer. 5:3" -> Jeremiah 5:3
+  p176: "Ps. 74:13" -> Psalms 74:13
+  p176: "Job 40:15f.; 4i:1ff." -> Job 40:15 f.; 41:1 ff.
+  p183: "Isa. 53:1" -> Isaiah 53:1
+  p183: "Isa.53:2ff," -> Isaiah 53:2 ff.
+  p188: "Matt. 23:23" -> Matthew 23:23
+  p190: "Ps. 2:2" -> Psalms 2:2
+  p190: "Hab. 1:16" -> Habakkuk 1:16
+  p190: "1 Cor. 1:28" -> 1 Corinthians 1:28
+  p190: "1 Cor. 3:7" -> 1 Corinthians 3:7
+  p190: "Luke 16:19 ff." -> Luke 16:19 ff.
+  p192: "Prov. 16:2" -> Proverbs 16:2
+  p192: "Ps. 7:9, 11" -> Psalms 7:9, 11
+  p192: "Ps. 76:5" -> Psalms 76:5
+  p196: "Rom. 16:18" -> Romans 16:18
+  p196: "Phil. 3:19" -> Philippians 3:19
+  p198: "Gen. 32:24 fi." -> Genesis 32:24 ff.
+  p200: "Luke 16:22" -> Luke 16:22
+  p202: "Eph. 4:5" -> Ephesians 4:5
+  p202: "Heb. 13:8" -> Hebrews 13:8
+  p213: "Ps. 36:2" -> Psalms 36:2
+  p213: "Ps. 14:5" -> Psalms 14:5
+  p213: "Prov. 28:1" -> Proverbs 28:1
+  p213: "Lev. 26:36" -> Leviticus 26:36
+  p213: "Deut. 28:65-; 67" -> Deuteronomy 28:65; 28:67
+  p213: "Deut. 28:23" -> Deuteronomy 28:23
+  p213: "1 Thess. 2:16" -> 1 Thessalonians 2:16
+  p214: "Dan. 8:25" -> Daniel 8:25
+  p214: "2 Thess. 2:8" -> 2 Thessalonians 2:8
+  p214: "Ps, 10:15" -> Psalms 10:15
+  p214: "Ps, 10:15" -> Psalms 10:15
+  p218: "Deut. 16:20" -> Deuteronomy 16:20
+  p218: "Rom. 12:19" -> Romans 12:19
+  p219: "2 Cor. 6:3" -> 2 Corinthians 6:3
+  p219: "Matt. 7:3" -> Matthew 7:3
+  p220: "Matt. 12:34" -> Matthew 12:34
+  p220: "Tit. 1:11" -> Titus 1:11
+  p220: "1 Pet. 3:16" -> 1 Peter 3:16
+  p220: "2 Thess. 2:10 f." -> 2 Thessalonians 2:10 f.
+  p221: "2 Thess. 2:8" -> 2 Thessalonians 2:8
+  p221: "Dan. 8:25" -> Daniel 8:25
+  p221: "2 Thess. 2:8" -> 2 Thessalonians 2:8
+  p222: "Matt. 16:18" -> Matthew 16:18
+  p223: "2 Thess. 2:8" -> 2 Thessalonians 2:8
+  p223: "2 Thess. 2:8" -> 2 Thessalonians 2:8
+  p223: "Mark 15:34, 37" -> Mark 15:34, 37
+  p224: "1 Cor. 4:3 f." -> 1 Corinthians 4:3 f.
+  p224: "Acts 17:20" -> Acts 17:20
+  p224: "John 7:16" -> John 7:16
+  p224: "Matt. 23:8" -> Matthew 23:8
+  p225: "Matt. 7:6" -> Matthew 7:6
+  p225: "Acts 13:10 f," -> Acts 13:10 f.
+  p227: "Rom. 14:15" -> Romans 14:15
+  p227: "Gal. 2:3" -> Galatians 2:3
+  p227: "Acts 16:3" -> Acts 16:3
+  p227: "1 Pet. 2:12" -> 1 Peter 2:12
+  p234: "Matt. 5:25,; 39, 40" -> Matthew 5:25; 5:39, 40
+  p234: "Rom. 12:19" -> Romans 12:19
+  p238: "Gen. 9:6" -> Genesis 9:6
+  p238: "Ex. 21:23" -> Exodus 21:23
+  p238: "Matt. 26:52" -> Matthew 26:52
+  p240: "Ps. 2:6" -> Psalms 2:6
+  p240: "John 18:36 f." -> John 18:36 f.
+  p240: "Matt. 3:2" -> Matthew 3:2
+  p240: "Matt. 6:33" -> Matthew 6:33
+  p241: "Matt. 7:18" -> Matthew 7:18
+  p241: "Gal. 3:19,; 24" -> Galatians 3:19; 3:24
+  p246: "Eph. 5:21" -> Ephesians 5:21
+  p248: "Gen. I4:15" -> Genesis 14:15
+  p249: "Gal. 6:15" -> Galatians 6:15
+  p249: "Luke 3:14" -> Luke 3:14
+  p254: "Matt. 5:44, 48" -> Matthew 5:44, 48
+  p256: "Prov. 20:22" -> Proverbs 20:22
+  p258: "Matt. 10:28" -> Matthew 10:28
+  p260: "Rom. 1:28" -> Romans 1:28
+  p260: "Jer. 30:11" -> Jeremiah 30:11
+  p260: "Amos 9:8" -> Amos 9:8
+  p262: "Rom. 13:7" -> Romans 13:7
+  p262: "Rom. 13:4" -> Romans 13:4
+  p262: "Matt. 22:21" -> Matthew 22:21
+  p262: "Ps. I15:16" -> Psalms 115:16
+  p266: "Isa. 11:4" -> Isaiah 11:4
+  p266: "Eph. 6:12" -> Ephesians 6:12
+  p266: "Job 41:27" -> Job 41:27
+  p267: "Ps. 107:40" -> Psalms 107:40
+  p268: "Rom. 10:17" -> Romans 10:17
+  p269: "Luke 22:25" -> Luke 22:25
+  p269: "Prov. 28:16" -> Proverbs 28:16
+  p270: "Eccl. 10:16" -> Ecclesiastes 10:16
+  p272: "Num. 22:28" -> Numbers 22:28
+  p272: "Rev. 12:9" -> Revelation 12:9
+  p273: "2 Sam. 16:28" -> 2 Samuel 16:28
+  p273: "2 Sam. 17:1 ff." -> 2 Samuel 17:1 ff.
+  p276: "Gen. 14:14 ff." -> Genesis 14:14 ff.
+  p276: "Acts 5:29" -> Acts 5:29
+  p276: "Gen. 20:6" -> Genesis 20:6
+  p278: "Matt. 7:12" -> Matthew 7:12
+  p299: "Matt. 15:14" -> Matthew 15:14
+  p299: "Matt. 11:18" -> Matthew 11:18
+  p300: "Deut. 32:21" -> Deuteronomy 32:21
+  p303: "Matt. 7: 22, 23" -> Matthew 7:22, 23
+  p303: "Matt. 23:1 £." -> Matthew 23:1 ff.
+  p304: "Phil, 2:21" -> Philippians 2:21
+  p304: "Phil. 1:15" -> Philippians 1:15
+  p306: "Ps, 143:2" -> Psalms 143:2
+  p308: "Ps. 147:15" -> Psalms 147:15
+  p308: "Luke 21:15" -> Luke 21:15
+  p308: "Matt. 10:34 ff." -> Matthew 10:34 ff.
+  p309: "Luke 2:34" -> Luke 2:34
+  p309: "2 Thess, 2:11" -> 2 Thessalonians 2:11
+  p310: "Gen. 4:10 ff." -> Genesis 4:10 ff.
+  p310: "John 12:24" -> John 12:24
+  p310: "Gal. 1:8" -> Galatians 1:8
+  p317: "2 Cor. 1:12" -> 2 Corinthians 1:12
+  p318: "Ex. 34:7" -> Exodus 34:7
+  p318: "Eph. 6:16" -> Ephesians 6:16
+  p319: "Heb. 12:3" -> Hebrews 12:3
+  p319: "John 15:20" -> John 15:20
+  p321: "Eph. 6:16" -> Ephesians 6:16
+  p322: "Matt. 22:17" -> Matthew 22:17
+  p322: "Acts 7:48 £." -> Acts 7:48 ff.
+  p322: "Isa. 66:1 £." -> Isaiah 66:1 ff.
+  p322: "Acts 6:13" -> Acts 6:13
+  p323: "1 Tim. 4:3" -> 1 Timothy 4:3
+  p323: "Luke 11: 15, 20" -> Luke 11:15, 20
+  p324: "Cant. 2:2" -> Song of Solomon 2:2
+  p324: "Psalm I10:2" -> Psalms 110:2
+  p325: "2 Cor. 3:6" -> 2 Corinthians 3:6
+  p328: "2 Cor. 11:23" -> 2 Corinthians 11:23
+  p328: "1 Cor. 4:1" -> 1 Corinthians 4:1
+  p328: "Matt. 24:45 ff." -> Matthew 24:45 ff.
+  p328: "1 Pet. 5:5" -> 1 Peter 5:5
+  p329: "Acts 20:17" -> Acts 20:17
+  p329: "Acts 20: 18, 28" -> Acts 20:18, 28
+  p329: "Tit. 1:5" -> Titus 1:5
+  p329: "Tit. 1:7 f." -> Titus 1:7 f.
+  p330: "John 14:6" -> John 14:6
+  p331: "2 Sam. 20:8, 10" -> 2 Samuel 20:8, 10
+  p332: "Matt. 15:3 ff." -> Matthew 15:3 ff.
+  p334: "Job 32:19" -> Job 32:19
+  p336: "Matt. 27:29" -> Matthew 27:29
+  p337: "1 Kings 18:27" -> 1 Kings 18:27
+  p341: "Tit. 1:9" -> Titus 1:9
+  p341: "1 Thess, 5:21" -> 1 Thessalonians 5:21
+  p346: "John 14:26" -> John 14:26
+  p347: "Luke 10:16" -> Luke 10:16
+  p347: "Matt. 16:19" -> Matthew 16:19
+  p352: "2 Cor. 3:6" -> 2 Corinthians 3:6
+  p352: "Gal. 4:22" -> Galatians 4:22
+  p353: "Gal. 4:24" -> Galatians 4:24
+  p353: "2 Cor. 3:6" -> 2 Corinthians 3:6
+  p354: "Rom. 7:14" -> Romans 7:14
+  p357: "Luke 3:7" -> Luke 3:7
+  p357: "Ps, 110:3" -> Psalms 110:3
+  p358: "Ps, 110:2" -> Psalms 110:2
+  p359: "Gal. 4:22" -> Galatians 4:22
+  p359: "Gen, 2:24" -> Genesis 2:24
+  p359: "2 Cor. 3:6" -> 2 Corinthians 3:6
+  p359: "2 Cor. 3:6" -> 2 Corinthians 3:6
+  p360: "Exod. 24:12;; 31:18" -> Exodus 24:12; 31:18
+  p362: "2 Cor. 3:6" -> 2 Corinthians 3:6
+  p362: "Rom. 8:2 ff." -> Romans 8:2 ff.
+  p363: "2 Cor. 3:7" -> 2 Corinthians 3:7
+  p363: "Exod. 34:33 ff." -> Exodus 34:33 ff.
+  p363: "2 Cor. 3:13" -> 2 Corinthians 3:13
+  p363: "Rom. 7:73; 3:20;; 7:95; 11:32" -> Romans 7:73; 3:20; 7:95; 11:32
+  p363: "Gal. 3:22" -> Galatians 3:22
+  p364: "Matt. 18:6" -> Matthew 18:6
+  p366: "Ps, 10:7" -> Psalms 10:7
+  p366: "Hos. 4:15" -> Hosea 4:15
+  p366: "Amos 7:16" -> Amos 7:16
+  p368: "2 Cor. 3:6" -> 2 Corinthians 3:6
+  p370: "Matt. 15:8 f." -> Matthew 15:8 f.
+  p370: "2 Cor. 3:6" -> 2 Corinthians 3:6
+  p370: "Matt. 24:15,; 23 f." -> Matthew 24:15; 24:23 f.
+  p370: "Dan. 8:23 ff." -> Daniel 8:23 ff.
+  p371: "Col. 2:8" -> Colossians 2:8
+  p371: "Col. 2:20" -> Colossians 2:20
+  p371: "Dan, 8:23" -> Daniel 8:23
+  p371: "Matt. 7:15" -> Matthew 7:15
+  p372: "2 Tim. 3:5, 7" -> 2 Timothy 3:5, 7
+  p372: "Gal. 1:8" -> Galatians 1:8
+  p372: "Col. 2:7 f." -> Colossians 2:7 f.
+  p372: "Ezek. 14:9" -> Ezekiel 14:9
+  p374: "Matt. 24:24" -> Matthew 24:24
+  p375: "Dan 11:37 f." -> Daniel 11:37 f.
+  p375: "Matt. 24:23" -> Matthew 24:23
+  p375: "Jer. 19:5" -> Jeremiah 19:5
+  p378: "1 Cor. 3:12" -> 1 Corinthians 3:12
+  p380: "Matt. 5:25" -> Matthew 5:25
+  p381: "Matt. 4:4" -> Matthew 4:4
+  p382: "Matt 5:30 ff." -> Matthew 5:30 ff.
+  p382: "2 Thess. 2:3" -> 2 Thessalonians 2:3
+  p384: "Luke 3:1" -> Luke 3:1
+  p385: "Gal. 2:1" -> Galatians 2:1
+  p385: "Acts 18:2" -> Acts 18:2
+  p385: "Gal. 1:18" -> Galatians 1:18
+  p389: "1 Kings 18:27" -> 1 Kings 18:27
+  p391: "1 Tim. 4:1 ff" -> 1 Timothy 4:1 ff.
+  p394: "2 Thess. 2:3" -> 2 Thessalonians 2:3
+  p394: "Dan. 9:27" -> Daniel 9:27
+  p396: "Isa. 55:9" -> Isaiah 55:9
+  p399: "Prov. 14:23" -> Proverbs 14:23
+  p402: "Phil. 3:20" -> Philippians 3:20
+  p403: "Heb. 11:1" -> Hebrews 11:1
+  p403: "2 Pet. 2:3" -> 2 Peter 2:3
+  p405: "Matt. 16:38" -> Matthew 16:38
+  p418: "Gen. 2:18" -> Genesis 2:18
+  p419: "Dan. 11:37" -> Daniel 11:37
+  p419: "Gen, 2:18" -> Genesis 2:18
+  p419: "1 Cor. 7:7" -> 1 Corinthians 7:7
+  p421: "Job 26:11" -> Job 26:11
+  p421: "Gen. 2:18" -> Genesis 2:18
+  p424: "Matt. 11:22 f." -> Matthew 11:22 f.
+  p424: "Matt. 21:31" -> Matthew 21:31
+  p427: "2 Tim. 3:9" -> 2 Timothy 3:9
+  p428: "John 21:20ff." -> John 21:20 ff.
+  p430: "Matt. 7:3 ff." -> Matthew 7:3 ff.
+  p430: "Job 41:15" -> Job 41:15
+  p434: "2 Sam. 19: 10 ff." -> 2 Samuel 19:10 ff.
+  p434: "John 16:11" -> John 16:11
+
+--- marginal Scripture citations dropped (read these against the page images) ---
+Overwhelmingly half-references: a book name whose chapter and verse the
+OCR never captured, or a chapter and verse whose book name it never
+captured. Nothing here can be recovered from this scan.
+  p28: "Matt." — did not resolve to a book and chapter
+  p28: "Matt." — did not resolve to a book and chapter
+  p30: "2 Cor." — did not resolve to a book and chapter
+  p30: "1 Cor." — did not resolve to a book and chapter
+  p33: "7:25" — did not resolve to a book and chapter
+  p34: "9:27" — did not resolve to a book and chapter
+  p36: "Matt." — did not resolve to a book and chapter
+  p38: "1:10" — did not resolve to a book and chapter
+  p39: "23:19" — did not resolve to a book and chapter
+  p39: "119:86; II1:7" — did not resolve to a book and chapter
+  p44: "Matt." — did not resolve to a book and chapter
+  p49: "14:23" — did not resolve to a book and chapter
+  p51: "Rom." — did not resolve to a book and chapter
+  p51: "Gal." — did not resolve to a book and chapter
+  p63: "16:19" — did not resolve to a book and chapter
+  p66: "Phil." — did not resolve to a book and chapter
+  p74: "Mark" — did not resolve to a book and chapter
+  p76: "11:26" — did not resolve to a book and chapter
+  p76: "11:27" — did not resolve to a book and chapter
+  p76: "11:28" — did not resolve to a book and chapter
+  p83: "11:38 f." — did not resolve to a book and chapter
+  p88: "Matt." — did not resolve to a book and chapter
+  p90: "10:4" — did not resolve to a book and chapter
+  p94: "19:7" — did not resolve to a book and chapter
+  p98: "4:1 ff." — did not resolve to a book and chapter
+  p99: "21:25" — did not resolve to a book and chapter
+  p104: "Matt." — did not resolve to a book and chapter
+  p110: "Gen." — did not resolve to a book and chapter
+  p114: "2 Tim. 23525" — did not resolve to a book and chapter
+  p117: "34:12 ff." — did not resolve to a book and chapter
+  p118: "1 Cor." — did not resolve to a book and chapter
+  p119: "12:43" — did not resolve to a book and chapter
+  p134: "5:5" — did not resolve to a book and chapter
+  p136: "Isa. r1:1f." — did not resolve to a book and chapter
+  p139: "Ex. 26:30; ff.; 40:1" — did not resolve to a book and chapter
+  p148: "2Sam. 15:25." — did not resolve to a book and chapter
+  p152: "1:29" — did not resolve to a book and chapter
+  p154: "14:16" — did not resolve to a book and chapter
+  p160: "Luke" — did not resolve to a book and chapter
+  p167: "140, 171" — did not resolve to a book and chapter
+  p176: "Ps.722" — did not resolve to a book and chapter
+  p181: "13:20f." — did not resolve to a book and chapter
+  p186: "Matt." — did not resolve to a book and chapter
+  p200: "5" — did not resolve to a book and chapter
+  p205: "24:1 ff." — did not resolve to a book and chapter
+  p206: "1 Kings" — did not resolve to a book and chapter
+  p213: "Matt." — did not resolve to a book and chapter
+  p213: "24:35" — did not resolve to a book and chapter
+  p214: "Isa. £1:4;" — did not resolve to a book and chapter
+  p214: "1:16" — did not resolve to a book and chapter
+  p218: "Deut." — did not resolve to a book and chapter
+  p220: "2:15" — did not resolve to a book and chapter
+  p220: "Ps. ro: 12 fi." — did not resolve to a book and chapter
+  p224: "Rom. 14:" — did not resolve to a book and chapter
+  p224: "1 Cor." — did not resolve to a book and chapter
+  p225: "32:6" — did not resolve to a book and chapter
+  p225: "Matt." — did not resolve to a book and chapter
+  p225: "13" — did not resolve to a book and chapter
+  p225: "Rom." — did not resolve to a book and chapter
+  p240: "1 Tim." — did not resolve to a book and chapter
+  p241: "1:9" — did not resolve to a book and chapter
+  p241: "Rom. 77" — did not resolve to a book and chapter
+  p241: "Matt." — did not resolve to a book and chapter
+  p246: "Matt. 17527," — did not resolve to a book and chapter
+  p246: "Matt." — did not resolve to a book and chapter
+  p248: "18:40" — did not resolve to a book and chapter
+  p248: ". 10:3" — did not resolve to a book and chapter
+  p249: "7:19" — did not resolve to a book and chapter
+  p249: "12:13" — did not resolve to a book and chapter
+  p256: "Prov." — did not resolve to a book and chapter
+  p258: "4:11" — did not resolve to a book and chapter
+  p262: "2:18" — did not resolve to a book and chapter
+  p264: "13:11" — did not resolve to a book and chapter
+  p267: "12:10" — did not resolve to a book and chapter
+  p270: "3:9" — did not resolve to a book and chapter
+  p275: "o:10 ff," — did not resolve to a book and chapter
+  p298: "Matt. ro: 24, 25" — did not resolve to a book and chapter
+  p298: "John" — did not resolve to a book and chapter
+  p299: "8:48" — did not resolve to a book and chapter
+  p303: "34:1 £." — did not resolve to a book and chapter
+  p306: "4:4" — did not resolve to a book and chapter
+  p307: "11:49 ff." — did not resolve to a book and chapter
+  p310: "16:30" — did not resolve to a book and chapter
+  p317: "4:15, 16" — did not resolve to a book and chapter
+  p328: "2 Tim. . 2124" — did not resolve to a book and chapter
+  p328: "5:1 f." — did not resolve to a book and chapter
+  p331: "17:7" — did not resolve to a book and chapter
+  p333: "5:1" — did not resolve to a book and chapter
+  p337: "Matt." — did not resolve to a book and chapter
+  p342: "Phil-" — did not resolve to a book and chapter
+  p344: "Ps, r16:11" — did not resolve to a book and chapter
+  p348: "John" — did not resolve to a book and chapter
+  p355: "Heb. 9" — did not resolve to a book and chapter
+  p359: "Eph.” 5:32" — did not resolve to a book and chapter
+  p360: "2 Cor." — did not resolve to a book and chapter
+  p368: "3:17" — did not resolve to a book and chapter
+  p368: "1:9" — did not resolve to a book and chapter
+  p370: "2:3,9" — did not resolve to a book and chapter
+  p374: "2 Thess. 9:3 f." — did not resolve to a book and chapter
+  p382: "£3 9:27" — did not resolve to a book and chapter
+  p382: "Matt." — did not resolve to a book and chapter
+  p399: "Gen. 81:7" — did not resolve to a book and chapter
+  p404: "Matt" — did not resolve to a book and chapter
+  p404: "16:18" — did not resolve to a book and chapter
+
+--- marginal topic notes kept (these become entries.heading) ---
+  p18: The First Accusation— Impatience
+  p18: The Second Accusation— Presumption
+  p22: The Scriptures Inerrant
+  p22: The Scriptures Clear
+  p26: Faith More Necessary than the Sacraments
+  p26: The Sacrament a Sign
+  p27: Baptism and Faith
+  p28: Penance
+  p28: The Lord’s
+  p29: The Argument for the Roman Doctrine
+  p30: The Types of the Old Testament
+  p31: Original Sin
+  p32: The Conflict of Flesh and Spirit
+  p38: The Remnant of Sin Really Sin
+  p49: Judas’ Contrition
+  p50: The Danger of False Contrition
+  p52: The Need of Grace
+  p53: True Repentance
+  p56: Attrition
+  p75: The Two Kinds Scriptural
+  p78: The Pope a Schismatic
+  p78: The Laity Not to Blame
+  p90: Christ
+  p92: The Feeding of the Sheep
+  p94: St Peter and the Other Apostles
+  p94: Wisd.
+  p95: The Pope’s Power Only on Earth
+  p114: Freedom of the Will
+  p115: Spirit
+  p116: Man Altogether Sinful
+  p143: (Vulgate)
+  p146: (Vulgate)
+  p154: Esther
+  p154: (Douay)
+  p192: (Vulgate)
+  p212: The Fear of an Insurrection
+  p216: Insurrection Impossible
+  p218: Forbidden
+  p218: Of the Devil
+  p219: Men’s Duty
+  p220: To Confess Sins
+  p221: To Proclaim the Gospel
+  p222: The Spiritual Insurrection
+  p223: The Papists are Judged
+  p224: Moderation Demanded
+  p224: Not Lutherans but Christians
+  p225: Consideration for the Weak
+  p225: (Vulgate)
+  p240: The Two Kingdoms
+  p240: Christians Need No Law
+  p248: from the Old Testament
+  p249: Proof from the New Testament
+  p252: The Example of Christ
+  p264: Hosea
+  p268: Priests and Bishops, Servants
+  p268: Princes’ Duty to Serve
+  p269: Princes Must Depend on God
+  p272: Counselors not to be Trusted
+  p310: Judges
+  p317: Saint Paul’s Armor
+  p317: The Breastplate
+  p318: The Shield
+  p319: The Helmet
+  p319: The Sword
+  p320: Emser’s Attack
+  p322: The Fate of Hus
+  p325: Letter and Spirit
+  p330: were
+  p331: Custom
+  p333: Hebrews
+  p338: The Teaching ofthe Fathers
+  p344: Tradition.
+  p348: Emser’s Lies
+  p359: Two Ministries
+  p372: The Saints’ Rules
+  p381: Liberty of Conscience
+  p417: Wealth
+  p417: Absence Danger
+  p420: The Vow of Celibacy
+  p420: thority
+  p421: The Authority of the Word
+  p423: Councils
+  p424: Blasphemy
+  p426: What the Church Must Do
+  p427: The Power of God’s Word
+  p427: A Parallel from History
+  p428: Hope for Conversion of Bishops
+  p428: Celibacy is Condemned
+  p430: Argument for Keeping the Vow
+  p431: The Absence of Precedent .
+  p431: Lot’s Wife
+  p432: Serving the World
+  p468: Ephesians
+  p468: Philippians
+  p468: Colossians
+
+--- marginal notes dropped as unreadable ---
+  p20: "ee ee Se ee ee ee" — not readable as a topic note
+  p22: "zr Thess. §:21" — not readable as a topic note
+  p24: "ee" — not readable as a topic note
+  p24: "ee ee ee ee eee ee" — not readable as a topic note
+  p24: "Se" — not readable as a topic note
+  p28: "rita a 2" — not readable as a topic note
+  p30: "— —_" — not readable as a topic note
+  p34: "t Cor." — not readable as a topic note
+  p36: "Te ap Te ee a ee ee ee 13°33" — not readable as a topic note
+  p38: "xr John" — not readable as a topic note
+  p38: "i Si a NS FT" — not readable as a topic note
+  p39: "i)" — not readable as a topic note
+  p40: "SE" — not readable as a topic note
+  p44: "13°43" — not readable as a topic note
+  p44: "= eae" — not readable as a topic note
+  p44: "Se a ee eo" — not readable as a topic note
+  p45: "Che orig" — not readable as a topic note
+  p46: "ee, ee a ee" — not readable as a topic note
+  p51: "8372 he" — not readable as a topic note
+  p51: "grax. f." — not readable as a topic note
+  p52: "en ee ce et te" — not readable as a topic note
+  p52: "oe a ne" — not readable as a topic note
+  p55: "Nahum r:3" — not readable as a topic note
+  p64: "Prayer of Man. 5:5" — not readable as a topic note
+  p66: "Tits tf:" — not readable as a topic note
+  p74: "54°22 fi." — not readable as a topic note
+  p76: "7 Cor:" — not readable as a topic note
+  p76: "x Cor." — not readable as a topic note
+  p76: "z Cor." — not readable as a topic note
+  p76: ". : ¥ ai sey Beige: cate . : r Cor. IX:29" — not readable as a topic note
+  p83: "t Cor." — not readable as a topic note
+  p90: "rt Cor." — not readable as a topic note
+  p90: "x Pet. 2:5" — not readable as a topic note
+  p98: "t Tim." — not readable as a topic note
+  p104: "7:26 {." — not readable as a topic note
+  p105: "Bech\"" — not readable as a topic note
+  p117: "Ecclus." — not readable as a topic note
+  p119: "2 Macc." — not readable as a topic note
+  p128: "i ie atl a ali" — not readable as a topic note
+  p134: "———" — not readable as a topic note
+  p134: "t Pet." — not readable as a topic note
+  p136: ":" — not readable as a topic note
+  p139: "ff." — not readable as a topic note
+  p152: "zr Cor." — not readable as a topic note
+  p157: "21:2rf." — not readable as a topic note
+  p157: "t Cor. 3:8" — not readable as a topic note
+  p171: "ff." — not readable as a topic note
+  p176: "iting > seer ——— gE aa aa" — not readable as a topic note
+  p186: "§:29" — not readable as a topic note
+  p198: "<2 eS" — not readable as a topic note
+  p198: "z Pet. 2:9" — not readable as a topic note
+  p202: "x Cor. ro:1 ff." — not readable as a topic note
+  p206: "3°5~-14" — not readable as a topic note
+  p212: "i" — not readable as a topic note
+  p213: "Unfounded" — not readable as a topic note
+  p213: "Seas" — not readable as a topic note
+  p214: "cf. Rev." — not readable as a topic note
+  p216: "oe" — not readable as a topic note
+  p216: "“4" — not readable as a topic note
+  p218: "32°35" — not readable as a topic note
+  p220: "I Pet." — not readable as a topic note
+  p220: "To Pray" — not readable as a topic note
+  p224: "Vis isst" — not readable as a topic note
+  p224: "rat," — not readable as a topic note
+  p225: "23°33" — not readable as a topic note
+  p225: "Titer" — not readable as a topic note
+  p225: "I4:I; 1§:2" — not readable as a topic note
+  p238: "ff." — not readable as a topic note
+  p241: "x Tim." — not readable as a topic note
+  p241: "5°39" — not readable as a topic note
+  p242: "tlans" — not readable as a topic note
+  p245: "Fa" — not readable as a topic note
+  p246: "§°39" — not readable as a topic note
+  p248: "} cicas= akcaencamne eet" — not readable as a topic note
+  p248: "Y ae" — not readable as a topic note
+  p248: "r Sam. 15°33 x Kings" — not readable as a topic note
+  p248: "{1 Cor." — not readable as a topic note
+  p249: "t Cor." — not readable as a topic note
+  p249: "t Cor." — not readable as a topic note
+  p251: "O" — not readable as a topic note
+  p252: "Se" — not readable as a topic note
+  p253: "The Meaning Christ’sie 39" — not readable as a topic note
+  p253: "Sf" — not readable as a topic note
+  p254: "mt" — not readable as a topic note
+  p254: "tafe" — not readable as a topic note
+  p254: "t bf bag vie ae a" — not readable as a topic note
+  p258: "t Pet." — not readable as a topic note
+  p262: "z Pet." — not readable as a topic note
+  p267: "a Pet, sis Nee 10" — not readable as a topic note
+  p270: "xr Kings" — not readable as a topic note
+  p270: "le ee ge | ee es a Government for the People" — not readable as a topic note
+  p275: "et" — not readable as a topic note
+  p276: "LPO A a OF" — not readable as a topic note
+  p303: "Numb." — not readable as a topic note
+  p306: "I Cor." — not readable as a topic note
+  p317: "1 Peter" — not readable as a topic note
+  p324: "ia et ee" — not readable as a topic note
+  p325: "t Pet. 2:9" — not readable as a topic note
+  p328: "r Pet." — not readable as a topic note
+  p331: "t Sam." — not readable as a topic note
+  p337: "IL:17" — not readable as a topic note
+  p339: "|" — not readable as a topic note
+  p342: "osophy" — not readable as a topic note
+  p355: "and 10" — not readable as a topic note
+  p357: "t Pet. 2:9" — not readable as a topic note
+  p370: "_ 2 Thess." — not readable as a topic note
+  p376: "ee eS ae ee ¥ ay ~" — not readable as a topic note
+  p376: "a, ae, 2" — not readable as a topic note
+  p388: "t Tim. 4:3" — not readable as a topic note
+  p396: "m ——" — not readable as a topic note
+  p398: "~~" — not readable as a topic note
+  p402: "ee. ee ee Lee" — not readable as a topic note
+  p404: "— eee." — not readable as a topic note
+  p404: "TEE Oe we) ee eg" — not readable as a topic note
+  p404: "Pe a ee" — not readable as a topic note
+  p404: "a. ey" — not readable as a topic note
+  p406: "a a ee oe ee" — not readable as a topic note
+  p417: "Unpopularity" — not readable as a topic note
+  p418: "Marriage Weilpleasing to God" — not readable as a topic note
+  p441: "f \\ \\," — not readable as a topic note
+  p446: "| %" — not readable as a topic note
+  p447: "An" — not readable as a topic note
+
+--- pages with no recognisable text block ---
+  p1: "ae ‘ Bernt - . : ; 4 ‘ 4 : , . ted e. be Ata eA aet Teh e . as Lb r, \\ rH < 7 anes te AA g"
+  p5: "KS OF MARTIN LUTHER Ay we"
+  p8: "A"
+  p124: "t CR he ’ h i\" ae 1 OTe i Mulst + Mh tat i id"
+  p132: "The Magnificat 126 THE MAGNIFICAT! maiden: For behold, from henceforth all generations sha"
+  p208: "|"
+  p230: "ft AN iM ed fit ae A is a ivr ‘"
+  p233: "Introduction 227 The text of the treatise is found in the following editions: Weimar Ed., "
+  p294: "AAAS \\é - mar"
+  p312: "ites ' i"
+  p408: "Ty : aa ma"
+  p415: "Introduction 400 yon Preussen, I, 310-23; Deutschorden, iv, 589-953 Encyc lopedia Britanni"
+  p437: "INDEX ABRAHAM’S BOSOM, 194 seed, 197 Absolution, 51 a jesting, 59f a thoughtless, 59f with"
+  p438: "432 Index judged by God, 210 reason for, 211 St. Paul on, 255 St. Peter on, 256 temporal, "
+  p439: "Index 433 Charles, Duke of Burgundy, 273 Charles, Emp., 8, 123 Chastity, 410ff, 418f See, "
+  p440: "434 Index of pope, 397ff unity of, 98 Civil officers, 249 Clergy, 206 Commandments, 233 th"
+  p442: "436 Index George, Duke of Saxony, 225f, 227f, 422 George von Polentz, bp, 407, 422 Gereon,"
+  p443: "Index 437 Gregory, St, 101, 102, 107, 112 Gurk, Raymund von, card., 277 HADRIAN VI, 407 Ha"
+  p444: "438 Index Insurrection, a Christian’s duty relative to, 213ff a result of, 212 a threat of"
+  p445: "Index 439 Law, 354ff Christ expounds, 248 Christians need no, 234f, 237 exceptions to, 263"
+  p448: "442 Index The Seventeenth Article, 75 The Eighteenth Article, 77 The Nineteenth Article, 7"
+  p449: "Index 445 The Papists’ Blundering, 377 Reply to Murner, 391 To the Leipzig Goat Introducti"
+  p450: "444 Index Maximilian, Emp., 8 Maxolini, Sylvester, (Prierias) 343f Meissen, Melanchthon, P"
+  p451: "Index 445 PACIFISM, 233 Panormitanus, see, Tudeschi Papacy, 206ff a human invention, 98 ju"
+  p452: "446 Index Prague, 277 Pray, 214, 294 Prayers, 166, 172, 198, 200, 377 origin of, in ‘psalt"
+  p453: "Index 447 REMISSION BY PRAYER, 52 Repentance, 47ff false, 48 See Contrition ‘Reply to the "
+  p454: "448 Index inerrant, 16 over-lord and master of all writings, 16 sense of, 346ff, 350 sourc"
+  p455: "Index 449 State, the, 226 Christian serves, in love, 240 duty of, 247 Stationartt, 217. St"
+  p456: "450 Index Tudeschi, Nicholas, 96 Tubingen, 277 Turk, on war against the, 105£ Two kinds, 2"
+  p457: "SCRIPTURE REFERENCES OLD TESTAMENT Genesis L: 419 1:26 257 2% 419 2:18 412, 413, 415, 423 "
+  p458: "oe Leviticus Numbers I Samuel ERENT OTS 329 ee"
+  p459: "Scripture References 453 Gs7. 239 17:6 187 17:15 187 es 331, 383 18: 40 211, 242 -II Chron"
+  p460: "454 134 339 Proverbs Ecclesiastes 7 10: 16 19:14 Song of Solomon pln Isaiah 2:4 3:4"
+  p461: "Scripture References 455 11: 1f 130 11:4 208, 260 11: 6f 103 11:9 239 30:21 141 33:11 318 "
+  p463: "Scripture References 457 OGONNTNNSTY NINA A Aw 48 248 7, 160 Of 30 33 234 3 213 3ff 424 6 "
+  p464: "458 Scripture References 24:15 21, 92, 108, 364, 376 369 24:23 / @ 24 : 23 364 : 24 : 24 7"
+  p465: "Scripture References 459 3:21 267 4:24 160 Sv ii7 164 6:26 140 6:29 339 6:51 75 6:63 423 7"
+  p466: "460 Scripture References 15:9 66 ieee | 24 15542 152 16:3 221 17:20 218 18 : 28ff 17 BUeny"
+  p467: "461 19 218, 219 190 { Corinthians A ONINIIA & BP WW GF WD WD et Et AN & & WD FH GH FH GF G"
+  p469: "463 II Thessalonians 76, 108, 364, 376, 388 NMOHWNH HHH OD BhOW 368 79 208, 209, 215, 217 "
+  p470: "ae ae a References ann & & aad er ON 3 hs ane 128, 261, 322 — pm CQ pad © OI 84 My 93, 110"
+  p473: "~' ~"
+  p474: "“17"
+  p476: "tn"

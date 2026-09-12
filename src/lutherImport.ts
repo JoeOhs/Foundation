@@ -10,19 +10,27 @@ import type { ParsedBook, ParsedEntry, ParsedSource, ParsedTocEntry } from './ty
 // tools/luther/build.mjs). Bundled under public/library/reformation/ and
 // installed from local disk, so it never makes a network call.
 //
-// TWO OF SIX VOLUMES. Only Volumes I and II are digitised on Project
-// Gutenberg (#31604 and #34904); Volumes III–VI exist as page scans on the
-// Internet Archive and are a separate, OCR-shaped job. The titles say
-// "Vol. I"/"Vol. II" rather than naming the edition alone, so the Library
-// never reads as if it holds the complete six-volume set — see ROADMAP.md.
+// THREE OF SIX VOLUMES, and they did not arrive the same way. Volumes I and
+// II are Project Gutenberg transcriptions (#31604 and #34904). Volume III has
+// no Gutenberg edition and never will unless someone makes one: it exists as
+// a page scan on the Internet Archive, and its text is recovered from that
+// scan's OCR by tools/luther/vol3-normalise.mjs before the shared builder
+// sees it. Every title carries its volume number rather than naming the
+// edition alone, so the Library never reads as if it holds the complete
+// six-volume set — see ROADMAP.md.
+//
+// VOLUMES IV–VI ARE NOT MISSING BY OVERSIGHT. They are still under US
+// copyright: IV and V (1931) until 1 January 2027, VI (1932) until 1 January
+// 2028, and Volume V's copyright was actively renewed (CCE R238530). Do not
+// add them before those dates. The full findings are in ROADMAP.md.
 //
 // SPLIT — one source per volume, not one source for both. This is the
 // Church Fathers' precedent (37 independently installable volumes) rather
 // than Josephus's (four works folded into one atomic install). Neither
 // volume is near the size that forced the Talmud's per-Seder split, so the
 // split is about shelving rather than bytes: it is how every other
-// multi-volume work in this Library is filed, and it is what Volumes III–VI
-// slot into later without restructuring I–II.
+// multi-volume work in this Library is filed, and it is what let Volume III
+// land without restructuring I–II — as IV–VI will when they clear copyright.
 //
 // CATEGORY — 'reformation', deliberately not 'historical' (which stays
 // narrative history: Josephus and the martyrology, not treatises, sermons
@@ -38,12 +46,16 @@ import type { ParsedBook, ParsedEntry, ParsedSource, ParsedTocEntry } from './ty
 // hold to. Each work's scholarly *Introduction* is kept: the edition is
 // titled "with Introductions and Notes" and the introductions are content,
 // read as the work's opening section. The translators' bracketed Scripture
-// citations ("[Matt. 16:18]", ~960 across the two volumes) are kept too —
-// they are cross-references in the reading text, not apparatus.
+// citations ("[Matt. 16:18]", ~1,370 across the three volumes) are kept too
+// — they are cross-references in the reading text, not apparatus. On Volume
+// III they are OCR of the printed margin, so only those that resolve to a
+// real book and chapter are carried; the rest are dropped and logged.
 //
 // SIDENOTES — the printed marginal sidenotes are lifted onto entries.heading,
 // the nullable column added for JFB's section headings and reused by Foxe,
-// rather than being dropped or left inline as bracketed noise mid-column.
+// rather than being dropped or left inline as bracketed noise mid-column. On
+// Volume III these are reconstructed from the scan's page geometry and kept
+// only where they read as a topic note; see tools/luther/README.md.
 //
 // TRANSLATOR ATTRIBUTION — left in the text where the edition puts it, as the
 // signature closing each work's introduction ("J. J. SCHINDEL."), not lifted
@@ -60,7 +72,17 @@ export interface LutherVolumeSpec {
   volume: number;
   roman: string;
   year: number;
-  gutenbergId: number;
+  // How the volume reached us, which differs across the set and is not
+  // cosmetic: it decides what the Library can claim about the text's
+  // provenance. Volumes I and II are Gutenberg transcriptions; Volume III is
+  // OCR of a page scan, recovered by tools/luther/vol3-normalise.mjs.
+  digitisation:
+    | { kind: 'gutenberg'; gutenbergId: number }
+    | { kind: 'archive'; iaIdentifier: string };
+  // The imprint as it stands on this volume's own title page, used in the
+  // Library title. It is not the same across the set: Volumes I and II are
+  // A. J. Holman Company alone, Volumes III–VI add The Castle Press.
+  imprintLabel: string;
   // Luther's own pieces in the volume — used only for the Library blurb, and
   // deliberately not the same as the number of `books` rows: Volume I also
   // carries the edition's general introduction and translators' note as a
@@ -70,12 +92,36 @@ export interface LutherVolumeSpec {
 }
 
 export const LUTHER_VOLUMES: LutherVolumeSpec[] = [
-  { key: 'vol1', volume: 1, roman: 'I', year: 1915, gutenbergId: 31604, treatises: 8, hasFrontMatterBook: true },
-  { key: 'vol2', volume: 2, roman: 'II', year: 1916, gutenbergId: 34904, treatises: 8, hasFrontMatterBook: false },
+  {
+    key: 'vol1', volume: 1, roman: 'I', year: 1915,
+    digitisation: { kind: 'gutenberg', gutenbergId: 31604 },
+    imprintLabel: 'Philadelphia Edition',
+    treatises: 8, hasFrontMatterBook: true,
+  },
+  {
+    key: 'vol2', volume: 2, roman: 'II', year: 1916,
+    digitisation: { kind: 'gutenberg', gutenbergId: 34904 },
+    imprintLabel: 'Philadelphia Edition',
+    treatises: 8, hasFrontMatterBook: false,
+  },
+  {
+    key: 'vol3', volume: 3, roman: 'III', year: 1930,
+    // Only the scan the text actually came from. The two further scans the
+    // builder cross-checks it against are its business, not the app's.
+    digitisation: { kind: 'archive', iaIdentifier: 'worksofmartinlut03luth_0' },
+    // Named for the imprint on the volume rather than "Philadelphia Edition",
+    // which is the name the *Muhlenberg Press* reprint prints on its title
+    // page. The Holman & Castle Press original carries no edition name at
+    // all; "Philadelphia Edition" is how the set is generally known and is
+    // still used for the series, but a volume-level title that claimed it
+    // would be attributing the reprint's wording to this printing.
+    imprintLabel: 'Holman & Castle Press',
+    treatises: 8, hasFrontMatterBook: false,
+  },
 ];
 
 export function lutherTitle(vol: LutherVolumeSpec): string {
-  return `Works of Martin Luther, Vol. ${vol.roman} (Philadelphia Edition, ${vol.year})`;
+  return `Works of Martin Luther, Vol. ${vol.roman} (${vol.imprintLabel}, ${vol.year})`;
 }
 
 interface BundledParagraph {
@@ -106,8 +152,12 @@ interface BundledLutherFile {
     printed_year: number;
     volume: number;
     volumes_in_edition: number;
-    gutenberg_id: number;
-    gutenberg_released: string;
+    // Present on the Gutenberg volumes only.
+    gutenberg_id?: number;
+    gutenberg_released?: string;
+    // Present on Volume III only — the Internet Archive item its text was
+    // recovered from.
+    ia_identifier?: string;
     source_site: string;
     license_note: string;
     work_count: number;

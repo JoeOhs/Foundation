@@ -122,12 +122,55 @@ const VOLUMES = [
     ],
     backMatter: { locator: 'INDEX', nth: 1 },
   },
+  // Volume III is not a Gutenberg release — there is none — but a page scan
+  // on the Internet Archive, put through tools/luther/vol3-normalise.mjs
+  // first. That script reads the scan's hOCR and writes raw/luther-vol3.html
+  // in the shape the parser below already understands, so everything from
+  // tokenise() down is shared with Volumes I and II and nothing about their
+  // path changes. What differs is stated here in data: a different licence
+  // and provenance story (`provenance: 'vol3'`), and locators that are the
+  // OCR of the printed half-title pages rather than a transcriber's heading.
+  //
+  // Those locators look damaged because they are: "DEFENSE OF ALL THE
+  // ARTICLES Mi" is what Tesseract makes of a decorated half-title with
+  // show-through behind it. They are pinned verbatim on purpose. The
+  // half-title pages are the only structural boundary this volume prints,
+  // and matching them exactly means that if the scan is ever re-run, or
+  // Internet Archive replaces the item, the build stops instead of quietly
+  // re-cutting the volume at different places.
+  {
+    volume: 3,
+    file: 'luther-vol3.html',
+    printedYear: 1930,
+    provenance: 'vol3',
+    iaIdentifier: 'worksofmartinlut03luth_0',
+    publisher: 'A. J. Holman Company and The Castle Press, Philadelphia',
+    topTag: 'h3',
+    frontMatter: 'Title page and contents.',
+    works: [
+      { name: 'An Argument in Defense of All the Articles of Dr. Martin Luther Wrongly Condemned in the Roman Bull (1521)', locator: 'AN ARGUMENT DEFENSE OF ALL THE ARTICLES OF MARTIN LUTHER IN THE ROMAN BULL', nth: 1 },
+      { name: 'The Magnificat, Translated and Explained (1520-21)', locator: 'THE MAGNIFICAT TRANSLATED AND EXPLAINED', nth: 1 },
+      { name: 'An Earnest Exhortation for All Christians, Warning Them Against Insurrection and Rebellion (1522)', locator: 'AN EARNEST EXHORTATION FOR ALL CHRISTIANS, WARNING THEM AGAINST INSURRECTION AND REBELLION', nth: 1 },
+      { name: 'Secular Authority: To What Extent It Should Be Obeyed (1523)', locator: 'SECULAR AUTHORITY TO WHAT EXTENT IT SHOULD BE OBEYED', nth: 1 },
+      // The edition groups the three Emser pieces under one half-title,
+      // "Luther's Writings Against Emser"; the first of them shares that
+      // page, which is why this locator carries the group title too.
+      { name: 'To the Leipzig Goat (1521)', locator: 'LUTHER’S WRITINGS AGAINST EMSER I. TO THE LEIPZIG GOAT', nth: 1 },
+      { name: 'Reply to the Answer of the Leipzig Goat (1521)', locator: 'II. REPLY TO THE ANSWER OF THE LEIPZIG GOAT', nth: 1 },
+      { name: 'Answer to the Superchristian, Superspiritual, and Superlearned Book of Goat Emser of Leipzig (1521)', locator: 'Ill. MARTIN LUTHER’S ANSWER SUPERCHRISTIAN, SUPERSPIRITUAL, AND SUPERLEARNED BOOK OF GOAT EMSER OF LEIPZIG WITH A GLANCE AT HIS COMRADE MURNER', nth: 1 },
+      { name: 'To the Knights of the Teutonic Order (1523)', locator: 'TO THE KNIGHTS OF THE TEUTONIC ORDER AN EXHORTATION THAT THEY LAY ASIDE FALSE CHASTITY AND TAKE UPON THEM THE TRUE CHASTITY OF WEDLOCK', nth: 1 },
+    ],
+    backMatter: { locator: 'INDEX SCRIPTURE REFERENCES', nth: 1 },
+  },
 ];
 
 // Asserted against each volume's own declared list rather than a single
 // number: Volume I carries the edition's general introduction as a ninth
-// book, Volume II has no volume-level introduction to carry.
-const EXPECTED_BOOKS = { 1: 9, 2: 8 };
+// book, Volume II has no volume-level introduction to carry, and Volume III
+// has none either — its eight works are the eight in its printed contents.
+const EXPECTED_BOOKS = { 1: 9, 2: 8, 3: 8 };
+
+const ROMAN = { 1: 'I', 2: 'II', 3: 'III' };
 
 // ---------------------------------------------------------------------------
 // Text normalisation
@@ -174,7 +217,64 @@ function stripFootnoteMarkers(text) {
 // ---------------------------------------------------------------------------
 // Provenance gate — see the header note. Runs before any parsing.
 
+// Volume III's gate. Its provenance story is different in kind from the
+// Gutenberg volumes': there is no machine-readable header and no licence
+// boilerplate to match, only what the printed leaves themselves say, read
+// off the scan by vol3-normalise.mjs and restated in the FOUNDATION-PROVENANCE
+// block it writes. Both halves are checked — the block, and the title page
+// as it appears in the body text — so that neither the normaliser's summary
+// nor the text alone is trusted on its own.
+//
+// The 1930 date is the whole basis for this volume being public domain
+// (95-year term expiry, so 1 January 2026), and it is asserted against the
+// printed notice. Internet Archive's catalogue date for this item says 1915,
+// which is the six-volume set's date and wrong for this volume; nothing here
+// reads it, and the assertions below would not pass if something tried to.
+function assertVol3Provenance(raw, vol) {
+  const headerEnd = raw.indexOf('*** START');
+  const header = raw.slice(0, headerEnd > 0 ? headerEnd : 4000).replace(/\s+/g, ' ');
+  const body = raw.slice(headerEnd > 0 ? headerEnd : 0, (headerEnd > 0 ? headerEnd : 0) + 4000)
+    .replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ');
+  const fail = (why) => {
+    throw new Error(
+      `Volume 3 (${vol.file}) failed the provenance gate: ${why}\n` +
+      '  This build is pinned to the A. J. Holman Company and The Castle Press\n' +
+      `  printing of Volume III, ${vol.printedYear}, Internet Archive item\n` +
+      `  ${vol.iaIdentifier}. Refusing to build rather than shipping a text whose\n` +
+      '  edition, printing or copyright date is unconfirmed. Re-run\n' +
+      '  `node vol3-normalise.mjs --report` and read the report before changing this.',
+    );
+  };
+
+  if (!header.includes('FOUNDATION-PROVENANCE')) {
+    fail('it carries no FOUNDATION-PROVENANCE block — it was not written by vol3-normalise.mjs');
+  }
+  if (!header.includes(`primary-scan: ${vol.iaIdentifier}`)) {
+    fail(`its provenance block does not name the scan ${vol.iaIdentifier}`);
+  }
+  if (!header.includes('edition: Works of Martin Luther, with Introductions and Notes')) {
+    fail('its provenance block does not name this edition');
+  }
+  if (!header.includes('volume: III')) fail('its provenance block does not name Volume III');
+  if (!header.includes(`printed-year: ${vol.printedYear}`)) {
+    fail(`its provenance block does not carry the printed year ${vol.printedYear}`);
+  }
+  // Read off a printed leaf, not asserted by the normaliser: at least one
+  // scan of this volume must actually show the 1930 date.
+  if (!/year-evidence: .*\b1930\b/.test(header)) {
+    fail('no scan of this volume shows a printed 1930 date');
+  }
+  if (!/ia-date-field: NOT USED/.test(header)) {
+    fail('its provenance block does not record that Internet Archive\'s date field was refused');
+  }
+  // And independently of the block, the title page in the text itself.
+  if (!/VOLUME III/.test(body)) fail('"VOLUME III" is not on its title page');
+  if (!/A\. J\. HOLMAN COMPANY/i.test(body)) fail('the A. J. Holman Company imprint is not on its title page');
+  if (!/THE CASTLE PRESS/i.test(body)) fail('The Castle Press imprint is not on its title page');
+}
+
 function assertProvenance(raw, vol) {
+  if (vol.provenance === 'vol3') return assertVol3Provenance(raw, vol);
   const flat = (chunk) => chunk.replace(/\s+/g, ' ');
   // Gutenberg's machine-readable header runs from the top of the file to the
   // START marker, and the publisher's title page sits just after it. Sliced
@@ -444,23 +544,41 @@ async function buildVolume(vol, audit) {
   const droppedSidenotes = books.flatMap((b) => b.droppedSidenotes);
   for (const b of books) delete b.droppedSidenotes;
 
+  const roman = ROMAN[vol.volume];
   const bundle = {
     metadata: {
       build_date: new Date().toISOString(),
-      work: `Works of Martin Luther, with Introductions and Notes — Volume ${vol.volume === 1 ? 'I' : 'II'}`,
+      work: `Works of Martin Luther, with Introductions and Notes — Volume ${roman}`,
       edition: 'Philadelphia Edition',
-      publisher: 'A. J. Holman Company, Philadelphia',
+      publisher: vol.publisher ?? 'A. J. Holman Company, Philadelphia',
       printed_year: vol.printedYear,
       volume: vol.volume,
       volumes_in_edition: 6,
-      gutenberg_id: vol.gutenbergId,
-      gutenberg_released: vol.releaseDate,
-      source_site: 'https://www.gutenberg.org/',
-      license_note:
-        `Public domain — Works of Martin Luther, with Introductions and Notes ` +
-        `(Philadelphia Edition), Volume ${vol.volume === 1 ? 'I' : 'II'}, A. J. Holman Company, ` +
-        `${vol.printedYear}; US copyright expired. Digitised by Project Gutenberg ` +
-        `(#${vol.gutenbergId}). Translators' and editors' footnotes are excluded from the text.`,
+      ...(vol.provenance === 'vol3'
+        ? {
+          ia_identifier: vol.iaIdentifier,
+          source_site: 'https://archive.org/',
+          license_note:
+            'Public domain — Works of Martin Luther, with Introductions and Notes ' +
+            '(the Philadelphia Edition), Volume III, A. J. Holman Company and The Castle ' +
+            'Press, Philadelphia, 1930. In the public domain in the United States since ' +
+            '1 January 2026, when its 95-year copyright term expired; the date is taken ' +
+            'from the printed copyright notice, not from Internet Archive\'s catalogue ' +
+            'record, which gives the six-volume set\'s date of 1915 and is wrong for this ' +
+            'volume. Digitised by the Internet Archive from the Princeton Theological ' +
+            `Seminary copy (${vol.iaIdentifier}); text recovered from that scan's OCR. ` +
+            'Translators\' and editors\' footnotes are excluded from the text.',
+        }
+        : {
+          gutenberg_id: vol.gutenbergId,
+          gutenberg_released: vol.releaseDate,
+          source_site: 'https://www.gutenberg.org/',
+          license_note:
+            `Public domain — Works of Martin Luther, with Introductions and Notes ` +
+            `(Philadelphia Edition), Volume ${roman}, A. J. Holman Company, ` +
+            `${vol.printedYear}; US copyright expired. Digitised by Project Gutenberg ` +
+            `(#${vol.gutenbergId}). Translators' and editors' footnotes are excluded from the text.`,
+        }),
       work_count: books.length,
       section_count: sectionCount,
       paragraph_count: paragraphCount,

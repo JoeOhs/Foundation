@@ -484,17 +484,21 @@ running list of what's done and what's next, not a commitment.
   are unwrapped, since `entries.text` is plain text everywhere and no pane
   renders markup — the same call the Talmud import made with Sefaria's `<b>`.
 
-- **Reformation writings — Luther, Philadelphia Edition (Vols. I–II).**
+- **Reformation writings — Luther, Philadelphia Edition (Vols. I–III).**
   Martin Luther's major treatises, sermons and open letters as a freeform,
   `position_ref`-anchored library work in the same mould as Josephus, the
   Talmud and the martyrology — read straight through under a hand-built table
   of contents, never keyed to Bible book/chapter/verse.
-  **Two of the edition's six volumes**, and the Library says so rather than
-  implying otherwise: the source titles carry "Vol. I" / "Vol. II" and the
+  **Three of the edition's six volumes**, and the Library says so rather than
+  implying otherwise: the source titles carry their volume number and the
   panel's series note states the scope outright. Volumes I (1915) and II
   (1916) are the two Project Gutenberg has digitised as clean transcribed
-  text (#31604, #34904); III–VI exist only as page scans and are pinned
-  below. Staging it this way — ship what is cleanly available, prove the
+  text (#31604, #34904). **Volume III (1930) has no transcription** and is
+  recovered from Internet Archive page scans by
+  `tools/luther/vol3-normalise.mjs`, which rebuilds the printed apparatus
+  from the scan's own page geometry — see the note below. Volumes IV–VI are
+  absent because they are **still under US copyright** until 2027 and 2028,
+  not because they are hard; the findings are pinned below. Staging it this way — ship what is cleanly available, prove the
   pattern, extend later — is how the Companion Bible shipped Philemon first
   and how the patristic volumes arrived one at a time rather than as a single
   37-volume commitment.
@@ -581,13 +585,28 @@ running list of what's done and what's next, not a commitment.
   Cross-linking Luther's own Scripture citations into the study pane is out of
   scope for the same reason the Talmud's verse-citation item is pinned rather
   than built: a separate feature, not needed to ship the base text.
+  **Volume III arrives differently, and the Library says so.** It is OCR of a
+  page scan, not a transcription, so it reads a little rougher; its title page
+  carries **A. J. Holman Company and The Castle Press** (the imprint the set
+  adds from Vol. III on) and no edition name at all — "Philadelphia Edition"
+  is in fact the *Muhlenberg Press* reprint's name, which is why the volume's
+  own title reads "Holman & Castle Press, 1930" while the series keeps the
+  familiar name. It is public domain on **term expiry**: published 1930, so
+  its 95-year US copyright ran out on 1 January 2026. That date is asserted
+  against the printed notice and explicitly *not* against Internet Archive's
+  catalogue field, which says 1915 — the six-volume set's date — and is wrong
+  for this volume.
   **Built by `tools/luther/build.mjs`, which hard-fails three ways** rather
-  than shipping a doubtful text: on provenance (a file whose Gutenberg header
-  does not name this edition and the matching volume, carry the matching
-  ebook id, show the Holman imprint and printed year, and carry the licence
-  boilerplate); on structure (every declared boundary — nine in Vol. I, eight in
-  Vol. II, the difference being Vol. I's own volume-level introduction — found
-  exactly once and in document order); and on **conservation** — every
+  than shipping a doubtful text: on provenance (for I–II, a file whose
+  Gutenberg header does not name this edition and the matching volume, carry
+  the matching ebook id, show the Holman imprint and printed year, and carry
+  the licence boilerplate; for III, a file whose provenance block does not
+  name the edition, the volume, the 1930 printed year, the scan it came from
+  and a scan actually showing that date — checked again, independently,
+  against the title page in the text); on structure (every declared boundary —
+  nine in Vol. I, eight each in Vols. II and III, the difference being Vol.
+  I's own volume-level introduction — found exactly once and in document
+  order); and on **conservation** — every
   body paragraph must end up either in a bundle or in a logged exclusion, so
   a mis-declared boundary or a runaway FOOTNOTES block cannot swallow real
   treatise text while the build still reports success. That third gate exists
@@ -1200,19 +1219,100 @@ running list of what's done and what's next, not a commitment.
 
 ## Longer-term / exploratory
 
-- **Volumes III–VI of the Philadelphia Edition**, completing the six-volume
-  set begun with Vols. I–II. Not digitised on Project Gutenberg: they exist
-  as page-scanned editions on the Internet Archive
-  (`archive.org/details/worksofmartinlut02luth` and siblings), which is raw
-  scans rather than clean transcribed text — closer to the Companion Bible's
-  OCR/hand-transcription pipeline than to the fetch-and-parse-clean-HTML
-  approach `tools/luther/build.mjs` takes, and not a mechanical extension of
-  it. **Confirm the imprint before treating them as the same edition**:
-  III–VI carry "A. J. Holman and The Castle Press" rather than I–II's plain
-  "A. J. Holman Company", which is very likely nothing more than a printer
-  change but should be established rather than assumed, since the builder's
-  provenance gate is pinned to the imprint. Needs its own structure
-  investigation when picked up.
+- **Volumes IV–VI of the Philadelphia Edition.** Blocked on US copyright,
+  not on effort — see the investigation below. Vol. III shipped; IV and V
+  cannot be touched before **1 January 2027** and VI before
+  **1 January 2028**.
+
+### Luther Vols. III–VI — investigation findings (September 2026)
+
+Recorded here because they are expensive to re-derive and easy to lose. The
+edition-identity and copyright findings are settled; do not re-litigate them.
+
+**One edition, one set.** Vols. III–VI are the same six-volume set as I–II —
+one Library of Congress record (LCCN 15007839), one OCLC number (5262057),
+the same editorial committee (Adolph Spaeth as organising chairman, Henry
+Eyster Jacobs) and the same translator pool. The catalogue note repeated
+across every record reads: *"Vols. III-VI have imprint: Philadelphia, Pa.,
+A.J. Holman and The Castle press"*, and the title pages confirm it. **The
+Castle Press is a printing partner, not a co-publisher and not a separate
+edition** — the decisive evidence being that it never appears as copyright
+claimant: every notice in III–VI reads "Copyright, 19xx, by A. J. Holman
+Company" alone.
+
+**"The Philadelphia Edition" is the reprint's name.** It is printed on the
+*Muhlenberg Press* title page, not on the Holman/Castle Press original, which
+carries no edition name at all. The name is still used for the series, since
+that is how the set is generally known — but Vol. III's own title says
+"Holman & Castle Press", and the Library's provenance note explains why.
+
+**Per-volume copyright.** Not evenly spaced: I–II are 1915/1916, then a
+fourteen-year gap, then III–VI in 1930–32.
+
+| Vol. | Published | US public domain | Evidence |
+|---|---|---|---|
+| I | 1915 | yes | shipped |
+| II | 1916 | yes | shipped |
+| III | **1930** | **1 January 2026** — shipped | printed notice, read from the page image and corroborated by both control scans |
+| IV | 1931 | 1 January 2027 | no renewal found (CCE 1958–59) |
+| V | 1931 | 1 January 2027 | **copyright renewed** — CCE 1959, reg. A40377 (3 Jul 1931), renewal **R238530** (26 Jun 1959) |
+| VI | 1932 | 1 January 2028 | no renewal found (CCE 1959–60) |
+
+HathiTrust's independent rights review agrees on the shape: v.1 and v.2
+`pdus`, v.5 `ic` (in copyright), v.3/v.4/v.6 `und` (undetermined). The
+absence of a renewal for IV and VI is negative evidence from a third-party
+transcription and is **not** treated as establishing public domain — it does
+not need to be, since both clear on term expiry anyway on the dates above.
+
+**Internet Archive's date metadata for this set is wrong.** Item
+`worksofmartinlut03luth_0` is catalogued `date: 1915`; it is a 1930 book. The
+1915 is the set-level date inherited from the shared record. Any future work
+on IV–VI **must read the printed copyright notice**, not IA's fields — the
+Vol. III gate does exactly this and refuses the metadata explicitly.
+
+**OCR quality, measured not assumed.** Out-of-vocabulary rate against a
+reference vocabulary built from the clean Gutenberg Vols. I–II (same
+translators, same subject):
+
+| Vol. | Tokens | OOV | Verdict |
+|---|---|---|---|
+| III | 152k | 4.3 % | good — shipped |
+| IV | 134k | 4.4 % | good |
+| V | 115k | 5.1 % | good |
+| VI | 144k | **12.4 %** | degraded |
+
+For III–V the out-of-vocabulary head is almost entirely legitimate — proper
+nouns and end-of-line hyphenation splits. Vol. VI is three times worse, and
+while some of that is inherent (it is Luther's *Liturgical Writings*, dense
+with Latin and German), systematic character-class failure is confirmed on
+sampled pages: `th→tli` (`tlie` ×68, `tliat` ×46), `ci→d` (`predsely`,
+`dty`), and the running head "Luther's Liturgical Writings" read as
+"Lumber's".
+
+**Available source material.** The Internet Archive copies of IV, V and VI
+scanned under `internetarchivebooks` are `access-restricted-item` (lending,
+LCP DRM) and unusable. The only open scans are the Digital Library of India
+copies — `in.ernet.dli.2015.75685` (IV), `in.ernet.dli.2015.58313` (V),
+`in.ernet.dli.2015.180138` (VI). Note that DLI hosts material without regard
+to US copyright; its presence is **not** evidence of public domain. Those
+scans are ABBYY-era and carry no hOCR, only `_djvu.xml`; their line-level
+segmentation merges marginal notes into body lines, though word-level
+coordinates still separate cleanly.
+
+**Recommended pipeline when they unlock.**
+
+- **Vols. IV and V** — the Vol. III approach (`vol3-normalise.mjs` plus the
+  shared builder) should carry over, but **re-OCR the page images with
+  current Tesseract first** rather than consuming the ABBYY-era DLI text.
+  Vol. III's own scan is a 2026 re-scan at 360 ppi with modern Tesseract, and
+  that is most of why its margins segment as cleanly as they do.
+- **Vol. VI** — re-OCR and re-assess before committing to anything. If a
+  fresh OCR does not fix the quality, this falls to the Companion Bible
+  hand-transcription pipeline (`tools/companion-bible-notes/`), which would be
+  **the largest single transcription effort this project has taken on** —
+  roughly 530 pages of liturgical material with interleaved Latin and German,
+  hymn texts and rubrical formatting. That is a different kind of work order,
+  not a bigger version of this one. Do not scope it as a follow-on.
 
 - **Lenker's Luther commentary series** as a further `reformation` source.
   J. N. Lenker's translations (Genesis, the Psalms, and others, 1904 onward)
