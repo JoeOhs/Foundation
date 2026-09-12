@@ -890,6 +890,117 @@ running list of what's done and what's next, not a commitment.
   Filed in the Library under "Church Fathers" → "Ante-Nicene Fathers" (series
   sub-grouping).
 
+  Still open: **Vol. 5's "The Extant Works and Fragments of Hippolytus" has a
+  flat TOC.** That work holds *On Christ and Antichrist*, *Against Noetus*,
+  *Against Plato*, *Against Beron and Helix* and the Daniel/Genesis/Psalms
+  exegetical fragments, but is split into exactly two chapters titled
+  "Part I" and "Part II", with each individual treatise title sitting as
+  plain paragraph text rather than a TOC row of its own. Navigability gap,
+  not a content or licensing one — the text is all there. Almost certainly
+  because `anf05/build.mjs` predates the depth-recursion fix documented for
+  NPNF Series II below. Worth revisiting when that fix is generalised
+  backwards.
+
+- **Hippolytus — The Apostolic Tradition (tr. Easton, 1934).** A `patristic`
+  source shelved with the Ante-Nicene Fathers but deliberately **not one of
+  them**, and explicitly **not "Vol. 10"** — Vol. 10 is the Roberts/Donaldson
+  General Index, omitted above for unrelated reasons, and conflating the two
+  would misrepresent both. The ANF translation was made in the 1880s, before
+  Hippolytus was identified as this work's author and before any critical text
+  of it existed; ANF Vol. 5 carries his *Refutation of All Heresies* and his
+  extant fragments and nothing of the Apostolic Tradition. So this is a later,
+  separately-sourced addition, listed after Vol. 9 in the same series
+  sub-grouping so it reads as a supplement rather than a numbered
+  continuation, with the series note in `src/library.ts` saying so in as many
+  words.
+
+  **Second copyright edge case after the Talmud, and given the same
+  individual verification.** The work survives only through derivative later
+  manuscripts — a Latin palimpsest at Verona, plus Sahidic, Arabic and
+  Ethiopic versions — so every usable English text is a modern scholarly
+  reconstruction rather than a 19th-century translation that has aged into the
+  public domain. The edition used is **Burton Scott Easton's**, published 1934
+  by Cambridge University Press. Crucially it was *printed in the United
+  States* and carries a US copyright notice, which makes it a domestic
+  1909-Act work rather than a foreign-first-publication case needing URAA
+  restoration analysis — that distinction matters, because Easton did not die
+  until 1950 and UK copyright runs life + 70. As a domestic 1909-Act work it
+  needed a renewal filed inside a 28-year window, which for a 1934 publication
+  falls somewhere in 1961–1962 depending on the month. **All four candidate
+  half-year volumes of the Catalog of Copyright Entries, Third Series
+  (Renewals) were checked by hand** — Jan–Jun 1961, Jul–Dec 1961, Jan–Jun
+  1962, Jul–Dec 1962 — with no entry for Easton in any of them. The term
+  therefore lapsed unrenewed and the text is public domain in the US. Project
+  Gutenberg cleared it independently (ebook #61614) and the Online Books Page
+  lists it. **No Library disclaimer**, unlike the two Talmuds: this is not an
+  exception to the public-domain rule, so it gets the same no-caveat treatment
+  as the rest of the Church Fathers collection.
+  **Gregory Dix's 1937 edition and the Dix/Chadwick 1968 revision are still in
+  copyright** (SPCK) and are neither used as a source text nor consulted for
+  wording.
+
+  **A real chapter/section TOC, deliberately unlike the ANF Vol. 5 gap above.**
+  Two `books` rows under one source — Easton's introduction and Hippolytus's
+  text — each opening a level-0 TOC branch, with 61 rows in all. The
+  translation reads Part → Chapter: *Part I. Ordination*, *Part II. Baptism*,
+  *Part III. Church Laws*, *Part IV. Lay Devotions*, *Later Additions*, with
+  Hippolytus's preamble (chapter 1) sitting at the parts' own level because it
+  stands outside them. **The section titles are Easton's, not invented.** He
+  gives the printed translation no section titles at all — but he heads his
+  *Notes* with them ("2 / THE BISHOP", "4-6 / THE EUCHARIST", "11-15 / MINOR
+  ORDERS"), and the part names likewise ("PART I / Ordination"), so those are
+  carried across. A heading covering a span of chapters is attached to the
+  chapter that opens the span and names the span in the row ("Chapters 4–6.
+  The Eucharist"); the chapters inside it are left untitled, because he did
+  not separately title them and naming each one would be putting words in his
+  mouth. **Easton's chapter numbering is not a simple run** — there is no
+  chapter 7, and 24, 26, 31 and 32 appear twice over, once in place and once
+  among the "Later Additions" — so `entries.chapter` is a running loading
+  index rather than his numbering, and his number is what the reader sees, in
+  the entry's `position_ref` and the TOC row. The Notes' section titles are
+  *not* carried onto the Later Additions duplicates: a note headed "26 The
+  Agape" is about chapter 26 of the treatise, not its Ethiopic variant.
+
+  **Easton's introduction is included; his notes are not.** The introduction
+  is its own `books` row with its own TOC branch (Prefatory Note; The
+  Important Books; I. Church Orders, with its ten named subsections;
+  II. Hippolytus), clearly attributed and separate from the primary text. A
+  reconstructed work with this much transmission history behind it is not
+  usefully read without the essay explaining that transmission, and ANF Vol. 5
+  sets the precedent by carrying Hippolytus's own Introductory Notice as a
+  first-class work entry rather than marginalia. His **notes, footnotes and
+  indexes are excluded** and stripped in the builder, so none of his prose
+  reaches `entries.text` — the standing rule across the ANF/NPNF volumes,
+  Whiston's Josephus and the Strong's import, for the reason the `{braces}`
+  note-leak bug taught.
+
+  `type: 'extra-biblical'` and `category: 'patristic'`, so it falls under the
+  existing **"Church Fathers" search scope chip** — no new chip needed.
+  Paragraph-per-entry granularity, matching the rest of the collection.
+
+  **Built by `tools/hippolytus-apostolic-tradition/build.mjs`** from Project
+  Gutenberg ebook #61614's HTML, cached under `raw/`, with no network call at
+  read time. It hard-fails rather than shipping a doubtful text: on the PG end
+  marker for that exact ebook number, on the transcribers' public-domain
+  statement, on the `author`/`DC.Title` metadata naming Easton and this work
+  (so a mistyped ebook number or a swapped translation fails loudly), and on
+  the two verso lines the clearance actually rests on — "Copyright 1934,
+  Cambridge University Press" and "PRINTED IN THE UNITED STATES OF AMERICA".
+  It also pins the parsed shape: the exact chapter list of every part, a
+  subsection count for each introduction part, and the number of unnumbered
+  paragraphs dropped from "Later Additions". That last one matters because
+  Easton prints his discussion of each later addition directly beneath it with
+  no heading between them; the two are told apart by his paragraphs carrying
+  none of the superscript verse numbers every translated paragraph has, and a
+  changed count means either his prose is reaching the text or Hippolytus's is
+  being thrown away. Gutenberg's boilerplate, the printed page numbers, the
+  footnote markers and the marginal manuscript sigla (LAT/GRE/SAH/ETH) are all
+  stripped — the sigla are real information, but Foundation has nowhere to put
+  a margin, and dropped into the run of the text they read as words Hippolytus
+  wrote. Easton's superscript sentence numbers **are** kept: his notes, his
+  introduction and the scholarly literature all cite the work as "36. 12", and
+  without them that citation cannot be followed in the reading pane.
+
 - **Church Fathers — Nicene and Post-Nicene Fathers, Series I: COMPLETE (Vols. 1–14).**
   - Vol. 1 — Augustine: Prolegomena, Confessions, Letters (4 sections, 23 works, ~2,915 para)
   - Vol. 2 — Augustine: City of God, On Christian Doctrine (4 sections, 32 works, ~2,448 para)

@@ -1,0 +1,10 @@
+{
+  "name": "hippolytus-apostolic-tradition-builder",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Standalone data-prep script: downloads Burton Scott Easton's public-domain 1934 translation of Hippolytus's Apostolic Tradition from Project Gutenberg and builds the importable JSON bundle for Foundation's Library. Not part of the Tauri app runtime.",
+  "scripts": {
+    "build": "node build.mjs"
+  }
+}

@@ -1,0 +1,654 @@
+{
+ "metadata": {
+  "build_date": "2026-09-12",
+  "work": "Hippolytus — The Apostolic Tradition",
+  "author": "Hippolytus of Rome (c. 170–235)",
+  "translator": "Burton Scott Easton (1877–1950), translation published 1934",
+  "source_site": "https://www.gutenberg.org/",
+  "gutenberg_id": 61614,
+  "license_note": "Public domain — Hippolytus of Rome (c. 170–235), The Apostolic Tradition, in Burton Scott Easton's English translation (Cambridge University Press, 1934). Easton's edition was printed in the United States with a US copyright notice, making it a domestic 1909-Act work; its 28-year term expired unrenewed — the Catalog of Copyright Entries, Third Series (Renewals) was checked across all four half-year volumes the renewal window could fall in (Jan–Jun 1961, Jul–Dec 1961, Jan–Jun 1962, Jul–Dec 1962) with no entry for Easton in any of them. Text from Project Gutenberg ebook #61614, which likewise marks it \"Public domain in the USA\". Easton's introduction is included; his notes, footnotes and indexes are not. Gregory Dix's 1937 edition and the Dix/Chadwick 1968 revision remain in copyright and are not used here.",
+  "total_paragraphs": 241
+ },
+ "introduction": [
+  {
+   "title": "Prefatory Note",
+   "subsections": [
+    {
+     "title": "",
+     "paragraphs": [
+      "This book was originally planned as the joint work of my colleague, Dr Frank Gavin, and myself. Other duties compelled him to withdraw from the undertaking, but it none the less owes more than can be told to his expert knowledge and lavishly given advice.",
+      "Appreciative thanks are also due to Dr E. R. Hardy for his generous help in checking the translation from the Sahidic."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Important Books",
+   "subsections": [
+    {
+     "title": "",
+     "paragraphs": [
+      "Edmund Hauler. Didascalia Apostolorum Fragmenta Ueronensia Latina. Accedunt Canonum qui Dicuntur Apostolorum et Aegyptiorum Reliquiae. Leipzig, 1900.",
+      "Paul de Lagarde. Aegyptiaca. Göttingen, 1883.",
+      "George Horner. The Statutes of the Apostles or Canones Ecclesiastici. London, 1904.",
+      "Since 1915 published by the Oxford University Press; the English translations only are included.",
+      "R. Hugh Connolly. The So-called Egyptian Church Order and Derived Documents. Cambridge, 1916.",
+      "Ernst Jungklaus. Die Gemeinde Hippolyts. Leipzig, 1928. At first included in the Texte und Untersuchungen.",
+      "F. X. Funk. Didascalia et Constitutiones Apostolorum. Paderborn, 1905.",
+      "James Cooper and Arthur John Maclean. The Testament of Our Lord. Edinburgh, 1902.",
+      "Wilhelm Riedel. Die Kirchenrechtsquellen des Patriarchats Alexandrien. Leipzig, 1900.",
+      "John Wordsworth. Bishop Sarapion’s Prayer-Book. London, 1899.",
+      "Arthur John Maclean. The Ancient Church Orders. Cambridge, 1910.",
+      "Paul Wendland. Hippolytus Werke. Dritter Band. Refutatio Omnium Haeresium. Leipzig, 1916.",
+      "In the Berlin Die griechischen christlichen Schriftsteller series. The best text of the Philosophumena.",
+      "Francis Legge. [Hippolytus’s] Philosophumena. London, 1921.",
+      "The best English translation. Unfortunately Wendland’s critical text is ignored."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "I. Church Orders",
+   "subsections": [
+    {
+     "title": "",
+     "paragraphs": [
+      "The early Church Orders were systematic manuals of disciplinary and liturgical rules for which the collective authority of the whole apostolate was claimed. They made their appearance in the second century, grew to considerable dimensions in the third, and reached their fullest development toward the end of the fourth century. They are sources of importance for our knowledge of the inner life of the church, and they were influential factors in the formation of the later canon law.",
+      "That legislation of a fairly detailed and elaborate character should sooner or later make its appearance in Christianity was inevitable. The local congregations were made up of men and women practically isolated from the rest of the world and brought into the closest contact with one another; their church was to them almost their entire universe. If human beings anywhere are to live together under such conditions, mutual affection and forbearance—be they never so great—are not enough. Regulations, which define rights and duties in unambiguous terms, are indispensable, and these regulations are bound to increase in number and complexity as the community grows.",
+      "As it happened, however, Christianity in its origins contained extraordinarily little material that could be used in forming these regulations. In theory Christians, for guidance in all matters, were to turn to Jesus Christ their Lord, whose teaching they regarded as totally divine and so the final authority in all things. But, as a matter of fact, Jesus’ concern was not with concrete and specific problems, and when asked to rule on such he brusquely refused. He occupied himself with ultimate moral principles, and left to individuals the task of applying these principles to the various special problems of their lives. Hence it is not at all surprising that in the apostolic and post-apostolic ages direct citation of his sayings is rarely used to settle disputed matters of practice; his words are employed rather as general directives and to give inspiration to action.",
+      "Nor did the apostles attempt in any systematic way to supply the concrete element that Jesus’ teaching might be thought to lack. In only one instance does the New Testament give us anything that purports to be an apostolic decree, and it gives this only in a matter of fundamental importance. Yet even this brief ruling presents serious critical difficulties to modern investigators, and probably something less than full apostolic authority should be accorded it. In St Paul’s Epistles, indeed, it is laid down as a fundamental principle that individual divergences should be tolerated as far as possible even in the same community, so that the apostle turns from general principles to detailed regulations only in the most extreme instances. Each of his churches was left free to develop under the guidance of the Spirit such customs as it might judge profitable—and was warned not to make even these customs too authoritative. And there is no reason to think that the other apostles differed greatly from St Paul in this regard. That some of them may have drawn up certain specific rules for their own communities is abstractly conceivable, but as to this there is no tradition at all in the sources of the apostolic age and nothing of any value in later writings.",
+      "As a consequence, Christian congregations in search for material to use for legislative purposes could find very little in the primary authoritative teaching of their religion, and were obliged to look elsewhere. But abundant other sources were not lacking.",
+      "Of these the chief was the Old Testament, whose importance to the majority of early Christians can hardly be exaggerated. The ceremonial legislation of the Pentateuch was, to be sure, no longer regarded as binding on Christians; the Pauline controversies had settled this principle, even though a dissenting minority did not disappear until late in the second century. But acceptance of the principle did not debar endless debate as to the principle’s precise extent: just what Mosaic precepts should be classed as “purely ceremonial”? St Paul, for instance, saw no inherent objection to eating things sacrificed to idols, but in the decree of Acts 15. 28-29 abstinence from such food is regarded as axiomatically “necessary”, and Christians during the next three centuries generally took the same view. The duty of Christian liberality was defined more closely by the adoption of the Jewish law of tithing, and this law was even extended to include not only agricultural produce but income of any kind. Or, even when the literal force of an Old Testament precept was recognized as superseded, a transferred sense might be discovered that revived the rule for Christianity. So the command that tithes should be paid to the priests was construed to give the church’s ministers a right to the Christian payments. Or the fact that the Old Testament ministry was strictly regulated led to the argument that divine regulations of equal strictness must hedge about the Christian ministry as well.",
+      "Since so much permanent value was detected in the older ceremonial legislation, it was only natural that the obligation of the “moral” laws should usually be treated as absolute. This led to a true moral legalism; that is, these laws were conceived to demand obedience not because of a higher principle contained in them but simply because they were “written”. Such, for instance, is the assumption throughout Clement’s letter to the Corinthians, where almost every argument is made to rest ultimately on an Old Testament precept. Nor does it occur at all to Clement that the Corinthians may find anything amiss in his method; he takes for granted that, no matter how much other parts of the Old Testament may have lost their meaning, God’s moral statutes will remain in immutable force for ever. And, we can scarcely doubt, such was a common opinion in Christianity from the very beginning, outside of Pauline and a few other circles; it was an attitude very like Clement’s that St Paul combated in his Epistle to the Romans.",
+      "This common opinion, moreover, was strongly reinforced by pedagogical needs. The sweep of the new religion and its gathering in converts from all sorts of curious moral highways and hedges had created a situation that taxed to the uttermost the powers of the Christian teachers. Multitudes of neophytes were constantly demanding instruction, and to teach each one of them how to apply Christ’s deeper principles to involved special problems seemed utterly impracticable; why engage in so intricate a task when a succinct Old Testament precept could settle the matter instantly? So catechetical moral training was usually given by means of short digests based on Old Testament laws, some of these digests being undoubtedly of Jewish origin. But it is interesting to note that the most authoritative brief digest of Jewish morality—the Decalogue—does not appear as a whole in the Christian teaching.",
+      "In Gentile Christianity concrete rules were taken likewise from Greek ethical works, whose standard was usually high. Only the learned, of course, could appreciate the moral treatises of the great philosophers, but a long succession of teachers—chiefly Stoics—had devoted themselves to bringing an understanding of good conduct within the reach of all. Among other means, these teachers achieved their purpose by requiring their pupils to memorize short gnomic formulas, or—the ultimate extremity of simplification—bare lists of virtues to be imitated or vices to be avoided. This last device was so convenient that even Greek-speaking Jews adopted it, and Christians found it invaluable. In fact they did not hesitate to take ready-made lists from Stoic and other sources, so giving Greek ethical concepts an unnoticed but authoritative entrance into Christianity.",
+      "Less formal but very real was the influence of established customs and conventions—on occasion, even superstitions—in contemporary life, whether Jewish or Gentile. St Paul, for instance, in 1 Corinthians 11. 4 holds it to be obvious that men should pray with their heads uncovered, and this passage has influenced all subsequent Christian practice. Yet the ruling rests on nothing more profound than the religious habits of the particular Jews among whom St Paul was brought up; other Jews in his day believed that God should be approached only when the head was covered, and this came to be the accepted Jewish practice. If St Paul had lived elsewhere—or if he had been born somewhat later—the declaration in 1 Corinthians 11. 4 would have shocked him.",
+      "To these customs inherited from their pre-conversion days, the various local churches gradually added customs of their own. Some of these were certainly introduced for very good reasons, others perhaps for no particular reason and more or less accidentally. But in religious bodies everywhere customs quickly grow to be revered simply because they are the custom, and are clung to tenaciously. Yet, to a certain degree, the churches were willing to learn from one another. The Christian communities in any geographical subdivision of the Empire had strong interests in common, and, in particular, they recognized as right and proper a certain leadership on the part of the church in their political capital. So the customs of this church were generally accepted as models for the whole region, with the result that by the end of the second century “local” use was quite generally converted into “provincial” use. And very large and important churches—especially Antioch, Alexandria and Rome—gained a corresponding ascendency over the smaller capitals within their respective areas.",
+      "In some instances, in fact, rulings by outstanding churches or individuals might acquire an almost world-wide influence. 1 Clement, which states the Roman conception of certain rules governing the ministry, was accepted as authoritative in circles far away from the Corinthians for whom it was written. Indeed, many Christians came actually to regard it as an inspired New Testament writing, and in various later documents Clement figures as the medium through whom the apostles issued their decrees. Of equal significance was Ignatius of Antioch, whose directions on church organization appear to have been obeyed even in Rome itself. Just so later Church Orders were regarded as legally binding in provinces remote from their place of origin.",
+      "In most quarters this trend toward uniformity in the second century was simply taken for granted. Practices with a century of tradition behind them were practically treated as irreformable: “This custom has been handed down from the days of the apostles and consequently has the apostles’ authority behind it”. But even by the end of the first century the apostles were regarded as a wholly inspired group, who were the divinely appointed custodians and interpreters of the faith. Hence, it was commonly assumed, they must have been unanimous in all things; what one apostle taught all apostles must have taught. All Christianity rests on a common norm of doctrine and practice that was delivered to the church by the apostles.",
+      "It is this conviction that lies behind the Church Orders and that gives them their peculiar form.",
+      "The most obvious objection to this theory, naturally, was the very evident fact that approved practices in different localities varied considerably; these could not all go back to a common origin. And in minor matters, assuredly, second- and third-century Christianity tolerated or even encouraged differences. But in anything regarded as important local divergences could lead to bitter conflict. When the second-century Asia Minor churches were asked to change their date for Easter, they replied, “We must obey God rather than men”, and a schism in the church resulted. And in this clash apostolic authority was passionately claimed by both sides, with the constant premise that such authority must in the main lead to uniformity.",
+      "Yet there were definite limits to the process of unification. As the generations grew into centuries, the general “ethos” of the more important local types of Christianity acquired a venerable dignity that commanded respect even from churches whose customs were different. In major matters of practice, moreover, a substantial agreement had been achieved, and the churches were organized along the same main lines everywhere. So when any church claimed apostolic teaching in support of special usages of its own—and such claims were made frequently—it usually did so fully aware that other churches could make similar claims with equal validity, and that its special usages might very well have been different. This fact led to a revision of the theory of apostolic unanimity. The complete agreement of the apostles was now thought to extend only to doctrine and the vitally important rules of practice; in other regards each apostle within his own territory had established a use of his own—and each of these uses was equally legitimate. So Alexandria appealed to St Mark, Jerusalem to St James, Ephesus to St John, Rome to St Peter, and so on; in due course the far east was to appeal to St Thomas or St Thaddeus.",
+      "Such a theory was not entirely novel; Irenaeus, for instance, urged it in an unsuccessful attempt to settle the paschal controversy. But as local customs became fixed the theory was more and more invoked, and it finally became a settled principle throughout Christendom. The fourth century was here the definite turning point; when the ecumenical councils met, they made no attempt to legislate in full details for the whole church. So when the compiler of the Apostolic Constitutions ca. 375 revived the Church Order formula that made all the apostles legislate minutely, we may presume that he was consciously adopting a style that was already somewhat obsolescent; Christians by now were becoming aware that collective apostolic authority could not be claimed for so wide an extent of regulations. And this consciousness brought with it the eventual end of the Church Orders; they were replaced by explicitly local collections of canons and by liturgical service books. Yet in many parts of the church the old Church Orders retained their authority, and they were incorporated into the manuals of canon law.",
+      "The following are the chief Church Orders:"
+     ]
+    },
+    {
+     "title": "The Didache",
+     "paragraphs": [
+      "As this work is familiar to everyone its contents need not be described. Most scholars date it in the early years of the second century, but the possibility that its compiler used the Epistle of Barnabas as a source cannot be wholly disregarded. Barnabas is usually dated about 131, with a possibility of belonging some fifteen years earlier, so if the dependence is accepted the Didache could scarcely have originated before the second quarter of the century and may even be somewhat later.",
+      "The influence of the Didache in the early church was wide and it was held in high honour. It was incorporated into the Didascalia, the Apostolic Church Order and the Apostolic Constitutions. So eminent and orthodox a saint as Athanasius speaks of it as a book very profitable for neophytes “who wish for instruction in the word of godliness”, and he cites it as an authority more than once, even though he—very properly—refuses to recognize it as a canonical New Testament writing. There consequently can be no reasonable doubt that the Didache originated in the broad stream of orthodox Christian tradition, not in some obscure heretical sect.",
+      "Much the most convenient edition of the Greek text is that edited by Dr Hans Lietzmann in his Kleine Texte series; it contains an excellent critical apparatus and is very inexpensive. There are many accessible English translations."
+     ]
+    },
+    {
+     "title": "The Apostolic Tradition",
+     "paragraphs": [
+      "This work of Hippolytus, the subject of the present volume, is named here to preserve the chronological sequence. In its Coptic and other versions it was formerly known as the Egyptian Church Order."
+     ]
+    },
+    {
+     "title": "The Didascalia",
+     "paragraphs": [
+      "A substantial “handbook for the churches”, written probably in Syria, not far either way from 250. Its original language was Greek, but it has been preserved in Syriac and Latin; the latter is defective. It is concerned almost wholly with rules for church organization, church finance and church discipline, treating doctrine hardly at all and liturgical matters only incidentally. Its author was acquainted with the more important Christian literature of the second century, and there is some evidence that he knew Hippolytus’s Apostolic Tradition.",
+      "The Didascalia is best studied in Dom R. H. Connolly’s English version, which he has provided with judicious introduction and notes. Attention should be directed to his words on p. xlv: “It is now generally recognized that the author’s theological outlook was entirely Catholic, and that he writes as a champion of the Great Church as opposed to all manner of heresy and schism”."
+     ]
+    },
+    {
+     "title": "The Apostolic Church Order",
+     "paragraphs": [
+      "This work so nearly resembles the Didache in both size and arrangement that there is good reason to believe that it was originally issued as a “revised” edition of the older work. Chapters 1-3 describe a meeting of the Twelve Apostles at which they decided to publish this Order. Chapters 4-13 are Didache 1-4, slightly rearranged and expanded. Chapter 14 is apparently derived from Barnabas 14 and closes with Didache 4. 13. Chapters 15-28 treat of church organization, beginning with the election of bishops and ending with the duties of women: the conditions described indicate a date not earlier than the end of the third century. Chapter 29 contains an adjuration to charity and chapter 30 a final appeal to apostolic authority.",
+      "This Order, whose orthodoxy is unimpeachable, was written in Greek and is probably (not certainly) of Egyptian origin. Its popularity is shown by the fact that Latin, Syriac, Sahidic, Bohairic, Ethiopic and other versions have been preserved, as well as the original Greek. A complete critical edition has not yet been prepared. The best edition of the Greek text is in Theodor Schermann’s Die allgemeine Kirchenordnung, 1, pp. 1-34. The English versions, such as they are, are not very accessible, but the translations of the Ethiopic, Arabic and Sahidic in Horner are adequate."
+     ]
+    },
+    {
+     "title": "The Apostolic Constitutions",
+     "paragraphs": [
+      "This, the most ambitious of all the Church Orders, undertook to provide a practically complete treatise on church law and liturgics by collecting and revising earlier authoritative sources. Books I-VI are an enlarged edition of the Didascalia. Chapters 1-32 of Book VII treat the Didache similarly; chapters 33-45 contain a collection of prayers obviously based on Jewish synagogue forms; the source of chapters 46-49 is uncertain. Chapters 1-2 of Book VIII are now generally held to utilize a lost work of Hippolytus, Concerning Gifts. Chapters 3-46 contain his Apostolic Tradition, greatly expanded, especially in the so-called Clementine Liturgy of chapters 6-15.",
+      "The Constitutions were compiled around 375, either in Syria or Constantinople. The author had no hesitation about drastically rewriting archaic material, but the great bulk of his expansions are simply expository and homiletic. His verbosity is irksome to modern readers, but it was quite in accord with the taste of his age. Theologically he shows Arian leanings, but these are often rather difficult to detect without comparing his text with its sources; his work as a whole is certainly not “Arian”.",
+      "The extent of the later influence of the Constitutions has not yet been satisfactorily estimated. That the work in its entirety was not apostolic was recognized at once and various church councils branded it as apocryphal. But later writers not infrequently cite passages from the Constitutions as authoritative; these citations as a whole, however, have not thus far been collected and analysed. Apparently the most influential part of the book was its “Clementine Liturgy”, which deeply influenced subsequent Eastern rites.",
+      "The classic edition of the Greek text is that of Funk. The English translation in the Ante-Nicene Fathers is generally adequate."
+     ]
+    },
+    {
+     "title": "The Apostolic Canons",
+     "paragraphs": [
+      "A collection of eighty-five canons, appended to the Constitutions. They were compiled by its author partly from earlier synodic sources, partly from the Constitutions themselves. In the Eastern Church these canons were accepted as a whole and were translated into many languages; in the Western Church only the first fifty were received."
+     ]
+    },
+    {
+     "title": "The Epitome",
+     "paragraphs": [
+      "“The Epitome of the Eighth Book of the Apostolic Constitutions” is the title—and something of a misnomer—for what is little more than a copy of the sections of this Book of the Constitutions that deal with organization and discipline. It is divided into five parts, A-E. The first two chapters of the Constitutions are reproduced in A, chapter 32 in C, chapter 46 in E. D contains chapters 33-34, 42-45, practically intact.",
+      "B is headed “The Constitutions of the Holy Apostles concerning Ordination through Hippolytus”, a title not infrequently used to describe the entire work as “The Constitutions through Hippolytus”. It begins with chapter 3 of the Constitutions, describing the election of a bishop. But the ordination prayer that follows is taken directly from Hippolytus’s Apostolic Tradition, not from the Constitutions. Then comes chapter 16 of the Constitutions on the ordination of presbyters. The opening sentences are given literally, but the ordination prayer is about midway in length between the compact version in Hippolytus and the elaborate wording of the Constitutions. Chapters 18-21 are copied with minimal variations, but in chapter 22 the ordination of readers is dismissed in a brief sentence from Hippolytus. Chapters 23-28 and 30-31, almost unchanged, conclude the section.",
+      "Even as late as the beginning of the twentieth century the Epitome was often taken to be a source used in the Constitutions. But this is now recognized to be wrong: the Epitome is extracted from the Constitutions, with a few reversions to Hippolytus. As it contains nothing independent there is no way to judge its date or place of origin.",
+      "The Greek text will be found in Funk, II, pp. 72-96. The three passages that really differ from the Constitutions are translated in the present volume."
+     ]
+    },
+    {
+     "title": "The Testament of Our Lord",
+     "paragraphs": [
+      "This work is divided into two Books, of 47 and 27 chapters respectively. In Book I, after an apocalyptic introduction in chapters 1-13, the risen Christ solemnly declares (chapters 14-18) to the apostles the divine obligation of the rules that follow. The remainder of the work is based on Hippolytus’s Apostolic Tradition, although often greatly changed and expanded: there are added, for instance, rules for church architecture, descriptions of clerical duties and much liturgical matter. But Hippolytus’s order is faithfully followed and his text is often reproduced verbally. Book I, chapter 28, a “mystagogic” treatise on Christology in semi-credal form, is perhaps a later addition.",
+      "The date of the Testament is probably a little later than that of the Constitutions; in any case it is hardly earlier than 360. For its place of origin Syria, Asia Minor and Egypt all have their advocates, with Egypt probably the least likely. The original Greek is lost, but the work has been transmitted in Syriac, Ethiopic and Arabic. Its Christology has an “Apollinarian” flavour, but “there is no actual heresy in the Testament”. The English version of Cooper and Maclean is standard, although certain of their elaborate notes now require revision."
+     ]
+    },
+    {
+     "title": "The Canons of Hippolytus",
+     "paragraphs": [
+      "A work containing thirty-eight “canons”, which “Hippolytus, the chief of the bishops of Rome, wrote according to the commands of the apostles”. This paraphrase for his “Apostolic Tradition” indicates the source with an explicitness unusual in a Church Order. Its alterations are much less radical than those in the Testament, and wholly new matter is limited to a brief introduction and an appendix concerned chiefly with moral and ascetic directions. The revision was made almost certainly in the fifth century and beyond reasonable doubt in Egypt.",
+      "The text (originally Greek) has been preserved only in an Arabic version. The only reliable edition is the German translation by Riedel; an English version is badly needed.",
+      "For the sake of completeness there may be added:"
+     ]
+    },
+    {
+     "title": "Sarapion’s Prayers",
+     "paragraphs": [
+      "This work is not a true Church Order: it makes no pretence to apostolic origin and consists wholly of a collection of prayers drawn up by Sarapion, bishop of Thmuis, about 350. It opens with the celebrant’s part at the eucharist and closes with various benedictions. The eucharistic prayer has been strongly influenced by the Didache, the ordination prayers by Hippolytus. The most accessible edition of the Greek text is in Funk, II, pp. 158-195. Bishop John Wordsworth edited an excellent English translation."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "II. Hippolytus",
+   "subsections": [
+    {
+     "title": "",
+     "paragraphs": [
+      "Hippolytus is a unique figure in Christian history, for he, a schismatic bishop of Rome, is honoured by the Roman church as a saint and martyr. This curious combination of qualities made him for centuries a highly enigmatic personality, of whom almost nothing was known. Many of his voluminous works were preserved and studied, and were translated into Syriac, Coptic, Arabic, Armenian and even Old Slavic. But his creation of a schism and his acceptance of its episcopate were acts so contrary to established principles that Eusebius, writing less than a century later, can describe him only as the bishop “of a church somewhere”; to which description Jerome adds: “the name of whose city I have been unable to learn”. That this city was in fact Rome is, to be sure, stated by not a few late patristic and medieval writers, especially in the East, but these do not hint that there was anything irregular about his tenure. Or he is assigned sees in widely different localities, sometimes as far off as Arabia and sometimes as near Rome as Portus: this last place—due, apparently, to confusion with some other martyr—was especially popular. But among Western writers Hippolytus’s episcopal rank is commonly ignored and he appears simply as “a presbyter”: the present Roman Catholic service books do not call him “bishop”. The sole general agreement was as to the date of his death, which the martyrologies and other early testimony place about 235.",
+      "In 1551 excavations in Rome brought to light a third-century statue of Hippolytus, now in the Lateran Museum; the upper part of the body has been “restored”. On the sides are inscribed an “Easter Canon” that he computed and a partial list of his works. The posture of the body, which is that of a seated teacher, made episcopal dignity more than probable, so for the official description of the statue Pius IV, the next pope, adopted the Portus tradition. Hence as “Bishop of Portus” the saint was generally known until the middle of the nineteenth century.",
+      "In 1701 Jakob Gronov published, in the tenth volume of his Thesaurus Graecarum Antiquitatum, Book I—no more was then known—of a work called “Philosophumena” or “Philosophizings”, that was commonly, although not universally, referred to Origen. Books IV-X of this work were discovered in 1842 and nine years later were published as Origen’s by the editor, B. E. Miller. But the contents of the work were soon proved by competent scholars—notably Döllinger—to make Origen’s authorship impossible; the necessary conditions were fulfilled by Hippolytus alone. This proof established also the Hippolytean authorship of certain other disputed works; and the evidence thus assembled showed that Hippolytus was both a bishop and a Roman. Incidentally, it has been established also that the correct title for the above work is “Refutation of All Heresies”, and that “Philosophumena” was the sub-title of Books I-IV (not as is sometimes stated of Book I alone). But “Philosophumena” is generally accepted by modern writers.",
+      "The Portus tradition, however, still lingered on for a time and is accepted in the Ante-Nicene Fathers, both by the original editor J. H. Macmahon (1868) and by the American reviser Bishop A. C. Coxe (1886). Bishop Lightfoot supported a compromise theory that made of Hippolytus a sort of suffragan bishop of Rome with special jurisdiction over Portus. But neither position is now tenable.",
+      "For the facts of Hippolytus’s life we have practically only what he himself tells us in scattered allusions; only once (Philosophumena IX, 7) does he relate contemporary events at any length. Since in his later works he speaks of himself as aged, his birth must be placed ca. 160. Tradition makes him a disciple of Irenaeus, a highly probable supposition even though his works are silent on the subject. He became a presbyter of the Roman church under Zephyrinus (198?-217, or perhaps earlier) and won great respect for his learning and eloquence: on one occasion he was deputed to preach in the presence of Origen. But his learning brought him into a mortal conflict with a fellow presbyter, one Callistus.",
+      "This Callistus had had in earlier years a career that was at least ambiguous. The servant of a wealthy Christian, he was permitted by his master to undertake in Rome the experiment of a “Christian bank”, in which many of the faithful deposited their savings. As has usually been the case with such experiments, the bank failed, and in this case no assets could be discovered. Callistus fled, but was brought back to Rome and sentenced to the treadmill. After a while he was released and sought to regain favour with the Christians by interrupting a Jewish synagogue service and preaching Christianity to the congregation. For this he was sent to the Sardinian convict mines. All of this appears to have taken place during the ninth decade of the second century; in any case Callistus was still a prisoner when Bishop Victor succeeded in obtaining from the Emperor Commodus the release of many Christian prisoners in the year 190 or thereabouts. The list of names drawn up by Victor and sent to Sardinia did not include Callistus, but he contrived to secure his discharge as well, and he returned to Italy as at least technically a “martyr”. Victor, however, did not permit him to remain in Rome and dismissed him to Antium, where he lived until Victor’s death, receiving from the church’s fund a monthly allowance that enabled him to avoid suffering.",
+      "Victor was succeeded by Zephyrinus, an easy-going man of small intelligence, who in past years had conceived an intense admiration for Callistus. He immediately recalled the latter to Rome, ordained him presbyter, and made him his chief lieutenant; during Zephyrinus’s episcopacy Callistus was the real power at Rome. His only significant rival was Hippolytus.",
+      "Two more different men can scarcely be imagined. Both were equally determined to have their own way. But Callistus was suave and ingratiating, little concerned with theological speculation, desirous of immediate practical results and none too scrupulous as to ways and means, indifferent to precedents and perfectly willing to try novel experiments. Hippolytus was dour and irascible, convinced that meticulous theology must be maintained though the heavens fell, scandalized at the mere thought of relaxing discipline, a traditionalist to his finger tips, who believed that any new idea was necessarily Satanic. Between such antagonists a relentless war was inevitable.",
+      "They appear to have fought on most questions, but one cause of conflict was paramount: Christology. During the second century the church was constantly tormented by the problem of reconciling the rigid monotheism inherited from the Jews with the divine honours that were unquestioningly paid to Christ. The solution that Hippolytus proposed followed in general the doctrine of the Fourth Gospel: God from before creation has begotten from Himself His Logos, itself divine. This doctrine rests on speculative metaphysical premises that are none too easy of comprehension; to many thinkers in the second century it seemed either (a) to subordinate the Son to the Father in such a way as to detract from the Son’s true divinity, or (b) to make of the Son an independent deity and so destroy monotheism. Hippolytus endeavoured to avoid both extremes, but with what success specialists—ancient or modern—are unable to agree; it must be remembered, however, that he wrote as a pioneer in an age when the real questions were not yet clearly stated, let alone answered, and that he employed a philosophy originally devised for a very different purpose. The most popular alternative to his theory was what is rather cumbrously known as “modalistic monarchianism”; this was quite within the grasp of the most unphilosophical, since it disregarded all metaphysical refinements. It argued: “We worship Christ as God, and God is One. Therefore Christ is God and God is Christ; ‘Father’ and ‘Son’ are only titles that describe the same Person in different aspects or ‘modes’”.",
+      "Later on this modalism was regarded as heresy of the most extreme type, but even in the late second century it was widely taught and was uncondemned; in part the church authorities wished to preserve peace above all things and in part they were really in doubt as to the points at issue. Many teachers, to be sure, attacked it violently and none with greater passion than Hippolytus, who at the beginning of the third century was making the Roman church hot with his invectives. But, despite him, when Sabellius, the great apostle of modalism, came to Rome he was received cordially by Zephyrinus and Callistus.",
+      "Still, even Hippolytus was forced to admit that Sabellius was an honest and open-minded man, and one with whom he could argue so frankly that he had great hopes of converting him. But Callistus interfered. Not that he himself was quite a modalist; his own Christology, while having strong modalistic leanings, was saved from downright modalism by dexterous qualifications. But he regarded Hippolytus’s doctrine—which he probably could not really understand—as the worse of the two evils. So Sabellius, finding the two great Roman leaders at loggerheads, reverted to his former position. To Hippolytus this was the last straw and he publicly denounced Callistus as a heretic. Callistus retorted by hurling at Hippolytus the final insult: “Ditheist!” The result was a schism.",
+      "It took place, apparently, in the last years of Zephyrinus, who died in 217. Hippolytus and his disciples fled from the—to them—polluted and heretical communion of the regular bishop and proclaimed that they and they alone were the true church of Rome. They were not numerous but their standing appears to have been high; at any rate they were able to find bishops willing to consecrate their leader to the episcopate. But their withdrawal left the “regular” church completely under Callistus’s control, and at Zephyrinus’s death he was elected to succeed him. This election, of course, Hippolytus treated as wholly null, asserting contemptuously that what Callistus had done was to become the leader of a “school of Callistans”, not of a “church of Christians”.",
+      "Callistus disposed of the Christological controversy by excommunicating both Sabellius and Hippolytus, and then turned his attention to the most thorny practical question that perplexed contemporary Christians, the problem of mortal sin after baptism. From the beginning of the post-apostolic age the church almost universally held that such sin could not receive absolution, so that the sinners were permanently excommunicate and without hope of restoration. The only “orthodox” voice in opposition to this rigorism was raised by the Shepherd of Hermas, and even its author dared oppose the universal teaching of his age only because he had received a special revelation from God; nor did he venture to promise more than the remission of one post-baptismal sin for anyone. In many quarters, indeed, even this mild relaxation of the rule was passionately resisted, and the most vigorous religious movement of the second century—Montanism—took as its watchword, “No second remission!”",
+      "By the beginning of the third century a final settlement of the question had become a necessity. The Christians had been successful beyond their dreams in attracting converts, but probably the majority possessed only general good moral qualities and lacked the heroic virtues. What was to be done with them? Should the church dismiss them as unworthy and so reduce its numbers drastically? Or should it do what it could for those whose intentions were good, without expecting too much of them? To Hippolytus the church’s constant teaching since the apostles’ time removed the problem from debate: Christians must be saints in the fullest sense of the word. So his flock was constantly purged by excommunications. Callistus, on the contrary, took the bold step of brushing aside tradition altogether and of appealing directly to the New Testament: “Let the tares grow with the wheat until the harvest”, and, “Who art thou that judgest another man’s servant?\" Sinners were, of course, put to penance, but if they proved their good faith they could be absolved, no matter what their offence nor how often it had been committed. This decision of Callistus was nothing short of revolutionary, and it was destined to change the ideal of church membership for all time. Naturally it shocked Hippolytus beyond measure—and his horror was intensified when those whom he himself had excommunicated were received into communion by Callistus.",
+      "The latter, in fact, went so far in the abolition of the stricter rules that his own successors at Rome withdrew or seriously modified some of his concessions. He pronounced that second and even third marriages constituted no impediment to ordination, and allowed clerics to marry after they had been ordained. And he declined to recognize for Christian marriage the impediment of disparity of status in the Roman civil law; as a result the church permitted marriages that the parties could disown to the state—with some curious consequences.",
+      "All of this so incensed Hippolytus and his party that Callistus’s death in 222 did not end the schism; it continued under his successors Urbanus (222-230)—of whom nothing is certainly known—and Pontianus (230-235). But in 235 Maximinus became emperor and he undertook a persecution that singled out the Christian leaders. So in Rome both Pontianus and Hippolytus were arrested and sent to Sardinia, where they shortly afterward succumbed to the hardships of convict life. This healed the breach in the church, and the reunited factions completed the reconciliation by pronouncing both bishops to be saints and martyrs.",
+      "This action has been taken by some scholars—arguing from the premises of a later day—as evidence that Hippolytus made a retractation before his death. But Hippolytus was not the man to retract anything. And the Roman church of the next generation would never have allowed the erection of his statue if they had held him to be saved only by a deathbed repentance; still less would they have permitted the public and honourable inscription of the titles of works in which he glories in his conduct. The church really acknowledged that both sides had made mistakes, and that Hippolytus’s errors—whatever they may have been—were due to an excess of zeal for righteousness and were not to be weighed against his consecrated learning and his burning devotion."
+     ]
+    },
+    {
+     "title": "The Apostolic Tradition",
+     "paragraphs": [
+      "For a list and description of Hippolytus’s works reference must be made to the treatises on patrology; he was a prolific writer on exegetical, doctrinal and practical themes, who published at least fifty books and probably many more. But after he had been consecrated bishop of his separatist congregation, his first task was to provide treatises to perpetuate the principles for which he was contending so bitterly. One of these was Of Gifts, to which he alludes in 1. 1; it has not been preserved, although traces appear to be incorporated in Constitutions VIII, i-ii. And it was followed immediately by the Apostolic Tradition.",
+      "Its introduction fixes its date and purpose. A “lapse or error” had “recently occurred” (1. 4), and Hippolytus undertakes to guard against its effects by setting forth the true doctrine “which has continued up to now”. And he recurs to the same theme at the close: “the many heresies have increased because their leaders would not learn the purpose of the apostles”, but “over all who hear the apostolic tradition and keep it, no heretics or any other man will prevail” (38. 2-3). The date accordingly must be close to 217 and the purpose is to cleave to the old ways, rejecting every innovation; the tradition which Hippolytus received from the presbyters before him (36. 12) must be maintained inviolate.",
+      "In content the book consists mainly of laws for church organization and the conduct of worship, but these are interspersed freely with comment and explanation. The source of the laws themselves is not doubtful: they represent the normal practices at Rome in Hippolytus’s younger days, and he is quite sincere in believing that they are truly apostolic and therefore unalterable. And that they actually are rules of real antiquity is shown by the corroboration they receive from other early Christian writers, among whom Tertullian in particular describes usages extraordinarily like those expounded by his Roman contemporary. The Apostolic Tradition, consequently, is more than a source for Roman customs at the beginning of the third century; it may with equal safety be invoked for the practice of thirty or even fifty years earlier. In the words of Harnack: “Here is the richest source that we in any form possess for our knowledge of the polity of the Roman church in the oldest time, and this Roman polity may, in many regards, be accepted as the polity held everywhere”.",
+      "The same, naturally, cannot always be said of the material in Hippolytus’s comments. Here too, unquestionably, much is inherited; it is for one of his explanations that he appeals to the presbyters in 36. 12. But it is occasionally evident—chapter 9 is an instance—that the ceremonies he faithfully describes do not fully accord with his interpretations, and that he himself does not invariably understand his material. Some of the wording of his prayers, moreover, is unmistakably his own, but in his day (10. 4-6) each Christian leader still felt free to frame prayers as he would.",
+      "Hippolytus designed his work for “the churches” (1. 3), a phrase most naturally understood of Christendom at large. His own church of Rome appears to have appreciated his work the least, for the majority of Roman Christians gave their allegiance to his rivals and accepted their legislation; it was the reforms of Callistus and not the conservatism of Hippolytus that directed subsequent Roman polity. Probably, too, despite his canonization, his memory was always slightly suspect; the Roman church certainly managed to forget very quickly who he really was. By the middle of the third century, moreover, his church finally abandoned Greek as its official language and became wholly Latinized, so that his writings were no longer accessible. And what was true of Rome was true of the West in general.",
+      "In the East, however, especially in Egypt and Syria, Hippolytus’s work was accepted as possessing high authority. It was of course not treated as infallible, for later legal writers do not hesitate to amend or omit laws disagreeing with local usage. Yet the title Hippolytus chose for his work was taken really seriously, and he, more than any other Church Father, gave the laws and the liturgy of the Eastern Church their permanent form.",
+      "The Apostolic Tradition was first made known to the Western world in 1691 by Job Ludolf in Ad suam Historiam Aethiopicam Commentarius; in this he published in incomplete form the Ethiopic work containing it, to which he gave the title—still in use—of Statuta Apostolorum. But he naturally was unable to identify the author. It was not until 1848 that the next contribution was made, Tattam’s The Apostolic Constitutions or Canons of the Apostles in Coptic, which gave the Bohairic text with an English translation. The Sahidic text appeared thirty-five years later on pp. 248-266 of Lagarde’s Aegyptiaca, and this is still the standard edition. A German translation (by Steindorff) was published in 1891 by Achelis in his Die ältesten Quellen des orientalischen Kirchenrechtes: this monograph opened the really critical study of the material and is not yet wholly obsolete. But Hauler’s discovery of the Latin text was the most important event of all. He published his find in 1900 but did not appreciate the full importance of what he describes only as “Aegyptiorum reliquiae” at the end of his long title. And even such an intensely able scholar as Funk, in making his own Latin version of “The Egyptian Church Order”, still preferred to follow the Sahidic. Horner’s Statutes of the Apostles (1904) finally supplied critical Ethiopic and Arabic texts, with scientifically literal translations of these and of the Sahidic as well.",
+      "The basic significance of the Latin version was glimpsed by Cooper and Maclean in their edition of the Testament (1902); their use of “Hauler” is often penetrating. In 1906 Baron Eduard von der Goltz finally identified certain sections as definitely Hippolytean, and four years later Dr Eduard Schwartz reached the definite conclusion: the Latin text represents substantially what Hippolytus wrote. Dr Schwartz’s monograph, however, was brief and left many problems unexplored; the detailed demonstration was the—wholly independent—work of Dom Connolly in 1916.",
+      "In 1928 Dr Jungklaus published a German translation of Hippolytus’s work, with an elaborate introduction; in some regards it proved unsatisfactory but it should on no account be neglected.",
+      "The textual evidence is as follows:",
+      "The original Greek of chapters 3 and 12 is preserved in the Epitome, and that of 25. 1-2 in the Vienna fragment printed (e.g.) by Funk (II, p. 112). The Constitutions also give some aid in reconstructing the Greek text elsewhere.",
+      "The Latin codex, now in Verona, is a palimpsest, probably of the sixth century, over which some two centuries later three books of Isidore of Seville’s Sentences were written. The translation itself appears to have been made in the fourth century, and is a rendition of a Greek book of church laws, in which Hippolytus’s book is preceded by portions of the Didascalia and the complete Apostolic Church Order. The translator, who presumably had no idea of the authorship of the closing portion, made his version pedantically literal; a great advantage to the modern student. Unquestionably neither the sixth-century copyist, the translator nor the Greek text used was infallible; the last certainly contained duplications. But the version is incomparably the best guide that we have. It includes 1. 1-9. 11a, 21. 14-24. 12a, 26. 3b-38. 2a.",
+      "The Oriental manuscripts, all comparatively modern, are fairly numerous, and are likewise collections of laws. The Sahidic—known also as the Egyptian Heptateuch, from its seven Books—begins with the Apostolic Church Order. Then (Book II) comes Hippolytus’s work, in which chapters 1, 3, 4. 4-13, 5-6, 8. 2-5, 9. 9-12 are omitted and chapters 11-14 are arranged in the order 12, 14, 11, 13; there are also minor variations to which attention is usually called in the translation and notes. Books III-VI are parallel to Constitutions VIII; Book VII contains the Apostolic Canons. Like other Coptic ecclesiastical writings it teems with transliterated Greek words, so that the original terms are obvious. But the first translator was evidently often in doubt as to the meaning of the original, and his indecisions have not been clarified by later copyists.",
+      "The Bohairic was made from an inferior Sahidic manuscript in the early nineteenth century. All readings of any consequence are listed by Horner.",
+      "The Arabic was made from the Sahidic, which it follows in most regards, although chapters 11-14 are not disarranged; it was therefore made from a manuscript other than the archetype of the known Sahidic codices and has a certain independent textual value. Otherwise its features are just about those to be expected in a secondary version.",
+      "The Ethiopic is divided into seventy-two “Statutes”, of which the first twenty-one are the Apostolic Church Order. Statute 22 = Hippolytus’s chapters 2-5, concluding with communion prayers. Chapter 6 of Hippolytus is omitted. Statutes 23-27 = chapters 8-15, with no changes in order. Statutes 28-35 = chapters 16-24, concluding with a brief additional section on the regular weekly eucharists (p. 58). Statutes 36-38 = chapters 25-26, followed by sections on the communion of the sick and on evening services (p. 58) and a repetition of chapter 26. 2, 10b-13. Statute 39 = chapter 27. Statute 40 is a long baptismal office, containing reminiscences of chapters 21-23 but opening with chapter 1, which is not in the Sahidic or Arabic. Statutes 40 (end)-48 = chapters 28-38. The remaining Statutes parallel Constitutions VIII, like the other versions, but there are certain variations; Statute 52, for instance, contains a considerable section of the Didache, a little of the Didascalia, and a bit (38. 4) of Hippolytus. At the end there is a collection of prayers.",
+      "The Ethiopic is a tertiary version, made from the Arabic. Statute 40, which gives chapter 1, was evidently derived from a different source which used the Apostolic Tradition independently, and its inclusion here was more or less accidental. But the presence of the other chapters not in the present Arabic texts is best explained by assuming that the Ethiopic was derived from an older Arabic form—which in turn presupposes an older Sahidic form; in these the omissions to avoid conflict with local usages had not yet taken place.",
+      "The additional material in Statutes 5, 35 and 37-38 is printed by both Connolly and Jungklaus, although both recognize the liturgical prayers in 5 to be post-Hippolytean; it is consequently not included in the present edition. But neither do the other two sections appear to be genuine. The rules in Statute 35 are so general and unobjectionable that their omission in the Sahidic and Arabic would be difficult to explain, while the reverence deacons must pay to presbyters seems to point to a later date. Similarly the description of the care of the sick and of the evening service in Statute 37 presents nothing that could have troubled the Sahidic and Arabic translators; the insertion of such widespread usages is easier to understand than their omission. And the repetition of earlier matter at the end of Statute 37 and in all of Statute 38 shows a bad textual tradition.",
+      "In general, then, the evidence of the Ethiopic is of minor consequence. In the only place where it stands alone (9. 11-12) it has a text that does not appear to be possible.",
+      "Summarizing: The original Greek of the Apostolic Tradition has not been recovered, except in small fragments. The Latin is generally trustworthy, but is incomplete. The only other primary version, the Sahidic, is likewise incomplete, and the results of the moderate abilities of its translator have been further confused in later transmission. The Arabic is a secondary text, offering little that the Sahidic does not contain. The only practically complete version, the Ethiopic, is tertiary and is otherwise unreliable. All four of these versions presuppose a common Greek original, in which two different endings have been conflated. The other sources, the Constitutions, the Testament and the Canons, are frank revisions, in which the original is often edited out of recognition or even flatly contradicted. Under these conditions the restoration of a really accurate text is manifestly impossible.",
+      "None the less the material is abundant and independent enough to warrant confidence that the substance and in most cases even the original wording of Hippolytus’s rules have really been preserved: only the ordination prayer for deacons presents difficulties that appear insuperable.",
+      "The chapter divisions are those of Jungklaus, altered only at chapter 22. To facilitate reference the sentences have been numbered as “verses”."
+     ]
+    }
+   ]
+  }
+ ],
+ "translation": [
+  {
+   "label": "",
+   "name": "",
+   "chapters": [
+    {
+     "number": 1,
+     "title": "",
+     "span": "",
+     "paragraphs": [
+      "¹We have duly completed what needed to be said about “Gifts”, describing those gifts which God by His own counsel has bestowed on men, in offering to Himself His image which had gone astray. ²But now, moved by His love to all His saints, we pass on to our most important theme, “The Tradition”, our teacher. ³And we address the churches, so that they who have been well trained, may, by our instruction, hold fast that tradition which has continued up to now and, knowing it well, may be strengthened. ⁴This is needful, because of that lapse or error which recently occurred through ignorance, and because of ignorant men. ⁵And [the] Holy Spirit will supply perfect grace to those who believe aright, that they may know how all things should be transmitted and kept by them who rule the church."
+     ]
+    }
+   ]
+  },
+  {
+   "label": "PART I",
+   "name": "Ordination",
+   "chapters": [
+    {
+     "number": 2,
+     "title": "The Bishop",
+     "span": "",
+     "paragraphs": [
+      "¹Let the bishop be ordained after he has been chosen by all the people. ²When he has been named and shall please all, let him, with the presbytery and such bishops as may be present, assemble with the people on a Sunday. ³While all give their consent, the bishops shall lay their hands upon him, and the presbytery shall stand by in silence. ⁴All indeed shall keep silent, praying in their heart for the descent of the Spirit. ⁵Then one of the bishops who are present shall, at the request of all, lay his hand on him who is ordained bishop, and shall pray as follows, saying:"
+     ]
+    },
+    {
+     "number": 3,
+     "title": "",
+     "span": "",
+     "paragraphs": [
+      "¹God and Father of our Lord Jesus Christ, Father of mercies and God of all comfort, who dwellest on high yet hast respect to the lowly, who knowest all things before they come to pass. ²Thou hast appointed the borders of thy church by the word of thy grace, predestinating from the beginning the righteous race of Abraham. ³And making them princes and priests, and leaving not thy sanctuary without a ministry, thou hast from the beginning of the world been well pleased to be glorified among those whom thou hast chosen. ⁴Pour forth now that power, which is thine, of thy royal Spirit, which thou gavest to thy beloved Servant Jesus Christ, which he bestowed on his holy apostles, who established the church in every place, the church which thou hast sanctified unto unceasing glory and praise of thy name. ⁵Thou who knowest the hearts of all, grant to this thy servant, whom thou hast chosen to be bishop, [to feed thy holy flock] and to serve as thy high priest without blame, ministering night and day, to propitiate thy countenance without ceasing and to offer thee the gifts of thy holy church. ⁶And by the Spirit of high-priesthood to have authority to remit sins according to thy commandment, to assign the lots according to thy precept, to loose every bond according to the authority which thou gavest to thy apostles, and to please thee in meekness and purity of heart, offering to thee an odour of sweet savour. ⁷Through thy Servant Jesus Christ our Lord, through whom be to thee glory, might, honour, with [the] Holy Spirit in [the] holy church, both now and always and world without end. Amen."
+     ]
+    },
+    {
+     "number": 4,
+     "title": "The Eucharist",
+     "span": "4-6",
+     "paragraphs": [
+      "¹And when he is made bishop, all shall offer him the kiss of peace, for he has been made worthy. ²To him then the deacons shall bring the offering, and he, laying his hand upon it, with all the presbytery, shall say as the thanksgiving:",
+      "³The Lord be with you.",
+      "And all shall say",
+      "And with thy spirit.",
+      "Lift up your hearts.\nWe lift them up unto the Lord.",
+      "Let us give thanks to the Lord.\nIt is meet and right.",
+      "And then he shall proceed immediately:",
+      "⁴We give thee thanks, O God, through thy beloved Servant Jesus Christ, whom at the end of time thou didst send to us a Saviour and Redeemer and the Messenger of thy counsel. ⁵Who is thy Word, inseparable from thee; through whom thou didst make all things and in whom thou art well pleased. ⁶Whom thou didst send from heaven into the womb of the Virgin, and who, dwelling within her, was made flesh, and was manifested as thy Son, being born of [the] Holy Spirit and the Virgin. ⁷Who, fulfilling thy will, and winning for himself a holy people, spread out his hands when he came to suffer, that by his death he might set free them who believed on thee. ⁸Who, when he was betrayed to his willing death, that he might bring to nought death, and break the bonds of the devil, and tread hell under foot, and give light to the righteous, and set up a boundary post, and manifest his resurrection, taking bread and giving thanks to thee said: ⁹Take, eat: this is my body, which is broken for you. And likewise also the cup, saying: This is my blood, which is shed for you. ¹⁰As often as ye perform this, perform my memorial.",
+      "¹¹Having in memory, therefore, his death and resurrection, we offer to thee the bread and the cup, yielding thee thanks, because thou hast counted us worthy to stand before thee and to minister to thee.",
+      "¹²And we pray thee that thou wouldest send thy Holy Spirit upon the offerings of thy holy church; that thou, gathering them into one, wouldest grant to all thy saints who partake to be filled with [the] Holy Spirit, that their faith may be confirmed in truth, that we may praise and glorify thee. ¹³Through thy Servant Jesus Christ, through whom be to thee glory and honour, with [the] Holy Spirit in the holy church, both now and always and world without end. Amen."
+     ]
+    },
+    {
+     "number": 5,
+     "title": "",
+     "span": "",
+     "paragraphs": [
+      "¹If anyone offers oil, he shall give thanks as at the offering of the bread and wine, though not with the same words but in the same general manner, saying:",
+      "²That sanctifying this oil, O God, wherewith thou didst anoint kings, priests and prophets, thou wouldest grant health to them who use it and partake of it, so that it may bestow comfort on all who taste it and health on all who use it."
+     ]
+    },
+    {
+     "number": 6,
+     "title": "",
+     "span": "",
+     "paragraphs": [
+      "¹Likewise, if anyone offers cheese and olives, let him say thus:",
+      "²Sanctify this milk that has been united into one mass, and unite us to thy love. ³Let thy loving kindness ever rest upon this fruit of the olive, which is a type of thy bounty, which thou didst cause to flow from the tree unto life for them who hope on thee.",
+      "⁴But at every blessing shall be said:",
+      "Glory be to thee, with [the] Holy Spirit in the holy church, both now and always and world without end. [Amen.]"
+     ]
+    },
+    {
+     "number": 8,
+     "title": "Presbyters",
+     "span": "",
+     "paragraphs": [
+      "¹But when a presbyter is ordained, the bishop shall lay his hand upon his head, while the presbyters touch him, and he shall say according to those things that were said above, as we have prescribed above concerning the bishop, praying and saying:",
+      "²God and Father of our Lord Jesus Christ, look upon this thy servant, and grant to him the Spirit of grace and counsel of a presbyter, that he may sustain and govern thy people with a pure heart; ³as thou didst look upon thy chosen people and didst command Moses that he should choose presbyters, whom thou didst fill with thy Spirit, which thou gavest to thy servant. ⁴And now, O Lord, grant that there may be unfailingly preserved amongst us the Spirit of thy grace, and make us worthy that, believing, we may minister to thee in simplicity of heart, praising thee. ⁵Through thy Servant Jesus Christ, through whom be to thee glory and honour, with [the] Holy Spirit in the holy church, both now and always and world without end. Amen."
+     ]
+    },
+    {
+     "number": 9,
+     "title": "Deacons",
+     "span": "",
+     "paragraphs": [
+      "¹But the deacon, when he is ordained, is chosen according to those things that were said above, the bishop alone in like manner laying his hands upon him, as we have prescribed. ²When the deacon is ordained, this is the reason why the bishop alone shall lay his hands upon him: he is not ordained to the priesthood but to serve the bishop and to carry out the bishop’s commands. ³He does not take part in the council of the clergy; he is to attend to his own duties and to make known to the bishop such things as are needful. ⁴He does not receive that Spirit that is possessed by the presbytery, in which the presbyters share; he receives only what is confided in him under the bishop’s authority.",
+      "⁵For this cause the bishop alone shall make a deacon. ⁶But on a presbyter, however, the presbyters shall lay their hands because of the common and like Spirit of the clergy. ⁷Yet the presbyter has only the power to receive; but he has no power to give. ⁸For this reason a presbyter does not ordain the clergy; but at the ordination of a presbyter he seals while the bishop ordains.",
+      "⁹Over a deacon, then, he shall say as follows:",
+      "¹⁰O God, who hast created all things and hast ordered them by thy Word, the Father of our Lord Jesus Christ, whom thou didst send to minister thy will and to manifest to us thy desire; ¹¹grant [the] Holy Spirit of grace and care and diligence to this thy servant, whom thou hast chosen to serve the church and to offer in thy holy sanctuary the gifts that are offered to thee by thine appointed high priests, so that serving without blame and with a pure heart he may be counted worthy of this exalted office, by thy goodwill, praising thee continually. ¹²Through thy Servant Jesus Christ, through whom be to thee glory and honour, with [the] Holy Spirit, in the holy church, both now and always and world without end. Amen."
+     ]
+    },
+    {
+     "number": 10,
+     "title": "Confessors",
+     "span": "",
+     "paragraphs": [
+      "¹On a confessor, if he has been in bonds for the name of the Lord, hands shall not be laid for the diaconate or the presbyterate, for he has the honour of the presbyterate by his confession. But if he is to be ordained bishop, hands shall be laid upon him.",
+      "²But if he is a confessor who was not brought before the authorities nor was punished with bonds nor was shut up in prison, but was insulted (?) casually or privately for the name of the Lord, even though he confessed, hands are to be laid upon him for every office of which he is worthy.",
+      "³The bishop shall give thanks [in all ordinations] as we have prescribed. ⁴It is not, to be sure, necessary for anyone to recite the exact words that we have prescribed, by learning to say them by heart in his thanksgiving to God; but let each one pray according to his ability. ⁵If, indeed, he is able to pray competently with an elevated prayer, it is well. ⁶But even if he is only moderately able to pray and give praise, no one may forbid him; only let him pray sound in the faith."
+     ]
+    },
+    {
+     "number": 11,
+     "title": "Minor Orders",
+     "span": "11-15",
+     "paragraphs": [
+      "¹When a widow is appointed, she shall not be ordained but she shall be appointed by the name. ²If her husband has been long dead, she may be appointed [without delay]. ³But if her husband has died recently, she shall not be trusted; even if she is aged she must be tested by time, for often the passions grow old in those who yield to them.",
+      "⁴The widow shall be appointed by the word alone, and [so] she shall be associated with the other widows; hands shall not be laid upon her because she does not offer the oblation nor has she a sacred ministry. ⁵Ordination is for the clergy on account of their ministry, but the widow is appointed for prayer, and prayer is the duty of all."
+     ]
+    },
+    {
+     "number": 12,
+     "title": "",
+     "span": "",
+     "paragraphs": [
+      "¹The reader is appointed by the bishop’s giving him the book, for he is not ordained."
+     ]
+    },
+    {
+     "number": 13,
+     "title": "",
+     "span": "",
+     "paragraphs": [
+      "¹Hands shall not be laid upon a virgin, for it is her purpose alone that makes her a virgin."
+     ]
+    },
+    {
+     "number": 14,
+     "title": "",
+     "span": "",
+     "paragraphs": [
+      "Hands shall not be laid upon a subdeacon, but his name shall be mentioned that he may serve the deacon."
+     ]
+    },
+    {
+     "number": 15,
+     "title": "",
+     "span": "",
+     "paragraphs": [
+      "If anyone says, “I have received the gift of healing”, hands shall not be laid upon him: the deed shall make manifest if he speaks the truth."
+     ]
+    }
+   ]
+  },
+  {
+   "label": "PART II",
+   "name": "Baptism",
+   "chapters": [
+    {
+     "number": 16,
+     "title": "Catechumens",
+     "span": "16-20",
+     "paragraphs": [
+      "¹New converts to the faith, who are to be admitted as hearers of the word, shall first be brought to the teachers before the people assemble. ²And they shall be examined as to their reason for embracing the faith, and they who bring them shall testify that they are competent to hear the word. ³Inquiry shall then be made as to the nature of their life; whether a man has a wife or is a slave. ⁴If he is the slave of a believer and he has his master’s permission, then let him be received; but if his master does not give him a good character, let him be rejected. ⁵If his master is a heathen, let the slave be taught to please his master, that the word be not blasphemed. ⁶If a man has a wife or a woman a husband, let the man be instructed to content himself with his wife and the woman to content herself with her husband. ⁷But if a man is unmarried, let him be instructed to abstain from impurity, either by lawfully marrying a wife or else by remaining as he is. ⁸But if any man is possessed with demons, he shall not be admitted as a bearer until he is cleansed.",
+      "⁹Inquiry shall likewise be made about the professions and trades of those who are brought to be admitted to the faith. ¹⁰If a man is a pander, he must desist or be rejected. ¹¹If a man is a sculptor or painter, he must be charged not to make idols; if he does not desist he must be rejected. ¹²If a man is an actor or pantomimist, he must desist or be rejected. ¹³A teacher of young children had best desist, but if he has no other occupation, he may be permitted to continue. ¹⁴A charioteer, likewise, who races or frequents races, must desist or be rejected. ¹⁵A gladiator or a trainer of gladiators, or a huntsman [in the wild-beast shows], or anyone connected with these shows, or a public official in charge of gladiatorial exhibitions must desist or be rejected. ¹⁶A heathen priest or anyone who tends idols must desist or be rejected. ¹⁷A soldier of the civil authority must be taught not to kill men and to refuse to do so if he is commanded, and to refuse to take an oath; if he is unwilling to comply, he must be rejected. ¹⁸A military commander or civic magistrate that wears the purple must resign or be rejected. ¹⁹If a catechumen or a believer seeks to become a soldier, they must be rejected, for they have despised God. ²⁰A harlot or licentious man or one who has castrated himself, or any other who does things not to be named, must be rejected, for they are defiled. ²¹A magician must not [even] be brought for examination. ²²An enchanter, an astrologer, a diviner, a soothsayer, a user of magic verses, a juggler, a mountebank, an amulet-maker must desist or be rejected. ²³A concubine, who is a slave and has reared her children and has been faithful to her master alone, may become a hearer; but if she has failed in these matters she must be rejected. ²⁴If a man has a concubine, he must desist and marry legally; if he is unwilling, he must be rejected.",
+      "²⁵If, now, we have omitted anything (any trade?), the facts [as they occur] will instruct your mind; for we all have the Spirit of God."
+     ]
+    },
+    {
+     "number": 17,
+     "title": "",
+     "span": "",
+     "paragraphs": [
+      "¹Let catechumens spend three years as hearers of the word. ²But if a man is zealous and perseveres well in the work, it is not the time but his character that is decisive."
+     ]
+    },
+    {
+     "number": 18,
+     "title": "",
+     "span": "",
+     "paragraphs": [
+      "¹When the teacher finishes his instruction, the catechumens shall pray by themselves, apart from the believers. ²And [all] women, whether believers or catechumens, shall stand for their prayers by themselves in a separate part of the church.",
+      "³And when [the catechumens] finish their prayers, they must not give the kiss of peace, for their kiss is not yet pure. ⁴Only believers shall salute one another, but men with men and women with women; a man shall not salute a woman.",
+      "⁵And let all the women have their heads covered with an opaque cloth, not with a veil of thin linen, for this is not a true covering."
+     ]
+    },
+    {
+     "number": 19,
+     "title": "",
+     "span": "",
+     "paragraphs": [
+      "¹At the close of their prayer, when their instructor lays his hand upon the catechumens, he shall pray and dismiss them; whoever gives the instruction is to do this, whether a cleric or a layman.",
+      "²If a catechumen should be arrested for the name of the Lord, let him not hesitate about bearing his testimony; for if it should happen that they treat him shamefully and kill him, he will be justified, for he has been baptized in his own blood."
+     ]
+    },
+    {
+     "number": 20,
+     "title": "",
+     "span": "",
+     "paragraphs": [
+      "¹They who are to be set apart for baptism shall be chosen after their lives have been examined: whether they have lived soberly, whether they have honoured the widows, whether they have visited the sick, whether they have been active in well-doing. ²When their sponsors have testified that they have done these things, then let them hear the Gospel. ³Then from the time that they are separated from the other catechumens, hands shall be laid upon them daily in exorcism and, as the day of their baptism draws near, the bishop himself shall exorcise each one of them that he may be personally assured of their purity. ⁴Then, if there is any of them who is not good or pure, he shall be put aside as not having heard the word in faith; for it is never possible for the alien to be concealed.",
+      "⁵Then those who are set apart for baptism shall be instructed to bathe and free themselves from impurity and wash themselves on Thursday. ⁶If a woman is menstruous, she shall be set aside and baptized on some other day.",
+      "⁷They who are to be baptized shall fast on Friday, and on Saturday the bishop shall assemble them and command them to kneel in prayer. ⁸And, laying his hand upon them, he shall exorcise all evil spirits to flee away and never to return; when he has done this he shall breathe in their faces, seal their foreheads, ears and noses, and then raise them up. ⁹They shall spend all that night in vigil, listening to reading and instruction.",
+      "¹⁰They who are to be baptized shall bring with them no other vessels than the one each will bring for the eucharist; for it is fitting that he who is counted worthy of baptism should bring his offering at that time."
+     ]
+    },
+    {
+     "number": 21,
+     "title": "The Baptismal Ceremony",
+     "span": "",
+     "paragraphs": [
+      "¹At cockcrow prayer shall be made over the water. ²The stream shall flow through the baptismal tank or pour into it from above when there is no scarcity of water; but if there is a scarcity, whether constant or sudden, then use whatever water you can find.",
+      "³They shall remove their clothing. ⁴And first baptize the little ones; if they can speak for themselves, they shall do so; if not, their parents or other relatives shall speak for them. ⁵Then baptize the men, and last of all the women; they must first loosen their hair and put aside any gold or silver ornaments that they were wearing: let no one take any alien thing down to the water with them.",
+      "⁶At the hour set for the baptism the bishop shall give thanks over oil and put it into a vessel: this is called the “oil of thanksgiving”. ⁷And he shall take other oil and exorcise it: this is called “the oil of exorcism”. [The anointing is performed by a presbyter.] ⁸A deacon shall bring the oil of exorcism, and shall stand at the presbyter’s left hand; and another deacon shall take the oil of thanksgiving, and shall stand at the presbyter’s right hand. ⁹Then the presbyter, taking hold of each of those about to be baptized, shall command him to renounce, saying:",
+      "I renounce thee, Satan, and all thy servants and all thy works.",
+      "¹⁰And when he has renounced all these, the presbyter shall anoint him with the oil of exorcism, saying:",
+      "Let all spirits depart far from thee.",
+      "¹¹Then, after these things, let him give him over to the presbyter who baptizes, and let the candidates stand in the water, naked, a deacon going with them likewise. ¹²And when he who is being baptized goes down into the water, he who baptizes him, putting his hand on him, shall say thus:",
+      "Dost thou believe in God, the Father Almighty?",
+      "¹³And he who is being baptized shall say:",
+      "I believe.",
+      "¹⁴Then holding his hand placed on his head, he shall baptize him once. ¹⁵And then he shall say:",
+      "Dost thou believe in Christ Jesus, the Son of God, who was born of the Holy Ghost of the Virgin Mary, and was crucified under Pontius Pilate, and was dead and buried, and rose again the third day, alive from the dead, and ascended into heaven, and sat at the right hand of the Father, and will come to judge the quick and the dead? ¹⁶And when he says:",
+      "I believe,",
+      "he is baptized again. ¹⁷And again he shall say:",
+      "Dost thou believe in [the] Holy Ghost, and the holy church, and the resurrection of the flesh?",
+      "¹⁸He who is being baptized shall say accordingly:",
+      "I believe,",
+      "and so he is baptized a third time.",
+      "¹⁹And afterward, when he has come up [out of the water], he is anointed by the presbyter with the oil of thanksgiving, the presbyter saying:",
+      "I anoint thee with holy oil in the name of Jesus Christ.",
+      "²⁰And so each one, after drying himself, is immediately clothed, and then is brought into the church."
+     ]
+    },
+    {
+     "number": 22,
+     "title": "Confirmation",
+     "span": "",
+     "paragraphs": [
+      "¹Then the bishop, laying his hand upon them, shall pray, saying:",
+      "O Lord God, who hast made them worthy to obtain remission of sins through the laver of regeneration of [the] Holy Spirit, send into them thy grace, that they may serve thee according to thy will; for thine is the glory, to the Father and the Son, with [the] Holy Spirit in the holy church, both now and world without end. Amen.",
+      "²Then, pouring the oil of thanksgiving from his hand and putting it on his forehead, he shall say:",
+      "I anoint thee with holy oil in the Lord, the Father Almighty and Christ Jesus and [the] Holy Ghost.",
+      "³And signing them on the forehead he shall say:",
+      "The Lord be with thee;",
+      "and he who is signed shall say:",
+      "And with thy spirit.",
+      "⁴And so he shall do to each one.",
+      "⁵And immediately thereafter they shall join in prayer with all the people, but they shall not pray with the faithful until all these things are completed. ⁶And at the close of their prayer they shall give the kiss of peace."
+     ]
+    },
+    {
+     "number": 23,
+     "title": "The Baptismal Eucharist",
+     "span": "",
+     "paragraphs": [
+      "¹And then the offering is immediately brought by the deacons to the bishop, and by thanksgiving he shall make the bread into an image of the body of Christ, and the cup of wine mixed with water according to the likeness of the blood, which is shed for all who believe in him. ²And milk and honey mixed together for the fulfilment of the promise to the fathers, which spoke of a land flowing with milk and honey; namely, Christ’s flesh which he gave, by which they who believe are nourished like babes, he making sweet the bitter things of the heart by the gentleness of his word. ³And the water into an offering in a token of the laver, in order that the inner part of man, which is a living soul, may receive the same as the body.",
+      "⁴The bishop shall explain the reason of all these things to those who partake. ⁵And when he breaks the bread and distributes the fragments he shall say:",
+      "The heavenly bread in Christ Jesus.",
+      "⁶And the recipient shall say, Amen.",
+      "⁷And the presbyters—or if there are not enough presbyters, the deacons—shall hold the cups, and shall stand by with reverence and modesty; first he who holds the water, then the milk, thirdly the wine. ⁸And the recipients shall taste of each three times, he who gives the cup saying:",
+      "In God the Father Almighty;",
+      "and the recipient shall say, Amen. ⁹Then:",
+      "In the Lord Jesus Christ;",
+      "[and he shall say, Amen. ¹⁰Then:",
+      "In] [the] Holy Ghost and the holy church;",
+      "and he shall say, Amen. ¹¹So it shall be done to each.",
+      "¹²And when these things are completed, let each one hasten to do good works, and to please God and to live aright, devoting himself to the church, practising the things he has learned, advancing in the service of God.",
+      "¹³Now we have briefly delivered to you these things concerning the holy baptism and the holy oblation, for you have already been instructed concerning the resurrection of the flesh and all other things as taught in Scripture.¹⁴Yet if there is any other thing that ought to be told [to converts], let the bishop impart it to them privately after their baptism; let not unbelievers know it, until they are baptized: this is the white stone of which John said: “There is upon it a new name written, which no one knoweth but he that receiveth the stone”."
+     ]
+    }
+   ]
+  },
+  {
+   "label": "PART III",
+   "name": "Church Laws",
+   "chapters": [
+    {
+     "number": 25,
+     "title": "",
+     "span": "",
+     "paragraphs": [
+      "¹Widows and virgins shall fast frequently and shall pray for the church; presbyters, if they wish, and laymen may fast likewise. ²But the bishop may fast only when all the people fast."
+     ]
+    },
+    {
+     "number": 26,
+     "title": "The Agape",
+     "span": "",
+     "paragraphs": [
+      "¹For it constantly happens that some one wishes to make an offering—and such a one must not be denied—and then the bishop, after breaking the bread, must in every case taste and eat it with the other believers. ²[At such an offering] each shall take from the bishop’s hand a piece of [this] bread before breaking his own bread. [This service has a special ceremonial] for it is “a Blessing”, not “a Thanksgiving”, as is [the service of] the Body of the Lord. ³But before drinking, each one, as many of you as are present, must take a cup and give thanks over it, and so go to your meal.",
+      "⁴But to the catechumens is given exorcised bread, and each of them must offer the cup. ⁵No catechumen shall sit at the Lord’s Supper.",
+      "⁶But at each act of offering, the offerer must remember his host, for he was invited to the latter’s home for that very purpose. ⁷But when you eat and drink, do so in an orderly manner and not so that anyone may mock, or your host be saddened by your unruliness, but behave so that he may pray to be made worthy that the saints may enter his dwelling: “for ye”, it is said, “are the salt of the earth”.",
+      "⁸If the offering should be one made to all the guests jointly, take your portion from your host [and depart]. ⁹But if all are to eat then and there, do not eat to excess, so that your host may likewise send some of what the saints leave to whomsoever he will and [so] may rejoice in the faith.",
+      "¹⁰But while the guests are eating, let them eat silently, not arguing, [attending to] such things as the bishop may teach, but if he should ask any question, let an answer be given him; and when he says anything, everyone in modest praise shall keep silence until he asks again.",
+      "¹¹And even if the bishop should be absent when the faithful meet at a supper, if a presbyter or a deacon is present they shall eat in a similar orderly fashion, and each shall be careful to take the blessed bread from the presbyter’s or deacon’s hand; and in the same way the catechumens shall take the same exorcised bread.",
+      "¹²But if [only] laymen meet, let them not act presumptuously, for a layman cannot bless the blessed bread.",
+      "¹³Let each one eat in the name of the Lord; for this is pleasing to the Lord that we should be jealous [of our good name] even among the heathen, all sober alike."
+     ]
+    },
+    {
+     "number": 27,
+     "title": "",
+     "span": "",
+     "paragraphs": [
+      "¹If anyone wishes to give a meal to widows of mature years, let him dismiss them before evening. ²But if, on account of existing conditions, he cannot [feed them in his house], let him send them away, and they may eat of his food at their homes in any way they please."
+     ]
+    },
+    {
+     "number": 28,
+     "title": "",
+     "span": "",
+     "paragraphs": [
+      "¹As soon as first-fruits appear, all shall hasten to offer them to the bishop. ²And he shall offer them, shall give thanks and shall name him who offered them, saying:",
+      "³We give thee thanks, O God, and we offer thee the first-fruits; which thou hast given us to enjoy, nourishing them through thy word, commanding the earth to bring forth her fruits for the gladness and the food of men and all beasts. ⁴For all these things we praise thee, O God, and for all things wherewith thou hast blessed us, who for us adornest every creature with divers fruits. ⁵Through thy Servant Jesus Christ, our Lord, through whom be to thee glory, world without end. Amen.",
+      "⁶Only certain fruits may be blessed, namely grapes, the fig, the pomegranate, the olive, the pear, the apple, the mulberry, the peach, the cherry, the almond, the plum. ⁷Not the pumpkin, nor the melon, nor the cucumber, nor the onion nor garlic nor anything else having an odour.",
+      "⁸But sometimes flowers too are offered; here the rose and the lily may be offered, but no other.",
+      "⁹But for everything that is eaten shall they [who eat it] give thanks to the Holy God, eating unto His glory."
+     ]
+    },
+    {
+     "number": 29,
+     "title": "",
+     "span": "",
+     "paragraphs": [
+      "¹Let no one at the paschal season eat before the offering is made, otherwise he shall not be credited with the fast. ²But if any woman is with child, or if anyone is sick and cannot fast for two days, let such a one, on account of his need, [at least] fast on Saturday, contenting himself with bread and water. ³But if anyone on a voyage or for any other necessary cause should not know the day, when he has learned the truth he shall postpone his fast until after Pentecost. ⁴For the ancient type has passed away, and so the [postponed] fast [of Numbers 9. 11] in the second month has ceased, and each one ought to fast in accord with his knowledge of the truth."
+     ]
+    },
+    {
+     "number": 30,
+     "title": "",
+     "span": "",
+     "paragraphs": [
+      "¹Each of the deacons, with the subdeacons, shall be alert on the bishop’s behalf, for the bishop must be informed if any are sick so that, if he pleases, he may visit them; for a sick man is greatly comforted when the high priest is mindful of him."
+     ]
+    },
+    {
+     "number": 33,
+     "title": "",
+     "span": "",
+     "paragraphs": [
+      "¹Let the deacons and the presbyters assemble daily at the place which the bishop may appoint; let the deacons [in particular] never fail to assemble unless prevented by sickness. ²When all have met they shall instruct those who are in the church, and then, after prayer, each shall go to his appointed duties."
+     ]
+    },
+    {
+     "number": 34,
+     "title": "",
+     "span": "",
+     "paragraphs": [
+      "¹No exorbitant charge shall be made for burial in the cemetery, for it belongs to all the poor; only the hire of the grave-digger and the cost of the tile [for closing the niche in the catacombs] shall be asked. ²The wages of the caretakers are to be paid by the bishop, lest any of those who go to that place be burdened [with a charge]."
+     ]
+    }
+   ]
+  },
+  {
+   "label": "PART IV",
+   "name": "Lay Devotions",
+   "chapters": [
+    {
+     "number": 35,
+     "title": "",
+     "span": "",
+     "paragraphs": [
+      "¹Let all the faithful, whether men or women, when early in the morning they rise from their sleep and before they undertake any tasks, wash their hands and pray to God; and so they may go to their duties. ²But if any instruction in God’s word is held [that day], everyone ought to attend it willingly, recollecting that he will hear God speaking through the instructor and that prayer in the church enables him to avoid the day’s evil; any godly man ought to count it a great loss if he does not attend the place of instruction, especially if he can read.",
+      "³If a [specially gifted] teacher should come, let none of you delay to attend the place where the instruction is given, for grace will be given to the speaker to utter things profitable to all, and thou wilt hear new things, and thou wilt be profited by what the Holy Spirit will give thee through the instructor; so thy faith will be strengthened by what thou hearest, and in that place thou wilt learn thy duties at home; therefore let everyone be zealous to go to the church, the place where the Holy Spirit abounds."
+     ]
+    },
+    {
+     "number": 36,
+     "title": "",
+     "span": "",
+     "paragraphs": [
+      "¹But if on any day there is no instruction, let everyone at home take the Bible and read sufficiently in passages that he finds profitable.",
+      "²If at the third hour thou art at home, pray then and give thanks to God; but if thou chance to be abroad at that hour, make thy prayer to God in thy heart. ³For at that hour Christ was nailed to the tree; therefore in the old [covenant] the law commanded the showbread to be offered continually for a type of the body and blood of Christ, and commanded the sacrifice of the dumb lamb, which was a type of the perfect Lamb; for Christ is the Shepherd, and he is also the Bread that came down from heaven.",
+      "⁴At the sixth hour likewise pray also, for, after Christ was nailed to the wood of the cross, the day was divided and there was a great darkness; wherefore let [the faithful] pray at that hour with an effectual prayer, likening themselves to the voice of him who prayed [and] caused all creation to become dark for the unbelieving Jews.",
+      "⁵And at the ninth hour let a great prayer and a great thanksgiving be made, such as made the souls of the righteous ones, blessing the Lord, the God who does not lie, who was mindful of his saints and sent forth his Word to enlighten them. ⁶At that hour, therefore, Christ poured forth from his pierced side water and blood, and brought the rest of the time of that day with light to evening; so, when he fell asleep, by making the beginning of another day he completed the pattern of his resurrection.",
+      "⁷Pray again before thy body rests on thy bed.",
+      "⁸At midnight arise, wash thy hands with water and pray. ⁹And if thy wife is with thee, pray ye both together; but if she is not yet a believer, go into another room and pray, and again return to thy bed; be not slothful in prayer.",
+      "¹⁰He who has used the marriage bed is not defiled; for they who are bathed have no need to wash again, for they are clean. ¹¹By signing thyself with thy moist breath, and so spreading spittle on thy body with thy hand, thou art sanctified to thy feet; for the gift of the Spirit and the sprinkling with water, when it is brought with a believing heart as it were from a fountain, sanctifies him who believes.",
+      "¹²It is needful to pray at this hour; for those very elders who gave us the tradition taught us that at this hour all creation rests for a certain moment, that all creatures may praise the Lord: stars and trees and waters stand still with one accord, and all the angelic host does service to God by praising Him, together with the souls of the righteous. ¹³For this cause believers should be zealous to pray at this hour; for the Lord, testifying to this, says: “Behold at midnight is a cry, Behold the Bridegroom cometh! Rise up to meet him!”; and he adds insistently: “Watch ye therefore, for ye know not at what hour he cometh”.",
+      "¹⁴And at cockcrow rise up and pray likewise, for at that hour of cockcrow the children of Israel denied Christ, whom we have known by faith; by which faith, in the hope of eternal life at the resurrection of the dead, we look for his Day.",
+      "¹⁵And so, all ye faithful, if ye thus act, and are mindful of these things, and teach them to one another, and cause the catechumens to be zealous, ye can neither be tempted nor can ye perish, since ye have Christ always in your minds."
+     ]
+    },
+    {
+     "number": 37,
+     "title": "",
+     "span": "",
+     "paragraphs": [
+      "¹But imitate him always, by signing thy forehead sincerely; for this is the sign of his Passion, manifest and approved against the devil if so thou makest it from faith; not that thou mayest appear to men, but knowingly offering it as a shield. ²For the adversary, seeing its power coming from the heart, that a man displays the publicly formed image of baptism, is put to flight; not because thou spittest, but because the Spirit in thee breathes him away. ³When Moses formed it by putting the blood of the Paschal lamb that was slain on the lintel and anointing the side-posts, he signified the faith which now we have in the perfect Lamb."
+     ]
+    },
+    {
+     "number": 38,
+     "title": "Conclusion",
+     "span": "",
+     "paragraphs": [
+      "¹And so, if these things are accepted with thanksgiving and right faith, they give edification in the church and eternal life to believers. ²I counsel that these things be kept by all who know aright; for over all who hear the apostolic tra[dition] and keep it, no heretics or any other man will prevail to lead them astray. ³For the many heresies have increased because their leaders would not learn the purpose of the apostles but acted according to their own wills, following their lusts and not what was right.",
+      "⁴Now, beloved, if we have omitted anything, God will reveal it to those who are worthy, guiding the holy church to its mooring in [God’s] quiet haven."
+     ]
+    }
+   ]
+  },
+  {
+   "label": "LATER ADDITIONS",
+   "name": "",
+   "chapters": [
+    {
+     "number": 24,
+     "title": "",
+     "span": "",
+     "paragraphs": [
+      "¹On Saturday and Sunday the bishop shall whenever possible give the people the bread with his own hand, while the deacons break it. ²The presbyters too shall break the bread to be delivered; and whenever a deacon approaches a presbyter he shall hold out his robe, and the presbyter shall take the bread and deliver it to the people with his hand.",
+      "³On other days they shall give the bread as the bishop determines."
+     ]
+    },
+    {
+     "number": 26,
+     "title": "",
+     "span": "",
+     "paragraphs": [
+      "¹⁴In time of need the deacon shall be diligent in giving the blessed bread to the sick. ¹⁵If there is no presbyter to give out what is to be distributed, the deacon shall pronounce the thanksgiving and shall supervise those who carry it away, to make sure that they attend to their duty and [properly] distribute the blessed food; the distributors must give it to the widows and the sick. ¹⁶Whoever is entrusted with the duty by the church must distribute it on the same day; if he does not, he must [at least] do so on the next day with the addition of what is then given him. ¹⁷For [it is not his own property]; it is given him only [in trust] as bread for the poor.",
+      "¹⁸When evening has come and the bishop is present, the deacon shall bring in a lamp. ¹⁹Then the bishop, standing in the midst of the believers, before giving thanks shall first give the salutation:",
+      "The Lord be with you all.",
+      "²⁰And the people shall say:",
+      "[And] with thy spirit.",
+      "²¹And the bishop shall say:",
+      "Let us give thanks to the Lord.",
+      "²²And the people shall say:",
+      "It is meet and right:\nMajesty, exaltation and glory are due to Him.",
+      "²³But they shall not say “Lift up your hearts”, for that belongs to the oblation. ²⁴And he prays thus, saying:",
+      "We give thee thanks, O God, because thou hast enlightened us by revealing the incorruptible light. ²⁵So we, having finished the length of a day, and being come to the beginning of the night, satisfied with the light of the day that thou hast created for our satisfaction; and now, since by thy grace we lack not a light for the evening, we sanctify thee and we glorify thee. ²⁶Through thine only Son our Lord Jesus Christ, through whom be to thee with him glory and might and honour with [the] Holy Spirit, now, etc.",
+      "²⁷And they shall all say: Amen.",
+      "²⁸Then, rising up after supper, the children and virgins having prayed, they shall sing psalms. ²⁹Then the deacon, holding the mixed cup of the offering, shall say a Hallelujah Psalm. ³⁰Then, the presbyter having commanded, “And also such-and-such Psalms”, after the bishop has offered the cup with the proper thanksgiving, all shall say “Hallelujah” as the Psalms are sung. ³¹And they shall say:",
+      "We praise Him who is God most high;\nGlorified and praised is He,\nWho founded the world with a single word.",
+      "³²Then, when the Psalm is completed, he shall give thanks over the bread, and shall give the fragments to all the believers."
+     ]
+    },
+    {
+     "number": 31,
+     "title": "",
+     "span": "",
+     "paragraphs": [
+      "¹The faithful, early in the morning, as soon as they have awaked and arisen, before they undertake their tasks shall pray to God and so may then go to their duties. ²But if any instruction in the word is held, let each give first place to that, that he may attend and hear the word of God, to his soul’s comfort; so let each one hasten to the church, where the Spirit abounds."
+     ]
+    },
+    {
+     "number": 32,
+     "title": "",
+     "span": "",
+     "paragraphs": [
+      "¹But let each of the faithful be zealous, before he eats anything else, to receive the eucharist; for if anyone receives it with faith, after such a reception he cannot be harmed even if a deadly poison should be given him. ²But let each one take care that no unbeliever taste the eucharist, nor a mouse nor any other animal, and that nothing of it fall or be lost; for the body of Christ is to be eaten by believers and must not be despised. ³The cup, when thou hast given thanks in the name of the Lord, thou hast accepted as the image of the blood of Christ. ⁴Therefore let none of it be spilled, so that no alien spirit may lick it up, as if thou didst despise it; thou shalt be guilty of the blood, as if thou didst scorn the price with which thou hast been bought."
+     ]
+    }
+   ]
+  }
+ ]
+}

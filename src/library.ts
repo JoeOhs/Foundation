@@ -15,6 +15,10 @@ import { ANF06_TITLE, installANF06 } from './anf06Import';
 import { ANF07_TITLE, installANF07 } from './anf07Import';
 import { ANF08_TITLE, installANF08 } from './anf08Import';
 import { ANF09_TITLE, installANF09 } from './anf09Import';
+import {
+  HIPPOLYTUS_APOSTOLIC_TRADITION_TITLE,
+  installHippolytusApostolicTradition,
+} from './hippolytusApostolicTraditionImport';
 import { JOSEPHUS_TITLE, installJosephus } from './josephusImport';
 import { FOXE_TITLE, installFoxe } from './foxeImport';
 import { NPNF101_TITLE, installNPNF101 } from './npnf101Import';
@@ -511,6 +515,37 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'Buffalo, NY). All editors deceased before 1930; text in the public domain in the United States. ' +
       'Source: CCEL\'s ThML XML (ccel.org/ccel/schaff/anf09). Editorial footnotes excluded. Built by tools/anf/anf09/build.mjs.',
     install: installANF09,
+  },
+  {
+    // Shelved with the Ante-Nicene Fathers but deliberately NOT one of them:
+    // the ANF translation predates the identification of Hippolytus as this
+    // work's author, and carries nothing of the Apostolic Tradition. It is
+    // listed after Vol. 9 so it reads as a supplement to the series rather
+    // than a numbered continuation of it — and it is not Vol. 10, which is
+    // the Roberts/Donaldson General Index (omitted for its own reasons).
+    id: 'hippolytus_apostolic_tradition',
+    title: HIPPOLYTUS_APOSTOLIC_TRADITION_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'patristic',
+    series: 'Ante-Nicene Fathers',
+    license: 'public domain',
+    licenseDetail:
+      'Hippolytus of Rome (c. 170–235), The Apostolic Tradition — a separate addition to the '
+      + 'Ante-Nicene Fathers shelf, not one of the numbered volumes. The work survives only through '
+      + 'a Latin palimpsest and Sahidic, Arabic and Ethiopic versions, and was not attributed to '
+      + 'Hippolytus until long after the ANF translation was made, so ANF Vol. 5 carries his '
+      + 'Refutation and fragments but nothing of this. Translation by Burton Scott Easton, published '
+      + '1934 by Cambridge University Press and printed in the United States with a US copyright '
+      + 'notice — a domestic 1909-Act work whose 28-year term expired unrenewed. The Catalog of '
+      + 'Copyright Entries, Third Series (Renewals) was checked across all four half-year volumes '
+      + 'the renewal window could fall in (Jan–Jun 1961, Jul–Dec 1961, Jan–Jun 1962, Jul–Dec 1962) '
+      + 'with no entry for Easton in any of them; Project Gutenberg clears it independently '
+      + '(ebook #61614). Easton\'s introduction is included as its own section; his notes, footnotes '
+      + 'and indexes are excluded. Gregory Dix\'s 1937 edition and the Dix/Chadwick 1968 revision '
+      + 'remain in copyright and are not used. Built by '
+      + 'tools/hippolytus-apostolic-tradition/build.mjs.',
+    install: installHippolytusApostolicTradition,
   },
   {
     id: 'npnf101',
@@ -1130,7 +1165,8 @@ export const SERIES_NOTES: Record<string, string> = {
     + 'the Talmud above. Note that "Philadelphia Edition" is the name the later Muhlenberg Press '
     + 'reprint gave the set; the original Holman printings carry no edition name of their own.',
   'Ante-Nicene Fathers':
-    'Volume 10 (General Index) intentionally omitted — use Foundation\'s full-text search (scope: Church Fathers or All sources) to find content across all installed volumes.',
+    'Volume 10 (General Index) intentionally omitted — use Foundation\'s full-text search (scope: Church Fathers or All sources) to find content across all installed volumes. '
+    + 'Hippolytus\'s Apostolic Tradition is listed last as a separate, later-sourced addition to this shelf; it is not a volume of the Roberts/Donaldson edition, and not a stand-in for the omitted index.',
   'Nicene and Post-Nicene Fathers, Series I':
     'All 14 volumes available (Augustine, Vols. 1–8; Chrysostom, Vols. 9–14).',
   'Nicene and Post-Nicene Fathers, Series II':
