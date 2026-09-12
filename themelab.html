@@ -5,6 +5,7 @@
 <title>Foundation — Theme Lab (dev only)</title>
 <link rel="stylesheet" href="/src/themes.css" />
 <link rel="stylesheet" href="/src/styles.css" />
+<link rel="stylesheet" href="/themelab-legacy.css" />
 <style>
   /* harness-only chrome */
   .lab-controls {
@@ -156,6 +157,15 @@
 </div>
 <script>
   function setTheme(id) { document.documentElement.setAttribute('data-theme', id); }
+  // ?theme=<id> lets themelab-compare.html frame this page twice; ?bare hides
+  // the harness buttons so the frames show only the app.
+  const params = new URLSearchParams(location.search);
+  if (params.get('theme')) setTheme(params.get('theme'));
+  if (params.has('bare')) {
+    addEventListener('DOMContentLoaded', () => {
+      document.querySelector('.lab-controls').hidden = true;
+    });
+  }
   function toggleExport() {
     const m = document.getElementById('exportModal');
     m.style.display = m.style.display === 'none' ? 'flex' : 'none';
