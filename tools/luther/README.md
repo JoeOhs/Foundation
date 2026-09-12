@@ -6,33 +6,58 @@ Philadelphia Edition, A. J. Holman Company — into the JSON bundles
 `public/library/reformation/`.
 
 ```
-node build.mjs           parse raw/ and write both bundles
+node vol3-normalise.mjs            rebuild raw/luther-vol3.html from the
+                                   Volume III page scan (run this first,
+                                   whenever the scan changes)
+node vol3-normalise.mjs --report   also write vol3-normalise-report.txt
+
+node build.mjs           parse raw/ and write all three bundles
 node build.mjs --audit   also print the full Work → Section outline and
                          every excluded block
 ```
 
-## Two of six volumes
+## Three of six volumes, arriving two different ways
 
-Only Volumes I (#31604, 1915) and II (#34904, 1916) are digitised on Project
-Gutenberg as clean transcribed text. Volumes III–VI exist only as
-page-scanned images on the Internet Archive and need a transcription pass of
-their own — a different job from this one, pinned in `ROADMAP.md`. Nothing
-here should be read as shipping the complete edition, which is why the
-source titles carry "Vol. I" / "Vol. II" and the Library panel's series note
-says so outright.
+Volumes I (#31604, 1915) and II (#34904, 1916) are Project Gutenberg
+transcriptions. **Volume III (1930) is not** — no transcription of it exists.
+It is OCR of a page scan on the Internet Archive, put through
+`vol3-normalise.mjs` first (see below), and it reads a little rougher as a
+result.
+
+Volumes IV–VI are **not** absent for want of effort. They are still under US
+copyright:
+
+| Vol. | Published | US public domain on | Note |
+|---|---|---|---|
+| III | 1930 | **1 January 2026** — shipped | |
+| IV | 1931 | 1 January 2027 | |
+| V | 1931 | 1 January 2027 | copyright renewed, CCE **R238530** |
+| VI | 1932 | 1 January 2028 | |
+
+Do not add them before those dates. The full findings — edition identity, the
+Castle Press imprint, per-volume OCR quality — are recorded in `ROADMAP.md`.
+Nothing here should be read as shipping the complete edition, which is why
+the source titles carry their volume number and the Library panel's series
+note says so outright.
 
 ## Source files
 
 `raw/` is gitignored, like every other builder's in this repo. It holds:
 
-| File | Gutenberg |
+| File | Source |
 |---|---|
-| `luther-vol1.html`, `luther-vol1.txt` | #31604 |
-| `luther-vol2.html`, `luther-vol2.txt` | #34904 |
+| `luther-vol1.html`, `luther-vol1.txt` | Project Gutenberg #31604 |
+| `luther-vol2.html`, `luther-vol2.txt` | Project Gutenberg #34904 |
+| `vol3-holman.hocr` | `archive.org/details/worksofmartinlut03luth_0` |
+| `vol3-muhlenberg-princeton.hocr` | `archive.org/details/worksofmartinlut03luth` |
+| `vol3-muhlenberg-winebrenner.hocr` | `archive.org/details/worksofmartinlut0003vari` |
+| `luther-vol3.html` | **generated** by `vol3-normalise.mjs` — do not edit |
 
-The HTML is what the parser reads; the `.txt` is kept as a cross-check for
-reading disputed passages by eye. **The build makes no network call** — the
-files are supplied locally, and the app never fetches anything at read time.
+For Volumes I and II the HTML is what the parser reads; the `.txt` is kept as
+a cross-check for reading disputed passages by eye. The three Volume III hOCR
+files are the `_hocr.html` derivative of each Internet Archive item (about
+23 MB each). **Neither script makes a network call** — the files are supplied
+locally, and the app never fetches anything at read time.
 
 ## Why the work boundaries are declared, not inferred
 
@@ -58,19 +83,127 @@ introduction — and every one is asserted present and in order —
 the same call `tools/josephus/build.mjs` and `tools/foxe/build.mjs` make when
 they pin their expected book and chapter counts.
 
+## Volume III: recovering markup from page geometry
+
+`build.mjs`'s parser reads a Gutenberg-shaped document — `[Sidenote: …]`
+paragraphs, `[Matt. 16:18]` citations inline, a `FOOTNOTES` heading per work,
+headings for structure. Every one of those is a *transcriber's* convention.
+None of it exists in OCR of a page scan, where the printed marginal notes
+arrive as unlabelled fragments detached from the paragraph they annotate and
+the footnotes are simply more lines at the bottom of the page.
+
+`vol3-normalise.mjs` reconstructs that markup from what the page geometry
+says, and writes `raw/luther-vol3.html` for `build.mjs` to read unchanged. It
+is a translator into the existing contract, not a second parser: it segments
+no works, excludes nothing, and writes no bundle.
+
+Everything it measures is derived per page, because the pages are not
+uniform — width ranges from 2377 to 2463 px and the body column's left edge
+from 52 to 480, depending how the leaf sat under the camera.
+
+- **The outer margin** is read on both sides, since it alternates with the
+  leaf; assuming a side from page parity would invert for the whole volume if
+  one leaf were ever missing. A line is marginal if it clears the body column
+  *and* is narrow — either test alone misfires, one on a note's second line
+  ("7:15" under "Matt.", which can end within 30 px of the column), the other
+  on a paragraph's short last line.
+- **Marginal notes are grouped by what they say, not by spacing.** Measured
+  across this scan the gap *inside* a note runs 45–70 px and the gap
+  *between* two notes runs 45–1030 px: the distributions overlap almost
+  entirely. A line naming a book of the Bible opens a citation, a bare
+  chapter-and-verse continues the one above it (or chains under it, the way
+  the margin sets `1 Cor. 11:26 / 11:27 / 11:28`), prose continues the topic
+  note above it.
+- **Scripture citations are kept only when they resolve** to a book this
+  edition's abbreviations name and a chapter that exists in it. A wrong
+  reference in a Bible study application is worse than a missing one. Of 519
+  attempts 415 resolve; the other 104 are almost all half-references — a book
+  name whose numbers the OCR never captured, or numbers whose book name it
+  never captured — and every one is listed in the report. Digit-shaped
+  misreads are repaired only inside the chapter and verse slots, where the
+  grammar already says the character must be a digit (`Mark I1:24` → 11:24).
+- **Topic notes are checked against the volume's own body vocabulary** before
+  they are kept, because what is left in the margin after the citations is
+  not all topic notes: it is also damaged references and specks of scan noise
+  (`i)`, `8372 he`). These end up on `entries.heading`, where they are read as
+  a label, so anything that cannot be shown to be one is dropped and logged.
+  The same vocabulary repairs hyphens the margin lost: `Accusa` + `tion` are
+  closed up because the volume uses "Accusation"; `the` + `Old` are not,
+  because "theOld" appears nowhere.
+- **Section headings are found by centring, not size.** This edition sets
+  "THE FIRST ARTICLE" through "THE LAST ARTICLE" at *body size*, in capitals,
+  centred. Looking at size found five headings in the volume and missed the
+  other forty-one, welding a forty-one-part treatise into one 270-paragraph
+  section.
+- **The footnote rule is the lowest qualifying break, not the widest gap.** A
+  centred heading is set off by more space than the footnote rule is — 201 px
+  against 102 px on the page that opens the third article — so taking the
+  widest gap cuts at the heading and throws the rest of the article away as
+  apparatus.
+- **A running head is told from a heading by its printed page number.**
+  Neither the gap above it nor its type size distinguishes them: on the
+  scholarly introduction pages the body is set several points *smaller* than
+  the running head, so a heading is not reliably the largest thing on its
+  page.
+- **Footnotes are collected per work** and emitted as one `FOOTNOTES` block at
+  its end, which is where Gutenberg puts them in Volumes I and II and what
+  the parser requires — a `FOOTNOTES` heading runs until the next heading, so
+  one emitted mid-work would swallow the rest of it.
+
+### Volume III's own gates
+
+`vol3-normalise.mjs` refuses to write a file if:
+
+- the scan has fewer than 400 pages (a truncated download);
+- **line conservation** fails — every OCR line must be classified as body,
+  footnote, running head, margin, title or blank-leaf, and the totals must
+  add up. `build.mjs`'s conservation gate can only account for what reaches
+  it, so lines dropped here would never be missed there;
+- the title page does not read "VOLUME III" and carry both imprints;
+- no scan shows a printed **1930** date (see below);
+- **cross-scan control** fails — under 80 % of a control scan's vocabulary
+  appearing in the primary means the primary is not the book we think it is.
+  In practice the two controls score 94.4 % and 96.6 %.
+
+### Why the 1930 date comes from the control scans
+
+The volume is public domain because it was published in **1930**: its 95-year
+US copyright term expired on 1 January 2026. That date has to be asserted
+against the printed notice — and this scan's OCR of the notice is the single
+line `A. J. Horman Company`. The year is simply absent, because the leaf is
+nearly blank with show-through from the title page behind it. The notice does
+read "Copyright, 1930, by A. J. Holman Company" on the page *image*, but a
+gate cannot assert what the OCR does not contain.
+
+So the year is taken from the two control scans, where it survives three
+times over: the Muhlenberg reprint's own 1930 notice in each copy, and the
+library call number stamped on the same leaf (`BR 330 .E5313 1930 v.3`). All
+three are recorded in the `FOUNDATION-PROVENANCE` block the normaliser writes
+into `raw/luther-vol3.html`, and `build.mjs` asserts them there.
+
+**Internet Archive's catalogue date for this item says 1915 and is wrong** —
+it is the six-volume set's date, inherited from the shared record
+(LCCN 15007839). Nothing in either script reads it.
+
 ## Gates — the build fails rather than shipping a doubtful text
 
-1. **Provenance.** Each file's Gutenberg header must name *Works of Martin
-   Luther, with Introductions and Notes* for the matching volume, carry the
-   matching `[eBook #id]`, show the A. J. Holman Company imprint and printed
-   year on its title page, and carry Gutenberg's licence boilerplate in both
-   header and footer. Checked against whitespace-normalised text, because
+1. **Provenance.** For Volumes I and II, the Gutenberg header must name
+   *Works of Martin Luther, with Introductions and Notes* for the matching
+   volume, carry the matching `[eBook #id]`, show the A. J. Holman Company
+   imprint and printed year on its title page, and carry Gutenberg's licence
+   boilerplate in both header and footer. Volume III has no such header, so
+   it gets a gate of its own: the `FOUNDATION-PROVENANCE` block must name
+   this edition, Volume III, the printed year 1930, the scan it came from,
+   and at least one scan showing a printed 1930 date — and must record that
+   Internet Archive's date field was refused. Independently of that block,
+   "VOLUME III" and both imprints must appear on the title page in the text
+   itself, so neither the normaliser's summary nor the text is trusted alone. Checked against whitespace-normalised text, because
    Gutenberg hard-wraps at ~72 columns and a wrap inside a phrase would fail
    a perfectly good file.
-2. **Structure.** Nine books in Vol. I and eight in Vol. II — the eight
-   treatises each, plus Vol. I's volume-level introduction and translators'
-   note, which are kept for the same reason each work's own introduction is
-   kept. Each declared boundary found
+2. **Structure.** Nine books in Vol. I and eight each in Vols. II and III —
+   the eight treatises each, plus Vol. I's volume-level introduction and
+   translators' note, which are kept for the same reason each work's own
+   introduction is kept. Each declared boundary found
    exactly once and in document order, back matter after the last work, and
    no work parsing to zero text.
 3. **Conservation.** Every body paragraph must end up either in a bundle or
@@ -108,6 +241,17 @@ Kept:
 
 ## Source anomalies, recorded rather than hidden
 
+- **Volume III's work locators look damaged, and are pinned that way.**
+  `AN ARGUMENT DEFENSE OF ALL THE ARTICLES OF MARTIN LUTHER IN THE ROMAN BULL`
+  is what Tesseract makes of a decorated half-title with show-through behind
+  it — the printed page reads "AN ARGUMENT IN DEFENSE OF ALL THE ARTICLES OF
+  DR. MARTIN LUTHER WRONGLY CONDEMNED IN THE ROMAN BULL". The half-title
+  pages are the only structural boundary this volume prints, so the locators
+  match them verbatim: if the scan is ever re-run, or Internet Archive
+  replaces the item, the build stops instead of quietly re-cutting the volume
+  somewhere else. The *work names* in the table of contents are written out
+  properly and come from the printed contents page, not from the OCR.
+
 - **Volume I, "A Discussion of Confession" skips FOURTH.** Its numbered
   points run FIRST, SECOND, THIRD, FIFTH … LAST. This is the edition's own
   numbering, not a parse failure: the HTML and the plain-text release agree,
@@ -124,6 +268,7 @@ Kept:
 |---|---|---|---|---|
 | Vol. I | 9 | 66 | 916 | 0.72 MB |
 | Vol. II | 8 | 74 | 1081 | 0.84 MB |
+| Vol. III | 8 | 66 | 949 | 0.79 MB |
 
 Both are far inside the ceiling JFB (12 MB) already set, so the per-volume
 split is about shelving, not bytes — see the note in `src/lutherImport.ts`.
