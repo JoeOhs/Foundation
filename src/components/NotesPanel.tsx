@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { addNote, deleteNote, freeNotes, notesForChapter, setNotePinned, updateNote } from '../db';
+import { addNote, allNotes, deleteNote, freeNotes, notesForChapter, setNotePinned, updateNote } from '../db';
+import { CANONICAL_BOOKS } from '../bibleMeta';
 import { renderMarkdown } from '../markdown';
 import { exportNotes, importNotesFromFiles } from '../notesio';
 import { takePendingInsertMarkdown } from '../notesbus';
@@ -12,6 +13,27 @@ import { anchorLabel, notePreview } from '../noteLabels';
 import type { Note, Reference, SelectedEntry, VerseSelection } from '../types';
 
 type AnchorKind = 'verse' | 'entry' | 'chapter' | 'book' | 'free';
+// which notes the list shows: this chapter, the unanchored ones, or every
+// note in the database
+type NoteScope = 'chapter' | 'free' | 'all';
+
+const BOOK_ORDER = new Map(CANONICAL_BOOKS.map((name, i) => [name, i]));
+
+// allNotes() orders books alphabetically, which reads as noise in a
+// whole-Bible list. Re-sort into canonical order, pinned first, with the
+// unanchored notes after the anchored ones.
+function byCanonicalAnchor(a: Note, b: Note): number {
+  if (a.pinned !== b.pinned) return a.pinned ? -1 : 1;
+  const ax = a.anchor_book ? BOOK_ORDER.get(a.anchor_book) ?? CANONICAL_BOOKS.length : Infinity;
+  const bx = b.anchor_book ? BOOK_ORDER.get(b.anchor_book) ?? CANONICAL_BOOKS.length : Infinity;
+  if (ax !== bx) return ax - bx;
+  if (a.anchor_book && b.anchor_book && a.anchor_book !== b.anchor_book) {
+    return a.anchor_book.localeCompare(b.anchor_book);
+  }
+  if ((a.anchor_chapter ?? 0) !== (b.anchor_chapter ?? 0)) return (a.anchor_chapter ?? 0) - (b.anchor_chapter ?? 0);
+  if ((a.anchor_verse ?? 0) !== (b.anchor_verse ?? 0)) return (a.anchor_verse ?? 0) - (b.anchor_verse ?? 0);
+  return b.updated_at.localeCompare(a.updated_at);
+}
 
 interface NotesPanelProps {
   refState: Reference;
@@ -42,7 +64,7 @@ export default function NotesPanel({
   standalone,
 }: NotesPanelProps) {
   const [tab, setTab] = useState<'notes' | 'highlights' | 'links'>('notes');
-  const [showFree, setShowFree] = useState(false);
+  const [scope, setScope] = useState<NoteScope>('chapter');
   const [notes, setNotes] = useState<Note[]>([]);
   const [editing, setEditing] = useState<Note | null>(null);
   const [title, setTitle] = useState('');
@@ -66,18 +88,20 @@ export default function NotesPanel({
   };
 
   const reload = useCallback(async () => {
-    setNotes(showFree ? await freeNotes() : await notesForChapter(refState.book, refState.chapter));
-  }, [showFree, refState.book, refState.chapter]);
+    if (scope === 'all') setNotes((await allNotes()).sort(byCanonicalAnchor));
+    else if (scope === 'free') setNotes(await freeNotes());
+    else setNotes(await notesForChapter(refState.book, refState.chapter));
+  }, [scope, refState.book, refState.chapter]);
 
   useEffect(() => { reload(); }, [reload]);
 
   // default the anchor picker sensibly
   useEffect(() => {
-    if (showFree) setAnchor('free');
+    if (scope === 'free') setAnchor('free');
     else if (entrySelection) setAnchor('entry');
     else if (selection) setAnchor('verse');
     else setAnchor('chapter');
-  }, [selection, entrySelection, showFree]);
+  }, [selection, entrySelection, scope]);
 
   // Scripture inserted from the reader ("Add to note") arrives as a window
   // event so it works whether the editor is docked or popped out. Bridged
@@ -205,8 +229,15 @@ export default function NotesPanel({
       </div>
       {tab === 'notes' && (
         <div className="notes-subhead">
-          <button onClick={() => setShowFree(true)} disabled={showFree}>Free-form</button>
-          <button onClick={() => setShowFree(false)} disabled={!showFree}>
+          <button onClick={() => setScope('free')} disabled={scope === 'free'}>Free-form</button>
+          <button
+            onClick={() => setScope('all')}
+            disabled={scope === 'all'}
+            title="Every note in the database, in canonical order"
+          >
+            All notes
+          </button>
+          <button onClick={() => setScope('chapter')} disabled={scope === 'chapter'}>
             {refState.book} {refState.chapter}
           </button>
         </div>
@@ -233,7 +264,9 @@ export default function NotesPanel({
       <div className="notes-body">
         {notes.length === 0 && (
           <div className="pane-empty">
-            {showFree ? 'No free-floating notes yet.' : `No notes on ${refState.book} ${refState.chapter} yet.`}
+            {scope === 'free' ? 'No free-floating notes yet.'
+              : scope === 'all' ? 'No notes yet.'
+              : `No notes on ${refState.book} ${refState.chapter} yet.`}
           </div>
         )}
         {notes.map((n) => (

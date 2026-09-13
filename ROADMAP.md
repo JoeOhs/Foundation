@@ -250,6 +250,10 @@ running list of what's done and what's next, not a commitment.
   formatting toolbar + Write/Preview (`marked` + `DOMPurify`;
   `src/components/NoteEditor.tsx`). Shift+click selects verse ranges in the
   reader and inserts them as scripture blockquotes (`src/scripture.ts`).
+  The list scopes to one of three views — the current chapter, the
+  unanchored **Free-form** notes, or **All notes**, every note in the
+  database in canonical book order — so notes written chapters ago stay
+  findable without browsing back to them.
   Import legacy notes from Markdown/text/RTF/HTML — converted to Markdown
   (`src/notesconvert.ts`) — and export to one Markdown file (Rust
   `write_file_text` command) through a picker

@@ -991,9 +991,12 @@ select:focus, input:focus, button:focus-visible {
   display: flex;
   align-items: center;
   gap: 6px;
+  /* three scope buttons — wrap rather than overflow a narrow docked panel */
+  flex-wrap: wrap;
   padding: 8px 12px;
   border-bottom: 1px solid var(--border);
 }
+.notes-subhead button { white-space: nowrap; }
 
 /* ---------- highlights tab ---------- */
 .highlights-tab { flex: 1; overflow-y: auto; display: flex; flex-direction: column; }
