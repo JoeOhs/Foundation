@@ -28,7 +28,10 @@ import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const RAW = join(import.meta.dirname, 'raw');
-const books = process.argv.slice(2).length ? process.argv.slice(2) : ['Gen'];
+const args = process.argv.slice(2);
+const CHECKLIST = args.includes('--checklist');
+const bookArgs = args.filter((a) => !a.startsWith('--'));
+const books = bookArgs.length ? bookArgs : ['Gen'];
 
 function load(name) {
   const p = join(RAW, name);
@@ -329,3 +332,27 @@ const lines = [...sample].sort((a, b) => refs.indexOf(a) - refs.indexOf(b))
   .map((r) => `${r}  ${render(verses.get(r), results.get(r))}`);
 writeFileSync(join(RAW, 'sample.txt'), `+Hxxx = number added from TAHOT; others are CrossWire's.\n\n${lines.join('\n\n')}\n`);
 console.log(`\nWrote raw/sample.txt (${lines.length} verses).`);
+
+// --checklist: every added number in 150 random verses that have one, as
+// yes/no items for the by-hand answer key (raw/checklist.json). Only the
+// aligner's own additions are judged; CrossWire's tags aren't in question.
+if (CHECKLIST) {
+  let s2 = 7;
+  const rand2 = () => ((s2 = (s2 * 1103515245 + 12345) % 2 ** 31) / 2 ** 31);
+  const withAdds = refs.filter((r) => results.get(r).length);
+  const picked = new Set();
+  while (picked.size < Math.min(150, withAdds.length)) picked.add(withAdds[Math.floor(rand2() * withAdds.length)]);
+  const verseOut = [...picked].sort((a, b) => refs.indexOf(a) - refs.indexOf(b)).map((ref) => {
+    const v = verses.get(ref);
+    return {
+      ref,
+      words: v.tokens.map((t) => t.word),
+      adds: results.get(ref).map((p) => {
+        const d = dict[p.num] ?? {};
+        return { id: `${ref}-${p.token}`, token: p.token, num: p.num, lemma: d.lemma ?? '', xlit: d.xlit ?? '', kjv: d.kjv_def ?? '' };
+      }),
+    };
+  });
+  writeFileSync(join(RAW, 'checklist.json'), JSON.stringify(verseOut));
+  console.log(`Wrote raw/checklist.json (${verseOut.length} verses, ${verseOut.reduce((n, v) => n + v.adds.length, 0)} items).`);
+}
