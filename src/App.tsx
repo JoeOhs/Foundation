@@ -998,8 +998,8 @@ export default function App() {
           onAssign={assignPaneGroup}
         />
         <button onClick={() => openSearch()} title="Search (Ctrl+F)">🔍 Search</button>
-        <button onClick={() => setFooterOpen((v) => !v)} title="Toggle the study footer (concordance, dictionaries, commentaries)">📚 Study</button>
-        <button onClick={() => setLibraryOpen(true)} title="Download public domain texts">🌐 Library</button>
+        <button onClick={() => setFooterOpen((v) => !v)} title="Toggle the study footer (concordance, dictionaries, commentaries)">📖 Study</button>
+        <button onClick={() => setLibraryOpen(true)} title="Download public domain texts">📚 Library</button>
         <button onClick={() => setImportOpen(true)} title="Import a text">📥 Import</button>
         <button onClick={toggleNotes} title={notesPopped ? 'Notes are in a separate window' : 'Toggle notes panel'}>📝 Notes{notesPopped ? ' ⧉' : ''}</button>
         <div className="bookmarks-menu-wrap" ref={bookmarksWrapRef}>
