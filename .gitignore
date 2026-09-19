@@ -59,3 +59,6 @@ skills-lock.json
 
 # Purchased/licensed Bible license files (LCP credentials, non-public-domain)
 licensed-bibles/
+# Strong's alignment prototype cache: CrossWire OSIS, STEPBible TAHOT and
+# OpenScriptures dictionary downloads (~50MB), plus its sample output.
+tools/strongs-align/raw/
