@@ -160,6 +160,7 @@ interface RawDictEntry {
   pron?: string;
   strongs_def?: string;
   kjv_def?: string;
+  derivation?: string;
 }
 
 // Both dictionary files are `var name = {...}; module.exports = name;` —
@@ -181,6 +182,7 @@ export function parseDictionaryJs(src: string, varName: string, prefix: 'H' | 'G
     pronunciation: v.pron ?? null,
     short_def: v.kjv_def ?? null,
     full_def: v.strongs_def ? v.strongs_def.trim() : null,
+    derivation: v.derivation ? v.derivation.trim() : null,
   }));
 }
 

@@ -463,7 +463,7 @@ running list of what's done and what's next, not a commitment.
 - **Open source** — MIT-licensed (see `LICENSE`). The license covers the app
   only; imported/downloaded texts keep their own license status.
 - **KJV + Strong's numbers, with smart search.** An optional Library add-on
-  (`🌐 Library → Add-ons → "KJV — add Strong's numbers"`) tags each word of
+  (`📚 Library → Add-ons → "KJV — add Strong's numbers"`) tags each word of
   the installed KJV with its original Hebrew/Greek Strong's number, sourced
   from the CrossWire KJV2003 OSIS module (word tagging) and the
   OpenScriptures Strong's Hebrew/Greek dictionaries (glosses) — see
@@ -487,6 +487,15 @@ running list of what's done and what's next, not a commitment.
   versification difference — the source puts those words in a neighbouring
   verse — and fall back to plain text, since verse text is never rebuilt
   from tags. Schema: `strongs_words` / `strongs_dict` in `src/db.ts`.
+  Dictionary cards lead with the word's root as Strong's prints it ("From
+  H5172; a snake…"), the root number clickable; stored in
+  `strongs_dict.derivation`, filled by re-running the Strong's import.
+  **Known limit: tagging granularity.** CrossWire tags phrases, not words —
+  106,878 of 342,640 tagged spans cover three or more words ("and, lo, my
+  sheaf" = H485 only; Gen 37:7's "For, behold, we" carries no tag at all,
+  and H8432 is misattached to "binding"). The parser reproduces the file
+  faithfully, so word-level precision like e-Sword's KJV+ needs a
+  finer-tagged, license-checked KJV source — not yet identified.
   The grouped view also docks as a **Concordance pane** (🔤) beside the Bible
   panes, scrolling in isolation, fed by word clicks when open — with the
   search modal as the lighter-weight default when it's closed, including an

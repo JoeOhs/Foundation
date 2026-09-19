@@ -299,6 +299,8 @@ export interface StrongsDictEntry {
   pronunciation: string | null;
   short_def: string | null;
   full_def: string | null;
+  // The word's root, as Strong's gives it: "from H5172; …".
+  derivation: string | null;
 }
 
 // A single visible word slot in a verse, after grouping StrongsWordRow by

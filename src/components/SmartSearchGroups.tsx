@@ -13,13 +13,19 @@ function cardTitle(g: StrongsSearchGroup): string {
   return `${parts.join(' — ')} (${g.total.toLocaleString()})`;
 }
 
-// Full Strong's definition, with the KJV rendering summary appended when
-// both exist ("Esav, a son of Isaac… — KJV: Esau.").
+// Full Strong's definition, led by the word's root the way Strong's prints it
+// and with the KJV rendering summary appended ("From H5172; a snake (from its
+// hiss) — KJV: serpent."). The H5172 becomes a clickable lookup below.
 function cardDefinition(g: StrongsSearchGroup): string | null {
   const d = g.dict;
   if (!d) return null;
-  if (d.full_def && d.short_def) return `${d.full_def} — KJV: ${d.short_def}`;
-  return d.full_def ?? d.short_def ?? null;
+  const root = d.derivation?.replace(/[\s;,.]+$/, '');
+  const parts = [
+    root && root[0].toUpperCase() + root.slice(1),
+    d.full_def,
+  ].filter(Boolean).join('; ');
+  if (parts && d.short_def) return `${parts} — KJV: ${d.short_def}`;
+  return parts || d.short_def || null;
 }
 
 // Strong's definitions cross-reference other numbers ("a variation of

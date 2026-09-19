@@ -83,7 +83,8 @@ const SCHEMA: string[] = [
     transliteration TEXT,
     pronunciation TEXT,
     short_def TEXT,
-    full_def TEXT
+    full_def TEXT,
+    derivation TEXT
   )`,
   `CREATE TABLE IF NOT EXISTS entry_notes (
     id INTEGER PRIMARY KEY,
@@ -426,6 +427,13 @@ export async function initDb(): Promise<void> {
     await db.execute('ALTER TABLE toc_entries ADD COLUMN chapter INTEGER');
   } catch {
     /* column already present, or table doesn't exist yet */
+  }
+  // Migration for databases created before strongs_dict kept a word's root
+  // ("from H5172; …"). Filled by the next Strong's import.
+  try {
+    await db.execute('ALTER TABLE strongs_dict ADD COLUMN derivation TEXT');
+  } catch {
+    /* column already present */
   }
   try {
     await migrateEntryAnchoring(db);
@@ -1628,14 +1636,14 @@ export async function insertStrongsDictBatch(rows: StrongsDictEntry[]): Promise<
   const db = await ensureDb();
   for (let i = 0; i < rows.length; i += STRONGS_INSERT_BATCH) {
     const batch = rows.slice(i, i + STRONGS_INSERT_BATCH);
-    const placeholders = batch.map(() => '(?, ?, ?, ?, ?, ?)').join(', ');
+    const placeholders = batch.map(() => '(?, ?, ?, ?, ?, ?, ?)').join(', ');
     const params: unknown[] = [];
     for (const r of batch) {
-      params.push(r.strongs_number, r.lemma, r.transliteration, r.pronunciation, r.short_def, r.full_def);
+      params.push(r.strongs_number, r.lemma, r.transliteration, r.pronunciation, r.short_def, r.full_def, r.derivation);
     }
     await db.execute(
       `INSERT OR REPLACE INTO strongs_dict
-         (strongs_number, lemma, transliteration, pronunciation, short_def, full_def)
+         (strongs_number, lemma, transliteration, pronunciation, short_def, full_def, derivation)
        VALUES ${placeholders}`,
       params,
     );
