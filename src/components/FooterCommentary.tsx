@@ -224,8 +224,15 @@ export default function FooterCommentary({
   const firstMarked = markedIds.size > 0 ? [...markedIds][0] : null;
   useEffect(() => {
     if (firstMarked === null || selfHover.current) return;
-    const cell = stripRef.current?.querySelector(`[data-comment-id="${firstMarked}"]`);
-    cell?.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+    const strip = stripRef.current;
+    const cell = strip?.querySelector(`[data-comment-id="${firstMarked}"]`);
+    if (!strip || !cell) return;
+    // Scroll the strip itself, not scrollIntoView: near the chapter's end the
+    // strip can't centre the cell, and scrollIntoView hands the remainder to
+    // every ancestor (even overflow:hidden ones), shifting the whole UI left.
+    const s = strip.getBoundingClientRect();
+    const c = cell.getBoundingClientRect();
+    strip.scrollBy({ left: c.left + c.width / 2 - (s.left + s.width / 2), behavior: 'smooth' });
   }, [firstMarked]);
 
   const reportHover = (verses: number[]) => {
