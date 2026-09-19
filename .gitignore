@@ -39,6 +39,12 @@ tools/calvin-institutes/raw/
 # The build's own copy of the bundle it deploys - byte-identical to
 # public/library/reformation/institutes.json, which is what actually ships.
 tools/calvin-institutes/institutes.json
+# Aquinas's Summa Contra Gentiles ThML cache: one ~2MB XML from CCEL.
+# Rebuildable with tools/aquinas-gentiles/build.mjs.
+tools/aquinas-gentiles/raw/
+# The build's own copy of the bundle it deploys - byte-identical to
+# public/library/apologetics/gentiles.json, which is what actually ships.
+tools/aquinas-gentiles/gentiles.json
 
 # Local AI-assistant/session artifacts
 .claude/

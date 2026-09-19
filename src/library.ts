@@ -60,6 +60,7 @@ import { TALMUD_SEDARIM, installTalmudSeder, talmudTitle } from './talmudImport'
 import { YERUSHALMI_TITLE, installYerushalmi } from './yerushalmiImport';
 import { LUTHER_VOLUMES, installLutherVolume, lutherTitle } from './lutherImport';
 import { CHESTERTON_TITLE, installChesterton } from './chestertonImport';
+import { AQUINAS_GENTILES_TITLE, installAquinasGentiles } from './aquinasGentilesImport';
 import { importKjvStrongs } from './strongsImport';
 import type { ParsedSource, Source, SourceCategory, SourceType } from './types';
 
@@ -1267,6 +1268,26 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       + 'it must not be eyeballed. Built by tools/chesterton/build.mjs, which refuses any file '
       + 'that does not carry Gutenberg\'s licence boilerplate and name Chesterton as its author.',
     install: installChesterton,
+  },
+  {
+    id: 'aquinas_contra_gentiles',
+    title: AQUINAS_GENTILES_TITLE,
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'apologetics',
+    license: 'public domain',
+    licenseDetail:
+      'Thomas Aquinas (1225–1274), Summa Contra Gentiles — his case for the faith addressed to '
+      + 'those outside it — in Joseph Rickaby’s English translation, Of God and His Creatures '
+      + '(Burns & Oates, 1905). Public domain: published 1905, and Rickaby died in 1932. From '
+      + 'CCEL’s edition; the build refuses any file that does not name the 1905 Rickaby printing. '
+      + 'ABRIDGED, as Rickaby’s title page says: he omits or summarises chapters resting on '
+      + 'Aristotelian physics and astronomy, and merges some objection-and-reply chapters, so the '
+      + 'four Books hold 383 chapters rather than the Latin’s 463. His footnotes follow each '
+      + 'chapter, and 930 Scripture citations link to the verse. The complete English Dominican '
+      + 'Fathers translation (1923–29) was not used: it exists only as uncorrected page-scan OCR. '
+      + 'Built by tools/aquinas-gentiles/build.mjs.',
+    install: installAquinasGentiles,
   },
 ];
 

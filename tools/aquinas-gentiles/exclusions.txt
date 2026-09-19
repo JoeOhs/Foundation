@@ -1,0 +1,62 @@
+Excluded from gentiles.json by tools/aquinas-gentiles/build.mjs.
+Columns: kind, label, size, opening words.
+
+title page / dedication	Title Page	10 bytes	Title Page
+chapter number corrected	Book III. That God is everywhere and in all things	17 bytes	printed 58, is 68
+chapter number corrected	Book III. Of the Opinion of those who withdraw from Natural Things	17 bytes	printed 64, is 69
+chapter number corrected	Book III. That the Divine Assistance does not compel a Man to Virtue	19 bytes	printed 144, is 149
+book heading (kept as the Book name)	Book IV.	10 bytes	Book Title
+chapter number corrected	Book IV. Of the Last Judgement	18 bytes	printed 116, is 96
+chapter out of printed order (kept as printed)	Book IV.	11 bytes	50 after 55
+CCEL reference apparatus	Indexes	7 bytes	Indexes
+scripture reference not linked	Book I — Of God as He Is in Himself / 2	31 bytes	Bible:Sir.14.22: Ecclus xiv, 22
+scripture reference not linked	Book I — Of God as He Is in Himself / 2	28 bytes	Bible:Wis.6.21: Wisd. vi, 21
+scripture reference not linked	Book I — Of God as He Is in Himself / 2	30 bytes	Bible:Wis.8.16: Wisd. viii, 16
+scripture reference not linked	Book I — Of God as He Is in Himself / 5	30 bytes	Bible:Sir.3.23: Ecclus iii, 23
+scripture reference not linked	Book I — Of God as He Is in Himself / 26	48 bytes	Bible:Wis.14.8 Bible:Wis.14.21: Wisd. xiv, 8, 21
+scripture reference not linked	Book I — Of God as He Is in Himself / 40	29 bytes	Bible:Wis.7.11: Wisd. vii, 11
+scripture reference not linked	Book I — Of God as He Is in Himself / 42	27 bytes	Bible.vul:Ps.49.1: Ps. xlix
+scripture reference not linked	Book I — Of God as He Is in Himself / 42	30 bytes	Bible.vul:Ps.77.25: Ps. lxxvii
+scripture reference not linked	Book I — Of God as He Is in Himself / 56	33 bytes	Bible:Sir.23.28: Ecclus xxiii, 28
+scripture reference not linked	Book I — Of God as He Is in Himself / 65	31 bytes	Bible:Sir.16.16: Ecclus xvi, 16
+scripture reference not linked	Book I — Of God as He Is in Himself / 66	33 bytes	Bible:Sir.23.29: Ecclus xxiii, 29
+scripture reference not linked	Book I — Of God as He Is in Himself / 67	28 bytes	Bible:Wis.8.8: Wisd. viii, 8
+scripture reference not linked	Book I — Of God as He Is in Himself / 67	47 bytes	Bible:Sir.39.24-Sir.39.25: Ecclus xxxix, 24, 25
+scripture reference not linked	Book I — Of God as He Is in Himself / 69	25 bytes	(no osisRef): Psalm cxlvi
+scripture reference not linked	Book I — Of God as He Is in Himself / 70	43 bytes	Bible:Wis.7.24-Wis.7.25: Wisdom vii, 24, 25
+scripture reference not linked	Book I — Of God as He Is in Himself / 71	29 bytes	Bible:Wis.7.30: Wisd. vii, 30
+scripture reference not linked	Book I — Of God as He Is in Himself / 75	29 bytes	Bible:Wis.11.25: Wisd. xi, 25
+scripture reference not linked	Book I — Of God as He Is in Himself / 87	28 bytes	Bible:Sir.1.10: Ecclus i, 10
+scripture reference not linked	Book I — Of God as He Is in Himself / 93	29 bytes	Bible:Wis.7.21: Wisd. vii, 21
+scripture reference not linked	Book I — Of God as He Is in Himself / 94	26 bytes	Bible:Sir.1.1: Ecclus i, 1
+scripture reference not linked	Book I — Of God as He Is in Himself / 94	33 bytes	Bible.vul:1Kgs.2.3: 1 Kings ii, 3
+scripture reference not linked	Book I — Of God as He Is in Himself / 96	29 bytes	Bible:Wis.11.25: Wisd. xi, 25
+scripture reference not linked	Book II — God the Origin of Creatures / 4	46 bytes	Bible:Sir.42.16-Sir.42.17: Ecclus xlii, 16, 17
+scripture reference not linked	Book II — God the Origin of Creatures / 26	29 bytes	Bible:Wis.11.21: Wisd. xi, 21
+scripture reference not linked	Book II — God the Origin of Creatures / 41	30 bytes	Bible:Sir.11.14: Ecclus xi, 14
+scripture reference not linked	Book II — God the Origin of Creatures / 41	34 bytes	Bible:Sir.33.15: Ecclus xxxiii, 15
+scripture reference not linked	Book II — God the Origin of Creatures / 65	27 bytes	Bible:Wis.2.2: Wisdom ii, 2
+scripture reference not linked	Book II — God the Origin of Creatures / 79	26 bytes	Bible:Wis.2.2: Wisd. ii, 2
+scripture reference not linked	Book III — God the End of Creatures / 10	30 bytes	Bible:Sir.10.18: Ecclus. x, 18
+scripture reference not linked	Book III — God the End of Creatures / 24	62 bytes	Bible.vul:2Kgdms.21.3 Bible.vul:2Kgdms.21.5: 2 Kings xxi, 3, 5
+scripture reference not linked	Book III — God the End of Creatures / 27	26 bytes	Bible:Wis.2.9: Wisd. ii, 9
+scripture reference not linked	Book III — God the End of Creatures / 50	30 bytes	Bible:Sir.24.7: Ecclus xxiv, 7
+scripture reference not linked	Book III — God the End of Creatures / 63	30 bytes	Bible:Wis.7.11: Wisdom vii, 11
+scripture reference not linked	Book III — God the End of Creatures / 66	27 bytes	Bible:Wis.1.14: Wisd. i, 14
+scripture reference not linked	Book III — God the End of Creatures / 73	43 bytes	Bible:Sir.15.14-Sir.15.17: Ecclus xv, 14-17
+scripture reference not linked	Book III — God the End of Creatures / 75	28 bytes	Bible:Wis.8.1: Wisd. viii, 1
+scripture reference not linked	Book III — God the End of Creatures / 76	27 bytes	Bible:Jdt.9.4: Judith ix, 4
+scripture reference not linked	Book III — God the End of Creatures / 95	36 bytes	Bible.vul:1Kgs.15.29: 1 Kings xv, 29
+scripture reference not linked	Book III — God the End of Creatures / 112	28 bytes	Bible.vul:Ps.18.1: Ps. xviii
+scripture reference not linked	Book III — God the End of Creatures / 112	29 bytes	Bible.kjv:Ps.104.31: Ps. ciii
+scripture reference not linked	Book III — God the End of Creatures / 142	30 bytes	Bible:Wis.14.11: Wisd. xiv, 11
+scripture reference not linked	Book III — God the End of Creatures / 145	29 bytes	Bible:Wis.11.21: Wisd. xi, 21
+scripture reference not linked	Book III — God the End of Creatures / 149	30 bytes	Bible:Sir.15.18: Ecclus xv, 18
+scripture reference not linked	Book III — God the End of Creatures / 151	29 bytes	Bible:Wis.11.25: Wisd. xi, 25
+scripture reference not linked	Book III — God the End of Creatures / 163	50 bytes	Bible:Sir.15.12 Bible:Sir.15.21: Ecclus xv, 12, 21
+scripture reference not linked	Book IV — Of God in His Revelation / 1	33 bytes	Bible:Sir.43.35: Ecclus xliii, 35
+scripture reference not linked	Book IV — Of God in His Revelation / 86	27 bytes	Bible:Wis.3.7: Wisd. iii, 7
+scripture reference not linked	Book IV — Of God in His Revelation / 88	33 bytes	Bible.vul:Eph.4.13: Vulgate, l. c
+scripture reference not linked	Book IV — Of God in His Revelation / 89	35 bytes	Bible.vul:1Cor.15.51: 1 Cor. xv, 51
+scripture reference not linked	Book IV — Of God in His Revelation / 90	33 bytes	Bible.vul:Tob.8.3: Tobias viii, 3
+scripture reference not linked	Book IV — Of God in His Revelation / 91	29 bytes	Bible:Wis.7.25: Wisd. vii, 25

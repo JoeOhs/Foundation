@@ -1036,6 +1036,29 @@ running list of what's done and what's next, not a commitment.
   (1925, #65688). All four were published in 1925 or earlier and are public
   domain in the US. No disclaimer accompanies this source: unlike the two
   Talmuds it is not an exception to the Library's public-domain rule.
+- **Thomas Aquinas — *Summa Contra Gentiles* (tr. Rickaby, 1905).** The
+  second `apologetics` source and the category's medieval anchor: Aquinas's
+  case for the faith addressed to those outside it, in Joseph Rickaby's *Of
+  God and His Creatures* (Burns & Oates, 1905), from CCEL's ThML. One source,
+  a `books` row per Book plus Rickaby's preface and afterword, Book → Chapter
+  TOC, citation ("I.13", merged chapters "II.32, 35") in `position_ref`.
+  **Edition pinned:** Rickaby over the complete English Dominican Fathers
+  translation (1923–29, also US public domain) because the Dominican text
+  exists only as uncorrected archive.org OCR, and CCEL's Rickaby is clean,
+  structured text. The cost is that Rickaby is **abridged** — 383 chapters
+  against the Latin's 463, physics- and astronomy-bound chapters omitted or
+  summarised, some objection/reply chapters merged — and the Library entry
+  says so. **Licence guard:** CCEL's `DC.Rights` for this file is empty, so
+  the Calvin builds' "Public Domain" gate can't apply; `build.mjs` instead
+  refuses any file whose head and title page don't name the 1905 Burns &
+  Oates Rickaby printing, and tripwires the bundle for CCEL's staff
+  description. **Rickaby's footnotes are kept** (unlike Beveridge's): they
+  are his annotation, where he says what he left out and why. Each becomes
+  apparatus after its chapter, with a `[n]` marker left in the prose. 930
+  Scripture citations link via `entry_refs`; Apocrypha and Vulgate-numbered
+  references (51) are left as plain text. Four CCEL chapter-number typos
+  (III "LVIII"→68, "LVIX"→69, "CXLIV"→149; IV "CXVI"→96) are corrected by an
+  explicit, per-chapter list in the build and logged to `exclusions.txt`.
 - **Ovid's Metamorphoses — Riley translation (1851).** The complete poem in
   Henry T. Riley's literal English prose, as a freeform classical work: fifteen
   books of numbered Fables, not Bible-verse-keyed, navigated by a hand-built
@@ -1879,13 +1902,8 @@ running list of what's done and what's next, not a commitment.
   than for Chesterton. A pinned, not-yet-built curation list, one title at a
   time, **each individually licence-checked** the same way Chesterton's four
   titles were:
-  1. **Thomas Aquinas — *Summa Contra Gentiles*.** A full-length medieval
-     apologetic case for the faith addressed to non-believers — arguably the
-     category's missing anchor. Public domain, but the exact edition needs
-     pinning before `assertGutenbergPublicDomain()`'s style of build-time
-     guard can apply: candidates are Rickaby's 1905 *Of God and His
-     Creatures* and the English Dominican Fathers' 1920s translation. No
-     single clean bulk-text source located yet, unlike the titles below.
+  1. ~~**Thomas Aquinas — *Summa Contra Gentiles*.**~~ Built — see
+     "Current". Pinned to Rickaby's 1905 *Of God and His Creatures*.
   2. **Blaise Pascal — *Pensées*.** His notes toward a planned "Apology for
      the Christian Religion." Project Gutenberg #18269 (W.F. Trotter
      translation) — a clean source needing no extra verification beyond the
