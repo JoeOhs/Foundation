@@ -11,16 +11,18 @@
 // Method, per verse:
 //   1. Numbers both sources share are anchors. A longest common subsequence
 //      over the two number sequences keeps only anchors whose order agrees.
-//   2. Each missing number may only land between the KJV positions of its
-//      neighbouring anchors (widened one anchor each side if nothing fits),
-//      on a word the OpenScriptures dictionary lists as a KJV rendering of
-//      that number, which isn't itself the rendering of the span it sits in.
+//   2. Each missing number may only land between (and within) its
+//      neighbouring anchors' KJV phrases, widened one anchor each side if
+//      nothing fits, on a word the KJV renders that number with — the
+//      number's usual rendering first, then nearest its expected position.
 //
 // Licences: TAHOT is CC BY 4.0 (credit STEPBible.org); CrossWire and
 // OpenScriptures as in src/strongsImport.ts.
 //
-// Usage: node align.mjs [Book ...]   (default: Gen). Only Gen-Deu is
-// downloaded so far; other TAHOT files go in raw/ the same way.
+// Usage: node align.mjs [OSIS book ...]   (default: Gen). raw/ holds
+// kjv.osis.xml, heb.js (OpenScriptures Hebrew dictionary) and the four
+// "TAHOT <range>.txt" files from github.com/STEPBible/STEPBible-Data under
+// "Translators Amalgamated OT+NT/".
 
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
@@ -48,12 +50,11 @@ const stem = (w) => w.toLowerCase().replace(/'s$/, '').replace(/(eth|est|ing|ed|
 // kjv_def entries look like "(a-)rise(-ing), [idiom] behold, lo, see".
 // Only one-word entries count ("for all" must not make "for" a rendering);
 // "(x-)" and "(-y)" groups are expanded both ways.
-const renderCache = new Map();
-function renders(num) {
-  if (renderCache.has(num)) return renderCache.get(num);
+const dictCache = new Map();
+function dictRenders(num) {
+  if (dictCache.has(num)) return dictCache.get(num);
   const out = new Set();
   const def = (dict[num]?.kjv_def ?? '').replace(/\[idiom\]/g, '').toLowerCase();
-  for (const w of lexicon.get(num) ?? []) out.add(w);
   // Split on top-level commas only: "God (gods) (-dess, -ly)" is one entry.
   for (let e of def.split(/,(?![^(]*\))/)) {
     e = e.trim().replace(/[.;:]+$/, '');
@@ -61,8 +62,15 @@ function renders(num) {
     const full = e.replace(/[()-]/g, '');
     for (const v of [bare, full]) if (/^[a-z']+$/.test(v)) out.add(stem(v));
   }
-  renderCache.set(num, out);
+  dictCache.set(num, out);
   return out;
+}
+
+// Dictionary renderings plus the ones learned from the KJV itself (below).
+const renderCache = new Map();
+function renders(num) {
+  if (!renderCache.has(num)) renderCache.set(num, new Set([...dictRenders(num), ...(lexicon.get(num)?.keys() ?? [])]));
+  return renderCache.get(num);
 }
 
 // --- CrossWire: verse -> tokens ---------------------------------------------
@@ -108,9 +116,17 @@ const lexicon = new Map();
   for (const [key, c] of counts) {
     if (c < 2) continue;
     const [num, w] = key.split('|');
-    if (!lexicon.has(num)) lexicon.set(num, new Set());
-    lexicon.get(num).add(w);
+    if (!lexicon.has(num)) lexicon.set(num, new Map());
+    lexicon.get(num).set(w, c);
   }
+}
+
+// How often the KJV renders `num` as `word`, relative to its most common
+// rendering: 1 = its usual word, near 0 = rare; dictionary-only words 0.
+function usage(num, word) {
+  const m = lexicon.get(num);
+  if (!m) return 0;
+  return (m.get(stem(word)) ?? 0) / Math.max(...m.values());
 }
 
 // CrossWire sometimes glues a neighbour's number onto a span (Gen 37:7:
@@ -184,8 +200,12 @@ function anchors(heb, slots) {
 function align(verse, heb) {
   const slots = slotsOf(verse);
   const anc = anchors(heb, slots);
+  // Tags not used as anchors: those may still cover a number TAHOT has
+  // elsewhere in the verse. Anchored ones are spoken for (Gen 1:2 has H5921
+  // twice and CrossWire tags it once — counting that tag twice lost the other).
+  const anchored = new Set(anc.values());
   const have = new Map();
-  for (const s of slots) have.set(s.num, (have.get(s.num) ?? 0) + 1);
+  for (const s of slots) if (!anchored.has(s)) have.set(s.num, (have.get(s.num) ?? 0) + 1);
   const taken = new Set();
   const placed = [];
   const n = verse.tokens.length;
@@ -198,18 +218,35 @@ function align(verse, heb) {
     for (let widen = 0; widen <= 1; widen++) {
       const before = ancIdx.filter((k) => k < i);
       const after = ancIdx.filter((k) => k > i);
-      const lo = before.length > widen ? anc.get(before[before.length - 1 - widen]).last + 1 : 0;
-      const hi = after.length > widen ? anc.get(after[widen]).first - 1 : n - 1;
+      // Inclusive of the bounding anchors' own phrases: the missing word often
+      // sits inside one ("upon" in "upon the earth", H776, Gen 2:5). Searching
+      // the gap first was tried: it barely helps precision and loses Gen 2:5
+      // to the "to" in the gap.
+      const lo = before.length > widen ? anc.get(before[before.length - 1 - widen]).first : 0;
+      const hi = after.length > widen ? anc.get(after[widen]).last : n - 1;
       const cands = [];
       for (let t = Math.max(0, lo); t <= Math.min(n - 1, hi); t++) {
         const tok = verse.tokens[t];
         if (taken.has(t) || !r.has(stem(tok.word))) continue;
-        if (tok.span !== null && verse.spans[tok.span].nums.some((x) => renders(x).has(stem(tok.word)))) continue;
+        // A rendering seen only rarely in the KJV (H5921 as "and") is more
+        // likely a CrossWire slip than a real rendering; dictionary ones stay.
+        const u = usage(num, tok.word);
+        if (u < 0.01 && !dictRenders(num).has(stem(tok.word))) continue;
+        // Inside another number's span, the word goes to whichever number
+        // renders it more typically: "upon" in "upon the face" (H6440) is
+        // H5921's usual word, and only incidentally H6440's.
+        if (tok.span !== null && verse.spans[tok.span].nums.some((x) => usage(x, tok.word) >= u && renders(x).has(stem(tok.word)))) continue;
         cands.push(t);
       }
       if (cands.length) {
-        const want = (i / heb.length) * n; // closest to proportional position
-        const t = cands.reduce((a, b) => (Math.abs(b - want) < Math.abs(a - want) ? b : a));
+        // The KJV's usual rendering of the number first (H5921: "upon" over
+        // "to", Gen 2:5), then closest to its proportional position.
+        const want = (i / heb.length) * n;
+        const score = (t) => [usage(num, verse.tokens[t].word), -Math.abs(t - want)];
+        const t = cands.reduce((a, b) => {
+          const [ua, da] = score(a), [ub, db] = score(b);
+          return ub > ua || (ub === ua && db > da) ? b : a;
+        });
         taken.add(t);
         placed.push({ num, token: t });
         return;
@@ -277,7 +314,10 @@ console.log(`Books: ${books.join(', ')}  (${verses.size} verses)`);
 console.log(`Missing numbers placed: ${placedN} of ${missing} (${pct(placedN, missing)})`);
 console.log(`Held-out known tags: ${tried} tried — correct ${back} (${pct(back, tried)}), wrong word ${wrong} (${pct(wrong, tried)}), not placed ${tried - back - wrong}`);
 console.log(`Precision when it places: ${pct(back, back + wrong)}`);
-if (verses.has('Gen.37.7')) console.log(`\nGen 37:7  ${render(verses.get('Gen.37.7'), results.get('Gen.37.7'))}`);
+// Verses checked by hand against e-Sword; eyeball these after any change.
+for (const ref of ['Gen.1.2', 'Gen.2.5', 'Gen.37.7']) {
+  if (verses.has(ref)) console.log(`\n${ref}  ${render(verses.get(ref), results.get(ref))}`);
+}
 
 // Fixed-seed sample of 100 verses for a by-hand comparison against e-Sword.
 let seed = 37;

@@ -499,11 +499,11 @@ running list of what's done and what's next, not a commitment.
   (e-Sword's KJV+ is Rick Meyers' copyrighted work; eBible.org's KJV is the
   same CrossWire tagging, trimmed.) **In progress:** refine CrossWire with
   STEPBible's word-level TAHOT (CC BY 4.0) — prototype in
-  `tools/strongs-align/` places missing numbers by word order and KJV
-  rendering at ~98% precision on held-out tags (Gen–Deut), recovering
-  ~65% of them; Gen 37:7 matches e-Sword exactly. Next: by-hand check of
-  its sample against e-Sword, then the remaining OT files and TAGNT (NT)
-  before any in-app add-on.
+  `tools/strongs-align/` places missing numbers by word order and the
+  KJV's usual rendering. Whole OT (23,138 verses): 72% of missing numbers
+  placed, 97.8% precision on held-out known tags; Gen 1:2, 2:5 and 37:7
+  match e-Sword. Next: by-hand check of its sample against e-Sword, then
+  TAGNT (NT) before any in-app add-on.
   The grouped view also docks as a **Concordance pane** (🔤) beside the Bible
   panes, scrolling in isolation, fed by word clicks when open — with the
   search modal as the lighter-weight default when it's closed, including an
