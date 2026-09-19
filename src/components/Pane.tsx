@@ -1,6 +1,6 @@
 import { forwardRef, useEffect, useImperativeHandle, useMemo, useRef, useState } from 'react';
 import {
-  entriesWithNotes, getChapters, getEntries, getEntryLocation, getEntryNotesForEntries,
+  entriesWithNotes, getChapters, getEntries, getEntryLocation, getEntryNotesForEntries, getEntryRefsForEntries,
   getStrongsWordsForEntries, getStructureForSource, getTocEntries, highlightsForChapter,
   highlightsForEntries, linksForChapter, linksForEntries, listBooks,
 } from '../db';
@@ -10,7 +10,7 @@ import { isEntryAnchored, isFooterOnly, isNavigable } from '../sourceRoles';
 import ReferenceText from './ReferenceText';
 import StrongsVerseText from './StrongsWords';
 import type {
-  Book, Entry, EntryNote, LinkEndpoint, Reference, SelectedEntry, SelectedVerse, Source,
+  Book, Entry, EntryNote, EntryRef, LinkEndpoint, Reference, SelectedEntry, SelectedVerse, Source,
   HoveredVerses, StrongsWordRow, StrongsWordSlot, StructureData, StructureDiagramRow, StructureLineRow, TocEntryRow,
   VerseSelection,
 } from '../types';
@@ -137,6 +137,7 @@ function Pane({
   const [hasChapters, setHasChapters] = useState(true);
   const [wordsByEntry, setWordsByEntry] = useState<Map<number, StrongsWordRow[]>>(new Map());
   const [notesByEntry, setNotesByEntry] = useState<Map<number, EntryNote[]>>(new Map());
+  const [refsByEntry, setRefsByEntry] = useState<Map<number, EntryRef[]>>(new Map());
   const [highlightsByVerse, setHighlightsByVerse] = useState<Map<number, { color: string; highlighterId: number }>>(new Map());
   const [linksByVerse, setLinksByVerse] = useState<Map<number, { color: string | null }>>(new Map());
   const [highlightsByEntry, setHighlightsByEntry] = useState<Map<number, { color: string; highlighterId: number }>>(new Map());
@@ -279,10 +280,13 @@ function Pane({
     if (ids.length === 0) {
       setWordsByEntry(new Map());
       setNotesByEntry(new Map());
+      setRefsByEntry(new Map());
       return;
     }
     let live = true;
-    Promise.all([getStrongsWordsForEntries(ids), getEntryNotesForEntries(ids)]).then(([rows, noteRows]) => {
+    Promise.all([
+      getStrongsWordsForEntries(ids), getEntryNotesForEntries(ids), getEntryRefsForEntries(ids),
+    ]).then(([rows, noteRows, refRows]) => {
       if (!live) return;
       const map = new Map<number, StrongsWordRow[]>();
       for (const r of rows) {
@@ -296,6 +300,12 @@ function Pane({
         noteMap.get(n.entry_id)!.push(n);
       }
       setNotesByEntry(noteMap);
+      const refMap = new Map<number, EntryRef[]>();
+      for (const r of refRows) {
+        if (!refMap.has(r.entry_id)) refMap.set(r.entry_id, []);
+        refMap.get(r.entry_id)!.push(r);
+      }
+      setRefsByEntry(refMap);
     });
     return () => { live = false; };
   }, [entries]);
@@ -475,15 +485,16 @@ function Pane({
 
   // Commentary prose carries Bullinger's cross-references; Bible text never
   // does, so only an entry-anchored source pays for the scan.
-  const renderText = (text: string, chapter: number) => (
+  const renderText = (entry: Entry, chapter: number) => (
     entryAnchored ? (
       <ReferenceText
-        text={text}
+        text={entry.text}
+        refs={refsByEntry.get(entry.id)}
         context={effectiveBook ? { book: effectiveBook, chapter } : null}
         onScripture={onScriptureRef}
         onAppendix={onAppendixRef}
       />
-    ) : text
+    ) : entry.text
   );
 
   // Selection/highlight/link decoration for one entry, read from whichever
@@ -543,7 +554,7 @@ function Pane({
       >
         {line.label && <span className="structure-label">{line.label}</span>}
         {line.ref_range && <span className="structure-ref">{line.ref_range}</span>}
-        <span className="structure-text">{renderText(entry.text, chapter)}</span>
+        <span className="structure-text">{renderText(entry, chapter)}</span>
         {noted && <span className="note-dot" title="Has notes" />}
       </div>
     );
@@ -644,7 +655,7 @@ function Pane({
       >
         <span className="vnum">{e.verse}</span>
         {entryAnchored ? (
-          renderText(e.text, verseChapter)
+          renderText(e, verseChapter)
         ) : (
           <StrongsVerseText
             text={e.text}
@@ -702,7 +713,7 @@ function Pane({
             printed it twice on the opening paragraph and again on every
             paragraph after it. */}
         {e.heading && !apparatus && <div className="section-heading">{e.heading}</div>}
-        <div className="section-text">{renderText(e.text, activeChapter ?? 1)}</div>
+        <div className="section-text">{renderText(e, activeChapter ?? 1)}</div>
         {noted && <span className="note-dot" title="Has notes" />}
       </div>
     );

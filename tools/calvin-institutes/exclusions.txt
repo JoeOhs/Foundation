@@ -1,0 +1,937 @@
+Excluded from institutes.json by tools/calvin-institutes/build.mjs.
+Columns: kind, label, size, opening words.
+
+editor's footnote	note	188 bytes	In the last edition by Calvin, the words are, as here translated, simply, “Principi suo.” In the edition published at Basle in 1536, the words are, “Principi ac
+editor's footnote	note	22 bytes	Ed. 1536. “In Domino.”
+editor's footnote	note	35 bytes	“Modesti homines,” not in Ed. 1536.
+editor's footnote	note	31 bytes	“Quam norunt,” not in Ed. 1536.
+editor's footnote	note	89 bytes	The words, “Quorum ingenium non adeo despicabile Christi fuisse vident,” not in Ed. 1536.
+editor's footnote	note	82 bytes	The words stand thus in the Ed. 1536: “Qua salvi nullo nostro merito facti sumus.”
+editor's footnote	note	34 bytes	“Non ita multum,” not in Ed. 1536.
+editor's footnote	note	28 bytes	“Cum nutu,” not in Ed. 1536.
+editor's footnote	note	61 bytes	The only word in the Ed. 1536 after “free will,” is “merita.”
+editor's footnote	note	28 bytes	“Ut aiunt,” not in Ed. 1536.
+editor's footnote	note	60 bytes	No part of this sentence from “provided” is in the Ed. 1536.
+editor's footnote	note	44 bytes	“Tam licenter quam impune,” not in Ed. 1536.
+editor's footnote	note	82 bytes	No part of the passage, beginning above, “The deception,” &amp;c., is in Ed. 1536.
+editor's footnote	note	95 bytes	Instead of “thought they were cured,” the Ed. 1536 says simply, “they were cured” (curarentur).
+editor's footnote	note	52 bytes	“Ut modestissime etiam loquar,” not in the Ed. 1536.
+editor's footnote	note	47 bytes	i. Acatius in lib. 11 cap 16, F. Triport. Hist.
+editor's footnote	note	39 bytes	ii. Ambr. lib. 2. De Officiis, cap. 28.
+editor's footnote	note	126 bytes	Instead of the words here translated—viz. “exquisito splendore vel potius insanc luxu,” the Ed. 1536 has only the word “luxu.”
+editor's footnote	note	43 bytes	iii. Spiridion. Trip. Hist. lib. 1 cap. 10.
+editor's footnote	note	28 bytes	iv. Trip. Hist. lib. 8 cap 1
+editor's footnote	note	29 bytes	August. De Opere Monach cap 7
+editor's footnote	note	34 bytes	vi. Epiph. Epist. ab Hieron. versa
+editor's footnote	note	28 bytes	vii. Conc. Elibert. can. 36.
+editor's footnote	note	40 bytes	No part of this sentence is in Ed. 1536.
+editor's footnote	note	33 bytes	viii. Ambr de Abraha. lib. i c. 7
+editor's footnote	note	31 bytes	ix. Gelasius Papa in Conc. Rom.
+editor's footnote	note	27 bytes	x. Chrys. in 1. cap. Ephes.
+editor's footnote	note	39 bytes	xi. Calixt. Papa, De Consecrat. dist. 2
+editor's footnote	note	410 bytes	Instead of the whole passage, beginning at bottom of p. 11, “It is a Father who testifies,” &amp;c., the Ed. 1536 has the following sentence: “Ex patribus erat 
+editor's footnote	note	48 bytes	xii. Gelas. can. Comperimus, De Consec. dist. 2.
+editor's footnote	note	40 bytes	xiii. Cypr. Epist. 2, lib. 1. De Lapsis.
+editor's footnote	note	45 bytes	xiv. August. lib. 2 De Peccat. Mer. cap. uit.
+editor's footnote	note	48 bytes	xv. Apollon. De quo Eccles. Hist. lib 5 cap. 12.
+editor's footnote	note	44 bytes	xvi. Paphnut. Tripart. Hist. lib. 2 cap. 14.
+editor's footnote	note	28 bytes	xvii. Cypr. Epist. 2, lib. 2
+editor's footnote	note	45 bytes	xviii. Aug. cap. 2, Cont. Cresconium Grammat.
+editor's footnote	note	39 bytes	No part of this passage is in Ed. 1536.
+editor's footnote	note	205 bytes	xix. Calv. De Scholast. Doctor. Judicium. Vid. Book II. cap. 2 sec. 6; Book III. cap. 4 sec. 1, 2, 7, 13, 14, 26-29; Book III. cap. 11 sec. 14, 15; Book IV. cap
+editor's footnote	note	59 bytes	Epist. 3, lib. 2; et in Epist ad Julian. De Haeret. Baptiz.
+editor's footnote	note	40 bytes	No part of this sentence is in ed. 1536.
+editor's footnote	note	58 bytes	No part of the passage beginning above is in the Ed. 1536.
+editor's footnote	note	73 bytes	In the last Ed., “justae Dei ultionis:” in Ed. 1536, “divinae zustitiae.”
+editor's footnote	note	32 bytes	“Papa Romanus,” in the Ed. 1536.
+editor's footnote	note	143 bytes	Instead of the words, “qui ab eo instites inuncti et consecrati, infulis modo et lituis insigniti sunt,” the Ed. 1536 has only “episcopi alii.”
+editor's footnote	note	59 bytes	For “cuncti fere mortales” the Ed. 1536 has only “homines.”
+editor's footnote	note	199 bytes	Instead of the concluding part of the sentence beginning “though rather,” &amp;c., and stopping at the reference, the Ed. 1536 simply continues the quotation “o
+editor's footnote	note	57 bytes	Instead of “Rex” simply, the E. 1536 has “magnanime Rex.”
+editor's footnote	note	55 bytes	Instead of “Deus noster,” the Ed. 1536 has only “Deus.”
+editor's footnote	note	36 bytes	In Ed. 1536, “Rex magnificentissime”
+editor's footnote	note	66 bytes	The words, “qui tanta securitate nunc exsultant,” not in Ed. 1536.
+editor's footnote	note	361 bytes	The passage in brackets occurs only in the French original. The words are as follows: “Tant des ennemis manifestes de la vérité de Dieu, que de beaucoup de cana
+editor's footnote	note	315 bytes	The words in the French are, “Avec trop grande facilité; ce qui monstroit que beaucoup de mechans hypocrites, faisans profession de l’Evangile, eussent bien vou
+editor's footnote	note	95 bytes	Judges 13:22 ; Isaiah 6:5 ; Ezek. 1:28 , 3:14 ; Job 9:4 , &amp;c.; Gen. 18:27 ; 1 Kings 19:13 .
+editor's footnote	note	415 bytes	“Intelligi necesse est deos, quoniam insitas eorum vel potius innatas cognitiones habemus.—Quae nobis natura informationem deorum ipsorum dedit, eadem insculpsi
+editor's footnote	note	19 bytes	Suet. Calig. c. 51.
+editor's footnote	note	58 bytes	Cic. De Nat. Deor. lib. 1 c. 23. Valer. Max. lib. 1. c. 1.
+editor's footnote	note	75 bytes	Augustinus: Astrologia magnum religiosis argumentum, tormentumque curiosis.
+editor's footnote	note	98 bytes	See Aristot. Hist. Anim. lib. i. c. 17; Macrob. in Somn. Scip lib. 2 c. 12; Boeth. De Definitione.
+editor's footnote	note	66 bytes	Aeneid, 6 724, sq. See Calvin on Acts 17:28 Manil. lib. 1. Astron.
+editor's footnote	note	42 bytes	Dryden’s Virgil, Æneid, Book 4 1. 980-990.
+editor's footnote	note	107 bytes	Georgic 4. 220. Plat. in Tim. Arist. lib. 1 De Animo. See also Metaph. lib. 1. Merc. Trismegr. in Pimandro.
+editor's footnote	note	36 bytes	Dryden’s Virgil, Book 4. 1. 252-262.
+editor's footnote	note	327 bytes	He maintains, in the beginning of the First Book, that nothing is produced of nothing, but that all things are formed out of certain primitive materials. He als
+editor's footnote	note	90 bytes	Plato in Timaeos. See also Cic. De Nat. Deorum, lib. 1 ; Plut. De Philos Placitis, lib. i.
+editor's footnote	note	186 bytes	Cicero : Qui deos esse dixerunt tanta sunt in varietate ac dissensione, ut eorum molestum sit enumerare sententias.—Cicero, De Nat Deorum, lib. 1 and 2. Lactant
+editor's footnote	note	35 bytes	Plutarch. lib. De Iside et Osiride.
+editor's footnote	note	29 bytes	Cicero, De Nat. Deor. lib. 1.
+editor's footnote	note	95 bytes	70 The French adds, “C’est à dire, temoignages celestes;”—that is to say, messages from heaven.
+editor's footnote	note	162 bytes	Tertullian, Apologet. adv. Gentes: “Quae plenius et impressius tam ipsum quam dispositiones ejus et voluntates adiremus, instrumentum adjecit literature,” &amp;
+editor's footnote	note	99 bytes	The French adds, “Comme le fondement va deuant l’edifice;”—as the foundation goes before the house.
+editor's footnote	note	141 bytes	The French adds,“La destournant du seul fondement qu’elle a en l’Escriture;”—diverting it from the only foundation which is has in scripture.
+editor's footnote	note	485 bytes	Augustin. De Ordine, lib. 2 c. 9 “Ad discendum dupliciter movemur, auctoritate atque ratione : tempore auctoritas, re autem ratio prior est,” &amp;c. “Itaque qu
+editor's footnote	note	372 bytes	The French adds, “Car jacoit qu’en sa propre majesté elle ait assez de quoy estre reuerée, neantmoins elle commence lors à nous vrayement toucher, quand elle es
+editor's footnote	note	92 bytes	Exod. 24:18 ; Exod. 34:29 ; Exod. 19:16 ; Exod. 40:34 Numb. 16:24 ; Numb. 20:10 ; Numb. 11:9
+editor's footnote	note	167 bytes	Lactantius: Cœlestes literas corruperunt, ut novam sibi doctrinam sine ulla radice ac stabilitate componerent. Vide Calvin in Instruct. adv. Libertinos, cap. 9 
+editor's footnote	note	159 bytes	For the Latin, “ac si elementarius esset,” the French has, “comme s’ils eussent étépetis enfans a l’A, B, C;”—as if they were little children at their A, B, C.
+editor's footnote	note	230 bytes	In his book, De Idolatria. See also in Augustine, a letter by one Maximus, a grammarian of Medaura, jesting at his gods, and scoffing at the true religion. See,
+editor's footnote	note	101 bytes	80 The French adds, “voire jusques aux oignons et porreaux;”—they have gone even to onions and leeks.
+editor's footnote	note	143 bytes	Calvin translates the words of the Psalmist as an imprecation, “Similes illis fiant qui faciunt ea;”—Let those who make them be like unto them.
+editor's footnote	note	102 bytes	See Gregory, Ep. ad Serenum Massiliens, Ep. 109 . lib. 7; and Ep. 9 lib. 9; images, rather accuses it.
+editor's footnote	note	109 bytes	The French adds, “deux des plus anciens Docteurs de l’Eglise;”—two of the most ancient Doctors of the Church.
+editor's footnote	note	113 bytes	Lact. Inst. Div. lib. 1 c. 15; Euseb. Præf. Evang. lib. 3 c. 3, 4; also August. De Civitate Dei, lib. 4 c. 9, 31.
+editor's footnote	note	217 bytes	The French is “Pourceque la gloire de sa Divinite est vilipendée en une chose si sotte et lourde comme est un marmouset;”—because the glory of his Divinity is d
+editor's footnote	note	157 bytes	The French is “Neantmoins ils ne disoyent point pour cela au’un Dieu fut divisé;”—nevertheless, they did not therefore say that the unity of God was divided.
+editor's footnote	note	111 bytes	French, “Ne vouloit monstrer sa vertu que sous les images;”—would only show his power under the form of images.
+editor's footnote	note	549 bytes	The two last sentences in French are, “Car laissans là un crucifix, ou une image de leur nostre-dame, ou n’en tenans point grand comte, ils mettent leur devotio
+editor's footnote	note	210 bytes	The French is “qu’il n’y ait nulle recompense qui vaille un marmouset guignant à travers et faisant la mine tortue;”—that no compensation can equal the value of
+editor's footnote	note	89 bytes	90 The French is “une mechante Proserpine nommée Irene;”—a wicked Proserpine named Irene.
+editor's footnote	note	136 bytes	The French adds, “et qu’il ne se soit trouvé gens qui leur crachassent au visage;”—and that people were not found to spit in their face.
+editor's footnote	note	149 bytes	See Calvin, De Vitandis Superstitionibus, where also see Resp. Pastorum, Tigurin. adver. Nicidenitas. See also Calvin, De Fugiendis Illicitis Sacris.
+editor's footnote	note	75 bytes	Cic. De Nat. Deor. lib. 2 c. 28. See also Lactant. Inst. Div. lib. 4 c. 28.
+editor's footnote	note	144 bytes	The French adds, “Et ne faisons point cela témérairement, mais selon sa parole.”—And let us not do this rashly, but in accordance with his Word.
+editor's footnote	note	58 bytes	Calvin translates interrogatively, “Do ye believe in God?”
+editor's footnote	note	118 bytes	The French adds, “à ce qu’elle ne fust point aneantie incontinent; ”—so as to prevent its being instantly annihilated.
+editor's footnote	note	198 bytes	The French adds, “Sainct Paul n’eust jamais ainsi parlé, s’il n’eust cognu la vraie Divinté du Sainct Esprit”—St Paul would never have so spoken, if he had not 
+editor's footnote	note	86 bytes	The French entirely omits the three previous sentences, beginning, “Then, as,” &amp;c.
+editor's footnote	note	333 bytes	Bernard, De Consider. lib. 5 “Cum dico unum, non me trinitatis turbat numerus, qui essentiam non multiplicat, non variat, nec partitur. Rursum, quum, dico tria,
+editor's footnote	note	185 bytes	August. Homil. De Temp. 38, De Trinitate. See also Ad Pascentium Epist. 174 Cyrill. De Trinit. lib. 7; Idem, lib. 3 Dialog.; Aug. in Psal 59 ; et Tract. in Joan
+editor's footnote	note	75 bytes	See Calvin. Defensio Orthodox. Fid. S. Trinit. Adv. Prod. Error. M. Serveti
+editor's footnote	note	121 bytes	The French adds, “puisque tels abuseurs forgent des noms contre nature;”—for these perverters forge names against nature.
+editor's footnote	note	71 bytes	The French is, “tiré comme par un álambic;”—extracted as by an alembic.
+editor's footnote	note	85 bytes	See Bernard, Serm. 80, super Cantica., on the heresy of Gilbert, Bishop of Poiotiers.
+editor's footnote	note	221 bytes	The French is expressed somewhat differently, “veu que l’Apostre en l’allegant de Christ, lui attribue tout ce qu’ est de Dieu;”—seeing the Apostle, by applying
+editor's footnote	note	61 bytes	The French adds, “Comme trois ruissuaux;”—like three streams.
+editor's footnote	note	136 bytes	The French adds, “Comme si l’essense étoit au lieu de la personne du Pére;”—as if the essence were in place of the person of the Father.
+editor's footnote	note	337 bytes	The French is somewhat differently expressed: “Car le Fils a quelque l’estre, ou il n’en a point. S’il en a, voila deux essences pour jouster l’un contre autre;
+editor's footnote	note	799 bytes	Tertullianus, lib. adv. Praxeam;—Perversitas hæ (Praxeæ scil.) se existimat meram veritatem possidere, dum unicum Deum non alias putat credendum, quam si ipsum 
+editor's footnote	note	283 bytes	Athanasuis expresses himself thus learnedly and piously:—“On this subject, though you cannot explain yourself, you are not therefore to distrust the Holy Script
+editor's footnote	note	58 bytes	Gen 18:2 ; 32:1, 28; Josh. 5:14 ; Judges 6:14 ; 13:10, 22.
+editor's footnote	note	182 bytes	Ps. 91:11 ; 34:8; Gen. 16:9 ; 24:7; 48:16; Ex. 14:19 , 28 , 29 ; Judges 2:1 , 20 ; 6:11; 13:10; Mt. 4:11 ; Luke 22:43 ; Mt. 28:5 ; Luke 24:5 ; Acts 1:10 ; 2 Kin
+editor's footnote	note	83 bytes	Dan. 10:13 , 20 ; 12:1; Mt. 18:20 ; Luke 15:7 ; 16:22; 2 Kings 16:17 ; Acts 12:15 .
+editor's footnote	note	138 bytes	Dan 12:1 ; Jude 9 ; 1 Thess. 4:16 ; Dan. 10:13 , 21 ; Luke 1:19 , 26 ; Tobit 3:17 ; 5:5; Mt. 26:53 ; Dan. 7:10 ; 2 Kings 6:17 ; Ps. 34:7 .
+editor's footnote	note	163 bytes	Luke 15:10 ; Ps. 91:11 ; Mt. 4:6 ; Luke 4:10 , 16 , 22 ; Matt. 18:10 ; Acts 7:55 ; Gal. 3:19 ; Mt. 22:80 ; 24:36; Eph. 30:10 ; 1 Peter 1:12 ; Heb. 1:6 ; Ps. 97:
+editor's footnote	note	48 bytes	2 Cor. 4:4 ; John 12:31 ; Mt. 12:29 ; Eph. 2:2 .
+editor's footnote	note	35 bytes	Mark 16:9 ; Mt. 12:43 ; Luke 8:30 .
+editor's footnote	note	70 bytes	Job 1:6 ; 2:1; 1 Kings 22:20 ; 1 Sam.16:14; 18:10; 2 Thess. 2:9 , 11 .
+editor's footnote	note	60 bytes	2 Cor. 4:4 ; Eph. 2:2 ; Rom. 9:22 ; John 8:44 ; 1 John 3:8 .
+editor's footnote	note	504 bytes	On man’s first original, see Calvin against Pighius; and on the immortality of the soul, see Calvin’s Psychopannychia and Instructio adv. Libertinos, c. 9 11, 1
+editor's footnote	note	188 bytes	Job 4:19 ; 2 Cor. 5:4 ; 2 Pet. 1:13, 14 ; 2 Cor. 5:10 ; 7:1; 1 Pet. 2:25 ; 1:9; 2:11; Heb. 13:17 ; 2 Cor. 1:23 ; Mt. 10:28 ; Luke 12:5 ; Heb 12:9 ; Luke 16:22 ;
+editor's footnote	note	42 bytes	Ovid, Metam. Lib. I.—Dryden’s Translation.
+editor's footnote	note	283 bytes	As to Osiander’s absurd fancy, see Book 2. cap 12. sec. 5, squ. In Rom. 8:3 , Christ is said to have been sent by the Father in the likeness of sinful flesh, bu
+editor's footnote	note	116 bytes	See Aug. Lib. de Trin. 10, et Lib. de Civit. Dei, 11. See farther, Calvin, in Psycho pannychia et Comment. in Genes.
+editor's footnote	note	134 bytes	The French adds, “comme si on tiroit le vin d’un vaisseau en une bouteille; ”—as if one were to draw wine out of a cask into a bottle.
+editor's footnote	note	136 bytes	The French is, “qu’il le coupe de sa substance comme une branche d’arbre;”—that he cuts it from his substance like a branch from a tree.
+editor's footnote	note	408 bytes	The French is “Et que par iceux comme par canaux, tous objects qui se presentent à la veuë, au goust, ou au flair, ou a l’attouchement distillent au sens commun
+editor's footnote	note	56 bytes	See Arist. lib. 1 Ethic. cap. ult.; item, lib. 6 cap. 2.
+editor's footnote	note	54 bytes	See Themist. lib. 3 De Anima, 49, De Dupl. Intellectu.
+editor's footnote	note	89 bytes	See August. lib 11, super Gen. cap. 7,8,9, and De Corrept. et Gratia ad Valent., cap. 11.
+editor's footnote	note	34 bytes	See Hyperius in Methodo Theologiæ.
+editor's footnote	note	76 bytes	See Calvin adversus Astrolog. Judiciariam. August De Ordine, lib. 2 cap. 15.
+editor's footnote	note	177 bytes	The French adds, “Cest à dire, que non seulement il voit, mais aussi ordonne ce qu’il veut estra fait;”—“that is to say, he not only sees, but ordains what he w
+editor's footnote	note	171 bytes	Plin. lib. 2. c. 7. “Irridendum vero, agere curam rerum humanarum, illud, quicquid est sumum. Anne tam tristi atque multiplici ministerio non pollui credamus du
+editor's footnote	note	34 bytes	Forte. Forsan. Forsitan, Fortuito.
+editor's footnote	note	152 bytes	“Here the words of Cicero admirably apply:L Nec si ego quod tu sis sequutus, non perspicio, idcirco minus existimo te nihil sine summa ratione fecisse.”
+editor's footnote	note	148 bytes	See Salvian. in Tract. de Vero Judicio et Providentia Dei. Also Bernard. De Interiore Domo, cap. 25. Also Luther in Epist. ad Fratres Antwerpienses.
+editor's footnote	note	174 bytes	Cic. de Fato. “Recte Chrysippus, tam futile est medicum adhibere, quam convalescere.”—See Luther on Genesis 3:7 , against those who thus abuse the doctrine of P
+editor's footnote	note	67 bytes	Ps. 55:23 ; 1 Pet. 5:7 ; Ps. 91:1 ; Zech. 2:8 ; Isaiah 26:1 ; 29:15
+editor's footnote	note	193 bytes	See Calvin, adv. Libertinos, cap. 15. 16., and Augustin. de Ordine, Lib. 1. and 2., where he admirably discusses the question, Whether the order of Divine Provi
+editor's footnote	note	95 bytes	2 Sam. 12:12 ; Jer. 1:25 ; Is. 5:26 ; 10:5; 19:25; 2 Sam. 16:10 ; 1 Kings 11:31 ; 1 Sam. 2:34 .
+editor's footnote	note	377 bytes	The French is, “Car ils meslent perversment le commandement de Dieu avec son vouloir secret, veu qu’il appert par exemples infinis qu’il y a bien longue distanc
+editor's footnote	note	61 bytes	The latter clause of this sentence is ommitted in the French.
+editor's footnote	note	289 bytes	The French is, “Assavoir, si l’ame du fils procede de la substance de l’ame paternelle, veu que c’est en l’ame que reside le peché originel.” That is, whether t
+editor's footnote	note	324 bytes	The French is, “Les enfans ne descendent point de la generation spirituelle qui les serviteurs de Diu ont du S. Esprit, mais de la generation charnelle qu’ils o
+editor's footnote	note	74 bytes	Lib. contra Pelag. Cœlest. See also Ep. 157 , ad Gregor., Lib. 7. Ep. 53 .
+editor's footnote	note	69 bytes	The French adds, “Sans adjouster Originel:”--without adding Original.
+editor's footnote	note	641 bytes	The French is, “Car en ce qui est d’t, que par Adam nous sommes fait redevables au jugement de Dieu, ce ne’st pas a dire que nous soyons innocens, et que sans a
+editor's footnote	note	95 bytes	In many passages, and especially in his treatise, De Peccatorum Merit. et Remiss Lib. 3 cap. 8.
+editor's footnote	note	381 bytes	The French is, “Nous nions qu’elle soit de nature, afin de monstrer que c’est plutot une qualité survenue ˆ l’homme qu’une proprieté de sa substance, laquelle a
+editor's footnote	note	124 bytes	See Calvin Adv. Theolog. Parisienses, Art. 2. These two rocks are adverted to by Augustine, Ep. 47 , et in Joannem, cap. 12.
+editor's footnote	note	234 bytes	The French is, “Laquelle toutefois nous cognoistrons etre très-utile et qui plue est, etre un des fondemens de la religion;”—which, however, we shall know to be
+editor's footnote	note	99 bytes	The French adds, “pour en dire franchement ce qu en est;”—to speak of them frankly as they deserve.
+editor's footnote	note	135 bytes	The French adds the explanation, “Assavoir ceux qui concernoyent la vie celeste;”that is to say, those which concern the heavenly life.
+editor's footnote	note	178 bytes	Orig. De Principiis, Lib. 3. It is given by Lombard, Lib. 2 Dist 24 Bernard. de Grat. et Liber Arbit Anselm, Dialog. de Liber. Arbit. cap. 12, 13 Lombard, Lib. 
+editor's footnote	note	82 bytes	The French adds (“qu’en attribue ˆ St Ambroise”);—which is attributed St. Ambrose.
+editor's footnote	note	312 bytes	August. Lib. 1 cont. Julian. For the subsequent quotations, see Homil. 53, in Joannem; Ad Anast. Epist. 144; De Perf. Just; Eucher. ad Laur. c. 30; Idem ad Boni
+editor's footnote	note	169 bytes	See August. de Corrept. et Grat. cap. 13. Adv. Lib. Arbit. See also August. Epist. 107. Also the first and last parts of Bernard’s Treatise De Gratia et Libero 
+editor's footnote	note	115 bytes	August. de Prædest. Sanct. Idem ad Bonifacum, Lib. 4 et alibi. Eucher. Lib in Genesin. Chrysost. Homil. in Adventu.
+editor's footnote	note	67 bytes	The French adds, “Ancien evesque de Lion;” ancient bishop of Lyons.
+editor's footnote	note	84 bytes	The French has, “Au commencement de ce traité;” at the commencment of this treatise.
+editor's footnote	note	298 bytes	The French adds, “Si c’est parole diabolique celle qui exalte homme en soy’mesme, il ne nous lui faut donner lieu, sinon que nous veuillins prendre conseli de n
+editor's footnote	note	137 bytes	Chrysost. Homil. de Perf. Evang. August. Epist. 56 ad Discur. As to true humility, see infra, chap. 7 sec. 4, and lib. 3 c 12, sec. 6, 7.
+editor's footnote	note	71 bytes	The French is, “Demosthene orateur Grec;”—the Greek orator Demosthenes.
+editor's footnote	note	90 bytes	August. Homil. in Joann. 49, lib. de Natura et Gratia, cap. 52.; and in Psalms 45 . set 70
+editor's footnote	note	137 bytes	The French adds, “de ce que l’ame savoit avant qu’etre mis dedlans le corps;”—of what the soul knew before it was placed within the body.
+editor's footnote	note	218 bytes	The French adds, “Or l’entendement humaiu a eté tel en cest endroit. Nous appercevons donques qu’il est du tout stupide;” now, the understanding has proved so i
+editor's footnote	note	98 bytes	Calvin, in his Commentary on the passage, says, “Lost in part or appearance, or deserved to lose.”
+editor's footnote	note	237 bytes	The French adds, “Qui a esté une peste mortelle ˆ l’Eglise, d’estimer que l’homme pouvoit eviter le peché pource qu’il peche franchement;” Which has been a dead
+editor's footnote	note	229 bytes	French, “La premiere partie des bonnes œuvres est la volonté; l’autre est de s’efforcer a l’executer et le pouvoir faire.”—The first part of good works is the w
+editor's footnote	note	767 bytes	The French is, “Nous voyons que ce mouvement sans vertu, lequel imaginent les sophistes, est exclus; J’entend ce qu’ils disent, qu Dieu offre seulement sa grace
+editor's footnote	note	40 bytes	French, “Come une pierre;”—like a stone.
+editor's footnote	note	87 bytes	The French adds, “dont on doute communement;” on which doubts are commonly entertained.
+editor's footnote	note	296 bytes	The French adds, “Car quand nous voyons des voleurs, qui ont commis quelque meurtre ou larrecin, nous ne doutons point de leur imputer la faute, et de les conda
+editor's footnote	note	85 bytes	The French adds, “se retractant de l’autre sentence;” retracting the other sentiment.
+editor's footnote	note	87 bytes	Ezek. 7:26 ; Psalm 107:40 ; Job 12:20 , 24 ; Isiah 63:17; Exod. 4:21 ; 7:3; 10:1; 3:19.
+editor's footnote	note	64 bytes	Isa. 5:26 ; 7:18; Ezek. 12:13 ; 17:20; Jer. 2 :.23; Isa. 10:15 .
+editor's footnote	note	151 bytes	The French adds, “D’où procede cela sinon que Dieu besongne tant d’une part que d’autre?”—Whence this, but that God interferes thus far in either case?
+editor's footnote	note	240 bytes	The French is simply, “Car si cela pouvoit etre en l’homme, il ne seroit par moins libre enfermé en un prison que dominant par toute la terre.” If that could be
+editor's footnote	note	592 bytes	The French is, “Mais c’est comme si un capitaine assembloit force gens qui ne fussent nullement duits ˆ la guerre pour espouvanter son ennemi. Avant que les met
+editor's footnote	note	92 bytes	August. Enchir. ad Laurent. de Gratia et Liber. Arbit. cap. 16. Homil 29, in Joann. Ep. 24 .
+editor's footnote	note	98 bytes	Joel 2:12 ; Jer. 31:18 ; Deut. 10:16 ; 30:6; Ezek. 36:26 ; Jer. 31:18 . Vid. Calvin. adv. Pighium.
+editor's footnote	note	280 bytes	The French is, “Et de fait cette raison a grande apparence humainement. Car on peut deduire gue ce seroit une cruauté de Dieu,”&amp;c.—And, in fact, humanly spe
+editor's footnote	note	218 bytes	The French adds, “Veu qu’en cela il fait le profit de ses serviteurs et rend les iniques plus damnables;” seeing that by this he promotes the good of his servan
+editor's footnote	note	271 bytes	The French is “Où est-ce que sera cette facilité, veu que notre natute succombe en cet endroit, et n’y a celui qui ne trebusche voulant marcher?” Where is this 
+editor's footnote	note	133 bytes	Orig. Lig. 7 in Epist. ad Rom.—Hieron. Dial. i in Pelagium.—For the passage in Augustine, see the extract in Book 3. chap. 24 sec. 1.
+editor's footnote	note	28 bytes	French, “reverie infernale.”
+editor's footnote	note	143 bytes	See among the works of Justin. Quæst. 103; and Hieronymus ad Ctesiphont adv. Pelegianos, where he seems to admit and deny the same proposition.
+editor's footnote	note	74 bytes	Book 2. chap. 12 sec. 4; and Book 3, chap. 4 sec. 27; and chap. 11 sec 23.
+editor's footnote	note	77 bytes	August. de Corrept. et Gratia. Ambros. Lib. 1 de Jac. et cap. 6 de Vita Beat.
+editor's footnote	note	144 bytes	August. Ep. 89 , Quæst. 2; ad Assell. Ep. 200 ; ad Innocent. Ep. 95 ; Lib. de Corrept. et Gratia ad Valent.; in Ps. 70 et 117; Item, Concio. 27.
+editor's footnote	note	116 bytes	This chapter is connected with Book 1., chap. 1 and 2, and with Book 2, chap. 1—6. See also Book 2, chap. 2 sec. 22.
+editor's footnote	note	48 bytes	See Calvin, De Vera Ecclesiæ Reformandæ Ratione.
+editor's footnote	note	179 bytes	See Augustin. De Civitate Dei, Lib. 4 c. 12, and Lib. 12 c. 20, and Lib. 14 c. 12. See also Lib. De Bono Conjugali, and Lib. Contra Adversarios Legis et Prophet
+editor's footnote	note	52 bytes	“Ne sit nobis Lesbiæ regulæ,” omitted in the French.
+editor's footnote	note	179 bytes	The French is “Tout ainsi comme si quelcun vouloit faire une belle monstre d’un corps sans teste;” just as if one were to try to make a beautiful monster of a b
+editor's footnote	note	312 bytes	Origen in Exod. cap. 20 Homil. 8; Augustin. contra duas Epist. Pelagii, Lib. 3 cap. 4; Quæst. in Vet. Test. Lib. 2 cap. 74; Epist cxix ad Januarium, cap. 11. Th
+editor's footnote	note	278 bytes	The French is, “Nous avous aussi un autre ancien Pere qui accorde a nostre opinion, celui que a ecrit les Commentaires imparfaits sur Sainct Matthiue.” We have 
+editor's footnote	note	122 bytes	“Præsenti causæ.”—The French is, “du temps que la loi devoit estre publiée;” to the time when the Law was to be published.
+editor's footnote	note	68 bytes	Exod. 3:6 ; Amos 1:2 ; Hab. 2:20 ; Psalm 80:2 ; 99:1; Isaiah 37:16 .
+editor's footnote	note	73 bytes	“E faucibus mortis.”—French, “du gouffre d’enfer;” from the gulf of hell.
+editor's footnote	note	64 bytes	Calvin. in Catechismo; De Necessitate Reformandæ Ecclesiæ Ratio.
+editor's footnote	note	242 bytes	The French adds, “Car c’est un hommage spirituel qui se rend a lui comme souverain Roy, et ayant toute superiorité sur nos ames.” For this is a spiritual homage
+editor's footnote	note	67 bytes	Or “Strong,” this name being derived from a word denoting strength.
+editor's footnote	note	73 bytes	2 Cor. 11:2 ; Eph. 5:30 ; Jer. 62:5 ; Hos. 2:9 ; Jer. 3:1, 2 ; Hos. 2:2 .
+editor's footnote	note	43 bytes	1 Sam. 14:44 ; 2 Kings 5:31 ; 2 Cor. 1:23 .
+editor's footnote	note	90 bytes	The French adds, “jurans par S. Jaques ou S. Antoine;”—swearing by St James or St Anthony.
+editor's footnote	note	45 bytes	Exod. 23:13 ; Deut. 6:13 ; 10:20; Heb. 6:13 .
+editor's footnote	note	54 bytes	Gen. 21:24 ; 26:31; 31:53; Ruth 3:13 ; 1 Kings 18:10 .
+editor's footnote	note	86 bytes	Num. 13:22 ; Ezek. 20:12 ; 22:8; 23:38; Jer. 27:21 , 22 , 27 ; Isiah 55:2; Neh. 9:14 .
+editor's footnote	note	126 bytes	N“Finem istum politicum et ecclesiasticum ordinem.”P—French, “la police et ordre en l’Eglise;” policy and order in the Church.
+editor's footnote	note	59 bytes	As to this liberty, See Socrates, Hist. Trip. Lib. 9 c. 38.
+editor's footnote	note	369 bytes	French, “ne discernans entre le Dimanche et le Sabbath autrement, sinon que le septiéme jour estoit abrogé qu’on gardoit pour lors, mais qu’il on faloit, neantm
+editor's footnote	note	71 bytes	French, “leur conviendroyent mieux;”—whould be more applicable to them.
+editor's footnote	note	90 bytes	Exod. 21:17 ; Lev. 20:9 ; Prov. 20:20 ; Deut. 21:18 ; Mt. 25:4 ; Eph. 6:1 ; Colloss. 3:20.
+editor's footnote	note	162 bytes	The French adds, “et la doit plustost augmenter, qu’amoindrir confirmer que viloer;”—and ought to augment rather than diminish, to confirm rather than violate i
+editor's footnote	note	94 bytes	Book 3, Chap. 7 sec 4—7; Chap. 20 sec. 38, 45; Book 4 Chap. 1 sec 13—19; Chap. 17 sec. 38, 40.
+editor's footnote	note	87 bytes	See Ambros. Lib. de Philosoph., quoted by Augustine in his book, Contra Julian, Lib. 2.
+editor's footnote	note	677 bytes	The French is “D’avantage ce precepte s’estend jusques lˆ, que nous n’affections point une plaisanterie d’honnesteté et une grace de brocarder et mordre en rian
+editor's footnote	note	103 bytes	See supra, chap. 2, end of sec. 24; and Book 3 chap 3 sec. 11, 12, 13; and Book 4 chap. 15 sec. 11, 12.
+editor's footnote	note	237 bytes	See August. Ep. 200 , ad Asellicum, et Quæstio, Lib. 88, sub fin. Quæst. 66; but especially Conscio. 8, in Ps. 118 . The subject is also touched on in Ps. 142 a
+editor's footnote	note	74 bytes	Is. 1:17 ; 57:6; Jer. 7:5, 6 ; Ezek. 18:7, 8 ; Hosea 6:6 ; Zech. 7:9, 10 .
+editor's footnote	note	87 bytes	See Book 3 chap. 7 sec. 4. Also August. de Doctrina Christiana, Lib. 1 chap. 23 et seq.
+editor's footnote	note	155 bytes	The French is “Ces folastres sans propos prennent un grand mystére en ce mot de Loy;” these foolish fellows absurdly find a great mystery in this term Law.
+editor's footnote	note	116 bytes	See Book 3 chap. 4 sec. 28, where it is also shown that this is not the dogma of the Stoics—that all sins are equal.
+editor's footnote	note	136 bytes	“Sub custodia spei.”—French, “sous la garde, et comme sous le cachet d’espoir;” under the guard, and as it were, under the seal of hope.
+editor's footnote	note	104 bytes	As to the agreement of both dispensations, see August. Lib. de Moribus Eccles. Lat., especially cap. 28.
+editor's footnote	note	288 bytes	The French is, “Veu qu’ils pensent qu notre Seigneur l’ait voulu seulement engraisser enterre comme en une auge, sans seperance aucune de l’immortalité celeste;
+editor's footnote	note	81 bytes	Acts 13:26 ; Rom. 1:16 ; 1 Cor. 1:18 ; Mt. 3:2 , 4 , 17 , &amp;c., especially 13.
+editor's footnote	note	91 bytes	“Novo populo.” French, “au peuple du Nouveau Testament”—the people of the New Dispensation;
+editor's footnote	note	58 bytes	“Beata Virgo.” French, “la Vierge Marie;”—the Virgin Mary.
+editor's footnote	note	80 bytes	“Ejus finis.” French, “la fin du Vieil Testament;”—the end of the Old Testament.
+editor's footnote	note	30 bytes	Calv. in Genes. cap. 12:11—15.
+editor's footnote	note	588 bytes	The French is, “Et encore ne peut il pas ainsi eviter l’iniquité de son beau père, qu’il ne soit de lui persecuté, et atteint au milieu du chemin; et pourceque 
+editor's footnote	note	48 bytes	Ps. 97:10, 11 ; 112:9, 10; 140:13; 112:6; 34:22.
+editor's footnote	note	77 bytes	“Animarum substantiam.” French, “immortalité des ames;”—immortality of souls.
+editor's footnote	note	272 bytes	The French is,“et ˆ icelle se doivent reduire quasi tous les passages, auxquels le viel Testament est opposé au Nouveau par comparaison.”—And to this ought in a
+editor's footnote	note	238 bytes	“Qualiter et aliis Sacramentis dari solet.” French, “comme l’Escriture a coustume d’attribuer aux sacremens le nom des choses qu’ils representent;”—just as Scri
+editor's footnote	note	45 bytes	“Passim.” French, “cá et lá;”—here and there.
+editor's footnote	note	79 bytes	“In demortuorum locum.” The French is simply, “en leur lieu;”—into their place.
+editor's footnote	note	84 bytes	“Firmæ,” French, “Ne si fortes, ne si urgentes;”—neither so strong, nor so pressing.
+editor's footnote	note	118 bytes	“Aut ullo modo affciant.” French “ou comme si jamais il s’y fust arreté;”—or as if he could ever have stopped at them.
+editor's footnote	note	35 bytes	John 3:16 ; 5:25; Mt. 18:11 ; 9:12.
+editor's footnote	note	42 bytes	Luke 24:46 ; John 10:17 ; 3:14; 12:27, 28.
+editor's footnote	note	56 bytes	The last clause of the sentence is omited in the French.
+editor's footnote	note	82 bytes	Latin, “An dicere velimus ex semine menstruali virginis procreatur esse Christum.”
+editor's footnote	note	49 bytes	Augustine employs the same similitude, Epist. 52.
+editor's footnote	note	101 bytes	Isiah 41:1, &amp;c.; John 5:17 ; Luke 2:52 ; John 8:50 ; Mark 13:32 ; John 14:10 ; 6:38; Luke 24:39 .
+editor's footnote	note	40 bytes	John 1:29 ; 5:21—23; 9:5; 10:9—11; 15:1.
+editor's footnote	note	47 bytes	VideCalv. Epist. ad Polonos adversus Stancarum.
+editor's footnote	note	41 bytes	See August. in Enchir. ad Laurent. c. 36.
+editor's footnote	note	114 bytes	See August. De Corruptione et Gratia. cap. 11, et De Civitate Dei, lib. 10 cap 29, et alibi See also cap. 17 s. 1.
+editor's footnote	note	140 bytes	See Irenæus, lib. 4 cap 14 et 37; Tertullian adversus Praxeam. The above passages from The Proverbs is quoted by Augustine, Ep 49 , Quæs. 5.
+editor's footnote	note	108 bytes	Vide Calv. Defensio Orthodoxæ Fidei Sacræ Trinitatis adversus Prodigiosos Errores Michaelis Serveti Hispani.
+editor's footnote	note	109 bytes	Calvin translates, “Angelum vel Interpretem magni consilii;”—“the Angel or interpreter of the great counsel.”
+editor's footnote	note	96 bytes	Latin, “Supremi decreti.” French, “Decret eternel et inviolable;”—Eternal and inviolable decree.
+editor's footnote	note	71 bytes	It is not adverted to by Augustine, Lib. 1. De Symbolo de Catechumenos.
+editor's footnote	note	271 bytes	The French of this sentence is, “Dont on peut conjecturer qu’il a esté tantost aprés le tems des Apostres adjousté; mais que peu a peu il est venu en usage.”—Wh
+editor's footnote	note	174 bytes	The French is, “Pour colorer leur fantasie, ils tirent par les cheveux quelques temoignages.”—To colour their fancy, they pull by the hair (violently wrest) cer
+editor's footnote	note	180 bytes	See Justin, Ambrose, Jerome. The opinions of the Fathers and Rabbis on Hell and Limbus are collected by Peter Martyr, Loci Communes, Lib. 3 Loc. 16 sect. 8; see
+editor's footnote	note	247 bytes	French, “Les autres translatent Reverence ou Pieté; mais la Grammaire et la matiere qui est la tracté monstrent que c’est mal ˆ propos.”—Others translate Revere
+editor's footnote	note	91 bytes	See Cyril. Lib. 2 De Recta Fide ad Reginas; Item, Hilarius de Trinitate, Lib. 4 c. 2 and 3.
+editor's footnote	note	50 bytes	Vide Luther, tom. 1 in Concione de Morte, fol. 87.
+editor's footnote	note	83 bytes	Ephes. 1:20 ; Phil. 2:9 ; 1 Cor. 15:27 ; Ephes. 4:15 ; Acts 2:33 ; 3:21; Heb. 1:4 .
+editor's footnote	note	64 bytes	August. de Fide et Symbolo, cap. 8; Eph. 2:6 ; Heb. 7:25 ; 9:11.
+editor's footnote	note	50 bytes	Acts 1:11 ; Mt. 24:30 ; 25:31; 1 Thess. 4:16, 17 .
+editor's footnote	note	179 bytes	The French is, “Il y en a aucuns qui exposent par les vivans et les morts les bons et les mauvais.”—There are some who, by the quick and the dead, understand th
+editor's footnote	note	48 bytes	Vide Ambros. de Jac. et Vita Beata, Lib. 1 c. 6.
+editor's footnote	note	615 bytes	The French is, “Jusques ici j’ay suivi l’ordre du Symbole qu’on appelle des Apostres, pource que la nous pouvons voir comme en un tableau, par les articles qui 
+editor's footnote	note	48 bytes	Acts 4:12 ; 1 Cor. 1:30 ; Heb. 2:17 ; Gal. 3:3 .
+editor's footnote	note	103 bytes	August. de Prædest. Sanct. Lib. 1 c. 15; De Bono Perseverantia, cap. ult. See supra, chapter 14 sec. 7.
+editor's footnote	note	123 bytes	The French adds, “C’est a dire, qui n’emporte en soy vrai effect;”—that is to say, which in itself produces no true effect.
+editor's footnote	note	59 bytes	1 John 2:2 ; Col. 1:19, 20 ; 2 Cor. 5:19 ; Eph. 1:6 ; 2:16.
+editor's footnote	note	60 bytes	French, “Offense, haine, divorce;”—offence, hatred, divorce.
+editor's footnote	note	384 bytes	The sentence stands thus in the French:—“Les Sorbonnistes pervertissent le passage de S. Paul, l’appliquans a ce propos c’est que pource que Jesus Christ s’est 
+editor's footnote	note	47 bytes	Eph. 4:15 ; Rom. 6:5 ; 11:17; 8:29; Gal. 3:27 .
+editor's footnote	note	164 bytes	Rom. 8:15 ; Gal. 4:6 ; 2 Cor. 1:22 ; Eph. 1:13, 14 ; Rom. 8:10 ; Isa. 55:1 ; 44:3; John 7:37 ; Ezek. 36:25 ; John 2:14 ; 1 John 2:20 , 27 ; Luke 3:16 ; Acts 11:
+editor's footnote	note	170 bytes	The French adds, “qui vaut autant a dire comme la predication ayant avec soy vivacité spirituelle;”—that is to say, preaching carrying spiritual quickening alon
+editor's footnote	note	94 bytes	1 Tim. 6:16 ; John 8:12 ; 14:6; Luke 10:22 ; 1 Cor. 2:2 ; Acts 20:21 ; 26:17, 18; 2 Cor. 4:6 .
+editor's footnote	note	170 bytes	The French is“Car nous tendons a Dieu, et par l’humanité de Jesus Christ, nous y sommes conduits;”—For we tend to God, and by the humanity of Christ are conduct
+editor's footnote	note	59 bytes	French, “Theologiens Sorboniques;”—Theologians of Sorbonne.
+editor's footnote	note	68 bytes	In opposition to this ignorance, see Chrysostom in Joann. Homil. 16.
+editor's footnote	note	296 bytes	See Augustin. Ep. 102 , “Si propter eos solos Christus mortuus est, qui certa intelligentia possunt ista discernera, pæne frustra in ecclesia laboramus,”&amp;c;
+editor's footnote	note	82 bytes	This definition is explained, sections 14, 15, 28, 29, 32, 33, 31 of this chapter.
+editor's footnote	note	165 bytes	See Lombard, Lib. 3 Dist. 23. See the refutation in the middle of sections 41, 42, 43, where it is shown that faith produces, and is inseparable from, hope and 
+editor's footnote	note	39 bytes	Thess. 1:3, 4; 2 Thess. 2:13 ; Tit. 1 .
+editor's footnote	note	64 bytes	The French adds, “Comme par une bouffee,”—as by fits and starts.
+editor's footnote	note	124 bytes	See section 13, where it is said that this impression, sometimes existing in the reprobate, is called faith, but improperly.
+editor's footnote	note	57 bytes	1 Tim. 3:9 ; 4:1, 6; 2 Tim. 2:15 ; 3:18; Tit. 1:13 ; 2:2.
+editor's footnote	note	122 bytes	The French adds, “Comme il montre par ses propos quel souci il en avoit;”—as he shows by his urgency what anxiety he felt.
+editor's footnote	note	138 bytes	Latin“Præsentim ubi ad rem ventum est.”—French, “Principalament quand les tentations nous pressent;”—especially when temptations press us.
+editor's footnote	note	92 bytes	As to the imperfection, strengthening, and increase of faith, see Book 4. chap. 4 sec. 7, 8.
+editor's footnote	note	247 bytes	Calvin’s Latin translation of the passage is, “Atque dixi, occidere meum est; mutationes dexteræ excelsi.”—The French is, “J’ay dit, Il me faut mourir. Voicy un
+editor's footnote	note	46 bytes	See Calv adv. Pighiium, near the commencement.
+editor's footnote	note	370 bytes	The French is, “Voila comme Satan, quand il voit que par mensonge clair et ouvert il ne peust plus destruire la certitude de la foy, s’efforce en cachette et co
+editor's footnote	note	61 bytes	Ps. 111:10 ; Prov. 1:7 , 9 :10, 15:24; Job 28:28 ; Mal. 1:6 .
+editor's footnote	note	160 bytes	Latin, “acsi cervicibus suis impenderet.”—French, “comme si l’enfer leur etoit desia present pour les englouter;”—as if hell were already present to engulfthem.
+editor's footnote	note	165 bytes	The French adds, “Combien que nous ayons les promesses de Dieu pour nous munir à l’encontre;”—although we have the promise of God to strengthen us for the encou
+editor's footnote	note	37 bytes	Rom. 1:3 ; 1 Cor. 2:2 ; 2 Cor. 1:20 .
+editor's footnote	note	105 bytes	The French thus begins the section: “Lequel erreur est facile a convaincre;”—This error is easily refuted
+editor's footnote	note	79 bytes	French, “Doutes, solicitudes, et detresses;”—doubts, anxieties, and distresses.
+editor's footnote	note	89 bytes	French, “La doctrine des theologiens sophistes;”—the doctrine of sophistical theologians.
+editor's footnote	note	69 bytes	See Bernard, Serm. 2 in Die Ascensionis, and Serm. 2 in Octava Paschæ
+editor's footnote	note	126 bytes	The French adds, “En quoy ils demonstrent grandement leur betisc;”—In this they give a great demonstration of their stupidity.
+editor's footnote	note	207 bytes	Latin “Quis non merito, amice lector, tales bestias execretur?” French, “Je vous prie, mes amis, qui se tiendra de maudire telles bestes?”—I pray you, my friend
+editor's footnote	note	339 bytes	The French adds in explanation, “C’est à dire, que cela s’accorde bien, que nous ne soyons pas sans bonnes œuvres, et toutesfois que nous soyons reputés justes 
+editor's footnote	note	249 bytes	Latin, “Initialis timor,” which is thus paraphrased by the French: “Et c’est une erainte comme on la voit aux petits enfans, qui ne sont point gouvernés par ari
+editor's footnote	note	42 bytes	Gen. 4:13 ; 1 Sam. 15:30 ; Matt. 27:3, 4 .
+editor's footnote	note	99 bytes	2 Kings 20:2 ; Isa. 37:2 ; Jonah 3:5 ; 2 Sam. 24:10 ; 12:13, 16; Acts 2:37 ; Mt. 26:75 ; Luke 22:62
+editor's footnote	note	56 bytes	Mt 3:2 ; 1 Sam. 7:8 ; Luke 3:8 ; Rom. 6:4 ; Acts 26:20 .
+editor's footnote	note	65 bytes	French, “une regeneration spirituelle;”—a spiritual regeneration.
+editor's footnote	note	55 bytes	2 Cor. 3:18 ; Eph. 4:23, 24 ; Col. 3:10 ; 2 Cor. 4:16 .
+editor's footnote	note	154 bytes	See August. ad Bonif. Lib. 4 et cont. Julianum, Lib. 1 and 2. See also Serm. 6, de Verbis Apost. See also Calv. cont. Pighium, and Calv. ad Conc. Trident.
+editor's footnote	note	39 bytes	Latin, “Reatus.”—the imputation of sin.
+editor's footnote	note	37 bytes	See Calvin, adv. Libertinos, cap. 18.
+editor's footnote	note	109 bytes	French, “Circonstances qui convenoyent specialement alore;”—circumstances which were then specially suitable.
+editor's footnote	note	159 bytes	French, “Fust la coustume de ce temps-la, et ne nous appartienne aujourduhui de rien;”—was the custom of that time, and we have nowadays nothing to do with it.
+editor's footnote	note	102 bytes	The French adds, “Soit de guerre, de famine, ou de pestilence;”—whether of war, famine, or pestilence.
+editor's footnote	note	340 bytes	Latin, “Calamitosis temporibus peculiariter destinari.”—French, “Convient particulierement a ceux qui veulent testifier quils se recognoissant avoir merité l’ir
+editor's footnote	note	172 bytes	The French adds, “pource qu’il lui est propre, et comme naturel, de sauver ce que est perdu;”—because it is proper, and as it were natural to him to save that w
+editor's footnote	note	45 bytes	Isiah 56:1; 59:20; 55:6, 7; Acts 2:38 ; 3:19.
+editor's footnote	note	79 bytes	This is to be found in different passages of his work, and often in the Phaido.
+editor's footnote	note	95 bytes	French, “L’Eglise primitive du temps des Apostres;”—the primitive Church of the Apostles’ time.
+editor's footnote	note	186 bytes	The French adds, “Et ce non seulement au regard d’un jour. mais de tout le cours de notre vocation;”—and this in regard not only to a single day, but to the who
+editor's footnote	note	42 bytes	August. Lib. de Correp. et Gratia, cap. 12
+editor's footnote	note	136 bytes	The Greek is “του̑ πνεύματος βλασφημία” This Calvin translates in Latin, “Spiritum blasphemiæ,”, and in French, “Esprit de blaspheme.”
+editor's footnote	note	74 bytes	The omission of this last clause in the French seems to be an improvement.
+editor's footnote	note	359 bytes	The first definition is that of Gregory, and is contained Sentent. Lib. 4 Dist. 14, c. 1. The second, which is that of Ambrose, is given same place, and also De
+editor's footnote	note	52 bytes	French “Ces bons glosateurs;”—these worthy glossers.
+editor's footnote	note	100 bytes	Latin, “Immensis voluminibus.”—French, “Leur gros bobulaire de livres;”—their large lumbering books.
+editor's footnote	note	118 bytes	Latin, “Mirum silentium.”—French, “Il n’en est nulles nouuelles en leur quartier;”—there are no news in their quarter.
+editor's footnote	note	68 bytes	Sent. Lib. 4 Dist. 16, cap. 1; De pœnit. Dist. 1; C. Perfecta Pœnit.
+editor's footnote	note	237 bytes	French, “Combien qu’ils n’estudient autre chose en toute leur vie que la Dialectique, que est l’art de definir et partir;”—although they study nought else durin
+editor's footnote	note	250 bytes	Latin, “Secundam tabulam post naufragium.”—French, “Une seconde planche, sur laquelle celui que estoit pour perir en lar mer, nage pour venir au port;”—a second
+editor's footnote	note	93 bytes	Latin, “De saini umbra rixam.”—French, “En un combat frivole;”—engaged in a frivolous combat.
+editor's footnote	note	165 bytes	Luther (adv. Bullam Antichristi, Art. 6) shows that those who set down these three parts of repentance, speak neither according to Scripture nor the ancient Fat
+editor's footnote	note	97 bytes	French, “Nous tournerons toujours en un même circuit”—we shall always revolve in the same circle.
+editor's footnote	note	34 bytes	Mt. 11:28 ; Is. 59:1 ; Luke 4:18 .
+editor's footnote	note	235 bytes	Erasmus, in a letter to the Augustine Steuchus in 1531, while flattering, at the same time laughs at him, for thinking that the fifth chapter of Numbers suffici
+editor's footnote	note	155 bytes	French, “N’est ce pas bien se jouer des Escritures, de les tourner en ceste facon?”—is it not indeed to make game of Scripture, to turn it in this fashion?
+editor's footnote	note	216 bytes	The French is, “Car ce que Jesus Christ laisse aux Prestres de la loy, n’appartient en rien à ses vrais ministres;”—for that which Jesus Christ leaves to the Pr
+editor's footnote	note	134 bytes	French, “Qu’ils voisent maintenant, et facent un bouclier de leur allegories;”—let them go now and make a buckler of their allegories,
+editor's footnote	note	20 bytes	Augustin. Epist. 54.
+editor's footnote	note	220 bytes	French, “Quoy que tous les advocats et procureurs du Pape, et tous les caphars qu’il a à louage gazouillent:”—whatever all the advocates and procurators of the 
+editor's footnote	note	115 bytes	The French adds, “l’un des auteurs de l’Histoire Ecclesiastique;”—one of the authors of the Ecclesiastical History.
+editor's footnote	note	55 bytes	Eccles Hist. Lib. 7 cap. 17, et Trepont. Hist. Lib. ix.
+editor's footnote	note	133 bytes	Chrysost. Hom. 2 in Psal. 1 .Serm. de pœnit. et Confess. Hom. 5 De Incomprehensibili Dei. Nat. cont. Anomeos. Item, Hom. 4 de Lazaro.
+editor's footnote	note	110 bytes	Latin, “Vetus interpres.”—French, “Le translateur tant Grec qui Latin;”—the Greek as well as Latin translator.
+editor's footnote	note	116 bytes	As to the form of repentance enjoined by the primitive Church for more flagrant offences, see Book 4 Chap 1 sec. 29.
+editor's footnote	note	251 bytes	The French is, “Et que le Pasteur addressant sa parole à lui, l’asseure comme lui appliquant en particulier la doctrine generale;”—and when the Pastor, addressi
+editor's footnote	note	199 bytes	“C Omnis utriusque sexus;”—every one of both sexes. Innocent’s decree is in the Lateran Council, De Summa Trinitate et Fide Cathol. It is also given Sent. Lib. 
+editor's footnote	note	534 bytes	The French is, “Mais comme les nautonniers fichans l’anchre au milieu de la mer, se reposent du trauail de leur navigation; ou comme un perlin lassé ou defailla
+editor's footnote	note	292 bytes	“Tous ceux que nous lisons avoir obtenu de Christ la remission de leurs pechez, ne sont pas dits s’etre confessés à l’aureille de quelque Messire Jean;”—None of
+editor's footnote	note	126 bytes	Latin simply, “ceremoniam.” French, “la ceremonie de faire une croix sur le dos;”—the ceremony of making a cross upon the back
+editor's footnote	note	162 bytes	French, “Car cela vaut autant comme si les prestres se faisoyent conterolleurs de Dieu;”—for that is as much as if the priests made themselves controllers of Go
+editor's footnote	note	216 bytes	See on the subject of this section, Calv. ad Concil. Trident. Also Vera Ecclesiæ Reformandæ Ratio, Epist. ad Sadoletum. Epist. adversus Theologos Parisienses. D
+editor's footnote	note	99 bytes	French, “une barbarie si vileine que rien plus;”—a barbarism so vile that nothing could be more so.
+editor's footnote	note	191 bytes	See Lombard, Sent. Lib. 4 Dist 10, c. 4. C. Non suffcit. de Pœnit. C. (middle of same Dist.) C. Nullus (same Dist). See also on the subject of satisfaction, inf
+editor's footnote	note	34 bytes	The French adds, “aumosnes;”—alms.
+editor's footnote	note	44 bytes	Isa. 3:3 ; Rom. 5:8 ; Col. 2:14 ; Tit. 3:5 .
+editor's footnote	note	298 bytes	The French is, “Et ne faut pas qu’ils disent, que combien que les satisfactions en soyent moyens, neantmoins ce n’est pas en leur nom, mais au nom de Jesus Chri
+editor's footnote	note	104 bytes	Latin, “Catechumenos.”—French, “Ceux qui ne sont point encore baptisez;”—those who are not yet baptised.
+editor's footnote	note	44 bytes	See on this Section, Book 2 chap 8 s 58, 59.
+editor's footnote	note	113 bytes	The French adds, “Qui est le plus horrible peché devant Dieu;”—which is the most heinous sin in the sight of God.
+editor's footnote	note	320 bytes	French, “Et quand ils voudront satisfaire pour plusieurs, ils en commettront encore davantage jusques à venir à un abysme sans fin. Je traite encore des plus ju
+editor's footnote	note	59 bytes	Isa 38:17 ; Isa44:22; Micah 7:19 ; PS 32:1&amp;gt; Ps. 32:1
+editor's footnote	note	34 bytes	Job 14:17 ; Hos. 13:12 ; Jer. 22:1
+editor's footnote	note	54 bytes	Rom 3:24 ; 1Cor. 1:30 ; Eph. 1:7 ; Col. 1:14 ; Tim 2:6
+editor's footnote	note	89 bytes	The French adds, “Que nous appellons Rancon en Francois;”—which we call Ransom in French.
+editor's footnote	note	54 bytes	See Calvin, ad Concil. Tridentini, Sess. cap. 1. ad 15
+editor's footnote	note	62 bytes	For a full expositon of these passages, see infra, sec. 35-37.
+editor's footnote	note	33 bytes	Job 5:17 ; Prov. 3:11 ; Heb. 12:5
+editor's footnote	note	152 bytes	French, “Car l’alliance qu’il a une fois faite avec Jesus Christ et ses membres;”—For the covenant which he once made with Jesus Christ and his members.
+editor's footnote	note	154 bytes	French, “Car combien les reprouvés souspirent ou grincent les dents sous les coups;”—For though the reprobate sigh or gnash their teeth under the strokes.
+editor's footnote	note	104 bytes	French, “Integrité, pitié, droiture, et choses semblables;”—intregrity, pity, uprightness, and the like.
+editor's footnote	note	57 bytes	It is quoted in the Decret. c. in Art. de Pœnit. Dist. 1.
+editor's footnote	note	401 bytes	French, “Il est expedient de monstrer ici non seulement quelles sont les indul grences, comme ils en usent; mais du tout que c’est, à les prendre en leur propre
+editor's footnote	note	166 bytes	French. “Tellement que si on ote la fantasie de satisfaire, leur purgatorie s’en va bas;”—so that if the fancy of satisfying is taken away, down goes their purg
+editor's footnote	note	47 bytes	Mt. 12:32 ; Mark 3:28 ; Luke 12:10 ; Mt. 5:25 .
+editor's footnote	note	296 bytes	The French adds the following sentence: “Brief, que le passage soit regardé et prins en sa simple intelligence, et il n’y sera rien trouvé de ce qu’ils pretende
+editor's footnote	note	57 bytes	See August. contra Secundum Gaudentii Epistolam, cap. 23.
+editor's footnote	note	77 bytes	Chrysostom, Augustine, and others ; see August, Enchirid. ad Laurent. cap 68.
+editor's footnote	note	121 bytes	The French adds, “auquel nombre universel sont enclos les Apostres;”—in which universal number the Apostles are included.
+editor's footnote	note	119 bytes	French, “l’exposition que font aujourdhui nos adversaires;”—the exposition which our opponents give in the present day.
+editor's footnote	note	389 bytes	French, “L’Escriture raconte souventesfois et bien au long, comment les fideles ont pleuré la mort de leurs parens, et comment ils les ont ensevelis; mais qu’il
+editor's footnote	note	771 bytes	French, “Le liure qu’il à composé tout expres de cest argument, et qu’il a intitule. Du soin pour les morts, est envellopée en tant de doutes, qu’il doit suffir
+editor's footnote	note	69 bytes	See August. Homil. in Joann. 49. De Civitate Dei. Lib. 21 cap. 13-24.
+editor's footnote	note	356 bytes	The French of the latter clause of this sentence is “et toutesfois il y aura matiere assez ample de les pourmener en cette campagne, veu qu’ils n’ont nulle coul
+editor's footnote	note	85 bytes	The French adds, “C’est a dire, sermons populaires;”—that is to say, popular sermons.
+editor's footnote	note	49 bytes	The passage in brackets is ommited in the French.
+editor's footnote	note	91 bytes	The French begins the sentence thus, “Quant est du premier poinct;”—As to the former point.
+editor's footnote	note	198 bytes	Mal. 1:6 ; Eph. 5:1 ; 1 John 3:1 , 3 ; Eph. 5:26 ; Rom. 6:1-4 ; 1 Cor. 6:11 ; 1 Pet. 1:15 , 19 ; 1 Cor. 6:15 ; John 15:3 ; Eph. 5:2, 3 ; Col. 3:1, 2 ; 1Cor. 3:1
+editor's footnote	note	183 bytes	On this and the three following chapters, which contain the second part of the Treatise on the Christian Life, see Augustine, De Moribus Ecclesiae Catholicae, a
+editor's footnote	note	46 bytes	Calvin. de Sacerdotiis Eccles. Papal. in fine.
+editor's footnote	note	291 bytes	French, “Car si nous disons qu’il n’a merité que mal de nous; Dieu nous pourra demander quel mal il nous a fait, lui dont nous tenons tout notre bien;”— For if 
+editor's footnote	note	35 bytes	Mt. 5:44 ; 6:14; 18:35; Luke 17:3 .
+editor's footnote	note	197 bytes	The French is, “Soit que ses bleds et vignes soyent gastées et destruites par gelée, gresle, ou autre tempeste;”— whether his corn and vines are hurt and destro
+editor's footnote	note	36 bytes	See end of sec. 4, and sec. 5, 7, 8.
+editor's footnote	note	589 bytes	French, “Or pource que la vie presente a tousiours force de delices pour nous attraire, et a grande apparence d’amenité, de grace et de douceur pour nous amiell
+editor's footnote	note	55 bytes	Latin, “Animal esseεφἡμερον;” —is an ephemeral animal.
+editor's footnote	note	47 bytes	French, “Le peuple des Scythes;”—the Scythians.
+editor's footnote	note	130 bytes	See Chrysost. ad Heb. 11 . As to Cratetes the Theban, see Plutarch, Lib. de Vitand. ære alien. and Philostratus in Vita Apollonii.
+editor's footnote	note	87 bytes	French, “Parer notre ame de ses vrais ornemens;”—deck our soul with its true ornaments.
+editor's footnote	note	94 bytes	See Institutes, Book 2 chap. 6 and 7, and Book 3 from the commencement to the present chapter.
+editor's footnote	note	95 bytes	Latin, “etiam dum Latine legitur.”—French, “mesme en Grec et en Latin;” even in Greek and Latin
+editor's footnote	note	330 bytes	French, “Dont il appert qu’il note ces deux choses comme opposites, Estre justifies et Estre tenu coulpable; à ce que le proces soit fait à l’homme qui aura fai
+editor's footnote	note	164 bytes	French “Que les poures ames ne sauroyent comprendre en telle obscurité la grace de Christ;”—that poor souls cannot in such obscurity comprehend the grace of Chr
+editor's footnote	note	101 bytes	French, “C’est, que l’ame est de l’essence de Dieu;”—that is, that the soul is of the essence of God.
+editor's footnote	note	368 bytes	French, “Mais comme le principe qu’il prend est comme une seche, laquelle en jettant son sang qui est noir comme encre, trougle l’eau d’alentour pour cacher une
+editor's footnote	note	463 bytes	French, “Quant à d’autres folies extravangantes d’Osiander, tout homme de sain jugement les rejettera; comme quand il dit que la foy est Jesus Christ, autant qu
+editor's footnote	note	111 bytes	French, “Faisant samblant de les rauir à la divinité d’icelui;”—under pretence of leading them to his divinity.
+editor's footnote	note	316 bytes	French, “Il magnifie la justice de Dieu tant et plus; mais c’est pour triompher comme s’il auoit gagné ce poinct, que la justice de Dieu nous est essencielle;”—
+editor's footnote	note	354 bytes	The French adds “signifiant, que ceux desquels il parle ont nagé entre deux eaux; pource qu’ils aimoyent mieux garder leur bonne reputation au monde, qu d’etre 
+editor's footnote	note	643 bytes	French, “Pour ceste cause j’ay accoustume de dire que Christ nous est comme une fontaine, dont chacun peut puiser et boire à son aise et à souhait; et que par s
+editor's footnote	note	115 bytes	The Latin, “ideo Zuinglianos odiose nominat;” is in the French simply, “condamne furieusement;”—furiously condemns.
+editor's footnote	note	119 bytes	Latin, “crassa mixtura;”—French, “mixtion telle que les viandes qu nous mangeons;”—mixture such as the victuals we eat.
+editor's footnote	note	155 bytes	The French adds, “Osiander tire de la que Dieu a meslée son essence avec la nostre;”—Osiander implies from this that God has mingled his essence with ours.
+editor's footnote	note	252 bytes	French, “Ainsi ils disent que cela n’appartient de rien aux bonnes œuvres des fideles qui se font par la vertu du Sainct Esprit;”—Thus they say that has no refe
+editor's footnote	note	213 bytes	French, “Mais pource que ce mot Seule, n’y est point exprimé, ils nous reprochent qu’il est adjousté du notre;”—but because this word Alone is not expressed, th
+editor's footnote	note	349 bytes	French, “Ceci est fort contraire a la doctrine ci dessus mise: car il n’y a nulle doute que celui qui doit cercher justice hors de soy-mesme, ne soit desnué de 
+editor's footnote	note	40 bytes	French, “Sous la robbe;”—under the robe.
+editor's footnote	note	539 bytes	French, “Par arrogance j’enten l’orgueil qui s’engendre d’une fole persuasion de justice, quand l’homme pense avoir quelque chose, dont il merite d’estre agreab
+editor's footnote	note	53 bytes	The two previous sentences are ommited in the French.
+editor's footnote	note	71 bytes	Jer. 17:9 ; Gen. 7:21 ; Ps. 94:11 ; 36:2; 14:2, 3; Gen. 6:3 ; Gal. 5:19
+editor's footnote	note	110 bytes	Latin, “in incredulis.” French, “en la vie des infideles et idolatres;”—in the life of infidels and idolaters.
+editor's footnote	note	153 bytes	Latin, “omnes Fabricios, Scipiones, Catones.” French, “tous ceux qui ont esté prisez entre les Pagans;”—all those who have been prized among the Heathen.
+editor's footnote	note	87 bytes	See August. Lib. de Pœnit., and Gregory, whose words are quoted, Sent. Lib. 3 Quæst. 7.
+editor's footnote	note	685 bytes	The following sentence is added in the French:—“Il est bien vray que le poure monde a esté seduit jusques la, de penser que l’homme se preparast de soy-mesme po
+editor's footnote	note	171 bytes	French, “Tout ce qu’ils auront determiné ne profitera gueres, ains s’evanouisra comme fumee;”—All their decisions will scarcely avail them, but will vanish like
+editor's footnote	note	104 bytes	Latin, “a posteriori;” French, “comme enseigne de la vocation de Dieu;”—as a sign of the calling of God.
+editor's footnote	note	399 bytes	French, “Brief, en toutes ces facons de parler, ou il est fait mention de bonnes œuvres, il n’est pas question de la cause pourquoy Dieu fait bien aux siens, ma
+editor's footnote	note	62 bytes	1. Cor. 1:30; Eph. 1:3-5 ; Col. 1:14 , 20 ; John 1:12 ; 10:28.
+editor's footnote	note	68 bytes	John 5:12 ; John 5:24 ; Rom. 3:24 ; John 3:24 ; Eph. 2:6 ; Col. 1:13
+editor's footnote	note	93 bytes	French, “d’autant qu’il n’y estoit gueres exercité;”—inasmuch as he was little versant in it.
+editor's footnote	note	81 bytes	French, “ne fust ce que de la pointe d’une sepingle;”—were it only a pin’s point.
+editor's footnote	note	53 bytes	John 3:8 ; 1 Pet. 4:3 ; 2 Tim. 2:20, 21 ; Luke 9:23 .
+editor's footnote	note	56 bytes	2 Cor. 4:8 ; 2 Tim. 2:11 ; Phil. 3:10 ; Rom. 7:29 , 39 .
+editor's footnote	note	47 bytes	This sentence is wholly ommitted in the French.
+editor's footnote	note	68 bytes	Latin, “Dolere sibi simulant.”—French, “Ils alleguent;”—they allege.
+editor's footnote	note	89 bytes	All the previous sentences of this section, except the first , are omitted in the French.
+editor's footnote	note	276 bytes	1 John 5:10 , 19 ; Heb. 9:14 ; 10 29; Luke 1:74, 75 ; Rom. 6:18 ; Col. 3:1 ; Tit. 2:11 ; 1 Thess. 5:9 ; 1 Cor. 3:16 ; Eph 2:21 ; 5:8; 2 Cor. 6:16 ; 1 Thess. 4:3
+editor's footnote	note	42 bytes	French, “ces Pharisiens;”—those Pharisees.
+editor's footnote	note	87 bytes	See Book 2 chap. 7: sec. 2-8, 15; chap. 8 sec 3; chap 11 sec. 8; Book 3 chap 19. sec 2.
+editor's footnote	note	62 bytes	French, “Les Sophistes de Sorbonne;”—the Sophists of Sorbonne.
+editor's footnote	note	83 bytes	French, “de crier contre nous en cest endroit;”—here to raise an outcry against us.
+editor's footnote	note	47 bytes	French, “Edits ou Statuts;”—Edicts or Statutes.
+editor's footnote	note	701 bytes	The French here adds the two following sentences:—“Nostre response done est, merites: mais entant qu’elles tendent à la justice que Dieu nous a commandee, laque
+editor's footnote	note	162 bytes	French “Voudrions nous faire une lignee serpentine, que les enfans meutrissent leur mere?”—Would we have a viperish progeny, where the children murder the paren
+editor's footnote	note	530 bytes	The whole sentence in French stnads thus:—“Or si cette justice des œvres telle quelle procede de la foy et de la justification gratuite, il ne faut pas qu’on la
+editor's footnote	note	79 bytes	Rom. 4:7 ; Ps 32:1, 2 ; 112:1; Prov. 14:21 ; Ps. 1:1 ; 106:3; 119:11; Mt. 5:3 .
+editor's footnote	note	269 bytes	French, “Il suffit à nos adversaires s’ils peuvent deraciner la justice de foy, laquelle nous voulons estre plantee au profond du cœur.”—It is enough for our op
+editor's footnote	note	79 bytes	Ps. 7:9 ; 17:1; 18:20; 26:1, 9, 10. Farther on , see Chap 14 s18; Chap. 20 s10.
+editor's footnote	note	117 bytes	Mt. 16:27 ; 2 Cor. 5:10 ; Rom. 2:6 ; John 5:29 ; Mt. 25:34 ; Prov. 12:14 ; 13:13; Mt. 5:12 ; Luke 6:23 ; 1 Cor. 3:8 .
+editor's footnote	note	81 bytes	French, “mais seulement emporte zele et estude;”—but only imports zeal and study.
+editor's footnote	note	181 bytes	French, “Pource que c’est un Docteur ancien, j’aime mieux user de ses paroles que des miennes;”—Because he is an ancient Doctor, I prefer making use of his word
+editor's footnote	note	119 bytes	The French adds, “C’est à dire, en misericorde, et non pas en jugement;”—that is to say, in mercy, and not in judement.
+editor's footnote	note	183 bytes	French, “Mais si quelcun pour obscurcir la benignité de Dieu veut establir la dignité des œuvres;”—but if any one to obscure the benignity of God would establis
+editor's footnote	note	108 bytes	See Calvin’s Answer to Sadolet, who had said that chairty is the first and principal cause of our salvation.
+editor's footnote	note	419 bytes	French, “Mais touchant ce qu’ils semblent advis contrepoiser en une mesme balance les bonnes œuvres et les mauvaises, pour estimer la justice ou l’injustice de 
+editor's footnote	note	50 bytes	French, “Mais quelcun dira”—But some one will say.
+editor's footnote	note	62 bytes	Rom. 14:1 , 13 ; 16:1; 1 Cor. 8:9 ; 10:25, 29, 32; Gal. 5:13 .
+editor's footnote	note	112 bytes	The French adds, “Lesquelles ne sont de soy ne bonnes ne mauvais;”—which in themselves are neither good nor bad.
+editor's footnote	note	34 bytes	French, “de bon laict;”—good milk.
+editor's footnote	note	163 bytes	See Epist. de Fugiendis Impiorum Illicitis Sacris. Also Epist. de Abjiciendis vel Administrandis Sacerdotiis Also the short treatise, De Vitandis Superstitionib
+editor's footnote	note	364 bytes	French, “Dont il sembleroit que ce fust chose superflue de le soliciter par prieres; veu que nous avons accoustumé de soliciter ceux qui ne pensent à nostre aff
+editor's footnote	note	266 bytes	French, “Pourtant ce qui est escrit en la prophetie qu’on attribue à Baruch, combien que l’autheur soit incertain, est tres sainctement dit;”—However, what is w
+editor's footnote	note	118 bytes	French, “il recognoissent le chastiement qu’ils ont merité;”—they acknowledge the punishment which they have deserved.
+editor's footnote	note	250 bytes	The French adds, “Ils voudront qu’on leur oste le mal de teste et des reins, et seront contens qu’on ne touche point a la fievre;”—They would wish to get quit o
+editor's footnote	note	69 bytes	Jer. 2:13 ; Prov. 18:10 ; Joel 2:32 ; Is. 65:24 ; Ps. 91:15 ; 145:18.
+editor's footnote	note	87 bytes	Latin, “prosternere preces” French, “mettent bas leurs prieres;”—lay low their prayers.
+editor's footnote	note	62 bytes	Jer. 42:9 ; Dan. 9:18 ; Jer. 42:2 ; 2 Kings 19:4 ; Ps. 144:2 .
+editor's footnote	note	113 bytes	The French adds, “dequel il n’eust pas autrement esté asseuré;”—of which he would not otherwise have felt assured
+editor's footnote	note	61 bytes	Latin, “Desine a me.” French, “Retire-toy;”—Withdraw from me.
+editor's footnote	note	123 bytes	French, “Confusion que nous avons, ou devons avoir en nousmesmes;”—confusion which we have, or ought to have, in ourselves.
+editor's footnote	note	91 bytes	Heb. 9:11 , 24 ; Rom. 15:30 ; Eph. 6:19 ; Col. 4:3 ; 1 Cor. 12:25 ; 1 Tim. 2:5 ; Eph. 4:3 .
+editor's footnote	note	861 bytes	Erasmus, though stumbling and walking blindfold in clear light, ventures to write thus in a letter to Sadolet, 1530: “Primum, constat nullum esse locum in divin
+editor's footnote	note	135 bytes	Latin, “Pastores;”—French, “ceux qui se disent prelats, curés ou precheurs;”—those who call themselves prelates, curates, or preachers.
+editor's footnote	note	644 bytes	French, “Mais encore qu’ils taschent de laver leur mains d’un si vilain sacrilege, conleur qu’il ne se commet point en leurs serviteurs pour les aider? mesmes o
+editor's footnote	note	92 bytes	The French adds, “et quasi en une fourmiliere de saincts;”—and as it were a swarm of saints.
+editor's footnote	note	159 bytes	“C’est chose trop notoire de quel bourbieu de quelle racaille ils tirent leur saincts.”—It is too notorious out of what mire or rubbish they draw their saints.
+editor's footnote	note	625 bytes	French, “Cette longueur de priere a aujord’hui sa vogue en la Papauté, et procede de cette mesme source; c’est que les uns barbotant force Ave Maria, et reitera
+editor's footnote	note	94 bytes	Calvin translates, “Te expectat Deus, laus in Sion;”—God, the praise in Sion waiteth for thee.
+editor's footnote	note	149 bytes	See Book 1, chap 11 sec 7, 13, on the subject of images in churches. Also Book 4, chap. 4 sec. 8, and chap 5 sec 18, as to the ornaments of churches.
+editor's footnote	note	53 bytes	This clause of the sentence is omitted in the French.
+editor's footnote	note	79 bytes	The French adds, “o˜ on en avoit tousjours usé;”—where it had always been used.
+editor's footnote	note	53 bytes	The whole of this quotation is omitted in the French.
+editor's footnote	note	409 bytes	French, “Mais il adjouste d’autre part, que quand il souvenoit du fruict et de l’edification qu’il avoit recue en oyant chanter à l’Eglise il enclinoit plus à l
+editor's footnote	note	552 bytes	French, “Qui est-ce donc qui se pourra assez esmerveiller d’une audace tant tent et brayent de langue estrange et inconnue, en laquelle le plus souvent ils n’en
+editor's footnote	note	94 bytes	August. in Enchirid. ad Laurent. cap. 116. Chrysost. in an imperfect work. See end of sec. 53.
+editor's footnote	note	372 bytes	“Dont il est facile de juger que ce qui est adjousté en S. Matthieu, et qu’aucuns ent pris pour une septieme requeste, n’est qu’un explication de la sixieme, et
+editor's footnote	note	189 bytes	French, “Quelque mauvaistié qu’ayons eië, ou quelque imperfection ou poureté qui soit en nous;”—whatever wickedness we may have done, or whatever imperfection o
+editor's footnote	note	72 bytes	French, “Telles disciples qu’ils voudront;”—such disciples as they will.
+editor's footnote	note	92 bytes	The French adds, “que Dieu nous a donnee et faite;”—which God has given and performed to us.
+editor's footnote	note	61 bytes	James 1:2 , 14 ; Mt. 4:1 , 3 ; 1 Thess. 3:5 ; 2 Cor. 6:7, 8 .
+editor's footnote	note	174 bytes	Ps. 26:2 ; Gen. 22:1 ; Deut. 8:2 ; 13:3; 1 Cor. 10:13 ; 2 Pet. 11:9 ; 1 Pet. 5:8 . For the sense in which God is said to lead us into temptation, see the end of
+editor's footnote	note	87 bytes	Thus Eck boasts that he had written of predestination to exercise his youthful spirits.
+editor's footnote	note	270 bytes	On predestination, see the pious and very learned obsesrvations of Luther, tom. 1 p. 86, fin., and p. 87, fin. Tom. 3 ad Psal. 22:8 . Tom. 5 in Joann. 117. Also
+editor's footnote	note	505 bytes	French, “Il y en a d’a aucuns, lesquels n’estans exercés en l’Ecriture ne sont dignes d’aucun, credit ne reputation; et toutes fois sont plus hardis et temerair
+editor's footnote	note	110 bytes	August. de Corrept. et Gratia ad Valent. c. 15. Hom. de Bono Perseveran. c. 8. Item, de Verbis Apost. Serm. 8.
+editor's footnote	note	85 bytes	Latin, “a reliquis;” French, “les autre Docteurs anciens;”—the other ancient Doctors.
+editor's footnote	note	64 bytes	This is taken from Auguste Dein Gen. cont. Manich., Lib. 1 c. 3.
+editor's footnote	note	251 bytes	French. “Toutesfois en parlant ainsi, nous n’approuvons pas la reverie des theologiens Papistes touchant la puissance absolue de Dieu;”—still in speaking thus, 
+editor's footnote	note	316 bytes	French, “Si leur constance er fermeté a eté fondee au bon plasir de Dieu, la revolte des diables monstre qu’ils n’ont pas eté retenus, mais plustost delaisse;”—
+editor's footnote	note	56 bytes	The French adds, “ou autre heretique;”—or other heretic.
+editor's footnote	note	31 bytes	See Calvin, De Prædestinatione.
+editor's footnote	note	73 bytes	Latin, “possililitatis profectus.”—French, “l’avancement de possibilité.”
+editor's footnote	note	331 bytes	French, “Mas quelcun dira qu’il nous faut soucier de ce qui peut nous advenir: et quand nous pensons au temps futur que nostre imbecilité nous admoneste d’etre 
+editor's footnote	note	138 bytes	Bernard, in his Sermon on the Nativity, on 2 Cor. 1:3 , quoting the two passages, Rom. 9:18 , and Ezek. 18:32 , admirably reconciles them.
+editor's footnote	note	87 bytes	The French adds, “pour se conformer à notre rudesse;”—in accommodation to our weakness.
+editor's footnote	note	1739 bytes	100 D100 These two assertions—“to our apprehension the will of God is manifold,” and “he mysteriously wills what now seems to be adverse to his will”—uncover a 
+editor's footnote	note	105 bytes	2 Tim. 1:10 ; John 5:24 ; Eph. 2:6 , 19 ; Rom. 7:16-18 ; Heb. 11:1 ; 2 Cor. 5:6 ; Col. 3:3 ; Titus 2:12 .
+editor's footnote	note	128 bytes	rench, “nous recevions un povre salaire de nostre lascheté et paresse;”—we receive a poor salary for our carelessness and sloth.
+editor's footnote	note	119 bytes	Calvin translates. “Quis scit an hominis anima ascendit sursum?”—Who knows whether the soul of man goes upward? &amp;c.
+editor's footnote	note	687 bytes	101 D101 Chiliasm (from a Greek word meaning “a thousand”) arose very early in the history of theology. Some of the early Church Fathers distinguished between a
+editor's footnote	note	1002 bytes	102 D102 Calvin’s chief objection to “Chiliasm” appears to be alleged limitation, to a period of one thousand years, of the reign of Christ with His saints. A s
+editor's footnote	note	288 bytes	French, “La question quant au lieu est bien frivole et sotte: veu que nous savons que l’ame n’a pas ses mesures de long et de large, comme le corps;”—the questi
+editor's footnote	note	122 bytes	Latin, “ut vivificas esse doceat”—French, “pour monstrer quells nous meinent à vie;”—to show that they conduct us to life.
+editor's footnote	note	458 bytes	French, “Et encore quand nous aurons bien profité en cette meditation, se nous faut il entendre que nous sommes encore tout au bas et à la premiere entree, et q
+editor's footnote	note	332 bytes	103 D103 Here Calvin provides a basis for the concept, “the invisible Church.” The term “invisible” refers to the fact that a knowledge of those who are truly m
+editor's footnote	note	545 bytes	104 D104 Here Calvin employs the term, “the visible Church.” (He also calls it “the external Church” in the first sentence of section 3). The expression, “visib
+editor's footnote	note	264 bytes	105 D105 In this section (7), Calvin specifically distinguishes between the invisible and the visible Church (note first line for term “visible”). The invisible
+editor's footnote	note	430 bytes	106 D106 Here Calvin enumerates the criteria by which we are to judge who are to be acknowledged as members of the visible Church. The presence of these criteri
+editor's footnote	note	195 bytes	107 D107 Here Calvin distinguishes between the Church universal (the visible church throughout the world), and local churches and individuals (the visible Churc
+editor's footnote	note	650 bytes	French, “Pour donner exemple, s’il advenoit qu’une Eglise tint que les ames etant separées des corps fussent transferés au ciel incontinent: une autre, sans ose
+editor's footnote	note	92 bytes	French, “La doctrine principale de nostre salut;”—the fundamental doctrine of our salvation.
+editor's footnote	note	168 bytes	French, “Et aussi que demeurant en icelle nous ne troublions point la police ni la discipline;”—and also that, remaining in it, we disturb not its order and dis
+editor's footnote	note	105 bytes	French. “Comme s’ils eussent ete quelques anges de Paradis;”—as if they had bean some angels of Paradise.
+editor's footnote	note	39 bytes	l Cor. 1:11; 3:3; 5:l; 6:7; 9:l; 15:12.
+editor's footnote	note	119 bytes	French, “Toutesfois Sainct Paul recognoissoit entre eux quelque Eglise;”—yet St Paul recognised some church among them.
+editor's footnote	note	63 bytes	See Calvin, Lib. de Cœna Domini; item, Instructio adv. Anabapt.
+editor's footnote	note	527 bytes	108 D108 Calvin here asserts that, in all ages, there has been a Church, and that this Church will continue until the final consummation of all things. This emp
+editor's footnote	note	103 bytes	Latin, “Jactant.”—French, “Ces grands correcteurs leur reprochent;”—those great reformers upbraid them.
+editor's footnote	note	276 bytes	French, “Ce n’a pas eté seulement afin qu’ils deliassent ceux qui si convertiroient alla foy Christienne, et qu’ils fissent cela pour une fois.”—It was not only
+editor's footnote	note	64 bytes	Gen. 37:18 , 28 ; 34:25; 35:22; 38:16; 2 Sam 11:4 , 15 ; xii 13.
+editor's footnote	note	324 bytes	French, “Ils usoient de cette maniere de parler afin de mettre difference autre les fautes privees, et les crimes publiques qui emportoient grands scandales en 
+editor's footnote	note	280 bytes	French, “Secondement, qu’encore il y ait quelques petites fautes, ou en la doctrine ou aux sacremens qu’icelui no laisse point d’avoir sa vigeur.”—Secondly, tha
+editor's footnote	note	410 bytes	109 D109 Calvin here answers the question, “How far into error can the (visible) Church go before it ceases to deserve the name?” Minor defects or trivial error
+editor's footnote	note	42 bytes	See chap. 1 sec. 10; 2 sec. 10; 8 sec. 12.
+editor's footnote	note	150 bytes	French, “Je say bien que les flatteurs du Pape magnifient grandement leur Eglise.” —I know that the flatterers of the Pope greatly extol their Church.
+editor's footnote	note	656 bytes	French, “Or tent s’en faut que cela ait lieu, que mesmes aux gouvernemens terrestres il ne seroit point supportable. Comme il n’y a nul propos de dire que la ty
+editor's footnote	note	503 bytes	French, “Ils savoient que les pretres Levitiques, combien qu’ils fussent indignes d’un tel office, neantmoins pourcequ’ils avoient eté ordonnez de Dieu, et n’et
+editor's footnote	note	320 bytes	French, “Mais nous contendons seulement du vrai etat de l’Eglise, qui emporte communion, tant en doctrine, qu’en tout qui appartient à la profession de notre Ch
+editor's footnote	note	89 bytes	The French adds, “pour le moins en l’Eglise Occidentale;”—at least in the Western Church.
+editor's footnote	note	115 bytes	Latin, “quasi vicariam operam.”—French, “les faisans comme ses lieutenans;”—making them as it were his substitutes.
+editor's footnote	note	58 bytes	See on this subject August. de Doctrina Christiana, Lib. 1
+editor's footnote	note	74 bytes	Latin, “senatum.”—French, “conseil ou consistoire;”—council or consistory.
+editor's footnote	note	55 bytes	Luke 21:15 ; 24:49; Mark 6:15 ; Acts 1 8; 1 Tim. 5:22 .
+editor's footnote	note	94 bytes	See chap. 4 sec. 10, 11; chap. 5 sec. 2, 3. Also Calv. in Acts 6:3 , and Luther, tom. 2 p 374.
+editor's footnote	note	780 bytes	“Pourtant Sainct Hierome apres avoir divisé l’Eglise en cinq ordres, nomme les Eveques, secondement, les Pretres, tiercement, les Diacres, puis les fideles en c
+editor's footnote	note	242 bytes	French, “La cognoissance venoit aux patriarches, qui assemblerent le concile do tous les eveques respondant a leur primauté;”—the cognisance fell to the patriar
+editor's footnote	note	89 bytes	Hieronymus, Epist. ad Nepotianum. It is mentioned also by Chrysostom, Epist. ad Innocent.
+editor's footnote	note	233 bytes	In the Amsterdam edition the words are only “quartam vero advenis pauperibus.” The Geneva edition of 1559, the last published under Calvin’s own eye, has “quart
+editor's footnote	note	155 bytes	The French adds, “Afin qu’il n’all’ nulle part sans compagnie et sans temoin;”— in order that he might not go anywhere without company and without witness.
+editor's footnote	note	123 bytes	French, “On leur ordonnoit de faire la lecture des Pseaumes au pulpitre;”—they ordered them to read the Psalms in the desk.
+editor's footnote	note	74 bytes	The French adds, “Comme de Lecteurs et Acolytes;”—as Readers and Acolytes.
+editor's footnote	note	88 bytes	The whole narrative in Theodoret is most deserving of notice. Theodoret. Lib. 4 cap. 20.
+editor's footnote	note	625 bytes	“C’est un acte semblable, que quand ceux qu’on doit promouvoir se presentent à l’autel, on demande par trois fois en Latin, s’il ést digne; et quelcun qui ne l’
+editor's footnote	note	61 bytes	French. “Ies vices des personnes:”—the faults of individuals.
+editor's footnote	note	78 bytes	See Calv. Adversus Concilium Tridentinum. Also Adversus Theologos Parisienses.
+editor's footnote	note	344 bytes	French, “Pour ce faire, ils alleguent la pretrise souveraine qui etoit en la loy, et la jurisdiction souveraine du grand sacrificateur, que Dieu avoit establie 
+editor's footnote	note	292 bytes	“Car c’est tout ainsi comme si quelcun debattoit que le monde doit etre gouverné par un baillie ou seneschal parce que chacune province a le sien.”—For it is ju
+editor's footnote	note	163 bytes	French, “Ils ont Four leur bouelier, qu’aucuns des Peres les ont ainsi exposees.”—They regard it as their buckler, that some of the Fathers have so expounded th
+editor's footnote	note	144 bytes	The French adds, “Vision receue du Seigneur; Le Seigneur des armees l’a dit,”—A vision received from the Lord; The Lord of hosts hath spoken it.
+editor's footnote	note	20 bytes	Eph. 4:10 , 7 , 11 .
+editor's footnote	note	448 bytes	110 D110 Calvin apparently believed that Paul’s conversion occurred about three years after the death of Christ; that Paul visited Peter in Jerusalem three year
+editor's footnote	note	259 bytes	111 D111 Nero committed suicide in A.D. 68. A subtraction of thirty-seven years brings us back to A.D. 31 for the date of Christ’s death. An addition of twenty 
+editor's footnote	note	499 bytes	112 D112 Paul’s arrival in Rome as a prisoner is put at A.D. 60. If his epistle to the Romans was written four years before, then that book should be dated A.D.
+editor's footnote	note	499 bytes	113 D113 During his first imprisonment in Rome (from A.D. 60 to 62), Paul wrote his epistle to the Philippians. No mention is made of Peter, but there is a stro
+editor's footnote	note	1860 bytes	114 D114 In Paul’s second epistle to Timothy (the last of the Pauline epistles, dated A.D. 67), he states that at his first defense no man stood with him, but t
+editor's footnote	note	1579 bytes	115 D115 Calvin in this one sentence states his conclusions on three distinct questions: (a) Did Peter die in Rome? (b) Was Peter bishop of Rome? (c) If Peter w
+editor's footnote	note	286 bytes	French, “Voila l’Archeveque d’Arles assis pour retracter; si bon lui semble la sentence de l’Eveque Romain. au moins pour juger par dessus lui.”—Here is the Arc
+editor's footnote	note	168 bytes	Nicolas, whose view is given in Decretis 17, Quæst. 3, cap. Nemini; Innocent IX. Quæst. 3, cap. Nemo. Symmachi 9. Quæst. 3, cap. Aliorum. Antherius, ibidem, cap
+editor's footnote	note	362 bytes	Erasmus, in a letter to Steuchus, says, “It may be that in Germany there are persons who do not refrain from blasphemy against God, but the severest punishment 
+editor's footnote	note	102 bytes	John Gerson, who lived at the time, attests that John XXII. openly denied the immortality of the soul.
+editor's footnote	note	144 bytes	The French adds, “Vision receue du Seigneur; Le Seigneur des armees l’a dit,”—A vision received from the Lord; The Lord of hosts hath spoken it.
+editor's footnote	note	585 bytes	116 D116 This section admirably expresses Calvin’s view concerning the centrality of Christ in divine revelation. From Creation to Consummation, Christ is God’s
+editor's footnote	note	510 bytes	117 D117 Although Calvin uses the term “dictated” in connection with this explanation of the manner in which the body of Old Testament Scripture was formed, thi
+editor's footnote	note	731 bytes	118 D118 This assertion that the Spirit of Christ “in a manner dictated words to them” implies at least three ideas: (1) The guidance of the Spirit in the inspi
+editor's footnote	note	495 bytes	119 D119 The expression, “sure and authentic amanuenses,” would at first glance, seem to imply that the apostles were mere scribes and copyists, and that Inspir
+editor's footnote	note	144 bytes	The French adds, “Or, nos adversaires mesmes tiennent tous ceux-la pour heretiques.”—Now, our opponents themselves regard all those as heretics.
+editor's footnote	note	186 bytes	See Calvin’s Antidote to the Articles of Sorbonne; Letter to Sadolet; Necessity of Reforming the Church; Antidote to the Council of Trent; Remarks on the Patern
+editor's footnote	note	511 bytes	French , “Si je tien ici la bride roide pour ne lascher rien facilement à nos adversaires, ce n’est pas a dire pourtant que je prise les conciles anciens moins 
+editor's footnote	note	327 bytes	French, “Toutesfois je ne veux point que ces propos soyent entendus comme si je vouloye amoindrir l’authorité des pasteurs, et induire le peuple à la mepriser l
+editor's footnote	note	166 bytes	French, “entre le siege judicial de Dieu, qui est spirituel, et la justice terrestre des hommes;”—between the judgment-seat of God and the terrestrial justice o
+editor's footnote	note	399 bytes	French, “Et de fait, tel a eté le sens de cette distinction vulgaire qu’on a tenue par toutes les ecoles; que c’est autre choses des jurisdictions humaines et p
+editor's footnote	note	48 bytes	Calvin on the Necessity of Reforming the Church.
+editor's footnote	note	567 bytes	French, “Mais depuis sont survenus d’autres singes, qui ont eu une folle affectation de coudre piece sur piece, et ainsi ont composé tant les accoustremens du p
+editor's footnote	note	224 bytes	There is nothing repugnant to this in the statement of Augustine ( Ep. 119 ), that as the teachers of liberal arts and pursuits, so bishops also were often accu
+editor's footnote	note	1043 bytes	120 D120 It is truly unfortunate that these sound sentiments were not heeded by Calvin himself, when, exactly six years before this definitive edition of 1559 w
+editor's footnote	note	98 bytes	This is stated by Ambrose, Hom. de Basilic. Tradend. See also August. De Fide et Operibus, cap. 4.
+editor's footnote	note	72 bytes	Gregor. Lib. 2 Ep. 5; Lib. 3 Ep. 20; Lib. 2 Ep. 61; Lib. 4 Ep. 31 , 34 .
+editor's footnote	note	51 bytes	Lib. 1 Ep. 43; Lib. 4 Ep. 32 , 34 ; Lib. 7 Ep. 39 .
+editor's footnote	note	289 bytes	French, “J’use de ce mot de Cleres pource qu’il est commun, combien qu’il soit impropre; par lequel j’entens ceux qui ont office et ministere en l’Eglise.”—I us
+editor's footnote	note	66 bytes	Vide Cyril in Joann. cap. 50, et Luther, de Commun. Populi, tom. 2
+editor's footnote	note	41 bytes	Cyprian, Lib. 1 Ep. 2; Lib. 3 Ep. 14, 26.
+editor's footnote	note	59 bytes	Ambros. Lib. 1 Ep. 3; et Oratio habita in Funere Theodosii.
+editor's footnote	note	261 bytes	French, “Il y a danger, que de discipline nous ne tombions en une maniere de gehene, et que de correcteurs nous ne devenions bourreaux.”—There is a danger, lest
+editor's footnote	note	99 bytes	See a lengthened refutation in Calv. Instructio adv. Anabap. Art. 2. See also Calv. de Cœna Domini.
+editor's footnote	note	146 bytes	See a striking instance in Ezra 8:21 , on the appointment of a fast at the river Ahava, on the return of the people from the Babylonish captivity.
+editor's footnote	note	169 bytes	French “Quand il advient quelque different en Chretienté, qui tire grande consequence.”—When some difference on a matter of great consequence takes place in Chr
+editor's footnote	note	46 bytes	1 Sam. 7:6 ; 31:13; 2 Kings 1:12 ; Jonah 3:5 .
+editor's footnote	note	64 bytes	August de Morib. Manich. Lib. 2 c. 13; et cont. Faustum, Lib. 30
+editor's footnote	note	111 bytes	See Chrysostom. Homil. sub. initium Quadragesimæ, where he terms fasting a cure of souls and ablution for sins.
+editor's footnote	note	205 bytes	Bernard in Serm. 1 in die Paschæ, censures, among others, princes also, for longing, during the season of Lent, for the approaching festival of our Lord’s resur
+editor's footnote	note	188 bytes	121 D121 Bernard censures, among others, princes also, for longing, during the season of Lent, for the approaching festival of our Lord’s resurrection, that the
+editor's footnote	note	314 bytes	See Ps. 119:106 . “I have sworn, and I will perform it, that I will keep thy righteous judgments.” Calvin observes on these words, that the vow and oath to keep
+editor's footnote	note	189 bytes	On the vow of celibacy. see Calv. de Fugiend. Micit. sacris, Adv. Theolog. Paris. De Necessit. Reform. Eccl.; Præfat. Antidoti ad Concil. Trident.; Vera Eccles.
+editor's footnote	note	398 bytes	Bernard, de Convers. ad Clericos, cap. 29, inveighing against the crimes of the clergy, says, “Would that those who cannot contain would fear to take the vow of
+editor's footnote	note	102 bytes	Latin, “Catechism.”—French, “En faisant protestation de notre foy;”—in making profession of our faith.
+editor's footnote	note	230 bytes	At the same place, he admirably says, “Dearly beloved, love ease, but with the view of restraining from all worldly delight, and remember that there is no place
+editor's footnote	note	262 bytes	Laurentius, defending his written assertion, that the monks falsely imagined that by means of their profession they merited more than others, admirably conclude
+editor's footnote	note	323 bytes	French, “,Par ce moyen ils attirent farine au moulin et vendent leur sainteté tres cherement; cependant cette glose est cachee et comme ensevelie en peu de livr
+editor's footnote	note	231 bytes	Chrysostom, in his Homily on the words of Paul, “Salute Prisca,” &amp;c., says, “All who retire to monasteries separate themselves from the Church, seeing they 
+editor's footnote	note	183 bytes	See Bernard. ad Guliel. Abbat.. “I wonder why there is so much intemperance among monks. O vanity of vanities! but not more vain than insane.” See also August. 
+editor's footnote	note	483 bytes	122 D122 That is, the sacrament cannot make the promise of God objectively more certain, but it can make our faith in God’s promise subjectively more certain. G
+editor's footnote	note	382 bytes	123 D123 Sometimes this distinction is expressed in terms of the form of administration of the sacraments (the words of institution, the consecration of the ele
+editor's footnote	note	60 bytes	Heb. 9:1-14 ; 1 John 1:7 ; Rev. 1:5 ; Heb. 4:14 ; 5:5; 9:11.
+editor's footnote	note	80 bytes	Rom. 2:25-29 ; 1 Cor. 7:19 ; Gal. 6:15 ; 1 Cor. 10:5 ; 1 Pet. 3:21 ; Col. 2:11 .
+editor's footnote	note	108 bytes	French, “Mais on fera encore un autre argument.”—But there is still another argument which they will employ.
+editor's footnote	note	4091 bytes	124 D124 Perhaps an expansion of Calvin’s thrust will help to illumine this “difficult point.” In Hebrews 9 and 10 it may, at first glance, appear that the writ
+editor's footnote	note	78 bytes	The French adds, “Qu’ils appellent en leur gergon.”—So called in their jargon.
+editor's footnote	note	1165 bytes	125 D125 This expression, opus operatum, in connection with the sacraments, has been defined in the following ways: (a) that the sacraments themselves are cause
+editor's footnote	note	172 bytes	The French adds, “J’appel le acte passif, pourceque Dieu fait le tout, et seulement nous recevons.”—I call the act passive, because God does the whole, and we o
+editor's footnote	note	427 bytes	French, “Nous suivons donc de mot à mot la doctrine de Sainct Paul, en ce que nous disons que le peché est remis au Baptesme, quant à la coulpe, mais qu’il deme
+editor's footnote	note	67 bytes	Latin, “Exsufflatio.”—French, “Le souffle pour conjurer le diable.”
+editor's footnote	note	178 bytes	Vid. Calv. in Epist. de Fugiendis illicitis sacris. Item, Vera Ecclesia Reformandæ Ratio. See also infra, chap. 17 sec. 43. As to the form of baptism, see Cypri
+editor's footnote	note	909 bytes	French, “Au reste, c’est une chose de nulle importance, si on baptise en plongeant du tout dans l’eau celui qui est baptisé, ou en repandant seulement de l’eau 
+editor's footnote	note	3507 bytes	126 D126 In this sentence Calvin makes three assertions: (1) that the mode of baptism is a matter of complete indifference (“not of the least consequence”). (2)
+editor's footnote	note	430 bytes	French, “Car par une mesme raison il faudroit dire, le service meslé que dresserent en Samarie ceux qui etoient la envoyés d’Orient, eut eté agreable a Dieu, ve
+editor's footnote	note	1189 bytes	The French from the beginning of the chapter is as follows:—“Or d’autant que nous voyons l’observation que nous tenons de baptiser les petits enfans etre impugn
+editor's footnote	note	802 bytes	127 D127 The “analogy of faith,” to which we are to “bring every interpretation of Scripture,” refers to the ultimate rule or standard of interpretation, the fi
+editor's footnote	note	261 bytes	128 D128 This strong assertion must be seen in its relationship to the question of the salvation of elect infants dying in infancy. If they are to have remissio
+editor's footnote	note	539 bytes	129 D129 It is instructive to take not of Calvin’s careful restraint and sense of proportion in the previous few sentences. With respect to the question of the 
+editor's footnote	note	1660 bytes	130 D130 In connection with the sacraments, there are three aspects which must be carefully distinguished: 1. the spiritual reality which is signified (what Cal
+editor's footnote	note	249 bytes	See Calv. Cont. Articulos Theologorum Paris. Art 4. Item, Ad. Concil. Trident. Item, Vera Eccles. Reformand. Ratio, et in Append. Nævus in August. Lib. 1 ad Bon
+editor's footnote	note	509 bytes	French, “Combien qu’il me fasche d’amasser tant de reveries frivoles que pourront ennuyer les lecteurs, toutesfeis pource que Servet, se meslant aussi de mesdir
+editor's footnote	note	109 bytes	See August. Hom. in Joann. 31 et 40, &amp;c., Chrysost. Hom. ad Popul. Antioch., 60, 61; et Hom. in Marc. 89.
+editor's footnote	note	1418 bytes	131 D131 The degree to which Calvin’s words concerning the Roman Catholic dogma of transubstantiation have become obsolete, during the 390 years following this 
+editor's footnote	note	188 bytes	Compare together Ambrose on those who are initiated in the sacraments (cap. 9) and Augustine, De Trinitate, Lib. 3 cap. 10, and it will be seen that both are op
+editor's footnote	note	1901 bytes	132 D132 Calvin, though tactfully refraining from any mention of Luther (whom he held in high regard), obviously has reference to that view of the presence of C
+editor's footnote	note	46 bytes	Gen. 17:10 ; Exod. 12:11 ; 17:6; 1 Cor. 10:4 .
+editor's footnote	note	40 bytes	Exod. 3:2 ; Psalm 84:8 ; 42:3; Mt 3:16 .
+editor's footnote	note	284 bytes	French, “Certes si on ne veut abolir toute raison, on ne peut dire que ce qui est commun à tous sacremens n’appartienne aussi à la Cene.”—Certainly if we would 
+editor's footnote	note	145 bytes	The French adds, “Je di si Jesus Christ est enclos sous chacun des deux signes.”—I mean, if Jesus Christ is included under each of the two signs.
+editor's footnote	note	197 bytes	The French adds, “En lisant nos ecrits, on verra incontinent combien ces calomnies sont vilaines et puantes.”—In reading our writings, it will at once be seen h
+editor's footnote	note	196 bytes	Thus Augustine, speaking of certain persons, says: “It is strange, when they are confined in their straits, over what precipices they plunge themselves, fearing
+editor's footnote	note	298 bytes	That the dogma of those who place the body of Christ in the bread is not aided by passages from Augustine, or the authority of Scripture, is proved here and sec
+editor's footnote	note	166 bytes	The French adds, “Car la figure seroit fausse, si ce qu’elle represente n’estoit vray.”—For the figure would be false, if the thing which it represents were not
+editor's footnote	note	151 bytes	The French adds, “veu qu’ils confessent que nous l’avons aussi bien sans la Cene;”—seeing they acknowledge that we have him as well without the Supper.
+editor's footnote	note	178 bytes	French, “Il faisoit Jesus Christ homme en tant qu’il est Dieu, et Dieu en tant qu’il est homme.”—He made Jesus Christ man, in so far as he is God, and God in so
+editor's footnote	note	70 bytes	See Bernard in Cant. Serm. 74, 75; et Trad. de Gratia et Liber. Arbit.
+editor's footnote	note	69 bytes	See August. Cont. Liter. Petiliani, Lib. 2 c. 47, et Tract. in Joann.
+editor's footnote	note	85 bytes	See Calvin de Cœna Domini. Item, Adv. Theol. Paris. Item, Vera Eceles. Reform. Ratio.
+editor's footnote	note	117 bytes	133 D133 The reference is to Gregory I (frequently referred to as Gregory the Great), bishop of Rome from 590 to 604.
+editor's footnote	note	140 bytes	Vid. Calv. Ep. de Fugiend. Illic. Sacris. Item, De Sacerdotiis Eccles. Papal. Item, De Necessitate Reform. Eccles. Item, Epist. ad Sadoletum
+editor's footnote	note	186 bytes	The French adds, “qui ont parlé un petit plus passablement que leur successeurs qui sont venus depuis;”—who have spoken somewhat more tolerably than their succe
+editor's footnote	note	61 bytes	Heb. 5:5-10 ; 7:17; 21; 9:11; 10:21; Ps. 110:4 ; Gen. 14:18 .
+editor's footnote	note	36 bytes	Heb. 9:11 , 12 , 26 ; 10:10, 14, 16.
+editor's footnote	note	752 bytes	The French of this sentence is, “Car combien que ceux qui sont les plus effrontées entre les Papistes fassent un bouclier des anciens docteurs, abusant fausseme
+editor's footnote	note	62 bytes	This last sentence forms, in the French, the first of sec. 11.
+editor's footnote	note	152 bytes	French, “n’ancun authorite humaine, ne longeur de temps, ne toutes autres apparences;”—no human authority, no length of time, nor any other appearances.
+editor's footnote	note	121 bytes	The French explains, “c’est à dire, sous le nom de la parole de Dieu;”—that is to say, under the name of the word of God.
+editor's footnote	note	67 bytes	Exod. 16:13-15 ; 17:6; Num. 20:8 ., 21:9; 1 Cor. 10:4 ; John 3:14 .
+editor's footnote	note	66 bytes	1 John 2:18 ; 1 Pet. 1:20 ; Luke 10:22 , Heb. 1:1 ; 1 Cor. 13:12 .
+editor's footnote	note	78 bytes	French, “deschiree, decouppee, departie, brisee, divisee, et toute difformee.”
+editor's footnote	note	51 bytes	Ambros. de iis qui init. Mysteriis et de Sacrament.
+editor's footnote	note	97 bytes	Calv. adv. Concil. Trident. Præfat. in Catechis. Latinum. Viret. de Adulter. Sacrament. cap. 2-5.
+editor's footnote	note	183 bytes	French, “en laquelle toutesfois ils n’ont rien semblable a eux, sinon une folle et perverse singerie”;—in which, however, they have nothing like them but a fool
+editor's footnote	note	78 bytes	The French adds, “du ternps de Sainct Augustin;” —of the time of St Augustine.
+editor's footnote	note	71 bytes	De Consecr. Dist. 5, Concil. Aurel. cap. Ut Jejuni de Consecr. Dist. 5.
+editor's footnote	note	123 bytes	French, “Auquel ils font semblant de porter une reverence inviolable;”—for whom they pretend to have an inviolable respect.
+editor's footnote	note	78 bytes	August. Quæst. Vet. Test. Lib. 3 De Bapt. Parvul. De Bapt. Cont. Donat. Lib. 5
+editor's footnote	note	952 bytes	The French adds, “Car, comme nous avoos assez declairé ci dessus, la promesse des clefs n’appartient nullement a faire quelque estat particulier d’absolution, m
+editor's footnote	note	114 bytes	Sent. Lib. 4 Dist. 14, cap. 1. De Pœnit. Dist. 1, cap. 2. August. Dictum in Decret. 15. Quæst. 1, Cap. Fermissime.
+editor's footnote	note	58 bytes	John 9:6 ; Mt. 9:29 ; Luke 18:42 ; Acts 3:6 ; 5:16; 19:12.
+editor's footnote	note	473 bytes	134 D134 This distinction in no way calls into question the value of the various sacraments which, in distinct ages, God has been pleased to appoint. To the con
+editor's footnote	note	151 bytes	The French adds, “Comment accorderont ils cela avec ce qu’ils veulent faire accroire”?—How will they reconcile this with what they wish to be believed?
+editor's footnote	note	42 bytes	Isa. 11:2 ; Ezek. 1:20 ; Rom. 1:4 , 8 :15.
+editor's footnote	note	92 bytes	Isidor. Lib. 7, Etymolog, allegatim, cap. Cleros. Dist. 21, 33, cap. Lector, et cap. Ostier.
+editor's footnote	note	77 bytes	John 2:15 ; 10:7; Luke 4:17 ; Mt. 7:33 ; John 8:12 ; 13:5; Mt. 26:26 ; 27:50.
+editor's footnote	note	219 bytes	The French adds, “Voila comment la tonsure n’estoit point une chose speciale aux clercs, mais estoit en usance quasi à tous.”—See how the tonsure was not a thin
+editor's footnote	note	165 bytes	French, “Ills ont eto trompé du mot de Sacrement qui est en la translation commune.”—They have been misled by the word Sacrament, which is in the common transla
+editor's footnote	note	189 bytes	Lat. Lib. 4 Dist. 26, cap. 6, et in Decret 27, Quæst. 2, cap. Quæ Societas, etc. Gloss. eod. c. Lex Divina. Ibid. Lib. 4 Dist. 33, cap. 2. et in Decret. 33, Quæ
+editor's footnote	note	96 bytes	Exod. 22:8, 9 ; Ps. 82:1 , 6 ; John 10:34, 35 ; Deut. 1:16, 17 ; 2 Chron. 19:6, 7 ; Prov. 8:15 .
+editor's footnote	note	156 bytes	French, “Ceux qui voudroyent que les hommes vesquissent pesle mesle comme rats en paille;”—Those who would have men to live pell-mell like rats among straw.
+editor's footnote	note	641 bytes	French “On conte trois especes de regime civil: c’est assavoir Monarchie, qui est la domination d’un seul, soit qu’on le nomme Roy ou Due, ou autrement: Aristoe
+editor's footnote	note	56 bytes	Exod. 20:13 ; Deut. 5:17 ; Mt. 5:21 ; Isa. 11:9 ; 65:25.
+editor's footnote	note	876 bytes	The French adds, “Pourtant il est facile de conclure, qu’en cette partie il ne sont sujets a la loy commune; par laquelle combien que le Seigneur lie les mains 
+editor's footnote	note	68 bytes	Exod 2:12 ; Acts 7:21 ; Exod. 32:26 ; 1 Kings 2:5 ; Ps 101:8 ; 45:8.
+editor's footnote	note	49 bytes	Prov 16:12 ; 20:26; 25:4, 5; 17:15; 17:14; 24:24.
+editor's footnote	note	89 bytes	Acts 22 , 24 :12; 16:37; 22:25; 25:10; Lev. 19:18 ; Mt. 5:39 ; Deut. 32:35 ; Rom. 12:19 .
+editor's footnote	note	55 bytes	Job 34:30 ; Hos. 13:11 ; Isa. 3:4 ; 10:5: Deut. 28:29 .
+editor's footnote	note	56 bytes	Dan. 9:7 ; Prov. 21:1 ; Psalm 82:1 ; 2:10; Isaiah 10:1 .
+editor's footnote	note	271 bytes	The French adds, “Car les uns les faisoyent estans asseurez qu’ils faisoyent bien, et les autres par autre zele (comme nous avons dit).”—For the former acted un
+editor's footnote	note	284 bytes	* The One Hundred Aphorisms, with the various Tables and Indices, which must greatly facilitate reference, and enhance the utility and value of the present tran
+publisher boilerplate	Title Page	10 bytes	Title Page
+STILL IN COPYRIGHT — excluded on licence grounds	Introduction (by John Murray, d. 1975)	166 bytes	Modern editorial introduction written for a 20th-century reprint; not covered by the work-level public-domain statement, which describes Beveridge's 1845 transl
+CCEL reference apparatus	Table I. Of Passages from the Holy Scriptures	45 bytes	Table I. Of Passages from the Holy Scriptures
+CCEL reference apparatus	Table II. Of Hebrew Words Explained.	36 bytes	Table II. Of Hebrew Words Explained.
+CCEL reference apparatus	Table III. Of Greek Words Explained.	36 bytes	Table III. Of Greek Words Explained.
+CCEL reference apparatus	Index to Authors Quoted	23 bytes	Index to Authors Quoted
+CCEL reference apparatus	General Index of Chapters.	26 bytes	General Index of Chapters.
+chapter heading (kept in the title)	BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR / CHAPTER 1. - THE KNOWLEDGE OF GOD AND OF OURSELVES MUTUALLY CONNECTED. —NATURE OF THE CONNECTION.	84 bytes	THE KNOWLEDGE OF GOD AND OF OURSELVES MUTUALLY CONNECTED. —NATURE OF THE CONNECTION.
+chapter heading (kept in the title)	BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR / CHAPTER 2. - WHAT IT IS TO KNOW GOD,—TENDENCY OF THIS KNOWLEDGE.	51 bytes	WHAT IT IS TO KNOW GOD,—TENDENCY OF THIS KNOWLEDGE.
+chapter heading (kept in the title)	BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR / CHAPTER 3. - THE KNOWLEDGE OF GOD NATURALLY IMPLANTED IN THE HUMAN MIND.	59 bytes	THE KNOWLEDGE OF GOD NATURALLY IMPLANTED IN THE HUMAN MIND.
+chapter heading (kept in the title)	BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR / CHAPTER 4. - THE KNOWLEDGE OF GOD STIFLED OR CORRUPTED, IGNORANTLY OR MALICIOUSLY.	69 bytes	THE KNOWLEDGE OF GOD STIFLED OR CORRUPTED, IGNORANTLY OR MALICIOUSLY.
+chapter heading (kept in the title)	BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR / CHAPTER 5. - THE KNOWLEDGE OF GOD CONSPICUOUS IN THE CREATION, AND CONTINUAL GOVERNMENT OF THE WORLD.	88 bytes	THE KNOWLEDGE OF GOD CONSPICUOUS IN THE CREATION, AND CONTINUAL GOVERNMENT OF THE WORLD.
+chapter heading (kept in the title)	BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR / CHAPTER 5. - THE KNOWLEDGE OF GOD CONSPICUOUS IN THE CREATION, AND CONTINUAL GOVERNMENT OF THE WORLD.	568 bytes	This chapter consists of two parts: 1. The former, which occupies the first ten sections, divides all the works of God into two great classes, and elucidates th
+chapter heading (kept in the title)	BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR / CHAPTER 6. - THE NEED OF SCRIPTURE, AS A GUIDE AND TEACHER, IN COMING TO GOD AS A CREATOR	77 bytes	THE NEED OF SCRIPTURE, AS A GUIDE AND TEACHER, IN COMING TO GOD AS A CREATOR.
+chapter heading (kept in the title)	BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR / CHAPTER 7. - THE TESTIMONY OF THE SPIRIT NECESSARY TO GIVE FULL AUTHORITY TO SCRIPTURE. THE IMPIETY OF PRETENDING THAT THE CREDIBILITY OF SCRIPTURE DEPENDS ON THE JUDGMENT OF THE CHURCH.	173 bytes	THE TESTIMONY OF THE SPIRIT NECESSARY TO GIVE FULL AUTHORITY TO SCRIPTURE. THE IMPIETY OF PRETENDING THAT THE CREDIBILITY OF SCRIPTURE DEPENDS ON THE JUDGMENT O
+chapter heading (kept in the title)	BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR / CHAPTER 8. - THE CREDIBILITY OF SCRIPTURE SUFFICIENTLY PROVED IN SO FAR AS NATURAL REASON ADMITS.	84 bytes	THE CREDIBILITY OF SCRIPTURE SUFFICIENTLY PROVED IN SO FAR AS NATURAL REASON ADMITS.
+chapter heading (kept in the title)	BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR / CHAPTER 8. - THE CREDIBILITY OF SCRIPTURE SUFFICIENTLY PROVED IN SO FAR AS NATURAL REASON ADMITS.	1375 bytes	This chapter consists of four parts. The first contains certain general proofs which may be easily gathered out of the writings both of the Old and New Testamen
+chapter heading (kept in the title)	BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR / CHAPTER 9. - ALL THE PRINCIPLES OF PIETY SUBVERTED BY FANATICS, WHO SUBSTITUTE REVELATIONS FOR SCRIPTURE.	92 bytes	ALL THE PRINCIPLES OF PIETY SUBVERTED BY FANATICS, WHO SUBSTITUTE REVELATIONS FOR SCRIPTURE.
+chapter heading (kept in the title)	BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR / CHAPTER 10. - IN SCRIPTURE, THE TRUE GOD OPPOSED, EXCLUSIVELY, TO ALL THE GODS OF THE HEATHEN.	80 bytes	IN SCRIPTURE, THE TRUE GOD OPPOSED, EXCLUSIVELY, TO ALL THE GODS OF THE HEATHEN.
+chapter heading (kept in the title)	BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR / CHAPTER 11. - IMPIETY OF ATTRIBUTING A VISIBLE FORM TO GOD.—THE SETTING UP OF IDOLS A DEFECTION FROM THE TRUE GOD.	100 bytes	IMPIETY OF ATTRIBUTING A VISIBLE FORM TO GOD.—THE SETTING UP OF IDOLS A DEFECTION FROM THE TRUE GOD.
+chapter heading (kept in the title)	BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR / CHAPTER 11. - IMPIETY OF ATTRIBUTING A VISIBLE FORM TO GOD.—THE SETTING UP OF IDOLS A DEFECTION FROM THE TRUE GOD.	965 bytes	There are three leading divisions in this chapter. The first contains a refutation of those who ascribe a visible form to God (s. 1 and 2), with an answer to th
+chapter heading (kept in the title)	BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR / CHAPTER 12. - GOD DISTINGUISHED FROM IDOLS, THAT HE MAY BE THE EXCLUSIVE OBJECT OF WORSHIP.	77 bytes	GOD DISTINGUISHED FROM IDOLS, THAT HE MAY BE THE EXCLUSIVE OBJECT OF WORSHIP.
+chapter heading (kept in the title)	BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR / CHAPTER 13. - THE UNITY OF THE DIVINE ESSENCE IN THREE PERSONS TAUGHT, IN SCRIPTURE, FROM THE FOUNDATION OF THE WORLD.	104 bytes	THE UNITY OF THE DIVINE ESSENCE IN THREE PERSONS TAUGHT, IN SCRIPTURE, FROM THE FOUNDATION OF THE WORLD.
+chapter heading (kept in the title)	BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR / CHAPTER 13. - THE UNITY OF THE DIVINE ESSENCE IN THREE PERSONS TAUGHT, IN SCRIPTURE, FROM THE FOUNDATION OF THE WORLD.	644 bytes	This chapter consists of two parts. The former delivers the orthodox doctrine concerning the Holy Trinity. This occupies from sec. 1-21, and may be divided into
+chapter heading (kept in the title)	BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR / CHAPTER 14. - IN THE CREATION OF THE WORLD, AND ALL THINGS IN IT, THE TRUE GOD DISTINGUISHED BY CERTAIN MARKS FROM FICTITIOUS GODS.	117 bytes	IN THE CREATION OF THE WORLD, AND ALL THINGS IN IT, THE TRUE GOD DISTINGUISHED BY CERTAIN MARKS FROM FICTITIOUS GODS.
+chapter heading (kept in the title)	BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR / CHAPTER 14. - IN THE CREATION OF THE WORLD, AND ALL THINGS IN IT, THE TRUE GOD DISTINGUISHED BY CERTAIN MARKS FROM FICTITIOUS GODS.	330 bytes	In this chapter commences the second part of Book First—viz. the knowledge of man. Certain things premised. I. The creation of the world generally (s. 1 and 2).
+chapter heading (kept in the title)	BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR / CHAPTER 15. - STATE IN WHICH MAN WAS CREATED. THE FACULTIES OF THE SOUL—THE IMAGE OF GOD—FREE WILL—ORIGINAL RIGHTEOUSNESS	108 bytes	STATE IN WHICH MAN WAS CREATED. THE FACULTIES OF THE SOUL—THE IMAGE OF GOD—FREE WILL—ORIGINAL RIGHTEOUSNESS.
+chapter heading (kept in the title)	BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR / CHAPTER 15. - STATE IN WHICH MAN WAS CREATED. THE FACULTIES OF THE SOUL—THE IMAGE OF GOD—FREE WILL—ORIGINAL RIGHTEOUSNESS	659 bytes	This chapter is thus divided:—I. The necessary rules to be observed in considering the state of man before the fall being laid down, the point first considered 
+chapter heading (kept in the title)	BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR / CHAPTER 16. - THE WORLD, CREATED BY GOD, STILL CHERISHED AND PROTECTED BY HIM. EACH AND ALL OF ITS PARTS GOVERNED BY HIS PROVIDENCE.	118 bytes	THE WORLD, CREATED BY GOD, STILL CHERISHED AND PROTECTED BY HIM. EACH AND ALL OF ITS PARTS GOVERNED BY HIS PROVIDENCE.
+chapter heading (kept in the title)	BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR / CHAPTER 16. - THE WORLD, CREATED BY GOD, STILL CHERISHED AND PROTECTED BY HIM. EACH AND ALL OF ITS PARTS GOVERNED BY HIS PROVIDENCE.	673 bytes	The divisions of this chapter are, I. The doctrine of the special providence of God over all the creatures, singly and collectively, as opposed to the dreams of
+chapter heading (kept in the title)	BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR / CHAPTER 17. - USE TO BE MADE OF THE DOCTRINE OF PROVIDENCE.	45 bytes	USE TO BE MADE OF THE DOCTRINE OF PROVIDENCE.
+chapter heading (kept in the title)	BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR / CHAPTER 17. - USE TO BE MADE OF THE DOCTRINE OF PROVIDENCE.	620 bytes	This chapter may be conveniently divided into two parts:—I. A general explanation is given of the doctrine of Divine Providence, in so far as conducive to the s
+chapter heading (kept in the title)	BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR / CHAPTER 17. - USE TO BE MADE OF THE DOCTRINE OF PROVIDENCE.	153 bytes	II. A solution of two objections from passages of Scripture, which attribute repentance to God, and speak of something like an abrogation of his decrees.
+chapter heading (kept in the title)	BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR / CHAPTER 18. - THE INSTRUMENTALITY OF THE WICKED EMPLOYED BY GOD, WHILE HE CONTINUES FREE FROM EVERY TAINT	92 bytes	THE INSTRUMENTALITY OF THE WICKED EMPLOYED BY GOD, WHILE HE CONTINUES FREE FROM EVERY TAINT.
+chapter heading (kept in the title)	BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR / CHAPTER 18. - THE INSTRUMENTALITY OF THE WICKED EMPLOYED BY GOD, WHILE HE CONTINUES FREE FROM EVERY TAINT	951 bytes	This last chapter of the First Book consists of three parts: I. It having been said above that God bends all the reprobate, and even Satan himself, at his will,
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 1. - THROUGH THE FALL AND REVOLT OF ADAM, THE WHOLE HUMAN RACE MADE ACCURSED AND DEGENERATE. OF ORIGINAL SIN.	104 bytes	THROUGH THE FALL AND REVOLT OF ADAM, THE WHOLE HUMAN RACE MADE ACCURSED AND DEGENERATE. OF ORIGINAL SIN.
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 1. - THROUGH THE FALL AND REVOLT OF ADAM, THE WHOLE HUMAN RACE MADE ACCURSED AND DEGENERATE. OF ORIGINAL SIN.	357 bytes	I. How necessary the knowledge of ourselves is, its nature, the danger of mistake, its leading parts, sect. 1, 2, 3. II. The causes of Adam’s fearful fall, sect
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 2. - MAN NOW DEPRIVED OF FREEDOM OF WILL, AND MISERABLY ENSLAVED.	60 bytes	MAN NOW DEPRIVED OF FREEDOM OF WILL, AND MISERABLY ENSLAVED.
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 2. - MAN NOW DEPRIVED OF FREEDOM OF WILL, AND MISERABLY ENSLAVED.	523 bytes	Having in the first chapter treated of the fall of man, and the corruption of the human race, it becomes necessary to inquire, Whether the sons of Adam are depr
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 3. - EVERY THING PROCEEDING FROM THE CORRUPT NATURE OF MAN DAMNABLE.	63 bytes	EVERY THING PROCEEDING FROM THE CORRUPT NATURE OF MAN DAMNABLE.
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 3. - EVERY THING PROCEEDING FROM THE CORRUPT NATURE OF MAN DAMNABLE.	758 bytes	The principal matters in this chapter are—I. A recapitulation of the former chapter, proving, from passages of Scriptures that the intellect and will of man are
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 4. - HOW GOD WORKS IN THE HEARTS OF MEN.	35 bytes	HOW GOD WORKS IN THE HEARTS OF MEN.
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 4. - HOW GOD WORKS IN THE HEARTS OF MEN.	343 bytes	The leading points discussed in this chapter are, I. Whether in bad actions anything is to be attributed to God; if anything, how much. Also, what is to be attr
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 5. - THE ARGUMENTS USUALLY ALLEGED IN SUPPORT OF FREE WILL REFUTED.	62 bytes	THE ARGUMENTS USUALLY ALLEGED IN SUPPORT OF FREE WILL REFUTED.
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 5. - THE ARGUMENTS USUALLY ALLEGED IN SUPPORT OF FREE WILL REFUTED.	384 bytes	Objections reduced to three principal heads:—I. Four absurdities advanced by the opponents of the orthodox doctrine concerning the slavery of the will, stated a
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 6. - REDEMPTION FOR MAN LOST TO BE SOUGHT IN CHRIST.	47 bytes	REDEMPTION FOR MAN LOST TO BE SOUGHT IN CHRIST.
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 6. - REDEMPTION FOR MAN LOST TO BE SOUGHT IN CHRIST.	548 bytes	The parts of this chapter are, I. The excellence of the doctrine of Christ the Redeemer—a doctrine always entertained by the Church, sec. 1. II. Christ, the Med
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 7. - THE LAW GIVEN, NOT TO RETAIN A PEOPLE FOR ITSELF, BUT TO KEEP ALIVE THE HOPE OF SALVATION IN CHRIST UNTIL HIS ADVENT.	117 bytes	THE LAW GIVEN, NOT TO RETAIN A PEOPLE FOR ITSELF, BUT TO KEEP ALIVE THE HOPE OF SALVATION IN CHRIST UNTIL HIS ADVENT.
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 7. - THE LAW GIVEN, NOT TO RETAIN A PEOPLE FOR ITSELF, BUT TO KEEP ALIVE THE HOPE OF SALVATION IN CHRIST UNTIL HIS ADVENT.	468 bytes	The divisions of this chapter are, I. The Moral and Ceremonial Law a schoolmaster to bring us to Christ, sec. 1, 2. II. This true of the Moral Law, especially i
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 8. - EXPOSITION OF THE MORAL LAW.	28 bytes	EXPOSITION OF THE MORAL LAW.
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 8. - EXPOSITION OF THE MORAL LAW.	481 bytes	This chapter consists of four parts. I. Some general observations necessary for the understanding of the subject are made by way of preface, sec. 1–5. II. Three
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 9. - CHRIST, THOUGH KNOWN TO THE JEWS UNDER THE LAW, YET ONLY MANIFESTED UNDER THE GOSPEL.	85 bytes	CHRIST, THOUGH KNOWN TO THE JEWS UNDER THE LAW, YET ONLY MANIFESTED UNDER THE GOSPEL.
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 9. - CHRIST, THOUGH KNOWN TO THE JEWS UNDER THE LAW, YET ONLY MANIFESTED UNDER THE GOSPEL.	658 bytes	There are three principal heads in this chapter. I. Preparatory to a consideration of the knowledge of Christ, and the benefits procured by him; the 1st and 2nd
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 10. - THE RESEMBLANCE BETWEEN THE OLD TESTAMENT AND THE NEW.	54 bytes	THE RESEMBLANCE BETWEEN THE OLD TESTAMENT AND THE NEW.
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 10. - THE RESEMBLANCE BETWEEN THE OLD TESTAMENT AND THE NEW.	806 bytes	This chapter consists of four parts. I. The sum, utility, and necessity of this discussion, sec. 1. II. A proof that, generally speaking, the old and new dispen
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 11. - THE DIFFERENCE BETWEEN THE TWO TESTAMENTS.	42 bytes	THE DIFFERENCE BETWEEN THE TWO TESTAMENTS.
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 11. - THE DIFFERENCE BETWEEN THE TWO TESTAMENTS.	463 bytes	This chapter consists principally of three parts. I. Five points of difference between the Old and the New Testament, sec. 1–11. II. The last of these points be
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 12. - CHRIST, TO PERFORM THE OFFICE OF MEDIATOR, BEHOVED TO BECOME MAN.	65 bytes	CHRIST, TO PERFORM THE OFFICE OF MEDIATOR, BEHOVED TO BECOME MAN.
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 12. - CHRIST, TO PERFORM THE OFFICE OF MEDIATOR, BEHOVED TO BECOME MAN.	264 bytes	The two divisions of this chapter are, I. The reasons why our Mediator behoved to be very God, and to become man, sec. 1–3. II. Disposal of various objections b
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 13. - CHRIST CLOTHED WITH THE TRUE SUBSTANCE OF HUMAN NATURE.	55 bytes	CHRIST CLOTHED WITH THE TRUE SUBSTANCE OF HUMAN NATURE.
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 13. - CHRIST CLOTHED WITH THE TRUE SUBSTANCE OF HUMAN NATURE.	248 bytes	The heads of this chapter are, I. The orthodoxy doctrine as to the true humanity of our Saviour, proved from many passages of Scripture, sec. 1. II. Refutation 
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 14. - HOW TWO NATURES CONSTITUTE THE PERSON OF THE MEDIATOR.	54 bytes	HOW TWO NATURES CONSTITUTE THE PERSON OF THE MEDIATOR.
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 14. - HOW TWO NATURES CONSTITUTE THE PERSON OF THE MEDIATOR.	277 bytes	This chapter contains two principal heads: I. A brief exposition of the doctrine of Christ’s two natures in one person, sec. 1–4. II. A refutation of the heresi
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 15. - THREE THINGS BRIEFLY TO BE REGARDED IN CHRIST—VIZ. HIS OFFICES OF PROPHET, KING, AND PRIEST.	92 bytes	THREE THINGS BRIEFLY TO BE REGARDED IN CHRIST—VIZ. HIS OFFICES OF PROPHET, KING, AND PRIEST.
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 15. - THREE THINGS BRIEFLY TO BE REGARDED IN CHRIST—VIZ. HIS OFFICES OF PROPHET, KING, AND PRIEST.	270 bytes	The principal parts of this chapter are—I. Of the Prophetical Office of Christ, its dignity and use, sec. 1, 2. II. The nature of the Kingly power of Christ, an
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 16. - HOW CHRIST PERFORMED THE OFFICE OF REDEEMER IN PROCURING OUR SALVATION. THE DEATH, RESURRECTION, AND ASCENSION OF CHRIST.	121 bytes	HOW CHRIST PERFORMED THE OFFICE OF REDEEMER IN PROCURING OUR SALVATION. THE DEATH, RESURRECTION, AND ASCENSION OF CHRIST.
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 16. - HOW CHRIST PERFORMED THE OFFICE OF REDEEMER IN PROCURING OUR SALVATION. THE DEATH, RESURRECTION, AND ASCENSION OF CHRIST.	687 bytes	This chapter contains four leading heads—I. A general consideration of the whole subject, including a discussion of a necessary question concerning the justice 
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 17. - CHRIST RIGHTLY AND PROPERLY SAID TO HAVE MERITED GRACE AND SALVATION FOR US.	76 bytes	CHRIST RIGHTLY AND PROPERLY SAID TO HAVE MERITED GRACE AND SALVATION FOR US.
+chapter heading (kept in the title)	BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL. / CHAPTER 17. - CHRIST RIGHTLY AND PROPERLY SAID TO HAVE MERITED GRACE AND SALVATION FOR US.	444 bytes	The three leading divisions of this chapter are,—I. A proof from reason and from Scripture that the grace of God and the merit of Christ (the prince and author 
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 1. - THE BENEFITS OF CHRIST MADE AVAILABLE TO US BY THE SECRET OPERATION OF THE SPIRIT.	82 bytes	THE BENEFITS OF CHRIST MADE AVAILABLE TO US BY THE SECRET OPERATION OF THE SPIRIT.
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 1. - THE BENEFITS OF CHRIST MADE AVAILABLE TO US BY THE SECRET OPERATION OF THE SPIRIT.	485 bytes	The three divisions of this chapter are,—I. The secret operation of the Holy Spirit, which seals our salvation, should be considered first in Christ the Mediato
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 2. - OF FAITH. THE DEFINITION OF IT. ITS PECULIAR PROPERTIES.	56 bytes	OF FAITH. THE DEFINITION OF IT. ITS PECULIAR PROPERTIES.
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 2. - OF FAITH. THE DEFINITION OF IT. ITS PECULIAR PROPERTIES.	532 bytes	This chapter consists of three principal parts.—I. A brief explanation of certain matters pertaining to the doctrine of Faith, sec. 1-14. First, of the object o
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 3. - REGENERATION BY FAITH. OF REPENTANCE.	37 bytes	REGENERATION BY FAITH. OF REPENTANCE.
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 3. - REGENERATION BY FAITH. OF REPENTANCE.	638 bytes	This chapter is divided into five parts. I. The title of the chapter seems to promise a treatise on Faith, but the only subject here considered is Repentance, t
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 4. - PENITENCE, AS EXPLAINED IN THE SOPHISTICAL JARGON OF THE SCHOOLMEN, WIDELY DIFFERENT FROM THE PURITY REQUIRED BY THE GOSPEL. OF CONFESSION AND SATISFACTION.	156 bytes	PENITENCE, AS EXPLAINED IN THE SOPHISTICAL JARGON OF THE SCHOOLMEN, WIDELY DIFFERENT FROM THE PURITY REQUIRED BY THE GOSPEL. OF CONFESSION AND SATISFACTION.
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 4. - PENITENCE, AS EXPLAINED IN THE SOPHISTICAL JARGON OF THE SCHOOLMEN, WIDELY DIFFERENT FROM THE PURITY REQUIRED BY THE GOSPEL. OF CONFESSION AND SATISFACTION.	404 bytes	The divisions of this chapter are,—I. The orthodox doctrine of repentance being already expounded, the false doctrine is refuted in the present chapter; a gener
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 5. - OF THE MODES OF SUPPLEMENTING SATISFACTION—VIZ. INDULGENCES AND PURGATORY.	74 bytes	OF THE MODES OF SUPPLEMENTING SATISFACTION—VIZ. INDULGENCES AND PURGATORY.
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 5. - OF THE MODES OF SUPPLEMENTING SATISFACTION—VIZ. INDULGENCES AND PURGATORY.	545 bytes	Divisions of the chapter,—I. A summary description and refutation of Popish indulgences, sec. 1, 2. II. Confutation by Leo and Augustine. Answer to two objectio
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 6. - THE LIFE OF A CHRISTIAN MAN. SCRIPTURAL ARGUMENTS EXHORTING TO IT.	66 bytes	THE LIFE OF A CHRISTIAN MAN. SCRIPTURAL ARGUMENTS EXHORTING TO IT.
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 6. - THE LIFE OF A CHRISTIAN MAN. SCRIPTURAL ARGUMENTS EXHORTING TO IT.	148 bytes	This and the four following chapters treat of the Life of the Christian, and are so arranged as to admit of being classed under two principal heads.
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 6. - THE LIFE OF A CHRISTIAN MAN. SCRIPTURAL ARGUMENTS EXHORTING TO IT.	731 bytes	First, it must be held to be an universally acknowledged point, that no man is a Christian who does not feel some special love for righteousness, chap. 6. Secon
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 6. - THE LIFE OF A CHRISTIAN MAN. SCRIPTURAL ARGUMENTS EXHORTING TO IT.	422 bytes	This sixth chapter consists of two parts,—I. Connection between this treatise on the Christian Life and the doctrine of Regeneration and Repentance. Arrangement
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 7. - A SUMMARY OF THE CHRISTIAN LIFE. OF SELF-DENIAL.	48 bytes	A SUMMARY OF THE CHRISTIAN LIFE. OF SELF-DENIAL.
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 7. - A SUMMARY OF THE CHRISTIAN LIFE. OF SELF-DENIAL.	465 bytes	The divisions of the chapter are,—I. The rule which permits us not to go astray in the study of righteousness, requires two things—viz. that man, abandoning his
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 8. - OF BEARING THE CROSS—ONE BRANCH OF SELF-DENIAL.	47 bytes	OF BEARING THE CROSS—ONE BRANCH OF SELF-DENIAL.
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 8. - OF BEARING THE CROSS—ONE BRANCH OF SELF-DENIAL.	417 bytes	The four divisions of this chapter are,—I. The nature of the cross, its necessity and dignity, sec. 1, 2. II. The manifold advantages of the cross described, se
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 9. - OF MEDITATING ON THE FUTURE LIFE.	33 bytes	OF MEDITATING ON THE FUTURE LIFE.
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 9. - OF MEDITATING ON THE FUTURE LIFE.	473 bytes	The three divisions of this chapter,—I. The principal use of the cross is, that it in various ways accustoms us to despise the present, and excites us to aspire
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 10. - HOW TO USE THE PRESENT LIFE, AND THE COMFORTS OF IT.	52 bytes	HOW TO USE THE PRESENT LIFE, AND THE COMFORTS OF IT.
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 10. - HOW TO USE THE PRESENT LIFE, AND THE COMFORTS OF IT.	319 bytes	The divisions of this chapter are, I. The necessity and usefulness of this doctrine. Extremes to be avoided, if we would rightly use the present life and its co
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 11. - OF JUSTIFICATION BY FAITH. BOTH THE NAME AND THE REALITY DEFINED.	65 bytes	OF JUSTIFICATION BY FAITH. BOTH THE NAME AND THE REALITY DEFINED.
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 11. - OF JUSTIFICATION BY FAITH. BOTH THE NAME AND THE REALITY DEFINED.	1064 bytes	In this chapter and the seven which follow, the doctrine of Justification by Faith is expounded, and opposite errors refuted. The following may be regarded as t
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 11. - OF JUSTIFICATION BY FAITH. BOTH THE NAME AND THE REALITY DEFINED.	283 bytes	There are three principal divisions in the Eleventh Chapter. I. The terms used in this discussion are explained, sec. 1-4. II. Osiander’s dream as to essential 
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 12. - NECESSITY OF CONTEMPLATING THE JUDGMENT-SEAT OF GOD, IN ORDER TO BE SERIOUSLY CONVINCED OF THE DOCTRINE OF GRATUITOUS JUSTIFICATION.	132 bytes	NECESSITY OF CONTEMPLATING THE JUDGMENT-SEAT OF GOD, IN ORDER TO BE SERIOUSLY CONVINCED OF THE DOCTRINE OF GRATUITOUS JUSTIFICATION.
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 12. - NECESSITY OF CONTEMPLATING THE JUDGMENT-SEAT OF GOD, IN ORDER TO BE SERIOUSLY CONVINCED OF THE DOCTRINE OF GRATUITOUS JUSTIFICATION.	713 bytes	The divisions of this chapter are,—I. A consideration of the righteousness of God overturns the righteousness of works, as is plain from passages of Scripture, 
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 13. - TWO THINGS TO BE OBSERVED IN GRATUITOUS JUSTIFICATION.	54 bytes	TWO THINGS TO BE OBSERVED IN GRATUITOUS JUSTIFICATION.
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 13. - TWO THINGS TO BE OBSERVED IN GRATUITOUS JUSTIFICATION.	459 bytes	The divisions of this chapter are,—I. The glory of God, and peace of conscience, both secured by gratuitous justification. An insult to the glory of God to glor
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 14. - THE BEGINNING OF JUSTIFICATION. IN WHAT SENSE PROGRESSIVE.	58 bytes	THE BEGINNING OF JUSTIFICATION. IN WHAT SENSE PROGRESSIVE.
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 14. - THE BEGINNING OF JUSTIFICATION. IN WHAT SENSE PROGRESSIVE.	309 bytes	To illustrate what has been already said, and show what kind of righteousness man can have during the whole course of his life, mankind are divided into four cl
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 15. - THE BOASTED MERIT OF WORKS SUBVERSIVE BOTH OF THE GLORY OF GOD, IN BESTOWING RIGHTEOUSNESS, AND OF THE CERTAINTY OF SALVATION.	126 bytes	THE BOASTED MERIT OF WORKS SUBVERSIVE BOTH OF THE GLORY OF GOD, IN BESTOWING RIGHTEOUSNESS, AND OF THE CERTAINTY OF SALVATION.
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 15. - THE BOASTED MERIT OF WORKS SUBVERSIVE BOTH OF THE GLORY OF GOD, IN BESTOWING RIGHTEOUSNESS, AND OF THE CERTAINTY OF SALVATION.	447 bytes	The divisions of this chapter are,—I. To the doctrine of free justification is opposed the question, Whether or not works merit favor with God, sec. 1. This que
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 16. - REFUTATION OF THE CALUMNIES BY WHICH IT IS ATTEMPTED TO THROW ODIUM ON THIS DOCTRINE.	85 bytes	REFUTATION OF THE CALUMNIES BY WHICH IT IS ATTEMPTED TO THROW ODIUM ON THIS DOCTRINE.
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 16. - REFUTATION OF THE CALUMNIES BY WHICH IT IS ATTEMPTED TO THROW ODIUM ON THIS DOCTRINE.	293 bytes	The divisions of this chapter are,—I. The calumnies of the Papists against the orthodox doctrine of Justification by Faith are reduced to two classes. The first
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 17. - THE PROMISES OF THE LAW AND THE GOSPEL RECONCILED.	50 bytes	THE PROMISES OF THE LAW AND THE GOSPEL RECONCILED.
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 17. - THE PROMISES OF THE LAW AND THE GOSPEL RECONCILED.	1526 bytes	In the following chapter, the arguments of Sophists, who would destroy or impair the doctrine of Justification by Faith, are reduced to two classes. The former 
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 18. - THE RIGHTEOUSNESS OF WORKS IMPROPERLY INFERRED FROM REWARDS.	60 bytes	THE RIGHTEOUSNESS OF WORKS IMPROPERLY INFERRED FROM REWARDS.
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 18. - THE RIGHTEOUSNESS OF WORKS IMPROPERLY INFERRED FROM REWARDS.	513 bytes	There are three divisions in this chapter,—I. A solution of two general objections which are urged in support of justification by works. First, That God will re
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 19. - OF CHRISTIAN LIBERTY.	21 bytes	OF CHRISTIAN LIBERTY.
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 19. - OF CHRISTIAN LIBERTY.	400 bytes	The three divisions of this chapter are,—I. Necessity of the doctrine of Christian Liberty, sec. 1. The principal parts of this liberty explained, sec. 2-8. II.
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 20. - OF PRAYER—A PERPETUAL EXERCISE OF FAITH. THE DAILY BENEFITS DERIVED FROM IT.	76 bytes	OF PRAYER—A PERPETUAL EXERCISE OF FAITH. THE DAILY BENEFITS DERIVED FROM IT.
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 20. - OF PRAYER—A PERPETUAL EXERCISE OF FAITH. THE DAILY BENEFITS DERIVED FROM IT.	876 bytes	The principal divisions of this chapter are,—I. Connection of the subject of prayer with the previous chapters. The nature of prayer, and its necessity as a Chr
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 21. - OF THE ETERNAL ELECTION, BY WHICH GOD HAS PREDESTINATED SOME TO SALVATION, AND OTHERS TO DESTRUCTION.	101 bytes	OF THE ETERNAL ELECTION, BY WHICH GOD HAS PREDESTINATED SOME TO SALVATION, AND OTHERS TO DESTRUCTION.
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 21. - OF THE ETERNAL ELECTION, BY WHICH GOD HAS PREDESTINATED SOME TO SALVATION, AND OTHERS TO DESTRUCTION.	290 bytes	The divisions of this chapter are,—I. The necessity and utility of the doctrine of eternal Election explained. Excessive curiosity restrained, sec. l, 2. II. Ex
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 22. - THIS DOCTRINE CONFIRMED BY PROOFS FROM SCRIPTURE.	49 bytes	THIS DOCTRINE CONFIRMED BY PROOFS FROM SCRIPTURE.
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 22. - THIS DOCTRINE CONFIRMED BY PROOFS FROM SCRIPTURE.	445 bytes	The divisions of this chapter are,—I. A confirmation of the orthodox doctrine in opposition to two classes of individuals. This confirmation founded on a carefu
+section number missing from the scan (numbering continues past it)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 22. - THIS DOCTRINE CONFIRMED BY PROOFS FROM SCRIPTURE.	2655 bytes	expected 2, found 3: 3. Wherever this good pleasure of God reigns, no good works are taken into account. The Apostle, indeed, does not follow out the antithesis
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 23. - REFUTATION OF THE CALUMNIES BY WHICH THIS DOCTRINE IS ALWAYS UNJUSTLY ASSAILED.	79 bytes	REFUTATION OF THE CALUMNIES BY WHICH THIS DOCTRINE IS ALWAYS UNJUSTLY ASSAILED.
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 23. - REFUTATION OF THE CALUMNIES BY WHICH THIS DOCTRINE IS ALWAYS UNJUSTLY ASSAILED.	553 bytes	This chapter consists of four parts, which refute the principal objections to this doctrine, and the various pleas and exceptions founded on these objections. T
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 24. - ELECTION CONFIRMED BY THE CALLING OF GOD. THE REPROBATE BRING UPON THEMSELVES THE RIGHTEOUS DESTRUCTION TO WHICH THEY ARE DOOMED.	129 bytes	ELECTION CONFIRMED BY THE CALLING OF GOD. THE REPROBATE BRING UPON THEMSELVES THE RIGHTEOUS DESTRUCTION TO WHICH THEY ARE DOOMED.
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 24. - ELECTION CONFIRMED BY THE CALLING OF GOD. THE REPROBATE BRING UPON THEMSELVES THE RIGHTEOUS DESTRUCTION TO WHICH THEY ARE DOOMED.	152 bytes	The title of this chapter shows that it consists of two parts,—I. The case of the Elect, from sec. 1-11. II. The case of the Reprobate, from sec. 12-17.
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 25. - OF THE LAST RESURRECTION.	25 bytes	OF THE LAST RESURRECTION.
+chapter heading (kept in the title)	BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT. / CHAPTER 25. - OF THE LAST RESURRECTION.	468 bytes	There are four principal heads in this chapter,—I. The utility, necessity, truth, and irrefragable evidence of the orthodox doctrine of a final resurrection—a d
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 1. - OF THE TRUE CHURCH. DUTY OF CULTIVATING UNITY WITH HER, AS THE MOTHER OF ALL THE GODLY.	87 bytes	OF THE TRUE CHURCH. DUTY OF CULTIVATING UNITY WITH HER, AS THE MOTHER OF ALL THE GODLY.
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 1. - OF THE TRUE CHURCH. DUTY OF CULTIVATING UNITY WITH HER, AS THE MOTHER OF ALL THE GODLY.	462 bytes	The three divisions of this chapter are,—I. The article of the Creed concerning the Holy Catholic Church and the Communion of Saints briefly expounded. The grou
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 2. - COMPARISON BETWEEN THE FALSE CHURCH AND THE TRUE.	49 bytes	COMPARISON BETWEEN THE FALSE CHURCH AND THE TRUE.
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 2. - COMPARISON BETWEEN THE FALSE CHURCH AND THE TRUE.	336 bytes	The divisions of the chapter are,—I. Description of a spurious Church, resembling the Papacy vaunting of personal succession, of which a refutation is subjoined
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 3. - OF THE TEACHERS AND MINISTERS OF THE CHURCH. THEIR ELECTION AND OFFICE.	71 bytes	OF THE TEACHERS AND MINISTERS OF THE CHURCH. THEIR ELECTION AND OFFICE.
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 3. - OF THE TEACHERS AND MINISTERS OF THE CHURCH. THEIR ELECTION AND OFFICE.	333 bytes	The three heads of this chapter are,—I. A few preliminary remarks on Church order, on the end, utility, necessity, and dignity of the Christian ministry, sec. 1
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 4. - OF THE STATE OF THE PRIMITIVE CHURCH, AND THE MODE OF GOVERNMENT IN USE BEFORE THE PAPACY.	90 bytes	OF THE STATE OF THE PRIMITIVE CHURCH, AND THE MODE OF GOVERNMENT IN USE BEFORE THE PAPACY.
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 4. - OF THE STATE OF THE PRIMITIVE CHURCH, AND THE MODE OF GOVERNMENT IN USE BEFORE THE PAPACY.	183 bytes	The divisions of this chapter are,—I. The mode of government in the primitive Church, sec 1-10. II. The formal ordination of Bishops and Ministers in the primit
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 5. - THE ANCIENT FORM OF GOVERNMENT UTTERLY CORRUPTED BY THE TYRANNY OF THE PAPACY.	78 bytes	THE ANCIENT FORM OF GOVERNMENT UTTERLY CORRUPTED BY THE TYRANNY OF THE PAPACY.
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 5. - THE ANCIENT FORM OF GOVERNMENT UTTERLY CORRUPTED BY THE TYRANNY OF THE PAPACY.	200 bytes	This chapter consists of two parts,—I. Who are called to the ministry under the Papacy, their character, and the ground of their appointment, sec. l-7. II. How 
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 6. - OF THE PRIMACY OF THE ROMISH SEE.	33 bytes	OF THE PRIMACY OF THE ROMISH SEE.
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 6. - OF THE PRIMACY OF THE ROMISH SEE.	268 bytes	The divisions of this chapter are,—I. Question stated, and an argument for the primacy of the Roman Pontiff drawn from the Old Testament refuted, sec. 1, 2. II.
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 7. - OF THE BEGINNING AND RISE OF THE ROMISH PAPACY, TILL IT ATTAINED A HEIGHT BY WHICH THE LIBERTY OF THE CHURCH WAS DESTROYED, AND ALL TRUE RULE OVERTHROWN.	153 bytes	OF THE BEGINNING AND RISE OF THE ROMISH PAPACY, TILL IT ATTAINED A HEIGHT BY WHICH THE LIBERTY OF THE CHURCH WAS DESTROYED, AND ALL TRUE RULE OVERTHROWN.
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 7. - OF THE BEGINNING AND RISE OF THE ROMISH PAPACY, TILL IT ATTAINED A HEIGHT BY WHICH THE LIBERTY OF THE CHURCH WAS DESTROYED, AND ALL TRUE RULE OVERTHROWN.	1253 bytes	There are five heads in this chapter. I. The Patriarchate given and confirmed to the Bishop of Rome, first by the Council of Nice, and afterwards by that of Cha
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 8. - OF THE POWER OF THE CHURCH IN ARTICLES OF FAITH. THE UNBRIDLED LICENCE OF THE PAPAL CHURCH IN DESTROYING PURITY OF DOCTRINE.	124 bytes	OF THE POWER OF THE CHURCH IN ARTICLES OF FAITH. THE UNBRIDLED LICENCE OF THE PAPAL CHURCH IN DESTROYING PURITY OF DOCTRINE.
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 8. - OF THE POWER OF THE CHURCH IN ARTICLES OF FAITH. THE UNBRIDLED LICENCE OF THE PAPAL CHURCH IN DESTROYING PURITY OF DOCTRINE.	217 bytes	This chapter is divided into two parts,—I. The limits within which the Church ought to confine herself in matters of this kind, sec. 1-9. II. The Roman Church c
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 9. - OF COUNCILS AND THEIR AUTHORITY	32 bytes	OF COUNCILS AND THEIR AUTHORITY.
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 9. - OF COUNCILS AND THEIR AUTHORITY	790 bytes	Since Papists regard their Councils as expressing the sentiment and consent of the Church, particularly as regards the authority of declaring dogmas and the exp
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 10. - OF THE POWER OF MAKING LAWS. THE CRUELTY OF THE POPE AND HIS ADHERENTS, IN THIS RESPECT, IN TYRANNICALLY OPPRESSING AND DESTROYING SOULS.	137 bytes	OF THE POWER OF MAKING LAWS. THE CRUELTY OF THE POPE AND HIS ADHERENTS, IN THIS RESPECT, IN TYRANNICALLY OPPRESSING AND DESTROYING SOULS.
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 10. - OF THE POWER OF MAKING LAWS. THE CRUELTY OF THE POPE AND HIS ADHERENTS, IN THIS RESPECT, IN TYRANNICALLY OPPRESSING AND DESTROYING SOULS.	472 bytes	This chapter treats,—I. Of human constitutions in general. Of the distinction between Civil and Ecclesiastical Laws. Of conscience, why and in what sense minist
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 11. - OF THE JURISDICTION OF THE CHURCH, AND THE ABUSES OF IT, AS EXEMPLIFIED IN THE PAPACY.	86 bytes	OF THE JURISDICTION OF THE CHURCH, AND THE ABUSES OF IT, AS EXEMPLIFIED IN THE PAPACY.
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 11. - OF THE JURISDICTION OF THE CHURCH, AND THE ABUSES OF IT, AS EXEMPLIFIED IN THE PAPACY.	496 bytes	This chapter may be conveniently comprehended under two heads,—I. Ecclesiastical jurisdiction, its necessity, origin, description, and essential parts—viz. the 
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 12. - OF THE DISCIPLINE OF THE CHURCH, AND ITS PRINCIPAL USE IN CENSURES AND EXCOMMUNICATION.	87 bytes	OF THE DISCIPLINE OF THE CHURCH, AND ITS PRINCIPAL USE IN CENSURES AND EXCOMMUNICATION.
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 12. - OF THE DISCIPLINE OF THE CHURCH, AND ITS PRINCIPAL USE IN CENSURES AND EXCOMMUNICATION.	405 bytes	This chapter consists of two parts:—I. The first part of ecclesiastical discipline, which respects the people, and is called common, consists of two parts, the 
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 13. - OF VOWS. THE MISERABLE ENTANGLEMENTS CAUSED BY VOWING RASHLY.	61 bytes	OF VOWS. THE MISERABLE ENTANGLEMENTS CAUSED BY VOWING RASHLY.
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 13. - OF VOWS. THE MISERABLE ENTANGLEMENTS CAUSED BY VOWING RASHLY.	139 bytes	This chapter consists of two parts,—I. Of vows in general, sec. 1-8. II. Of monastic vows, and specially of the vow of celibacy, sec. 8-21.
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 14. - OF THE SACRAMENTS.	18 bytes	OF THE SACRAMENTS.
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 14. - OF THE SACRAMENTS.	475 bytes	This chapter consists of two principal parts,—I. Of sacraments in general. The sum of the doctrine stated, sec. 1-6. Two classes of opponents to be guarded agai
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 15. - OF BAPTISM.	11 bytes	OF BAPTISM.
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 15. - OF BAPTISM.	364 bytes	There are two parts of this chapter,—I. Dissertation on the two ends of Baptism, sec. 1-13. II. The second part may be reduced to four heads. Of the use of Bapt
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 16. - PÆDOBAPTISM. ITS ACCORDANCE WITH THE INSTITUTION OF CHRIST, AND THE NATURE OF THE SIGN.	87 bytes	PÆDOBAPTISM. ITS ACCORDANCE WITH THE INSTITUTION OF CHRIST, AND THE NATURE OF THE SIGN.
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 16. - PÆDOBAPTISM. ITS ACCORDANCE WITH THE INSTITUTION OF CHRIST, AND THE NATURE OF THE SIGN.	243 bytes	Divisions of this chapter,—I. Confirmation of the orthodox doctrine of Pædobaptism, sec. 1-9. II. Refutation of the arguments which the Anabaptists urge against
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 17. - OF THE LORD’S SUPPER, AND THE BENEFITS CONFERRED BY IT	55 bytes	OF THE LORD’S SUPPER, AND THE BENEFITS CONFERRED BY IT.
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 17. - OF THE LORD’S SUPPER, AND THE BENEFITS CONFERRED BY IT	1169 bytes	This chapter is divided into two principal heads.—I. The first part shows what it is that God exhibits in the Holy Supper, sec. 1-4; and then in what way and ho
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 18 - OF THE POPISH MASS. HOW IT NOT ONLY PROFANES, BUT ANNIHILATES THE LORD’S SUPPER.	80 bytes	OF THE POPISH MASS. HOW IT NOT ONLY PROFANES, BUT ANNIHILATES THE LORD’S SUPPER.
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 18 - OF THE POPISH MASS. HOW IT NOT ONLY PROFANES, BUT ANNIHILATES THE LORD’S SUPPER.	553 bytes	The principal heads of this chapter are,—I. The abomination of the Mass, sec. 1. Its manifold impiety included under five heads, sec. 2-7. Its origin described.
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 19. - OF THE FIVE SACRAMENTS, FALSELY SO CALLED. THEIR SPURIOUSNESS PROVED, AND THEIR TRUE CHARACTER EXPLAINED.	105 bytes	OF THE FIVE SACRAMENTS, FALSELY SO CALLED. THEIR SPURIOUSNESS PROVED, AND THEIR TRUE CHARACTER EXPLAINED.
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 19. - OF THE FIVE SACRAMENTS, FALSELY SO CALLED. THEIR SPURIOUSNESS PROVED, AND THEIR TRUE CHARACTER EXPLAINED.	340 bytes	There are two divisions of this chapter,—I. A general discussion of these five sacraments, sec. 1-3. II. A special consideration of each. 1. Of Confirmation, se
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 20. - OF CIVIL GOVERNMENT.	20 bytes	OF CIVIL GOVERNMENT.
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 20. - OF CIVIL GOVERNMENT.	292 bytes	This chapter consists of two principal heads,—I. General discourse on the necessity, dignity, and use of Civil Government, in opposition to the frantic proceedi
+chapter heading (kept in the title)	BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH / CHAPTER 20. - OF CIVIL GOVERNMENT.	788 bytes	The first part treats of the function of Magistrates, whose authority and calling is proved, sec. 4-7. Next, the three Forms of civil government are added, sec.
+CCEL reference apparatus	Index of Scripture References	29 bytes	Index of Scripture References
+CCEL reference apparatus	Index of Pages of the Print Edition	35 bytes	Index of Pages of the Print Edition
+scripture reference not linked	Prefatory Material / Prefatory Address	20 bytes	(no osisRef): Ep. 28
+scripture reference not linked	Book First — Of the Knowledge of God the Creator / CHAPTER 8. - THE CREDIBILITY OF SCRIPTURE SUFFICIENTLY PROVED IN SO FAR AS NATURAL REASON ADMITS.	45 bytes	Bible:1Macc.1.57-1Macc.1.58: 1 Macc. 1:57, 58
+scripture reference not linked	Book First — Of the Knowledge of God the Creator / CHAPTER 11. - IMPIETY OF ATTRIBUTING A VISIBLE FORM TO GOD.—THE SETTING UP OF IDOLS A DEFECTION FROM THE TRUE GOD.	20 bytes	(no osisRef): Ep. 49
+scripture reference not linked	Book First — Of the Knowledge of God the Creator / CHAPTER 13. - THE UNITY OF THE DIVINE ESSENCE IN THREE PERSONS TAUGHT, IN SCRIPTURE, FROM THE FOUNDATION OF THE WORLD.	20 bytes	(no osisRef): Ep. 66
+scripture reference not linked	Book First — Of the Knowledge of God the Creator / CHAPTER 18. - THE INSTRUMENTALITY OF THE WICKED EMPLOYED BY GOD, WHILE HE CONTINUES FREE FROM EVERY TAINT	20 bytes	(no osisRef): Ep. 48
+scripture reference not linked	Book Second — Of the Knowledge of God the Redeemer, in Christ / CHAPTER 3. - EVERY THING PROCEEDING FROM THE CORRUPT NATURE OF MAN DAMNABLE.	21 bytes	(no osisRef): Ep. 106
+scripture reference not linked	Book Second — Of the Knowledge of God the Redeemer, in Christ / CHAPTER 3. - EVERY THING PROCEEDING FROM THE CORRUPT NATURE OF MAN DAMNABLE.	21 bytes	(no osisRef): Ep. 105
+scripture reference not linked	Book Second — Of the Knowledge of God the Redeemer, in Christ / CHAPTER 3. - EVERY THING PROCEEDING FROM THE CORRUPT NATURE OF MAN DAMNABLE.	21 bytes	(no osisRef): Ep. 106
+scripture reference not linked	Book Second — Of the Knowledge of God the Redeemer, in Christ / CHAPTER 3. - EVERY THING PROCEEDING FROM THE CORRUPT NATURE OF MAN DAMNABLE.	20 bytes	(no osisRef): Ep. 46
+scripture reference not linked	Book Second — Of the Knowledge of God the Redeemer, in Christ / CHAPTER 5. - THE ARGUMENTS USUALLY ALLEGED IN SUPPORT OF FREE WILL REFUTED.	20 bytes	(no osisRef): Ep. 52
+scripture reference not linked	Book Second — Of the Knowledge of God the Redeemer, in Christ / CHAPTER 5. - THE ARGUMENTS USUALLY ALLEGED IN SUPPORT OF FREE WILL REFUTED.	21 bytes	(no osisRef): Ep. 170
+scripture reference not linked	Book Second — Of the Knowledge of God the Redeemer, in Christ / CHAPTER 5. - THE ARGUMENTS USUALLY ALLEGED IN SUPPORT OF FREE WILL REFUTED.	50 bytes	Bible:Sir.15.14-Sir.15.17: Ecclesiasticus 15:14–17
+scripture reference not linked	Book Third — The Mode of Obtaining the Grace of Christ / CHAPTER 5. - OF THE MODES OF SUPPLEMENTING SATISFACTION—VIZ. INDULGENCES AND PURGATORY.	20 bytes	(no osisRef): Ep. 81
+scripture reference not linked	Book Third — The Mode of Obtaining the Grace of Christ / CHAPTER 5. - OF THE MODES OF SUPPLEMENTING SATISFACTION—VIZ. INDULGENCES AND PURGATORY.	32 bytes	Bible:1Macc.12.43: 1 Macc. 12:43
+scripture reference not linked	Book Third — The Mode of Obtaining the Grace of Christ / CHAPTER 5. - OF THE MODES OF SUPPLEMENTING SATISFACTION—VIZ. INDULGENCES AND PURGATORY.	32 bytes	Bible:2Macc.15.38: 2 Macc. 15:38
+scripture reference not linked	Book Third — The Mode of Obtaining the Grace of Christ / CHAPTER 15. - THE BOASTED MERIT OF WORKS SUBVERSIVE BOTH OF THE GLORY OF GOD, IN BESTOWING RIGHTEOUSNESS, AND OF THE CERTAINTY OF SALVATION.	37 bytes	Bible:Sir.16.14: Ecclesiasticus 16:14
+scripture reference not linked	Book Third — The Mode of Obtaining the Grace of Christ / CHAPTER 15. - THE BOASTED MERIT OF WORKS SUBVERSIVE BOTH OF THE GLORY OF GOD, IN BESTOWING RIGHTEOUSNESS, AND OF THE CERTAINTY OF SALVATION.	21 bytes	(no osisRef): Ep. 105
+scripture reference not linked	Book Third — The Mode of Obtaining the Grace of Christ / CHAPTER 20. - OF PRAYER—A PERPETUAL EXERCISE OF FAITH. THE DAILY BENEFITS DERIVED FROM IT.	40 bytes	Bible:Bar.2.18-Bar.2.19: Baruch 2:18, 19
+scripture reference not linked	Book Third — The Mode of Obtaining the Grace of Christ / CHAPTER 23. - REFUTATION OF THE CALUMNIES BY WHICH THIS DOCTRINE IS ALWAYS UNJUSTLY ASSAILED.	21 bytes	(no osisRef): Ep. 106
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 1. - OF THE TRUE CHURCH. DUTY OF CULTIVATING UNITY WITH HER, AS THE MOTHER OF ALL THE GODLY.	20 bytes	(no osisRef): Ep. 48
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 4. - OF THE STATE OF THE PRIMITIVE CHURCH, AND THE MODE OF GOVERNMENT IN USE BEFORE THE PAPACY.	20 bytes	(no osisRef): Ep. 31
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 4. - OF THE STATE OF THE PRIMITIVE CHURCH, AND THE MODE OF GOVERNMENT IN USE BEFORE THE PAPACY.	16 bytes	(no osisRef): 33
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 4. - OF THE STATE OF THE PRIMITIVE CHURCH, AND THE MODE OF GOVERNMENT IN USE BEFORE THE PAPACY.	20 bytes	(no osisRef): Ep. 90
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 4. - OF THE STATE OF THE PRIMITIVE CHURCH, AND THE MODE OF GOVERNMENT IN USE BEFORE THE PAPACY.	21 bytes	(no osisRef): Ep. 110
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 4. - OF THE STATE OF THE PRIMITIVE CHURCH, AND THE MODE OF GOVERNMENT IN USE BEFORE THE PAPACY.	20 bytes	(no osisRef): Ep. 87
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 5. - THE ANCIENT FORM OF GOVERNMENT UTTERLY CORRUPTED BY THE TYRANNY OF THE PAPACY.	20 bytes	(no osisRef): Ep. 90
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 6. - OF THE PRIMACY OF THE ROMISH SEE.	19 bytes	(no osisRef): Ep. 2
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 7. - OF THE BEGINNING AND RISE OF THE ROMISH PAPACY, TILL IT ATTAINED A HEIGHT BY WHICH THE LIBERTY OF THE CHURCH WAS DESTROYED, AND ALL TRUE RULE OVERTHROWN.	19 bytes	(no osisRef): Ep. 6
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 7. - OF THE BEGINNING AND RISE OF THE ROMISH PAPACY, TILL IT ATTAINED A HEIGHT BY WHICH THE LIBERTY OF THE CHURCH WAS DESTROYED, AND ALL TRUE RULE OVERTHROWN.	20 bytes	(no osisRef): Ep. 76
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 7. - OF THE BEGINNING AND RISE OF THE ROMISH PAPACY, TILL IT ATTAINED A HEIGHT BY WHICH THE LIBERTY OF THE CHURCH WAS DESTROYED, AND ALL TRUE RULE OVERTHROWN.	20 bytes	(no osisRef): Ep. 76
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 7. - OF THE BEGINNING AND RISE OF THE ROMISH PAPACY, TILL IT ATTAINED A HEIGHT BY WHICH THE LIBERTY OF THE CHURCH WAS DESTROYED, AND ALL TRUE RULE OVERTHROWN.	20 bytes	(no osisRef): Ep. 80
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 7. - OF THE BEGINNING AND RISE OF THE ROMISH PAPACY, TILL IT ATTAINED A HEIGHT BY WHICH THE LIBERTY OF THE CHURCH WAS DESTROYED, AND ALL TRUE RULE OVERTHROWN.	20 bytes	(no osisRef): Ep. 83
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 7. - OF THE BEGINNING AND RISE OF THE ROMISH PAPACY, TILL IT ATTAINED A HEIGHT BY WHICH THE LIBERTY OF THE CHURCH WAS DESTROYED, AND ALL TRUE RULE OVERTHROWN.	21 bytes	(no osisRef): Ep. 154
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 7. - OF THE BEGINNING AND RISE OF THE ROMISH PAPACY, TILL IT ATTAINED A HEIGHT BY WHICH THE LIBERTY OF THE CHURCH WAS DESTROYED, AND ALL TRUE RULE OVERTHROWN.	21 bytes	(no osisRef): Ep. 188
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 7. - OF THE BEGINNING AND RISE OF THE ROMISH PAPACY, TILL IT ATTAINED A HEIGHT BY WHICH THE LIBERTY OF THE CHURCH WAS DESTROYED, AND ALL TRUE RULE OVERTHROWN.	20 bytes	(no osisRef): Ep. 76
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 7. - OF THE BEGINNING AND RISE OF THE ROMISH PAPACY, TILL IT ATTAINED A HEIGHT BY WHICH THE LIBERTY OF THE CHURCH WAS DESTROYED, AND ALL TRUE RULE OVERTHROWN.	16 bytes	(no osisRef): 80
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 7. - OF THE BEGINNING AND RISE OF THE ROMISH PAPACY, TILL IT ATTAINED A HEIGHT BY WHICH THE LIBERTY OF THE CHURCH WAS DESTROYED, AND ALL TRUE RULE OVERTHROWN.	20 bytes	(no osisRef): Ep. 76
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 7. - OF THE BEGINNING AND RISE OF THE ROMISH PAPACY, TILL IT ATTAINED A HEIGHT BY WHICH THE LIBERTY OF THE CHURCH WAS DESTROYED, AND ALL TRUE RULE OVERTHROWN.	20 bytes	(no osisRef): Ep. 82
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 7. - OF THE BEGINNING AND RISE OF THE ROMISH PAPACY, TILL IT ATTAINED A HEIGHT BY WHICH THE LIBERTY OF THE CHURCH WAS DESTROYED, AND ALL TRUE RULE OVERTHROWN.	21 bytes	(no osisRef): Ep. 169
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 7. - OF THE BEGINNING AND RISE OF THE ROMISH PAPACY, TILL IT ATTAINED A HEIGHT BY WHICH THE LIBERTY OF THE CHURCH WAS DESTROYED, AND ALL TRUE RULE OVERTHROWN.	21 bytes	(no osisRef): Ep. 162
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 7. - OF THE BEGINNING AND RISE OF THE ROMISH PAPACY, TILL IT ATTAINED A HEIGHT BY WHICH THE LIBERTY OF THE CHURCH WAS DESTROYED, AND ALL TRUE RULE OVERTHROWN.	20 bytes	(no osisRef): Ep. 85
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 7. - OF THE BEGINNING AND RISE OF THE ROMISH PAPACY, TILL IT ATTAINED A HEIGHT BY WHICH THE LIBERTY OF THE CHURCH WAS DESTROYED, AND ALL TRUE RULE OVERTHROWN.	20 bytes	(no osisRef): Ep. 83
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 7. - OF THE BEGINNING AND RISE OF THE ROMISH PAPACY, TILL IT ATTAINED A HEIGHT BY WHICH THE LIBERTY OF THE CHURCH WAS DESTROYED, AND ALL TRUE RULE OVERTHROWN.	20 bytes	(no osisRef): Ep. 30
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 7. - OF THE BEGINNING AND RISE OF THE ROMISH PAPACY, TILL IT ATTAINED A HEIGHT BY WHICH THE LIBERTY OF THE CHURCH WAS DESTROYED, AND ALL TRUE RULE OVERTHROWN.	20 bytes	(no osisRef): Ep. 83
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 7. - OF THE BEGINNING AND RISE OF THE ROMISH PAPACY, TILL IT ATTAINED A HEIGHT BY WHICH THE LIBERTY OF THE CHURCH WAS DESTROYED, AND ALL TRUE RULE OVERTHROWN.	20 bytes	(no osisRef): Ep. 80
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 7. - OF THE BEGINNING AND RISE OF THE ROMISH PAPACY, TILL IT ATTAINED A HEIGHT BY WHICH THE LIBERTY OF THE CHURCH WAS DESTROYED, AND ALL TRUE RULE OVERTHROWN.	19 bytes	(no osisRef): Ep. 7
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 7. - OF THE BEGINNING AND RISE OF THE ROMISH PAPACY, TILL IT ATTAINED A HEIGHT BY WHICH THE LIBERTY OF THE CHURCH WAS DESTROYED, AND ALL TRUE RULE OVERTHROWN.	16 bytes	(no osisRef): 25
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 7. - OF THE BEGINNING AND RISE OF THE ROMISH PAPACY, TILL IT ATTAINED A HEIGHT BY WHICH THE LIBERTY OF THE CHURCH WAS DESTROYED, AND ALL TRUE RULE OVERTHROWN.	19 bytes	(no osisRef): Ep. 6
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 7. - OF THE BEGINNING AND RISE OF THE ROMISH PAPACY, TILL IT ATTAINED A HEIGHT BY WHICH THE LIBERTY OF THE CHURCH WAS DESTROYED, AND ALL TRUE RULE OVERTHROWN.	16 bytes	(no osisRef): 25
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 7. - OF THE BEGINNING AND RISE OF THE ROMISH PAPACY, TILL IT ATTAINED A HEIGHT BY WHICH THE LIBERTY OF THE CHURCH WAS DESTROYED, AND ALL TRUE RULE OVERTHROWN.	20 bytes	(no osisRef): Ep. 19
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 7. - OF THE BEGINNING AND RISE OF THE ROMISH PAPACY, TILL IT ATTAINED A HEIGHT BY WHICH THE LIBERTY OF THE CHURCH WAS DESTROYED, AND ALL TRUE RULE OVERTHROWN.	20 bytes	(no osisRef): Ep. 55
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 7. - OF THE BEGINNING AND RISE OF THE ROMISH PAPACY, TILL IT ATTAINED A HEIGHT BY WHICH THE LIBERTY OF THE CHURCH WAS DESTROYED, AND ALL TRUE RULE OVERTHROWN.	16 bytes	(no osisRef): 56
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 7. - OF THE BEGINNING AND RISE OF THE ROMISH PAPACY, TILL IT ATTAINED A HEIGHT BY WHICH THE LIBERTY OF THE CHURCH WAS DESTROYED, AND ALL TRUE RULE OVERTHROWN.	19 bytes	(no osisRef): Ep. 7
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 8. - OF THE POWER OF THE CHURCH IN ARTICLES OF FAITH. THE UNBRIDLED LICENCE OF THE PAPAL CHURCH IN DESTROYING PURITY OF DOCTRINE.	21 bytes	(no osisRef): Ep. 178
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 9. - OF COUNCILS AND THEIR AUTHORITY	20 bytes	(no osisRef): Ep. 55
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 10. - OF THE POWER OF MAKING LAWS. THE CRUELTY OF THE POPE AND HIS ADHERENTS, IN THIS RESPECT, IN TYRANNICALLY OPPRESSING AND DESTROYING SOULS.	21 bytes	(no osisRef): Ep. 119
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 10. - OF THE POWER OF MAKING LAWS. THE CRUELTY OF THE POPE AND HIS ADHERENTS, IN THIS RESPECT, IN TYRANNICALLY OPPRESSING AND DESTROYING SOULS.	21 bytes	(no osisRef): Ep. 118
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 10. - OF THE POWER OF MAKING LAWS. THE CRUELTY OF THE POPE AND HIS ADHERENTS, IN THIS RESPECT, IN TYRANNICALLY OPPRESSING AND DESTROYING SOULS.	21 bytes	(no osisRef): Ep. 118
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 10. - OF THE POWER OF MAKING LAWS. THE CRUELTY OF THE POPE AND HIS ADHERENTS, IN THIS RESPECT, IN TYRANNICALLY OPPRESSING AND DESTROYING SOULS.	21 bytes	(no osisRef): Ep. 118
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 11. - OF THE JURISDICTION OF THE CHURCH, AND THE ABUSES OF IT, AS EXEMPLIFIED IN THE PAPACY.	20 bytes	(no osisRef): Ep. 32
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 11. - OF THE JURISDICTION OF THE CHURCH, AND THE ABUSES OF IT, AS EXEMPLIFIED IN THE PAPACY.	20 bytes	(no osisRef): Ep. 32
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 12. - OF THE DISCIPLINE OF THE CHURCH, AND ITS PRINCIPAL USE IN CENSURES AND EXCOMMUNICATION.	20 bytes	(no osisRef): Ep. 54
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 12. - OF THE DISCIPLINE OF THE CHURCH, AND ITS PRINCIPAL USE IN CENSURES AND EXCOMMUNICATION.	20 bytes	(no osisRef): Ep. 64
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 12. - OF THE DISCIPLINE OF THE CHURCH, AND ITS PRINCIPAL USE IN CENSURES AND EXCOMMUNICATION.	20 bytes	(no osisRef): Ep. 64
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 13. - OF VOWS. THE MISERABLE ENTANGLEMENTS CAUSED BY VOWING RASHLY.	20 bytes	(no osisRef): Ep. 82
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 13. - OF VOWS. THE MISERABLE ENTANGLEMENTS CAUSED BY VOWING RASHLY.	20 bytes	(no osisRef): Ep. 76
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 14. - OF THE SACRAMENTS.	19 bytes	(no osisRef): Ep. 5
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 17. - OF THE LORD’S SUPPER, AND THE BENEFITS CONFERRED BY IT	20 bytes	(no osisRef): Ep. 23
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 17. - OF THE LORD’S SUPPER, AND THE BENEFITS CONFERRED BY IT	20 bytes	(no osisRef): Ep. 23
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 18 - OF THE POPISH MASS. HOW IT NOT ONLY PROFANES, BUT ANNIHILATES THE LORD’S SUPPER.	21 bytes	(no osisRef): Ep. 120
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 19. - OF THE FIVE SACRAMENTS, FALSELY SO CALLED. THEIR SPURIOUSNESS PROVED, AND THEIR TRUE CHARACTER EXPLAINED.	21 bytes	(no osisRef): Ep. 118
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 19. - OF THE FIVE SACRAMENTS, FALSELY SO CALLED. THEIR SPURIOUSNESS PROVED, AND THEIR TRUE CHARACTER EXPLAINED.	20 bytes	(no osisRef): Ep. 39
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 19. - OF THE FIVE SACRAMENTS, FALSELY SO CALLED. THEIR SPURIOUSNESS PROVED, AND THEIR TRUE CHARACTER EXPLAINED.	20 bytes	(no osisRef): Ep. 77
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 20. - OF CIVIL GOVERNMENT.	19 bytes	(no osisRef): Ep. 5
+scripture reference not linked	Book Fourth — Of the Holy Catholic Church / CHAPTER 20. - OF CIVIL GOVERNMENT.	19 bytes	(no osisRef): Ep. 5

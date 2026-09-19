@@ -27,6 +27,18 @@ tools/talmud/raw/
 # Yerushalmi download cache: one JSON per tractate from Sefaria's export
 # bucket. Rebuildable with tools/yerushalmi/build.mjs.
 tools/yerushalmi/raw/
+# Calvin's Commentaries ThML cache: 45 volumes, ~63MB of XML from CCEL.
+# Rebuildable with tools/calvin-commentaries/build.mjs.
+tools/calvin-commentaries/raw/
+# The build's own copy of the bundles it deploys — byte-identical to
+# public/library/commentaries/calvin/, which is what actually ships.
+tools/calvin-commentaries/bundles/
+# Calvin's Institutes ThML cache: one ~5MB XML from CCEL.
+# Rebuildable with tools/calvin-institutes/build.mjs.
+tools/calvin-institutes/raw/
+# The build's own copy of the bundle it deploys - byte-identical to
+# public/library/reformation/institutes.json, which is what actually ships.
+tools/calvin-institutes/institutes.json
 
 # Local AI-assistant/session artifacts
 .claude/

@@ -49,11 +49,16 @@ const CATEGORY_LABELS: { category: SourceCategory; label: string }[] = [
 // remaining four slot into when they land.
 const SERIES_GROUPED: SourceCategory[] = ['patristic', 'rabbinic', 'reformation'];
 
-// Footer works (dictionaries, devotionals) file under the Add-ons section
+// A row with no `series` lists FLAT, above the series groups, rather than
+// being swept under an "Other" heading. 'reformation' is the category that
+// needs it: a standalone Reformation work belonging to no series should not
+// be filed as "Other (1)", which says nothing true about it.
+
+// Footer works (dictionaries) file under the Add-ons section
 // rather than getting category sections of their own: like the Strong's
 // add-on, they augment the study experience around the text instead of
 // adding a readable pane work.
-const ADDON_CATEGORIES: SourceCategory[] = ['dictionary', 'devotional'];
+const ADDON_CATEGORIES: SourceCategory[] = ['dictionary'];
 
 // Titles carry volume numbers, so a plain string sort files "Vol. 10" between
 // "Vol. 1" and "Vol. 2". `numeric` compares digit runs by value, which orders
@@ -231,18 +236,27 @@ export default function LibraryPanel({
           }));
       } else if (SERIES_GROUPED.includes(category)) {
         const bySeries = new Map<string, Row[]>();
+        const standalone: Row[] = [];
         for (const r of matching) {
-          const s = r.series ?? 'Other';
-          if (!bySeries.has(s)) bySeries.set(s, []);
-          bySeries.get(s)!.push(r);
+          if (!r.series) {
+            standalone.push(r);
+            continue;
+          }
+          if (!bySeries.has(r.series)) bySeries.set(r.series, []);
+          bySeries.get(r.series)!.push(r);
         }
-        groups = [...bySeries.entries()]
-          .sort((a, b) => a[0].localeCompare(b[0]))
-          .map(([series, rs]) => ({
-            key: `${category}-${series}`,
-            label: `${series} (${rs.length})`,
-            rows: rs,
-          }));
+        groups = [
+          ...(standalone.length > 0
+            ? [{ key: `${category}-standalone`, label: null, rows: standalone }]
+            : []),
+          ...[...bySeries.entries()]
+            .sort((a, b) => a[0].localeCompare(b[0]))
+            .map(([series, rs]) => ({
+              key: `${category}-${series}`,
+              label: `${series} (${rs.length})`,
+              rows: rs,
+            })),
+        ];
       } else {
         groups = matching.length > 0
           ? [{ key: category, label: null, rows: matching }]
@@ -400,7 +414,7 @@ export default function LibraryPanel({
 
           {/* Add-ons sit outside the category sections: the Strong's add-on
               attaches data to a translation that's already installed, and
-              footer works (dictionaries, devotionals) augment study around
+              footer works (dictionaries) augment study around
               the text rather than adding a pane work. */}
           {(!query || addonRows.length > 0) && (
             <div className="library-section">

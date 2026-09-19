@@ -1,17 +1,3 @@
-  The page/line locators themselves are **stripped entirely** from the reading
-  text. They are typesetting artifacts of the two reprints, not Ovid's or
-  Riley's words, and unlike JFB's verse ranges there is no parallel worth
-  preserving. They are removed by *element* (`span.linenum`, `span.pagenum`)
-  rather than by pattern, and that distinction turned out to matter: Riley
-  cites classical works in exactly the locators' form inside his own notes
-  ("in the Fourth Book of Virgil's Georgics, I. 281-314"), so a regex tight
-  enough to catch the furniture would have silently mangled the citation. The
-  case is checked after every build. Front matter — both publishers'
-  introductions and the "Synoptical View", a book-by-book plot synopsis — is
-  **excluded and logged** into the bundle's `metadata.exclusions`, along with
-  the Gutenberg transcriber's own notes, supplementary notes and indexes, the
-  same audit-trail standard as Whiston's Josephus front matter and JFB's
-  introductions.
 # Roadmap
 
 Foundation is a personal, open-source, non-commercial project. There's no
@@ -95,25 +81,25 @@ running list of what's done and what's next, not a commitment.
   height/tab/open state persisted) for works consulted *about* the open
   text rather than read linearly. It spans only as far as the reading
   panes — the Concordance and Notes panels sit beside it at full height,
-  never underneath it. Three tabs in the same fashion as
-  Notes/Highlights/Links — **Dictionary**, **Commentary**, **Devotional** —
-  with the wide shape used for a parallel layout: the headword list reads
+  never underneath it. Tabs in the same fashion as Notes/Highlights/Links —
+  **Concordance**, **Dictionary**, **Commentary** — with the wide shape used for a parallel layout: the headword list reads
   beside its article, not above it. The Dictionary tab is live, shipping
   **Smith's Bible Dictionary (1884)** as a bundled Library work (~4,600
-  articles). The Commentary tab is live too (see below); Devotional remains
-  a placeholder until footer-shaped content exists (the Companion Bible
-  works keep their own panes).
+  articles). The Commentary tab is live too (see below). There is no
+  Devotional tab, by decision: the footer's scope is closed, and devotional
+  works go in a reading pane instead (Calvin's lecture prayers are read in a
+  pane synced to the Bible reference). The `devotional` category that once
+  reserved the tab has been removed.
   Lookup is a case-insensitive headword prefix query (`dictionaryLookup` in
   `src/db.ts` — the headword lives in `entries.position_ref`, one book per
   initial letter, so the dictionary reuses the standard
   `sources → books → entries` model with no new tables). Clicking a
   Strong's-tagged word while the footer is open feeds it the word in
-  parallel with the concordance. Two new `SourceCategory` values,
-  `dictionary` and `devotional`, both route "opening" a work to the footer
-  instead of a pane; in the Library they file under the **Add-ons**
-  section beside the Strong's add-on, not as category sections of their
-  own — like Strong's, they augment study around the text rather than
-  adding a pane work.
+  parallel with the concordance. The `dictionary` `SourceCategory` routes
+  "opening" a work to the footer instead of a pane; in the Library it files
+  under the **Add-ons** section beside the Strong's add-on, not as a
+  category section of its own — like Strong's, it augments study around the
+  text rather than adding a pane work.
   **Provenance:** the text is the CrossWire SWORD "Smith" module —
   hand-transcribed, `DistributionLicense: Public Domain` — chosen over the
   archive.org page scans (e.g. `dictionaryofbwi01smit`), whose ABBYY OCR is
@@ -168,6 +154,312 @@ running list of what's done and what's next, not a commitment.
   verse-keyed footer. Logged block by block to `tools/jfb/jfb-exclusions.txt`
   (571 blocks, ~708 KB), same audit-trail standard as the Josephus
   footnote-exclusion and ANF Vol. 10 precedents.
+- **Calvin's Commentaries (Calvin Translation Society, 1844–56).** John
+  Calvin's verse-by-verse exposition, shipped as **23 bundled Library works**,
+  one per book-group — 13,459 comments and 37,569 paragraphs across the **48
+  of 66 books** he actually wrote on. He is often described as commenting on
+  nearly the whole Bible; he did not, and the Library panel says so rather
+  than leaving a reader to discover the gap by failing to find Proverbs.
+  Absent because they were never written: Judges through Esther, Job,
+  Proverbs, Ecclesiastes, Song of Solomon, 2 John, 3 John and Revelation.
+  **Type `footer-commentary`, the same as JFB** — read in the study footer's
+  Commentary tab as a strip of verse cells following Pane 1's chapter, with
+  `isFooterOnly` (`src/sourceRoles.ts`) keeping it out of every pane's source
+  picker. The tab's own dropdown picks between Calvin and JFB.
+  **This reverses the first build of this feature, and the reversal is the
+  interesting part.** It shipped first as type `commentary` — a pane beside a
+  translation, the Companion Bible's behaviour — reasoning that Calvin argues
+  at paragraph length where JFB glosses in a line, so he needed the room. Read
+  in the actual app, that was wrong: a verse-by-verse commentary is read
+  *against* the verse it comments on, so spending a whole reading column on it
+  while losing the footer's hover-and-pin gesture cost more than the extra
+  width was worth. The lesson is about where the judgement came from — the
+  original call was made from the shape of the *text* (long prose wants a
+  column) when it should have been made from the shape of the *reading*
+  (verse commentary is read against its verse), and only using it surfaced the
+  difference.
+  **The cost of the move, stated plainly:** a comment is now **one entry**
+  rather than one per paragraph, so a highlight, note or link binds the whole
+  comment instead of a single paragraph of it. That is forced by the footer's
+  model rather than chosen — `buildChapterIndex` treats one entry as one cell,
+  so paragraph-level entries would shatter a single comment into a dozen
+  identical verse cells — and it is exactly how JFB already behaves. The
+  paragraphs themselves are preserved, joined by a blank line in
+  `entries.text`, which is what the cell splits on to lay them out.
+  **Calvin's opening catchword is kept in bold.** He opens most comments by
+  quoting the words he is about to expound ("*1. In the beginning.* To expound
+  the term…"), which is the same job JFB's bold lemma does, and the footer
+  already renders `**…**` as bold. The build marks it from the source's own
+  `<b>`/`<i>` pair, on a comment's first paragraph only — unlike JFB, where
+  every paragraph opens a new catchword, Calvin quotes once and then argues.
+  **9,169 of the 13,459 comments (68%)** open that way and are marked; the
+  rest do not carry the pattern and are left alone rather than guessed at.
+  **ONE source, not one per book-group — and the reversal of that split is
+  worth recording.** It first shipped as 23 independently installable sources,
+  one per CCEL book-group, justified by the corpus being 34MB against JFB's
+  12MB. That compared *file sizes* when the cost that actually governs an
+  install is *row count*, and on that measure Calvin is 13,459 entries against
+  JFB's 19,442 — a third fewer. The 34MB is long comments (2,590 characters on
+  average, against JFB's 540), not more of them; the heuristic was inherited
+  from the Talmud, where 43MB and 81,481 rows happened to point the same way,
+  and was applied here without separating the two.
+  Against that non-reason sat a real cost, and it was the move to the footer
+  that exposed it: the Commentary tab's picker is a single dropdown that does
+  **not** follow the book being read. 23 sources meant a 24-entry list and a
+  manual switch at every book boundary — "No commentary on Romans 1" until you
+  worked out that Romans lived in "Calvin 17". JFB never poses that question,
+  because one source covers all 66 books and the strip just follows you. So
+  the 23 bundles stay as the *build's* unit (the largest single file is 4.3MB,
+  and they are fetched one at a time so only one raw JSON is ever alive), but
+  they install as one source with one `books` row per Bible book, appearing
+  once in the Library and once in the footer dropdown as "John Calvin's
+  Commentaries". No series heading, no numbering, nothing for the reader to
+  choose between.
+  **The 18 books Calvin never wrote on simply have no `books` row**, so the
+  strip reports no commentary there exactly as it does for a chapter JFB
+  passes over. That is the intended behaviour rather than a gap to paper over:
+  a commentary that silently kept showing the last book's notes would be
+  worse than one that says it has nothing.
+  Filed under the Library's existing **Commentaries** section. No new
+  `SourceCategory`, no new `SourceType`, no new tables, and no new
+  search-scope chip — the existing Commentaries chip already covers
+  `category = 'commentary'`.
+  **The two Harmonies needed no special anchoring model**, and that was
+  settled by reading the markup rather than guessing at it. Harmony of the
+  Law (Exodus–Deuteronomy) and Harmony of the Evangelists (Matthew/Mark/Luke)
+  divide themselves topically — "The Law: The First Commandment", not
+  "Exodus 20" — and discuss corresponding passages side by side. But every
+  comment in both works still carries exactly **one** `<scripCom>` naming one
+  book and one verse, so each anchors like any other comment and its
+  cross-book references stay inline as Calvin's own prose. One `books` row
+  per underlying Bible book; the topical division titles are not carried.
+  **Anchoring:** `entries.verse` holds the verse and `entries.position_ref`
+  the range covered, in the notation `versesInRefRange()` parses — the same
+  two columns JFB uses. Every range here is a single verse: not one of the
+  13,459 comments is anchored to a span, which is the one place this corpus is
+  simpler than JFB and its "5-6" blocks, and it means no cell ever nests
+  inside another the way 2,713 of JFB's verses do.
+  **Provenance:** CCEL's "Calvin's Commentaries — Complete"
+  (`ccel.org/ccel/calvin/commentaries.i.html`), which is the **Calvin
+  Translation Society**'s English translation (Edinburgh, **1844–56**), by a
+  team of period translators including John King, Charles Bingham, James
+  Anderson and William Pringle, digitised by CCEL from the OnLine Bible
+  project's Ages Software transcription and fetched as ThML. Built by
+  `tools/calvin-commentaries/build.mjs` (standalone, run outside the app),
+  which hard-fails unless the volume's own `<DC.Rights>` reads "Public
+  Domain" **and** its `<bookID>` and author line match the volume expected —
+  checked per volume across all 45, not once for the set, because Internet
+  Archive's mirror of this corpus carries a "some restricted to
+  non-commercial use" caveat. That caveat concerns a later reprint layered on
+  the CTS text, but the point of a guard is not to take that on trust. No
+  disclaimer is needed in the panel: unlike the two Talmuds, this is
+  straightforwardly public domain.
+  **Parsed as a flat milestone stream, not a DOM tree**, for the same reason
+  `tools/jfb/build.mjs` is — and the reason was found by inspection, not
+  assumed. Most volumes wrap each comment in a `<div class="Commentary">`,
+  but the Harmony volumes never close it: the div around Exodus 10:18's
+  comment runs on through the Scripture table for 10:21–29 and into the
+  comments after it. A build that trusted the wrapper either truncated those
+  comments or swallowed the Scripture text into them, so the `<scripCom>`
+  milestone — the one thing uniform across all 45 volumes — is used as both
+  anchor and boundary, cut at division edges. Genesis rebuilds byte-identically
+  under the milestone rule, which is how the change was checked, following the
+  NPNF practice of rebuilding earlier volumes whenever a rule changes.
+  **Excluded, deliberately:** the parallel Authorised Version / Calvin's-Latin
+  Scripture tables that head each chapter (Scripture text, not exposition —
+  Foundation already ships the KJV, and a commentary reprinting the text in
+  duplicates what the reader already has open); the CTS editors' footnotes; and the
+  volumes' front and back matter — the translators' prefaces, the facsimile
+  title pages, the publishers' dedicatory epistles and CCEL's word indexes.
+  Calvin's own Arguments, Prefaces and Epistles Dedicatory are kept out of
+  the verse bundles too, since a verse-keyed source has nowhere to put them,
+  but they are not dropped. The same build writes them to a separate reading
+  work (see "Calvin's Arguments, Prefaces and Dedications" below). Some other
+  Calvin prose *is* still missing, and isn't logged; see "Calvin prose still
+  missing from the verse commentary". Everything else excluded is logged to
+  `tools/calvin-commentaries/exclusions.txt` (22,441 items), same audit-trail
+  standard as the Josephus, JFB and ANF precedents. The audit list is built by
+  asking whether a division actually contains a verse-anchored comment, not by
+  reading its `type` attribute: the 45 volumes use "chapter", "Chapter",
+  "section", "Psalm", "psalm", "book", "Book", "lecture", "front", "Front",
+  "back", "translation", "Scripture" and no type at all, and judging by type
+  logged all 150 of the Psalms commentary's own divisions as excluded while
+  their contents were in fact being imported. An audit list that is wrong is
+  worse than none, because it gets trusted.
+- **Calvin's Institutes of the Christian Religion (tr. Beveridge, 1845).**
+  Calvin's systematic theology as a bundled Library work — the four Books in
+  **80 chapters and 1,394 numbered sections**, 2,868 paragraphs, one
+  `extra-biblical` source in the **`reformation`** category beside Luther's
+  Philadelphia Edition. A compound work in the Josephus mould: six `books`
+  rows (the four Books, plus the prefatory material and the appended One
+  Hundred Aphorisms) under a three-level **Book → Chapter → Section** table of
+  contents, on the existing `ParsedTocEntry.bookIndex` / grouping-row
+  machinery — no `toc_entries` schema change, no new category, no new type,
+  and no new search chip (the Reformation chip added for Luther already covers
+  `category = 'reformation'`).
+  **Why `reformation` and not `commentary` or `historical`** — the same
+  reasoning already recorded for Luther, reaching the same answer. It is not
+  verse-anchored Scripture commentary, which is what `commentary` is reserved
+  for; note that Calvin's *Commentaries* ARE filed there, and the two are
+  deliberately not folded together. And it is not a historian's narrative,
+  which is what `historical` stays.
+  **Citation.** `entries.position_ref` carries the standard scholarly
+  reference — `1.7.4` for Book 1, chapter 7, section 4 — on the paragraph that
+  OPENS each section, since sections run to several paragraphs and repeating
+  the citation on every one would be noise. Same placement the Talmud uses for
+  a daf. `entries.chapter` holds the chapter ordinal purely as a loading unit.
+  **Translation: Beveridge, deliberately not the Gutenberg option.** Three
+  English candidates exist — John Allen (1813, Project Gutenberg), Henry
+  Beveridge (1845, CCEL) and Thomas Norton (1561, CCEL). Beveridge is the more
+  polished standard 19th-century rendering and the one most cited in
+  English-language Calvin scholarship, and scholarly standing was judged to
+  outweigh the usual preference for a Gutenberg source — the same call the
+  Talmud made in taking the complete Steinsaltz over the easier-to-source
+  Rodkinson. Norton is excluded for the reason Rodkinson was: archaic English,
+  a curiosity rather than a reading copy.
+  **LICENCE — the source file is not uniformly public domain, and this is the
+  find worth carrying forward.** CCEL's `<DC.Rights>` for the work says
+  "Public Domain", which is true of Calvin and of Beveridge many times over.
+  But CCEL has bundled into the same file a modern editorial **Introduction by
+  John Murray (1898–1975)** — the Westminster professor — written for a
+  20th-century reprint and opening "the publishers have confidence...". That
+  essay is **still in copyright** (life+70 runs to 2045) and is not what the
+  work-level statement describes. It is excluded, and `build.mjs` guards it
+  twice: it refuses to build if it cannot find that division where it expects
+  it, and it then re-scans the finished bundle for Murray's name and dies if a
+  single trace survives. A tripwire rather than a filter, because a filter
+  that silently stops matching is worse than none. The general lesson: **a
+  work-level rights statement is evidence about the work, not about every
+  block inside the file.** The Internet Archive's caveat on Calvin's
+  Commentaries raised the same question and turned out to be about a different
+  edition; here the non-free component is real.
+
+  **Calvin's Scripture citations are clickable.** 3,183 references link to
+  the verse, the same way Bullinger's do in the Companion Bible notes. They
+  come from CCEL's `osisRef` attributes rather than from parsing the printed
+  citation, so bare continuations ("Rom. 8:32; 12:6") resolve exactly. The
+  build turns each `<scripRef>` into sentinel characters, then lifts them out
+  into character offsets once a paragraph's text is final, so the stored
+  text is identical to the build without links (checked byte for byte). The
+  offsets go in a new additive table, **`entry_refs`** (entry, char range,
+  book/chapter/verse). `ReferenceText` partitions the text by those stored
+  spans and falls back to the Bullinger parser only when an entry has none.
+  75 are left as plain text and logged to `exclusions.txt`: 69 carry no
+  `osisRef`, mostly Augustine's "Ep. 28"-style letters, which CCEL
+  mis-tagged as Scripture, and 6 point into the Apocrypha (Maccabees,
+  Ecclesiasticus, Baruch), which Foundation doesn't carry. A range or list
+  links to its first passage.
+
+- **Calvin's Arguments, Prefaces and Dedications to the Commentaries.** The
+  front matter Calvin wrote for his commentaries, as a second Reformation
+  work beside the Institutes: **57 pieces in 22 groups**, 671 paragraphs.
+  That is 30 Arguments or Prefaces (among them the Preface to the Psalms,
+  and prefaces to eight of the Minor Prophets), 26 Epistles Dedicatory (to
+  Edward VI twice, Queen Elizabeth, Gustavus of Sweden, Sigismund Augustus,
+  Grynaeus, Farel and Viret, Cordier and others), and one address to the
+  reader. One `extra-biblical` source in `reformation`, one `books` row per
+  commentary group, each piece a chapter, with a group → piece table of
+  contents. No schema change. Built by the commentaries build
+  (`FRONT_MATTER` in `tools/calvin-commentaries/build.mjs`) into
+  `public/library/reformation/calvin-prefaces.json` and installed by
+  `src/calvinPrefacesImport.ts`. The verse bundles are unchanged, checked
+  byte for byte.
+
+  **The earlier count was wrong.** The ROADMAP had queued "23 Arguments
+  and 6 Epistles Dedicatory, already located". The exclusion log only
+  looked at top-level divisions, so it missed every Argument and preface
+  nested one level down: all the Pauline and Catholic epistles and the
+  Minor Prophets. The real set came from walking every division in all 45
+  volumes.
+
+  **Chosen by name, not by pattern.** A volume's front matter mixes Calvin
+  with his translators, printers and later dedicators. Golding, Cotton,
+  Paget, Featherstone, Beza, Gallars, Budaeus, Crispin and Jonviller all
+  wrote pieces that are not included. Each kept piece is listed with its
+  opening words, and the build stops unless every one matches exactly one
+  division. Titles in the source aren't usable for this: several volumes
+  name every piece "front ii" or "The Argument".
+
+- **Calvin prose still missing from the verse commentary.** Found while
+  inventorying the front matter. The commentary build takes text only
+  from each verse comment's milestone onward, so prose that sits in a
+  division before the first milestone never reaches any bundle, and isn't
+  logged either. Confirmed missing by searching the bundles:
+  - Calvin's short argument heading each Psalm (about 150).
+  - The opening of lectures that resume "yesterday's" verse. This includes
+    the prefaces to Jeremiah, Daniel and Malachi, which are spoken at the
+    start of Lecture One.
+  - The Harmony of the Law's topical essays ("The Use of the Law", "The
+    Song of Moses").
+
+  The prayers that close each lecture were in this list and are now done
+  (see "Calvin's lecture prayers" below). The study footer takes no new
+  features, so the rest needs a home that doesn't change it. Options are
+  joining each piece onto the adjacent verse comment in the existing
+  bundles (a data change, not a footer change), or a pane work like the
+  prayers. Needs a decision before it's fixed. At the very least, the build
+  should log this prose, so the exclusion list stops understating what's
+  left out.
+
+- **Calvin's lecture prayers.** The 524 prayers closing Calvin's lectures on
+  Jeremiah, Lamentations, Ezekiel, Daniel and the Minor Prophets, as a
+  verse-keyed work (`type: 'commentary'`, filed under `reformation`). You
+  pick it in any Bible pane's source list, and it follows that pane's sync
+  group like the Companion Bible notes. Each prayer is filed in the chapter
+  its lecture opened in and labelled with the lecture and passage ("Lecture
+  19 · Jeremiah 5:4–9"). A prayer answers a whole lecture, not a verse, so
+  its entry has no verse number and the pane draws it as a labelled block.
+  The passage comes from the verse markers between one prayer and the next.
+  Lecture 170 on Malachi has none in CCEL's file (it carries on from
+  Malachi 1:5), so it is filed there as "continuing Malachi 1:5". Built by
+  the commentaries build into `public/library/reformation/calvin-prayers.json`
+  and installed by `src/calvinPrayersImport.ts`.
+  **Provenance:** John Calvin (1509–1564), *Institutes of the Christian
+  Religion*, final Latin edition 1559, in **Henry Beveridge's** English
+  translation, first published **1845** for the **Calvin Translation Society**;
+  Beveridge died in 1863. Text from **CCEL**'s ThML edition
+  (`ccel.org/ccel/calvin/institutes`). Built by
+  `tools/calvin-institutes/build.mjs`, which hard-fails unless the file
+  declares itself public domain AND names Beveridge as translator, Calvin as
+  author, and `institutes` as its bookID.
+  **Structure was read from the markup, not assumed, and it repaid the
+  reading.** The Institutes has only two div levels — div1 Book, div2 Chapter,
+  no div3 at all — and its *sections*, the unit the citation names, are not
+  elements: they are body paragraphs opening with a bare number. So
+  `tools/npnf2/shared/thml.mjs` was **not** reused. That module is built around
+  div-nesting and container-vs-flat-run voting, none of which can find a
+  section here; adapting it would have meant disabling most of it and bolting
+  on the one thing it does not do. Only its habits carry over (note stripping,
+  inline unwrapping).
+  Two parsing defects were found and fixed by checking extracted text against
+  known citations rather than by eyeballing counts. First, each chapter prints
+  an analytical **outline** before the prose, one line per section; some
+  chapters mark it `class="intro"` and many carry no class at all, so a
+  class-based filter passed the outline through **as the body** — the text
+  stored for `1.7.4` was its one-line summary, with Calvin's actual prose
+  appended as continuation. The fix reads the structure instead: the outline
+  runs between the "Sections." marker and the point where the numbering
+  **restarts at 1**, which is the body beginning. Second, a strict "next number
+  in sequence" rule let a single malformed numeral cascade — Book 3 ch. 22 lost
+  **sections 2 through 11** to one "2." the scan never rendered. Section
+  numbers are now accepted anywhere ahead of the last one and within the
+  outline's count, and every bridged gap is logged. The outline doubles as a
+  **cross-check**: across all **80** chapters that carry one, the body's
+  highest section number equals the outline's line count, with zero
+  mismatches.
+  **Excluded, deliberately:** the Murray introduction (on licence grounds,
+  above); the title page; CCEL's reference apparatus — Tables I–III of
+  Scripture/Hebrew/Greek words, the Index to Authors Quoted, the General Index
+  of Chapters and the two Indexes divisions; and Beveridge's numbered
+  footnotes, the same call made for Whiston's in `josephus/build.mjs`.
+  **Calvin's own Scripture citations are primary content and are kept** —
+  `<scripRef>` is unwrapped to its text, not dropped. Everything excluded is
+  logged to `tools/calvin-institutes/exclusions.txt` (859 items), the same
+  audit-trail standard as the JFB and Josephus logs. The edition's chapter
+  outlines are **kept** rather than dropped, marked `entries.is_apparatus` so
+  the pane sets them apart from Calvin's argument and labels the run once —
+  the column added for Riley's notes on Ovid, used here for the same reason:
+  the reader should be able to see which words are the editor's.
 - **Open source** — MIT-licensed (see `LICENSE`). The license covers the app
   only; imported/downloaded texts keep their own license status.
 - **KJV + Strong's numbers, with smart search.** An optional Library add-on
@@ -799,10 +1091,17 @@ running list of what's done and what's next, not a commitment.
   The page/line locators themselves are **stripped entirely** from the
   reading text. They are typesetting artifacts of the two reprints, not
   Ovid's or Riley's words, and unlike JFB's verse ranges there is no parallel
-  worth preserving. Front matter — both publishers' introductions and the
-  "Synoptical View", a book-by-book plot synopsis — is **excluded and
-  logged** into the bundle's `metadata.exclusions`, the same audit-trail
-  standard as Whiston's Josephus front matter and JFB's introductions.
+  worth preserving. They are removed by *element* (`span.linenum`,
+  `span.pagenum`) rather than by pattern, and that distinction turned out to
+  matter: Riley cites classical works in exactly the locators' form inside
+  his own notes ("in the Fourth Book of Virgil's Georgics, I. 281-314"), so a
+  regex tight enough to catch the furniture would have silently mangled the
+  citation. The case is checked after every build. Front matter — both
+  publishers' introductions and the "Synoptical View", a book-by-book plot
+  synopsis — is **excluded and logged** into the bundle's
+  `metadata.exclusions`, along with the Gutenberg transcriber's own notes,
+  supplementary notes and indexes, the same audit-trail standard as Whiston's
+  Josephus front matter and JFB's introductions.
   **Provenance:** Publius Ovidius Naso (43 BC – AD 17/18), translated into
   English prose by **Henry T. Riley** (1816–1878), first published 1851 in
   Bohn's Classical Library. The two source transcriptions are of the **George
@@ -1739,14 +2038,16 @@ coordinates still separate cleanly.
      translation, the original English rendering, on CCEL — is the
      Rodkinson of this list: historically significant, archaic English,
      a curiosity rather than a primary reading copy.
-  2. **John Calvin — *Commentaries*.** A second, much larger candidate:
-     45 volumes covering nearly the whole Bible, translated by the Calvin
-     Translation Society (Edinburgh, 1844–56), on CCEL and partly on
-     Internet Archive/Gutenberg. **Belongs under `commentary`, not
-     `reformation`** — verse-anchored Scripture commentary, the same
-     shape as JFB and the Companion Bible, not systematic theology. Flag
-     this category distinction explicitly when scoping it; don't let it
-     drift into `reformation` by association with Calvin's other work.
+  2. **John Calvin — *Commentaries*. — DONE**, see "Calvin's
+     Commentaries" under Current. The category call flagged here was
+     right and held: it shipped under `commentary`, not `reformation`,
+     and did not drift by association with Calvin's other work. Two
+     things this entry guessed wrong are worth keeping visible — it is
+     48 of the 66 books, not "nearly the whole Bible", and it reads in
+     the study footer beside JFB rather than in a pane.
+     Its Arguments, Prefaces and Epistles Dedicatory now ship as their
+     own Reformation work; see "Calvin's Arguments, Prefaces and
+     Dedications" under Current.
   3. **Philip Melanchthon — *The Book of Concord* (Bente/Dau, 1921).**
      Melanchthon's two most significant primary works — the Augsburg
      Confession and its Apology, plus the Treatise on the Power and

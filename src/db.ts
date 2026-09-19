@@ -1,7 +1,7 @@
 import Database from '@tauri-apps/plugin-sql';
 import { toLanguageCode } from './language';
 import type {
-  Book, Bookmark, Entry, EntryNote, HighlightRow, Highlighter, LinkEndpoint, LinkRow, Note, ParsedSource,
+  Book, Bookmark, Entry, EntryNote, EntryRef, HighlightRow, Highlighter, LinkEndpoint, LinkRow, Note, ParsedSource,
   SearchHit, SearchResults, Source, SourceCategory, SourceType, TocEntryRow,
   StructureData, StructureDiagramRow, StructureGroupRow, StructureLineRow,
   StrongsBookCount, StrongsDictEntry, StrongsSearchGroup, StrongsSearchHit, StrongsWordRow,
@@ -93,6 +93,19 @@ const SCHEMA: string[] = [
     note_type TEXT
   )`,
   `CREATE INDEX IF NOT EXISTS idx_entry_notes_entry ON entry_notes(entry_id)`,
+  // Scripture references an importer located in an entry's text (the
+  // Institutes' <scripRef> tags): a character range of entries.text and its
+  // target. Rendering partitions the text by these; it never rewrites it.
+  `CREATE TABLE IF NOT EXISTS entry_refs (
+    id INTEGER PRIMARY KEY,
+    entry_id INTEGER NOT NULL REFERENCES entries(id),
+    char_start INTEGER NOT NULL,
+    char_end INTEGER NOT NULL,
+    book TEXT NOT NULL,
+    chapter INTEGER NOT NULL,
+    verse INTEGER
+  )`,
+  `CREATE INDEX IF NOT EXISTS idx_entry_refs_entry ON entry_refs(entry_id)`,
   `CREATE TABLE IF NOT EXISTS meta (
     key TEXT PRIMARY KEY,
     value TEXT NOT NULL
@@ -1184,6 +1197,45 @@ export async function insertTocEntries(sourceId: number, parsed: ParsedSource): 
   }
 }
 
+// Inserts the Scripture references carried on a parsed source's entries.
+// Requeries the just-inserted entries in sort_order, the same way
+// insertTocEntries does, to learn their ids.
+export async function insertEntryRefs(sourceId: number, parsed: ParsedSource): Promise<void> {
+  const db = await ensureDb();
+  const rows: unknown[][] = [];
+  for (const book of parsed.books) {
+    if (!book.entries.some((e) => e.refs && e.refs.length > 0)) continue;
+    const stored = await getEntries(sourceId, book.name, null);
+    if (stored.length !== book.entries.length) {
+      throw new Error(`${book.name}: expected ${book.entries.length} entries, found ${stored.length}.`);
+    }
+    book.entries.forEach((e, i) => {
+      for (const r of e.refs ?? []) {
+        rows.push([stored[i].id, r.char_start, r.char_end, r.book, r.chapter, r.verse]);
+      }
+    });
+  }
+  for (let i = 0; i < rows.length; i += INSERT_BATCH) {
+    const batch = rows.slice(i, i + INSERT_BATCH);
+    const placeholders = batch.map(() => '(?, ?, ?, ?, ?, ?)').join(', ');
+    await db.execute(
+      `INSERT INTO entry_refs (entry_id, char_start, char_end, book, chapter, verse) VALUES ${placeholders}`,
+      batch.flat(),
+    );
+  }
+}
+
+export async function getEntryRefsForEntries(entryIds: number[]): Promise<EntryRef[]> {
+  if (entryIds.length === 0) return [];
+  const db = await ensureDb();
+  const placeholders = entryIds.map(() => '?').join(', ');
+  return db.select<EntryRef[]>(
+    `SELECT entry_id, char_start, char_end, book, chapter, verse FROM entry_refs
+     WHERE entry_id IN (${placeholders}) ORDER BY entry_id, char_start`,
+    entryIds,
+  );
+}
+
 // `book_name` is joined through the target entry rather than stored, so it
 // can't drift from the entry it points at. NULL for a grouping heading,
 // which has no target.
@@ -1288,6 +1340,7 @@ export async function deleteSource(sourceId: number): Promise<void> {
   );
   await db.execute(`DELETE FROM notes WHERE entry_id IN (${entriesSubquery})`, [sourceId]);
   await db.execute(`DELETE FROM entry_notes WHERE entry_id IN (${entriesSubquery})`, [sourceId]);
+  await db.execute(`DELETE FROM entry_refs WHERE entry_id IN (${entriesSubquery})`, [sourceId]);
   await db.execute(`DELETE FROM strongs_words WHERE entry_id IN (${entriesSubquery})`, [sourceId]);
   await db.execute('DELETE FROM toc_entries WHERE source_id = ?', [sourceId]);
   await clearStructureData(sourceId);

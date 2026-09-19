@@ -52,6 +52,10 @@ import { NPNF213_TITLE, installNPNF213 } from './npnf213Import';
 import { NPNF214_TITLE, installNPNF214 } from './npnf214Import';
 import { SMITHS_TITLE, installSmiths } from './smithsImport';
 import { JFB_TITLE, installJfb } from './jfbImport';
+import { CALVIN_TITLE, installCalvinCommentaries } from './calvinCommentariesImport';
+import { CALVIN_INSTITUTES_TITLE, installCalvinInstitutes } from './calvinInstitutesImport';
+import { CALVIN_PREFACES_TITLE, installCalvinPrefaces } from './calvinPrefacesImport';
+import { CALVIN_PRAYERS_TITLE, installCalvinPrayers } from './calvinPrayersImport';
 import { TALMUD_SEDARIM, installTalmudSeder, talmudTitle } from './talmudImport';
 import { YERUSHALMI_TITLE, installYerushalmi } from './yerushalmiImport';
 import { LUTHER_VOLUMES, installLutherVolume, lutherTitle } from './lutherImport';
@@ -1050,6 +1054,39 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       + 'tools/jfb/build.mjs, which refuses any module not marked public domain.',
     install: installJfb,
   },
+  // Calvin's Commentaries: ONE source folded from the 23 bundles on disk —
+  // see calvinCommentariesImport.ts for why the earlier per-book-group split
+  // was withdrawn, and why the footer's single dropdown is what decided it.
+  {
+    id: 'calvin_commentaries',
+    title: CALVIN_TITLE,
+    language: 'en',
+    type: 'footer-commentary' as SourceType,
+    category: 'commentary' as SourceCategory,
+    // Read in the study footer's Commentary tab, like JFB — never in a pane.
+    verseKeyed: true,
+    license: 'public domain',
+    licenseDetail:
+      'John Calvin (1509–1564) — public domain. His complete verse-by-verse commentaries: '
+      + '13,459 comments across the 48 of the 66 books he wrote on, in one install that follows '
+      + "the reading pane's chapter wherever it goes. He never commented on Judges through "
+      + 'Esther, Job, Proverbs, Ecclesiastes, Song of Solomon, 2 John, 3 John or Revelation, and '
+      + 'the strip simply reports no commentary there. Reads in the study footer’s Commentary '
+      + "tab beside the Jamieson, Fausset & Brown commentary, not in a pane of its own; his "
+      + 'opening catchword on each verse is kept in bold so the strip stays skimmable. One entry '
+      + 'per comment, so a highlight, note or link binds the whole comment. Exodus to Deuteronomy '
+      + 'and Matthew/Mark/Luke are his two Harmonies, which treat corresponding passages '
+      + 'together — each comment still files under the one verse it is keyed to. English text '
+      + 'from the Calvin Translation Society edition (Edinburgh, 1844–56), translated by a team '
+      + 'of period translators including John King, Charles Bingham, James Anderson and William '
+      + "Pringle, and digitised by CCEL from the OnLine Bible project's transcription of all 45 "
+      + "volumes. Calvin's own Scripture citations are kept; the parallel Authorised Version / "
+      + "Calvin's-Latin Scripture tables, the CTS editors' footnotes and the volumes' front and "
+      + 'back matter are excluded and logged to tools/calvin-commentaries/exclusions.txt. Built '
+      + 'by tools/calvin-commentaries/build.mjs, which refuses any volume that does not declare '
+      + 'itself public domain and name Calvin as its author.',
+    install: installCalvinCommentaries,
+  },
   // The Talmud ships as six sources, one per Seder — see talmudImport.ts for
   // why it isn't one atomic install the way Josephus is. Generated rather
   // than written out six times: the six differ only in Seder name and
@@ -1143,6 +1180,74 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       + 'and volume, and refuses to drop a single paragraph without logging it.',
     install: installLutherVolume(vol),
   })),
+  {
+    id: 'calvin_institutes',
+    series: 'Works of John Calvin',
+    title: CALVIN_INSTITUTES_TITLE,
+    language: 'en',
+    type: 'extra-biblical' as SourceType,
+    category: 'reformation' as SourceCategory,
+    license: 'public domain',
+    licenseDetail:
+      'John Calvin (1509–1564), Institutes of the Christian Religion — public domain, in Henry '
+      + "Beveridge's English translation, first published 1845 for the Calvin Translation Society "
+      + '(Beveridge died 1863). His systematic theology, and the anchor of the Reformed tradition: '
+      + 'the four Books in 80 chapters and 1,394 numbered sections, under a Book → Chapter → Section '
+      + 'table of contents, cited the standard way (1.7.4) and one entry per paragraph so any '
+      + "passage can be highlighted, annotated and bound. Calvin's prefatory address to King "
+      + "Francis I and his other prefaces are included, as is the edition's appended digest, the "
+      + "One Hundred Aphorisms; each chapter's printed analytical outline is kept and shown set "
+      + "apart from Calvin's own prose. Beveridge was chosen over John Allen's 1813 translation "
+      + "(Project Gutenberg) and Thomas Norton's archaic 1561 as the standard and most commonly "
+      + 'cited English rendering. Text from CCEL, which declares it public domain. NOTE: CCEL’s '
+      + 'file also carries a modern editorial introduction by John Murray (1898–1975), written for '
+      + 'a 20th-century reprint and still in copyright — it is NOT included, and '
+      + 'tools/calvin-institutes/build.mjs refuses to build if it cannot find and remove it. '
+      + "Beveridge's footnotes and CCEL's reference tables and indexes are excluded and logged to "
+      + "tools/calvin-institutes/exclusions.txt; Calvin's own Scripture citations are kept, and link to the verse.",
+    install: installCalvinInstitutes,
+  },
+  {
+    id: 'calvin_prefaces',
+    series: 'Works of John Calvin',
+    title: CALVIN_PREFACES_TITLE,
+    language: 'en',
+    type: 'extra-biblical' as SourceType,
+    category: 'reformation' as SourceCategory,
+    license: 'public domain',
+    licenseDetail:
+      'John Calvin (1509–1564), the Arguments, Prefaces and Epistles Dedicatory from his '
+      + 'Commentaries — public domain, in the Calvin Translation Society’s English translation '
+      + '(Edinburgh, 1844–56), from CCEL, which declares every volume public domain. 57 pieces '
+      + 'in 22 groups: the Argument introducing each biblical book, his prefaces (among them the '
+      + 'autobiographical Preface to the Psalms and his prefaces to eight of the Minor Prophets), and the '
+      + 'dedications to Edward VI, Queen Elizabeth, Gustavus of Sweden, Sigismund Augustus of '
+      + 'Poland, Farel and Viret and others. They introduce whole books rather than verses, so '
+      + 'they are read here as prose, not in the study footer beside the verse commentary. Only '
+      + 'Calvin’s own writing is included, each piece chosen by name: the dedications and prefaces '
+      + 'by his translators, printers and editors are left out. Built by '
+      + 'tools/calvin-commentaries/build.mjs.',
+    install: installCalvinPrefaces,
+  },
+  {
+    id: 'calvin_prayers',
+    series: 'Works of John Calvin',
+    title: CALVIN_PRAYERS_TITLE,
+    language: 'en',
+    type: 'commentary' as SourceType,
+    category: 'reformation' as SourceCategory,
+    verseKeyed: true,
+    license: 'public domain',
+    licenseDetail:
+      'John Calvin (1509–1564), the 524 prayers closing his lectures on Jeremiah, Lamentations, '
+      + 'Ezekiel, Daniel and the Minor Prophets — public domain, in the Calvin Translation '
+      + 'Society’s English translation (Edinburgh, 1844–56), from CCEL, which declares every '
+      + 'volume public domain. Pick it in any Bible pane’s source list and it follows your reading: each prayer is filed '
+      + 'in the chapter its lecture expounded and labelled with the lecture and passage '
+      + '("Lecture 19 · Jeremiah 5:4–9"), so reading Jeremiah 5 shows the prayers from the '
+      + 'lectures on Jeremiah 5. Built by tools/calvin-commentaries/build.mjs.',
+    install: installCalvinPrayers,
+  },
   {
     id: 'chesterton_apologetics',
     title: CHESTERTON_TITLE,

@@ -18,10 +18,9 @@ export type SourceCategory =
   | 'commentary'
   | 'reference'
   | 'historical'
-  // Dictionaries and devotionals live in the study footer (FooterPanel),
-  // not in a reading pane — the category is what routes them there.
+  // Dictionaries live in the study footer (FooterPanel), not in a reading
+  // pane — the category is what routes them there.
   | 'dictionary'
-  | 'devotional'
   // Church Fathers collections (Ante-Nicene, Nicene and Post-Nicene).
   | 'patristic'
   // Rabbinic literature — the Talmud today, with the Mishnah and Midrash
@@ -173,6 +172,9 @@ export interface ParsedEntry {
   // Optional: set by an importer that knows this paragraph is the author's or
   // translator's apparatus, not the work. See Entry.is_apparatus.
   isApparatus?: boolean;
+  // Optional: Scripture references already located in `text` by the build
+  // (see EntryRef). Stored by insertEntryRefs, never folded into the text.
+  refs?: Omit<EntryRef, 'entry_id'>[];
 }
 
 export interface ParsedSource {
@@ -395,6 +397,18 @@ export interface SelectedEntry {
 // explanation) captured from the OSIS source. Anchored after a specific
 // tagged word via word_index, or verse-level when word_index is NULL.
 // Additive like strongs_words — never part of entries.text.
+// A Scripture reference inside an entry's text, as the half-open character
+// range [char_start, char_end) of entries.text plus where it points. Only
+// ever partitions the stored text for rendering — the text is untouched.
+export interface EntryRef {
+  entry_id: number;
+  char_start: number;
+  char_end: number;
+  book: string;
+  chapter: number;
+  verse: number | null;
+}
+
 export interface EntryNote {
   id: number;
   entry_id: number;

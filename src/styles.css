@@ -1505,7 +1505,7 @@ select:focus, input:focus, button:focus-visible {
 
 .library-row { margin-left: 4px; }
 
-/* ---------- study footer (dictionaries / commentaries / devotionals) ---------- */
+/* ---------- study footer (dictionaries / commentaries) ---------- */
 /* A full-width strip under the panes. flex-shrink: 0 so its user-chosen
    height wins over the panes' flex: 1; the drag handle on its top edge is
    what adjusts it. */

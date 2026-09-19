@@ -712,8 +712,8 @@ export default function App() {
     setLibraryOpen(false);
   };
 
-  // "Open" a source from the Library: footer works (dictionaries,
-  // devotionals) default to the study footer — the footer's own "Open as a
+  // "Open" a source from the Library: footer works (dictionaries and
+  // footer commentaries) default to the study footer — the footer's own "Open as a
   // pane" button is the explicit way to promote one into a pane — and
   // everything else gets its dedicated pane.
   const openImportedSource = (sourceId: number) => {
