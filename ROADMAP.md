@@ -500,19 +500,24 @@ running list of what's done and what's next, not a commitment.
   same CrossWire tagging, trimmed.) **In progress:** refine CrossWire with
   STEPBible's word-level TAHOT (CC BY 4.0) — prototype in
   `tools/strongs-align/` places missing numbers by word order and the
-  KJV's usual rendering. Whole OT (23,138 verses): 77% of missing numbers
-  placed at **96.6% real precision** (was 68% / 92%), measured against
-  `tools/strongs-align/answer-key.json` — 509 of its own placements judged
-  by hand in e-Sword in two rounds (`--checklist` builds the list, `--score` measures;
-  the key stores only our output plus a verdict, never e-Sword text). The
-  held-out self-check reads ~98% and is too optimistic; trust the key.
+  KJV's usual rendering. Whole OT (23,138 verses): 73% of missing numbers
+  placed. Measured against `tools/strongs-align/answer-key.json` — 609 of
+  its own placements judged by hand in e-Sword over three rounds
+  (`--checklist` lists unjudged ones, `--score` measures; the key stores
+  only our output plus a verdict, never e-Sword text): 96.3% overall, but
+  that includes rounds the rules were tuned on. Fresh rounds read 96.9%
+  and 91.5%, so the honest figure is ~93-94%. The held-out self-check is
+  too optimistic; trust the key.
   TAHOT's affix parts (H9002 "and", H9003 "in", suffix "my"/"your"…) mark
   their English words as spoken for, so no number lands on them (2Chr 9:5:
   H5921 goes on the two "of"s, not "in"); a one-word TAHOT gloss ("on" for
-  H5921A) counts as a rendering even where the KJV lexicon lacks it. The
-  100 placements this newly made were judged separately: 96.9% right, so
-  the gain holds beyond the items it was tuned on. The 15 remaining errors
-  are mostly KJV wording TAHOT's gloss can't predict. Next:
+  H5921A) counts as a rendering even where the KJV lexicon lacks it; a
+  number found only outside its neighbouring anchors is placed only on a
+  word TAHOT glosses it with; KJV italics (translator-supplied) never take
+  a number. Remaining errors don't share a pattern (H1961 on "be"/"is",
+  small prepositions). Open question before the app uses these: accept
+  ~93% shown as distinct STEPBible-added numbers, or use only the
+  gloss-backed subset. Next:
   TAGNT (NT) before any in-app add-on.
   The grouped view also docks as a **Concordance pane** (🔤) beside the Bible
   panes, scrolling in isolation, fed by word clicks when open — with the

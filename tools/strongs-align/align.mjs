@@ -49,7 +49,7 @@ const dict = JSON.parse(
 
 // Crude stem so "arose"/"arise", "sheaves"/"sheaf" etc. at least meet on
 // regular endings. ponytail: suffix-strip only, irregular forms miss.
-const stem = (w) => w.toLowerCase().replace(/'s$/, '').replace(/(eth|est|ing|ed|es|s)$/, '');
+const stem = (w) => w.toLowerCase().replace(/'s$/, '').replace(/(?<=[a-z]{3})(eth|est|ing|ed|es|s)$/, '');
 
 // kjv_def entries look like "(a-)rise(-ing), [idiom] behold, lo, see".
 // Only one-word entries count ("for all" must not make "for" a rendering);
@@ -84,11 +84,16 @@ function crosswireVerses(book) {
   const out = new Map();
   const re = new RegExp(`<verse osisID="(${book}\\.\\d+\\.\\d+)" sID="[^"]*"/>([\\s\\S]*?)<verse eID`, 'g');
   for (const m of osis.matchAll(re)) {
-    const body = m[2].replace(/<note[\s\S]*?<\/note>/g, '');
+    // Words the KJV prints in italics (supplied by the translators, no Hebrew
+    // behind them) are marked with \u0001 so nothing is placed on them.
+    const body = m[2].replace(/<note[\s\S]*?<\/note>/g, '')
+      .replace(/<transChange type="added">([\s\S]*?)<\/transChange>/g, (_, x) => x.replace(/[A-Za-z']+/g, '\u0001$&'));
     const tokens = [];
     const spans = [];
     const pushText = (text, span) => {
-      for (const w of text.replace(/<[^>]+>/g, '').matchAll(/[A-Za-z']+/g)) tokens.push({ word: w[0], span });
+      for (const w of text.replace(/<[^>]+>/g, '').matchAll(/\u0001?[A-Za-z']+/g)) {
+        tokens.push({ word: w[0].replace('\u0001', ''), span, added: w[0][0] === '\u0001' });
+      }
     };
     let pos = 0;
     for (const w of body.matchAll(/<w [^>]*?lemma="([^"]*)"[^>]*>([\s\S]*?)<\/w>/g)) {
@@ -304,8 +309,11 @@ function align(verse, { nums: heb, gloss, sole, affix }) {
         // A one-word TAHOT gloss is a rendering even if the KJV lexicon lacks
         // it (H5921 "on"); multi-word ones ("is broad") only break ties below.
         const g = sole[i] === stem(tok.word);
-        if (taken.has(t) || (!r.has(stem(tok.word)) && !g)) continue;
+        if (taken.has(t) || tok.added || (!r.has(stem(tok.word)) && !g)) continue;
         if (PREFIX_WORDS.has(tok.word.toLowerCase()) || spoken(tok.word)) continue;
+        // Outside its neighbouring anchors, position says little: only a word
+        // TAHOT glosses the number with may take it there (2Kgs 5:26 "with").
+        if (widen && !gloss[i].has(stem(tok.word))) continue;
         // A rendering seen only rarely in the KJV (H5921 as "and") is more
         // likely a CrossWire slip than a real rendering; dictionary ones stay.
         const u = usage(num, tok.word);
