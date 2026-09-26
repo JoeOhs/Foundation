@@ -504,7 +504,7 @@ running list of what's done and what's next, not a commitment.
   placed. Measured against `tools/strongs-align/answer-key.json` — 609 of
   its own placements judged by hand in e-Sword over three rounds
   (`--checklist` lists unjudged ones, `--score` measures; the key stores
-  only our output plus a verdict, never e-Sword text): 96.3% overall, but
+  only our output plus a verdict, never e-Sword text): 96.5% overall, but
   that includes rounds the rules were tuned on. Fresh rounds read 96.9%
   and 91.5%, so the honest figure is ~93-94%. The held-out self-check is
   too optimistic; trust the key.
@@ -514,8 +514,11 @@ running list of what's done and what's next, not a commitment.
   H5921A) counts as a rendering even where the KJV lexicon lacks it; a
   number found only outside its neighbouring anchors is placed only on a
   word TAHOT glosses it with; KJV italics (translator-supplied) never take
-  a number. Remaining errors don't share a pattern (H1961 on "be"/"is",
-  small prepositions). Open question before the app uses these: accept
+  a number; ties go to the word nearest the Hebrew word's anchored
+  neighbours. Remaining errors don't share a pattern (H1961 on "be"/"is",
+  small prepositions). Tried and dropped: checking pronouns against
+  TAHOT's person/number codes (blocked 24 placements OT-wide, fixed none
+  judged — the pronoun errors are the right person on the wrong word). Open question before the app uses these: accept
   ~93% shown as distinct STEPBible-added numbers, or use only the
   gloss-backed subset. Next:
   TAGNT (NT) before any in-app add-on.
