@@ -345,7 +345,13 @@ function align(verse, { nums: heb, gloss, sole, affix }) {
         // TAHOT's gloss first, then the KJV's usual rendering of the number
         // (H5921: "upon" over "to", Gen 2:5), then nearest its proportional
         // position.
-        const want = (i / heb.length) * n;
+        // Where the Hebrew word sits between its nearest anchored neighbours,
+        // carried over to their KJV words (Jer 50:13: H1961 is beside
+        // "desolate", so the second "be", not the first).
+        const pk = before.at(-1), nk = after[0];
+        const pEnd = pk === undefined ? -1 : anc.get(pk).last;
+        const nStart = nk === undefined ? n : anc.get(nk).first;
+        const want = pEnd + ((i - (pk ?? -1)) / ((nk ?? heb.length) - (pk ?? -1))) * (nStart - pEnd);
         const score = (t) => [+glossed(t), usage(num, verse.tokens[t].word), -Math.abs(t - want)];
         const better = (a, b) => { for (let k = 0; k < a.length; k++) if (a[k] !== b[k]) return a[k] > b[k]; return false; };
         const t = cands.reduce((a, b) => (better(score(b), score(a)) ? b : a));
