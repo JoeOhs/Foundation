@@ -2243,6 +2243,44 @@ coordinates still separate cleanly.
      with a real Phase 0b-style inspection before scoping any build,
      rather than assuming it matches the easier candidates on this list.
 
+     **Phase 0b inspection (2026-09-26): confirmed an OCR build, Luther
+     Vol. III class, somewhat harder.** Findings:
+     - *No transcription exists.* Not on CCEL or Project Gutenberg (PG has
+       only the 1526 New Testament and Genesis). Wikisource's Author page
+       lists *Obedience*, *Wicked Mammon*, and *Practice of Prelates*, but
+       *Obedience* is a single unsourced paragraph and the other two pages
+       don't exist.
+     - *Best scans:* the University of Toronto copies of all three volumes,
+       `doctrinaltreatis00tynduoft` (Vol. I, 624 leaves),
+       `expositionsnotes00tynduoft` (Vol. II, 366), and
+       `tyndalesanswer00tynduoft` (Vol. III, 366). Emory, Princeton and Google
+       copies exist as fallbacks.
+     - *Body text is good:* sampled mid-volume passages read almost clean
+       (occasional `phicketh`/`plucketh`, `aud`/`and`), and there are 954 and
+       415 junk tokens in Vols. I and III respectively.
+     - *The margin is the hard part, and it matters more than Luther's.*
+       Tyndale's own glosses (marked `W. T.` by Walter), Walter's scripture
+       references and his bracketed editorial footnotes all sit on the page.
+       Unlike the Luther scans, the OCR merges each margin note *into the
+       body line beside it*: line bboxes run x≈214→2290 against a body right
+       edge of ≈2023. So segmentation must happen per word, not per line. On
+       the sampled page (Vol. I leaf 195) word boxes split cleanly at the
+       column edge. The margin text itself is badly damaged (`iiom. u.` =
+       Rom. ii., `Rom. vin.` = Rom. viii., `m'eai. w. T.`), so Luther's
+       resolve-or-drop citation rule would be essential here, and the roman-numeral chapter
+       repairs are new work.
+     - *Format split:* Vols. I and III have hOCR (what
+       `tools/luther/vol3-normalise.mjs` reads). Vol. II has only
+       `_djvu.xml` and ABBYY, so it needs a second geometry reader or an
+       adapter.
+     - *Editorial apparatus to exclude or attribute:* Walter's biographical
+       notice and introductory notices are 1848–50 and PD, so rights aren't
+       the issue. They just aren't Tyndale, and need labelling the way the
+       CCEL per-block rule does.
+     Next step if pursued: a per-word margin splitter over one volume
+     (Vol. III, the smallest with hOCR), measured against a hand-checked
+     sample of pages before scoping the rest.
+
   **Investigated and found too thin to be a real candidate yet:**
   **Martin Bucer** (Strasbourg, hugely influential on both Calvin and the
   English Reformation) has much thinner and more scattered English
