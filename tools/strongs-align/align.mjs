@@ -178,31 +178,58 @@ function releaseStrays(span) {
   return kept.length ? { ...span, nums: kept, released: span.nums.filter((n) => !kept.includes(n)) } : span;
 }
 
-// --- TAHOT: verse -> ordered numbers ----------------------------------------
-// Only the {braced} main number per Hebrew word; H9xxx prefixes (and, the,
-// in…) are STEPBible's own extension numbers with no Strong's entry.
+// --- TAHOT: verse -> ordered numbers, glosses, and affix words --------------
+// Each Hebrew word is split into parts ("in/ own land/ my" =
+// H9003/{H776G}/H9020). The {braced} part carries the Strong's number; the
+// H9xxx parts are STEPBible's own affix numbers (and, the, in, my…) with no
+// Strong's entry. Their English glosses are words the KJV spends on the
+// affixes, so they are spoken for (see `align`). <angled> gloss words are
+// ones English leaves unsaid.
 const OSIS_OT = ['Gen', 'Exod', 'Lev', 'Num', 'Deut', 'Josh', 'Judg', 'Ruth', '1Sam', '2Sam', '1Kgs', '2Kgs',
   '1Chr', '2Chr', 'Ezra', 'Neh', 'Esth', 'Job', 'Ps', 'Prov', 'Eccl', 'Song', 'Isa', 'Jer', 'Lam', 'Ezek',
   'Dan', 'Hos', 'Joel', 'Amos', 'Obad', 'Jonah', 'Mic', 'Nah', 'Hab', 'Zeph', 'Hag', 'Zech', 'Mal'];
+// TAHOT glosses in modern English; the KJV words each may appear as.
+const KJV_FORMS = {
+  you: ['you', 'ye', 'thou', 'thee'], your: ['your', 'thy', 'thine', 'you', 'ye', 'thee'],
+  my: ['my', 'mine', 'me'], its: ['its', 'it', 'his', 'her', 'thereof'], it: ['it', 'him', 'her'],
+};
+const glossWords = (g) => g.replace(/<[^>]*>/g, ' ').toLowerCase().match(/[a-z']+/g) ?? [];
+const kjvForms = (w) => KJV_FORMS[w] ?? [w];
 const tahotBooks = [];
-const tahot = new Map();
+const tahot = new Map(); // ref -> { nums: [..], gloss: [Set], affix: Map(stem -> count) }
 for (const f of ['TAHOT Gen-Deu.txt', 'TAHOT Jos-Est.txt', 'TAHOT Job-Sng.txt', 'TAHOT Isa-Mal.txt']) {
   if (!existsSync(join(RAW, f))) break; // a gap would shift the positional book mapping
   for (const line of load(f).split('\n')) {
-    const m = line.match(/^(\w+\.\d+\.\d+)(?:\([^)]*\))?#\d+=\w+\t[^\t]*\t[^\t]*\t[^\t]*\t([^\t]*)/);
+    const m = line.match(/^(\w+\.\d+\.\d+)(?:\([^)]*\))?#\d+=\w+\t[^\t]*\t[^\t]*\t([^\t]*)\t([^\t]*)/);
     if (!m) continue;
     const [bk, ch, vs] = m[1].split('.');
     if (!tahotBooks.includes(bk)) tahotBooks.push(bk);
     // TAHOT's book names ("Exo", "Deu") differ from OSIS's ("Exod", "Deut");
     // both run in canonical order, so they are zipped by position.
-    m[1] = `${OSIS_OT[tahotBooks.indexOf(bk)]}.${ch}.${vs}`;
-    if (!tahot.has(m[1])) tahot.set(m[1], []);
-    for (const n of m[2].matchAll(/\{H0*(\d+)[A-Z]?\}/g)) {
+    const ref = `${OSIS_OT[tahotBooks.indexOf(bk)]}.${ch}.${vs}`;
+    if (!tahot.has(ref)) tahot.set(ref, { nums: [], gloss: [], sole: [], affix: new Map() });
+    const v = tahot.get(ref);
+    const glosses = m[2].split('/');
+    const parts = m[3].split('/').map((x) => x.replace(/\\.*/, '')); // "\H9014" links, "\H9016" verse end
+    parts.forEach((part, pi) => {
+      // Parts and glosses normally pair up; if not, only the main part is kept.
+      const g = glosses.length === parts.length ? glossWords(glosses[pi]) : [];
+      const n = part.match(/^\{?H0*(\d+)[A-Z]?\}?$/);
+      if (!n) return;
+      if (Number(n[1]) >= 9000) {
+        for (const w of g) for (const f of kjvForms(w)) v.affix.set(stem(f), (v.affix.get(stem(f)) ?? 0) + 1);
+        return;
+      }
       const num = `H${n[1]}`;
-      // H9xxx: STEPBible's own affix numbers. Unrepresented words (H853, the
-      // object marker) have nothing in English to land on.
-      if (Number(n[1]) < 9000 && !/unrepresented/.test(dict[num]?.kjv_def ?? '')) tahot.get(m[1]).push(num);
-    }
+      // Unrepresented words (H853, the object marker) have nothing in English to land on.
+      if (!part.startsWith('{') || /unrepresented/.test(dict[num]?.kjv_def ?? '')) return;
+      v.nums.push(num);
+      // In a multi-word gloss ("he said", "to him") the small words are the
+      // verb's person or a helper, not what the number means.
+      const main = g.length > 1 ? g.filter((w) => !FUNCTION_WORDS.has(w)) : g;
+      v.gloss.push(new Set(main.flatMap(kjvForms).map(stem)));
+      v.sole.push(g.length === 1 ? stem(g[0]) : null);
+    });
   }
 }
 
@@ -235,7 +262,7 @@ function anchors(heb, slots) {
 }
 
 // Place every TAHOT number the KJV tagging lacks. Returns [{ num, token }].
-function align(verse, heb) {
+function align(verse, { nums: heb, gloss, sole, affix }) {
   const slots = slotsOf(verse);
   const anc = anchors(heb, slots);
   // Tags not used as anchors: those may still cover a number TAHOT has
@@ -247,11 +274,19 @@ function align(verse, heb) {
   const taken = new Set();
   const placed = [];
   const n = verse.tokens.length;
+  // Words the KJV spends on Hebrew affixes (2Chr 9:5 "in mine own land" is
+  // H9003+H776; the verse's two "of"s are the two H5921s). A word is spoken
+  // for when the verse has no more of it than TAHOT has affixes glossing it.
+  // ponytail: by count, not position; with one "in" affix and two "in"s,
+  // either may still take a number.
+  const tally = new Map();
+  for (const t of verse.tokens) tally.set(stem(t.word), (tally.get(stem(t.word)) ?? 0) + 1);
+  const spoken = (w) => tally.get(stem(w)) <= (affix.get(stem(w)) ?? 0);
   heb.forEach((num, i) => {
     if (anc.has(i)) return;
     if ((have.get(num) ?? 0) > 0) { have.set(num, have.get(num) - 1); return; } // tagged, just reordered
     const r = renders(num);
-    if (!r.size) return;
+    if (!r.size && !sole[i]) return;
     const ancIdx = [...anc.keys()];
     for (let widen = 0; widen <= 1; widen++) {
       const before = ancIdx.filter((k) => k < i);
@@ -266,16 +301,19 @@ function align(verse, heb) {
       let funcOnly = 0; // how many candidates are small function words
       for (let t = Math.max(0, lo); t <= Math.min(n - 1, hi); t++) {
         const tok = verse.tokens[t];
-        if (taken.has(t) || !r.has(stem(tok.word))) continue;
-        if (PREFIX_WORDS.has(tok.word.toLowerCase())) continue;
+        // A one-word TAHOT gloss is a rendering even if the KJV lexicon lacks
+        // it (H5921 "on"); multi-word ones ("is broad") only break ties below.
+        const g = sole[i] === stem(tok.word);
+        if (taken.has(t) || (!r.has(stem(tok.word)) && !g)) continue;
+        if (PREFIX_WORDS.has(tok.word.toLowerCase()) || spoken(tok.word)) continue;
         // A rendering seen only rarely in the KJV (H5921 as "and") is more
         // likely a CrossWire slip than a real rendering; dictionary ones stay.
         const u = usage(num, tok.word);
-        if (u < 0.01 && !dictRenders(num).has(stem(tok.word))) continue;
+        if (u < 0.01 && !g && !dictRenders(num).has(stem(tok.word))) continue;
         // …and this number must account for a real share of the times the KJV
         // uses this word at all, or the word belongs to some other number.
         if (share(num, tok.word) < MIN_SHARE) continue;
-        if (FUNCTION_WORDS.has(tok.word.toLowerCase()) && u < FUNC_MIN_USAGE) continue;
+        if (FUNCTION_WORDS.has(tok.word.toLowerCase()) && u < FUNC_MIN_USAGE && !gloss[i].has(stem(tok.word))) continue;
         if (FUNCTION_WORDS.has(tok.word.toLowerCase())) funcOnly++;
         // Inside another number's span, the word goes to whichever number
         // renders it more typically: "upon" in "upon the face" (H6440) is
@@ -288,20 +326,21 @@ function align(verse, heb) {
       // phrase beats guessing. Unambiguous ones (one candidate) still land.
       // …unless one candidate is the number's dominant KJV rendering ("upon"
       // for H5921, Gen 2:5): that is evidence, not a coin toss.
+      // TAHOT's own gloss for the number ("on" for H5921A) is evidence too.
+      const glossed = (t) => gloss[i].has(stem(verse.tokens[t].word));
       if (AMBIG_SKIP && cands.length > 1 && funcOnly > 0
-          && !cands.some((t) => usage(num, verse.tokens[t].word) >= DOMINANT)) {
+          && !cands.some((t) => glossed(t) || usage(num, verse.tokens[t].word) >= DOMINANT)) {
         const func = cands.filter((t) => FUNCTION_WORDS.has(verse.tokens[t].word.toLowerCase()));
         if (func.length > 1 || func.length === cands.length) continue;
       }
       if (cands.length) {
-        // The KJV's usual rendering of the number first (H5921: "upon" over
-        // "to", Gen 2:5), then closest to its proportional position.
+        // TAHOT's gloss first, then the KJV's usual rendering of the number
+        // (H5921: "upon" over "to", Gen 2:5), then nearest its proportional
+        // position.
         const want = (i / heb.length) * n;
-        const score = (t) => [usage(num, verse.tokens[t].word), -Math.abs(t - want)];
-        const t = cands.reduce((a, b) => {
-          const [ua, da] = score(a), [ub, db] = score(b);
-          return ub > ua || (ub === ua && db > da) ? b : a;
-        });
+        const score = (t) => [+glossed(t), usage(num, verse.tokens[t].word), -Math.abs(t - want)];
+        const better = (a, b) => { for (let k = 0; k < a.length; k++) if (a[k] !== b[k]) return a[k] > b[k]; return false; };
+        const t = cands.reduce((a, b) => (better(score(b), score(a)) ? b : a));
         taken.add(t);
         placed.push({ num, token: t });
         return;
@@ -337,11 +376,11 @@ if (!verses.size) throw new Error(`No verses for ${books.join(', ')} with both C
 let missing = 0, placedN = 0;
 const results = new Map();
 for (const [ref, v] of verses) {
-  const heb = tahot.get(ref);
+  const heb = tahot.get(ref).nums;
   const counts = new Map();
   for (const s of slotsOf(v)) counts.set(s.num, (counts.get(s.num) ?? 0) + 1);
   for (const x of heb) { if ((counts.get(x) ?? 0) > 0) counts.set(x, counts.get(x) - 1); else missing++; }
-  const p = align(v, heb);
+  const p = align(v, tahot.get(ref));
   placedN += p.length;
   results.set(ref, p);
 }
@@ -350,14 +389,14 @@ for (const [ref, v] of verses) {
 // once-per-verse tag, re-align, and see whether it comes back to its word.
 let tried = 0, back = 0, wrong = 0;
 for (const [ref, v] of verses) {
-  const heb = tahot.get(ref);
+  const heb = tahot.get(ref).nums;
   v.spans.forEach((s, si) => {
     const idx = v.tokens.flatMap((t, i) => (t.span === si ? [i] : []));
     if (idx.length !== 1 || s.nums.length !== 1) return;
     const num = s.nums[0];
     if (heb.filter((x) => x === num).length !== 1 || v.spans.filter((o) => o.nums.includes(num)).length !== 1) return;
     const held = { tokens: v.tokens.map((t, i) => (i === idx[0] ? { ...t, span: null } : t)), spans: v.spans };
-    const hit = align(held, heb).find((p) => p.num === num);
+    const hit = align(held, tahot.get(ref)).find((p) => p.num === num);
     tried++;
     if (!hit) return;
     if (hit.token === idx[0]) back++; else wrong++;
@@ -400,7 +439,7 @@ if (SCORE) {
   console.log(`\nAgainst answer-key.json (${Object.keys(key).length} judged, ${excluded} excluded as unsure):`);
   console.log(`  right ${right}, wrong ${wrong} — precision ${((100 * right) / scored).toFixed(1)}% of ${scored} scored`);
   console.log(`  no longer placed ${gone}, number changed ${moved}`);
-  if (stillWrong.length) console.log(`  still wrong: ${stillWrong.slice(0, 10).join('; ')}${stillWrong.length > 10 ? ` … +${stillWrong.length - 10}` : ''}`);
+  if (stillWrong.length) console.log(`  still wrong: ${stillWrong.slice(0, 40).join('; ')}${stillWrong.length > 40 ? ` … +${stillWrong.length - 40}` : ''}`);
 }
 
 // Fixed-seed sample of 100 verses for a by-hand comparison against e-Sword.
@@ -414,26 +453,38 @@ const lines = [...sample].sort((a, b) => refs.indexOf(a) - refs.indexOf(b))
 writeFileSync(join(RAW, 'sample.txt'), `+Hxxx = number added from TAHOT; others are CrossWire's.\n\n${lines.join('\n\n')}\n`);
 console.log(`\nWrote raw/sample.txt (${lines.length} verses).`);
 
-// --checklist: every added number in 150 random verses that have one, as
-// yes/no items for the by-hand answer key (raw/checklist.json). Only the
-// aligner's own additions are judged; CrossWire's tags aren't in question.
+// --checklist: added numbers in random verses as yes/no items for the
+// by-hand answer key. Only the aligner's own additions are judged; CrossWire's
+// tags aren't in question. The first round (150 verses) wrote
+// raw/checklist.json; once answer-key.json exists, only placements it hasn't
+// judged are listed, ~100 items, in raw/checklist2.json.
 if (CHECKLIST) {
+  const keyPath = join(import.meta.dirname, 'answer-key.json');
+  const key = existsSync(keyPath) ? JSON.parse(readFileSync(keyPath, 'utf8')) : null;
+  const fresh = (ref, p) => !key || key[`${ref}-${p.token}`]?.num !== p.num;
   let s2 = 7;
   const rand2 = () => ((s2 = (s2 * 1103515245 + 12345) % 2 ** 31) / 2 ** 31);
-  const withAdds = refs.filter((r) => results.get(r).length);
+  const withAdds = refs.filter((r) => results.get(r).some((p) => fresh(r, p)));
   const picked = new Set();
-  while (picked.size < Math.min(150, withAdds.length)) picked.add(withAdds[Math.floor(rand2() * withAdds.length)]);
+  let items = 0;
+  while (key ? items < 100 && picked.size < withAdds.length : picked.size < Math.min(150, withAdds.length)) {
+    const ref = withAdds[Math.floor(rand2() * withAdds.length)];
+    if (picked.has(ref)) continue;
+    picked.add(ref);
+    items += results.get(ref).filter((p) => fresh(ref, p)).length;
+  }
   const verseOut = [...picked].sort((a, b) => refs.indexOf(a) - refs.indexOf(b)).map((ref) => {
     const v = verses.get(ref);
     return {
       ref,
       words: v.tokens.map((t) => t.word),
-      adds: results.get(ref).map((p) => {
+      adds: results.get(ref).filter((p) => fresh(ref, p)).map((p) => {
         const d = dict[p.num] ?? {};
         return { id: `${ref}-${p.token}`, token: p.token, num: p.num, lemma: d.lemma ?? '', xlit: d.xlit ?? '', kjv: d.kjv_def ?? '' };
       }),
     };
   });
-  writeFileSync(join(RAW, 'checklist.json'), JSON.stringify(verseOut));
-  console.log(`Wrote raw/checklist.json (${verseOut.length} verses, ${verseOut.reduce((n, v) => n + v.adds.length, 0)} items).`);
+  const out = key ? 'checklist2.json' : 'checklist.json';
+  writeFileSync(join(RAW, out), JSON.stringify(verseOut));
+  console.log(`Wrote raw/${out} (${verseOut.length} verses, ${verseOut.reduce((n, v) => n + v.adds.length, 0)} items).`);
 }

@@ -500,20 +500,20 @@ running list of what's done and what's next, not a commitment.
   same CrossWire tagging, trimmed.) **In progress:** refine CrossWire with
   STEPBible's word-level TAHOT (CC BY 4.0) — prototype in
   `tools/strongs-align/` places missing numbers by word order and the
-  KJV's usual rendering. Whole OT (23,138 verses): 68% of missing numbers
-  placed at **92% real precision**, measured against
-  `tools/strongs-align/answer-key.json` — 409 of its own placements judged
-  by hand in e-Sword (`--checklist` builds the list, `--score` measures;
+  KJV's usual rendering. Whole OT (23,138 verses): 77% of missing numbers
+  placed at **96.6% real precision** (was 68% / 92%), measured against
+  `tools/strongs-align/answer-key.json` — 509 of its own placements judged
+  by hand in e-Sword in two rounds (`--checklist` builds the list, `--score` measures;
   the key stores only our output plus a verdict, never e-Sword text). The
   held-out self-check reads ~98% and is too optimistic; trust the key.
-  Nothing is placed on "and"/"the"/"a" (Hebrew prefixes Strong's doesn't
-  number — that one rule fixed 26 of 60 errors), and a number is not
-  guessed onto one of several competing function words unless the word is
-  that number's dominant rendering. Every remaining error is a small
-  function word ("in", "to", "with", "ye"). Next, for ~99%: use TAHOT's
-  prefix column (H9003 "in", H9005 "to"…) to tell a prefixed noun from a
-  standalone preposition, since that is exactly what these errors confuse;
-  then TAGNT (NT) before any in-app add-on.
+  TAHOT's affix parts (H9002 "and", H9003 "in", suffix "my"/"your"…) mark
+  their English words as spoken for, so no number lands on them (2Chr 9:5:
+  H5921 goes on the two "of"s, not "in"); a one-word TAHOT gloss ("on" for
+  H5921A) counts as a rendering even where the KJV lexicon lacks it. The
+  100 placements this newly made were judged separately: 96.9% right, so
+  the gain holds beyond the items it was tuned on. The 15 remaining errors
+  are mostly KJV wording TAHOT's gloss can't predict. Next:
+  TAGNT (NT) before any in-app add-on.
   The grouped view also docks as a **Concordance pane** (🔤) beside the Bible
   panes, scrolling in isolation, fed by word clicks when open — with the
   search modal as the lighter-weight default when it's closed, including an

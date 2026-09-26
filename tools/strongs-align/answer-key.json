@@ -1,4 +1,9 @@
 {
+"1Chr.23.24-0": {
+"num": "H428",
+"v": "yes",
+"word": "These"
+},
 "1Chr.23.25-0": {
 "num": "H3588",
 "v": "yes",
@@ -124,6 +129,16 @@
 "v": "yes",
 "word": "for"
 },
+"1Sam.13.7-20": {
+"num": "H5750",
+"v": "yes",
+"word": "yet"
+},
+"1Sam.13.7-24": {
+"num": "H3605",
+"v": "yes",
+"word": "all"
+},
 "1Sam.14.2-13": {
 "num": "H834",
 "v": "yes",
@@ -243,6 +258,11 @@
 "num": "H3588",
 "v": "yes",
 "word": "for"
+},
+"2Chr.28.1-20": {
+"num": "H3808",
+"v": "yes",
+"word": "not"
 },
 "2Chr.29.5-28": {
 "num": "H4480",
@@ -438,6 +458,16 @@
 "num": "H4994",
 "v": "yes",
 "word": "now"
+},
+"2Sam.14.27-15": {
+"num": "H1931",
+"v": "yes",
+"word": "she"
+},
+"2Sam.14.27-16": {
+"num": "H1961",
+"v": "yes",
+"word": "was"
 },
 "2Sam.14.4-15": {
 "num": "H5921",
@@ -639,6 +669,31 @@
 "v": "yes",
 "word": "from"
 },
+"Exod.1.10-16": {
+"num": "H3588",
+"v": "unsure",
+"word": "that"
+},
+"Exod.1.10-19": {
+"num": "H1961",
+"v": "no",
+"word": "falleth"
+},
+"Exod.1.10-25": {
+"num": "H1571",
+"v": "yes",
+"word": "also"
+},
+"Exod.1.10-39": {
+"num": "H4480",
+"v": "yes",
+"word": "of"
+},
+"Exod.1.10-8": {
+"num": "H6435",
+"v": "yes",
+"word": "lest"
+},
 "Exod.1.22-12": {
 "num": "H3605",
 "v": "no",
@@ -719,6 +774,36 @@
 "v": "yes",
 "word": "with"
 },
+"Exod.4.5-0": {
+"num": "H4616",
+"v": "yes",
+"word": "That"
+},
+"Exod.4.5-4": {
+"num": "H3588",
+"v": "yes",
+"word": "that"
+},
+"Exod.5.22-15": {
+"num": "H2088",
+"v": "yes",
+"word": "this"
+},
+"Exod.5.22-17": {
+"num": "H4100",
+"v": "yes",
+"word": "why"
+},
+"Exod.5.22-3": {
+"num": "H413",
+"v": "yes",
+"word": "unto"
+},
+"Exod.5.22-9": {
+"num": "H4100",
+"v": "yes",
+"word": "wherefore"
+},
 "Exod.6.7-11": {
 "num": "H1961",
 "v": "unsure",
@@ -763,6 +848,16 @@
 "num": "H5921",
 "v": "no",
 "word": "and"
+},
+"Ezek.16.57-0": {
+"num": "H2962",
+"v": "yes",
+"word": "Before"
+},
+"Ezek.16.57-18": {
+"num": "H3605",
+"v": "yes",
+"word": "all"
 },
 "Ezek.17.24-10": {
 "num": "H589",
@@ -919,6 +1014,21 @@
 "v": "no",
 "word": "and"
 },
+"Ezek.32.32-0": {
+"num": "H3588",
+"v": "yes",
+"word": "For"
+},
+"Ezek.32.32-23": {
+"num": "H854",
+"v": "yes",
+"word": "with"
+},
+"Ezek.32.32-34": {
+"num": "H3605",
+"v": "yes",
+"word": "all"
+},
 "Ezek.33.29-22": {
 "num": "H834",
 "v": "yes",
@@ -949,6 +1059,31 @@
 "v": "yes",
 "word": "from"
 },
+"Ezek.38.20-25": {
+"num": "H5921",
+"v": "yes",
+"word": "upon"
+},
+"Ezek.38.20-29": {
+"num": "H3605",
+"v": "yes",
+"word": "all"
+},
+"Ezek.38.20-32": {
+"num": "H834",
+"v": "yes",
+"word": "that"
+},
+"Ezek.38.20-34": {
+"num": "H5921",
+"v": "yes",
+"word": "upon"
+},
+"Ezek.38.20-59": {
+"num": "H3605",
+"v": "yes",
+"word": "every"
+},
 "Ezek.39.28-14": {
 "num": "H413",
 "v": "no",
@@ -978,6 +1113,36 @@
 "num": "H834",
 "v": "yes",
 "word": "that"
+},
+"Ezra.4.2-19": {
+"num": "H5973",
+"v": "yes",
+"word": "with"
+},
+"Ezra.4.2-21": {
+"num": "H3588",
+"v": "yes",
+"word": "for"
+},
+"Ezra.4.2-3": {
+"num": "H413",
+"v": "yes",
+"word": "to"
+},
+"Ezra.4.2-30": {
+"num": "H587",
+"v": "yes",
+"word": "we"
+},
+"Ezra.4.2-48": {
+"num": "H6311",
+"v": "yes",
+"word": "hither"
+},
+"Ezra.4.2-6": {
+"num": "H413",
+"v": "yes",
+"word": "to"
 },
 "Ezra.5.17-20": {
 "num": "H1768",
@@ -1014,10 +1179,40 @@
 "v": "yes",
 "word": "which"
 },
+"Gen.24.47-20": {
+"num": "H834",
+"v": "yes",
+"word": "whom"
+},
+"Gen.24.47-30": {
+"num": "H5921",
+"v": "yes",
+"word": "upon"
+},
+"Gen.24.47-36": {
+"num": "H5921",
+"v": "yes",
+"word": "upon"
+},
+"Gen.24.47-9": {
+"num": "H859",
+"v": "yes",
+"word": "thou"
+},
 "Gen.24.66-7": {
 "num": "H834",
 "v": "yes",
 "word": "that"
+},
+"Gen.26.20-28": {
+"num": "H5973",
+"v": "yes",
+"word": "with"
+},
+"Gen.26.20-7": {
+"num": "H5973",
+"v": "yes",
+"word": "with"
 },
 "Gen.27.8-0": {
 "num": "H6258",
@@ -1034,10 +1229,30 @@
 "v": "yes",
 "word": "be"
 },
+"Gen.30.9-3": {
+"num": "H3588",
+"v": "yes",
+"word": "that"
+},
 "Gen.39.4-16": {
 "num": "H5921",
 "v": "yes",
 "word": "over"
+},
+"Gen.43.29-18": {
+"num": "H2088",
+"v": "yes",
+"word": "this"
+},
+"Gen.43.29-23": {
+"num": "H834",
+"v": "yes",
+"word": "whom"
+},
+"Gen.43.29-26": {
+"num": "H413",
+"v": "yes",
+"word": "unto"
 },
 "Gen.44.13-5": {
 "num": "H5921",
@@ -1073,6 +1288,56 @@
 "num": "H5704",
 "v": "yes",
 "word": "to"
+},
+"Gen.47.8-3": {
+"num": "H413",
+"v": "yes",
+"word": "unto"
+},
+"Isa.1.18-1": {
+"num": "H4994",
+"v": "yes",
+"word": "now"
+},
+"Isa.1.18-10": {
+"num": "H518",
+"v": "yes",
+"word": "though"
+},
+"Isa.1.18-13": {
+"num": "H1961",
+"v": "yes",
+"word": "be"
+},
+"Isa.1.18-23": {
+"num": "H518",
+"v": "yes",
+"word": "though"
+},
+"Isa.1.18-31": {
+"num": "H1961",
+"v": "yes",
+"word": "be"
+},
+"Isa.2.13-1": {
+"num": "H5921",
+"v": "yes",
+"word": "upon"
+},
+"Isa.2.13-14": {
+"num": "H5921",
+"v": "yes",
+"word": "upon"
+},
+"Isa.2.13-15": {
+"num": "H3605",
+"v": "yes",
+"word": "all"
+},
+"Isa.2.13-2": {
+"num": "H3605",
+"v": "yes",
+"word": "all"
 },
 "Isa.2.4-0": {
 "num": "H996",
@@ -1234,6 +1499,16 @@
 "v": "yes",
 "word": "not"
 },
+"Jer.14.8-12": {
+"num": "H4100",
+"v": "yes",
+"word": "why"
+},
+"Jer.14.8-15": {
+"num": "H1961",
+"v": "yes",
+"word": "be"
+},
 "Jer.16.9-0": {
 "num": "H3588",
 "v": "yes",
@@ -1268,6 +1543,21 @@
 "num": "H1731",
 "v": "no",
 "word": "baskets"
+},
+"Jer.29.12-12": {
+"num": "H413",
+"v": "yes",
+"word": "unto"
+},
+"Jer.29.12-18": {
+"num": "H413",
+"v": "yes",
+"word": "unto"
+},
+"Jer.3.2-13": {
+"num": "H3808",
+"v": "yes",
+"word": "not"
 },
 "Jer.30.18-0": {
 "num": "H3541",
@@ -1369,6 +1659,11 @@
 "v": "yes",
 "word": "not"
 },
+"Jer.50.17-21": {
+"num": "H2088",
+"v": "yes",
+"word": "this"
+},
 "Jer.51.11-20": {
 "num": "H3588",
 "v": "yes",
@@ -1378,6 +1673,36 @@
 "num": "H5921",
 "v": "yes",
 "word": "against"
+},
+"Jer.7.23-0": {
+"num": "H518",
+"v": "yes",
+"word": "But"
+},
+"Jer.7.23-1": {
+"num": "H2088",
+"v": "yes",
+"word": "this"
+},
+"Jer.7.23-13": {
+"num": "H1961",
+"v": "yes",
+"word": "be"
+},
+"Jer.7.23-19": {
+"num": "H1961",
+"v": "yes",
+"word": "be"
+},
+"Jer.7.23-29": {
+"num": "H834",
+"v": "yes",
+"word": "that"
+},
+"Jer.7.23-34": {
+"num": "H4616",
+"v": "yes",
+"word": "that"
 },
 "Jer.9.19-0": {
 "num": "H3588",
@@ -1423,6 +1748,16 @@
 "num": "H3808",
 "v": "yes",
 "word": "No"
+},
+"Job.27.13-0": {
+"num": "H2088",
+"v": "yes",
+"word": "This"
+},
+"Job.27.13-8": {
+"num": "H5973",
+"v": "yes",
+"word": "with"
 },
 "Job.27.23-5": {
 "num": "H5921",
@@ -1649,6 +1984,21 @@
 "v": "no",
 "word": "and"
 },
+"Judg.6.27-10": {
+"num": "H834",
+"v": "yes",
+"word": "as"
+},
+"Judg.6.27-20": {
+"num": "H1961",
+"v": "yes",
+"word": "was"
+},
+"Judg.6.27-21": {
+"num": "H413",
+"v": "no",
+"word": "because"
+},
 "Judg.6.4-12": {
 "num": "H5704",
 "v": "yes",
@@ -1663,6 +2013,16 @@
 "num": "H5921",
 "v": "yes",
 "word": "against"
+},
+"Lam.1.19-21": {
+"num": "H3588",
+"v": "yes",
+"word": "while"
+},
+"Lam.1.19-6": {
+"num": "H1992",
+"v": "yes",
+"word": "they"
 },
 "Lam.3.33-0": {
 "num": "H3588",
@@ -1714,6 +2074,11 @@
 "v": "no",
 "word": "and"
 },
+"Lev.16.26-23": {
+"num": "H413",
+"v": "yes",
+"word": "into"
+},
 "Lev.17.1-4": {
 "num": "H413",
 "v": "yes",
@@ -1723,6 +2088,26 @@
 "num": "H589",
 "v": "yes",
 "word": "I"
+},
+"Mal.1.4-15": {
+"num": "H3541",
+"v": "yes",
+"word": "thus"
+},
+"Mal.1.4-21": {
+"num": "H1992",
+"v": "yes",
+"word": "They"
+},
+"Mal.1.4-25": {
+"num": "H589",
+"v": "yes",
+"word": "I"
+},
+"Mal.1.4-42": {
+"num": "H834",
+"v": "yes",
+"word": "whom"
 },
 "Mal.1.7-4": {
 "num": "H5921",
@@ -1804,6 +2189,16 @@
 "v": "yes",
 "word": "which"
 },
+"Num.20.13-12": {
+"num": "H854",
+"v": "yes",
+"word": "with"
+},
+"Num.20.13-6": {
+"num": "H834",
+"v": "yes",
+"word": "because"
+},
 "Num.20.6-11": {
 "num": "H413",
 "v": "yes",
@@ -1849,6 +2244,21 @@
 "v": "no",
 "word": "them"
 },
+"Num.27.18-16": {
+"num": "H834",
+"v": "yes",
+"word": "whom"
+},
+"Num.27.18-24": {
+"num": "H5921",
+"v": "yes",
+"word": "upon"
+},
+"Num.27.18-4": {
+"num": "H413",
+"v": "yes",
+"word": "unto"
+},
 "Num.28.17-6": {
 "num": "H2088",
 "v": "yes",
@@ -1869,10 +2279,50 @@
 "v": "yes",
 "word": "be"
 },
+"Num.32.9-0": {
+"num": "H5704",
+"v": "no",
+"word": "For"
+},
+"Num.32.9-26": {
+"num": "H1115",
+"v": "yes",
+"word": "not"
+},
+"Num.32.9-28": {
+"num": "H413",
+"v": "yes",
+"word": "into"
+},
+"Num.32.9-31": {
+"num": "H834",
+"v": "yes",
+"word": "which"
+},
 "Num.7.29-20": {
 "num": "H2088",
 "v": "yes",
 "word": "this"
+},
+"Prov.22.24-1": {
+"num": "H408",
+"v": "yes",
+"word": "no"
+},
+"Prov.22.24-14": {
+"num": "H3808",
+"v": "yes",
+"word": "not"
+},
+"Prov.22.24-3": {
+"num": "H854",
+"v": "yes",
+"word": "with"
+},
+"Prov.22.24-8": {
+"num": "H854",
+"v": "yes",
+"word": "with"
 },
 "Prov.25.20-13": {
 "num": "H5921",
@@ -1893,6 +2343,21 @@
 "num": "H408",
 "v": "yes",
 "word": "not"
+},
+"Ps.103.2-8": {
+"num": "H408",
+"v": "yes",
+"word": "not"
+},
+"Ps.103.2-9": {
+"num": "H3605",
+"v": "yes",
+"word": "all"
+},
+"Ps.104.22-11": {
+"num": "H413",
+"v": "yes",
+"word": "in"
 },
 "Ps.105.16-6": {
 "num": "H5921",
@@ -1989,6 +2454,31 @@
 "v": "yes",
 "word": "That"
 },
+"Ps.9.9-4": {
+"num": "H1961",
+"v": "yes",
+"word": "be"
+},
+"Song.5.15-8": {
+"num": "H5921",
+"v": "yes",
+"word": "upon"
+},
+"Zech.1.11-10": {
+"num": "H996",
+"v": "yes",
+"word": "among"
+},
+"Zech.1.11-26": {
+"num": "H2009",
+"v": "yes",
+"word": "behold"
+},
+"Zech.1.11-27": {
+"num": "H3605",
+"v": "yes",
+"word": "all"
+},
 "Zech.1.19-10": {
 "num": "H4100",
 "v": "yes",
@@ -2023,6 +2513,16 @@
 "num": "H518",
 "v": "yes",
 "word": "if"
+},
+"Zech.9.4-0": {
+"num": "H2009",
+"v": "yes",
+"word": "Behold"
+},
+"Zech.9.4-17": {
+"num": "H1931",
+"v": "yes",
+"word": "she"
 },
 "Zech.9.8-17": {
 "num": "H5921",
