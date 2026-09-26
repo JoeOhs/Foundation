@@ -412,6 +412,27 @@ running list of what's done and what's next, not a commitment.
   introductions are wanted. The build stops unless every declared document
   and section is found and all 67 Articles come out as separate paragraphs.
 
+- **Heinrich Bullinger — *The Decades* (Parker Society, 1849–52).** Item 5
+  of "Other Reformation-era contemporaries of Luther" (Near-term), done. One
+  `extra-biblical` source in `reformation`, listed flat, with **6 books, 56
+  pieces, 2,080 paragraphs**: a prefatory book (the translator's preface,
+  Bullinger's Four General Synods, his dedications to Edward VI, the Marquis
+  of Dorset and Gualter/Simler, Harding's Biographical Notice), then the five
+  Decades of ten sermons each. Built by `tools/bullinger/build.mjs` into
+  `public/library/reformation/bullinger.json`, installed by
+  `src/bullingerDecadesImport.ts` on the shared `pieceBundleImport.ts`. No
+  schema change.
+
+  **OCR, not a transcription** — the brief's "full text on Internet Archive"
+  turned out to mean scans; none of the four volumes has a transcription.
+  These scans' DjVu blocks often run a whole page together, so the build
+  reads line by line: margin notes are cut by position against the page's
+  column, footnotes start at a bracketed numeral (or its OCR misreadings),
+  a small face low on the page, or an "Lat.]" gloss. About 16 footnote
+  fragments still leak into the text. The printed **margin notes are
+  excluded** rather than kept as `entries.heading` the way Luther's are —
+  their OCR comes out as scattered fragments. Worth revisiting if wanted.
+
 - **Calvin prose still missing from the verse commentary.** Found while
   inventorying the front matter. The commentary build takes text only
   from each verse comment's milestone onward, so prose that sits in a
@@ -2127,7 +2148,8 @@ coordinates still separate cleanly.
      larger series — confirm exactly what it covers before treating it
      as complete, rather than assuming parity with a finished collected
      works.
-  5. **Heinrich Bullinger — *The Decades*** (trans. H.I., ed. Thomas
+  5. **Heinrich Bullinger — *The Decades*. — DONE**, see "Heinrich
+     Bullinger — The Decades" under Current. Original entry: (trans. H.I., ed. Thomas
      Harding, Parker Society, Cambridge, 1849–52, 4 volumes). Zwingli's
      successor in Zurich; the Decades were, by some measure, more widely
      circulated in England during the Reformation than Calvin's

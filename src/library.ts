@@ -62,6 +62,7 @@ import { LUTHER_VOLUMES, installLutherVolume, lutherTitle } from './lutherImport
 import { CHESTERTON_TITLE, installChesterton } from './chestertonImport';
 import { AQUINAS_GENTILES_TITLE, installAquinasGentiles } from './aquinasGentilesImport';
 import { ZWINGLI_TITLE, installZwingli } from './zwingliImport';
+import { BULLINGER_DECADES_TITLE, installBullingerDecades } from './bullingerDecadesImport';
 import { importKjvStrongs } from './strongsImport';
 import type { ParsedSource, Source, SourceCategory, SourceType } from './types';
 
@@ -1273,6 +1274,31 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       + 'Built by tools/zwingli/build.mjs, which refuses to build unless it finds every declared '
       + 'document and section and all 67 Articles.',
     install: installZwingli,
+  },
+  {
+    id: 'bullinger_decades',
+    title: BULLINGER_DECADES_TITLE,
+    language: 'en',
+    type: 'extra-biblical' as SourceType,
+    category: 'reformation' as SourceCategory,
+    license: 'public domain',
+    licenseDetail:
+      'Heinrich Bullinger (1504–1575), Zwingli’s successor at Zurich — "The Decades of Henry '
+      + 'Bullinger", translated by H. I. and edited for the Parker Society by Thomas Harding '
+      + '(Cambridge University Press, 1849–52, five Decades in four volumes): public domain. All '
+      + 'fifty sermons, with Bullinger’s treatise on the Four General Synods, his dedications to '
+      + 'Edward VI, the Marquis of Dorset and his Zurich colleagues, the translator’s preface, and '
+      + 'Harding’s Biographical Notice. Widely read in Elizabethan England — the Convocation of '
+      + '1586 ordered the clergy to study them. No transcription exists, so the text is OCR of '
+      + 'Internet Archive scans (decadesofhenrybu00bulluoft, …03…, decadesofbulling04bulluoft, '
+      + '…05…) and reads rougher than a transcription: expect misread letters and the odd stray '
+      + 'fragment of a footnote. Harding’s footnotes (largely Bullinger’s original Latin), the '
+      + 'printed margin notes, errata and index are excluded and logged to '
+      + 'tools/bullinger/bullinger-exclusions.txt. Built by tools/bullinger/build.mjs, which '
+      + 'refuses to build unless it finds all five Decades with ten sermons each, in order. E. W. '
+      + 'Bullinger, whose Companion Bible notes are also in this Library, is recorded as a '
+      + 'relative.',
+    install: installBullingerDecades,
   },
   {
     id: 'chesterton_apologetics',
