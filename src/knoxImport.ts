@@ -18,7 +18,7 @@
 
 import { installPieceBundle } from './pieceBundleImport';
 
-export const KNOX_TITLE = 'John Knox — Selected Works';
+export const KNOX_TITLE = 'Works of John Knox, Selected (Lennox 1905, Arber 1878)';
 
 export function installKnox(onProgress: (msg: string) => void): Promise<number> {
   return installPieceBundle(

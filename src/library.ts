@@ -318,6 +318,9 @@ export interface BundledLibraryEntry {
   // series (Ante-Nicene Fathers, Nicene and Post-Nicene Fathers Series I/II),
   // the same way Bibles are grouped by language.
   series?: string;
+  // A work with no series lists above the series groups by default; this
+  // lists it below them instead (Zwingli and Bullinger, after Luther).
+  listAfterSeries?: boolean;
   // Returns the new source's id so the caller can open it straight away.
   install: (onProgress: (msg: string) => void) => Promise<number>;
 }
@@ -1259,6 +1262,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
     language: 'en',
     type: 'extra-biblical' as SourceType,
     category: 'reformation' as SourceCategory,
+    listAfterSeries: true,
     license: 'public domain',
     licenseDetail:
       'Huldrych Zwingli (1484–1531), the Reformer of Zurich — "Selected Works of Huldreich '
@@ -1283,6 +1287,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
     language: 'en',
     type: 'extra-biblical' as SourceType,
     category: 'reformation' as SourceCategory,
+    listAfterSeries: true,
     license: 'public domain',
     licenseDetail:
       'Heinrich Bullinger (1504–1575), Zwingli’s successor at Zurich — "The Decades of Henry '
@@ -1308,6 +1313,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
     language: 'en',
     type: 'extra-biblical' as SourceType,
     category: 'reformation' as SourceCategory,
+    series: 'Works of John Knox',
     license: 'public domain',
     licenseDetail:
       'John Knox (c. 1514–1572), the Reformer of Scotland, who wrote in English — no translation '
@@ -1330,6 +1336,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
     language: 'en',
     type: 'extra-biblical' as SourceType,
     category: 'reformation' as SourceCategory,
+    series: 'Works of John Knox',
     license: 'public domain',
     licenseDetail:
       '"The Works of John Knox", collected and edited by David Laing (Edinburgh: Wodrow Society and '
@@ -1346,7 +1353,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       + 'and read rougher: expect misread letters and the odd stray fragment of a footnote. '
       + 'Laing’s footnotes, the printed side notes, contents, glossaries, Additional Notes and '
       + 'indexes are excluded and logged to tools/knox/laing-exclusions.txt. Built by '
-      + 'tools/knox/laing.mjs. The modern-spelling "John Knox — Selected Works" is the easier '
+      + 'tools/knox/laing.mjs. The modern-spelling "Works of John Knox, Selected (Lennox 1905, Arber 1878)" is the easier '
       + 'reading text of the History, Confession, Discipline and First Blast.',
     install: installKnoxLaing,
   },

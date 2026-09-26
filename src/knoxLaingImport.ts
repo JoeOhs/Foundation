@@ -5,8 +5,8 @@
 //
 // SCOPE. The whole edition: the History of the Reformation (Books I–V) with
 // Laing's appendices, the treatises, letters and liturgical works of Vols.
-// III–VI, and Laing's Vol. VI Preface. Separate from "John Knox — Selected
-// Works" (knoxImport.ts), which is the modern-spelling reading text of the
+// III–VI, and Laing's Vol. VI Preface. Separate from "Works of John Knox,
+// Selected" (knoxImport.ts), which is the modern-spelling reading text of the
 // History, Confession, Discipline and First Blast; this is the scholarly
 // edition in Knox's own spelling.
 //
@@ -19,7 +19,7 @@
 
 import { installPieceBundle } from './pieceBundleImport';
 
-export const KNOX_LAING_TITLE = 'John Knox — The Works (ed. Laing)';
+export const KNOX_LAING_TITLE = 'Works of John Knox, ed. David Laing (1846–64)';
 
 export function installKnoxLaing(onProgress: (msg: string) => void): Promise<number> {
   return installPieceBundle(

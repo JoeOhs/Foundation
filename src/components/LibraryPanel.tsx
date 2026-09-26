@@ -53,6 +53,7 @@ const SERIES_GROUPED: SourceCategory[] = ['patristic', 'rabbinic', 'reformation'
 // being swept under an "Other" heading. 'reformation' is the category that
 // needs it: a standalone Reformation work belonging to no series should not
 // be filed as "Other (1)", which says nothing true about it.
+// An entry with `listAfterSeries` lists flat BELOW the series groups instead.
 
 // Footer works (dictionaries) file under the Add-ons section
 // rather than getting category sections of their own: like the Strong's
@@ -237,9 +238,10 @@ export default function LibraryPanel({
       } else if (SERIES_GROUPED.includes(category)) {
         const bySeries = new Map<string, Row[]>();
         const standalone: Row[] = [];
+        const trailing: Row[] = [];
         for (const r of matching) {
           if (!r.series) {
-            standalone.push(r);
+            (r.bundled?.listAfterSeries ? trailing : standalone).push(r);
             continue;
           }
           if (!bySeries.has(r.series)) bySeries.set(r.series, []);
@@ -256,6 +258,9 @@ export default function LibraryPanel({
               label: `${series} (${rs.length})`,
               rows: rs,
             })),
+          ...(trailing.length > 0
+            ? [{ key: `${category}-trailing`, label: null, rows: trailing }]
+            : []),
         ];
       } else {
         groups = matching.length > 0

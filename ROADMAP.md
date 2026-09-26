@@ -433,7 +433,7 @@ running list of what's done and what's next, not a commitment.
   excluded** rather than kept as `entries.heading` the way Luther's are —
   their OCR comes out as scattered fragments. Worth revisiting if wanted.
 
-- **John Knox — Selected Works.** Item 6 of "Other Reformation-era
+- **Works of John Knox, Selected (Lennox 1905, Arber 1878).** Item 6 of "Other Reformation-era
   contemporaries of Luther" (Near-term), done — as a selection, not the
   Laing *Works* the entry named. One `extra-biblical` source in
   `reformation` with **4 books, 51 pieces, 1,213 paragraphs**: the History
@@ -453,7 +453,7 @@ running list of what's done and what's next, not a commitment.
   they're clean enough to keep as `entries.heading` if the shared installer
   learns headings.
 
-- **John Knox — The Works (ed. Laing, 1846–64).** Done: the complete
+- **Works of John Knox, ed. David Laing (1846–64).** Done: the complete
   six-volume edition as its own `reformation` entry beside Selected Works,
   **6 books (one per volume), 71 works, ~7,600 paragraphs**. Built by
   `tools/knox/laing.mjs` into `public/library/reformation/knox-laing.json`,
@@ -2220,8 +2220,9 @@ coordinates still separate cleanly.
      Bullinger, whose Companion Bible notes and appendixes are already in
      this Library — worth a line in the eventual provenance note, not
      load-bearing for the decision to include him.
-  6. **John Knox — *The Works of John Knox*. — DONE as a selection**, see
-     "John Knox — Selected Works" under Current. Original entry: (ed. David Laing,
+  6. **John Knox — *The Works of John Knox*. — DONE**, see
+     "Works of John Knox, Selected" and "Works of John Knox, ed. David Laing"
+     under Current. Original entry: (ed. David Laing,
      1846–1864, 6–7 volumes). Wrote natively in English — no translation
      quality question at all, the same advantage Foxe has. Confirmed on
      Project Gutenberg (at least Vols. 1–2 digitized) and complete on
