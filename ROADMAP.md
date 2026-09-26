@@ -433,6 +433,42 @@ running list of what's done and what's next, not a commitment.
   excluded** rather than kept as `entries.heading` the way Luther's are —
   their OCR comes out as scattered fragments. Worth revisiting if wanted.
 
+- **John Knox — Selected Works.** Item 6 of "Other Reformation-era
+  contemporaries of Luther" (Near-term), done — as a selection, not the
+  Laing *Works* the entry named. One `extra-biblical` source in
+  `reformation` with **4 books, 51 pieces, 1,213 paragraphs**: the History
+  of the Reformation in Scotland (Books I–IV, one piece each), the Scots
+  Confession (Preface + 25 chapters), the First Book of Discipline (16 heads
+  + Conclusion), and the First Blast (Preface, the Blast, To the Reader, the
+  1559 letters to Cecil and Elizabeth). Built by `tools/knox/build.mjs` from
+  two CCEL ThML files into `public/library/reformation/knox.json`, installed
+  by `src/knoxImport.ts` on `pieceBundleImport.ts`. No schema change.
+
+  **Scope, as found:** CCEL's "complete" Knox is four files — Laing Vol. 1
+  only (History I–II, duplicated by Lennox's whole History, so not used),
+  Lennox's 1905 History (used), Arber's 1878 First Blast (used), and a
+  *Treatise on Prayer* extracted from a modern Still Waters Revival Books
+  edition with a modern editor's note (**not used** — not cleared). History Books I and IV load as single
+  pieces of ~300–400 paragraphs; Lennox's side notes are dropped, though
+  they're clean enough to keep as `entries.heading` if the shared installer
+  learns headings.
+
+- **John Knox — The Works (ed. Laing, 1846–64).** Done: the complete
+  six-volume edition as its own `reformation` entry beside Selected Works,
+  **6 books (one per volume), 71 works, ~7,600 paragraphs**. Built by
+  `tools/knox/laing.mjs` into `public/library/reformation/knox-laing.json`,
+  installed by `src/knoxLaingImport.ts` on `pieceBundleImport.ts`. No schema
+  change. Vol. I is CCEL ThML (Gutenberg #21938), Vol. II Gutenberg #40886
+  HTML; Vols. III–VI are OCR of the Princeton Seminary scans on Internet
+  Archive, read with `tools/shared/djvu.mjs` — Bullinger's page reader,
+  lifted into a shared module (Bullinger's bundle rebuilds byte-identical).
+  Work boundaries are declared by scan page index and checked against each
+  printed contents list. About 40 footnote/margin fragments leak into the
+  text; long works (On Predestination, the Vol. VI letter runs) load as
+  single pieces of 200–700 paragraphs. Splitting the letter collections per
+  letter, and the Selected Works' side notes as `entries.heading`, are the
+  obvious follow-ups if wanted.
+
 - **Calvin prose still missing from the verse commentary.** Found while
   inventorying the front matter. The commentary build takes text only
   from each verse comment's milestone onward, so prose that sits in a
@@ -2184,7 +2220,8 @@ coordinates still separate cleanly.
      Bullinger, whose Companion Bible notes and appendixes are already in
      this Library — worth a line in the eventual provenance note, not
      load-bearing for the decision to include him.
-  6. **John Knox — *The Works of John Knox*** (ed. David Laing,
+  6. **John Knox — *The Works of John Knox*. — DONE as a selection**, see
+     "John Knox — Selected Works" under Current. Original entry: (ed. David Laing,
      1846–1864, 6–7 volumes). Wrote natively in English — no translation
      quality question at all, the same advantage Foxe has. Confirmed on
      Project Gutenberg (at least Vols. 1–2 digitized) and complete on

@@ -63,6 +63,8 @@ import { CHESTERTON_TITLE, installChesterton } from './chestertonImport';
 import { AQUINAS_GENTILES_TITLE, installAquinasGentiles } from './aquinasGentilesImport';
 import { ZWINGLI_TITLE, installZwingli } from './zwingliImport';
 import { BULLINGER_DECADES_TITLE, installBullingerDecades } from './bullingerDecadesImport';
+import { KNOX_TITLE, installKnox } from './knoxImport';
+import { KNOX_LAING_TITLE, installKnoxLaing } from './knoxLaingImport';
 import { importKjvStrongs } from './strongsImport';
 import type { ParsedSource, Source, SourceCategory, SourceType } from './types';
 
@@ -1299,6 +1301,54 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       + 'Bullinger, whose Companion Bible notes are also in this Library, is recorded as a '
       + 'relative.',
     install: installBullingerDecades,
+  },
+  {
+    id: 'knox_selected_works',
+    title: KNOX_TITLE,
+    language: 'en',
+    type: 'extra-biblical' as SourceType,
+    category: 'reformation' as SourceCategory,
+    license: 'public domain',
+    licenseDetail:
+      'John Knox (c. 1514–1572), the Reformer of Scotland, who wrote in English — no translation '
+      + 'stands between him and the reader. A selection, not collected works: "The History of the '
+      + 'Reformation of Religion in Scotland", Books I–IV, with the Scots Confession and the First '
+      + 'Book of Discipline (both 1560), revised and edited by Cuthbert Lennox (London: Andrew '
+      + 'Melrose, 1905) in modernised spelling; and "The First Blast of the Trumpet against the '
+      + 'Monstrous Regiment of Women" (Geneva, 1558) in its original spelling, edited by Edward '
+      + 'Arber (London, 1878), with Knox’s 1559 letters defending it to Cecil and Queen Elizabeth: '
+      + 'public domain. Both from CCEL. David Laing’s complete six-volume Works, in Knox’s own '
+      + 'spelling, is its own entry. The editors’ introductions and footnotes, the '
+      + 'printed side notes, glossary and indexes are excluded and logged to '
+      + 'tools/knox/knox-exclusions.txt. Built by tools/knox/build.mjs, which refuses to build '
+      + 'unless both files declare themselves public domain and every declared part is found.',
+    install: installKnox,
+  },
+  {
+    id: 'knox_works_laing',
+    title: KNOX_LAING_TITLE,
+    language: 'en',
+    type: 'extra-biblical' as SourceType,
+    category: 'reformation' as SourceCategory,
+    license: 'public domain',
+    licenseDetail:
+      '"The Works of John Knox", collected and edited by David Laing (Edinburgh: Wodrow Society and '
+      + 'Bannatyne Club, 1846–64, six volumes): public domain. The complete edition, in Knox’s own '
+      + 'Scots and English spelling, one book per volume and one section per work: the History of '
+      + 'the Reformation (Books I–V) with the First Book of Discipline and Laing’s appendices; the '
+      + 'treatises, sermons and letters of 1548–1572, among them the Vindication that the Mass is '
+      + 'Idolatry, the Faithful Admonition, the First Blast, the Appellation, On Predestination and '
+      + 'the Answer to Tyrie; the Geneva Form of Prayers and the Book of Common Order; and Laing’s '
+      + 'Vol. VI Preface on Knox’s life. Laing’s prefatory notices to each work, and the letters he '
+      + 'collected from Knox’s correspondents and opponents, are kept. Vol. I is from CCEL (Project '
+      + 'Gutenberg #21938) and Vol. II from Project Gutenberg #40886; no transcription of Vols. '
+      + 'III–VI exists, so they are OCR of Internet Archive scans (worksofjohnknox03knox … 06knox) '
+      + 'and read rougher: expect misread letters and the odd stray fragment of a footnote. '
+      + 'Laing’s footnotes, the printed side notes, contents, glossaries, Additional Notes and '
+      + 'indexes are excluded and logged to tools/knox/laing-exclusions.txt. Built by '
+      + 'tools/knox/laing.mjs. The modern-spelling "John Knox — Selected Works" is the easier '
+      + 'reading text of the History, Confession, Discipline and First Blast.',
+    install: installKnoxLaing,
   },
   {
     id: 'chesterton_apologetics',
