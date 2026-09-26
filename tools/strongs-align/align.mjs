@@ -30,6 +30,7 @@ import { join } from 'node:path';
 const RAW = join(import.meta.dirname, 'raw');
 const args = process.argv.slice(2);
 const CHECKLIST = args.includes('--checklist');
+const SCORE = args.includes('--score');
 const bookArgs = args.filter((a) => !a.startsWith('--'));
 const books = bookArgs.length ? bookArgs : ['Gen'];
 
@@ -132,6 +133,40 @@ function usage(num, word) {
   return (m.get(stem(word)) ?? 0) / Math.max(...m.values());
 }
 
+// The reverse question, and the one that matters when choosing a word: of all
+// the times the KJV uses this word for SOME tagged number, how often is it
+// this number? "in" is H5921 now and then; "and" essentially never, because
+// the Hebrew "and" is the prefix vav, which Strong's does not number.
+const wordTotals = new Map();
+function share(num, word) {
+  const w = stem(word);
+  if (!wordTotals.size) {
+    for (const m of lexicon.values()) for (const [k, c] of m) wordTotals.set(k, (wordTotals.get(k) ?? 0) + c);
+  }
+  const total = wordTotals.get(w) ?? 0;
+  if (!total) return 0;
+  return (lexicon.get(num)?.get(w) ?? 0) / total;
+}
+
+// English words that render a Hebrew prefix or the article, never a word with
+// a Strong's number of its own: STEPBible numbers them H9002/H9009/H9003 and
+// the answer key never accepted one (0 of 26 for "and"). Nothing is placed here.
+const PREFIX_WORDS = new Set(['and', 'the', 'a', 'an']);
+const MIN_SHARE = Number(process.env.MIN_SHARE ?? 0);
+
+// Small function words are where every surviving error sits: several numbers
+// each render "in", "to", "with", "ye", so position alone can't tell them
+// apart. A number is only placed on one of these when the word is among that
+// number's dominant KJV renderings.
+const FUNCTION_WORDS = new Set([
+  'in', 'to', 'unto', 'with', 'by', 'at', 'of', 'for', 'from', 'upon', 'on', 'among', 'into',
+  'i', 'we', 'ye', 'he', 'she', 'it', 'they', 'thou', 'thee', 'you', 'him', 'her', 'them', 'us', 'me',
+  'this', 'that', 'these', 'those', 'there', 'here', 'then', 'now', 'so', 'as', 'not', 'no', 'all',
+]);
+const FUNC_MIN_USAGE = Number(process.env.FUNC_MIN_USAGE ?? 0);
+const AMBIG_SKIP = process.env.AMBIG_SKIP !== '0';
+const DOMINANT = Number(process.env.DOMINANT ?? 0.8);
+
 // CrossWire sometimes glues a neighbour's number onto a span (Gen 37:7:
 // H8432 "midst" on "binding"). In a multi-number span, a number that renders
 // none of the span's words is dropped here, so the aligner re-places it like
@@ -228,18 +263,35 @@ function align(verse, heb) {
       const lo = before.length > widen ? anc.get(before[before.length - 1 - widen]).first : 0;
       const hi = after.length > widen ? anc.get(after[widen]).last : n - 1;
       const cands = [];
+      let funcOnly = 0; // how many candidates are small function words
       for (let t = Math.max(0, lo); t <= Math.min(n - 1, hi); t++) {
         const tok = verse.tokens[t];
         if (taken.has(t) || !r.has(stem(tok.word))) continue;
+        if (PREFIX_WORDS.has(tok.word.toLowerCase())) continue;
         // A rendering seen only rarely in the KJV (H5921 as "and") is more
         // likely a CrossWire slip than a real rendering; dictionary ones stay.
         const u = usage(num, tok.word);
         if (u < 0.01 && !dictRenders(num).has(stem(tok.word))) continue;
+        // …and this number must account for a real share of the times the KJV
+        // uses this word at all, or the word belongs to some other number.
+        if (share(num, tok.word) < MIN_SHARE) continue;
+        if (FUNCTION_WORDS.has(tok.word.toLowerCase()) && u < FUNC_MIN_USAGE) continue;
+        if (FUNCTION_WORDS.has(tok.word.toLowerCase())) funcOnly++;
         // Inside another number's span, the word goes to whichever number
         // renders it more typically: "upon" in "upon the face" (H6440) is
         // H5921's usual word, and only incidentally H6440's.
         if (tok.span !== null && verse.spans[tok.span].nums.some((x) => usage(x, tok.word) >= u && renders(x).has(stem(tok.word)))) continue;
         cands.push(t);
+      }
+      // A function word picked out of several candidates is a guess between
+      // words that all render the number; leaving the number on CrossWire's
+      // phrase beats guessing. Unambiguous ones (one candidate) still land.
+      // …unless one candidate is the number's dominant KJV rendering ("upon"
+      // for H5921, Gen 2:5): that is evidence, not a coin toss.
+      if (AMBIG_SKIP && cands.length > 1 && funcOnly > 0
+          && !cands.some((t) => usage(num, verse.tokens[t].word) >= DOMINANT)) {
+        const func = cands.filter((t) => FUNCTION_WORDS.has(verse.tokens[t].word.toLowerCase()));
+        if (func.length > 1 || func.length === cands.length) continue;
       }
       if (cands.length) {
         // The KJV's usual rendering of the number first (H5921: "upon" over
@@ -320,6 +372,35 @@ console.log(`Precision when it places: ${pct(back, back + wrong)}`);
 // Verses checked by hand against e-Sword; eyeball these after any change.
 for (const ref of ['Gen.1.2', 'Gen.2.5', 'Gen.37.7']) {
   if (verses.has(ref)) console.log(`\n${ref}  ${render(verses.get(ref), results.get(ref))}`);
+}
+
+// --score: measure against answer-key.json — real verdicts on the aligner's
+// own placements, checked by hand against e-Sword (yes = right word, no =
+// wrong word, unsure = e-Sword tags the phrase, so it cannot settle the word,
+// and the item is excluded). The key holds only our output plus a verdict.
+// An item the aligner no longer places counts as neither right nor wrong: it
+// shows as "no longer placed", a coverage loss rather than an error.
+if (SCORE) {
+  const keyPath = join(import.meta.dirname, 'answer-key.json');
+  if (!existsSync(keyPath)) throw new Error(`Missing ${keyPath}`);
+  const key = JSON.parse(readFileSync(keyPath, 'utf8'));
+  const placedIds = new Map();
+  for (const [ref, ps] of results) for (const p of ps) placedIds.set(`${ref}-${p.token}`, p.num);
+  let right = 0, wrong = 0, gone = 0, moved = 0, excluded = 0;
+  const stillWrong = [];
+  for (const [id, k] of Object.entries(key)) {
+    if (k.v === 'unsure') { excluded++; continue; }
+    const now = placedIds.get(id);
+    if (now === undefined) { gone++; continue; }
+    if (now !== k.num) { moved++; continue; } // same word, different number
+    if (k.v === 'yes') right++;
+    else { wrong++; stillWrong.push(`${id} ${k.word}=${k.num}`); }
+  }
+  const scored = right + wrong;
+  console.log(`\nAgainst answer-key.json (${Object.keys(key).length} judged, ${excluded} excluded as unsure):`);
+  console.log(`  right ${right}, wrong ${wrong} — precision ${((100 * right) / scored).toFixed(1)}% of ${scored} scored`);
+  console.log(`  no longer placed ${gone}, number changed ${moved}`);
+  if (stillWrong.length) console.log(`  still wrong: ${stillWrong.slice(0, 10).join('; ')}${stillWrong.length > 10 ? ` … +${stillWrong.length - 10}` : ''}`);
 }
 
 // Fixed-seed sample of 100 verses for a by-hand comparison against e-Sword.
