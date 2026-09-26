@@ -61,6 +61,7 @@ import { YERUSHALMI_TITLE, installYerushalmi } from './yerushalmiImport';
 import { LUTHER_VOLUMES, installLutherVolume, lutherTitle } from './lutherImport';
 import { CHESTERTON_TITLE, installChesterton } from './chestertonImport';
 import { AQUINAS_GENTILES_TITLE, installAquinasGentiles } from './aquinasGentilesImport';
+import { ZWINGLI_TITLE, installZwingli } from './zwingliImport';
 import { importKjvStrongs } from './strongsImport';
 import type { ParsedSource, Source, SourceCategory, SourceType } from './types';
 
@@ -1248,6 +1249,30 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       + '("Lecture 19 · Jeremiah 5:4–9"), so reading Jeremiah 5 shows the prayers from the '
       + 'lectures on Jeremiah 5. Built by tools/calvin-commentaries/build.mjs.',
     install: installCalvinPrayers,
+  },
+  {
+    id: 'zwingli_selected_works',
+    title: ZWINGLI_TITLE,
+    language: 'en',
+    type: 'extra-biblical' as SourceType,
+    category: 'reformation' as SourceCategory,
+    license: 'public domain',
+    licenseDetail:
+      'Huldrych Zwingli (1484–1531), the Reformer of Zurich — "Selected Works of Huldreich '
+      + 'Zwingli", edited by Samuel Macauley Jackson and translated by Lawrence A. McLouth, Henry '
+      + 'Preble and George W. Gilmore (University of Pennsylvania, Philadelphia, 1901): public '
+      + 'domain. A selection, not collected works — five documents of the Zurich Reformation, '
+      + '1522–1527: the letter on the Bishop of Constance’s delegation, the petition of eleven '
+      + 'priests to be allowed to marry, the Acts of the First Zurich Disputation with the '
+      + 'Sixty-seven Articles, the Zurich Marriage Ordinance, and the Refutation of the Tricks of '
+      + 'the Catabaptists, with Jackson’s preface and introduction. No transcription of this '
+      + 'volume exists, so the text is OCR of an Internet Archive scan (translationsrepr01pennuoft) '
+      + 'and reads rougher than a transcription: expect occasional misread letters. Footnotes are '
+      + 'excluded — among them Jackson’s special introductions to each document, which the '
+      + 'edition prints in footnote type — and logged to tools/zwingli/zwingli-exclusions.txt. '
+      + 'Built by tools/zwingli/build.mjs, which refuses to build unless it finds every declared '
+      + 'document and section and all 67 Articles.',
+    install: installZwingli,
   },
   {
     id: 'chesterton_apologetics',

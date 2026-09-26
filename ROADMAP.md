@@ -380,6 +380,38 @@ running list of what's done and what's next, not a commitment.
   division. Titles in the source aren't usable for this: several volumes
   name every piece "front ii" or "The Argument".
 
+- **Huldrych Zwingli — *Selected Works* (Jackson, 1901).** Item 4 of
+  "Other Reformation-era contemporaries of Luther" (Near-term), done. One
+  `extra-biblical` source in `reformation`, listed flat (no series), with
+  **6 books, 18 sections, 461 paragraphs**: Jackson's preface and
+  introduction, then the five documents in the edition's order — the letter
+  on the Bishop of Constance's delegation (1522), the petition of eleven
+  priests to marry (1522), the Acts of the First Zurich Disputation with the
+  **Sixty-seven Articles** (1523), the Zurich Marriage Ordinance (1525) and
+  the Refutation of the Tricks of the Catabaptists (1527). Built by
+  `tools/zwingli/build.mjs` into `public/library/reformation/zwingli.json`
+  and installed by `src/zwingliImport.ts`. The install mechanics are now
+  shared with Calvin's prefaces in `src/pieceBundleImport.ts` (same bundle
+  shape). No schema change.
+
+  **What the brief's caveat turned into.** It *is* the only volume: a
+  selection of papers Jackson says had never been translated, not the
+  opening volume of a collected works. The later, separate *Latin Works*
+  series (1912, 1922, 1929) is a different edition and was not checked
+  for this. The Library text says "a selection, not collected works".
+
+  **OCR, not a transcription.** No transcription of this volume was found.
+  The source is Internet Archive's DjVu XML for `translationsrepr01pennuoft`.
+  Footnotes are told apart by line pitch against page height (footnotes
+  16–23.3, body 24–25), and printed paragraphs are recovered from first-line
+  indents, because the DjVu blocks often merge whole pages. Expect some
+  misread letters in the text. **Jackson's special introduction to each
+  document is excluded**, because the edition prints it as a footnote to the
+  title, mixed in with the source citations. Keeping it would mean telling
+  editorial essay apart from citation footnote. Worth revisiting if those
+  introductions are wanted. The build stops unless every declared document
+  and section is found and all 67 Articles come out as separate paragraphs.
+
 - **Calvin prose still missing from the verse commentary.** Found while
   inventorying the front matter. The commentary build takes text only
   from each verse comment's milestone onward, so prose that sits in a
@@ -2083,7 +2115,9 @@ coordinates still separate cleanly.
      public-domain (publisher-declared, Concordia Publishing House,
      1921). See the separate Book of Concord implementation brief for
      the mixed-authorship compound-work structure — not duplicated here.
-  4. **Huldrych Zwingli — *Selected Works of Huldrich Zwingli*** (trans.
+  4. **Huldrych Zwingli — *Selected Works of Huldrich Zwingli*. — DONE**,
+     see "Huldrych Zwingli — Selected Works" under Current. Original entry:
+     (trans.
      Samuel Macauley Jackson, 1901). Zwingli independently originated
      Reformation ideas in Zurich at roughly the same time as Luther, not
      as his follower. Confirmed public domain (explicitly marked so by
