@@ -549,6 +549,32 @@ running list of what's done and what's next, not a commitment.
   and H8432 is misattached to "binding"). The parser reproduces the file
   faithfully, so word-level precision like e-Sword's KJV+ needs a
   finer-tagged, license-checked KJV source — not yet identified.
+  (e-Sword's KJV+ is Rick Meyers' copyrighted work; eBible.org's KJV is the
+  same CrossWire tagging, trimmed.) **In progress:** refine CrossWire with
+  STEPBible's word-level TAHOT (CC BY 4.0) — prototype in
+  `tools/strongs-align/` places missing numbers by word order and the
+  KJV's usual rendering. Whole OT (23,138 verses): 73% of missing numbers
+  placed. Measured against `tools/strongs-align/answer-key.json` — 609 of
+  its own placements judged by hand in e-Sword over three rounds
+  (`--checklist` lists unjudged ones, `--score` measures; the key stores
+  only our output plus a verdict, never e-Sword text): 96.5% overall, but
+  that includes rounds the rules were tuned on. Fresh rounds read 96.9%
+  and 91.5%, so the honest figure is ~93-94%. The held-out self-check is
+  too optimistic; trust the key.
+  TAHOT's affix parts (H9002 "and", H9003 "in", suffix "my"/"your"…) mark
+  their English words as spoken for, so no number lands on them (2Chr 9:5:
+  H5921 goes on the two "of"s, not "in"); a one-word TAHOT gloss ("on" for
+  H5921A) counts as a rendering even where the KJV lexicon lacks it; a
+  number found only outside its neighbouring anchors is placed only on a
+  word TAHOT glosses it with; KJV italics (translator-supplied) never take
+  a number; ties go to the word nearest the Hebrew word's anchored
+  neighbours. Remaining errors don't share a pattern (H1961 on "be"/"is",
+  small prepositions). Tried and dropped: checking pronouns against
+  TAHOT's person/number codes (blocked 24 placements OT-wide, fixed none
+  judged — the pronoun errors are the right person on the wrong word). Open question before the app uses these: accept
+  ~93% shown as distinct STEPBible-added numbers, or use only the
+  gloss-backed subset. Next:
+  TAGNT (NT) before any in-app add-on.
   The grouped view also docks as a **Concordance pane** (🔤) beside the Bible
   panes, scrolling in isolation, fed by word clicks when open — with the
   search modal as the lighter-weight default when it's closed, including an
