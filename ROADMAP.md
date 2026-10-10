@@ -2341,6 +2341,24 @@ coordinates still separate cleanly.
      (accurate; the splitter locates 1,747 notes on 588 Vol. I leaves); or
      (c) body text only.
 
+     **Tesseract trial (2026-10-10): option (a) works.** The same four
+     margins were cropped from the full-resolution page images (2574 ×
+     4134, the hOCR's own coordinates) and run through Tesseract 5 LSTM
+     (`tesseract.js`, `eng`, PSM 6, no upscaling: 2× upscaling scored
+     worse). All 21 notes now read, and all 5 citations are exact
+     (`1 Cor. iii.`, `Rom. ii.`, `Matt. xxviii.`, `Matt. xviii.`,
+     `Eph. iii.`). Of ~190 note words, ~12 are wrong. Half of those are
+     the small-caps `W. T.` mark (`WwW. bs`, `We Es`, `Were.`). That's a
+     fixed token at a note's end whose only alternative is `Ant. ed.`, so
+     it is repairable by pattern. The rest are scattered glyph errors
+     (`hearing` → `Deane`, `doc-` → `doe-`, `bringeth` → `bringzth`, one
+     `of` → `0`). Luther's body-vocabulary check would catch most of
+     them, and `PSM 11` read `hearing` correctly, so a second pass could
+     settle disagreements. **Next step:** fold this into `split.mjs`: crop
+     each located note, OCR it, repair `W. T.`/`Ant. ed.`, and
+     vocabulary-check the gloss text. Then measure on a fresh sample of
+     leaves that weren't used to tune it.
+
   **Investigated and found too thin to be a real candidate yet:**
   **Martin Bucer** (Strasbourg, hugely influential on both Calvin and the
   English Reformation) has much thinner and more scattered English

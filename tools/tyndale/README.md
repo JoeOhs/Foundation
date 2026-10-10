@@ -29,3 +29,12 @@ OCR read each margin as an extension of the body line beside it. Every
 second note line is dropped or merged (`desePaier.must` = "despair." +
 "else he must"). The `_abbyy.gz` output has the same damage, because the
 hOCR was derived from it. Of 16 topic glosses, about 1 survives intact.
+
+## Re-OCR of the margin (trial)
+
+Cropping the margin strip from the full-resolution page image
+(`.../page/n<leaf>.jpg`, 2574 × 4134, the same coordinates as the hOCR)
+and running Tesseract 5 (`tesseract.js`, `eng`, PSM 6) on the crop alone
+reads all 21 notes on the four test leaves. About 12 of ~190 words are wrong,
+half of them the small-caps `W. T.` attribution mark. Numbers and next
+step are in ROADMAP.md.
