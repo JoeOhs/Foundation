@@ -3177,66 +3177,66 @@
 @2636 If we lack Abraham's faith, we cannot be Abraham's children.
 @3527 Faith only receiveth the grace that cometh by Abraham.
 
-== leaf 580 | EPISTLE TO THE ROMANS. 499 | margin right | draft
-?@691 The fruits and works of faith.
- @1339 Faith before all works justifieth.
- @1748 Good works are the fruits of faith.
-?@2392 Where true faith is, there are goog works,
- @2881 Where faith lacketh, there is all evil works.
+== leaf 580 | EPISTLE TO THE ROMANS. 499 | margin right | checked
+@691 The fruits and works of faith.
+@1339 Faith before all works justifieth.
+@1748 Good works are the fruits of faith.
+@2392 Where true faith is, there are good works.
+@2881 Where faith lacketh, there is all evil works.
 
-== leaf 581 | 500 PROLOGUE UPON THE | margin left | draft
-?@771 As by Adam came sin, so by Christ came salvation.
-?@2236 The principal work of faith, and the battle between the Spirit and the flesh.
+== leaf 581 | 500 PROLOGUE UPON THE | margin left | checked
+@771 As by Adam came sin, so by Christ came salvation.
+@2236 The principal work of faith, and the battle between the Spirit and the flesh.
 
-== leaf 582 | EPISTLE TO THE ROMANS. 501 | margin right | draft
-?@521 What it is not to be under the law.
- @1330 What it is to be under the law.
-?@2145 The right freedom and liberty from sin and from the law.
- @2796 Example,
+== leaf 582 | EPISTLE TO THE ROMANS. 501 | margin right | checked
+@521 What it is not to be under the law.
+@1330 What it is to be under the law.
+@2145 The right freedom and liberty from sin and from the law.
+@2796 Example.
 
-== leaf 583 | 502 PROLOGUE UPON THE | margin left | draft
- @922 Our consciences bound and in danger to the law by old Adam, so long as he liveth in us.
-?@2141 The law re- pans of us that which we cannot pay.
- @3214 The law doth utter and declare what sin is.
+== leaf 583 | 502 PROLOGUE UPON THE | margin left | checked
+@922 Our consciences bound and in danger to the law by old Adam, so long as he liveth in us.
+@2141 The law requireth of us that which we cannot pay.
+@3214 The law doth utter and declare what sin is.
 
-== leaf 584 | EPISTLE TO THE ROMANS. 503 | margin right | draft
-?@1470 What we may do of ourselves, and what we may not do.
- @3175 Where fear and shame is away, there all wickedness is committed.
+== leaf 584 | EPISTLE TO THE ROMANS. 503 | margin right | checked
+@1470 What we may do of ourselves, and what we may not do.
+@3175 Where fear and shame is away, there all wickedness is committed.
 
-== leaf 585 | 504 PROLOGUE UPON THE | margin left | draft
-?@391 The flesh is contrary unto the Spirit.
- @715 The Spirit lusteth contrary to the flesh.
-?@1534 There is no danger to them that are 1n Christ.
- @2680 The right work of faith is to mortify the flesh.
+== leaf 585 | 504 PROLOGUE UPON THE | margin left | checked
+@391 The flesh is contrary unto the Spirit.
+@715 The Spirit lusteth contrary to the flesh.
+@1534 There is no danger to them that are in Christ.
+@2680 The right work of faith is to mortify the flesh.
 
-== leaf 586 | EPISTLE TO THE ROMANS. 505 | margin right | draft
- @387 Predestination is in the hands of God.
- @1610 How far we may proceed in predestination.
- @2912 Predestination is not rashly to be disputed of.
+== leaf 586 | EPISTLE TO THE ROMANS. 505 | margin right | checked
+@387 Predestination is in the hands of God.
+@1610 How far we may proceed in predestination.
+@2912 Predestination is not rashly to be disputed of.
 
-== leaf 587 | 506 PROLOGUE UPON THE | margin left | draft
- @987 ‘Which are good works meet to be done,
- @2764 Love is the fulfilling of the law.
-?@3577 ‘We must deal lovingly with our weak brethren,
+== leaf 587 | 506 PROLOGUE UPON THE | margin left | checked
+@987 Which are good works meet to be done.
+@2764 Love is the fulfilling of the law.
+@3577 We must deal lovingly with our weak brethren.
 
-== leaf 588 | EPISTLE TO THE ROMANS. 507 | margin right | draft
- @1623 The weakness of our brethren is to be considered.
- @2590 In the Epistle to the Romans is contained a sufficient doctrine for a christian man.
+== leaf 588 | EPISTLE TO THE ROMANS. 507 | margin right | checked
+@1623 The weakness of our brethren is to be considered.
+@2590 In the Epistle to the Romans is contained a sufficient doctrine for a christian man.
 
-== leaf 589 | 508 PROLOGUE UPON THE | margin left | draft
- @1219 Beware of the traditions of men.
+== leaf 589 | 508 PROLOGUE UPON THE | margin left | checked
+@1219 Beware of the traditions of men.
 
 == leaf 590 | EPISTLE TO THE ROMANS. 509 | margin none found | draft
 
 == leaf 591 | (no running head) | margin none found | draft
 
-== leaf 592 | (no running head) | margin right | draft
-?@2601 Weak and young consciences are to be for- borne, for the last shall receive the equal reward with the first. Ant. ed.
+== leaf 592 | (no running head) | margin right | checked
+@2601 Weak and young consciences are to be forborne, for the last shall receive the equal reward with the first. Ant. ed.
 
-== leaf 593 | (no running head) | margin left | draft
- @426 Love fulfilleth the law. Ant. ed.
-?@2181 It is the dr of a goo shepherd to venture his life for his sheep. Ant. ed.
- @2595 Tribulation for the gospel’s sake maketh us sure of eternal life. Ant. ed.
+== leaf 593 | (no running head) | margin left | checked
+@426 Love fulfilleth the law. Ant. ed.
+@2181 It is the part of a good shepherd to venture his life for his sheep. Ant. ed.
+@2595 Tribulation for the gospel's sake maketh us sure of eternal life. Ant. ed.
 
 == leaf 594 | (no running head) | margin right | draft
  @1028 Acts xv,
