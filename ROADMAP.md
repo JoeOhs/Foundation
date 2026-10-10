@@ -2390,6 +2390,37 @@ coordinates still separate cleanly.
      note, though most leaves with notes will need opening for at least
      one.
 
+     **Fixes and third sample (2026-10-10).** Added all four fixes, plus a
+     flag for stray symbols. Tested only against sample 2, where they
+     caught every silent error and cut flags from 29 to 25 lines. Then the
+     code was frozen and measured on a third seeded sample of **20
+     untouched leaves** (12 92 126 130 140 143 197 230 238 242 339 347 421
+     437 439 440 477 521 586 603), every note checked against the scan:
+     - Leaf 12 is the table of contents. The body-column finder accepted
+       an 84 px "column" and produced noise. All of it was flagged, but a
+       build needs a body-width sanity check to skip such pages. Excluded
+       below.
+     - 89 printed notes on the other 19 leaves: 58 correct and unflagged,
+       22 flagged with a real error, 4 flagged though correct. **Flagged
+       ~29%.**
+     - **5 silent errors (~5.6%)**, all of new kinds the sample-2 fixes
+       didn't anticipate: two notes merged into one, where "Ant. ed."
+       broke across lines so the first note never closed; `80` for "so";
+       `drive eth` for "driveth" (both halves are words); and `Matt. vi.
+       & vii.` split, losing the "&". There was also one orphaned `W. T.`
+       entry.
+     **Conclusion: the OCR route measures at ~25–30% flagged and ~4–6%
+     silently wrong across two untouched samples.** That's over the agreed
+     1-in-5 line. Each round of fixes removed the errors it targeted and
+     met new ones of similar frequency. More importantly, a ~5% silent
+     error rate means every note would need proofreading against the scan
+     before shipping anyway. **Recommendation:** read every note from the
+     image, the way the Companion Bible notes are done, but use this
+     pipeline's output as the draft. Then each note is checked and
+     corrected rather than typed from scratch, and the splitter supplies
+     each note's position. The body text from the hOCR is unaffected by
+     this decision.
+
   **Investigated and found too thin to be a real candidate yet:**
   **Martin Bucer** (Strasbourg, hugely influential on both Calvin and the
   English Reformation) has much thinner and more scattered English

@@ -224,7 +224,7 @@ function isBareMark(text) {
   if (/^Ant\b.{0,6}$/i.test(t)) return true;
   if (!/^[WV]/.test(t) || t.replace(/\s/g, '').length > 7) return false;
   const words = t.split(/\s+/);
-  return words.length < 2 || !words.every((w) => vocabulary.has(w.toLowerCase().replace(/[^a-z']/g, '')));
+  return words.length < 2 || !words.every(isCommon);
 }
 
 function markOf(text) {
@@ -239,11 +239,15 @@ function markOf(text) {
   return { gloss: t, mark: null };
 }
 
-// "Rom. ii.", "1 Cor. iii.", "Matt. xxviii." — this edition cites by book
-// and roman chapter, sometimes with an arabic verse. The book must be an
-// abbreviation of a real one: "We. I." (a misread mark) and "er. xliv"
-// ("Jer." with its J cropped) have the shape but name nothing.
-const CITATION = /^(?:([123I])\s?)?([A-Z][a-z]{1,6})[.,]\s*[ivxlcIVXLC1lmnu]{1,8}[.,]?(?:\s*\d{1,3}[.,]?)?$/;
+// "Rom. ii.", "1 Cor. iii.", "John i.", "Matt. v. & x." — this edition cites
+// by book and roman chapter (a short book name takes no stop), sometimes
+// with an arabic verse. The book must be an abbreviation of a real one:
+// "We. I." (a misread mark) and "er. xliv" ("Jer." with its J cropped) have
+// the shape but name nothing.
+const CHAPTER = '[ivxlcIVXLC1lmnu]{1,8}[.,]?';
+const CITATION = new RegExp(
+  `^(?:([123I])\\s?)?([A-Z][a-z]{1,6})(?:[.,]\\s*|\\s+)${CHAPTER}(?:\\s*&\\s*${CHAPTER})*(?:\\s*\\d{1,3}[.,]?)?$`,
+);
 const BOOKS = (
   'genesis exodus leviticus numbers deuteronomy joshua judges ruth samuel kings chronicles ezra nehemiah ' +
   'esther job psalms proverbs ecclesiastes canticles isaiah jeremiah lamentations ezekiel daniel hosea joel ' +
@@ -267,8 +271,11 @@ function checkNote(note) {
   let score = 0;
   const lines = note.lines.map((l) => l.text.trim());
   if (lines.length === 1 && isCitation(lines[0])) {
-    const chap = /[.,]\s*([^\s.,]+)/.exec(lines[0])?.[1]?.toLowerCase() ?? '';
-    if (!ROMAN.test(chap)) flags.push(`chapter "${chap}" is not a roman numeral`), score++;
+    const book = CITATION.exec(lines[0]);
+    const chapters = lines[0].slice(book.index + book[0].indexOf(book[2]) + book[2].length).match(/[A-Za-z0-9]+/g) ?? [];
+    for (const c of chapters.filter((c) => !/^\d+$/.test(c))) {
+      if (!ROMAN.test(c.toLowerCase())) flags.push(`chapter "${c}" is not a roman numeral`), score++;
+    }
     return { kind: 'citation', text: lines[0], flags, score };
   }
   // "Ant. ed." can break across the last two lines ("ness. Ant." / "ed.").
@@ -283,39 +290,99 @@ function checkNote(note) {
   for (const l of body) {
     const m = /(\S+)-$/.exec(text);
     const joined = m && (m[1] + l.split(/\s+/)[0]).toLowerCase().replace(/[^a-z']/g, '');
-    if (m && vocabulary.has(joined)) text = text.slice(0, -1) + l;
+    if (m && isWord(joined)) text = text.slice(0, -1) + l;
     else {
       if (m) flags.push(`hyphen does not join: ${m[1]}-${l.split(/\s+/)[0]}`), score++;
       text += (text ? ' ' : '') + l;
     }
   }
+  // Words the print itself sets without a space ("Godrequireth",
+  // "throughJesus") are split where they segment into common words. This
+  // is a repair, not a flag, so it is listed separately in the report.
+  const repairs = [];
+  text = text.replace(/[A-Za-z’']{4,}/g, (w) => {
+    if (isWord(w)) return w;
+    const split = segment(w);
+    if (split) repairs.push(`${w} → ${split}`);
+    return split ?? w;
+  });
   // A missing mark is not flagged: some treatises' glosses carry none.
-  const unknown = (text.match(/[A-Za-z’']{3,}/g) ?? []).filter(
-    (w) => !vocabulary.has(w.toLowerCase().replace(/’/g, "'")),
-  );
+  // Two-letter words are checked too: "py" for "plainly" passed when only
+  // words of three letters or more were.
+  const unknown = (text.match(/[A-Za-z’']{2,}/g) ?? []).filter((w) => !isWord(w));
   if (unknown.length) flags.push(`not in body text: ${unknown.join(', ')}`), (score += unknown.length);
+  const lookalikes = (text.match(/[A-Za-z’']{3,}/g) ?? []).map(lookalike).filter(Boolean);
+  if (lookalikes.length) flags.push(`may be a misread: ${lookalikes.join(', ')}`), (score += lookalikes.length);
   // A lone lowercase letter other than "a" is a word that lost its glyphs
   // ("ment o scripture" for "ment of scripture").
   const stray = text.match(/(?<![A-Za-z’'])[b-z](?![A-Za-z’'])/g);
   if (stray) flags.push(`stray letter: ${stray.join(', ')}`), (score += stray.length);
+  // Glosses use letters, digits and ordinary punctuation only; anything else
+  // ("*", "©", "™", "|") is a speck or a misread glyph.
+  const symbols = text.match(/[^A-Za-z0-9\s.,;:?!'’‘“”"()&-]/g);
+  if (symbols) flags.push(`odd symbol: ${symbols.join(' ')}`), (score += symbols.length);
   // Confidence is judged on the gloss only: the attribution mark was
   // already repaired by rule, and its small capitals always score low.
   const glossWords = new Set(text.split(/\s+/));
   const weak = note.lines.flatMap((l) => l.words).filter((w) => w.confidence < 60 && glossWords.has(w.text));
   if (weak.length) flags.push(`low confidence: ${weak.map((w) => w.text).join(', ')}`), (score += weak.length);
-  return { kind: 'gloss', text: tail.mark ? `${text} ${tail.mark}` : text, flags, score };
+  return { kind: 'gloss', text: tail.mark ? `${text} ${tail.mark}` : text, flags, score, repairs };
 }
 
-// Every word the volume's body text uses: the reference for judging what the
-// margin OCR produced. Filled once in main(), before any margin is read.
-let vocabulary = new Set();
+// How often each word occurs in the volume's body text: the reference for
+// judging what the margin OCR produced. Filled once in main(), before any
+// margin is read.
+let vocabulary = new Map();
 
 function bodyVocabulary(results) {
-  const v = new Set();
+  const v = new Map();
   for (const r of results)
     for (const line of r.body ?? [])
-      for (const w of line.toLowerCase().match(/[a-z']{2,}/g) ?? []) v.add(w);
+      for (const w of line.toLowerCase().match(/[a-z']{2,}/g) ?? []) v.set(w, (v.get(w) ?? 0) + 1);
   return v;
+}
+
+const countOf = (w) => vocabulary.get(w.toLowerCase().replace(/’/g, "'").replace(/[^a-z']/g, '')) ?? 0;
+const isWord = (w) => countOf(w) > 0;
+// The body text's own OCR has junk in it ("te" occurs 8 times), so where a
+// decision rests on a word being real, it must also be common.
+const isCommon = (w) => countOf(w) >= 20;
+
+// Splits a run-together word into two or three common words, preferring the
+// fewest pieces: "restis" → "rest is", "Spirittojudge" → "Spirit to judge".
+// Pieces of two letters must be one of the short words the glosses use, so
+// junk can't be used to make a split.
+const SHORT = new Set('is to of in an as at be by he it me my no on or so up us we ye do go'.split(' '));
+function segment(word) {
+  const piece = (p) => (p.length === 2 ? SHORT.has(p.toLowerCase()) : p.length > 2 && isCommon(p));
+  for (let i = 2; i < word.length - 1; i++) {
+    if (piece(word.slice(0, i)) && piece(word.slice(i))) return `${word.slice(0, i)} ${word.slice(i)}`;
+  }
+  for (let i = 2; i < word.length - 3; i++) {
+    for (let j = i + 2; j < word.length - 1; j++) {
+      const [a, b, c] = [word.slice(0, i), word.slice(i, j), word.slice(j)];
+      if (piece(a) && piece(b) && piece(c)) return `${a} ${b} ${c}`;
+    }
+  }
+  return null;
+}
+
+// A real word can still be a misread: "Jaw" occurs 3 times in the body, but
+// swapping the J for the l Tesseract confuses it with gives "law", which
+// occurs 769 times. Flagged when one such swap gives a word at least 50
+// times as common. Only this scan's usual confusions are tried.
+const CONFUSIONS = [['j', 'l'], ['i', 'l'], ['l', 'i'], ['c', 'e'], ['e', 'c'], ['h', 'b'], ['b', 'h'], ['rn', 'm'], ['u', 'n'], ['n', 'u'], ['f', 't'], ['t', 'f']];
+function lookalike(word) {
+  const w = word.toLowerCase();
+  const n = countOf(w);
+  if (!n) return null;
+  for (const [from, to] of CONFUSIONS) {
+    for (let i = w.indexOf(from); i >= 0; i = w.indexOf(from, i + 1)) {
+      const alt = w.slice(0, i) + to + w.slice(i + from.length);
+      if (countOf(alt) >= 50 * n) return `${word} (${alt}?)`;
+    }
+  }
+  return null;
 }
 
 // Returns the leaf's notes, or null when its page image hasn't been supplied.
@@ -398,6 +465,7 @@ async function main() {
       for (const n of r.ocr ?? []) {
         console.log(`  [OCR  y=${n.y0}] ${n.text}`);
         n.flags.forEach((f) => console.log(`      ! ${f}`));
+        (n.repairs ?? []).forEach((f) => console.log(`      ~ joined: ${f}`));
       }
     }
     return;
@@ -413,7 +481,11 @@ async function main() {
     `re-OCR'd: ${results.filter((r) => r.ocr).length} leaves, ${ocrNotes.length} notes, ${flagged.length} flagged for hand reading`,
     '',
     ...ocrNotes.map((n) =>
-      [`${String(n.leaf).padStart(4)}  ${n.flags.length ? '!' : ' '} ${n.text}`, ...n.flags.map((f) => `          ! ${f}`)].join('\n'),
+      [
+        `${String(n.leaf).padStart(4)}  ${n.flags.length ? '!' : ' '} ${n.text}`,
+        ...n.flags.map((f) => `          ! ${f}`),
+        ...(n.repairs ?? []).map((f) => `          ~ joined: ${f}`),
+      ].join('\n'),
     ),
     '',
     'leaf  left  right  notes',
