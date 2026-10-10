@@ -1,0 +1,13 @@
+{
+  "name": "tyndale-builder",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Standalone data-prep script: splits and re-OCRs the marginal notes of the Parker Society Works of William Tyndale from Internet Archive scans. Not part of the Tauri app runtime.",
+  "scripts": {
+    "split": "node split.mjs"
+  },
+  "dependencies": {
+    "tesseract.js": "5.1.1"
+  }
+}

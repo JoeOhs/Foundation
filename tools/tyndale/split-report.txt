@@ -1,5 +1,376 @@
 Tyndale Vol. I margin split — 624 leaves, 588 with a body column
-margin notes found: 1747
+margin notes located in hOCR: 1747
+re-OCR'd: 48 leaves, 242 notes, 78 flagged for hand reading
+
+  13    Prologue upon the An exposition upon
+  95    Nature. W. T.
+  95    A proper similitude. Ant. ed.
+  95  ! “We are plucked from Adam and ied in hrist, b grace. W. T.
+          ! not in body text: ied, hrist
+          ! stray letter: b
+          ! low confidence: ied
+ 100  ! The hearts of the elect do even melt at the preaching of God’s mercy, and Christ's kindness. Ant. ed.
+          ! low confidence: Christ's
+ 100  ! The evangelion bringeth faith, faith bringethlove, love worketh. W. T.
+          ! not in body text: bringethlove
+ 100    Christ left nothing undone that might be to our salvation. Ant. ed.
+ 100  ! Christ pds eth all goodness SCs and giveth an ensample how to bestow it godly. IWENEL
+          ! not in body text: pds, SCs, IWENEL
+          ! low confidence: pds, SCs, IWENEL
+ 108  ! The perfecter we are, the greater is our repentance and the stronger is our faich.
+          ! not in body text: faich
+ 108    Our works deserve not the gifts of grace.
+ 108  ! The principles of scripture perfectly learned, all the restis more easy.
+          ! not in body text: restis
+ 118  ! The cause why W. Tyndale put his name to some books, and left it out in some 2. Ant. ed. W. T.
+          ! low confidence: some, 2.
+ 118    Roye a false disciple. Ant. ed.
+ 119    Jerome a brother of Greenwich. Ant. ed.
+ 129  ! giveth no rower to fulfil the same. W. T.
+          ! not in body text: rower
+ 129    The gospel is the ministration of righteousness. Ant. ed.
+ 129    2 Cor. iii.
+ 129    The consenting unto the Jaw with the heart is eternal life. W. T.
+ 129    Eph. vi.
+ 129    Resist the devil with the shield of faith. Ant. ed.
+ 129    Faith is the holy candle wherewith we must bless ourselves at the last hour, Ant. ed.
+ 185  ! The strait- ness of life pertaineth to John only, but the voice to the Jews. W. T.
+          ! hyphen does not join: strait-ness
+ 185    True preachers must preach repentance. Ant. ed.
+ 185  ! It is impossible for Christ to come, without the sin be know- J oe truly, wit iat ance. de
+          ! hyphen does not join: know-J
+          ! low confidence: J, oe, iat, de
+ 185    Matt. xvii.
+ 185    Matt. xv.
+ 185    Matt. xxiii,
+ 185    Matt. xxiii.
+ 185    The manner and doctrine of hypocrites. Ant. ed.
+ 188    The manner of the speaking of the Scripture. Ant. ed.
+ 188  ! The wise of this world do not under- sang the 5 speaking o Cod in Bis
+          ! hyphen does not join: under-sang
+          ! not in body text: sang, Cod
+          ! stray letter: o
+          ! low confidence: sang, 5
+ 188    scriptures. Ant. ed.
+ 188    1 Cor. 1. ii.
+ 188    I will destroy the wisdom of the wise, and the understanding of the learned shall perish. W. T.
+ 188    Isai. xxix.
+ 188    The Papists™ arguments, Ant. ed.
+ 188    Love of God. W. T.
+ 195    He that ascribeth eternal life unto merits is either a Pharisee, or else he must despair. W. T.
+ 195    Christ is our hope and righteousness. Ant. ed.
+ 195    Let no man despair, but put his hope in Christ, and he shall be safe. Ant. ed.
+ 195    Rom. ii.
+ 195    The law natural was written to the Gentiles. W. T.
+ 196  ! Not REARS but doing the law maketh righteous. W. T.
+          ! not in body text: REARS
+          ! low confidence: REARS
+ 196    No man can fulfil the law, but he that believeth in Christ. Ant. ed.
+ 196    1 Cor.iii,
+ 196    Christ is the sure foundation. Ant. ed.
+ 196  ! The fire is the judgment o scripture. W. T.
+          ! stray letter: o
+ 196  ! Gold, silver, and precious stones, is true doctrine. We ES
+          ! low confidence: We, ES
+ 196  ! Timber, hay, stubble, are men’s doe- trine. W. T.
+          ! hyphen does not join: doe-trine.
+ 222  ! The promises of God are comfortable, yea, they are all comfort. W. T.
+          ! low confidence: they
+ 222  ! Matt. v. & x.
+          ! stray letter: v, x
+ 222  ! Psi:
+          ! not in body text: Psi
+          ! low confidence: Psi:
+ 222    Ps. xxxiii.
+ 222  ! Psi xxiv:
+          ! not in body text: Psi
+          ! low confidence: Psi, xxiv:
+ 222    Matt. x.
+ 222    Matt. x.
+ 222    1 Pet. v.
+ 222  ! IRCor x: Palys
+          ! not in body text: IRCor, Palys
+          ! stray letter: x
+          ! low confidence: IRCor, x:, Palys
+ 222    A Christian man’s care. W. T.
+ 226    John viii.
+ 226    ‘Whet them on thy children; that is, exercise thy children in them, and put them in use. Ant. ed.
+ 226    Deut. vi.
+ 241    False similitudes. W. T.
+ 241  ! Man's wisdom heresy. W. T.
+          ! low confidence: Man's
+ 241    Coats. W. T.
+ 241    Place. W. T.
+ 241    One religion js holier than another. W. T.
+ 241  ! Man’s wisdom is idola- EV WiiDs ‘What God is. W. T.
+          ! hyphen does not join: idola-EV
+          ! not in body text: idola, WiiDs
+          ! low confidence: EV, WiiDs
+ 241    Joh. viii,
+ 241  ! Ps. iexixe
+          ! not in body text: iexixe
+          ! low confidence: Ps., iexixe
+ 241    Then think the papists their wicked life will shew itself to their shame and confusion. Ant. ed.
+ 244  ! Prelates not professors, but profaners of God’s word. Ant.ed,
+          ! not in body text: professors, profaners
+ 244    The obedience of monks and friars is not here. For they are not of God, but of their own feigning. W. T.
+ 244    The hypocrites lay that to God’s word which they themselves are cause of. W. T.
+ 244    God warneth ere he strike. W. T.
+ 244  ! When God punishetn the idolatry of the hypocrites, then say they, that new learning is the cause thereof, W. T.
+          ! not in body text: punishetn
+          ! low confidence: punishetn, idolatry
+ 244    Jer, xliv
+ 262  ! Three na- ures. W. T.
+          ! hyphen does not join: na-ures.
+          ! not in body text: ures
+ 262    What it is to look Moses in the face. Ant. ed.
+ 262    Rom. ii.
+ 263    Heaven cometh by Christ. W. T.
+ 263    A Christian man seeketh no more, but God's will. W. T.
+ 263    Lusts. W. T.
+ 263    Free will. W. T.
+ 263    Worldly wit, W. T.
+ 280  ! Rigour in parents towards their children is to "be eschewed, Ant. ed.
+          ! not in body text: eschewed
+          ! low confidence: "be
+ 280    Eph. vi.
+ 280    Col. iii.
+ 280  ! The right bringing up of pete W. T.
+          ! not in body text: pete
+          ! low confidence: pete
+ 280  ! CWT
+          ! not in body text: CWT
+          ! low confidence: CWT
+ 280  ! The destrue- tion and marring of children. W. T.
+          ! hyphen does not join: destrue-tion
+          ! not in body text: destrue, marring
+ 280  ! A The marriage of children without consent of their parents is un- awful. Ant. ed.
+          ! hyphen does not join: un-awful.
+          ! not in body text: awful
+ 281    In Christ we are all servants, and he that hath knowledge is bound, W. T.
+ 281    Eph. v.
+ 281    Col. iii.
+ 281    1 Pet. iii.
+ 281  ! Men op torule their wives by God’s word. W. T.
+          ! not in body text: torule
+          ! low confidence: op
+ 281  ! ‘Why theman is stronger than the woman. W. T.
+          ! not in body text: theman
+ 292  ! The apostles were sent of Christ with like autho- T16V. BRVVER
+          ! hyphen does not join: autho-T16V.
+          ! not in body text: BRVVER
+          ! low confidence: T16V., BRVVER
+ 292  ! Cora:
+          ! low confidence: Cora:
+ 292    1 Cor. Xi
+ 292    Gal. i.
+ 292    Gal. ii.
+ 292    1 Tim. i.
+ 292  ! J ohn xx.
+          ! not in body text: ohn
+ 292    Matt. xxviii.
+ 292    The authority that Christ gave was to preach Christ’s word. W. T.
+ 295    One gospel, one Spirit, one truth. W. T.
+ 295    The authority of Paul and of his gospel. W. T.
+ 295  ! Rochester playeth bo- peep. W. T.
+          ! hyphen does not join: bo-peep.
+ 295    Heb. x.
+ 295  ! TVEIm: 1V.
+          ! not in body text: TVEIm
+          ! low confidence: TVEIm:, 1V.
+ 295    Never man forbad to marry, save the pope W. T.
+ 295    Rom. xiv.
+ 299  ! Rochester allegeth Paul for his blind ceremonies, ited) to Paul’s doe- rine Winns
+          ! hyphen does not join: doe-rine
+          ! not in body text: ited, rine, Winns
+          ! low confidence: ited), to, doe-, rine, Winns
+ 299    2 Thess. ii.
+ 302    Rochester is an orator. W. T.
+ 302    Rochester is clean beside himself, W. T.
+ 302    Gal. v.
+ 302    If Rochester be such a juggler, what suppose ye of
+ 303    the rest? Let Rochester be an example, therefore, to judge them all.” W. T.
+ 303    Faith is the root ; and love springeth of faith, W. T.
+ 303    1 Joh. iii.
+ 303  ! John i.
+          ! stray letter: i
+ 303    Gal. iii.
+ 303    1 John iii.
+ 303    1 John iv.
+ 303    Rom. viii.
+ 303  ! Though Rochester have not the © Spirittojudge spiritual things, yet ought reason to have kept him from so shameful
+          ! not in body text: Spirittojudge
+          ! low confidence: ©
+ 309    2 Tim. iii.
+ 309  ! Christ's prophecy, be it never so terrible, must be yet fulfilled. W. T.
+          ! low confidence: Christ's
+ 309  ! Christ was neither shaven nor shorn, nor anointed with oil. We. Te
+          ! low confidence: We.
+ 309  ! He that doth aught to make satisfaction, or to get heaven, hath lost his part of Christ's blood. W. T.
+          ! low confidence: Christ's
+ 309    1 Joh. iv.
+ 309    To our neighbour make we amends. W. T.
+ 315    All in Latin. W. T.
+ 315    Roll them. W. T.
+ 315    Sing. W. T.
+ 315    Ring. W. T.
+ 315  ! Lull them. W. T.
+          ! not in body text: Lull
+ 315    Rock them asleep. W. T.
+ 315    1 Cor. xiv.
+ 315    Pray in Latin. W. T.
+ 315    Say them a gospel. W. T.
+ 315    What quoth my lord of Canterbury W. T.
+ 315    Cross. W. T.
+ 315    Turmoilers. W. T.
+ 319  ! First mass. Professings. W. T.
+          ! not in body text: Professings
+ 319    Conjurations. W. T.
+ 319    Parson. W. T.
+ 319  ! Parish priest. Friars, We TI.
+          ! low confidence: We, TI.
+ 319    Spiritual law. W. T.
+ 319  ! A proper commodity of confession. W. T.
+          ! not in body text: commodity
+ 319    Lay your hand on the book. W. T.
+ 346    Attrition is of the leaven of the Pharisees. W. T.
+ 346    Matt. xvi.
+ 346  ! Persie
+          ! not in body text: Persie
+          ! low confidence: Persie
+ 375    John iii.
+ 375    Rom. v.
+ 375  ! ‘We are at peace in our consciences, when we believe constantly our sins are remitted throughJesus Christ. Ant. ed.
+          ! not in body text: throughJesus
+ 375    Rom. v.
+ 377    Gal. iii.
+ 377  ! In Christ we are one as good as another, 2 it beloved, and Sl heard. W. T.
+          ! low confidence: 2, it, Sl
+ 377    Col. iii.
+ 377  ! Christisall to a christian man, W. T.
+          ! not in body text: Christisall
+ 382  ! Our birth- poison that remaineth in us resisteth the Spirit. Ant. ed.
+          ! hyphen does not join: birth-poison
+ 382    Rom. vii.
+ 382    The right cross of Christ. W. T.
+ 382    He that loveth not the law, and hateth sin, hath no part with Christ. W. T.
+ 382  ! How to t the doch
+          ! not in body text: doch
+          ! stray letter: t
+          ! low confidence: t, doch
+ 382    of our spiritualty. W. T.
+ 384  ! When other weep, they sing, and hen oli ose, the win, Ww. iT.
+          ! not in body text: oli, ose
+          ! low confidence: hen, oli, iT.
+ 384  ! All is olpite gatory. These physicians give none other medicines save purgations only. W. T.
+          ! not in body text: olpite, gatory, physicians
+          ! low confidence: olpite
+ 403    Of ourselves we can perform nothing further than God will give us power. Ant. ed.
+ 403    Another example. W. T.
+ 403  ! Matt. xxiil
+          ! chapter "xxiil" is not a roman numeral
+ 403    To sit on Christ’s seat is to preach and confess Christ. Ant. ed.
+ 404    Luke xxii.
+ 404    Zech. xiii.
+ 404  ! Luke xxii. Christ rebuketh desire of pre- eminence in his disciples, but the Dope challenget it above all men as his own inheritance. Ant. ed.
+          ! hyphen does not join: pre-eminence
+          ! not in body text: Dope, challenget
+ 443    Matt. vii.
+ 443  ! To an ignorant and unfaithful person the sacraments and ceremonies are sin.
+          ! not in body text: unfaithful
+ 443    Idolatry, what it is.
+ 443    The spiritual and right serving of God, what it is.
+ 449    A declaration of them of the third opinion above mentioned.
+ 449    Gen. xxxii.
+ 449    John vi.
+ 449    Papists are the wresters of the scriptures.
+ 450  ! The sacraments are confirma- tions to weak consciences.
+          ! hyphen does not join: confirma-tions
+          ! not in body text: confirma
+          ! low confidence: consciences.
+ 450    Faith increaseth by the worthy receiving of the sacraments.
+ 450    Matt. xxviii.
+ 450    Matt. xviii.
+ 450    Eph. iii.
+ 462    An excellent argument.
+ 497  ! Thelaw is the utterer of sin.
+          ! not in body text: Thelaw, utterer
+ 497    The law was given by God to shew what sin was.
+ 497    Ceremonies are not given to justify the heart, but to signify our justification by Christ.
+ 497    Ceremonies cannot justify.
+ 503    parents to their children, cause love and obedience.
+ 503    Sacrifices and ceremonies serve for allegories to find out Christ.
+ 503  ! Similitudes prove nothing, but do more py lead thee to understand the text.
+          ! low confidence: py
+ 503    Some ceremonies contain wholesome and profitable doctrine.
+ 503    Ceremonies ordained to confirm our faith,
+ 503  ! God's secrets were opened but to a few.
+          ! low confidence: God's
+ 503    The ceremonies of them-
+ 512    Our righteousness cometh not by our merits, but through faith, by the blood of our
+ 512    Saviour Jesus Christ.
+ 512    Faith only bringeth us to Christ, and unbelief bringeth us from Christ.
+ 512  ! Christ rebuked the Pharisees for their holy and ran tical deeds.
+          ! not in body text: tical
+          ! low confidence: holy, ran
+ 512    The Pharisees ascribe righteousness to works, and therefore were condemned of Christ.
+ 512    The justifying of ourselves maketh the devil more busy than he would be.
+ 516    How we ought to vow wilful poverty. W. T.
+ 516  ! fished the Pope pre- | ates with this net or no?
+          ! not in body text: fished, ates
+          ! low confidence: Pope
+ 516    Our works do not stand in the wisdom of man, but in the power of God.
+ 522  ! This rox a preaching of faith and
+          ! not in body text: rox
+          ! low confidence: rox
+ 522    love.
+ 522    Here thou mayest learn a right meditation or contemplation.
+ 522    The works of God are supernatural.
+ 522    We must abstain from outward evil, though not for love, yet for fear of the vengeance of God.
+ 522  ! Unto the law of God we may not add nor diminishs
+          ! not in body text: diminishs
+          ! low confidence: diminishs
+ 537  ! The wicked seek to cover their wickedness a pope-holy works.
+          ! low confidence: a
+ 537  ! How Jonas was trapped, and made afraid.
+          ! not in body text: trapped
+ 537    Jonas being afraid confesseth his sins.
+ 537    Lots, how they may be used lawfully.
+ 537  ! Acts i.
+          ! stray letter: i
+          ! low confidence: Acts, i.
+ 550    Matt. xxiii.
+ 550    Luke xi.
+ 550  ! The Jews to this day are locked out from the understanding of the serip- tures. Ant. ed.
+          ! hyphen does not join: serip-tures.
+          ! not in body text: serip
+ 550  ! The right Nay into the understanding of the scriptures. W. T.
+          ! low confidence: Nay
+ 550    Matt. v.
+ 558  ! Why Tyndale ed thisword
+          ! not in body text: thisword
+          ! low confidence: ed
+ 558    repentance, rather than penance. Ant. ed.
+ 558  ! The four parts of re- pentanee. Ant. ed.
+          ! hyphen does not join: re-pentanee.
+          ! not in body text: pentanee
+          ! low confidence: pentanee.
+ 566  ! The law of Godrequireth the bottom of our hearts.
+          ! not in body text: Godrequireth
+ 566    St Paul was great persecutor of the Christians.
+ 566    If we be not willing to do good, then doth sin reign in us.
+ 566    No man can fulfil the law, but Christ only.
+ 566  ! Jit
+          ! not in body text: Jit
+          ! low confidence: Jit
+ 578    Faith obtaineth the fulfilling of the law.
+ 578  ! St Paul answereth to the cavilling fucstions that our papists use against justification of faith only.
+          ! not in body text: cavilling, fucstions
+          ! low confidence: fucstions
+ 578  ! Good works are gneve signs of true fat,
+          ! not in body text: gneve
+          ! low confidence: gneve, fat,
+ 578    We are first justified, then followeth good works.
 
 leaf  left  right  notes
    0  (no body column)

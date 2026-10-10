@@ -2359,6 +2359,37 @@ coordinates still separate cleanly.
      vocabulary-check the gloss text. Then measure on a fresh sample of
      leaves that weren't used to tune it.
 
+     **Pipeline measured (2026-10-10, `tools/tyndale/split.mjs`).** Built
+     as planned, plus two-inset reading (3 px and 10 px; the gutter is too
+     narrow for one) and book-name validation of citations. Tuned on the
+     4 trial leaves plus a seeded sample of 24. Then measured on a second
+     seeded sample of **20 untouched leaves** (95 108 119 129 222 262 299
+     302 303 309 375 382 384 403 449 497 503 512 522 566), every note
+     checked against the scan:
+     - 93 printed notes; 24 outputs flagged for hand reading (**~26%**).
+       About 6 of those are false alarms (`Matt. v. & x.` and `John i.`
+       tripping the gloss checks; `birth-poison`, a real compound; one
+       speck).
+     - **4 silent errors (~4%)**, wrong but unflagged: `Jaw` for "law"
+       (a real word, so the vocabulary check passes it), `py` for
+       "plainly" (two letters, below both checks), one `W. T.` mark left
+       as `We. Te` (OCR junk in the body vocabulary made it look like
+       words), and one note split in two with correct text.
+     - Recurring flagged causes: spaces the print itself squeezes out
+       (`Godrequireth`, `throughJesus`, `restis`), real words the body
+       text never uses (`utterer`, `professors`, `commodity`), and
+       several adjacent citations merged into one line.
+     **Against the decision rule** ("switch to reading every image if more
+     than about 1 in 5 notes is flagged"), this lands just over the line.
+     Cheap, general fixes would likely bring it under. These are: split
+     joined words that segment into body vocabulary; fix the citation
+     false alarms; flag words that occur rarely in the body (catches
+     `Jaw`); flag unknown two-letter words (catches `py`). But any such fix
+     needs a third untouched sample to measure honestly. Hand-reading the
+     flagged notes is still roughly a quarter of the work of reading every
+     note, though most leaves with notes will need opening for at least
+     one.
+
   **Investigated and found too thin to be a real candidate yet:**
   **Martin Bucer** (Strasbourg, hugely influential on both Calvin and the
   English Reformation) has much thinner and more scattered English
