@@ -3100,83 +3100,82 @@
 @2823 The law increaseth sin. M. B.
 @3318 The law is spiritual.
 
-== leaf 568 | EPISTLE TO THE ROMANS. 487 | margin right | draft
- @692 The spirit of God maketh a man spiritual.
- @1407 The law is good, righteous, and holy.
- @1743 ‘Works of the law and the . fulfilling of the law are two things.
-?@2641 By the works of the law no man can be justified.
+== leaf 568 | EPISTLE TO THE ROMANS. 487 | margin right | checked
+@692 The spirit of God maketh a man spiritual.
+@1407 The law is good, righteous, and holy.
+@1743 Works of the law and the fulfilling of the law are two things.
+@2641 By the works of the law no man can be justified.
 
-== leaf 569 | 488 PROLOGUE UPON THE | margin left | draft
- @437 As the law is spiritual, so it must be fulfilled spiritually.
- @1003 Where true faith is, there is the Spirit of God.
- @2145 Our justification is by faith in Christ.
+== leaf 569 | 488 PROLOGUE UPON THE | margin left | checked
+@437 As the law is spiritual, so it must be fulfilled spiritually.
+@1003 Where true faith is, there is the Spirit of God.
+@2145 Our justification is by faith in Christ.
 
-== leaf 570 | EPISTLE TO THE ROMANS. 489 | margin right | draft
- @1808 Out of true faith springeth all good works.
- @2469 Of sin.
- @2630 Sin, what it is,
+== leaf 570 | EPISTLE TO THE ROMANS. 489 | margin right | checked
+@1808 Out of true faith springeth all good works.
+@2469 Of sin.
+@2630 Sin, what it is.
 
-== leaf 571 | 490 PROLOGUE UPON THE | margin left | draft
- @694 Gen. iii.
- @777 Sin in the scripture is chiefly called unbelief.
- @939 John viii.
- @1099 John xii.
- @1915 Eph. iv.
- @2334 Rom. xiii.
- @2412 1 Pet. i.
- @2568 1 John ii.
+== leaf 571 | 490 PROLOGUE UPON THE | margin left | checked
+@694 Gen. iii.
+@777 Sin in the scripture is chiefly called unbelief.
+@939 John viii.
+@1099 John xii.
+@1915 Eph. iv.
+@2334 Rom. xiii.
+@2412 1 Pet. i.
+@2568 1 John ii.
 
-== leaf 572 | EPISTLE TO THE ROMANS. 491 | margin right | draft
-?@3460 Grace, how it is understood in the scriptures.
+== leaf 572 | EPISTLE TO THE ROMANS. 491 | margin right | checked
+@3460 Grace, how it is understood in the scriptures.
 
-== leaf 573 | 492 PROLOGUE UPON THE | margin left | draft
- @588 Gift, what it is.
- @1072 Gal. v.
- @1155 Gen. iii.
-?@1329 God-for Christ’s sake, receiveth us.
- @2148 There is no damnation to them that are in Christ.
- @3042 Faith, what it is.
-?@3485 oa False and feigned faith.
- @3525 False and feigned faith.
+== leaf 573 | 492 PROLOGUE UPON THE | margin left | checked
+@588 Gift, what it is.
+@1072 Gal. v.
+@1155 Gen. iii.
+@1329 God for Christ's sake, receiveth us.
+@2148 There is no damnation to them that are in Christ.
+@3042 Faith, what it is.
+@3525 False and feigned faith.
 
-== leaf 574 | EPISTLE TO THE ROMANS. 493 | margin right | draft
- @1323 True faith is lively.
- @1486 Faith is not idle.
- @2388 The true definition of faith.
- @3280 Good works cannot be separate from faith,
+== leaf 574 | EPISTLE TO THE ROMANS. 493 | margin right | checked
+@1323 True faith is lively.
+@1486 Faith is not idle.
+@2388 The true definition of faith.
+@3280 Good works cannot be separate from faith.
 
-== leaf 575 | 494 PROLOGUE UPON THE | margin left | draft
- @838 Righteousness, and how it is to be understood.
-?@2153 Flesh and pt what they are, and how to understand them.
- @2398 John iii.
-?@2975 How this word flesh is to be understood in the scripture.
-?@3622 tats is the chie of all sins.
+== leaf 575 | 494 PROLOGUE UPON THE | margin left | checked
+@838 Righteousness, and how it is to be understood.
+@2153 Flesh and spirit, what they are, and how to understand them.
+@2398 John iii.
+@2975 How this word flesh is to be understood in the scripture.
+@3622 Incredulity is the chief of all sins.
 
-== leaf 576 | EPISTLE TO THE ROMANS. 495 | margin right | draft
- @430 Flesh is here well described.
-?@1089 ‘Whatsoever proceedeth of faith is spiritual.
-?@2052 A necessary and profitable instruce- tion for all preachers.
-?@2725 The manner of St Paul's doetrine.
-?@3211 Nature is so blind that we cannot see nor understand the gocdntes of ’ od and his mercy, shewed unto us in Christ Jesus his Son.
+== leaf 576 | EPISTLE TO THE ROMANS. 495 | margin right | checked
+@430 Flesh is here well described.
+@1089 Whatsoever proceedeth of faith is spiritual.
+@2052 A necessary and profitable instruction for all preachers.
+@2725 The manner of St Paul's doctrine.
+@3211 Nature is so blind that we cannot see nor understand the goodness of God and his mercy, shewed unto us in Christ Jesus his Son.
 
-== leaf 577 | 496 PROLOGUE UPON THE | margin left | draft
-?@687 St Paul con- demmneth all hypocrites.
- @1423 How St Paul rebuketh hypocrites.
- @1906 The difference between the Jew and the Gentile.
- @2733 All men are sinners.
- @2900 The way how we must be made righteous.
+== leaf 577 | 496 PROLOGUE UPON THE | margin left | checked
+@687 St Paul condemneth all hypocrites.
+@1423 How St Paul rebuketh hypocrites.
+@1906 The difference between the Jew and the Gentile.
+@2733 All men are sinners.
+@2900 The way how we must be made righteous.
 
-== leaf 578 | EPISTLE TO THE ROMANS. 497 | margin right | draft
- @426 Faith obtaineth the fulfilling of the law.
-?@915 St Paul answereth to the cavilling fucstions that our papists use against justification of faith only.
-?@2381 Good works are gneve signs of true fat,
- @3276 We are first justified, then followeth good works.
+== leaf 578 | EPISTLE TO THE ROMANS. 497 | margin right | checked
+@426 Faith obtaineth the fulfilling of the law.
+@915 St Paul answereth to the cavilling question, that our papists use against justification of faith only.
+@2381 Good works are outward signs of true faith.
+@3276 We are first justified, then followeth good works.
 
-== leaf 579 | 498 PROLOGUE UPON THE | margin left | draft
-?@1497 God’s mercy moveth us to faith in his promises, so that God in all things worketh our justification.
- @1987 God’s mercy saveth us, and not we ourselves.
-?@2636 If we lack Abraham’s faith, we cannot be Abra- ham’s children.
-?@3527 Faith only receiveth the grace that cometh by Ahraham
+== leaf 579 | 498 PROLOGUE UPON THE | margin left | checked
+@1497 God's mercy moveth us to faith in his promises, so that God in all things worketh our justification.
+@1987 God's mercy saveth us, and not we ourselves.
+@2636 If we lack Abraham's faith, we cannot be Abraham's children.
+@3527 Faith only receiveth the grace that cometh by Abraham.
 
 == leaf 580 | EPISTLE TO THE ROMANS. 499 | margin right | draft
 ?@691 The fruits and works of faith.
