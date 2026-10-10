@@ -2326,6 +2326,21 @@ coordinates still separate cleanly.
      can't be recovered reliably, reconsider: either ship body text only
      (losing much of the value) or rank Tyndale behind cheaper candidates.
 
+     **Margin-splitter result (2026-10-10, `tools/tyndale/`):** the
+     geometry works and the existing OCR doesn't. On four hand-checked
+     Vol. I leaves (100, 195, 196, 450) the per-word splitter found all 21
+     printed notes at the right height. But only about 1 of the 16 topic
+     glosses and 1–2 of the 5 citations are legible. The notes are set
+     two lines per body line, and the OCR dropped or merged every second
+     note line. IA's ABBYY output has the same damage, since the hOCR was
+     derived from it. So the glosses need fresh reading from the page
+     images; body text from the existing OCR is fine. **Open decision:**
+     (a) re-OCR only the located margin crops with a locally installed
+     Tesseract, quality unknown until tried; (b) transcribe the margin
+     crops by hand/vision, as `tools/companion-bible-notes/` does
+     (accurate, but labour scales with ~3,000 notes in Vol. I); or
+     (c) body text only.
+
   **Investigated and found too thin to be a real candidate yet:**
   **Martin Bucer** (Strasbourg, hugely influential on both Calvin and the
   English Reformation) has much thinner and more scattered English
