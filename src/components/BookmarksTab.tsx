@@ -7,8 +7,8 @@ import type { PaneBookmarkInfo } from './Pane';
 type SortMode = 'manual' | 'category' | 'alpha';
 
 const CATEGORY_ORDER: Record<string, number> = {
-  bible: 0, commentary: 1, reference: 2, dictionary: 3,
-  historical: 4, patristic: 5, rabbinic: 6, reformation: 7,
+  bible: 0, extrabiblical: 1, commentary: 2, reference: 3, dictionary: 4,
+  historical: 5, patristic: 6, rabbinic: 7, reformation: 8,
   imported: 9,
 };
 
@@ -23,6 +23,7 @@ function categoryLabel(cat: SourceCategory | null): string {
     case 'patristic': return 'Church Fathers';
     case 'rabbinic': return 'Rabbinic';
     case 'reformation': return 'Reformation';
+    case 'extrabiblical': return 'Extra-biblical';
     case 'imported': return 'Imported';
     default: return 'Other';
   }

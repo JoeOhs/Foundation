@@ -17,6 +17,7 @@ type SearchScope = SourceCategory | 'all';
 const SCOPE_OPTIONS: { id: SearchScope; label: string }[] = [
   { id: 'all', label: 'All sources' },
   { id: 'bible', label: 'Bibles' },
+  { id: 'extrabiblical', label: 'Extra-biblical' },
   { id: 'commentary', label: 'Commentaries' },
   { id: 'reference', label: 'Reference' },
   { id: 'historical', label: 'Historical' },

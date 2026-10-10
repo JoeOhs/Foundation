@@ -1328,9 +1328,21 @@ running list of what's done and what's next, not a commitment.
     is likely cleaner for verse-keyed import; CCEL's per-chapter HTML would
     map to the freeform importer's `position_ref` model with a scoped
     fetcher. Either way, manual license check per work before adding.
-  - scrollmapper's `bible_databases_deuterocanonical` companion repo, if
-    fuller Apocrypha coverage is ever wanted (DRC already carries its
-    deuterocanon).
+  - *Extra-biblical texts* — **done** 2026-10-10 as a new `extrabiblical`
+    Library category: the KJV Apocrypha (14 books cut from scrollmapper's
+    `KJVA.json` into one source), 1 Enoch and Jubilees (R. H. Charles), and
+    Jasher (1840 Noah/Gould), the last three from the
+    `bible_databases_deuterocanonical` repo. All `type: 'extra-biblical'`,
+    installed as freeform works with a Book → Chapter TOC (own pane, like
+    Josephus); entries keep their verse numbers. The source file has no
+    1 Enoch chapter 44 (a single verse in Charles). That repo's Apocrypha files were *not* used (Sirach repeats
+    chapters 17–20 with SQL debris in 20:9), and most of its other texts
+    (Book of Giants, Genesis Apocryphon, other Qumran material) are modern
+    translations — check each one before adding more from it. The repo
+    gives no provenance, so translations were identified from their text.
+    Live-installed and checked in the running app the same day: row counts,
+    TOC rows, chapter and cross-book TOC jumps, entry-anchored highlight,
+    scoped search.
   - *Josephus — Complete Works* (William Whiston's 1737 translation, public
     domain) — **done**, and the first **compound work**: four separate
     Project Gutenberg texts (Wars 2850, Antiquities 2848, Life 2846,

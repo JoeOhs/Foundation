@@ -1,5 +1,5 @@
 import { CANONICAL_BOOKS, canonicalBookName } from './bibleMeta';
-import type { ParsedBook, ParsedSource } from './types';
+import type { ParsedBook, ParsedSource, ParsedTocEntry } from './types';
 
 // Shared by the bundled seed (public/seed/*.json) and the downloadable
 // library (src/library.ts) — both use the thiagobodruk/bible JSON shape:
@@ -52,7 +52,10 @@ export function scrollmapperJsonToParsedSource(data: ScrollmapperJson, title: st
     name: canonicalBookName(b.name) ?? b.name,
     entries: b.chapters.flatMap((ch) =>
       ch.verses
-        .filter((v) => v.text && v.text.trim())
+        // "…" marks a slot the edition leaves empty (KJVA's Additions to
+        // Esther fills chapters 1–10:3 with it so 10:4 lands on its KJV
+        // number) — not verse text.
+        .filter((v) => v.text && v.text.trim() && v.text.trim() !== '…')
         .map((v) => ({
           chapter: ch.chapter,
           verse: v.verse,
@@ -62,6 +65,27 @@ export function scrollmapperJsonToParsedSource(data: ScrollmapperJson, title: st
     ),
   }));
   return { suggestedTitle: title, suggestedType: 'bible', structure: 'verse-keyed', books, warnings: [] };
+}
+
+// Re-files a verse-keyed parse as a freeform work read in its own pane
+// with a table of contents (Book → Chapter, or just Chapter for a
+// one-book work), the way Josephus reads. Entries keep their chapter and
+// verse numbers, so the pane still shows them. A chapter Charles prints in
+// two pieces (1 Enoch 91) gets one row: the pane loads a whole chapter at a
+// time, so the first piece is the right landing point.
+export function asChapterTocWork(parsed: ParsedSource): ParsedSource {
+  const multiBook = parsed.books.length > 1;
+  const toc: ParsedTocEntry[] = [];
+  parsed.books.forEach((book, bookIndex) => {
+    if (multiBook) toc.push({ title: book.name, level: 0, entryIndex: 0, bookIndex });
+    const seen = new Set<number | null>();
+    book.entries.forEach((e, entryIndex) => {
+      if (seen.has(e.chapter)) return;
+      seen.add(e.chapter);
+      toc.push({ title: `Chapter ${e.chapter}`, level: multiBook ? 1 : 0, entryIndex, bookIndex });
+    });
+  });
+  return { ...parsed, structure: 'freeform', toc };
 }
 
 export function bibleJsonToParsedSource(data: BibleJsonBook[], title: string): ParsedSource {

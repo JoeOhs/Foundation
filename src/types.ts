@@ -47,6 +47,11 @@ export type SourceCategory =
   // don't do verse by verse) — the same reasoning that made 'patristic',
   // 'rabbinic' and 'reformation' their own categories.
   | 'apologetics'
+  // Texts outside the Protestant canon but read alongside it — the KJV
+  // Apocrypha, 1 Enoch, Jubilees, Jasher. Not 'bible': these are `type:
+  // 'extra-biblical'` (entry-anchored marks, never a default translation)
+  // and filing them with the Bibles would blur exactly that line.
+  | 'extrabiblical'
   | 'imported';
 
 export interface Source {

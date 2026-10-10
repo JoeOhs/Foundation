@@ -26,6 +26,7 @@ interface LibraryPanelProps {
 // can't be added without deciding where it appears.
 const CATEGORY_LABELS: { category: SourceCategory; label: string }[] = [
   { category: 'bible', label: 'Bibles' },
+  { category: 'extrabiblical', label: 'Extra-biblical texts' },
   { category: 'commentary', label: 'Commentaries' },
   { category: 'reference', label: 'Reference works' },
   { category: 'historical', label: 'Historical works' },

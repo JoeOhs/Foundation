@@ -698,6 +698,7 @@ select:focus, input:focus, button:focus-visible {
 
 .search-scope {
   display: flex;
+  flex-wrap: wrap;
   padding: 0 16px 8px;
   border-bottom: 1px solid var(--border);
   gap: 0;
@@ -711,6 +712,7 @@ select:focus, input:focus, button:focus-visible {
   background: transparent;
   color: var(--text-secondary);
   cursor: pointer;
+  white-space: nowrap;
 }
 .search-scope-chip:hover { color: var(--text-primary); }
 .search-scope-chip.active {

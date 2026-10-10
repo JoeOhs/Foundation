@@ -1,7 +1,7 @@
 import { fetch as httpFetch } from '@tauri-apps/plugin-http';
-import { insertParsedSource } from './db';
+import { insertParsedSource, insertTocEntries } from './db';
 import {
-  bibleJsonToParsedSource, scrollmapperJsonToParsedSource,
+  asChapterTocWork, bibleJsonToParsedSource, scrollmapperJsonToParsedSource,
   type BibleJsonBook, type ScrollmapperJson,
 } from './bibleJsonFormat';
 import { COMPANION_APPENDIX_TITLE, installCompanionAppendixes } from './companionAppendixImport';
@@ -74,8 +74,7 @@ export interface LibraryEntry {
   // ISO 639-1 code, matching sources.language — see src/language.ts.
   language: string;
   type: SourceType;
-  // Library section this entry files under. Every manifest entry is a Bible
-  // translation today, but the field is explicit so a future non-Bible
+  // Library section this entry files under — explicit so a non-Bible
   // download doesn't silently inherit the wrong section.
   category: SourceCategory;
   license: string;
@@ -88,6 +87,9 @@ export interface LibraryEntry {
   // the Rust HTTP capability scope (raw.githubusercontent.com).
   format: 'bible-json' | 'scrollmapper-json';
   url: string;
+  // scrollmapper-json only: install just these books (by the file's own
+  // names), in this order — the Apocrypha is cut out of the full KJVA.
+  books?: string[];
 }
 
 // Curated manually, not fetched from a remote index (yet — see ROADMAP.md).
@@ -229,6 +231,64 @@ export const LIBRARY_MANIFEST: LibraryEntry[] = [
     format: 'scrollmapper-json',
     url: 'https://raw.githubusercontent.com/scrollmapper/bible_databases/master/formats/json/JPS.json',
   },
+  // ---- extra-biblical ----
+  // `type: 'extra-biblical'`, installed as a freeform work with a chapter
+  // TOC (see asChapterTocWork): own pane, entry-anchored marks. That
+  // matters for 1 Enoch, where Charles prints parallel renderings under the
+  // same verse number (22:2, 32:1…) — a verse-anchored highlight would
+  // light up both.
+  //
+  // The deuterocanonical repo's own Apocrypha files were rejected: its
+  // Sirach repeats chapters 17–20 and splices SQL debris into 20:9. KJVA
+  // from the main repo is clean, so the Apocrypha comes from there.
+  {
+    id: 'en_kjv_apocrypha',
+    title: 'Apocrypha (KJV)',
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'extrabiblical',
+    license: 'public domain',
+    licenseDetail: 'The fourteen Apocrypha books of the King James Bible (1769 Oxford text, via the CrossWire KJVA module); same status as the KJV itself — crown copyright (UK) does not apply outside the UK.',
+    format: 'scrollmapper-json',
+    url: 'https://raw.githubusercontent.com/scrollmapper/bible_databases/master/formats/json/KJVA.json',
+    books: [
+      'I Esdras', 'II Esdras', 'Tobit', 'Judith', 'Additions to Esther', 'Wisdom', 'Sirach', 'Baruch',
+      'Prayer of Azariah', 'Susanna', 'Bel and the Dragon', 'Prayer of Manasses', 'I Maccabees', 'II Maccabees',
+    ],
+  },
+  {
+    id: 'en_1enoch_charles',
+    title: '1 Enoch (Charles, 1917)',
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'extrabiblical',
+    license: 'public domain',
+    licenseDetail: 'R. H. Charles’s translation (Oxford 1912; SPCK 1917). Published before 1929 and Charles died in 1931, so public domain in the US and UK. The †daggers†, bracketed [5:6a] labels, repeated verse numbers and the split chapter 91 are Charles’s own critical marks and rearrangements, kept as printed.',
+    format: 'scrollmapper-json',
+    url: 'https://raw.githubusercontent.com/scrollmapper/bible_databases_deuterocanonical/master/sources/en/1-enoch/1-enoch.json',
+  },
+  {
+    id: 'en_jubilees_charles',
+    title: 'Jubilees (Charles)',
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'extrabiblical',
+    license: 'public domain',
+    licenseDetail: 'R. H. Charles’s translation (1902; revised 1913/1917). Published before 1929 and Charles died in 1931, so public domain in the US and UK. Bracketed Anno Mundi dates are Charles’s computed chronology.',
+    format: 'scrollmapper-json',
+    url: 'https://raw.githubusercontent.com/scrollmapper/bible_databases_deuterocanonical/master/sources/en/book-of-jubilees/book-of-jubilees.json',
+  },
+  {
+    id: 'en_jasher_1840',
+    title: 'Jasher (1840)',
+    language: 'en',
+    type: 'extra-biblical',
+    category: 'extrabiblical',
+    license: 'public domain',
+    licenseDetail: 'Anonymous English translation published by M. M. Noah and A. S. Gould, New York, 1840. Note: this is Sefer haYashar, a medieval Hebrew midrash first printed in 1625 — not the lost book cited in Joshua 10:13, and not the 1751 “Alcuin” forgery sold under the same name.',
+    format: 'scrollmapper-json',
+    url: 'https://raw.githubusercontent.com/scrollmapper/bible_databases_deuterocanonical/master/sources/en/book-of-jasher/book-of-jasher.json',
+  },
 ];
 
 export async function downloadAndInstall(
@@ -243,12 +303,23 @@ export async function downloadAndInstall(
   let parsed: ParsedSource;
   if (entry.format === 'scrollmapper-json') {
     const data: ScrollmapperJson = await res.json();
+    if (entry.books) {
+      const byName = new Map(data.books.map((b) => [b.name, b]));
+      const missing = entry.books.filter((n) => !byName.has(n));
+      // A renamed or dropped book upstream must fail loudly, not install a
+      // quietly incomplete source.
+      if (missing.length) throw new Error(`Download is missing: ${missing.join(', ')}`);
+      data.books = entry.books.map((n) => byName.get(n)!);
+    }
     parsed = scrollmapperJsonToParsedSource(data, entry.title);
+    // Bibles are read in a navigable pane; anything else downloaded here
+    // reads as its own work with a chapter TOC.
+    if (entry.type !== 'bible') parsed = asChapterTocWork(parsed);
   } else {
     const data: BibleJsonBook[] = await res.json();
     parsed = bibleJsonToParsedSource(data, entry.title);
   }
-  await insertParsedSource(
+  const sourceId = await insertParsedSource(
     parsed,
     {
       title: entry.title, type: entry.type, language: entry.language,
@@ -256,6 +327,7 @@ export async function downloadAndInstall(
     },
     (done, total) => onProgress(`Installing… ${Math.round((done / total) * 100)}%`),
   );
+  await insertTocEntries(sourceId, parsed);
 }
 
 // ---------- add-ons ----------
