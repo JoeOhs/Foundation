@@ -1430,8 +1430,8 @@ running list of what's done and what's next, not a commitment.
 - **Companion Bible verse-keyed marginal notes.** The marginal commentary
   itself (as opposed to the Appendixes above). Installs from the Library's
   "Reference works" section as a single `commentary` source containing one
-  `books` row per transcribed book — **Philemon** so far, which was the
-  proof-of-concept for the other 55. Two content shapes share it:
+  `books` row per transcribed book — **Genesis**, **Exodus** and
+  **Philemon** so far (Philemon was the proof-of-concept). 3 of 66 books. Two content shapes share it:
   - *Structure diagrams* — Bullinger's nested outlines, stored as **data**
     (one `entries` row per outline line) rather than as page images, so
     highlighting, binding and annotating work on an individual outline line
@@ -1491,6 +1491,29 @@ running list of what's done and what's next, not a commitment.
   `tools/companion-bible-appendix/` — Ap. 185 → 135 on *agapetos*, Ap. 182 → 132
   on *acknowledging*/*knowing*. The full correction policy, including what
   was deliberately left as-OCR'd, is in the header of `philemon.notes.txt`.
+
+  **Genesis** is complete: 71 Structure diagrams and 1,018 verse entries
+  across all 50 chapters. It was read from the page scans themselves (the
+  `_text.pdf` carries the page images), not from the OCR, which shatters
+  Genesis's full-width bottom-of-page notes; the OCR was used only to
+  locate columns and as a completeness cross-check. Multi-chapter books
+  needed one notation addition — prose notes are keyed `C:V` — and
+  `[[group: -]]` for a member printed between two braces. Corrections and
+  what was left as printed are in the header of `genesis.notes.txt`.
+
+  **Exodus** is complete the same way: 78 Structure diagrams and 795
+  verse entries across all 40 chapters; corrections are in the header of
+  `exodus.notes.txt`. It surfaced a parser bug, now fixed in
+  `src/bullingerRefs.ts`: a 1-3 directly before a book name is that book's
+  ordinal, so "So 1 Cor. 10. 7" no longer links Song of Solomon 1 and
+  "Deut. 32. 9, 1 Chron. 16. 18" no longer swallows the "1" as a verse.
+
+  Known gap, Genesis onward: a bare in-book reference ("See note on
+  26. 28", "Cp. 30. 21") is **not** linked — only `v. N` and references
+  that name a book are. Linking bare `C. V` as the note's own book would
+  mis-link chained references: "Ex. 5. 23 "…"; 18. 18" means Exodus 18,
+  not Genesis 18. Needs a rule that only takes a bare reference when no
+  other book is in force; until then they read as plain text.
 
   **Bullinger's cross-references are clickable.** His notes are dense with
   them — 119 in Philemon alone — in two forms: scripture (`Eph. 3. 1`, where
@@ -2289,9 +2312,19 @@ coordinates still separate cleanly.
        notice and introductory notices are 1848–50 and PD, so rights aren't
        the issue. They just aren't Tyndale, and need labelling the way the
        CCEL per-block rule does.
-     Next step if pursued: a per-word margin splitter over one volume
-     (Vol. III, the smallest with hOCR), measured against a hand-checked
-     sample of pages before scoping the rest.
+     **Verdict: worth building, one volume at a time.** Most of the KJV
+     New Testament is Tyndale's wording, and much of this edition
+     attaches to Scripture: book prologues, and running expositions of
+     Matthew 5–7 and 1 John. So it fits `sources → books → entries`
+     better than the freestanding treatises on this shelf.
+     **Order:** Vol. I first (hOCR, so the Luther reader carries over;
+     book prologues, *Obedience*, *Wicked Mammon*). Then Vol. II (the
+     expositions, the best fit for the study footer, but they need the
+     `_djvu.xml` reader). Vol. III (*Answer to More*, polemic) is
+     optional. Next step: a per-word margin splitter over Vol. I,
+     measured against a few dozen hand-checked pages. If the glosses
+     can't be recovered reliably, reconsider: either ship body text only
+     (losing much of the value) or rank Tyndale behind cheaper candidates.
 
   **Investigated and found too thin to be a real candidate yet:**
   **Martin Bucer** (Strasbourg, hugely influential on both Calvin and the
