@@ -53,3 +53,11 @@ with images in `raw/img2/`:
    won't join, a word is low-confidence, or a citation doesn't name a book
    with a roman chapter. For each note, the reading with fewer suspect
    words is kept.
+
+## Vol. I marginal notes (done)
+
+`vol1.notes.txt` is the proofread transcription of every Vol. I marginal
+note: 2,112 notes on 588 leaves, each checked against the scan. Its header
+gives the format and correction policy. `node split.mjs --draft` produced
+the starting draft and refuses to overwrite the file now that it holds
+proofread work.

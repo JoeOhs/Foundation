@@ -2450,6 +2450,22 @@ coordinates still separate cleanly.
      little. Expect to transcribe most of its ~1,100 notes, not correct
      them. Order unchanged: Vol. I first.
 
+     **Vol. I marginal notes proofread (2026-10-10):**
+     `tools/tyndale/vol1.notes.txt` holds all 2,112 notes, every one read
+     against the page image. The notes are keyed by IA leaf and y-position,
+     so each can be placed beside its body line. 775 are marked `W. T.`,
+     270 `Ant. ed.`, one `M. B.`, and the rest carry no mark. Three things
+     the draft or splitter missed came out only by reading every page:
+     notes on 4 leaves the splitter called margin-less (found by measuring
+     margin ink), notes on 2 of the 38 leaves it skipped entirely (found on
+     contact sheets), and one wrong attribution the draft invented (leaf
+     516). A consistency pass found no open continuations, malformed marks
+     or impossible chapter numerals. **Next:** the Vol. I body text,
+     segmented into its treatises and prologues. Then a build that
+     attaches each note to the paragraph it sits beside (`entry_notes` or
+     headings, decided with the schema). The book prologues could anchor
+     to their books.
+
   **Investigated and found too thin to be a real candidate yet:**
   **Martin Bucer** (Strasbourg, hugely influential on both Calvin and the
   English Reformation) has much thinner and more scattered English
