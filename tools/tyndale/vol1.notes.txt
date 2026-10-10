@@ -2849,47 +2849,46 @@
 @1827 Wilful chastity is not meet for all persons to vow.
 @2982 False feigned chastity.
 
-== leaf 520 | BOOK OF NUMBERS. 439 | margin right | draft
-?@882 The pope re- strained that which God permitted, and setteth at liberty that which God forbiddeth.
-?@1717 A good ad- monition to such as will make vows.
-?@2456 ‘Whereunto and how we should apply our vows.
- @2873 How a vow is to be made.
+== leaf 520 | BOOK OF NUMBERS. 439 | margin right | checked
+@882 The pope restrained that which God permitted, and setteth at liberty that which God forbiddeth.
+@1717 A good admonition to such as will make vows.
+@2456 Whereunto and how we should apply our vows.
+@2873 How a vow is to be made.
 
-== leaf 521 | (no running head) | margin left | draft
-?@400 He that fasteth to other en < than to tame his body, that it may wait upon God, deceiveth himself.
-?@1233 All ourdoings must tend to the honour of God, and love of our neighbour.
+== leaf 521 | (no running head) | margin left | checked
+@400 He that fasteth to any other end than to tame his body, that it may wait upon God, deceiveth himself.
+@1233 All our doings must tend to the honour of God, and love of our neighbour.
 
-== leaf 522 | (no running head) | margin right | draft
-?@1323 This rox a preaching of faith and
- @1438 love.
- @1575 Here thou mayest learn a right meditation or contemplation.
- @2316 The works of God are supernatural.
- @2970 We must abstain from outward evil, though not for love, yet for fear of the vengeance of God.
-?@3388 Unto the law of God we may not add nor diminishs
+== leaf 522 | (no running head) | margin right | checked
+@1323 This book a preaching of faith and love.
+@1575 Here thou mayest learn a right meditation or contemplation.
+@2316 The works of God are supernatural.
+@2970 We must abstain from outward evil, though not for love, yet for fear of the vengeance of God.
+@3388 Unto the law of God we may not add nor diminish.
 
-== leaf 523 | 442 PROLOGUE TO THE | margin left | draft
- @391 ‘We are commanded to abstain from images.
- @817 God is merciful to them that repent.
-?@1393 Christ hath delivered us, and therefore we ought to serve him, and our fi eabour for his sake,
- @1971 Love only is the fulfilling of the laws of God.
- @2629 We must trust only in God, and not in ourselves.
-?@3222 How a man may try and ~ + examine himself how much he loveth God and his neighbour.
+== leaf 523 | 442 PROLOGUE TO THE | margin left | checked
+@391 We are commanded to abstain from images.
+@817 God is merciful to them that repent.
+@1393 Christ hath delivered us, and therefore we ought to serve him, and our neighbour for his sake.
+@1971 Love only is the fulfilling of the laws of God.
+@2629 We must trust only in God, and not in ourselves.
+@3222 How a man may try and examine himself how much he loveth God and his neighbour.
 
-== leaf 524 | BOOK OF DEUTERONOMY. 443 | margin right | draft
-?@603 sod stirreth 1p his pcople into faith,
- @927 A right way of prayer.
- @1177 The pith and effect of all the laws of God.
-?@1678 And if we first love God, then out of that love we must needs love our neighbour.
- @2417 What it is to love and fear God, and what it is to despise him,
- @2917 The word of God may not be altered.
-?@3156 Let no man draw us from God's word.
+== leaf 524 | BOOK OF DEUTERONOMY. 443 | margin right | checked
+@603 God stirreth up his people unto faith.
+@927 A right way of prayer.
+@1177 The pith and effect of all the laws of God.
+@1678 And if we first love God, then out of that love we must needs love our neighbour.
+@2417 What it is to love and fear God, and what it is to despise him.
+@2917 The word of God may not be altered.
+@3156 Let no man draw us from God's word.
 
-== leaf 525 | (no running head) | margin left | draft
-?@418 Of matters of the common- weal.
- @1010 None may be condemned under two witnesses.
- @1830 Christ our Saviour declared in the old testament.
- @2496 The curse and wrath of God over all those that break his laws.
- @3077 We may not be too curious in the searching of God’s secrets, but rather study to understand and to do our duty towards God and our neighbour,
+== leaf 525 | (no running head) | margin left | checked
+@418 Of matters of the commonweal.
+@1010 None may be condemned under two witnesses.
+@1830 Christ our Saviour declared in the old testament.
+@2496 The curse and wrath of God over all those that break his laws.
+@3077 We may not be too curious in the searching of God's secrets, but rather study to understand and to do our duty towards God and our neighbour.
 
 == leaf 526 | 445 A TABLE | margin none found | draft
 
@@ -2899,40 +2898,40 @@
 
 == leaf 529 | 448 INTRODUCTORY NOTICE. | margin none found | draft
 
-== leaf 530 | (no running head) | margin right | draft
-?@1067 The papists keep the scriptures from the lay- people, because they only will be the publishers and expositors thereof I.
- @1887 The scripture hath a body and a soul.
-?@2453 The scripture containeth three things.
- @3352 The manner of hypocrites in reading the law of God.
+== leaf 530 | (no running head) | margin right | checked
+@1067 The papists keep the scriptures from the lay-people, because they only will be the publishers and expositors thereof.
+@1887 The scripture hath a body and a soul.
+@2453 The scripture containeth three things.
+@3352 The manner of hypocrites in reading the law of God.
 
-== leaf 531 | 450 PROLOGUE TO THE | margin left | draft
-?@742 The papisti- cal and corrupt doctrine of the papists.
-?@1566 How the papists wring and wrest the scriptures.
+== leaf 531 | 450 PROLOGUE TO THE | margin left | checked
+@742 The papistical and corrupt doctrine of the papists.
+@1566 How the papists wring and wrest the scriptures.
 
 == leaf 532 | PROPHET JONAS. 451 | margin none found | draft
 
-== leaf 533 | 452 PROLOGUE TO THE | margin left | draft
-?@417 God correct- eth where he loveth.
-?@665 God casteth none away but such as refuse to nds his laws, an will not hearken unto his voice.
- @1571 Rom. xv.
-?@1987 Such as harden their hearts, and hearken not to the will of ~ God to do it, God casteth out.
- @2470 1 Cor. x.
-?@2716 The prophets of God bare the weakness of their brethren, and their injuries also, with patience.
- @3286 The pope and his ministers are persecutors over their brethren.
+== leaf 533 | 452 PROLOGUE TO THE | margin left | checked
+@417 God correcteth where he loveth.
+@665 God casteth none away but such as refuse to keep his laws, and will not hearken unto his voice.
+@1571 Rom. xv.
+@1987 Such as harden their hearts, and hearken not to the will of God to do it, God casteth out.
+@2470 1 Cor. x.
+@2716 The prophets of God bare the weakness of their brethren, and their injuries also, with patience.
+@3286 The pope and his ministers are persecutors over their brethren.
 
-== leaf 534 | PROPHET JONAS. 453 | margin right | draft
- @2386 The cruel opinion that the disciples had of Christ.
-?@3039 The ignorance and im- perfection of the apostles.
+== leaf 534 | PROPHET JONAS. 453 | margin right | checked
+@2386 The cruel opinion that the disciples had of Christ.
+@3039 The ignorance and imperfection of the apostles.
 
-== leaf 535 | 454 PROLOGUE TO THE | margin left | draft
- @1591 Deut. viii.
-?@1680 God doth mercifully try and tempt us, to move us to utter our hearts and minds towards him.
-?@3082 Jonas of himself was an unmeet messenger to be sent of such a message, but God assisted him with his Holy Spirit,
+== leaf 535 | 454 PROLOGUE TO THE | margin left | checked
+@1591 Deut. viii.
+@1680 God doth mercifully try and tempt us, to move us to utter our hearts and minds towards him.
+@3082 Jonas of himself was an unmeet messenger to be sent of such a message, but God assisted him with his Holy Spirit.
 
-== leaf 536 | PROPHET JONAS. 455 | margin right | draft
-?@839 The carnal imagination of man’s nature, without God's Spirit.
-?@1978 Jonas, so long as he was in his carnal imagination, could not abide the voice of God, but fled : howbeit God called him again.
-?@2955 Jonas's flesh rebelled against the Spirit.
+== leaf 536 | PROPHET JONAS. 455 | margin right | checked
+@839 The carnal imagination of man's nature, without God's Spirit.
+@1978 Jonas, so long as he was in his carnal imagination, could not abide the voice of God, but fled: howbeit God called him again.
+@2955 Jonas's flesh rebelled against the Spirit.
 
 == leaf 537 | 456 PROLOGUE TO THE | margin left | draft
 ?@670 The wicked seek to cover their wickedness a pope-holy works.
