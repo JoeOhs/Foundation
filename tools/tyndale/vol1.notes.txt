@@ -2623,41 +2623,40 @@
 @1786 This bishop of London was then Tonstall, which afterward was bishop of Durham.
 @3281 The pope's chaplains' pulpit is the ale-house.
 
-== leaf 476 | FIVE BOOKS OF MOSES. 395 | margin right | draft
-?@712 Christ’s apostles did meekly ad- monish, but the pope s sectaries brawl and scold.
- @1206 Partiality sometimes in men of great learning.
- @2439 How Tyndale was deceived.
+== leaf 476 | FIVE BOOKS OF MOSES. 395 | margin right | checked
+@712 Christ's apostles did meekly admonish, but the pope's sectaries brawl and scold.
+@1206 Partiality sometimes in men of great learning.
+@2439 How Tyndale was deceived.
 
-== leaf 477 | 396 PREFACE TO THE | margin left | draft
-?@637 Tyndale could get no place in the ishop of London’s house.
- @1619 Room enough in my lord’s house for belly-cheer, but none to translate the new Testament,
-?@3568 Tyndale’s submission is
+== leaf 477 | 396 PREFACE TO THE | margin left | checked
+@637 Tyndale could get no place in the bishop of London's house.
+@1619 Room enough in my lord's house for belly-cheer, but none to translate the new Testament.
+@3568 Tyndale's submission is...
 
-== leaf 479 | PROLOGUES BY WILLIAM TYNDALE SHEWING | margin left | draft
-?@1878 Not the 0 tongue, bu the Jife,
-?@1993 proveth a true gospel- ler.
-?@2701 The truest touchstone of rel igion is Christ's gospel,
- @3186 The scripture of God is the sword of the Spirit.
+== leaf 479 | PROLOGUES BY WILLIAM TYNDALE SHEWING | margin left | checked
+@1878 Not the tongue, but the life, proveth a true gospeller.
+@2701 The truest touchstone of religion is Christ's gospel.
+@3186 The scripture of God is the sword of the Spirit.
 
-== leaf 480 | (no running head) | margin right | draft
- @1592 Tribulation is the gift of God.
-?@2000 What we ought to seek in the serip- tures.
+== leaf 480 | (no running head) | margin right | checked
+@1592 Tribulation is the gift of God.
+@2000 What we ought to seek in the scriptures.
 
-== leaf 481 | 400 PROLOGUE TO THE | margin left | draft
- @775 A goodly comfort against desperation.
-?@2093 Ensamples of their evils not to bolden us, but to fear us from sin and desperation.
- @3079 How we ought to prepare ourselves to the reading of the scriptures.
+== leaf 481 | 400 PROLOGUE TO THE | margin left | checked
+@775 A goodly comfort against desperation.
+@2093 Ensamples of their evils not to bolden us, but to fear us from sin and desperation.
+@3079 How we ought to prepare ourselves to the reading of the scriptures.
 
-== leaf 482 | BOOK OF GENESIS. 401 | margin right | draft
-?@1116 Faith our surest shield in all assaults.
- @2346 ‘We may not trust in our works, but in the word and promise of God.
-?@2846 God burthen- ed with his promise.
+== leaf 482 | BOOK OF GENESIS. 401 | margin right | checked
+@1116 Faith our surest shield in all assaults.
+@2346 We may not trust in our works, but in the word and promise of God.
+@2846 God burthened with his promise.
 
-== leaf 483 | 402 PROLOGUE TO THE | margin left | draft
-?@1189 The Holy Ghost breath- eth where and when it pleaseth him.
- @1938 Conscience of evil doings findeth out evil men.
- @2501 Of small occasions do rise great evils.
- @3508 Ensamples for our learning.
+== leaf 483 | 402 PROLOGUE TO THE | margin left | checked
+@1189 The Holy Ghost breatheth where and when it pleaseth him.
+@1938 Conscience of evil doings findeth out evil men.
+@2501 Of small occasions do rise great evils.
+@3508 Ensamples for our learning.
 
 == leaf 484 | BOOK OF GENESIS. 403 | margin none found | draft
 
@@ -2667,11 +2666,11 @@
 
 == leaf 487 | 406 TABLE EXPOUNDING | margin none found | draft
 
-== leaf 488 | CERTAIN WORDS IN GENESIS. 407 | margin right | draft
- @440 Matt, v.
- @535 Heb. xii.
- @1109 Gen. xv.
-?@2432 Mett. vi.
+== leaf 488 | CERTAIN WORDS IN GENESIS. 407 | margin right | checked
+@440 Matt. v.
+@535 Heb. xii.
+@1109 Gen. xv.
+@2432 Matt. vi.
 
 == leaf 489 | 408 TABLE EXPOUNDING | margin none found | draft
 
@@ -2679,29 +2678,28 @@
 
 == leaf 491 | (no running head) | margin none found | draft
 
-== leaf 492 | (no running head) | margin right | draft
-?@1104 Learn here how to read and understand the scripture.
-?@2265 If we hearken unto the voice of God, and bend ourselves to do his will, he will be our God,and help us; but otherwise, he will plague Sd the unthankful
- @2798 and faithless Jews.
+== leaf 492 | (no running head) | margin right | checked
+@1104 Learn here how to read and understand the scripture.
+@2265 If we hearken unto the voice of God, and bend ourselves to do his will, he will be our God, and help us; but otherwise, he will plague us as he plagued the unthankful and faithless Jews.
 
-== leaf 493 | 412 PROLOGUE TO THE | margin left | draft
- @435 Trust and believe in God, and care not what the world say.
-?@931 The world liketh well all wicked livers and ungodly people.
- @1846 Here is set forth the office of every good person,
- @3172 Temptation is the trial of true Christians.
+== leaf 493 | 412 PROLOGUE TO THE | margin left | checked
+@435 Trust and believe in God, and care not what the world say.
+@931 The world liketh well all wicked livers and ungodly people.
+@1846 Here is set forth the office of every good person.
+@3172 Temptation is the trial of true Christians.
 
-== leaf 494 | BOOK OF EXODUS. 413 | margin right | draft
-?@444 The excel- lencyof faith which is the gift of God.
-?@691 Those whom God scourgeth he deaily loveth,
- @1101 A necessary lesson for a good preacher.
- @1677 God commandeth that we should make no images.
- @2200 The worshipping of idols or images was abhorred of God.
-?@2750 Witcheraft, sorcery, &e. abhorred of God.
+== leaf 494 | BOOK OF EXODUS. 413 | margin right | checked
+@444 The excellency of faith which is the gift of God.
+@691 Those whom God scourgeth he dearly loveth.
+@1101 A necessary lesson for a good preacher.
+@1677 God commandeth that we should make no images.
+@2200 The worshipping of idols or images was abhorred of God.
+@2750 Witchcraft, sorcery, &c. abhorred of God.
 
-== leaf 495 | 414 PROLOGUE TO THE | margin left | draft
- @465 Moses often rehearseth the benefits ot almighty God, to move us to fear him, and to love our neighbour.
- @1886 God will have us to be merciful to our neighbours.
- @2975 All the ceremonies of the old testament were but preachers of Christ that was to come.
+== leaf 495 | 414 PROLOGUE TO THE | margin left | checked
+@465 Moses often rehearseth the benefits of almighty God, to move us to fear him, and to love our neighbour.
+@1886 God will have us to be merciful to our neighbours.
+@2975 All the ceremonies of the old testament were but preachers of Christ that was to come.
 
 == leaf 496 | BOOK OF EXODUS. 415 | margin right | draft
 ?@789 The beauty of the tabernacle was to keep the Jews from hearkening to the heathen.
