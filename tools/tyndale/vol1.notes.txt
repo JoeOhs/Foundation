@@ -1987,94 +1987,91 @@
 == leaf 361 | (no running head) | margin left | checked
 @407 ...deeds according to the measure of love. Ant. ed.
 
-== leaf 362 | > OF ANOIUNG. | margin right | draft
-?@356 TT TE Se DN
-?@1155 A Christian man needeth not to go a pilesimage to e saved thereby. W. T.
- @1486 Salvation is within us. W. T.
- @1610 om. X.
-?@1823 om. X,
- @2217 Confession. W. T.
- @3215 Bishops work their treason through confession. W. T.
+== leaf 362 | > OF ANOIUNG. | margin right | checked
+@1155 A Christian man needeth not to go a pilgrimage to be saved thereby. W. T.
+@1486 Salvation is within us. W. T.
+@1610 Rom. x.
+@1823 Rom. x.
+@2217 Confession. W. T.
+@3215 Bishops work their treason through confession. W. T.
 
-== leaf 363 | (no running head) | margin left | draft
- @897 Kings be sworn to the bishops, and not the bishops unto the kings. W. T.
- @1642 How shall they preach except they be sent, is expounded. W. T.
- @1874 Rom. x.
-?@2720 How to know who is sent of God, and who is not. W. T.
- @2911 John iii.
- @3299 John v, & x.
+== leaf 363 | (no running head) | margin left | checked
+@897 Kings be sworn to the bishops, and not the bishops unto the kings. W. T.
+@1642 How shall they preach except they be sent, is expounded. W. T.
+@1874 Rom. x.
+@2720 How to know who is sent of God, and who is not. W. T.
+@2911 John iii.
+@3299 John v. & x.
 
-== leaf 364 | OF ANOILING. 283 | margin right | draft
-?@364 bo man may
-?@444 preach, but e that is called and sent of God. W. T.
- @2737 The difference between true sacraments and false. W. T.
+== leaf 364 | OF ANOILING. 283 | margin right | checked
+@364 No man may preach, but he that is called and sent of God. W. T.
+@2737 The difference between true sacraments and false. W. T.
 
-== leaf 365 | (no running head) | margin left | draft
- @402 A faith without God’s promise is idolatry. W. T.
-?@1822 The bishop's blessing. W. T.
- @2306 Eph. i.
-?@2478 How the spodtics blessed us. W. T.
- @2640 Gal. ii.
- @2975 Gal. ii.
- @3654 Repentance, and sure faith in Christ,
+== leaf 365 | (no running head) | margin left | checked
+@402 A faith without God's promise is idolatry. W. T.
+@1822 The bishop's blessing. W. T.
+@2306 Eph. i.
+@2478 How the apostles blessed us. W. T.
+@2640 Gal. ii.
+@2975 Gal. ii.
+@3654 Repentance, and sure faith in Christ,...
 
-== leaf 366 | OF ANOILING. 285 | margin right | draft
- @412 purgeth our sins. Ant. ed.
- @660 1 John ii.
- @997 Heb. vii.
- @1909 The protestation of the author. W. T.
- @2745 Confession robbeth the sacraments, and maketh them fruitless. W. T.
+== leaf 366 | OF ANOILING. 285 | margin right | checked
+@412 ...purgeth our sins. Ant. ed.
+@660 1 John ii.
+@997 Heb. vii.
+@1909 The protestation of the author. W. T.
+@2745 Confession robbeth the sacraments, and maketh them fruitless. W. T.
 
-== leaf 367 | 286 OBEDIENCE OF A CHRISTIAN MAN. | margin left | draft
-?@647 ‘What grace is. W. T.
- @809 How to know what justifieth, and what not ; or what bringeth grace, and what not. W. T.
-?@1973 ‘With their chaplains, quoth he, God give grace. Their haplaing at the last make them not so mad to say service alone while they. W. T.
- @2990 True miracles draw to Christ. W. T.
+== leaf 367 | 286 OBEDIENCE OF A CHRISTIAN MAN. | margin left | checked
+@647 What grace is. W. T.
+@809 How to know what justifieth, and what not; or what bringeth grace, and what not. W. T.
+@1973 With their chaplains, quoth he, God give grace. Their chaplains at the last make them not so mad to say service alone while they. W. T.
+@2990 True miracles draw to Christ. W. T.
 
-== leaf 368 | (no running head) | margin right | draft
- @400 2 Thess. ii.
- @895 John vi.
- @1063 John xv.
-?@1145 INPimsii1s
- @1484 Acts iv.
- @1735 2 Cor. 1.
- @1981 The effect and force of our good deeds.
- @2564 False miracles drive from Christ. W. T.
+== leaf 368 | (no running head) | margin right | checked
+@400 2 Thess. ii.
+@895 John vi.
+@1063 John xv.
+@1145 1 Tim. ii.
+@1484 Acts iv.
+@1735 2 Cor. i.
+@1981 The effect and force of our good deeds.
+@2564 False miracles drive from Christ. W. T.
 
-== leaf 369 | (no running head) | margin left | draft
- @1539 He that teacheth to trust in a saint is a false prophet, W. T.
- @2213 ‘What he should pray, that prayeth for his neighbour. W. T.
-?@3111 The weak should be taught, and not deceived. We IT.
+== leaf 369 | (no running head) | margin left | checked
+@1539 He that teacheth to trust in a saint is a false prophet. W. T.
+@2213 What he should pray, that prayeth for his neighbour. W. T.
+@3111 The weak should be taught, and not deceived. W. T.
 
-== leaf 370 | (no running head) | margin right | draft
- @589 The spiritualty pray not that we might come to the knowledge of Christ. W. T.
- @2171 The saints are but an example. W. T.
-?@2823 Ota ine cause the miracles. W. T.
-?@3017 J A
- @3396 Rom. xiv.
- @3434 Rom. x.
+== leaf 370 | (no running head) | margin right | checked
+@589 The spiritualty pray not that we might come to the knowledge of Christ. W. T.
+@2171 The saints are but an example. W. T.
+@2823 Offerings cause the miracles. W. T.
+@3396 Rom. xiv.
+@3434 Rom. x.
 
 == leaf 371 | (no running head) | margin none found | draft
 
-== leaf 372 | (no running head) | margin right | draft
- @450 God the Father fulfilleth his promises to us for Christ’s sake, and not for the merits of saints, as the papists taught. Ant. ed.
-?@880 All such martyrs are the pope’s martyrs, and not God’s. For martyr signifieth a witness- bearer : now is he not God’s witness that testifieth not his word. W. T.
-?@1525 The reasons which they make for the worshipping of saints are solved. W. T.
- @3007 It is not like with kings and God. W. T.
- @3740 Eph. ii.
+== leaf 372 | (no running head) | margin right | checked
+@450 God the Father fulfilleth his promises to us for Christ's sake, and not for the merits of saints, as the papists taught. Ant. ed.
+@880 All such martyrs are the pope's martyrs, and not God's. For martyr signifieth a witness-bearer: now is he not God's witness that testifieth not his word. W. T.
+@1525 The reasons which they make for the worshipping of saints are solved. W. T.
+@3007 It is not like with kings and God. W. T.
+@3740 Eph. ii.
 
-== leaf 373 | (no running head) | margin left | draft
- @2086 Christ is no sinner. W. T.
- @3224 Deut. xii,
-?@3447 og bringeth a man sooner to confusion than the idolatry of his own imagination. Ant. ed.
+== leaf 373 | (no running head) | margin left | checked
+@2086 Christ is no sinner. W. T.
+@3224 Deut. xii.
+@3447 Nothing bringeth a man sooner to confusion than the idolatry of his own imagination. Ant. ed.
 
-== leaf 374 | (no running head) | margin right | draft
- @508 Luke xi.
- @1664 Luke xi.
- @2082 Luke xviii.
- @3067 Christ is a gift given to sinners. W. T.
- @3316 God loveth mercy. W. T.
- @3477 Hypocrites love offerings. W. T.
+== leaf 374 | (no running head) | margin right | checked
+@508 Luke xi.
+@1664 Luke xi.
+@2082 Luke xviii.
+@3067 Christ is a gift given to sinners. W. T.
+@3316 God loveth mercy. W. T.
+@3477 Hypocrites love offerings. W. T.
 
 == leaf 375 | (no running head) | margin left | draft
  @1230 John iii.
