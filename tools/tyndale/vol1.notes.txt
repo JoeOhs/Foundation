@@ -1644,122 +1644,116 @@
 @2635 1 Pet. iii.
 @2874 Boots. W. T.
 
-== leaf 314 | ANTICHRIST. 233 | margin right | draft
- @571 Mitres. W. T.
- @814 Cite them. W. T.
- @904 Pose them. W. T.
- @1156 Make them heretics. W. T.
- @1272 Burn them. W. T.
- @2222 Curse them. W. T.
- @2386 Fear them. W. T.
+== leaf 314 | ANTICHRIST. 233 | margin right | checked
+@571 Mitres. W. T.
+@814 Cite them. W. T.
+@904 Pose them. W. T.
+@1156 Make them heretics. W. T.
+@1272 Burn them. W. T.
+@2222 Curse them. W. T.
+@2386 Fear them. W. T.
 
-== leaf 315 | (no running head) | margin left | draft
- @880 All in Latin. W. T.
- @971 Roll them. W. T.
- @1057 Sing. W. T.
- @1126 Ring. W. T.
-?@1164 Lull them. W. T.
- @1240 Rock them asleep. W. T.
- @1316 1 Cor. xiv.
- @1955 Pray in Latin. W. T.
- @2041 Say them a gospel. W. T.
- @2859 What quoth my lord of Canterbury W. T.
- @3190 Cross. W. T.
- @3435 Turmoilers. W. T.
+== leaf 315 | (no running head) | margin left | checked
+@880 All in Latin. W. T.
+@971 Roll them. W. T.
+@1057 Sing. W. T.
+@1126 Ring. W. T.
+@1164 Lull them. W. T.
+@1240 Rock them asleep. W. T.
+@1316 1 Cor. xiv.
+@1955 Pray in Latin. W. T.
+@2041 Say them a gospel. W. T.
+@2859 What quoth my lord of Canterbury? W. T.
+@3190 Cross. W. T.
+@3435 Turmoilers. W. T.
 
-== leaf 316 | ANTICHRIST. 235 | margin right | draft
- @644 The craft of the prelates. W. T.
- @1235 Interdict. W. T.
-?@1485 14 Rattv:
- @1811 Peter went never to school at the Arches. W. T.
-?@2145 o one
- @2309 The pope
-?@2385 kingdom more than God himself. We To
- @2723 Shearing, what it signifieth. W. T.
+== leaf 316 | ANTICHRIST. 235 | margin right | checked
+@644 The craft of the prelates. W. T.
+@1235 Interdict. W. T.
+@1485 1 Pet. v.
+@1811 Peter went never to school at the Arches. W. T.
+@2145 The pope hath one kingdom more than God himself. W. T.
+@2723 Shearing, what it signifieth. W. T.
 
-== leaf 317 | (no running head) | margin left | draft
-?@623 Tot quot. W. T.
- @956 Bishops that reach not. W. T.
- @1781 Tithes. W. T.
- @1945 Temporal lands. W. T.
- @2366 Free chapel. W. T.
+== leaf 317 | (no running head) | margin left | checked
+@623 Tot quot. W. T.
+@956 Bishops that preach not. W. T.
+@1781 Tithes. W. T.
+@1945 Temporal lands. W. T.
+@2366 Free chapel. W. T.
 
-== leaf 318 | ANTICHRIST. 237 | margin right | draft
-?@499 Testaments. W. T.
- @591 Offering days W. T.
- @669 Privy tithes. W. T.
- @1081 Mortuaries. W. T.
- @1753 If ye die from home. W. T.
- @2083 Thou must pay ere thou pass. W. T.
-?@2331 Petty pillage. IVs
- @2740 Confession. W. T.
+== leaf 318 | ANTICHRIST. 237 | margin right | checked
+@499 Testaments. W. T.
+@591 Offering days. W. T.
+@669 Privy tithes. W. T.
+@1081 Mortuaries. W. T.
+@1753 If ye die from home. W. T.
+@2083 Thou must pay ere thou pass. W. T.
+@2331 Petty pillage. W. T.
+@2740 Confession. W. T.
 
-== leaf 319 | (no running head) | margin left | draft
-?@549 First mass. Professings. W. T.
- @719 Conjurations. W. T.
- @1222 Parson. W. T.
- @1298 Parish priest. Friars, W. T.
- @1475 Spiritual law. W. T.
-?@1717 A proper commodity of confession. W. T.
- @2220 Lay your hand on the book. W. T.
+== leaf 319 | (no running head) | margin left | checked
+@549 First mass. Professings. W. T.
+@719 Conjurations. W. T.
+@1222 Parson. Vicar. Parish priest. Friars. W. T.
+@1475 Spiritual law. W. T.
+@1717 A proper commodity of confession. W. T.
+@2220 Lay your hand on the book. W. T.
 
-== leaf 320 | ANTICHRIST. 239 | margin right | draft
- @984 Acts xX.
- @1398 No man may avenge save the king, and he is bound by his office. W. T.
- @2059 Kings are in captivity. W. T.
- @3469 The duly of kings. W. T.
+== leaf 320 | ANTICHRIST. 239 | margin right | checked
+@984 Acts xx.
+@1398 No man may avenge save the king, and he is bound by his office. W. T.
+@2059 Kings are in captivity. W. T.
+@3469 The duty of kings. W. T.
 
-== leaf 321 | (no running head) | margin left | draft
-?@260 FJ
-?@723 Unlawful oaths ought to be broken; and may, without dis- geno: 4 a The king only ought to punish sin : I mean that is broken forth. The heart must remain to God. . 'W. T.
-?@1504 J i
- @1971 The Spirit pertaineth unto the shaven only. W. T.
-?@3037 The king's law is God's law. W. T.
- @3677 How men ought to
+== leaf 321 | (no running head) | margin left | checked
+@723 Unlawful oaths ought to be broken; and may, without dispensation. W. T.
+@1050 The king only ought to punish sin: I mean that is broken forth. The heart must remain to God. W. T.
+@1971 The Spirit pertaineth unto the shaven only. W. T.
+@3037 The king's law is God's law. W. T.
+@3677 How men ought to...
 
-== leaf 322 | ANTICHRIST. 241 | margin right | draft
-?@428 judge ques- ions of the cripture. od 1
- @928 ‘We come oft to school, but are never taught. W. T.
- @1253 Kings ought to see what they do, and not to believe the bishops, namely, seeing their living is so sore suspect. W. T.
-?@1832 It pertaineth unto all men to know the cis tures. 595s
- @2087 John v.
- @2126 Matt. xi.
+== leaf 322 | ANTICHRIST. 241 | margin right | checked
+@428 ...judge questions of the scripture. W. T.
+@928 We come oft to school, but are never taught. W. T.
+@1253 Kings ought to see what they do, and not to believe the bishops, namely, seeing their living is so sore suspect. W. T.
+@1832 It pertaineth unto all men to know the scriptures. W. T.
+@2087 John v.
+@2126 Matt. xi.
 
-== leaf 323 | (no running head) | margin left | draft
-?@512 Be legac
- @772 ye that judge the earth. W. T.
-?@887 Ps. 1i.
-?@1320 The kings are become Antichrist’s haingmen. W. T.
-?@2733 Be learned ye that judge the earth. W. T.
- @2986 ‘Who slew the prophets? W. T.
-?@3390 Why were the prophets slain? W. T.
- @3579 ‘What deeds of mercy teach the hypocrites W. T.
+== leaf 323 | (no running head) | margin left | checked
+@512 Be learned ye that judge the earth. W. T.
+@887 Ps. ii.
+@1320 The kings are become Antichrist's hangmen. W. T.
+@2733 Be learned ye that judge the earth. W. T.
+@2986 Who slew the prophets? W. T.
+@3390 Why were the prophets slain? W. T.
+@3579 What deeds of mercy teach the hypocrites? W. T.
 
-== leaf 324 | ANTICHRIST. 243 | margin right | draft
- @614  W. T.
- @654 they Christ? W. T.
- @730 Matt. xxiii.
- @868 Luke xi.
- @1032 The keys. W. T.
-?@1361 Christ is a traitor and a breaker of the king’s peace. W. T.
- @1607 How the hypocrites bind and loose. W. T.
- @2930 Be learned ye that judge the earth. W. T.
- @3174 For rebuking this was Christ slain, And for the same cause are we persecuted. W. T.
- @3442 Matt. xxiii.
+== leaf 324 | ANTICHRIST. 243 | margin right | checked
+@614 Why slew they Christ? W. T.
+@730 Matt. xxiii.
+@868 Luke xi.
+@1032 The keys. W. T.
+@1361 Christ is a traitor and a breaker of the king's peace. W. T.
+@1607 How the hypocrites bind and loose. W. T.
+@2930 Be learned ye that judge the earth. W. T.
+@3174 For rebuking this was Christ slain. And for the same cause are we persecuted. W. T.
+@3442 Matt. xxiii.
 
-== leaf 325 | (no running head) | margin left | draft
-?@502 They be not y a little afraid of purgatory that make Pere itios: . ks
- @1079 Why it is called purgatory. W. T.
-?@1332 Scala ceeli, W. T.
-?@1408 The door is stopped up: ye must climb and scale the walls. W. T.
-?@1622 Some are prayed for, and praved to also. W. T.
- @1820 The craft, that helpeth other, helpeth not his own master. W. T.
- @2069 Numb. xvi.
- @2154 Numeri xvi.
- @2236 1 Sam. xii.
- @2327 Prayer was not sold in the old time. W. T.
- @2657 1 Pet. v.
- @2818 Acts xx.
+== leaf 325 | (no running head) | margin left | checked
+@502 They be not a little afraid of purgatory that make perpetuities. W. T.
+@1079 Why it is called purgatory. W. T.
+@1332 Scala cœli. W. T.
+@1408 The door is stopped up: ye must climb and scale the walls. W. T.
+@1622 Some are prayed for, and prayed to also. W. T.
+@1820 The craft, that helpeth other, helpeth not his own master. W. T.
+@2069 Numb. xvi.
+@2154 Numeri xvi.
+@2236 1 Sam. xii.
+@2327 Prayer was not sold in the old time. W. T.
+@2657 1 Pet. v.
+@2818 Acts xx.
 
 == leaf 326 | ANTICHRIST. 245 | margin right | draft
 ?@1103 Their prayer breaketh the great commandment of God. It is time that they were tied up therefore. W. T.
