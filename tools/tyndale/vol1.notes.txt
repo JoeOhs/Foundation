@@ -2538,62 +2538,62 @@
 @1416 Transubstantiation was a word used among the old doctors.
 @2808 An effectual and good argument.
 
-== leaf 454 | (no running head) | margin right | draft
- @761 The pope confirming transubstantiation did purchase his own gain to the overthrow of the right use of Christ’s sacrament.
-?@2321 The common persuasion of papists.
+== leaf 454 | (no running head) | margin right | checked
+@761 The pope confirming transubstantiation did purchase his own gain to the overthrow of the right use of Christ's sacrament.
+@2321 The common persuasion of papists.
 
-== leaf 455 | 374 THE SACRAMENTS OF BAPTISM, AND | margin left | draft
- @1568 Mark ix.
- @1835 Papists are cruel persecutors.
- @2231 The faithful are in good state, though the wicked judge the contrary.
- @3060 1 Cor. xiii.
+== leaf 455 | 374 THE SACRAMENTS OF BAPTISM, AND | margin left | checked
+@1568 Mark ix.
+@1835 Papists are cruel persecutors.
+@2231 The faithful are in good state, though the wicked judge the contrary.
+@3060 1 Cor. xiii.
 
-== leaf 456 | (no running head) | margin right | draft
- @806 Phil. ii.
- @1553 Phil. iii.
-?@1972 Faith only justifieth, what it is to say.
+== leaf 456 | (no running head) | margin right | checked
+@806 Phil. ii.
+@1553 Phil. iii.
+@1972 Faith only justifieth, what it is to say.
 
-== leaf 457 | 376 THE SACRAMENTS OF BAPTISM, AND | margin left | draft
- @491 Gen. xxxii.
- @1645 Gen. xxxiii.
-?@2143 Gen. XXXVe
- @2479 Gen. 1.
+== leaf 457 | 376 THE SACRAMENTS OF BAPTISM, AND | margin left | checked
+@491 Gen. xxxii.
+@1645 Gen. xxxiii.
+@2143 Gen. xxxv.
+@2479 Gen. l.
 
-== leaf 458 | (no running head) | margin right | draft
- @415 Exod. xii.
- @747 Exod. xxix.
- @903 Rom. viii.
- @943 2 Cor. v.
- @1660 Exod. xxx.
- @1986 Judg. i.
- @2325 Judg. xv.
- @2571 Judg. xviii.
- @2907 1 Sam. vi.
+== leaf 458 | (no running head) | margin right | checked
+@415 Exod. xii.
+@747 Exod. xxix.
+@903 Rom. viii.
+@943 2 Cor. v.
+@1660 Exod. xxx.
+@1986 Judg. i.
+@2325 Judg. xv.
+@2571 Judg. xviii.
+@2907 1 Sam. vi.
 
-== leaf 459 | (no running head) | margin left | draft
- @582 1 Sam. vii.
- @833 1 Kings xxii.
- @1412 Numb. vi.
- @1981 Jer. vii,
- @2217 Ezek. xii.
+== leaf 459 | (no running head) | margin left | checked
+@582 1 Sam. vii.
+@833 1 Kings xxii.
+@1412 Numb. vi.
+@1981 Jer. vii.
+@2217 Ezek. xii.
 
-== leaf 460 | (no running head) | margin right | draft
- @429 A short and effectual collection of the former arguments.
- @2493 An objection made by the papists.
- @2992 An answer to the former objection.
+== leaf 460 | (no running head) | margin right | checked
+@429 A short and effectual collection of the former arguments.
+@2493 An objection made by the papists.
+@2992 An answer to the former objection.
 
 == leaf 461 | (no running head) | margin none found | draft
 
-== leaf 462 | (no running head) | margin right | draft
- @564 An excellent argument.
+== leaf 462 | (no running head) | margin right | checked
+@564 An excellent argument.
 
-== leaf 463 | 382 THE SACRAMENTS OF BAPTISM, AND | margin left | draft
- @1174 1 Kings viii.
- @2000 1 Kings viii.
- @3001 Matt. xxvi.
- @3040 Mark xiv.
- @3077 Luke xxii,
-?@3117 1 Cory x1,
+== leaf 463 | 382 THE SACRAMENTS OF BAPTISM, AND | margin left | checked
+@1174 1 Kings viii.
+@2000 1 Kings viii.
+@3001 Matt. xxvi.
+@3040 Mark xiv.
+@3077 Luke xxii.
+@3117 1 Cor. xi.
 
 == leaf 464 | (no running head) | margin none found | draft
 
@@ -2607,22 +2607,21 @@
 
 == leaf 471 | 390 EPISTLE TO THE READER | margin none found | draft
 
-== leaf 473 | THE PEEFACE OF MASTER WILLIAM TYNDALE, | margin left | draft
- @2110 The reason that the papists make against the translation of the scripture into English.
-?@2598 A subtle shift of the pope’s clergy, to cover their evil.
+== leaf 473 | THE PEEFACE OF MASTER WILLIAM TYNDALE, | margin left | checked
+@2110 The reason that the papists make against the translation of the scripture into English.
+@2598 A subtle shift of the pope's clergy, to cover their evil.
 
-== leaf 474 | (no running head) | margin right | draft
- @691 How the papists were vexed with Tyndale’s translation of the new Testament.
-?@1357 The papists shamed not to wrest the scriptures.
-?@2506 The papists fase: rine
-?@2584 wonderfully to have suppressed the scriptures.
-?@3251 As owls abide not the brightness of’ the day, so cannot the papists abide the light of the gospel,
+== leaf 474 | (no running head) | margin right | checked
+@691 How the papists were vexed with Tyndale's translation of the new Testament.
+@1357 The papists shamed not to wrest the scriptures.
+@2506 The papists have wrought wonderfully to have suppressed the scriptures.
+@3251 As owls abide not the brightness of the day, so cannot the papists abide the light of the gospel.
 
-== leaf 475 | 394: PREFACE TO THE | margin left | draft
- @703 ‘What first moved W. Tyndale to translate the scripture into English.
- @1354 Rev. ix.
-?@1786 This bishop of London was then Tonstall, which afterward was bishop of Durham.
-?@3281 The pope's chaplains’ puipic is the ale-house.
+== leaf 475 | 394: PREFACE TO THE | margin left | checked
+@703 What first moved W. Tyndale to translate the scripture into English.
+@1354 Rev. ix.
+@1786 This bishop of London was then Tonstall, which afterward was bishop of Durham.
+@3281 The pope's chaplains' pulpit is the ale-house.
 
 == leaf 476 | FIVE BOOKS OF MOSES. 395 | margin right | draft
 ?@712 Christ’s apostles did meekly ad- monish, but the pope s sectaries brawl and scold.
