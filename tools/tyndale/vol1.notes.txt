@@ -28,8 +28,11 @@
 #   words ("throughJesus" is printed so, but is written "through Jesus").
 # - Line-break hyphens are closed up; a hyphen the compound really has
 #   ("belly-cheer", "mercy-stool") is kept.
-# - The two attribution marks are written "W. T." (Tyndale's own gloss)
-#   and "Ant. ed." (from an earlier edition), whatever the spacing.
+# - The attribution marks are written "W. T." (Tyndale's own gloss) and
+#   "Ant. ed." (from an earlier edition), whatever the spacing. A third,
+#   "M. B.", appears in the prologue to Romans (leaf 567) and is kept as
+#   printed; Walter doesn't say whose it is. Notes printed with no mark
+#   are left without one.
 # - Citations as printed ("Matt. vi. & vii."); no chapter is supplied
 #   that the margin doesn't print.
 # - A note continued from the previous page starts with "..."; one that
@@ -3014,62 +3017,61 @@
 @2226 The right way into the understanding of the scriptures. W. T.
 @2552 Matt. v.
 
-== leaf 551 | 470 PROLOGUE UPON THE | margin left | draft
- @422 Matt. vi.
- @1339 The general covenant that God hath made with us. Ant. ed.
- @1751 In these commandments is contained the whole law. Ant. ed.
- @2898 ‘Where no good fruits are, there the faith is vain. Ant. ed.
- @3382 Rom. x.
+== leaf 551 | 470 PROLOGUE UPON THE | margin left | checked
+@422 Matt. vi.
+@1339 The general covenant that God hath made with us. Ant. ed.
+@1751 In these commandments is contained the whole law. Ant. ed.
+@2898 Where no good fruits are, there the faith is vain. Ant. ed.
+@3382 Rom. x.
 
-== leaf 552 | GOSPEL OF ST MATTHEW. 471 | margin right | draft
- @591 What faith it is that saveth. W. T.
- @1248 Matt. vii.
-?@1737 Two things are required tobeina christian man. W. T.
-?@2636 What the nature of God's word ise We Te
- @3292 John iii.
+== leaf 552 | GOSPEL OF ST MATTHEW. 471 | margin right | checked
+@591 What faith it is that saveth. W. T.
+@1248 Matt. vii.
+@1737 Two things are required to be in a christian man. W. T.
+@2636 What the nature of God's word is. W. T.
+@3292 John iii.
 
-== leaf 553 | 472 PROLOGUE UPON THE | margin left | draft
-?@420 ‘When we hear God’s will and do it not, then God withdraweth his mercy and favour from us. Ant. ed.
- @1080 Rom. i.
-?@1994 He that hearkeneth to the word of God and doth it, the same shall be blessed in his deed. Ant. ed.
- @2334 Matt. xxv.
- @3311 Luke xii.
- @3463 Matt. vii.
+== leaf 553 | 472 PROLOGUE UPON THE | margin left | checked
+@420 When we hear God's will and do it not, then God withdraweth his mercy and favour from us. Ant. ed.
+@1080 Rom. i.
+@1994 He that hearkeneth to the word of God and doth it, the same shall be blessed in his deed. Ant. ed.
+@2334 Matt. xxv.
+@3311 Luke xii.
+@3463 Matt. vii.
 
-== leaf 554 | GOSPEL OF ST MATTHEW. 473 | margin right | draft
-?@443 What it is to build upon the ports Ant. ed.
- @1012 Matt. xxi.
- @1910 Luke xiii.
- @2152 Luke xi.
- @2196 The unclean spirit that returneth in worse sort than he was when he was cast forth. Ant. ed.
+== leaf 554 | GOSPEL OF ST MATTHEW. 473 | margin right | checked
+@443 What it is to build upon the sand. Ant. ed.
+@1012 Matt. xxi.
+@1910 Luke xiii.
+@2152 Luke xi.
+@2196 The unclean spirit that returneth in worse sort than he was when he was cast forth. Ant. ed.
 
-== leaf 555 | 474 PROLOGUE UPON THE | margin left | draft
-?@436 Such as are professors of the word of God, and will not tame and scourgethem- selves, them will God plague and scourge. Ant. ed.
- @1903 Christ’s deeds set us in the favour of God, and our own help us to continue therein. W. T.
+== leaf 555 | 474 PROLOGUE UPON THE | margin left | checked
+@436 Such as are professors of the word of God, and will not tame and scourge themselves, them will God plague and scourge. Ant. ed.
+@1903 Christ's deeds set us in the favour of God, and our own help us to continue therein. W. T.
 
-== leaf 556 | GOSPEL OF ST MATTHEW. 475 | margin right | draft
- @440 Rom. xiii.
- @520 Love is the fulfilling of the law. W. T.
-?@689 1 Times
- @843 Faith is the cause of love, W. T.
- @2658 Matt. ix.
-?@2731 God requireth mercy and not sacrifice. Ant. ed.
- @2882 Matt. xii.
- @2986 Only love understandeth the law, W. T.
+== leaf 556 | GOSPEL OF ST MATTHEW. 475 | margin right | checked
+@440 Rom. xiii.
+@520 Love is the fulfilling of the law. W. T.
+@689 1 Tim. i.
+@843 Faith is the cause of love. W. T.
+@2658 Matt. ix.
+@2731 God requireth mercy and not sacrifice. Ant. ed.
+@2882 Matt. xii.
+@2986 Only love understandeth the law. W. T.
 
-== leaf 557 | 476 PROLOGUE UPON THE | margin left | draft
- @1577 Gospel. W. T.
- @1996 New testament. W. T.
- @3305 Our works extend no farther than to our neighbour. Ant. ed.
+== leaf 557 | 476 PROLOGUE UPON THE | margin left | checked
+@1577 Gospel. W. T.
+@1996 New testament. W. T.
+@3305 Our works extend no farther than to our neighbour. Ant. ed.
 
-== leaf 558 | GOSPEL OF ST MATTHEW. 477 | margin right | draft
-?@1503 Why Tyndale ed this word
- @1583 repentance, rather than penance. Ant. ed.
-?@3204 The four parts of re- pentanee. Ant. ed.
+== leaf 558 | GOSPEL OF ST MATTHEW. 477 | margin right | checked
+@1503 Why Tyndale used this word repentance, rather than penance. Ant. ed.
+@3204 The four parts of repentance. Ant. ed.
 
-== leaf 559 | 478 PROLOGUE UPON THE | margin left | draft
- @943 ‘What manner of satisfaction we ought to make. Ant. ed.
- @3482 Why he nameth them elders and not priests. Ant. ed.
+== leaf 559 | 478 PROLOGUE UPON THE | margin left | checked
+@943 What manner of satisfaction we ought to make. Ant. ed.
+@3482 Why he nameth them elders and not priests. Ant. ed.
 
 == leaf 560 | GOSPEL OF ST MATTHEW. 479 | margin none found | draft
 
@@ -3081,23 +3083,22 @@
 
 == leaf 564 | A PROLOGUE | margin none found | draft
 
-== leaf 565 | 484 PROLOGUE UPON THE A PROLOGUE | margin left | draft
-?@1033 The epistle to the Romans is the excellentest part of the new Testament.
- @2678 Here you must note these words.
- @3496 Law, how it is to be understood.
+== leaf 565 | 484 PROLOGUE UPON THE A PROLOGUE | margin left | checked
+@1033 The epistle to the Romans is the excellentest part of the new Testament.
+@2678 Here you must note these words.
+@3496 Law, how it is to be understood.
 
-== leaf 566 | EPISTLE TO THE ROMANS. 485 | margin right | draft
-?@530 The law of God requireth the bottom of our hearts.
- @1346 St Paul was great persecutor of the Christians.
- @2164 If we be not willing to do good, then doth sin reign in us.
- @2737 No man can fulfil the law, but Christ only.
-?@3427 Jit
+== leaf 566 | EPISTLE TO THE ROMANS. 485 | margin right | checked
+@530 The law of God requireth the bottom of our hearts.
+@1346 St Paul was great persecutor of the Christians.
+@2164 If we be not willing to do good, then doth sin reign in us.
+@2737 No man can fulfil the law, but Christ only.
 
-== leaf 567 | 486 PROLOGUE UPON THE | margin left | draft
-?@1194 The pure and perfect keeping of the law is to do the same of love.
- @2424 The law cannot be satisfied but by inward love.
-?@2823 The law increaseth sin. BM. B.
- @3318 The law is spiritual.
+== leaf 567 | 486 PROLOGUE UPON THE | margin left | checked
+@1194 The pure and perfect keeping of the law is to do the same of love.
+@2424 The law cannot be satisfied but by inward love.
+@2823 The law increaseth sin. M. B.
+@3318 The law is spiritual.
 
 == leaf 568 | EPISTLE TO THE ROMANS. 487 | margin right | draft
  @692 The spirit of God maketh a man spiritual.
