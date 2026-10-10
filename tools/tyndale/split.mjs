@@ -37,8 +37,8 @@ const RAW_DIR = path.join(__dirname, 'raw');
 // ~70 matched words each within 1 px), though the DjVu page box is larger
 // than the image (2118 × 3362 against 1992 × 3328).
 const VOLUMES = {
-  1: { name: 'Vol. I', ocr: 'vol1.hocr', parse: (raw) => parseHocr(raw), img: 'img', report: 'split-report.txt' },
-  2: { name: 'Vol. II', ocr: 'vol2.djvu.xml', parse: (raw) => parseDjvu(raw), img: 'img2', report: 'split-report-vol2.txt' },
+  1: { name: 'Vol. I', notes: 'vol1.notes.txt', ocr: 'vol1.hocr', parse: (raw) => parseHocr(raw), img: 'img', report: 'split-report.txt' },
+  2: { name: 'Vol. II', notes: 'vol2.notes.txt', ocr: 'vol2.djvu.xml', parse: (raw) => parseDjvu(raw), img: 'img2', report: 'split-report-vol2.txt' },
 };
 const volArg = process.argv.indexOf('--vol');
 const VOL = VOLUMES[volArg >= 0 ? process.argv[volArg + 1] : 1];
@@ -165,6 +165,9 @@ function splitPage(page) {
     // invert parity for the rest of the volume.
     side: rightWords + leftWords === 0 ? null : rightWords >= leftWords ? 'right' : 'left',
   };
+  // The running head (title and printed page number) sits above the text
+  // block; kept so the transcription can name each leaf's printed page.
+  layout.head = page.lines.filter((l) => l.y1 < layout.top + 30).flatMap((l) => l.words.map((w) => w.text)).join(' ');
   return { leaf: page.leaf, layout, body, notes: groupNotes(margin) };
 }
 
@@ -465,6 +468,26 @@ async function readMargin(worker, img, layout, inset) {
     .map((n) => ({ y0: n.y0, ...checkNote(n) }));
 }
 
+// Writes the OCR drafts in the transcription format, for proofreading
+// against the scans. Never overwrites: once the file exists it holds
+// proofread work, and regenerating it would silently throw that away.
+async function writeDraft(results) {
+  const out = path.join(__dirname, VOL.notes);
+  const exists = await fs.access(out).then(() => true, () => false);
+  if (exists) {
+    console.error(`${VOL.notes} already exists; refusing to overwrite proofread work.`);
+    process.exit(1);
+  }
+  // A "?" marks a note the checks flagged or a word the repair changed.
+  const blocks = results.filter((r) => r.layout).map((r) => [
+    `== leaf ${r.leaf} | ${r.layout.head || '(no running head)'} | margin ${r.layout.side ?? 'none found'} | draft`,
+    ...(r.ocr ?? []).map((n) => `${n.flags.length || n.repairs?.length ? '?' : ' '}@${n.y0} ${n.text}`),
+  ].join('\n'));
+  // wx: exclusive create, so a file appearing since the check is not clobbered.
+  await fs.writeFile(out, blocks.join('\n\n') + '\n', { flag: 'wx' });
+  console.log(`wrote ${VOL.notes}: ${blocks.length} leaves`);
+}
+
 async function main() {
   let raw;
   try {
@@ -487,6 +510,8 @@ async function main() {
   } finally {
     await worker.terminate();
   }
+
+  if (process.argv.includes('--draft')) return writeDraft(chosen);
 
   if (only.length) {
     for (const r of chosen) {

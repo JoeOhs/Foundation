@@ -1,0 +1,3369 @@
+# The Works of William Tyndale, Vol. I: Doctrinal Treatises (ed. Henry
+# Walter, Parker Society, Cambridge, 1848). Marginal notes.
+#
+# Format:
+#   == leaf N | running head | margin side | draft|checked
+#   @Y TEXT
+# N is the Internet Archive leaf (page index from 0) of
+# doctrinaltreatis00tynduoft; Y is the note's first line, in pixels down
+# the full-resolution page image, which also places it beside its body line.
+#
+# ---------------------------------------------------------------------
+# Sources and how they were combined
+# ---------------------------------------------------------------------
+# The IA hOCR is unusable for the margin: the notes are set two lines
+# per body line and the OCR dropped or merged every second one. So each
+# note was drafted by tools/tyndale/split.mjs (Tesseract 5 on the margin
+# strip of the page image), then proofread here against the scan, leaf by
+# leaf. A leaf's status turns from "draft" to "checked" only once every
+# note on it has been read against the image. "?" in front of a draft
+# line marks a note the automatic checks flagged; no "?" survives
+# checking.
+#
+# ---------------------------------------------------------------------
+# Correction policy
+# ---------------------------------------------------------------------
+# - Words, spelling and punctuation as printed, including the edition's
+#   old forms ("holp", "spiritualty") and its occasional run-together
+#   words ("throughJesus" is printed so, but is written "through Jesus").
+# - Line-break hyphens are closed up; a hyphen the compound really has
+#   ("belly-cheer", "mercy-stool") is kept.
+# - The two attribution marks are written "W. T." (Tyndale's own gloss)
+#   and "Ant. ed." (from an earlier edition), whatever the spacing.
+# - Citations as printed ("Matt. vi. & vii."); no chapter is supplied
+#   that the margin doesn't print.
+# - A note continued from the previous page starts with "..."; one that
+#   runs onto the next page ends with "...".
+# - Handwriting, library marks and show-through from the reverse side are
+#   not notes and are left out.
+
+== leaf 13 | Vlll CONTENTS. PAGK | margin left | draft
+ @371 Prologue upon the An exposition upon
+
+== leaf 14 | ADVERTISEMENT. | margin none found | draft
+
+== leaf 15 | X ADVERTISEMENT. | margin none found | draft
+
+== leaf 16 | ADVERTISEMENT. XI | margin none found | draft
+
+== leaf 18 | BIOGRAPHICAL NOTICE OF WILLIAM TYNDALE. | margin none found | draft
+
+== leaf 19 | XIV BIOGRAPHICAL NOTICE [1484 1520. | margin none found | draft
+
+== leaf 20 | (no running head) | margin none found | draft
+
+== leaf 21 | Xvi BIOGRAPHICAL NOTICE [1517 20. | margin none found | draft
+
+== leaf 22 | 1520 3.] OF WILLIAM TYNDALE. | margin none found | draft
+
+== leaf 23 | (no running head) | margin none found | draft
+
+== leaf 24 | 1523.] OF WILLIAM TYNDALE. xix | margin none found | draft
+
+== leaf 25 | XX BIOGRAPHICAL NOTICE [1523. | margin none found | draft
+
+== leaf 26 | 1523.] OF WILLIAM TYNDALE. XXI | margin none found | draft
+
+== leaf 27 | XXli BIOGRAPHICAL NOTICE [1523 8. | margin none found | draft
+
+== leaf 28 | (no running head) | margin none found | draft
+
+== leaf 29 | BIOGRAPHICAL NOTICE [1524 8. | margin none found | draft
+
+== leaf 30 | 1524.] OF WILLIAM TYNDALE. XXV | margin none found | draft
+
+== leaf 31 | XXVI BIOGRAPHICAL NOTICE [1524 5. | margin none found | draft
+
+== leaf 32 | (no running head) | margin none found | draft
+
+== leaf 33 | XXviii BIOGRAPHICAL NOTICE [1525. | margin none found | draft
+
+== leaf 34 | 1525.] OF WILLIAM TYNDALE. XXIX | margin none found | draft
+
+== leaf 35 | XXX BIOGRAPHICAL NOTICE [1525 6. | margin none found | draft
+
+== leaf 36 | 1526.] OF WILLIAM TYNDALE. | margin none found | draft
+
+== leaf 37 | XXXH BIOGRAPHICAL NOTICE [1526. | margin none found | draft
+
+== leaf 38 | (no running head) | margin none found | draft
+
+== leaf 39 | XXXIV BIOGRAPHICAL NOTICE [1527 8. | margin none found | draft
+
+== leaf 40 | 1528.] OF WILLIAM TYNDALE. XXXV | margin none found | draft
+
+== leaf 41 | XXXvl BIOGRAPHICAL NOTICE [152? 8. | margin none found | draft
+
+== leaf 42 | (no running head) | margin none found | draft
+
+== leaf 43 | (no running head) | margin none found | draft
+
+== leaf 44 | 1529 30.] OF WILLIAM TYNDALE. | margin none found | draft
+
+== leaf 45 | Xl BIOGRAPHICAL NOTICE [1529 30. | margin none found | draft
+
+== leaf 46 | 1530.] OF WILLIAM TYNDALE. xli | margin none found | draft
+
+== leaf 47 | xlli BIOGRAPHICAL NOTICE [1530 1. | margin none found | draft
+
+== leaf 48 | 1531.] OF WILLIAM TYNDALE. | margin none found | draft
+
+== leaf 49 | BIOGRAPHICAL NOTICE [1531. | margin none found | draft
+
+== leaf 50 | 1531.] OF WILLIAM TYNDALE. | margin none found | draft
+
+== leaf 51 | BIOGRAPHICAL NOTICE | margin none found | draft
+
+== leaf 52 | 1531.] OF WILLIAM TYNDALE. | margin none found | draft
+
+== leaf 53 | BIOGRAPHICAL NOTICE [1531. | margin none found | draft
+
+== leaf 54 | 1531.] OF WILLIAM TYNDALE. | margin none found | draft
+
+== leaf 55 | 1 BIOGRAPHICAL NOTICE [1531 2. | margin none found | draft
+
+== leaf 56 | 1532.] OF WILLIAM TYNDALE. H | margin none found | draft
+
+== leaf 57 | Hi BIOGRAPHICAL NOTICE [1532, | margin none found | draft
+
+== leaf 58 | (no running head) | margin none found | draft
+
+== leaf 59 | Hv BIOGRAPHICAL NOTICE [1533. | margin none found | draft
+
+== leaf 60 | 1533.] OF WILLIAM TYNDALE. ly | margin none found | draft
+
+== leaf 61 | Ivi BIOGRAPHICAL NOTICE [1533. | margin none found | draft
+
+== leaf 62 | 1533.] OF WILLIAM TYNDALE. Ivii | margin none found | draft
+
+== leaf 63 | Iviii BIOGRAPHICAL NOTICE [1533. | margin none found | draft
+
+== leaf 64 | 1533.] OF WILLIAM TYNDALE. llX | margin none found | draft
+
+== leaf 65 | IX BIOGRAPHICAL NOTICE [1533 4. | margin none found | draft
+
+== leaf 66 | 1534.] OF WILLIAM TYNDALE. Ixi | margin none found | draft
+
+== leaf 67 | Ixli BIOGRAPHICAL NOTICE [1534. | margin none found | draft
+
+== leaf 68 | 1534.] OF WILLIAM TYNDALE. | margin none found | draft
+
+== leaf 69 | BIOGRAPHICAL NOTICE [1534. | margin none found | draft
+
+== leaf 70 | 1535.] OF WILLIAM TYNDALE. IxV | margin none found | draft
+
+== leaf 71 | BIOGRAPHICAL NOTICE [1535. | margin none found | draft
+
+== leaf 72 | 1535.] OF WILLIAM TYNDALE. | margin none found | draft
+
+== leaf 73 | BIOGRAPHICAL NOTICE [1535. | margin none found | draft
+
+== leaf 74 | 1535.] OF WILLIAM TYNDALE. | margin none found | draft
+
+== leaf 75 | IXX BIOGRAPHICAL NOTICE [1535. | margin none found | draft
+
+== leaf 76 | 1535.] OF WILLIAM TYNDALE. | margin none found | draft
+
+== leaf 77 | Ixxil BIOGRAPHICAL NOTICE [1535 6. | margin none found | draft
+
+== leaf 78 | 1535 6.] OF WILLIAM TYNDALE. | margin none found | draft
+
+== leaf 79 | BIOGRAPHICAL NOTICE [1536. | margin none found | draft
+
+== leaf 80 | (no running head) | margin none found | draft
+
+== leaf 81 | (no running head) | margin none found | draft
+
+== leaf 84 | INTRODUCTORY NOTICE. | margin none found | draft
+
+== leaf 85 | (no running head) | margin none found | draft
+
+== leaf 86 | INTRODUCTORY NOTICE. | margin none found | draft
+
+== leaf 88 | A PATHWAY INTO THE HOLY SCRIPTURE. | margin none found | draft
+
+== leaf 89 | (no running head) | margin left | draft
+?@655 The cause of the edition of this Pathway. Ant. ed.
+ @1544 ‘What are contained in the Old Testament. W. T.
+ @1796 The contents of the New Testament. W. T.
+?@2037 The Gospel, or Evangelion. Ww. 4 bs
+
+== leaf 90 | (no running head) | margin right | draft
+ @1232 Why the Evangelion is called a Testament 5, W. T.
+?@2064 No greater comfort can happen to a sinner, being penitent, than the Dio: mises of the gospel. W. T.
+ @2533 The gospel was promised of God, in the Old Testament, by the prophets. W. T.
+ @2800 Rom. i.
+
+== leaf 91 | (no running head) | margin left | draft
+ @799 Christ hath overthrown the devil and all his power. W. T.
+ @1138 Gen. xxii.
+ @1299 Gal, iii.
+ @2106 John xi.
+ @2279 John i.
+?@2317 The law was gen by oses, grace and truth by Jesus Christ. W. T.
+ @2700 2 Cor. iii.
+?@2854 The law re- rhe of us that which is impossible for our nature to do. W. T.
+
+== leaf 92 | (no running head) | margin right | draft
+?@413 ‘When the law hath condemned us, Christ granist us ree pardon. W. T.
+ @985 2 Cor. iii.
+ @1478 John i.
+?@2050 Christ is God’s mercy- stool, so that no Heacy cometh from God, but through Christ. W. T.
+ @3442 The law must ever be in
+
+== leaf 93 | (no running head) | margin left | draft
+?@387 sight, to make us humble- spirited : and the ed also before our eyes, to comfort us. A bs
+?@1039 Two manner of people deceived those which justify themselves by their works; and those that through their blind opinion of faith utterly akg the ively faith, We To
+
+== leaf 94 | (no running head) | margin right | draft
+?@765 He that hath a right faith Spat in the law, although his weakness cannot fulfil the sanie. W. T.
+?@1750 A justiciary. W. T.
+?@1846 He that justifieth himself, rejecteth the law and promises, Ant. ed.
+ @2337 A sensual man. W. T.
+ @2660 A Christian man. W. T.
+
+== leaf 95 | (no running head) | margin left | draft
+ @842 Nature. W. T.
+ @1680 A proper similitude. Ant. ed.
+?@3315 “We are plucked from Adam and ied in hrist, b grace. W. T.
+
+== leaf 96 | (no running head) | margin right | draft
+ @934 The blood of Christ hath obtained all things for us of God. W. T.
+ @1513 Faith, love, works. W. T.
+ @2179 Righteousness, otherwise justifying, or justice. W. T.
+?@2508 Sundry sorts of righteousness. Ant. ed.
+
+== leaf 97 | (no running head) | margin left | draft
+?@1660 Man's sensual reason cannot perceive the virtue of Christ’s blood. W. T.
+
+== leaf 98 | (no running head) | margin right | draft
+?@1654 Adam’s fall brought us in bondage to the devil. Ant. ed.
+ @1983 Adam bringeth us to bondage. W. T.
+?@2809 The natural corruption of the minds of Adam’s heirs plainly set forth, W. T.
+
+== leaf 99 | (no running head) | margin left | draft
+ @2647 Rom. iv.
+?@2815 Man before his regenera- tion cannot think well of God. Ant. ed.
+?@3461 Christ sctteth us at liberty. W. T.
+
+== leaf 100 | (no running head) | margin right | draft
+?@1334 The hearts of the elect do even melt at the preaching of God’s mercy, and Christ's kindness. Ant. ed.
+?@1746 The evangelion bringeth faith, faith bringeth love, love worketh. W. T.
+ @2980 Christ left nothing undone that might be to our salvation. Ant. ed.
+?@3230 Christ pds eth all goodness SCs and giveth an ensample how to bestow it godly. IWENEL
+
+== leaf 101 | (no running head) | margin left | draft
+ @904 Faith receiveth of God, and love bestoweth the same on his neighbour. W. T.
+ @2302 Christ did not good deeds to merit heaven, for that was his already, but freely, for our sakes. Ant. ed.
+
+== leaf 102 | (no running head) | margin right | draft
+?@617 A true Christian man believeth that heaven is his already, and therefore loveth, and worketh, to honour God only, and to draw all things to Gods WW. T.
+ @2745 The law bindeth, and the gospel looseth all men. W. T.
+ @3407 The force of the law. W. T.
+
+== leaf 103 | (no running head) | margin left | draft
+?@1746 The uprising sinner feeleth such joy in the do that he thinketh it impossible that God should forsake him. Ant. ed.
+?@2401 A Christian man feeleth the working of the Holy Ghost in his soul; and in all tribulations and adversities feeleth God a merciful father and a loving. "ug
+
+== leaf 104 | (no running head) | margin right | draft
+?@1746 All sin in us is of ourselves, and all goodness of Christ. W. T.
+ @2654 Works certify us of everlasting inheritance, kill sin in us, and relieve the necessity of our neighbour.
+
+== leaf 105 | (no running head) | margin left | draft
+ @905 Gifts of grace belong to our brother as much as to ourselves.
+ @3283 Holy days necessary to come together in, and learn Christ’s will.
+
+== leaf 106 | (no running head) | margin right | draft
+ @1831  W. T.
+?@1870 rulers to be obeyed so far forth as their laws impugn not God's laws.
+?@2818 Though rulers ap- pois of od oppress us, yet we may not avenge, they being in God’s room.
+?@3553 We must love our neighbour as ourself,
+
+== leaf 107 | (no running head) | margin left | draft
+ @3537 Our baptism signifieth that we repent and profess a new life.
+
+== leaf 108 | (no running head) | margin right | draft
+?@1329 The perfecter we are, the greater is our repentance and the stronger is our faich.
+ @2480 Our works deserve not the gifts of grace.
+?@3537 The principles of scripture perfectly learned, all the rest is more easy.
+
+== leaf 109 | (no running head) | margin none found | draft
+
+== leaf 112 | INTHODUCTOKY NOTICE. | margin none found | draft
+
+== leaf 113 | (no running head) | margin none found | draft
+
+== leaf 114 | INTRODUCTORY NOTICE. 33 | margin none found | draft
+
+== leaf 115 | (no running head) | margin none found | draft
+
+== leaf 116 | INTRODUCTORY NOTICE. 35 | margin none found | draft
+
+== leaf 117 | (no running head) | margin none found | draft
+
+== leaf 118 | WILLIAM TYNDALE, OTHERWISE CALLED HITCHINS, TO THE READER. | margin right | draft
+?@1403 The cause why W. Tyndale put his name to some books, and left it out in some 2. Ant. ed. W. T.
+ @2439 Roye a false disciple. Ant. ed.
+
+== leaf 119 | (no running head) | margin left | draft
+ @1576 Jerome a brother of Greenwich. Ant. ed.
+
+== leaf 120 | PREFACE TO THE READER. 39 | margin none found | draft
+
+== leaf 122 | PREFACE TO THE READER. 41 | margin right | draft
+ @582 2 Tim. iii.
+ @621 2 Thess. ii.
+ @828 2 Cor.x,
+ @1078 1 Cor. iii.
+
+== leaf 123 | 42 PARABLE OF THE WICKED MAMMON. | margin left | draft
+ @406 Acts vi.
+ @743 Antichrist, what it is. Ant. ed.
+?@857 Antichrist is as much to say as, against Christ; and is nothing but a pra of alse doe- trine; W. T.
+ @1318 Antichrist was ever. W. T.
+?@1901 Seribes and Pharisees were very Antichrists. Ant. ed.
+ @2094 The properties of Antichrist. Ant. ed.
+
+== leaf 124 | PREFACE TO THE READER. 43 | margin right | draft
+ @929 2 Cor. XI.
+ @1008 Antichrist hath been among us long time. Ant. ed.
+ @1586 John v.
+ @1670 Antichrist is a spiritual thing, and cannot be seen, but in the light of God’s word. W. T.
+?@2158 Antichrist account eth it treason to be acquainted with Christ. Ant. ed.
+ @2902 The prelates have a burning zeal to their children. W. T.
+ @3150 Gal. iv.
+
+== leaf 125 | (no running head) | margin none found | draft
+
+== leaf 126 | THE PARABLE OF THE WICKED MAMMON. | margin right | draft
+ @1192 Luke xvi.
+ @2976 Matt. xxiv
+ @3057 2 Tim. iii.
+
+== leaf 127 | 46 THE PARABLE OF | margin left | draft
+?@924 ¥ Cor. 1. &it.
+ @963 Rom. x.
+?@1179 They gu more faith to Aristctle than to Christ. W. T.
+?@2250 Faith only Jjustifieth. Ant. ed.
+
+== leaf 128 | THE WICKED MAMMON. 47 | margin right | draft
+ @357 Rom. i.
+ @934 Faith bringeth life. Ant. ed.
+?@1101 The law bringeth deatn. Ant. ed.
+ @1265 2 Cor. iii.
+ @1345 The law, death; and the promises life. W. T.
+ @2094 Eph. ii.
+ @2256 The law, when it is preached,
+
+== leaf 129 | 48 THE PARABLE OF | margin left | draft
+?@425 giveth no rower to fulfil the same. W. T.
+ @844 The gospel is the ministration of righteousness. Ant. ed.
+ @1260 2 Cor. iii.
+?@1596 The consenting unto the Jaw with the heart is eternal life. W. T.
+ @1943 Eph. vi.
+ @2261 Resist the devil with the shield of faith. Ant. ed.
+ @3252 Faith is the holy candle wherewith we must bless ourselves at the last hour, Ant. ed.
+
+== leaf 130 | THE WICKED MAMMON. 49 | margin right | draft
+ @838 Rom. iii.
+ @999 Rom. iv.
+ @1076 Faith is accounted to us for righteousness. Ant. ed.
+?@1267 Lom. v.
+ @1305 Rom. x.
+ @1342 Gal. iii.
+ @1575 The children of faith are the children of Abraham. Ant. ed.
+ @2562 Gal. ii,
+ @2890 Faith only justifieth us. W. T.
+
+== leaf 131 | 50 THE PARABLE OF | margin left | draft
+ @904 Matt vii.
+ @1323 Matt. xii.
+ @1815 A principle taught by Christ. Ant. ed.
+?@2152 A man must have some goodness in is heart, before he bring forth good works. W. T.
+
+== leaf 132 | THE WICKED MAMMON. 51 | margin right | draft
+ @350 Faith being joined with the word of God bringeth forth good fruit. Ant. ed.
+ @1508 Acts xv.
+ @2333 The law uttereth sin, and setteth us at debate. W. T.
+ @2740 The law cannot justify us. Ant. ed.
+
+== leaf 133 | 52 THE PARABLE OF | margin left | draft
+ @1161 Gal. iii.
+?@1573 Faith in Christ's promises doth justify us. Ant. ed.
+?@1764 The promises justity, W. T.
+?@2569 Christ is the storehouse of mercy for us. Ant. ed.
+ @2980 Matt. xxv.
+
+== leaf 134 | THE WICKED MAMMON. 53 | margin right | draft
+ @528 The definition of true faith. Ant. ed.
+?@2110 [Jude, 8.]
+ @2280 Faith that bringeth not forth fruit, is but a dream. Ant. ed.
+ @2610 Matt. ix.
+?@2647 Old vessels that new wine is put Inch WETS
+ @3024 Faith is the gift of God. Ant. ed.
+ @3186 Eph. ii.
+
+== leaf 135 | 54 THE PARABLE OF | margin left | draft
+ @2166 The Spirit of God accompanieth faith. Ant. ed.
+
+== leaf 136 | THE WICKED MAMMON. 55 | margin right | draft
+ @1258 Faith of her self bringeth forth good fruits, that is, good works. Ant. ed.
+ @2578 True faith is not without good works. Ant. ed.
+
+== leaf 137 | 56 THE PARABLE OF | margin left | draft
+ @675 True faith and good works are the gift of God, and come not of ourselves, Ant. ed.
+ @2330 The difference between false faith, and right faith, Ant. ed.
+ @2749 As the tree is known by his fruit, so right faith is known by . her fruit. Ant. ed.
+ @3069 Example. Ant. ed.
+ @3157 Luke vii.
+
+== leaf 138 | THE WICKED MAMMON. 57 | margin right | draft
+ @927 The fruits of faith. Ant. ed.
+ @2665 A difference between true faith and feigned faith. Ant. ed.
+
+== leaf 139 | 58 THE PARABLE OF | margin left | draft
+ @2059 Rom. ix.
+ @2974 Backward disputations. Ant. ed.
+
+== leaf 140 | THE WICKED MAMMON. 59 | margin right | draft
+ @1677 The kindness of God moveth us to love God. Ant. ed.
+ @2172 The office of faith, W. T.
+ @2340 Faith only maketh us the sons and heirs of God. Ant. ed.
+ @2578 The office of works. W. T.
+ @2677 Faith possesseth the Spirit of God. Ant. ed.
+?@3076 Works declare faith and God's goodness. Ant. ed.
+
+== leaf 141 | 60 THE PARABLE OF | margin left | draft
+ @835 God’s grace is to be exercised mm us. Ant. ed.
+ @1010 The talent,
+ @1049 Matt. xxv.
+ @1088  W. T.
+ @1252 Matt. v.
+ @2245 2 Pet. 1.
+ @2661 Where true faith is, good works follow. Ant. ed.
+
+== leaf 142 | THE WICKED MAMMON. 61 | margin right | draft
+ @505 Gen. xxii.
+ @1584 The outward righteousness and the inward righteousness, what they are. Ant. ed.
+?@2730 Outward works declare where true faith is. Ant. ed.
+
+== leaf 143 | 62 THE PARABLE OF | margin left | draft
+ @401 ‘Why he called them friends. W. T.
+ @829 Good works are witnesses for us before God. Ant. ed.
+ @1082 Matt. vi.
+ @1122 vii.
+ @2237 Matt. x.
+ @2321 Good works must be done freely. W. T.
+?@2647 ‘We must of goo da good works, without hope of reward. Ant. ed.
+ @2978 Phil ii
+
+== leaf 144 | THE WICKED MAMMON. 63 | margin right | draft
+?@1727 "Faith maketh us the sons and children of God. Ant. ed.
+ @1926 Rom. viii,
+ @1986 Gal. iv.
+ @2480 Matt. vi.
+ @2554 Matt. xix.
+?@3203 They that geek heaven for their works are such as understand not the treasures of Christ. Ant. 1 ed.
+
+== leaf 145 | 64 THE PARABLE OF | margin left | draft
+ @403 Matt. vi.
+?@648 As fot works na‘u- ett follow faith, so eternal life followeth faith and good living. Ant. ed.
+ @1820 As good works follow faith, so hell followeth evil works. Ant. ed.
+?@2974 Of curselves we are the vessels of the wrath of God, and the heirs of damina- tion. Ant. ed.
+
+== leaf 146 | THE WICKED MAMMON. 65 | margin right | draft
+ @597 To believe in Christ is salvation. Ant. ed.
+?@922 To seek heaven by good works were to derogate the dignity of the blood of Christ. Ant. ed.
+
+== leaf 147 | G6 THE PARABLE OF | margin left | draft
+ @410 All that is good is purchased for us by Christ. Ant. ed.
+ @1232 Saints cannot help us into heaven. Ant. ed.
+ @1652 Matt. xxv.
+ @1823 1 Pet. iv.
+
+== leaf 148 | THE WICKED MAMMON. 67 | margin right | draft
+ @457 How we may make friends of the wicked mammon. Ant. ed.
+?@1197 To do good to such as are evil, is commend- able. Ant. ed.
+ @2183 Rom. ix.
+ @2344 All our righteousness cometh freely from Christ. Ant. ed.
+
+== leaf 149 | 68 THE PARABLE OF | margin left | draft
+ @425 Mammon, what it is. Ant. ed.
+
+== leaf 150 | THE WICKED MAMMON. 69 | margin right | draft
+?@572 Isai. Ixi.
+ @656 Prov. iii.
+ @911 Eph. v.
+ @1066 The days are called evil, because evil men use them. Ant. ed.
+?@2218 We are bound by the law of nature to help our needy neighbour. Ant. ed.
+
+== leaf 151 | 70 THE PARABLE OF | margin left | draft
+ @1074 ‘Who is the steward. W. T.
+ @1315 The unrighteous steward, who it is. Ant. ed.
+ @2891 Christ is the father of all righteousness. Ant. ed.
+
+== leaf 152 | THE WICKED MAMMON. 71 | margin right | draft
+ @917 Matt. v.
+?@1657 For Christ's blood sake, only, through faith, God is at one with us. Ant. ed.
+
+== leaf 153 | 72 THE PARABLE OF | margin left | draft
+ @665 Christ’s blood only putteth away all sin. Ant. ed.
+?@1081 [ Matt. v. 44,
+ @2494 ‘We must follow Christ in well-doing Ant. ed.
+ @2987 Matt. vi.
+ @3468 ‘We may not do good works to be praised of the world. Ant. ed.
+
+== leaf 154 | THE WICKED MAMMON. 73 | margin right | draft
+ @919 ‘We must be to our neighbour as God is to us. Ant. ed.
+ @1413 Hypocrites seek to be praised of men. Ant. ed.
+ @2406 Rom. vi.
+ @2555 Faith only justifieth us, and no good works can be done without faith. Ant. ed.
+ @2782 Without we be justified we cannot work freely. W. T.
+ @3053 Good works are the fruit. Ant. ed.
+ @3165 Good works are called the fruit of the Spirit, and righteousness. W. T.
+
+== leaf 155 | 74 THE PARABLE OF | margin left | draft
+ @489 ‘What is the righteousness of scribes and Pharisees. W. T.
+ @979 True righteousness, what it is. Ant. ed.
+ @1398 Acts vii.
+ @1483 Luke xxiii.
+ @1645 The law must be fulfilled spiritually, and with such obedience as Christ hath done. W. T.
+
+== leaf 156 | THE WICKED MAMMON, 75 | margin right | draft
+?@905 True righteousness springeth out of Christ's blocd. Ant. ed.
+?@1230 A Christian, when he prayeth, abideth and sticketh fast to God’s pro HH True fasting, what it is. Ant. ed.
+
+== leaf 157 | 76 THE PARABLE OF | margin left | draft
+ @895 No flesh can fulfil the law. Aut. ed.
+ @2056 We cannot deserve forgiveness of God, but he, of his mercy, pardoneth us. Ant. ed.
+ @2478 By consenting unto the will of God, and knowledging our fault meekly, we be assured of the Spirit of God. W. T.
+
+== leaf 158 | THE WICKED MAMMON. 77 | margin right | draft
+?@507 Wherefore the believing forgiveth, W. T.
+ @1012 Matt. vi.
+ @1094 A true bestowing of alms. Ant. ed.
+?@1346 With that which aboundeth of our necessary food ought we to sustain the poor. W. T.
+ @1997 In Christ we are all in all. Ant. ed.
+ @2820 We must do good works because it is God’s will that we should do them.
+
+== leaf 159 | 78 THE PARABLE OF | margin left | draft
+ @424 Not only to speak of the gospel is accepted before God, but to live after the gospel. W. T.
+ @1086 ‘We must hear the word of God and do it. Ant. ed.
+ @2005 1 Cor. ii.
+ @2254 ‘Where the Spirit of God is not, there cannot a man work according to God’s will. W. T.
+?@3398 Christ is our only Diya: cian, to heal and deliver us of our sins. Ant. ed.
+
+== leaf 160 | THE WICKED MAMMON. 79 | margin right | draft
+ @421 What health is to say. W. T.
+?@1902 Christ's merits are ours. W. T.
+?@2074 Christ is our anchor- hold to salvation. Ant. ed.
+
+== leaf 161 | 80 THE PARABLE OF | margin left | draft
+ @1737 A prophet, what he is. Ant. ed.
+ @2234 No man can consent to the deeds of the law, except he be chosen. W. T.
+ @2813 Matt. xii.
+ @3062 The abstaining from sin outwardly is but hypocrisy. Ant. ed.
+
+== leaf 162 | THE WICKED MAMMON. 81 | margin right | draft
+ @514 Matt. xix.
+ @1173 To believe unfeignedly in Christ, is to keep the commandments. Ant. ed.
+?@1401 Exceptaman have the Spirit of life, it is impossible for him to keep the commandments. W. T.
+?@1916 The greatest erfection. fv.
+ @2159 The law is spiritual and requireth the heart. Ant. ed.
+ @2812 If the rich help not the poor in their need, they are but thieves before God, Ant. ed.
+
+== leaf 163 | 82 THE PARABLE OF | margin left | draft
+?@747 He that withdraweth from his i bour that which is his, cannot come to heaven. W. T.
+ @1493 Matt. xvii.
+ @1741 Faith casteth out devils, and doth such like miracles. W. T.
+ @1995 Faith fasteth. Ant. ed.
+?@2154 Faith prayeth. ACen
+ @2732 The kingdom of heaven is prepared for the faithful ergo, their works do not deserve it. W. T.
+ @3038 Matt. xxv.
+
+== leaf 164 | THE WICKED MAMMON. 83 | margin right | draft
+?@507 In Christ's blood we are blessed from the curse of the law. Ant. ed.
+ @1836 Luke vii.
+ @1876 As long as we see the law, we cannot love Christ ; but when we see the gospel, then rejoice we. W. T.
+ @2505 The law condemneth. Ant. ed.
+ @2819 The gospel comforteth, and maketh us safe. Ant. ed.
+ @3143 An example, for declaration of inward deeds, W. T.
+
+== leaf 165 | 84 THE PARABLE OF | margin left | draft
+?@582 Certain phrases of speech expounded. Ant. ed.
+ @1244 An example of love toward our neighbours. W. T.
+ @1826 1 John iv.
+ @2586 ‘Where perfect love to God is, there are all good works. Ant. ed.
+ @2919 The keeping of the commandment declareth our love toward God. W. T.
+ @3575 A godly order of perfection. W. T.
+
+== leaf 166 | THE WICKED MAMMON. 85 | margin right | draft
+ @674 Luke x.
+?@759 What it is to love God with all our heart, &c. Ant. ed.
+?@1010 If we do but lust, it is a sign that the Spirit is in us. W. T.
+ @2087 The true understanding of a parable. Ant. ed.
+ @2251 A parable cannot be expounded in all. W. T.
+ @2901 What neighbour signifieth. W. T.
+ @3319 We must ever be ready to help our neighbour. Ant. ed.
+
+== leaf 167 | 86 THE PARABLE OF | margin left | draft
+ @2229 1 John iii.
+ @2469 John xv.
+ @2649 No man fulfilleth the law. W. T.
+ @2773 1 John i.
+?@3548 What the two pence be- token. W. T.
+
+== leaf 168 | THE WICKED MAMMON. 87 | margin right | draft
+ @635 Works that the papists called works more than the law requireth. Ant. ed.
+ @916 Luke x.
+ @1303 What the part was that Mary had chosen. W. T.
+ @2047 Luke xii.
+ @2542 Whatsoever we have, we receive it of the mercy and goodness of God. Ant. ed.
+?@3120 The great diversity and manner of the speaking of the serip- tures. Ant. ed.
+?@3447 Scripture speaketh to us divers ways. W. T.
+
+== leaf 169 | 88 THE PARABLE OF | margin left | draft
+?@1144 Where the Spirit is not, there is no understanding of sceip: ture. W. T.
+?@1477 The sayings of the serip- tures may not be gross- ly understood. Ant. ed.
+?@1956 1 Cor. il.
+ @1993 The natural man understandeth not the things of God. Ant. ed.
+?@2185 It is impossible to understand the scripture without the Shits of God. TE
+ @2453 Rom, viii,
+ @2889 John viii.
+?@3288 The scripture is poe else but that which the Spirit of God hath spoken. Ant. ed.
+ @3579 Pray the Spirit to loose you from
+
+== leaf 170 | THE WICKED MAMMON. 89 | margin right | draft
+?@391 your natural blindness, and to give you understanding of Spit
+ @626 things. W. T.
+ @673 Mark the order of God’s works. W. T.
+ @1893 By faith in Christ we are brought to the state of salvation. Ant. ed.
+ @2463 God worketh his own will with all his creatures. Ant. ed.
+
+== leaf 171 | 90 THE PARABLE OF | margin left | draft
+?@391 If we believe in God, we must put off’ the old man and his works. Ant. ed.
+ @737 He that is reconciled unto God must not live after the old lust of ignorance. W. T.
+ @1299 Good works what they are, and to what end they serve. Ant. ed.
+ @1874 Fasting, the true use thereof. Ant. ed.
+ @2371 The cause of fasting. W. T.
+ @3036 Superstitious fasting. Ant. ed.
+
+== leaf 172 | THE WICKED MAMMON. 91 | margin none found | draft
+
+== leaf 173 | 92 THE PARABLE OF | margin left | draft
+?@1229 What watch signifieth. W. T.
+ @1720 True watching. Ant. ed.
+ @2469 1 Cor. x.
+
+== leaf 174 | THE WICKED MAMMON. 93 | margin right | draft
+?@925 Prayer, what it is. W. T.
+ @1910 The condition and properties of prayer. W. T.
+ @2736 True prayer. Ant. ed.
+ @2987 Let the same mind be in you, which was in Jesus Christ. W. T.
+
+== leaf 175 | 94 THE PARABLE OF | margin left | draft
+?@909 True | 25¢% ho is not without faith and charity. Ant. ed.
+ @1402 One to pray for another. W. T.
+ @1909 Matt. v.
+?@2234 In what hour the sinner sigheth I shall hear him. W. T.
+ @2584 He that repenteth his sin is no sinner before God. Ant. ed.
+
+== leaf 176 | THE WICKED MAMMON, 95 | margin right | draft
+ @419 How we should pray for our neighbours. Ant. ed.
+ @1158 The love of God to Christ is infinite. W. T.
+ @1572 Rom. x.
+ @1820 ‘Who is righteous. W. T.
+ @1993 Christ is our righteousness. Ant. ed.
+ @3045 Love among Christian men maketh all things common. W. T.
+
+== leaf 177 | 96 THE PARABLE OF | margin left | draft
+ @427 He that serveth the altar, ought to live of the altar also. W. T.
+ @1335 Man’s imagination cannot alter the law of God, neither make it more or less. Ant. ed.
+?@2003 Temporal reward neither aug- ment eth nor minisheth charity. W. T.
+ @2285 Alms, what it is.
+?@2746 I2Pet 1:
+ @2785 1 John iv.
+
+== leaf 178 | THE WICKED MAMMON. 97 | margin right | draft
+ @508 The order of Paul in setting forth Christ. W. T.
+ @1580 By what reason all things are common. W. T.
+ @2080 He that is merciful hath the Spirit of God. Ant. ed.
+ @2245 Rom. viii.
+
+== leaf 179 | 98 THE PARABLE OF | margin left | draft
+?@1081 Love seeketh not her owa profit. Ant. ed.
+?@1332 2 Cor. xii;
+ @1752 Christ is all in all things, Ant. ed.
+ @2738 Every one must care for their own households. Ant. ed.
+ @3229 First look to thine own household, and then to the poor. Ant. ed.
+
+== leaf 180 | THE WICKED MAMMON. 99 | margin right | draft
+ @585 How, and to whom, alms ought to be given. W. T.
+ @1822  W. T.
+ @1859 thief. W. T.
+ @2150 ‘We must for Christ’s sake shew our compassion and charity to all men, so far as our ability will extend. Ant. ed.
+
+== leaf 181 | 100 THE PARABLE OF | margin left | draft
+ @913 Good works, what they are. Ant. ed.
+ @1029 All works that be done in faith are good. W. T.
+ @2569 An ensample of diversity of estates. W. T.
+?@2893 1 Cor. 1x’
+?@3727 hb
+
+== leaf 182 | THE WICKED MAMMON. 101 | margin right | draft
+ @1331 ‘We must do good works, and yet put no trust in them. Ant. ed.
+?@2158 The earnest of the Spirit. W. T.
+?@2573 God is no ac- cepter of persons, but receiveth all that submit themselves unto him. Ant. ed.
+ @3645 Matt.
+
+== leaf 183 | 102 THE PARABLE OF | margin left | draft
+?@744 As all deeds are acceptable to God, that are done in faith, so no deed is allowed goed in God’s sight (how glorious to the world soever it appear) if it be without faith. Ant. ed.
+ @1327 Let every man wait upon the office that Christ hath put him in, W. T.
+?@2077 Every man to walk truly in his voca- tion, is the right service of God. Ant. ed.
+?@2355 How the craftsmen ought to live
+
+== leaf 184 | THE WICKED MAMMON. 103 | margin right | draft
+?@391 godly and according to the gospel. W. T.
+ @976 We must be merciful one to another. Ant. ed.
+ @2137 Luke xvii.
+?@2299 The world was never deceived but with outward appearance. Les be Hypocrites are vain- glorious in all their works. Ant. ed.
+?@3034 John deceived the Jews’ opinion. W. T.
+
+== leaf 185 | 104 THE PARABLE OF | margin left | draft
+?@1049 The strait- ness of life pertaineth to John only, but the voice to the Jews. W. T.
+ @1471 True preachers must preach repentance. Ant. ed.
+?@1806 It is impossible for Christ to come, without the sin be know- J oe truly, wit iat ance. de
+ @2134 Matt. xvii.
+ @2554 Matt. xv.
+ @2884 Matt. xxiii,
+ @3296 Matt. xxiii.
+ @3334 The manner and doctrine of hypocrites. Ant. ed.
+
+== leaf 186 | THE WICKED MAMMON, 105 | margin right | draft
+ @497 Matt. vi.
+ @820 Matt. xxiii.
+ @1481 Matt. xvi.
+?@1519 Beware of counterfeit- ing out of a good intent. W. T.
+ @1981 Luke ix.
+ @2483 Rom. x.
+ @2728 No zeal without knowledge is good, Ant. ed.
+?@3051 God hath made an ever= lasting covenant with us, that we should no more go astray after our good intent. W. T.
+
+== leaf 187 | 106 THE PARABLE OF | margin left | draft
+?@393 Acts vil.
+ @555 The use of temples or churches. W. T.
+ @724 Churches, why they were first ordained. Ant. ed.
+ @934 The true temple of God is the heart of man. Ant. ed.
+ @1312 The honour of God. W. T.
+ @1731 Luke xiv.
+ @1908 Matt. v.
+
+== leaf 188 | THE WICKED MAMMON. 107 | margin right | draft
+ @980 The manner of the speaking of the Scripture. Ant. ed.
+?@1978 The wise of this world do not under- sang the 5 speaking o Cod in Bis
+ @2208 scriptures. Ant. ed.
+ @2282 1 Cor. 1. ii.
+ @2550 I will destroy the wisdom of the wise, and the understanding of the learned shall perish. W. T.
+ @2851 Isai. xxix.
+?@3125 The Papists™ arguments, Ant. ed.
+ @3279 Love of God. W. T.
+
+== leaf 189 | 108 THE PARABLE OF | margin left | draft
+ @476 Love of my neighbour. W. T.
+ @1476 The love of a man’s neighbour is a sign of the love of God. W. T.
+ @2055 Aristotle’s and Papists’ doctrine. Ant. ed.
+ @2638 Good works are the fruits of love. Ant. ed.
+ @3054 ‘Whence springeth the love to God. W. T.
+ @3206 1 John iv.
+
+== leaf 190 | THE WICKED MAMMON. 109 | margin right | draft
+ @415 God first loved us, and not we him. Ant. ed.
+?@1492 JSPet 1:
+ @1576 Faith and love be known by works. W. T.
+ @1910 How we understand the love of God to be in us. Ant. ed.
+ @2320 Luke xviii.
+?@2652 A Christian hath respect to nothing else but the LO God.
+ @3554 Mark x.
+?@3593 ‘Whosoever for Christ’s sake loseth any thing, shall receive
+
+== leaf 191 | 110 THE PARABLE OF | margin left | draft
+?@422 an hundred- fold. Ant. ed.
+?@508 How it is to be understood, He shall receive an hundred- fold. W. T.
+ @999 If we once possess Christ by faith, then have we all in all, and are content with that we have. Ant. ed.
+?@1352 God’s Spirit slaketh all worldly de- siree. W. T.
+?@1585 All that is written, is written to our instruce- tions \WV. 1)
+?@2073 How it is to be understood, The dead in the Hiss shall ear the voice. W. T.
+ @2394 Joh. v.
+ @2502 Here note what followeth of good works. Ant. ed.
+ @2988 John i.
+
+== leaf 192 | THE WICKED MAMMON. Ill | margin right | draft
+ @418 John i.
+ @456 By faith in Christ we are made the sons of God. Ant. ed.
+ @832 John iii.
+?@1165 Faith doth expel the wrath of God. Ant. ed.
+?@1332 Faith and trust in Christ expel- leth wrath, and bringeth favour. W. T.
+ @1913 John vii.
+ @2969 1 Cor. ii.
+ @3048 The natural man, which is but flesh, savoureth not those things that are of the Spirit. Ant. ed.
+
+== leaf 193 | 112 THE PARABLE OF | margin left | draft
+ @923 John xiii.
+ @1583 John v.
+ @1669 John xiii,
+ @1824 John xiv.
+ @2079 The works testify. W. T.
+ @2167 John xv.
+ @2669 ‘We are blessed by God only in Christ our Saviour, and not by our works. Ant. ed.
+ @2952 Our deeds prevent not God’s grace, nor make us just. W. T.
+ @3314 John xv.
+
+== leaf 194 | THE WICKED MAMMON. 113 | margin right | draft
+ @424 We are all crab-trees in Adam. W. T.
+ @845 During our life, we are yet partly carnal. W. T.
+ @1418 ‘We must wrestle with our old man, that we may put on Christ. Ant. ed.
+ @1666 Matt. xiii.
+ @1815 What leaven is, what is meal. W. T.
+ @2073 Rom. ii.
+ @3046 Rom. viii.
+ @3469 Our best works are damnable in the sight of God, without Christ. Ant. ed.
+
+== leaf 195 | 114 THE PARABLE OF | margin left | draft
+ @1009 He that ascribeth eternal life unto merits is either a Pharisee, or else he must despair. W. T.
+ @1660 Christ is our hope and righteousness. Ant. ed.
+ @2246 Let no man despair, but put his hope in Christ, and he shall be safe. Ant. ed.
+ @2973 Rom. ii.
+ @3136 The law natural was written to the Gentiles. W. T.
+
+== leaf 196 | THE WICKED MAMMON. 115 | margin right | draft
+?@1132 Not REARS but doing the law maketh righteous. W. T.
+ @1876 No man can fulfil the law, but he that believeth in Christ. Ant. ed.
+ @2207 1 Cor.iii,
+ @2454 Christ is the sure foundation. Ant. ed.
+?@2862 The fire is the judgment o scripture. W. T.
+ @3194 Gold, silver, and precious stones, is true doctrine. W. T.
+?@3573 Timber, hay, stubble, are men’s doe- trine. W. T.
+
+== leaf 197 | 116 THE PARABLE OF | margin left | draft
+ @503 Man’s foundation is feeble. Ant. ed. He shal! be saved, nevertheless through fire. W. T.
+ @1407 2 Cor. v.
+ @2078 Christ rewardeth his own works in us. Ant. ed.
+ @2325 What reward is, and what hire. W. T.
+ @2733 The Lord shall reward every man, according to his deeds. W. T.
+ @2962 Eph. vi.
+ @3001 Col. iii.
+ @3222 1 Pet. ii.
+ @3274 ‘We must obey the magistrates, because God will have it 80. Ant. ed.
+?@3516 We must obey our superiors, be he never so evil. W. T.
+ @3723 Rom. xiv.
+
+== leaf 198 | THE WICKED MAMMON. 117 | margin right | draft
+ @473 1 Cor. vi.
+?@512 18 Pet 1.
+ @1450 A good lesson, to teach us to know when we have the Spirit of God. Ant. ed.
+ @2106 Remit all vengeance to God. Ant. ed.
+?@2268 1SRet is
+?@2847 The fury of the popish clergy. Ant, ed. Our spiritual will not obey rulers, but curse them for doing right, Ww. 4 i
+?@3729 J J
+
+== leaf 199 | 118 THE PARABLE OF | margin left | draft
+ @465 Acts x.
+ @798 God looketh first on the heart. W. T.
+ @914 Gen. iv.
+ @1536 Prayer is the fruit of faith. Ant. ed.
+?@1789 Alms 1.
+ @1861 Lively faith is not without works. Ant. ed.
+?@3107 Faith maketh us at one with God. Ant. ed.
+?@3281 Faith prayeth always and in all places. Ant. ed. The manner of praying of misbelievers. = Wo. Ts
+
+== leaf 200 | THE WICKED MAMMON. 119 | margin right | draft
+ @915 The prayer of faith. W. T.
+ @1316 Faith justifieth. W. T.
+ @1653 James i.
+ @1811 The law of liberty. W. T.
+?@2054 The preaching of the law bindeth, but the preaching of the gospel gees se Ts
+?@2639 Not the hearing, but the gong of the law declareth blessedness. W. T.
+ @2963 James ii,
+ @3368 James iis
+
+== leaf 201 | 120 THE PARABLE OF | margin left | draft
+ @1403 Heb. xi.
+ @1573 Faith is the goodness of all the deeds that are done within the law of God. Ant. ed.
+ @1981 James ii.
+ @2232 James ii.
+ @2887 James i.
+ @2925 In believing the word are we made the sons of God. W. T.
+ @3618 An example. Ant. ed.
+
+== leaf 202 | THE WICKED MAMMON. 121 | margin right | draft
+ @1565 Turks have no faith, and yet know there is a God. Ant. ed.
+ @2471 Another example. W. T.
+?@2881 John Hani shewed the people their diseases by the law, and then sent them to Christ to be healed. W. T.
+
+== leaf 203 | 122 THE PARABLE OF | margin left | draft
+ @754 Sins that are accounted no sins.
+ @1247 Faithless fruits. Ant. ed.
+?@1578 How these are disobedient unto the righteous- ness of the law, and unto the truth of God are faithless. W. T.
+
+== leaf 204 | THE WICKED MAMMON. 123 | margin right | draft
+ @1088 Rom. x.
+?@1253 He raised Christ for our salvation Wii Ts
+ @1671 Pharaoh confessed his sins. Ant. ed.
+ @2497 The preachers of the true gospel ought to be heard,though they live naughtily. W. T.
+
+== leaf 205 | 124 THE PARABLE OF | margin left | draft
+ @413 The devils confessed Christ to be the Son of God. Ant. ed.
+ @1153 Acts viii.
+?@1193 Simon Magus's faith, Ant. ed.
+ @1805 Our spiritualty are the successors of Simon, not Peter. W. T.
+ @2135 2 Pet. ii.
+?@2618 1 Cor. i. iii.
+
+== leaf 206 | THE WICKED MAMMON. 125 | margin right | draft
+ @560 An epitome, or brief recital, of that which is entreated of before.
+
+== leaf 207 | (no running head) | margin none found | draft
+
+== leaf 210 | [INTRODUCTORY NOTICE. | margin none found | draft
+
+== leaf 211 | (no running head) | margin none found | draft
+
+== leaf 212 | WILLIAM TYNDALE, OTHERWISE CALLED HITCHINS, TO THE READER. | margin right | draft
+?@1737 The nature of God’s word is to be persecuted WE,
+ @2317 The pope is received, and receiveth,and persecuteth. W. T.
+
+== leaf 213 | 132 OBEDIENCE OF A CHRISTIAN MAN. | margin left | draft
+ @1143 Love of the world is hatred of God and his holy gospel. Ant. ed.
+
+== leaf 214 | PREFACE TO THE READER. 133 | margin right | draft
+ @475 Joh. xv,
+ @889 God defendeth his doctrine himself. W. T.
+ @1321 Rom, xv
+?@1488 God’s word figchteth against hypocrites. W. T.
+ @1822 How our master Christ was entreated: W. T.
+?@2228 The craft of the hypo- critess W. T.
+ @2400 John ix.
+ @2974 Deut. xxi.
+
+== leaf 215 | (no running head) | margin left | draft
+ @1210 John xix.
+ @1799 God’s truth worketh wonders, and maketh the wisdom of the hypocrites foolishness. W. T.
+?@2211 The captivit of the fal
+ @2288 ites under Pharaoh. W. T.
+ @2697 If God be with us, who can be against us? Ant. ed.
+ @2938 Pharaoh slayeth the men children. W. T.
+ @3273 Acts iv.
+
+== leaf 216 | PREFACE TO THE READER. 135 | margin right | draft
+ @879 How Moses comforteth the Israelites. W. T.
+?@1135 God’s truth fighteth for BU SER WERE
+ @2047 Matt. xxviii.
+ @2467 God trieth the faith of his children. W. T.
+ @3198 God worketh backward. W. T.
+
+== leaf 217 | (no running head) | margin left | draft
+?@1195 Joseph. Israclites. David. How bishops instruct Kings. W. T.
+
+== leaf 218 | PREFACE TO THE READER. 137 | margin right | draft
+ @799 Whereunto a Christian is called. W. T.
+?@1223 Our fighting is to suffer, while God fighteth for ST VVERIR
+ @1415 John xx.
+ @1473 John xv.
+ @1556 Matt. x.
+ @1966 The wisdom of the serpent. W. T.
+ @3208 Luke xiv.
+
+== leaf 219 | (no running head) | margin left | draft
+ @389 He maketh a mock of himself, that casteth not the end ere he begin. W. T.
+ @656 Matt. vi.
+ @709 How is the pope sure, which taketh all for Christ’s sake, but forsaketh nought W. T.
+?@1055 Tribulation is our bap- tise WaT.
+ @1217 Rom. vi.
+ @1548 Tribulation is a blessing. W. T.
+ @1663 Matt. v.
+?@2112 Prosperity is a curse. AE
+ @2225 Luke vi.
+?@2935 Tribulation is the gift of God SWC,
+ @3095 Acts v.
+?@3264 2 Nims,
+?@3342 Phils
+ @3666 1 Pet, iv.
+
+== leaf 220 | PREFACE TO THE READER. 139 | margin right | draft
+ @822 Rom. v.
+?@985 Whereby, then, are the pope and bishops sure ? Ant. ed.
+ @1177 2 Cor. xii.
+ @1320 The weaker to the world, the stronger to Christ. Ant. ed.
+ @2063 Weakness of the flesh is the strength of the Spirit. W. T.
+ @2254 Flesh. W. T.
+ @2645 In two things we are put to our choice. W. T.
+
+== leaf 221 | (no running head) | margin left | draft
+?@381 The difference hetween the children of God and of the devil. We To
+?@1294 The devil's wages. W. T.
+ @1544 Heb. xii.
+ @1705 All God’s children are under chastising. W. T.
+?@2775 ‘Which way go the ishops to heaven then? W. T.
+ @3519 The tyrants have not power to do what they would. W. T.
+
+== leaf 222 | PREFACE TO THE READER. 141 | margin right | draft
+?@1239 The promises of God are comfortable, yea, they are all comfort. W. T.
+ @1500 Matt. v. & x.
+?@1662 Psi:
+ @1751 Ps. xxxiii.
+?@2078 Psi xxiv:
+ @2667 Matt. x.
+ @3080 Matt. x.
+ @3325 1 Pet. v.
+?@3408 IRCor x: Palys
+ @3647 A Christian man’s care. W. T.
+
+== leaf 223 | (no running head) | margin left | draft
+?@1633 The de- spisers, persecutors, and they that fall from the word, are threatened. W. T.
+ @2464 Noah, Lot, Moses, and Aaron. W. T.
+ @2872 The prophets. W. T.
+ @3127 Christ. W. T.
+ @3545 Gildas. W. T.
+
+== leaf 224 | PREFACE TO THE HEADER. 143 | margin right | draft
+?@396 They be {ip that is devilish ; for the devil is a spirit. W. T.
+ @1309 Matt. x.
+ @1390 We must in no case deny Christ. Ant. ed.
+ @1543 Mark viii.
+ @1725 Luke ix,
+ @1975 God receiveth them that come again. W. T.
+
+== leaf 225 | 144 OBEDIENCE OF A CHRISTIAN MAN. | margin left | draft
+ @552 Why God letteth his elect fall. W. T.
+?@1387 That the ete ought to be in the English tongue. W. T.
+
+== leaf 226 | PREFACE TO THE READER. 145 | margin right | draft
+ @947 John viii.
+ @1033 ‘Whet them on thy children; that is, exercise thy children in them, and put them in use. Ant. ed.
+ @1340 Deut. vi.
+
+== leaf 227 | (no running head) | margin left | draft
+?@421 No, nor Sir John his gho-tly children. W. T.
+ @575 Deut, xi.
+ @1665 Holy days. W. T.
+?@1836 Our schoolmasters take gen wages, ut teach not. W. T.
+ @2421 ‘Why the preachers are not believed, when they say truth. W. T.
+ @2750 The curates wot not what a bible meaneth, W. T.
+ @3402 The priests understand no Latin. W. T.
+?@3623 Search the scriptures. W. T.
+ @3736 John v.
+
+== leaf 228 | PREFACE TO THE READER. 147 | margin right | draft
+ @531 Acts xvii,
+?@2119 Against- Christ is known by his deeds. W. T.
+ @2366 A several kingdom. W. T.
+ @2481 Several laws. W. T.
+?@2609 What Christ i free- the pope Badein 13
+ @2763 loose it again for money. W. T.
+ @2879 A secret council, W. T.
+
+== leaf 229 | (no running head) | margin left | draft
+ @686 Parson. W. T.
+ @1020 Parish Priest.
+ @2680 The properties of the Hebrew
+
+== leaf 230 | PREFACE TO THE READER. 149 | margin right | draft
+?@427 Some agree with the English. W. T.
+ @1272 King Adelstone. W. T.
+?@1601 Contrary preaciins; W. T.
+?@1923 he doctors. \W.T,
+
+== leaf 231 | (no running head) | margin none found | draft
+
+== leaf 232 | PREFACE TO THE READER. 151 | margin none found | draft
+
+== leaf 233 | (no running head) | margin none found | draft
+
+== leaf 234 | PREFACE TO THE READER. 153 | margin none found | draft
+
+== leaf 235 | (no running head) | margin left | draft
+ @916 Antichrist turneth the roots of the tree upward. W. T.
+?@1488 The scripture is the trial of all doctrine, and the right touchstone. W. T.
+ @2227 Philosophy. W. T.
+ @2315 Aristotle, W. T.
+
+== leaf 236 | PREFACE TO THE READER. 155 | margin right | draft
+ @497 Scripture. W. T.
+?@827 Aristotle. BVA bs
+ @987 Paul. W. T.
+ @1399 Aristotle. W. T.
+?@2065 Seripture. W. T.
+?@2486 Philosophy. Paul. W. Ta.
+ @2564 Col. ii.
+
+== leaf 237 | (no running head) | margin left | draft
+ @735 ‘When no man will teach, if we desire, God will teach. W. T.
+ @1400 The order of teaching. W. T.
+?@3564 The disorder, or overthwart order of our schoolmen. W. T.
+
+== leaf 238 | 1'ltElACE TO THE HEADER. 157 | margin right | draft
+?@502 The school doctrine, as they call it, corrupteth the judgments of youth. W. T.
+ @975  W. T.
+?@993 Dreams. € js
+
+== leaf 239 | 158 OBEDIENCE OF A CHRISTIAN MAN. | margin left | draft
+?@1077 School divi- a Yo ate
+?@1241 Yet in this they all agree, that no man is saved 5 Christ, but by holy works; and that Christ hath given up his Godhead to the fore and all 1is power and that the pope may give Christ's merits to whom he will, and take them from whom he will. W. T.
+
+== leaf 240 | PREFACE TO THE READER. 159 | margin none found | draft
+
+== leaf 241 | (no running head) | margin left | draft
+ @416 False similitudes. W. T.
+?@585 Man's wisdom heresy. W. T.
+ @841 Coats. W. T.
+ @1167 Place. W. T.
+ @1257 One religion js holier than another. W. T.
+?@1416 Man’s wisdom is idola- EV WiiDs ‘What God is. W. T.
+ @1914 Joh. viii,
+?@2251 Ps. iexixe
+ @2406 Then think the papists their wicked life will shew itself to their shame and confusion. Ant. ed.
+
+== leaf 242 | PREFACE TO THE READER. 161 | margin right | draft
+?@804 je pope
+?@897 licensed the people to read and say what they would, save the truth. Ant. ed.
+?@1194 Read what thou le yea, and say what thou wilt, save the truth. W. T.
+ @1507 Eph. v.
+ @2247 But the one forbiddeth not their pomp and belly-cheer, as the other doth. Ant. ed.
+
+== leaf 243 | (no running head) | margin none found | draft
+
+== leaf 244 | THE PROLOGUE. 1G3 The Prologue unto the Book. | margin right | draft
+?@963 Prelates not professors, but profaners of God’s word. Ant.ed,
+ @1542 The obedience of monks and friars is not here. For they are not of God, but of their own feigning. W. T.
+ @1958 The hypocrites lay that to God’s word which they themselves are cause of. W. T.
+ @2451 God warneth ere he strike. W. T.
+?@3188 When God punishetn the idolatry of the hypocrites, then say they, that new learning is the cause thereof, W. T.
+ @3568 Jer, xliv
+
+== leaf 245 | (no running head) | margin left | draft
+ @938 Christ was accused of insurrection. W. T.
+ @1106 Luke xxiii.
+?@2083 Why trouble followeth the as in of the gospel. W. T.
+ @2564 Matt. xiii.
+
+== leaf 246 | THE PROLOGUE. 165 | margin right | draft
+ @670 Luke xii.
+?@707 Christ's flock a little flock. W. T.
+?@852 As our prelates do not take their vocation to seek God's glory and honour, but to live easily, and promote themselves to dignity. Ant. ed.
+ @1518 Joh. vi.
+ @1762 Liberty.
+ @2667 God destroyeth one wicked with another. W. T.
+?@2914 God's word is not the cause of evil. W. T.
+ @3649 Matt. xxvi.
+ @3730 Matt. xxi.
+
+== leaf 247 | (no running head) | margin left | draft
+ @532 Luke xx.
+ @697 Christ’s disciples were long weak and worldly minded. W. T.
+ @926 Matt. xxvi.
+ @1022 Luke ix.
+ @1195  W. T.
+?@1256 The pope's
+ @1332 causeth, yea, commandeth murder. Ant. ed.
+ @3240 The pope’s doctrine is bloody. W. T.
+
+== leaf 248 | THE PROLOGUE. 167 | margin right | draft
+?@426 Christ’s doctrine is posal 5th
+ @918 God avengeth his doctrine himself. W. T.
+?@1652 How a man ought to behave himself in reading of doctors, and also in the scripture. W. T.
+
+== leaf 249 | (no running head) | margin left | draft
+?@1672 Our fathers and mothers are to us in God's stead. W. T.
+ @1864 Exod. xx.
+?@2569 What we do to our fathers and mothers, that we do to God. W. T.
+?@3226 ~The reward of obedience. W. T.
+ @3389 Exod. xx.
+ @3467 The reward of disobedience. W. T.
+ @3630 Exod. xxi,
+
+== leaf 250 | OF CHILDREN TO THEIR ELDERS. 169 | margin right | draft
+?@589 Deut. xx1.
+?@1912 God avengeth disobedience himself, though the officer will not\WEED.
+ @2823 Marriage. W. T.
+?@2912 1 Cor. vil.
+ @3078 Covetousness maketh our spiritualty, that they cannot see that which a Turk is ashamed of. W. T.
+
+== leaf 251 | 170 OBEDIENCE OF A CHRISTIAN MAN. | margin left | draft
+ @1642 God’s commandments break they through their own traditions. W. T.
+
+== leaf 252 | OF WIVES TO HUSBANDS. 171 | margin right | draft
+ @743 Money maketh merchandise. W. T.
+ @1228 Jugglers.
+ @1812 Gen. iii.
+ @2227 1 Pet. iii.
+ @2474 Marriage altereth the degree of nature. W. T.
+ @3140 Eph, W. T.
+
+== leaf 253 | (no running head) | margin left | draft
+ @725 The husband is to the wife in God’s stead. W. T.
+ @1292 Eph. vi.
+ @1703 1 Pet. ii.
+?@1947 In suffering wrongs len we follow the steps of Christ. Ant. ed.
+ @2531 The master is unto the servant in God’s stead. W. T.
+ @3183 Exod. xx.
+ @3356 Our spiritualty retain men’s servants, not to honour God, but their traditions and ceremonies only. W. T.
+
+== leaf 254 | OF SERVANTS TO MASTERS. 173 | margin right | draft
+?@843 Christ's doce- trine and the oe differ. HN If thy master please thee not, shave thyself a monk, a friar, or a priest. W. T.
+ @1422 To obey no man is a spiritual thing. W. T.
+ @2590 Rom. xiii.
+?@2921 Kings are chosen to suppress the
+
+== leaf 255 | 174 OBEDIENCE OF A CHRISTIAN MAN. | margin left | draft
+?@399 wicked and support the good. Ant. ed.
+ @2045 An apt similitude. Ant. ed.
+ @2466 Deut. xxxii.
+ @2621 Rom. xii.
+ @3358 Exod. xxii,
+
+== leaf 256 | OF SUBJECTS TO RULERS. 175 | margin right | draft
+ @430 Judges are called gods. W. T.
+ @1252 Blessing. W. T.
+ @1419 Lev. xviii.
+ @1500 Rom. x.
+ @1743 Curse. W. T.
+ @1994 God rewardeth all obedience ; though no man else do. W. T.
+ @2487 God avengeth all disobedience; though no man else do. W. T.
+
+== leaf 257 | (no running head) | margin left | draft
+ @484 Vengeance is God’s. W. T.
+ @599 Deut. xxxii.
+ @637 Matt. xxvi.
+ @1050 David. W. T.
+?@1473 1'Sam. XX1V.
+ @2888 God destroyeth one wicked by another. W. T.
+ @3202 1 Sam. xxvi.
+?@3365 God pro- videth a
+?@3444 means to take the evil out of the way, when they have fulfilled thelr
+ @3667 wickedness. W. T.
+
+== leaf 258 | OF SUBJECTS TO RULERS. 177 | margin right | draft
+ @826 Why David slew not Saul. W. T.
+?@990 [1 Sam. xxii.
+ @1082 The king is in the room of God in this world. W. T.
+ @1658 The king must be reserved unto the vengeance of God. W. T.
+?@1988 2 Sam. i. iv.
+ @2648 Luke xiii.
+ @3139 Matt. xxii.
+?@3178 It is not lawful for a Christian subject to resist his prince, though he be an heathen man. Ww. d bE
+
+== leaf 259 | (no running head) | margin left | draft
+ @1055 Kings must make account of their doings only to God. Ant. ed.
+?@2052 The king hath no poses but to iis damnation, to privilege the spiritualty to sin unpunished. W. T.
+
+== leaf 260 | OF SUBJECTS TO RULERS. 179 | margin right | draft
+?@2340 A king isa great benefit, though he be never so evil. W. T.
+
+== leaf 261 | (no running head) | margin left | draft
+?@1811 Princes are ordained to punish evil- doers. W. T.
+?@1984 The damnation of rinces. W. T.
+ @2221 Sanctuaries. W. T.
+ @2384 Neck- verse. W. T.
+
+== leaf 262 | OF SUBJECTS TO RULERS. 181 | margin right | draft
+?@697 Three na- ures. W. T.
+ @1205 What it is to look Moses in the face. Ant. ed.
+ @2202 Rom. ii.
+
+== leaf 263 | (no running head) | margin left | draft
+ @690 Heaven cometh by Christ. W. T.
+ @1277 A Christian man seeketh no more, but God's will. W. T.
+ @2238 Lusts. W. T.
+ @2833 Free will. W. T.
+ @3725 Worldly wit, W. T.
+
+== leaf 264 | OF SUBJECTS TO RULERS. 183 | margin right | draft
+ @541 The will is bond and led. W. T.
+?@1246 [Freedom.
+?@1321 i i
+?@1775 “All is sin that springeth not of the Spirit f God, and 11 that is not lone in the light of God’s word. W. TT.
+ @2520 So do our spiritualty in all their works. W. T.
+
+== leaf 265 | 184 OBEDIENCE OF A CHRISTIAN MAN. | margin left | draft
+?@1182 True miracles are wrought to confirm the preaching, and not the godhead of the piss er. N.-T.
+ @1524 Mark xvi.
+ @1672 Acts iv.
+ @1843 1 Cor. xiv.
+ @1997 Our hypocrites are blind. W. T.
+?@2742 The religious look upon the out side only. W. T.
+
+== leaf 266 | OF SUBJECTS TO RULERS. 185 | margin right | draft
+?@919 Pa
+?@1930 he spiritual an. W. T.
+?@2099 he natural ANE RV ETS
+ @2348 ear is the last remedy. W. T.
+?@2835 SE defend the false authority of the pope; their office, punishing of sin, laid apart. W. T.
+?@3162 Bishops minister the King’s duty, their own laid apart : yea rd persecute their own office. W. T.
+?@3313 laid apart : yea rd persecute their own office. W. T.
+
+== leaf 267 | (no running head) | margin left | draft
+ @731 Kings do but wait on the pope’s pleasure. W. T.
+ @976 The juggling of the pope. W. T.
+ @1092 John xviii.
+ @1144 Bishops of Almany. W. T.
+ @1629 Milan. W. T.
+ @1709 Bishops of France. W. T.
+?@1969 A cap of maintain- ance. W. T.
+?@2099 Most Christian king. Te
+
+== leaf 268 | OF SUBJECTS TO RULERS. 187 sT | margin right | draft
+?@431 Defender of ~the pope’s faith. AWE The eldest son of the holy seat. W. T.
+?@724 Blasing of arms. W. T.
+ @815 The English bishops. W. T.
+ @944 The falsehood of the bishops. W. T.
+?@1420 O a cruel and an abominable example of tyrants. J ude them by their deeds, saith Christ. W. T..
+
+== leaf 269 | 188 OBEDIENCE OF A CHRISTIAN MAN. | margin left | draft
+?@737 The whore of Babylon. Aes 0,
+?@1070 Confession. W. T.
+ @1695 Matt. xxvi.
+ @2119 Not Peter only, but Christ also was under the temporal sword. W. T.
+ @2365 Matt, iii.
+?@2937 The kings sin In giving ex- ceptions, and the prelates In receiving them. W. T.
+
+== leaf 270 | (no running head) | margin right | draft
+ @406 Matt. xvii.
+ @2220 When the spiritualty payeth tribute. W. T.
+
+== leaf 271 | (no running head) | margin left | draft
+?@367 ote Ae jugglers. W. T.
+?@1859 They make noconscience at any evil- doing. W. T.
+?@2359 They care for their neg bour as the wolf doth for the sheep. W. T.
+ @2607 The evil ensample of the spiritualty causeth the lay to believe that they are not bound to obey. W. T.
+
+== leaf 272 | (no running head) | margin right | draft
+ @1075 There is no Christian love in them, W. T.
+?@1654 What purpose? even to flatter the prinees that they may abuse their authority, to slay whoso- ever believeth in Christ, and to maintain the pope. W. T.
+ @2978 Confession. W. T.
+?@3055 Prelates know all men’s secrets, and no man theirs. W. T.
+
+== leaf 273 | (no running head) | margin left | draft
+?@863 cu
+ @1213 Love fulfilleth the law before God, and not the outward deed. W. T.
+ @1797 Against workmen. W. T.
+?@2117 The deed fulfilleth the law before the world. W. T.
+ @2539 Faith maketh a man to love. W. T.
+ @3507 Justifying. W. T.
+ @3678 Rom. x.
+
+== leaf 274 | (no running head) | margin right | draft
+ @434 The office or duty of the law. W. T.
+ @754 ‘The believing of God’s promises justifieth, W. T.
+?@1016 Eph. i. iv.
+ @1098 2 Cor. v.
+ @1262 Rom. viii.
+ @1340 Gal. iii.
+ @1379 2 Cor. iii.
+ @1437 The Spirit and the inward virtues are known by the outward deed. W. T.
+ @2923 Rom. xii.
+?@3259 Overcome thine enemy with well- doing. W. T.
+
+== leaf 275 | (no running head) | margin left | draft
+ @650 The law. W. T.
+ @808 Exod. xx.
+ @1557 The King. W. T.
+ @1726 1 Sam. xii.
+ @2216 Rulers are God’s gift. W. T.
+ @2469 Why the rulers are evil. W. T.
+?@3299 Ps. evii.
+
+== leaf 276 | 195 | margin right | draft
+ @431 Psal. cv.
+ @470 Deut. iii.
+ @596 2 Sam. xxiv.
+?@1257 Evil rulers are a sign that God is angry with us, W. T.
+ @2671 Why the prelates are so wicked. W. T.
+ @3255 2 Thess. ii.
+
+== leaf 277 | (no running head) | margin left | draft
+?@485 The cause of false miracles is, that we have no lust unto the truths WoT.
+ @893 Exod. vii.
+ @933 viii.
+?@1558 The right way to come off’ bondage. W. T.
+ @2796 Evil rulers ought not to be resisted. Ant. ed.
+
+== leaf 278 | (no running head) | margin right | draft
+?@607 God is always one, always y true, always merciful, and excludeth no man from his promises. W. T.
+ @1767 A christian man doth but suffer only. W. T.
+ @2684 Evil rulers are wholesome medicines. W. T.
+ @3085 A christian man receiveth. W. T.
+ @3672 How profitable adversity is. W. T.
+
+== leaf 279 | (no running head) | margin left | draft
+ @885 Matt. xix.
+?@1985 The greatest sinner is righteous in Christ and the promises. And the per- fectest and holiest is a sinner in the law and the flesh. W. T.
+
+== leaf 280 | OFFICE OF A FATHER. 199 | margin right | draft
+?@760 Rigour in parents towards their children is to "be eschewed, Ant. ed.
+ @993 Eph. vi.
+ @1032 Col. iii.
+?@1422 The right bringing up of pete W. T.
+?@1536 CWT
+?@2335 The destrue- tion and marring of children. W. T.
+?@3322 A The marriage of children without consent of their parents is un- awful. Ant. ed.
+
+== leaf 281 | (no running head) | margin left | draft
+ @794 In Christ we are all servants, and he that hath knowledge is bound, W. T.
+ @2023 Eph. v.
+ @2516 Col. iii.
+ @2673 1 Pet. iii.
+?@2712 Men op to rule their wives by God’s word. W. T.
+?@3085 ‘Why the man is stronger than the woman. W. T.
+
+== leaf 282 | (no running head) | margin right | draft
+ @1130 Eph. vi.
+ @2026 Col. iv.
+?@2280 Tezch thy servant to know Christ and after Christ’s doctrine deal with him. W. T.
+ @2614 Do all things with God’s word. W. T.
+?@3517 Lines
+ @3605 should raise no rents, nor bring up new customs. Ant. ed.
+
+== leaf 283 | (no running head) | margin left | draft
+ @549 God gave the earth to men. W. T.
+ @1717 Landlords should withstand the wrong of the tenants. Ant. ed.
+ @3114 There is no respect of person afore God. Ant. ed.
+
+== leaf 284 | (no running head) | margin right | draft
+ @1068 Deut. i.
+ @1389 Moses. W. T.
+ @1977 Judges. W. T.
+?@2569 tyranny to compela man to accuse imself. W. T.
+ @2810 Matt. xxvi.
+ @2849 Our prelates learned of Caiphas. W. T.
+ @3022 Secret sins pertain unto God to punish, and open sins unto the king. W. T.
+ @3394 Deut. xvii.
+ @3433 Partiality in judges is wicked. Ant. ed.
+
+== leaf 285 | (no running head) | margin left | draft
+?@2129 Partiality and bribe- taking is the pestilence of Judges. Ant. ed.
+ @2710  W. T.
+?@2750 pride, and contempt of subjects, are the pestilence of princes. Ant. ed.
+ @3609 Vain names. W. T.
+
+== leaf 286 | (no running head) | margin right | draft
+ @760 The holy father looseth peace and unity, truce, truth, and all honesty. W. T.
+ @1028 Matt. v.
+ @1509 What the keys are, and why they are so called. W. T.
+ @1918 Luke xi.
+?@2337 Matt. xxiit.
+?@2420 The keys are promise W. T.
+ @2534 Matt. xvi.
+ @2592 The keys are paid. W. T.
+ @2670 John xx.
+ @2708 To bind and loose. W. T.
+ @2918 Luke xxiv.
+?@3250 Repentance and forgiveness come by preaching. : W. T.
+?@3505 Peter pons tiseth his keys.. W. T.
+
+== leaf 287 | (no running head) | margin left | draft
+?@1058 The pope's oy is to preac God's word only. W. T.
+?@1734 Beware of the net, and of the leaven, and of the counterfeit ow of our holy father. W. T.
+?@2222 Not with an heretic, saith the pope. wr
+ @2474 Unlawful W. T.
+ @2552 oaths, men are commanded to break. W. T.
+
+== leaf 288 | (no running head) | margin right | draft
+ @415 Bishops. W. T.
+ @579 John xviii.
+ @659 Luke xii.
+ @738 Behold the face of the pope and of the bishops in this glass, W. T.
+ @968 Luke ix.
+ @1073 Matt. vi.
+?@1142 Ll
+ @1983 Acts vi.
+ @2148 Cor. ix.
+ @2407 Peter’s patrimony. W. T.
+ @2651 The pope’s authority is improved. W. T.
+ @2804 Matt. xviii,
+?@2851 [Xe Mark ix. x. Luke ix. xxii.
+?@3141 Bishops have captived God’s word with their own decrees. Yio i
+
+== leaf 289 | (no running head) | margin left | draft
+?@969 \ ¢ Rochester. TEA 8
+ @2049 They walk in shadows. W. T.
+
+== leaf 290 | (no running head) | margin right | draft
+?@400 Aaron is every true pare ea De
+ @813 Exod. iv. vii.
+ @1400 Aaron representeth Christ. W. T.
+ @2639 Aaron addeth nothing to Moses’s law. W. T.
+
+== leaf 291 | (no running head) | margin left | draft
+ @381 2 Cor. iV.
+?@417 The apostles ri not eter, but Christ. W. T.
+ @626 1 Cor. iii.
+ @1036 1 Cor. iv.
+ @1448 2 Cor. xi.
+ @2446 Paul is greater than the high apostles.
+ @2865 Paul is greater than Peter. W. T.
+?@3110 Paul proveth his apostleship with preaching and suffering: the bishops prove their apostleship with bulis and shadows. W. T.
+
+== leaf 292 | (no running head) | margin right | draft
+?@578 The apostles were sent of Christ with like autho- T16V. BRVVER
+?@826 Cora:
+ @914 1 Cor. Xi
+ @952 Gal. i.
+ @1242 Gal. ii.
+ @1402 1 Tim. i.
+?@1441 J ohn xx.
+ @2153 Matt. xxviii.
+ @2482 The authority that Christ gave was to preach Christ’s word. W. T.
+
+== leaf 293 | (no running head) | margin left | draft
+ @2131 ‘Why bishops make them a God on earth. W. T.
+ @2380 Aaron made a calf ; and the pope maketh bulls. W. T.
+
+== leaf 294 | (no running head) | margin right | draft
+ @418 Cor, Xi.
+?@455 The shaven nation hath put Christ “out of his room, and all kings, and the emperor. W. T.
+ @1080 Christ is but a vain name. W. T.
+ @1243 Proper ministers. W. T.
+?@1818 Rochester is proved both ignorant and malicious. W. T.
+ @2968 The epistles of Paul are the gospel. W. T.
+ @3135 Rom. ii.
+ @3218 1Cor. iv.
+ @3257 Gal. i.
+?@3295 IT imti
+ @3387 What gospel signifieth, W. T.
+
+== leaf 295 | (no running head) | margin left | draft
+ @969 One gospel, one Spirit, one truth. W. T.
+ @1222 The authority of Paul and of his gospel. W. T.
+?@2134 Rochester playeth bo- peep. W. T.
+ @2373 Heb. x.
+?@2867 TVEIm: 1V.
+ @3437 Never man forbad to marry, save the pope W. T.
+ @3688 Rom. xiv.
+
+== leaf 296 | (no running head) | margin right | draft
+ @1080 2 Thess. ii.
+?@2551 The cause rh they will not have the scripture in English. W. T.
+
+== leaf 297 | (no running head) | margin left | draft
+ @706 Tully chief of orators. W. T.
+
+== leaf 298 | (no running head) | margin none found | draft
+
+== leaf 299 | (no running head) | margin left | draft
+?@798 Rochester allegeth Paul for his blind ceremonies, ited) to Paul’s doe- rine Winns
+ @1066 2 Thess. ii.
+
+== leaf 300 | (no running head) | margin right | draft
+ @1322 It is not lawful for us to tell what prayer is, what fasting is, or wherefore it serveth. W. T.
+ @2239 Pain of cursing, damnation, and so forth. W. T.
+ @2475 1 Cor. vii.
+ @3057 If Paul had none authority, then had Peter none : where had then the pope this authority ? W. T.
+ @3639 Rochester is improved. W. T.
+
+== leaf 301 | (no running head) | margin left | draft
+ @722 Eph. v.
+?@1637 Wherefore the spiritual officers are ordained. W. T.
+ @1827 Eph. iv.
+?@2217 Rochester allegeth heretics for his i for ack of scripture. W. T.
+?@2616 Robin Hood is of authority Saoggh to prove the ope. withal.
+
+== leaf 302 | (no running head) | margin right | draft
+ @1490 Rochester is an orator. W. T.
+ @2237 Rochester is clean beside himself, W. T.
+ @2818 Gal. v.
+ @2961 If Rochester be such a juggler, what suppose ye of
+
+== leaf 303 | 222 OBEDIENCE OF A CHRISTIAN MAN. | margin left | draft
+ @403 the rest? Let Rochester be an example, therefore, to judge them all.” W. T.
+ @1317 Faith is the root ; and love springeth of faith, W. T.
+ @1507 1 Joh. iii.
+ @1566 John i.
+ @1811 Gal. iii.
+ @1963 1 John iii.
+ @2292 1 John iv.
+ @2974 Rom. viii.
+?@3060 Though Rochester have not the * Spirit to judge spiritual things, yet ought reason to have kept him from so shameful
+
+== leaf 304 | (no running head) | margin right | draft
+?@406 ying. But {God hath linded him, o bring heir false- ood to light. W. T.
+ @748 Gal. v.
+?@1487 contro-
+?@1950 versybetween James and Raul SWS Re
+ @2241 Why devils have none of Paul’s faith, nor sinners that repent not. W. T.
+ @2485 Rom. x.
+
+== leaf 305 | (no running head) | margin left | draft
+ @473 A man may believe that Christ died, and many other things, and not believe in Christ. W. T.
+?@972 What it is to believe in Christ. W. T.
+ @2207 Why laymen cannot rule. W. T.
+ @3038 Men fear the pope’s oil more than God’s commandment. Ant. ed.
+
+== leaf 306 | (no running head) | margin right | draft
+ @1663 Acts xix,
+ @1743 Faith driveth the devils away. W. T.
+ @1858 Matt. xvi.
+
+== leaf 307 | (no running head) | margin left | draft
+?@393 Why do not the bishops make him flee from shooting of guns? W.T.
+ @1057 Ceremonies did not the miracle, but faith. W. T.
+ @2040 Let them tell what the ceremony meaneth. W. T.
+?@2459 The priest disguiseth himself with the flop of Christ. W. T.
+ @2953 Dumb ceremonies quench faith and love, and make the infidels to mock us. W. T.
+
+== leaf 308 | (no running head) | margin right | draft
+?@815 The prophecy of Chris is
+ @892 fulfilled. W. T.
+ @969 Mark xiii.
+ @1007 Luke xxi.
+ @1643 The testament of the Observants. Ant. ed.
+ @2310 Matt. xxiv.
+ @2349 Mark xiii.
+?@2401 False anointed. ‘W..'E;
+
+== leaf 309 | (no running head) | margin left | draft
+ @393 2 Tim. iii.
+?@640 Christ's prophecy, be it never so terrible, must be yet fulfilled. W. T.
+ @1042 Christ was neither shaven nor shorn, nor anointed with oil. W. T.
+?@2288 He that doth aught to make satisfaction, or to get heaven, hath lost his part of Christ's blood. W. T.
+ @3119 1 Joh. iv.
+ @3202 To our neighbour make we amends. W. T.
+
+== leaf 310 | (no running head) | margin right | draft
+ @414 The apostles were neither shaven nor shorn, nor anointed with oil, W. T.
+ @991 Bishop, an overseer, W. T.
+?@1107 The true anointing of a prie:t. W. T.
+ @1826 This oil is not among our bishops. W. T.
+
+== leaf 311 | (no running head) | margin left | draft
+ @1400 Priests ought to have wives ; and why. W. T.
+?@2066 What the priest's duty 1s to do: and what to have. W. T.
+ @2477 Men are not bound to pay the priest in tithes, by God’s law. W. T.
+ @2802 Deacon, what it signifieth, and what is his office. W. T.
+ @2993 Acts vi.
+
+== leaf 312 | (no running head) | margin right | draft
+ @496 No beggars. W. T.
+ @668 How holy days and offerings came up. W. T.
+ @1160 Saints were not yet gods. W. T.
+?@2156 ‘Why lands were given unto the spiritual officers before we fell from the faith. W. T.
+
+== leaf 313 | (no running head) | margin left | draft
+?@651 False anoint- edt AV: T.
+?@982 Shaving is borrowed of the heathen, and oil ing of the Jews. W. T.
+ @1318 False names. W. T.
+ @1394 2 Thess. ii.
+?@1433 Lving signs. W. T.
+ @1898 No wife but a whore. W. T.
+ @2054 Take a dispensation. W. T.
+?@2224 Knaveate. W. T.
+ @2635 1 Pet. iii.
+ @2874 Boots. W. T.
+
+== leaf 314 | ANTICHRIST. 233 | margin right | draft
+ @571 Mitres. W. T.
+ @814 Cite them. W. T.
+ @904 Pose them. W. T.
+ @1156 Make them heretics. W. T.
+ @1272 Burn them. W. T.
+ @2222 Curse them. W. T.
+ @2386 Fear them. W. T.
+
+== leaf 315 | (no running head) | margin left | draft
+ @880 All in Latin. W. T.
+ @971 Roll them. W. T.
+ @1057 Sing. W. T.
+ @1126 Ring. W. T.
+?@1164 Lull them. W. T.
+ @1240 Rock them asleep. W. T.
+ @1316 1 Cor. xiv.
+ @1955 Pray in Latin. W. T.
+ @2041 Say them a gospel. W. T.
+ @2859 What quoth my lord of Canterbury W. T.
+ @3190 Cross. W. T.
+ @3435 Turmoilers. W. T.
+
+== leaf 316 | ANTICHRIST. 235 | margin right | draft
+ @644 The craft of the prelates. W. T.
+ @1235 Interdict. W. T.
+?@1485 14 Rattv:
+ @1811 Peter went never to school at the Arches. W. T.
+?@2145 o one
+ @2309 The pope
+?@2385 kingdom more than God himself. We To
+ @2723 Shearing, what it signifieth. W. T.
+
+== leaf 317 | (no running head) | margin left | draft
+?@623 Tot quot. W. T.
+ @956 Bishops that reach not. W. T.
+ @1781 Tithes. W. T.
+ @1945 Temporal lands. W. T.
+ @2366 Free chapel. W. T.
+
+== leaf 318 | ANTICHRIST. 237 | margin right | draft
+?@499 Testaments. W. T.
+ @591 Offering days W. T.
+ @669 Privy tithes. W. T.
+ @1081 Mortuaries. W. T.
+ @1753 If ye die from home. W. T.
+ @2083 Thou must pay ere thou pass. W. T.
+?@2331 Petty pillage. IVs
+ @2740 Confession. W. T.
+
+== leaf 319 | (no running head) | margin left | draft
+?@549 First mass. Professings. W. T.
+ @719 Conjurations. W. T.
+ @1222 Parson. W. T.
+ @1298 Parish priest. Friars, W. T.
+ @1475 Spiritual law. W. T.
+?@1717 A proper commodity of confession. W. T.
+ @2220 Lay your hand on the book. W. T.
+
+== leaf 320 | ANTICHRIST. 239 | margin right | draft
+ @984 Acts xX.
+ @1398 No man may avenge save the king, and he is bound by his office. W. T.
+ @2059 Kings are in captivity. W. T.
+ @3469 The duly of kings. W. T.
+
+== leaf 321 | (no running head) | margin left | draft
+?@260 FJ
+?@723 Unlawful oaths ought to be broken; and may, without dis- geno: 4 a The king only ought to punish sin : I mean that is broken forth. The heart must remain to God. . 'W. T.
+?@1504 J i
+ @1971 The Spirit pertaineth unto the shaven only. W. T.
+?@3037 The king's law is God's law. W. T.
+ @3677 How men ought to
+
+== leaf 322 | ANTICHRIST. 241 | margin right | draft
+?@428 judge ques- ions of the cripture. od 1
+ @928 ‘We come oft to school, but are never taught. W. T.
+ @1253 Kings ought to see what they do, and not to believe the bishops, namely, seeing their living is so sore suspect. W. T.
+?@1832 It pertaineth unto all men to know the cis tures. 595s
+ @2087 John v.
+ @2126 Matt. xi.
+
+== leaf 323 | (no running head) | margin left | draft
+?@512 Be legac
+ @772 ye that judge the earth. W. T.
+?@887 Ps. 1i.
+?@1320 The kings are become Antichrist’s haingmen. W. T.
+?@2733 Be learned ye that judge the earth. W. T.
+ @2986 ‘Who slew the prophets? W. T.
+?@3390 Why were the prophets slain? W. T.
+ @3579 ‘What deeds of mercy teach the hypocrites W. T.
+
+== leaf 324 | ANTICHRIST. 243 | margin right | draft
+ @614  W. T.
+ @654 they Christ? W. T.
+ @730 Matt. xxiii.
+ @868 Luke xi.
+ @1032 The keys. W. T.
+?@1361 Christ is a traitor and a breaker of the king’s peace. W. T.
+ @1607 How the hypocrites bind and loose. W. T.
+ @2930 Be learned ye that judge the earth. W. T.
+ @3174 For rebuking this was Christ slain, And for the same cause are we persecuted. W. T.
+ @3442 Matt. xxiii.
+
+== leaf 325 | (no running head) | margin left | draft
+?@502 They be not y a little afraid of purgatory that make Pere itios: . ks
+ @1079 Why it is called purgatory. W. T.
+?@1332 Scala ceeli, W. T.
+?@1408 The door is stopped up: ye must climb and scale the walls. W. T.
+?@1622 Some are prayed for, and praved to also. W. T.
+ @1820 The craft, that helpeth other, helpeth not his own master. W. T.
+ @2069 Numb. xvi.
+ @2154 Numeri xvi.
+ @2236 1 Sam. xii.
+ @2327 Prayer was not sold in the old time. W. T.
+ @2657 1 Pet. v.
+ @2818 Acts xx.
+
+== leaf 326 | ANTICHRIST. 245 | margin right | draft
+?@1103 Their prayer breaketh the great commandment of God. It is time that they were tied up therefore. W. T.
+ @1765 Luke xi.
+ @2012 The burdens of our spiritual lawyers. W. T.
+?@2417 Confession tormenteth the conscience, robbeth the ve purse of money, and the soul of faith. W. T.
+
+== leaf 327 | (no running head) | margin left | draft
+ @1980 Matt. xxiii.
+?@2552 } i Badges or baubles to be known by. W. T.
+ @2802 Glorious names. W. T.
+ @3127 How are they esteemed W. T.
+
+== leaf 328 | ANTICHRIST. 247 | margin right | draft
+?@860 Bi ‘Kings are down, they cannot go lower. W. T.
+ @2469 Matt. xxiii.
+?@2622 Our hypocrites live by theft WeEe
+ @3121 Matt. xxiii.
+?@3367 Consciences that are so narrow about traditions, have wide mouthsabout God’s commandments. IW'Es
+
+== leaf 329 | (no running head) | margin left | draft
+ @1367 John viii.
+?@1405 As the Jews are the children of Abraham, so are the bishops the successors of the apostles. W. T.
+ @2104 The spiritualty have taught to fear their traditions. W. T.
+
+== leaf 330 | ANTICHRIST. 240 | margin right | draft
+ @493 They win somewhat always. W. T.
+ @2391 John v.
+?@2429 They that seek honour have no faith, neither can they do God’s message. W. T.
+ @2695 John vii.
+ @3205 ‘Be learned. W. T.
+?@3498 ats word
+?@3579 ought all men to Know. W. T.
+
+== leaf 331 | (no running head) | margin left | draft
+ @451 They do all secretly, W. T.
+ @873 God’s word ought to judge. W. T.
+?@1039 The right way to understand the seripture. W. T.
+?@1866 The kings have a judge, before whom “my soul for yours’ helpeth not. W. T.
+?@2936 Preach what thou wilt, but Feb oir ypocrisy. W. T.
+
+== leaf 332 | ANTICHRIST. 251 | margin right | draft
+ @2666 he prelates re clothed in red. W. T.
+ @3155 Poleaxes. W. T.
+
+== leaf 333 | 252 OBEDIENCE OF A CHRISTIAN MAN. | margin left | draft
+?@816 Judge the tree ¢ by his fruit, and not by his leaves. W. T.
+ @1888 John xi.
+ @2050 John xii.
+ @2212 Sacraments are signs of God’s promises. W. T.
+ @3175 Luke xxii:
+ @3333 1 Cor. xi.
+?@3408 The promise, which the sacrament preacheth, Jjustifieth only. W. T.
+
+== leaf 334 | (no running head) | margin right | draft
+ @2161 Acts ii.
+ @2413 Eph. v.
+ @2491 the
+ @2616 sacraments justify. W. T.
+
+== leaf 335 | (no running head) | margin left | draft
+ @1006 Matrimony was not ordained to signify any W. T.
+?@1169 romise,
+ @2414 If wedlock be holy, why had they lever have whores than wives? W.T.
+
+== leaf 336 | OF ORDER. 255 | margin right | draft
+ @931 Character. W. T.
+ @1263 Sacerdos. W. T.
+
+== leaf 337 | (no running head) | margin left | draft
+ @928 Presbyter. W. T.
+ @1334 Priests now ought not to be anointed with oil. W. T.
+ @1997 The office of a priest. W. T.
+
+== leaf 338 | OF ORDER. 257 | margin right | draft
+?@731 They will be holier, but their deeds be not holy at all. W. T.
+ @1233 Acts xx.
+ @1477 2 Pet. ii.
+ @1516 Compare their deeds to the doctrine and deeds of Christ, and of his apostles; and judge their fruits. W. T.
+ @1857 1 Tim. vi.
+ @1895 Matt. vii.
+ @2306 John xxi.
+ @2384 1 Pet. v.
+ @2553 2 Cor. i.
+ @2798 Acts xx.
+
+== leaf 339 | (no running head) | margin left | draft
+ @972 ‘What blessing meaneth. W. T.
+ @1464 Gen. xxiv.
+ @1714 Gen, xxvii.
+ @1879 Gen, xxviii,
+
+== leaf 340 | OF ORDER. 259 | margin right | draft
+?@488 The commandment maketh |, pe os
+ @1145 Acts i.
+ @1648 Acts vi,
+?@1810 Sang on of hands. W. T.
+?@2794 ‘What Judas is now. W. T.
+
+== leaf 341 | (no running head) | margin left | draft
+?@601 i wa i H A point of gochee ak
+?@810 I ot bad W. T.
+?@1257 acs
+
+== leaf 342 | OF PENANCE. 2G1 | margin right | draft
+?@441 pentance.
+ @1670 Rom vi.
+ @1839 Repentance is signified by baptism, W. T.
+ @3318 One confession is to knowledge wherein thou puttest thy trust. W. T.
+
+== leaf 343 | (no running head) | margin left | draft
+ @576 Matt. x.
+ @825 Rom. x.
+ @2223 If when tyrants oppose thee, thou have power to confess, then art thou sure that thou art safe. W. T.
+ @2792 Another confession is to knowledge thy sins in thine heart unto God. W. T.
+ @3127 1 John i.
+
+== leaf 344 | OF CONFESSION. 263 | margin right | draft
+ @658 Shrift. W. T.
+?@1399 Shrift was pi down or knavery among the Greeks; but is stablished thereby among us. W. T.
+?@2634 How a man shall know hat his sins re forglyens
+
+== leaf 345 | (no running head) | margin left | draft
+ @634 Blind reason is their guide, and not God’s Spirit. W. T.
+?@2034 Team to know them for a are verily lepers in their hearts. W. T.
+ @2260 Luke xvii.
+
+== leaf 346 | OF CONFESSION. 265 | margin right | draft
+ @1659 Attrition is of the leaven of the Pharisees. W. T.
+ @1832 Matt. xvi.
+?@1915 Persie
+
+== leaf 347 | (no running head) | margin left | draft
+ @818 Matt. xviii.
+?@1553 ‘Whom aman offendeth, to him must he confess. W. T.
+?@2714 It hath no record in the sects that God should creep in, and hide himself, in antichrist’s ears W., T.
+
+== leaf 348 | OF SATISFACTION. 267 Satisfaction. | margin right | draft
+ @766 1 John iv.
+ @1184 Christ is an everlasting satisfaction. W. T.
+ @1514 Luke xv.
+ @2507 Baptism lasteth ever. W. T.
+ @3550 Rom. x.
+
+== leaf 349 | 2G8 OBEDIENCE OF A CHRISTIAN MAN. | margin left | draft
+ @914 Cor xiv.
+ @1825 John i.
+ @2485 Of binding and loosing, and of the pope’s authority or power. W. T.
+ @2718 Matt. xvi.
+ @2902 Matt. xxviii.
+?@3384 The pope challengeth power, not over man cil but over God also, W. T.
+
+== leaf 350 | OF ABSOLUTION. 260 | margin right | draft
+?@475 Purgatory is he pope’s reature: he nay therefore be bold here. W. T.
+?@722 I'he pope bindeth the angels. W. T.
+?@800 ngels. W. T.
+ @955 The true binding and loosing. W. T.
+ @1114 Cor. iii.
+ @1798 St Jerome against bishops and priests. W. T.
+ @2206 The curse is to be feared. W. T.
+?@2533 The right manner of loosing. W. T.
+
+== leaf 351 | (no running head) | margin left | draft
+ @1356 1 Cor. xv.
+?@1393 Christ understood this text, ‘All power is guyen me in eaven and in earth,” and also used it, far otherwise than the pope. W. T.
+ @1812 John xii,
+ @2676 ‘What authority Christ gave his apostles. W. T.
+
+== leaf 352 | OF ABSOLUTION. 271 | margin right | draft
+?@546 The right binding and lcosing. W. T.
+ @1538 How the pope reigneth under Christ. W. T.
+?@1875 A pena et culpa is a proper dream. W. T.
+ @2285 The pope is more mighty and more merciful, for money, than God is for the death of his only Son. W. T.
+ @2678 The merits of saints. W. T.
+ @2838 The merits of Christ. W. T.
+?@3000 The pope selleth that which God gc freely.
+
+== leaf 353 | (no running head) | margin left | draft
+ @691 Friars. W. T.
+?@861 Sin is the best merchandise that is. W. T.
+ @1265 John v.
+?@1428 Christ re phesied of antichrist, and told why he should come. W. T.
+ @1765 The promises are either put out, or leavened, and why. W. T.
+ @2023 All is in Latin. W. T.
+ @2520 The pope commandeth God to curse. W. T.
+ @2849 Rom. xii.
+
+== leaf 354 | OF ABSOLUTION. 273 | margin right | draft
+ @424 Matt. v.
+ @755 A custom that is used in the marches of Wales. W. T.
+ @2819 Matt. xviii.
+ @2858 1 Cor. v.
+?@2896 2 CoxrSiils
+?@3414 God's sacraments preach God’s promises. W. T.
+ @3660 The pope’s sacraments are dumb. W. T.
+
+== leaf 355 | (no running head) | margin left | draft
+ @730 Christening of bells, W. T.
+?@1144 ‘Why suffra- gals are ordained. ; Ww. T.
+ @1478 The bishops divide all among them. W. T.
+ @2146 Ceremonies bring not the Holy Ghost. W. T.
+ @2298 Gal. iii.
+ @2389 Acts Xx.
+ @2643 Acts viii.
+ @2714 Putting on of hands. W. T.
+ @3381 Mark xvi.
+ @3540 Prayer of faith doth the miracles. W. T.
+ @3719 James v.
+
+== leaf 356 | OF CONFIRMATION. 275 | margin right | draft
+?@760 The putting on hands
+ @838 doth neither help nor hinder. Ant. ed.
+ @1847 Acts xiii.
+
+== leaf 357 | (no running head) | margin left | draft
+ @481 Rom. xiv.
+ @520 ‘Whatsoever is not of faith is sin. Ant. ed.
+?@820 The Latin tongue de- pi hg the faith. Wie LT: That the work without the promise saveth, is improved. W. T.
+ @1489 The people believe in the work without the promise. W. T.
+?@1809 Volowing. W. T.
+
+== leaf 358 | OF ANOILING. 277 | margin right | draft
+ @1427 The work saveth not, but the word; that is to say, the promise. W. T.
+ @1657 James i.
+ @2086 Eph. v.
+ @2335 1 Pet. i.
+
+== leaf 359 | (no running head) | margin left | draft
+ @1003 ‘Works, be they never so glorious, justify not. Ant. ed.
+?@1284 L In all thing they leave out the promises. W. T.
+ @1332 In all thing they leave out the promises. W. T.
+ @2661 1 Kings xviii.
+
+== leaf 360 | OF ANOILING. 279 | margin right | draft
+ @2240 How far forth the deed is acceptable to God. Ant. ed.
+ @3476 Our prayers acceptable according to our faith, out
+
+== leaf 361 | (no running head) | margin left | draft
+ @407 deeds according to the measure of love. Ant. ed.
+
+== leaf 362 | > OF ANOIUNG. | margin right | draft
+?@356 TT TE Se DN
+?@1155 A Christian man needeth not to go a pilesimage to e saved thereby. W. T.
+ @1486 Salvation is within us. W. T.
+ @1610 om. X.
+?@1823 om. X,
+ @2217 Confession. W. T.
+ @3215 Bishops work their treason through confession. W. T.
+
+== leaf 363 | (no running head) | margin left | draft
+ @897 Kings be sworn to the bishops, and not the bishops unto the kings. W. T.
+ @1642 How shall they preach except they be sent, is expounded. W. T.
+ @1874 Rom. x.
+?@2720 How to know who is sent of God, and who is not. W. T.
+ @2911 John iii.
+ @3299 John v, & x.
+
+== leaf 364 | OF ANOILING. 283 | margin right | draft
+?@364 bo man may
+?@444 preach, but e that is called and sent of God. W. T.
+ @2737 The difference between true sacraments and false. W. T.
+
+== leaf 365 | (no running head) | margin left | draft
+ @402 A faith without God’s promise is idolatry. W. T.
+?@1822 The bishop's blessing. W. T.
+ @2306 Eph. i.
+?@2478 How the spodtics blessed us. W. T.
+ @2640 Gal. ii.
+ @2975 Gal. ii.
+ @3654 Repentance, and sure faith in Christ,
+
+== leaf 366 | OF ANOILING. 285 | margin right | draft
+ @412 purgeth our sins. Ant. ed.
+ @660 1 John ii.
+ @997 Heb. vii.
+ @1909 The protestation of the author. W. T.
+ @2745 Confession robbeth the sacraments, and maketh them fruitless. W. T.
+
+== leaf 367 | 286 OBEDIENCE OF A CHRISTIAN MAN. | margin left | draft
+?@647 ‘What grace is. W. T.
+ @809 How to know what justifieth, and what not ; or what bringeth grace, and what not. W. T.
+?@1973 ‘With their chaplains, quoth he, God give grace. Their haplaing at the last make them not so mad to say service alone while they. W. T.
+ @2990 True miracles draw to Christ. W. T.
+
+== leaf 368 | (no running head) | margin right | draft
+ @400 2 Thess. ii.
+ @895 John vi.
+ @1063 John xv.
+?@1145 INPimsii1s
+ @1484 Acts iv.
+ @1735 2 Cor. 1.
+ @1981 The effect and force of our good deeds.
+ @2564 False miracles drive from Christ. W. T.
+
+== leaf 369 | (no running head) | margin left | draft
+ @1539 He that teacheth to trust in a saint is a false prophet, W. T.
+ @2213 ‘What he should pray, that prayeth for his neighbour. W. T.
+?@3111 The weak should be taught, and not deceived. We IT.
+
+== leaf 370 | (no running head) | margin right | draft
+ @589 The spiritualty pray not that we might come to the knowledge of Christ. W. T.
+ @2171 The saints are but an example. W. T.
+?@2823 Ota ine cause the miracles. W. T.
+?@3017 J A
+ @3396 Rom. xiv.
+ @3434 Rom. x.
+
+== leaf 371 | (no running head) | margin none found | draft
+
+== leaf 372 | (no running head) | margin right | draft
+ @450 God the Father fulfilleth his promises to us for Christ’s sake, and not for the merits of saints, as the papists taught. Ant. ed.
+?@880 All such martyrs are the pope’s martyrs, and not God’s. For martyr signifieth a witness- bearer : now is he not God’s witness that testifieth not his word. W. T.
+?@1525 The reasons which they make for the worshipping of saints are solved. W. T.
+ @3007 It is not like with kings and God. W. T.
+ @3740 Eph. ii.
+
+== leaf 373 | (no running head) | margin left | draft
+ @2086 Christ is no sinner. W. T.
+ @3224 Deut. xii,
+?@3447 og bringeth a man sooner to confusion than the idolatry of his own imagination. Ant. ed.
+
+== leaf 374 | (no running head) | margin right | draft
+ @508 Luke xi.
+ @1664 Luke xi.
+ @2082 Luke xviii.
+ @3067 Christ is a gift given to sinners. W. T.
+ @3316 God loveth mercy. W. T.
+ @3477 Hypocrites love offerings. W. T.
+
+== leaf 375 | (no running head) | margin left | draft
+ @1230 John iii.
+ @1729 Rom. v.
+?@2072 ‘We are at peace in our consciences, when we believe constantly our sins are remitted through Jesus Christ. Ant. ed.
+ @3220 Rom. v.
+
+== leaf 376 | (no running head) | margin right | draft
+ @895 Rom. viii.
+ @1146 John xvii.
+ @1315 John xvi.
+ @1391 Why we come not to Christ. W. T.
+?@2543 Titi
+?@2966 God looketh on our good deeds. fv. bh
+?@3565 Antichrist pe the oots of the trees upward. W. T.
+
+== leaf 377 | (no running head) | margin left | draft
+ @1607 Gal. iii.
+?@1645 In Christ we are one as good as another, 2 it beloved, and Sl heard. W. T.
+ @2849 Col. iii.
+?@3249 Christ is all to a christian man, W. T.
+
+== leaf 378 | OF PRAYER. 297 | margin right | draft
+?@628 The children of faith work of love, and need no isd to com them. iv. Ts
+?@1119 Loic vi. e are all Christ’s servants, and serve Christ. W. T.
+ @1871 Matt. xxv.
+?@1951 The con- tempt or love we shew one to another, the same shew we to Christ. Ant. ed.
+ @2453 2Cor. v.
+ @3032 Christ knoweth nothing worldly, no, not his very mother. W. T.
+ @3260 Matt. xii.
+
+== leaf 379 | (no running head) | margin left | draft
+?@1285 As long as Christ abideth, so long a christian man loveth. W. T.
+ @2866 Money bindeth not Christians to pray. W. T.
+ @3533 God careth for his. W. T.
+
+== leaf 380 | OF PRAYER. 299 | margin right | draft
+?@1318 The belly is a god, and cause of all unto gus spiritualty. W. T.
+ @2806 All is of the belly, and nothing of Christ, W. T.
+ @3054 1 Cor. xiii.
+?@3092 Christ’s love forgetteth herself; but monks’ love thinketh on the belly, W. T.
+ @3704 Eph, iv,
+
+== leaf 381 | (no running head) | margin left | draft
+ @872 Friars and monks ought not to preach. W. T.
+ @1295 Phil. iii,
+?@1438 EI. vie
+ @2037 Rom. xvi.
+ @2368 Christ is the whole cause why God loveth us. W. T.
+ @2943 How to know that we are God’s sons. W. T.
+?@3104 The law is the mark yea, and the touchstone wherewith we ought to try ourselves, and see how far forth we are purged. W. T.
+
+== leaf 382 | OF PRAYER. 301 | margin right | draft
+?@591 Our birth- poison that remaineth in us resisteth the Spirit. Ant. ed.
+ @818 Rom. vii.
+ @1578 The right cross of Christ. W. T.
+ @2072 He that loveth not the law, and hateth sin, hath no part with Christ. W. T.
+?@2351 How to t the doch
+ @2428 of our spiritualty. W. T.
+
+== leaf 383 | (no running head) | margin left | draft
+?@1414 If the prayers and merits of our religicus men purge our lusts, then are they of value, and else not. W. T.
+?@3169 ‘What the spiritualty taketh away with their Pryce. SN
+
+== leaf 384 | OF PRAYER. 303 | margin right | draft
+?@507 When other weep, they sing, and hen oli ose, the win, Ww. iT.
+?@832 All is olpite gatory. These physicians give none other medicines save purgations only. W. T.
+
+== leaf 385 | (no running head) | margin left | draft
+ @499 Allegory, what it signifieth. W. T.
+?@823 The scripture hath but one sense, W. T.
+ @2397 Borrowed speech. W. T.
+
+== leaf 386 | (no running head) | margin right | draft
+ @1669 Luke iv.
+ @2324 The right use of allegories. W. T.
+?@3147 Allegories are no sense of scripture. TH
+
+== leaf 387 | (no running head) | margin left | draft
+ @2488 Allegories prove nothing. W. T.
+?@3135 If thou cannot prove the allegory with an open text, then is it false doctrine. W. T.
+ @3464 Rom. iv. vii,
+
+== leaf 388 | (no running head) | margin right | draft
+ @591 2 Cor. iii.
+ @837 Rom. v.
+ @1003 2 Cor. iii.
+ @1173 Gal. iii.
+?@1254 The literal : Aone Drovelh the allegory. W. T.
+?@1667 They that justify themselves by their works are the bond- children of the law. Ant. ed.
+ @2745 The faith was lost through allegories. W. T.
+?@3476 Chopological sophisters. AYE TL
+
+== leaf 389 | 308 OBEDIENCE OF A CHRISTIAN MAN. | margin left | draft
+?@411 Poetry is as good divinity as the serip- ture to our schoolmen., W. T.
+ @899 2 Cor. iii.
+?@980 The literal sense Roh say sophisters. W. T.
+?@1397 ¢ The letter Killeth,’ is expounded. W. T.
+ @2544 To love the law is righteousness. W. T.
+ @3203 Exod. xx.
+ @3603 2 Cor. iii.
+
+== leaf 390 | (no running head) | margin right | draft
+ @2906 Rom. ii. vii.
+?@3236 The literal tual. W. T.
+ @3282 sense is spiri-
+ @3402 Matt. i.
+ @3728 Matt. v.
+
+== leaf 391 | (no running head) | margin left | draft
+ @674 Matt. vi.
+ @1160 ‘What is to be sought in the scripture and in the literal sense. W. T.
+ @1987 The story of Reuben. W. T.
+?@2312 Swearthey by their honour? Then are they not ready to suffer shame for Christ's sake. W. T.
+ @3539 The adultery of David. W. T.
+
+== leaf 392 | (no running head) | margin right | draft
+?@829 The difference between God's sinners and the devil's, W. T.
+ @1330 Noah, W. T.
+?@2242 The pope 1s likened to Ham. W. T.
+ @2563 Rom. x.
+ @2732 1 Pet. i.
+ @2770 James i.
+ @3235 They will to heaven by a way of their own making. W. T.
+
+== leaf 393 | 312 OBEDIENCE OF A CHRISTIAN MAN. | margin left | draft
+ @1224 2 Thess. ii.
+ @1651 The use of similitudes. W. T.
+?@2547 A similitude without scripture is a sure token of a false Ld Rd
+ @2878 1 Cor. ii.
+ @2916 Paul preached not worldly wisdom. W. T.
+ @3536 Similitudes and reasons, of man’s wisdom, make no
+
+== leaf 394 | (no running head) | margin right | draft
+ @419 faith, but wavering opinions only. W. T.
+ @662 God’s word maketh sure faith ; for God cannot lie. W. T.
+ @1317 Peter preached not fables and false similitudes, but the plain scripture. W. T.
+ @1585 2 Pet. i.
+?@2969 School doe- rine VERT
+ @3467 Similitudes are no good arguments among the sophisters own selves. W. T.
+
+== leaf 395 | (no running head) | margin left | draft
+ @983 Luke xv.
+ @1062 1 Cor. vii.
+ @1961 We must cure our infirmities with the remedies that God hath ordained, and not tempt God. W. T.
+?@2871 ‘What tempting of God is. AWE bs
+
+== leaf 396 | (no running head) | margin none found | draft
+
+== leaf 397 | (no running head) | margin left | draft
+?@249 e fi
+ @461 Matt. xii.
+ @639 2 Cor. v.
+ @1226 John ii.
+ @1307 Luke ii.
+
+== leaf 398 | (no running head) | margin right | draft
+ @2154 2 Pet. i.
+?@2193 In eXprUNCS ing of the scripture, we must have a respect unto the living and practising of Christ, and of his apostles and prophets. W. T.
+ @3386 The scripture was given to lead us unto Christ. W. T.
+
+== leaf 399 | (no running head) | margin left | draft
+ @641 2 Pet. ii.
+ @811 Sects, or orders. W. T.
+?@1637 Covetousness and desire of honour is the end of all false doctrine, and that in false prophets seek. W. T.
+ @2044 Purgatory. W. T.
+ @2199 Pardons. W. T.
+?@2290 Praying to saints. &v. Te.
+ @2376 Confession. W. T.
+?@3036 An example of false expounding the scriptures. W. T.
+ @3225 Matt. xvi.
+
+== leaf 400 | (no running head) | margin right | draft
+?@420 Christ, the faith, and God’s word is the rock, and not the pope." att, vil.
+ @834 John xv.
+ @995 1 Cor. iii.
+?@1165 The authority of Peter’s successor is but to preach.
+ @1333 2 Cor. xi.
+ @1498 Eph. ii.
+?@1989 1 Det, ii.
+
+== leaf 401 | (no running head) | margin left | draft
+ @389 John xx.
+?@556 That exposi« tion is false which is against the open scripture, or against the practising of Christ and of his apostles. W. T.
+ @1211 Matt. xviii.
+ @1891 John xx.
+?@1968 1 Cor: v-
+ @2049 2 Cor. ii.
+ @2128 Binding and loosing is one power. W. T.
+ @3113 Acts i.
+?@3201 2:Corix. xiii
+
+== leaf 402 | (no running head) | margin right | draft
+ @399 What Jesus signifieth. W. T.
+ @531 ‘What binding meaneth. W. T.
+?@996 What cursing meaneth,
+ @1151 What loosing meaneth. W. T.
+ @2887 John xv.
+ @3217 The pope is Robin Goodfellow. W. T.
+
+== leaf 403 | 322 OBEDIENCE OF A CHRISTIAN MAN. | margin left | draft
+ @1137 Of ourselves we can perform nothing further than God will give us power. Ant. ed.
+ @2120 Another example. W. T.
+?@2235 Matt. xxiil
+ @3045 To sit on Christ’s seat is to preach and confess Christ. Ant. ed.
+
+== leaf 404 | (no running head) | margin right | draft
+ @487 Luke xxii.
+ @1640 Zech. xiii.
+ @3051 Luke xxii.
+?@3090 Christ rebuketh desire of pre- eminence in his disciples, but the Dope challenget it above all men as his own inheritance. Ant. ed.
+
+== leaf 405 | (no running head) | margin left | draft
+ @1141 Fathers, fathers. W. T.
+
+== leaf 406 | (no running head) | margin right | draft
+ @1692 Miracles, miracles. W. T.
+ @1943 The woman of Lemster was a solemn miracles, W. T.
+
+== leaf 407 | (no running head) | margin none found | draft
+
+== leaf 408 | (no running head) | margin right | draft
+ @759 The armour of the spiritualty. W. T.
+
+== leaf 409 | 328 OBEDIENCE OF A CHRISTIAN MAN. | margin left | draft
+?@799 The armour of a chrisfian man is God’s word and faith. W. T.
+ @988 Eph. vi.
+ @1376 Matt. xxvi.
+?@1453 2 Cor: x.
+ @2530 Acts viii. xi.
+ @3096 Gal. ii.
+
+== leaf 410 | (no running head) | margin right | draft
+ @586 God’s word above all men’s judgments. Ant. ed.
+ @919 Friars be not bound to preach. W. T.
+?@1416 1 Coraix:
+ @2482 1 Pet. iii.
+
+== leaf 411 | (no running head) | margin left | draft
+ @1128 How God ought to be served. W. T.
+ @1795 In Christ is rest of conscience only. W. T.
+ @1948 Eph. ii.
+ @3116 Note.
+
+== leaf 412 | (no running head) | margin right | draft
+ @1014 Do good deeds, and trust in Christ. W. T.
+ @2220 God’s word is the rule of children, servants, wives, and subjects. Ant. ed.
+
+== leaf 413 | (no running head) | margin left | draft
+ @746 To please God is to
+ @823 believe his promises, and to love his commandments, Ant. ed.
+?@1535 la
+ @2564 He that will avenge robbeth God of his honour. Ant. ed.
+
+== leaf 414 | (no running head) | margin right | draft
+ @411 How evil soever the king is, yet is he unto thee a great gift of God. Ant. ed.
+ @2142 Gen. ix,
+?@2609 ah
+?@2798 The pope at it
+ @2874 that none of his sprites may be surety. W. T.
+
+== leaf 415 | (no running head) | margin left | draft
+ @951 The king is but a servant to execute the laws of God. Ant. ed.
+ @3100 1 Cor: xii.
+?@3528 How fara king ought to seek at his commons’ hands. Ant. ed.
+
+== leaf 416 | (no running head) | margin right | draft
+?@896 pity
+
+== leaf 417 | (no running head) | margin none found | draft
+
+== leaf 418 | (no running head) | margin right | draft
+?@850 The manifold enormities which their auricular confession did breed. Ant. ed.
+?@1838 The e and fis tans
+?@1914 lains were the fountains of all evils in spiritual regiment or temporal. Ant. ed.
+
+== leaf 419 | (no running head) | margin left | draft
+ @1245 Under an outward pretence of God’s honour, the pope’s clergy procured their own dignity. Ant. ed.
+
+== leaf 420 | (no running head) | margin none found | draft
+
+== leaf 421 | (no running head) | margin left | draft
+ @1165 2 Tim. iii.
+ @2222 1 Cor. vii.
+
+== leaf 422 | (no running head) | margin right | draft
+?@1106 The bishop of Rochester is a fit pattern to judge all the rest of affinity by. Ant. ed.
+ @3005 The cause why Kings could not come to the knowledge of the truth. Ant. ed.
+
+== leaf 423 | (no running head) | margin left | draft
+ @2321 Miracles are done by faith, and not by ceremonies. Ant. ed.
+
+== leaf 424 | (no running head) | margin right | draft
+ @2233 The use of allegories. Ant. ed.
+ @2650 The use of similitudes. Ant. ed.
+
+== leaf 427 | [INTRODUCTORY NOTICE. | margin none found | draft
+
+== leaf 428 | A FRUITFUL AND GODLY TREATISE, EXPRESSING THE | margin right | draft
+ @2026 Writings and monuments preserve the memory of notable doings.
+?@2444 Gen, xxxit,
+ @2603 Gen. 1,
+ @3177 A sure band of all covenants amongst the Jews.
+
+== leaf 429 | 348 THE SACRAMENTS OF BAPTISM, AND | margin left | draft
+ @545 Gen. xxi.
+ @1052 The well of swearing or the well of seven.
+ @1293 Gen. xxxi.
+ @1384 A heap of stones was a sufficient band for all covenants.
+ @2546 Gen. ix.
+?@2788 The rainbow a pledge of Gou’s promise.
+ @3200 Gen. xvii.
+ @3441 The blessing of God to Abraham,
+
+== leaf 430 | (no running head) | margin right | draft
+ @849 Gen. xvii.
+?@1435 Circumcision, the seal of God's covenant with us.
+ @3492 Rom. ii.
+
+== leaf 431 | (no running head) | margin left | draft
+ @1409 Gen, xvii.
+?@1918 God’s promise reacheth to all Abraham’s posterity.
+ @2495 Baptism to us is as circumcision was to the Jews.
+
+== leaf 432 | (no running head) | margin right | draft
+ @2592 Exod. xiii.
+ @3088 Exod. xx.
+
+== leaf 433 | (no running head) | margin left | draft
+ @584 Num. x,
+ @1498 Num. xv.
+ @2163 Josh. iv.
+ @2658 1 Kings xi.
+ @2901 2 Kings xiii.
+ @3641 Isai. xx.
+
+== leaf 434 | (no running head) | margin right | draft
+ @677 Jer. xxvii.
+?@1336 "Cor. 1:
+ @1425 Luke i.
+ @1587 Luke i.
+ @1756 Luke ii.
+ @1912 Exod. xii.
+ @2725 Exod. xii.
+
+== leaf 435 | (no running head) | margin left | draft
+?@654 The institu- : tion of the pasghal amb.
+?@2807 Christ’s death figured by the paschal lamb.
+
+== leaf 436 | (no running head) | margin right | draft
+ @581 Luke xxii.
+?@1241 Christ’s exposition of the paschallamb.
+?@2312 The serip- tures of God are full of hidden mysteries.
+ @2636 Num. xxi.
+ @2878 John iii.
+?@3605 How the paschal lamb
+
+== leaf 437 | (no running head) | margin left | draft
+ @409 was spiritually fulfilled in the kingdom of heaven.
+ @658 The institution of the sacrament of the body and blood of our Saviour Christ.
+?@981 The paschal lamb and the death and 4 eit of hrist’s body and blood compared together.
+ @1560 1 Cor. xi.
+?@2383 : Luke xxii.
+ @2547 The chief and only cause of the institution of the sacrament.
+ @2956 Acts iv.
+?@3360 1Coraxy.
+
+== leaf 438 | (no running head) | margin right | draft
+?@843 In all afflictions we must resort to Christ,
+ @1600 ‘We must be ordered by the congregation.
+?@2005 Only by the name of Jesus Christ cometh our salvation.
+?@2256 The nature of the sacrament of the supper of our Lord.
+ @2663 Sacraments and ceremonies were first ordained by God, to keep his covenants and promises in remembrance.
+ @3225 Sacraments are as stories
+
+== leaf 439 | (no running head) | margin left | draft
+ @431 to keep Christ’s covenants in memory.
+?@850 Circumcision without faith availed nothing.
+ @1025 Baptism without faith availeth nothing.
+
+== leaf 440 | (no running head) | margin right | draft
+?@827 Baptism and the sacrament of Christ’s body and blood are both ne~ cessary.
+?@1740 The sacrament of baptism, what 1t worketh in us.
+?@1986 Thesacra- ment of the body and blood of Christ, what it worketh in us.
+ @2648 The law drive eth a sinner to desperation.
+ @2811 Mark x.
+ @2897 The devil enemy to man.
+ @3299 The flesh enemy to man.
+
+== leaf 441 | (no running head) | margin left | draft
+?@550 The pee "tent and wilful sinner feeleth not the wrath of God in his law.
+ @1211 The law, the flesh, and the devil, are three great enemies unto man. ‘Why the sacraments were chiefly ordained by God.
+ @1950 God hath commanded his sacraments to be had in daily use, and the cause why.
+ @2696 The sacrament of Christ’s body and blood is a sure token of Christ’s promise of our salvation in his death.
+
+== leaf 442 | (no running head) | margin right | draft
+ @1634 Judg. xiii.
+ @2384 A brief collection of the premises,
+ @2550 Matt. i.
+
+== leaf 443 | S62 THE SACRAMENTS OF BAPTISM, AND | margin left | draft
+ @2210 Matt. vii.
+?@2388 To an ignorant and unfaithful person the sacraments and ceremonies are sin.
+ @2966 Idolatry, what it is.
+ @3129 The spiritual and right serving of God, what it is.
+
+== leaf 444 | (no running head) | margin right | draft
+ @665 Matt. xxvi.
+ @703 Mark xiv.
+ @741 Luke xxii.
+?@781 1.Cor. XI:
+?@911 The institution of the sacraments of Christ's body and blood.
+?@1577 Who they are that receive benefit of Christ's death,
+ @2650 The cup of the blood of Christ, what it is.
+ @3717 Exod. xxiv.
+
+== leaf 445 | (no running head) | margin left | draft
+ @623 Heb. ix.
+ @949 The great and merciful difference between the old testament and the new.
+ @1622 The great mercy of God to mankind.
+ @2850 Mark xiv.
+ @3429 Luke xxii.
+
+== leaf 446 | (no running head) | margin right | draft
+?@571 The cause of the institution of the sacrament of Christ's body.
+?@982 The sign of the body of Christ is called by the name of Christ’s body, which is there signified.
+?@1642 Coxe xis
+
+== leaf 447 | 366 THE SACRAMENTS OF BAPTISM, AND | margin left | draft
+ @1060 Cor. xi.
+ @1707 Heb. x.
+ @2043 ‘What the sacrament meaneth, and why the same was instituted.
+ @2872 There are three opinions about the sacrament of the body and blood of Christ.
+ @3288 The first opinion,
+
+== leaf 448 | (no running head) | margin right | draft
+ @389 The second opinion.
+ @637 The third opinion.
+?@966 A declaration made oy them of the first opinion above mentioned.
+?@2133 A declaratics of them of the second opinion above mentioned.
+
+== leaf 449 | (no running head) | margin left | draft
+ @732 A declaration of them of the third opinion above mentioned.
+ @2797 Gen. xxxii.
+ @3450 John vi.
+ @3530 Papists are the wresters of the scriptures.
+
+== leaf 450 | (no running head) | margin right | draft
+?@1499 The sacraments are confirma- tions to weak consciences.
+ @2083 Faith increaseth by the worthy receiving of the sacraments.
+ @2492 Matt. xxviii.
+ @2814 Matt. xviii.
+ @3148 Eph. iii.
+
+== leaf 451 | (no running head) | margin left | draft
+?@390 The old doe- tors vary in their opinion of the sacrament.
+ @977 An answer to them of the second opinion.
+ @1554 Christ once sacrificed is a sacrifice for ever.
+?@1885 The doctrine of the papists 1.
+?@2295 Papists be ag- grieved with such as consent not to their gross opinicn 3,
+
+== leaf 452 | (no running head) | margin right | draft
+?@838 Signs commonly called ol the name Shing signified thereby.
+ @1750 Note this worthy and true argument following.
+
+== leaf 453 | (no running head) | margin left | draft
+?@660 All the doctors with one accord call the sacrament a sacrifice.
+?@1084 Papists should be indifferent in judgments as protestants are’.
+ @1416 Transubstantiation was a word used among the old doctors.
+ @2808 An effectual and good argument,
+
+== leaf 454 | (no running head) | margin right | draft
+ @761 The pope confirming transubstantiation did purchase his own gain to the overthrow of the right use of Christ’s sacrament.
+?@2321 The common persuasion of papists.
+
+== leaf 455 | 374 THE SACRAMENTS OF BAPTISM, AND | margin left | draft
+ @1568 Mark ix.
+ @1835 Papists are cruel persecutors.
+ @2231 The faithful are in good state, though the wicked judge the contrary.
+ @3060 1 Cor. xiii.
+
+== leaf 456 | (no running head) | margin right | draft
+ @806 Phil. ii.
+ @1553 Phil. iii.
+?@1972 Faith only justifieth, what it is to say.
+
+== leaf 457 | 376 THE SACRAMENTS OF BAPTISM, AND | margin left | draft
+ @491 Gen. xxxii.
+ @1645 Gen. xxxiii.
+?@2143 Gen. XXXVe
+ @2479 Gen. 1.
+
+== leaf 458 | (no running head) | margin right | draft
+ @415 Exod. xii.
+ @747 Exod. xxix.
+ @903 Rom. viii.
+ @943 2 Cor. v.
+ @1660 Exod. xxx.
+ @1986 Judg. i.
+ @2325 Judg. xv.
+ @2571 Judg. xviii.
+ @2907 1 Sam. vi.
+
+== leaf 459 | (no running head) | margin left | draft
+ @582 1 Sam. vii.
+ @833 1 Kings xxii.
+ @1412 Numb. vi.
+ @1981 Jer. vii,
+ @2217 Ezek. xii.
+
+== leaf 460 | (no running head) | margin right | draft
+ @429 A short and effectual collection of the former arguments.
+ @2493 An objection made by the papists.
+ @2992 An answer to the former objection.
+
+== leaf 461 | (no running head) | margin none found | draft
+
+== leaf 462 | (no running head) | margin right | draft
+ @564 An excellent argument.
+
+== leaf 463 | 382 THE SACRAMENTS OF BAPTISM, AND | margin left | draft
+ @1174 1 Kings viii.
+ @2000 1 Kings viii.
+ @3001 Matt. xxvi.
+ @3040 Mark xiv.
+ @3077 Luke xxii,
+?@3117 1 Cory x1,
+
+== leaf 464 | (no running head) | margin none found | draft
+
+== leaf 465 | (no running head) | margin none found | draft
+
+== leaf 466 | (no running head) | margin none found | draft
+
+== leaf 469 | [INTRODUCTORY NOTICE. | margin none found | draft
+
+== leaf 470 | TYNJDALE'S EPISTLE TO THE READER, | margin none found | draft
+
+== leaf 471 | 390 EPISTLE TO THE READER | margin none found | draft
+
+== leaf 473 | THE PEEFACE OF MASTER WILLIAM TYNDALE, | margin left | draft
+ @2110 The reason that the papists make against the translation of the scripture into English.
+?@2598 A subtle shift of the pope’s clergy, to cover their evil.
+
+== leaf 474 | (no running head) | margin right | draft
+ @691 How the papists were vexed with Tyndale’s translation of the new Testament.
+?@1357 The papists shamed not to wrest the scriptures.
+?@2506 The papists fase: rine
+?@2584 wonderfully to have suppressed the scriptures.
+?@3251 As owls abide not the brightness of’ the day, so cannot the papists abide the light of the gospel,
+
+== leaf 475 | 394: PREFACE TO THE | margin left | draft
+ @703 ‘What first moved W. Tyndale to translate the scripture into English.
+ @1354 Rev. ix.
+?@1786 This bishop of London was then Tonstall, which afterward was bishop of Durham.
+?@3281 The pope's chaplains’ puipic is the ale-house.
+
+== leaf 476 | FIVE BOOKS OF MOSES. 395 | margin right | draft
+?@712 Christ’s apostles did meekly ad- monish, but the pope s sectaries brawl and scold.
+ @1206 Partiality sometimes in men of great learning.
+ @2439 How Tyndale was deceived.
+
+== leaf 477 | 396 PREFACE TO THE | margin left | draft
+?@637 Tyndale could get no place in the ishop of London’s house.
+ @1619 Room enough in my lord’s house for belly-cheer, but none to translate the new Testament,
+?@3568 Tyndale’s submission is
+
+== leaf 479 | PROLOGUES BY WILLIAM TYNDALE SHEWING | margin left | draft
+?@1878 Not the 0 tongue, bu the Jife,
+?@1993 proveth a true gospel- ler.
+?@2701 The truest touchstone of rel igion is Christ's gospel,
+ @3186 The scripture of God is the sword of the Spirit.
+
+== leaf 480 | (no running head) | margin right | draft
+ @1592 Tribulation is the gift of God.
+?@2000 What we ought to seek in the serip- tures.
+
+== leaf 481 | 400 PROLOGUE TO THE | margin left | draft
+ @775 A goodly comfort against desperation.
+?@2093 Ensamples of their evils not to bolden us, but to fear us from sin and desperation.
+ @3079 How we ought to prepare ourselves to the reading of the scriptures.
+
+== leaf 482 | BOOK OF GENESIS. 401 | margin right | draft
+?@1116 Faith our surest shield in all assaults.
+ @2346 ‘We may not trust in our works, but in the word and promise of God.
+?@2846 God burthen- ed with his promise.
+
+== leaf 483 | 402 PROLOGUE TO THE | margin left | draft
+?@1189 The Holy Ghost breath- eth where and when it pleaseth him.
+ @1938 Conscience of evil doings findeth out evil men.
+ @2501 Of small occasions do rise great evils.
+ @3508 Ensamples for our learning.
+
+== leaf 484 | BOOK OF GENESIS. 403 | margin none found | draft
+
+== leaf 485 | 404 PROLOGUE TO THE | margin none found | draft
+
+== leaf 486 | BOOK OF GENESIS. 405 | margin none found | draft
+
+== leaf 487 | 406 TABLE EXPOUNDING | margin none found | draft
+
+== leaf 488 | CERTAIN WORDS IN GENESIS. 407 | margin right | draft
+ @440 Matt, v.
+ @535 Heb. xii.
+ @1109 Gen. xv.
+?@2432 Mett. vi.
+
+== leaf 489 | 408 TABLE EXPOUNDING | margin none found | draft
+
+== leaf 490 | CERTAIN WORDS IN GENESIS. 409 | margin none found | draft
+
+== leaf 491 | (no running head) | margin none found | draft
+
+== leaf 492 | (no running head) | margin right | draft
+?@1104 Learn here how to read and understand the scripture.
+?@2265 If we hearken unto the voice of God, and bend ourselves to do his will, he will be our God,and help us; but otherwise, he will plague Sd the unthankful
+ @2798 and faithless Jews.
+
+== leaf 493 | 412 PROLOGUE TO THE | margin left | draft
+ @435 Trust and believe in God, and care not what the world say.
+?@931 The world liketh well all wicked livers and ungodly people.
+ @1846 Here is set forth the office of every good person,
+ @3172 Temptation is the trial of true Christians.
+
+== leaf 494 | BOOK OF EXODUS. 413 | margin right | draft
+?@444 The excel- lencyof faith which is the gift of God.
+?@691 Those whom God scourgeth he deaily loveth,
+ @1101 A necessary lesson for a good preacher.
+ @1677 God commandeth that we should make no images.
+ @2200 The worshipping of idols or images was abhorred of God.
+?@2750 Witcheraft, sorcery, &e. abhorred of God.
+
+== leaf 495 | 414 PROLOGUE TO THE | margin left | draft
+ @465 Moses often rehearseth the benefits ot almighty God, to move us to fear him, and to love our neighbour.
+ @1886 God will have us to be merciful to our neighbours.
+ @2975 All the ceremonies of the old testament were but preachers of Christ that was to come.
+
+== leaf 496 | BOOK OF EXODUS. 415 | margin right | draft
+?@789 The beauty of the tabernacle was to keep the Jews from hearkening to the heathen.
+ @1944 God had two testaments, that is, the old and the new.
+?@2765 The old testament was built upon the observa- tion of the law.
+?@3515 The law could not give life.
+
+== leaf 497 | 416 PROLOGUE TO THE | margin left | draft
+?@1061 The law is the utterer of sin.
+ @1976 The law was given by God to shew what sin was.
+ @2644 Ceremonies are not given to justify the heart, but to signify our justification by Christ.
+ @3063 Ceremonies cannot justify.
+
+== leaf 498 | BOOK OF EXODUS. 417 | margin right | draft
+?@705 The new testament is the everlasting | Plees made to us in Christ.
+ @1117 Faith only justifieth.
+ @1531 Good works spring out of the love we have to God.
+?@2511 Where true faith is, there good works do flow and abound.
+ @3086 The new testament was from the beginning.
+
+== leaf 499 | (no running head) | margin left | draft
+ @726 Our temporal laws spring out of the law of nature.
+ @1555 Love counselleth the faithful to work.
+?@1803 We must not presume in our well- doing, nor condemn others that run astray; the last, which turneth to God is as far forward as the first.
+
+== leaf 500 | 419 A TABLE, | margin left | draft
+ @1239 and
+?@1486 brea
+?@1833 arm som the | king we | and favo untc pres
+?@2801 favo unto iq pres
+?@3541 weig Anci piece
+
+== leaf 501 | (no running head) | margin left | draft
+ @2115 Exod. xvii.
+
+== leaf 502 | (no running head) | margin right | draft
+?@1096 Man's wisdom is plain idolatry, it scattereth, divideth, and maketh sects.
+ @1838 Ceremonies to the Israelites and Jews were as good schoolmasters are to young scholars.
+?@2485 All things were first revealed in ceremonies and shadows, until it pleased Almighty God to reveal his Son Jesus Christ.
+?@3628 Small and little gifts, given by the
+
+== leaf 503 | 422 PROLOGUE TO THE | margin left | draft
+ @444 parents to their children, cause love and obedience.
+ @775 Sacrifices and ceremonies serve for allegories to find out Christ.
+?@1101 Similitudes prove nothing, but do more py lead thee to understand the text.
+ @1846 Some ceremonies contain wholesome and profitable doctrine.
+ @2335 Ceremonies ordained to confirm our faith,
+?@2905 God's secrets were opened but to a few.
+ @3735 The ceremonies of them-
+
+== leaf 504 | BOOK OF LEVITICUS. 423 | margin right | draft
+ @446 selves saved not, but faith in God’s promise.
+?@1594 Our nature is so weak, that we must be holpen by outward signs and’ tokens.
+ @2245 No man is holpen by God’s promises but sinners that feel their sin. Sacraments truly ministered are profitable.
+ @2976 Sacraments truly ministered preach unto us repentance of our sins.
+
+== leaf 505 | 424 PROLOGUE TO THE | margin left | draft
+?@684 Not naked or dumb ceremonies, but : the Holy Ghost, through faith, washeth away sins.
+ @1584 The difference between a sacrifice and a sacrament.
+ @2163 In what state we die, in the same we shall rise again, either of salvation or damnation.
+ @3065 The sacraments are unto the dead no sacraments at all.
+ @3311 Sacraments abused by the clergy.
+
+== leaf 506 | BOOK OF LEVITICUS. 425 | margin right | draft
+?@433 The papists have had no small friend and good helper of the mass.
+?@759 Hypocrites’ prayers can neither profit themselves nor any man else.
+ @1249 Those that are enemies to the word of God, love neither God nor his people.
+ @2232 Allegories are to be well weighed and considered.
+ @2561 The greatest cause of the decay of faith and blindness that we were in was through allegories.
+ @3050 How allegories are to be understood.
+ @3616 The right use of allegories.
+
+== leaf 507 | 426 PROLOGUE TO THE | margin left | draft
+?@1012 Baptism is the common badge of all true profes- sors of Christ.
+?@1752 Baptism teacheth us Eepeniante of sin.
+ @1994 The bare washing helpeth not, but through the word of faith it purifieth us.
+ @3151 How Christ borroweth figures of the old Testament, to make plain the texts of the new Testament.
+
+== leaf 508 | BOOK OF LEVITICUS. 427 | margin right | draft
+?@2323 Qurduty is to do good deeds, but salvation we cannot challenge thereby.
+?@2815 A good ex- std taken of the lepers.
+?@3545 The true preaching of God’s word doth bind and loose consciencs.
+
+== leaf 509 | (no running head) | margin left | draft
+?@1079 In alice is both honey and gall ; that is to say, both good and evil.
+ @2305 All good deeds are God’s workmanship, and we his instruments whereby he doth them.
+
+== leaf 510 | (no running head) | margin right | draft
+ @1064 Free-will and unbelief were the overthrow of our forefathers.
+?@2133 Then cannot they be the ehildren of
+ @2247 God, which put more trust in their own works than in the blood of Jesus Christ.
+ @3196 Faithless works.
+ @3681 The Pharisees by their
+
+== leaf 511 | 430 PROLOGUE TO THE | margin left | draft
+ @424 free-will excluded themselves. from the salvation in Christ.
+?@1657 Blasphemy to Christ's death.
+ @1980 O subtle foxes! through poverty made themselves lords of all.
+ @2725 Wilful chastity is wilful wickedness.
+ @2983 The papists wilful obedience is common disobedience to all princes.
+
+== leaf 512 | BOOK OF NUMBERS. 431 | margin right | draft
+ @733 Our righteousness cometh not by our merits, but through faith, by the blood of our
+ @1037 Saviour Jesus Christ.
+ @1319 Faith only bringeth us to Christ, and unbelief bringeth us from Christ.
+?@1891 Christ rebuked the Pharisees for their holy and ran tical deeds.
+ @2550 The Pharisees ascribe righteousness to works, and therefore were condemned of Christ.
+ @3460 The justifying of ourselves maketh the devil more busy than he would be.
+
+== leaf 513 | 432 PROLOGUE TO THE | margin left | draft
+ @654 ‘What is meant in the scripture by this word seven times.
+?@1217 Merit-mon- gers, the more their blindness is rebuked, the more they rebel against Christ and his gospel.
+ @1882 The doctrine of the Pharisees, and the doctrine of our papists do well agree.
+ @3213 The papists cannot away with justification by faith,
+ @3618 Of vows.
+
+== leaf 514 | BOOK OF NUMBERS. 433 | margin right | draft
+?@1159 God accept- eth for us none other sacrifice but only Jesus Christ his Son.
+?@1817 All holiness in our own imagination is a robbing of Christ's honour.
+ @3544 Faith followeth repentance of sin.
+
+== leaf 515 | 434 PROLOGUE TO THE | margin left | draft
+?@755 Ropentance goeth before taith, and prepareth the way unto Christ.
+ @1428 How our works are good in the sight of God.
+ @1835 The work saveth not, but the word, that is to say, the promise.
+ @2657 An apt similitude for reward of good works.
+?@3141 All vows must be made for the mortifying or taming of our members, or the edifymg of our neighbours, or else ht 24 are wicked.
+
+== leaf 516 | BOOK OF NUMBERS, 435 | margin right | draft
+ @585 How we ought to vow wilful poverty. W. T.
+?@1282 fished the Pope pre- | ates with this net or no?
+ @2807 Our works do not stand in the wisdom of man, but in the power of God.
+
+== leaf 517 | 436 PROLOGUE TO THE | margin left | draft
+?@827 Desert and free gift are contraries.
+ @1151 2 Pet. i.
+ @1638 The sight of riches is rather a cause of covetousness than a mean to honour God.
+ @2635 1 Pet. v.
+ @2676 Acts xx.
+?@3650 y E
+
+== leaf 518 | BOOK OF NUMBERS. 437 | margin right | draft
+ @578 Whether did the papists 50, Or no?
+?@1324 Yet the spi- ritualty’s pillage was more than their stand ing stipend.
+ @1817 A good vow is to keep God’s commandments.
+ @2647 How thou mayest lawfully go on pilgrimage.
+?@3555 God heareth all that call upon him in all times and at all places alike.
+
+== leaf 519 | 438 PROLOGUE TO THE | margin left | draft
+?@417 Acts vil.
+ @503 God dwelleth not in temples made with man’s hands.
+ @833 John xiv. xv.
+ @1091 God regardeth the heart, and not the place where we pray.
+?@1827 Wilful chastity is not meet for all persons to Yow.
+ @2982 False feigned chastity.
+
+== leaf 520 | BOOK OF NUMBERS. 439 | margin right | draft
+?@882 The pope re- strained that which God permitted, and setteth at liberty that which God forbiddeth.
+?@1717 A good ad- monition to such as will make vows.
+?@2456 ‘Whereunto and how we should apply our vows.
+ @2873 How a vow is to be made.
+
+== leaf 521 | (no running head) | margin left | draft
+?@400 He that fasteth to other en < than to tame his body, that it may wait upon God, deceiveth himself.
+?@1233 All ourdoings must tend to the honour of God, and love of our neighbour.
+
+== leaf 522 | (no running head) | margin right | draft
+?@1323 This rox a preaching of faith and
+ @1438 love.
+ @1575 Here thou mayest learn a right meditation or contemplation.
+ @2316 The works of God are supernatural.
+ @2970 We must abstain from outward evil, though not for love, yet for fear of the vengeance of God.
+?@3388 Unto the law of God we may not add nor diminishs
+
+== leaf 523 | 442 PROLOGUE TO THE | margin left | draft
+ @391 ‘We are commanded to abstain from images.
+ @817 God is merciful to them that repent.
+?@1393 Christ hath delivered us, and therefore we ought to serve him, and our fi eabour for his sake,
+ @1971 Love only is the fulfilling of the laws of God.
+ @2629 We must trust only in God, and not in ourselves.
+?@3222 How a man may try and ~ + examine himself how much he loveth God and his neighbour.
+
+== leaf 524 | BOOK OF DEUTERONOMY. 443 | margin right | draft
+?@603 sod stirreth 1p his pcople into faith,
+ @927 A right way of prayer.
+ @1177 The pith and effect of all the laws of God.
+?@1678 And if we first love God, then out of that love we must needs love our neighbour.
+ @2417 What it is to love and fear God, and what it is to despise him,
+ @2917 The word of God may not be altered.
+?@3156 Let no man draw us from God's word.
+
+== leaf 525 | (no running head) | margin left | draft
+?@418 Of matters of the common- weal.
+ @1010 None may be condemned under two witnesses.
+ @1830 Christ our Saviour declared in the old testament.
+ @2496 The curse and wrath of God over all those that break his laws.
+ @3077 We may not be too curious in the searching of God’s secrets, but rather study to understand and to do our duty towards God and our neighbour,
+
+== leaf 526 | 445 A TABLE | margin none found | draft
+
+== leaf 527 | (no running head) | margin none found | draft
+
+== leaf 528 | PROLOGUE OF THE PROPHET JONAS. [INTRODUCTORY NOTICE. | margin none found | draft
+
+== leaf 529 | 448 INTRODUCTORY NOTICE. | margin none found | draft
+
+== leaf 530 | (no running head) | margin right | draft
+?@1067 The papists keep the scriptures from the lay- people, because they only will be the publishers and expositors thereof I.
+ @1887 The scripture hath a body and a soul.
+?@2453 The scripture containeth three things.
+ @3352 The manner of hypocrites in reading the law of God.
+
+== leaf 531 | 450 PROLOGUE TO THE | margin left | draft
+?@742 The papisti- cal and corrupt doctrine of the papists.
+?@1566 How the papists wring and wrest the scriptures.
+
+== leaf 532 | PROPHET JONAS. 451 | margin none found | draft
+
+== leaf 533 | 452 PROLOGUE TO THE | margin left | draft
+?@417 God correct- eth where he loveth.
+?@665 God casteth none away but such as refuse to nds his laws, an will not hearken unto his voice.
+ @1571 Rom. xv.
+?@1987 Such as harden their hearts, and hearken not to the will of ~ God to do it, God casteth out.
+ @2470 1 Cor. x.
+?@2716 The prophets of God bare the weakness of their brethren, and their injuries also, with patience.
+ @3286 The pope and his ministers are persecutors over their brethren.
+
+== leaf 534 | PROPHET JONAS. 453 | margin right | draft
+ @2386 The cruel opinion that the disciples had of Christ.
+?@3039 The ignorance and im- perfection of the apostles.
+
+== leaf 535 | 454 PROLOGUE TO THE | margin left | draft
+ @1591 Deut. viii.
+?@1680 God doth mercifully try and tempt us, to move us to utter our hearts and minds towards him.
+?@3082 Jonas of himself was an unmeet messenger to be sent of such a message, but God assisted him with his Holy Spirit,
+
+== leaf 536 | PROPHET JONAS. 455 | margin right | draft
+?@839 The carnal imagination of man’s nature, without God's Spirit.
+?@1978 Jonas, so long as he was in his carnal imagination, could not abide the voice of God, but fled : howbeit God called him again.
+?@2955 Jonas's flesh rebelled against the Spirit.
+
+== leaf 537 | 456 PROLOGUE TO THE | margin left | draft
+?@670 The wicked seek to cover their wickedness a pope-holy works.
+?@1162 How Jonas was trapped, and made afraid.
+ @1819 Jonas being afraid confesseth his sins.
+ @2235 Lots, how they may be used lawfully.
+ @2558 Acts i.
+
+== leaf 538 | PROPHET JONAS. 457 | margin right | draft
+ @435 Miracle moveth the heathen to know God, and to call upon him.
+ @1243 As Jonas lay three days and three nights in the whale’s belly, so Christ lay three days and three nights in the earth.
+ @1982 How Christ sheweth his death and resurrection by Jonas the prophet.
+
+== leaf 539 | 458 PROLOGUE TO THE | margin left | draft
+?@517 Christ by the mouth of his apostles preached repentance to tiie Jews.
+ @1094 ‘Where there is no repentance, there God poureth out his vengeance.
+ @1756 Gildas a writer of the British Chronicle.
+?@2249 Wickliffe a preacher of repentance.
+ @2816 They slew Richard the Second. They set up Henry the Fourth. Henry the Fifth. Henry the Sixth.
+ @3386 Christ now preacheth repentance unto us.
+
+== leaf 540 | PROPHET JONAS. 459 | margin right | draft
+ @769 Jonas called upon God out of the fish's belly.
+?@1500 The sacrifice ' that Jonas offereth unto God.
+?@2475 The sacrifices of the old law were ordained to put us in remem- branes of the sacrifice of thanksgiving.
+ @3137 Jonas did that God commanded him.
+
+== leaf 541 | 460 PROLOGUE TO THE | margin left | draft
+ @853 Niniveh was the greatest city in the world.
+ @1847 Christ is merciful to them that repent and call for mercy.
+ @2503 The doctrine of the Pharisees and the papists make sin of that is no sin.
+?@3233 This is the doctrine of the papists and hypoeri- tical monks at this day.
+
+== leaf 542 | PROPHET JONAS. 461 | margin right | draft
+ @422 The blind and fruitless works of the papists.
+?@910 Papistical sins.
+?@1724 Papists taught themselves and their works with all cruelty.
+?@2133 The false and wicked doe- trine of the papists.
+?@3031 Blind and hypocritical doctrine.
+
+== leaf 543 | 462 PROLOGUE TO THE | margin left | draft
+ @1091 The Pharisees set up a righteousness ot works to cleanse their souls withal.
+?@1751 By the worldly and fleshly interpretations of the seriptures the Jews’ hearts were hardened.
+ @2403 The heathen repented at the preaching of Jonas.
+
+== leaf 544 | PROPHET JONAS. 4G3 | margin right | draft
+ @423 A good and profitable example,
+?@1329 Note here the great merey of God.
+?@2059 The right manner how to read the scripture.
+?@3045 All our deeds are made perfect in Christ's blood.
+
+== leaf 545 | 464 PROLOGUE TO THE | margin left | draft
+ @1005 All the promises made by God in Christ are made to them that repent.
+ @1581 The two keys that open all the scripture.
+
+== leaf 546 | PROPHET JONAS. 465 | margin right | draft
+?@542 A very fruit« ful and good lesson.
+?@1115 How thou mayest at all times apply the stories of the bible to - thy great ) comfort.
+?@1685 The law must be fulfilled with the meee) that is in Christ.
+?@2502 In thy heart are the words of the law, and in thine heart are the promises and mercy of ’ Christ.
+?@3082 Our sin is of ourselves: but remission and forgiveness thereof . cometh freely, of the 2 fd God for Christ’s sake.
+
+== leaf 547 | 466 PROLOGUE TO THE PROPHET JONAS. | margin left | draft
+ @864 John i.
+ @1114 Rom. vi.
+ @1197 John i.
+ @1279 Rom. viii,
+ @1446 God hath no need of our works, but we must do them for ourselves, and for the profit of our neighbours,
+ @2183 Christ hath satisfied for our sins, as well after baptism, as before baptism.
+ @3089 Our actual sins are washed away in Christ’s blood.
+
+== leaf 548 | THE PROLOGUES UPON THE GOSPELS AND EPISTLES. [INTRODUCTORY NOTICE. | margin none found | draft
+
+== leaf 549 | 468 PROLOGUE UPON THE PROLOGUE | margin none found | draft
+
+== leaf 550 | GOSPEL OF ST MATTHEW. 4G9 | margin right | draft
+ @686 Matt. xxiii.
+ @765 Luke xi.
+?@855 The Jews to this day are locked out from the understanding of the serip- tures. Ant. ed.
+?@2226 The right Nay into the understanding of the scriptures. W. T.
+ @2552 Matt. v.
+
+== leaf 551 | 470 PROLOGUE UPON THE | margin left | draft
+ @422 Matt. vi.
+ @1339 The general covenant that God hath made with us. Ant. ed.
+ @1751 In these commandments is contained the whole law. Ant. ed.
+ @2898 ‘Where no good fruits are, there the faith is vain. Ant. ed.
+ @3382 Rom. x.
+
+== leaf 552 | GOSPEL OF ST MATTHEW. 471 | margin right | draft
+ @591 What faith it is that saveth. W. T.
+ @1248 Matt. vii.
+?@1737 Two things are required tobeina christian man. W. T.
+?@2636 What the nature of God's word ise We Te
+ @3292 John iii.
+
+== leaf 553 | 472 PROLOGUE UPON THE | margin left | draft
+?@420 ‘When we hear God’s will and do it not, then God withdraweth his mercy and favour from us. Ant. ed.
+ @1080 Rom. i.
+?@1994 He that hearkeneth to the word of God and doth it, the same shall be blessed in his deed. Ant. ed.
+ @2334 Matt. xxv.
+ @3311 Luke xii.
+ @3463 Matt. vii.
+
+== leaf 554 | GOSPEL OF ST MATTHEW. 473 | margin right | draft
+?@443 What it is to build upon the ports Ant. ed.
+ @1012 Matt. xxi.
+ @1910 Luke xiii.
+ @2152 Luke xi.
+ @2196 The unclean spirit that returneth in worse sort than he was when he was cast forth. Ant. ed.
+
+== leaf 555 | 474 PROLOGUE UPON THE | margin left | draft
+?@436 Such as are professors of the word of God, and will not tame and scourgethem- selves, them will God plague and scourge. Ant. ed.
+ @1903 Christ’s deeds set us in the favour of God, and our own help us to continue therein. W. T.
+
+== leaf 556 | GOSPEL OF ST MATTHEW. 475 | margin right | draft
+ @440 Rom. xiii.
+ @520 Love is the fulfilling of the law. W. T.
+?@689 1 Times
+ @843 Faith is the cause of love, W. T.
+ @2658 Matt. ix.
+?@2731 God requireth mercy and not sacrifice. Ant. ed.
+ @2882 Matt. xii.
+ @2986 Only love understandeth the law, W. T.
+
+== leaf 557 | 476 PROLOGUE UPON THE | margin left | draft
+ @1577 Gospel. W. T.
+ @1996 New testament. W. T.
+ @3305 Our works extend no farther than to our neighbour. Ant. ed.
+
+== leaf 558 | GOSPEL OF ST MATTHEW. 477 | margin right | draft
+?@1503 Why Tyndale ed this word
+ @1583 repentance, rather than penance. Ant. ed.
+?@3204 The four parts of re- pentanee. Ant. ed.
+
+== leaf 559 | 478 PROLOGUE UPON THE | margin left | draft
+ @943 ‘What manner of satisfaction we ought to make. Ant. ed.
+ @3482 Why he nameth them elders and not priests. Ant. ed.
+
+== leaf 560 | GOSPEL OF ST MATTHEW. 479 | margin none found | draft
+
+== leaf 561 | (no running head) | margin none found | draft
+
+== leaf 562 | (no running head) | margin none found | draft
+
+== leaf 563 | (no running head) | margin none found | draft
+
+== leaf 564 | A PROLOGUE | margin none found | draft
+
+== leaf 565 | 484 PROLOGUE UPON THE A PROLOGUE | margin left | draft
+?@1033 The epistle to the Romans is the excellentest part of the new Testament.
+ @2678 Here you must note these words.
+ @3496 Law, how it is to be understood.
+
+== leaf 566 | EPISTLE TO THE ROMANS. 485 | margin right | draft
+?@530 The law of God requireth the bottom of our hearts.
+ @1346 St Paul was great persecutor of the Christians.
+ @2164 If we be not willing to do good, then doth sin reign in us.
+ @2737 No man can fulfil the law, but Christ only.
+?@3427 Jit
+
+== leaf 567 | 486 PROLOGUE UPON THE | margin left | draft
+?@1194 The pure and perfect keeping of the law is to do the same of love.
+ @2424 The law cannot be satisfied but by inward love.
+?@2823 The law increaseth sin. BM. B.
+ @3318 The law is spiritual.
+
+== leaf 568 | EPISTLE TO THE ROMANS. 487 | margin right | draft
+ @692 The spirit of God maketh a man spiritual.
+ @1407 The law is good, righteous, and holy.
+ @1743 ‘Works of the law and the . fulfilling of the law are two things.
+?@2641 By the works of the law no man can be justified.
+
+== leaf 569 | 488 PROLOGUE UPON THE | margin left | draft
+ @437 As the law is spiritual, so it must be fulfilled spiritually.
+ @1003 Where true faith is, there is the Spirit of God.
+ @2145 Our justification is by faith in Christ.
+
+== leaf 570 | EPISTLE TO THE ROMANS. 489 | margin right | draft
+ @1808 Out of true faith springeth all good works.
+ @2469 Of sin.
+ @2630 Sin, what it is,
+
+== leaf 571 | 490 PROLOGUE UPON THE | margin left | draft
+ @694 Gen. iii.
+ @777 Sin in the scripture is chiefly called unbelief.
+ @939 John viii.
+ @1099 John xii.
+ @1915 Eph. iv.
+ @2334 Rom. xiii.
+ @2412 1 Pet. i.
+ @2568 1 John ii.
+
+== leaf 572 | EPISTLE TO THE ROMANS. 491 | margin right | draft
+?@3460 Grace, how it is understood in the scriptures.
+
+== leaf 573 | 492 PROLOGUE UPON THE | margin left | draft
+ @588 Gift, what it is.
+ @1072 Gal. v.
+ @1155 Gen. iii.
+?@1329 God-for Christ’s sake, receiveth us.
+ @2148 There is no damnation to them that are in Christ.
+ @3042 Faith, what it is.
+?@3485 oa False and feigned faith.
+ @3525 False and feigned faith.
+
+== leaf 574 | EPISTLE TO THE ROMANS. 493 | margin right | draft
+ @1323 True faith is lively.
+ @1486 Faith is not idle.
+ @2388 The true definition of faith.
+ @3280 Good works cannot be separate from faith,
+
+== leaf 575 | 494 PROLOGUE UPON THE | margin left | draft
+ @838 Righteousness, and how it is to be understood.
+?@2153 Flesh and pt what they are, and how to understand them.
+ @2398 John iii.
+?@2975 How this word flesh is to be understood in the scripture.
+?@3622 tats is the chie of all sins.
+
+== leaf 576 | EPISTLE TO THE ROMANS. 495 | margin right | draft
+ @430 Flesh is here well described.
+?@1089 ‘Whatsoever proceedeth of faith is spiritual.
+?@2052 A necessary and profitable instruce- tion for all preachers.
+?@2725 The manner of St Paul's doetrine.
+?@3211 Nature is so blind that we cannot see nor understand the gocdntes of ’ od and his mercy, shewed unto us in Christ Jesus his Son.
+
+== leaf 577 | 496 PROLOGUE UPON THE | margin left | draft
+?@687 St Paul con- demmneth all hypocrites.
+ @1423 How St Paul rebuketh hypocrites.
+ @1906 The difference between the Jew and the Gentile.
+ @2733 All men are sinners.
+ @2900 The way how we must be made righteous.
+
+== leaf 578 | EPISTLE TO THE ROMANS. 497 | margin right | draft
+ @426 Faith obtaineth the fulfilling of the law.
+?@915 St Paul answereth to the cavilling fucstions that our papists use against justification of faith only.
+?@2381 Good works are gneve signs of true fat,
+ @3276 We are first justified, then followeth good works.
+
+== leaf 579 | 498 PROLOGUE UPON THE | margin left | draft
+?@1497 God’s mercy moveth us to faith in his promises, so that God in all things worketh our justification.
+ @1987 God’s mercy saveth us, and not we ourselves.
+?@2636 If we lack Abraham’s faith, we cannot be Abra- ham’s children.
+?@3527 Faith only receiveth the grace that cometh by Ahraham
+
+== leaf 580 | EPISTLE TO THE ROMANS. 499 | margin right | draft
+?@691 The fruits and works of faith.
+ @1339 Faith before all works justifieth.
+ @1748 Good works are the fruits of faith.
+?@2392 Where true faith is, there are goog works,
+ @2881 Where faith lacketh, there is all evil works.
+
+== leaf 581 | 500 PROLOGUE UPON THE | margin left | draft
+?@771 As by Adam came sin, so by Christ came salvation.
+?@2236 The principal work of faith, and the battle between the Spirit and the flesh.
+
+== leaf 582 | EPISTLE TO THE ROMANS. 501 | margin right | draft
+?@521 What it is not to be under the law.
+ @1330 What it is to be under the law.
+?@2145 The right freedom and liberty from sin and from the law.
+ @2796 Example,
+
+== leaf 583 | 502 PROLOGUE UPON THE | margin left | draft
+ @922 Our consciences bound and in danger to the law by old Adam, so long as he liveth in us.
+?@2141 The law re- pans of us that which we cannot pay.
+ @3214 The law doth utter and declare what sin is.
+
+== leaf 584 | EPISTLE TO THE ROMANS. 503 | margin right | draft
+?@1470 What we may do of ourselves, and what we may not do.
+ @3175 Where fear and shame is away, there all wickedness is committed.
+
+== leaf 585 | 504 PROLOGUE UPON THE | margin left | draft
+?@391 The flesh is contrary unto the Spirit.
+ @715 The Spirit lusteth contrary to the flesh.
+?@1534 There is no danger to them that are 1n Christ.
+ @2680 The right work of faith is to mortify the flesh.
+
+== leaf 586 | EPISTLE TO THE ROMANS. 505 | margin right | draft
+ @387 Predestination is in the hands of God.
+ @1610 How far we may proceed in predestination.
+ @2912 Predestination is not rashly to be disputed of.
+
+== leaf 587 | 506 PROLOGUE UPON THE | margin left | draft
+ @987 ‘Which are good works meet to be done,
+ @2764 Love is the fulfilling of the law.
+?@3577 ‘We must deal lovingly with our weak brethren,
+
+== leaf 588 | EPISTLE TO THE ROMANS. 507 | margin right | draft
+ @1623 The weakness of our brethren is to be considered.
+ @2590 In the Epistle to the Romans is contained a sufficient doctrine for a christian man.
+
+== leaf 589 | 508 PROLOGUE UPON THE | margin left | draft
+ @1219 Beware of the traditions of men.
+
+== leaf 590 | EPISTLE TO THE ROMANS. 509 | margin none found | draft
+
+== leaf 591 | (no running head) | margin none found | draft
+
+== leaf 592 | (no running head) | margin right | draft
+?@2601 Weak and young consciences are to be for- borne, for the last shall receive the equal reward with the first. Ant. ed.
+
+== leaf 593 | (no running head) | margin left | draft
+ @426 Love fulfilleth the law. Ant. ed.
+?@2181 It is the dr of a goo shepherd to venture his life for his sheep. Ant. ed.
+ @2595 Tribulation for the gospel’s sake maketh us sure of eternal life. Ant. ed.
+
+== leaf 594 | (no running head) | margin right | draft
+ @1028 Acts xv,
+ @1929 All that repent are justified through faith by Christ, and not by works, W. T.
+?@2337 The law condemneth, but the believing of God's promises justifieth. W. T.
+
+== leaf 595 | (no running head) | margin left | draft
+ @1593 In seeking any other satisfaction than Christ, we deceive ourselves. W. T.
+ @3209 Hereby are we warned that works save us not, but the word, that is, the promise, Ant. ed.
+
+== leaf 596 | (no running head) | margin right | draft
+?@769 Man's righteousness, zeal, or imagination, without God’s word, is odious, W. T.
+?@2454 For faith, when it is preached, ringeth the Spirit and power to fulfil the law. W. T.
+?@3266 Whoso hath a pure faith, cannot but abound with good works. INGE
+
+== leaf 597 | (no running head) | margin left | draft
+ @1207 Not the receiving of the gospel, but the continuance to the latter end, maketh us blessed. W. T.
+ @1950 He meaneth thereby lest they should fall from the word they had already received. Ant. ed.
+
+== leaf 598 | (no running head) | margin right | draft
+?@1396 Patience and oi era or Christ's sake, rewarded with the crown of everlasting joy and felicity. Ant. ed.
+ @1792 Hereby have we evident signs that the latter day is at hand. Ant. ed.
+
+== leaf 599 | (no running head) | margin left | draft
+ @670 The office of a bishop. W. T.
+?@1899 The pope and his peintes are here plainly set forth ; for what Christ loosed freely, the pope did bind it, to loose it again for money. Ant. ed.
+?@2464 Virtuous bishops are worthy double honour. RVViee
+
+== leaf 600 | (no running head) | margin right | draft
+?@1029 Bishops must ve vigilant in heir voca- ion. W. T.
+?@1446 This hath already been fulfilled in
+ @1560 our spiritualty. W. T.
+ @2946 ‘What manner a man a bishop cr curate ought to be. W. T.
+
+== leaf 601 | (no running head) | margin left | draft
+?@753 Good works please God so far forth as they are ap- pied to the eeping of the commandments, but Christ our justifieth. W. T.
+
+== leaf 602 | (no running head) | margin right | draft
+?@1137 Whether this were Paul’s epistle or no, great learned men have doubted. Ant. ed.
+?@1506 y A
+ @2374 Some deny it to have been written by any apostle, and refuse it as not catholic. Ant. ed.
+
+== leaf 603 | 522 PROLOGUE UPON THE | margin left | draft
+ @902 A solution of the former doubts.
+?@2476 This not to be denied to be Paul’s epistle.
+
+== leaf 604 | (no running head) | margin right | draft
+?@1893 Mercy is locked up from him which wil- fully yieldeth his body and * soul to sin,
+
+== leaf 605 | (no running head) | margin left | draft
+?@903 No place in the scriptures so plainly describeththe significations and figures of the old Testament, as this epistle doth. W. T.
+?@1962 This epistle, for that it agreeth with the rest of the asd te ought to be of equal authority with the other. W. T.
+
+== leaf 606 | (no running head) | margin right | draft
+?@1565 This epistle is to be taken as sai of holy scripture.
+?@2382 The or ve allege this text for their urpose, Hiren mis
+ @2571 understanding the same. Ant. ed.
+
+== leaf 607 | (no running head) | margin left | draft
+ @966 Faith only justifieth.
+
+== leaf 608 | (no running head) | margin right | draft
+ @2113 Christ is all to a christian man. W. T.
+?@2834 Men ought to rule their wives with God’s word. Ant. ed.
+?@3486 To watch is not only to abstain from sleep, but also to avoid all occasions
+
+== leaf 609 | (no running head) | margin left | draft
+?@383 that may draw us to sin. ‘We. T.
+ @1851 As God rejoiceth not in the deed itself, so doth he not in an idle faith without works. Ant. ed.
+ @2204 Good works are a shew of our faith, as the fruit is of the tree. W. T.
+
+== leaf 610 | (no running head) | margin right | draft
+?@844 He prophesieth of i the
+?@920 pope's spiritualty. Ant. ed.
+ @1895 The condition of the world shall wax worse and worse. Ant. ed.
+
+== leaf 611 | (no running head) | margin left | draft
+?@657 ‘Where a true faith is, there . are also good works. iW. T.
+?@1322 Christ’s blood rd ri or give ness of sins, and not man’s works. W. T.
+
+== leaf 612 | (no running head) | margin none found | draft
+
+== leaf 613 | (no running head) | margin none found | draft
