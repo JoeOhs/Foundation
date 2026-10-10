@@ -1755,78 +1755,75 @@
 @2657 1 Pet. v.
 @2818 Acts xx.
 
-== leaf 326 | ANTICHRIST. 245 | margin right | draft
-?@1103 Their prayer breaketh the great commandment of God. It is time that they were tied up therefore. W. T.
- @1765 Luke xi.
- @2012 The burdens of our spiritual lawyers. W. T.
-?@2417 Confession tormenteth the conscience, robbeth the ve purse of money, and the soul of faith. W. T.
+== leaf 326 | ANTICHRIST. 245 | margin right | checked
+@1103 Their prayer breaketh the great commandment of God. It is time that they were tied up therefore. W. T.
+@1765 Luke xi.
+@2012 The burdens of our spiritual lawyers. W. T.
+@2417 Confession tormenteth the conscience, robbeth the purse of money, and the soul of faith. W. T.
 
-== leaf 327 | (no running head) | margin left | draft
- @1980 Matt. xxiii.
-?@2552 } i Badges or baubles to be known by. W. T.
- @2802 Glorious names. W. T.
- @3127 How are they esteemed W. T.
+== leaf 327 | (no running head) | margin left | checked
+@1980 Matt. xxiii.
+@2552 Badges or baubles to be known by. W. T.
+@2802 Glorious names. W. T.
+@3127 How are they esteemed? W. T.
 
-== leaf 328 | ANTICHRIST. 247 | margin right | draft
-?@860 Bi ‘Kings are down, they cannot go lower. W. T.
- @2469 Matt. xxiii.
-?@2622 Our hypocrites live by theft WeEe
- @3121 Matt. xxiii.
-?@3367 Consciences that are so narrow about traditions, have wide mouthsabout God’s commandments. IW'Es
+== leaf 328 | ANTICHRIST. 247 | margin right | checked
+@860 Kings are down, they cannot go lower. W. T.
+@2469 Matt. xxiii.
+@2622 Our hypocrites live by theft. W. T.
+@3121 Matt. xxiii.
+@3367 Consciences that are so narrow about traditions, have wide mouths about God's commandments. W. T.
 
-== leaf 329 | (no running head) | margin left | draft
- @1367 John viii.
-?@1405 As the Jews are the children of Abraham, so are the bishops the successors of the apostles. W. T.
- @2104 The spiritualty have taught to fear their traditions. W. T.
+== leaf 329 | (no running head) | margin left | checked
+@1367 John viii.
+@1405 As the Jews are the children of Abraham, so are the bishops the successors of the apostles. W. T.
+@2104 The spiritualty have taught to fear their traditions. W. T.
 
-== leaf 330 | ANTICHRIST. 240 | margin right | draft
- @493 They win somewhat always. W. T.
- @2391 John v.
-?@2429 They that seek honour have no faith, neither can they do God’s message. W. T.
- @2695 John vii.
- @3205 ‘Be learned. W. T.
-?@3498 ats word
-?@3579 ought all men to Know. W. T.
+== leaf 330 | ANTICHRIST. 240 | margin right | checked
+@493 They win somewhat always. W. T.
+@2391 John v.
+@2429 They that seek honour have no faith, neither can they do God's message. W. T.
+@2695 John vii.
+@3205 Be learned. W. T.
+@3498 God's word ought all men to know. W. T.
 
-== leaf 331 | (no running head) | margin left | draft
- @451 They do all secretly, W. T.
- @873 God’s word ought to judge. W. T.
-?@1039 The right way to understand the seripture. W. T.
-?@1866 The kings have a judge, before whom “my soul for yours’ helpeth not. W. T.
-?@2936 Preach what thou wilt, but Feb oir ypocrisy. W. T.
+== leaf 331 | (no running head) | margin left | checked
+@451 They do all secretly. W. T.
+@873 God's word ought to judge. W. T.
+@1039 The right way to understand the scripture. W. T.
+@1866 The kings have a judge, before whom 'my soul for yours' helpeth not. W. T.
+@2936 Preach what thou wilt, but rebuke not hypocrisy. W. T.
 
-== leaf 332 | ANTICHRIST. 251 | margin right | draft
- @2666 he prelates re clothed in red. W. T.
- @3155 Poleaxes. W. T.
+== leaf 332 | ANTICHRIST. 251 | margin right | checked
+@2666 The prelates are clothed in red. W. T.
+@3155 Poleaxes. W. T.
 
-== leaf 333 | 252 OBEDIENCE OF A CHRISTIAN MAN. | margin left | draft
-?@816 Judge the tree ¢ by his fruit, and not by his leaves. W. T.
- @1888 John xi.
- @2050 John xii.
- @2212 Sacraments are signs of God’s promises. W. T.
- @3175 Luke xxii:
- @3333 1 Cor. xi.
-?@3408 The promise, which the sacrament preacheth, Jjustifieth only. W. T.
+== leaf 333 | 252 OBEDIENCE OF A CHRISTIAN MAN. | margin left | checked
+@816 Judge the tree by his fruit, and not by his leaves. W. T.
+@1888 John xi.
+@2050 John xii.
+@2212 Sacraments are signs of God's promises. W. T.
+@3175 Luke xxii.
+@3333 1 Cor. xi.
+@3408 The promise, which the sacrament preacheth, justifieth only. W. T.
 
-== leaf 334 | (no running head) | margin right | draft
- @2161 Acts ii.
- @2413 Eph. v.
- @2491 the
- @2616 sacraments justify. W. T.
+== leaf 334 | (no running head) | margin right | checked
+@2161 Acts ii.
+@2413 Eph. v.
+@2491 How the sacraments justify. W. T.
 
-== leaf 335 | (no running head) | margin left | draft
- @1006 Matrimony was not ordained to signify any W. T.
-?@1169 romise,
- @2414 If wedlock be holy, why had they lever have whores than wives? W.T.
+== leaf 335 | (no running head) | margin left | checked
+@1006 Matrimony was not ordained to signify any promise. W. T.
+@2414 If wedlock be holy, why had they lever have whores than wives? W. T.
 
-== leaf 336 | OF ORDER. 255 | margin right | draft
- @931 Character. W. T.
- @1263 Sacerdos. W. T.
+== leaf 336 | OF ORDER. 255 | margin right | checked
+@931 Character. W. T.
+@1263 Sacerdos. W. T.
 
-== leaf 337 | (no running head) | margin left | draft
- @928 Presbyter. W. T.
- @1334 Priests now ought not to be anointed with oil. W. T.
- @1997 The office of a priest. W. T.
+== leaf 337 | (no running head) | margin left | checked
+@928 Presbyter. W. T.
+@1334 Priests now ought not to be anointed with oil. W. T.
+@1997 The office of a priest. W. T.
 
 == leaf 338 | OF ORDER. 257 | margin right | draft
 ?@731 They will be holier, but their deeds be not holy at all. W. T.
