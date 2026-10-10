@@ -1825,83 +1825,81 @@
 @1334 Priests now ought not to be anointed with oil. W. T.
 @1997 The office of a priest. W. T.
 
-== leaf 338 | OF ORDER. 257 | margin right | draft
-?@731 They will be holier, but their deeds be not holy at all. W. T.
- @1233 Acts xx.
- @1477 2 Pet. ii.
- @1516 Compare their deeds to the doctrine and deeds of Christ, and of his apostles; and judge their fruits. W. T.
- @1857 1 Tim. vi.
- @1895 Matt. vii.
- @2306 John xxi.
- @2384 1 Pet. v.
- @2553 2 Cor. i.
- @2798 Acts xx.
+== leaf 338 | OF ORDER. 257 | margin right | checked
+@731 They will be holier, but their deeds be not holy at all. W. T.
+@1233 Acts xx.
+@1477 2 Pet. ii.
+@1516 Compare their deeds to the doctrine and deeds of Christ, and of his apostles; and judge their fruits. W. T.
+@1857 1 Tim. vi.
+@1895 Matt. vii.
+@2306 John xxi.
+@2384 1 Pet. v.
+@2553 2 Cor. i.
+@2798 Acts xx.
 
-== leaf 339 | (no running head) | margin left | draft
- @972 ‘What blessing meaneth. W. T.
- @1464 Gen. xxiv.
- @1714 Gen, xxvii.
- @1879 Gen, xxviii,
+== leaf 339 | (no running head) | margin left | checked
+@972 What blessing meaneth. W. T.
+@1464 Gen. xxiv.
+@1714 Gen. xxvii.
+@1879 Gen. xxviii.
 
-== leaf 340 | OF ORDER. 259 | margin right | draft
-?@488 The commandment maketh |, pe os
- @1145 Acts i.
- @1648 Acts vi,
-?@1810 Sang on of hands. W. T.
-?@2794 ‘What Judas is now. W. T.
+== leaf 340 | OF ORDER. 259 | margin right | checked
+@488 The commandment maketh priests. W. T.
+@1145 Acts i.
+@1648 Acts vi.
+@1810 Putting on of hands. W. T.
+@2794 What Judas is now. W. T.
 
-== leaf 341 | (no running head) | margin left | draft
-?@601 i wa i H A point of gochee ak
-?@810 I ot bad W. T.
-?@1257 acs
+== leaf 341 | (no running head) | margin left | checked
+@810 A point of practice. W. T.
 
-== leaf 342 | OF PENANCE. 2G1 | margin right | draft
-?@441 pentance.
- @1670 Rom vi.
- @1839 Repentance is signified by baptism, W. T.
- @3318 One confession is to knowledge wherein thou puttest thy trust. W. T.
+== leaf 342 | OF PENANCE. 2G1 | margin right | checked
+@441 Repentance. W. T.
+@1670 Rom. vi.
+@1839 Repentance is signified by baptism. W. T.
+@3318 One confession is to knowledge wherein thou puttest thy trust. W. T.
 
-== leaf 343 | (no running head) | margin left | draft
- @576 Matt. x.
- @825 Rom. x.
- @2223 If when tyrants oppose thee, thou have power to confess, then art thou sure that thou art safe. W. T.
- @2792 Another confession is to knowledge thy sins in thine heart unto God. W. T.
- @3127 1 John i.
+== leaf 343 | (no running head) | margin left | checked
+@576 Matt. x.
+@825 Rom. x.
+@2223 If when tyrants oppose thee, thou have power to confess, then art thou sure that thou art safe. W. T.
+@2792 Another confession is to knowledge thy sins in thine heart unto God. W. T.
+@3127 1 John i.
 
-== leaf 344 | OF CONFESSION. 263 | margin right | draft
- @658 Shrift. W. T.
-?@1399 Shrift was pi down or knavery among the Greeks; but is stablished thereby among us. W. T.
-?@2634 How a man shall know hat his sins re forglyens
+== leaf 344 | OF CONFESSION. 263 | margin right | checked
+@658 Shrift. W. T.
+@1399 Shrift was put down for knavery among the Greeks; but is stablished thereby among us. W. T.
+@2634 How a man shall know that his sins are forgiven. W. T.
 
-== leaf 345 | (no running head) | margin left | draft
- @634 Blind reason is their guide, and not God’s Spirit. W. T.
-?@2034 Team to know them for a are verily lepers in their hearts. W. T.
- @2260 Luke xvii.
+== leaf 345 | (no running head) | margin left | checked
+@634 Blind reason is their guide, and not God's Spirit. W. T.
+@2034 Learn to know them; for they are verily lepers in their hearts. W. T.
+@2260 Luke xvii.
 
-== leaf 346 | OF CONFESSION. 265 | margin right | draft
- @1659 Attrition is of the leaven of the Pharisees. W. T.
- @1832 Matt. xvi.
-?@1915 Persie
+== leaf 346 | OF CONFESSION. 265 | margin right | checked
+@1659 Attrition is of the leaven of the Pharisees. W. T.
+@1832 Matt. xvi.
+@1915 2 Pet. ii.
 
-== leaf 347 | (no running head) | margin left | draft
- @818 Matt. xviii.
-?@1553 ‘Whom aman offendeth, to him must he confess. W. T.
-?@2714 It hath no record in the sects that God should creep in, and hide himself, in antichrist’s ears W., T.
+== leaf 347 | (no running head) | margin left | checked
+@818 Matt. xviii.
+@1553 Whom a man offendeth, to him must he confess. W. T.
+@2714 It hath no record in the scripture that God should creep in, and hide himself, in antichrist's ear. W. T.
 
-== leaf 348 | OF SATISFACTION. 267 Satisfaction. | margin right | draft
- @766 1 John iv.
- @1184 Christ is an everlasting satisfaction. W. T.
- @1514 Luke xv.
- @2507 Baptism lasteth ever. W. T.
- @3550 Rom. x.
+== leaf 348 | OF SATISFACTION. 267 Satisfaction. | margin right | checked
+@766 1 John iv.
+@1184 Christ is an everlasting satisfaction. W. T.
+@1514 Luke xv.
+@2507 Baptism lasteth ever. W. T.
+@3550 Rom. x.
 
-== leaf 349 | 2G8 OBEDIENCE OF A CHRISTIAN MAN. | margin left | draft
- @914 Cor xiv.
- @1825 John i.
- @2485 Of binding and loosing, and of the pope’s authority or power. W. T.
- @2718 Matt. xvi.
- @2902 Matt. xxviii.
-?@3384 The pope challengeth power, not over man cil but over God also, W. T.
+== leaf 349 | 2G8 OBEDIENCE OF A CHRISTIAN MAN. | margin left | checked
+@914 Cor xiv.
+@1825 John i.
+@2485 Of binding and loosing, and of the pope's authority or power. W. T.
+@2718 Matt. xvi.
+@2902 Matt. xxviii.
+@3384 The pope challengeth power, not over man only, but over God also. W. T.
 
 == leaf 350 | OF ABSOLUTION. 260 | margin right | draft
 ?@475 Purgatory is he pope’s reature: he nay therefore be bold here. W. T.
