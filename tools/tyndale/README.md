@@ -19,10 +19,17 @@ leaf is the hOCR page index starting at 0:
 Only leaves with an image are re-read, so a sample can be measured without
 fetching all 624. The script itself makes no network calls.
 
+Vol. II (`--vol 2`) has no hOCR on Internet Archive; it reads the DjVu XML,
+with images in `raw/img2/`:
+
+    curl -L -o raw/vol2.djvu.xml https://archive.org/download/expositionsnotes00tynduoft/expositionsnotes00tynduoft_djvu.xml
+    curl -L -o raw/img2/n264.jpg https://archive.org/download/expositionsnotes00tynduoft/page/n264.jpg
+
 ## Usage
 
-    node split.mjs              # writes split-report.txt
-    node split.mjs 195 196      # prints the notes for those leaves only
+    node split.mjs                  # writes split-report.txt
+    node split.mjs 195 196          # prints the notes for those leaves only
+    node split.mjs --vol 2 [leaves] # the same for Vol. II (split-report-vol2.txt)
 
 ## How it works
 

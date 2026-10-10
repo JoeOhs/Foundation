@@ -2421,6 +2421,35 @@ coordinates still separate cleanly.
      each note's position. The body text from the hOCR is unaffected by
      this decision.
 
+     **Vol. II assessed (2026-10-10).** `split.mjs --vol 2` reads the
+     Toronto scan's DjVu XML (`expositionsnotes00tynduoft`; IA has no hOCR
+     for it). Its word boxes match the served page images to within 1 px
+     (checked on ~70 words on each of leaves 120 and 300), even though the
+     DjVu page box is larger than the image. 340 of 362 leaves have a body
+     column; ~1,109 notes located.
+     - *Body text:* reads clean in the passages sampled during the first
+       Tyndale research pass, with no non-Latin junk tokens. Same verdict
+       as Vol. I.
+     - *Margin draft: much weaker than Vol. I.* On a seeded sample of 12
+       leaves (44 66 117 190 235 264 272 325 337 348 352 354), Tesseract
+       produced 59 note fragments and flagged 32 (54%). Four leaves were
+       checked against the scan (44, 190, 264, 352): about 7 of 19 notes
+       came out right. Causes: the scan is grey, low-contrast, 400 ppi, and
+       the reverse side's notes show through as faint ghost text, which
+       fragments notes and adds junk lines. One silent error was a wrong
+       chapter (`Gal. i.` for "Gal. ii."), the worst kind for a Bible app.
+     - *No better scan.* The Google copy (`expositionsandn00waltgoog`) is
+       785 × 1258 px, far too small. The India copy
+       (`india.history.resource.40518`) is the same printing, crisp and
+       bitonal but 300 ppi; a one-page test read its notes no better.
+     - The joined-word repair wrongly split a correct word the body never
+       uses (`vainest` → `vain est`). Under proofreading that's caught, but
+       repairs must be shown to the proofreader, never applied silently.
+     **Verdict:** Vol. II is buildable on the same plan as Vol. I (body from
+     IA OCR, every note read from the image), but its OCR draft saves
+     little. Expect to transcribe most of its ~1,100 notes, not correct
+     them. Order unchanged: Vol. I first.
+
   **Investigated and found too thin to be a real candidate yet:**
   **Martin Bucer** (Strasbourg, hugely influential on both Calvin and the
   English Reformation) has much thinner and more scattered English

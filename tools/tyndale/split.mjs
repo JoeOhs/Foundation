@@ -10,18 +10,19 @@
 // isMarginLine() therefore finds nothing, and the split has to be made on
 // word boxes against the body column's edges.
 //
-// RE-OCR. For every leaf whose full-resolution image is in raw/img/
-// (n<leaf>.jpg), the margin strip is OCR'd on its own and each note is
-// repaired and checked. Notes the checks can't vouch for are flagged; the
-// flagged list is what gets read by hand. Leaves without an image are split
-// but not re-read, so a sample can be measured without fetching all 624.
+// RE-OCR. For every leaf whose full-resolution image is in the volume's
+// image folder (n<leaf>.jpg), the margin strip is OCR'd on its own and each
+// note is repaired and checked. Notes the checks can't vouch for are
+// flagged; the flagged list is what gets read by hand. Leaves without an
+// image are split but not re-read, so a sample can be measured without
+// fetching every page.
 //
-// NO NETWORK. The hOCR, the page images and Tesseract's eng.traineddata are
-// all supplied locally under raw/ (gitignored). See README.md.
+// NO NETWORK. The OCR files, the page images and Tesseract's eng.traineddata
+// are all supplied locally under raw/ (gitignored). See README.md.
 //
 // Usage:
-//   node split.mjs                  write split-report.txt
-//   node split.mjs 195 210 ...      print the notes for those leaves only
+//   node split.mjs [--vol 2]                  write the volume's report
+//   node split.mjs [--vol 2] 195 210 ...      print the notes for those leaves only
 
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -30,9 +31,24 @@ import { createWorker, PSM } from 'tesseract.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const RAW_DIR = path.join(__dirname, 'raw');
-const HOCR_PATH = path.join(RAW_DIR, 'vol1.hocr');
-const IMG_DIR = path.join(RAW_DIR, 'img');
-const REPORT_PATH = path.join(__dirname, 'split-report.txt');
+
+// Vol. II has no hOCR on Internet Archive, only DjVu XML. Its word boxes are
+// in the served page image's own pixels (checked on leaves 120 and 300:
+// ~70 matched words each within 1 px), though the DjVu page box is larger
+// than the image (2118 × 3362 against 1992 × 3328).
+const VOLUMES = {
+  1: { name: 'Vol. I', ocr: 'vol1.hocr', parse: (raw) => parseHocr(raw), img: 'img', report: 'split-report.txt' },
+  2: { name: 'Vol. II', ocr: 'vol2.djvu.xml', parse: (raw) => parseDjvu(raw), img: 'img2', report: 'split-report-vol2.txt' },
+};
+const volArg = process.argv.indexOf('--vol');
+const VOL = VOLUMES[volArg >= 0 ? process.argv[volArg + 1] : 1];
+if (!VOL) {
+  console.error(`Unknown volume. Known: ${Object.keys(VOLUMES).join(', ')}`);
+  process.exit(1);
+}
+const OCR_PATH = path.join(RAW_DIR, VOL.ocr);
+const IMG_DIR = path.join(RAW_DIR, VOL.img);
+const REPORT_PATH = path.join(__dirname, VOL.report);
 
 const LINE_RE =
   /<span class="ocr_line"[^>]*? title="bbox (\d+) (\d+) (\d+) (\d+);[^"]*"[^>]*>([\s\S]*?)<\/span>\s*(?=<span class="ocr_line"|<\/p>)/g;
@@ -72,6 +88,19 @@ function parseHocr(raw) {
   return pages;
 }
 
+// DjVu XML: one <OBJECT> per leaf, words as coords="left,bottom,right,top".
+function parseDjvu(raw) {
+  return raw.split('<OBJECT ').slice(1).map((chunk, leaf) => {
+    const lines = [...chunk.matchAll(/<LINE>([\s\S]*?)<\/LINE>/g)]
+      .map((l) => [...l[1].matchAll(/<WORD coords="(\d+),(\d+),(\d+),(\d+)[^"]*"[^>]*>([^<]*)<\/WORD>/g)]
+        .map((w) => ({ x0: +w[1], y1: +w[2], x1: +w[3], y0: +w[4], text: decode(w[5]).trim() }))
+        .filter((w) => w.text))
+      .filter((words) => words.length)
+      .map((words) => ({ y0: Math.min(...words.map((w) => w.y0)), y1: Math.max(...words.map((w) => w.y1)), words }));
+    return { leaf, width: +(/width="(\d+)"/.exec(chunk)?.[1] ?? 0), lines };
+  });
+}
+
 // The most common value. This edition is justified, so
 // the body's right edge is where most lines end and its left edge where most
 // lines start (indents and short lines are the minority). A median would be
@@ -102,8 +131,10 @@ function splitPage(page) {
   const left = mode(words.map((w) => w.x0));
   const right = mode(words.map((w) => w.x1));
   // Too few lines agreeing means no justified body column: a title page,
-  // plate, or blank leaf. Report it rather than guessing.
-  if (!left || !right || right.n < 8) return { leaf: page.leaf, layout: null };
+  // plate, or blank leaf. So does a column under half the page wide: on the
+  // contents page (Vol. I leaf 12) the dotted leaders produced an 84 px one.
+  // Report it rather than guessing.
+  if (!left || !right || right.n < 8 || right.at - left.at < page.width * 0.5) return { leaf: page.leaf, layout: null };
 
   // Tesseract clips word boxes at the column boundary, so a left-margin
   // word ends exactly where the body starts (x1 == left) and a body word's
@@ -437,16 +468,16 @@ async function readMargin(worker, img, layout, inset) {
 async function main() {
   let raw;
   try {
-    raw = await fs.readFile(HOCR_PATH, 'utf8');
+    raw = await fs.readFile(OCR_PATH, 'utf8');
   } catch (err) {
-    console.error(`Cannot read ${HOCR_PATH}: ${err.message}\nSee README.md for how to fetch it.`);
+    console.error(`Cannot read ${OCR_PATH}: ${err.message}\nSee README.md for how to fetch it.`);
     process.exit(1);
   }
-  const results = parseHocr(raw).map(splitPage);
+  const results = VOL.parse(raw).map(splitPage);
   vocabulary = bodyVocabulary(results);
 
   // Leaves named on the command line are printed, and only they are re-read.
-  const only = process.argv.slice(2).map(Number).filter(Number.isInteger);
+  const only = process.argv.slice(2).filter((a, i, all) => all[i - 1] !== '--vol').map(Number).filter(Number.isInteger);
   const chosen = only.length ? only.map((n) => results[n]).filter(Boolean) : results;
 
   const worker = await createWorker('eng', 1, { langPath: RAW_DIR, cachePath: RAW_DIR, gzip: false });
@@ -461,7 +492,7 @@ async function main() {
     for (const r of chosen) {
       console.log(`\n===== leaf ${r.leaf} ${r.layout ? `body ${r.layout.left}–${r.layout.right}` : '(no body column)'}`);
       if (!r.layout) continue;
-      r.notes.forEach((n) => console.log(`  [hOCR y=${n.y0}] ${n.text}`));
+      r.notes.forEach((n) => console.log(`  [IA   y=${n.y0}] ${n.text}`));
       for (const n of r.ocr ?? []) {
         console.log(`  [OCR  y=${n.y0}] ${n.text}`);
         n.flags.forEach((f) => console.log(`      ! ${f}`));
@@ -476,8 +507,8 @@ async function main() {
   const ocrNotes = results.flatMap((r) => (r.ocr ?? []).map((n) => ({ leaf: r.leaf, ...n })));
   const flagged = ocrNotes.filter((n) => n.flags.length);
   const out = [
-    `Tyndale Vol. I margin split — ${results.length} leaves, ${laid.length} with a body column`,
-    `margin notes located in hOCR: ${notes}`,
+    `Tyndale ${VOL.name} margin split — ${results.length} leaves, ${laid.length} with a body column`,
+    `margin notes located in IA OCR: ${notes}`,
     `re-OCR'd: ${results.filter((r) => r.ocr).length} leaves, ${ocrNotes.length} notes, ${flagged.length} flagged for hand reading`,
     '',
     ...ocrNotes.map((n) =>
