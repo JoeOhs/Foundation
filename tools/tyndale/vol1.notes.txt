@@ -2701,82 +2701,78 @@
 @1886 God will have us to be merciful to our neighbours.
 @2975 All the ceremonies of the old testament were but preachers of Christ that was to come.
 
-== leaf 496 | BOOK OF EXODUS. 415 | margin right | draft
-?@789 The beauty of the tabernacle was to keep the Jews from hearkening to the heathen.
- @1944 God had two testaments, that is, the old and the new.
-?@2765 The old testament was built upon the observa- tion of the law.
-?@3515 The law could not give life.
+== leaf 496 | BOOK OF EXODUS. 415 | margin right | checked
+@789 The beauty of the tabernacle was to keep the Jews from hearkening to the heathen.
+@1944 God had two testaments, that is, the old and the new.
+@2765 The old testament was built upon the observation of the law.
+@3515 The law could not give life.
 
-== leaf 497 | 416 PROLOGUE TO THE | margin left | draft
-?@1061 The law is the utterer of sin.
- @1976 The law was given by God to shew what sin was.
- @2644 Ceremonies are not given to justify the heart, but to signify our justification by Christ.
- @3063 Ceremonies cannot justify.
+== leaf 497 | 416 PROLOGUE TO THE | margin left | checked
+@1061 The law is the utterer of sin.
+@1976 The law was given by God to shew what sin was.
+@2644 Ceremonies are not given to justify the heart, but to signify our justification by Christ.
+@3063 Ceremonies cannot justify.
 
-== leaf 498 | BOOK OF EXODUS. 417 | margin right | draft
-?@705 The new testament is the everlasting | Plees made to us in Christ.
- @1117 Faith only justifieth.
- @1531 Good works spring out of the love we have to God.
-?@2511 Where true faith is, there good works do flow and abound.
- @3086 The new testament was from the beginning.
+== leaf 498 | BOOK OF EXODUS. 417 | margin right | checked
+@705 The new testament is the everlasting promises made to us in Christ.
+@1117 Faith only justifieth.
+@1531 Good works spring out of the love we have to God.
+@2511 Where true faith is, there good works do flow and abound.
+@3086 The new testament was from the beginning.
 
-== leaf 499 | (no running head) | margin left | draft
- @726 Our temporal laws spring out of the law of nature.
- @1555 Love counselleth the faithful to work.
-?@1803 We must not presume in our well- doing, nor condemn others that run astray; the last, which turneth to God is as far forward as the first.
+== leaf 499 | (no running head) | margin left | checked
+@726 Our temporal laws spring out of the law of nature.
+@1555 Love counselleth the faithful to work.
+@1803 We must not presume in our well-doing, nor condemn others that run astray; the last, which turneth to God is as far forward as the first.
 
-== leaf 500 | 419 A TABLE, | margin left | draft
- @1239 and
-?@1486 brea
-?@1833 arm som the | king we | and favo untc pres
-?@2801 favo unto iq pres
-?@3541 weig Anci piece
+== leaf 500 | 419 A TABLE, | margin left | checked
 
-== leaf 501 | (no running head) | margin left | draft
- @2115 Exod. xvii.
+== leaf 501 | (no running head) | margin left | checked
+@2115 Exod. xvii.
 
-== leaf 502 | (no running head) | margin right | draft
-?@1096 Man's wisdom is plain idolatry, it scattereth, divideth, and maketh sects.
- @1838 Ceremonies to the Israelites and Jews were as good schoolmasters are to young scholars.
-?@2485 All things were first revealed in ceremonies and shadows, until it pleased Almighty God to reveal his Son Jesus Christ.
-?@3628 Small and little gifts, given by the
+== leaf 502 | (no running head) | margin right | checked
+@1096 Man's wisdom is plain idolatry, it scattereth, divideth, and maketh sects.
+@1838 Ceremonies to the Israelites and Jews were as good schoolmasters are to young scholars.
+@2485 All things were first revealed in ceremonies and shadows, until it pleased Almighty God to reveal his Son Jesus Christ.
+@3628 Small and little gifts, given by the...
 
-== leaf 503 | 422 PROLOGUE TO THE | margin left | draft
- @444 parents to their children, cause love and obedience.
- @775 Sacrifices and ceremonies serve for allegories to find out Christ.
-?@1101 Similitudes prove nothing, but do more py lead thee to understand the text.
- @1846 Some ceremonies contain wholesome and profitable doctrine.
- @2335 Ceremonies ordained to confirm our faith,
-?@2905 God's secrets were opened but to a few.
- @3735 The ceremonies of them-
+== leaf 503 | 422 PROLOGUE TO THE | margin left | checked
+@444 ...parents to their children, cause love and obedience.
+@775 Sacrifices and ceremonies serve for allegories to find out Christ.
+@1101 Similitudes prove nothing, but do more plainly lead thee to understand the text.
+@1846 Some ceremonies contain wholesome and profitable doctrine.
+@2335 Ceremonies ordained to confirm our faith.
+@2905 God's secrets were opened but to a few.
+@3735 The ceremonies of them-...
 
-== leaf 504 | BOOK OF LEVITICUS. 423 | margin right | draft
- @446 selves saved not, but faith in God’s promise.
-?@1594 Our nature is so weak, that we must be holpen by outward signs and’ tokens.
- @2245 No man is holpen by God’s promises but sinners that feel their sin. Sacraments truly ministered are profitable.
- @2976 Sacraments truly ministered preach unto us repentance of our sins.
+== leaf 504 | BOOK OF LEVITICUS. 423 | margin right | checked
+@446 ...selves saved not, but faith in God's promise.
+@1594 Our nature is so weak, that we must be holpen by outward signs and tokens.
+@2245 No man is holpen by God's promises but sinners that feel their sin.
+@2420 Sacraments truly ministered are profitable.
+@2976 Sacraments truly ministered preach unto us repentance of our sins.
 
-== leaf 505 | 424 PROLOGUE TO THE | margin left | draft
-?@684 Not naked or dumb ceremonies, but : the Holy Ghost, through faith, washeth away sins.
- @1584 The difference between a sacrifice and a sacrament.
- @2163 In what state we die, in the same we shall rise again, either of salvation or damnation.
- @3065 The sacraments are unto the dead no sacraments at all.
- @3311 Sacraments abused by the clergy.
+== leaf 505 | 424 PROLOGUE TO THE | margin left | checked
+@684 Not naked or dumb ceremonies, but the Holy Ghost, through faith, washeth away sins.
+@1584 The difference between a sacrifice and a sacrament.
+@2163 In what state we die, in the same we shall rise again, either of salvation or damnation.
+@3065 The sacraments are unto the dead no sacraments at all.
+@3311 Sacraments abused by the clergy.
 
-== leaf 506 | BOOK OF LEVITICUS. 425 | margin right | draft
-?@433 The papists have had no small friend and good helper of the mass.
-?@759 Hypocrites’ prayers can neither profit themselves nor any man else.
- @1249 Those that are enemies to the word of God, love neither God nor his people.
- @2232 Allegories are to be well weighed and considered.
- @2561 The greatest cause of the decay of faith and blindness that we were in was through allegories.
- @3050 How allegories are to be understood.
- @3616 The right use of allegories.
+== leaf 506 | BOOK OF LEVITICUS. 425 | margin right | checked
+@433 The papists have had no small friend and good helper of the mass.
+@759 Hypocrites' prayers can neither profit themselves nor any man else.
+@1249 Those that are enemies to the word of God, love neither God nor his people.
+@2232 Allegories are to be well weighed and considered.
+@2561 The greatest cause of the decay of faith and blindness that we were in was through allegories.
+@3050 How allegories are to be understood.
+@3616 The right use of allegories.
 
-== leaf 507 | 426 PROLOGUE TO THE | margin left | draft
-?@1012 Baptism is the common badge of all true profes- sors of Christ.
-?@1752 Baptism teacheth us Eepeniante of sin.
- @1994 The bare washing helpeth not, but through the word of faith it purifieth us.
- @3151 How Christ borroweth figures of the old Testament, to make plain the texts of the new Testament.
+== leaf 507 | 426 PROLOGUE TO THE | margin left | checked
+@1012 Baptism is the common badge of all true professors of Christ.
+@1752 Baptism teacheth us repentance of sin.
+@1994 The bare washing helpeth not, but through the word of faith it purifieth us.
+@3151 How Christ borroweth figures of the old Testament, to make plain the texts of the new Testament.
 
 == leaf 508 | BOOK OF LEVITICUS. 427 | margin right | draft
 ?@2323 Qurduty is to do good deeds, but salvation we cannot challenge thereby.
