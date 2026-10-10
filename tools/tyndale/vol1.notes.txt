@@ -37,8 +37,7 @@
 # - Handwriting, library marks and show-through from the reverse side are
 #   not notes and are left out.
 
-== leaf 13 | Vlll CONTENTS. PAGK | margin left | draft
- @371 Prologue upon the An exposition upon
+== leaf 13 | Vlll CONTENTS. PAGK | margin left | checked
 
 == leaf 14 | ADVERTISEMENT. | margin none found | draft
 
@@ -182,110 +181,109 @@
 
 == leaf 88 | A PATHWAY INTO THE HOLY SCRIPTURE. | margin none found | draft
 
-== leaf 89 | (no running head) | margin left | draft
-?@655 The cause of the edition of this Pathway. Ant. ed.
- @1544 ‘What are contained in the Old Testament. W. T.
- @1796 The contents of the New Testament. W. T.
-?@2037 The Gospel, or Evangelion. Ww. 4 bs
+== leaf 89 | (no running head) | margin left | checked
+@655 The cause of the edition of this Pathway. Ant. ed.
+@1544 What are contained in the Old Testament. W. T.
+@1796 The contents of the New Testament. W. T.
+@2037 The Gospel, or Evangelion. W. T.
 
-== leaf 90 | (no running head) | margin right | draft
- @1232 Why the Evangelion is called a Testament 5, W. T.
-?@2064 No greater comfort can happen to a sinner, being penitent, than the Dio: mises of the gospel. W. T.
- @2533 The gospel was promised of God, in the Old Testament, by the prophets. W. T.
- @2800 Rom. i.
+== leaf 90 | (no running head) | margin right | checked
+@1232 Why the Evangelion is called a Testament. W. T.
+@2064 No greater comfort can happen to a sinner, being penitent, than the promises of the gospel. W. T.
+@2533 The gospel was promised of God, in the Old Testament, by the prophets. W. T.
+@2800 Rom. i.
 
-== leaf 91 | (no running head) | margin left | draft
- @799 Christ hath overthrown the devil and all his power. W. T.
- @1138 Gen. xxii.
- @1299 Gal, iii.
- @2106 John xi.
- @2279 John i.
-?@2317 The law was gen by oses, grace and truth by Jesus Christ. W. T.
- @2700 2 Cor. iii.
-?@2854 The law re- rhe of us that which is impossible for our nature to do. W. T.
+== leaf 91 | (no running head) | margin left | checked
+@799 Christ hath overthrown the devil and all his power. W. T.
+@1138 Gen. xxii.
+@1299 Gal. iii.
+@2106 John xi.
+@2279 John i.
+@2317 The law was given by Moses, grace and truth by Jesus Christ. W. T.
+@2700 2 Cor. iii.
+@2854 The law requireth of us that which is impossible for our nature to do. W. T.
 
-== leaf 92 | (no running head) | margin right | draft
-?@413 ‘When the law hath condemned us, Christ granist us ree pardon. W. T.
- @985 2 Cor. iii.
- @1478 John i.
-?@2050 Christ is God’s mercy- stool, so that no Heacy cometh from God, but through Christ. W. T.
- @3442 The law must ever be in
+== leaf 92 | (no running head) | margin right | checked
+@413 When the law hath condemned us, Christ granteth us free pardon. W. T.
+@985 2 Cor. iii.
+@1478 John i.
+@2050 Christ is God's mercy-stool, so that no mercy cometh from God, but through Christ. W. T.
+@3442 The law must ever be in...
 
-== leaf 93 | (no running head) | margin left | draft
-?@387 sight, to make us humble- spirited : and the ed also before our eyes, to comfort us. A bs
-?@1039 Two manner of people deceived those which justify themselves by their works; and those that through their blind opinion of faith utterly akg the ively faith, We To
+== leaf 93 | (no running head) | margin left | checked
+@387 ...sight, to make us humble-spirited: and the gospel also before our eyes, to comfort us. W. T.
+@1039 Two manner of people deceived: those which justify themselves by their works; and those that through their blind opinion of faith utterly pervert the lively faith. W. T.
 
-== leaf 94 | (no running head) | margin right | draft
-?@765 He that hath a right faith Spat in the law, although his weakness cannot fulfil the sanie. W. T.
-?@1750 A justiciary. W. T.
-?@1846 He that justifieth himself, rejecteth the law and promises, Ant. ed.
- @2337 A sensual man. W. T.
- @2660 A Christian man. W. T.
+== leaf 94 | (no running head) | margin right | checked
+@765 He that hath a right faith delighteth in the law, although his weakness cannot fulfil the same. W. T.
+@1750 A justiciary. W. T.
+@1846 He that justifieth himself, rejecteth the law and promises. Ant. ed.
+@2337 A sensual man. W. T.
+@2660 A Christian man. W. T.
 
-== leaf 95 | (no running head) | margin left | draft
- @842 Nature. W. T.
- @1680 A proper similitude. Ant. ed.
-?@3315 “We are plucked from Adam and ied in hrist, b grace. W. T.
+== leaf 95 | (no running head) | margin left | checked
+@842 Nature. W. T.
+@1680 A proper similitude. Ant. ed.
+@3315 We are plucked from Adam and graffed in Christ, by grace. W. T.
 
-== leaf 96 | (no running head) | margin right | draft
- @934 The blood of Christ hath obtained all things for us of God. W. T.
- @1513 Faith, love, works. W. T.
- @2179 Righteousness, otherwise justifying, or justice. W. T.
-?@2508 Sundry sorts of righteousness. Ant. ed.
+== leaf 96 | (no running head) | margin right | checked
+@934 The blood of Christ hath obtained all things for us of God. W. T.
+@1513 Faith, love, works. W. T.
+@2179 Righteousness, otherwise justifying, or justice. W. T.
+@2508 Sundry sorts of righteousness. Ant. ed.
 
-== leaf 97 | (no running head) | margin left | draft
-?@1660 Man's sensual reason cannot perceive the virtue of Christ’s blood. W. T.
+== leaf 97 | (no running head) | margin left | checked
+@1660 Man's sensual reason cannot perceive the virtue of Christ's blood. W. T.
 
-== leaf 98 | (no running head) | margin right | draft
-?@1654 Adam’s fall brought us in bondage to the devil. Ant. ed.
- @1983 Adam bringeth us to bondage. W. T.
-?@2809 The natural corruption of the minds of Adam’s heirs plainly set forth, W. T.
+== leaf 98 | (no running head) | margin right | checked
+@1654 Adam's fall brought us in bondage to the devil. Ant. ed.
+@1983 Adam bringeth us to bondage. W. T.
+@2809 The natural corruption of the minds of Adam's heirs plainly set forth. W. T.
 
-== leaf 99 | (no running head) | margin left | draft
- @2647 Rom. iv.
-?@2815 Man before his regenera- tion cannot think well of God. Ant. ed.
-?@3461 Christ sctteth us at liberty. W. T.
+== leaf 99 | (no running head) | margin left | checked
+@2647 Rom. iv.
+@2815 Man before his regeneration cannot think well of God. Ant. ed.
+@3461 Christ setteth us at liberty. W. T.
 
-== leaf 100 | (no running head) | margin right | draft
-?@1334 The hearts of the elect do even melt at the preaching of God’s mercy, and Christ's kindness. Ant. ed.
-?@1746 The evangelion bringeth faith, faith bringeth love, love worketh. W. T.
- @2980 Christ left nothing undone that might be to our salvation. Ant. ed.
-?@3230 Christ pds eth all goodness SCs and giveth an ensample how to bestow it godly. IWENEL
+== leaf 100 | (no running head) | margin right | checked
+@1334 The hearts of the elect do even melt at the preaching of God's mercy, and Christ's kindness. Ant. ed.
+@1746 The evangelion bringeth faith, faith bringeth love, love worketh. W. T.
+@2980 Christ left nothing undone that might be to our salvation. Ant. ed.
+@3230 Christ bringeth all goodness freely, and giveth an ensample how to bestow it godly. W. T.
 
-== leaf 101 | (no running head) | margin left | draft
- @904 Faith receiveth of God, and love bestoweth the same on his neighbour. W. T.
- @2302 Christ did not good deeds to merit heaven, for that was his already, but freely, for our sakes. Ant. ed.
+== leaf 101 | (no running head) | margin left | checked
+@904 Faith receiveth of God, and love bestoweth the same on his neighbour. W. T.
+@2302 Christ did not good deeds to merit heaven, for that was his already, but freely, for our sakes. Ant. ed.
 
-== leaf 102 | (no running head) | margin right | draft
-?@617 A true Christian man believeth that heaven is his already, and therefore loveth, and worketh, to honour God only, and to draw all things to Gods WW. T.
- @2745 The law bindeth, and the gospel looseth all men. W. T.
- @3407 The force of the law. W. T.
+== leaf 102 | (no running head) | margin right | checked
+@617 A true Christian man believeth that heaven is his already, and therefore loveth, and worketh, to honour God only, and to draw all things to God. W. T.
+@2745 The law bindeth, and the gospel looseth all men. W. T.
+@3407 The force of the law. W. T.
 
-== leaf 103 | (no running head) | margin left | draft
-?@1746 The uprising sinner feeleth such joy in the do that he thinketh it impossible that God should forsake him. Ant. ed.
-?@2401 A Christian man feeleth the working of the Holy Ghost in his soul; and in all tribulations and adversities feeleth God a merciful father and a loving. "ug
+== leaf 103 | (no running head) | margin left | checked
+@1746 The uprising sinner feeleth such joy in the gospel that he thinketh it impossible that God should forsake him. Ant. ed.
+@2401 A Christian man feeleth the working of the Holy Ghost in his soul; and in all tribulations and adversities feeleth God a merciful father and a loving. W. T.
 
-== leaf 104 | (no running head) | margin right | draft
-?@1746 All sin in us is of ourselves, and all goodness of Christ. W. T.
- @2654 Works certify us of everlasting inheritance, kill sin in us, and relieve the necessity of our neighbour.
+== leaf 104 | (no running head) | margin right | checked
+@1746 All sin in us is of ourselves, and all goodness of Christ. W. T.
+@2654 Works certify us of everlasting inheritance, kill sin in us, and relieve the necessity of our neighbour.
 
-== leaf 105 | (no running head) | margin left | draft
- @905 Gifts of grace belong to our brother as much as to ourselves.
- @3283 Holy days necessary to come together in, and learn Christ’s will.
+== leaf 105 | (no running head) | margin left | checked
+@905 Gifts of grace belong to our brother as much as to ourselves.
+@3283 Holy days necessary to come together in, and learn Christ's will.
 
-== leaf 106 | (no running head) | margin right | draft
- @1831  W. T.
-?@1870 rulers to be obeyed so far forth as their laws impugn not God's laws.
-?@2818 Though rulers ap- pois of od oppress us, yet we may not avenge, they being in God’s room.
-?@3553 We must love our neighbour as ourself,
+== leaf 106 | (no running head) | margin right | checked
+@1831 Worldly rulers to be obeyed so far forth as their laws impugn not God's laws.
+@2818 Though rulers appointed of God oppress us, yet we may not avenge, they being in God's room.
+@3553 We must love our neighbour as ourself.
 
-== leaf 107 | (no running head) | margin left | draft
- @3537 Our baptism signifieth that we repent and profess a new life.
+== leaf 107 | (no running head) | margin left | checked
+@3537 Our baptism signifieth that we repent and profess a new life.
 
-== leaf 108 | (no running head) | margin right | draft
-?@1329 The perfecter we are, the greater is our repentance and the stronger is our faich.
- @2480 Our works deserve not the gifts of grace.
-?@3537 The principles of scripture perfectly learned, all the rest is more easy.
+== leaf 108 | (no running head) | margin right | checked
+@1329 The perfecter we are, the greater is our repentance and the stronger is our faith.
+@2480 Our works deserve not the gifts of grace.
+@3537 The principles of scripture perfectly learned, all the rest is more easy.
 
 == leaf 109 | (no running head) | margin none found | draft
 
@@ -301,125 +299,125 @@
 
 == leaf 117 | (no running head) | margin none found | draft
 
-== leaf 118 | WILLIAM TYNDALE, OTHERWISE CALLED HITCHINS, TO THE READER. | margin right | draft
-?@1403 The cause why W. Tyndale put his name to some books, and left it out in some 2. Ant. ed. W. T.
- @2439 Roye a false disciple. Ant. ed.
+== leaf 118 | WILLIAM TYNDALE, OTHERWISE CALLED HITCHINS, TO THE READER. | margin right | checked
+@1403 The cause why W. Tyndale put his name to some books, and left it out in some. Ant. ed.
+@2439 William Roye a false disciple. Ant. ed.
 
-== leaf 119 | (no running head) | margin left | draft
- @1576 Jerome a brother of Greenwich. Ant. ed.
+== leaf 119 | (no running head) | margin left | checked
+@1576 Jerome a brother of Greenwich. Ant. ed.
 
 == leaf 120 | PREFACE TO THE READER. 39 | margin none found | draft
 
-== leaf 122 | PREFACE TO THE READER. 41 | margin right | draft
- @582 2 Tim. iii.
- @621 2 Thess. ii.
- @828 2 Cor.x,
- @1078 1 Cor. iii.
+== leaf 122 | PREFACE TO THE READER. 41 | margin right | checked
+@582 2 Tim. iii.
+@621 2 Thess. ii.
+@828 2 Cor. x.
+@1078 1 Cor. iii.
 
-== leaf 123 | 42 PARABLE OF THE WICKED MAMMON. | margin left | draft
- @406 Acts vi.
- @743 Antichrist, what it is. Ant. ed.
-?@857 Antichrist is as much to say as, against Christ; and is nothing but a pra of alse doe- trine; W. T.
- @1318 Antichrist was ever. W. T.
-?@1901 Seribes and Pharisees were very Antichrists. Ant. ed.
- @2094 The properties of Antichrist. Ant. ed.
+== leaf 123 | 42 PARABLE OF THE WICKED MAMMON. | margin left | checked
+@406 Acts vi.
+@743 Antichrist, what it is. Ant. ed.
+@857 Antichrist is as much to say as, against Christ; and is nothing but a preacher of false doctrine. W. T.
+@1318 Antichrist was ever. W. T.
+@1901 Scribes and Pharisees were very Antichrists. Ant. ed.
+@2094 The properties of Antichrist. Ant. ed.
 
-== leaf 124 | PREFACE TO THE READER. 43 | margin right | draft
- @929 2 Cor. XI.
- @1008 Antichrist hath been among us long time. Ant. ed.
- @1586 John v.
- @1670 Antichrist is a spiritual thing, and cannot be seen, but in the light of God’s word. W. T.
-?@2158 Antichrist account eth it treason to be acquainted with Christ. Ant. ed.
- @2902 The prelates have a burning zeal to their children. W. T.
- @3150 Gal. iv.
+== leaf 124 | PREFACE TO THE READER. 43 | margin right | checked
+@929 2 Cor. xi.
+@1008 Antichrist hath been among us long time. Ant. ed.
+@1586 John v.
+@1670 Antichrist is a spiritual thing, and cannot be seen, but in the light of God's word. W. T.
+@2158 Antichrist accounteth it treason to be acquainted with Christ. Ant. ed.
+@2902 The prelates have a burning zeal to their children. W. T.
+@3150 Gal. iv.
 
 == leaf 125 | (no running head) | margin none found | draft
 
-== leaf 126 | THE PARABLE OF THE WICKED MAMMON. | margin right | draft
- @1192 Luke xvi.
- @2976 Matt. xxiv
- @3057 2 Tim. iii.
+== leaf 126 | THE PARABLE OF THE WICKED MAMMON. | margin right | checked
+@1192 Luke xvi.
+@2976 Matt. xxiv
+@3057 2 Tim. iii.
 
-== leaf 127 | 46 THE PARABLE OF | margin left | draft
-?@924 ¥ Cor. 1. &it.
- @963 Rom. x.
-?@1179 They gu more faith to Aristctle than to Christ. W. T.
-?@2250 Faith only Jjustifieth. Ant. ed.
+== leaf 127 | 46 THE PARABLE OF | margin left | checked
+@924 1 Cor. i. & ii.
+@963 Rom. x.
+@1179 They give more faith to Aristotle than to Christ. W. T.
+@2250 Faith only justifieth. Ant. ed.
 
-== leaf 128 | THE WICKED MAMMON. 47 | margin right | draft
- @357 Rom. i.
- @934 Faith bringeth life. Ant. ed.
-?@1101 The law bringeth deatn. Ant. ed.
- @1265 2 Cor. iii.
- @1345 The law, death; and the promises life. W. T.
- @2094 Eph. ii.
- @2256 The law, when it is preached,
+== leaf 128 | THE WICKED MAMMON. 47 | margin right | checked
+@357 Rom. i.
+@934 Faith bringeth life. Ant. ed.
+@1101 The law bringeth death. Ant. ed.
+@1265 2 Cor. iii.
+@1345 The law, death; and the promises life. W. T.
+@2094 Eph. ii.
+@2256 The law, when it is preached,...
 
-== leaf 129 | 48 THE PARABLE OF | margin left | draft
-?@425 giveth no rower to fulfil the same. W. T.
- @844 The gospel is the ministration of righteousness. Ant. ed.
- @1260 2 Cor. iii.
-?@1596 The consenting unto the Jaw with the heart is eternal life. W. T.
- @1943 Eph. vi.
- @2261 Resist the devil with the shield of faith. Ant. ed.
- @3252 Faith is the holy candle wherewith we must bless ourselves at the last hour, Ant. ed.
+== leaf 129 | 48 THE PARABLE OF | margin left | checked
+@425 ...giveth no power to fulfil the same. W. T.
+@844 The gospel is the ministration of righteousness. Ant. ed.
+@1260 2 Cor. iii.
+@1596 The consenting unto the law with the heart is eternal life. W. T.
+@1943 Eph. vi.
+@2261 Resist the devil with the shield of faith. Ant. ed.
+@3252 Faith is the holy candle wherewith we must bless ourselves at the last hour. Ant. ed.
 
-== leaf 130 | THE WICKED MAMMON. 49 | margin right | draft
- @838 Rom. iii.
- @999 Rom. iv.
- @1076 Faith is accounted to us for righteousness. Ant. ed.
-?@1267 Lom. v.
- @1305 Rom. x.
- @1342 Gal. iii.
- @1575 The children of faith are the children of Abraham. Ant. ed.
- @2562 Gal. ii,
- @2890 Faith only justifieth us. W. T.
+== leaf 130 | THE WICKED MAMMON. 49 | margin right | checked
+@838 Rom. iii.
+@999 Rom. iv.
+@1076 Faith is accounted to us for righteousness. Ant. ed.
+@1267 Rom. v.
+@1305 Rom. x.
+@1342 Gal. iii.
+@1575 The children of faith are the children of Abraham. Ant. ed.
+@2562 Gal. ii.
+@2890 Faith only justifieth us. W. T.
 
-== leaf 131 | 50 THE PARABLE OF | margin left | draft
- @904 Matt vii.
- @1323 Matt. xii.
- @1815 A principle taught by Christ. Ant. ed.
-?@2152 A man must have some goodness in is heart, before he bring forth good works. W. T.
+== leaf 131 | 50 THE PARABLE OF | margin left | checked
+@904 Matt. vii.
+@1323 Matt. xii.
+@1815 A principle taught by Christ. Ant. ed.
+@2152 A man must have some goodness in his heart, before he bring forth good works. W. T.
 
-== leaf 132 | THE WICKED MAMMON. 51 | margin right | draft
- @350 Faith being joined with the word of God bringeth forth good fruit. Ant. ed.
- @1508 Acts xv.
- @2333 The law uttereth sin, and setteth us at debate. W. T.
- @2740 The law cannot justify us. Ant. ed.
+== leaf 132 | THE WICKED MAMMON. 51 | margin right | checked
+@350 Faith being joined with the word of God bringeth forth good fruit. Ant. ed.
+@1508 Acts xv.
+@2333 The law uttereth sin, and setteth us at debate. W. T.
+@2740 The law cannot justify us. Ant. ed.
 
-== leaf 133 | 52 THE PARABLE OF | margin left | draft
- @1161 Gal. iii.
-?@1573 Faith in Christ's promises doth justify us. Ant. ed.
-?@1764 The promises justity, W. T.
-?@2569 Christ is the storehouse of mercy for us. Ant. ed.
- @2980 Matt. xxv.
+== leaf 133 | 52 THE PARABLE OF | margin left | checked
+@1161 Gal. iii.
+@1573 Faith in Christ's promises doth justify us. Ant. ed.
+@1764 The promises justify. W. T.
+@2569 Christ is the storehouse of mercy for us. Ant. ed.
+@2980 Matt. xxv.
 
-== leaf 134 | THE WICKED MAMMON. 53 | margin right | draft
- @528 The definition of true faith. Ant. ed.
-?@2110 [Jude, 8.]
- @2280 Faith that bringeth not forth fruit, is but a dream. Ant. ed.
- @2610 Matt. ix.
-?@2647 Old vessels that new wine is put Inch WETS
- @3024 Faith is the gift of God. Ant. ed.
- @3186 Eph. ii.
+== leaf 134 | THE WICKED MAMMON. 53 | margin right | checked
+@528 The definition of true faith. Ant. ed.
+@2110 [Jude, 8.]
+@2280 Faith that bringeth not forth fruit, is but a dream. Ant. ed.
+@2610 Matt. ix.
+@2647 Old vessels that new wine is put in. W. T.
+@3024 Faith is the gift of God. Ant. ed.
+@3186 Eph. ii.
 
-== leaf 135 | 54 THE PARABLE OF | margin left | draft
- @2166 The Spirit of God accompanieth faith. Ant. ed.
+== leaf 135 | 54 THE PARABLE OF | margin left | checked
+@2166 The Spirit of God accompanieth faith. Ant. ed.
 
-== leaf 136 | THE WICKED MAMMON. 55 | margin right | draft
- @1258 Faith of her self bringeth forth good fruits, that is, good works. Ant. ed.
- @2578 True faith is not without good works. Ant. ed.
+== leaf 136 | THE WICKED MAMMON. 55 | margin right | checked
+@1258 Faith of her self bringeth forth good fruits, that is, good works. Ant. ed.
+@2578 True faith is not without good works. Ant. ed.
 
-== leaf 137 | 56 THE PARABLE OF | margin left | draft
- @675 True faith and good works are the gift of God, and come not of ourselves, Ant. ed.
- @2330 The difference between false faith, and right faith, Ant. ed.
- @2749 As the tree is known by his fruit, so right faith is known by . her fruit. Ant. ed.
- @3069 Example. Ant. ed.
- @3157 Luke vii.
+== leaf 137 | 56 THE PARABLE OF | margin left | checked
+@675 True faith and good works are the gift of God, and come not of ourselves. Ant. ed.
+@2330 The difference between false faith, and right faith. Ant. ed.
+@2749 As the tree is known by his fruit, so right faith is known by her fruit. Ant. ed.
+@3069 Example. Ant. ed.
+@3157 Luke vii.
 
-== leaf 138 | THE WICKED MAMMON. 57 | margin right | draft
- @927 The fruits of faith. Ant. ed.
- @2665 A difference between true faith and feigned faith. Ant. ed.
+== leaf 138 | THE WICKED MAMMON. 57 | margin right | checked
+@927 The fruits of faith. Ant. ed.
+@2665 A difference between true faith and feigned faith. Ant. ed.
 
 == leaf 139 | 58 THE PARABLE OF | margin left | draft
  @2059 Rom. ix.
