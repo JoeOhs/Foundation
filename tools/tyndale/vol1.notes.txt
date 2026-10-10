@@ -2774,83 +2774,80 @@
 @1994 The bare washing helpeth not, but through the word of faith it purifieth us.
 @3151 How Christ borroweth figures of the old Testament, to make plain the texts of the new Testament.
 
-== leaf 508 | BOOK OF LEVITICUS. 427 | margin right | draft
-?@2323 Qurduty is to do good deeds, but salvation we cannot challenge thereby.
-?@2815 A good ex- std taken of the lepers.
-?@3545 The true preaching of God’s word doth bind and loose consciencs.
+== leaf 508 | BOOK OF LEVITICUS. 427 | margin right | checked
+@2323 Our duty is to do good deeds, but salvation we cannot challenge thereby.
+@2815 A good example taken of the lepers.
+@3545 The true preaching of God's word doth bind and loose consciences.
 
-== leaf 509 | (no running head) | margin left | draft
-?@1079 In alice is both honey and gall ; that is to say, both good and evil.
- @2305 All good deeds are God’s workmanship, and we his instruments whereby he doth them.
+== leaf 509 | (no running head) | margin left | checked
+@1079 In allegories is both honey and gall; that is to say, both good and evil.
+@2305 All good deeds are God's workmanship, and we his instruments whereby he doth them.
 
-== leaf 510 | (no running head) | margin right | draft
- @1064 Free-will and unbelief were the overthrow of our forefathers.
-?@2133 Then cannot they be the ehildren of
- @2247 God, which put more trust in their own works than in the blood of Jesus Christ.
- @3196 Faithless works.
- @3681 The Pharisees by their
+== leaf 510 | (no running head) | margin right | checked
+@1064 Free-will and unbelief were the overthrow of our forefathers.
+@2133 Then cannot they be the children of God, which put more trust in their own works than in the blood of Jesus Christ.
+@3196 Faithless works.
+@3681 The Pharisees by their...
 
-== leaf 511 | 430 PROLOGUE TO THE | margin left | draft
- @424 free-will excluded themselves. from the salvation in Christ.
-?@1657 Blasphemy to Christ's death.
- @1980 O subtle foxes! through poverty made themselves lords of all.
- @2725 Wilful chastity is wilful wickedness.
- @2983 The papists wilful obedience is common disobedience to all princes.
+== leaf 511 | 430 PROLOGUE TO THE | margin left | checked
+@424 ...free-will excluded themselves from the salvation in Christ.
+@1657 Blasphemy to Christ's death.
+@1980 O subtle foxes! through poverty made themselves lords of all.
+@2725 Wilful chastity is wilful wickedness.
+@2983 The papists wilful obedience is common disobedience to all princes.
 
-== leaf 512 | BOOK OF NUMBERS. 431 | margin right | draft
- @733 Our righteousness cometh not by our merits, but through faith, by the blood of our
- @1037 Saviour Jesus Christ.
- @1319 Faith only bringeth us to Christ, and unbelief bringeth us from Christ.
-?@1891 Christ rebuked the Pharisees for their holy and ran tical deeds.
- @2550 The Pharisees ascribe righteousness to works, and therefore were condemned of Christ.
- @3460 The justifying of ourselves maketh the devil more busy than he would be.
+== leaf 512 | BOOK OF NUMBERS. 431 | margin right | checked
+@733 Our righteousness cometh not by our merits, but through faith, by the blood of our Saviour Jesus Christ.
+@1319 Faith only bringeth us to Christ, and unbelief bringeth us from Christ.
+@1891 Christ rebuked the Pharisees for their holy and hypocritical deeds.
+@2550 The Pharisees ascribe righteousness to works, and therefore were condemned of Christ.
+@3460 The justifying of ourselves maketh the devil more busy than he would be.
 
-== leaf 513 | 432 PROLOGUE TO THE | margin left | draft
- @654 ‘What is meant in the scripture by this word seven times.
-?@1217 Merit-mon- gers, the more their blindness is rebuked, the more they rebel against Christ and his gospel.
- @1882 The doctrine of the Pharisees, and the doctrine of our papists do well agree.
- @3213 The papists cannot away with justification by faith,
- @3618 Of vows.
+== leaf 513 | 432 PROLOGUE TO THE | margin left | checked
+@654 What is meant in the scripture by this word seven times.
+@1217 Merit-mongers, the more their blindness is rebuked, the more they rebel against Christ and his gospel.
+@1882 The doctrine of the Pharisees, and the doctrine of our papists do well agree.
+@3213 The papists cannot away with justification by faith.
+@3618 Of vows.
 
-== leaf 514 | BOOK OF NUMBERS. 433 | margin right | draft
-?@1159 God accept- eth for us none other sacrifice but only Jesus Christ his Son.
-?@1817 All holiness in our own imagination is a robbing of Christ's honour.
- @3544 Faith followeth repentance of sin.
+== leaf 514 | BOOK OF NUMBERS. 433 | margin right | checked
+@1159 God accepteth for us none other sacrifice but only Jesus Christ his Son.
+@1817 All holiness in our own imagination is a robbing of Christ's honour.
+@3544 Faith followeth repentance of sin.
 
-== leaf 515 | 434 PROLOGUE TO THE | margin left | draft
-?@755 Ropentance goeth before taith, and prepareth the way unto Christ.
- @1428 How our works are good in the sight of God.
- @1835 The work saveth not, but the word, that is to say, the promise.
- @2657 An apt similitude for reward of good works.
-?@3141 All vows must be made for the mortifying or taming of our members, or the edifymg of our neighbours, or else ht 24 are wicked.
+== leaf 515 | 434 PROLOGUE TO THE | margin left | checked
+@755 Repentance goeth before faith, and prepareth the way unto Christ.
+@1428 How our works are good in the sight of God.
+@1835 The work saveth not, but the word, that is to say, the promise.
+@2657 An apt similitude for reward of good works.
+@3141 All vows must be made for the mortifying or taming of our members, or the edifying of our neighbours, or else they are wicked.
 
-== leaf 516 | BOOK OF NUMBERS, 435 | margin right | draft
- @585 How we ought to vow wilful poverty. W. T.
-?@1282 fished the Pope pre- | ates with this net or no?
- @2807 Our works do not stand in the wisdom of man, but in the power of God.
+== leaf 516 | BOOK OF NUMBERS, 435 | margin right | checked
+@585 How we ought to vow wilful poverty.
+@1282 Whether fished the pope's prelates with this net or no?
+@2807 Our works do not stand in the wisdom of man, but in the power of God.
 
-== leaf 517 | 436 PROLOGUE TO THE | margin left | draft
-?@827 Desert and free gift are contraries.
- @1151 2 Pet. i.
- @1638 The sight of riches is rather a cause of covetousness than a mean to honour God.
- @2635 1 Pet. v.
- @2676 Acts xx.
-?@3650 y E
+== leaf 517 | 436 PROLOGUE TO THE | margin left | checked
+@827 Desert and free gift are contraries.
+@1151 2 Pet. i.
+@1638 The sight of riches is rather a cause of covetousness than a mean to honour God.
+@2635 1 Pet. v.
+@2676 Acts xx.
 
-== leaf 518 | BOOK OF NUMBERS. 437 | margin right | draft
- @578 Whether did the papists 50, Or no?
-?@1324 Yet the spi- ritualty’s pillage was more than their stand ing stipend.
- @1817 A good vow is to keep God’s commandments.
- @2647 How thou mayest lawfully go on pilgrimage.
-?@3555 God heareth all that call upon him in all times and at all places alike.
+== leaf 518 | BOOK OF NUMBERS. 437 | margin right | checked
+@578 Whether did the papists so, or no?
+@1324 Yet the spiritualty's pillage was more than their standing stipend.
+@1817 A good vow is to keep God's commandments.
+@2647 How thou mayest lawfully go on pilgrimage.
+@3555 God heareth all that call upon him in all times and at all places alike.
 
-== leaf 519 | 438 PROLOGUE TO THE | margin left | draft
-?@417 Acts vil.
- @503 God dwelleth not in temples made with man’s hands.
- @833 John xiv. xv.
- @1091 God regardeth the heart, and not the place where we pray.
-?@1827 Wilful chastity is not meet for all persons to Yow.
- @2982 False feigned chastity.
+== leaf 519 | 438 PROLOGUE TO THE | margin left | checked
+@417 Acts vii.
+@503 God dwelleth not in temples made with man's hands.
+@833 John xiv. xv.
+@1091 God regardeth the heart, and not the place where we pray.
+@1827 Wilful chastity is not meet for all persons to vow.
+@2982 False feigned chastity.
 
 == leaf 520 | BOOK OF NUMBERS. 439 | margin right | draft
 ?@882 The pope re- strained that which God permitted, and setteth at liberty that which God forbiddeth.
