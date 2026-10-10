@@ -2338,7 +2338,7 @@ coordinates still separate cleanly.
      (a) re-OCR only the located margin crops with a locally installed
      Tesseract, quality unknown until tried; (b) transcribe the margin
      crops by hand/vision, as `tools/companion-bible-notes/` does
-     (accurate, but labour scales with ~3,000 notes in Vol. I); or
+     (accurate; the splitter locates 1,747 notes on 588 Vol. I leaves); or
      (c) body text only.
 
   **Investigated and found too thin to be a real candidate yet:**
