@@ -20,6 +20,12 @@
 # line marks a note the automatic checks flagged; no "?" survives
 # checking.
 #
+# COMPLETE: every leaf of the volume has been read. The file lists the
+# 586 leaves the splitter found a body column on, plus leaves 121 and 478:
+# of the 38 it skipped (covers, blanks, title pages, a library label;
+# 614-623 are end papers and the back cover), checked on contact sheets,
+# those two carry notes. 2,112 notes; 125 listed leaves have none.
+#
 # ---------------------------------------------------------------------
 # Correction policy
 # ---------------------------------------------------------------------
@@ -42,147 +48,148 @@
 
 == leaf 13 | Vlll CONTENTS. PAGK | margin left | checked
 
-== leaf 14 | ADVERTISEMENT. | margin none found | draft
+== leaf 14 | ADVERTISEMENT. | margin none found | checked
 
-== leaf 15 | X ADVERTISEMENT. | margin none found | draft
+== leaf 15 | X ADVERTISEMENT. | margin none found | checked
 
-== leaf 16 | ADVERTISEMENT. XI | margin none found | draft
+== leaf 16 | ADVERTISEMENT. XI | margin none found | checked
 
-== leaf 18 | BIOGRAPHICAL NOTICE OF WILLIAM TYNDALE. | margin none found | draft
+== leaf 18 | BIOGRAPHICAL NOTICE OF WILLIAM TYNDALE. | margin none found | checked
 
-== leaf 19 | XIV BIOGRAPHICAL NOTICE [1484 1520. | margin none found | draft
+== leaf 19 | XIV BIOGRAPHICAL NOTICE [1484 1520. | margin none found | checked
 
-== leaf 20 | (no running head) | margin none found | draft
+== leaf 20 | (no running head) | margin none found | checked
 
-== leaf 21 | Xvi BIOGRAPHICAL NOTICE [1517 20. | margin none found | draft
+== leaf 21 | Xvi BIOGRAPHICAL NOTICE [1517 20. | margin none found | checked
 
-== leaf 22 | 1520 3.] OF WILLIAM TYNDALE. | margin none found | draft
+== leaf 22 | 1520 3.] OF WILLIAM TYNDALE. | margin none found | checked
 
-== leaf 23 | (no running head) | margin none found | draft
+== leaf 23 | (no running head) | margin none found | checked
 
-== leaf 24 | 1523.] OF WILLIAM TYNDALE. xix | margin none found | draft
+== leaf 24 | 1523.] OF WILLIAM TYNDALE. xix | margin none found | checked
 
-== leaf 25 | XX BIOGRAPHICAL NOTICE [1523. | margin none found | draft
+== leaf 25 | XX BIOGRAPHICAL NOTICE [1523. | margin none found | checked
 
-== leaf 26 | 1523.] OF WILLIAM TYNDALE. XXI | margin none found | draft
+== leaf 26 | 1523.] OF WILLIAM TYNDALE. XXI | margin none found | checked
 
-== leaf 27 | XXli BIOGRAPHICAL NOTICE [1523 8. | margin none found | draft
+== leaf 27 | XXli BIOGRAPHICAL NOTICE [1523 8. | margin none found | checked
 
-== leaf 28 | (no running head) | margin none found | draft
+== leaf 28 | (no running head) | margin none found | checked
 
-== leaf 29 | BIOGRAPHICAL NOTICE [1524 8. | margin none found | draft
+== leaf 29 | BIOGRAPHICAL NOTICE [1524 8. | margin none found | checked
 
-== leaf 30 | 1524.] OF WILLIAM TYNDALE. XXV | margin none found | draft
+== leaf 30 | 1524.] OF WILLIAM TYNDALE. XXV | margin none found | checked
 
-== leaf 31 | XXVI BIOGRAPHICAL NOTICE [1524 5. | margin none found | draft
+== leaf 31 | XXVI BIOGRAPHICAL NOTICE [1524 5. | margin none found | checked
 
-== leaf 32 | (no running head) | margin none found | draft
+== leaf 32 | (no running head) | margin none found | checked
 
-== leaf 33 | XXviii BIOGRAPHICAL NOTICE [1525. | margin none found | draft
+== leaf 33 | XXviii BIOGRAPHICAL NOTICE [1525. | margin none found | checked
 
-== leaf 34 | 1525.] OF WILLIAM TYNDALE. XXIX | margin none found | draft
+== leaf 34 | 1525.] OF WILLIAM TYNDALE. XXIX | margin none found | checked
 
-== leaf 35 | XXX BIOGRAPHICAL NOTICE [1525 6. | margin none found | draft
+== leaf 35 | XXX BIOGRAPHICAL NOTICE [1525 6. | margin none found | checked
 
-== leaf 36 | 1526.] OF WILLIAM TYNDALE. | margin none found | draft
+== leaf 36 | 1526.] OF WILLIAM TYNDALE. | margin none found | checked
 
-== leaf 37 | XXXH BIOGRAPHICAL NOTICE [1526. | margin none found | draft
+== leaf 37 | XXXH BIOGRAPHICAL NOTICE [1526. | margin none found | checked
 
-== leaf 38 | (no running head) | margin none found | draft
+== leaf 38 | (no running head) | margin none found | checked
 
-== leaf 39 | XXXIV BIOGRAPHICAL NOTICE [1527 8. | margin none found | draft
+== leaf 39 | XXXIV BIOGRAPHICAL NOTICE [1527 8. | margin none found | checked
 
-== leaf 40 | 1528.] OF WILLIAM TYNDALE. XXXV | margin none found | draft
+== leaf 40 | 1528.] OF WILLIAM TYNDALE. XXXV | margin none found | checked
 
-== leaf 41 | XXXvl BIOGRAPHICAL NOTICE [152? 8. | margin none found | draft
+== leaf 41 | XXXvl BIOGRAPHICAL NOTICE [152? 8. | margin none found | checked
 
-== leaf 42 | (no running head) | margin none found | draft
+== leaf 42 | (no running head) | margin none found | checked
 
-== leaf 43 | (no running head) | margin none found | draft
+== leaf 43 | (no running head) | margin none found | checked
 
-== leaf 44 | 1529 30.] OF WILLIAM TYNDALE. | margin none found | draft
+== leaf 44 | 1529 30.] OF WILLIAM TYNDALE. | margin none found | checked
 
-== leaf 45 | Xl BIOGRAPHICAL NOTICE [1529 30. | margin none found | draft
+== leaf 45 | Xl BIOGRAPHICAL NOTICE [1529 30. | margin none found | checked
 
-== leaf 46 | 1530.] OF WILLIAM TYNDALE. xli | margin none found | draft
+== leaf 46 | 1530.] OF WILLIAM TYNDALE. xli | margin none found | checked
 
-== leaf 47 | xlli BIOGRAPHICAL NOTICE [1530 1. | margin none found | draft
+== leaf 47 | xlli BIOGRAPHICAL NOTICE [1530 1. | margin none found | checked
 
-== leaf 48 | 1531.] OF WILLIAM TYNDALE. | margin none found | draft
+== leaf 48 | 1531.] OF WILLIAM TYNDALE. | margin none found | checked
 
-== leaf 49 | BIOGRAPHICAL NOTICE [1531. | margin none found | draft
+== leaf 49 | BIOGRAPHICAL NOTICE [1531. | margin none found | checked
 
-== leaf 50 | 1531.] OF WILLIAM TYNDALE. | margin none found | draft
+== leaf 50 | 1531.] OF WILLIAM TYNDALE. | margin none found | checked
 
-== leaf 51 | BIOGRAPHICAL NOTICE | margin none found | draft
+== leaf 51 | BIOGRAPHICAL NOTICE | margin none found | checked
 
-== leaf 52 | 1531.] OF WILLIAM TYNDALE. | margin none found | draft
+== leaf 52 | 1531.] OF WILLIAM TYNDALE. | margin none found | checked
 
-== leaf 53 | BIOGRAPHICAL NOTICE [1531. | margin none found | draft
+== leaf 53 | BIOGRAPHICAL NOTICE [1531. | margin none found | checked
 
-== leaf 54 | 1531.] OF WILLIAM TYNDALE. | margin none found | draft
+== leaf 54 | 1531.] OF WILLIAM TYNDALE. | margin none found | checked
 
-== leaf 55 | 1 BIOGRAPHICAL NOTICE [1531 2. | margin none found | draft
+== leaf 55 | 1 BIOGRAPHICAL NOTICE [1531 2. | margin none found | checked
 
-== leaf 56 | 1532.] OF WILLIAM TYNDALE. H | margin none found | draft
+== leaf 56 | 1532.] OF WILLIAM TYNDALE. H | margin none found | checked
 
-== leaf 57 | Hi BIOGRAPHICAL NOTICE [1532, | margin none found | draft
+== leaf 57 | Hi BIOGRAPHICAL NOTICE [1532, | margin none found | checked
 
-== leaf 58 | (no running head) | margin none found | draft
+== leaf 58 | (no running head) | margin none found | checked
 
-== leaf 59 | Hv BIOGRAPHICAL NOTICE [1533. | margin none found | draft
+== leaf 59 | Hv BIOGRAPHICAL NOTICE [1533. | margin none found | checked
 
-== leaf 60 | 1533.] OF WILLIAM TYNDALE. ly | margin none found | draft
+== leaf 60 | 1533.] OF WILLIAM TYNDALE. ly | margin none found | checked
 
-== leaf 61 | Ivi BIOGRAPHICAL NOTICE [1533. | margin none found | draft
+== leaf 61 | Ivi BIOGRAPHICAL NOTICE [1533. | margin none found | checked
 
-== leaf 62 | 1533.] OF WILLIAM TYNDALE. Ivii | margin none found | draft
+== leaf 62 | 1533.] OF WILLIAM TYNDALE. Ivii | margin none found | checked
 
-== leaf 63 | Iviii BIOGRAPHICAL NOTICE [1533. | margin none found | draft
+== leaf 63 | Iviii BIOGRAPHICAL NOTICE [1533. | margin none found | checked
 
-== leaf 64 | 1533.] OF WILLIAM TYNDALE. llX | margin none found | draft
+== leaf 64 | 1533.] OF WILLIAM TYNDALE. llX | margin none found | checked
 
-== leaf 65 | IX BIOGRAPHICAL NOTICE [1533 4. | margin none found | draft
+== leaf 65 | IX BIOGRAPHICAL NOTICE [1533 4. | margin none found | checked
 
-== leaf 66 | 1534.] OF WILLIAM TYNDALE. Ixi | margin none found | draft
+== leaf 66 | 1534.] OF WILLIAM TYNDALE. Ixi | margin none found | checked
 
-== leaf 67 | Ixli BIOGRAPHICAL NOTICE [1534. | margin none found | draft
+== leaf 67 | Ixli BIOGRAPHICAL NOTICE [1534. | margin none found | checked
 
-== leaf 68 | 1534.] OF WILLIAM TYNDALE. | margin none found | draft
+== leaf 68 | 1534.] OF WILLIAM TYNDALE. | margin none found | checked
 
-== leaf 69 | BIOGRAPHICAL NOTICE [1534. | margin none found | draft
+== leaf 69 | BIOGRAPHICAL NOTICE [1534. | margin none found | checked
 
-== leaf 70 | 1535.] OF WILLIAM TYNDALE. IxV | margin none found | draft
+== leaf 70 | 1535.] OF WILLIAM TYNDALE. IxV | margin none found | checked
 
-== leaf 71 | BIOGRAPHICAL NOTICE [1535. | margin none found | draft
+== leaf 71 | BIOGRAPHICAL NOTICE [1535. | margin none found | checked
 
-== leaf 72 | 1535.] OF WILLIAM TYNDALE. | margin none found | draft
+== leaf 72 | 1535.] OF WILLIAM TYNDALE. | margin none found | checked
 
-== leaf 73 | BIOGRAPHICAL NOTICE [1535. | margin none found | draft
+== leaf 73 | BIOGRAPHICAL NOTICE [1535. | margin none found | checked
 
-== leaf 74 | 1535.] OF WILLIAM TYNDALE. | margin none found | draft
+== leaf 74 | 1535.] OF WILLIAM TYNDALE. | margin none found | checked
 
-== leaf 75 | IXX BIOGRAPHICAL NOTICE [1535. | margin none found | draft
+== leaf 75 | IXX BIOGRAPHICAL NOTICE [1535. | margin none found | checked
 
-== leaf 76 | 1535.] OF WILLIAM TYNDALE. | margin none found | draft
+== leaf 76 | 1535.] OF WILLIAM TYNDALE. | margin none found | checked
 
-== leaf 77 | Ixxil BIOGRAPHICAL NOTICE [1535 6. | margin none found | draft
+== leaf 77 | Ixxil BIOGRAPHICAL NOTICE [1535 6. | margin none found | checked
 
-== leaf 78 | 1535 6.] OF WILLIAM TYNDALE. | margin none found | draft
+== leaf 78 | 1535 6.] OF WILLIAM TYNDALE. | margin none found | checked
 
-== leaf 79 | BIOGRAPHICAL NOTICE [1536. | margin none found | draft
+== leaf 79 | BIOGRAPHICAL NOTICE [1536. | margin none found | checked
 
-== leaf 80 | (no running head) | margin none found | draft
+== leaf 80 | (no running head) | margin none found | checked
 
-== leaf 81 | (no running head) | margin none found | draft
+== leaf 81 | (no running head) | margin none found | checked
 
-== leaf 84 | INTRODUCTORY NOTICE. | margin none found | draft
+== leaf 84 | INTRODUCTORY NOTICE. | margin none found | checked
 
-== leaf 85 | (no running head) | margin none found | draft
+== leaf 85 | (no running head) | margin none found | checked
 
-== leaf 86 | INTRODUCTORY NOTICE. | margin none found | draft
+== leaf 86 | INTRODUCTORY NOTICE. | margin none found | checked
 
-== leaf 88 | A PATHWAY INTO THE HOLY SCRIPTURE. | margin none found | draft
+== leaf 88 | A PATHWAY INTO THE HOLY SCRIPTURE. | margin left | checked
+@1300 Scriptures should be translated into every language. Ant. ed.
 
 == leaf 89 | (no running head) | margin left | checked
 @655 The cause of the edition of this Pathway. Ant. ed.
@@ -288,19 +295,19 @@
 @2480 Our works deserve not the gifts of grace.
 @3537 The principles of scripture perfectly learned, all the rest is more easy.
 
-== leaf 109 | (no running head) | margin none found | draft
+== leaf 109 | (no running head) | margin none found | checked
 
-== leaf 112 | INTHODUCTOKY NOTICE. | margin none found | draft
+== leaf 112 | INTHODUCTOKY NOTICE. | margin none found | checked
 
-== leaf 113 | (no running head) | margin none found | draft
+== leaf 113 | (no running head) | margin none found | checked
 
-== leaf 114 | INTRODUCTORY NOTICE. 33 | margin none found | draft
+== leaf 114 | INTRODUCTORY NOTICE. 33 | margin none found | checked
 
-== leaf 115 | (no running head) | margin none found | draft
+== leaf 115 | (no running head) | margin none found | checked
 
-== leaf 116 | INTRODUCTORY NOTICE. 35 | margin none found | draft
+== leaf 116 | INTRODUCTORY NOTICE. 35 | margin none found | checked
 
-== leaf 117 | (no running head) | margin none found | draft
+== leaf 117 | (no running head) | margin none found | checked
 
 == leaf 118 | WILLIAM TYNDALE, OTHERWISE CALLED HITCHINS, TO THE READER. | margin right | checked
 @1403 The cause why W. Tyndale put his name to some books, and left it out in some. Ant. ed.
@@ -309,7 +316,11 @@
 == leaf 119 | (no running head) | margin left | checked
 @1576 Jerome a brother of Greenwich. Ant. ed.
 
-== leaf 120 | PREFACE TO THE READER. 39 | margin none found | draft
+== leaf 120 | PREFACE TO THE READER. 39 | margin none found | checked
+
+== leaf 121 | 40 PARABLE OF THE WICKED MAMMON. | margin left | checked
+@410 2 Tim. ii.
+@455 With God's word ought a man to rebuke wickedness, and not with railing rhymes. W. T.
 
 == leaf 122 | PREFACE TO THE READER. 41 | margin right | checked
 @582 2 Tim. iii.
@@ -334,7 +345,7 @@
 @2902 The prelates have a burning zeal to their children. W. T.
 @3150 Gal. iv.
 
-== leaf 125 | (no running head) | margin none found | draft
+== leaf 125 | (no running head) | margin none found | checked
 
 == leaf 126 | THE PARABLE OF THE WICKED MAMMON. | margin right | checked
 @1192 Luke xvi.
@@ -646,7 +657,7 @@
 @2371 The cause of fasting. W. T.
 @3036 Superstitious fasting. Ant. ed.
 
-== leaf 172 | THE WICKED MAMMON. 91 | margin none found | draft
+== leaf 172 | THE WICKED MAMMON. 91 | margin none found | checked
 
 == leaf 173 | 92 THE PARABLE OF | margin left | checked
 @1229 What watch signifieth. W. T.
@@ -920,11 +931,11 @@
 == leaf 206 | THE WICKED MAMMON. 125 | margin right | checked
 @560 An epitome, or brief recital, of that which is entreated of before.
 
-== leaf 207 | (no running head) | margin none found | draft
+== leaf 207 | (no running head) | margin none found | checked
 
-== leaf 210 | [INTRODUCTORY NOTICE. | margin none found | draft
+== leaf 210 | [INTRODUCTORY NOTICE. | margin none found | checked
 
-== leaf 211 | (no running head) | margin none found | draft
+== leaf 211 | (no running head) | margin none found | checked
 
 == leaf 212 | WILLIAM TYNDALE, OTHERWISE CALLED HITCHINS, TO THE READER. | margin right | checked
 @1737 The nature of God's word is to be persecuted. W. T.
@@ -1074,13 +1085,13 @@
 @1601 Contrary preaching. W. T.
 @1923 Contrary doctors. W. T.
 
-== leaf 231 | (no running head) | margin none found | draft
+== leaf 231 | (no running head) | margin none found | checked
 
-== leaf 232 | PREFACE TO THE READER. 151 | margin none found | draft
+== leaf 232 | PREFACE TO THE READER. 151 | margin none found | checked
 
-== leaf 233 | (no running head) | margin none found | draft
+== leaf 233 | (no running head) | margin none found | checked
 
-== leaf 234 | PREFACE TO THE READER. 153 | margin none found | draft
+== leaf 234 | PREFACE TO THE READER. 153 | margin none found | checked
 
 == leaf 235 | (no running head) | margin left | checked
 @916 Antichrist turneth the roots of the tree upward. W. T.
@@ -1111,7 +1122,7 @@
 @1077 School divinity. W. T.
 @1241 Yet in this they all agree, that no man is saved by Christ, but by holy works; and that Christ hath given up his Godhead to the pope and all his power; and that the pope may give Christ's merits to whom he will, and take them from whom he will. W. T.
 
-== leaf 240 | PREFACE TO THE READER. 159 | margin none found | draft
+== leaf 240 | PREFACE TO THE READER. 159 | margin none found | checked
 
 == leaf 241 | (no running head) | margin left | checked
 @416 False similitudes. W. T.
@@ -1131,7 +1142,7 @@
 @1507 Eph. v.
 @2247 But the one forbiddeth not their pomp and belly-cheer, as the other doth. Ant. ed.
 
-== leaf 243 | (no running head) | margin none found | draft
+== leaf 243 | (no running head) | margin none found | checked
 
 == leaf 244 | THE PROLOGUE. 1G3 The Prologue unto the Book. | margin right | checked
 @963 Prelates not professors, but profaners of God's word. Ant. ed.
@@ -1537,7 +1548,7 @@
 == leaf 297 | (no running head) | margin left | checked
 @706 Tully chief of orators. W. T.
 
-== leaf 298 | (no running head) | margin none found | draft
+== leaf 298 | (no running head) | margin none found | checked
 
 == leaf 299 | (no running head) | margin left | checked
 @798 Rochester allegeth Paul for his blind ceremonies, contrary to Paul's doctrine. W. T.
@@ -2054,7 +2065,7 @@
 @3396 Rom. xiv.
 @3434 Rom. x.
 
-== leaf 371 | (no running head) | margin none found | draft
+== leaf 371 | (no running head) | margin none found | checked
 
 == leaf 372 | (no running head) | margin right | checked
 @450 God the Father fulfilleth his promises to us for Christ's sake, and not for the merits of saints, as the papists taught. Ant. ed.
@@ -2221,7 +2232,7 @@
 @1961 We must cure our infirmities with the remedies that God hath ordained, and not tempt God. W. T.
 @2871 What tempting of God is. W. T.
 
-== leaf 396 | (no running head) | margin none found | draft
+== leaf 396 | (no running head) | margin none found | checked
 
 == leaf 397 | (no running head) | margin left | checked
 @461 Matt. xii.
@@ -2293,7 +2304,7 @@
 @1692 Miracles, miracles. W. T.
 @1943 The woman of Lemster was a solemn miracle. W. T.
 
-== leaf 407 | (no running head) | margin none found | draft
+== leaf 407 | (no running head) | margin none found | checked
 
 == leaf 408 | (no running head) | margin right | checked
 @759 The armour of the spiritualty. W. T.
@@ -2339,7 +2350,8 @@
 == leaf 416 | (no running head) | margin right | checked
 @896 Note. Ant. ed.
 
-== leaf 417 | (no running head) | margin none found | draft
+== leaf 417 | (no running head) | margin left | checked
+@3680 Confession. W. T.
 
 == leaf 418 | (no running head) | margin right | checked
 @850 The manifold enormities which their auricular confession did breed. Ant. ed.
@@ -2348,7 +2360,8 @@
 == leaf 419 | (no running head) | margin left | checked
 @1245 Under an outward pretence of God's honour, the pope's clergy procured their own dignity. Ant. ed.
 
-== leaf 420 | (no running head) | margin none found | draft
+== leaf 420 | (no running head) | margin right | checked
+@435 The keeping down of God's word promoted the pope's spiritualty's honour. Ant. ed.
 
 == leaf 421 | (no running head) | margin left | checked
 @1165 2 Tim. iii.
@@ -2365,7 +2378,7 @@
 @2233 The use of allegories. Ant. ed.
 @2650 The use of similitudes. Ant. ed.
 
-== leaf 427 | [INTRODUCTORY NOTICE. | margin none found | draft
+== leaf 427 | [INTRODUCTORY NOTICE. | margin none found | checked
 
 == leaf 428 | A FRUITFUL AND GODLY TREATISE, EXPRESSING THE | margin right | checked
 @2026 Writings and monuments preserve the memory of notable doings.
@@ -2585,7 +2598,7 @@
 @2493 An objection made by the papists.
 @2992 An answer to the former objection.
 
-== leaf 461 | (no running head) | margin none found | draft
+== leaf 461 | (no running head) | margin none found | checked
 
 == leaf 462 | (no running head) | margin right | checked
 @564 An excellent argument.
@@ -2598,17 +2611,17 @@
 @3077 Luke xxii.
 @3117 1 Cor. xi.
 
-== leaf 464 | (no running head) | margin none found | draft
+== leaf 464 | (no running head) | margin none found | checked
 
-== leaf 465 | (no running head) | margin none found | draft
+== leaf 465 | (no running head) | margin none found | checked
 
-== leaf 466 | (no running head) | margin none found | draft
+== leaf 466 | (no running head) | margin none found | checked
 
-== leaf 469 | [INTRODUCTORY NOTICE. | margin none found | draft
+== leaf 469 | [INTRODUCTORY NOTICE. | margin none found | checked
 
-== leaf 470 | TYNJDALE'S EPISTLE TO THE READER, | margin none found | draft
+== leaf 470 | TYNJDALE'S EPISTLE TO THE READER, | margin none found | checked
 
-== leaf 471 | 390 EPISTLE TO THE READER | margin none found | draft
+== leaf 471 | 390 EPISTLE TO THE READER | margin none found | checked
 
 == leaf 473 | THE PEEFACE OF MASTER WILLIAM TYNDALE, | margin left | checked
 @2110 The reason that the papists make against the translation of the scripture into English.
@@ -2636,6 +2649,9 @@
 @1619 Room enough in my lord's house for belly-cheer, but none to translate the new Testament.
 @3568 Tyndale's submission is...
 
+== leaf 478 | FIVE BOOKS OF MOSES. 397 | margin right | checked
+@380 ...to all such as submit themselves to God.
+
 == leaf 479 | PROLOGUES BY WILLIAM TYNDALE SHEWING | margin left | checked
 @1878 Not the tongue, but the life, proveth a true gospeller.
 @2701 The truest touchstone of religion is Christ's gospel.
@@ -2661,13 +2677,13 @@
 @2501 Of small occasions do rise great evils.
 @3508 Ensamples for our learning.
 
-== leaf 484 | BOOK OF GENESIS. 403 | margin none found | draft
+== leaf 484 | BOOK OF GENESIS. 403 | margin none found | checked
 
-== leaf 485 | 404 PROLOGUE TO THE | margin none found | draft
+== leaf 485 | 404 PROLOGUE TO THE | margin none found | checked
 
-== leaf 486 | BOOK OF GENESIS. 405 | margin none found | draft
+== leaf 486 | BOOK OF GENESIS. 405 | margin none found | checked
 
-== leaf 487 | 406 TABLE EXPOUNDING | margin none found | draft
+== leaf 487 | 406 TABLE EXPOUNDING | margin none found | checked
 
 == leaf 488 | CERTAIN WORDS IN GENESIS. 407 | margin right | checked
 @440 Matt. v.
@@ -2675,11 +2691,12 @@
 @1109 Gen. xv.
 @2432 Matt. vi.
 
-== leaf 489 | 408 TABLE EXPOUNDING | margin none found | draft
+== leaf 489 | 408 TABLE EXPOUNDING | margin left | checked
+@1700 Gen. xi. xiv.
 
-== leaf 490 | CERTAIN WORDS IN GENESIS. 409 | margin none found | draft
+== leaf 490 | CERTAIN WORDS IN GENESIS. 409 | margin none found | checked
 
-== leaf 491 | (no running head) | margin none found | draft
+== leaf 491 | (no running head) | margin none found | checked
 
 == leaf 492 | (no running head) | margin right | checked
 @1104 Learn here how to read and understand the scripture.
@@ -2893,13 +2910,13 @@
 @2496 The curse and wrath of God over all those that break his laws.
 @3077 We may not be too curious in the searching of God's secrets, but rather study to understand and to do our duty towards God and our neighbour.
 
-== leaf 526 | 445 A TABLE | margin none found | draft
+== leaf 526 | 445 A TABLE | margin none found | checked
 
-== leaf 527 | (no running head) | margin none found | draft
+== leaf 527 | (no running head) | margin none found | checked
 
-== leaf 528 | PROLOGUE OF THE PROPHET JONAS. [INTRODUCTORY NOTICE. | margin none found | draft
+== leaf 528 | PROLOGUE OF THE PROPHET JONAS. [INTRODUCTORY NOTICE. | margin none found | checked
 
-== leaf 529 | 448 INTRODUCTORY NOTICE. | margin none found | draft
+== leaf 529 | 448 INTRODUCTORY NOTICE. | margin none found | checked
 
 == leaf 530 | (no running head) | margin right | checked
 @1067 The papists keep the scriptures from the lay-people, because they only will be the publishers and expositors thereof.
@@ -2911,7 +2928,7 @@
 @742 The papistical and corrupt doctrine of the papists.
 @1566 How the papists wring and wrest the scriptures.
 
-== leaf 532 | PROPHET JONAS. 451 | margin none found | draft
+== leaf 532 | PROPHET JONAS. 451 | margin none found | checked
 
 == leaf 533 | 452 PROLOGUE TO THE | margin left | checked
 @417 God correcteth where he loveth.
@@ -3006,9 +3023,9 @@
 @2183 Christ hath satisfied for our sins, as well after baptism, as before baptism.
 @3089 Our actual sins are washed away in Christ's blood.
 
-== leaf 548 | THE PROLOGUES UPON THE GOSPELS AND EPISTLES. [INTRODUCTORY NOTICE. | margin none found | draft
+== leaf 548 | THE PROLOGUES UPON THE GOSPELS AND EPISTLES. [INTRODUCTORY NOTICE. | margin none found | checked
 
-== leaf 549 | 468 PROLOGUE UPON THE PROLOGUE | margin none found | draft
+== leaf 549 | 468 PROLOGUE UPON THE PROLOGUE | margin none found | checked
 
 == leaf 550 | GOSPEL OF ST MATTHEW. 4G9 | margin right | checked
 @686 Matt. xxiii.
@@ -3073,15 +3090,15 @@
 @943 What manner of satisfaction we ought to make. Ant. ed.
 @3482 Why he nameth them elders and not priests. Ant. ed.
 
-== leaf 560 | GOSPEL OF ST MATTHEW. 479 | margin none found | draft
+== leaf 560 | GOSPEL OF ST MATTHEW. 479 | margin none found | checked
 
-== leaf 561 | (no running head) | margin none found | draft
+== leaf 561 | (no running head) | margin none found | checked
 
-== leaf 562 | (no running head) | margin none found | draft
+== leaf 562 | (no running head) | margin none found | checked
 
-== leaf 563 | (no running head) | margin none found | draft
+== leaf 563 | (no running head) | margin none found | checked
 
-== leaf 564 | A PROLOGUE | margin none found | draft
+== leaf 564 | A PROLOGUE | margin none found | checked
 
 == leaf 565 | 484 PROLOGUE UPON THE A PROLOGUE | margin left | checked
 @1033 The epistle to the Romans is the excellentest part of the new Testament.
@@ -3226,9 +3243,9 @@
 == leaf 589 | 508 PROLOGUE UPON THE | margin left | checked
 @1219 Beware of the traditions of men.
 
-== leaf 590 | EPISTLE TO THE ROMANS. 509 | margin none found | draft
+== leaf 590 | EPISTLE TO THE ROMANS. 509 | margin none found | checked
 
-== leaf 591 | (no running head) | margin none found | draft
+== leaf 591 | (no running head) | margin none found | checked
 
 == leaf 592 | (no running head) | margin right | checked
 @2601 Weak and young consciences are to be forborne, for the last shall receive the equal reward with the first. Ant. ed.
@@ -3288,33 +3305,31 @@
 @903 No place in the scriptures so plainly describeth the significations and figures of the old Testament, as this epistle doth. W. T.
 @1962 This epistle, for that it agreeth with the rest of the scripture, ought to be of equal authority with the other. W. T.
 
-== leaf 606 | (no running head) | margin right | draft
-?@1565 This epistle is to be taken as sai of holy scripture.
-?@2382 The or ve allege this text for their urpose, Hiren mis
- @2571 understanding the same. Ant. ed.
+== leaf 606 | (no running head) | margin right | checked
+@1565 This epistle is to be taken as part of holy scripture.
+@2382 The papists allege this text for their purpose, through misunderstanding the same. Ant. ed.
 
-== leaf 607 | (no running head) | margin left | draft
- @966 Faith only justifieth.
+== leaf 607 | (no running head) | margin left | checked
+@966 Faith only justifieth.
 
-== leaf 608 | (no running head) | margin right | draft
- @2113 Christ is all to a christian man. W. T.
-?@2834 Men ought to rule their wives with God’s word. Ant. ed.
-?@3486 To watch is not only to abstain from sleep, but also to avoid all occasions
+== leaf 608 | (no running head) | margin right | checked
+@2113 Christ is all to a christian man. W. T.
+@2834 Men ought to rule their wives with God's word. Ant. ed.
+@3486 To watch is not only to abstain from sleep, but also to avoid all occasions...
 
-== leaf 609 | (no running head) | margin left | draft
-?@383 that may draw us to sin. ‘We. T.
- @1851 As God rejoiceth not in the deed itself, so doth he not in an idle faith without works. Ant. ed.
- @2204 Good works are a shew of our faith, as the fruit is of the tree. W. T.
+== leaf 609 | (no running head) | margin left | checked
+@383 ...that may draw us to sin. W. T.
+@1851 As God rejoiceth not in the deed itself, so doth he not in an idle faith without works. Ant. ed.
+@2204 Good works are a shew of our faith, as the fruit is of the tree. W. T.
 
-== leaf 610 | (no running head) | margin right | draft
-?@844 He prophesieth of i the
-?@920 pope's spiritualty. Ant. ed.
- @1895 The condition of the world shall wax worse and worse. Ant. ed.
+== leaf 610 | (no running head) | margin right | checked
+@844 He prophesieth of the pope's spiritualty. Ant. ed.
+@1895 The condition of the world shall wax worse and worse. Ant. ed.
 
-== leaf 611 | (no running head) | margin left | draft
-?@657 ‘Where a true faith is, there . are also good works. iW. T.
-?@1322 Christ’s blood rd ri or give ness of sins, and not man’s works. W. T.
+== leaf 611 | (no running head) | margin left | checked
+@657 Where a true faith is, there are also good works. W. T.
+@1322 Christ's blood purchaseth forgiveness of sins, and not man's works. W. T.
 
-== leaf 612 | (no running head) | margin none found | draft
+== leaf 612 | (no running head) | margin none found | checked
 
-== leaf 613 | (no running head) | margin none found | draft
+== leaf 613 | (no running head) | margin none found | checked
