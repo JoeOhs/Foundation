@@ -105,6 +105,14 @@ const APPENDIX_RE = /\bAp\.?\s*(\d{1,3})/g;
 // A subsection token: roman numeral, small number, or a single letter.
 const SECTION_TOKEN_RE = /^\s*\.\s*([IVXLC]+|[ivxlc]+|\d{1,2}|[A-Za-z])(?=\s*[.,;)\s]|$)/;
 const MAX_SECTION_TOKENS = 5;
+const ORDINAL_THEN_BOOK_RE = new RegExp(`^[123]\\s+${BOOK_WORD}\\.?\\s+\\d`);
+// Does `text` continue, at `pos`, with a book name and a chapter? Then a 1-3
+// ending just before `pos` is that book's ordinal, not part of the reference
+// before it: "So 1 Cor. 10. 7", "Deut. 32. 9, 1 Chron. 16. 18".
+const BOOK_AHEAD_RE = new RegExp(`^\\s+${BOOK_WORD}\\.?\\s+\\d`);
+function isOrdinalOfNextBook(n: string, text: string, pos: number): boolean {
+  return /^[123]$/.test(n) && BOOK_AHEAD_RE.test(text.slice(pos));
+}
 
 // "v. 22" — a verse of the book this note belongs to.
 const LOCAL_VERSE_RE = /\bv{1,2}\.\s*(\d{1,3})/g;
@@ -127,6 +135,8 @@ function scanAppendixes(text: string, out: Match[]): void {
       const rest = text.slice(end);
       const s = SECTION_TOKEN_RE.exec(rest);
       if (!s) break;
+      // "Ap. 41. 1 Sam. 4. 4": that "1" opens the next reference.
+      if (ORDINAL_THEN_BOOK_RE.test(rest.slice(s[0].length - s[1].length))) break;
       sections.push(s[1]);
       end += s[0].length;
     }
@@ -143,7 +153,7 @@ function scanScripture(text: string, out: Match[]): void {
   let m: RegExpExecArray | null;
   while ((m = SCRIPTURE_RE.exec(text)) !== null) {
     const book = resolveBook(m[1], m[2]);
-    if (!book) {
+    if (!book || isOrdinalOfNextBook(m[4] ?? m[3], text, m.index + m[0].length)) {
       // A near-miss must not eat the text it spanned. "See 1 Cor. 16. 9"
       // first matches "See 1" (book "See", chapter 1), which resolves to
       // nothing — but it has already consumed the "1" that belongs to
@@ -172,7 +182,7 @@ function scanScripture(text: string, out: Match[]): void {
         continue;
       }
       const v = VERSE_CONT_RE.exec(rest);
-      if (v) {
+      if (v && !isOrdinalOfNextBook(v[1], text, pos + v[0].length)) {
         out.push({
           start: pos, end: pos + v[0].length,
           ref: { kind: 'scripture', book, chapter: curChapter, verse: Number(v[1]) },

@@ -1457,8 +1457,8 @@ running list of what's done and what's next, not a commitment.
 - **Companion Bible verse-keyed marginal notes.** The marginal commentary
   itself (as opposed to the Appendixes above). Installs from the Library's
   "Reference works" section as a single `commentary` source containing one
-  `books` row per transcribed book — **Genesis**, **Exodus** and
-  **Philemon** so far (Philemon was the proof-of-concept). 3 of 66 books. Two content shapes share it:
+  `books` row per transcribed book — **Genesis**, **Exodus**,
+  **Leviticus** and **Philemon** so far (Philemon was the proof-of-concept). 4 of 66 books. Two content shapes share it:
   - *Structure diagrams* — Bullinger's nested outlines, stored as **data**
     (one `entries` row per outline line) rather than as page images, so
     highlighting, binding and annotating work on an individual outline line
@@ -1534,6 +1534,11 @@ running list of what's done and what's next, not a commitment.
   `src/bullingerRefs.ts`: a 1-3 directly before a book name is that book's
   ordinal, so "So 1 Cor. 10. 7" no longer links Song of Solomon 1 and
   "Deut. 32. 9, 1 Chron. 16. 18" no longer swallows the "1" as a verse.
+
+  **Leviticus** is complete the same way: 36 Structure diagrams and 588
+  verse entries across all 27 chapters; one appendix number corrected
+  (Ap. 8 -> 18), the rest as printed — see the header of
+  `leviticus.notes.txt`. No `src/` change was needed.
 
   Known gap, Genesis onward: a bare in-book reference ("See note on
   26. 28", "Cp. 30. 21") is **not** linked — only `v. N` and references

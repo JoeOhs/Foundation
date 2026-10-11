@@ -117,6 +117,12 @@ function parseStructure(file) {
         if (ungrouped.length === 0) {
           throw new TranscriptionError(file, lineNo, `[[group: ${label}]] claims no lines — every line before it already belongs to an earlier group`);
         }
+        // "-" releases the pending lines under no brace at all — for a
+        // member printed between two braced runs, like an introversion's centre.
+        if (label === '-') {
+          ungrouped = [];
+          return;
+        }
         // Re-using a label merges: Bullinger's correspondence pairs sit at
         // opposite ends of the outline, so a group is often non-contiguous.
         const members = d.groups.get(label) ?? [];
@@ -230,12 +236,16 @@ function parseProse(file) {
     if (sep === -1) throw new TranscriptionError(file, lineNo, 'expected "VERSE | TEXT"');
     const verseRaw = line.slice(0, sep).trim();
     const text = line.slice(sep + 1).trim();
-    if (!/^\d+$/.test(verseRaw)) throw new TranscriptionError(file, lineNo, `malformed verse number "${verseRaw}"`);
+    // "V" for a one-chapter book, "C:V" otherwise.
+    const m = /^(?:(\d+):)?(\d+)$/.exec(verseRaw);
+    if (!m) throw new TranscriptionError(file, lineNo, `malformed verse number "${verseRaw}"`);
     if (!text) throw new TranscriptionError(file, lineNo, `note for verse ${verseRaw} has no text`);
     // Verse 0 is a book-level introductory note — Bullinger prints a few
     // before the text itself. Carried through as verse null.
-    const verse = Number(verseRaw);
-    notes.push({ verse: verse === 0 ? null : verse, text });
+    const chapter = m[1] === undefined ? 1 : Number(m[1]);
+    const verse = Number(m[2]);
+    if (chapter === 0) throw new TranscriptionError(file, lineNo, 'chapter 0');
+    notes.push({ chapter, verse: verse === 0 ? null : verse, text });
   });
   return { notes, heading };
 }

@@ -1,0 +1,1008 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Genesis
+# Structure diagrams — all 71 that the Genesis pages print. Transcribed
+# from the page scans (the images inside
+# thecompanionbible_202504_pdf/1. Genesis_text.pdf); [[pdf-page:]] is the
+# page of that file each diagram is on. Notation: README.md here.
+#
+# Where a staircase steps in by two levels after a text line (36. 1-8
+# only), the deeper member is set one level in instead: the parser
+# only allows a two-level step straight after a bracket line.
+#
+# A printed reference that reaches outside the diagram's anchor chapter
+# (e.g. "2. 4—50. 26") can't be a REF_RANGE, which is verses of one chapter;
+# such a line keeps its reference at the head of its TEXT instead, as printed.
+
+[[diagram: The Structure of the Book as a Whole (Division)]]
+[[anchor: Genesis 1:1]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 9]]
+
+A1 |  | 1. 1—2. 3. THE INTRODUCTION.
+A2 |  | 2. 4—50. 26. THE ELEVEN "GENERATIONS".
+
+[[diagram: Gen. 1. 1—2. 3 (A1 above). The Introduction (Alternation)]]
+[[anchor: Genesis 1:1]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 9]]
+
+A1 |  |
+  A | 1 | "THE WORLD THAT THEN WAS" (2 Pet. 3. 6). ITS CREATION IN ETERNITY PAST.
+    B | 2- | ITS END. RUIN.
+  A | -2-31 | "THE HEAVENS AND THE EARTH WHICH ARE NOW" (2 Pet. 3. 7). THEIR CREATION IN TIME PRESENT. (THE SIX DAYS.)
+    B |  | 2. 1-3. THEIR END. BLESSING.
+
+[[diagram: Gen. 2. 4—50. 26 (A2 above). The Eleven "Generations" (Extended Alternation with Introversion)]]
+[[anchor: Genesis 1:1]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 9]]
+
+A2 |  |
+  C |  |
+    E |  | "THE HEAVENS AND THE EARTH" (2. 4—4. 26).
+      F |  | ADAM (5. 1—6. 8).
+        G |  | NOAH (6. 9—9. 29).
+          H |  | THE SONS OF NOAH (10. 1—11. 9).
+            I |  | SHEM (11. 10—11. 26).
+[[group: MANKIND IN GENERAL]]
+  D |  | TERAH (11. 27—25. 11).
+[[group: -]]
+  C |  |
+    E |  | ISHMAEL (25. 12-18).
+      F |  | ISAAC (25. 19—35. 29).
+        G |  | ESAU (36. 1-8).
+          H |  | THE SONS OF ESAU (36. 9-43).
+            I |  | JACOB (37. 1—50. 26).
+[[group: THE CHOSEN PEOPLE]]
+
+[[diagram: 1. -2-31 (A, p. 1). "The Heavens and Earth Which Are Now" (Extended Alternation)]]
+[[anchor: Genesis 1:2-31]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 10]]
+
+A |  |
+  a | -2-5 | Darkness and Light. Night and Day. · 1st Day.
+    b | 6-8 | Waters. Division between them. · 2nd Day.
+      c | 9-13 | Earth. Fruit from it. · 3rd Day.
+  a | 14-19 | Day and Night. Sun and Moon. · 4th Day.
+    b | 20-23 | Waters. Life from them. · 5th Day.
+      c | 24-31 | Earth. Life from it. · 6th Day.
+
+[[diagram: 2. 4—4. 26 (E, p. 1). "The Generations of the Heavens and of the Earth."]]
+[[anchor: Genesis 2:4]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 12]]
+
+J1 | 4-25 | BEFORE the Fall. Man in Probation.
+J2 |  | 3. 1-24. The FALL of Man.
+J3 |  | 4. 1-26. AFTER the Fall. Man in Ruin.
+
+[[diagram: 2. 4-25 (J1, above). Man Before the Fall (Introversion and Extended Alternation)]]
+[[anchor: Genesis 2:4-25]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 12]]
+
+J1 |  |
+  A | 4, 5- | The earth for man and woman.
+  B |  |
+    a | -5 | For the ground, no man.
+      b | 6 | The ground and vegetable creation.
+        c | 7 | The formation of man.
+  C |  |
+    d | 8 | The Garden.
+      e | 9 | The Trees.
+  D | 10-14 | The Rivers.
+  C |  |
+    d | 15 | The Garden.
+      e | 16, 17 | The Trees.
+  B |  |
+    a | 18 | For the man, no woman.
+      b | 19, 20- | The ground and animate creation.
+        c | -20-23 | The formation of woman.
+  A | 24, 25 | Man and woman for the earth.
+
+[[diagram: 3. 1-24 (J2, p. 5). The Fall (Introversion and Alternation)]]
+[[anchor: Genesis 3:1-24]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 14]]
+
+J2 |  |
+  E | 1-5 | The Nachash: procuring man's death, in Adam.
+  F | 6 | The Tree of knowledge. Eating of it.
+  G |  |
+    f | 7- | Effect on both: the man and the woman.
+      g | -7 | Human provision: man-made aprons.
+  H | 8-12 | God's enquiry of the man.
+  I | 13 | God's enquiry of the woman.
+  K | 14 | Sentence on the Nachash.
+  K | 15 | Promise of the Seed.
+  I | 16 | God's sentence on the woman.
+  H | 17-19 | God's sentence on the man.
+  G |  |
+    f | 20 | Effect on both: the man and the woman.
+      g | 21 | Divine provision: God-made coats.
+  F | 22-24- | The Tree of Life. Expulsion from it.
+  E | -24 | The Cherubim: preserving man's life, in Christ.
+
+[[diagram: 4. 1-26 (J3, p. 5). After the Fall (Alternation)]]
+[[anchor: Genesis 4:1-26]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 15]]
+
+J3 |  |
+  L | 1-16 | Adam's sons: Cain and Abel.
+    M | 17-24 | Cain's son: Enoch.
+  L | 25 | Adam's son: Seth.
+    M | 26 | Seth's son: Enos.
+
+[[diagram: 5. 1—6. 8 (F, p. 1). "The Book of the Generations of Adam" (Extended Alternation)]]
+[[anchor: Genesis 5:1]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 17]]
+
+A | 1, 2 | Unfallen Adam: a "son of God" (Luke 3. 38).
+B | 3-5 | Fallen Adam, and his years. The total 930, and the first 130.
+C | 6-27 | The progeny of Adam, and their deaths.
+D | 28-32 | Noah, and his promise of "comfort".
+A |  | 6. 1, 2. The fallen angels: "sons of God" (see Ap. 23).
+B |  | 6. 3. Fallen Adam, and his years. The total 930, and the last 120.
+C |  | 6. 4-7. The progeny of the fallen angels, and their threatened destruction. The Nephilim (see Ap. 25).
+D |  | 6. 8. Noah, and his possession of "grace".
+
+[[diagram: 6. 9—9. 29 (G, p. 1). The Generations of Noah (Introversion)]]
+[[anchor: Genesis 6:9]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 18]]
+
+A | 9 | Noah before the Flood.
+B | 11 | Noah's Family.
+C | 11-13 | The Earth corrupt.
+D | 14-22 | The making of the Ark.
+E |  | 7. 1-24. Noah entering the Ark.
+E |  | 8. 1-19. Noah leaving the Ark.
+D |  | 8. 20. The building of the Altar.
+C |  | 8. 21—9. 17. The Earth replenished.
+B |  | 9. 18-27. Noah's Family.
+A |  | 9. 28, 29. Noah after the Flood.
+
+[[diagram: 8. 21—9. 17 (C, p. 11). The Earth Replenished (Double Introversion)]]
+[[anchor: Genesis 8:21]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 21]]
+
+C |  |
+  F | 21, 22 | God's covenant with the earth.
+[[group: -]]
+  G |  |
+    a |  | 9. 1. Fruitfulness committed to man.
+      b |  | 9. 2. Power committed to man.
+        c |  | 9. 3. Change in Ordinance (nourishment).
+  G |  |
+        c |  | 9. 4, 5. Change in Ordinance (punishment).
+      b |  | 9. 6. Power committed to man.
+    a |  | 9. 7. Fruitfulness committed to man.
+[[group: God's blessing for Noah.]]
+  F |  | 9. 8-17. God's covenant with Noah.
+
+[[diagram: 10. 1—11. 9 (H, p. 1). The Generations of the Sons of Noah (Division)]]
+[[anchor: Genesis 10:1]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 22]]
+
+A1 | 1-32 | The Nations divided in the Earth.
+A2 |  | 11. 1-9. The Nations scattered abroad on the Earth.
+
+[[diagram: 10. 1-32 (A1, above). Nations Divided (Introversion)]]
+[[anchor: Genesis 10:1-32]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 22]]
+
+A1 |  |
+  B | 1- | Shem.
+  C | -1- | Ham.
+  D | -1 | Japheth.
+  D | 2-5 | The sons of Japheth.
+  C | 6-20 | The sons of Ham.
+  B | 21-32 | The sons of Shem.
+
+[[diagram: 11. 1-9 (A2, p. 15). The Nations Scattered (Introversion and Alternation)]]
+[[anchor: Genesis 11:1-9]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 23]]
+
+A2 |  |
+  E |  |
+    a | 1 | Unity.
+      b | 2 | Shinar.
+  F | 3, 4 | The Tower. Man's building.
+  F | 5 | The Tower. God's inspection.
+  E |  |
+    a | 6, 7 | Unity.
+      b | 8, 9 | Babel.
+
+[[diagram: 11. 27—25. 11 (D, p. 1). The Generations of Terah. Introduction (11. 27-30). See Ap. 29. (Repeated Alternation)]]
+[[anchor: Genesis 11:27]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 24]]
+
+A1 |  | 11. 31—22. 19. Abram's history: From his Call, to his Trial. (Isaac's birth.)
+B1 |  | 22. 20-24. The Posterity of Nahor.
+A2 |  | 23, 24. Abram's history. His old age. (Isaac's marriage.)
+B2 |  | 25. 1-4. The Posterity of Keturah.
+A3 |  | 25. 5-11. Abram's history. Death. (Isaac's inheritance.)
+
+[[diagram: 11. 31—22. 19 (A1, p. 17). Abram's History (Call to Trial) (Introversions and Alternations)]]
+[[anchor: Genesis 11:31]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 25]]
+
+A1 |  |
+  C |  | 11. 31—12. 3. Abram's Call. Promise of Seed.
+  D |  | 12. 4-9. Sojourn in Canaan.
+  E |  |
+    a |  | 12. 10-20. Sojourn in Egypt. Denial of Sarai.
+    b |  |
+      c |  | 13. 1-13. Separation of Lot.
+        d |  | 13. 14-18. Manifestation of the Land.
+  F |  | 14. 1-24. War on Sodom. Rescue of Lot by Abram.
+  G |  |
+    e1 |  | 15. Covenant made.
+      f1 |  | 16. Sarai's Policy.
+    e2 |  | 17. 1-14. Covenant repeated.
+      f2 |  | 17. 15-27. Sarah's blessing.
+    e3 |  | 18. 1-15. Covenant renewed.
+  F |  | 18. 16—19. 38. Destruction of Sodom. Rescue of Lot by angels.
+  E |  |
+    a |  | 20. 1-18. Sojourn in Gerar. Denial of Sarah.
+    b |  |
+        d |  | 21. 1-8. Manifestation of the Seed.
+      c |  | 21. 9-21. Separation of Ishmael.
+  D |  | 21. 22-34. Sojourn in Gerar.
+  C |  | 22. 1-19. Abraham's Trial. Blessing of Seed.
+
+[[diagram: 15. 1-21 (G e1, p. 18). The Covenant Made. The Seed and The Land. (Repeated Alternation)]]
+[[anchor: Genesis 15:1-21]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 29]]
+
+e1 |  |
+  g1 | 1 | The Covenant Maker. (The Word of Jehovah.)
+    h1 | 2, 3 | Enquiry. "What wilt Thou give?"
+  g2 | 4, 5 | The Covenant. Announced. (The Seed.)
+    h2 | 6 | Belief.
+[[group: The Seed]]
+  g3 | 7 | The Covenant Maker. (Jehovah.)
+    h3 | 8 | Enquiry. "Whereby shall I know?"
+  g4 | 9-11 | The Covenant. Prepared.
+    h4 | 12-16 | Answer. "Know of a surety."
+  g5 | 17-21 | The Covenant. Solemnized.
+[[group: The Land]]
+
+[[diagram: 17. 1-27 (17. 1-14 and 17. 15-27) (e2 and f2, p. 18). The Covenant Repeated and Sarah's Blessing (Alternation and Introversion)]]
+[[anchor: Genesis 17:1-27]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 30]]
+
+e2 |  |
+  i |  |
+    k1 | 1, 2 | Promise of seed to Abram.
+      l | 3- | Prostration of Abram, and reverence.
+    k2 | -3-8 | God's talk with Abram. His seed.
+  j | 9-14 | Circumcision. Command.
+f2 |  |
+  i |  |
+    k3 | 15, 16 | Promise of seed to Sarah.
+      l | 17 | Prostration of Abraham, and joy.
+    k4 | 18-22 | God's talk with Abraham. Sarah's seed.
+  j | 23-27 | Circumcision. Obedience.
+
+[[diagram: 18. 1-16 (G e3, p. 18). The Covenant Renewed (Introversion)]]
+[[anchor: Genesis 18:1-16]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 31]]
+
+e3 |  |
+  m | 1, 2 | Appearance of Jehovah. (Three men.)
+  n | 3-8 | Their reception by Abraham.
+  n | 9-15 | Their conference with Abraham.
+  m | 16- | Departure of Jehovah. (Three men.)
+
+[[diagram: 18. -16—19. 38 (F, p. 18). Destruction of Sodom (Alternation)]]
+[[anchor: Genesis 18:16]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 32]]
+
+F |  |
+  o | -16-33 | Abraham and Jehovah.
+    p |  | 19. 1-26. Lot and the Angels.
+  o |  | 19. 27-29. Abraham and Jehovah.
+    p |  | 19. 30-38. Lot and his daughters.
+
+[[diagram: 18. -16-33 (o, above). Abraham and Jehovah (Repeated alternation)]]
+[[anchor: Genesis 18:16-33]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 32]]
+
+o |  |
+  q1 | -16 | Abraham before Jehovah.
+    r | 17-21 | Announcement of Sodom's destruction.
+  q2 | 22 | Jehovah before Abraham (see note).
+    r | 23-32 | Intercession for Sodom's preservation.
+  q3 | 33 | Jehovah's departure. Abraham's return.
+
+[[diagram: 19. 1-26 ("p", p. 25). Lot and the Angels (Repeated Alternation)]]
+[[anchor: Genesis 19:1-26]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 33]]
+
+p |  |
+  s1 | 1-5 | Even. The Angels. Reception by Lot.
+    t1 | 6-9 | Lot's remonstrance with Sodomites.
+  s2 | 10-13 | Night. The Angels. Protection of Lot. Announcement of the destruction of Sodom.
+    t2 | 14 | Lot's remonstrance with his family.
+  s3 | 15-17 | Dawn. Jehovah merciful to Lot.
+    t3 | 18-20 | Lot's remonstrance with Jehovah.
+  s4 | 21-26 | Sunrise. Jehovah's acquiescence with Lot. Destruction of Sodom.
+
+[[diagram: 20. 1-18 (E a, p. 18). Abraham's Sojourn in Gerar (Extended Alternation)]]
+[[anchor: Genesis 20:1-18]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 35]]
+
+H1 | 1, 2- | Expedient.
+H2 | -2 | Consequences.
+[[group: Introduction]]
+a |  |
+  u | 3-6 | Dream, &c.
+    v | 7- | Restoration commanded.
+      w | -7 | Prayer.
+  u | 8-13 | Dream, &c.
+    v | 14-16 | Restoration effected.
+      w | 17, 18 | Prayer.
+
+[[diagram: 21. 1-8 (E b d, p. 18). Manifestation of Seed (Alternation)]]
+[[anchor: Genesis 21:1-8]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 36]]
+
+d |  |
+  x | 1-3 | Isaac's birth and naming.
+    y | 4, 5 | Circumcision.
+  x | 6, 7 | Cause of Isaac's naming.
+    y | 8 | Weaning.
+
+[[diagram: 21. 9-21 (E b c, p. 18). Separation of Ishmael (Extended Alternation)]]
+[[anchor: Genesis 21:9-21]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 36]]
+
+c |  |
+  z | 9, 10 | Hagar and Ishmael, in house.
+    a | 11 | Abraham's suffering.
+      b | 12, 13 | God's intervention.
+        c | 14 | Hagar and Ishmael. Wilderness of Beer-sheba.
+  z | 15 | Hagar and Ishmael, out of house.
+    a | 16 | Hagar's suffering.
+      b | 17-19 | God's intervention.
+        c | 20, 21 | Hagar and Ishmael. Wilderness of Paran.
+
+[[diagram: 21. 22-34 (D, p. 18). Sojourn in Gerar (Introversion and Alternation)]]
+[[anchor: Genesis 21:22-34]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 37]]
+
+D |  |
+  d | 22-24 | Sojourning. Commencement.
+  x |  |
+    e | 25, 26 | The well taken.
+      f | 27 | Covenant.
+  x |  |
+    e | 28-31 | The well digged.
+      f | 32, 33 | Covenant.
+  d | 34 | Sojourning. Continued.
+
+[[diagram: 22. 1-19 (C, p. 18). Abraham's Trial (Repeated Alternation)]]
+[[anchor: Genesis 22:1-19]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 37]]
+
+C |  |
+  g1 | 1, 2 | Jehovah. Command.
+    h1 | 3-10 | Abraham. Journey.
+  g2 | 11, 12 | Jehovah. 1st call.
+    h2 | 13, 14 | Abraham. The offering.
+  g3 | 15-18 | Jehovah. 2nd call.
+    h3 | 19 | Abraham. Return.
+
+[[diagram: 23. 1—24. 67 (A2, p. 17). Abraham's History (Old Age) (Division)]]
+[[anchor: Genesis 23:1]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 39]]
+
+A2 |  |
+  X1 | 1-20 | Death of Sarah.
+  X2 |  | 24. 1-67. Marriage of Isaac.
+
+[[diagram: 23. 1-20 (X1, above). The Death of Sarah (Alternation)]]
+[[anchor: Genesis 23:1-20]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 39]]
+
+X1 |  |
+  i | 1, 2 | Death of Sarah.
+    k | 3-18 | Abraham's Treaty for buryingplace.
+  i | 19 | Burial of Sarah.
+    k | 20 | Ratification of Treaty.
+
+[[diagram: 23. 3-18 (k, above). Abraham's Treaty (Repeated Alternation)]]
+[[anchor: Genesis 23:3-18]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 39]]
+
+k |  |
+  l1 | 3, 4 | Request.
+    m1 | 5, 6 | Grant.
+  l2 | 7-9 | Request.
+    m2 | 10, 11 | Grant.
+  l3 | 12, 13 | Request.
+    m3 | 14-18 | Purchase.
+
+[[diagram: 24. 1-67 (X2, p. 32). The Marriage of Isaac (Division)]]
+[[anchor: Genesis 24:1-67]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 40]]
+
+X2 |  |
+  n1 | 1-54- | Eleazar's mission and his progress.
+  n2 | -54-67 | Eleazar's mission and his return.
+
+[[diagram: 24. 1-54- (n1, above). Eleazar's Mission in Progress (Extended Alternation)]]
+[[anchor: Genesis 24:1-54]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 40]]
+
+n1 |  |
+  o | 1 | Abraham's blessing and prosperity.
+    p | 2-9 | Eleazar's oath and commission.
+      q | 10, 11 | Journey of Eleazar.
+        r | 12-21 | Prayer of Eleazar. Ans. 15-21.
+          s | 22-25 | His conference with Rebekah.
+            t | 26 | His worship of Jehovah.
+              u | 27-32 | Reception of Eleazar.
+                v | 33 | Entertainment. Declined.
+  o | 34-36 | Abraham's blessings and prosperity.
+    p | 37-41 | Eleazar's oath and commission.
+      q | 42- | Journey of Eleazar.
+        r | -42-45- | Prayer of Eleazar. Ans. 45-.
+          s | -45-47 | His conference with Rebekah.
+            t | 48 | His worship of Jehovah.
+              u | 49-53 | Reception of Eleazar's message.
+                v | 54- | Entertainment. Accepted.
+
+[[diagram: 24. -54-67 (n2, p. 33). Eleazar's Mission and Return (Introversion and Alternation)]]
+[[anchor: Genesis 24:54-67]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 42]]
+
+n2 |  |
+  w | -54- | The return desired.
+  x |  |
+    y | -54 | Request for departure made.
+      z | 55 | Departure hindered.
+  x |  |
+    y | 56 | Request for departure renewed.
+      z | 57-60 | Departure expedited.
+  w | 61-67 | The return consummated.
+
+[[diagram: 25. 12-18 (C, p. 1). The Generations of Ishmael (Alternation)]]
+[[anchor: Genesis 25:12-18]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 43]]
+
+C |  |
+  A | 12 | Ishmael. Birth.
+    B | 13-16 | His sons. Names and dwelling.
+  A | 17 | Ishmael. Death.
+    B | 18 | His sons. Their dwelling.
+
+[[diagram: 25. 19—35. 29 (F, p. 1). The Generations of Isaac (Introversion and Alternation)]]
+[[anchor: Genesis 25:19]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 43]]
+
+F |  |
+  A | 19 | The birth of Isaac.
+  B |  |
+    a | 20-22 | Marriage with Rebekah.
+      b | 23-28 | Isaac's two sons.
+  C | 29-34 | Esau and Jacob.
+  D |  |
+    E |  | 26. 1. Journey to Gerar.
+      F |  | 26. 2-5. Appearance of Jehovah.
+        G |  |
+          c |  | 26. 6-11. Isaac's wife.
+            d |  | 26. 12-22. Sep. from Abim.
+  D |  |
+    E |  | 26. 23. Journey to Beer-sheba.
+      F |  | 26. 24, 25. Appearance of Jehovah.
+        G |  |
+            d |  | 26. 26-33. Cov. with Abim.
+          c |  | 26. 34, 35. Esau's wives.
+  C |  | 27. 1—35. 15. Esau and Jacob.
+  B |  |
+    a |  | 35. 16-20. Death of Rachel.
+      b |  | 35. 21-26. Israel's twelve sons.
+  A |  | 35. 27-29. The death of Isaac.
+
+[[diagram: 27. 1—35. 15 (C, p. 36). Esau and Jacob (Introversion and Alternation)]]
+[[anchor: Genesis 27:1]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 45]]
+
+C |  |
+  H |  |
+    J |  |
+      e | 1-40 | Deception of father and brother by Jacob and Rebekah.
+        f | 41 | Hatred of Esau.
+    K |  | 27. 42—28. 5. Departure of Jacob to Padan-aram.
+  I |  |
+    g |  | 28. 6-9. Esau's wives.
+      h |  | 28. 10-22. Jacob's Vision at Bethel.
+  I |  |
+    g |  | 29. 1—31. 55. Jacob's wives.
+      h |  | 32. 1, 2. Jacob's Vision at Mahanaim.
+  H |  |
+    J |  |
+        f |  | 32. 3—33. 17. Reconciliation of Esau.
+      e |  | 33. 18—34. 31. Deception of Shechemites by Jacob's sons.
+    K |  | 35. 1-15. Return of Jacob to Padan-aram.
+
+[[diagram: 29. 1—31. 55 (g, p. 38). Jacob's Wives (Repeated Alternation)]]
+[[anchor: Genesis 29:1]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 48]]
+
+g |  |
+  i1 | 1-14 | Arrival at Padan-aram.
+    k1 |  | 29. 15—30. 24. Servitude.
+  i2 |  | 30. 25, 26. Return desired.
+    k2 |  | 30. 27—31. 16. Service.
+  i3 |  | 31. 17-55. Return effected.
+
+[[diagram: 32. 3—33. 17 (f, p. 32). The Reconciliation of Esau (Introversion and Alternation)]]
+[[anchor: Genesis 32:3]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 53]]
+
+f |  |
+  l | 3-5 | Reconciliation desired.
+    m | 6 | Approach of Esau announced.
+      n |  |
+        o | 7, 8 | The Present resolved on.
+          p | 9-12 | Prayer.
+      n |  |
+        o | 13-23 | The Present prepared.
+          p | 24-32 | Prayer.
+    m |  | 33. 1-. Approach of Esau seen.
+  l |  | 33. -1-17. Reconciliation effected.
+
+[[diagram: 36. 1-8 (G, p. 1). The Generations of Esau (in Canaan) (Introversion and Extended Alternation)]]
+[[anchor: Genesis 36:1-8]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 58]]
+
+G |  |
+  A | 1 | Esau. In Canaan.
+  B |  |
+    a | 2- | Adah.
+      b | -2 | Aholibamah.
+        c | 3 | Bashemath.
+  B |  |
+    a | 4- | Adah's son, Eliphaz.
+      c | -4 | Bashemath's son, Reuel.
+      b | 5 | Aholibamah's sons, Jeush, &c.
+  A | 6-8 | Esau. Removal from Canaan.
+
+[[diagram: 36. 9-43 (H, p. 1). The Generations of Esau (in Mount Seir) (Introversion and Repeated Alternation)]]
+[[anchor: Genesis 36:9-43]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 58]]
+
+H |  |
+  A | 9 | Sons of Esau (Edom).
+  B |  |
+    a1 | 10- | Eliphaz, Adah's son.
+      b1 | -10 | Reuel, Bashemath's son.
+    a2 | 11, 12 | Sons of Eliphaz.
+      b2 | 13 | Sons of Reuel.
+        C | 14 | Jeush, &c., Aholibamah's sons.
+  B |  |
+    a3 | 15, 16 | Dukes of Eliphaz (Adah).
+      b3 | 17 | Dukes of Reuel (Bashemath).
+        C | 18 | Dukes of Jeush (Aholibamah).
+  A | 20-43 | Dukes of Edom, &c.
+
+[[diagram: 37. 1—50. 26 (I, p. 1). The Generations of Jacob (Repeated Alternation)]]
+[[anchor: Genesis 37:1]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 59]]
+
+I |  |
+  A1 | 1 | JACOB in Canaan.
+    B1 |  | 37. 2—45. 28. Sons of Jacob. Posterity (Joseph and brethren).
+  A2 |  | 46. 1-7. JACOB. Removal to Egypt.
+    B2 |  | 46. 8-27. Sons of Jacob. (Posterity.)
+  A3 |  | 46. 28—50. 14. JACOB. Settlement and death in Egypt. Removal to Canaan.
+    B3 |  | 50. 15-26. Sons of Jacob. Posterity (Joseph and brethren).
+
+[[diagram: 37. 2—45. 28 (B1, above). The Sons of Jacob: Joseph and his brethren (Alternation)]]
+[[anchor: Genesis 37:2]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 59]]
+
+B1 |  |
+  C | 2-36 | Joseph in Canaan.
+    D |  | 38. 1, 30. His brother (Judah).
+  C |  | 39. 1—41. 57. Joseph in Egypt.
+    D |  | 42. 1—45. 28. His brethren.
+
+[[diagram: 37. 2-36 (C, above). Joseph in Canaan (Alternation)]]
+[[anchor: Genesis 37:2-36]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 59]]
+
+C |  |
+  a | 1-4 | With his brethren.
+    b | 5-11 | His dreams (communicated).
+  a | 12-17 | Seeking his brethren.
+    b | 18-36 | His dreams (counteracted).
+
+[[diagram: 39. 1—41. 57 (C, p. 52). Joseph in Egypt]]
+[[anchor: Genesis 39:1]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 62]]
+
+C |  |
+  E1 |  | 39. 1—40. 23. His humiliation.
+  E2 |  | 41. 1-57. His exaltation.
+
+[[diagram: 39. 1—40. 23 (E1, above). Joseph's Humiliation (Extended Alternation)]]
+[[anchor: Genesis 39:1]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 62]]
+
+E1 |  |
+  c | 1, 2 | In Potiphar's house.
+    d | 3-6- | Confidence of Potiphar.
+      e | -6-18 | Chastity of Joseph.
+  c | 19, 20 | In Prison.
+    d | 21-23 | Confidence of Jailor.
+      e |  | 40. 1-23. Wisdom of Joseph.
+
+[[diagram: 39. -6-18 (e, above). The Chastity of Joseph (Alternation)]]
+[[anchor: Genesis 39:6-18]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 62]]
+
+e |  |
+  f | 6, 7 | Potiphar's wife. Request.
+    g | 8-10 | Joseph's Refusal, and Reason.
+  f | 11, 12- | Potiphar's wife. Request repeated.
+    g | -12-20 | Joseph's Flight, and consequences.
+
+[[diagram: 40. 1-23 (e, p. 55). The Wisdom of Joseph (Alternations)]]
+[[anchor: Genesis 40:1-23]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 63]]
+
+h | 1-8 | Introd. His fellow-prisoners and their dreams.
+e |  |
+  i |  |
+    l | 9-11 | The Butler's dream.
+      m | 12, 13 | Its Interpretation.
+    k | 14, 15 | Joseph's request (made).
+  i |  |
+    l | 16, 17 | The Baker's dream.
+      m | 18-22 | Its Interpretation.
+    k | 23 | Joseph's request (forgotten).
+
+[[diagram: 41. 1-57 (E2, p. 55). Joseph's Exaltation]]
+[[anchor: Genesis 41:1-57]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 64]]
+
+E2 |  |
+  n1 | 1-36 | Prediction.
+  n2 | 37-57 | Fulfilment.
+
+[[diagram: 41. 1-36 (n1, above). Prediction (Extended Alternation)]]
+[[anchor: Genesis 41:1-36]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 64]]
+
+n1 |  |
+  o | 1-4 | Dream of the kine.
+    p | 5-7 | Dream of the ears.
+[[group: dreamt]]
+      q | 8-16 | Interpretation sought.
+[[group: -]]
+  o | 17-21- | Dream of the kine.
+    p | -21-24 | Dream of the ears.
+[[group: related]]
+      q | 25-36 | Interpretation given.
+
+[[diagram: 41. 37-56 (n2, p. 57). Fulfilment (Repeated Alternation)]]
+[[anchor: Genesis 41:37-57]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 65]]
+
+n2 |  |
+  r1 | 37-46 | Joseph's Exaltation.
+    s1 | 47-49 | Dream of ears fulfilled.
+  r2 | 50-52 | Joseph's Fruitfulness.
+    s2 | 53-56- | Dream of kine fulfilled.
+  r3 | -56, 57 | Joseph's Authority.
+
+[[diagram: 42. 1—45. 28 (D, p. 52). Joseph's Brethren (Extended Alternation, with Introversion)]]
+[[anchor: Genesis 42:1]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 66]]
+
+D |  |
+  F |  |
+    t | 1, 2 | Commission to buy corn.
+    u |  |
+      z | 3 | Journey.
+        a | 4 | Benjamin left.
+      v | 5 | Arrival.
+        w | 6-24 | Meeting with Joseph.
+          x | 25, 26 | Dismissal.
+            y | 27-38 | Return.
+  F |  |
+    t |  | 43. 1, 2. Commission to buy corn.
+    u |  |
+        a |  | 43. 3-15-. Benjamin taken.
+      z |  | 43. -15-. Journey.
+      v |  | 43. -15. Arrival.
+        w |  | 43. 16-34. Meeting with Joseph.
+          x |  | 44. 1—45. 24. Dismissal.
+            y |  | 45. 25-28. Return.
+
+[[diagram: 43. 3-5. The Introversion in this Colloquy]]
+[[anchor: Genesis 43:3-5]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 68]]
+
+a | 3 | Judah's words.
+  b | 4 | Jacob's act.
+  b | 5- | Jacob's act.
+a | -5 | Joseph's words.
+
+[[diagram: 44. 1—45. 20 (F x, p. 59). The Dismissal of Joseph's Brethren (Introversion)]]
+[[anchor: Genesis 44:1]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 69]]
+
+x |  |
+  b | 1-13 | Feigned Dismissal.
+    c | 14-34 | Brethren's explanation to Joseph.
+    c |  | 45. 1-16. Joseph's explanation to Brethren.
+  b |  | 45. 17-24. Actual Dismissal.
+
+[[diagram: 1-14 (b, above). Feigned Dismissal (Alternation)]]
+[[anchor: Genesis 44:1-14]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 69]]
+
+b |  |
+  d | 1, 2 | The Cup concealed.
+    e | 3 | The sending away.
+  d | 4-12 | The Cup found.
+    e | 13, 14 | The return.
+
+[[diagram: 15-34 (c, above). The Cup Sought (Alternation)]]
+[[anchor: Genesis 44:15-34]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 69]]
+
+c |  |
+  f | 15 | Joseph.
+    g | 16 | Judah.
+  f | 17 | Joseph.
+    g | 18-34 | Judah.
+
+[[diagram: 45. 1-16 (c, p. 63). The Cup Discovered (Extended Alternation)]]
+[[anchor: Genesis 45:1-16]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 70]]
+
+c |  |
+  h | 1 | Joseph affected.
+    i | 2- | Weeping.
+      k | -2 | Pharaoh and his house.
+  h | 3-13 | Joseph revealed.
+    i | 14, 15 | Weeping.
+      k | 16 | Pharaoh and his house.
+
+[[diagram: 3-13 (h, above). Joseph Revealed (Introversion)]]
+[[anchor: Genesis 45:3-13]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 70]]
+
+h |  |
+  l | 3, 4 | Declaration.
+    m | 5 | Overruling by God.
+      n | 6 | Famine.
+    m | 7, 8 | Overruling by God.
+  l | 9-13 | Invitation.
+
+[[diagram: 46. 1-7 (A2, p. 52). Jacob's Removal to Egypt (Introversion)]]
+[[anchor: Genesis 46:1-7]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 71]]
+
+A2 |  |
+  G | 1 | Departure to Beer-sheba and Egypt.
+    H | 2- | Divine Manifestation and Call.
+      I | -2 | Jacob's response.
+    H | 3, 4 | Divine Manifestation and Promise.
+  G | 5-7 | Arrival in Egypt from Beer-sheba.
+
+[[diagram: 46. 8-27 (B2, p. 52). The Sons of Jacob. Posterity]]
+[[anchor: Genesis 46:8-27]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 72]]
+
+B2 |  |
+  K1 | 8-25 | Severally.
+  K2 | 26, 27 | Collectively.
+
+[[diagram: 8-25 (K1, above). The Names. Severally. (Alternation) — "into" (v. 8) / "in" (v. 27)]]
+[[anchor: Genesis 46:8-25]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 72]]
+
+K1 |  |
+  L | 8-15 | Leah · 33 = 32 + 1 (Num. 26. 59).
+    M | 16-18 | Zilpah · 16 = 16.
+  L | 19-22 | Rachel · 14 = 11 + 3 (v. 27).
+    M | 23-25 | Bilhah · 7 = 7. (Total 70 = 66 + 4.)
+
+[[diagram: 26, 27 (K2, above). The Names. Collectively. (Introversion)]]
+[[anchor: Genesis 46:26-27]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 72]]
+
+K2 |  |
+  N | 26 | The Total that "came into" = 66 (above).
+    O | 27- | Born and in Egypt · 4.
+  N | -27 | The Total of both · 70.
+
+[[diagram: 46. 28—50. 13 (A3, p. 52). Jacob in Egypt (Introversion)]]
+[[anchor: Genesis 46:28]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 73]]
+
+A3 |  |
+  P |  | 46. 28—47. 12. Israelites.
+    Q |  | 47. 13-26. Egyptians.
+  P |  | 47. 27—50. 13. Israelites.
+
+[[diagram: 46. 28—47. 12 (P, above). Israelites]]
+[[anchor: Genesis 46:28]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 73]]
+
+P |  |
+  R1 | 28 | Jacob's arrival in Goshen accomplished.
+  X1 |  |
+    S | 29, 30 | Jacob's meeting with Joseph.
+      T |  |
+        o | 31, 32 | Presentation planned.
+          p | 33, 34 | Directions given.
+  R2 |  | 47. 1. Jacob's arrival in Goshen announced.
+  X2 |  |
+      T |  |
+        o |  | 47. 2. Presentation made.
+          p |  | 47. 3-6. Directions followed.
+    S |  | 47. 7-10. Jacob's meeting with Pharaoh.
+  R3 |  | 47. 11, 12. Jacob's settlement in Rameses.
+
+[[diagram: 47. 27—50. 13 (P, p. 66). Israelites (Alternation and Introversion)]]
+[[anchor: Genesis 47:27]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 74]]
+
+P |  |
+  Q |  |
+    U | 27 | Jacob's dwelling in Egypt.
+    V | 28 | Years of life (147); and dwelling (17).
+  W |  | 47. 29—49. 32. Charges.
+  Q |  |
+    U |  | 49. 33—50. 2. Jacob's death in Egypt.
+    V |  | 50. 3-14. Days of mourning.
+
+[[diagram: 47. 29—49. 32 (W, above). Jacob's Charges]]
+[[anchor: Genesis 47:29]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 74]]
+
+W |  |
+  X | 29-31 | Charge to Joseph, re burial.
+    Y |  | 48. 1-20. Blessing of Joseph and his sons.
+      Z |  | 48. 21, 22. Assurance of return.
+    Y |  | 49. 1-28. Blessing of all his sons.
+  X |  | 49. 29-32. Charge to all his sons, re burial.
+
+[[diagram: 48. 1-20 (Y, p. 67). Blessing of Joseph and his Sons (Extended Alternation)]]
+[[anchor: Genesis 48:1-20]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 75]]
+
+Y |  |
+  q | 1, 2 | Joseph's sons brought.
+    r | 3, 4 | Blessing of Jacob.
+      s | 5-7 | United preference.
+  q | 8-12 | Joseph's sons presented.
+    r | 13-16 | Blessing by Jacob.
+      s | 17-20 | Inverted preference.
+
+[[diagram: 49. 1-28 (Y, p. 67). Jacob's Blessing of all his Sons (Introversion)]]
+[[anchor: Genesis 49:1-28]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 76]]
+
+Y |  |
+  t | 1, 2 | Collectively.
+    u | 3-27 | Separately. The order of the names.
+  t | 28 | Collectively.
+
+[[diagram: 49. 3-27 (u, above). The Order of the Names. Ap. 45 (Introversion)]]
+[[anchor: Genesis 49:3-27]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 76]]
+
+u |  |
+  v | 3-15 | Leah's six sons. Wife's offspring.
+[[group: -]]
+    w | 16-18 | Bilhah's son (Dan).
+      x | 19, 20 | Zilpah's two sons.
+    w | 21 | Bilhah's son (Naphtali).
+[[group: Slave offspring]]
+  v | 22-27 | Rachel's two sons. Wife's offspring.
+
+[[diagram: 49. 10. The Structure of this verse (Alternation)]]
+[[anchor: Genesis 49:10]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 76]]
+
+a | 10 | The Sceptre shall not depart from Judah,
+  b | 10 | Nor a Lawgiver from his seed,
+a | 10 | Until He, Shiloh, come [Whose right it is, Ez. 21. 27]
+  b | 10 | And [until] to Him, [the Lawgiver, shall be] the obedience of the peoples.
+
+[[diagram: 50. 15-26 (B3, p. 52). The Sons of Jacob. Joseph and his brethren (Introversion)]]
+[[anchor: Genesis 50:15-26]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 78]]
+
+B3 |  |
+  A | 15-21 | Brethren after Jacob's death.
+    B | 22, 23 | Joseph's living in Egypt, and age.
+      C | 24, 25 | Charges.
+    B | 26- | Joseph's death in Egypt, and age.
+  A | -26 | Brethren after Joseph's death.
+
+[[diagram: 24, 25 (C, above). Joseph's Charges (Introversion and Alternation)]]
+[[anchor: Genesis 50:24-26]]
+[[pdf: 1. Genesis_text.pdf]]
+[[pdf-page: 78]]
+
+C |  |
+  D | 24- | Death approaching.
+  E |  |
+    y | -24 | Assurance of return to Canaan.
+      z | 25- | Oath.
+  E |  |
+    y | -25- | Assurance of return to Canaan.
+      z | -25 | Oath.
+  D | 26 | Death experienced.

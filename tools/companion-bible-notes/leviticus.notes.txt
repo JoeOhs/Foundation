@@ -1,0 +1,631 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Leviticus
+# Marginal (side) notes, to be read alongside the KJV text.
+#
+# Format:  C:V | TEXT  —  verse 0 = a book-level introductory note
+#
+# ---------------------------------------------------------------------
+# Sources and method — as for Genesis (see genesis.notes.txt)
+# ---------------------------------------------------------------------
+# Read from the page scans inside thecompanionbible_202504_pdf/
+# 3. Leviticus_text.pdf, rendered at 200 dpi. A verse whose notes run
+# over a page break is joined into one entry. Hebrew is written in plain
+# ASCII, as elsewhere in this app.
+#
+# COMPLETE: all 27 chapters, every printed note (588 verse entries plus
+# the introductory note on the title), printed pages 131-175.
+#
+# Checked after transcription:
+#   - provenance: every word of this file and the structure file was looked
+#     up in the HOCR; the leftovers are Hebrew transliterations and words
+#     the OCR broke across a hyphen;
+#   - cross-references: every note round-trips through parseBullingerRefs,
+#     and every cited appendix's title was checked against its subject.
+#
+# ---------------------------------------------------------------------
+# Corrections (demonstrable)
+# ---------------------------------------------------------------------
+#   - 6:20  "in the day = when. See Gen. 2. 4, 17 and Ap. 8" -> Ap. 18:
+#     Ap. 18 is '"In the Day" (Gen. 2:17)'; Ap. 8 is the Creation Tablets.
+#     Every other "in the day = when" note cites Ap. 18.
+#
+# Left as printed (likely slips, not provable from the page):
+#   - 5:6   "See note on Ex. 26. 33" (the atonement note is Ex. 29. 33).
+#   - 14:54 "(r, p. 136)" and "13. 59 (p. 136)" (the Structure is p. 149).
+#   - 24:9  "See note on 7. 9" (the list of eight is at 6:30).
+#   - 25:10 "hallow ... Heb. chadash" (kadash elsewhere).
+#   - 26:34, 26:35 "Fig. Prosopopatheia" (Prosopopoeia elsewhere).
+#   - 26:40 "40-41 (E, p. 156)" (the Structure is p. 171).
+#   - Section numbers in Arabic where Roman is usual ("Ap. 43. II. 3").
+#
+# Re-run `node build.mjs --book=leviticus` after editing.
+
+0 | TITLE, Moses. See Ap. 2. Leviticus. From the Sept. and Vulg., because thought to be pertaining to the Levites. The Heb. name = vayyikra, being the first word = "And He called". Leviticus, therefore, is the Book relating to worship: for only those whom God thus calls does He seek to worship Him. John 4. 23, and cp. Ps. 65. 4: "Blessed is the man whom Thou choosest, and causest to approach unto Thee, that he may dwell in Thy courts." All its types relate to worship, as those of Exodus relate to Redemption. The Holy Spirit is not once named, though referred to in all the other books of the Pentateuch, because all here relates to Christ; and it is the Spirit's work to glorify Christ (John 16. 14). The whole of Lev., and Num. 1-10. 10, come between the first day of the first month and the twentieth day of the second month (cp. Num. 10. 11), on the hypothesis that Israel would forthwith advance and enter the land.
+
+1:1 | 1. 1—7. 38 (A1, p. 131). THE OFFERINGS AND THEIR LAWS. (Introversion and Extended Alternation.) [For Structure see next page.] AND. This connects Lev. very closely with Ex., as Ex. is linked with Genesis. the LORD. Heb. Jehovah, Whose glory filled the tabernacle, Ex. 40. 35. No other book contains so many words of Jehovah: "Jehovah spake", thirty-six times (see note on 5. 14); "I am Jehovah", twenty-one times; "I am Jehovah your God", twenty-one times; "I (Jehovah) am", three times; "I, Jehovah, do", twice. called. The last letter of this word (in Heb.) is minuscular, i.e. smaller than the others. This calling is in contrast with the thunders from Sinai. spake. See note on 5. 14. out of the tabernacle of the congregation. Heb. out of the tent of assembly: Heb. 'ohel. See Ap. 40, not mishkan, therefore before 1491. There are four such calls: (1) from the burning bush (Ex. 3. 4); (2) and (3) from Sinai (Ex. 19. 3, 20); and here.
+1:2 | children = sons. say. Cp. note on Jer. 7. 22, 23. man. Heb. 'adam (Ap. 14), i.e. a descendant of Adam, not the priests. offering. Heb. korban, admittance, entrance, or access offering. See Ap. 43. II. i. All the offerings were what God had first given to man; only such can be accepted by Him.
+1:3 | 3-17 (E, p. 134). THE BURNT OFFERING. Jehovah begins with the burnt offering and ends with the sin offering: we, in our approach, begin with the sin offering and end with the burnt offering. burnt sacrifice. Heb. 'olah. See Ap. 43. II. ii. male. A female permitted in some other offerings, but not here, because of the type. Christ not the sinbearer here, as in ch. 4. without blemish. Heb. tamim, said of all sacrifices, and the same of Noah, Gen. 6. 9. his own voluntary will. Not the same as a freewill offering. This not a freewill offering. Heb. here = "to be accepted for him", i.e. in his stead. Cp. v. 4. Cp. Ex. 28. 38. Lev. 19. 5; 22. 19, 20, 29; 23. 11. There was a double transfer: the unworthiness of the offerer was transferred to the victim; and the acceptableness of the offering was transferred to the offerer. This is confined to the burnt offerings and peace offerings; never with the sin offerings.
+1:4 | And. Note the Fig. Polysyndeton (Ap. 6) in vv. 4-9. put. Heb. lean, place, or press. It could not be done by proxy. This was all that the sinner could do. It was for God to accept. make atonement. Heb. kaphar, to cover the sinner and his sin, so that neither is seen. See note on Ex. 29. 33. No such thing as progress in justification.
+1:5 | he. The sacrificer himself killed: the priest received the blood. the priests, Aaron's sons. Heb. = the sons of Aaron, the priests. Occurs seven times: Lev. 1. 5, 8, 11; 2. 2; 3. 2. Num. 10. 8. Josh. 21. 19. sprinkle = dash. Heb. throw or jerk. door = entrance.
+1:6 | flay = have it flayed. Skin not offered with burnt offering, only with the sin offering. cut it ... pieces. To show that all was without blemish.
+1:7 | priest. Some codices, with Sam., Onk., Sept., and Syr., read plural, "priests". wood = logs. No other fuel might be used.
+1:8 | in order. Because with the future Antitype all was to be in order.
+1:9 | he. Sam., Sept., and Vulg. read "they". wash. To render the sacrifice like the Antitype. Cp. Eph. 5. 26, all in order of God's word. burn. Heb. katar. See Ap. 43. I. vii. offering. Heb. 'ishsheh. Ap. 43. II. xi. sweet savour = a savour of satisfaction. Cp. Gen. 8. 21.
+1:15 | the priest. To make up for the humble offering, the priest did this instead of the offerer.
+1:16 | feathers, or filth.
+2:1 | 2. 1-16 (F). THE MEAL OFFERING. any = soul. Heb. nephesh, as in 4. 2. See Ap. 13. offer. Heb. karab. See Ap. 43. I. i. a = an approach offering of. Heb. korban. See Ap. 43. II. i. meat offering. Better, "an oblation of a meal offering". Heb. minchah. See Ap. 43. II. iii. the LORD. Heb. Jehovah. Ap. 4. his offering. Heb. his korban. See Ap. 43. II. i. fine flour. Not merely ground, but perfect and ready, no unevenness. So with the life of the Antitype, "the Man Christ Jesus". Flour is to the wheat what blood is to the body; and pneuma is to the resurrection body. oil. Flour mixed with oil, and then oil poured on it. So Christ's life permeated and actuated by the Holy Spirit. frankincense. This ascended to God as a sweet savour.
+2:2 | Aaron's sons. See on 1. 5. burn. Heb. katar. See Ap. 43. I. vii. memorial: i.e. to remind. Cp. Ps. 20. 3. Acts 10. 4. offering. Heb. 'ishsheh. Ap. 43. II. xi. sweet savour. See note on 1. 9.
+2:3 | most holy. Two classes of seven holy things: three holy, four most holy. (1) Holy = thank offerings, 23. 20. Num. 6. 20. Firstborn, Num. 18. 17. Firstfruits, 2. 12. (2) The most holy = The incense, Ex. 30. 36. Shewbread, 24. 9. Sin and trespass offering, 6. 25-29; 7. 1, 6; 14. 13, &c. And the Meal offering, here.
+2:4 | oblation = present. Heb. korban. See Ap. 43. II. i. The only word rendered oblation, except Isa. 40. 20. Ezek. 44. 30; 45. 1, 6, 7, 13, 16; 48. 9, 10, 12, 18, 20, 21, where it is Heb. t'rumah (heave offering). See Ap. 43. II. viii. and Dan. 2. 46; 9. 21, 27, where it is Heb. minchah. Ap. 43. II. iii. baken. Type of the sufferings and trials of the Antitype, "tried as by fire".
+2:5 | pan = a flat plate or griddle. Cp. Ezek. 4. 3.
+2:11 | leaven. See Ap. 38. honey. Leaven is fermentation, and honey or any sweet liquor is the cause of it. These two things forbidden because there was no error or corruption in the Antitype. All was Divine perfection. Nothing therefore which answers to leaven may be in our sacrifice of praise now.
+2:12 | burnt. Heb. 'alah = ascend. See Ap. 43. I. vi.
+2:13 | salt. First occurrence. Salt was, and is, the great antiseptic, preventing fermentation. As leaven and honey were forbidden in sacrifices, so salt is prescribed, because, when partaken of by the two parties, it made the covenant inviolable. salt of the covenant. See note on Num. 18. 19. 2 Chron. 13. 5. Salt denotes an indissoluble alliance. In Ezra 4. 14 = obligations of loyalty. God. Heb. Elohim. Ap. 4. offerings. Heb. minchah. Ap. 43. II. ii.
+2:14 | beaten. Same type as baken, v. 4.
+3:1 | 3. 1-17 (G, a). THE PEACE OFFERING. oblation. Heb. korban. See on 2. 4 and Ap. 43. II. i. sacrifice. Heb. zebach. See Ap. 43. II. xii. peace offering. Heb. shelem. Ap. 43. II. iv. offer it = bring near. Heb. karab. Ap. 43. I. i. female. The burnt offering must be a male. 1. 3, 10. the LORD. Heb. Jehovah. Ap. 4.
+3:2 | offering. Heb. korban. Ap. 43. II. i. door = entrance. tabernacle of the congregation = tent ('ohel) of meeting or assembly. Ap. 40. Aaron's sons. See note on 1. 5.
+3:3 | he = the offerer, not the priest. offering. Heb. 'ishsheh. Ap. 43. II. xi.
+3:5 | burn = burn as incense. Heb. katar. Ap. 43. I. vii. sweet savour = savour of satisfaction. See note on Gen. 8. 21.
+3:6 | offering. Heb. korban. Ap. 43. II. i. sacrifice. Heb. zebach. Ap. 43. II. xii. peace offering. Heb. shelem. Ap. 43. II. iv.
+3:7 | offer = bring. Heb. karab. Ap. 43. I. i. lamb: better "sheep", as in 1. 10; 7. 23; 22. 19, 27, &c.
+3:9 | offering made by fire. Heb. 'isseh. Ap. 43. II. xi. whole rump = the fat tail entire. 7. 3; 8. 25; 9. 19. Ex. 29. 22.
+3:11 | food. Heb. "bread", put by Fig. Synecdoche (of Species), Ap. 6, for food in general. Cp. 21. 6, 8, 17, 21, 22. Num. 28. 2.
+3:16 | sweet savour. A savour of satisfaction. Some codices, with Sam. and Sept., add "unto Jehovah".
+3:17 | a perpetual statute, &c. Heb. "a statute for ever, throughout your generations, in all your dwellings". This important phrase occurs only four times, Lev. 3. 17; 23. 14, 21 (inverted), 31.
+4:1 | 4. 1—6. 7 (G b, p. 134). THE SIN AND TRESPASS OFFERINGS. the LORD. Heb. Jehovah. Ap. 4. spake. Introducing new class: non savour offerings. The sweet savour offerings introduced by the word "called". See note on 5. 14.
+4:2 | children. Heb. sons. soul. Heb. nephesh. See Ap. 13. Not as in the burnt offering; no voluntary offering here. sin. Heb. chat'a. Ap. 44. i. ignorance. If man cannot know what sin is, how can he know how to put it away? If he know not his own sin, how can he know or put away that of others?
+4:3 | the priest that is anointed. This phrase is confined to Lev. (4. 3, 5, 16; 6. 22) four times. In other portions of the Pentateuch it is "high priest" or "great priest" (Lev. 21. 10. Num. 35. 25, 28, and in Josh. 20. 6), after this it is "chief priest" (2 Kings 25. 18. 2 Chron. 19. 11; 26. 20; 31. 10. Ezra 7. 5. Hag. and Zech.) do sin. Heb. chat'a. Ap. 44. i. the sin. Heb. 'asham. See Ap. 44. ii. his sin ... sinned. Heb. chat'a. Ap. 44. i. sin offering. Heb. chat'a. See Ap. 43. II. v. "Offering" not in Heb.; rightly supplied here, as it should be in Gen. 4. 7.
+4:4 | door = entrance. tabernacle of the congregation = tent of assembly.
+4:6 | sprinkle. Heb. throw, or splash. seven times. The number of spiritual perfection. See Ap. 10. before. Not in the Hebrew. On vail or floor. Explanatory of previous sentence. Or, may = before the LORD, by Fig. Metonymy (Ap. 6.) vail. Type of the perfect humanity of Christ. No avail for purposes of atonement without blood. We are saved by His death, not by His life (Eph. 2. 13).
+4:7 | before. A various reading called Sevir has "which is before". See Ap. 34. all = all the remaining blood.
+4:8 | fat = the best or choicest part, 3. 3.
+4:9 | caul, or the network.
+4:10 | As = according as. burn. Heb. saraph. See Ap. 43. I. viii; and note that it is not the word used for burning incense, which is katar. Ap. 43. I. vii.
+4:12 | he carry forth = cause to be carried. Cp. v. 14. without the camp. Cp. Heb. 13. 11, 12. See note on Ex. 29. 14. wood = logs. Any wood allowed, such as straw or stubble. Not so with the other offerings.
+4:13 | congregation = assembly. Not the same word as in v. 14. sin. Heb. shagah. See Ap. 44. xii. See 1 Sam. 14. 32. somewhat, &c., and concerning, &c. These two Ellipses rightly supplied. See Ap. 6.
+4:14 | sin ... sinned. Heb. chat'a. Ap. 44. i. offer = cause to be offered. Cp. v. 12. for the sin = as a sin offering. See Ap. 43. II. v.
+4:17 | it. Read "the blood", with Sam., as in v. 6. before the vail. See note on 4. 6.
+4:18 | door = entrance.
+4:19 | burn. Heb. katar, to burn as incense, not as in v. 12. See Ap. 43. I. vii.
+4:20 | as = according as. make an atonement. See note on 1. 4 and Ex. 29. 33.
+4:21 | as he burned = according as he burned. Heb. saraph, as in v. 12. See Ap. 43. I. vii.
+4:22 | ruler. Heb. word is used of a king (1 Kings 11. 34. Ezek. 34. 24; 46. 2), the head of a tribe (Num. 1. 16, 46; 34. 18), but as the words "his God" are used here, and are absent (in vv. 2, 13, 27), it denotes one whom God appoints and to whom the ruler is responsible. sinned. Heb. chat'a. See Ap. 44. i. God. Heb. Elohim. Ap. 4. guilty = should become aware of his inadvertences.
+4:23 | sin. Heb. chat'a. Ap. 44. i. male: for ruler, female for one of the people, v. 28. Cp. 5. 13.
+4:27 | one = soul. Heb. nephesh. See Ap. 13. be guilty = acknowledges his guilt, as in v. 22.
+4:28 | female for one of the People, male for "ruler", v. 22. Cp. 5. 13.
+4:29 | in the place: i.e. where the burnt offering is wont to be slain.
+4:31 | sweet savour. This is added here because of the burning of the fat. It is not said of the sin offering of the high priest, the ruler, or the congregation (cp. vv. 10, 19, 26), though used in the burnt offerings (1. 9, 13), and peace offerings (3. 5, 16). The sweet savour here, in this connection, exalts the offering of the humblest person.
+4:32 | a lamb = a sheep, cp. 3. 7. Ritual same as the goat, but treated separately because of the fat tail. offering. Heb. korban. Ap. 43. II. i. Lit. "an offering for his sin [offering]".
+4:34 | of the blood of the sin offering. A reading of the Severus Codex is "from its blood", as in v. 30.
+4:35 | sacrifice. Heb. zebach. Ap. 43. I. iv. according to = upon. offerings made by fire. Heb. 'ishsheh. Ap. 43. II. xi.
+5:1 | soul = a person. Heb. nephesh. Ap. 13. sin. Heb. chat'a. Ap. 44. i. and hear = because he heard. swearing = adjuration. is = "he [is]". iniquity = perverseness. Heb. 'avah. Ap. 44. iv. Put here by Fig. Metonymy (of Cause) for the punishment due to it. Ap. 6.
+5:2 | be hidden: i.e. if he forget his uncleanness. This clause "and if", &c., is omitted in the Sept. and included in v. 3.
+5:3 | man. Heb. 'adam. See Ap. 14.
+5:4 | pronouncing with his lips = speaking heedlessly. evil. Heb. ra'a'. Ap. 44. viii. evil ... good. Fig. Synecdoche (of the Whole), to include all human actions. Cp. Gen. 24. 50; 31. 29. Num. 24. 13.
+5:5 | sinned. Heb. chat'a. Ap. 44. i.
+5:6 | his trespass offering = as his trespass offering. Heb. 'asham. Ap. 43. II. vi. the LORD. Heb. Jehovah. Ap. 4. sin. Heb. chat'a. Ap. 44. i. make an atonement. See note on Ex. 26. 33.
+5:7 | trespass. Heb. 'asham. Ap. 44. ii.
+5:10 | manner. See note on 1. 14, &c.
+5:11 | offering. Heb. korban. Ap. 43. II. i. For the poor only a little flour. Cp. 4. 23 and 28. All equally forgiven. Cp. 4. 26, 31 and 5. 13. sin offering: and not a minchah, 2. 11.
+5:12 | a memorial thereof = a memorial portion. burn = burn as incense. Heb. katar. Ap. 43. I. vii. according to = upon. offerings made by fire. Heb. 'ishsheh. Ap. 43. II. xi.
+5:13 | one of these. Specified in vv. 1-4 above. Cp. v. 5. and the remnant: better "and it shall belong to the priest".
+5:14 | spake. This formula denotes another communication made at a different time, and gives a further development of the laws of the trespass offering. Note that in this book Jehovah "spake" at thirty-five "sundry times", and in ten "divers manners" (see Ap. 10):— (1) To Moses alone (5. 14; 6. 1, 19; 8. 1; 14. 1; 22. 26; 23. 26). (2) To Moses, to speak to Aaron alone (16. 1). (3) To Moses, to speak to "Aaron and his sons" (6. 8, 24; 22. 1). (4) To Moses, to speak to "the priests, the sons of Aaron" (21. 1). (5) To Moses, to speak to "Aaron and his sons, and to all the children of Israel" (17. 1; 21. 16 (cp. v. 24); 22. 17). (6) To Moses, to speak to "the children of Israel" (1. 1; 4. 1; 7. 22, 28; 12. 1; 18. 1; 20. 1; 23. 1, 9, 23; 24. 1, 13; 25. 1; 27. 1). (7) To Moses, to speak "to all the congregation of the children of Israel" (19. 1). (8) To Moses and Aaron conjointly (13. 1; 14. 33). (9) To Moses and Aaron, to speak to "the children of Israel" (11. 1; 15. 1). (10) To Aaron alone (10. 8). The reasons for these distinctions will be seen from the respective contexts.
+5:15 | trespass. Heb. ma'al, to act covertly; to be faithless, especially in covenant matters, either with God (Lev. 26. 40. Num. 31. 16. Deut. 32. 51, &c.) or between husband and wife (Num. 5. 12, 27). Not the same word as in vv. 6, 7, 15, 16, and below in this verse. holy things, &c., such as firstfruits, firstborn, &c. Ex. 28. 38. See note on Ex. 3. 5. estimation = valuation. Made here by Moses, transferred by him to the priests. See 27. 8, 12. Num. 18. 16. shekels. See Ap. 51. II.
+5:16 | harm that he hath done. Heb. chat'a. Ap. 44. i. add. In trespass in holy things sacrifice comes first (5. 15) and addition afterwards. In human affairs the addition comes first (6. 5) and sacrifice follows (6. 7).
+5:17 | any = any one of these things specified in v. 15. wist it not = knew it not. This effectually disposes of the fallacy that it is only sincerity that matters. Note the repetition of the words in vv. 17-19 to emphasise this. iniquity. Heb. 'avah. Ap. 44. iv.
+5:18 | erred. Heb. shagag. Ap. 44. xii.
+5:19 | trespassed. Heb. 'asham. Ap. 44. ii. Cp. v. 17.
+6:1 | the LORD. Heb. Jehovah. Ap. 4. spake. Cp. 5. 14. 6. 1-7 belongs to ch. 5, according to the Structure (p. 134). See note on 5. 14.
+6:2 | soul = person. Heb. nephesh (Ap. 13). sin. Heb. chat'a. Ap. 44. i. trespass. Heb. ma'al. Ap. 44. xi. All sin is viewed as "against Jehovah". Cp. Ps. 51. 4. delivered him to keep = a deposit. Otherwise treasure was generally hidden in the ground. Isa. 45. 3. Prov. 2. 4. Job. 3. 21. in fellowship = in pledge. Heb. giving the hand, put by Fig. Metonymy (of the Adjunct) for pledging. Ap. 6.
+6:3 | man. Heb 'adam. Ap. 14.
+6:5 | add. See note on 5. 16. fifth part = twenty per cent. Zacchaeus gave much more (Luke 19. 8). in the day = when. See Ap. 18.
+6:6 | estimation. See note on 5. 15.
+6:8 | 6. 8-13 (E, p. 134). THE LAW OF THE BURNT OFFERING. Note the order of the "offerings", and their "laws". In the former (God's side), "peace" made, comes in centre. In the latter, "sin" comes before "peace" experienced. See note on 7. 11.
+6:9 | burning = kept burning. Heb. yakad, to burn as an ordinary culinary fire.
+6:10 | linen garment. See 8. 13. Ex. 28. 4, 40; 29. 5-10. with the burnt offering. Abbreviation of Heb. word = "the offerings of Jehovah" (so Sam., Sept., and Vulg., and some codices).
+6:12 | burn [wood]. Heb. b'a'ar, burn as fuel, consume. every morning. Heb. morning by morning. Fig. Epizeuxis. Ap. 6. burn = burn as incense. Heb. katar. Ap. 43. I. vii.
+6:13 | The fire. This fire was originally from heaven (9. 24), supernatural fire. Only this fire could be used to set fire to the incense on the golden altar. So only those who have atonement can pray or worship. Ever burning until rekindled by a special descent. [This is the origin of the perpetual light in Roman Catholic worship.] It was preserved till the destruction of the temple by Nebuchadnezzar; was one of the five things lacking in the second temple.
+6:14 | 14-23 (F, p. 134). THE LAW OF THE MEAL OFFERING. the law. In 2. 1-3 we have the directions. In 6. 14-18 we have the law, and additional directions.
+6:15 | he: i.e. one of the sons whose turn it was. burn: as incense. Heb. katar. Ap. 43. I. vii. memorial = memorial portion. See note on 2. 2.
+6:16 | with unleavened bread shall it be eaten. Heb. "unleavened shall it be eaten"; there is no "with" in the Heb. Cp. 10. 12. holy. See note on Ex. 3. 5. tabernacle = tent. Heb. 'ohel. Ap. 40.
+6:17 | offerings made by fire. Heb. 'ishsheh. Ap. 43. II. xi.
+6:18 | All the males = every male.
+6:20 | offering. Heb. korban. Ap. 43. II. i. This is explained in Heb. 7. 27. Note the Parenthesis (Ap. 6) concerning Aaron. offer. Heb. karab. Ap. 43. I. i. in the day = when. See Gen. 2. 4, 17 and Ap. 18; and cp. 8. 35; 9. 1. ephah. See Ap. 51. III. 3.
+6:21 | and when, &c. Better, "thou shalt bring it in well kneaded". sweet savour = savour of satisfaction. See note on 1. 9 and Gen. 8. 21.
+6:22 | the priest ... anointed. See on 4. 3. wholly burnt. Because the priest did not eat his own.
+6:24 | 6. 24-7. 10 (G, b, p. 134). THE LAW OF THE SIN OFFERING.
+6:25 | 25-30 THE LAW OF THE SIN OFFERING. sin = Heb. chat'a, and implies offering as in Gen. 4. 7. offering. This word not in the Heb. text, but the Ellipsis is rightly supplied, and should be in Gen. 4. 7. most holy. This comes out in the "law" of the sin offering, because of the Antitype. See note on Ex. 3. 5.
+6:26 | shall eat it. Because blood not taken within the holy place. Cp. 10. 16-20, and see 7. 6. This explains Heb. 13. 11.
+6:30 | And = But. no sin offering ... shall be eaten. Because the blood was taken into the holy place. Cp. Lev. 10. 16-20. In this case it was to be wholly burnt, 4. 26. This explains Heb. 13. 11. There were eight offerings to be eaten by the priests in the precincts of the holy place:— (1) The flesh of the sin offering (4. 26; 6. 26). (2) The flesh of the trespass offering (7. 6). (3) The peace offering of the congregation (7. 14, 15). (4) The remainder of the 'omer (2. 3-10). (5) The meal offering of the Israelites (2. 3-10). (6) The two loaves (13. 19, 20; 23. 20). (7) The shewbread (23. 9). (8) The leper's log of oil (14. 10-13). to reconcile = to make atonement for. See note on Ex. 29. 33.
+7:1 | 7. 1-10 (G, b, above). THE LAW OF THE TRESPASS OFFERING. (Supplementing ch. 5. 1-13.) most holy. See note on 6. 25 and Ex. 3. 5.
+7:2 | In the place. i.e. on the north side. Cp. 1. 11. they = the people who bring them.
+7:3 | offer = bring near. Heb. karab. Ap. 43. I. i. For these regulations see 3. 3, 4, 8, 9.
+7:5 | burn: i.e. as incense. Heb. katar. Ap. 43. I. vii. See ch. 4. 26, 31. the LORD. Heb. Jehovah. Ap. 4.
+7:6 | holy place, or court. Cp. 6. 26. See note on Ex. 3. 5.
+7:7 | one law. See 6. 27, 28. maketh atonement. See note on Ex. 29. 33.
+7:8 | man's. Heb. 'ish. Ap. 14.
+7:9 | meat offering. Heb. minhah. Ap. 43. II. 3. the priest's. Except the memorial part, 2. 4-10. Cp. 1 Cor. 9. 13, 14. Gal. 6. 6 is based on this principle.
+7:11 | 11-34 (G, a, p. 134). THE LAW OF THE PEACE OFFERING. the law: i.e. specific and fuller directions given to the priests, additional to those given to the People in 3. 1-15. So in the law of the sin offering (6. 24-30, cp. with 4. 24-31); the law of the trespass offering (7. 1-10, cp. with 5. 1-13). It will be noted from the Structure (on p. 134) that the peace offering comes before the sin offerings; but here, in "the LAW" of the offerings, the peace offerings comes last. This is because it has to do with the communion of the offerer; and this follows at the end of all, to show that this communion is based on, and must flow from, a full knowledge of all that which the types foreshow. Not until we have done with our sins and ourselves can we delight in Christ. See note on 6. 8. Cp. Col. 1. 12-14. he = one.
+7:12 | thanksgiving for special mercies received, as enumerated in Ps. 107. This is the sacrifice alluded to in Heb. 13. 15. sacrifice. Heb. zabah. Ap. 43. II. xii.
+7:13 | offering. Heb. korban. Ap. 43. II. i. peace offerings. Heb. shelem. Ap. 43. II. iv.
+7:14 | oblation. Heb. korban. Ap. 43. II. i.
+7:15 | same day. In second temple, limited to midnight.
+7:17 | burnt. Heb. saraph. Ap. 43. I. viii.
+7:18 | soul. Heb. nephesh. See Ap. 13. Put by Fig. Synecdoche (of the Part) for the person (Ap. 6). iniquity. Heb. 'avah. Ap. 44. iv. Put by Fig. Metonymy (of the Cause) for punishment.
+7:19 | thereof. Heb. "the flesh". Fig. Epanadiplosis (Ap. 6) for emphasis of the verse as a whole.
+7:20 | uncleanness. See 11. 8-44; 15. 1-33. cut off, &c. This phrase, variously translated, occurs (in Hebrew) six times in Leviticus: 7. 20, 21, 25, 27; 19. 8; 23. 29. Cp. the other phrase, "... from My presence". See 22. 3. his = her in Heb. Fem. to agree with Heb nephesh, soul.
+7:21 | man. Heb. 'adam. Ap. 14. abominable unclean thing = anything an abomination to Jehovah. Some codices, with Sam., Onk., and Syr., have "unclean reptiles".
+7:22 | spake. Indicating explanations and restrictions in vv. 22-27, additional to those given in ch. 3. 17.
+7:23 | Speak. Used only of the non-savour offering. See note on 5. 14. ("Jehovah called and spake re the sweet savour offering", 1. 1.) children = sons. no manner of fat: i.e. of beeves, sheep, or goats.
+7:24 | other use: e.g. making candles, &c.
+7:25 | men. Should be in italics. offering made by fire. Heb. 'ishsheh. Ap. 43. II. xi.
+7:28 | spake. See note on 5. 14.
+7:30 | His own hands: i.e. the owner or offerer. wave offering. See note on Ex. 29. 27.
+7:32 | heave offering. See note on Ex. 29. 27.
+7:34 | See notes on vv. 30, 32. for ever: i.e. as long as the priesthood lasts.
+7:35 | is the portion of. Supply the Ellipsis (Ap. 6) better, thus: This [is what pertaineth to]. offerings ... made by fire. Heb. 'ishsheh. Ap. 43. II. xi.
+7:37 | the law. Verses 37 and 38 sum up chapters 1-8. burnt offering (1. 3-17 and 6. 8-13). meat offering (2. 1-16 and 6. 14-18). sin offering (4. 1-35 and 6. 24-30). trespass offering (5. 1-13 and 5. 14-19 and 6. 1-7 and 7. 1-10). consecrations (6. 19-23). peace offerings (3. 1-17 and 7. 11-21, 28-36).
+7:38 | commanded. Subject to "If" in Lev. 1. 2.
+8:1 | And. Note the Fig. Polysyndeton throughout the chapter for emphasising each particular act (Ap. 6). the LORD. Heb. Jehovah. Ap. 4. spake. Indicating a new subject. See note on 5. 14. The ritual is prescribed in Ex. 28. 1-43 and 29. 1-37. Now the appointment to the priestly office resumes the instructions broken off in Exodus.
+8:3 | door = entrance. tabernacle = tent. Heb. 'ohel. Ap. 40.
+8:4 | as = according as.
+8:5 | This is the thing. See Ex. 28. 1-43; 29. 1-37; now made known to the People.
+8:6 | washed = the "divers washings" of Heb. 6. 2. After this, all ceremonial washings done by the persons for themselves. These are rendered "baptisms" in Sept. of Lev. 11. 25, 40; 17. 15, 16; 14. 8; 15. 8, 13, 16, 21, 22, 27. Extended to "clothes", Lev. 11. 25, &c.
+8:7 | the girdle. Not the band of the ephod called the "curious girdle", but the one of needlework, ch. 16. 4 and Ex. 28. 39.
+8:8 | also. Thus distinguishing these two stones from the twelve stones, which were quite distinct. Cp. Ex. 25. 7. the Urim and the Thummim. See note on Ex. 28. 30.
+8:9 | mitre = turban or tiara. See Ex. 28. 36-38. golden plate, or crown. Ex. 28. 36, &c. holy. See note on Ex. 3. 5.
+8:10 | anointing oil. See Ex. 30. 26-30; 40. 9-11, and cp. Ex. 30. 23-25. tabernacle. Heb. mishkan. Ap. 40. sanctified = set them apart. Ex. 29. 37; 30. 29-30.
+8:11 | the altar. Cp. Matt. 23. 19. foot = base.
+8:12 | poured. Not touched with the finger, as in the case of the common priests, but profusely poured. See Ps. 133. 2.
+8:13 | Aaron's sons. These could not be invested till after Aaron. Cp. John 17. 19. put. Heb. = bound.
+8:14 | sin offering. Heb. chata. Ap. 43. II. 5.
+8:16 | burned: as incense. Heb. katar. Ap. 43. I. vii.
+8:17 | burnt. Heb. saraph. Ap. 43. I. viii. without the camp. Cp. Ex. 29. 14. Lev. 4. 12, 18, 21; 6. 11; 16. 27. John 19. 17, 18. Acts 7. 58.
+8:18 | brought. See Ex. 29. 15-18.
+8:19 | sprinkled = cast. Not the same word as v. 15.
+8:20 | pieces = its pieces. burnt: i.e. as incense. Heb. katar. Ap. 43. I. vii.
+8:21 | washed. See note on v. 6. sweet savour = savour of satisfaction. See note on 1. 9, and Gen. 8. 21.
+8:22 | the other ram. Mentioned in v. 2. See Ex. 29. 19-24.
+8:23 | slew. Same word as "killed", v. 15, 19. put it: on ear, thumb, and toe, to point out the hearkening, the working, and the walking.
+8:25 | he took. Ex. 29. 22-25. the rump = the fat tail. See 3. 9. Cp. Ex. 29. 22.
+8:26 | a = one.
+8:27 | waved. Cp. note on Ex. 29. 27.
+8:28 | consecrations. Cp. 6. 19-23.
+8:30 | and upon. Some codices, with Sam., Onk., Lisbon Pentateuch (1491), Jon., Sept., Syr., and Vulg., have this "and" in the text. and. Many authorities have this "and" in the text.
+8:31 | door = entrance. tabernacle = tent ('ohel). Ap. 40. as I commanded. Sam. Sept., Syr., and Vulg. read "as I have been commanded".
+8:33 | seven days. Aaron consecrated on the eighth day, after waiting seven days consecration = setting apart. consecrate. See note on Ex. 28. 41.
+8:34 | He hath done = hath been done. make an atonement. See note on Ex. 29. 33.
+8:36 | the hand. Put by Fig. Metonymy (of the Cause) for what is performed by it (Ap. 6). Hence a common idiom for instrumentality or agency; esp. writing.
+9:1 | eighth day: i.e. the day following the seven days of consecration (8. 33, 35).
+9:2 | sin offering. Heb. chat'a. Ap. 43. II. v. offer. Heb. karab. Ap. 43. I. i. before the LORD = before the door of the tent of meeting (1. 5, 11). the LORD. Heb. Jehovah. Ap. 4.
+9:3 | children. Heb. sons. thou shalt speak. Aaron now to give the orders about the sacrifices.
+9:4 | peace offerings. Heb. shelem. Ap. 43. II. iv. appear: i.e. manifest Himself in a special manner.
+9:5 | tabernacle = tent. Heb. 'ohel. Ap. 40.
+9:7 | said unto Aaron. Showing that Aaron did not take this honour upon himself. Heb. 5. 4, 5. offer = prepare. Heb. 'asah. Ap. 43. I. iii. thy sin offering. Ancient Jewish interpretation refers this "calf" (v. 8) to the sin of the golden calf. The People's share in that sin is referred to in v. 15. Cp. Ex. 32. 35: "they made (Ex. 32. 1) the calf which Aaron made" (v. 4). make an atonement. See note on Ex. 29. 33. Cp. Ex. 28. 41. offering. Heb. korban. Ap. 43. II. i. as = according as.
+9:8 | the calf. See note on v. 7. Aaron slew this himself, like any other offerer, as it was for his own sin (1. 5).
+9:10 | burnt: i.e. as incense. Heb. katar. Ap. 43. I. vii.
+9:11 | burnt. Heb. saraph. Ap. 43. I. viii.
+9:12 | presented = cause to be delivered. Hiphil of maz'a only here, vv. 13, 18. 2 Sam. 3. 8. Job 34. 11; 37. 13. Zech. 11. 6.
+9:15 | the People's offering. See note on v. 7. offered. Heb. chat'a (verb), to offer a sin offering. Ap. 43. II. v. as the first. See v. 8. He accordingly burnt it "without the camp", for which he was reproved by Moses (10. 16-20).
+9:16 | manner = ordinance, or regulation. Cp. the same word in 5. 10.
+9:17 | took an handful thereof. Heb. filled his hand therefrom, i.e. installed himself therewith. Here we have the Divine explanation of consecration. Cp. Ex. 28. 41.
+9:19 | rump. Heb. "the fat tail".
+9:21 | wave offering. See note on Ex. 29. 27. as Moses commanded. Some codices, with Sam., Jon., and Sept., read "as Jehovah commanded Moses".
+9:22 | blessed them: i.e. according to the precept in Num. 6. 24-26. Cp. Deut. 10. 8; 21. 5. came down. Does not imply "steps", which were forbidden (Ex. 20. 26). Probably = the margin or edge. See note on Ex. 27. 5.
+9:23 | blessed the People. This joint blessing is given in the Chaldee version of the Pentateuch, thus: "May the word of Jehovah accept your sacrifice with favour, and remit and pardon your sins." glory of the LORD. According to the promise in v. 4. See the Structure, p. 144.
+9:24 | came a fire. See note on 10. 2, and cp. 1 Chron. 21. 26 and Gen. 4. 4. Judg. 6. 20, 21. 1 Kings 18. 38. 2 Chron. 7. 1, 2. See Lev. 6. 13. shouted. Cp. 2 Chron. 7. 3.
+10:1 | offered = brought near. Heb. karab. Ap. 43. I. i. strange fire: i.e. fire other than that Jehovah had commanded, required, and given from heaven (1. 7; 6. 12; 9. 24; 16. 12. Cp. Ex. 30. 9). It was of their own kindling: so is all that is offered to God in worship today. If so, according to John 4. 23, 24, it is "strange fire", and deserves the same judgment! All worship that is not kindled by the Holy Spirit is "strange", and is of the flesh. Cp. John 3. 6 and 6. 63. It "profiteth nothing", and "God has no respect to it" (Gen. 4. 4, 5. Heb. 11. 4). The incense of prayer and worship on the golden altar in the holy place was kindled by fire taken from the brazen altar in the outer court, on which atonement was made (see Lev. 16. 12, 13 and Rev. 8. 5): only those, therefore, whose sin is atoned for can worship. Compare the "strange incense", Ex. 30. 9. the LORD. Heb. Jehovah. Ap. 4. commanded them not. Negative. The introduction of anything "strange", where all is ordered by God, is abomination in His sight; and calls for, and calls down, His judgment. Thus the first recorded individual use of incense began in disobedience (10. 1), and the last ended in unbelief (Luke 1. 10, 18, 20).
+10:2 | from = from before. devoured them = slew them; for they were not consumed, as is shown in verses 4 and 5. Note the three fires here: (1) the fire of true worship (9. 24); (2) the strange fire of false worship (10. 1); (3) the devouring fire of judgment (10. 2). died before the LORD: i.e. in the court of the sanctuary, where their sin had been committed.
+10:3 | This is it, &c., in contrast with v. 1. The positive opposed to the negative. Note the emphasis on "This" = this and nothing else: this very thing. Disobedience here is vital; this is why "judgment must begin at the house of God": 1 Pet. 4. 17, yea "the time is come". I will. Note this double "I will": and compare it with the "must" of John 4. 24. Cp. John 3. 7, 14. All worship which has not Christ for its object, the glory of Jehovah for its end, and the Holy Spirit for its power, will be rejected and judged. held his peace: in solemn submission to God's judgment on his two sons, just struck dead so soon after their anointing, installation, and investiture. Cp. 8. 13.
+10:4 | sons of Uzziel. Izhar and Hebron. The older uncles were passed over because of their probable sympathy with their nephews Nadab and Abihu (Num. 16. 5, 7, 8). out = to without. Burials took place in the open fields. Cp. Gen. 23. 9, 17. Matt. 27. 52, 53. Luke 7. 12.
+10:5 | as = according as.
+10:6 | unto (Heb. 'el) Aaron unto (= to Heb. l) Eleazar, &c. rend. Heb. param, only here, 14. 45, and 21. 10. lest ye die, and lest wrath come = and so ye will not (Heb. 'al) die, and wrath will not (Heb. l'o) come. people = assembly. but let, &c. = but your brethren ... will bewail. whole house of Israel. See note on Ex. 16. 31. burning. Heb. saraph. See Ap. 43. I. viii.
+10:7 | door = entrance. tabernacle of the congregation = "tent (Heb. 'ohel) of meeting". Ap. 40.
+10:8 | spake. The only time to Aaron alone. See note on 5. 14.
+10:9 | wine. Heb. yayin. See Ap. 27. i. strong drink. Heb. shekar. Ap. 27. iv. Does this law follow here, because it was intoxication which led to the sin of Nadab and Abihu? when ye go. Cp. Ezek. 44. 21. The exception implies the rule. Nothing may be done to excite or stimulate the flesh in the sanctuary: neither drink within, nor music without, nor sensuous surroundings. The old nature must not be stimulated by moving scenes or mere human eloquence. All "must" be of the Spirit. John 4. 24.
+10:10 | holy. See note on Ex. 3. 5.
+10:11 | teach. This was a special part of the priests' work. See note on Deut. 33. 10. children. Heb. sons.
+10:12 | offerings. Heb. pl. of karban. Ap. 43. II. i. made by fire. Heb. 'ishsheh. Ap. 43. II. xi. without leaven. See Ap. 38. beside the altar: in the outer court. Cp. v. 2 and 6. 20.
+10:13 | thy due = thy statute. Notwithstanding the failure in vv. 1-7. sacrifices. Heb. pl. of zabah. Ap. 43. II. xii.
+10:14 | wave ... heave. See note on Ex. 29. 27. thy daughters. Note this: as well as sons. We must distinguish the privileges confined to males; others are common to all alike. The daughters could not eat of the "sin offering" (v. 17), but could eat of the "meal offering" (v. 14).
+10:16 | burnt. Heb. saraph. Ap. 43. I. viii.
+10:17 | Wherefore ...? Fig. Erotesis (Ap. 6) to call attention to ch. 6. 26. sin. Heb. chat'a. Ap. 43. II. v. and 44. i. to bear = to bear away, or remove. Cp. Gen. 50. 17. Ex. 32. 32. Ps. 32. 1, 5. Matt. 8. 17. So here, the Chald., Syr., and Sept. render it "take away" or "remove". The A.V. follows the Vulgate here. iniquity. Heb. a'vah. Ap. 44. iv. make atonement. See note on Ex. 29. 33.
+10:18 | Behold. Fig. Asterismos (Ap. 6), to emphasise the distinction laid down in ch. 6. 26, 30; 10. 17. Cp. 4. 5, 16; 6. 23, 30.
+11:1 | the LORD. Heb. Jehovah. Ap. 4. spake. See note on 5. 14.
+11:2 | children. Heb. sons. These. Heb. this. Fig. Heterosis (of Number), sing. for plural. (Ap. 6.) beasts = living creatures. beasts = animals. Heb. b'hemah. The Heb. division of animal kingdom was: (1) Land animals; (2) water animals; (3) birds of the air; (4) swarming animals. Deut. 14. 4, 5 enumerates ten clean animals.
+11:3 | parteth the hoof. Cp. Deut. 14. 6.
+11:4 | not eat. These laws are not arbitrary. Food plays a chief part in health and sickness. It is our wisdom to obey these laws now, as far as possible. All are based on the preservation and health of the race. Some for sanitary reasons. Some from peculiarities of climate. Some for separating from other peoples.
+11:5 | coney = the old English name for rabbit.
+11:6 | hare. Only here, and Deut. 14. 7. Heb. 'arnebeth, not yet identified.
+11:10 | thing = soul. Heb. nephesh. Ap. 13.
+11:13 | fowls = flying things; very difficult to identify the English names. eagle: or vulture. ossifrage. A rendering of the Heb. "bone-breaker", from taking their prey up in the air and dropping it on a rock to break it. ospray: or sea eagle.
+11:14 | vulture: or kite. kite = falcon.
+11:15 | raven, or black birds of all kinds.
+11:16 | cuckow. Probably = sea-gull.
+11:17 | little owl, or simply "owl". Only here, Deut. 14. 16, and Ps. 102. 6. cormorant: or the "darter". great owl = Heb. "night-bird".
+11:18 | swan, not our swan: it is variously rendered "ibis", "bat", "heron", and "pelican". pelican: or vomiting pelican. gier eagle: or little vulture. Heb. "the merciful".
+11:19 | stork. Heb. chasidah, "the pious": rendered "stork" in Job 39. 13 (marg.). Ps. 104. 17. Jer. 8. 7. Zech. 5. 9. heron. Heb. 'anaphah, "the cruel". lapwing. Better, the hoopoe, a dirty bird. bat. A vile creature and symbol of evil (Isa. 2. 20): comes last as a link between two classes, quadrupeds and birds.
+11:22 | these: being all "after his kind", are probably four different species of the same, viz.: locust = swarming locust. bald locust = devouring locust. beetle = chargol (or wingless) locust. grasshopper = chargab locust, Nu. 13. 33. 2 Chron. 7. 13. Ecc. 12. 5. Is. 40. 22.
+11:27 | beasts = living creatures. See note on v. 2.
+11:29 | weasel. Heb. choled = the glider or slipper, occ. only here. mouse. Heb. 'akbar = the corn destroyer. 1 Sam. 6. 4, 5, 11, 18. Isa. 66. 17. tortoise. Heb. zab = the inflated, Num. 5. 27; probably = toad.
+11:30 | ferret = hedgehog. Heb. 'anakah, only here. lizard: or wall-lizard. snail. Heb. chomet, Ps. 58. 8 = shabbel.
+11:31 | unclean. Better, "most unclean"; so in v. 29. when they be dead. Cp. v. 24.
+11:34 | meat = food. Fig. Synecdoche (of the Part), one kind put for all kinds of food. Ap. 6.
+11:36 | plenty. Heb. = "a gathering together". that which = he who.
+11:40 | he that eateth: i.e. ignorantly: otherwise, wilfully, it was the death penalty. Num. 15. 30. Deut. 14. 21.
+11:42 | more = many.
+11:43 | your selves = your souls. Heb. pl. of nephesh. Ap. 13. abominable. Only here and 7. 21; 11. 10-13, 20, 23, 41, 42, and Isa. 66. 17. Ezek. 8. 10. The phrase occurs only once more, in ch. 20. 25, where it is used of souls.
+11:44 | God. Heb. Elohim. Ap. 4. yourselves = your souls. Heb. pl. of nephesh. Ap. 13. for I am holy. Cp. 1 Pet. 1. 15, 16; and see ch. 20. 7, 8.
+11:45 | that bringeth you up, &c. This wondrous redemption is repeatedly appealed to, to magnify Jehovah's grace and Israel's ingratitude. Cp. Deut. 8. 14; 13. 10; 20. 1. Josh. 24. 17. Judg. 2. 12, &c. holy. See note on Ex. 3. 5.
+11:46 | This is the law of the beasts, &c. A recapitulation of the four classes. See structure of verses 1-23 (p. 146). There it was land, water, flying, and swarming. Here it is land animals, flying, water animals, and swarming. Cp. the summary of the sacrificial law, 7. 37, 38. beasts. Heb. pl. of b'hemah. See note on v. 27. creature = soul. Heb. nephesh. Ap. 13.
+11:47 | make a difference: or, put, &c. Same word as in 10. 10. may not be eaten. See 20. 25, and cp. Acts 10. 11-16.
+12:1 | the LORD. Heb. Jehovah. Ap. 4. spake. See note on 5. 14.
+12:2 | children. Heb. sons. seven days. See note on v. 5. according to the days. Cp. 15. 19.
+12:3 | circumcised. See note on "leprosy", 13. 2.
+12:4 | three and thirty. Half the period of maid child. See v. 5 (7 + 33 = 40. See Ap. 10). hallowed. Heb. kadesh. See note on Ex. 3. 5.
+12:5 | purifying = purification, i.e. pure blood as distinct from the other. threescore and six days. Double that after a man child. See v. 4 (14 + 66 = 80). This ordinance was not on account of any disparity between the sexes, but was in order to regulate them, so that the birth-rate of females might not be in too great excess, as it otherwise would have been, and is, where this ordinance is not known or observed.
+12:6 | 6-8 (L2, p. 148). OFFERINGS. she shall bring. As Mary did. Luke 2. 22-24. sin. Heb. chat'a. Ap. 44. i. door = entrance. tabernacle = tent. Heb. 'ohel. Ap. 40.
+12:7 | offer it = bring it near. Heb. karab. Ap. 43. I. i. make. Sam., Sept., and Syr. read, "and the priest shall make", as in v. 8. make an atonement. See note on Ex. 29. 33. issue = fount.
+12:8 | two turtles. See Luke 2. 22, 24, and cp. 2 Cor. 8. 9.
+13:1 | the LORD. Heb. Jehovah. Ap. 4. spake. See note on 5. 14.
+13:2 | man. Heb. 'adam. Ap. 14. the plague = spot: mark too weak for person, though suited for house (14. 34): "plague" and "stroke" would be too strong in every case. leprosy. Heb. zar'ath, from zar'a, to strike down, a leper being one stricken of God. One of the four points which Christ endorses Leviticus as being written by Moses: 1. Circumcision, 12. 3 (John 7. 22, 23). 2. Law of leper, 14. 3-32 (Matt. 8. 4). 3. The shewbread, 24. 5-9 (Matt. 12. 4). 4. Death penalty for cursing parents, 20. 9 (Mark 7. 10). Leprosy is the type of what man is by nature. (All the offerings relate to what man has done or not done.) It has reference to the evil "in" him (v. 2, 9), not to the outcome of it. See note on v. 45.
+13:3 | pronounce. Heb. "shall make him". Fig. Metonymy (of Subject) = pronounce or declare him to be. Ap. 6. Cp. Ezek. 43. 3, &c.
+13:4 | plague = plagued person. Heb. "shut up the plague". Fig. Metonymy (of Adjunct). Ap. 6. The meaning is supplied in italics.
+13:5 | behold. Fig. Asterismos. (Ap. 6.) his sight = its appearance.
+13:6 | spread. This is the criterion here for persons, as for houses and garments (cp. v. 55, & 14, 44, 48). This is the criterion for our judgment of the antitype—"sin"—our old nature, to which our attention is called by the Fig. Asterismos, "Behold" (see Ap. 6).
+13:10 | white. See note on v. 30. quick = living.
+13:11 | shall not: or, need not. is: i.e. is undoubtedly, no further proof being needed.
+13:12 | break out abroad = cometh quite out. Type of the sinner confessing his totality of evil—then he is clean, 1 John 1. 9, 10.
+13:14 | when. Heb. "in the day", same as Gen. 2. 17; see Ap. 18.
+13:15 | is = it [is].
+13:21 | be = it [be]. somewhat dark = faint.
+13:29 | man or woman = 'ish or 'ishah. See Ap. 14. plague: better, "spot". See note on v. 2.
+13:30 | thin = short. An infallible sign of leprosy. A long hair, even though "yellow", no sign. In other parts of the body the hairs would be short and white. Cp. v. 10. scall = scab. even = it [is].
+13:39 | darkish white = faintish, or dead white; a harmless eruption, or "tetter".
+13:45 | rent. See note on 10. 6. covering = muffler. 'Unclean, unclean.' Fig. Epizeuxis, Ap. 6, to emphasise the condition. Leprosy is the great type of sin: and teaches that the sinner is not only lost and ruined on account of what he has done, but on account of what he is. The former needed atonement to procure judicial righteousness, but the latter requires a Divine act and cleansing to give him an imputed righteousness. The former we have through Christ's atonement, the latter we have from God in Christ. It is not enough to confess what we "have done" or "left undone"; there must be also the confession "there is no health in us". Cp. Isa. 6. 5. Job 40. 4; 42. 6. Ps. 51. 5. Luke 5. 8, &c.
+13:46 | without the camp. Num 5. 2; 12. 10-15.
+13:47 | garment. Type of habits and ways seen by others. Cp. Jude 23.
+13:48 | warp. A.S. wearpen, to cast or throw = the longitudinal lines in the loom, through which the shuttle passes. Heb. shathah, to drink in. So called because of its drinking in the thread thrown by the shuttle. woof. A.S. to weave in. Heb 'arab, to intermingle. Hence used of what is mingled or woven in by the shuttle.
+13:51 | fretting = rankling, only of what is malignant: occurs only here, v. 52; 14. 14, and Ezek. 28. 24.
+13:52 | burnt. Heb. saraph. Ap. 43. I. viii.
+13:55 | colour = appearance. Heb. eye. Fig. Metonymy (of Adjunct), Ap. 6: eye put for appearance.
+14:1 | 14. 1-57 (M, N, p. 149). THE LAW OF LEPROSY. the LORD. Heb. Jehovah. Ap. 4. spake. This was delivered to Moses alone, who was to communicate these regulations to Aaron and his sons; while the rules by which the plague was to be discerned were given to both Moses and Aaron. Thus the position of Moses as the great lawgiver was upheld and secured. See note on 5. 14.
+14:2 | the law of the leper: provides for his cleansing. in the day = when. Cp. Gen. 2. 17, and see Ap. 18. shall be brought unto the priest. Cp. Matt. 8. 2. Mark 1. 40. Luke 5. 12; 17. 13. brought. The leper could do nothing. He must be "brought". The priest must go forth to him (v. 3).
+14:3 | behold. Fig. Asterismos. Ap. 6.
+14:4 | is to be cleansed = him that is cleansing himself. birds, or sparrows. cedar wood, and scarlet, and hyssop. Hence the ancient tradition that the highest tree and the lowest herb give the leper purity, because pride was the cause of the plague, and humility is the necessary condition of its cure. These three were used also with the red heifer (Num. 19. 6). Cp. Heb. 9. 19. Ps. 51. 7.
+14:5 | running. Heb. living, i.e. not stagnant.
+14:6 | As. Some codices, with Sam., Sept., Syr., and Vulg., read "and as".
+14:7 | seven times. Cp. 4. 6. 2 Kings 5. 10, 14. Ap. 10. pronounce him clean = Heb. make him clean. Fig. Metonymy (of Adjunct), Ap. 6. = declare him to be clean. into the open field. Heb. "over the face of the field". Fig. Prosopopoeia. Ap. 6.
+14:8 | wash = bathe.
+14:9 | seventh day. He was clean on the first day, now he enters into the enjoyment of it himself. wash his flesh in water = bathe his body. Flesh put by Fig. Synecdoche (of Part), Ap 6, for his body, as in Ecc. 2. 3. Isa. 10. 8. Ezek. 10. 12. Occurs eight times in Leviticus (14. 9; 15. 13, 16; 16. 4, 24, 26, 28; 22. 6), and is rendered in three different ways in A.V. But a peculiar ritual phrase should obviously be rendered by the same English phrase. This is to be distinguished from "himself" in 14. 8; 15. 5, 6, 7, 8, 10, 11, 16, 18, 21, 22, 27; 17. 15.
+14:10 | eighth day. Now, all the offerings are introduced, but the trespass offering comes first (v. 12). deals. See Ap. 51. III. 3. meat offering. Heb. minhah. Ap. 43. II. 3. log. See Ap. 51. III. 3.
+14:11 | present the man = cause the man to stand. All is done for the leper, he can do nothing. door = entrance. tabernacle = tent. Heb. 'ohel. See Ap. 40.
+14:12 | offer = bring him near. Heb. karab. Ap. 43. I. i. trespass offering. Heb. 'asam. Ap. 43. II. vi. wave offering. See note on Ex. 29. 27.
+14:13 | sin. Heb. chat'a. Ap. 44. i. holy. See note on Ex. 3. 5.
+14:18 | the head. Note how all the members of the body are in turn cleansed. All is forgiven. Ps. 103. 3. Col. 1. 14; 2. 13. Eph. 1. 7. make an atonement. See note on Ex. 29. 33.
+14:19 | offer. Heb. 'asah. Ap. 43. I. 3.
+14:21 | poor. The Divine consideration is again shown here. Cp. 5. 7, 11; 12. 8. cannot get. Heb. "his hand reach not". Translated in v. 22.
+14:23 | door = entrance.
+14:24 | the priest shall take, &c. The ritual as imposing for the poor as for the rich.
+14:33 | 33-53 (p q, p. 149). LEPROSY IN A HOUSE. spake. See note on 5. 14. The law of cleansing persons addressed to Moses alone; that about houses, &c., addressed to Aaron as well.
+14:34 | When ye be come, &c. Here we have the first of four prospective laws, having no immediate bearing. See 19. 23; 23. 10; 25. 2. Hence it is separated from the law for leprous men and garments, in the form of an appendix. plague. House leprosy is here represented as being supernatural. This was peculiar to Palestine and to houses of Israelites. The Targum of Jonathan renders this: "And if there be a man who buildeth his house with stolen goods, then I will put", &c.
+14:36 | before, &c. This law was most benign in its intention.
+14:37 | hollow strakes = sunken places. than the wall = Fig. Ellipsis, Ap. 6. ii. a. = "deeper than [the surface of] the wall".
+14:39 | the seventh day = on the seventh day. Note the frequency of this number throughout, and see Ap. 10. spread. This is a bad sign in noting the presence and workings of our inward corruption.
+14:40 | they. Of the verbs in these three verses, note that two are in the singular, viz. v. 42, "he shall take", and "he shall plaister". Hence the authorities of the second temple interpreted the plural of the owners of the "party-wall", and the singular of the owner of the affected house.
+14:42 | he. See note on v. 40.
+14:44 | behold. Fig. Asterismos. Ap. 6. spread. The same criterion as in the case of men and garments. See note on v. 37 and 13. 6. fretting = rankling. See note on 13. 51.
+14:48 | shall come. Heb. "coming in shall come in." Fig. Polyptoton. (Ap. 6.) = shall actually come in.
+14:49 | And. Note the Fig. Polysyndeton (Ap. 6) in vv. 48-53. cleanse = cleanse from sin.
+14:51 | 51, 52. Note the emphasis put upon this ceremony by the Structure (an Introversion). Note also the Fig. Polysyndeton. (Ap. 6.)
+14:54 | 54-57 (r, p. 136). The recapitulation of the law, corresponding with "r", 13. 59 (p. 136), summing up chapters 13 and 14.
+14:57 | To teach. Some codices, with Sam., Sept., and Syr., read "and to", thus preserving the Fig. Polysyndeton (Ap. 6) in this member r (vv. 54-57) without a break. Eight "ands" in all. when. Heb. "in the day". Cp. Gen. 2. 17, and see Ap. 18.
+15:1 | the LORD. Heb. Jehovah. Ap. 4. spake. See note on 5. 14.
+15:2 | children = sons. man. Heb. 'ish. See Ap. 14. flesh. Fig. Synecdoche (of Whole). Ap. 6. = any part of his flesh.
+15:4 | thing = piece of furniture, vessel, or article.
+15:5 | bathe. See note on 14. 5.
+15:8 | spit upon him. A common practice among oriental nations to express insult or contempt (Num. 12. 14. Deut. 25. 9. Job 30. 10. Isa. 50. 6. Matt. 26. 67. water. The Severus Codex has "running water", as in v. 13. (See Ap. 34.)
+15:9 | saddle = carriage. Occ. only here and 1 Kings 4. 26, where it is rendered "chariot", and Song 3. 9. The seat in a palanquin. The fem. form occurs forty-four times, and is always rendered "chariot". unclean. The Sept. adds "until evening", as in every other case. See vv. 5, 6, 7, 8, 10, 11. But in these verses persons are referred to. In v. 9 it is a thing.
+15:12 | rinsed = washed or baptized. This is what is referred to in Mark 7. 4.
+15:13 | running. Heb. living, not stagnant. See 14. 5.
+15:14 | door = entrance. tabernacle of the congregation. Heb. tent ('ohel) of meeting. See Ap. 40.
+15:15 | offer = prepare. Heb. 'asah. Ap. 43. I. iii. sin. Heb. chat'a. Ap. 44. i. make an atonement. See note on Ex. 29. 33.
+15:16 | man's. Heb. 'ish. See Ap. 14. iii. wash = bathe. Here, with eth kol added, meaning all his body, to distinguish it from the word "flesh", which is thus probably used in this section by the Fig. Euphemy (Ap. 6) for private parts. Cp. 15. 5-8, 10, 11, 18, 21, 22, 27, where the A.V. has inserted "himself" in italics. See further note on 14. 9.
+15:24 | man. Heb. 'ish. Ap. 14. flowers = uncleanness.
+15:29 | turtles = turtle-doves.
+15:31 | ye = Moses and Aaron. tabernacle. Heb. mishkan, dwelling-place.
+15:32 | This is the law. vv. 32, 33 are a summary of the contents of the chapter, though the order (as in other cases) is varied. and = to be.
+16:1 | the LORD. Heb. Jehovah. Ap. 4. spake. See note on 5. 14. offered = brought near. Heb. karab. Ap. 43. I. i. Onk., Jon., Sept., Syr., and Vulg., add "strange fire", as in 10. 1.
+16:2 | all times = any time: i.e. just at any time. holy place = sanctuary or holy of holies. In this chapter "holy" is used for "holy of holies" without this adjunct. See vv 3, 16, 17, 20, 23, 27. Cp. note on Ex. 3. 5. mercy seat. Fig. Antimereia (of Noun), Ap. 6, noun, "mercy", used as adjective. See note on Ex. 25. 17. I will appear = I am wont to appear. See Ex. 25. 22.
+16:3 | Thus = with this. sin. Heb. chat'a. Ap. 44. i.
+16:4 | wash = bathe. See note on 14. 9.
+16:5 | children = sons. kids. Heb. shaggy he-goats.
+16:6 | offer = bring near. Heb. karab. Ap. 43. I. i. make an atonement. See note on Ex. 29. 33.
+16:7 | door = entrance. tabernacle of the congregation = tent ('ohel) of meeting.
+16:8 | for the scapegoat. Heb. for 'Azazel. This "for" looks like a personality answering to "for Jehovah". If it be the Evil one who is meant, then it is for his defiance. For in v. 10 atonement is made for this goat, and he is to go free. Where there is atonement there must be forgiveness. See note on v. 22 below.
+16:9 | fell. Heb. "came up": i.e. out of the bag containing the Urim and Thummim. No other means of taking Jehovah's lot, or judgment. (See note on Ex. 28. 30.) offer = "make him [sin]". (2 Cor. 5. 21.) Heb. 'asah. Ap. 43. I. iii.
+16:10 | to be the scapegoat. Heb. "to be for 'Azazel" (see vv. 8 and 22). presented = made to stand. with him. Heb. "for him". See vv. 16, 18. The scapegoat was not used to make atonement, but atonement was made for it. Hence he was to be "let go" free. See v. 22. wilderness: or desert, symbol of abode of all evil things (Isa. 13. 21; 34. 14. Matt. 12. 43. Luke 8. 27; 11. 24. Rev. 18. 2). 'Azazel probably the personification of all that is "great and terrible" there (Deut. 1. 19; 8. 15. Jer. 2. 6).
+16:12 | fire. Only fire from the brazen altar of burnt offering, where atonement had been made, could be used for kindling the incense on the golden altar in the holy place. See note on 10. 1. All other fire was "strange fire". See note on 10. 1, 7.
+16:15 | as = according as.
+16:17 | man = 'adam. Ap. 14. i.e. no human being. This effectually disposes of all priestly pretensions now, while the Antitype is "within the vail". See Heb. 4. 14; 6. 20; 9. 24.
+16:19 | hallow. See note on Ex. 3. 5.
+16:20 | reconciling = making atonement. See note on Ex. 29. 33.
+16:21 | both his hands. This for solemnity; and only here, on this occasion. live goat. The two goats complete the one type of Christ. One could not, for He was "put to death as to the flesh", but made alive [again] as to the spirit", i.e. in resurrection (1 Pet. 3. 17. 1 Cor. 15. 45). He was "made sin" for us, that we might become divinely righteous in Him" (2 Cor. 5. 21). all. Note the four "alls" in vv. 21, 22. Fig. Repetitio (Ap. 6) to emphasise the completeness of our deliverance from sins, and their entire removal. iniquities. Heb. 'avah. Ap. 44. iv. transgressions. Heb. pash'a. Ap. 44. ix. a fit man. The phrase occurs only here.
+16:22 | shall bear = shall bear away, as Isa. 53. 4. land not inhabited. Heb. "a land cut off". let go. This is the point of the type. The live goat was sent away, not in judgment or atonement, but in peace and at liberty. "All" had already been atoned for in the death of the other goat (v. 10). Now he was free to go into the land of forgetfulness, where their "sins and iniquities are remembered no more" (Isa. 43. 25. Jer. 31. 34). The scapegoat goes forth to 'Azazel, all enemies thus personified (Heb. 2. 14), proclaiming, "Who is he that condemneth?" (Rom. 8. 33, 34). Not in fear of death, but saying, "Who dares to kill me?" It is the lesson, over again, of the "two birds" in ch. 14. 51-53, applied to the whole nation. It is a type of those who are "risen with Christ" (Col. 3. 1), i.e. made alive again in His resurrection life. Tradition treats this second goat as loaded with sin and sent out to destruction; whereas "all" is "atoned" for and is therefore "forgiven" and liberty enjoyed before it was sent away.
+16:25 | burn = burn as incense. Heb. katar. Ap. 43. I. vii. Cp. v. 27.
+16:26 | he that let go = he that leadeth away the goat to, or for, 'Azazel, v. 10.
+16:27 | without the camp. Cp. 6. 11. Heb. 13. 11. burn. Heb. saraph. Ap. 43. I. viii.
+16:29 | afflict = fast. See Isa. 58. 3, 5, 10. souls. Heb. nephesh. Ap. 13. do no work at all. Heb. "no manner of work". This legal expression occurs five times (Ap. 10) in the Pentateuch, but is differently rendered. See 23. 3, 28, 31. Num. 29. 7. Work on the Sabbath day incurred stoning: on this day, excommunication.
+16:31 | sabbath of rest. Heb. "sabbath of sabbatizing". See note on Ex. 16. 23. = "Most holy sabbath", Fig. Polyptoton or Enallage. Ap. 6.
+16:32 | consecrate. See note on Ex. 28. 41. Lev. 9. 17. holy. See note on Ex. 3. 5.
+16:34 | as = according as.
+17:1 | 1-9. UNLAWFUL PLACES. the LORD. Heb. Jehovah. Ap. 4. spake. See note on 5. 14.
+17:2 | and unto all the children of Israel. First occurrence of this phrase: see note on Lev. 5. 14, marking the solemnity of the charge, and the subject. children. Heb. sons.
+17:3 | What man soever = Heb. 'ish 'ish. killeth [in sacrifice]. The Fig. Ellipsis (Ap. 6. ii. d) must be thus supplied. For, although the word is Heb. shachat (Ap. 43. I. v.) and not zabach (Ap. 43. I. iv.), the context (vv. 5, 7-9) shows that only sacrifices in unlawful places are being treated of. There is no contradiction, therefore, of Deut. 12. 15, 21, where the context shows equally clearly that only food is in question. Cp. v. 5.
+17:4 | tabernacle. Heb. mishkan. Ap. 40. offer = bring near. Heb. karab. Ap. 43. I. offering = Heb. korban. Ap. 43. II. i. tabernacle = tent. Heb. 'ohel. Ap. 40.
+17:5 | offer = slay in sacrifice. Heb. zabach. Ap. 43. I. iv., thus showing the correct supply of the ellipsis in v. 3. door = entrance.
+17:6 | burn = burn as incense. Heb. katar. Ap. 43. I. vii. sweet savour. See note on 1. 9.
+17:7 | no more: implies that they had done so in Egypt to the goat image "Pan". Cp. Josh. 24. 14. Ezek. 20. 7; 23. 3, &c., and especially 2 Chron. 11. 15. offer = slay in sacrifice. Heb. zabach. Ap. 43. I. iv. devils. Heb. sa'ir. (Only here and 2 Chron. 11. 15, "devils". In Isa. 13. 21; 34. 14 rendered "satyrs" = an imaginary demon: half-goat, half-man. Sept. = demons:) from Heb. root, meaning to shudder. From this "Pan" came the "satyrs", "fauns", and woodland gods of Greece and Rome, and also the "devil" of Christendom.
+17:8 | man. Heb. 'ish. Ap. 14. offereth = offereth up. Heb. 'alah. Ap. 43. I. vi.
+17:9 | offer = prepare. Heb. 'asah. Ap. 43. I. iii.
+17:10 | 10-16 (W2, p. 157). THE APPOINTED FOOD. soul = Heb. nephesh. Ap. 13.
+17:11 | For. This verse, with Luke 24. 39, 1 Cor. 15. 50, and Heb. 13. 20, forms a strong chain of truth against the "Mass". life = soul. Heb. nephesh. Ap. 13. make an atonement. See note on Ex. 29. 33. soul. Heb. nephesh, because the soul is the life. Thus a life is substituted for a life. Hence Heb. 9. 22.
+17:12 | Therefore. Hence Acts 15. 20, 29; 21. 25.
+17:13 | which hunteth = which shall hunt any hunting. Fig. Polyptoton, Ap. 6, a necessity with Israel, not sport; for extermination (Ex. 23. 29) and for food (Gen. 25. 27. Prov. 12. 27). Cp. 1 Sam. 14. 32-34 and Ezek. 33. 25.
+17:15 | bathe. See note on 14. 9. The rigour of this law seen from 1 Sam. 14. 32-35.
+17:16 | iniquity. Heb. 'avah. Ap. 44. iv.
+18:1 | 18. 1-18 (x1, above). UNLAWFUL CONNECTIONS. the LORD. Heb. Jehovah. Ap. 4. spake. See note on 5. 14.
+18:2 | children. Heb. sons. God. Heb. Elohim. Ap. 4.
+18:3 | the doings: i.e. all the abominable practices of the Canaanitish nations (v. 27), for which they were cut off, Rom. 1. 23-29. ordinances = statutes.
+18:4 | judgments = regulations.
+18:5 | which, &c. = "which, if the man (Heb. 'adam, Ap. 14) shall do them, he shall also live by them". live = "live again" in resurrection life (Rev. 20. 5). The Chald. paraphrase = "shall live by them to life eternal". Sol. Jarchi, "live in the world that is to come". Cp. the other passages where "live" is used in this sense: Ezek. 13. 21; 20. 11. Luke 10. 28. Rom. 10. 5. Gal. 3. 12. Neh. 9. 29. Hab. 2. 4. Rom. 1. 17. Heb. 10. 38, &c. In this sense the verb is used more often than is generally thought. Cp. Isa. 26. 19; 38. 16; 55. 3. Ezek. 18. 19; 33. 19; 37. 3, 5, 6, 14. Hos. 6. 2. Amos 5. 4, &c. The spiritual authorities of the second temple so interpreted the phrase. Thus "eternal life", by faith, is set in contrast with eternal life by works.
+18:6 | None of you. Heb. "Man, man, ye shall not approach"; should be "No man (Heb. 'ish. Ap. 14) whatsoever shall approach". Emphasised by Fig. Epizeuxis. See Ap. 6. The absence of the words "of the house of Israel", as in 17. 3, 8, 13, shows that the strangers are included in this law. near of kin. Heb. "the remainder of his flesh" (Gen. 2. 23), i.e. by the Fig. Polyptoton, Ap. 6, "his own flesh (or relatives)". Cp. vv. 12, 13, 17. For emphasis.
+18:7 | father. See Gen. 19. 31-38.
+18:8 | father's wife. See Gen. 35. 22. 2 Sam. 16. 20-23. 1 Kings 2. 17, and 1 Cor. 5. 1-5.
+18:9 | sister. See Gen. 20. 12. 2 Sam. 13. 12, 16, 20.
+18:11 | father's wife. In Heb. always means one's "stepmother" (see v. 8; 20. 11).
+18:12 | father's sister. See Ex. 6. 20. she. Some codices, with Sept., Syr., and Vulg., read "for she".
+18:14 | thou. Some codices, with Sam., Jon., Sept., and Syr., read "and thou".
+18:17 | wickedness = lewdness. Heb. zimmah. Ap. 44. xiii.
+18:21 | seed = children. pass through, &c. Heb. "pass to Molech", i.e. into his arms, from which it passed through the fire to him. Molech. Always has the article (except 1 Kings 11. 7, which is probably a copyist's omission) denoting the king, or the king-idol (see v. 21; 20. 2, 3, 4, 5. See seq. 2 Kings 23. 10. Jer. 32. 35). The Massorites pointed it Molech, to assimilate it to "shameful thing", but omitted to do so in Isa. 30. 33 and 57. 9, which they left melech = king. It should read Molech in these two passages also.
+18:22 | as. Referring to the sin of Sodom (whence its name), Gen. 19. 5. Cp. 20. 13. Judg. 19. 22. 1 Kings 14. 24. abomination = a thing to be abhorred.
+18:23 | any beast. This was part of the religious worship of the Egyptians.
+18:25 | iniquity. Heb. 'avah. Ap. 44. iv. vomiteth. Fig. Prosopopoeia, Ap. 6. Cp. "spued", v. 28. From the beginning, the earth has shared the consequences of man's guilt (Gen. 3. 17. Rom. 8. 19-22). Since it yields no fruit when man yields no obedience; and defiled when man is defiled (Deut. 11. 17). Is blessed when man is blessed (Lev. 25. 19; 26. 4. Deut. 32. 43). Mourns when man sins (Isa. 24. 4, 5). Glad when God avenges His People (Ps. 96. 11-13).
+18:26 | Ye. In some codices, with Sam., Sept., Syr., and Vulg., this "Ye" has no emphasis.
+18:27 | For, &c. These "doings" are specially legislated against, because these were the corruptions pertaining to the origin and character of the Nephilim (Ap. 25). These formed the nations of Canaan, and this was why they had to be destroyed by the sword of Israel, as those in the days of Noah had to be destroyed by the Flood. Verses 24 and 25 are emphasised by the other way of putting the facts. men. Heb. pl. of 'enosh. Ap. 14.
+18:28 | spue = vomit of v. 25. as = according as. Cp. v. 25.
+18:29 | souls. Heb. pl. of nephesh. Ap. 13.
+18:30 | keep Mine ordinance. This is the Fig. Polyptoton (Ap. 6) = "observe my observance", but, Eng. keep my charge. customs = statutes: because they were legal enactments of the land, cp. v. 3. The word is rendered "statutes" in Deut. 6. 24; 16. 12; and 26. 16. I am the LORD your God. This body of laws (ch. 18) is emphasised and solemnized by beginning and ending with the same expression. Fig. Epanadiplosis. See Ap. 6.
+19:1 | the LORD. Heb. Jehovah. Ap. 4. spake. See note on 5. 14.
+19:2 | all the congregation, &c. Only here in Leviticus, and once more in the Pentateuch (Ex. 12. 3). children. Heb. sons. holy = set apart. See note on Ex. 3. 5. I the LORD, &c. There are fifteen groups in this body of laws (ch. 19), seven ending with the longer formula, "I am the LORD your God" (23, 4, 10, 25, 31, 34, 36), and eight with the shorter formula "I am the LORD" (12, 14, 16, 18, 28, 30, 32, 37). God. Heb. Elohim. Ap. 4.
+19:3 | man. Heb. 'ish. Ap. 14. ii.
+19:4 | idols = Heb. 'elilim. See Lev. 26. 1.
+19:5 | offer = slay for sacrifice. Heb. zabach. Ap. 43. I. iv. at your own will. Heb. = "for your acceptance", or "that ye may be accepted".
+19:6 | burnt = burnt up. Heb. saraph. Ap. 43. I. viii.
+19:8 | iniquity. Heb. 'avah. Ap. 44. iv. hallowed = set apart. See note on 12. 4. soul = person. Heb. nephesh. Ap. 13. cut off. See note on 7. 20.
+19:9 | 9, 10 (X, p. 159). GLEANINGS. (Cp. Ruth 2. 14-16.)
+19:11 | 11-22 (W2, p. 159). SUNDRY COMMANDS AND PROHIBITIONS.
+19:13 | the. Some codices, with Sam., Jon., and Sept., read "and the". wages. Heb. "work". Put by Fig. Metonymy (of Cause), Ap. 6, for wages earned by it. Note the Divine care for the labourer (Deut. 24. 14, 15. Jer. 22. 13. Mal. 3. 5. Jas. 5. 4).
+19:16 | talebearer. A solemn warning here. Rendered "slandering" in Jer. 6. 28; 9. 4. Ezek. 22. 9 (margin). (Cp. 1 Sam. 22. 9-18.)
+19:17 | suffer: or countenance him in his sin; or, lest on his account thou bear sin. This is the Divine method, and the best. sin. Heb. chat'a. Ap. 44. i. upon him = in him.
+19:18 | thou shalt love. See Matt. 7. 12; 22. 39, 40. Luke 6. 31; 10. 27. neighbour. Not merely one who is "near", but any one with whom one has dealings. This is the point of Luke 10. 29. Cp. John 4. 9.
+19:19 | diverse kind. Everything created "after his kind". See note on Gen. 1. 11; a deep, moral, and spiritual lesson is contained in this prohibition. mingled. Another lesson here as to mingling the clean and unclean, human and Divine, flesh and spirit, &c. This law relates only to "seeds" which are used for food and actually eaten. Cp. Luke 13. 6.
+19:20 | redeemed = set free (by power). Heb. padah. See note on Ex. 13. 13. not free. Otherwise death. Deut. 22. 24.
+19:21 | trespass. Heb. 'asam. Ap. 44. ii. door = entrance. tabernacle = tent. Heb 'ohel.
+19:22 | make an atonement. See note on Ex. 29. 33. hath done = hath sinned. Heb. chata'. Ap. 44. i.
+19:23 | when ye shall come. The second of four prospective laws. See note on 14. 34. Cp. 19. 23; 23. 10; 25. uncircumcised: or, uncovenanted. Fig. Prosopopoeia. Ap. 6.
+19:24 | holy to praise. Heb. "holiness of praises". "Praises" in pl. Fig. Heterosis (of Number), Ap. 6, for emphasis, and noun, "holiness", put for adj. by Fig. Antimereia (of Noun), Ap. 6, for emphasis = "for a sacred and great praise unto Jehovah".
+19:26 | observe times: i.e. watch clouds, or days, for good or ill luck, e.g. not commencing a journey on a Friday. See note on v. 31 below.
+19:27 | not round the corners of your heads: i.e. to cut round, so as to have a tuft of hair, like the Canaanitish priests. Cp. Jer. 9. 26; 25. 23; 49. 32. corners of thy beard = whiskers, as Egyptians did. Cp. Gen. 41. 14.
+19:28 | cuttings. A practice in Canaanitish heathen worship. Cp. 21. 5. Deut. 14. 1. 1 Kings 18. 28. Jer. 48. 37. the dead = a dead soul. Heb. nephesh (Ap. 13). Thus there is such a thing as "a dead soul" as well as a "living soul" (Gen. 2. 7); so also in 21. 1; 22. 4. Num. 5. 2; 6. 11. Nephesh is incorrectly rendered "body" in 21. 11. Num. 6. 6; 19. 11, 13; and "dead body" in Num. 9. 6, 7, 10. Hag. 2. 13. In all these passages the Heb. nephesh (soul) is thus rendered, and yet it is rendered "life" in 17. 14 and elsewhere. I am the LORD. Some codices, with Onk., Sept., and Syr., add "your God".
+19:29 | prostitute thy daughter. The common practice, as a religious act, by the Canaanite and other ancient forms of idolatry. wickedness = lewdness. Heb. zimmah. Ap. 44. xiii.
+19:31 | familiar spirits. These are evil spirits personating dead human beings, and attaching themselves only to "mediums" and those who give up their will to them. A dread reality is provided against by these enactments. Cp. 20. 27. Deut. 18. 10-12. 1 Chron. 10. 13-14. Isa. 8. 19. The Heb. 'ob, borrowed from an Akkadian word, ubi = a charm, used of one who was mistress of the spell, or spirit. Isa. 29. 4. See Acts 16. 16, where it is defined as "a spirit of Python" (= Pythius Apollo), i.e. the devil. wizards = knowing ones: those having occult knowledge.
+19:32 | fear thy. Perhaps an Ellipsis (Ap. 6), "fear [a visitation from] thy God". Cp. 25. 17, 36, 43.
+19:33 | thee. Some codices, with Sam., Onk., Jon., Sept., Syr., and Vulg., read "you". vex = oppress.
+19:34 | But. This is better omitted. unto you. A.V., 1611, omitted these words. as thyself. Cp. v. 18. ye were strangers. Occurs four times in the Pentateuch: Ex. 22. 21; 23. 9. Lev. 19. 34. Deut. 10. 19.
+19:35 | meteyard = measures of length or dimension. weight = measures of weight. measure = measures of capacity.
+19:36 | Just balances = Heb. balances of justice. Genitive of character. So with the other measures in this verse. Cp. Deut. 25. 13-16. Prov. 11. 1; 16. 11; 20. 10, 23. ephah ... hin. See Ap. 51. III. 3.
+20:1 | the LORD. Heb. Jehovah. Ap. 4. spake. See note on 5. 14.
+20:2 | Again. See Lev. 18. 21. This is so serious that it must be repeated. There, only a command; here, the penalty. children. Heb. sons. Molech. The king-idol. See note on 18. 21, where this law follows that on incest; while here it precedes it.
+20:3 | man. Heb. 'ish. Ap. 14. iii. holy. See note on Ex. 3. 5.
+20:4 | the = that.
+20:5 | family. Cp. Ezek. 18. 2, and note the contrast. Jer. 31. 29.
+20:6 | soul. Heb. nephesh. Ap. 13. familiar spirits. See note on 19. 31. wizards. See note on 19. 31.
+20:7 | the LORD [Heb. Jehovah] your God [Heb. Elohim]. Some codices, with Sam. and Sept., read "I am holy, Jehovah your God".
+20:8 | the LORD Which sanctify you = Jehovah Mekaddishkem, one of the Jehovah titles. See Ap. 4.
+20:9 | every one. Heb. 'ish 'ish. Ap. 14. ii. blood. Fig. Metalepsis, Ap. 6, "bloods", put by Fig. Metonymy (of Adjunct) for guilt, and "guilt" put by Fig. Metonymy (of Cause) for penalty.
+20:11 | father's wife. See 18. 8.
+20:12 | daughter in law. See 18. 15.
+20:13 | mankind. Heb. "male". See 18. 22. abomination. See note on 18. 22.
+20:14 | wife and her mother. See ch. 18. 17. wickedness = disgraceful thing. Heb. chesed (Ap. 44. xiv). Chesed is a Homonym: i.e. another word, spelt the same. It means (1) mercy, grace, goodness (Gen. 24. 12. 2 Sam. 7. 15. 1 Chron. 19. 2. 2 Chron. 6. 14. Job 37. 13. Ps. 103. 4, 8, 11, &c. But here (2) it is chesed, a disgraceful or reproachful thing. It is so taken here and in Prov. 14. 34. burnt = burnt up: i.e. in judgment. Heb. saraph. Ap. 43. I. viii.
+20:15 | beast. See 18. 23.
+20:17 | sister. See 18. 9. sight of their People. A special penalty is attached to this disgraceful thing. iniquity = perverseness. Heb. 'avon. Ap. 44. iii.
+20:18 | sickness. See 15. 24; 18. 19.
+20:20 | sin = penalty. Put by Fig. Metonymy (of Cause). Ap. 6.
+20:22 | spue. Cp. 18. 28, where it is rendered "vomit".
+20:23 | manners = statutes. It was this that brought down the judgment of extermination. No other remedy would do. These nations were descended from the nephilim (see Ap. 25), who like those who were destroyed by the Flood, were "after that" (Gen. 6. 4) to be destroyed by the sword of Israel. nation. Some codices, with Sam., Onk., Sept., Syr., and Vulg., read "nations" (pl.).
+20:25 | difference = separation, as in verse 24. Cp. 10. 10; 11. 47. souls. Heb. pl. of nephesh. Ap. 13.
+20:26 | severed = separated, as in verses 24 and 25.
+20:27 | familiar spirit. See note on 19. 31.
+21:1 | the LORD. Heb. Jehovah. Ap. 4. said. See note on 5. 14. the priests the sons of Aaron. Occurs only here. In all the other seven passages it is in Heb. "the sons of Aaron, the priests". See Lev. 1. 5. the dead = a dead soul. Heb. nephesh. See Ap. 13, and note on 19. 28.
+21:2 | kin = flesh.
+21:4 | defile himself [for his wife]. Fig. Ellipsis. Ap. 6. a chief = a lord, or leader. Heb. ba'al. Supply Fig. Ellipsis (Ap. 6) [a priest].
+21:5 | shave. Forbidden to the Israelites; but in Egypt a disgrace not to shave. See Gen. 41. 14. 2 Sam. 10. 4, 5. the corner of their beard = their whiskers.
+21:6 | holy = set apart, or separate. See note on Ex. 3. 5. Here, a singular noun = a separated set. God. Heb. Elohim. Ap. 4. offerings = Heb. 'ishsheh. Ap. 43. II. xi. bread = food of all kinds. Put by Fig. Synecdoche (of Species). Ap. 6. See note on 3. 11. of their God. Genitive of relation. Ap. 17. offer = bring near. Heb. karab. Ap. 43. I. i. holy. See note on Ex. 3. 5.
+21:8 | I the LORD, Which, &c. = Jehovah title. See note on 20. 8, and Ap. 4.
+21:9 | burnt = burnt up. Heb. saraph. Ap. 43. I. viii.
+21:10 | high priest. See note on 4. 3. consecrated. See note on Ex. 28. 41. Lev. 9. 17. rend. See notes on 10. 6; 13. 45.
+21:11 | dead body = dead soul. Heb. "dead nephesh". The opposite of "living soul" in Gen. 2. 7. See note on 19. 28, and Ap. 13.
+21:12 | crown = consecration: i.e. = Nazariteship.
+21:16 | 16-24 (E, above). BLEMISHES. spake. See note on 5. 14.
+21:17 | generations = posterity.
+21:18 | flat = any deformity (of the nose). any thing superfluous = any thing over long or excessive. Cp. 22. 23.
+21:19 | man. Heb. 'ish. Ap. 14. ii.
+21:20 | blemish in his eye = defective vision, or cataract.
+21:24 | children. Heb. sons.
+22:1 | the LORD. Heb. Jehovah. Ap. 4. spake. See note on 5. 14.
+22:2 | from. When subject to the following disabilities. holy. See note on Ex. 3. 5. children. Heb. sons. hallow. See note on 12. 4.
+22:3 | soul. Heb. nephesh. Ap. 13. Here rendered "soul", but in 21. 11 inaccurately rendered "body". See note on 19. 28. cut off from My presence. Occurs only here in the Pentateuch; elsewhere, "cut off from his people". See note on 7. 20. Accounted for here by the seriousness of the offence.
+22:4 | man. Heb. 'ish. Ap. 14. ii. the dead. Heb. nephesh (Ap. 13), rendered "soul" in preceding verse. Heb = "a dead soul". Cp. v. 11. seed goeth. See 15. 16.
+22:5 | man. Heb. 'adam. Ap. 14. 1.
+22:6 | soul. Heb. nephesh. (Ap. 13.) Here again rendered soul. See vv. 3, 4; 21. 11, and note on 19. 28. wash = bathe. See note on 14. 9.
+22:9 | keep Mine ordinance = observe my observance. Fig. Polyptoton, Ap. 6, for emphasis. Cp. 18. 30. ordinance = charge. sin = penalty. Put by Fig. Metonymy (of Cause). Ap. 6.
+22:11 | soul. Heb. nephesh (Ap. 13). Here put by Fig. Synecdoche (of Part), Ap. 6, for "any person", i.e. a heathen slave. he = the slave so bought. Emphatic. meat = Fig. Metonymy (of Species), for any kind of food. Ap. 6.
+22:12 | a stranger = a man (Heb. 'ish. Ap. 14. ii.), i.e. an Israelite, but not of Aaron's seed (Num. 16. 40). offering = heave offering. Heb. terumah. Ap. 43. II. viii.
+22:14 | man. Heb. 'ish. Ap. 14. ii. unwittingly: i.e. through ignorance. See 4. 2, 22, 27; 5. 15, 18.
+22:15 | offer = offer up, as a heave offering. Heb. rum. Ap. 43. I. ix.
+22:16 | iniquity = penalty. Put by Fig. Metonymy (of Cause). Ap. 6. Heb. 'avon. Ap. 44. iii. trespass. Heb. 'asam. Ap. 44. ii. I the LORD do sanctify. A Jehovah title. See note on 21. 8, and Ap. 4.
+22:17 | 17-33 (C2, p. 163). OFFERINGS. (Introversion).
+22:18 | Whatsoever = what man soever. Heb. 'ish 'ish. Ap. 14. ii. offer = bring near. Heb. karab. Ap. 43. I. i. oblation = Heb. korban. Ap. 43. II. i. Translated "offering", 3. 7, 14; 7. 12; 17. 4, &c. freewill offerings. Cp. Ps. 40. 8. John 10. 17, 18; 17. 4. Phil. 2. 7, 8.
+22:19 | at your own will = for your acceptance. So rendered in vv. 20, 21, 25, 27: see note on 1. 3. For this kind of offering, see note on 7. 15, 16.
+22:22 | offering. Heb. 'ishsheh. Ap. 43. II. xi.
+22:23 | offer = prepare. Heb. 'asah. Ap. 43. I. iii.
+22:25 | bread = food. Fig. Synecdoche (of Species), put for all kinds of food. Ap. 6. of. Genitive of relation. Ap. 17. God. Heb. Elohim. Ap. 4.
+22:27 | offering = approach offering. Heb. korban. Ap. 43. II. i.
+22:28 | cow. Heb. shor, rendered "cow" only here and Num. 18. 17.
+22:29 | offer a sacrifice = kill [an offering] as a sacrifice. Ap. 43. I. iv., and II. xii.
+22:32 | holy = set apart. See note on Ex. 3. 5. hallowed ... hallow = set apart. See note on Ex. 3. 5.
+22:33 | brought you out. See note on 11. 45.
+23:1 | the LORD. Heb. Jehovah. Ap. 4. spake. See note on 5. 14.
+23:2 | children. Heb. sons. feasts of the LORD. This was their primal name; but in the day of Christ's rejection they had become "feasts of the Jews". John 5. 1; 2. 13; 6. 4; 11. 55. proclaim. Cause to be [publicly] heard. Occurs outside the Pentateuch only in Nehemiah. holy. See note on Ex. 3. 5. convocation = a calling together, assembly.
+23:3 | sabbath of rest. See note on Ex. 16. 23.
+23:4 | These are the feasts: thus marking the sabbath offering as distinct. feasts = Heb. appointed seasons. feasts of the LORD. This was their true character. But in our Lord's day they had degenerated into "feasts of the Jews" (John 2. 13; 5. 1; 6. 4; 11. 55).
+23:5 | first month: called in Pentateuch "Abib" (Ex. 13. 4; 23. 15; 34. 18. Deut. 16. 1); and "Nisan" in later books (Neh. 2. 1. Est. 3. 7) = about beginning of April. at even: any time from sunset of one day till sunrise of the second day. Heb. "between the evenings". the LORD'S [Heb. Jehovah's] passover. This is the first of the Feasts; Tabernacles is the seventh. First, redemption; last, rest. Redemption is the title to rest.
+23:6 | unleavened. Note the exception in v. 17, and see note there.
+23:7 | servile = laborious.
+23:8 | offer = bring near. Heb. karab. Ap. 43. I. offering. Heb. 'ishsheh. Ap. 43. II. xi. in. Some codices, with Sam., Sept., Syr., and Vulg., read "and on (or in)".
+23:10 | When ye be come. See note on 14. 34. sheaf. The Antitype is Christ, the firstfruits. 1 Cor. 15. 23.
+23:11 | wave. See note on Ex. 29. 27.
+23:12 | offer = prepare. Heb. 'asah. Ap. 43. I. iii. that day. All these offerings were without leaven. Cp. v. 17.
+23:13 | tenth deals. See Ap. 51. III. 3. sweet savour = savour of satisfaction. See note on Gen. 8. 21. wine. Heb. yayin. Ap. 27. 1. hin. See Ap. 51. III. 3.
+23:14 | offering. Heb. korban. See Ap. 43. II. i. God. Heb. Elohim. Ap. 4. statute for ever. See v. 21; 3. 17; 6. 18, 22; 7. 34; 10. 9, 15; 24. 8, 9. Ex. 12. 14; 29. 28; 30. 21. Num. 18. 8, 11, 19. Jer. 5. 22, &c.
+23:15 | seven sabbaths = seven weeks. Cp. Luke 18. 12. Matt. 28. 1. Hence the name "feast of weeks" in Old Testament. Ex. 34. 22. Deut. 16. 10, 16. 2 Chron. 8. 13.
+23:16 | fifty days. Hence the name Pentecost. Acts 2. 1; 20. 16. 1 Cor. 16. 8. meat offering = meal offering. See note on 2. 1.
+23:17 | with leaven. This great exception is made because the antitype is not Christ but human kind, and not without sin. "They that are Christ's", 1 Cor. 15. 23. Cp. vv. 6 and 10 above.
+23:19 | sacrifice = prepare; same as "offer" in v. 12.
+23:22 | harvest. In the Antitype = "the end" or the remainder. 1 Cor. 15. 24.
+23:27 | atonement. See note on Ex. 29. 33. afflict = humble. your souls = yourselves. Heb. nephesh. Ap. 13.
+23:29 | soul = person. Heb. nephesh. Ap. 13. afflicted = humbled. Put by Fig. Metonymy (of the Adjunct), for the outward sign of it. Ap. 6. cut off. See note on 7. 20.
+23:31 | work. Some codices, with Sam., Syr., and Vulg., add "therefore".
+23:32 | celebrate your sabbath. See note on Ex. 16. 23.
+23:34 | tabernacles = booths. Heb. sukkoth = a lodge in a garden. Is. 1. 8, "cottage".
+23:35 | servile = laborious.
+23:36 | on. Some codices, with Sam., Sept., Syr., and Vulg., read "and on".
+23:37 | These are the feasts of the LORD: viz. the above-mentioned festivals. See Structure "S" (23. 1, p. 165).
+23:38 | sabbaths. Put by Fig. Metonymy (of the Adjunct), Ap. 6, for the sacrifices offered on the sabbath. See note on 25. 6.
+23:39 | feast = festival.
+23:40 | before the LORD. Heb. before the face of Jehovah (Ap. 4). Fig. Pleonasm. Ap. 6. = in the presence of.
+23:41 | in = throughout.
+23:42 | in booths. In Heb., the verse begins and ends with these words, for emphasis, by the Fig. Epanadiplosis. Ap. 6.
+23:44 | declared: according to verse 2. feasts = appointed seasons.
+24:1 | 24. 1-9 (Q, p. 165). REPETITIONS FROM EXODUS. the LORD. Heb. Jehovah. Ap. 4. spake. See note on 5. 14.
+24:2 | Command. Only twice, here and in 6. 9, is the word "command" used for communicating. children. Heb. sons. the light = the light-bearer or lamp-stand. Cp. Ex. 27. 20, 21.
+24:3 | of. Genitive of relation. = the vail relating to the testimony or ark of the covenant, i.e. the vail that is before it. tabernacle = tent. Heb. 'ohel. Ap. 40. Aaron. Some codices, with Sam. and Onk., add "and his sons", as in v. 9. statute for ever. See 23. 14, and note on 3. 17.
+24:4 | candlestick = light-holder as v. 2 above, and Gen. 1. 14, &c. The word "pure" here = purified or ceremonially cleansed: i.e. not for common uses.
+24:5 | two. Only one required for the ordinary meal offering (Ex. 29. 40. Num. 15. 4; 28. 9, 13, &c.). tenth deals. See Ap. 51. III. 3.
+24:6 | rows = piles. row = pile. pure = purified or ceremonially cleansed. Cp. v. 4. before the LORD: i.e. in the holy place. Hence called "the table of the presence" (Num. 4. 7), and the cakes called "the bread of the presence" (Ex. 25. 30; 35. 13; 39. 36). The word "shewbread" taken from the Vulgate, and Luther, does not correctly represent the Hebrew name. The use of this word quite hides the Hebrew expression "bread of ordering" (set in order), "the sets of bread", "the table set in order", in 1 Chron. 9. 32; 23. 29. 2 Chron. 13. 11. Neh. 10. 33; and the table in 2 Chron. 29. 18. These Hebrew expressions are based on and derived from this verse.
+24:7 | offering. Heb. 'ishsheh. Ap. 43. II. xi.
+24:8 | Every sabbath. Heb. "on the day of the sabbath, on the day of the sabbath", Fig. Epizeuxis. Ap. 6. = on the holy sabbath day. Cp. 1 Chron. 9. 32.
+24:9 | eat it in the holy place. Eight things were thus consumed by the priests. See note on 7. 9. holy. See note on Ex. 3. 5.
+24:10 | 10-23 (O, p. 165). EPISODE OF THE BLASPHEMER. a man of Israel. Heb. a man ('ish, Ap. 14. ii.) an Israelite. Jewish tradition says he was a Danite. strove together. Cp. Ex. 2. 13. The Chald. version says the semi-Egyptian strove to encamp in the tribe of Dan.
+24:11 | blasphemed, &c. Cp. Gen. 4. 24. Hence the use of "the name" instead of "Jehovah". the name, or supply Ellipsis (Ap. 6. iii. a) from v. 16. Dan, another sad blot on this tribe.
+24:14 | lay their hands upon. Done only in the case of a blasphemer. stone him. Nine persons stoned (see Ap. 10): The blasphemer, Lev. 24. 14. The sabbath-breaker, Num. 15. 36. Achan, Josh. 7. 25. Abimelech, Judg. 9. 53. Adoram, 1 Kings 12. 18 (2 Chron. 10. 18). Naboth, 1 Kings 21. 13. Zechariah, 2 Chron. 24. 21. Stephen, Acts 7. 58. Paul, Acts 14. 19 (2 Cor. 11. 25).
+24:15 | God. Heb. Elohim. Ap. 4. bear his sin. Fig. Metonymy (of the Cause). Ap. 6 "sin" (chat'a, Ap. 44. i.) being put for its penalty.
+24:17 | any man = the soul (Heb. nephesh. Ap. 13) of a man. Heb. 'adam. Ap. 14. i.
+24:18 | a beast = the soul (Heb. nephesh. Ap. 13). beast for beast = soul for soul (Heb. nephesh. Ap. 13).
+24:19 | man. Heb. 'ish. Ap. 14. ii. as = according as.
+24:20 | man. Heb. 'adam. Ap. 14. i.
+24:22 | manner of law = rule or regulation. Heb. mishpat = judgment.
+25:1 | the LORD. Heb. Jehovah. Ap. 4. spake. See note on 5. 14. mount Sinai. See note in title "Leviticus"; not out of the tabernacle.
+25:2 | children. Heb. sons. When, &c. See note on 14. 34. keep a sabbath. Heb. sabbath a sabbatizing. Fig. Polyptoton. Ap. 6. For emphasis = keep a sacred sabbath.
+25:3 | 3-7 (Y, p. 168). THE SIX YEARS.
+25:4 | sabbath of rest. See note on Ex. 16. 23.
+25:5 | undressed = unpruned.
+25:6 | sabbath. Put by Fig. Metonymy (of the Adjunct), Ap. 6, for the fruits of the seventh year.
+25:7 | increase = gain or profit. Heb. t'bu'ah. So in vv. 12, 20; not in vv. 16, 36, 37.
+25:8 | 8-13 (X, p. 168). THE JUBILEE YEAR. seven sabbaths of years. 7 x 7 = 49. See Ap. 10.
+25:9 | trumpet = a curved horn of jubilee, i.e. of loud or joyful sound. Heb. yobel. First jubilee; the last at the Nativity (the 29th). atonement. See note on Ex. 29. 33.
+25:10 | hallow = set apart. Heb. chadash. See note on Ex. 3. 5. proclaim = cause public notice to be given.
+25:12 | holy. See note on Ex. 3. 5.
+25:13 | man. Heb 'ish. Ap. 14. ii.
+25:14 | 14-55 (Y, p. 168). THE FORTY-NINE YEARS. (Repeated Alternation.) 14-19 (Z1, above). PARTING WITH GOODS. oppress = overreach.
+25:15 | According = in proportion. The estimation of value regulated by nearness of the jubilee. So our estimation of value of earthly things governed by our sense of the nearness of Christ's coming.)
+25:17 | God. Heb. Elohim. Ap. 4.
+25:18 | safety = confidence.
+25:20 | 20-22 (A1, above). CASE OF WANT. What ... ? Fig. Erotesis. Ap. 6. (A lesson for us. God's "I will" the answer to our "What?"). behold. Fig. Asterismos. Ap. 6.
+25:23 | 23, 24 (Z2, above). PARTING WITH LAND. for ever. Fig. Synecdoche (of the Whole), Ap. 6, as we say "in perpetuity" = absolutely or beyond recovery. the land is Mine. Cp. Ex. 15. 17; Isa. 14. 8, 25; Jer. 2. 7; Ps. 10. 16; 78. 54.
+25:24 | grant = give. redemption = repurchase. Heb. g'aal. See note on Ex. 6. 6.
+25:25 | 25-28 (A2, above). CASE OF POVERTY. If. Some codices, with Sam., Sept., and Syr., read "And if". waxen poor = brought low. any of his kin = his goel, or redeemer, next of kin. See note on Ex. 6. 6. redeem = Heb. g'aal, buy back. See note on Ex. 6. 6.
+25:26 | none to redeem it = no redeemer.
+25:28 | return. The twelve loaves of ch. 24 were a witness as to the People; the jubilee (ch. 25) as to the Land.
+25:29 | 29-34 (Z3, p. 169). PARTING WITH A HOUSE. within a whole year = within days, "days" being put by Fig. Synecdoche (of the Part), for a whole year of days. Ap. 6.
+25:30 | the walled city = a city that hath walls.
+25:32 | the cities of the Levites. Cp. the forty-eight cities, Num. 35. 1-8. Josh. 21. 1-8.
+25:33 | if a man purchase of the Levites. Should be "if one of the Levites should not redeem".
+25:34 | their. Some codices, with Onk., have "your".
+25:35 | 35 (A3, p. 169). CASE OF POVERTY. fallen in decay = "his hands have become shaky" or become feeble.
+25:36 | 36-38 (Z4, p. 169). MONEY OR USURY. usury (Heb. nashak), is a charge on money. increase (Heb. tarbith or marbith) is a charge on goods. See notes on v. 7 and 26. 4. These were the definitions of the authorities of the second temple.
+25:38 | and to be your God. Jehovah became their God, by giving them Canaan. Cp. 26. 45.
+25:39 | 39-41 (A4, p. 169). CASE OF POVERTY. sold, as in 2 Kings 4. 1.
+25:42 | 42-46 (Z5, p. 169). BONDAGE. brought forth. Note the four occurrences of this expression in these two chapters: 26. 13, brought out to be free men (in relation to the Egyptians); 25. 42 (in relation to fellow-Israelites); 25. 38, to be inheritors; and 25. 55, to be Jehovah's servants. as bondmen. Heb. "with the sale of a bondman": i.e. as "bondmen [are sold]".
+25:47 | 47-55 (A5, p. 169). CASE OF POVERTY.
+25:49 | may redeem. Cp. Neh. 5. 8.
+26:1 | 26. 1, 2 (Q, p. 165). REPETITIONS FROM EXODUS. 1, 2 Ye refers to any Israelites sold to heathen masters, who hence were in danger of being tempted to idolatry, while in this servitude. idols = non-entities. Heb. 'elilim = clay or terra cotta "gods". Cp. 1 Cor. 8. 4. Occurs only once more in Pentateuch, Lev. 19. 4. graven image. Heb. pesel, an idol of wood or stone. standing image. Heb. Mazzebah, a sacred pillar. In Gen. always "pillar". Cp. v. 30. image of stone. Heb. maskith, a sculptured or painted stone. Cp. v. 30. the LORD. Heb. Jehovah. Ap. 4. God. Heb. Elohim. Ap. 4.
+26:3 | 26. 3—27. 34 (A3, p. 131). THE OFFERERS AND THEIR CHARGES IN MOUNT SINAI (Division). 26. 3-46 (B1, above). JEHOVAH'S CHARGE. (Introversion, and Repeated Alternation.) 3 (E, above). OBEDIENCE. (Introversion.) If ... Then. Note the four occurrences of "If" and "Then" in this chapter.
+26:4 | 4-13 (F, above). BLESSINGS. Then. See note on "If", v. 3 above. rain. Heb. rains: i.e. the early and latter rains. Deut. 11. 14; 28. 12. Jer. 14. 22. Deut. 32. 2. Ps. 72. 6. increase = produce, sustenance. Heb y'bul. See notes on 25. 7 and 36.
+26:6 | peace, or prosperity. rid evil beasts. Cp. Ezek. 34. 25, 28.
+26:7 | enemies = foes. First occurrence in Leviticus.
+26:8 | five. See Ap. 10, this promise enlarged in Deut. 32. 30. Josh. 23. 10. Cp. 2 Sam. 23. 8, 18. 1 Chron. 11. 11, 18. Isa. 30. 17.
+26:9 | have respect = turn unto you, as rendered in Ezek. 46. 9; the only other place where this form occurs.
+26:11 | tabernacle = habitation. Heb. mishkan. Ap. 40. My soul = Myself, or I. Fig. Anthropopatheia. Ap. 6.
+26:12 | walk. Fig. Anthropopatheia, Ap. 6; or, literally, as in Eden. See Gen. 3. 8. Ap. 4. Quoted 2 Cor. 6. 16.
+26:13 | broken = broken in pieces. Heb. shabar, as in vv. 19, 26; not parar, as in vv. 15, 24. upright. The yoke makes the wearer stoop.
+26:14 | 14, 15 (G1, above). DISOBEDIENCE. The above structure (D, above) shows God's fivefold threatening for disobedience. We have the fivefold execution in Isa. 5. 25; 9. 12, 17, 21; 10. 4; and His fivefold lamentation in Amos 4. 6-12.
+26:15 | your soul = you (emphatic). Heb. nephesh. Ap. 13. break = violate. Heb. parar, break asunder, as in v. 46; not shabar, as in vv. 13, 19, 26.
+26:16 | 16, 17 (H1, p. 171). PUNISHMENT. burning ague. Probably = fever. consume the eyes = causing the sight to fail. heart = soul. Heb. nephesh. Ap. 13.
+26:17 | face. Fig. Anthropopatheia. Ap. 6. reign = rule.
+26:18 | 18- (G2, p. 171). DISOBEDIENCE. -18-20 (H2, p. 171). PUNISHMENT. sins. Heb. pl. of 'avon. Ap. 44. iii.
+26:19 | of. Genitive of cause, the power being the cause of the pride = your great pride. Cp. Ezek. 30. 6. So Ezek. 24. 21, where the sense is lost in A.V. by the rendering "the excellency of your strength".
+26:20 | of the land. Some codices, with Sam. and Sept., read "of the field".
+26:21 | 21- (G3, p. 171). DISOBEDIENCE. contrary. First occurrence, and only in this chapter (seven times). -21, 22 (H3, p. 171). PUNISHMENT.
+26:22 | wild beasts. These abounded in Palestine. (Deut. 32. 24. 2 Kings 17. 25. Isa. 13. 21, 22. Ezek. 14. 15, &c.)
+26:23 | 23 (G4, p. 171). DISOBEDIENCE.
+26:24 | 24-26 (H4, p. 171). PUNISHMENT.
+26:25 | And I = I also. gathered together = withdrawn or escaped to (cp. Jer. 21. 6-9. Ezek. 5. 12; 7. 15).
+26:26 | broken the staff of your bread. Fig. Metalepsis (Ap. 6), bread being put for the support it gives, and staff which it is; and the breaking of the staff put for the cutting off the supply. Cp. Is. 3. 1. Ezek. 4. 16; 5. 16; 14. 13. Ps. 105. 16. ten. Supply Ellipsis (Ap. 6) by supplying the word "then" = then ten: i.e. one oven shall be sufficient for ten families. Cp. 2 Kings 6. 28, 29.
+26:27 | 27 (G5, p. 171). DISOBEDIENCE.
+26:28 | 28-39 (H5, p. 171). PUNISHMENT.
+26:30 | high places: used for idolatrous worship (Num. 22. 41; 33. 52. Deut. 12. 2. Josh. 13. 17 (margin). Thus showing the helplessness of the gods worshipped. images. Heb. hammanim, sun-idols. Cp. v. 1. 2 Chron. 34. 4. This was prophetic. carcases. Fig. Catachresis. Ap. 6. Another prophecy. See 2 Kings 23. 20. 2 Chron. 34. 5. idols = logs of wood. Heb. gallulim, trunks, blocks, used in derision for idols. Also derived from galal = dung, or detestable thing. First occurrence; frequently in Ezekiel. My soul. Heb. nephesh. Ap. 13. Fig. Anthropopatheia. Ap. 6. This is the converse of verse 11.
+26:31 | sanctuaries, or holy places. Some codices, with one printed edition, Sam., and Syr., read the singular "sanctuary". smell. Fig. Anthropopatheia. Ap. 6. odours. Cp. Isa. 11. 3 (margin).
+26:32 | I. Emphatic = I myself.
+26:33 | heathen = nations.
+26:34 | enjoy. Fig. Prosopopatheia. Ap. 6. Cp. 18. 25.
+26:35 | rest. Fig. Prosopopatheia. Ap. 6. Cp. Jer. 34. 17. 2 Chron. 36. 21.
+26:39 | iniquity = perversity. Heb. 'avah. Ap. 44. iv.
+26:40 | 40-41 (E, p. 156). REPENTANCE. If they shall confess. This is the one abiding condition for national blessing and restoration. trespass ... trespassed. Heb. ma'al. Ap. 44. xi.
+26:41 | walked. Fig. Anthropopatheia. Ap. 6.
+26:42 | Jacob. This is the only place where the order of the three Patriarchs is inverted.
+26:43 | their soul = they. Heb. nephesh. Ap. 13.
+26:44 | when, &c. Cp. Deut. 4. 31. 2 Kings 13. 23. Rom. 11. 1, 2, 28, 29.
+26:45 | I am the LORD. Cp. Ps. 144. 15; 33. 12.
+26:46 | children. Heb. sons. in mount Sinai: thus concluding with the words with which this section began in 25. 1.
+27:1 | 27. (B2, p. 171). THEIR VOWS TO JEHOVAH. the LORD. Heb. Jehovah. Ap. 4. spake. See note on 5. 14.
+27:2 | children = sons. man = Heb. 'ish. Ap. 14. ii. make a singular vow = make a special vow. Heb. "separate a vow" because a vow was separated into negative or positive, restraining or promising, i.e., "binding" or "loosing". persons = souls. Heb. nephesh. Ap. 13.
+27:3 | 3-7 (c1, above). ABILITY (PERSONS). shekels. See Ap. 51. II.
+27:4 | it = that soul. Cp. note on v. 2.
+27:9 | 9, 10 (e1, above). CLEAN BEASTS. men. Some codices, with Sam., read "one". offering. Heb. korban. Ap. 43. II. i. holy. See note on Ex. 3. 5.
+27:10 | alter. Heb. malaph, to change for the better. Cp. Ps. 55. 19. change. Heb. mur, to change for the worse: note the Introversion.
+27:11 | 11-13 (f1, p. 173). UNCLEAN BEASTS. offer = bring near. Heb. karab. Ap. 43. I. i. sacrifice = Heb. korban. Ap. 43. II. i. present = make it stand, as in v. 8.
+27:12 | as thou, &c. = as thou, O priest, valuest it so, &c.
+27:13 | at all redeem it. Fig. Polyptoton (Ap. 6). Heb. "redeeming he will redeem it". Well translated by "at all". See note on Gen. 26. 28. Heb. ga'al. See note on Ex. 6. 6.
+27:14 | 14, 15 (c2, p. 173). HOUSES. man. Heb. 'ish. Ap. 14. ii. sanctify = set apart. Heb. kadash. See note on "holy", Ex. 3. 5. his: i.e. his own house, and what was therein.
+27:16 | 16-25 (d2, p. 173). FIELDS. homer. Heb. homer, as in Num. 11. 32. Is. 5. 10. Ezek. 45. 11, 13, 14. Hos. 3. 2. To be distinguished from 'omer, in Ex. 16. 16, 18, 22, 32, 33, 36. See Ap. 51. III. 3.
+27:17 | If. Some codices, with Sam., Sept., and Syr., read "And if".
+27:21 | devoted. Heb. haram, denotes a total and complete separation, which does not admit of redemption. First occ. of haram. It is rendered "devoted" only in this chapter (six times) and once in Num. 18. 14.
+27:23 | estimation = valuation.
+27:26 | 26 (e2, p. 173). CLEAN BEASTS. Only = nevertheless. Rendered in v. 28, "notwithstanding".
+27:27 | 27 (f2, p. 173). UNCLEAN BEASTS.
+27:28 | 28, 29 (c3, p. 173). DEVOTED THINGS. Notwithstanding. See note on v. 26. man = 'adam. Ap. 14. i. is = it [is].
+27:30 | 30-33 (d3, p. 173). TITHES. or. Some codices, with Sam., Jon., Sept., Syr., and Vulg., have this "or" in the text.
+27:31 | man. Heb. 'ish. Ap. 14. ii.
+27:32 | passeth under the rod. The custom of counting was for the animals to pass through a small opening, and to be counted with the rod as they passed. Every tenth one was to be taken and marked; and not to be chosen (v. 33). This custom is referred to in Ezek. 20. 37, i.e. once more claimed and marked as belonging to Jehovah.
+27:34 | 34 (J, p. 173). JEHOVAH'S COMMAND TO MOSES. in mount Sinai. Cp. note on 1. 1.

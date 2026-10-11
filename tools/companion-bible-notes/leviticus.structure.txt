@@ -1,0 +1,523 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Leviticus
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/3. Leviticus_text.pdf); [[pdf-page:]] is the
+# page of that file each diagram is on. Notation: README.md here.
+#
+# A printed reference that reaches outside the diagram's anchor chapter
+# can't be a REF_RANGE, which is verses of one chapter; such a line keeps
+# its reference at the head of its TEXT instead, as printed.
+
+[[diagram: The Structure of the Book as a Whole (Repeated Alternation and Introversion)]]
+[[anchor: Leviticus 1:1]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 1]]
+
+A1 |  | 1. 1—7. 38. THE OFFERINGS AND THEIR LAWS.
+B1 |  |
+  D |  | 8. 1—10. 20. PRIESTHOOD.
+    E |  | 11. 1—15. 33. CEREMONIAL LAWS (PROMULGATION).
+C |  | 16. 1-34. ISRAEL'S FAST (DAY OF ATONEMENT).
+A2 |  | 17. 1-16. THE OFFERINGS AND THEIR REQUIREMENTS.
+B2 |  |
+    E |  | 18. 1—20. 27. CEREMONIAL LAWS (PENALTIES).
+  D |  | 21. 1—22. 33. PRIESTHOOD.
+C |  | 23. 1—25. 55. JEHOVAH'S FEASTS.
+A3 |  | 26. 1—27. 34. THE OFFERERS AND THEIR CHARGES.
+
+[[diagram: 1. 1—7. 38 (A1, p. 131). The Offerings and their Laws (Introversion and Extended Alternation)]]
+[[anchor: Leviticus 1:1]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 3]]
+
+A1 |  |
+  D | 1, 2 | Introduction (General).
+[[group: -]]
+  x |  |
+    E | 3-17 | Burnt Offerings.
+      F |  | 2. 1-16. Meal Offerings.
+        G |  |
+          a |  | 3. 1-17. Peace Offerings.
+            b |  | 4. 1—6. 7. Sin Offerings.
+[[group: The Offerings.]]
+  x |  |
+    E |  | 6. 8-13. Burnt Offerings.
+      F |  | 6. 14-23. Meal Offerings.
+        G |  |
+            b |  | 6. 24—7. 10. Sin Offerings.
+          a |  | 7. 11-34. Peace Offerings.
+[[group: The Law of the Offerings.]]
+  D |  | 7. 35-38. Conclusion (Particular).
+
+[[diagram: 8. 1—10. 20 (D, A, p. 131). Priesthood (Division)]]
+[[anchor: Leviticus 8:1]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 11]]
+
+A |  |
+  H1 |  | 8. 1-36. Consecration.
+  H2 |  | 9. 1-24. Ministration.
+  H3 |  | 10. 1-20. Transgression.
+
+[[diagram: 8. 1-36 (H1, above). Consecration (Alternation)]]
+[[anchor: Leviticus 8:1-36]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 11]]
+
+H1 |  |
+  c | 1-3 | Command.
+    d | 4-30 | Obedience.
+  c | 31-35 | Command.
+    d | 36 | Obedience.
+
+[[diagram: 4-30 (d, above). Obedience (Alternation)]]
+[[anchor: Leviticus 8:4-30]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 11]]
+
+d |  |
+  e | 4-9 | Investiture of Aaron.
+    f | 10-12 | Anointing of Tabernacle and Aaron.
+  e | 13 | Investiture of Aaron's sons.
+    f | 14-30 | Offerings for Aaron and his sons.
+
+[[diagram: 9. 1-24 (H2, p. 142). Ministration (Repeated Alternation)]]
+[[anchor: Leviticus 9:1-24]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 13]]
+
+H2 |  |
+  e1 | 1-4- | Command.
+    f1 | -4 | Appearing of Jehovah promised.
+  e2 | 5, 6- | Obedience.
+    f2 | -6 | Appearing of glory promised.
+  e3 | 7-23- | Command and obedience.
+    f3 | -23, 24 | Appearing of the glory of Jehovah.
+
+[[diagram: 10. 1-20 (H3, p. 144). Transgression (Introversion)]]
+[[anchor: Leviticus 10:1-20]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 14]]
+
+H3 |  |
+  g | 1-7 | Disobedience (positive sin).
+    h | 8-11 | Command (as to holy and unclean).
+    h | 12-15 | Command (as to meal offering).
+  g | 16-20 | Disobedience (negative failure).
+
+[[diagram: 11. 1—15. 33 (E, p. 131). Ceremonial Laws (Division)]]
+[[anchor: Leviticus 11:1]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 15]]
+
+E |  |
+  J1 |  | 11. 1-47. Food and defilement.
+  J2 |  | 12. 1-8. Child-bearing.
+  J3 |  | 13. 1—14. 57. Leprosy.
+  J4 |  | 15. 1-33. Issues.
+
+[[diagram: 11. 1-47 (J1 above). Food and Defilement (Division)]]
+[[anchor: Leviticus 11:1-47]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 15]]
+
+J1 |  |
+  K1 | 1-23 | Food.
+  K2 | 24-47 | Defilement.
+
+# The page prints this heading "1—3"; K1 above and the members give 1-23.
+[[diagram: 1-23 (K1 above). Food (Division)]]
+[[anchor: Leviticus 11:1-23]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 15]]
+
+K1 |  |
+  i1 | 1-8 | Beasts (pos., 1-3; neg., 4-8).
+  i2 | 9-12 | Water animals (pos., 9; neg., 10-12).
+  i3 | 13-19 | Flying animals.
+  i4 | 20-23 | Creeping or swarming animals (neg., 20; pos., 21, 22; neg., 23).
+
+[[diagram: 24-47 (K2, 146). Defilement (Alternation)]]
+[[anchor: Leviticus 11:24-47]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 16]]
+
+K2 |  |
+  j | 24, 25 | Command.
+    k | 26-43 | Clean and unclean.
+  j | 44, 45 | Command.
+    k | 46, 47 | Clean and unclean.
+
+[[diagram: 12. 1-8 (J2, p. 146). Child-bearing (Division)]]
+[[anchor: Leviticus 12:1-8]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 17]]
+
+J2 |  |
+  L1 | 1-5 | Ordinances.
+  L2 | 6-8 | Offerings.
+
+[[diagram: 12. 1-5 (L1, above). Ordinances (Extended alternation)]]
+[[anchor: Leviticus 12:1-5]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 17]]
+
+L1 |  |
+  l | 1, 2- | Man child.
+[[group: -]]
+    m | -2, 3 | Separation (seven days)
+      n | 4 | Continuance (thirty-three days)
+[[group: Forty days.]]
+  l | 5- | Maid child.
+[[group: -]]
+    m | -5- | Separation (fourteen days)
+      n | -5 | Continuance (sixty-six days)
+[[group: Eighty days.]]
+
+[[diagram: 13. 1—14. 57 (J3, p. 146). Leprosy (Alternations)]]
+[[anchor: Leviticus 13:1]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 18]]
+
+J3 |  |
+  M |  | 13. 1-46. Leprosy in man.
+    N |  |
+      o |  | 13. 47-57. In a garment.
+        p |  | 13. 58. Cleansing of garment.
+          q |  | 13. 59. Law for garment.
+  M |  | 14. 1-32. Law of Leprosy.
+    N |  |
+      o |  | 14. 33-47. In a house.
+        p |  | 14. 48-53. Cleansing of house.
+          q |  | 14. 54-57. Law for all cases.
+
+[[diagram: 14. 51, 52. The Cleansing of the House (Introversion)]]
+[[anchor: Leviticus 14:51-52]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 22]]
+
+s | 51- | Cedar wood, hyssop, and scarlet.
+  t | -51- | And the living bird.
+    u | -51- | Blood of the bird and running water.
+      v | -51 | The house.
+      v | 52- | The house.
+    u | -52- | Blood of the bird and running water.
+  t | -52- | And the living bird.
+s | -52 | Cedar wood, hyssop, and scarlet.
+
+[[diagram: 15 (J4, p. 146). Issues (Alternation)]]
+[[anchor: Leviticus 15:1-33]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 23]]
+
+J4 |  |
+  O | 1-12 | Men.
+    P | 13-18 | Their cleansing.
+  O | 19-27 | Women.
+    P | 28-33 | Their cleansing.
+
+[[diagram: 16. 1-34 (C, p. 131). Israel's Fast. (The Day of Atonement.) (Introversion)]]
+[[anchor: Leviticus 16:1-34]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 24]]
+
+C |  |
+  Q | 1, 2 | Times for entering within the Vail (Neg.).
+    R | 3 | For himself alone.
+      S | 4 | Garments put on.
+        T1 | 5 | Two goats and ram (people).
+          U1 | 6 | For himself (bullock).
+        T2 | 7-10 | Two goats (people).
+          U2 | 11-14 | For himself (bullock).
+        T3 | 15-22 | Two goats (people).
+      S | 23 | Garments changed.
+    R | 24-28 | For himself and people.
+  Q | 29-34 | Time for entering within the Vail (Pos.).
+
+[[diagram: 17. 1-16 (A2, p. 131). The Offerings and their Requirements (Division)]]
+[[anchor: Leviticus 17:1-16]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 26]]
+
+A2 |  |
+  w1 |  | 17. 1-9. The appointed place.
+  w2 |  | 17. 10-16. The appointed food.
+
+[[diagram: 18. 1—20. 27 (E, p. 131). Ceremonial Laws (Penalties) (Division)]]
+[[anchor: Leviticus 18:1]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 27]]
+
+E |  |
+  x1 |  | 18. 1-18. Unlawful connections.
+  x2 |  | 18. 19-30. Unlawful lusts.
+  x3 |  | 19. 1-37. Unlawful practices.
+  x4 |  | 20. 1-27. Unlawful defilements.
+
+[[diagram: 19-30 (x2, p. 158). Unlawful Lusts (Repeated Alternation)]]
+[[anchor: Leviticus 18:19-30]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 28]]
+
+x2 |  |
+  y1 | 19-24- | Commands.
+    z1 | -24, 25 | Reason.
+  y2 | 26 | Command.
+    z2 | 27-29 | Reason.
+  y3 | 30 | Command.
+
+[[diagram: 19. 1-37 (x3, p. 158). Unlawful Practices (Repeated Alternation)]]
+[[anchor: Leviticus 19:1-37]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 28]]
+
+x3 |  |
+  W1 | 1-8 | Sundry commands and prohibitions.
+    X | 9, 10 | Gleanings.
+  W2 | 11-22 | Sundry commands and prohibitions.
+    X | 23-25 | Firstfruits.
+  W3 | 26-37 | Sundry commands and prohibitions.
+
+[[diagram: 20. 1-27 (x4, p. 158). Unlawful Defilements (Introversion)]]
+[[anchor: Leviticus 20:1-27]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 30]]
+
+x4 |  |
+  Y | 1-6 | Molech and witchcraft.
+    Z | 7 | Sanctification.
+      A | 8 | Charge as to obedience.
+        B | 9 | Death penalty: cursing parents.
+        B | 10-21 | Death penalty: criminal connections.
+      A | 22-25 | Charge as to obedience.
+    Z | 26 | Sanctification.
+  Y | 27 | Witchcraft.
+
+# The page prints this heading "21. 1—22. 31"; the book's Structure (p. 131)
+# and C2 below give 22. 33.
+[[diagram: 21. 1—22. 33 (D, p. 131). Priesthood (Division)]]
+[[anchor: Leviticus 21:1]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 32]]
+
+D |  |
+  C1 |  | 21. 1—22. 16. Persons.
+  C2 |  | 22. 17-33. Offerings.
+
+[[diagram: 21. 1—22. 16 (C1, above). Persons (Introversion)]]
+[[anchor: Leviticus 21:1]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 32]]
+
+C1 |  |
+  D |  | 21. 1-15. Defilements (mourning).
+    E |  | 21. 16-24. Blemishes.
+  D |  | 22. 1-16. Defilements (uncleanness).
+
+# H is printed indented beyond J, under the first F only; it is kept
+# here as F's third member.
+[[diagram: 21. 1-15 (D, above). Defilements (Mourning) (Introversion and Alternation)]]
+[[anchor: Leviticus 21:1-15]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 32]]
+
+D |  |
+  F |  |
+    G |  |
+      a | 1-5 | Relations.
+        b | 6 | Reason.
+    J |  |
+      c | 7- | Wife.
+        d | -7, 8 | Reason.
+    H | 9 | Daughter.
+  F |  |
+    G |  |
+      a | 10-12- | Parents.
+        b | -12 | Reason.
+    J |  |
+      c | 13-15- | Wife.
+        d | -15 | Reason.
+
+[[diagram: 22. 1-16 (D, p. 163). Defilements (Uncleanness) (Repeated Alternation)]]
+[[anchor: Leviticus 22:1-16]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 33]]
+
+D |  |
+  e1 | 1, 2- | General.
+    f1 | -2 | Reason.
+  e2 | 3- | Uncleanness.
+    f2 | -3 | Reason.
+  e3 | 4-8- | Leprous, &c.
+    f3 | -8 | Reason.
+  e4 | 9-16- | Strangers.
+    f4 | -16 | Reason.
+
+[[diagram: 17-33 (C2, p. 163). Offerings (Introversion)]]
+[[anchor: Leviticus 22:17-33]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 34]]
+
+C2 |  |
+  K | 17, 18- | General charge.
+    L | -18-21 | Burnt offerings and Peace offerings.
+      M | 22-25 | Offerings; their perfection.
+      M | 26-28 | Offerings; their age.
+    L | 29, 30 | Meal offering.
+  K | 31-33 | General charge.
+
+# Heading kept as printed ("26. 3"); the book's Structure (p. 131) has
+# this member end at 25. 55, and Q below ends at 26. 2.
+[[diagram: 23. 1—26. 3 (C, p. 131). Jehovah's Feasts (Introversion)]]
+[[anchor: Leviticus 23:1]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 34]]
+
+C |  |
+  N |  |
+    P |  | 23. 1-44. Weekly and annual.
+      Q |  | 24. 1-9. Repetitions from Exodus.
+        O |  | 24. 10-23. Episode of blasphemer.
+  N |  |
+    P |  | 25. 1-55. Sabbatic and jubilee.
+      Q |  | 26. 1, 2. Repetitions from Exodus.
+
+# The page braces V1-W1, V2-W2 and V3-W3 in pairs, without labels.
+[[diagram: 23. 1-44 (P, above). Weekly and Annual Feasts (Introversions and Repeated Alternation)]]
+[[anchor: Leviticus 23:1-44]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 34]]
+
+P |  |
+  R |  |
+    T1 | 1, 2 | General charge.
+      U1 | 3 | Seventh day (sabbath rest).
+    T2 | 4 | General charge.
+      S |  |
+        V1 | 5-8 | Passover.
+          W1 | 9-14 | Unleavened bread.
+        V2 | 15-21 | Pentecost.
+          W2 | 22 | Harvest.
+        V3 | 23-25 | Trumpets.
+          W3 | 26-32 | Atonement.
+        V4 | 33-36 | Tabernacles.
+  R |  |
+    T3 | 37, 38 | General charge.
+      U2 | 39-43 | Seventh month. (Booths.)
+    T4 | 44 | General charge.
+
+[[diagram: 25. 1-55 (P, p. 165). Sabbatic and Jubilee Years (Alternation)]]
+[[anchor: Leviticus 25:1-55]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 37]]
+
+P |  |
+  X | 1, 2 | The sabbatic year.
+    Y | 3-7 | The six years.
+  X | 8-13 | The jubilee year.
+    Y | 14-55 | The forty-nine years.
+
+[[diagram: 14-55 (Y, p. 168). The Forty-nine Years (Repeated Alternation)]]
+[[anchor: Leviticus 25:14-55]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 38]]
+
+Y |  |
+  Z1 | 14-19 | Goods.
+    A1 | 20-22 | Case of want.
+  Z2 | 23, 24 | Land.
+    A2 | 25-28 | Case of poverty.
+  Z3 | 29-34 | Houses.
+    A3 | 35 | Case of poverty.
+  Z4 | 36-38 | Money.
+    A4 | 39-41 | Cases of poverty.
+  Z5 | 42-46 | Bondage.
+    A5 | 47-55 | Cases of poverty.
+
+[[diagram: 26. 3—27. 34 (A3, p. 131). The Offerers and their Charges in Mount Sinai (Division)]]
+[[anchor: Leviticus 26:3]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 40]]
+
+A3 |  |
+  B1 |  | 26. 3-46. Jehovah's charge to the offerers.
+  B2 |  | 27. 1-34. The offerers' vows to Jehovah.
+
+[[diagram: 26. 3-46 (B1, above). Jehovah's Charge (Introversion, and Repeated Alternation)]]
+[[anchor: Leviticus 26:3-46]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 40]]
+
+B1 |  |
+  C |  |
+    E | 3 | The People. Obedience.
+      F | 4-13 | Blessings.
+  D |  |
+    G1 | 14, 15 | Disobedience.
+      H1 | 16, 17 | Punishment.
+    G2 | 18- | Disobedience.
+      H2 | -18-20 | Punishment.
+    G3 | 21- | Disobedience.
+      H3 | -21, 22 | Punishment.
+    G4 | 23 | Disobedience.
+      H4 | 24-26 | Punishment.
+    G5 | 27 | Disobedience.
+      H5 | 28-39 | Punishment.
+  C |  |
+    E | 40, 41 | The People. Repentance.
+      F | 42-46 | Blessings.
+
+# Printed below the "4—13 (F)" heading, but these four members are the
+# four "If"s of the chapter (see the note on 26. 3), so this is the
+# Introversion announced under "3 (E, above). OBEDIENCE". It prints no
+# bracket letter.
+[[diagram: 3 (E, above). Obedience (Introversion)]]
+[[anchor: Leviticus 26:3]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 40]]
+
+a | 3, 4 | Obedience. Consequence.
+  b | 23, 24 | Disobedience.
+  b | 27, 28 | Disobedience.
+a | 40, 42 | Obedience. Confession.
+
+[[diagram: 27 (B2, p. 171). Their Vows to Jehovah]]
+[[anchor: Leviticus 27:1-34]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 42]]
+
+B2 |  |
+  J | 1 | Jehovah's command to Moses.
+[[group: -]]
+  K |  |
+    L1 |  |
+      c1 | 2-7 | Ability
+        d1 | 8 | Inability
+[[group: Personalty.]]
+      M1 |  |
+        e1 | 9, 10 | Clean
+          f1 | 11-13 | Unclean
+[[group: Beasts.]]
+    L2 |  |
+      c2 | 14, 15 | Houses.
+        d2 | 16-25 | Fields.
+[[group: Property.]]
+      M2 |  |
+        e2 | 26 | Clean
+          f2 | 27 | Unclean
+[[group: Beasts.]]
+    L3 |  |
+      c3 | 28, 29 | Devoted
+        d3 | 30-33 | Tithes
+[[group: Property.]]
+  J | 34 | Jehovah's command to Moses.
+[[group: -]]
+
+[[diagram: 27. 10. Alter and Change (Introversion)]]
+[[anchor: Leviticus 27:10]]
+[[pdf: 3. Leviticus_text.pdf]]
+[[pdf-page: 43]]
+
+g |  | alter (bad for good).
+  h |  | change (good for bad).
+  h |  | good for bad.
+g |  | bad for good.

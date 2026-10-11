@@ -57,7 +57,8 @@ interface BundleBook {
   book: string;
   diagrams: BundleDiagram[];
   // verse null = a book-level introductory note, printed before the text
-  prose: { verse: number | null; text: string }[];
+  // chapter is absent in bundles built before multi-chapter books
+  prose: { chapter?: number; verse: number | null; text: string }[];
   // the page's own heading over those introductory notes
   prose_heading?: string | null;
 }
@@ -129,7 +130,7 @@ function buildParsedSource(bundle: Bundle): {
         introLabelled = true;
       }
       entries.push({
-        chapter: b.diagrams[0]?.anchor_chapter ?? 1,
+        chapter: note.chapter ?? b.diagrams[0]?.anchor_chapter ?? 1,
         verse: note.verse,
         position_ref: positionRef,
         text: note.text,

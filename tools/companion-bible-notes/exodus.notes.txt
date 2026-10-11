@@ -1,0 +1,839 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Exodus
+# Marginal (side) notes, to be read alongside the KJV text.
+#
+# Format:  C:V | TEXT  —  verse 0 = a book-level introductory note
+#
+# COMPLETE: all 40 chapters, every printed note (795 verse entries plus the
+# introductory note on the title), printed pages 72-130.
+#
+# ---------------------------------------------------------------------
+# Sources and method — as for Genesis (see genesis.notes.txt)
+# ---------------------------------------------------------------------
+# Read from the page scans inside thecompanionbible_202504_pdf/
+# 2. Exodus_text.pdf, rendered at 200 dpi, with the HOCR used to locate the
+# note column and to cross-check. After transcription:
+#   - completeness: every note-column line of the HOCR was matched against
+#     this file (the only misses were KJV text and OCR-garbled lines);
+#   - provenance: every word of this file was looked up in the HOCR; the
+#     leftovers are Hebrew transliterations and words the OCR broke;
+#   - numerals: every chapter-and-verse pair not found verbatim in the OCR
+#     was cropped from the scan and checked by eye.
+# A verse whose notes run over a page break is joined into one entry.
+# Hebrew is written in plain ASCII, as elsewhere in this app.
+#
+# ---------------------------------------------------------------------
+# Corrections (demonstrable)
+# ---------------------------------------------------------------------
+#   - 7:16  "God. Heb. Elohim. Ap. 6" -> Ap. 4, and
+#     13:17 "God. Heb. Elohim. Ap. 14" -> Ap. 4: every other Elohim note
+#     cites Ap. 4 ("The Divine Names and Titles"); Ap. 6 is Figures of
+#     Speech, Ap. 14 the words for "Man".
+#   - 6:10  item (1) of the list prints "13. 1" struck through on the page
+#     (a printer's cancel); it is omitted.
+#
+# Left as printed (likely slips, not provable from the page):
+#   - 14:31 "Deut. 35. 5" (Deuteronomy has 34 chapters; 34. 5 likely).
+#   - 17:8  "Deut. 25. 8" (the words quoted are 25. 18).
+#   - 32:15 "the fifth ascent was in 24. 9" (the summary at 19:3 calls
+#     24. 9 the fourth).
+#   - 37:1  "See note on 24. 22" (ch. 24 has 18 verses; 25. 22 likely).
+#
+# Re-run `node build.mjs --book=exodus` after editing.
+
+0 | TITLE, Moses. See Ap. 2. Exodus. Greek, The way out, or going out. Heb. v'elleh sh'moth = "these are the names". It is the book of Redemption (Ex. 6. 6; 15. 13). Hence the work of redemption is called "Exodus" (Gr. Luke 9. 31, "decease"), and its types are types of Redemption. JAH, the name of the Redeemer, occurs first in Ex. 15. 2, and in the Psalms, in the Exodus book (Ps. 68. 4).
+
+1:1 | Now. The conj. "now" = "and"; thus connecting Ex. closely with Gen.: Lev., Num., and Deut. begin in the same way. Thus the Pentateuch is one book. For the relation of Exodus to the other books of the Pentateuch, see Ap. 1. names. Thus Redemption is connected with names. Cp. 1. 1-4 with 39. 6, 7, 8-14. The Name of the Redeemer is published throughout. He reveals His name: 3. 14, 15; 6. 3; 33. 19; 34. 5-7. Moses speaks to Pharaoh in His name: 5. 23. Pharaoh raised up to add glory to it: 9. 16. Law given in the name of Jehovah: 20. 2. His name in the Angel: 23. 21. God knows Moses by his name: 33. 12, 17. Bezaleel and Aholiab, &c.: 31. 26; 35. 30, 34. Names of Israel's sons: 1. 1-4; and 28. 9-12, 15-21; 39. 6, 7, 8-14. children = sons; and so throughout O.T. came into Egypt. Cp. Gen. 46. man. Heb. 'ish. See Ap. 14. ii.
+1:2 | Reuben. The order is the six sons of Leah, one of Rachel, two of Bilhah, and two of Zilpah. Note the Introversion of these four.
+1:5 | souls. Heb. nephesh (Ap. 13). seventy. See on Gen. 46. 26, Deut. 10. 22, and Acts 7. 14.
+1:6 | all. Levi survived him about twenty-three years. Cp. Gen. 50. 26 and Ex. 6. 16.
+1:7 | And. Note the Fig. Polysyndeton (Ap. 6), greatly emphasising each particular. Note five "ands", the number of grace. See Ap. 10. fruitful; as trees. increased. Heb. swarmed, as fishes. multiplied. Cp. Gen. 1. 28. exceeding. Fig. Epizeuxis (Ap. 6), repeated for emphasis. Heb. exceedingly. Fig. Epizeuxis (Ap. 6). Note the Fig. Synonymia (Ap. 6).
+1:8 | arose. Heb. kum, stood up. Always denotes a standing up in the place of another whom he removed. See Dan. 2. 31, 39, 44; 3. 24. new king = a fresh dynasty. "New" here is used in the sense of being quite different from what preceded. See Deut. 32. 17. Judg. 5. 8, and cp. heteros in Acts 7. 18, "another" of a different kind [not allos, another of the same kind]. This Pharaoh was of a different race and dynasty, as shown by Josephus, who says "the crown being come into another family" (Ant. ii, 9). He was the Assyrian of Isa. 52. 4. See Ap. 37.
+1:10 | deal wisely = diplomatically. The wisdom of Egypt ended in Pharaoh having to bring up, educate, and prepare the very man who was to accomplish what he feared. Cp. Job 5. 13. Prov. 19. 21; 21. 30. Ps. 33. 10, 11. Zoan was the capital of Egypt, and noted for wisdom. But cp. God's comment in Isa. 19. 11, 13; and Ps. 78. 12, 13. falleth out. Aram., Sam., and Sept. read "befall us."
+1:11 | taskmasters. Heb. sarei missim is Egyptian for chiefs of tribute, allotters and exactors of labour. treasure cities = store cities. All now known and named. Pithom is the Egyptian Pa-Tum, the abode of the god Tum = the Greek Heroopolis = city of the store-houses. Raamses. Said to be so called because built by Ramases II, but not certain.
+1:12 | multiplied and grew = increasingly multiplied. Fig. Hendiadys (Ap. 6). grieved = filled with alarm.
+1:13 | with rigour = crushingly.
+1:15 | the king of Egypt. See Ap. 37.
+1:16 | them: i.e. the children. stools. Heb. "two stones". Probably the stone bath in which the children were bathed. kill him. This was another assault of Satan, to destroy the male children, and so prevent "the seed of the woman" from coming into the world. See Ap. 23. But God intervened by providing the Hebrew midwives, and preserving and preparing Moses.
+1:17 | God. Heb. Eth ha-'Elohim, very emphatic for the true or triune God. as = according as. saved = suffered ... to live.
+1:20 | God. Heb. Elohim. Ap. 4.
+1:21 | houses = families or progeny. Fig. Metonymy (of Subject). Ap. 6.
+1:22 | born. Sam., Onk., Jon., and Vulg. add "to the Hebrews." save alive = suffer to live.
+2:1 | a man. Heb. 'ish, Ap. 14. ii. = Amram, 6. 16-20. house = lineage. Fig. Metonymy (of Subject), Ap. 6. Levi. For Genealogy see Ap. 29.
+2:2 | a son. Moses was the seventh from Abraham, Abraham the seventh from Heber, Enoch the seventh from Adam. Miriam already born (v. 4. Num. 26. 59). Also Aaron (7. 7). goodly. Heb. tov. Sept. and Acts 7. 20, Heb. 11. 23, asteios to Theo, "beautiful to God" = divinely fair. hid him. This was "by faith" (Heb. 11. 23). Therefore she must have "heard" from God (Rom. 10. 17 and Heb. 11. 7), or it would have been through affection or fancy. All the steps taken (vv. 2-4) were the result of believing what she had heard from God.
+2:3 | ark. Cp. Gen. 6. 14. bulrushes = papyrus, made by the same Divine instructions as Noah's (Rom. 10. 17). flags = reeds. Cp. Isa. 18. 2.
+2:4 | sister = Miriam. to wit = to know.
+2:6 | the babe wept. Heb. a babe weeping. compassion. In that tear lay the defeat of the enemy, the preservation of the Nation, the faithfulness of Jehovah's word, the bringing to naught "the wisdom of Egypt", and the coming of "the seed of the woman", Gen. 3. 15. Cp. 1. 10 and Job 5. 12, 13. (See Ap. 23.)
+2:10 | her son = as her son. Moses, prob. Egyptian water-saved, or Heb. drawn out of the water. No record of his Hebrew name.
+2:11 | 2. 11—14. 31 (B, p. 72). FREEDOM EFFECTED. (Repeated Alternation.) [For Structure see next page.] grown; and learned in all the wisdom of Egypt, but not yet of God. unto his brethren. Acts 7. 23, "it came into his heart". looked on: more than merely saw = regarded with lively sympathy. an Egyptian = a man ('ish), an Egyptian (Ap. 14. ii). an Hebrew = a man ('ish), a Hebrew (Ap. 14. ii).
+2:12 | he saw that there was no man: i.e. to help. Cp. same words in Is. 59. 16; 63. 5, and context there.
+2:13 | men. Heb. pl. of 'ish, or 'enosh. Ap. 14. strove = striving. he said. Supposing they would have understood. "But they understood not," Acts 7. 25. wrong. Heb. rash'a, Ap. 44. x.
+2:14 | Who made thee ... ? Fig. Erotesis (Ap. 6) for emphasis. Spoken by a Hebrew; cp. Gen. 37. 8. Luke 19. 14. a prince. Heb., "a man ('ish), a prince". feared. The "not fearing," in Heb. 11. 27 refers to Ex. 10. 28, 29.
+2:15 | the face of. Fig. Pleonasm (Ap. 6). a well. Heb. b'er. See note on Gen. 21. 19. The well, i.e. of Jethro.
+2:16 | priest: or chieftain exercising priestly functions, as Job and Melchizedec. Jethro (3. 1) is called Reuel (v. 18).
+2:17 | drove them away. Probably the only well (v. 15); hence cause of contention. Cp. Gen. 21. 25; 26. 15, 18, 20, 21, 22. helped. Cp. Gen. 29. 10.
+2:18 | Reuel. Heb. = friend of God. A true worshipper, 18. 12. Same as Raguel, Num. 10. 29.
+2:19 | An Egyptian. Heb. a man ('ish), an Egyptian (Ap. 14. ii).
+2:20 | where? ... why? Fig. Erotesis (Ap. 6).
+2:21 | content = well pleased.
+2:22 | he. Many codices and a special reading called sevir (Ap. 34), read "she". Gershom. Heb. "a stranger here".
+2:23 | the king of Egypt. See Ap. 37. children = sons. sighed. Heb. 'anach, under pressure of evil. cried. Heb. z'ak: with a loud voice, from sorrow or fear. cry. Heb. shav'a, for help in distress. Note the Fig. Synonymia (Ap. 6), to emphasise the greatness of the distress; see also vv. 24 and 25. Can it be that (according to Lightfoot II, 22, Pitman) Pss. 88 and 89 come in here? If so, the latter is a wondrous prophecy, containing "Maschil" = instruction. For Heman and Ethan, see note on 1 Chron. 6. 44, and cp. 1 Kings 4. 31. God = Elohim the Creator in heaven, not yet revealed to them as the Covenant Jehovah.
+2:24 | groaning. Heb. na'ak, denoting heaviest affliction. Note the Fig. Synonymia: heard ... remembered ... looked ... had respect. Anaphora: with ... with ... with; see note, Gen. 50. 24, not yet revealed to them as Jehovah. Fig. Repetitio. Ap. 6. God, repeated five times. Also the Fig. Anthropopatheia (Ap. 6).
+3:1 | kept the flock. Forty years, Acts 7. 30. Jethro = Reuel, 2. 18. Midian. A descendant of Abraham, by Keturah. Moses was called in this land (Arabia); Mahomet also arose there. backside. Would be the West side, very fertile. First mention of Desert of Sinai is in connection with feeding a flock! God. Heb. Elohim. Ap. 4. Horeb. Never used in New Testament. There "the wisdom of Egypt" had to be unlearned and God made known, Isa. 50. 4.
+3:2 | 3. 2—4. 17. [For Structure see next page.] Angel of the LORD. Heb. Jehovah (Ap. 4). Gen. of App. (Ap. 17): i.e. Jehovah Himself, v. 4, then "God" (v. 4). Cp. Gen. 18. 1, 13, 17, 20, 22, 33; 19. 1, 24; and cp. Gen. 32. 24, 30 with Hos. 12. 3, 4. appeared. Forty years after. bush burned. Same lesson as the "furnace" of Gen. 15. 17.
+3:4 | God called. Only here in Exodus. See note on 19. 3. Heb. Elohim. Ap. 4. Moses, Moses. Fig. Epizeuxis (Ap. 6). Cp. Gen. 22. 11.
+3:5 | He [God = Elohim] said. Occ. four times in Ex. (3. 5, 6, 12, 14). is. Heb. "it [is]". holy = Separated, or set apart [for God]. Always the rendering of Heb. kodesh (first occ. here) except Ps. 42. 4, where it is hagag = holy day; and De. 33. 8, Ps. 16. 2; 86. 2; 89. 19; 145. 17, where it is hasid = favour, or grace. Kodesh must have one identical meaning (as above) in all passages; and does not imply moral quality except when used of God Himself. It is rendered "consecrated", "dedicated", "hallowed", "holiness", "saint", and "sanctuary", which are distinguished in the notes under their respective occurrences.
+3:6 | I. Pronoun emphatic. God = 'Elohim, the Creator. Note the five-fold repetition. (Ap. 10). Christ founds the doctrine of Resurrection on this verse. See note on Matt. 22. 31, 32. afraid. Cp. Acts 7. 32.
+3:7 | the LORD said = Jehovah said (Heb. 'amar, requiring the words spoken). This expression occurs forty-five "sundry times" in Exodus, and in ten "divers manners" (see Ap. 10), and cp. Lev. 1. 1; 5. 14. Num. 3. 40, and see note on 6. 10:— (1) The LORD said, 3. 7; 33. 21. (2) To Moses (or to "him"), 4. 2, 4, 6, 11, 19; 6. 1; 7. 1, 14; 9. 22; 10. 1, 12, 21; 11. 1, 9; 14. 26; 16. 4, 28; 17. 5; 19. 9, 10, 24; 24. 12; 32. 7, 9, 33; 33. 1, 17; 34. 1, 27. (3) To Moses to say unto Aaron, 8. 16. (4) To Moses to say unto Pharaoh, 4. 21 (cp. 22); 8. 20; 9. 1, 13. (5) To Moses to rehearse to Joshua, 17. 14. (6) To Moses to charge the people, 19. 21. (7) To Moses to speak to the people, 11. 1 (cp. 2). (8) To Moses to say to the children of Israel, 14. 15; 20. 22; 33. 5. (9) To Moses and unto Aaron, 9. 8; 12. 43. (10) To Aaron, 4. 27. I have surely seen. Heb. "seeing I have seen". Fig. Polyptoton (Ap. 6); see note on Gen. 26. 28. All begins with God. All is of His grace. Note the five statements in vv. 7, 8; and "My People". Cp. Deut. 32. 8, 9.
+3:8 | deliver. Connect this with "serve" in v. 12; and connect both with 1 Thess. 1. 9, 10. good. Five-fold description of the land: good, large, milk, honey, place of the nations. See Ap. 10. milk and honey. Fig. Synecdoche (of Species). Ap. 6. Canaanites. Six nations named. The number of man (see Ap. 10). and. Note the Fig. Polysyndeton (Ap. 6).
+3:9 | children = sons.
+3:10 | I will send. Cp. Acts 7. 23. Pharaoh. See Ap. 37.
+3:11 | Who am I..? Fig. Erotesis, in expostulation (Ap. 6) for emphasis. Occupation with self is the cause of all distrust. Note these four instances. Cp. 4. 1, 10-12, 13. Very different from the Moses of 2. 11-14.
+3:12 | I will be with thee. Here the meaning of name "Jehovah" is anticipated. God. Heb. eth ha 'Elohim, very emphatic. God Himself = the Triune God. Cp. "deliver", v. 8.
+3:14 | God [Elohim] said. This expression occurs twice in Ex., only here in vv. 14 and 15. I AM THAT I AM. Heb. 'ehyeh 'asher 'ehyeh. I will be what I will be (or become). Ap. 48. I AM. Heb. 'ehyeh = I will be (speaking of Himself).
+3:15 | The LORD. Heb. Jehovah = He will be, spoken of by others. See Ap. 4 and cp. Rev. 1. 4, "which is" = continuance in time present; "which was" = continuance in time past; "which is to come" = continuance for ever. The French, "The Eternal", is a much better rendering than LORD, which = Master and Owner. What He will be is left to be filled up according to the needs of those with whom He is in covenant = He Who becometh Saviour, Redeemer, Deliverer, Strengthener, Comforter, &c. for ever. He changeth not. Mal. 3. 6. He is therefore Israel's God to-day, as then.
+3:16 | surely visited you. Fig. Polyptoton, "visiting I have visited you" (Ap. 6). Gen. 50. 24, 25. seen. Ellipsis of the second verb. Fig. Zeugma (Protozeugma). Ap. 6.
+3:18 | sacrifice. Heb. zabach. See Ap. 43. I, iv.
+3:19 | no, not, &c. Fig. Epitasis (Ap. 6).
+3:22 | borrow. This is a most unfortunate rendering. Heb. sha'al, to ask. Out of 168 occurrences, only six times "borrow", but 162 ask, beg, require, &c. Cp. 11. 2; 12. 35, 36. Ps. 2. 8. 1 Sam. 1. 20; 8. 10. Gen. 24. 47, 57; 32. 17; 43. 7. 1 Kings 3. 11. jewels: or articles. Cp. Gen. 15. 14 and v. 21 above.
+4:1 | behold. Fig. Asterismos. Ap. 6. they will not = suppose they will not. The LORD (Heb. Jehovah). Ap. 4.
+4:2 | the LORD said. See note on 3. 7, and cp. note on 6. 10.
+4:3 | He [Jehovah] said. Occurs nine times in Exodus: 4. 3, 7, 14; 15. 26; 24. 1; 33. 14, 19, 20; 34. 10. Cp. notes on 3. 7 and 6. 10.
+4:4 | caught it = stiffened it. Same word as "hardened" Pharaoh's heart.
+4:5 | God. Heb. Elohim. Ap. 4.
+4:6 | leprous. First occ. Nine so afflicted: Ex. 4. 6. Num. 12. 10. 2 Kings 5. 1, 27; 7. 3; 15. 5. (2 Chron. 26. 20). Matt. 8. 2; 26. 6. Luke 17. 12. (Ninth case, 21 individuals. Ap. 10.)
+4:8 | voice. Fig. Prosopopoeia (Ap. 6), by which the "sign" is personified.
+4:9 | these two signs. See note on 7. 17.
+4:10 | my LORD. Should be "Jehovah". One of the 134 places where "Jehovah" in the Primitive Text was altered to "Adonai". Ap. 32. not eloquent. Heb. "not a man of words" (Heb. 'ish. Ap. 14. ii). Supposed to contradict Acts 7. 22, but eloquence is no necessary part of "wisdom". With "all the wisdom of the Egyptians" he had not the wisdom needed for his work. The latter had to be learned at "the backside of the desert". slow. But "mighty". Cp. Acts 7. 22.
+4:11 | Who hath made, &c. Fig. Erotesis. Ap. 6. man = Heb. 'adam. Ap. 14. i.
+4:12 | I will be. Heb. 'ehyeh. See on 3. 14, 15.
+4:14 | Is not Aaron, &c. Fig. Erotesis in Negative affirmation. Ap. 6. the Levite. Why this? Was not Moses a Levite? Is it not to indicate that He whom He would send (v. 13) would be of the tribe of Judah?
+4:15 | put words (Heb. "the words") in his mouth. Cp. Num. 23. 5, 16; 22. 35. Deut. 18. 18. John 17. 8. This is a definition of Divine inspiration. I will be. Heb. 'ehyeh. See on 3. 14, 15.
+4:16 | he shall be. Fig. Repetitio (Ap. 6), for emphasis. thy spokesman. In ch. 7. 1 = "thy prophet": hence God's prophet is God's spokesman, "the man of God" (Deut. 33. 1. Ps. 90, Title), "God's man" who spoke for God. Qualified only by God's Spirit (Num. 11. 29), and God's Word (2 Tim. 3. 16—4. 4), and by God's making known what is to be spoken (Num. 12. 6).
+4:19 | the LORD said. See note on 3. 7, and cp. note on 6. 10. all. Not merely Pharaoh, but all the court faction. are dead. The counterpart to Matt. 2. 15 and 20. thy life = thy soul. Heb. nephesh. Ap. 13.
+4:20 | sons = Gershom and Eliezer. See on 2. 1. upon an ass. Still young. So that Moses married after many years in Midian. rod of God. His own rod is now thus dignified.
+4:21 | I will harden = I will embolden. By Heb. idiom active verbs of doing are used of suffering or permitting a thing to be done. Cp. Gen. 31. 7: e.g. Heb. "God did not give him to do me evil". Cp. A.V. Ex. 5. 22. Ps. 16. 10 (give = suffer); Jer. 4. 10 (deceived = suffered to be deceived). So Ezek. 14. 9; 20. 25. Matt. 6. 13; 11. 25 (hid = not revealed); 13. 11. Acts 13. 29 (took him down = permitted). Rom. 9. 18 (hardeneth = suffereth to be). Used six times by Jehovah (9. 12; 10. 1, 20, 27; 11. 10; 14. 8), but not till Pharaoh had done it seven times. Three words used for "harden":— (1) hazak = to brace or tighten up (opp. to relax). Cp. 4. 21; 7. 13, 22; 8. 19; 9. 12, 35; 10. 20, 27; 11. 10; 14. 4, 8, 17 (and once of the Egyptians, 12. 33), thirteen times in all. (2) kashah = to make sharp, hard, severe, cruel. Used twice, 7. 3; 13. 15 (cp. Gen. 49. 7). (3) kabed = to become heavy (7. 14; 8. 15, 32; 9. 7, 34; 10. 1), six times. It was in each case God's clemency and forbearing goodness which produced the hardening. That goodness which "leadeth to repentance" (Rom. 2. 4): just as the same sun which softens the wax hardens the clay.
+4:22 | Thus saith the LORD [Jehovah]. Occurs in Ex. three times, 4. 22; 7. 17; 9. 1. Lit. "hath said"; as elsewhere. My son. Cp. Matt. 2. 15.
+4:24 | by the way in the inn. A further lesson, not learnt in Egypt or at Horeb. A secret in Moses' life, known only to himself. Moses had neglected to circumcise Eliezer. To save the child's life, Zipporah now performs the rite herself. him = the son (v. 23). Cp. Gen. 17. 14.
+4:25 | stone, or knife. son = Eliezer. Cp. v. 20. bloody husband. Heb. "a husband of bloods" = Gen. of relation, i.e. with rites of blood; alluding to circumcision, which she had tried to evade and avoid.
+4:26 | He: i.e., Jehovah. him = Moses' son Eliezer. Cp. v. 24. Gen. 17. 14.
+4:27 | Aaron, "Go, &c. Aaron apparently brought up in Pharaoh's house. See 1 Sam. 2. 27, 28. met him. Cp. the parting at mount Hor, Num. 20. 22-29.
+4:29 | children = sons.
+4:31 | the People believed. Cp. 4. 1, 8; 3. 18. visited. See Gen. 50. 24, 25 and Ex. 2. 24, 25. Cp. 6. 6, "redeem", with Luke 1. 68.
+5:1 | told Pharaoh. This was in Zoan (cp. Ps. 78. 12, 43), where Pharaoh had made his palace. It could not have been written in Babylon, for there the kings were not seen, and were hidden behind their ministers. Here, in Egypt, the king was his own minister, and could be easily approached. Cp. 3. 10 and Ap. 37. Note Jehovah's sixfold (Ap. 10) demand and Pharaoh's sixfold objection:— I. "Thus saith Jehovah Elohim" (5. 1). (1) "Who is Jehovah?" (5. 2). Q. occ. only here. II. "Let My People go" (5. 1). (2) "Go. Sacrifice in the Land" (8. 25). III. "We will go three days' journey into the wilderness" (8. 27). (3) "Go", only "not very far away" (8. 28). IV. "Let My People go" (10. 3). (4) "Who are they that shall go?" (10. 8). V. All must go (10. 9). (5) Not so. Men, but not children or flocks (10. 11). (6) Go. Children, but not flocks (10. 24). VI. Flocks too: for "we know not .. till", &c. (10. 25, 26).
+5:2 | Who is the LORD? Fig. Erotesis (Ap. 6). Note the repetition of Pharaoh's "I", answered by Jehovah's "I" eighteen times in ch. 6. 1-8. voice. Fig. Metonymy (of Cause). Ap. 6. Voice put for commands uttered by it. Israel. Fig. Metonymy (of Adjunct). Ap. 6.
+5:3 | met with us. Cp. 3. 2-10. sacrifice. Heb. zabach. See Ap. 43. I. iv. sword. Fig. Metonymy (of Cause). Ap. 6.
+5:4 | the king of Egypt. See on v. 1, and Ap. 37. Wherefore. Fig. Erotesis. Ap. 6. let. A.S. to hinder.
+5:6 | taskmasters. Cp. 1. 11, Egyptian. officers: an Egyptian title, scribes, who kept account of work done.
+5:7 | straw. Tebn, an Egyptian word for chaff, or chopped straw; not our Eng. stubble.
+5:8 | tale. A.S. talu, a number. thereof. The suffix is Masc. and refers to the people, "diminish [your exactions] from them." and. Some codices, with one early printed edition, Onk., and Sept., read "that we may".
+5:9 | vain words. Man's estimate of Divine revelation.
+5:10 | officers. See on v. 6, Hebrews.
+5:12 | stubble. Heb. gash = reeds. Shown in Egyptian pictures on the monuments.
+5:14 | children = sons.
+5:17 | Ye are idle. Fig. Epizeuxis (Ap. 6) for emphasis.
+5:21 | abhorred, &c. Heb. "stink in the eyes". Fig. Catachresis (Ap. 6) for emphasis.
+5:22 | LORD. One of the 134 places where Jehovah in the Primitive Text was altered to Adonai. See Ap. 32. wherefore ..? why ..? Fig. Erotesis (Ap. 6). We, like Moses, are full of similar questions, to our sin and sorrow. evil entreated. Heb. Idiom = suffered to be evil entreated. Heb. Ra'a. Ap. 44. viii. See note on 4. 21.
+5:23 | delivered Thy People at all. Fig. Polyptoton (Ap. 6). Heb. "delivering Thou hast not delivered Thy People". Fig. used for great emphasis. See Gen. 26. 28.
+6:1 | the LORD (Heb. Jehovah) said. See note on 3. 7, and cp. note on v. 10, and see Ap. 4.
+6:2 | God spake. Occurs only twice in Exodus: here, and 20. 1. See notes on 3. 7 and 6. 10. God. Heb. Elohim. Ap. 4. the LORD = Jehovah. Note the repetition five times in this revelation, vv. 2, 3, 6, 7, 8, and see Ap. 10.
+6:3 | known. Heb. = perceived or understood. The name Jehovah was known as the covenant name; but was not known so as to be understood. The Ellipsis may be better supplied "in [the character of] El Shaddai." Cp. 7. 5.
+6:4 | I have. Note the three repetitions in vv. 4, 5. See Ap. 10. them = individually (see on Gen. 50. 24). This is why this revelation of Jehovah as "the God of the living" ensures their resurrection. See on ch. 3. 6, and cp. Deut. 11. 21. pilgrimage. They "sojourned" in Canaan, and they "dwelt" in Egypt.
+6:5 | also. Read "I also have:" i.e. as well as thou. children = sons. remembered My covenant. All Israel's blessings based on this. See 2. 24.
+6:6 | and. Note the Fig. Polysyndeton (Ap. 6) in vv. 6-8, to emphasise every detail. Cp. Deut. 7. 8. I will. Note the sevenfold blessing in vv. 6-8 and cp. the sevenfold promise in Gen. 12. 2, 3. See Ap. 10. redeem. Heb. g'aal = to redeem (from charge, by payment). First occ. in connection with Israel. Not padah. See note on 13. 13.
+6:8 | swear. Heb. "I lifted up mine hand". Fig. Metonymy (of Adjunct). Ap. 6. Act put for the thing accompanying it: rightly rendered "swear". The Fig. Anthropopatheia is also involved in it.
+6:9 | spirit. Heb. ruach. See Ap. 9.
+6:10 | the LORD spake = Jehovah spake (Heb. davar). This expression occurs in Ex. twenty "sundry times" and in seven "divers manners" (see Ap. 10). Cp. note on 3. 7. Lev. 1. 1. Num. 1. 1:— (1) To Moses alone, 30. 11, 17, 22, 34; 31. 1; 33. 11; 40. 1. (2) To Moses to speak to Aaron, 7. 19; 8. 5. (3) To Moses to speak to the children of Israel, 14. 1; 16. 11 (cp. v. 12); 25. 1; 31. 12. (4) To Moses to speak to Pharaoh, 6. 10 (cp. v. 11), 29; 8. 1. (5) To Moses and unto Aaron, 7. 8. (6) To Moses and Aaron to speak to the congregation of Israel, 12. 1. (7) To Moses and Aaron to give a charge to the children of Israel, and unto Pharaoh, 6. 13.
+6:14 | Moses and Aaron shown to be the crown of the previous pedigrees. They gather the "heads" who are to speak to Pharaoh, v. 27.
+6:16 | Levi died twenty-three years after Joseph, forty-one years before Moses.
+6:20 | Jochebed. See note on Num. 26. 59.
+6:24 | Elkanah. The ancestor of Samuel. Cp. 1 Sam. 1. 1-24 and Num. 26. 11, &c.
+6:26 | Aaron and Moses. The order according to age and genealogy. Cp. v. 27.
+6:27 | Pharaoh king of Egypt. See Ap. 37. Moses and Aaron. The order according to God's choice. Cp. v. 26.
+6:29 | the LORD (Heb. Jehovah) spake. See note on v. 10, and cp. note on 3. 7.
+7:1 | the LORD (Heb. Jehovah) said. See note on 3. 7, and cp. note on 6. 10. made = given (as in Eph. 4. 11) as such. god. i.e. in God's stead. Elohim = one appointed by oath. Elohim is thus used of those so given and appointed. Ps. 82. 1, 6. John 10. 34, 35. prophet. See on 4. 16.
+7:2 | children = sons.
+7:3 | harden. See note on 4. 21.
+7:4 | armies = hosts. and. No "and" required.
+7:5 | shall know: i.e. by a great experience. That was the great object of all these ten plagues; as it will be in the coming day of the judgments described in the Apocalypse. Rev. 16. 5-7.
+7:6 | as = according as.
+7:7 | Pharaoh. See Ap. 37.
+7:8 | the LORD (Heb. Jehovah) spake. See note on 6. 10, and cp. note on 3. 7.
+7:9 | Shew a miracle for you = show us a sign. serpent. Heb. thannin = a crocodile.
+7:10 | as = according as. Pharaoh. Heb. "the face of Pharaoh". Fig. Pleonasm. Ap. 6.
+7:11 | wise men, &c. Two sets of men mentioned. Pharaoh "called for the wise men, and for the magicians—and these also (the sacred scribes of Egypt) did in like manner with their secret arts". Two of these named by the Holy Spirit in 2 Tim. 3. 8, "Jannes and Jambres".
+7:12 | man. Heb. 'ish. Ap. 14. ii. rod. Fig. Ampliatio (Ap. 6). The rod still called a rod, though it had become a serpent. swallowed up: and thus inflicted the first blow on the gods of Egypt. See note on v. 20.
+7:13 | He hardened. The Heb. here is "Pharaoh's heart was hardened". See on 4. 21. as = according as.
+7:14 | 7. 14—10. 29: It will be noticed that the number nine is connected with judgment (see Ap. 10), and that the third plague of each three is without warning. To make the symmetry complete, Aaron was used in the infliction of the first three, and Moses of the last three. the LORD said. See note on 3. 7 and 6. 10. hardened. See note on 4. 21.
+7:15 | serpent. Heb. nachash. See note on Gen. 3. 1, and Ap. 19.
+7:16 | God. Heb. Elohim. Ap. 4.
+7:17 | Thus saith the LORD. See note on 4. 22. river. Probably the Nile canals.
+7:19 | the LORD spake. See note on 6. 10, and cp. note on 3. 7. streams = canals. rivers = the seven streams of the Delta. ponds = lakes where reeds grew. pools = reservoirs. vessels of wood, &c. Gen. of material. Fig. Metonymy (of Cause). Ap. 6. Heb. "woods and stones", put for [channels] made of wood [and canals] made of stone.
+7:20 | river. This first plague was directed against the Nile, an object of worship, which was thus polluted, and became a means of pollution to the people. Cp. 12. 12.
+7:21 | and. Note the Fig. Polysyndeton in vv. 20, 21.
+7:22 | magicians ... did so. Evidently from the water referred to in v. 24. hardened. See note on 4. 21.
+7:24 | round about: i.e. on either side of.
+8:1 | the LORD (Heb. Jehovah) spake. See note on 6. 10, and cp. note on 3. 7. the LORD = Heb. Jehovah. Ap. 4.
+8:2 | frogs. Worshipped as symbol of fecundity.
+8:3 | And. Note the Polysyndeton (Ap. 6) in vv. 3 and 4. bedchamber. In Palestine beds were mats or couches, and could be moved; but in Egypt there were special bedchambers. These were used later in Palestine (2 Sam. 4. 7). kneadingtroughs. These are found in every home; none is complete without them.
+8:9 | Glory over me. Treat this as part of the following question, which requires this to be rendered: "Explain thyself to me: when shall I," &c.
+8:10 | God. Heb. Elohim. Ap. 4.
+8:11 | and. Note the Fig. Polysyndeton (Ap. 6) emphasising the items, and marking the completeness of the removal.
+8:14 | upon heaps. Heb. "heaps, heaps." Fig. Epizeuxis (Ap. 6) = in many great heaps.
+8:15 | as the LORD had said. Cp. 4. 21.
+8:16 | the LORD (Heb. Jehovah) said. See note on 3. 7, and cp. note on 6. 10. lice. An Egyptian word = mosquito-gnats. Note that this third plague (like the sixth and ninth) falls without warning.
+8:17 | man. Heb. 'adam, with art. = mankind. all the dust. A special various reading called sevir reads "and all", &c. See Ap. 34. But other codices, with Sept., read, "and in all the dust there came to be".
+8:18 | did so. Heb. Idiom, attempted to do so. they could not. Not because a question of life, for the frogs had life. God suffered them to do so in the former cases to show the limits of their power; and, by contrast, to show that His power was unlimited.
+8:19 | finger. Fig. Anthropopatheia (Ap. 6). Note, the Egyptians say "God", not Jehovah. as the LORD had said. Cp. 4. 21. Jehovah, because in connection with His word.
+8:20 | This plague was a severe blow to all idolatrous worship and worshippers. Cleanliness was imperative. For this cause the priests wore linen, and shaved daily. Moreover, it was designed to destroy the worship of Beelzebub, the god of flies, and to manifest his impotence. Cp. 12. 12. the LORD (Heb. Jehovah) said. See note on 3. 7, and cp. note on 6. 10. lo. Fig. Asterismos (Ap. 6) for emphasis.
+8:21 | swarms of flies. Ellipsis supplied. But should not be thus limited. Heb. root shows that they were mixed: all sorts of insects. and. Note the Fig. Polysyndeton (Ap. 6) emphasises the universality of the plague.
+8:23 | a division. Heb. padah = redemption. See notes on 6. 6 and 13. 13. This it is which makes the division between those who are the LORD's people and those who are not. It is the Fig. Metonymy (of the Subject), Ap. 6, by which the redemption is put for the judgment which was the sign of it. Cp. Ps. 111. 9; 130. 7.
+8:24 | into. This word, in italics, is a special reading called Sevir. See Ap. 34. and. This is omitted in the readings called Sevir. the land. Sam. and Sept. read "and the land". corrupted = laid waste.
+8:25 | sacrifice. Heb. zabah. See Ap. 43. I, iv. in the land. Pharaoh's objection to Jehovah's second demand. Note Moses' reply, and the spiritual lesson as to our worship to-day. See note on 5. 1.
+8:26 | abomination. Fig. Metonymy (of Adjunct), Ap. 6, put for the act of sacrificing cattle, which was abominated by the Egyptians. shall, &c. Fig. Erotesis (Ap. 6).
+8:27 | three. The number of Divine perfection. See Ap. 10. Jehovah's third demand. See note on 5. 1. He, &c. Should be "Jehovah hath commanded us." The Heb. word, "He said", should be divided differently: the first letter standing as an abbreviation for "Jehovah".
+8:28 | not go very far away. Pharaoh's objection to Jehovah's third demand (v. 25). Note the spiritual lesson as to our worship to-day. See note on 5. 1.
+8:29 | from. Some codices, with Sam., Sept., and Syr., read "and from".
+9:1 | The fifth plague was aimed at all kinds of animal worship. Cp. 12. 12. the LORD (Heb. Jehovah) said. See note on 3. 7, and cp. note on 6. 10. Thus saith the LORD God (Heb. Jehovah Elohim) of the Hebrews. Occurs only three times, 9. 1, 13 and 10. 3.
+9:3 | hand. Fig. Anthropopatheia (Ap. 6). Also Metonymy (of Cause), "hand" being put for the judgments inflicted by it. in the field. The cattle, &c., were in the field in the spring and early summer. upon. Some codices, with Sam., Sept., and Syr., read "and upon". murrain, or pestilence. See v. 15.
+9:4 | children = sons.
+9:6 | all the cattle. Fig. Synecdoche (of Genus), Ap. 6 = all kinds of cattle.
+9:7 | Israelites. Some codices, with Sam., Jon., and Sept., read "sons of Israel". hardened. See note on 4. 21.
+9:9 | man. Heb. 'adam, with art. = mankind. beast. Other than those "in the field", v. 3.
+9:10 | ashes of the furnace: i.e. one of the altars on which human sacrifices were sometimes offered to propitiate their god Typhon (i.e. the Evil Principle). These were doubtless being offered to avert the plagues, and Moses, using the ashes in the same way, produced another plague instead of averting it.
+9:11 | Egyptians. Some codices, with Sept., Syr., and Vulg., read "all the land of Egypt".
+9:12 | as = according as.
+9:14 | upon = into.
+9:16 | raised thee up = made thee to stand, i.e., with Sept., "preserved thee" through all the plagues and till the end.
+9:17 | As yet ... ? Fig. Erotesis (Ap. 6).
+9:18 | hail. Plague directed against Isis and Osiris. See 12. 12.
+9:19 | and shall not be brought home = Fig. Pleonasm (Ap. 6).
+9:24 | mingled = catching hold of itself like a chain.
+9:25 | all the land. Fig. Synecdoche (of Genus), Ap. 6, i.e. all parts of it.
+9:27 | sinned. Heb. chat'a. See Ap. 44. i. righteous = the righteous One. wicked = wicked ones. Heb. rash'a. See Ap. 44. x.
+9:28 | mighty thunderings = Heb. "voices of Elohim" = a strong superlative.
+9:31 | bolled. A word of Scandinavian origin, like bulged, i.e. swelled, or ripe. But Heb. = blossom, i.e. the capsules formed. True to the seasons in Egypt to this day.
+9:35 | spoken. Cp. 4. 21. by Moses. Lit. by the hand of Moses. Fig. Metonymy (of Adjunct): hand being put for instrumentality.
+10:1 | The eighth plague was directed against the god Serapis, who was supposed to protect the land from locusts. They came at Moses' bidding, and retired only at his bidding. Thus the impotence of Serapis was manifest. the LORD. Heb. Jehovah. Ap. 4. the LORD said = Jehovah said. See note on 3. 7 and cp. note on 6. 10. hardened. See note on 4. 21.
+10:3 | Thus saith the LORD God of the Hebrews. Occurs only here and 9. 1, 13. God. Heb. Elohim. Ap. 4. humble = depression of spirit rather than softening of heart. "To cry out" as conscious of suffering. A man may be humbled without humbling himself. let My People go. Jehovah's fourth demand. See note on 5. 1.
+10:4 | locusts. Cp. Joel 2. 1-10, and Rev. 9. 3-11.
+10:5 | face of the earth. Heb. "eye of the earth". Fig. Metonymy (of Effect), eye put for what is seen by it. Ap. 6.
+10:7 | this man. Heb. this one. No word for man here in Hebrew text.
+10:8 | who are they? Pharaoh's answer to Jehovah's fourth demand in v. 3. See note on 5. 1.
+10:9 | We will go with our young, &c. Moses knew nothing of forsaking Egypt and leaving the little ones behind. Note the spiritual lesson; and cp. Eph. 6. 4 and Gen. 7. 1.
+10:10 | evil. Fig. Metonymy (of Effect), Ap. 6, evil put for death, threatened in v. 28.
+10:11 | men. Heb. pl. of 'ish, or 'enosh (Ap. 14. iii). This was Pharaoh's first objection to Jehovah's fifth demand in 5. 1.
+10:13 | wind. Heb. ruach. Ap. 9.
+10:15 | earth = land.
+10:16 | sinned. Heb. chat'a. Ap. 44. i.
+10:17 | death. Fig. Metonymy (of Effect), Ap. 6, death put for the plague which caused it.
+10:18 | And he. Some codices, with Sam., Sept., and Syr., read "So Moses".
+10:19 | mighty strong. Fig. Synonymia. Ap. 6. Locusts are always brought by east wind and carried away by west wind. coasts = bounds, or borders.
+10:20 | the LORD hardened. Again this is stated. Cp. 4. 21.
+10:21 | the LORD (Heb. Jehovah) said. See note on 3. 7, and cp. note on 6. 10. darkness. First of four instances of darkness in judgment. Ex. 10. 22. Matt. 27. 45. Jude 13. Rev. 16. 10.
+10:24 | let your flocks and your herds be stayed. Pharaoh's second objection to Jehovah's fifth and final demand in 10. 9.
+10:25 | sacrifices. Heb. zebach. See Ap. 43. II. iv. sacrifice. Heb. 'asah. See Ap. 43. I. iii.
+10:26 | hoof. Fig. Synecdoche (of Part), Ap. 6, "hoof" put for whole animal. we know not. Note the contrast between the "thou" of v. 25 and the "we" of v. 26. until we come thither. Note the spiritual lesson. Not until we leave the world can we have a true conception of Jehovah's requirements: "if any man do His will he shall know of the doctrine" (John 7. 17).
+10:27 | hardened. See on 4. 21.
+10:28 | Get thee from me. Eleven kings and rulers thus offended. Ex. 10. 28. Num. 24. 11. 1 Kings 13. 4; 22. 27. 2 Kings 5. 12. 2 Chron. 16. 10; 24. 21; 26. 19. Jer. 26. 21; 32. 3. Matt. 14. 3.
+10:29 | no more. Moses did not leave Pharaoh's presence till 11. 8. So this is the Fig. Prolepsis (Ap. 6).
+11:1 | the LORD (Heb. Jehovah) said. See note on 3. 7, and cp. note on 6. 10. afterwards. Some codices, with Sept., Syr., and Vulg., read "and after".
+11:2 | man. Heb. 'ish (Ap. 14. ii). borrow = ask. See note on 3. 22. jewels: or articles, or vessels.
+11:7 | dog, &c. Fig. Paroemia (Ap. 6).
+11:10 | This verse is Fig. Prolepsis, Ap. 6, as the acts were not done till later.
+12:1 | the LORD (Heb. Jehovah) spake. See note on 6. 10, and cp. note on 3. 7.
+12:2 | month. Heb. name Abib, or "green-ear-month". Becomes the first month, and the fifteenth the ruling date, henceforth. Cp. 13. 4; 23. 15. Deut. 16. 1. Afterward called Nisan (Neh. 2. 1. Est. 3. 7). "First", cp. 40. 2, 17. Lev. 23. 5, in place of Tisri, which thus became the seventh month.
+12:3 | Israel. Some codices, with Sam., Jon., Sept., and Syr., read "of the sons of Israel". man. Heb. 'ish (Ap. 14. ii). lamb. Heb. seh, "one of a flock", i.e. a lamb or a kid, v. 5. Deut. 14. 4. 2 Chron. 35. 7. house. Fixed later (by custom) as not less than ten persons.
+12:4 | it. Ellipsis to be supplied by "the lamb" from verse preceding (Ap. 6. iii. a). souls. Heb. pl. of nephesh. Verse 15, sing. See Ap. 13. eating. Heb. mouth. Fig. Metonymy (of Cause), Ap. 6, mouth put for what is eaten by it. lamb. Repeated at beginning of next clause in the Fig. Anadiplosis (Ap. 6) for emphasis.
+12:5 | without blemish. Even as "Christ our Passover".
+12:6 | Israel. Some codices, with Sam., Jon., Sept., and Syr., read "of the sons of Israel". kill. Heb. shahat. See Ap. 43. I. v. in the evening. Heb. between the two evenings, or, according to Lightfoot, between the decline of the sun (after noon) and its setting.
+12:9 | sodden = boiled. with = in.
+12:11 | loins girded, i.e. the loose flowing garments fastened up with a belt or girdle, making the men ready for action. Cp. Luke 12. 35, 37; 17. 8. Acts 12. 8. 1 Kings 18. 46. 2 Kings 4. 29; 9. 1. Eph. 6. 14.
+12:12 | gods, or princes. But see notes on object of the several plagues. I am the LORD, or I, Jehovah.
+12:13 | blood ... token. The blood was the token for Jehovah. Faith in the fact that it had been sprinkled gave peace to all within. It was (and is) not the act of faith which secured, but the truth that was believed. If no blood, belief that it was there gave no security. If blood there, doubt as to the fact would destroy peace, but could not destroy the security, because that was grounded on Jehovah's word, and faith consists in "hearing" that. Rom. 10. 17. Heb. 11. 1, marg. when I see the blood. Not when you feel, or even believe. So the scarlet cord (Josh. 2. 18, 19) was for Joshua to see, not those within the house. Feelings useless apart from faith.
+12:15 | leaven = fermented bread. First occ. See Ap. 38. until. Some codices, with Sam. and Jon., read "and until".
+12:16 | And. Some Codices, with Sam. and Syr., omit. man. Heb. nephesh, soul (Ap. 13). Cp. vv. 4, 15, 19.
+12:20 | shall ye eat (repeated). Fig. Pleonasm (Ap. 6).
+12:21 | kill the passover. Fig. Metonymy (of Adjunct), Ap. 6, "Passover" put for the lamb.
+12:27 | children = sons.
+12:28 | and did. Ten Passovers recorded (see Ap. 10). Ex. 12. 28. Num. 9. 5. Josh. 5. 10. 2 Chron. 30. 13-15. 2 Kings 23. 22 (2 Chron. 35. 1). Ezra 6. 19. Matt. 26. 17. Luke 2. 41. John 2. 13; 6. 4.
+12:29 | at midnight. On the fourteenth of Abib. See 11. 4. smote. Cp. 11. 5.
+12:31 | called for, i.e. sent message to.
+12:32 | take your flocks. See note on 10. 25, 26, and 5. 1. as = according as.
+12:35 | borrowed = asked. See note on 3. 22. jewels. See note on 11. 2.
+12:36 | lent = gladly gave. Heb. verb is in the Hiphil mood and = caused them to ask, i.e. the Egyptians pressed them to take. such things, &c. There is no need for this addition. No Ellipsis in Heb.
+12:37 | Rameses. City of the Sun. See note on 1. 11. Succoth = booths. men. Not 'ish, males, but Heb. geber, with art. = the strong men; or, men of military age. Num. 14. 29. See Ap. 14. 4.
+12:38 | a mixed multitude = Egyptians. Cp. Num. 11. 4. Neh. 13. 3. even. Some codices, with Jon., Sept., and Syr., have this word, "even" in the text.
+12:39 | not leavened. Bread always unleavened when baked in haste. Cp. Gen. 18. 6.
+12:40 | sojourning. Commenced with Gen. 12. 1. Quite a different subject from the dwelling in Egypt. See Ap. 50. iii. Israel = Fig. Synecdoche (of the Part), Ap. 6, by which one man's name, Israel, is put for his father and grandfather. who dwelt in Egypt. Fig. Epitrechon (Ap. 6). A form of Parenthesis used to further define the People and connect the two parts of their history. four hundred and thirty years. There are two reckonings of the sojourning: one starting from the "promise" to Abraham, Ex. 12. 40. Gal. 3. 14, 17 = 430 years; the other starting from the recognition of his "seed" (Isaac), Gen. 21. 12. See Acts 7. 6 and Gen. 15. 13 = 400 years. N.B. 450 years to Samuel; 490 to Saul. See Ap. 50. iii, and vii. 7. This dwelling in Egypt was only 215 years (see Ap. 50); and is to be distinguished from the "sojourning", which was another 215 years. See note above.
+12:41 | the selfsame day: i.e. the fifteenth day of the seventh month. The years of the solar cycle show that it was the day that Abraham left "Ur of the Chaldees".
+12:42 | much observed. Heb. shimmurim, a night of watchings. Occurs only here.
+12:43 | the LORD (Heb. Jehovah) said. See note on 3. 7, and cp. note on 6. 10.
+12:44 | bought for money. Cp. Gen. 17. 12, 13.
+12:46 | one house = the same house. Cp. v. 4.
+12:48 | with thee. Some codices, with Sam., Jon., Onk., Sept., and Syr., read "with you". no uncircumcised person shall eat. Were they circumcised during the three days' darkness, and was the command then given, the word against which they did not rebel? (Ps. 105. 28).
+12:51 | armies = hosts.
+13:1 | the LORD (Heb. Jehovah) spake. See note on 6. 10, and cp. note on 3. 7.
+13:2 | Sanctify. Fig. Metonymy (of Subject). Ap. 6. = Declare that I will sanctify (or set apart), which Moses did in vv. 11, 12. children = sons. man. Heb. 'adam. Ap. 14. i.
+13:3 | There are two pairs of Phylacteries, so called (in Greek) from their use = a prayer-fillet or band worn to-day on forehead and hands during prayer. First pair here, Ex. 13. 3-10 and 13. 11-16. Second pair in Deut. 6. 4-9 and 11. 13-21. Cp. the structures in De. 6. 4-9. leavened = fermented.
+13:4 | Abib = the month of green ears. Jewish tradition says that in this month Abram was called, Isaac was born, Israel delivered from Egypt, and Tabernacle reared up. The Talmud further says: "As in Nisan there had been redemption, so in Nisan there should be redemption" (Bab. fol. 11). John's preaching began and the Lord's death occurred in this month.
+13:5 | the LORD. Some codices, with Sam., Jon., and Sept., add "thy God". Canaanites. The Perizzites and Girgashites not included in this list. and. Note the Fig. Polysyndeton in this verse. (Ap. 6.)
+13:13 | ass. Fig. Synecdoche (of Species), Ap. 6, "ass" put for all animals not offered in sacrifice. redeem = ransom. Heb. padah = to redeem (from bondage, by power). First occ. Not g'aal. See note on 6. 6.
+13:15 | man. Heb. 'adam. Ap. 14. sacrifice. Heb. zabach. See Ap. 43. I. iv. all. Ellipsis to be supplied "every [beast]".
+13:16 | token. See the Structure on p. 90.
+13:17 | God. Heb. Elohim. Ap. 4.
+13:18 | Red sea. Heb. Yam suph = weedy, or reedy. Eng. "Red" comes from the Greeks reading Edom (whose land it washed) as an appellative instead of a proper name (Esau or Edom = red, Gen. 25. 25). Called "red" from Sept. Dried up fifty miles north of present shore. Will quite dry up at future Exodus. Isa. 11. 15, 16; 19. 5. harnessed = armed, as Josh. 1. 14. Judg. 7. 11. 1 Chron. 7. 21; or marshalled by fives, as in 2 Kings 1. 9. Isa. 3. 3 (the number of grace, see Ap. 10). To this day five is an evil number in Egypt. Whichever is the meaning, both point to order and organization. They were an ordered "host" (12. 41), and not a disorderly rabble.
+13:19 | the bones of Joseph. Another evidence of order. Cp. Gen. 50. 25. Joseph's faith exhibited 150 years before. Cp. also Josh. 24. 32 and Acts 7. 15, 16. surely visit you. See Gen. 50. 25, and cp. note on Gen. 26. 28.
+13:21 | the LORD went before them. Cp. 14. 19 and 32. 34, the Angel of Jehovah.
+13:22 | took not away. See note on 40. 36-38.
+14:1 | 14. 1-31. The next assault by Satan to destroy the whole Nation. See Ap. 23, 25. the LORD (Heb. Jehovah) spake. See note on 6. 10, and cp. note on 3. 7.
+14:2 | children = sons. Migdol. The great fortress on the "Shur" or wall, built to protect Egypt from Asia. The present geography of the Eastern Delta does not, to day, agree with the Biblical record. But its geography in the nineteenth dynasty is well known from papyri, and is in perfect accord with it, as given in Exodus.
+14:3 | For. The assault of the enemy foreseen and provided against by Jehovah. Pharaoh. See Ap. 37.
+14:4 | I will. Cp. Ps. 103. 7, "His ways unto Moses", and in vv. 13, 14, "His acts unto the sons of Israel". host = force. Put by Fig. Metonymy (of Adjunct) for his army. See Ap. 6.
+14:5 | told. On the fourth day. See Ap. 50. iv. Why ... ? Fig. Erotesis. See Ap. 6.
+14:6 | And. Note the Polysyndeton (Ap. 6) in vv. 6 and 7.
+14:9 | horses. Egypt was noted for chariots, horses, and cavalry, which had been introduced by the eighteenth dynasty.
+14:11 | Because ... ? wherefore ... ? Fig. Erotesis. Ap. 6.
+14:12 | Is not ... ? Fig. Erotesis. Ap. 6.
+14:13 | stand still, and see. Note importance of this command. Cp. Stand still, and hear, Num. 9. 8. 1 Sam. 9. 27; 12. 7. 2 Chron. 20. 17. Job 37. 14.
+14:15 | the LORD (Heb. Jehovah) said. See note on 3. 7, and cp. note on 6. 10. Wherefore ... ? Fig. Erotesis. Ap. 6. It is also the Fig. Hysteresis; for no mention has been made of Moses' crying to the LORD. go forward. This was Israel's faith. It was "by faith" in what they heard (Rom. 10. 17. Heb. 11. 29).
+14:17 | I, behold, I. Fig. Epizeuxis, for emphasis. Ap. 6. behold. Fig. Asterismos. Ap. 6. chariots. Heb. sing. chariot. Note the alternation. Pharaoh (sing.). / His host (pl.). / Pharaoh's chariot (sing.). / His horsemen (pl.).
+14:19 | God. Heb. Elohim: the Creator in relation to His creatures. See Ap. 4.
+14:20 | a cloud and darkness. Fig. Hendiadys (Ap. 6) = a very dark cloud.
+14:21 | wind. Heb. ruach. Ap. 9.
+14:27 | strength = irresistible might.
+14:28 | not so much as one of them. This implies that Pharaoh himself did not escape. Cp. 15. 9, 10. Ps. 106. 11; 136. 15. His body may have been washed up on the shore, cp. v. 30, and "also" in 15. 4.
+14:31 | His servant Moses. First occ. See the five, Ex. 14. 31. Josh. 9. 24; 11. 15. 1 Kings 8. 56. Ps. 105. 26, and cp. notes on Num. 12. 7. Deut. 35. 5. 1 Kings 8. 53. Neh. 10. 29.
+15:1 | Moses began and ended his wilderness career with a song. Cp. Deut. 32, which is "the" song referred to in Rev. 15. 3. The structure gives the scope:— The song proper occupies vv. 4-17. It is preceded and followed by praise with introduction and conclusion. Then sang. There was no singing in Egypt, only sighing and groaning (2. 23, 24). children = sons. this song. Note the ten Songs of Praise: (1) Ex. 15. 1-19. (2) Num. 21. 17, 18. (3) Deut. 32. 1-43. (4) Judg. 5. 1-31. (5) 1 Sam. 2. 1-10. (6) 2 Sam. 22. 1-51. (7) Luke 1. 46-55. (8) Luke 1. 68-79. (9) Luke 2. 29-32. (10) Rev. 14. 3. unto the LORD. Jehovah is the sole theme: and should be the theme of our praise. Note the "Thee" and "Thou", and contrast the "We" of Num. 13. 33, and the result, weeping, in 14. 1. It begins with Redemption, and ends with glory. No "praise" short of this. the LORD. Heb. Jehovah. Ap. 4.
+15:2 | THE LORD = Heb. JAH, the Eternal, inhabiting eternity. See Ap. 4. The first occ. of this Title: connects it with Redemption. song. Some codices, with Sam. and Onk., read "and my song". Fig. Metonymy (of Adjunct). Ap. 6. = "He of Whom I sing". salvation. Cp. Ps. 118. 14, 21. GOD. Heb. El. See Ap. 4. God. Heb. Elohim. Ap. 4.
+15:3 | man. Heb. 'ish. See Ap. 14. of war. This is what He is out of Christ; and to those who are not the subjects of His redeeming power.
+15:6 | right hand. Fig. Anthropopatheia. Ap. 6.
+15:8 | blast. Heb. ruach. See Ap. 9. nostrils. Fig. Anthropopatheia. See Ap. 6.
+15:9 | I will pursue. Note the Fig. Asyndeton (Ap. 6), in vv. 9 and 10. No "ands": to hasten on to the grand climax—"they sank as lead" (v. 10). lust. Heb. nephesh = soul. See Ap. 13.
+15:10 | wind. Heb. ruach. Ap. 9. lead. First occ.
+15:11 | Who is like unto Thee? This is ever the saints' noblest praise. Emphasised by the Fig. Erotesis. (Ap. 6). Cp. Deut. 33. 26, 27. 1 Sam. 2. 2. 1 Ch. 17. 20. Ps. 35. 10; 71. 19; 73. 25; 86. 8; 89. 6, 8; 113. 5. gods = mighty ones, as in v. 15. Heb. elim. See note on 22. 8. Fearful in praises: i.e. to be revered in praising Him for His wondrous acts.
+15:13 | mercy = loving-kindness, or grace. N.B. Led forth in mercy, redeemed in grace, guided by strength. redeemed. Heb. g'aal. See notes on 6. 6 and 13. 13. Exodus the book of Redemption. See Title.
+15:14 | people = peoples: no Art. (cp. Gen. 49. 16, first occ.). shall hear. Cp. Josh. 2. 9-11.
+15:15 | dukes = chiefs.
+15:16 | Till Thy People, &c. Note Fig. Epizeuxis. Ap. 6.
+15:17 | plant. The word used by God throughout of settling His People. Jer. 18. 9. Amos 9. 15. Rom. 6. 5. 1 Cor. 3. 6-10. place = appointed place. O LORD. One of the 134 places where Jehovah was altered, by the Sopherim, to Adonai. Ap. 32.
+15:20 | Miriam. Heb. form of Mary. prophetess. First occ. a = the. timbrels = drum. Heb. toph, rendered "tabret" (Gen. 31. 27. 1 Sam. 10. 5; 18. 6. 2 Sam. 6. 5. Isa. 5. 12; 24. 8; 30. 32. Jer. 31. 4. Ezek. 28. 13), "timbrel" (Ex. 15. 20. Judg. 11. 34. 2 Sam. 6. 5. 1 Ch. 13. 8. Job 21. 12. Ps. 81. 2; 149. 3; 150. 4).
+15:22 | Note the journeyings, at the extremes; with the six ascents and descents of Moses, separated by the two principal subjects of the book: the giving of the Law and the making of the Tabernacle. In Ch. 24 the fourth ascent is given as consisting of several stages. 15. 22—19. 2 [For Structure see next page]. Shur. Name given from the great wall built to protect Egypt from Asia, with its great Migdol, or fortress. See note on 14. 2.
+15:23 | Marah = Bitter. The Divine principle in the training of God's People. Foreshown in Abraham's furnace and lamp; Marah before Elim; wilderness before Canaan; cross before crown; worse before better (John 2. 10); suffering before glory (Luke 24. 26, 46. 2 Tim. 2. 11, 12; cp. Rom. 8. 17, 18. 2 Cor. 4. 17, 18. Jas. 1. 12. Rev. 2. 10. 1 Pet. 1. 11; 4. 13; 5. 1, 10, 11. Heb. 12. 11. Ps. 126. 6; 66. 10-13. John 12. 24. Matt. 5. 4. John 16. 20, 22).
+15:24 | murmured. The first murmuring after leaving Egypt. Note seven others: 16. 2; 17. 2, 3; Num. 11. 33, 34; 14. 2; 16. 41; 21. 5. Josh. 9. 18, and cp. 1 Cor. 10. 10.
+15:25 | tree. The Cross is the Divine provision for every trial: See Olney Hymns, i. 13. Jehovah showed it. He: i.e. Jehovah.
+15:26 | And [He, Jehovah] said. See note on 4. 3. diligently hearken. Fig. Polyptoton (Ap. 6). Heb. "if an hearkening thou hearken". the LORD That healeth thee. Jehovah rophe'eka, one of the Jehovah titles. See Ap. 4.
+15:27 | were. Supply Ellipsis, "they found", instead of "were". Cp. Num. 21. 16-18. The scene at Rephidim (ch. 17) after the thirty-nine years was because they expected God to provide for them still. twelve ... threescore ... ten. See Ap. 10.
+16:1 | journey. The Egyptian kings of twelfth dynasty worked copper and turquoise mines in peninsula of Sinai. Afterward disused until eighteenth dynasty. Old roads left. See Ap. 50. vii. 2, on the forty years' wandering; and note on Num. 33. 1. children = sons. Sin. Heb. a bush. Sinai = Bush of Jehovah. Sinai mentioned thirty-one times in Pentateuch, only four times in rest of Old Testament (Judg. 5. 5. Neh. 9. 13. Ps. 68. 8, 17); in New Testament four times (Acts 7. 30, 38. Gal. 4. 24, 25). fifteenth day. See Ap. 50. vii. 3.
+16:2 | murmured. Murmurings mentioned eight times in these verses: viz. 2, 7, 7, 8, 8, 8, 9, 12.
+16:3 | the LORD. Heb. Jehovah. Ap. 4. bread. Fig. Synecdoche (of Part), put for all kinds of food (Ap. 6). not for water, because of 15. 27.
+16:4 | said the LORD. See notes on 3. 7 and 6. 10. Behold. Fig. Asterismos. Ap. 6.
+16:7 | what ... ? Fig. Erotesis. Ap. 6.
+16:8 | murmurings which ye murmur. Fig. Polyptoton. Ap. 6. = your wicked or terrible murmurings.
+16:11 | the LORD spake. See note on 6. 10, and cp. note on 3. 7.
+16:12 | God. Heb. Elohim. Ap. 4.
+16:13 | host = camp.
+16:14 | small = thin. round thing = flakey.
+16:15 | "It is manna". Heb. man-hu = "What is that? for they knew not what 'that' was". See on v. 31. wist = knew. From Anglo-Saxon, witan, to know. it = that. This = that.
+16:16 | man. Heb. 'ish. See Ap. 14. ii. for every man = for every skull. Fig. Synecdoche (of Part). Ap. 6. Skull put for person, as we say "per head". persons. Heb. nephesh. Ap. 13.
+16:21 | it melted. See note on Num. 14. 9.
+16:23 | rest of the [holy] sabbath. Heb. "a sabbath of sabbaths". Occurs seven times (see Ap. 10). Four times of the weekly sabbath (Ex. 16. 23; 31. 15; 35. 2. Lev. 23. 3). Twice of the Day of Atonement (Lev. 16. 31; 23. 32). Once of the sabbath of years (Lev. 25. 4).
+16:24 | as = according to what.
+16:28 | the LORD said. See note on 3. 7, and cp. note on 6. 10. How long ... ? Fig. Erotesis. Ap. 6.
+16:29 | See. Fig. Asterismos. Ap. 6. seventh day. See Ap. 50. vii. 3.
+16:31 | the house of Israel. (First occurrence.) The Massorah (Ap. 30) contains a list of all the occurrences of this expression. There are fourteen occurrences of this expression before the division of the nation into two kingdoms: Ex. 16. 31; 40. 38. Lev. 10. 6; 17. 3. Num. 20. 29. Josh. 21. 45. 1 Sam. 7. 2, 3. 2 Sam. 1. 12; 6. 5, 15; 12. 8; 16. 3. Ruth 4. 11 (cp. Ex. 19. 3, note). "The house of Judah" also occurs four times. See its first occ., 2 Sam. 2. 4. See note on 1 Kings 12. 17. Manna. Heb. "What is that?" Seven characteristics:— 1. Small = thin, v. 14 (Antitype, Phil. 2. 6-8). 2. Round = flakey, v. 14. 3. White, v. 31. 4. Sweet, v. 31 (Ps. 119. 103. Jer. 15. 16). 5. Hard, Num. 11. 8. 6. Melted, Num. 14. 9. 7. From heaven (daily), v. 13. See note on Matt. 6. 11. wafers = flat-cake.
+16:32 | omer. See Ap. 51. III. iii.
+16:33 | a = one.
+16:34 | the Testimony = the Ark. Fig. Hysterologia. Ap. 6. The ark not yet made.
+16:35 | did eat manna. The repetition (for emphasis) is the Fig. Epibole (Ap. 6). forty years. Cp. Josh. 5. 6, 11, 12. Fig. Hysterologia (Ap. 6), a prior mention of a subsequent event. until they came. Given on 16th Ziph, B.C. 1491, ceased 16th Ziph, B.C. 1451 = 39 years 11 months. See Josh. 5. 12. See Ap. 50. vii. 3, 4.
+16:36 | an omer is the tenth part of an ephah. This is not to be confused with Ezek. 45. 11, "an ephah is the tenth part of an homer". They are two different words: in Ex. 16. 36 it is 'omer, in Ezek. 45. 11 it is homer. See note on Lev. 27. 16, and Ap. 51. III. 3.
+17:1 | children = sons. Sin. Heb. Bush. commandment. Heb. "mouth". Fig. Metonymy (of Cause). Ap. 6. Mouth put for what is spoken by it. the LORD. Heb. Jehovah. Ap. 4. Rephidim = reclining places. Two stations omitted here. Cp. 17. 1. Num. 33. 12-14.
+17:2 | chide. Murmuring was good policy. They would not "dig" (as at B'er and Elim)—to "beg" they were not ashamed. "Give us water." See note on 15. 24. Why chide ... ? Fig. Erotesis. Ap. 6. wherefore. Some codices, with Sam., Jon., Sept., and Syr., read "And why". tempt = put to the proof. Heb. from nasah, to smell, hence, to try. Fig. Anthropopatheia. Ap. 6.
+17:3 | us. Heb. me. Fig. Heterosis (of Number). Ap. 6.
+17:4 | they be almost ready. Heb. "yet a little and they will". Moses, David, Jeremiah, Stephen, Paul, and the Lord Jesus suffered from stoning or its threatening.
+17:5 | the LORD (Heb. Jehovah) said. See note on 3. 7, and cp. note on 6. 10.
+17:6 | Behold. Fig. Asterismos. Ap. 6. I will stand. Fig. Anthropopatheia. Ap. 6. rock: a type of Christ. Frequently referred to (Deut. 32. 4, 15, 18, 31, 37. 1 Sam. 2. 2. Ps. 18. 2). Rock of life (Deut. 32. 18): Salvation (2 Sam. 22. 47, &c.): Refuge (Ps. 27. 5; 62. 6, 7): Rest and refreshment (Isa. 32. 2). Horeb. Cp. 3. 1. smite. Smitten only once. Cp. Isa. 53. 4. Zech. 13. 7. Jehovah on the Rock = God in Christ (2 Cor. 5. 19). No water till smitten (Ps. 78. 20. John 7. 38, 39; 12. 24). water. Water from the rock. Fire out of the rock (Judg. 6. 21). Honey from the rock (Ps. 81. 16). Oil from the rock (Deut. 32. 13).
+17:7 | Massah = Temptation. Tempting of God. Meribah = Strife. Striving with Moses. tempted. Fig. Anthropopatheia. Ap. 6. (i.e. tempting Jehovah to cut them off).
+17:8 | Then came Amalek. See on Gen. 21. 25 and Judg. 5. 11. Amalek came to fight for the water. Cp. Deut. 25. 17, 18. Amalek came behind and attacked the rear, and he "feared not God", Deut. 25. 8. Amalek, Fig. Synecdoche (of Part), Ap. 6, put for Amalekites. At Rephidim, they got water plus Amalek; at Meribah, water plus Edom.
+17:9 | Joshua. First occ. (250 times in all). Heb. Jehoshua. Now fifty-three years of age. Hence a bondman in Egypt. Twenty-seven years younger than Moses. See Ap. 50. iv and vii. 1. men. Heb. pl. of 'ish or 'enosh. Ap. 14. fight. There was a large population in the peninsula at this time. A wilderness, a place of pasture, not a desert. God. Heb. Elohim. Ap. 4.
+17:10 | as = according as. Moses (prophet), Aaron (priest), Hur (royal tribe, Judah). Hur. Heb. noble or well-born. The son of Caleb, the son of Hezron, the son of Pharez, the son of Judah (1 Chron. 2. 3, 4, 5, 18, 19). Josephus makes him the husband of Miriam and grandfather of Bezaleel (Ex. 31. 2; 35. 30; 38. 22).
+17:11 | when = according as. hand. Sam. and Sept. read "hands". Cp. v. 12.
+17:12 | heavy = weary.
+17:13 | edge. Heb. mouth. Fig. Prosopopoeia. Ap. 6. sword in the Plain: Rod of God on the mount (v. 9): Jehovah above all (v. 6).
+17:14 | the LORD (Heb. Jehovah) said. See notes on 3. 7 and 6. 10. Write. First occurrence. The tablets found at Lachish and Tel-el-Amarna show that writing of a high order was fully developed before the time of Moses. in a book. Heb. "in the book" (bassepher). This writing afterward ordered for "the Book of the Law" (24. 4, 7). See Ap. 47, where the history of that Book is traced from this passage to Malachi. put out = blot out. Cp. Deut. 25. 19. Num. 24. 20.
+17:15 | Jehovah-nissi = "Jehovah [is] my banner." One of the Jehovah titles. Ap. 4.
+17:16 | LORD = Jah. See Ap. 4. hath sworn. The margins of A.V. and R.V. show the perplexity caused by the Ellipsis of the verb. "Surely the hand [lifted up] upon the banner of Jah [is to swear]: for the war of Jehovah against Amalek is to be from generation to generation". So it was. It was carried on by Ehud (Judg. 3. 13-15), Barak (Judg. 5. 14), Gideon (Judg. 6. 3; 7. 12-14), Saul (1 Sam. 15. 2-9, cp. v. 11), Samuel (1 Sam. 15. 32, 33), David (1 Sam. 27. 8; 30. 1, 17; 2 Sam. 8. 12), Simeonites (1 Chron. 4. 42, 43), and Mordecai (Est. 3. 1-6; 9. 7-10).
+18:1 | When. This chapter is a parenthesis (Ap. 6). Introduced here because Jethro, though he lived among the Amalekites, yet was not under their curse (17. 14-16). The event occurred between vv. 10 and 11 of Num. 10. Jethro's counsel was given, and taken, when Israel was ready to depart from Sinai (Deut. 1. 7-14). Jethro. Cp. 3. 1. Probably a descendant of Abraham by Keturah, and not, therefore, an idolater. Cp. v. 12 and context. God. Heb. Elohim. Ap. 4. the LORD. Heb. Jehovah. Ap. 4. Egypt. A reading (Sevir) reads "land of Egypt". See Ap. 34.
+18:2 | sent her back. Probably at Ex. 4. 26.
+18:3 | Gershom = a stranger.
+18:4 | Eliezer = God [is] my helper.
+18:6 | I. The Sam., Sept., and Syr. read "Lo", or "Behold": in which case we must read instead of "he", v. 6, "and one said unto Moses, 'Behold, thy father-in-law cometh'", &c.
+18:10 | Blessed. Fig. Benedictio. Ap. 6. hand. Thrice put for "power" by Fig. Metonymy (of Cause). Ap. 6.
+18:11 | greater. Fig. Anthropopatheia. Ap. 6. Magnitude attributed to God.
+18:13 | unto. Some codices, with one early printed edition, Sam., and Syr., read "even until".
+18:16 | statutes of God. Those before Sinai. See Ap. 15.
+18:18 | wilt surely wear away. Fig. Polyptoton (Ap. 6), "a wearing thou wilt wear". See note on Gen. 26. 28.
+18:20 | ordinances and laws. Heb. "the Ordinances and (or, even) the Laws".
+18:21 | men. Heb. pl. of 'ish, or 'enosh. Ap. 14. to be. Supply "as" for Ellipsis (Ap. 6). rulers. Some codices, with Sam., Sept., and Syr., read "and rulers".
+19:1 | third month. Ap. 50. vii. 3. Fifty days from Rameses, vii. 1, 2. children = sons.
+19:3 | went up unto God: Moses' first ascent. From the Structures T, U, and U (p. 85), it will be seen that we have here the first occurrence of this expression, and the first of the six ascents and descents of Moses to receive and give His laws and ordinances. The following is a summary:— First: ascent 19. 3-6, descent 19. 7, 8-. Second: ascent 19. -8-13, descent 19. 14-19. Third: ascent 19. 20-24, descent 19. 25. Fourth: ascent 24. 9—32. 14, descent 32. 15-30. Fifth: ascent 32. 31-33, descent 32. 34—34. 3. Sixth: ascent 34. 4-28, descent 34. 29-35. Note that the two sets of three each are marked off by the two great events: the giving of the Law, and the setting up of the Tabernacle; while the fourth and sixth ascents are marked by the giving of the first and second tables (See Ap. 10). The fourth and sixth ascents are the fullest, and receive special expansion. See above X4 (p. 94), 20. 21—24. 2, and X5 (p. 94), 24. 9—32. 15. God. Heb. ha-'Elohim. See Ap. 4. the LORD (Heb. Jehovah) called. The only occ. of this expression in Exodus. In 3. 4, it is "God (Elohim) called". children of Israel. A reading called Sevir reads "house of Israel". See Ap. 34.
+19:4 | I bare you, &c. Cp. Deut. 32. 11, 12.
+19:5 | peculiar treasure = a treasure acquired for a possession. Cp. 1 Chron. 29. 3. Ecc. 2. 8. 1 Pet. 2. 9. Heb. segullah. First occ. Eight times: 19. 5, and Deut. 7. 6; 14. 2; 26. 18. Ps. 135. 4. Mal. 3. 17, where it is used of Israel; and in 1 Chron. 29. 3 and Ecc. 7. 8, where it is used of purchased and personal property. It denotes a treasure reserved for one's self. The Lat. sigillo, to seal up, is from this Heb. word. Cp. Matt. 13. 44. people = peoples. God's People are:— A separated People. Ex. 33. 16. A People of inheritance. Deut. 4. 20. A special People. Deut. 7. 6. A purchased People. Ex. 15. 16; Ps. 74. 2. A holy People. Deut. 7. 6; 14. 1. A redeemed People. Ex. 15. 13. A sanctified People. Isa. 63. 18. all the earth is Mine. Cp. Ps. 24. 1; 50. 12.
+19:6 | kingdom of priests. Not the genitive of character (Ap. 17), which would be priestly kingdom. But by the Fig. Antiptosis (Ap. 6) = "a royal priesthood", as explained in 1 Pet. 2. 9. The whole nation being a priest with respect to other nations, as the tribe of Levi for Israel. Now in abeyance, because Israel did not fulfil the condition in v. 5. But in the future it will be realised (Isa. 61. 6; 66. 21).
+19:7 | came. Moses' first descent. See note on 19. 3.
+19:8 | returned. Moses' second ascent, vv. -8-13. See note on 19. 3.
+19:9 | the LORD said. See note on 3. 7, and cp. note on 6. 10. Lo. Fig. Asterismos. Ap. 6. speak ... believe. Cp. Rom. 10. 17. "Faith cometh by hearing".
+19:12 | surely put to death. Fig. Polyptoton. Ap. 6. "A dying he shall die." See note on Gen. 2. 17.
+19:13 | it = him: i.e. not arrested or seized lest trespass on mount incurred. surely be stoned. Fig. Polyptoton (Ap. 6). Cp. Gen. 26. 28.
+19:14 | went down. Moses' second descent, vv. 14-19. See note on 19. 3.
+19:19 | answered him by a voice. Heb. denotes repeated speaking, and thus tells us how the next and following chapters were given to Moses.
+19:20 | on = to. went up. Moses' third ascent.
+19:24 | priests. See Ap. 15. The firstborn were priests.
+19:25 | went down. Moses' third descent. See note on 19. 3. spake. Fig. Ellipsis (Ap. 6): i.e. "repeated [these things] to the People".
+20:1 | Here, the three subjects, Thought, Word, and Deed, are repeated in the second table in inverse order. The law given in Arabia. The same country witnessed the giving of Mahomet's Law. The moral law given in public at Horeb. Cp. Mal. 4. 4. The ceremonial law given to Moses in the Tabernacle. The judicial law given at sundry times; neither so public and solemn as the former, nor so private as the latter. God spake. Heb. Elohim: hence of universal application. Cp. Heb. 1. 1. Deut. 4. 12. Heb. 12. 26; &c., &c. Not Jehovah, for this title would have limited the law to Israel. See Ap. 4, and note on 6. 2. all these words. It has been asserted that there are three strata of laws in the Pentateuch:— (1) The Prophetic code. Ex. 20—23 and 34. 17-26. (2) The Priest code. Rest of Ex., Lev., and Num. (3) The Deuteronomy code. But the Structures of these books, displayed above, show that these were all in perfect order, spoken "at sundry times and in divers manners." The Ten Commandments divided by Christ into two [tables], Duty to God and Neighbour (Matt. 22. 37-40). Divided by man into four and six. By Roman Catholics (in their Catechism) the second is joined to the first, and the tenth is divided into two. But this is impossible: see the Structure of Com. X on v. 17, p. 101. The Structure of the whole divides them into 5 + 5, the number of Grace. See Ap. 10, and cp. John 1. 17, "the law was given by Moses, but grace and truth came by Jesus Christ", which, by the Fig. Hendiadys (Ap. 6) = "true grace". For there was grace in the law, seeing no other nation was favoured with it. Moreover, the first five are linked together by the words "the LORD thy God", the second five by the word "Thou". saying. The Ten Commandments begin, therefore, with v. 2. See Ap. 39.
+20:2 | I am, &c. = "I, Jehovah [am] thy God (Heb. Elohim)." Ap. 4. the LORD (Heb. Jehovah) thy God. This must go with Com. I, or we should not have the five repetitions of it in the first five.
+20:3 | before Me = before My face.
+20:4 | make. The making is equally forbidden as the worshipping. graven image. Heb. pesel, a sculpture. First occ.
+20:5 | jealous = zealous. Fig. Anthropopatheia. Ap. 6. Cp. Deut. 4. 24. Heb. 12. 29. GOD = El. See Ap. 4. visiting = charging. This burden of God's revelation of Himself reappears in Ex. 34. 6, 7. Num. 14. 18. Deut. 5. 9, 10. The punishment being not lengthened in vengeance, but distributed in mercy over the third and fourth, so that the whole weight falls not on the first or second. iniquity. Heb. 'avon. Ap. 44. iii. children = sons.
+20:7 | take the name ... in vain. Much more important than the mere mispronunciation of the Name. not hold him guiltless. Fig. Tapeinosis. Ap. 6.
+20:8 | Remember. Because already hallowed, and command given. See Ap. 15, and notes on Gen. 8. 5, 10, 12, 14. The Babylonians had a seventh-day rest, doubtless from Gen. 2. 2, 3: not this from Babylonians. Note the Structure of this longest Commandment:—
+20:9 | labour. The Heb. accent (zarka) marks this word for emphasis: implying that the fourth Commandment is twofold, and no seventh-day rest can be really enjoyed without, or apart from, the six days of labour.
+20:10 | any. Fig. Synecdoche (of Genus). Ap. 6. i.e. not any forbidden work. Cp. Lev. 23. 7, 8. Num. 28. 18. nor. Note the Fig. Paradiastole (Ap. 6), for emphasis. thy manservant. Some codices, with three early printed editions and Jon., read "nor thy manservant". gates. Put by Metonymy (of Adjunct), Ap. 6, for cities.
+20:11 | made = took to make. heaven and earth. See note on Deut. 4. 26. the sea. Sam., Onk., Jon., Sept., and Syr. read "and the sea".
+20:12 | Honour. This completes the first five, and ends with "promise" (Eph. 6. 2). These five, that relate to piety, are thus separated from the five that relate to probity. The first and fifth begin and end the five with honour to God, and to our parents whom He honours. They have nothing to do with our "neighbours".
+20:17 | The Structure of Commandment X shows that it cannot be divided, except as follows:—
+20:18 | saw. Fig. Zeugma. Ap. 6 (here, Protozeugma), the one verb "saw" used for two things, but appropriate only for one. Emphasis on "saw". and. Note Fig. Polysyndeton (Ap. 6).
+20:19 | Speak thou, &c. From Deut. 5. 28 and 18. 17 we learn that on that very day God promised to send "Him that speaketh from heaven" (18. 15-18).
+20:20 | to prove: i.e. for the purpose of proving. that = in order that. sin. Heb. chat'a. See Ap. 44. i.
+20:21 | afar off. Note the difference between law and grace. (Eph. 2. 13). drew near. Moses' fourth ascent. See note on 19. 3.
+20:22 | 20. 22—23. 33 (c, p. 102). GENERAL LAWS (Repeated Alternation). [For Structure see next page.] the LORD [Heb. Jehovah] said. See note on 3. 7, and cp. note on 6. 10.
+20:24 | of earth ... in all places. Shiloh was the first place, Jer. 7. 12; Bethel, 1 Sam. 10. 3; then Zion, Ps. 78. 68. "Where'er we seek Thee Thou art found". sacrifice. Heb. zabach. Ap. 43. I. iv.
+20:25 | not ... hewn stone. No human handiwork to be used in approaching God in worship. tool. Man's work, in this sphere, pollutes.
+20:26 | by steps. Only exposes nakedness. "I will come unto thee" (v. 24) is the essence of worship. Our approach is quite secondary. Whether by "tool" or "steps", it either pollutes the Divine or exposes the human.
+21:1 | Chapters 21-23 are an expansion of chapter 20.
+21:3 | by himself. Heb. "with his body". Fig. Synecdoche (of Part). Ap. 6.
+21:5 | shall plainly say. Heb. "saying shall say". Fig. Polyptoton (Ap. 6) for emphasis. See note on Gen. 26. 28. children = sons.
+21:6 | the judges. See note on 22. 9. bore his ear. Hence a symbol of obedience and perpetual servitude. Cp. Ps. 40. 6. Isa. 48. 8; 50. 5; and see note on Heb. 10. 5. for ever. Fig. Synecdoche (of Whole). Ap. 6. All time put for limited time;—"for life", or till the jubilee, Lev. 25. 13, 28, 40, 41.
+21:7 | a man. Heb. 'ish. See Ap. 14.
+21:8 | nation = people. power = authority.
+21:13 | God [Heb. Elohim] deliver. Heb. idiom, by which God is said to do what He allows to be done. deliver. Heb. permit him to meet, or come.
+21:14 | guile ... thou. Fig. Ellipsis (Ap. 6); between these two words, supply: "and then seek refuge at Mine altar".
+21:15 | smiteth. Here and elsewhere in this chapter (except v. 26), to smite to death, or seriously.
+21:16 | a man. (Heb. 'ish. Ap. 14.) Aram. and Sept. add "of the sons of Israel".
+21:17 | curseth, or revileth. Cp. Matt. 15. 4. Mark 7. 10.
+21:18 | 18-32 (i, above). VIOLENCE: RELATING TO PERSONS (Extended Alternation). [For Structure see next page.] men. Heb. pl. of 'ish, or 'enosh. See Ap. 14. ii. one. Heb. 'ish. Ap. 14. ii. another = his neighbour.
+21:20 | punished = avenged.
+21:21 | money. Fig. Metonymy (of Cause), Ap. 6, money put for the servant who earns it.
+21:22 | child ... so. Fig. Ellipsis (Ap. 6); supply "who intervenes". punished = amerced, or fined. The laws of Khammurabi distinguished between three classes (§§ 209, 211, 213). Here it is any woman. See Ap. 15.
+21:23 | life = soul. Heb. nephesh. See Ap. 13.
+21:24 | 24-25 Eye for eye, &c. Lex talionis, eight particulars for completeness (Ap. 10), seven in separate category (vv. 24, 25). These laws made prisons unnecessary, and prevented crime.
+21:26 | go free. By Code of Khammurabi, the master was compensated, § 199 (see Ap. 15). Cp. Deut. 4. 8.
+21:27 | smite. Not the same word as elsewhere in this chapter.
+21:30 | ransom. Implying that death-penalties were in certain cases commutable. Cp. 30. 12 and Ps. 49. 8.
+21:32 | shekels. See Ap. 51. I.
+22:1 | a man. Heb. 'ish (Ap. 14). four sheep. So David judged, 2 Sam. 12. 6.
+22:2 | found: i.e. caught in the act of.
+22:3 | If the sun, &c. Therefore killed after he had got away, and in cold blood.
+22:5 | field .. of. Between these two words the Sam. and Sept. have "he shall surely make restitution out of his own field according to the yield thereof; and if the whole field be eaten". This is not due to Ellipsis but to Homoeoteleuton (Ap. 6), by which, in transcribing, the eye of the copyist went back (in error) to the latter of the like endings of two sentences, and thus omitted the intervening words between "field" and "field".
+22:9 | trespass = rebellion. Heb. Pash'a. Ap. 44. ix. before the judges. Heb. ha-'elohim = "gods". See Ap. 4, and note on ch. 21. 6. Or, before God (the judges representing Him), and acting in His stead, according to Rom. 13. 1-6. See this usage (with the Article), 21. 6; 22. 8, 28. See ch. 18. 15-19: and cp. Ps. 82. 1, 6. John 10. 34, 35.
+22:10 | no man = no one.
+22:11 | the LORD. Heb. Jehovah. Ap. 4.
+22:13 | it. Fig. Synecdoche (of the Whole). Ap. 6. i.e. bring one of the pieces. Cp. Gen. 31. 39; and Amos 3. 12.
+22:17 | dowry = 50 shekels. Deut. 22. 29. See Ap. 51. II.
+22:18 | witch or spiritist. Medium to or from, from root to mutter, as to some demon. Cp. Lev. 19. 26, 31; 20. 27. Deut. 18. 9-14. This enactment shows the reality of intercourse with evil spirits (angels) and demons.
+22:20 | sacrificeth. Heb. zabach. Ap. 43. I. iv.
+22:22 | widow, or fatherless. Fig. Synecdoche (of Species), Ap. 6, put for all kinds of helpless ones.
+22:26 | raiment = mantle. Raiment by day, and sole covering at night. Cp. 12. 34. Deut. 24. 12, 13. Judg. 4. 18. Amos 2. 8.
+22:27 | According to the Massorah (Ap. 30) this is the middle of the 1,209 verses of Exodus.
+22:28 | curse. Cp. Ecc. 10. 20. Acts 23. 5. 2 Pet. 2. 10. Jude 8.
+22:29 | ripe fruits, and ... liquors = thy corn and wine and oil. Fig. Synecdoche (of Species). Ap. 6. give. On the eighth day.
+22:31 | men. Heb. pl. of 'ish or 'enosh. Ap. 14.
+23:1 | raise = utter, or take up. Same as 20. 7. the wicked = a wicked one. Heb. rash'a. Ap. 44. x.
+23:2 | evil = injury. Heb. r'a'a. See Ap. 44. viii. speak = testify. decline = "turn away [and follow]". Fig. Ellipsis (Ap. 6. iii. a).
+23:3 | countenance = prefer, or favour.
+23:4 | ox or his ass. Fig. Synecdoche (of Species), Ap. 6, put for any kind of beast of burden.
+23:5 | help. Heb. Homonym. 'azab two words:— (1) 'azab = to leave, or forsake. (2) 'azab = to help, or restore (hence strengthen, or fortify). No. 1 in Gen. 2. 24; 39. 6. Neh. 5. 10. Ps. 49. 10. Mal. 4. 1. But here it should be No. 2 (as in Neh. 3. 8. Deut. 32. 36. 1 Kings 14. 10. 2 Kings 14. 26. Jer. 49. 25). surely help with him. Fig. Polyptoton (Ap. 6), "helping shalt help him", or, supplying the Ellipsis, "surely help him [to unload]".
+23:7 | wicked = a wicked one. Heb. rash'a. Ap. 44. x.
+23:8 | blindeth ... perverteth: i.e. causeth these acts, or sins. Fig. Metonymy (of Effect), Ap. 6. wise. Heb. seeing = the most clear-sighted.
+23:9 | heart = soul. Heb. nephesh. Ap. 13.
+23:10 | fruits. Heb. harvest.
+23:11 | and. Some codices, with Sam. and Sept., have this in text; it need not, therefore, be in italics.
+23:12 | refreshed. Heb. verbal form of nephesh (soul) = quickened, have new life put in, renewed, or revived.
+23:13 | be circumspect = take heed. make no mention, &c. A command often disobeyed, especially in house of Saul. Cp. "Baal", 1 Chron. 8. 33; 9. 39; 12. 5; 14. 7; 27. 28. Hence the importance of the prophecy as to the future in Hos. 2. 16, 17.
+23:14 | Three times. No. of Divine perfection. Ap. 10.
+23:15 | as = according as. month Abib. See Ap. 51. III. iv. appear before Me. This is the current Heb. text: but this, and ten other passages were altered by the Sopherim (only in the pointing). Ap. 33. The primitive text read (and ought to be) "see My face". They did not know that "face" was used by Fig. Synecdoche (of Part), Ap. 6, for the person "Me", and they thought it too anthropomorphitic. See note on 34. 20. empty = empty-handed.
+23:17 | before = Heb. "before the face of". THE Lord GOD = Heb. ha-'adon Jehovah. See Ap. 4.
+23:18 | offer. Heb. "slay", requiring the supply of the Ellipsis, ii. d (Ap. 6) = "slay [and pour out]". See Ap. 43. I. iv. sacrifice. Heb. "feast", put by Metonymy (of Adjunct) for "festal sacrifice" (Ap. 6).
+23:19 | the LORD. Heb. Jehovah. Ap. 4. God. Heb. Elohim. Ap. 4. mother's: i.e. in the milk of its dam. Repeated, 34. 26 and Deut. 14. 21. For similar consideration cp. Deut. 22. 6. Lev. 22. 28.
+23:20 | Behold. Fig. Asterismos (Ap. 6) for emphasis. an angel. It is Elohim speaking, therefore, who can it be but Micha-el? Cp. Dan. 10. 13, 21; 12. 1. Jude 9; and see Mal. 3. 1; Is. 63. 9.
+23:21 | transgressions = Heb. pash'a. Ap. 44. ix. My name. Cp. Jer. 23. 26. Col. 2. 9.
+23:23 | the Hivites. Some codices, with Sam., Onk., and one early printed edition, read "and the Hivites". them = the six nations. See Ap. 10.
+23:24 | images = sacred pillars or statues. 24. 4; 34. 13. See note on Ex. 26. 1.
+23:25 | bread, and thy water. Fig. Synecdoche (of Species), Ap. 6, put for all kinds of food and drink.
+23:27 | My fear = a terror of me.
+23:28 | hornets. Cp. Deut. 7. 20. Josh. 24. 12.
+23:31 | sea of the Philistines = the Mediterranean or "Great Sea". from the desert = the desert of Shur. the river = the Euphrates. the inhabitants. Some codices, with Jon. and one early printed edition, read "all the inhabitants".
+23:33 | sin. Heb. chat'a. See Ap. 44. i.
+24:1 | He (Elohim of 20. 1) said. See note on 4. 3. the LORD. Heb. Jehovah. Ap. 4. Nadab, and Abihu. Aaron's eldest two sons. seventy. See Ap. 10. afar off. See note on 20. 21.
+24:2 | near = near unto.
+24:3 | came. Moses' fourth descent. See note on 19. 3. all the words. (1) The Ten Commandments. Ex. 20. 1-17. (2) all the judgments, chaps. 21-23.
+24:4 | wrote. See note on Ex. 17. 14, and Ap. 47. the hill = the mountain.
+24:5 | young men. The whole nation as yet were priests, represented in the fathers and elder sons. Probably the redeemed firstborn from all the tribes. children = sons. offered. Heb. 'alah. See Ap. 43. I. vi. burnt offerings. Heb. 'olah. See Ap. 43. II. ii. sacrificed. Heb. zabach. Ap. 43. I. iv. peace offerings. Heb. shelem. Ap. 43. II. iv. 5-8 This is the subject of Heb. 9. 15-23, where "testament" should be rendered covenant, and the word "men", which is not in the text, should be "over the dead sacrifices" referred to here. (Gr. epi nekrois.)
+24:6 | on the altar. This was pledging Jehovah to this conditional covenant. See Heb. 9. 19, where the book also is said to be sprinkled.
+24:7 | be obedient. Connect this with the sprinkling of the blood in next verse; and connect both with 1 Pet. 1. 2.
+24:8 | the blood = the other half of the blood. Fig. Synecdoche (of the Part), Ap. 6. See Heb. 9. 20. the People. Thus pledging them to their part of the covenant, which was thereby made conditional; unlike that with Abraham in Gen. 15, which was unconditional. Behold. Fig. Asterismos (Ap. 6).
+24:9 | 24. 9—32. 14 (X4, p. 94). THE FOURTH ASCENT. THE MAKING OF THE TABERNACLE. (Introversion and Repeated Alternation.) [For Structure see next page.] went up. Moses' fourth ascent. See note on 19. 3.
+24:10 | they saw. Heb. hazah, to see with the mental eye, or in vision (Isa. 1. 1; 2. 1; 13. 1. Ezek. 13. 7. Amos 1. 1. Mic. 1. 1. Hab. 1. 1. Num. 24. 4, 16). Hence, to discern, observe, contemplate, understand. Job 34. 32. Ps. 46. 8. Prov. 22. 29; 24. 32; 29. 20. Ps. 62. 2. God. Heb. Elohim. Ap. 4. under. Was this seen from beneath?
+24:11 | He laid not His hand = put not forth His hand [in vengeance]. Cp. Ex. 3. 20; 33. 22. eat and drink. Fig. Metonymy (of Adjunct), Ap. 6, put for living, i.e. though they were favoured with this vision, they yet lived.
+24:12 | the LORD [Heb. Jehovah] said. See note on 3. 7, and cp. note on 6. 10. a = the. commandments = the commandment. written. See note on 17. 14, and Ap. 47.
+24:15 | a cloud = the cloud.
+24:16 | six days. See Ap. 50. vii. 1, 2, 3.
+24:18 | went into. On 20-25th and 26th of SIVAN. The fourth Sabbath.
+25:1 | the LORD [Heb. Jehovah] spake. See notes on 3. 7 and 6. 10.
+25:2 | children = sons. offering = heave offering. Ap. 43. II. viii. man. Heb. 'ish. Ap. 14.
+25:3 | And. Note the Fig. Polysyndeton (Ap. 6) in vv. 3-5. Fifteen objects (vv. 3-7), 3 x 5. All numbers connected with the Tabernacle are multiples of 5. See Ap. 10. gold, &c. No iron in the tabernacle. brass. A mixture of copper and zinc was unknown then. Probably copper, or bronze (a mixture of copper and tin).
+25:4 | purple, &c. These colours connected with the crucifixion. Matt. 27. 28. John 19. 2. White mentioned last. So in Rev. 19. 13, 14.
+25:5 | shittim = acacia.
+25:6 | the light = the light-holder, as in Gen. 1. 14.
+25:8 | sanctuary. Heb. kodesh. See note on 3. 5.
+25:9 | pattern. Cp. Heb. 8. 5. Not a plan, but a model. The reality is in heaven. So with the temple, later. 1 Chron. 28. 11-19. With the utmost exactitude certain representative measurements given. Nine others, vital to construction, but not for significance, not given. Probably these Divine silences were to make any unauthorised structures impossible. These nine were: (1) Thickness of sides and bottom of ark; (2) thickness of mercy seat and details of cherubim; (3) thickness of table; (4) dimensions of lampstand; (5) thickness of boards; (6) middle-bar dimensions; (7) size, &c., of rams' skins; (8) ditto badgers' skins; (9) all thicknesses of brazen altar (the third dimension). tabernacle. Heb. mishkan. First occ. See Ap. 40. Cp. v. 8.
+25:10 | 25. 10—27. 21 (L1, p. 96). THE FURNITURE OF THE TABERNACLE (Alternation). [For Structure see next page.] Note, in "M" we have furniture, for the worship, within; and in "N" the protection without. ark. Note the order in which these things were made, and the lesson arising therefrom. God begins from within; man from without, Matt. 15. 16-20. Here the work begins with the ark and ends with the gate. 25. 10-26. 37. So with the four great offerings. So with His work in the heart of the saved sinner. We begin from the "gate" and with the "sin-offering". God begins with the "ark" and the "burnt-offering". cubits. See Ap. 51. III. ii.
+25:11 | upon it. Some codices, with Sam., Sept., and Syr., read "thereto". crown. See note on v. 24.
+25:12 | side. Heb. zel'a, rib. See note on v. 32.
+25:16 | the testimony. Heb. 'eduth = witness, from 'ud, to bear witness, give testimony. The two tables so called because they bore witness to, and were evidences of the covenant made, and of its future extension. 1 Tim. 2. 6, "the testimony in its own season" (= "all", without distinction).
+25:17 | mercy seat = propitiatory cover (Heb. kapporeth = cover). By Fig. Metonymy (Ap. 6) cover put for the propitiation made through the blood sprinkled thereon. It therefore denotes propitiation. Cp. Heb. 9. 5. Hence the meaning, God's "propitiatory gift", as in Papyri. Cp. Rom. 3. 25. pure gold. Not overlaid, because propitiation is a Divine work throughout.
+25:18 | cherubims. Pl. of Heb. cherub. Fig. Metonymy here put for representation of the celestial beings, of which we know nothing. They are a reality, there, and representative of creation, symbolical of blessing for all creation. These (in v. 18) were not the cherubims themselves, but representations of them. See Gen. 3. 24: but no "sword", because of the blood of propitiation. Occurs seven times in vv. 17-22.
+25:19 | even of = out of. ye. Some codices, Hillel, Sam., Sept., and Syr., read "thou".
+25:20 | toward. Looking toward the blood of propitiation. Cp. Ex. 12. 13 and Josh. 2. 18-21. See especially Ex. 37. 9.
+25:22 | I will meet. Heb. meet as by appointment, and this, in the appointed place and way: "there". Cp. 23. 14-17; 29. 42, 43, 45, 46; 34. 22-24; 40. 34, 35. the ark of the testimony. It has seven names:— Ark of the covenant of Jehovah, Num. 10. 33. Ark of Adonai Jehovah, 1 Kings 2. 26. Ark of Jehovah, Josh. 3. 13. Ark of Elohim, 1 Sam. 3. 3. The holy ark, 2 Chron. 35. 3. The ark of Thy strength, Ps. 132. 8.
+25:24 | crown of gold. Note the three "crowns":— (1) Ark (25. 11), the crown of the Law. The atoning blood between it, and the cherubim its executant. (2) Altar of incense (30. 3), the crown of the priesthood. Its incense fired only by the fire from the altar of burnt offering. (3) Table of shewbread (25. 24), the crown of the kingdom. The twelve tribes symbolised by the twelve loaves.
+25:25 | hand breadth. See Ap. 51. III. 2.
+25:29 | to cover = to pour out.
+25:30 | shewbread. Heb. bread of faces; faces being put for presence by Fig. Metonymy (of Adjunct), Ap. 6, denoting the Divine presence in which the bread stood, and from Whom all supplies, material and spiritual, came. First occ. Me. Heb. "My face." So that here we have the Fig. Paronomasia, "panim l'phanai" (Ap. 6).
+25:31 | candlestick = lampstand. shall ... be made. Some codices, with Sam., Jon., Sept., and Syr., read "shalt thou make". knops = knobs.
+25:32 | sides. There are seventeen Heb. words translated "side", important in this technical description. Here it is the ordinary word for "side", zad.
+25:33 | Three. Note connection with four, v. 34, making seven. See Ap. 10.
+25:37 | it. Heb. the face of it. Fig. Prosopopoeia (Ap. 6).
+25:38 | tongs = snuffers (but no extinguishers).
+25:39 | talent. See Ap. 51. II. shall he. The reading called Sevir (see Ap. 34) reads "shalt thou"; so some codices, with Sam., Sept., and Syr.
+25:40 | pattern. See note on Heb. 8. 5, and cp. 1 Ch. 28. 11, 12, 18, 19.
+26:1 | tabernacle. Heb. mishkan, the place of God's presence or habitation. Cp. v. 7. See Ap. 40. ten. See Ap. 10. of cunning work = the work of a skilful weaver. Probably working both sides alike, whereas the embroiderer worked only one side.
+26:2 | cubits. See Ap. 51. III. ii.
+26:3 | coupled together. Like the five commandments on the two tables. See on Ex. 20. 1.
+26:6 | taches = hooks.
+26:7 | curtains. These were for the upper covering forming the tent. covering = Heb. 'ohel, tent (Ap. 40). tabernacle. Heb. mishkan = dwelling place (Ap. 40). make. Heb. adds "them", as being distinct from the former.
+26:11 | brass. See note on 25. 3. tent. Heb. 'ohel, tent (Ap. 40).
+26:12 | tabernacle. Heb. mishkan (Ap. 40).
+26:13 | side. Heb. zad. See note on 25. 32.
+26:15 | 15-30. THE BOARDS.
+26:18 | side = Heb. pe'ah = region.
+26:20 | side. Heb. zel'a = rib.
+26:21 | silver. See note on "brass", 27. 17.
+26:22 | sides. Heb. yarkah = hinder side.
+26:24 | And they shall be. So some codices, and Sam.; but Heb. text reads, "that they may be."
+26:26 | bars. Heb. b'riah, from barah, to pass, or shoot. side. Heb. zel'a = rib.
+26:27 | bars. This is omitted in Severus Codex (Ap. 34).
+26:28 | shall reach = passing, or shooting.
+26:30 | rear up = erect, or put together. fashion = regulation, or manner.
+26:31 | 31-35. THE VAIL OF THE HOLY PLACE. vail. Heb. paroketh (not masak, as in v. 36), means to separate. Cp. Heb. 6. 19; 9. 3. Matt. 27. 51. Mark 15. 38. Luke 23. 45. shall it be made. The Sevir (Ap. 34) reading is "shalt thou make it", with other codices, Sam., Sept., Syr., and Vulg.
+26:33 | within the vail. See Heb. 9. 3, 8, 24, 25. the holy place. See note on 3. 5. Heb. 9. 11, 12. the most holy. Heb. "holy of holies." Fig. Polyptoton (Ap. 6). See note on Ex. 3. 5.
+26:35 | candlestick = lampstand.
+26:36 | 36, 37. THE HANGING FOR THE DOOR. hanging. Heb. masak, a covering to hide (cp. v. 31) not the paroketh of v. 31. No cherubim woven on this; and sockets of pillars of brass, instead of gold or silver. See note on v. 17. door = entrance.
+26:37 | hooks = pegs, pins, or nails. brass. See note on v. 17, and 25. 3.
+27:1 | 27. 1-8 (M2, p. 108). ALTAR OF BURNT OFFERING. shittim wood. Acacia wood. cubits. See Ap. 51. III. 2.
+27:2 | brass, or copper. Perhaps bronze. See 25. 3.
+27:5 | compass of the altar. Probably the margin or place where the priests stood. The "place" of 2 Chron. 30. 16. A raised position from which the sacrificing priest is said to "come down", Lev. 9. 22.
+27:7 | the staves. Heb. its staves.
+27:8 | as. Heb. according as.
+27:9 | 9-19 (N, p. 108). THE HANGINGS OF THE COURTS. tabernacle. Heb. mishkan. See Ap. 40. south side southward. Fig. Polyptoton. Ap. 6. side. Heb. pe'ah, quarter or region.
+27:10 | brass. All other sockets (of boards) in "silver" (26. 19; denoting redemption). The sockets of these pillars (the way of access) of "brass" (denoting judgment in righteousness). Cp. the brazen Altar and Laver. hooks = pegs, pins, or nails.
+27:12 | side. Heb. pe'ah = quarter, region.
+27:14 | side. Heb. katheph = shoulder.
+27:17 | filleted with = connected with rods.
+27:18 | every where = by fifty.
+27:19 | tabernacle. Heb. mishkan. See Ap. 40.
+27:20 | children = sons. pure oil. This is without measure. See on John 3. 34. the light = the light-holder. Cp. Gen. 1. 14. to burn always: i.e. a perpetual light.
+27:21 | tabernacle = tent. Heb. 'ohel. Ap. 40. the testimony. Cp. 26. 33. the LORD. Heb. Jehovah. Ap. 4.
+28:1 | take thou. Heb. = bring thou near. Aaron. Five named (Aaron and his four sons). Ap. 10. from among = from the midst of. Cp. Deut. 18. 15, 18 (Prophet). children = sons. minister unto Me. This was the one object here; and the same when Christ was transfigured, and so consecrated for His office of Priest. See notes on v. 2 below.
+28:2 | holy garments. Heb. garments of holiness. See Ap. 17: emphasis on "holy". See note on 3. 5. for glory and for beauty. Sept., time kai doxa, same as Heb. 2. 9 and 2 Pet. 1. 17. With which Christ was clothed and crowned for the same purpose when He was consecrated priest (Matt. 17. 1-8. Mark 9. 1-10. Luke 9. 28-36) "to minister unto Me in the priest's office."
+28:3 | whom I have filled. This agrees with the Severus Codex (Ap. 34), "I have filled them". See 35. 30—36. 7. spirit. Heb. ruach. Ap. 9.
+28:4 | garments. In this v. and v. 39 general. See Structure above. and. Note the Fig. Polysyndeton, Ap. 6.
+28:6 | Aaron's garments described first. There were in all eight: (1) the mitre (with its plate); (2) the breastplate; (3) the ephod; (4) the robe of the ephod; (5) the turban; (6) the girdle; (7) the drawers; (8) the coat. Eight is the Dominical number, or number of the Lord. See Ap. 10. ephod. From Heb. 'aphad, to bind on, because it held the breastplate in its place. See v. 28. Worn by Aaron the priest, Samuel the prophet (1 Sam. 2. 18), and David the king (2 Sam. 6. 14), Christ combining all three offices. cunning work = work of a skilful weaver.
+28:8 | curious = embroidered. gold. Note the number five in these items. Ap. 10.
+28:9 | two ... stones, with six names on each: the names collectively, on the shoulders, the place of strength. The names on the breastplate, one on each stone (individually) on the heart, the place of love, vv. 15-21. grave. Note the three gravings connected with the heart (v. 9), the shoulder (v. 21), and the head (v. 36).
+28:10 | according to their birth. Here, on the shoulders (the place of strength), all were borne up alike; but over the heart (the place of love) the order was "according to the tribes" as God chose them, v. 21.
+28:11 | ouches = sockets for precious stones.
+28:12 | the LORD. Heb. Jehovah. Ap. 4.
+28:15 | breastplate of judgment. Genitive of relation, or Fig. Metonymy (of Adjunct), Ap. 6, by which judgment is put for "giving judicial decision". See note on v. 30. cunning = skilful. See note on 26. 1.
+28:16 | span. See Ap. 51. III. 2.
+28:17 | four rows. Three in each row, 3 x 4 = 12, as 3 + 4 = 7. See Ap. 10.
+28:21 | the names. Order according to the "twelve tribes" as God chose them. They were individual here, because over the heart, the place of love: one name on each stone. the twelve tribes. Order not given here. In v. 10 according to the order of birth. Here, perhaps, according to Num. 2. See Ap. 45.
+28:26 | side = opposite side. Heb. 'ever.
+28:27 | sides = shoulders. Heb. katheph.
+28:29 | upon his heart. The place of love. See notes on vv. 9, 10, and 21, and note the repetition of the word heart for emphasis.
+28:30 | Urim and Thummim. No command of God to make these. Only told to put (nathan, to give) them in the breastplate, i.e. into the bag of the breastplate (cp. v. 26 and 16, also ch. 39. 9 and 19). This bag was a doubled part, and the Urim and Thummim were probably two precious stones which were drawn out as a lot to give Jehovah's judgment. "The lot is cast into the lap (Heb. bosom); but the whole judgment thereof is of the LORD" (Prov. 16. 33). Bosom here is put for the clothing or covering over it (cp. Ex. 4. 6, 7. Ruth 4. 16. Chek (bosom) = any hollow thing, as of a chariot, 1 Kings 22. 35). The Heb. Urim and Thummim mean "lights" and "perfections". Probably these are the plurals of majesty, the sing. "light" (being put by Metonymy for what is brought to light, i.e. guilt), and "perfection" (put by Metonymy for moral perfection, i.e. innocence). Thus, these two placed in the "bag", and one drawn out, would give the judicial decision (the name connected with the breastplate, cp. v. 15, above), which would be "of the LORD". Hence, the breastplate itself was known as "the breastplate of judgment" (v. 15), because, by that, Jehovah's judgment was obtained whenever it was needed. Hence, when the land was divided "by lot" (Num. 26. 55, &c.), Eleazar, the high priest, must be present (Num. 34. 17 (cp. 27. 21). Josh. 17. 4). When he would decide it the lot "came up" (Josh. 18. 11); "came forth" (Josh. 19. 1); "came out" (Josh. 19. 17): i.e. "out", or "forth" from the bag of the ephod. In Ezra 2. 61-63 & Neh. 7. 63-65, no judgment could be given unless the high priest was present with the breastplate, with its bag, with the lots of Urim and Thummim, which gave Jehovah's decision, "guilty" or "innocent", "yes" or "no". The Heb. for lot is always goral = a stone, except in Deut. 32. 9, 1 Chron. 16. 18 and Ps. 105. 11, where it is = hebel = a measuring line, put by Metonymy for the inheritance so measured. In Josh 13. 6; 23. 4. Ezek. 45. 1; 47. 22; 48. 29, it is naphal, to fall, put by Metonymy for the inheritance which falls to one from any cause. See all the passages where the Urim and Thummim are mentioned: Ex. 28. 30. Lev. 8. 8. Deut. 33. 8. Num. 27. 21. 1 Sam. 28. 6. Ezra 2. 63. Neh. 7. 65, and cp. especially the notes on Num. 26. 55, and 1 Sam. 14. 41.
+28:32 | hole in the top of it, in the midst. To enable the hand of the High Priest to be put into the bag to draw out the Urim or Thummim. Cp. vv. 16 and 26, also 39. 9, 19. See also the note on v. 30. habergeon = coat of mail.
+28:33 | hem = skirts. pomegranates. See note on Num. 13. 23.
+28:34 | Note the Fig. Epizeuxis (Ap. 6), "a golden bell and a pomegranate", instead of saying "alternately".
+28:36 | HOLINESS TO THE LORD. This is one of the few places where the A.V. uses large capital letters (see Ap. 48). Here it was worn only on the forehead of the high priest; but in Millennial days it will be worn even on the bells of the horses, Zech. 14. 20, 21. Cp. Rev. 19. 11-14; 14. 20.
+28:37 | the mitre = tiara, or turban. Heb. miznepheth, from zanaph, to wind round.
+28:38 | bear = bear away, carry off. Lev. 10. 17. Ps. 32. 1. Isa. 33. 24. iniquity. Heb. 'avon. Ap. 44. iii. holy. See note on 3. 5. his ... they. Note these words. Christ is our Representative, we are holy in Him, and this "always".
+28:39 | make. The making deferred to ch. 39. See v. 3.
+28:40 | bonnets = caps.
+28:41 | consecrate them = instal them. Heb. fill their hand, "hand" being put by Metonymy (of Adjunct), Ap. 6, for the authority and official power given to them. Cp. Lat. mandare.
+28:42 | linen. Priests were effendi (Lev. 6. 10. 1 Sam. 2. 18; 22. 18). Prophets were fellahin, and wore coarse clothing (2 Kings 1. 8. Zech. 13. 4. Matt. 3. 4).
+28:43 | tabernacle = tent. Heb. 'ohel. Ap. 40.
+29:1 | minister. See note on 28. 1. without blemish. This, with bread "without leaven" (v. 2), shows the inner meaning of "leaven".
+29:2 | cakes = pierced cakes.
+29:4 | tabernacle = tent. Heb. 'ohel. Ap. 40. wash. Heb. rachaz = one of the ceremonial washings referred to in Heb. 6. 2, and rendered "baptisms".
+29:5 | ephod. See note on 28. 6. curious = embroidered.
+29:9 | consecrate. See note on 28. 41.
+29:13 | caul = the omentum, not the midriff.
+29:14 | without the camp. Cp. Heb. 13. 11-13. An unholy camp was unfit for a holy sin offering. sin offering. Heb. sin, put (as in Gen. 4. 7) by Fig. Metonymy (of Subject), Ap. 6, for sin offering. See Ap. 43. II. v.
+29:18 | sweet savour. Heb. "savour of rest", i.e. complacency or satisfaction. See note on Gen. 8. 21.
+29:20 | and. Note the Fig. Polysyndeton (Ap. 6), calling our attention to the several parts touched by the atoning blood. All were consecrated, and each one is singled out and emphasised by the several "and". Aaron. The Antitype, Christ, so anointed and set apart "on the holy mount" (2 Pet. 1. 16-18). See notes on 28. 1, 2. Cp. Ps. 45. 7. Heb. 1. 9. Note "thy fellows", but "above" them, infinitely "above".
+29:27 | wave offering. Turned to the four quarters of the earth. See Ap. 43. II. ix. heave offering. Lifted up to heaven for Jehovah only. See Ap. 43. II. viii.
+29:28 | children = sons.
+29:30 | holy. See note on 3. 5.
+29:32 | eat, &c. This explains John 6. 33. In Ex. 29 this was literal, but in our case it must perforce be purely and wholly spiritual. Cp. the eating of v. 33 and the burning of v. 34 with the eating and burning of the Paschal Lamb, Ex. 12. 10, 11.
+29:33 | atonement. The first occurrence of the English word. The Heb. kaphar, to cover, gives the essential meaning, as shown in its first occurrence, Gen. 6. 14, where it is rendered "pitch [it]". See notes on Gen. 32. 20. Ps. 32. 1. Hence used of the mercy-seat. See note on 25. 17. The English "at-one-ment" has no connection whatever with the Heb. word kaphar. consecrate. See on 28. 41.
+29:36 | offer. Heb. 'asah. See Ap. 43. I. iii. for it = upon it.
+29:37 | holy. See note on 3. 5.
+29:38 | day by day continually. See the Divine comment on this. Heb. 9. 9; 10. 1, 2.
+29:39 | the other = the second. at even = Heb. between the two evenings = at dusk. Ex. 12. 6; 16. 12; 30. 8.
+29:40 | hin. See Ap. 51. III. 3. wine. Heb. yayin (see Ap. 27).
+29:41 | meat = meal. the LORD = Jehovah. Ap. 4. II.
+29:42 | meet = meet by appointment. See note on 25. 22. you. Some codices, with Sam. and Sept., read "thee".
+29:43 | the tabernacle. Supply Ellipsis with "it" (Ap. 6).
+29:45 | God. Heb. Elohim. Ap. 4.
+29:46 | that I may dwell. This was the object in bringing them forth from Egypt. among = in the midst.
+30:1 | 30. 1-11 (L2, p. 107). FURNITURE: ALTAR OF INCENSE.
+30:2 | cubit. See Ap. 51. III. 2.
+30:3 | sides. Heb. kir, a wall, or side. crown of gold. See note on 25. 24.
+30:4 | sides. Heb. zad, side.
+30:6 | mercy seat. See note on 25. 17.
+30:7 | burn: with fire taken from the brasen altar of atonement, implying that there could be no acceptable worship except on the ground of atonement made. All other fire was "strange fire", and all other worship strange worship, and therefore unacceptable. sweet incense. Heb. incense of spices.
+30:8 | at even. See note on 29. 39. the LORD. Heb. Jehovah. Ap. 4.
+30:9 | offer. Heb. 'alah. See Ap. 43. I. vi. strange incense = incense different from and other than that which God had prescribed. See note on Lev. 10. 1. meat = meal.
+30:10 | once in a year, viz. the tenth day of the seventh month. Lev. 16. 18, 29, 30. Num. 29. 7. sin offering. See note on 29. 14. holy. See note on 3. 5.
+30:11 | the LORD spake. See note on 6. 10 and 3. 7.
+30:12 | children = sons. man. Heb. 'ish. See Ap. 14. II. ransom. Heb. kapher = covering, hence atonement. See note on 29. 33. his soul = himself. Heb. nephesh. See Ap. 13. The acknowledgement of Ezek. 18. 4.
+30:13 | shekel of the sanctuary. See Ap. 51. II. Cp. Matt. 17. 24. gerah, a measure of weight. See Ap. 51. II. offering. Heb. terumah. See Ap. 43. II. viii.
+30:15 | The rich = the rich one. "There is no difference" in the matter of atonement, Acts 10. 34. Rom. 3. 22, 23; 10. 12. Then, all Israel without exception: but now "all" without distinction. offering. Heb. heave offering. See on 29. 27, and cp. Ap. 43. II. viii. atonement. See note on 29. 33.
+30:16 | tabernacle = tent. Heb. 'ohel. Ap. 40.
+30:18 | a laver of brass. Probably copper or bronze. See note on 25. 3. The laver comes after the altar; the altar is for sinners; the laver is for priests = cleansing for worship. Not included in Ex. 25-28, but added here after atonement. John 13. 10 is the Divine antitype. foot. Heb. base.
+30:20 | burn offering made by fire. Heb. to burn as incense. See Ap. 43. viii.
+30:23 | myrrh = gum of Arabian thorny shrubs. sweet calamus = lemon grass of India.
+30:24 | cassia = the bark of a kind of Indian cinnamon. hin. See Ap. 51. III. 3.
+30:30 | consecrate. See note on 28. 41.
+30:32 | man's. Heb. 'adam, human kind. See Ap. 14. flesh. The oil is the type of the Holy Spirit. His work not to act on the flesh, but to give holy spirit (pneuma hagion). Cp. John 3. 6.
+30:34 | the LORD [Jehovah] said. See note on 3. 7 and cp. 6. 10. sweet spices. Five in number. Cp. Ap. 10. onycha = a sweet-smelling shell found on the shores of the Red Sea and Indian Ocean. a like weight. Typical of the perfect proportion of all the excellencies of Christ.
+30:35 | tempered together. Perfect in its parts; perfect in its whole. So in the Antitype. pure and holy. Typical of the holiness and unimaginable purity of Christ.
+31:1 | the LORD [Heb. Jehovah] spake. See note on 6. 10, and cp. note on 3. 7.
+31:2 | See. Fig. Asterismos (Ap. 6), to call our attention to the importance of this member. I have called. Note the qualifications in T and T: "I have filled", "I have given", "I have put", &c. Cp. John 3. 27. No Tubal-Cain could instruct these artificers.
+31:3 | spirit. Heb. ruach. Ap. 9. Put by Fig. Metonymy (of Cause) for the gifts of the Holy Spirit. God. Heb. Elohim = the Creator. Ap. 4. and. Note the Fig. Polysyndeton (Ap. 6) in verses 3-5, emphasising the four particulars and details.
+31:4 | devise. Note the 5 and the 7 (see Ap. 10). See note on 26. 1. Cunning works; gold, silver, brass, stones, timber (5); all workmanship (7).
+31:6 | behold. Fig. Asterismos (Ap. 6) for emphasis. Note also the "I" emphasised. I have put, &c. See note on v. 2.
+31:7 | tabernacle = tent. Heb. 'ohel. Ap. 40. and. Note the Fig. Polysyndeton (Ap. 6), emphasising twelve things to be made in vv. 7-11.
+31:13 | children = sons. My sabbaths. Another special reference to this in connection with any special position in which Israel might be placed. (1) The manna, ch. 16; (2) the giving of the law, ch. 20; (3) the making of the Tabernacle, ch. 31. you. Israel, not the church of God.
+31:14 | soul. Heb. nephesh (Ap. 13).
+31:15 | sabbath of rest. Heb. "sabbath of sabbatizing". See note on 16. 23.
+31:17 | a sign: that Jehovah is our God—that Christ is LORD. heaven and earth. One of thirteen occurrences. See note on Deut. 4. 26. refreshed. Heb. = verbal form of nephesh (Ap. 13). Fig. Anthropopatheia (Ap. 6). See note on 23. 12.
+31:18 | two tables. These first tables were "the work of God" (32. 16; 24. 12). stone. Sing. The second tables were hewn by Moses (34. 1-4, and stones in pl.). Both written by God. written. See note on 17. 14. finger. Fig. Anthropopatheia (Ap. 6).
+32:1 | delayed = put them to shame by his not coming down. Cp. Ps. 44. 7; 53. 5; 119. 31. out of = from. make us gods. The great sin of to-day (1 Cor. 10. 7, 11). Made now not of materials; but made by imagination; and worshipped by the senses. man. Heb. 'ish, Ap. 14. ii. wot not = know not.
+32:3 | all = the greater part. Fig. Synecdoche (of Genus), Ap. 6. them. The Ellipsis (Ap. 6) should be supplied by the word "it": i.e. the gold (v. 3).
+32:4 | calf. The chief Egyptian god, with which they were familiar in Egypt. These be thy gods. Expounded in Neh. 9. 18 as meaning "This is thy god". Cp. Ps. 106. 19-21.
+32:5 | a feast to the LORD. All done under cover of "religion". the LORD. Heb. Jehovah. Ap. 4.
+32:6 | offered. Heb. 'alah. See Ap. 43. I. vi. burnt offerings. Heb. pl. of 'olah. See Ap. 43. II. ii. eat and to drink. Fig. Ellipsis (Ap. 6), i.e. to eat [the sacrifices] and to drink [the libations]. to play = to make sport. Cp. v. 19. So 1 Cor. 10. 7, to dance: i.e. lasciviously. This was part of idolatrous worship.
+32:7 | the LORD [Heb. Jehovah] said. See note on 3. 7, and cp. note on 6. 10. thy ... thou. As though disowning them. Cp. Moses' grand faith, in his reply, v. 11.
+32:8 | sacrificed. Heb. zabach. Ap. 43. I. iv.
+32:9 | behold. Fig. Asterismos (Ap. 6).
+32:11 | the LORD. Heb. "the face of Jehovah": i.e. before, or in the presence of Jehovah. God. Heb. Elohim. Ap. 4. Thy ... Thou. This is the reply of Moses. He knows they were not "cast off" (Rom. 11. 2), but only "cast aside" (Rom. 11. 15) for a little moment. See notes on Rom. 11. 2, 15.
+32:12 | Wherefore ... ? Fig. Erotesis (Ap. 6). mischief, or wrong-doing. Heb. r'a'a. Ap. 44. viii. repent. Fig. Anthropopatheia (Ap. 6). evil. Heb. r'a'a. Ap. 44. viii.
+32:13 | Israel. Not Jacob, because this is the language of highest faith. swarest. Fig. Anthropopatheia (Ap. 6). Cp. Heb. 6. 13, 17. Gen. 22. 16-18. as the stars. Fig. Paroemia (Ap. 6).
+32:14 | thought to do. Heb. which He spake of doing.
+32:15 | went down. Moses' fourth descent. See note on 19. 3 (the fifth ascent was in 24. 9). the two tables. See on 31. 18.
+32:16 | the tables ... the tables. Fig. Epanadiplosis (Ap. 6), emphasising the importance of the statement. the writing .. the writing. Fig. Epizeuxis. Ap. 6. The two figures together greatly emphasising the verse as a whole; and, combined = another Fig. Anadiplosis (Ap. 6), viz. "tables", "writings"—;—"writings", "tables" = the solemn or important writing. See note on 17. 14.
+32:18 | shout ... cry ... sing. The same word in Hebrew.
+32:19 | dancing. Cp. v. 6. As in the worship of Apis.
+32:20 | burnt. A secret known to the Egyptians. water. Cp. Deut. 9. 21. Ex. 17. 6. children = sons.
+32:21 | sin. Heb. chat'a. Ap. 44. i.
+32:22 | are set: or, supply the Ellipsis "are ready for".
+32:23 | man. Heb. 'ish, Ap. 14. ii. wot = know.
+32:26 | Who ... ? &c. Fig. Erotesis (Ap. 6). all. Fig. Synecdoche (of Genus), Ap. 6, i.e. all who had not joined in the idolatry. Cp. Deut. 33. 9.
+32:27 | side = thigh.
+32:28 | children = sons. three thousand men. These 3,000 were the "men" slain by "the sons of Levi." The 23,000 of 1 Cor. 10. 8 includes those who died of the "plague" which followed. See verse 35, below.
+32:29 | Consecrate. See note on 28. 41.
+32:31 | returned. Moses' fifth ascent. See note on 19. 3.
+32:32 | sin—. Fig. Aposiopesis (Ap. 6), to emphasise the unspeakableness of the sin. Thy book. Fig. Anthropopatheia (Ap. 6). Cp. Ps. 69. 28. Isa. 4. 3.
+32:33 | him. Under the Law, the sinner blotted out: under grace, sin blotted out.
+32:34 | behold. A special reading (Severus Codex, Ap. 34) has "and behold". See Ap. 34. Mine angel. Probably an inferior angel, not that of Ex. 23. 20, 21. when I visit. Fig. Polyptoton (Ap. 6). Lit. "when I visit I will visit". See note on Gen. 26. 28 and 50. 24, 25. This is to emphasise the fact that there is such a thing as postponed judgment. Cp. 34. 7. Num. 14. 33. Ezek. 18. 1-3. Matt. 23. 32-36.
+32:35 | plagued. See note on v. 28 above.
+33:1 | the LORD [Heb. Jehovah] said. See note on 3. 7, and cp. note on 6. 10.
+33:2 | the. Some codices, with Sam., Syr., and Onk., read "and the".
+33:3 | milk and honey = all kinds of good things. Fig. Synecdoche (of Species), Ap. 6.
+33:4 | heard. This shows Moses had descended again. man. Heb. 'ish (Ap. 14).
+33:5 | children = sons. stiffnecked People. These have to be humbled; but an afflicted people is an object for Divine favour. Cp. ch. 2. 24, 25; 3. 7; 4. 31.
+33:7 | tabernacle = tent; eleven times called tent; Heb. 'ohel. Not the tabernacle, for this was not yet made, but a different building altogether, called "the tent of assembly" (see Ap. 40). without the camp. In presence of corporate failure God withdraws Himself. Typical of our own day. Those who seek Him must "go forth to Him." Cp. Heb. 13. 13.
+33:8 | man. Heb. 'ish. See Ap. 14.
+33:11 | the LORD spake. See note on 6. 10, and cp. note on 3. 7. face to face. To emphasise the communion in the presence of corporate failure; this must ever be individual and personal. servant = personal attendant, as in 24. 13. Heb. n'ar, rendered "servant". 2 Sam. 19. 17. 2 Kings 5. 20. Neh. 5. 10, &c. = assistant. Joshua. See 17. 9. He had not been in the camp; and when Moses went out Joshua remained in the tent.
+33:12 | whom. As promised in 32. 34. by name. Cp. Isa. 43. 1; 49. 1. In the presence of corporate failure all is individual, cp. 2 Tim. 2. 19. (In 1 Tim. we see corporate rule, in 2 Tim. we see corporate ruin. Hence, 2 Tim. is individual throughout). found grace: or, favour. All is of grace, cp. 34. 9, &c. Noah (Gen. 6. 8); Abraham (Gen. 18. 3); Moses (34. 9), &c.
+33:13 | Thy way. Different from Thy works. Cp. Ps. 103. 7. "Ways" are esoteric, "acts" are exoteric; we must go "outside the camp" to learn the "ways" of Jehovah.
+33:14 | He [Jehovah] said. See note on 3. 7, and cp. 6. 10. My presence. If this verse be punctuated as a question, then we can understand verse 15, "Shall My presence go with thee, and shall I lead thee into rest?" as much as to say, How can My presence go with thee after this rejection of Me?
+33:15 | he = Moses.
+33:16 | wherein ... ? Fig. Erotesis (Ap. 6). so shall we be: or, "and by our being". earth. Heb. 'adamah, ground.
+33:18 | he = Moses.
+33:19 | goodness. The glory could not have been endured; grace comes first, glory is reserved for the future. I will proclaim the name. This is done in 34. 5-7.
+33:20 | see My face. Cp. notes on 23. 15 and 34. 20. man. Heb. 'adam. Ap. 14. i.
+33:21 | a rock = the rock.
+33:22 | a clift = the clift or hollow. My hand. Fig. Anthropopatheia (Ap. 6).
+34:1 | And. Moses must have descended for the fifth time. See note on 19. 3. the LORD. Heb. Jehovah. Ap. 4. the LORD said. See note on 3. 7, and cp. note on 6. 10. Hew thee. Moses makes these second tables; Jehovah made the first. See on 31. 18. write. See note on 17. 14 and Ap. 47.
+34:3 | man. Heb. 'ish. See Ap. 14.
+34:4 | went up. Moses' sixth and last ascent. See note on 19. 3. as = according as.
+34:5 | proclaimed. As promised in 33. 19.
+34:6 | GOD. Heb. El. See Ap. 4. longsuffering = slow to anger. goodness = lovingkindness, or grace. truth = faithfulness.
+34:7 | mercy = lovingkindness, or grace. forgiving = bearing away. iniquity = perverseness. Heb. 'avah. Ap. 44. iv. transgression = rebellion. Heb. pash'a. Ap. 44. ix. sin. Heb. chat'a. See Ap. 44. i. by no means clear the guilty. Not even Christ, when our sins were imputed to Him: therefore, all now in Him are "cleared". Fig. Polyptoton (Ap. 6). Heb. "clearing will not clear", emphasis on "by no means". unto the third and to the fourth generation. This refrain recurs in whole or in part in Ex. 20. 5. Cp. also Num. 14. 18. Deut. 5. 9. Neh. 9. 17. Ps. 103. 8. Jer. 9. 24; 30. 11; 46. 28; Dan. 9. 4. Nah. 1. 3. The visiting spread over in mercy, not extended in wrath.
+34:8 | worshipped. This is ever the effect of the manifestation of Jehovah in grace. Cp. 2 Sam. 7. 18.
+34:9 | Lord ... my Lord. Heb. Adonai, Adonai. But this is one of the 134 places where Jehovah was altered to Adonai by the Sopherim. See Ap. 32. for, &c. The moment Jehovah speaks of grace, Moses turns the very charge of Jehovah, in 33. 5, into a plea and ground for His presence.
+34:10 | He [Jehovah] said. See note on 3. 7, and cp. 6. 10. Behold. Fig. Asterismos (Ap. 6) for emphasis. a covenant of marvels. This covenant finds its complete fulfilment in the Apocalypse.
+34:12 | it = they.
+34:13 | images = sacred pillars. Cp. 23. 24; 24. 4, and note on Lev. 26. 1. groves = Heb. 'asherah. First occurrence out of forty: always rendered "groves", but denotes a phallic image, worshipped by libidinous rites and lascivious practices. See Ap. 42.
+34:14 | is = "he [is]". GOD = Heb. El. Ap. 4.
+34:15 | sacrifice. Heb. zabah. Ap. 43. I. iv.
+34:18 | as. Some codices, with Sam., Onk., Jon., Sept., Syr., and Vulg., read "according as". time = appointed time. Abib. See note on 13. 4, and Ap. 51. III. 4.
+34:20 | redeem. Heb. padah. See note on 6. 6. and 13. 13. appear before Me. This is an alteration (in pointing) made by the Sopherim to soften the Fig. Anthropopatheia (Ap. 6) of the primitive text, which was "see My face". See note on 23. 15, and compare the other passages where this change is made, viz. 34. 20, 23, 24. Deut. 16. 16; 31. 11. Ps. 11. 7; 17. 15; 42. 2. Isa. 1. 12; 38. 11. In this, therefore, there is no contradiction of 33. 20. empty = empty-handed.
+34:21 | earing = ploughing. From A.S. erian, Lat. arare.
+34:23 | Thrice = the number of Divine perfection. (Ap. 10.) Lord GOD, the God. Heb. the 'Adon, Jehovah Elohim. Ap. 4.
+34:24 | God. Heb. Elohim. Ap. 4.
+34:25 | offer = slay. Heb. zabach. Supply Ellipsis (Ap. 6. ii. c), "slay [and pour out]". See Ap. 43. I. iv.
+34:27 | Write thou. See note on 17. 14 and Ap. 47.
+34:28 | He = Jehovah. See v. 1. tables. See on 31. 18.
+34:29 | Two episodes, concluding the ascents and descents preparatory to the other great event of this section (Ex. 15. 22—40. 38), viz. the setting up of the Tabernacle, and the command that none of the work was to be done on the Sabbath. came down. Moses' sixth and last descent. Cp. 19. 3. wist not = knew not. Cp. Moses: unconscious moral strength for testimony. Samson: unconscious weakness for unfaithfulness (Judg. 16. 20). Peter: unconscious deliverance for service (Acts 12. 9). shone = radiated, or was glorious, i.e. reflected as a mirror the Divine glory, see 2 Cor. 3. 7; and cp. 1 Cor. 15. 41. Rev. 18. 1. Matt. 17. 2. Acts 6. 15. The Vulg. mistook the Heb. word karan = to radiate, for keren, a beam or horn of light (see Hab. 3. 4 and note on the subscription to Ps. 21). Hence the traditional paintings of Moses with two horns. while, &c. = through his having spoken with him. This interprets 1 John 3. 2. Cp. Matt. 17. 2, and the "till" of v. 33, and the "until" of v. 35.
+34:30 | children = sons. afraid. See Ex. 20. 18-21.
+34:32 | gave them, &c. Charged them with.
+34:34 | went in: i.e. into the tent. he took the vail off. And, when Israel turns thus to Jehovah, He will take the vail from their heart, as Moses did from his face, 2 Cor. 3. 16. We, now, are "not as Moses", v. 13.
+34:35 | again. So 2 Cor. 3. 13. Greek = kept putting a vail on his face" (imperfect tense). They could not see "the end of the Law", which is Christ. Rom. 10. 4.
+35:1 | 35. 1-3 Before the work commences, they are reminded of the commandment as to the six days and the seventh, even in the making of the Tabernacle. children = sons. the LORD. Heb. Jehovah. Ap. 4.
+35:2 | sabbath of rest. Heb. "sabbath of sabbatizing". See note on 16. 23.
+35:4 | commanded. See 25. 1, &c.
+35:5 | an offering. Note the Fig. Polysyndeton (Ap. 6), emphasising the 15 (3 x 5) articles in vv. 5-9 (Ap. 10). Heb. = heave offering. See note on 29. 27, and Ap. 43. II. viii. willing heart. Note the "willing" hearted, 35. 5, 22, 29; the "wise" hearted, 35. 10, 25, 35; 36. 1, 2, 8; and the "stirred" heart, 35. 21, 26; 36. 2.
+35:10 | wise hearted. See note on v. 5.
+35:11 | Note the 42 items enumerated in vv. 11-19.
+35:15 | door = entrance (Heb. petach).
+35:17 | door = gate (Heb. sha'ar).
+35:21 | they came. Sam. and Sept. read "they brought in". heart stirred. See note on v. 5. spirit. Heb. ruach. See Ap. 9. the LORD'S offering = the heave offering of Jehovah. See note on 29. 27, and cp. Ap. 43. II. viii. tabernacle = tent. Heb. 'ohel. Ap. 40.
+35:22 | men. Heb. pl. of 'ish, or 'enosh. Ap. 14. and. Note the Fig. Polysyndeton (Ap. 6), to emphasise the number four. man = every one. offered an offering. Fig. Polyptoton (Ap. 6). Heb. t'nuphah, a wave offering. See note on 29. 27, and Ap. 43. II. ix.
+35:23 | man. Heb. 'ish. See Ap. 14. ii. and. Note the Fig. Polysyndeton (Ap. 6), to emphasise the seven items divided into three and four. See Ap. 10. linen. Egypt noted for it. The thread was dyed before being woven.
+35:24 | offer, &c. = "heave a heave offering". See 29. 27. Fig. Polyptoton (Ap. 6).
+35:25 | women. In Egypt the women did the dyeing and spinning; the men did the weaving and embroidering. and. Note the Fig. Polysyndeton (Ap. 6), to emphasise the four items.
+35:28 | And. Note the Fig. Polysyndeton (Ap. 6), to emphasise the four items.
+35:29 | offering. Heb. n'daba. See Ap. 43. II. vii.
+35:30 | called by name. Cp. 31. 2. This, in Exodus, the book of the names. See note on 1. 1.
+35:31 | spirit. Heb. ruach. Ap. 9. God. Heb. Elohim, the Creator. Ap. 4.
+35:32 | And to devise. This "and" is omitted in Sept. and in silver. Note the Fig. Polysyndeton (Ap. 6), to emphasise the items in vv. 32, 33.
+35:33 | cunning work = skilful work. See note on 26. 1.
+35:35 | work all. Some codices, one early printed edition, and Sam. read "work in all". in scarlet. Some codices, Sam., Onk., one early printed edition, Jon., and Syr. read "and in scarlet".
+36:1 | wise hearted. See note on 35. 5. the LORD. Heb. Jehovah. Ap. 4.
+36:2 | man. Heb. 'ish (Ap. 14. ii). heart stirred. See note on 35. 5.
+36:3 | offering = Heb. t'rumah = heave offering. See note on 29. 27, and Ap. 43. II. viii. free offerings. Heb. n'dabah. Ap. 43. II. vii.
+36:8 | 8-13 curtains (26. 1), fifteen in all (with the ark in the centre), divided into twelve (U) and three (U). tabernacle. Heb. mishkan. See Ap. 40. fine twined linen. See 35. 23. cunning work. See note on 26. 1.
+36:9 | cubits. See Ap. 51. III. 2.
+36:11 | side. Heb. saphah = edge.
+36:13 | taches. Hooks, pins, or clasps. In Eastern tents, curtains not sewn together, but pinned with wooden pins. Here made of gold. tabernacle = habitation. Heb. mishkan. Ap. 40.
+36:14 | 14 THE COVERING OF THE TENT.
+36:18 | brass. See note on 25. 3.
+36:20 | 20-30 THE BOARDS.
+36:23 | side. Heb. pe'ah, quarter or part.
+36:24 | sockets of silver. See note on 27. 10.
+36:25 | side. Heb. zel'a = rib, or corresponding side.
+36:27 | sides. Heb. yarek = hinder side.
+36:29 | at. Some codices, with Sam. and Onk., read "upon".
+36:31 | 31-34 THE BARS.
+36:32 | boards of the tabernacle. Some codices, with Sam., Onk., and Jon., read "boards of the side of the tabernacle". Cp. 26. 27.
+36:34 | places = receptacles.
+36:37 | 37, 38 THE HANGING FOR THE ENTRANCE. tabernacle = tent. Heb. 'ohel. Ap. 40. door = entrance. Heb. pitath.
+36:38 | fillets = cross or connecting rods. sockets ... brass. See note on 27. 10.
+37:1 | 37. 1-5 THE ARK. Occupying the central position of the fifteen here described (Ex. 25. 10). ark. See note on 24. 22. shittim = acacia. cubit. See Ap. 51. III. 2.
+37:2 | crown = rim. See note on 25. 24.
+37:3 | side. Heb. zel'a = rib, one of two corresponding sides.
+37:6 | 6-9 THE MERCY SEAT AND CHERUBIMS. mercy seat = propitiatory. See note on 25. 17.
+37:7 | cherubims. See note on 25. 18, and Ap. 41.
+37:8 | on = out of.
+37:10 | 10-15 THE TABLE.
+37:12 | handbreadth. See Ap. 51. III. 2.
+37:14 | places = receptacles.
+37:16 | 16 THE VESSELS OF THE TABLE. spoons = pans. covers = bowls. to cover = to pour.
+37:17 | 17-24 THE LAMPSTAND.
+37:18 | side = Heb. tzad.
+37:19 | knop = knob.
+37:23 | snuffers. These were provided, but no extinguisher.
+37:24 | talent. See Ap. 51. II. vi.
+37:25 | 25-29 THE ALTAR OF INCENSE (see 30. 1).
+37:26 | sides. Heb. kir = walls.
+37:27 | sides = opposite sides. Heb. 'eber.
+37:29 | 29 (V, p. 124). THE SERVICE OF THE TABERNACLE. (The oil and the incense, see 30. 35.)
+38:1 | 38. 1-7 (U, p. 124). THE ALTAR OF BURNT OFFERING. (Cp. chapter 27. 1.) cubits. See Ap. 51. III. 2.
+38:2 | brass. See note on 25. 3.
+38:7 | sides. Heb. zel'a = rib, or side of the altar.
+38:8 | 8 THE LAVER. (Ex. 30. 18.) lookingglasses = mirrors of polished metal. Cp. 2 Cor. 3. 18. assembling = doing service, or worshipping according to Egyptian practice. By using these for the laver this practice was abolished. Cp. Num. 4. 23 (same word), and see Luke 2. 37. door = entrance. tabernacle = tent. Heb. 'ohel. See Ap. 40.
+38:9 | 9-20 THE HANGINGS OF THE COURT. side. Heb. pe'ah, region, or quarter.
+38:10 | sockets. See note on 27. 10. fillets = connecting rods.
+38:11 | brass. See note on 25. 3.
+38:14 | side = shoulder. Heb. katheph.
+38:16 | fine twined linen. See note on 35. 23.
+38:20 | tabernacle. Heb. mishkan. See Ap. 40.
+38:21 | counted = accounted.
+38:22 | Bezaleel. Cp. 31. 2 and 35. 30—36. 7. the LORD. Heb. Jehovah. Ap. 4.
+38:23 | cunning workman. See note on 26. 1.
+38:24 | offering = wave offering. Heb. t'nuphah. See 29. 27, and Ap. 43. II. ix. talents. See Ap. 51. II. vi. shekel. See Ap. 51. II. v.
+38:25 | them that were numbered. The sanctuary was thus made (in part) out of the redemption money.
+38:26 | bekah. See Ap. 51. II. i. man = poll.
+38:27 | hundred. See Ap. 10.
+38:28 | chapiters = capitals. and filleted them = and united them with connecting rods.
+38:30 | door = entrance.
+39:1 | holy. See note on 3. 5. as = according as. Note this in each of the sevenfold repetition of the words "as the LORD commanded Moses" in this record of the completion of the work: and again in the work of the setting up of the tabernacle, ch. 40. Thus in 39. 1, 5, 7, 21, 26, 29, and 31; and in 40. 19, 21, 23, 25, 27, 29, and 32, the former is followed by the blessing of Moses, and the latter by the blessing of Jehovah. See the Structure "Q", p. 124. the LORD. Heb. Jehovah. Ap. 4.
+39:2 | ephod. See note on 28. 6. fine twined linen. See note on 35. 23.
+39:3 | wires = threads, or cords. cunning = skilful.
+39:5 | girdle. See note on 28. 8. was = "it [was]".
+39:6 | children = sons.
+39:8 | breastplate. See 28. 15-21. Always used of the Aaronic breastplate except Lev. 8. 8. cunning work = work of a skilful deviser. See note on 26. 1.
+39:9 | span. Ap. 51. III. ii.
+39:14 | one = Heb. 'ish, man. See Ap. 14. twelve tribes. The names according to the tribes. On the shoulders according to their births. See Ap. 45.
+39:15 | chains. See 28. 22-30.
+39:20 | sides. Heb. katheph = shoulders.
+39:21 | as, &c. See note on v. 1.
+39:22 | robe. See 28. 31-35.
+39:23 | habergeon = coat of mail. From O. French haubere = neck defence.
+39:24 | pomegranates. See note on Num. 13. 23. twined. Some codices, with Sam., Sept., and Syr., read "fine twined linen".
+39:27 | coats. See 28. 39-43.
+39:28 | mitre = turban. goodly bonnets = ornamental tiaras or turban ornaments. See Isa. 61. 10 and Ezek. 24. 17.
+39:30 | wrote. See note on 17. 14. HOLINESS, &c. See on 28. 36-38.
+39:32 | tabernacle. Heb. mishkan, habitation (Ap. 40). and the children of Israel did, &c. Read "thus did the children of Israel, according", &c.
+39:33 | And. Note the Fig. Polysyndeton (Ap. 6) in vv. 33-41 emphasising each separate detail, and impressing the fact that nothing was omitted. Thirty-six "ands" in nine verses. taches = hooks, clasps, or pins, 36. 13.
+39:35 | The ark. Some codices, with Sam., Onk., Jon., and Syr., read "And the ark". mercy seat. See note on 25. 17.
+39:36 | The table. Some codices, with Onk., read "And the table". and. Some codices, with Sam., Onk., and Syr., read "and all".
+39:37 | The pure. Some codices, with Jon. and Syr., read "And the pure". with. Some codices, with Sam., Onk., Jon., and Syr., read "and the lamps".
+39:38 | tabernacle. Heb. 'ohel, tent. Ap. 40. door = entrance.
+39:39 | The. Some codices, with Jon. and Syr., read "And the". brass. See note on 25. 3. his. Some codices, with Onk. and Syr., read "and his".
+39:40 | The. Some codices, with Sam., Onk., Jon., Syr., and Vulg., read "And the". his. Some codices, with Sam., Onk., Jon., Syr., and Vulg., read "and his". vessels = utensils, or furniture.
+39:41 | The. Some codices, with Sam., Onk., and Syr., read "And the".
+40:1 | the LORD (Heb. Jehovah) spake. See note on 6. 10, and cp. note on 3. 7.
+40:2 | the first day of the first month. Six events in Scripture on this day. See note on Gen. 8. 13. first month. On the fourteenth day the first Passover was kept (Num. 9. 1-3). On the first day of the second month they were numbered (Num. 1. 1, 2): (50 days between Ex. 40. 17 and Num. 10. 11). In the interval comes the book of Leviticus, and Num. chaps. 1. 1-10. 10. On the twentieth day of the second month the Tabernacle was taken down, and the journey began from Sinai to Canaan (Num. 10. 11). See Ap. 50. vii. 3. tabernacle = habitation. Heb. mishkan, Ap. 40. tent. Heb. 'ohel. Ap. 40.
+40:3 | ark. See note on Ex. 25. 22. cover = screen. ark. Some codices, with Sam. and Jon., read "ark and the mercy seat".
+40:4 | set in order: i.e. in two piles, six loaves in each pile, answering to the stones on the shoulders of the High Priest. There was a golden dish at the bottom of each, and another reversed on the top, with a golden bowl of frankincense on the top. Cp. 25. 23-30. light = set up, or mount.
+40:5 | door = entrance.
+40:9 | anoint. Cp. 30. 22-29. hallow ... holy. See note on "holy", 3. 5. vessels = furniture.
+40:10 | most holy. Heb. holiness of holinesses. Fig. Polyptoton (Ap. 6) for emphasis.
+40:11 | foot = base.
+40:12 | tabernacle = tent. Heb. 'ohel (Ap. 40). wash = bathe. Cp. 29. 1-4. with, or in.
+40:13 | anoint him. Cp. 29. 5-7.
+40:14 | clothe. Cp. 29. 8, 9.
+40:15 | as = according as.
+40:19 | as = according as. See note on 39. 1, and note the seven occurrences of the expression "as Jehovah commanded Moses" in this chapter as in chapter 39.
+40:20 | mercy seat. See note on 25. 17.
+40:22 | side. Heb. yarek = the opposite side.
+40:29 | burnt offering. Heb. 'olah. See Ap. 43. II. ii.
+40:31 | washed. The ceremonial cleansings or "baptisms" (Heb. 6. 2), always performed by the persons themselves.
+40:33 | the work. Some codices, with Sam., Sept., and Vulg., read "all the work".
+40:34 | 34, 35 THE APPROBATION AND BLESSING OF JEHOVAH, Corresponding with that of Moses in 39. 43. (See the Structure Q on p. 123).
+40:36 | when the cloud, &c. This continued till Moses' death, when the ark (which till then was carried in the midst of the host) took its place and went "before them". See Josh. 3. 3-6, 11. children = sons. journeys = journeyings. Lit. settings forward.
+40:38 | on it: i.e. in the cloud. house of Israel. See note on 16. 31.

@@ -1,0 +1,1081 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Exodus
+# Structure diagrams — all 78 that the Exodus pages print. Transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/2. Exodus_text.pdf); [[pdf-page:]] is the
+# page of that file each diagram is on. Notation: README.md here.
+#
+# A printed reference that reaches outside the diagram's anchor chapter
+# (e.g. "2. 11—14. 31") can't be a REF_RANGE, which is verses of one chapter;
+# such a line keeps its reference at the head of its TEXT instead, as printed.
+#
+# Diagram corrections: the 24. 15-18 heading prints "24. 18-18" (the H line
+# of X4 and the members give 15-18); in 28. 6-38 the f range is damaged
+# "6-?4" and is 6-14 (g begins at 15). Kept as printed: the "e2" letter on
+# 3. 2—4. 17 (heading says F2) and the "t1" on the third request of
+# 33. 12-23. Where a printed letter is missing, "·" stands in for it.
+
+[[diagram: The Structure of the Book as a Whole (Alternation)]]
+[[anchor: Exodus 1:1]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 1]]
+
+A |  | 1. 1—2. 10. THE BONDAGE OF ISRAEL BEGUN.
+  B |  | 2. 11—14. 31. FREEDOM EFFECTED.
+A |  | 15. 1-21. THE BONDAGE OF ISRAEL ENDED.
+  B |  | 15. 22—40. 38. FREEDOM USED.
+
+[[diagram: 1. 1—2. 10 (A, p. 72). The Bondage of Israel Begun (Repeated Alternation)]]
+[[anchor: Exodus 1:1]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 2]]
+
+A |  |
+  A1 | 1-7 | Israel's sons. Their increase.
+    B1 | 8-10 | Pharaoh's policy.
+  A2 | 12 | Israel's sons. Their increase.
+    B2 | 13-22 | Pharaoh's policy.
+  A3 |  | 2. 1-10. Israel's sons. Birth of Moses.
+
+[[diagram: 2. 1-10 (A3, p. 73). Israel's Sons, Moses (Alternation)]]
+[[anchor: Exodus 2:1-10]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 3]]
+
+A3 |  |
+  c | 1-3 | The child concealed.
+    d | 4 | The sister watching.
+  c | 5, 6 | The child discovered.
+    d | 7-10 | The sister interposing.
+
+[[diagram: 2. 11—14. 31 (B, p. 72). Freedom Effected (Repeated Alternation)]]
+[[anchor: Exodus 2:11]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 4]]
+
+B |  |
+  E1 | 11-22 | Moses self-sent. Failure and flight.
+    F1 | 23-25 | Interposition of Jehovah.
+  E2 |  | 3. 1. Moses in Midian.
+    F2 |  | 3. 2—4. 17. Interposition of Jehovah.
+  E3 |  | 4. 18-20. Moses' departure from Midian.
+    F3 |  | 4. 21-23. Jehovah's commission to Moses.
+  E4 |  | 4. 24-26. Moses at Horeb.
+    F4 |  | 4. 27, 28. Jehovah's commission to Aaron.
+  E5 |  | 4. 29—6. 1. Moses and Aaron in Egypt.
+    F5 |  | 6. 2-8. Jehovah's revelation of Himself.
+  E6 |  | 6. 9—12. 30. Moses and Aaron in Egypt.
+    F6 |  | 12. 31—14. 31. Jehovah's deliverance of Israel.
+
+# The page prints this bracket letter "e2", though the heading calls the
+# member F2 (p. 75). Kept as printed.
+[[diagram: 3. 2—4. 17 (F2, p. 75). Interposition of Jehovah (Repeated Alternation)]]
+[[anchor: Exodus 3:2]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 5]]
+
+e2 |  |
+  g1 | 2 | Vision of the Burning Bush.
+    h1 | 3 | Moses' curiosity.
+  g2 | 4-10 | Divine revelation and commission.
+    h2 | 11 | Moses' inquiry "Who am I?"
+  g3 | 12 | Divine assurance.
+    h3 | 13 | Moses' inquiry "Who art Thou?"
+  g4 | 14-22 | Divine commission.
+    h4 |  | 4. 1. Moses' doubt.
+  g5 |  | 4. 2-9. Divine assurance.
+    h5 |  | 4. 10. Moses' inefficiency.
+  g6 |  | 4. 11, 12. Divine power and inspiration.
+    h6 |  | 4. 13. Moses' request.
+  g7 |  | 4. 14-17. Divine anger and provision.
+
+[[diagram: 4. 29—6. 1 (E5, p. 75). Moses and Aaron in Egypt (Alternation)]]
+[[anchor: Exodus 4:29]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 8]]
+
+E5 |  |
+  G | 29, 30 | Communication to the elders.
+    H | 31 | Result—belief and worship.
+  G |  | 5. 1-3. Communication to Pharaoh.
+    H |  | 5. 4—6. 1. Result—unbelief and oppression.
+
+[[diagram: 5. 4—6. 1 (H, above). Result: Unbelief and Oppression (Extended Alternation)]]
+[[anchor: Exodus 5:4]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 8]]
+
+H |  |
+  I | 4-9 | Pharaoh's order given.
+    K | 10-14 | Evil case.
+      L | 15, 16 | Complaint: To Pharaoh.
+        M | 17 | Answer.
+  I | 18 | Pharaoh's order repeated.
+    K | 19 | Evil case.
+      L | 20-23 | Complaints: To Moses, 20, 21. By Moses, 22, 23.
+        M |  | 6. 1. Answer.
+
+[[diagram: 6. 9—12. 30 (E6, p. 75). Moses and Aaron in Egypt (Repeated Alternation)]]
+[[anchor: Exodus 6:9]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 9]]
+
+E6 |  |
+  N1 | 9-13 | Commission and first results.
+    O1 | 14-27 | Moses and Aaron. Gathering the "heads".
+  N2 |  | 6. 28—7. 5. Commission repeated.
+    O2 |  | 7. 6, 7. Moses and Aaron. Obedience and age.
+  N3 |  | 7. 8-13. Commission and credentials.
+    O3 |  | 7. 14—10. 29. Moses and Aaron. Nine plagues ineffectual.
+  N4 |  | 11. 1—12. 30. Commission. Tenth plague effectual.
+
+[[diagram: 6. 9-13 (N1, above). Commission and First Results (Introversion)]]
+[[anchor: Exodus 6:9-13]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 9]]
+
+N1 |  |
+  a | 9-11 | Mission.
+    b | 12- | Failure, alleged.
+    b | -12 | Failure, anticipated.
+  a | 13 | Mission.
+
+# O1 prints its three members with no letters; "·" stands in for the
+# missing label (the notation requires one).
+[[diagram: 6. 14-27 (O1, p. 80). Moses and Aaron: Genealogy. (Choosing the "heads" to speak to Pharaoh.)]]
+[[anchor: Exodus 6:14-27]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 10]]
+
+O1 |  |
+  · | 14-16 | Sons of Israel (Reuben, Simeon, Levi).
+  · | 17-19 | Sons of Levi (Gershon, Kohath, Merari).
+  · | 20-27 | Sons of Kohath.
+
+[[diagram: 6. 28—7. 5 (N2, p. 80). Commission Repeated (Introversion)]]
+[[anchor: Exodus 6:28]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 10]]
+
+N2 |  |
+  c | 28, 29 | Mission.
+    d | 30 | Excuse—ineloquence.
+  c |  | 7. 1-5. Mission.
+
+[[diagram: 7. 8-13 (N3, p. 80). Commission and Credentials (Alternation)]]
+[[anchor: Exodus 7:8-13]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 10]]
+
+N3 |  |
+  e | 8, 9 | Command for miracle.
+    f | 10 | Result. Obedience.
+  e | 11, 12 | Imitation of miracle.
+    f | 13 | Result. Obduracy.
+
+[[diagram: 7. 14—10. 29 (O3, p. 80). Moses and Aaron: The Nine Plagues (Extended and Repeated Alternation)]]
+[[anchor: Exodus 7:14]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 11]]
+
+O3 |  |
+  P1 | 14-25 | First Plague (Blood). Warning.
+    Q1 |  | 8. 1-15. Second Plague (Frogs). Warning.
+      R1 |  | 8. 16-19. Third Plague (Lice). No warning.
+  P2 |  | 8. 20-32. Fourth Plague (Flies). Warning.
+    Q2 |  | 9. 1-7. Fifth Plague (Murrain). Warning.
+      R2 |  | 9. 8-12. Sixth Plague (Boils). No warning.
+  P3 |  | 9. 13-35. Seventh Plague (Hail). Warning.
+    Q3 |  | 10. 1-20. Eighth Plague (Locusts). Warning.
+      R3 |  | 10. 21-27. Ninth Plague (Darkness). No warning.
+
+[[diagram: 7. 14-25 (P1, above). First Plague (Blood) (Introversion)]]
+[[anchor: Exodus 7:14-25]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 11]]
+
+P1 |  |
+  g | 14-18 | Liberation demanded (warning).
+    h | 19-21 | Plague inflicted.
+    h | 22- | Plague imitated.
+  g | -22-25 | Liberation refused.
+
+[[diagram: 8. 1-15 (Q1, p. 82). Second Plague (Frogs) (Introversion)]]
+[[anchor: Exodus 8:1-15]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 12]]
+
+Q1 |  |
+  i | 1-4 | Liberation demanded (warning.)
+    k | 5, 6 | Plague inflicted.
+    k | 7 | Plague imitated.
+  i | 8-15 | Liberation refused.
+
+[[diagram: 8. 16-19 (R1, p. 82). Third Plague (Lice) (Introversion)]]
+[[anchor: Exodus 8:16-19]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 12]]
+
+R1 |  |
+  l | 16 | Jehovah's command given (no warning).
+    m | 17 | Plague inflicted.
+    m | 18, 19- | Imitation abortive.
+  l | -19 | Jehovah's prophecy fulfilled.
+
+[[diagram: 8. 20-32 (P2, p. 82). Fourth Plague (Flies) (Introversion)]]
+[[anchor: Exodus 8:20-32]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 13]]
+
+P2 |  |
+  n | 20-23 | Liberation demanded (warning.)
+    o | 24 | Plague inflicted.
+    o | 25-31 | Plague removed.
+  n | 32 | Liberation refused.
+
+[[diagram: 9. 1-7 (Q2, p. 82). Fifth Plague (Murrain) (Introversion)]]
+[[anchor: Exodus 9:1-7]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 13]]
+
+Q2 |  |
+  p | 1-5 | Liberation demanded (warning).
+    q | 6 | Plague inflicted.
+    q | 7- | Plague verified.
+  p | -7 | Liberation refused.
+
+[[diagram: 8-12 (R2, p. 82). Sixth Plague (Boils) (Introversion)]]
+[[anchor: Exodus 9:8-12]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 14]]
+
+R2 |  |
+  r | 8, 9 | Jehovah's command (no warning).
+    s | 10 | Plague inflicted.
+    s | 11 | Plague not imitated.
+  r | 12 | Jehovah's hardening (1st occ.).
+
+[[diagram: 9. 13-35 (P3, p. 82). Seventh Plague (Hail) (Alternation)]]
+[[anchor: Exodus 9:13-35]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 14]]
+
+P3 |  |
+  t | 13-19 | Warning given.
+    u | 20, 21 | People's regard and disregard.
+  t | 22-26 | Warning fulfilled.
+    u | 27-35 | Pharaoh's regard and disregard.
+
+[[diagram: 9. 31. The Introversion in this verse]]
+[[anchor: Exodus 9:31]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 15]]
+
+a | 31 | flax
+  b | 31 | barley
+  b | 31 | barley
+a | 31 | flax
+[[group: These ripened in middle of February or early in March. Israel left early in April.]]
+
+[[diagram: 10. 1-20 (Q3, p. 82). Eighth Plague (Locusts) (Simple Alternation)]]
+[[anchor: Exodus 10:1-20]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 15]]
+
+Q3 |  |
+  v | 1-6 | Warning given.
+    w | 7-11 | Reception by Pharaoh's servants (parley).
+  v | 12-15 | Warning carried out.
+    w | 16-20 | Reception by Pharaoh (parley).
+
+[[diagram: 10. 21-27 (R3, p. 82). Ninth Plague (Darkness) (Introversion)]]
+[[anchor: Exodus 10:21-29]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 16]]
+
+R3 |  |
+  x | 21 | Jehovah's command (no warning).
+    y | 22, 23 | Infliction of Plague.
+    y | 24-26 | Reception of Plague.
+  x | 27-29 | Jehovah's hardening.
+
+[[diagram: 11. 1—12. 30 (N4, p. 80). Commission for Tenth Plague (Introversion)]]
+[[anchor: Exodus 11:1]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 16]]
+
+N4 |  |
+  a | 1-10 | The Tenth Plague threatened.
+    b |  | 12. 1-20. Passover commanded.
+    b |  | 12. 21-28. Passover command communicated.
+  a |  | 12. 29, 30. The Tenth Plague inflicted.
+
+[[diagram: 11. 1-10 (a, above). The Tenth Plague Threatened (Introversion)]]
+[[anchor: Exodus 11:1-10]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 16]]
+
+a |  |
+  c | 1 | God's word to Moses as to the Tenth Plague.
+    d | 2, 3 | Direction as to actions (people).
+    d | 4-8 | Direction as to words (Pharaoh).
+  c | 9 | God's words to Moses as to result.
+
+[[diagram: 12. 1-20 (b, p. 87). The Passover Instituted (Introversion and Alternation)]]
+[[anchor: Exodus 12:1-20]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 17]]
+
+b |  |
+  e | 1, 2 | The Month.
+  f |  |
+    g | 3-11 | The Symbol.
+      h | 12, 13 | The Signification and Reason.
+  f |  |
+    g | 14-17- | The Symbol.
+      h | -17 | The Signification and Reason.
+  e | 18-20 | The Month.
+
+[[diagram: 12. 21-28 (b, p. 87). The Passover Communicated (Alternation)]]
+[[anchor: Exodus 12:21-28]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 18]]
+
+b |  |
+  i | 21, 22 | The Symbol.
+    k | 23 | The Signification.
+  i | 24 | The Symbol.
+    k | 25-28 | The Signification.
+
+[[diagram: 12. 31—14. 31 (F6, p. 75). Jehovah's Deliverance of Israel (Introversion and Alternation)]]
+[[anchor: Exodus 12:31]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 18]]
+
+F6 |  |
+  l | 31-36 | Dismissal, and Spoiling of Egyptians.
+    m | 37-39 | Departure from Egypt to Succoth.
+      n |  |
+        o | 40-42 | Fulfilment of prophecy.
+          p | 43-50 | Ordinance of Passover.
+      n |  |
+        o |  | 12. 51—13. 2. Fulfilment of prophecy.
+          p |  | 13. 3-16. Ordinance of the Phylacteries.
+    m |  | 13. 17-22. Departure from Succoth to Etham.
+  l |  | 14. 1-31. Pursuit, and Destruction of Egyptians.
+
+[[diagram: 13. 3-16 (p, p. 89). The Ordinance of Phylacteries (Extended Alternation)]]
+[[anchor: Exodus 13:3-16]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 19]]
+
+p |  |
+  q | 3-5 | "And it shall be," &c.
+    r | 6, 7 | Separation of Days.
+      s | 8 | Thy son's instruction.
+        t | 9 | The Sign.
+          u | 9, 10 | Reason, "For by a strong hand."
+  q | 11 | "And it shall be," &c.
+    r | 12, 13 | Separation of First-born.
+      s | 14, 15 | Thy son's instruction.
+        t | 16- | The Token.
+          u | -16 | Reason, "For by strength of hand."
+
+[[diagram: 13. 17-22 (m, p. 89). Departure: Succoth to Etham (Introversion)]]
+[[anchor: Exodus 13:17-22]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 20]]
+
+m |  |
+  v | 17, 18 | Jehovah's leading.
+    w | 19 | The bones of Joseph.
+  v | 20-22 | Jehovah's guidance.
+
+[[diagram: 14. 1-31 (l, p. 89). Pursuit and Destruction of Enemy (Extended Alternation)]]
+[[anchor: Exodus 14:1-31]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 20]]
+
+l |  |
+  x | 1-4 | Prediction.
+    y | 5-9 | Fulfilment.
+      z | 10-12 | Israel troubled.
+        a | 13, 14 | Salvation promised.
+  x | 15-18 | Prediction.
+    y | 19-23 | Fulfilment.
+      z | 24, 25 | Egyptians troubled.
+        a | 26-31 | Salvation realized.
+
+[[diagram: 15. 1-21 (A, p. 72). The Bondage of Israel Ended. The Songs of Moses and Miriam. (Introversion and Alternation.)]]
+[[anchor: Exodus 15:1-21]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 22]]
+
+A |  |
+  b |  |
+    e | 1- | Singers: Moses and the men.
+      f | -1 | The Theme.
+[[group: Moses' Song.]]
+  c | 2, 3 | Praise.
+[[group: -]]
+  d |  |
+    g | 4-12 | Overthrow of Pharaoh.
+      h | 13 | Israel's guidance.
+  d |  |
+    g | 14-16 | Overthrow of Egyptians.
+      h | 17 | Israel's settlement.
+[[group: The Song itself.]]
+  c | 18, 19 | Praise.
+[[group: -]]
+  b |  |
+    e | 20 | Singers: Miriam and women.
+      f | 21 | The Theme.
+[[group: Miriam's Song.]]
+
+[[diagram: 4-12 (g, above). Overthrow of Pharaoh (Alternation and Introversion)]]
+[[anchor: Exodus 15:4-12]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 22]]
+
+g |  |
+  a | 4, 5 | The Enemy overthrown.
+  b |  |
+    c | 6 | Thy right hand.
+      d | 7, 8 | Thou, Thee, Thy.
+  a | 9 | The Enemy's words.
+  b |  |
+      d | 10, 11 | Thou, Thy, Thee.
+    c | 12 | Thy right hand.
+
+[[diagram: 14-16 (g, p. 93). Overthrow of Egyptians (Introversion)]]
+[[anchor: Exodus 15:14-16]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 23]]
+
+g |  |
+  x | 14- | The peoples: "hear and fear."
+    y | -14 | Palestine.
+      z | 15- | Edom.
+      z | -15- | Moab.
+    y | -15 | Canaan.
+  x | 16 | "Them": "fear and dread."
+
+# The first of the two T members has only its rule printed, no letter;
+# "·" stands in for it. The second prints T (italic).
+[[diagram: 15. 22—40. 38 (B, p. 72). Freedom Used (Introversion, with Simple and Repeated Alternation)]]
+[[anchor: Exodus 15:22]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 23]]
+
+B |  |
+  S |  | 15. 22—19. 2. Journeyings to Sinai.
+  · |  |
+    U |  |
+      X1 |  | 19. 3-6. Ascent I: Proclamation of Covenant.
+        Y1 |  | 19. 7, 8-. Descent.
+      X2 |  | 19. -8-13. Ascent II: Preparation of People.
+        Y2 |  | 19. 14-19. Descent.
+      X3 |  | 19. 20-24. Ascent III: Setting of bounds.
+        Y3 |  | 19. 25. Descent.
+    V |  | 20. 1—24. 8. GIVING OF THE LAW.
+  T |  |
+    U |  |
+      X4 |  | 24. 9—32. 14. Ascent IV: First 40 days (De. 9. 9) and 1st Tables.
+        Y4 |  | 32. 15-30. Descent. Breaking of Tables.
+      X5 |  | 32. 31-33. Ascent V: Manifestation of glory.
+        Y5 |  | 32. 34—34. 3. Descent.
+      X6 |  | 34. 4-28. Ascent VI: Second 40 days (De. 10. 10) and 2nd Tables.
+        Y6 |  | 34. 29—35. 3. Descent.
+    V |  | 35. 4—40. 35. MAKING OF TABERNACLE.
+  S |  | 40. 36-38. Journeyings from Sinai.
+
+[[diagram: 15. 22—19. 2 (S, p. 94). Journeyings to Sinai (Repeated Alternation)]]
+[[anchor: Exodus 15:22]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 24]]
+
+S |  |
+  i1 | 22 | From Egypt to Wilderness of Shur.
+    k1 | 23-27 | Events in Wilderness of Shur.
+  i2 |  | 16. 1. From Shur to Wilderness of Sin.
+    k2 |  | 16. 2-36. Events in Wilderness of Sin.
+  i3 |  | 17. 1-. From Wilderness of Sin to Rephidim.
+    k3 |  | 17. -1—18. 22. Events at Rephidim.
+  i4 |  | 19. 1, 2. From Rephidim to Wilderness of Sinai.
+
+[[diagram: 15. 23-27 (k1, above). Events in Wilderness of Shur (Repeated Alternation)]]
+[[anchor: Exodus 15:23-27]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 24]]
+
+k1 |  |
+  l1 | 23 | Marah's bitter water.
+    m1 | 24 | Murmuring of people.
+  l2 | 25- | Marah's sweet water.
+    m2 | -25, 26 | Ordinance of God.
+  l3 | 27 | Elim's wells of water.
+
+[[diagram: 16. 1-36 (k2, above). Events in Wilderness of Sin (Introversion)]]
+[[anchor: Exodus 16:1-36]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 24]]
+
+k2 |  |
+  n | 2, 3 | Murmuring of people.
+    o | 4, 5 | Promise of Jehovah made.
+      p | 6-8 | Promise repeated by Moses.
+      p | 9, 10 | Promise fulfilled through Moses.
+    o | 11-31 | Promise of Jehovah fulfilled.
+  n | 32-36 | Memorial of Jehovah.
+
+[[diagram: 16. 11-31 (o, above). Promise of Jehovah Fulfilled (Extended Alternation)]]
+[[anchor: Exodus 16:11-31]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 24]]
+
+o |  |
+  q | 11, 12 | Promise of Jehovah.
+    r | 13, 14 | Giving of the food.
+      s | 15 | Name: "Manna."
+  q | 16- | Command of Jehovah.
+    r | -16-30 | Gathering of the food.
+      s | 31 | Name: "Manna."
+
+[[diagram: 16. 16-30 (r, p. 95). The Gathering of the Food (Repeated Alternation)]]
+[[anchor: Exodus 16:16-30]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 25]]
+
+r |  |
+  t1 | -16 | Directions (Positive).
+    u1 | 17, 18 | Obedience.
+  t2 | 19 | Directions (Negative).
+    u2 | 20-22 | Disobedience.
+  t3 | 23 | Directions (Sabbath).
+    u3 | 24 | Obedience.
+  t4 | 25, 26 | Directions (Sabbath).
+    u4 | 27-30 | Disobedience.
+
+[[diagram: 17. 1—18. 27 (k3, p. 95). Events at Rephidim (Extended and Repeated Alternation)]]
+[[anchor: Exodus 17:1]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 26]]
+
+k3 |  |
+  v1 | 1-3 | Coming of Israel & chiding of People.
+    w1 | 4 | Moses and Jehovah.
+      x1 | 5, 6 | Giving of water by Jehovah.
+        y1 | 7 | Memorial of Massah and Meribah.
+  v2 | 8 | Coming of Amalek and fighting with Israel.
+    w2 | 9 | Moses and Joshua.
+      x2 | 10-13 | Giving of victory by Jehovah.
+        y2 | 14-16 | Memorial of victory.
+  v3 |  | 18. 1-5. Coming of Jethro and message to Moses.
+    w3 |  | 18. 6-12. Moses and Jethro.
+      x3 |  | 18. 13-16. Giving of judgment by Moses.
+        y3 |  | 18. 17-27. Memorial of Jethro's visit.
+
+[[diagram: 20. 1—24. 8 (V, p. 94). The Giving of the Law (Introversion and Repeated Alternation)]]
+[[anchor: Exodus 20:1]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 29]]
+
+V |  |
+  a | 1-17 | The Covenant stated. "The ten words."
+    b | 18-21 | People "afar off." Moses draws near.
+      c |  | 20. 22—23. 33. General Laws.
+    b |  | 24. 1, 2. People "afar off." Moses to draw near.
+  a |  | 24. 3-8. The Covenant made.
+
+[[diagram: 20. 1-17 (a, above). The Covenant Stated. "The Ten Words" (Introversion)]]
+[[anchor: Exodus 20:1-17]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 29]]
+
+a |  |
+  A | 2, 3 | Commands I and II = THOUGHT.
+    B | 4-6 | Command III = WORD.
+      C | 7-12 | Commands IV and V = DEED.
+[[group: "THE LORD THY GOD."]]
+      C | 13-15 | Commands VI, VII, and VIII—DEED.
+    B | 16 | Command IX—WORD.
+  A | 17 | Command X = THOUGHT.
+[[group: "THOU."]]
+
+[[diagram: 20. 8-11 (C, p. 100). The Fourth Commandment (Introversion and Simple Alternation)]]
+[[anchor: Exodus 20:8-11]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 30]]
+
+C |  |
+  D | 8 | To be remembered and kept by man.
+  E |  |
+    x | 9 | The six days for man's work.
+      y | 10 | Seventh for man's rest.
+[[group: Man (command).]]
+  E |  |
+    x | 11- | Six days for Jehovah's work.
+      y | -11- | Seventh for Jehovah's rest.
+  D | -11 | Sabbath blessed and hallowed by Jehovah.
+[[group: God (reason).]]
+
+[[diagram: (A, p. 100.) The Tenth Commandment (Introversion)]]
+[[anchor: Exodus 20:17]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 30]]
+
+A |  |
+  c | 17 | Thy neighbour's house (General).
+[[group: -]]
+    d | 17 | Wife, servant, maid (human)
+    d | 17 | Ox and ass (animal)
+[[group: (Particular).]]
+  c | 17 | Anything that is thy neighbour's (General).
+
+[[diagram: 20. -21—23. 33 (c, p. 100). General Laws (Repeated Alternation)]]
+[[anchor: Exodus 20:21]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 31]]
+
+c |  |
+  D1 | -21-26 | God: Worship (Canaanites and Commands).
+    E1 |  | 21. 1—22. 17. Man (Persons and Property).
+  D2 |  | 22. 18-20. God: Worship (Witchcraft).
+    E2 |  | 22. 21-28. Man (Oppression and Property).
+  D3 |  | 22. 29-31. God: Worship (Offerings).
+    E3 |  | 23. 1-9. Man (Falsehood and Oppression).
+  D4 |  | 23. 10-19-. God: Worship (Sabbaths and Feasts).
+    E4 |  | 23. -19. Man (Treatment of Animals).
+  D5 |  | 23. 20-33. God: Worship (Canaanites and Commands).
+
+[[diagram: 21. 1—22. 17 (E1, above). Man: Persons and Property (Introversion)]]
+[[anchor: Exodus 21:1]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 31]]
+
+E1 |  |
+  e | 1-32 | Persons.
+    f |  | 21. 33—22. 15. Property.
+  e |  | 22. 16, 17. Persons.
+
+[[diagram: 21. 1-32 (e, above). Laws Relating to Persons (Alternation and Introversion)]]
+[[anchor: Exodus 21:1-32]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 31]]
+
+e |  |
+  g | 1-11 | Servitude.
+  h |  |
+    i | 12-14 | Violence.
+      j | 15 | Parents (Smiting).
+  g | 16 | Servitude.
+  h |  |
+      j | 17 | Parents (Cursing).
+    i | 18-32 | Violence.
+
+[[diagram: 18-32 (i, p. 102). Violence: Relating to Persons (Extended Alternation)]]
+[[anchor: Exodus 21:18-32]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 32]]
+
+i |  |
+  m | 18, 19 | Man.
+    n | 20, 21 | Servants.
+      o | 22 | Men and women.
+  m | 23-25 | Man.
+    n | 26, 27 | Servants.
+      o | 28-32 | Men and women.
+
+[[diagram: 21. 33—22. 15 (f, p. 102). Laws as to Property (Alternation)]]
+[[anchor: Exodus 21:33]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 32]]
+
+f |  |
+  p | 33-36 | Carelessness (Pit. Oxen).
+    q |  | 22. 1-5. Dishonesty (Theft).
+  p |  | 22. 6. Carelessness (Fire).
+    q |  | 22. 7-15. Dishonesty (Trusts).
+
+[[diagram: 23. 1-9 (E3, p. 102). Laws as to Man (Alternation and Introversion)]]
+[[anchor: Exodus 23:1-9]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 33]]
+
+E3 |  |
+  r |  |
+    t | 1, 2 | Falsehood.
+      u | 3 | Cause of poor man.
+    s | 4, 5 | Enemy. Assistance.
+  r |  |
+      u | 6 | Cause of poor man.
+    t | 7, 8 | Falsehood.
+    s | 9 | Stranger. Oppression.
+
+[[diagram: 23. 10-19- (D4, p. 102). God: Laws of His Worship (Alternation)]]
+[[anchor: Exodus 23:10-19]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 34]]
+
+D4 |  |
+  v | 10-12 | Time. Six and seven of years and days.
+    w | 13 | False worship (Positive and Negative).
+  v | 14-17 | Time. Three feasts in year.
+    w | 18, 19- | True worship (Negative and Positive).
+
+[[diagram: 23. 20-33 (D5, p. 102). God: Worship (Canaanites and Commands) (Repeated Alternation)]]
+[[anchor: Exodus 23:20-33]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 34]]
+
+D5 |  |
+  x1 | 20 | Promise: I will.
+    y1 | 21, 22 | Command: Thou shalt.
+  x2 | 23 | Promise: I will.
+    y2 | 24, 25- | Command: Thou shalt not.
+  x3 | -25-31 | Promise: I will.
+    y3 | 32, 33 | Command: Thou shalt.
+
+[[diagram: 24. 9—32. 14 (X4, p. 94). The Fourth Ascent. The Making of the Tabernacle. (Introversion and Repeated Alternation.)]]
+[[anchor: Exodus 24:9]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 36]]
+
+X4 |  |
+  F | 9-11 | The worship of the Seventy Elders.
+    G | 12-14 | The Tables promised.
+      H | 15-18 | The six days and the seventh.
+        J |  |
+          K1 |  | 25. 1-9. Materials.
+            L1 |  | 25. 10—27. 21. Furniture.
+          K2 |  | 28. 1—29. 46. Priests.
+            L2 |  | 30. 1-11. Furniture.
+          K3 |  | 30. 12-16. Worshippers.
+            L3 |  | 30. 17-38. Furniture.
+          K4 |  | 31. 1-6. Artificers.
+            L4 |  | 31. 7-11. Furniture.
+[[group: The Tabernacle.]]
+      H |  | 31. 12-17. The six days and the seventh.
+    G |  | 31. 18. The Tables given.
+  F |  | 32. 1-14. The idolatry of the People.
+
+[[diagram: 24. 15-18 (H, above). The Six Days and the Seventh (Introversion and Alternation)]]
+[[anchor: Exodus 24:15-18]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 36]]
+
+H |  |
+  z | 15- | Ascent of Moses.
+  a |  |
+    b | -15 | The cloud.
+      c | 16- | The glory.
+  a |  |
+    b | -16 | The cloud.
+      c | 17 | The glory.
+  z | 18 | Ascent of Moses.
+
+# M1 and N each print several ranges under one letter; each range is set
+# under its letter with "·" for the (unprinted) label.
+[[diagram: 25. 10—27. 21 (L1, p. 107). The Furniture of the Tabernacle (Repeated Alternation)]]
+[[anchor: Exodus 25:10]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 37]]
+
+L1 |  |
+  M1 |  |
+    · | 10-22 | The Ark.
+    · | 23-30 | The Table.
+    · | 31-40 | The Lampstand.
+[[group: Contents.]]
+    N |  |
+      · |  | 26. 1-6. The Curtains.
+      · |  | 26. 7-14. The Coverings.
+      · |  | 26. 15-30. The Boards.
+      · |  | 26. 31-35. The Vail.
+      · |  | 26. 36, 37. The Hangings for Door.
+[[group: Construction.]]
+  M2 |  | 27. 1-8. The Altar of Burnt Offering. Contents.
+    N |  | 27. 9-19. Hangings for Court. Construction.
+  M3 |  | 27. 20, 21. Oil for the Lamp. Contents.
+
+[[diagram: 28. 1—29. 46 (K2, p. 107). The Consecration of the Priests (Introversion and Alternation)]]
+[[anchor: Exodus 28:1]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 40]]
+
+K2 |  |
+  O | 1 | Aaron and sons (Denomination).
+    P |  |
+      d | 2-5 | Garments (General).
+        e | 6-38 | Garments (Aaron's).
+    P |  |
+      d | 39 | Garments (General).
+        e | 40-43 | Garments (Aaron's sons).
+  O |  | 29. 1-46. Aaron and sons (Consecration).
+
+[[diagram: 6-38 (e, above). The Garments of Aaron (Alternation)]]
+[[anchor: Exodus 28:6-38]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 40]]
+
+e |  |
+  f | 6-14 | The Ephod and its girdle.
+    g | 15-30 | The Breastplate.
+  f | 31-35 | The Ephod and its robe.
+    g | 36-38 | The Mitre-plate.
+
+[[diagram: 29. 1-46 (O, p. 111). The Consecration of the Priests (Repeated Alternation)]]
+[[anchor: Exodus 29:1-46]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 42]]
+
+O |  |
+  Q1 | 1-3 | Sacrifices.
+    R1 | 4-9 | Aaron and his sons.
+  Q2 | 10-28 | Sacrifices.
+    R2 | 29, 30 | Aaron and his sons.
+  Q3 | 31-34 | Sacrifices.
+    R3 | 35 | Aaron and his sons.
+  Q4 | 36-46 | Sacrifices.
+
+[[diagram: 31. 1-6 (K4, p. 107). The Artificers (Extended Alternation)]]
+[[anchor: Exodus 31:1-6]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 45]]
+
+K4 |  |
+  S | 1, 2 | The principal, Bezaleel.
+    T | 3 | His qualification.
+      U | 4, 5 | His work.
+  S | 6- | His subordinates, Aholiab and others.
+    T | -6- | Their qualification.
+      U | -6 | Their work (= L4, vv. 7-11).
+
+[[diagram: 32. 1-14 (F, p. 107). The Idolatry of the People (Introversion and Alternation)]]
+[[anchor: Exodus 32:1-14]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 46]]
+
+F |  |
+  V |  |
+    f | 1 | Request of the People.
+      g | 2 | Aaron's answer.
+  W |  |
+    h | 3, 4- | Idolatry purposed.
+      i | -4 | Jehovah's rejection.
+  W |  |
+    h | 5, 6 | Idolatry practised.
+      i | 7-10 | Jehovah's wrath.
+  V |  |
+    f | 11-13 | Request of Moses.
+      g | 14 | Jehovah's answer.
+
+[[diagram: 32. 15-30 (Y4, p. 94). The Fourth Descent]]
+[[anchor: Exodus 32:15-30]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 47]]
+
+Y4 |  |
+  X | 15-24 | The Sin of the People.
+  Z | 25-30 | The Judgment of the People.
+
+[[diagram: 15-24 (X, above). The Sin of the People (Alternations)]]
+[[anchor: Exodus 32:15-24]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 47]]
+
+X |  |
+  j | 15, 16 | The Tables carried.
+    k |  |
+      l | 17 | Moses and Joshua.
+        m | 18 | Answer of Moses.
+  j | 19, 20 | Tables broken.
+    k |  |
+      l | 21 | Moses and Aaron.
+        m | 22-24 | Answer of Aaron.
+
+[[diagram: 25-30 (Z, p. 118). The Judgment of the People (Introversion and Simple Alternation)]]
+[[anchor: Exodus 32:25-30]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 48]]
+
+Z |  |
+  n | 25 | Idolatry.
+  o |  |
+    p | 26- | Call of Moses.
+      q | -26 | Levites' response.
+  o |  |
+    p | 27 | Command of Moses.
+      q | 28 | Levites' obedience.
+  n | 29, 30 | Atonement.
+
+[[diagram: 32. 31—33. 3 (X5, p. 94). Moses' Fifth Ascent (Alternations)]]
+[[anchor: Exodus 32:31]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 48]]
+
+X5 |  |
+  A1 | 31-33 | The Sin and its consequences.
+    B |  |
+      r | 34- | Command to depart.
+        s | -34 | Angel's guidance promised.
+  A2 | 35 | The Sin and its consequences.
+    B |  |
+      r |  | 33. 1. Command to depart.
+        s |  | 33. 2, 3-. Angel's guidance promised.
+  A3 |  | 33. -3. The Sin and its consequences.
+
+[[diagram: 33. 4—34. 4- (Y5, p. 94). Moses' Fifth Descent (Introversion)]]
+[[anchor: Exodus 33:4]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 49]]
+
+Y5 |  |
+  C | 4-6 | Stripping of ornaments.
+    D | 7-11 | Jehovah. Removal.
+    D | 12-23 | Jehovah. Manifestation.
+  C |  | 34. 1-4-. Making of the (second) Tables.
+
+[[diagram: 12-23 (D, above). Manifestation of Jehovah (Repeated Alternation)]]
+[[anchor: Exodus 33:12-23]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 49]]
+
+D |  |
+  t1 | 12, 13 | Request (Positive).
+    u1 | 14 | Answer—Presence.
+  t2 | 15, 16 | Request (Negative).
+    u2 | 17 | Answer—Grace.
+  t1 | 18 | Request (Positive).
+    u3 | 19-23 | Answer—Goodness.
+
+[[diagram: 34. 4-28 (X6, p. 94). Moses' Sixth Ascent (Introversion)]]
+[[anchor: Exodus 34:4-28]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 50]]
+
+X6 |  |
+  E | -4 | The new Tables taken up by Moses.
+    F | 5-7 | The Proclamation of Jehovah.
+      G | 8, 9 | The worship and prayer of Moses.
+    F | 10-26 | The Commandments of Jehovah.
+  E | 27, 28 | The Tables written by Jehovah.
+
+[[diagram: 10-26 (F, above). Covenant and Laws of Jehovah (Division)]]
+[[anchor: Exodus 34:10-26]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 50]]
+
+F |  |
+  H1 | 10-17 | The Covenant of Jehovah remade.
+  H2 | 18-26 | The Commandments of Jehovah repeated.
+
+[[diagram: 10-17 (H1, above). The Covenant of Jehovah Remade]]
+[[anchor: Exodus 34:10-17]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 50]]
+
+H1 |  |
+  K1 | 10, 11 | Jehovah the only true God.
+  K2 | 12-17 | No other gods.
+
+[[diagram: 18-26 (H2, p. 121). The Commandments of Jehovah Repeated (Introversion and Alternation)]]
+[[anchor: Exodus 34:18-26]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 51]]
+
+H2 |  |
+  M |  |
+    v | 18 | The one Feast. No leaven.
+      w | 19, 20 | The Firstborn. Liberality.
+  N | 21 | The Sabbath.
+  M |  |
+    v | 22-25 | The three Feasts. No leaven.
+      w | 26 | The Firstfruits. Kindliness.
+
+[[diagram: 34. 29—35. 3 (Y6, p. 94). Moses' Sixth Descent (Division)]]
+[[anchor: Exodus 34:29]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 51]]
+
+Y6 |  |
+  X1 | 29-35 | Conclusion of the ascents.
+  X2 |  | 35. 1-3. Preparation for the work.
+
+[[diagram: 35. 4—40. 33 (V, p. 94). The Making of the Tabernacle (Extended Alternation)]]
+[[anchor: Exodus 35:4]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 52]]
+
+V |  |
+  O | 4-9 | Free-will offerings required.
+    P | 10 | Artificers called for.
+      Q | 11-19 | The work described.
+  O | 20-29 | Free-will offerings given.
+    P |  | 35. 30—36. 7. Artificers fitted.
+      Q |  | 36. 8—40. 33. The work executed.
+
+[[diagram: 35. 30—36. 7 (P, p. 123). The Artificers Fitted (Extended Alternation, Repeated)]]
+[[anchor: Exodus 35:30]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 53]]
+
+P |  |
+  R1 |  |
+    a1 | 30 | Bezaleel called.
+      b1 | 31 | Bezaleel filled.
+        c1 | 32, 33 | His gifts.
+  R2 |  |
+    a2 | 34 | Aholiab called.
+      b2 | 35- | Aholiab filled.
+        c2 | -35 | His gifts.
+  R3 |  |
+    a3 |  | 36. 1. Bezaleel, Aholiab, and companions.
+      b3 |  | 36. 2. Their filling.
+        c3 |  | 36. 3-7. Their and the people's gifts.
+
+[[diagram: 36. 8—40. 33 (Q, p. 123). The Work Carried Out (Alternation)]]
+[[anchor: Exodus 36:8]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 53]]
+
+Q |  |
+  S |  | 36. 8—39. 42. The Tabernacle made.
+    T |  | 39. 43. Approbation and blessing. Moses.
+  S |  | 40. 1-33. The Tabernacle set up.
+    T |  | 40. 34. Approbation and blessing. Jehovah.
+
+[[diagram: 36. 8—39. 42 (S, above). The Tabernacle Made (Alternation)]]
+[[anchor: Exodus 36:8]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 53]]
+
+S |  |
+  U |  | 36. 8—37. 28. The Tabernacle (twelve items).
+    V |  | 37. 29. Its service.
+  U |  | 38. 1-20. The Tabernacle (three items).
+    V |  | 38. 21—39. 31. Its service.
+
+[[diagram: 38. 21—39. 31 (V, p. 124). The Service of the Tabernacle (Alternation)]]
+[[anchor: Exodus 38:21]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 56]]
+
+V |  |
+  d | 21 | Computation.
+    e | 22, 23 | Artificers.
+  d | 24-31 | Computation.
+    e |  | 39. 1-31. Garments.
+
+[[diagram: 40. 1-33 (S, p. 124). The Tabernacle Set Up (Extended Alternation)]]
+[[anchor: Exodus 40:1-33]]
+[[pdf: 2. Exodus_text.pdf]]
+[[pdf-page: 58]]
+
+S |  |
+  f | 1, 2- | The date.
+    g | -2 | The Tabernacle set up.
+      h | 3-8 | The placing of the furniture.
+        i | 9-16 | Consecration.
+  f | 17- | The date.
+    g | -17-19 | The Tabernacle set up.
+      h | 20-33- | The placing of the furniture.
+        i | -33 | Completion.

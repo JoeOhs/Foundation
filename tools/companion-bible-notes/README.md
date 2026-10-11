@@ -23,7 +23,7 @@ Nothing here is part of the app runtime or `src-tauri/`.
 verification gates and the correction policy for OCR damage, is the
 `companion-bible-book` skill (`.claude/skills/companion-bible-book/`).
 
-Transcribed so far: **Philemon**.
+Transcribed so far: **Genesis**, **Exodus**, **Leviticus**, **Philemon**.
 
 ## Why a notation instead of JSON by hand
 
@@ -102,6 +102,10 @@ Bullinger's correspondence pairs sit at opposite ends of the outline —
 Philemon's two `PAUL AND PHILEMON` spans are the first and last blocks — so
 the label text is the key. There is no separate group ID.
 
+`[[group: -]]` releases the lines since the previous marker under no brace
+at all — for a member printed between two braced runs, such as the centre
+of an introversion (Genesis's `D | TERAH`).
+
 ## Prose notation (`*.notes.txt`)
 
 One note per line:
@@ -109,6 +113,9 @@ One note per line:
 ```
 VERSE | TEXT
 ```
+
+For a book of more than one chapter the verse is written `C:V`
+(`3:15 | ...`); a bare `V` means chapter 1.
 
 Bullinger's marginal (side) notes, one entry per verse — the part meant to
 be read alongside the translation. Multiple notes may share a verse number;
