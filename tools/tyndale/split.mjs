@@ -26,7 +26,7 @@
 
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import { createWorker, PSM } from 'tesseract.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -51,7 +51,7 @@ const IMG_DIR = path.join(RAW_DIR, VOL.img);
 const REPORT_PATH = path.join(__dirname, VOL.report);
 
 const LINE_RE =
-  /<span class="ocr_line"[^>]*? title="bbox (\d+) (\d+) (\d+) (\d+);[^"]*"[^>]*>([\s\S]*?)<\/span>\s*(?=<span class="ocr_line"|<\/p>)/g;
+  /<span class="ocr_line"[^>]*? title="bbox (\d+) (\d+) (\d+) (\d+);([^"]*)"[^>]*>([\s\S]*?)<\/span>\s*(?=<span class="ocr_line"|<\/p>)/g;
 const WORD_RE =
   /<span class="ocrx_word"[^>]*? title="bbox (\d+) (\d+) (\d+) (\d+);[^"]*"[^>]*>([\s\S]*?)<\/span>/g;
 const ENTITIES = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ' };
@@ -65,7 +65,7 @@ function decode(s) {
 
 const flat = (html) => decode(html.replace(/<[^>]+>/g, '')).replace(/\s+/g, ' ').trim();
 
-function parseHocr(raw) {
+export function parseHocr(raw) {
   const pages = [];
   for (const chunk of raw.split(/(?=<div class="ocr_page")/)) {
     const box = /^<div class="ocr_page"[^>]*title="bbox 0 0 (\d+) (\d+)/.exec(chunk);
@@ -77,13 +77,16 @@ function parseHocr(raw) {
       const words = [];
       WORD_RE.lastIndex = 0;
       let w;
-      while ((w = WORD_RE.exec(m[5])) !== null) {
+      while ((w = WORD_RE.exec(m[6])) !== null) {
         const text = flat(w[5]);
         if (text) words.push({ x0: +w[1], y0: +w[2], x1: +w[3], y1: +w[4], text });
       }
-      if (words.length) lines.push({ y0: +m[2], y1: +m[4], words });
+      // x_size is the line's type height: it tells Walter's small-type
+      // footnotes from the body (see build.mjs).
+      const size = +(/x_size ([\d.]+)/.exec(m[5])?.[1] ?? 0);
+      if (words.length) lines.push({ y0: +m[2], y1: +m[4], size, words });
     }
-    pages.push({ leaf: pages.length, width: +box[1], lines });
+    pages.push({ leaf: pages.length, width: +box[1], height: +box[2], lines });
   }
   return pages;
 }
@@ -107,7 +110,7 @@ function parseDjvu(raw) {
 // dragged by the margin words this script is trying to separate.
 // Fixed bins split a cluster that straddles a bin boundary, so this counts a
 // sliding ±`tol` window and returns the densest one's median.
-function mode(values, tol = 8) {
+export function mode(values, tol = 8) {
   const v = [...values].sort((a, b) => a - b);
   let best = null;
   for (let i = 0, j = 0; i < v.length; i++) {
@@ -122,7 +125,7 @@ function mode(values, tol = 8) {
 // stay well under that; justified lines overshoot the edge by a few px.
 const SLACK = 12;
 
-function splitPage(page) {
+export function splitPage(page) {
   // A line's last *body* word is unknown until the split is made (the
   // gutter is narrower than any page-fraction cut-off), so the edges are
   // taken over every word: justified line ends pile up at one x, while
@@ -555,4 +558,6 @@ async function main() {
   console.log(out.slice(0, 3).join('\n'));
 }
 
-main();
+// Imported by build.mjs for the page reading; run directly, it splits
+// and re-reads the margin.
+if (import.meta.url === pathToFileURL(process.argv[1]).href) main();

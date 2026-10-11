@@ -61,3 +61,33 @@ note: 2,112 notes on 588 leaves, each checked against the scan. Its header
 gives the format and correction policy. `node split.mjs --draft` produced
 the starting draft and refuses to overwrite the file now that it holds
 proofread work.
+
+## The Vol. I bundle (`build.mjs`)
+
+    node build.mjs --ocr        # read each page's text column with Tesseract (cached in raw/body/)
+    node build.mjs              # write public/library/reformation/tyndale-vol1.json
+    node build.mjs --headings   # list heading-like lines, to check the declared works
+
+**Body text.** IA's OCR is used only to find each page's text column. It
+can't supply the text, because it read the margin notes into the lines
+beside them ("speak evil of it, and do but all the shame", leaf 244). So
+each column is cropped from the page image and read by Tesseract on its
+own, cropped to 4 px past the column's right edge.
+
+**Works.** Each work starts at a declared leaf and height (`PIECES`),
+because many prologues begin part-way down a page. Each also has a
+check word that must appear in its opening, so a drifted start stops the
+build. Walter's Biographical Notice and his introductory notices are kept
+as pieces labelled "(Walter)".
+
+**Left out**, all logged to `tyndale-exclusions.txt`: the Advertisement,
+title blocks, running heads, sheet signatures, and Walter's footnotes.
+Footnotes are found as a block at the foot of the page, under a gap,
+opening with a marker (`[1`, often misread `[l`, `t1`, `C1`) and never
+larger than the text. A note that spills over from the previous page is
+taken only when every line down to the next clear marker is set small,
+so Tyndale's own small-type subheads ("Of Order.") survive.
+
+**Marginal notes** come from `vol1.notes.txt`, never from OCR. Each goes
+on `entries.heading` of the paragraph whose line it sits beside. Notes
+broken across a page are joined first.

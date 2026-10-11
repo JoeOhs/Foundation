@@ -469,6 +469,33 @@ running list of what's done and what's next, not a commitment.
   letter, and the Selected Works' side notes as `entries.heading`, are the
   obvious follow-ups if wanted.
 
+- **Works of William Tyndale, Vol. I: Doctrinal Treatises (ed. Walter,
+  1848).** Done: its own `reformation` entry, **4 books, 50 pieces, ~1,290
+  paragraphs, ~216,000 words**. Built by `tools/tyndale/build.mjs` into
+  `public/library/reformation/tyndale-vol1.json`, installed by
+  `src/tyndaleImport.ts` on `pieceBundleImport.ts`. That installer now
+  accepts a paragraph as `{ text, heading }` as well as a plain string, so
+  older bundles are unchanged. No schema change.
+  - *Marginal notes:* all 2,112 printed notes (2,092 once page-break
+    halves are joined) are on `entries.heading` beside the paragraph they
+    annotate, from the proofread `vol1.notes.txt`.
+  - *Body text:* each page's text column is read by Tesseract. IA's OCR is
+    used only to find the column, because it merged the margin notes into
+    the text lines.
+  - *Walter's matter:* his Biographical Notice and introductory notices are
+    kept as pieces labelled "(Walter)". His footnotes are excluded and
+    logged, about 3,700 lines.
+  - *Audits:* a coverage check that every page with text contributes lines,
+    and a leak check that no footnote opens or sits inside a paragraph.
+  - *Known residue:* scattered OCR misreads (about 1 visibly garbled token
+    per 1,000), and a few drop capitals read with a bracket ("[I po marvel"
+    for "I do marvel"). Long treatises (Obedience: 354 paragraphs) load as
+    single pieces.
+  - *Not yet done:* Vol. II (Expositions; its scan needs most notes
+    transcribed rather than corrected, see the Tyndale candidate entry) and
+    Vol. III (optional). Linking the book prologues to their Bible books is
+    a possible follow-up.
+
 - **Calvin prose still missing from the verse commentary.** Found while
   inventorying the front matter. The commentary build takes text only
   from each verse comment's milestone onward, so prose that sits in a
@@ -2264,7 +2291,9 @@ coordinates still separate cleanly.
      CCEL. Includes *History of the Reformation in Scotland* and *The
      First Blast of the Trumpet Against the Monstrous Regiment of
      Women*.
-  7. **William Tyndale — collected *Works*** (ed. Rev. Henry Walter,
+  7. **William Tyndale — collected *Works*. — Vol. I DONE**, see "Works of
+     William Tyndale, Vol. I" under Current; Vols. II–III open. Original
+     entry: (ed. Rev. Henry Walter,
      Parker Society, 1848–1850, 3 volumes: *Doctrinal Treatises*,
      *Expositions and Notes*, *An Answer to Sir Thomas More's Dialogue*).
      Wrote natively in English. Confirmed public domain — 1848–1850

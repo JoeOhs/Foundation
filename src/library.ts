@@ -65,6 +65,7 @@ import { ZWINGLI_TITLE, installZwingli } from './zwingliImport';
 import { BULLINGER_DECADES_TITLE, installBullingerDecades } from './bullingerDecadesImport';
 import { KNOX_TITLE, installKnox } from './knoxImport';
 import { KNOX_LAING_TITLE, installKnoxLaing } from './knoxLaingImport';
+import { TYNDALE_VOL1_TITLE, installTyndaleVol1 } from './tyndaleImport';
 import { importKjvStrongs } from './strongsImport';
 import type { ParsedSource, Source, SourceCategory, SourceType } from './types';
 
@@ -1428,6 +1429,30 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       + 'tools/knox/laing.mjs. The modern-spelling "Works of John Knox, Selected (Lennox 1905, Arber 1878)" is the easier '
       + 'reading text of the History, Confession, Discipline and First Blast.',
     install: installKnoxLaing,
+  },
+  {
+    id: 'tyndale_works_vol1',
+    title: TYNDALE_VOL1_TITLE,
+    language: 'en',
+    type: 'extra-biblical' as SourceType,
+    category: 'reformation' as SourceCategory,
+    series: 'Works of William Tyndale',
+    license: 'public domain',
+    licenseDetail:
+      '"The Works of William Tyndale", Vol. I: Doctrinal Treatises and Introductions to Different '
+      + 'Portions of the Holy Scriptures, edited by Henry Walter for the Parker Society (Cambridge, '
+      + '1848): public domain. A Pathway into the Holy Scripture, the Parable of the Wicked Mammon, '
+      + 'the Obedience of a Christian Man, the Brief Declaration of the Sacraments, and Tyndale’s '
+      + 'prologues to the books of Moses, Jonas and the New Testament, with the tables of words he '
+      + 'expounded. Tyndale’s printed marginal notes (marked W. T. where they are found in the oldest '
+      + 'editions, Ant. ed. where not known before Day’s folio of 1573) are shown beside the paragraphs they annotate; every one was transcribed '
+      + 'and proofread against the page scans. Walter’s Biographical Notice and his introductory '
+      + 'notice to each work are kept, labelled as his. No transcription of this edition exists, so the '
+      + 'body text is OCR of the University of Toronto scan on the Internet Archive '
+      + '(doctrinaltreatis00tynduoft), read afresh column by column: expect the odd misread letter. '
+      + 'Walter’s footnotes, the Advertisement, running heads and title pages are excluded and '
+      + 'logged to tools/tyndale/tyndale-exclusions.txt. Built by tools/tyndale/build.mjs.',
+    install: installTyndaleVol1,
   },
   {
     id: 'chesterton_apologetics',

@@ -34,8 +34,10 @@
 #   words ("throughJesus" is printed so, but is written "through Jesus").
 # - Line-break hyphens are closed up; a hyphen the compound really has
 #   ("belly-cheer", "mercy-stool") is kept.
-# - The attribution marks are written "W. T." (Tyndale's own gloss) and
-#   "Ant. ed." (from an earlier edition), whatever the spacing. A third,
+# - The attribution marks are written "W. T." and "Ant. ed." whatever the
+#   spacing. Walter marks with W. T. the notes found in the oldest editions,
+#   and with Ant. ed. those not known before Day's folio of 1573 (his note
+#   on leaf 123). A third,
 #   "M. B.", appears in the prologue to Romans (leaf 567) and is kept as
 #   printed; Walter doesn't say whose it is. Notes printed with no mark
 #   are left without one.

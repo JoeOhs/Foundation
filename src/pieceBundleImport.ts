@@ -18,9 +18,15 @@
 import { deleteSource, findSourceByTitle, insertParsedSource, insertTocEntries } from './db';
 import type { ParsedBook, ParsedEntry, ParsedSource, ParsedTocEntry, SourceCategory } from './types';
 
+// A paragraph is its text, or its text with the printed marginal note(s)
+// beside it, which go on entries.heading as Luther's and Foxe's sidenotes do
+// (Tyndale, tools/tyndale/build.mjs). Plain strings keep every older bundle
+// valid.
+type BundleParagraph = string | { text: string; heading?: string };
+
 interface BundlePiece {
   title: string;
-  paragraphs: string[];
+  paragraphs: BundleParagraph[];
 }
 
 interface PieceBundle {
@@ -63,7 +69,8 @@ function buildParsedSource(work: PieceBundleWork, data: PieceBundle): ParsedSour
     book.pieces.forEach((piece, pieceIndex) => {
       // Level 1 — the piece, opening at its first paragraph.
       toc.push({ title: piece.title, level: 1, entryIndex: entries.length, bookIndex });
-      piece.paragraphs.forEach((text, i) => {
+      piece.paragraphs.forEach((para, i) => {
+        const { text, heading } = typeof para === 'string' ? { text: para, heading: undefined } : para;
         entries.push({
           // The piece's ordinal, purely as a loading unit: the pane fetches
           // one piece at a time.
@@ -71,6 +78,7 @@ function buildParsedSource(work: PieceBundleWork, data: PieceBundle): ParsedSour
           verse: null,
           position_ref: i === 0 ? piece.title : null,
           text,
+          heading: heading ?? null,
         });
       });
     });
