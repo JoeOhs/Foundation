@@ -1458,7 +1458,7 @@ running list of what's done and what's next, not a commitment.
   itself (as opposed to the Appendixes above). Installs from the Library's
   "Reference works" section as a single `commentary` source containing one
   `books` row per transcribed book — **Genesis**, **Exodus**,
-  **Leviticus** and **Philemon** so far (Philemon was the proof-of-concept). 4 of 66 books. Two content shapes share it:
+  **Leviticus**, **Numbers** and **Philemon** so far (Philemon was the proof-of-concept). 5 of 66 books. Two content shapes share it:
   - *Structure diagrams* — Bullinger's nested outlines, stored as **data**
     (one `entries` row per outline line) rather than as page images, so
     highlighting, binding and annotating work on an individual outline line
@@ -1539,6 +1539,11 @@ running list of what's done and what's next, not a commitment.
   verse entries across all 27 chapters; one appendix number corrected
   (Ap. 8 -> 18), the rest as printed — see the header of
   `leviticus.notes.txt`. No `src/` change was needed.
+
+  **Numbers** is complete the same way: 104 Structure diagrams and 744
+  verse entries across all 36 chapters; three damaged readings restored
+  from context, the rest as printed — see the header of
+  `numbers.notes.txt`. No `src/` change was needed.
 
   Known gap, Genesis onward: a bare in-book reference ("See note on
   26. 28", "Cp. 30. 21") is **not** linked — only `v. N` and references

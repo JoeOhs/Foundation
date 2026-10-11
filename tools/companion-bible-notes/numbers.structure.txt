@@ -1,0 +1,1392 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Numbers
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/4. Numbers_text.pdf); [[pdf-page:]] is the
+# page of that file each diagram is on. Notation: README.md here.
+#
+# A printed reference that reaches outside the diagram's anchor chapter
+# can't be a REF_RANGE, which is verses of one chapter; such a line keeps
+# its reference at the head of its TEXT instead, as printed. Where a
+# printed letter is missing, "·" stands in for it — also for the unlettered
+# rows of a bracket that carries several (2. 1-34: f1 = Judah, Issachar,
+# Zebulun).
+
+# B3's opening verse is damaged on the scan ("27. 1?"); the 27. 12—31. 54
+# heading on p. 222 gives 27. 12. The Epilogue is printed below a rule, with no letter.
+[[diagram: The Structure of the Book as a Whole (Repeated Alternation)]]
+[[anchor: Numbers 1:1]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 1]]
+
+A1 |  | 1. 1—4. 49. NUMERATION AND ORDER. ENCAMPMENT AND SERVICE.
+  B1 |  | 5. 1—9. 23. LAWS AND EVENTS.
+A2 |  | 10. 1-36. JOURNEYINGS AND ORDER. MARCH.
+  B2 |  | 11. 1—25. 18. EVENTS AND LAWS.
+A3 |  | 26. 1—27. 11. NUMERATION AND ORDER. INHERITANCE.
+  B3 |  | 27. 12—31. 54. EVENTS AND LAWS.
+A4 |  | 32. 1—36. 12. JOURNEYINGS AND ORDER. DIVISION OF LAND.
+· |  | EPILOGUE. 36. 13.
+
+[[diagram: 1. 1—4. 49 (A1, p. 176). Numeration and Order of Service, &c. (Alternation)]]
+[[anchor: Numbers 1:1]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 2]]
+
+A1 |  |
+  A |  | 1. 1-54. Numeration. The nation.
+    B |  | 2. 1-34. Order of its encampment.
+  A |  | 3. 1-51. Numeration. The Levites.
+    B |  | 4. 1-49. Order of their service.
+
+[[diagram: 1. 1-54 (A, p. 177). Numeration: the Nation and Levites (Introversion and Alternation)]]
+[[anchor: Numbers 1:1-54]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 3]]
+
+A |  |
+  a |  |
+    c | 1-16 | Command
+      d | 17-46 | Obedience
+[[group: Nation.]]
+        b | 47 | Exception.
+[[group: -]]
+  a |  |
+    c | 48-53 | Command
+      d | 54 | Obedience
+[[group: Levites.]]
+
+[[diagram: 2. 1-34 (B, p. 177). Order of Encampment (Introversion and Repeated Alternation)]]
+[[anchor: Numbers 2:1-34]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 4]]
+
+B |  |
+  e | 1, 2 | Command.
+[[group: -]]
+  f1 |  |
+    · | 3, 4 | Judah
+    · | 5, 6 | Issachar
+    · | 7, 8 | Zebulon
+[[group: East.]]
+    g1 | 9 | Total.
+[[group: -]]
+  f2 |  |
+    · | 10, 11 | Reuben
+    · | 12, 13 | Simeon
+    · | 14, 15 | Gad
+[[group: South.]]
+    g2 | 16 | Total.
+      h1 | 17 | Levites.
+[[group: -]]
+  f3 |  |
+    · | 18, 19 | Ephraim
+    · | 20, 21 | Manasseh
+    · | 22, 23 | Benjamin
+[[group: West.]]
+    g3 | 24 | Total.
+[[group: -]]
+  f4 |  |
+    · | 25, 26 | Dan
+    · | 27, 28 | Asher
+    · | 29-31 | Naphtali
+[[group: North.]]
+    g4 | 32 | Total.
+      h2 | 33 | Levites.
+  e | 34 | Obedience.
+[[group: -]]
+
+[[diagram: 3. 1-51 (A, p. 177). Numeration of the Levites]]
+[[anchor: Numbers 3:1-51]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 6]]
+
+A |  |
+  i | 1-4 | Priests. Their "generations."
+    k | 5-9 | Levites. Given out of the whole congregation.
+  i | 10 | Priests. Their appointment.
+    k | 11-51 | Levites. Substituted for the rest of congregation.
+
+[[diagram: 11-51 (k, p. 181). Levites Substituted for the Firstborn (Introversion)]]
+[[anchor: Numbers 3:11-51]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 7]]
+
+k |  |
+  l | 11-13 | Substitution of Levites for firstborn.
+    m | 14-39 | Numbering of substitutes.
+    m | 40-43 | Numbering of firstborn.
+  l | 44-51 | Substitution of Levites for firstborn.
+
+[[diagram: 4. 1-49 (B, p. 177). Levites: the Order of their Service (Introversion)]]
+[[anchor: Numbers 4:1-49]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 8]]
+
+B |  |
+  n | 1-33 | Command (given).
+    o | 34-45 | Obedience.
+  n | 46-49 | Command (completed).
+
+[[diagram: 1-33 (n, above). The Command (Given) (Repeated Alternation)]]
+[[anchor: Numbers 4:1-33]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 8]]
+
+n |  |
+  p1 |  |
+    q1 | 1-3 | Kohathites. Age.
+      r1 | 4-20 | Their service.
+  p2 |  |
+    q2 | 21-23 | Gershonites. Age.
+      r2 | 24-28 | Their service.
+  p3 |  |
+    q3 | 29, 30 | Merarites. Age.
+      r3 | 31-33 | Their service.
+
+[[diagram: 34-45 (o, p. 183). Obedience (Repeated and Extended Alternation)]]
+[[anchor: Numbers 4:34-45]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 10]]
+
+o |  |
+  s1 |  |
+    t1 | 34 | KOHATHITES. Numeration.
+      u1 | 35 | Age and service.
+        w1 | 36, 37- | Number.
+          x1 | -37 | According to the commandment.
+  s2 |  |
+    t2 | 38 | GERSHONITES. Numeration.
+      u2 | 39 | Age and service.
+        w2 | 40, 41- | Number.
+          x2 | -41 | According to the commandment.
+  s3 |  |
+    t3 | 42 | MERARITES. Numeration.
+      u3 | 43 | Age and service.
+        w3 | 44, 45- | Number.
+          x3 | -45 | According to the commandment.
+
+[[diagram: 46-49 (n, p. 183). Command (Completed) (Extended Alternation)]]
+[[anchor: Numbers 4:46-49]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 10]]
+
+n |  |
+  t4 | 46 | Numeration.
+    u4 | 47 | Age and service.
+      w4 | 48 | Number.
+        x4 | 49 | According to the commandment.
+
+[[diagram: 5. 1—9. 23 (B1, p. 176). Laws and Events (Alternation and Introversion)]]
+[[anchor: Numbers 5:1]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 11]]
+
+B1 |  |
+  C |  |
+    a |  | 5. 1—6. 21. Laws for the People (Leprosy, &c.).
+      b |  | 6. 22-27. Laws for the priests (Blessing, &c.).
+  D |  | 7. 1-89. Event (dedication of altar).
+  C |  |
+      b |  | 8. 1-26. Laws for priests and Levites.
+    a |  | 9. 1-14. Laws for People (Passover).
+  D |  | 9. 15-23. Event (erection of tabernacle).
+
+[[diagram: 5. 1—6. 21 (a, above). Laws for the People]]
+[[anchor: Numbers 5:1]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 11]]
+
+a |  |
+  c1 |  | 5. 1-31. Necessary laws.
+  c2 |  | 6. 1-21. Voluntary laws.
+
+[[diagram: 5. 1-31 (c1, above). Necessary Laws]]
+[[anchor: Numbers 5:1-31]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 11]]
+
+c1 |  |
+  d1 | 1-4 | Leprosy.
+  d2 | 5-10 | Trespass.
+  d3 | 11-31 | Jealousy.
+
+[[diagram: 11-31 (d3, above). Jealousy (Repeated Alternation)]]
+[[anchor: Numbers 5:11-31]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 11]]
+
+d3 |  |
+  e1 | 11-14- | Guilt
+    f1 | -14 | Innocence
+[[group: Case.]]
+  e2 | 15-27 | Guilt
+    f2 | 28 | Innocence
+[[group: Trial and proof.]]
+  e3 | 29 | Guilt
+    f3 | 30, 31 | Innocence
+[[group: Case.]]
+
+[[diagram: 6. 1-21 (c2, p. 186). Voluntary (Nazarite Vow) (Alternation)]]
+[[anchor: Numbers 6:1-21]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 12]]
+
+c2 |  |
+  g | 1, 2 | The vow made.
+    h | 3-8 | Observances during separation.
+  g | 9-12 | Vow interrupted.
+    h | 13-21 | Observances at close of separation.
+
+[[diagram: 7. 1-89 (D, p. 186). Dedication of the Altar (Alternation)]]
+[[anchor: Numbers 7:1-89]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 13]]
+
+D |  |
+  E | 1-3 | Offerings of the princes.
+    F | 4-9 | Arrangement.
+  E | 10 | Offerings of the princes.
+    F | 11-89 | Arrangement.
+
+[[diagram: 4-9 (F, p. 188). Arrangement (Alternation)]]
+[[anchor: Numbers 7:4-9]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 14]]
+
+F |  |
+  i |  |
+    k | 4, 5- | Acceptance
+      l | -5 | Distribution
+[[group: Command.]]
+  i |  |
+    k | 6- | Acceptance
+      l | -6-9 | Distribution
+[[group: Obedience.]]
+
+[[diagram: 11-89 (F, p. 188). Arrangement (Division)]]
+[[anchor: Numbers 7:11-89]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 14]]
+
+F |  |
+  m1 | 11 | Command.
+  m2 | 12-89 | Obedience.
+
+[[diagram: 8. 1-26 (C b, p. 186). Laws for the Priests and Levites (Repeated Alternation)]]
+[[anchor: Numbers 8:1-26]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 16]]
+
+b |  |
+  n1 | 1-4 | Service of Aaron.
+    o1 | 5-14 | Levites' purification. Command.
+  n2 | 15-19 | Service of Levites.
+    o2 | 20, 21 | Levites' purification. Obedience.
+  n3 | 22-26 | Service of Levites.
+
+[[diagram: 9. 1-14 (a, p. 186). Laws for the People (Introversion)]]
+[[anchor: Numbers 9:1-14]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 17]]
+
+a |  |
+  p | 1-3 | Command. Passover.
+    q | 4, 5 | Obedience rendered.
+    q | 6-8 | Obedience hindered.
+  p | 9-14 | Command. Second passover.
+
+[[diagram: 9. 15-23 (D, p. 186). Event. Erection of Tabernacle (Repeated Alternation)]]
+[[anchor: Numbers 9:15-23]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 18]]
+
+D |  |
+  G1 | 15- | Time: "on the day".
+    H1 | -15 | Event—Cloud and fire.
+  G2 | 16- | Time: "alway".
+    H2 | -16 | Event—Cloud and fire.
+  G3 | 17 | Time: when cloud taken up.
+    H3 | 18- | Event—They journeyed.
+  G4 | -18-20- | Time: alternations.
+    H4 | -20 | Event—Command to journey.
+  G5 | 21, 22 | Time: alternations.
+    H5 | 23 | Event—Command to rest.
+
+[[diagram: 10. 1-36 (A2, p. 176). Journeyings and Order (March) (Repeated Alternation)]]
+[[anchor: Numbers 10:1-36]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 18]]
+
+A2 |  |
+  I1 | 1-10 | Journey. Preparation.
+    K1 | 11 | Removal of cloud.
+  I2 | 12-16 | Journey. Commenced.
+    K2 | 17 | Removal of tabernacle.
+  I3 | 18-28 | Journey. Order.
+    K3 | 29-32 | Removal of Hobab.
+  I4 | 33 | Journey. Progress.
+    K4 | 34 | Removal of cloud.
+  I5 | 35 | Journey. Commenced.
+    K5 | 36 | Rest of cloud.
+
+# Printed in the note on 10. 35, 36 to show that v. 34 should follow v. 36.
+# No letters.
+[[diagram: 10. 33-36. The Inverted Nuns]]
+[[anchor: Numbers 10:33-36]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 19]]
+
+· | 33 | The setting forth of the ark.
+[[group: -]]
+  · | 35 | "Rise up, O Jehovah"
+  · | 36 | "Return, O Jehovah"
+[[group: Words spoken.]]
+· | 34 | The setting forth of the cloud.
+[[group: -]]
+
+[[diagram: 11. 1—25. 18 (B2, p. 176). Events and Laws (Repeated Alternation)]]
+[[anchor: Numbers 11:1]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 20]]
+
+B2 |  |
+  L1 |  | 11. 1—14. 45. Events—Murmurings and journeyings.
+    M1 |  | 15. 1-41. Laws for the People.
+  L2 |  | 16. 1—17. 13. Events—Rebellion of Korah.
+    M2 |  | 18. 1—19. 22. Laws for priests and People.
+  L3 |  | 20. 1—25. 18. Events—Journeyings and murmurings.
+
+[[diagram: 11. 1—14. 45 (L1, above). Events]]
+[[anchor: Numbers 11:1]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 20]]
+
+L1 |  |
+  N1 |  | 11. 1—12. 16. Murmurings.
+  N2 |  | 13. 1—14. 45. The spies.
+
+[[diagram: 11. 1—12. 16 (N1, above). Murmurings and Journeyings (Alternation)]]
+[[anchor: Numbers 11:1]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 20]]
+
+N1 |  |
+  r |  | 11. 1-34. Murmurings of People.
+    s |  | 11. 35. To Hazeroth.
+  r |  | 12. 1-15. Murmurings of Miriam and Aaron.
+    s |  | 12. 16. To Paran.
+
+[[diagram: 11. 1-34 (r, above). Murmurings of People (Alternation)]]
+[[anchor: Numbers 11:1-34]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 20]]
+
+r |  |
+  u | 1- | Complaint.
+    v | -1-3 | Plague—Taberah.
+  u | 4-33- | Murmuring.
+    v | -33, 34 | Plague—Kibroth-hattaavah.
+
+# Printed with the bracket letter u against w1-w2 and v against w3,
+# though the heading reads "4-34 (u)"; kept as printed.
+[[diagram: 4-34 (u, p. 195). Murmuring and Plague (Repeated Alternation)]]
+[[anchor: Numbers 11:4-34]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 20]]
+
+u |  |
+  w1 |  |
+    y1 | 4-9 | Flesh: lusting for it.
+      z1 | 10-15 | Complaint of Moses.
+        x1 | 16, 17 | Elders. Command.
+  w2 |  |
+    y2 | 18-20 | Flesh: promise of it.
+      z2 | 21-23 | Complaint of Moses.
+        x2 | 24-30 | Elders. Obedience.
+v |  |
+  w3 |  |
+    y3 | 31-32 | Flesh: given.
+      z3 | 33 | Wrath of Jehovah.
+
+[[diagram: 12. 1-15 (r, p. 195). Murmurings of Miriam and Aaron (Alternation)]]
+[[anchor: Numbers 12:1-15]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 22]]
+
+r |  |
+  a |  |
+    b | 1-3 | Murmuring.
+      c | 4-10 | Punishment inflicted.
+  a |  |
+    b | 11, 12 | Confession.
+      c | 13-15 | Punishment removed.
+
+[[diagram: 4-10 (c, above). Punishment Inflicted (Alternation)]]
+[[anchor: Numbers 12:4-10]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 22]]
+
+c |  |
+  d |  |
+    e | 4, 5 | Cloud. Descent.
+      f | 6-8 | Rebuke.
+  d |  |
+    e | 9, 10- | Cloud. Departure.
+      f | -10 | Judgment.
+
+[[diagram: 13. 1—14. 45 (N2, p. 195). The Spies (Division)]]
+[[anchor: Numbers 13:1]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 23]]
+
+N2 |  |
+  O1 |  | 13. 1—14. 38. The Expedition.
+  O2 |  | 14. 39-45. The Episode.
+
+# P's range is printed "14. -10-38"; Q b ends at "14. 10-".
+[[diagram: 13. 1—14. 38 (O1, above). The Expedition (Introversion and Alternation)]]
+[[anchor: Numbers 13:1]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 23]]
+
+O1 |  |
+  P |  | 13. 1-3. Command of Jehovah.
+    Q |  |
+      a |  | 13. 4-16. Selection of spies.
+        b |  | 13. 17-20. Directions to spies.
+    Q |  |
+      a |  | 13. 21-25. Searching of the spies.
+        b |  | 13. 26—14. 10-. Report and reception.
+  P |  | 14. -10-38. Provocation of Jehovah.
+
+[[diagram: 13. 26—14. 10- (b, p. 198). Report and Reception (Introversions)]]
+[[anchor: Numbers 13:26]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 24]]
+
+b |  |
+  c |  |
+    d1 |  | 13. 26-29. Evil report
+      e1 |  | 13. 30. Action of Caleb
+    d2 |  | 13. 31-33. Evil report
+[[group: Report]]
+  c |  |
+    d3 |  | 14. 1-5. The congregation
+      e2 |  | 14. 6-9. Joshua and Caleb
+    d4 |  | 14. 10-. The congregation
+[[group: Reception.]]
+
+# S is printed indented under g, as the centre of the introversion.
+[[diagram: -10-38 (P, p. 198). Provocation of Jehovah (Introversion and Alternation)]]
+[[anchor: Numbers 14:10-38]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 25]]
+
+P |  |
+  R |  |
+    f | 10, 11 | Reproach: "How long?"
+      g | 12 | Threatening. General.
+        S | 13-25 | Moses and Jehovah.
+  R |  |
+    f | 26, 27 | Reproach: "How long?"
+      g | 28-38 | Threatening. Particular.
+
+[[diagram: 13-25 (S, above). Moses and Jehovah (Alternation)]]
+[[anchor: Numbers 14:13-25]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 25]]
+
+S |  |
+  h | 13-19 | Intercession to enter land.
+    i | 20 | Exception. Pardon for the people.
+  h | 21-23 | Refusal. None of that generation to enter.
+    i | 24 | Exception. Entrance for Caleb and Joshua.
+
+[[diagram: 28-38 (g, above). Threatening (Alternations)]]
+[[anchor: Numbers 14:28-38]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 25]]
+
+g |  |
+  k |  |
+    m | 28, 29- | Fall in wilderness.
+      n | -29 | Age above twenty years.
+        l | 30, 31 | Exception—Caleb and Joshua.
+  k |  |
+    m | 32 | Fall in wilderness.
+      n | 33-37 | Time—Forty years.
+        l | 38 | Exception—Joshua and Caleb.
+
+[[diagram: 39-45 (O2, p. 198). The Episode (Introversion)]]
+[[anchor: Numbers 14:39-45]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 26]]
+
+O2 |  |
+  o | 39 | Mourning.
+    p | 40 | Presumption.
+      q | 41-43 | Prohibition.
+    p | 44 | Presumption.
+  o | 45 | Discomfiture.
+
+[[diagram: 15. 1-41 (M1, p. 195). Laws for the People (Introversion)]]
+[[anchor: Numbers 15:1-41]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 26]]
+
+M1 |  |
+  r | 1-29 | Laws re Offerings.
+    s | 30, 31 | Presumptuous sins. Cut off.
+    s | 32-36 | Presumptuous sin. Stoned.
+  r | 37-41 | Laws re Dress.
+
+# The second v is printed in line with the first; it sits one level
+# shallower here because the parser allows only one step in after w.
+[[diagram: 1-29 (r, above). Laws re Offerings (Extended Alternation, and Introversion)]]
+[[anchor: Numbers 15:1-29]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 26]]
+
+r |  |
+  t | 1, 2 | Place. The land.
+    u |  |
+      w | 3 | Purposes.
+        x | 4-12 | Offerings (Burnt).
+          v | 13-16 | Unity of law.
+  t | 17, 18 | Place. The land.
+    u |  |
+        x | 19-21 | Offerings (Meal).
+      w | 22-28 | Purpose.
+        v | 29 | Unity of law.
+
+[[diagram: 32-36 (s, p. 201). Presumptuous Sin (Division)]]
+[[anchor: Numbers 15:32-36]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 28]]
+
+s |  |
+  y1 | 32-34 | The sin.
+  y2 | 35, 36 | The punishment.
+
+# The members quote the verses' own words and carry no references.
+[[diagram: 35, 36 (y2, above). The Punishment (Introversion)]]
+[[anchor: Numbers 15:35-36]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 28]]
+
+y2 |  |
+  a |  | And the LORD said unto Moses.
+    b |  | The man shall surely be put to death.
+      c |  | They shall stone him with stones.
+        d |  | Without the camp ...
+        d |  | Without the camp.
+      c |  | They stoned him with stones.
+    b |  | And he died.
+  a |  | As the LORD commanded Moses.
+
+[[diagram: 16. 1—17. 13 (L2, p. 195). Events: Rebellion of Korah (Extended Alternation)]]
+[[anchor: Numbers 16:1]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 28]]
+
+L2 |  |
+  e |  |
+    f |  | 16. 1-19-. Sin of Korah and company.
+      g |  | 16. -19. Glory of Jehovah manifested.
+        h |  | 16. 20-35. Punishment.
+          i |  | 16. 36-40. Memorial—Censers.
+  e |  |
+    f |  | 16. 41. Sin of the congregation.
+      g |  | 16. 42, 43. Glory of Jehovah manifested.
+        h |  | 16. 44-50. Punishment.
+          i |  | 17. 1-13. Memorial—Rods.
+
+# k is printed at the centre, indented beyond n.
+[[diagram: 1-19- (f, above). The Sin of Korah (Introversion and Extended Alternation)]]
+[[anchor: Numbers 16:1-19]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 28]]
+
+f |  |
+  j |  |
+    l | 1-3 | Conspirators' sin.
+      m | 4 | Moses' prostration.
+        n | 5-11 | Address to Korah, &c.
+          k | 12- | Message to Dathan and Abiram.
+  j |  |
+    l | -12-14 | Conspirators' reply.
+      m | 15 | Moses' prayer.
+        n | 16-19- | Address to Korah, &c.
+
+[[diagram: 20-35 (h, p. 203). Punishment (Introversion)]]
+[[anchor: Numbers 16:20-35]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 29]]
+
+h |  |
+  o | 20-22 | Conspirators. Threat to consume.
+    p | 23-27 | Message to the People.
+    p | 28-30 | Message to conspirators.
+  o | 31-35 | Conspirators. Threat carried out.
+
+[[diagram: 17. 1-13 (i, p. 203). Memorial (The Rods) (Alternations)]]
+[[anchor: Numbers 17:1-13]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 30]]
+
+i |  |
+  q |  |
+    s | 1-4 | Commandment.
+      t | 5 | Intention announced.
+    r |  |
+      u | 6, 7 | Obedience.
+        v | 8, 9 | Intention. Effected.
+  q |  |
+    s | 10- | Commandment.
+      t | -10 | Intention. Predicted.
+    r |  |
+      u | 11 | Obedience.
+        v | 12, 13 | Intention. Accomplished.
+
+[[diagram: 18. 1—19. 22 (M2, p. 195). Laws for Priests and People (Division)]]
+[[anchor: Numbers 18:1]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 31]]
+
+M2 |  |
+  T1 |  | 18. 1-32. Laws for Priests and Levites.
+  T2 |  | 19. 1-22. Laws for People.
+
+[[diagram: 18. 1-32 (T1, above). Laws for Priests and Levites (Division)]]
+[[anchor: Numbers 18:1-32]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 31]]
+
+T1 |  |
+  U1 | 1-7 | Priests and their offices.
+  U2 | 8-19 | Priests and their dues. Generally.
+  U3 | 20-24 | Priests and their inheritance.
+  U4 | 25-32 | Priests and their dues. From the Levites.
+
+[[diagram: 1-7 (U1, above). Priests and their Offices]]
+[[anchor: Numbers 18:1-7]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 31]]
+
+U1 |  |
+  w1 | 1 | Priests.
+    x1 | 2-4 | Levites.
+  w2 | 5 | Priests.
+    x2 | 6 | Levites.
+  w3 | 7 | Priests.
+
+# Printed "20-32 (U3)", though U3 is 20-24 and U4 25-32 in the diagram
+# above; kept as printed.
+[[diagram: 20-32 (U3, p. 206). Priests and their Inheritance (Introversion)]]
+[[anchor: Numbers 18:20-32]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 32]]
+
+U3 |  |
+  y | 20- | Negative. Not the land.
+    z | -20 | Positive. Jehovah.
+    z | 21-24 | Positive. The tenth.
+  y | 25-32 | Negative. Not the tenth of the tenth.
+
+[[diagram: 19. 1-22 (T2, p. 206). Laws for the People. (Water of Separation: the Red Heifer.) (Alternation)]]
+[[anchor: Numbers 19:1-22]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 33]]
+
+T2 |  |
+  V | 1-10- | Preparation of the water.
+    W | -10 | A statute for ever.
+  V | 11-20 | Use of the water.
+    W | 21, 22 | A statute for ever.
+
+[[diagram: 11-20 (V, above). Use of the Water (Alternation)]]
+[[anchor: Numbers 19:11-20]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 33]]
+
+V |  |
+  a | 11, 12 | Purification.
+    b | 13 | Threatening.
+  a | 14-19 | Purification.
+    b | 20 | Threatening.
+
+# Heading prints "(L3, p. 180)"; the Structure of the book is p. 176.
+[[diagram: 20. 1—25. 18 (L3, p. 180). Events: Journeyings and Murmurings (Repeated and Extended Alternations)]]
+[[anchor: Numbers 20:1]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 34]]
+
+L3 |  |
+  A1 |  |
+    c1 |  | 20. 1-. To Desert of Zin.
+      d1 |  | 20. -1-13. Events—Death of Miriam, and murmuring.
+        e1 |  | 20. 14-21. Opposition of Edom (Edomites).
+  A2 |  |
+    c2 |  | 20. 22. To Mount Hor.
+      d2 |  | 20. 23-29. Event—Death of Aaron.
+        e2 |  | 21. 1-3. Opposition of Arad (Canaanites).
+  A3 |  |
+    c3 |  | 21. 4-. To compass land of Edom.
+      d3 |  | 21. -4, 5. Event—Murmuring.
+        e3 |  | 21. 6-9. Opposition of God. Fiery serpents.
+  A4 |  |
+    c4 |  | 21. 10-16-. To Oboth and Arnon.
+      d4 |  | 21. -16-20. Event—Giving of water.
+        e4 |  | 21. 21-31. Opposition of Sihon (Amorites).
+  A5 |  |
+    c5 |  | 21. 32-. To Jaazer.
+      d5 |  | 21. -32. Event—Taking of villages, &c.
+        e5 |  | 21. 33-35. Opposition of Og (Bashan).
+  A6 |  |
+    c6 |  | 22. 1. To Plains of Moab.
+      d6 |  | 22. 2-4. Event—Fear of Moab.
+        e6 |  | 22. 5—25. 18. Opposition of Balak (Moabites).
+
+[[diagram: -1-13 (d1, above). Events: Miriam's Death, &c. (Introversion)]]
+[[anchor: Numbers 20:1-13]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 34]]
+
+d1 |  |
+  f |  |
+    h | 2-5 | Contention of People. Chiding with Moses.
+      i | 6 | Action of Moses and Aaron.
+        g | 7, 8 | Command of Jehovah.
+  f |  |
+      i | 9-11 | Action of Moses and Aaron.
+    h | 12, 13 | Contention of people. Sentence on Moses and Aaron.
+
+[[diagram: 20. 14-21 (e1, p. 209). Opposition of Edom (Alternation)]]
+[[anchor: Numbers 20:14-21]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 35]]
+
+e1 |  |
+  j | 14-17 | Request.
+    k | 18 | Refusal.
+  j | 19 | Request.
+    k | 20, 21 | Refusal.
+
+# Heading prints "23-26"; d2 above and the members give 23-29.
+[[diagram: 23-29 (d2, p. 209). Event: the Death of Aaron (Alternation)]]
+[[anchor: Numbers 20:23-29]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 35]]
+
+d2 |  |
+  l | 23-26 | Moses.
+    m | 27, 28 | His obedience.
+  l | 29- | The congregation.
+    m | -29 | Their mourning.
+
+[[diagram: 21. 1-3 (e2, p. 209). Opposition of Arad (Introversion)]]
+[[anchor: Numbers 21:1-3]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 35]]
+
+e2 |  |
+  n | 1 | Aggression of Arad.
+    o | 2 | Vow made.
+    o | 3- | Vow heard.
+  n | -3 | Destruction of Arad.
+
+[[diagram: 6-9 (e3, p. 209). The Fiery Serpents]]
+[[anchor: Numbers 21:6-9]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 36]]
+
+e3 |  |
+  p | 6 | Fiery serpents.
+    q | 7 | Prayer made.
+  p | 8 | The brazen serpent.
+    q | 9 | Prayer answered.
+
+[[diagram: 21-31 (e4, p. 209). Opposition of Sihon (Alternation)]]
+[[anchor: Numbers 21:21-31]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 37]]
+
+e4 |  |
+  r | 21, 22 | Israel's demand.
+    s | 23 | Sihon's denial.
+    s | 24 | Sihon. Defeat.
+  r | 25-31 | Israel. Dwelling.
+
+[[diagram: 25-31 (s, above). Possession (Introversion)]]
+[[anchor: Numbers 21:25-31]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 37]]
+
+s |  |
+  t | 25 | Dwelling. Particular.
+    u | 26 | Doings.
+    u | 27-30 | Sayings.
+  t | 31 | Dwelling. General.
+
+[[diagram: 27-30 (u, above). Sayings (Introversion)]]
+[[anchor: Numbers 21:27-30]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 37]]
+
+u |  |
+  a | 27, 28 | The Amorites. Their boasting.
+    b | 29- | The calamities of Moab.
+    b | -29 | The captivity of Moab.
+  a | 30 | The Amorites. Their destruction.
+
+[[diagram: 22. 5—25. 18 (e6, p. 209). Opposition of Balak (Repeated Alternation)]]
+[[anchor: Numbers 22:5]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 38]]
+
+e6 |  |
+  v1 |  | 22. 5-20. Balak's messages to Balaam.
+    w1 |  | 22. 21-35. Balaam's journey.
+  v2 |  | 22. 36-40. Balak's reception of Balaam.
+    w2 |  | 22. 41—24. 25. Balaam's four prophecies.
+  v3 |  | 25. 1-18. Balak's teaching by Balaam. See 31. 16. Rev. 2. 14.
+
+[[diagram: 22. 5-20 (v1, above). Balak's Messages to Balaam (Extended Alternation)]]
+[[anchor: Numbers 22:5-20]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 38]]
+
+v1 |  |
+  x | 5, 6 | FIRST message.
+    y | 7 | Delivered.
+      z | 8-11 | Received.
+        a | 12-14 | Forbidden by God (absolutely).
+  x | 15 | SECOND message.
+    y | 16, 17 | Delivered.
+      z | 18, 19 | Received.
+        a | 20 | Permitted by God (conditionally).
+
+[[diagram: 22. 21-35 (w1, above). Balaam's Journey (Introversion, with Repeated and Extended Alternation)]]
+[[anchor: Numbers 22:21-35]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 38]]
+
+w1 |  |
+  b | 21 | Journey commenced.
+    c | 22- | Anger of God.
+      d |  |
+        e1 |  |
+          f1 | -22 | The angel.
+            g1 | 23- | The ass.
+              h1 | -23 | Balaam.
+        e2 |  |
+          f2 | 24 | The angel.
+            g2 | 25- | The ass.
+              h2 | -25 | Balaam.
+        e3 |  |
+          f3 | 26 | The angel.
+            g3 | 27- | The ass.
+              h3 | -27 | Balaam.
+    c | 28-35- | Rebuke of Jehovah.
+  b | -35 | Journey completed.
+
+[[diagram: 28-35- (c, p. 213). The Rebuke of Jehovah (Alternation and Introversion)]]
+[[anchor: Numbers 22:28-35]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 39]]
+
+c |  |
+  i | 28- | By the ass. Ass's mouth opened.
+    k |  |
+      l | -28 | The ass.
+        m | 29 | Balaam.
+      l | 30- | The ass.
+        m | -30 | Balaam.
+  i | 31 | By the angel. Balaam's eyes opened.
+    k |  |
+      n | 32, 33 | The angel.
+        o | 34 | Balaam.
+      n | 35- | The angel.
+
+[[diagram: 36-40 (v2, p. 213). Balak's Reception of Balaam (First Day)]]
+[[anchor: Numbers 22:36-40]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 39]]
+
+v2 |  |
+  p | 36 | Meeting (at frontier).
+    q | 37, 38 | Greetings.
+  p | 39 | Accompanying (to Kirjath-huzoth).
+    q | 40 | Offering.
+
+[[diagram: 22. 41—24. 25 (w2, p. 213). Balaam's Prophecies (Second Day) (Division)]]
+[[anchor: Numbers 22:41]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 40]]
+
+w2 |  |
+  t1 |  | 22. 41—23. 26. With enchantments.
+  t2 |  | 23. 27—24. 25. Without enchantments.
+
+[[diagram: 22. 41—23. 26 (t1, above). With Enchantments (Extended Alternation)]]
+[[anchor: Numbers 22:41]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 40]]
+
+t1 |  |
+  u |  | 22. 41. FIRST station: high places.
+    v |  | 23. 1, 2. Altars and offerings.
+      w |  | 23. 3. Balaam goes to meet Jehovah.
+        x |  | 23. 4, 5. Word put in Balaam's mouth.
+          y |  | 23. 6. Return and station.
+            z |  | 23. 7-10. His FIRST Parable.
+              a |  | 23. 11. Balak's expostulation.
+                b |  | 23. 12. Balaam's answer.
+  u |  | 23. 13, 14-. SECOND station: Zophim.
+    v |  | 23. -14. Altars and offerings.
+      w |  | 23. 15. Balaam goes to meet Jehovah.
+        x |  | 23. 16. Word put in Balaam's mouth.
+          y |  | 23. 17. Return and station.
+            z |  | 23. 18-24. His SECOND Parable.
+              a |  | 23. 25. Balak's expostulation.
+                b |  | 23. 26. Balaam's answer.
+
+[[diagram: 7-10 (z, above). Balaam's First Parable (Introversion)]]
+[[anchor: Numbers 23:7-10]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 40]]
+
+z |  |
+  c | 7 | Balak's wish.
+    d | 8 | Israel immune from man's cursing.
+    d | 9, 10- | Israel excluded from man's reckoning.
+  c | -10 | Balaam's wish.
+
+[[diagram: 18-24 (z, p. 215). Balaam's Second Parable (Division)]]
+[[anchor: Numbers 23:18-24]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 41]]
+
+z |  |
+  e1 | 18-20 | God's immutable purpose.
+  e2 | 21-24 | Israel's immutable privileges.
+
+[[diagram: 18-20 (e1, above). God's Immutable Purpose (Division)]]
+[[anchor: Numbers 23:18-20]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 41]]
+
+e1 |  |
+  f1 | 18, 19 | God's nature unchangeable.
+  f2 | 20 | God's Word irreversible.
+
+[[diagram: 21-24 (e2, above). Israel's Immutable Privileges (Extended Alternation)]]
+[[anchor: Numbers 23:21-24]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 41]]
+
+e2 |  |
+  g |  |
+    i | 21- | Negative. Absence of iniquity.
+      k | -21, 22- | Positive. Presence of God.
+    h | -22 | STRENGTH (Simile: Buffalo).
+  g |  |
+    i | 23- | Negative. Powerlessness of enemies.
+      k | -23 | Positive. Power of God.
+    h | 24 | VICTORY (Simile: Lion).
+
+[[diagram: 23. 27—24. 25 (t2, p. 215). Without Enchantments (Extended Alternation. Corresponding with t1, p. 215)]]
+[[anchor: Numbers 23:27]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 41]]
+
+t2 |  |
+  l |  | 23. 27, 28. Station: Peor.
+    m |  | 23. 29, 30. Offerings.
+      n |  | 24. 1. Non-departure.
+        o |  | 24. 2. Spirit upon Balaam.
+          p |  | 24. 3-25. His Third and Fourth Parables.
+
+[[diagram: 3-25 (p, above). Balaam's Third and Fourth Parables (Alternation and Introversion)]]
+[[anchor: Numbers 24:3-25]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 41]]
+
+p |  |
+  q | 3-9 | Balaam's THIRD Parable.
+    r |  |
+      s | 10, 11 | Balak's anger.
+        t | 12-14 | Balaam's answer.
+  q | 15-24 | Balaam's FOURTH Parable.
+    r |  |
+        t | 25- | Balaam's return.
+      s | -25 | Balak's departure.
+
+[[diagram: 3-9 ("q", p. 216). Balaam's Third Parable (Repeated Alternation)]]
+[[anchor: Numbers 24:3-9]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 42]]
+
+q |  |
+  · | 3, 4 | Introduction.
+  u1 | 5-7- | Goodliness (Simile: Valleys, Gardens, Trees).
+    v1 | -7 | EXALTATION.
+  u2 | 8- | Strength (Simile: Buffalo).
+    v2 | -8 | VICTORY.
+  u3 | 9- | Security (Simile: Lions).
+    v3 | -9 | BLESSING.
+
+[[diagram: 15-24 ("q", p. 216). Balaam's Fourth Parable (Division)]]
+[[anchor: Numbers 24:15-24]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 42]]
+
+q |  |
+  w1 | 15, 16 | Introduction.
+  w2 | 17-19 | Israel.
+  w3 | 20-24 | The nations.
+
+# Heading kept as printed "(w1, above)"; the member is w2.
+[[diagram: 17-19 (w1, above). Israel (Introversion)]]
+[[anchor: Numbers 24:17-19]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 42]]
+
+w1 |  |
+  x | 17- | The Star out of Jacob.
+    y | -17, 18 | His enemies.
+  x | 19 | The Messiah out of Jacob.
+
+[[diagram: 25. 1-18 (v3, p. 213). Balak's Teaching by Balaam (Cp. 31. 16 with Rev. 2. 14) (Division)]]
+[[anchor: Numbers 25:1-18]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 43]]
+
+v3 |  |
+  z1 | 1-9 | Balak's teaching and its results.
+  z2 | 10-18 | Jehovah's action and its results.
+
+[[diagram: 1-9 (z1, above). Balak's Teaching and its Results (Alternation)]]
+[[anchor: Numbers 25:1-9]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 43]]
+
+z1 |  |
+  a | 1-3- | Sin of the People.
+    b | -3-5 | Punishment enjoined.
+  a | 6 | Sin of the people.
+    b | 7-9 | Punishment executed.
+
+[[diagram: 10-18 (z2, above). Jehovah's Action and its Results (Division)]]
+[[anchor: Numbers 25:10-18]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 43]]
+
+z2 |  |
+  c | 10-13 | Phinehas and his reward.
+  c | 14-18 | Midianites and their wiles.
+
+[[diagram: 26. 1—27. 11 (A3, p. 176). Numeration and Order: Inheritance (Alternation)]]
+[[anchor: Numbers 26:1]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 44]]
+
+A3 |  |
+  A |  | 26. 1-51. The People.
+    B |  | 26. 52-62. Their inheritance.
+  A |  | 26. 63-65. The People.
+    B |  | 27. 1-11. Their inheritance.
+
+# The tribes carry no letters of their own; "·" stands in.
+[[diagram: 1-51 (A, above). The People (Introversion and Division)]]
+[[anchor: Numbers 26:1-51]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 44]]
+
+A |  |
+  c | 1-4 | Command to number.
+    d1 |  |
+      · | 5-11 | Reuben.
+      · | 12-14 | Simeon.
+      · | 15-18 | Gad.
+    d2 |  |
+      · | 19-22 | Judah.
+      · | 23-25 | Issachar.
+      · | 26, 27 | Zebulun.
+    d3 |  |
+      · | 28-34 | Manasseh.
+      · | 35-37 | Ephraim.
+      · | 38-41 | Benjamin.
+    d4 |  |
+      · | 42, 43 | Dan.
+      · | 44-47 | Asher.
+      · | 48-50 | Naphtali.
+  c | 51 | The total number.
+
+# Heading prints "(B, p. 200)"; the member is on p. 219.
+[[diagram: 52-62 (B, p. 200). Their Inheritance]]
+[[anchor: Numbers 26:52-62]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 46]]
+
+B |  |
+  e1 | 52-56 | Inheritance by number.
+  e2 | 57-62 | Levi no inheritance.
+
+[[diagram: 27. 1-11 (B, p. 219). Inheritance: the Daughters of Zelophehad (Alternation)]]
+[[anchor: Numbers 27:1-11]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 47]]
+
+B |  |
+  f | 1-4 | Their plea.
+    g | 5 | Reference to Jehovah.
+  f | 6, 7 | Answer to plea.
+    g | 8-11 | Statute of Jehovah.
+
+[[diagram: 27. 12—31. 54 (B3, p. 176). Events and Laws (Introversion)]]
+[[anchor: Numbers 27:12]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 47]]
+
+B3 |  |
+  A |  | 27. 12-23. Event: Moses' successor appointed.
+    B |  | 28. 1—29. 40. Laws as to offerings (necessary).
+    B |  | 30. 1-16. Laws as to vows (voluntary).
+  A |  | 31. 1-54. Event: Moses' vengeance on Midian.
+
+[[diagram: 27. 12-23 (A, above). Event: Moses' Successor (Alternation)]]
+[[anchor: Numbers 27:12-23]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 47]]
+
+A |  |
+  h |  |
+    i | 12-14 | Warning to Moses.
+      k | 15-17 | Response of Moses.
+  h |  |
+    i | 18-21 | Appointment of Joshua.
+      k | 22, 23 | Obedience.
+
+[[diagram: 28. 1—29. 40 (B, p. 222). Laws as to Offerings (Introversion)]]
+[[anchor: Numbers 28:1]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 48]]
+
+B |  |
+  l |  | 28. 1. Command given.
+    m |  | 28. 2. General specification.
+      n |  | 28. 3-31. Particular: as to offerings.
+      n |  | 29. 1-38. Particular: as to seventh month.
+    m |  | 29. 39. General summary.
+  l |  | 29. 40. Command communicated.
+
+[[diagram: 3-31 (n, above). Particular: as to Offerings (Division)]]
+[[anchor: Numbers 28:3-31]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 48]]
+
+n |  |
+  o1 | 3-8 | Daily.
+  o2 | 9, 10 | Sabbatic.
+  o3 | 11-15 | Monthly.
+  o4 | 16-25 | Paschal.
+  o5 | 26-31 | Firstfruits.
+
+[[diagram: 29. 1-38 (n, p. 223). Particular: re Seventh Month (Division)]]
+[[anchor: Numbers 29:1-38]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 49]]
+
+n |  |
+  p1 | 1-6 | First day. Seventh month.
+  p2 | 7-11 | Tenth day.
+  p3 | 12-16 | Fifteenth day.
+  p4 | 17-19 | Second day.
+  p5 | 20-22 | Third day.
+  p6 | 23-25 | Fourth day.
+  p7 | 26-28 | Fifth day.
+  p8 | 29-31 | Sixth day.
+  p9 | 32-34 | Seventh day.
+  p10 | 35-38 | Eighth day.
+
+[[diagram: 30. 1-16 (B, p. 222). Laws as to Vows (Introversion)]]
+[[anchor: Numbers 30:1-16]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 51]]
+
+B |  |
+  q | 1, 2 | Vows made by men.
+    r | 3-15 | Vows made by women.
+  q | 16 | Vows made by men and women.
+
+[[diagram: 3-15 (r, above). Vows made by Women (Alternation)]]
+[[anchor: Numbers 30:3-15]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 51]]
+
+r |  |
+  s | 3-5 | Virgin.
+    t | 6-8 | Wife.
+  s | 9 | Widow (or Divorcee).
+    t | 10-15 | Wife.
+
+[[diagram: 31. 1-54 (A, p. 222). Event: Moses' Vengeance on Midianites (Alternation)]]
+[[anchor: Numbers 31:1-54]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 51]]
+
+A |  |
+  u | 1-4 | Commands.
+    v | 5-13 | Obedience.
+  u | 14-30 | Commands (14-20 by Moses; 21-24 by Eleazar; 25-30 by Jehovah).
+    v | 31-54 | Obedience.
+
+[[diagram: 32. 1—36. 13 (A4, p. 176). Division of Land: Journeyings and Order (Settlement) (Introversion)]]
+[[anchor: Numbers 32:1]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 53]]
+
+A4 |  |
+  B |  | 32. 1-42. Division: East of Jordan.
+    C |  | 33. 1-49. Journeyings.
+  B |  | 33. 50—36. 13. Division: West of Jordan.
+
+[[diagram: 32. 1-42 (B, above). Division: East of Jordan (Repeated Alternation)]]
+[[anchor: Numbers 32:1-42]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 53]]
+
+B |  |
+  w1 | 1-5 | Petition of Reuben and Gad.
+    x1 | 6-15 | Expostulation of Moses.
+  w2 | 16-19 | Stipulation of Reuben and Gad.
+    x2 | 20-24 | Reply of Moses.
+  w3 | 25-27 | Stipulation of Reuben and Gad.
+    x3 | 28-30 | Condition of Moses.
+  w4 | 31, 32 | Compliance of Reuben and Gad.
+    x4 | 33-42 | Compliance of Moses.
+
+[[diagram: 32. 33-42 (x4, p. 228). Compliance of Moses (Grant to the Two-and-a-half Tribes) (Extended Alternation)]]
+[[anchor: Numbers 32:33-42]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 55]]
+
+x4 |  |
+  y | 33- | Gad
+    z | -33- | Reuben
+      a | -33 | Half Manasseh
+[[group: Distribution.]]
+  y | 34-36 | Gad
+    z | 37, 38 | Reuben
+      a | 39-42 | Half Manasseh
+[[group: Possession.]]
+
+[[diagram: 33. 1-49 (C, p. 228). Journeyings (Division)]]
+[[anchor: Numbers 33:1-49]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 55]]
+
+C |  |
+  b1 | 1-15 | First Period. Rameses to Sinai. Twelve stations.
+  b2 | 16, 17 | Second Period. Sinai to Rithmah (= Kadesh) (first time). Three stations.
+  b3 | 18-36 | Third Period. Rithmah to Kadesh (second time). Eighteen stations. 38 years. No history.
+  b4 | 37-49 | Fourth Period. Kadesh (second time) to Plains of Moab. 40th year. Ten stations.
+
+# Heading kept as printed ("36. 12"); the book's Structure ends this member
+# at 36. 13, the Epilogue.
+[[diagram: 33. 50—36. 12 (B, p. 228). Division West of Jordan (Alternation)]]
+[[anchor: Numbers 33:50]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 56]]
+
+B |  |
+  c |  | 33. 50. The Plains of Moab.
+    d |  | 33. 51—34. 29. The Land of Canaan.
+  c |  | 35. 1. The Plains of Moab.
+    d |  | 35. 2—36. 12. The Land of Canaan.
+
+[[diagram: 33. 51—34. 29 (d, above). The Land of Canaan (Division)]]
+[[anchor: Numbers 33:51]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 56]]
+
+d |  |
+  e1 |  | 33. 51—34. 15. The Division.
+  e2 |  | 34. 16-29. The Dividers.
+
+[[diagram: 33. 51—34. 15 (e1, above). The Division (Extended Alternation)]]
+[[anchor: Numbers 33:51]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 56]]
+
+e1 |  |
+  f |  | 33. 51-53-. Command—Expulsion.
+    g |  | 33. -53. Possession.
+      h |  | 33. 54. Division.
+  f |  | 33. 55-. Disobedience—Non-expulsion.
+    g |  | 33. -55, 56. Punishment.
+      h |  | 34. 1-15. Division.
+
+[[diagram: 35. 2—36. 12 (d, p. 231). The Land of Canaan (Division)]]
+[[anchor: Numbers 35:2]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 58]]
+
+d |  |
+  i1 |  | 35. 2-34. Levitical cities.
+  i2 |  | 36. 1-12. Heiresses.
+
+[[diagram: 2-34 (i1, above). The Levitical Cities (Alternation)]]
+[[anchor: Numbers 35:2-34]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 58]]
+
+i1 |  |
+  k | 2-5 | Levitical cities: description.
+    l | 6- | Cities of refuge: number (6).
+  k | -6-8 | Levitical cities: number (48).
+    l | 9-34 | Cities of refuge: description.
+
+[[diagram: 9-34 (l, above). Cities of Refuge: Description (Alternation)]]
+[[anchor: Numbers 35:9-34]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 58]]
+
+l |  |
+  m | 9-11- | The cities (general).
+    n | -11, 12 | Purpose.
+  m | 13-15- | The cities (particular).
+    n | -15-34 | Purpose.
+
+[[diagram: -15-34 (n, p. 233). Purpose (Alternation)]]
+[[anchor: Numbers 35:15-34]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 59]]
+
+n |  |
+  o | -15 | Positive.
+    p | 16-21 | Negative.
+  o | 22-25 | Positive.
+    p | 26-34 | Negative.
+
+[[diagram: 26-34 (p, above). Negative Purpose (Alternation)]]
+[[anchor: Numbers 35:26-34]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 59]]
+
+p |  |
+  q | 26-28 | Negative.
+    r | 29 | Purpose secured.
+  q | 30-32 | Negative.
+    r | 33, 34 | Purpose secured.
+
+[[diagram: 36. 1-12 (i2, p. 233). Heiresses (Alternation)]]
+[[anchor: Numbers 36:1-12]]
+[[pdf: 4. Numbers_text.pdf]]
+[[pdf-page: 59]]
+
+i2 |  |
+  s | 1 | Applicants.
+    t | 2-4 | Plea.
+  s | 5 | Applicants.
+    t | 6-12 | Response.
