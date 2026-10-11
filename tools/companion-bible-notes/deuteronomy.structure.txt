@@ -1,0 +1,1336 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Deuteronomy
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/5. Deuteronomy_text.pdf); [[pdf-page:]] is
+# the page of that file each diagram is on. Notation: README.md here.
+#
+# A printed reference that reaches outside the diagram's anchor chapter
+# can't be a REF_RANGE, which is verses of one chapter; such a line keeps
+# its reference at the head of its TEXT instead, as printed. Where a
+# printed letter is missing, "·" stands in for it.
+
+[[diagram: The Structure of the Book as a Whole]]
+[[anchor: Deuteronomy 1:1]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 1]]
+
+A |  | 1. 1-5. INTRODUCTION.
+  B |  |
+    C |  | 1. 6—32. 47. THE TRIBES. THEIR ADMINISTRATION.
+      D |  | 32. 48-52. MOSES. HIS DEATH ANNOUNCED.
+  B |  |
+    C |  | 33. 1-29. THE TRIBES. THEIR BLESSING.
+      D |  | 34. 1-7. MOSES. HIS DEATH ACCOMPLISHED.
+A |  | 34. 8-12. CONCLUSION.
+
+# The last F is printed level with the first (deepest); it sits one level
+# under G here because the parser allows only one step in after a text line.
+[[diagram: 1. 6—32. 47 (C, p. 236). The Tribes. Their Administration (Alternation and Introversion)]]
+[[anchor: Deuteronomy 1:6]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 3]]
+
+C |  |
+  E |  |
+    G |  | 1. 6—3. 29. Possession East of Jordan. Retrospective.
+      H |  |
+        a |  | 4. 1—5. 33. Injunctions in Horeb. Retrospective.
+          b |  | 6. 1—11. 25. Injunctions on entry. Prospective.
+        J |  |
+          c |  | 11. 26-28. Blessings and curses.
+            d |  | 11. 29-32. Gerizim and Ebal.
+              F |  | 12. 1—27. 10. Laws IN the Land.
+  E |  |
+        J |  |
+            d |  | 27. 11-26. Gerizim and Ebal.
+          c |  | 28. 1-68. Blessings and curses.
+      H |  |
+        a |  | 29. 1-17. Injunctions plus Horeb. Retrospective.
+          b |  | 29. 18—30. 20. Injunctions re Dispersion. Prospective.
+    G |  | 31. 1-8. Possession West of Jordan. Prospective.
+      F |  | 31. 9—32. 47. Laws and Song: IN and OUT of the Land.
+
+[[diagram: 1. 6—3. 29 (G, above). Possession East of Jordan: Retrospective (Extended Alternation)]]
+[[anchor: Deuteronomy 1:6]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 3]]
+
+G |  |
+  K |  |
+    e |  | 1. 6-8. Command to go up
+      f |  | 1. 9-45. Disobedience rehearsed
+        g |  | 1. 46. Abode in Kadesh
+[[group: Before the forty years.]]
+  K |  |
+    e |  | 2. 1-3. Command to go up
+      f |  | 2. 4—3. 28. Obedience rehearsed
+        g |  | 3. 29. Abode in Beth-peor
+[[group: After the forty years.]]
+
+[[diagram: 9-45 (f, above). Disobedience Rehearsed (Repeated Alternation)]]
+[[anchor: Deuteronomy 1:9-45]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 3]]
+
+f |  |
+  h1 | 9-18 | Appointment of judges, &c.
+    i1 | 19-21 | Command to go up.
+  h2 | 22-25 | Appointment of spies.
+    i2 | 26-33 | Disobedience.
+  h3 | 34-45 | Appointment of judgment.
+
+[[diagram: 2. 4—3. 28 (f, p. 238). Obedience Rehearsed (Extended and Repeated Alternation)]]
+[[anchor: Deuteronomy 2:4]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 5]]
+
+f |  |
+  L1 |  |
+    k1 |  | 2. 4. Passage through Edom.
+      l1 |  | 2. 5-9. Command as to Edom and Moab.
+        m1 |  | 2. 10-12. Former inhabitants and Moab.
+  L2 |  |
+    k2 |  | 2. 13-18. Passage over Zered.
+      l2 |  | 2. 19. Command as to Ammon.
+        m2 |  | 2. 20-33. Former inhabitants and Ammon.
+  L3 |  |
+    k3 |  | 2. -24-. Passage over Arnon.
+      l3 |  | 2. -24-29. Command as to Amorites.
+        m3 |  | 2. 30—3. 28. Former inhabitants and Israel.
+
+# Heading prints "2. 30—3. 29"; m3 above is 2. 30—3. 28, and 3. 29 is g.
+[[diagram: 2. 30—3. 29 (m3, p. 241). Former Inhabitants (Division)]]
+[[anchor: Deuteronomy 2:30]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 6]]
+
+m3 |  |
+  M1 |  | 2. 30-37. Conquest of Sihon.
+  M2 |  | 3. 1-29. Conquest of Og.
+
+[[diagram: 3. 1-29 (M2, above). The Conquest of Og (Introversion)]]
+[[anchor: Deuteronomy 3:1-29]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 6]]
+
+M2 |  |
+  n | 1, 2 | Command of Jehovah's.
+    o | 3-11 | Land. Conquest.
+    o | 12-17 | Land. Division: Manasseh, 12-15. Reuben, 16, 17.
+  n | 18-29 | Commands of Moses.
+
+# Heading prints "18-28"; the members and n above give 18-29.
+[[diagram: 18-29 (n, p. 241). Commands of Moses (Alternation)]]
+[[anchor: Deuteronomy 3:18-29]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 7]]
+
+n |  |
+  p | 18-20 | Manasseh and Reuben to go over.
+    q | 21, 22 | Charge to Joshua.
+  p | 23-27 | Moses not to go over.
+    q | 28, 29 | Charge to Joshua.
+
+[[diagram: 4. 1—5. 33 (a, p. 238). Injunctions in Horeb: Retrospective (Introversion and Alternation)]]
+[[anchor: Deuteronomy 4:1]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 8]]
+
+a |  |
+  N |  | 4. 1-8. Statutes announced.
+    O |  |
+      r |  | 4. 9-20. Warnings against idolatry.
+        s |  | 4. 21, 22. Moses (Death announced).
+    O |  |
+      r |  | 4. 23-40. Warnings against idolatry.
+        s |  | 4. 41-43. Moses (Cities of Refuge severed).
+  N |  | 4. 44—5. 33. Statutes recited.
+
+[[diagram: 4. 1-8 (N, above). Statutes Announced (Extended Alternation)]]
+[[anchor: Deuteronomy 4:1-8]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 8]]
+
+N |  |
+  t | 1- | Statutes: Hearken.
+    u | -1 | Object.
+      v | 2 | Injunction.
+        w | 3, 4 | Motive (from experience).
+  t | 5- | Statutes: Behold.
+    u | -5 | Object.
+      v | 6- | Injunction.
+        w | -6-8 | Motive (from privilege).
+
+[[diagram: 9-20 (r, above). Warnings against Idolatry (Alternation)]]
+[[anchor: Deuteronomy 4:9-20]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 8]]
+
+r |  |
+  x | 9-13 | Law at Horeb. No similitude.
+    y | 14 | Intention—Command.
+  x | 15-19 | Law at Horeb. No similitude.
+    y | 20 | Intention—Act.
+
+[[diagram: 23-40 (r, p. 243). Warnings against Idolatry (Alternation)]]
+[[anchor: Deuteronomy 4:23-40]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 9]]
+
+r |  |
+  a | 23-25 | Sin.
+    b | 26-28 | Threatening—Dispersion.
+  a | 29, 30 | Repentance.
+    b | 31-40 | Promise. Reason.
+
+# Heading prints "5. 32"; the members and a above give 5. 33.
+[[diagram: 4. 44—5. 33 (N, p. 243). Statutes Recited (Alternation)]]
+[[anchor: Deuteronomy 4:44]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 10]]
+
+N |  |
+  c |  | 4. 44—5. 4. The Law. General.
+    d |  | 5. 5. Mediation of Moses.
+  c |  | 5. 6-21. The Law. Particular.
+    d |  | 5. 22-33. Mediation of Moses.
+
+# The Q members are printed far to the right, beneath h; they sit here as
+# siblings of P. In the second P the page sets i one step left of k;
+# here it follows k. Heading kept as printed "(b, p. 219)"; the member is on
+# p. 238.
+[[diagram: 6. 1—11. 25 (b, p. 219). Injunctions on Entry into Land (Introversion and Alternations)]]
+[[anchor: Deuteronomy 6:1]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 12]]
+
+b |  |
+  O |  | 6. 1-3. Conditions of blessing.
+[[group: -]]
+    P |  |
+      e |  | 6. 4, 5. "Hear, O Israel."
+        f |  | 6. 6. "These words" (heart).
+          g |  |
+            i |  | 6. 7. "Thou shalt teach."
+              k |  | 6. 8. "Thou shalt bind."
+                h |  | 6. 9. "Thou shalt write."
+[[group: Phylactery.]]
+    Q1 |  |
+      l1 |  | 6. 10—7. 26. Warnings.
+        m1 |  | 8. 1-9. Command to remember.
+    Q2 |  |
+      l2 |  | 8. 10-20. Warnings.
+        m2 |  | 9. 1-. Command to hear.
+    Q3 |  |
+      l3 |  | 9. -1—10. 11. Warnings.
+        m3 |  | 10. 12—11. 12. Command to obey.
+[[group: -]]
+    P |  |
+      e |  | 11. 13-17. "Ye shall hear."
+        f |  | 11. 18-. "These my words" (heart).
+          g |  |
+            k |  | 11. -18. "Bind them."
+              i |  | 11. 19. "Ye shall teach them."
+                h |  | 11. 20, 21. "Thou shalt write."
+[[group: Phylactery.]]
+  O |  | 11. 22-25. Conditions of blessing.
+[[group: -]]
+
+# In n4 the page prints q4 before p4 (q4 one step further in); kept in
+# page order, with p4 nested under q4.
+[[diagram: 6. 10—7. 26 (l1, p. 247). Warnings. Prospective (Repeated and Extended Alternations)]]
+[[anchor: Deuteronomy 6:10]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 13]]
+
+l1 |  |
+  n1 |  |
+    o1 |  | 6. 10, 11. Hypothesis. Possession.
+      p1 |  | 6. 12-18-. Warning. Forgetfulness.
+        q1 |  | 6. -18, 19. Reason: "that."
+  n2 |  |
+    o2 |  | 6. 20. Hypothesis. Inquiry of son.
+      p2 |  | 6. 21-23-. Direction as to answer.
+        q2 |  | 6. -23-25. Reason: "that."
+  n3 |  |
+    o3 |  | 7. 1, 2-. Hypothesis. Possession.
+      p3 |  | 7. -2-5. Injunction. Destroy.
+        q3 |  | 7. 6-11. Reason: "For."
+  n4 |  |
+    o4 |  | 7. 12-. Hypothesis. Obedience.
+      q4 |  | 7. -12-15. Blessing: "that."
+        p4 |  | 7. 16. Injunction. Not to spare.
+  n5 |  |
+    o5 |  | 7. 17. Hypothesis. Inability.
+      p5 |  | 7. 18-21-. Injunction. Not to fear.
+        q5 |  | 7. -21-26. Reason: "for."
+
+[[diagram: 8. 1-9 (m1, p. 247). Command to Remember (Alternation)]]
+[[anchor: Deuteronomy 8:1-9]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 15]]
+
+m1 |  |
+  r | 1 | Command (particular).
+    s | 2-5 | Motives. Preservation.
+  r | 6 | Command.
+    s | 7-9 | Motives. Provision.
+
+[[diagram: 10-20 (l2, p. 247). Warnings; Prospective (Repeated Alternation)]]
+[[anchor: Deuteronomy 8:10-20]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 15]]
+
+l2 |  |
+  t1 | 10 | Hypothesis: "When thou hast eaten."
+    u1 | 11 | Warning. Forgetfulness.
+  t2 | 12, 13 | Hypothesis: "When thou hast eaten."
+    u2 | 14-16 | Warning. Forgetfulness.
+  t3 | 17 | Hypothesis: "If thou say."
+    u3 | 18 | Warning. Memory.
+  t4 | 19- | Hypothesis: "If thou forget."
+    u4 | -19-21 | Warning. Destruction.
+
+[[diagram: 9. 1—10. 11 (l3, p. 247). Warnings (Division)]]
+[[anchor: Deuteronomy 9:1]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 16]]
+
+l3 |  |
+  v1 |  | 9. 1-6. Prospective.
+  v2 |  | 9. 7—10. 11. Retrospective.
+
+[[diagram: 9. 1-6 (v1, above). Warnings; Prospective (Introversion and Repeated Alternation)]]
+[[anchor: Deuteronomy 9:1-6]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 16]]
+
+v1 |  |
+  w | 1, 2 | Possession given by Jehovah.
+    x | 3- | "Understand therefore."
+      y |  |
+        z1 | -3 | Jehovah going before.
+          a | 4- | Warning (negative).
+        z2 | -4 | Jehovah driving out.
+          a | 5- | Warning (negative).
+        z3 | -5 | Jehovah driving out.
+    x | 6- | "Understand therefore."
+  w | -6 | Possession given by Jehovah.
+
+[[diagram: 9. 7—10. 11 (v2, above). Retrospective Warnings (Repeated Alternation)]]
+[[anchor: Deuteronomy 9:7]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 16]]
+
+v2 |  |
+  b1 |  | 9. 7, 8. People. Provocation.
+    c1 |  | 9. 9-11. Moses. Ascent of Mount.
+  b2 |  | 9. 12-14. People. Provocation.
+    c2 |  | 9. 15. Moses. Descent. Tables carried.
+  b3 |  | 9. 16. People. Provocation.
+    c3 |  | 9. 17. Moses. Tables broken.
+  b4 |  | 9. 18, 19-. People. Provocation.
+    c4 |  | 9. -19-21. Moses. Intercession.
+  b5 |  | 9. 22-24. People. Provocation.
+    c5 |  | 9. 25—10. 5. Moses. Intercession and second Tables.
+  b6 |  | 10. 6-11. People. Journeying.
+
+# Heading kept as printed "(m3, p. 227)"; the member is on p. 247.
+[[diagram: 10. 12—11. 12 (m3, p. 227). Command to Obey (Alternation and Introversion)]]
+[[anchor: Deuteronomy 10:12]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 18]]
+
+m3 |  |
+  d |  | 10. 12, 13-. To fear and love Him.
+    e |  |
+      f |  | 10. -13. Intention: "for thy good."
+        g |  | 10. 14-19. Motives and reasons.
+  d |  | 10. 20, 21. To fear and praise Him.
+    e |  |
+        g |  | 10. 22—11. 8-. Motives and reasons.
+      f |  | 11. -8-12. Intention: "that ye may be strong."
+
+[[diagram: 14-19 (g, above). Motives and Reasons (Alternations)]]
+[[anchor: Deuteronomy 10:14-19]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 18]]
+
+g |  |
+  h |  |
+    k | 14 | Jehovah. Power unchallengeable.
+      l | 15 | Jehovah. Love without cause.
+        i | 16 | Reason. Circumcision of heart.
+  h |  |
+    k | 17 | Jehovah. Power irresistible.
+      l | 18 | Jehovah. Judgment impartial.
+        i | 19 | Reason. Love to others required.
+
+[[diagram: 10. 22—11. 8- (g, above). Motives and Reasons (Alternation)]]
+[[anchor: Deuteronomy 10:22]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 19]]
+
+g |  |
+  m |  | 10. 22. Fulfilment of promises to the fathers.
+    n |  | 11. 1. Therefore, love and obey.
+  m |  | 11. 2-7. Fulfilment of judgment to enemies.
+    n |  | 11. 8-. Therefore, obey.
+
+[[diagram: 26-32 (J, p. 238). Blessings and Curses (Introversion and Extended Alternation)]]
+[[anchor: Deuteronomy 11:26-32]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 20]]
+
+J |  |
+  o | 26 | This day. The blessing and the curse.
+    p |  |
+      q | 27 | The blessing.
+        r | 28 | The curse.
+          s | 29- | The place: "In the land."
+    p |  |
+      q | -29- | The blessing (Gerizim).
+        r | -29 | The curse (Ebal).
+          s | 30, 31 | The place: "In the land."
+  o | 32 | This day. Statutes and judgments.
+
+# S1-S3 are printed stepped in beneath u; they sit here as siblings of R,
+# the T members one step further in.
+[[diagram: 12. 1—27. 10 (F, p. 219). Laws in the Land (Introversions and Alternations)]]
+[[anchor: Deuteronomy 12:1]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 20]]
+
+F |  |
+  R |  |
+    t |  | 12. 1. These statutes.
+      u |  | 12. 2—14. 29. Sacred places and meats.
+  S1 |  | 15. 1—16. 17. Ecclesiastical laws (Sabbath, &c.).
+    T |  |
+      v |  | 16. 18—17. 13. Laws. Civil.
+        w |  | 17. 14-20. The KING.
+  S2 |  | 18. 1-8. Laws. Ecclesiastical (Levites, &c.).
+    T |  |
+        w |  | 18. 9-22. The PROPHET.
+      v |  | 19. 1—25. 19. Laws. Civil.
+  S3 |  | 26. 1-15. Laws. Ecclesiastical (Firstfruits).
+  R |  |
+    t |  | 26. 16-19. These statutes.
+      u |  | 27. 1-10. Sacred places and worship.
+
+[[diagram: 12. 2—14. 29 (u, p. 255). Sacred Places and Meats (Division)]]
+[[anchor: Deuteronomy 12:2]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 21]]
+
+u |  |
+  U1 |  | 12. 2-32. Places.
+  U2 |  | 13. 1-18. Idolatry.
+  U3 |  | 14. 1-29. Meats.
+
+[[diagram: 12. 2-32 (U1, above). Sacred Places (Alternation)]]
+[[anchor: Deuteronomy 12:2-32]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 21]]
+
+U1 |  |
+  x | 2, 3 | False gods. Destruction of places.
+    y | 4-28 | Jehovah: "Not so."
+  x | 29, 30 | False gods. Destruction of worship.
+    y | 31, 32 | Jehovah: "Not so."
+
+# d is printed at the centre, indented beyond f.
+[[diagram: 4-28 (y, above). Jehovah: "Not So." (Introversion and Alternation)]]
+[[anchor: Deuteronomy 12:4-28]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 21]]
+
+y |  |
+  a | 4 | Command. General (negative).
+    b | 5-14 | Restrictions.
+      c |  |
+        e | 15 | Exception.
+          f | 16 | Prohibition of foods.
+            d | 17-19 | Tenths.
+      c |  |
+        e | 20-22 | Exceptions.
+          f | 23-25 | Prohibition of foods.
+    b | 26, 27 | Restrictions.
+  a | 28 | Commands. General (positive).
+
+[[diagram: 13. 1-18 (U2, p. 256). Idolatry (Extended and Repeated Alternations)]]
+[[anchor: Deuteronomy 13:1-18]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 22]]
+
+U2 |  |
+  V1 |  |
+    g1 | 1- | The instigator. False prophet.
+      h1 | -1, 2 | Seduction.
+        i1 | 3, 4 | Prohibition.
+          k1 | 5- | Punishment.
+            l1 | -5 | Evil removed.
+  V2 |  |
+    g2 | 6- | Instigator. A brother.
+      h2 | -6, 7 | Seduction.
+        i2 | 8 | Prohibition.
+          k2 | 9, 10 | Punishment.
+            l2 | 11 | Evil removed.
+  V3 |  |
+    g3 | 12 | Instigator. A city.
+      h3 | 13 | Seduction.
+        i3 | 14 | Inquiry.
+          k3 | 15, 16 | Destruction.
+            l3 | 17, 18 | Evil removed.
+
+[[diagram: 14. 1-29 (U3, p. 256). Meats (Introversion and Alternation)]]
+[[anchor: Deuteronomy 14:1-29]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 23]]
+
+U3 |  |
+  W | 1, 2 | Jehovah thy 'Elohim. Choosing.
+    X |  |
+      m | 3-21 | Meats (negative and positive).
+        n | 22, 23 | Tithes.
+    X |  |
+      m | 24-26 | Meats (positive).
+        n | 27-29- | Tithes.
+  W | -29 | Jehovah thy 'Elohim. Blessing.
+
+[[diagram: 3-21 (m, above). Meats (Enumeration)]]
+[[anchor: Deuteronomy 14:3-21]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 23]]
+
+m |  |
+  o1 | 3-8 | Beasts.
+  o2 | 9, 10 | Fish.
+  o3 | 11-20 | Birds.
+  o4 | 21- | What dieth of itself.
+  o5 | -21 | Kid.
+
+[[diagram: 15. 1—16. 17 (S1, p. 256). Laws: Ecclesiastical (Enumeration)]]
+[[anchor: Deuteronomy 15:1]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 25]]
+
+S1 |  |
+  Y1 |  | 15. 1-18. Sabbatical year.
+  Y2 |  | 15. 19-23. Firstlings.
+  Y3 |  | 16. 1-17. Three feasts.
+
+[[diagram: 15. 1-18 (Y1, above). Sabbatical Year (Repeated Alternation)]]
+[[anchor: Deuteronomy 15:1-18]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 25]]
+
+Y1 |  |
+  p1 | 1-6 | Release.
+    q1 | 7-11 | Hypothetical case.
+  p2 | 12-15 | Release.
+    q2 | 16, 17 | Hypothetical case.
+  p3 | 18 | Release.
+
+[[diagram: 1-6 (p1, above). Release (Alternation)]]
+[[anchor: Deuteronomy 15:1-6]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 25]]
+
+p1 |  |
+  r | 1-4- | Command.
+    s | -4 | Reason. Blessing.
+  r | 5 | Obedience.
+    s | 6 | Reason. Blessing.
+
+[[diagram: 7-11 (q1, above). Hypothetical Case, Poverty (Introversion and Alternation)]]
+[[anchor: Deuteronomy 15:7-11]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 25]]
+
+q1 |  |
+  t |  |
+    v | 7- | Case of poverty.
+      w | -7- | Thy land.
+  u |  |
+    x | -7 | Warning.
+      y | 8 | Command.
+  u |  |
+    x | 9 | Warning.
+      y | 10 | Command.
+  t |  |
+    v | 11- | Cases of poverty.
+      w | -11 | Thy land.
+
+[[diagram: 19-23 (Y2, above). Firstlings (Extended Alternation)]]
+[[anchor: Deuteronomy 15:19-23]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 25]]
+
+Y2 |  |
+  a |  |
+    b | 19- | Without blemish.
+      c | -19 | Prohibition. Not worked.
+        d | 20 | Eating (positive).
+  a |  |
+    b | 21- | Without blemish.
+      c | -21 | Prohibition. Not sacrificed.
+        d | 22, 23 | Eating (negative).
+
+[[diagram: 16. 1-17 (Y3, p. 260). Three Feasts (Division)]]
+[[anchor: Deuteronomy 16:1-17]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 26]]
+
+Y3 |  |
+  e1 | 1-15 | Particular.
+  e2 | 16, 17 | General.
+
+[[diagram: 1-15 (e1, above). Particular (Feasts) (Enumeration)]]
+[[anchor: Deuteronomy 16:1-15]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 26]]
+
+e1 |  |
+  f1 | 1-8 | Passover.
+  f2 | 9-12 | Weeks.
+  f3 | 13-15 | Tabernacles.
+
+[[diagram: 1-8 (f1, above). Passover (Feast) (Introversion and Alternation)]]
+[[anchor: Deuteronomy 16:1-8]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 26]]
+
+f1 |  |
+  g | 1 | The feast. Ordinance.
+    h |  |
+      i | 2 | The chosen place (positive).
+        k | 3, 4 | The manner.
+    h |  |
+      i | 5, 6 | The chosen place (negative).
+        k | 7 | The manner.
+  g | 8 | The feast. Ordinance.
+
+[[diagram: 9-12 (f2, above). Weeks (Feast) (Introversion and Alternation)]]
+[[anchor: Deuteronomy 16:9-12]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 26]]
+
+f2 |  |
+  l |  |
+    n | 9 | Command. "Thou shalt remember".
+      o | 10- | Feast. "Thou shalt keep".
+        m | -10 | Offering of gift. "Thou shalt give".
+        m | 11 | Offering of praise. "Thou shalt rejoice".
+  l |  |
+    n | 12- | Command. "Thou shalt remember".
+      o | -12 | Feast. "Thou shalt observe".
+
+[[diagram: 13-15 (f3, p. 261). Tabernacles (Feast) (Extended Alternation)]]
+[[anchor: Deuteronomy 16:13-15]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 27]]
+
+f3 |  |
+  p |  |
+    q | 13- | The feast. Seven days.
+      r | -13 | Time.
+        s | 14 | Rejoicing. Command.
+  p |  |
+    q | 15- | The feast. Seven days.
+      r | -15- | Place.
+        s | -15 | Rejoicing. Reason.
+
+[[diagram: 16. 18—17. 13 (v, p. 255). Laws. Civil (Introversion)]]
+[[anchor: Deuteronomy 16:18]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 27]]
+
+v |  |
+  A |  | 16. 18-20. Judges. Appointment.
+    B |  | 16. 21, 22. Illegal acts.
+    B |  | 17. 1. Illegal offerings.
+  A |  | 17. 2-13. Judges. Duties.
+
+[[diagram: 17. 2-13 (A, above). Judges. Duties (Alternation)]]
+[[anchor: Deuteronomy 17:2-13]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 27]]
+
+A |  |
+  t | 2-7- | Law. Simple cases.
+    u | -7 | Intention. Removal of evil.
+  t | 8-12 | Law. Difficult cases.
+    u | 13 | Intention. Removal of evil.
+
+[[diagram: 2-7 (t, above). Law. Simple Cases (Extended Alternation)]]
+[[anchor: Deuteronomy 17:2-7]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 27]]
+
+t |  |
+  v |  |
+    w | 2- | Criminals.
+      x | -2, 3 | Crime. Commission.
+        y | 4 | Proof.
+  v |  |
+    w | 5- | Criminals.
+      x | -5 | Crime. Punishment.
+        y | 6, 7- | Proof.
+
+[[diagram: 17. 8-12 (t, above). Law. Difficult Cases (Alternation)]]
+[[anchor: Deuteronomy 17:8-13]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 28]]
+
+t |  |
+  a | 8- | Cases. Difficult.
+    b | -8-11 | Process and sentence.
+  a | 12- | Cases. Presumptuous.
+    b | -12, 13 | Punishment—Death.
+
+[[diagram: 14-20 (w, p. 255). The King (Introversion)]]
+[[anchor: Deuteronomy 17:14-20]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 28]]
+
+w |  |
+  c | 14 | If a king desired.
+    d | 15 | Jehovah's choice: his credential.
+      e | 16, 17 | Commands (negative).
+      e | 18- | Command (positive).
+    d | -18 | Jehovah's law: his study.
+  c | 19, 20 | The king desirable.
+
+[[diagram: 18. 1-8 (S2, p. 255). Laws Ecclesiastical: the Levites (Division)]]
+[[anchor: Deuteronomy 18:1-8]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 28]]
+
+S2 |  |
+  f1 | 1, 2 | General (negative and positive, alternately).
+  f2 | 3-8 | Particular.
+
+[[diagram: 18. 9-22 (w, p. 255). The Prophet (Introversion and Alternations)]]
+[[anchor: Deuteronomy 18:9-22]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 29]]
+
+w |  |
+  C |  |
+    g | 9-11 | Command. Jehovah thy God
+      h | 12 | Reason. Abomination
+    g | 13 | Command. Jehovah thy God
+      h | 14 | Reason. Hearkening
+[[group: False prophet: heathen.]]
+    D |  |
+      i | 15- | "Like unto Moses"
+        k | -15-17 | Hearken. Command (positive)
+    D |  |
+      i | 18 | "Like unto Moses"
+        k | 19 | Hearken. Command (negative)
+[[group: THE PROPHET.]]
+  C |  |
+    l | 20- | Presumptuous prophet. Utterance
+      m | -20 | Not to live (negative)
+    l | 21, 22- | Presumptuous prophet. Testimony
+      m | -22 | Not to be feared (negative)
+[[group: False prophet: Israel.]]
+
+# Heading kept as printed "(v, p. 235)"; the member is on p. 255.
+[[diagram: 19. 1—25. 19 (v, p. 235). Laws: Civil (Alternation)]]
+[[anchor: Deuteronomy 19:1]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 29]]
+
+v |  |
+  n |  | 19. 1-21. Israel.
+    o |  | 20. 1-20. The nations. War.
+  n |  | 21. 1—25. 16. Israel.
+    o |  | 25. 17-19. The nations. War.
+
+[[diagram: 19. 1-21 (n, above). Israel (Introversion)]]
+[[anchor: Deuteronomy 19:1-21]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 29]]
+
+n |  |
+  p | 1-13 | Persons. Manslayer.
+    q | 14 | Property. Landmarks.
+  p | 15-21 | Persons. Witnesses.
+
+[[diagram: 1-13 (p, above). Persons: Manslayer (Extended Alternations and Introversions)]]
+[[anchor: Deuteronomy 19:1-13]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 29]]
+
+p |  |
+  E | 1 | Prospective. "When."
+    F | 2, 3- | Cities. Separation of three.
+      G |  |
+        r1 | -3 | Purpose.
+          s1 | 4, 5- | Case of ignorance.
+          s1 | -5 | Provision. Flight.
+        r1 | 6, 7 | Purpose.
+  E | 8, 9- | Prospective. "If."
+    F | -9 | Cities. Addition of three.
+      G |  |
+        r2 | 10 | Purpose.
+          s2 | 11 | Case of intention.
+          s2 | 12, 13- | Provision. Death.
+        r2 | -13 | Purpose.
+
+[[diagram: 15-21 (p, p. 264). Persons: Witnesses (Alternation)]]
+[[anchor: Deuteronomy 19:15-21]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 30]]
+
+p |  |
+  t | 15- | True witness. One insufficient.
+    u | -15 | Direction. Two or three necessary.
+  t | 16 | False witness. One insufficient.
+    u | 17-21 | Direction (Trial, 17, 18; Penalty, 19-21).
+
+[[diagram: 20. 1-20 (o, p. 264). The Nations: War (Extended and Repeated Alternation)]]
+[[anchor: Deuteronomy 20:1-20]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 30]]
+
+o |  |
+  H1 |  |
+    t1 | 1 | War.
+      u1 | 2-8 | Enemy. Proclamation.
+        v1 | 9 | Action as to leaders.
+  H2 |  |
+    t2 | 10- | War.
+      u2 | -10, 11 | Enemy. Proclamation to city.
+        v2 | 12 | Action. Siege.
+  H3 |  |
+    t3 | 13- | War.
+      u3 | -13, 14 | Enemy. Treatment.
+        v3 | 15 | Action towards distant cities.
+  H4 |  |
+    t4 | 16- | War. Canaanite nations.
+      u4 | -16, 17 | Enemy. Treatment.
+        v4 | 18 | Action towards them.
+  H5 |  |
+    t5 | 19- | War. Any siege.
+      u5 | -19 | Treatment as to trees.
+        v5 | 20 | Action as to other trees.
+
+[[diagram: 21. 1—25. 16 (n, p. 264). Israel (Repeated Alternation)]]
+[[anchor: Deuteronomy 21:1]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 31]]
+
+n |  |
+  J1 |  | 21. 1—22. 8. Persons and property.
+    K1 |  | 22. 9, 10. Sowing and ploughing.
+  J2 |  | 22. 11—23. 23. Persons.
+    K2 |  | 23. 24, 25. Vineyards and cornfields.
+  J3 |  | 24. 1-18. Persons.
+    K3 |  | 24. 19-22. Harvests.
+  J4 |  | 25. 1-3. Persons.
+    K4 |  | 25. 4. Threshing.
+  J5 |  | 25. 5-16. Persons and property.
+
+[[diagram: 21. 1—22. 8 (J1, p. 266). Persons and Property (Division)]]
+[[anchor: Deuteronomy 21:1]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 32]]
+
+J1 |  |
+  L1 |  | 21. 1-23. Persons.
+  L2 |  | 22. 1-8-. Property.
+
+[[diagram: 21. 1-23 (L1, above). Persons (Introversion and Enumeration)]]
+[[anchor: Deuteronomy 21:1-23]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 32]]
+
+L1 |  |
+  w | 1-9 | Crime. Dead body found slain.
+[[group: -]]
+    x |  |
+      y1 | 10-14 | Captives.
+      y2 | 15-17 | Two wives.
+      y3 | 18-21 | Rebellious son.
+[[group: Living Persons.]]
+  w | 22, 23 | Crime. Dead body, hanged.
+[[group: -]]
+
+[[diagram: 1-9 (w, above). Crime. Dead Body Found Slain (Introversion, and Alternations)]]
+[[anchor: Deuteronomy 21:1-9]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 32]]
+
+w |  |
+  z | 1 | The guilt incurred.
+    a |  |
+      b |  |
+        c | 2 | Elders and Judges.
+          d | 3- | City next to crime.
+            e | -3, 4 | Elders of that city.
+    a |  |
+      b |  |
+        c | 5 | Priests, the sons of Levi.
+          d | 6 | City next to crime.
+            e | 7, 8 | Elders of that city.
+  z | 9 | The guilt put away.
+
+[[diagram: 15-17 (y2, above). Two Wives (Alternation)]]
+[[anchor: Deuteronomy 21:15-17]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 32]]
+
+y2 |  |
+  f | 15 | Firstborn
+    g | 16- | Inheritance
+[[group: Case.]]
+  f | -16, 17- | Firstborn
+    g | -17 | Inheritance
+[[group: Prohibition.]]
+
+[[diagram: 21. 18-21 (y3, p. 267). Rebellious Son (Introversion)]]
+[[anchor: Deuteronomy 21:18-21]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 33]]
+
+y3 |  |
+  h | 18 | Evil case.
+    i | 19, 20 | Prosecution.
+    i | 21- | Penalty.
+  h | -21 | Evil put away.
+
+[[diagram: 22. 1-8 (L2, p. 267). Property (Alternation)]]
+[[anchor: Deuteronomy 22:1-8]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 33]]
+
+L2 |  |
+  k | 1-4 | Lost. (Animals, astray.)
+    l | 5 | Dress.
+  k | 6, 7 | Found. (Birds.)
+    l | 8 | Dwellings.
+
+# Heading prints "23. 25"; K2 (23. 24, 25) follows, and m3 ends at 23. 23.
+[[diagram: 22. 11—23. 25 (J2, p. 267). Persons (Repeated Alternation)]]
+[[anchor: Deuteronomy 22:11]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 33]]
+
+J2 |  |
+  m1 |  | 22. 11, 12. Men.
+    n1 |  | 22. 13-30. Women.
+  m2 |  | 23. 1-16. Men.
+    n2 |  | 23. 17, 18. Women.
+  m3 |  | 23. 19-23. Men.
+
+[[diagram: 22. 13-30 (n1, p. 268). Women (Division)]]
+[[anchor: Deuteronomy 22:13-30]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 34]]
+
+n1 |  |
+  o1 | 13-21 | Wives.
+  o2 | 22-30 | Violations.
+
+# Heading kept as printed "(m2, p. 246)"; the member is on p. 268.
+[[diagram: 23. 1-16 (m2, p. 246). Men (Enumeration)]]
+[[anchor: Deuteronomy 23:1-16]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 34]]
+
+m2 |  |
+  p1 | 1-8 | Congregation (exclusions).
+  p2 | 9-14 | Camp (cleanness).
+  p3 | 15, 16 | Home (slave).
+
+[[diagram: 23. 17, 18 (n2, p. 268). Women]]
+[[anchor: Deuteronomy 23:17-18]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 35]]
+
+n2 |  |
+  a | 17- | Whore (K'deshah).
+    b | -17 | Sodomite.
+  a | 18- | Whore (Zonah).
+    b | -18 | Dog.
+
+[[diagram: 19-23 (m3, p. 268). Men (Division)]]
+[[anchor: Deuteronomy 23:19-23]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 35]]
+
+m3 |  |
+  q1 | 19, 20 | Usury.
+  q2 | 21-23 | Vows.
+
+[[diagram: 23. 24, 25 (K2, p. 266). Vineyards and Cornfields (Extended Alternation)]]
+[[anchor: Deuteronomy 23:24-25]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 35]]
+
+K2 |  |
+  r |  |
+    s | 24- | Vineyard
+      t | -24- | Permission
+        u | -24 | Prohibition
+[[group: Vineyard.]]
+  r |  |
+    s | 25- | Cornfields
+      t | -25- | Permission
+        u | -25 | Prohibition
+[[group: Cornfields.]]
+
+# Headings on this page cite "p. 244"; the member list is on p. 266.
+[[diagram: 24. 1-18 (J3, p. 244). Persons (Extended and Repeated Alternations)]]
+[[anchor: Deuteronomy 24:1-18]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 36]]
+
+J3 |  |
+  M1 |  |
+    v1 | 1-4 | Divorce.
+      w1 | 5 | Remarriage.
+        x1 | 6 | Pledge.
+  M2 |  |
+    v2 | 7 | Slavery.
+      w2 | 8, 9 | Leprosy.
+        x2 | 10-13 | Pledge.
+  M3 |  |
+    v3 | 14, 15 | Service.
+      w3 | 16 | Punishments.
+        x3 | 17, 18 | Pledge.
+
+[[diagram: 19-22 (K3, p. 244). Harvests (Extended and Repeated Alternations)]]
+[[anchor: Deuteronomy 24:19-22]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 36]]
+
+K3 |  |
+  N1 |  |
+    y1 | 19- | Harvest. Wheat.
+      z1 | -19- | Prohibition.
+        a1 | -19 | Reason.
+  N2 |  |
+    y2 | 20- | Harvest. Olives.
+      z2 | -20- | Prohibition.
+        a2 | -20 | Reason.
+  N3 |  |
+    y3 | 21- | Harvest. Grapes.
+      z3 | -21- | Prohibition.
+        a3 | -21 | Reason.
+
+[[diagram: 5-16 (J5, p. 266). Persons and Property (Introversion)]]
+[[anchor: Deuteronomy 25:5-16]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 37]]
+
+J5 |  |
+  b | 5-10 | Injustice re Seed.
+    c | 11, 12 | Unfairness re Striving.
+  b | 13-16 | Injustice re Dealing.
+
+[[diagram: 5-10 (b, above). Injustice re Seed (Repeated and Extended Alternation)]]
+[[anchor: Deuteronomy 25:5-10]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 37]]
+
+b |  |
+  O1 |  |
+    d1 | 5- | Case. Refusal.
+      e1 | -5 | Command.
+        f1 | 6 | Result. Succession.
+  O2 |  |
+    d2 | 7- | Case. Refusal.
+      e2 | -7 | Declaration.
+        f2 | 8- | Result. Remonstrance.
+  O3 |  |
+    d3 | 8 | Case. Persistence.
+      e3 | 9 | Action.
+        f3 | 10 | Result. Stigma.
+
+[[diagram: 26. 1-15 (S3, p. 255). Laws: Ecclesiastical (Division)]]
+[[anchor: Deuteronomy 26:1-15]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 38]]
+
+S3 |  |
+  P1 | 1-11 | Basket of firstfruits.
+  P2 | 12-15 | Tithes.
+
+# l is printed at the centre of the inner introversion, beyond k.
+[[diagram: 1-11 (P1, above). Basket of Firstfruits (Introversions)]]
+[[anchor: Deuteronomy 26:1-11]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 38]]
+
+P1 |  |
+  Q |  |
+    g | 1 | Inheritance possessed.
+      h | 2-5- | Command.
+  R |  |
+    i | -5 | Unworthiness of grace.
+      k | 6 | Egypt. Bondage.
+        l | 7- | Cry made.
+  R |  |
+        l | -7 | Cry heard.
+      k | 8 | Egypt. Deliverance.
+    i | 9 | Grace for the unworthy.
+  Q |  |
+      h | 10 | Obedience.
+    g | 11 | Inheritance enjoyed.
+
+[[diagram: 12-15 (P2, above). Tithes (Introversion)]]
+[[anchor: Deuteronomy 26:12-15]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 38]]
+
+P2 |  |
+  m | 12- | Tithes gathered.
+    n | -12, 13 | Duly appropriated (positive).
+    n | 14 | Duly appropriated (negative).
+  m | 15 | Prayer offered.
+
+# Headings on this page cite "p. 265" and "p. 255" for R; the Structure of
+# 12. 1—27. 10 is on p. 255.
+[[diagram: 26. 16-19 (R, t, p. 265). These Statutes (Introversion)]]
+[[anchor: Deuteronomy 26:16-19]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 39]]
+
+t |  |
+  o | 16 | Command.
+    p | 17 | Jehovah avouched by people.
+    p | 18, 19- | People avouched by Jehovah.
+  o | -19 | Purpose.
+
+[[diagram: 27. 1-10 (R, u, p. 255). Sacred Places (Introversion and Alternation)]]
+[[anchor: Deuteronomy 27:1-10]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 39]]
+
+u |  |
+  q | 1 | Command.
+    r |  |
+      s | 2- | Passage of Jordan.
+        t | -2, 3 | Sacred stones.
+    r |  |
+      s | 4- | Passage of Jordan.
+        t | -4-8 | Sacred stones.
+  q | 9, 10 | Command.
+
+[[diagram: 27. 11-26 (d, p. 238). Gerizim and Ebal (Division)]]
+[[anchor: Deuteronomy 27:11-26]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 39]]
+
+d |  |
+  S1 | 11-13 | Arrangement of tribes.
+  S2 | 14-26 | Curses.
+
+[[diagram: 11-13 (S1, above). Arrangement of Tribes (Alternation)]]
+[[anchor: Deuteronomy 27:11-13]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 39]]
+
+S1 |  |
+  u | 11, 12- | On Gerizim to bless.
+    v | -12 | Tribes detailed.
+  u | 13- | On Ebal to curse.
+    v | -13 | Tribes detailed.
+
+[[diagram: 28. 1-68 (c, p. 238). Blessings and Curses (Division)]]
+[[anchor: Deuteronomy 28:1-68]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 40]]
+
+c |  |
+  T1 | 1-14 | Blessings.
+  T2 | 15-68 | Curses.
+
+[[diagram: 1-14 (T1, above). Blessings (Alternation)]]
+[[anchor: Deuteronomy 28:1-14]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 40]]
+
+T1 |  |
+  w | 1- | Obedience.
+    x | -1, 2- | Blessings (general).
+  w | -2 | Obedience.
+    x | 3-14 | Blessings (particular).
+
+[[diagram: 28. 15-68 (T2, p. 275). Curses (Alternation)]]
+[[anchor: Deuteronomy 28:15-68]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 41]]
+
+T2 |  |
+  y | 15- | Disobedience.
+    z | -15-57 | Curses.
+  y | 58 | Disobedience.
+    z | 59-68 | Curses.
+
+[[diagram: 29. 1-17 (a, p. 238). Injunctions plus Horeb. Retrospective (Alternation and Introversion)]]
+[[anchor: Deuteronomy 29:1-17]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 43]]
+
+a |  |
+  U | 1 | Command.
+    W |  |
+      b | 2-4 | Egypt. Retrospective.
+        c | 5-8 | Past days (wilderness).
+  U | 9 | Command.
+    W |  |
+        c | 10-15 | This day.
+      b | 16, 17 | Egypt. Retrospective.
+
+[[diagram: 29. 18—30. 20 (b, p. 238). Injunctions on Dispersion. Prospective (Alternations)]]
+[[anchor: Deuteronomy 29:18]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 44]]
+
+b |  |
+  X |  |
+    d |  | 29. 18-21. Apostasy of persons.
+      e |  | 29. 22-28. Land. Judgment on.
+        Y |  |
+          f |  | 29. 29-. The word of Jehovah. Revealed.
+            g |  | 29. -29. Object: that we may do.
+  X |  |
+    d |  | 30. 1, 2. Repentance of people.
+      e |  | 30. 3-10. Land. Return to.
+        Y |  |
+          f |  | 30. 11-14. The word of Jehovah. Plain.
+            g |  | 30. 15-20. Object: that they may do.
+
+[[diagram: 30. 11-14 (f, p. 279). The Word of Jehovah (Plain) (Introversion)]]
+[[anchor: Deuteronomy 30:11-14]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 45]]
+
+f |  |
+  h | 11- | Not hidden.
+    i | -11 | Distance. Not far off.
+      k | 12 | Not in heaven. Hear and do.
+      k | 13 | Not over seas. Hear and do.
+    i | 14- | Distance. Very nigh.
+  h | -14 | Not hidden. In mouth and heart.
+
+[[diagram: 30. 15-20 (g, p. 279). Object: That They May Choose (Alternation)]]
+[[anchor: Deuteronomy 30:15-20]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 45]]
+
+g |  |
+  l | 15, 16- | Life and good, &c.
+    m | -16-18 | Object.
+  l | 19 | Life and good, &c.
+    m | 20 | Object.
+
+[[diagram: 31. 1-8 (G, p. 238). Possession West of Jordan (Introversion and Alternation)]]
+[[anchor: Deuteronomy 31:1-8]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 45]]
+
+G |  |
+  n | 1-3- | Jehovah to go before.
+    o |  |
+      p | -3- | Jehovah to act.
+        q | -3 | Joshua.
+    o |  |
+      p | 4-6 | Jehovah to act.
+        q | 7 | Joshua.
+  n | 8 | Jehovah to go before.
+
+[[diagram: 31. 9—32. 47 (F, p. 238). Laws and Song: In and Out of the Land (Introversion)]]
+[[anchor: Deuteronomy 31:9]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 46]]
+
+F |  |
+  r |  | 31. 9-30. Laws re the Song.
+    s |  | 32. 1-43. The Song itself.
+  r |  | 32. 44-47. Laws re the Song.
+
+[[diagram: 9-30 (r, above). Laws re the Song (Repeated Alternation)]]
+[[anchor: Deuteronomy 31:9-30]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 46]]
+
+r |  |
+  t1 | 9-13 | Laws written and read.
+    u1 | 14-18 | Charge to Moses and Joshua.
+  t2 | 19 | Song to be written.
+    u2 | 20, 21 | Charge to People.
+  t3 | 22 | Song written.
+    u3 | 23 | Charge to Joshua.
+  t4 | 24 | Song written.
+    u4 | 25-29 | Charge to Levites.
+  t5 | 30 | Song recited.
+
+[[diagram: 32. 1-43 (s, p. 281). The Song of Moses (Introversion)]]
+[[anchor: Deuteronomy 32:1-43]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 48]]
+
+s |  |
+  A | 1-6 | Call to hear: and the reason. The publishing of Jehovah's name: His perfect work and righteous ways.
+    B | 7-14 | The goodness and bounty of Jehovah to Israel. (Period of the Pentateuch.)
+      C | 15-19 | Israel's evil return for that goodness. Their pride: forsaking of God; despising the Rock of their Salvation; moving Him to anger. (Period, past history. The Historical books.)
+        D | 20 | Divine reflections on the period while Israel is "Lo Ammi" (not my people). (Period of Minor Prophets, especially Hosea.)
+          E | 21 | Jehovah's provocation of Israel. (Period of Acts and present Dispensation.)
+          E | 22-25 | Jehovah's threatening of judgment on Israel in the great tribulation.
+        D | 26-33 | Divine reflections on the period while Israel is scattered. (Hosea.)
+      C | 34-38 | Israel's evil return for Jehovah's goodness. Their helpless condition moving Him to pity. He not forsaking them. Their rock useless. (Period of present history.)
+    B | 39-42 | The judgments of Jehovah. (The period of the Apocalypse.)
+  A | 43 | Call to rejoice: and the reason. The publishing of Jehovah's Kingdom. Vengeance on Israel's enemies. Mercy for His "Land" and for His "People". (Fulfilment of all prophecy.)
+
+[[diagram: 33. 1-29 (C, p. 236). The Blessing of the Tribes (Introversion and Numeration)]]
+[[anchor: Deuteronomy 33:1-29]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 51]]
+
+C |  |
+  F | 1 | Introduction.
+    G | 2-5 | Israel, collectively, with Jehovah king.
+      H |  |
+        v1 | 6 | Reuben.
+        v2 | 7 | Judah.
+        v3 | 8-11 | Levi.
+        v4 | 12 | Benjamin.
+        v5 | 13-17 | Joseph.
+        v6 | 18, 19 | Zebulun and Issachar.
+        v7 | 20, 21 | Gad.
+        v8 | 22 | Dan.
+        v9 | 23 | Naphtali.
+        v10 | 24, 25 | Asher.
+    G | 26, 27 | Israel, collectively, with Jehovah king.
+  F | 28, 29 | Conclusion.
+
+[[diagram: 34. 1-7 (D, p. 236). Moses' Death and Burial (Introversion and Alternation)]]
+[[anchor: Deuteronomy 34:1-7]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 52]]
+
+D |  |
+  J |  |
+    x | 1- | His ascent.
+      y | -1-4 | His eye caused to see.
+        K | 5 | His death.
+        K | 6 | His burial.
+  J |  |
+    x | 7- | His age.
+      y | -7 | His eye not dim.
+
+[[diagram: 34. 8-12 (A, p. 236). Conclusion (Introversion)]]
+[[anchor: Deuteronomy 34:8-12]]
+[[pdf: 5. Deuteronomy_text.pdf]]
+[[pdf-page: 53]]
+
+A |  |
+  L | 8 | Moses. Mourned.
+    M | 9- | Joshua. Qualified.
+    M | -9 | Joshua. Obeyed.
+  L | 10-12 | Moses. Praised.
