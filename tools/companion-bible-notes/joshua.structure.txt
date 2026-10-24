@@ -1,0 +1,850 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Joshua
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/6. Joshua_text.pdf); [[pdf-page:]] is the
+# page of that file each diagram is on. Notation: README.md here.
+#
+# A printed reference that reaches outside the diagram's anchor chapter
+# can't be a REF_RANGE, which is verses of one chapter; such a line keeps
+# its reference at the head of its TEXT instead, as printed. Where a
+# printed letter is missing, "·" stands in for it.
+
+[[diagram: The Structure of the Book as a Whole (Introversion)]]
+[[anchor: Joshua 1:1]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 1]]
+
+A |  | 1. 1-18. JOSHUA ENTERING ON HIS WORK.
+  B |  | 2. 1—7. 26. JORDAN. EVENTS CONNECTED THEREWITH.
+    C |  | 8. 1—12. 24. THE LAND. CONQUEST.
+    C |  | 13. 1—21. 45. THE LAND. DIVISION.
+  B |  | 22. 1-34. JORDAN. EVENTS CONNECTED THEREWITH.
+A |  | 23. 1—24. 28. JOSHUA ENDING HIS WORK.
+· |  | EPILOGUE to the whole Book (24. 29-33).
+
+# Printed on the same page, below the Structure, introduced "For the
+# relation of JOSHUA to the Earlier Prophets, see below."
+[[diagram: Joshua and the Earlier Prophets (Alternation)]]
+[[anchor: Joshua 1:1]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 1]]
+
+x |  | JOSHUA. Israel's settlement in the LAND; under JOSHUA and PRIESTS.
+  y |  | JUDGES. Israel's failure under PRIESTS.
+x |  | SAMUEL. Israel's settlement in the LAND; under SAMUEL and KINGS.
+  y |  | KINGS. Israel's failure under KINGS.
+
+[[diagram: 1. 1-18 (A, p. 289). Joshua Entering on his Work (Introversion, Double)]]
+[[anchor: Joshua 1:1-18]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 2]]
+
+A |  |
+  A | 1 | Joshua. Appointment over the People.
+    B |  |
+      a | 2-4 | History rehearsed. (Jehovah's Promises.)
+        b | 5-9 | Admonition (Jehovah to Joshua).
+    B |  |
+        b | 10, 11 | Admonition (Joshua to People).
+      a | 12-15 | History rehearsed. (Reubenites' Promises.)
+  A | 16-18 | Joshua. Obedience of the People.
+
+[[diagram: 16-18 (A, p. 291). Joshua. Obedience of People (Alternation)]]
+[[anchor: Joshua 1:16-18]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 3]]
+
+A |  |
+  c | 16, 17- | Whatsoever. Positive.
+    d | -17 | Only. Jehovah "be with thee".
+  c | 18- | Whatsoever. Negative.
+    d | -18 | Only. "Be strong."
+
+[[diagram: 2. 1—7. 26 (B, p. 289). Jordan. Events Connected Therewith (Alternation)]]
+[[anchor: Joshua 2:1]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 3]]
+
+B |  |
+  C |  | 2. 1-24. Joshua's two spies.
+    D |  | 3. 1—5. 12. Jordan. The passage of it.
+  C |  | 5. 13-15. Jehovah's one Captain.
+    D |  | 6. 1—7. 26. Jericho. The taking of it.
+
+[[diagram: 2. 1-24 (C, above). Joshua's Two Spies (Alternation)]]
+[[anchor: Joshua 2:1-24]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 3]]
+
+C |  |
+  e | 1- | Their mission.
+    f | -1-22 | Events. Their happening.
+  e | 23- | Their return.
+    f | -23, 24 | Events. Their narration.
+
+[[diagram: -1-22 (f, above). Events. Their Happening (Alternation)]]
+[[anchor: Joshua 2:1-22]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 3]]
+
+f |  |
+  g | -1 | The Spies. Their Arrival.
+    h | 2-7 | Search of king.
+  g | 8-22- | The Spies. Their Entertainment.
+    h | -22 | Search of king.
+
+[[diagram: 8-22- (g, above). Entertainment of Spies (Extended Alternation)]]
+[[anchor: Joshua 2:8-22]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 3]]
+
+g |  |
+  i |  |
+    k | 8-14 | Treaty with Rahab.
+      l | 15 | Dismissal of Spies.
+        m | 16 | Advice given.
+  i |  |
+    k | 17-21- | Treaty with Rahab.
+      l | -21 | Dismissal of Spies.
+        m | 22- | Advice taken.
+
+[[diagram: 3. 1—5. 12 (D, p. 292). Jordan. The Passage of It (Division)]]
+[[anchor: Joshua 3:1]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 4]]
+
+D |  |
+  E1 |  | 3. 1—4. 24. Event. The Passage.
+  E2 |  | 5. 1-12. Event. After the Passage.
+
+[[diagram: 3. 1—4. 24 (E1, above). Event. The Passage (Extended Alternation)]]
+[[anchor: Joshua 3:1]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 4]]
+
+E1 |  |
+  F |  |
+    n |  | 3. 1-6. The Ark going before.
+      o |  | 3. 7. Joshua magnified. (Promise.)
+        p |  | 3. 8. Commands to Priests.
+          q |  |
+            r |  | 3. 9-17. Cutting off of the waters.
+            s |  | 4. 1-10. Memorial.
+  F |  |
+    n |  | 4. 11-13. The Ark going before.
+      o |  | 4. 14. Joshua magnified. (Performance.)
+        p |  | 4. 15-17. Commands to Priests.
+          q |  |
+            r |  | 4. 18, 19. Return of the waters.
+            s |  | 4. 20-24. Memorial.
+
+[[diagram: 3. 9—4. 10 (r, p. 293). Cutting Off, and Memorial (Alternation)]]
+[[anchor: Joshua 3:9]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 5]]
+
+r |  |
+  t |  | 3. 9-16. The cutting off.
+    u |  | 3. 17. Priests' feet standing firm.
+  t |  | 4. 1-9. The Memorial.
+    u |  | 4. 10. Priests' feet standing firm.
+
+[[diagram: 3. 9-16 (t, above). The Cutting Off (Alternation)]]
+[[anchor: Joshua 3:9-16]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 5]]
+
+t |  |
+  v | 9-12 | Ark going before.
+    w | 13 | Prediction. Waters.
+  v | 14 | Ark going before.
+    w | 15, 16 | Fulfilment. Waters.
+
+# In x3 the page prints a3 before z3 (z3 one step left); kept in page order,
+# nested.
+[[diagram: 4. 1-9 (t, p. 294). The Memorial (Repeated Alternation and Introversion)]]
+[[anchor: Joshua 4:1-9]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 6]]
+
+t |  |
+  x1 |  |
+    z1 | 1, 2 | Twelve men.
+      a1 | 3- | Twelve stones.
+        y1 | -3 | The Place.
+  x2 |  |
+    z2 | 4 | Twelve men.
+      a2 | 5 | Twelve stones.
+        y2 | 6, 7 | The Memorial.
+  x3 |  |
+      a3 | 8- | Twelve stones.
+        z3 | -8- | Twelve men.
+          y3 | -8, 9 | The Place.
+
+[[diagram: 13-15 (C, p. 292). Jehovah's One Captain (Repeated Alternation)]]
+[[anchor: Joshua 5:13-15]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 7]]
+
+C |  |
+  b1 | 13- | The Captain. Vision.
+    c1 | -13 | Joshua. Question asked.
+  b2 | 14- | The Captain. Revelation.
+    c2 | -14 | Joshua. Worship accepted.
+  b3 | 15- | The Captain. Direction.
+    c3 | -15 | Joshua. Obedience given.
+
+[[diagram: 6. 1—7. 26 (D, p. 292). Jericho: the Taking of It (Division)]]
+[[anchor: Joshua 6:1]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 7]]
+
+D |  |
+  G1 |  | 6. 1-27. The Taking of Jericho.
+  G2 |  | 7. 1-26. The Trespass of Achan.
+
+[[diagram: 6. 1-27 (G1, above). The Taking of Jericho (Division)]]
+[[anchor: Joshua 6:1-27]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 7]]
+
+G1 |  |
+  H1 | 1-19 | The City Given.
+  H2 | 20-27 | The City Taken.
+
+[[diagram: 6. 1-19 (H1, p. 296). The City Given (Introversion and Alternation)]]
+[[anchor: Joshua 6:1-19]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 8]]
+
+H1 |  |
+  d | 1, 2 | The City given.
+    e |  |
+      f | 3, 4 | Encompassing.
+        g | 5 | Promise.
+    e |  |
+      f | 6-15 | Encompassing.
+        g | 16- | Promise.
+  d | -16-19 | The City. Exceptions in Gift.
+
+[[diagram: 20-27 (H2, p. 296). The City Taken (Introversion and Alternation)]]
+[[anchor: Joshua 6:20-27]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 8]]
+
+H2 |  |
+  h | 20 | The city taken.
+    i |  |
+      k | 21 | The city destroyed.
+        l | 22, 23 | Exception. Rahab.
+    i |  |
+      k | 24- | The city burned.
+        l | -24, 25 | Exception. Rahab, &c.
+  h | 26, 27 | The city cursed.
+
+[[diagram: 7. 1-26 (G2, p. 296). The Trespass of Achan (Introversion)]]
+[[anchor: Joshua 7:1-26]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 9]]
+
+G2 |  |
+  J | 1 | Achan's trespass committed. Jericho.
+    K | 2-9 | Consequence. Defeat at Ai.
+    K | 10-12 | Cause of defeat explained.
+  J | 13-26 | Achan's trespass to be put away. Achor.
+
+[[diagram: 2-9 (K, above). Consequence. Defeat at Ai (Introversion)]]
+[[anchor: Joshua 7:2-9]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 9]]
+
+K |  |
+  m | 2 | Joshua's mission.
+    n | 3 | Advice given. Report.
+    n | 4, 5 | Advice taken. Result.
+  m | 6-9 | Joshua's mourning.
+
+[[diagram: 13-26 (J, p. 298). Achan's Trespass Put Away (Introversions)]]
+[[anchor: Joshua 7:13-26]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 10]]
+
+J |  |
+  o |  |
+    q | 13-15 | The trouble to be removed.
+      r | 16-18 | The troubler to be discovered.
+        p | 19-21 | Joshua and Achan. Conviction.
+        p | 22-24 | Joshua and Achan. Proof.
+  o |  |
+      r | 25, 26- | The troubler stoned.
+    q | -26 | The trouble removed.
+
+[[diagram: 8. 1—12. 24 (C, p. 289). Conquest of the Land (Introversion and Alternation)]]
+[[anchor: Joshua 8:1]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 11]]
+
+C |  |
+  L |  | 8. 1-29. Conquest of Ai.
+    M |  |
+      O |  | 8. 30-35. Joshua's obedience.
+        P |  | 9. 1-27. League with Gibeonites.
+          N |  | 10. 1-43. Confederacy against Gibeonites by Adoni-zedec.
+          N |  | 11. 1-17. Confederacy against Israel by Jabin.
+    M |  |
+      O |  | 11. 18. Joshua's obedience.
+        P |  | 11. 19, 20. League with Gibeonites.
+  L |  | 11. 21—12. 24. Conquest of other cities.
+
+# S is printed at the centre, beyond v.
+[[diagram: 8. 1-29 (L, above). Conquest of Ai (Introversion and Extended Alternation)]]
+[[anchor: Joshua 8:1-29]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 11]]
+
+L |  |
+  Q | 1, 2 | The Promise.
+    R |  |
+      s | 3, 4 | The Ambush.
+        t | 5 | The Residue and Decoy
+          u | 6 | The Pursuit
+            v | 7, 8 | Seizure of City
+[[group: Command.]]
+              S | 9-13 | Arrangement.
+[[group: -]]
+    R |  |
+      s | 14 | The Ambush.
+        t | 15 | The Residue and Decoy
+          u | 16, 17 | The Pursuit
+            v | 18-22 | Seizure of City
+[[group: Obedience.]]
+  Q | 23-29 | The Performance.
+[[group: -]]
+
+[[diagram: 23-29 (Q, p. 300). The Performance (Introversion)]]
+[[anchor: Joshua 8:23-29]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 12]]
+
+Q |  |
+  w | 23 | The king.
+    x | 24-26 | The city.
+      y | 27 | The spoil.
+    x | 28 | The city.
+  w | 29 | The king.
+
+[[diagram: 30-35 (O, p. 300). Joshua's Obedience (Introversion)]]
+[[anchor: Joshua 8:30-35]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 12]]
+
+O |  |
+  a | 30, 31 | Moses's command.
+    b | 32 | Words written.
+    b | 33, 34 | Words read.
+  a | 35 | Moses's command.
+
+[[diagram: 9. 1-27 (P, p. 300). League with the Gibeonites (Introversion and Repeated Alternation)]]
+[[anchor: Joshua 9:1-27]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 13]]
+
+P |  |
+  c | 1, 2 | What Joshua had done. Cause.
+    d |  |
+      e1 | 3-5 | Deception proposed.
+        f1 | 6-8 | League proposed.
+      e2 | 9-11- | Deception carried out.
+        f2 | -11 | League proposed.
+      e3 | 12, 13 | Deception successful.
+        f3 | 14, 15 | League made.
+      e4 | 16, 17 | Deception discovered.
+        f4 | 18 | League questioned.
+      e5 | 19-21 | Deception compounded.
+  c | 22-27 | What Joshua did. Consequence.
+
+[[diagram: 22-27. The Expansion of P c (Alternation)]]
+[[anchor: Joshua 9:22-27]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 13]]
+
+x | 22 | The question of Joshua.
+  y | 23 | The sentence of Joshua. "Now therefore," &c.
+x | 24 | Reply to question by Gibeonites.
+  y | 25-27 | The sentence submitted to. "Now behold," &c.
+
+[[diagram: 10. 1—11. 17 (N N, p. 300). Confederacy against Gibeonites (Extended Alternation)]]
+[[anchor: Joshua 10:1]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 14]]
+
+N |  |
+  T |  | 10. 1, 2. Confederacy against Gibeon, Adoni-zedec.
+    U |  | 10. 3-27. Kings.
+      V |  | 10. 28-39. Cities.
+        W |  | 40-43. Territory.
+N |  |
+  T |  | 11. 1-. Confederacy against Israel.
+    U |  | 11. -1-9. Kings.
+      V |  | 11. 10-14. Cities.
+        W |  | 11. 15-17. Territory.
+
+[[diagram: 3-27 (U, above). Kings (Extended Alternation)]]
+[[anchor: Joshua 10:3-27]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 14]]
+
+U |  |
+  g | 3, 4- | Message of Adoni-zedec to the kings.
+    h | -4 | Reason.
+      i | 5 | Enemies' assemblage for war.
+  g | 6- | Message of Gibeonites to Joshua.
+    h | -6 | Reason.
+      i | 7-27 | Israel's assemblage for war.
+
+[[diagram: 7-27 (i, above). Israel's Assemblage for War (Alternation)]]
+[[anchor: Joshua 10:7-27]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 14]]
+
+i |  |
+  j | 7 | March.
+    k | 8 | Promise.
+  j | 9 | March.
+    k | 10-27 | Performance.
+
+[[diagram: 10-27 (k, p. 303). Performance (Division)]]
+[[anchor: Joshua 10:10-27]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 15]]
+
+k |  |
+  l1 | 10-14 | By Jehovah before the Flight.
+  l2 | 15-27 | By Joshua after the Flight.
+
+[[diagram: 10-14 (l1, above). By Jehovah before the Flight (Division)]]
+[[anchor: Joshua 10:10-14]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 15]]
+
+l1 |  |
+  m1 | 10 | By the sword of Israel.
+  m2 | 11 | By hailstones from the clouds.
+  m3 | 12-14 | By the sun in the heavens.
+
+[[diagram: 15-27 (l2, above). By Joshua after the Flight (Introversion and Alternation)]]
+[[anchor: Joshua 10:15-27]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 15]]
+
+l2 |  |
+  n |  |
+    p | 15 | Return to camp at Gilgal.
+      q | 16-18 | Five kings shut up.
+        o | 19, 20 | Pursuit of hosts.
+  n |  |
+    p | 21 | Return to camp at Makkedah.
+      q | 22-27 | Five kings brought out.
+
+[[diagram: 28-39 (V, p. 303). Cities of the Kings (Repeated Alternation)]]
+[[anchor: Joshua 10:28-39]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 16]]
+
+V |  |
+  r1 | 28 | Makkedah taken.
+    s1 | 29 | Advance to Libnah.
+  r2 | 30 | Libnah taken.
+    s2 | 31 | Advance to Lachish.
+  r3 | 32, 33 | Lachish taken.
+    s3 | 34 | Advance to Eglon.
+  r4 | 35 | Eglon taken.
+    s4 | 36 | Advance to Hebron.
+  r5 | 37 | Hebron taken.
+    s5 | 38 | Advance to Debir.
+  r6 | 39 | Debir taken.
+
+[[diagram: 11. -1-9 (U, p. 303). Kings (Extended Alternation)]]
+[[anchor: Joshua 11:1-9]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 16]]
+
+U |  |
+  t |  |
+    u | -1-5 | Kings' assemblage.
+      v | 6- | Promise of Jehovah. Given.
+        w | -6 | Command to Joshua.
+  t |  |
+    u | 7 | Kings smitten.
+      v | 8 | Promise of Jehovah. Fulfilled.
+        w | 9 | Obedience of Joshua.
+
+# The page prints the Z members at the centre, beyond z/y; the second X has
+# no z, so its Z sits one level shallower here.
+[[diagram: 10-15 (V, p. 303). Cities (Involved Introversion and Alternation)]]
+[[anchor: Joshua 11:10-15]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 17]]
+
+V |  |
+  X |  |
+    Y |  |
+      x | 10 | Hazor taken.
+        y | 11- | Inhabitants slain.
+          z | -11 | Hazor burned.
+            Z | 12 | Moses's command.
+          z | 13 | Cities not burned.
+  X |  |
+    Y |  |
+      x | 14- | Spoil taken.
+        y | -14 | Inhabitants slain.
+          Z | 15 | Moses's command.
+
+[[diagram: 11. 21—12. 24 (L, p. 300). Conquest of Other Kings (Alternation)]]
+[[anchor: Joshua 11:21]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 17]]
+
+L |  |
+  c1 |  | 11. 21—12. 1. General.
+    d |  | 12. 2-6. Particular (East of Jordan).
+  c2 |  | 12. 7, 8. General.
+    d |  | 12. 9-24-. Particular (West of Jordan).
+  c3 |  | 12. -24. General.
+
+[[diagram: 13. 1—21. 45 (C, p. 289). Division of the Land (Introversion and Alternation)]]
+[[anchor: Joshua 13:1]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 18]]
+
+C |  |
+  A |  | 13. 1. Jehovah's gifts. Unpossessed.
+    B |  |
+      C |  | 13. 2—17. 18. Civil. Unallotted land.
+        D |  | 18. 1. Sacred. Tabernacle in Shiloh.
+    B |  |
+      C |  | 18. 2—19. 51. Civil. Unappropriated cities.
+        D |  | 20. 1—21. 42. Sacred. Cities.
+  A |  | 21. 43-45. Jehovah's gifts. Possessed.
+
+[[diagram: 13. 2—17. 18 (C, above). Civil. Unallotted Land (Division)]]
+[[anchor: Joshua 13:2]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 18]]
+
+C |  |
+  E1 |  | 13. 2—14. 5. By Moses.
+  E2 |  | 14. 6—17. 18. By Joshua.
+
+[[diagram: 13. 2—14. 5 (E1, above). By Moses (Alternation)]]
+[[anchor: Joshua 13:2]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 18]]
+
+E1 |  |
+  F |  | 13. 2-7. Command as to the 9 1/2 tribes.
+    G |  | 13. 8-33. East of Jordan.
+  F |  | 14. 1, 2. Obedience as to the 9 1/2 tribes.
+    G |  | 14. 3-5. East of Jordan.
+
+[[diagram: 8-33 (G, p. 307). East of Jordan (Alternation)]]
+[[anchor: Joshua 13:8-33]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 19]]
+
+G |  |
+  a | 8-13 | General.
+    b | 14 | Exception. Tribe of Levi.
+  a | 15-32 | General.
+    b | 33 | Exception. Tribe of Levi.
+
+[[diagram: 14. 6—17. 18 (E2, p. 307). By Joshua (Division)]]
+[[anchor: Joshua 14:6]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 20]]
+
+E2 |  |
+  H1 |  | 14. 6—15. 63. Judah.
+  H2 |  | 16. 1—17. 18. Joseph.
+
+[[diagram: 14. 6—15. 63 (H1, above). Judah (Alternation)]]
+[[anchor: Joshua 14:6]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 20]]
+
+H1 |  |
+  c1 |  | 14. 6-. The Tribe.
+    d |  | 14. -6-15. Caleb.
+  c2 |  | 15. 1-12. The Tribe.
+    d |  | 15. 13-19. Caleb.
+  c3 |  | 15. 20-63. The Tribe.
+
+[[diagram: 16. 1—17. 18 (H2, p. 309). Joseph (Division)]]
+[[anchor: Joshua 16:1]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 22]]
+
+H2 |  |
+  J1 |  | 16. 1-4. Collectively.
+  J2 |  | 16. 5—17. 18. Severally.
+
+[[diagram: 16. 5—17. 18 (J2, above). Severally (Alternation)]]
+[[anchor: Joshua 16:5]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 22]]
+
+J2 |  |
+  e |  | 16. 5-9. Ephraim. Possessed.
+    f |  | 16. 10. Unexpelled.
+  e |  | 17. 1-11. Manasseh. Possessed.
+    f |  | 17. 12-18. Unexpelled.
+
+[[diagram: 17. 1-11 (e, above). Manasseh. Possessed (Repeated Alternation)]]
+[[anchor: Joshua 17:1-11]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 22]]
+
+e |  |
+  g1 | 1, 2 | Manasseh. East and West of Jordan.
+    h1 | 3, 4 | Daughters of Zelophehad.
+  g2 | 5 | Manasseh. West of Jordan.
+    h2 | 6- | Daughters of Zelophehad.
+  g3 | -6-11 | Manasseh. West and East of Jordan.
+
+[[diagram: 18. 2—19. 51 (B, p. 307). Civil. Uninherited Cities (the Seven Tribes) (Introversion)]]
+[[anchor: Joshua 18:2]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 23]]
+
+B |  |
+  K |  | 18. 2, 3. Survey proposed.
+    L |  | 18. 4-6. Directions.
+    L |  | 18. 7. Exceptions.
+  K |  | 18. 8—19. 51. Survey executed.
+
+[[diagram: 18. 8—19. 51 (K, p. 312). Survey Executed (Alternation)]]
+[[anchor: Joshua 18:8]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 24]]
+
+K |  |
+  M |  | 18. 8, 9. Joshua's survey of land.
+    N |  | 18. 10. The division by lot.
+  M |  | 18. 11—19. 50. Joshua's allotment of land.
+    N |  | 19. 51. The division by lot.
+
+[[diagram: 18. 11—19. 50 (M, above). Joshua's Allotment (Divisions)]]
+[[anchor: Joshua 18:11]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 24]]
+
+M |  |
+  l1 |  | 18. 11-28. Benjamin.
+  l2 |  | 19. 1-9. Simeon.
+  l3 |  | 19. 10-16. Zebulun.
+  l4 |  | 19. 17-23. Issachar.
+  l5 |  | 19. 24-31. Asher.
+  l6 |  | 19. 32-39. Naphtali.
+  l7 |  | 19. 40-48. Dan.
+  l8 |  | 19. 49, 50. Joshua.
+
+[[diagram: 20. 1—21. 42 (D, p. 307). Sacred. Cities (Division)]]
+[[anchor: Joshua 20:1]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 26]]
+
+D |  |
+  O1 |  | 20. 1-9. Cities of Refuge.
+  O2 |  | 21. 1-42. Cities of the Levites.
+
+[[diagram: 20. 1-9 (O1, above). Cities of Refuge (Alternation)]]
+[[anchor: Joshua 20:1-9]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 26]]
+
+O1 |  |
+  m | 1, 2 | Command.
+    n | 3-6 | Intention.
+  m | 7-9- | Obedience.
+    n | -9 | Intention.
+
+[[diagram: 21. 1-42 (O2, above). Cities of the Levites (Introversion)]]
+[[anchor: Joshua 21:1-42]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 26]]
+
+O2 |  |
+  P | 1, 2 | Levites. Application made.
+    Q | 3 | Cities granted. Collectively.
+    Q | 4-40 | Cities granted. Severally.
+  P | 41, 42 | Levites. Application granted.
+
+[[diagram: 4-40 (Q, p. 315). Cities Granted. Severally (Extended Alternation)]]
+[[anchor: Joshua 21:4-40]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 27]]
+
+Q |  |
+  o |  |
+    p | 4, 5 | Kohath
+      q | 6 | Gershon
+        r | 7, 8 | Merari
+[[group: Severally.]]
+  o |  |
+    p | 9-26 | Kohath
+      q | 27-33 | Gershon
+        r | 34-40 | Merari
+[[group: In detail, and sum.]]
+
+[[diagram: 22. 1-34 (B, p. 289). Jordan. Events Connected Therewith (Division)]]
+[[anchor: Joshua 22:1-34]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 28]]
+
+B |  |
+  A1 | 1-9 | West of Jordan.
+  A2 | 10-34 | East of Jordan.
+
+[[diagram: 1-9 (A1, above). West of Jordan (Alternation)]]
+[[anchor: Joshua 22:1-9]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 28]]
+
+A1 |  |
+  B |  |
+    a | 1 | Two and a half tribes. Called.
+      b | 2-6 | Their charge.
+  B |  |
+    a | 7- | The half tribe. Allotted.
+      b | -7-9 | Their dismission and return.
+
+[[diagram: 10-34 (A2, p. 317). East of Jordan (Introversion)]]
+[[anchor: Joshua 22:10-34]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 29]]
+
+A2 |  |
+  c | 10 | The altar erected.
+    d | 11, 12 | Offence. War proposed.
+      e | 13, 14 | Mission of Phinehas.
+        f | 15-20 | Expostulation.
+        f | 21-29 | Explanation.
+      e | 30-32 | Approbation of Phinehas.
+    d | 33 | Offence removed. War averted.
+  c | 34 | The altar named.
+
+[[diagram: 15-20 (f, above). Expostulation (Alternation)]]
+[[anchor: Joshua 22:15-20]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 29]]
+
+f |  |
+  g | 15, 16 | Trespass pointed out.
+    h | 17 | Example of Peor adduced.
+  g | 18, 19 | Rebellion pointed out.
+    h | 20 | Example of Achan adduced.
+
+[[diagram: 21-29 (f, above). Explanation (Introversion and Alternation)]]
+[[anchor: Joshua 22:21-29]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 29]]
+
+f |  |
+  i |  |
+    l | 21, 22 | Rebellion disclaimed.
+      m | 23 | Offerings disclaimed.
+        k | 24-27 | Real purpose: a witness.
+        k | 28 | Real purpose: a pattern.
+  i |  |
+    l | 29- | Rebellion disclaimed.
+      m | -29 | Offerings disclaimed.
+
+[[diagram: 23. 1—24. 28 (A, p. 289). Joshua Ending his Work (Alternation)]]
+[[anchor: Joshua 23:1]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 30]]
+
+A |  |
+  C |  | 23. 1. Time. Israel at rest.
+    D |  | 23. 2-16. Address to Israel.
+  C |  | 24. 1. Place. Assembling of Israel.
+    D |  | 24. 2-28. Address to Israel.
+
+[[diagram: 2-16 (D, above). Address to Israel (Introversion, with Extended and Simple Alternation)]]
+[[anchor: Joshua 23:2-16]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 30]]
+
+D |  |
+  E |  |
+    n | 2 | Advancing age.
+      o | 3 | Appeal to Jehovah's faithfulness.
+        p | 4 | Division of the land. Accomplished.
+    F |  |
+      q | 5 | Promise.
+        r | 6-8 | Exhortation.
+    F |  |
+      q | 9, 10 | Promise.
+        r | 11-13 | Exhortation.
+  E |  |
+    n | 14- | Approaching death.
+      o | -14 | Appeal to Jehovah's goodness.
+        p | 15, 16 | Forfeiture of land. Possible.
+
+[[diagram: 6-8 (r, above). Exhortation (Introversion)]]
+[[anchor: Joshua 23:6-8]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 30]]
+
+r |  |
+  s | 6 | To observe the Law of Moses.
+    t | 7- | Warning against Canaanites.
+    t | -7 | Command against their idolatry.
+  s | 8 | To cleave to Jehovah.
+
+[[diagram: 11-13 (r, p. 319). Exhortation (Introversion)]]
+[[anchor: Joshua 23:11-13]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 31]]
+
+r |  |
+  u | 11 | Jehovah your God. Love to be given Him.
+    v | 12 | Warning against Canaanites. Alliances.
+    v | 13- | Warning against Canaanites. Consequences.
+  u | -13 | Jehovah your God. Land given by Him.
+
+[[diagram: 24. 1-28 (D, p. 319). Address to Elders (Introversion)]]
+[[anchor: Joshua 24:1-28]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 31]]
+
+D |  |
+  w | 1 | Assemblage of elders.
+    x | 2-24 | Covenant made.
+    x | 25-27 | Covenant ratified.
+  w | 28 | Dismissal of People.
+
+[[diagram: 2-24 (x, above). Covenant Made (Repeated Alternation)]]
+[[anchor: Joshua 24:2-24]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 31]]
+
+x |  |
+  G1 | 2-15 | Joshua. History and exhortations.
+    H1 | 16-18 | People. Assent.
+  G2 | 19, 20 | Joshua. Alternatives.
+    H2 | 21 | People. Assent affirmed.
+  G3 | 22- | Joshua. Appeal.
+    H3 | -22 | People. Assent.
+  G4 | 23 | Joshua. Exhortation.
+    H4 | 24 | People. Promise.
+
+[[diagram: 24. 29-33 (p. 289). Epilogue (Introversion)]]
+[[anchor: Joshua 24:29-33]]
+[[pdf: 6. Joshua_text.pdf]]
+[[pdf-page: 32]]
+
+X |  |
+  y | 29, 30 | Death and burial of Joshua.
+    z | 31 | Obedience to Jehovah's command.
+    z | 32 | Obedience to Joseph's command.
+  y | 33 | Death of Eleazar.
