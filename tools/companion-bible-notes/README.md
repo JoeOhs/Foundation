@@ -17,6 +17,9 @@ each, so adding a book needs no code change.
 `--book=` writes the same file with just that one book in it, which is how a
 book gets tested on its own before being folded in. Re-run `--all` afterwards.
 
+`ocr-check.py` cross-checks a transcribed book against a fresh Tesseract OCR
+of its scans (see the skill for when and how).
+
 Nothing here is part of the app runtime or `src-tauri/`.
 
 **Adding a book is a data task.** The step-by-step workflow, including the
