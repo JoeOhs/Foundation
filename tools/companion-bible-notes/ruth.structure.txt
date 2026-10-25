@@ -1,0 +1,116 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Ruth
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/8. Ruth_text.pdf); [[pdf-page:]] is the
+# page of that file each diagram is on. Notation: README.md here.
+#
+# A printed reference that reaches outside the diagram's anchor chapter
+# can't be a REF_RANGE, which is verses of one chapter; such a line keeps
+# its reference at the head of its TEXT instead, as printed.
+
+[[diagram: The Structure of the Book as a Whole (Introversion)]]
+[[anchor: Ruth 1:1]]
+[[pdf: 8. Ruth_text.pdf]]
+[[pdf-page: 1]]
+
+A |  | 1. 1-18. ELIMELECH'S FAMILY. THE DEPRESSION.
+  B |  | 1. 19-22. SYMPATHY WITH NAOMI. IN GRIEF.
+    C |  | 2. 1-23. BOAZ AND RUTH.
+    C |  | 3. 1—4. 13. RUTH AND BOAZ.
+  B |  | 4. 14-17. SYMPATHY WITH NAOMI. IN JOY.
+A |  | 4. 18-22. ELIMELECH'S FAMILY. THE UPLIFTING.
+
+[[diagram: 1. 1-18 (A, p. 359). Elimelech's Family. The Depression (Alternation)]]
+[[anchor: Ruth 1:1-18]]
+[[pdf: 8. Ruth_text.pdf]]
+[[pdf-page: 2]]
+
+A |  |
+  A1 | 1-3 | Departure from Beth-lehem.
+    B1 | 4, 5 | Daughters-in-law. Bereavement.
+  A2 | 6, 7 | Departure for Beth-lehem.
+    B2 | 8-18 | Daughters-in-law. Colloquy.
+
+[[diagram: 8-18 (B2, above). Daughters-in-law. Colloquy (Repeated Alternation)]]
+[[anchor: Ruth 1:8-18]]
+[[pdf: 8. Ruth_text.pdf]]
+[[pdf-page: 2]]
+
+B2 |  |
+  a1 | 8, 9- | Advice to leave her.
+    b1 | -9, 10 | Reception. Refusal of both.
+  a2 | 11-13 | Advice to leave her.
+    b2 | 14 | Reception. Refusal of Ruth.
+  a3 | 15 | Advice to leave her.
+    b3 | 16-18 | Reception. Resolve of Ruth.
+
+[[diagram: 19-22 (B, p. 359). Sympathy with Naomi. In Grief (Introversion)]]
+[[anchor: Ruth 1:19-22]]
+[[pdf: 8. Ruth_text.pdf]]
+[[pdf-page: 3]]
+
+B |  |
+  C | 19- | Beth-lehem. Arrival.
+    D | -19 | Sympathy given.
+    D | 20, 21 | Sympathy needed.
+  C | 22 | Beth-lehem. Settlement.
+
+[[diagram: 2. 1-23 (C, p. 359). Boaz and Ruth (Introversion and Extended Alternation)]]
+[[anchor: Ruth 2:1-23]]
+[[pdf: 8. Ruth_text.pdf]]
+[[pdf-page: 3]]
+
+C |  |
+  c | 1 | Boaz. His kindred.
+    d |  |
+      e | 2 | Ruth. Purpose.
+        f | 3 | Departure.
+          g | 4-16 | Colloquy. Boaz and Ruth.
+    d |  |
+      e | 17 | Ruth. Performance.
+        f | 18 | Return.
+          g | 19-22 | Colloquy. Naomi and Ruth.
+  c | 23 | Boaz. His maidens.
+
+[[diagram: 3. 1—4. 13 (C, p. 359). Ruth and Boaz (Introversion)]]
+[[anchor: Ruth 3:1]]
+[[pdf: 8. Ruth_text.pdf]]
+[[pdf-page: 4]]
+
+C |  |
+  E |  | 3. 1-12. Claim of kinsman. Asserted.
+    F |  | 3. 13. Promise made.
+    F |  | 3. 14-18. Promise waited for.
+  E |  | 4. 1-13. Claim of kinsman. Fulfilled.
+
+[[diagram: 4. 1-13 (E, p. 363). Claim of Kinsman. Fulfilled (Introversion)]]
+[[anchor: Ruth 4:1-13]]
+[[pdf: 8. Ruth_text.pdf]]
+[[pdf-page: 5]]
+
+E |  |
+  h | 1-11- | In detail.
+    i | -11, 12 | Prayer.
+  h | 13 | In sum.
+
+[[diagram: 14-17- (B, p. 359). Sympathy with Naomi. In Joy (Introversion)]]
+[[anchor: Ruth 4:14-17]]
+[[pdf: 8. Ruth_text.pdf]]
+[[pdf-page: 5]]
+
+B |  |
+  k | 14, 15 | Blessing by women.
+    l | 16 | Naomi's joy.
+  k | 17- | Naming by women.
+
+# The page also prints "THE GENERATIONS OF PHAREZ", a family-tree chart
+# (Judah to David). It is a drawing, not an outline, so it is left to the
+# page scan; its footnote is kept with the 4:18 note.
+[[diagram: -17-22 (A, p. 359). Elimelech's Family. The Uplifting (Introversion)]]
+[[anchor: Ruth 4:17-22]]
+[[pdf: 8. Ruth_text.pdf]]
+[[pdf-page: 6]]
+
+A |  |
+  m | -17 | Obed, Jesse, and David.
+    n | 18-21 | The generations of Pharez.
+  m | 22 | Obed, Jesse, and David.
