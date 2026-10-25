@@ -1458,7 +1458,7 @@ running list of what's done and what's next, not a commitment.
   itself (as opposed to the Appendixes above). Installs from the Library's
   "Reference works" section as a single `commentary` source containing one
   `books` row per transcribed book — **Genesis**, **Exodus**,
-  **Leviticus**, **Numbers** and **Deuteronomy** — the Torah — as one add-on, listed with the Appendixes under Library → Add-ons. Joshua and Philemon are transcribed but held out of the shipped bundle (`build.mjs --books=…`) until the next release. Two content shapes share it:
+  **Leviticus**, **Numbers** and **Deuteronomy** — the Torah — as one add-on, listed with the Appendixes under Library → Add-ons. Joshua, Judges and Philemon are transcribed but held out of the shipped bundle (`build.mjs --books=…`) until the next release. Two content shapes share it:
   - *Structure diagrams* — Bullinger's nested outlines, stored as **data**
     (one `entries` row per outline line) rather than as page images, so
     highlighting, binding and annotating work on an individual outline line
@@ -1553,6 +1553,11 @@ running list of what's done and what's next, not a commitment.
   **Joshua** is complete: 65 Structure diagrams and 380 verse entries
   across all 24 chapters, the first book cross-checked with
   `ocr-check.py` (a fresh Tesseract OCR) instead of the archive's OCR.
+
+  **Judges** is complete: 89 Structure diagrams and 419 verse entries
+  across all 21 chapters, checked the same way. Likely printer's slips
+  are left as printed and listed in the headers of `judges.notes.txt`
+  and `judges.structure.txt`.
 
   Known gap, Genesis onward: a bare in-book reference ("See note on
   26. 28", "Cp. 30. 21") is **not** linked — only `v. N` and references

@@ -1,0 +1,1183 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Judges
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/7. Judges_text.pdf); [[pdf-page:]] is the
+# page of that file each diagram is on. Notation: README.md here.
+#
+# A printed reference that reaches outside the diagram's anchor chapter
+# can't be a REF_RANGE, which is verses of one chapter; such a line keeps
+# its reference at the head of its TEXT instead, as printed.
+#
+# Printed slips kept as printed, each noted above its diagram: "1. 17-36"
+# (for 1. 27-36) and "8. 32" (for 8. 35). Two ranges whose type broke
+# or did not print are restored from their own headings: E2's "8. 32"
+# and A2's "18. -1-31"; likewise m3's heading "15-21".
+
+[[diagram: The Structure of the Book as a Whole (Alternation and Introversion)]]
+[[anchor: Judges 1:1]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 1]]
+
+A |  |
+  C |  | 1. 1—2. 5. ISRAEL AND OTHER PEOPLES. AGGRESSIONS.
+  D |  | 2. 6—8. 35. GOVERNMENT.
+B |  | 9. 1-57. INTERNAL DISORDERS.
+A |  |
+  D |  | 10. 1—16. 31. GOVERNMENT.
+  C |  | 17. 1—18. 31. ISRAEL AND OTHER PEOPLES. AGGRESSIONS.
+B |  | 19. 1—21. 25. INTERNAL DISORDERS.
+
+[[diagram: 1. 1—2. 5 (C, p. 323). Conquests. Israel and Other Nations (Alternation)]]
+[[anchor: Judges 1:1]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 2]]
+
+C |  |
+  A |  | 1. 1-20. By the tribe of Judah.
+    B |  | 1. 21. Unexpelled inhabitants.
+  A |  | 1. 22-26. By the house of Joseph.
+    B |  | 1. 27—2. 5. Unexpelled inhabitants.
+
+[[diagram: 1-20 (A, above). By the Tribe of Judah (Alternations)]]
+[[anchor: Judges 1:1-20]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 2]]
+
+A |  |
+  a |  |
+    c | 1-4 | Judah.
+      d | 5-8 | Conquest. Jerusalem.
+    b |  |
+      e | 9 | Judah.
+        f | 10 | Conquest. Hebron.
+  a |  |
+    c | 11 | Judah.
+      d | 12-16 | Conquest. Debir.
+    b |  |
+      e | 17 | Judah.
+        f | 18-20 | Conquest. Hebron.
+
+[[diagram: 22-26 (A, p. 325). By the House of Joseph (Introversion and Alternation)]]
+[[anchor: Judges 1:22-26]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 3]]
+
+A |  |
+  g |  |
+    i | 22, 23- | Beth-el besieged.
+      k | -23 | Name explained.
+        h | 24- | Spies. Mission.
+        h | -24 | Spies. Action.
+  g |  |
+    i | 25 | Beth-el taken.
+      k | 26 | Name explained.
+
+# "1. 17-36" is as printed (the section is 1. 27-36).
+[[diagram: 1. 27—2. 5 (B, p. 325). Unexpelled Inhabitants (Division)]]
+[[anchor: Judges 1:27]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 3]]
+
+B |  |
+  C1 |  | 1. 17-36. Non-expulsion. The sin.
+  C2 |  | 2. 1-5. Non-expulsion. The punishment.
+
+[[diagram: 27-36 (C1, above). Non-expulsion. Sin (Introversion and Alternation)]]
+[[anchor: Judges 1:27-36]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 3]]
+
+C1 |  |
+  l |  |
+    n | 27 | Manasseh.
+      o | 28 | Made them tributaries.
+        m |  |
+          p | 29, 30- | Ephraim and Zebulun.
+            q | -30 | Made them tributaries.
+        m |  |
+          p | 31-33- | Asher and Naphtali.
+            q | -33 | Made them tributaries.
+  l |  |
+    n | 34, 35- | Dan.
+      o | -35, 36 | Made them tributaries.
+
+[[diagram: 2. 1-5 (C2, p. 326). Non-expulsion. Punishment (Alternation)]]
+[[anchor: Judges 2:1-5]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 4]]
+
+C2 |  |
+  r | 1, 2 | Expostulation. Cause. Disobedience.
+    s | 3 | Threatening.
+  r | 4 | Expostulation. Effect. Weeping.
+    s | 5 | Worship.
+
+# "8. 32" is as printed here and below (the Structure of the Book has 8. 35).
+[[diagram: 2. 6—8. 32 (D, p. 323). Government (Division)]]
+[[anchor: Judges 2:6]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 4]]
+
+D |  |
+  D1 |  | 2. 6-10. Antecedent.
+  D2 |  | 2. 11—8. 32. Subsequent.
+
+[[diagram: 2. 6-10 (D1, above). Antecedent (Alternation)]]
+[[anchor: Judges 2:6-10]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 4]]
+
+D1 |  |
+  t | 6 | Joshua's life.
+    u | 7 | Predecessors. Knowledge. Obedience.
+  t | 8-10- | Joshua's death.
+    u | -10 | Successors. Ignorance. Disobedience.
+
+# E2's "8. 32" has a broken digit on the scan (": 2"); the heading above
+# gives 8. 32.
+[[diagram: 2. 11—8. 32 (D2, above). Subsequent (Division)]]
+[[anchor: Judges 2:11]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 4]]
+
+D2 |  |
+  E1 |  | 2. 11—3. 4. The People and their Apostasies.
+  E2 |  | 3. 5—8. 32. The oppressors and Deliverers.
+
+[[diagram: 2. 11—3. 4 (E1, above). The People and Their Apostasies (Extended Alternation)]]
+[[anchor: Judges 2:11]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 4]]
+
+E1 |  |
+  v |  | 2. 11-13. Evil committed.
+    w |  | 2. 14-. Anger of Jehovah.
+      x |  | 2. -14, 15. Punishment. Sold to enemies.
+  v |  | 2. 16-19. Evil repeated.
+    w |  | 2. 20-. Anger of Jehovah.
+      x |  | 2. -20—3. 4. Punishment. Proved by enemies.
+
+[[diagram: 16-19 (v, p. 327). Evil Repeated (Extended Alternation)]]
+[[anchor: Judges 2:16-19]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 5]]
+
+v |  |
+  y | 16- | Judges raised up.
+    z | -16 | Deliverance.
+      a | 17 | Apostasy.
+  y | 18- | Judges raised up.
+    z | -18 | Deliverance.
+      a | 19 | Apostasy.
+
+[[diagram: 2. 20—3. 4 (x, p. 327). Punishment. Proving (Repeated Alternation)]]
+[[anchor: Judges 2:20]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 5]]
+
+x |  |
+  b1 |  | 2. -20, 21. Non-expulsion.
+    c1 |  | 2. 22. Trial.
+  b2 |  | 2. 23. Non-expulsion.
+    c2 |  | 3. 1, 2. Trial.
+  b3 |  | 3. 3. Non-expulsion.
+    c3 |  | 3. 4. Trial.
+
+[[diagram: 3. 5—8. 32 (E2, p. 327). Oppressors and Deliverers (Introversion)]]
+[[anchor: Judges 3:5]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 5]]
+
+E2 |  |
+  F |  | 3. 5-11. Chushan-rishathaim. (Othniel.)
+    G |  | 3. 12-30. Eglon. (Ehud.)
+      H |  | 3. 31. Shamgar. (Philistines.)
+    G |  | 4. 1—5. 31. Jabin. (Barak.)
+  F |  | 6. 1—8. 35. Midian. (Gideon.)
+
+[[diagram: 3. 5-11 (F, above). Chushan-rishathaim, and Othniel (Extended Alternation)]]
+[[anchor: Judges 3:5-11]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 5]]
+
+F |  |
+  d | 5-7 | Evil committed.
+    e | 8- | Oppressor. (Chushan-rishathaim.)
+      f | -8 | Servitude. Eight years.
+  d | 9- | Evil repented of.
+    e | -9, 10 | Deliverer. (Othniel.)
+      f | 11 | Rest. Forty years.
+
+[[diagram: 12-30 (G, p. 328). Eglon. (Ehud.) (Extended Alternation)]]
+[[anchor: Judges 3:12-30]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 6]]
+
+G |  |
+  g | 12- | Evil committed.
+    h | -12, 13 | Oppressor. (Eglon.)
+      i | 14 | Servitude. Eighteen years.
+  g | 15- | Evil repented of.
+    h | -15-30- | Deliverer. (Ehud.)
+      i | -30 | Rest. Eighty years.
+
+[[diagram: -15-30 (h, above). Deliverer. (Ehud.) (Division)]]
+[[anchor: Judges 3:15-30]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 6]]
+
+h |  |
+  j1 | -15-26 | Assassination of Eglon.
+  j2 | 27-30 | Slaughter of Moabites.
+
+[[diagram: -15-26 (j1, above). Assassination of Eglon (Division and Introversion)]]
+[[anchor: Judges 3:15-26]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 6]]
+
+j1 |  |
+  k1 |  |
+    l | -15 | Present sent.
+      m | 16 | Dagger prepared.
+    l | 17, 18 | Present brought.
+  k2 |  |
+    n | 19, 20 | Interview sought.
+      o | 21, 22 | Dagger used.
+    n | 23-26 | Interview ended.
+
+[[diagram: 4. 1—5. 31 (G, p. 329). Jabin. (Deborah.) (Division)]]
+[[anchor: Judges 4:1]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 7]]
+
+G |  |
+  J1 |  | 4. 1-3. Oppression by Jabin.
+  J2 |  | 4. 4—5. 31. Deliverance by Barak.
+
+[[diagram: 1-3 (J1, above). Oppression by Jabin (Alternation)]]
+[[anchor: Judges 4:1-3]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 7]]
+
+J1 |  |
+  p | 1 | Evil wrought.
+    q | 2 | Oppression.
+  p | 3- | Evil repented of.
+    q | -3 | Oppression.
+
+[[diagram: 4. 4—5. 31 (J2, above). Deliverance by Deborah (Alternation)]]
+[[anchor: Judges 4:4]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 7]]
+
+J2 |  |
+  K |  | 4. 4, 5. Deliverer raised up.
+    L |  | 4. 6-24. Deliverance.
+  K |  | 5. 1-31-. Deliverers' song.
+    L |  | 5. -31. Rest.
+
+[[diagram: 6-24 (L, above). Deliverance (Introversion and Extended Alternation)]]
+[[anchor: Judges 4:6-24]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 7]]
+
+L |  |
+  M | 6 | Command given by Jehovah.
+    N |  |
+      r | 7- | Place of battle.
+        s | -7 | Victory promised.
+          t | 8, 9 | Instruments. Barak and a woman.
+    N |  |
+      r | 10-13 | Place of battle.
+        s | 14-16 | Victory. Promise fulfilled.
+          t | 17-22 | Instruments. Barak and a woman.
+  M | 23, 24 | Victory given by Jehovah.
+
+[[diagram: 17-22 (t, p. 330). Instrument. A Woman (Extended Alternation)]]
+[[anchor: Judges 4:17-22]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 8]]
+
+t |  |
+  u | 17 | Flight of Sisera.
+    v | 18- | Jael meeting Sisera.
+      w | -18-20 | Concealment.
+        x | 21 | Sisera slain.
+  u | 22- | Pursuit by Barak.
+    v | -22- | Jael meeting Barak.
+      w | -22- | Discovery.
+        x | -22 | Sisera dead.
+
+[[diagram: 5. 1-31- (K, p. 330). The Deliverers' Song (Introversions)]]
+[[anchor: Judges 5:1-31]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 8]]
+
+K |  |
+  O | 1, 2- | Praise to Jehovah. Avenging of Israel.
+    P |  |
+      y | -2, 3 | Israel. People's voluntary service.
+        z | 4-8 | Contrasted states of the country
+      y | 9 | Israel. Leaders' voluntary service.
+        Q | 10, 11 | Contrasted states of the country.
+        Q | 12-18 | Contrasted conduct of tribes.
+    P |  |
+      a | 19-22 | Enemy. Battle and defeat.
+        b | 23-27 | Contrasted succour for Israel.
+      a | 28-30 | Enemy. Presumption and defeat.
+  O | 31- | Praise to Jehovah. Avenging of Israel.
+
+[[diagram: 12-18 (Q, p. 331). Contrasted Conduct of Tribes (Introversion)]]
+[[anchor: Judges 5:12-18]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 9]]
+
+Q |  |
+  c | 12-15- | Warriors.
+    d | -15-17 | Absentees.
+  c | 18 | Warriors.
+
+[[diagram: 23-27 (b, p. 331). Contrasted Succour for Israel (Alternation)]]
+[[anchor: Judges 5:23-27]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 10]]
+
+b |  |
+  e | 23- | Curse.
+    f | -23 | Reason.
+  e | 24 | Blessing.
+    f | 25-27 | Reason.
+
+[[diagram: 6. 1—8. 35 (F, p. 328). Midian. (Gideon.) (Division)]]
+[[anchor: Judges 6:1]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 10]]
+
+F |  |
+  R1 |  | 6. 1-10. Midian.
+  R2 |  | 6. 11—8. 35. Gideon.
+
+[[diagram: 6. 1-10 (R1, above). Midian (Introversion)]]
+[[anchor: Judges 6:1-10]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 10]]
+
+R1 |  |
+  g | 1- | The evil wrought.
+    h | -1- | The oppressor.
+      i | -1 | Servitude (seven years)
+    h | 2-6- | The oppression.
+  g | -6-10 | The evil repented of.
+
+[[diagram: 6. 11—8. 35 (R2, p. 333). Gideon (Repeated Alternation)]]
+[[anchor: Judges 6:11]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 11]]
+
+R2 |  |
+  S1 |  | 6. 11—7. 18. The Deliverer. Raised up.
+    T1 |  | 7. 19—8. 23. Deliverance.
+  S2 |  | 8. 24-27. The Deliverer. Rewarded.
+    T2 |  | 8. 28. Rest (forty years).
+  S3 |  | 8. 29-35. The Deliverer. Forgotten.
+
+[[diagram: 6. 11—7. 18 (S1, above). The Deliverer. Raised Up (Extended Alternation, with Introversion)]]
+[[anchor: Judges 6:11]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 11]]
+
+S1 |  |
+  U |  |
+    j |  | 6. 11-16. Angel of Jehovah. Message to Gideon.
+      k |  | 6. 17-24. Sign. Fire.
+        l |  | 6. 25-27. Command.
+          V |  |
+            m |  | 6. 28-32. Obedience of Gideon.
+              n |  | 6. 33. Midianites.
+  U |  |
+    j |  | 6. 34, 35. Spirit of Jehovah. Message to tribes.
+      k |  | 6. 36-40. Signs. Fleece.
+        l |  | 7. 1-11. Directions.
+          V |  |
+            n |  | 7. 12-14. Midianites.
+            m |  | 7. 15-18. Obedience of Gideon.
+
+[[diagram: 6. 11-16 (j, above). Angel of Jehovah. Message, &c. (Repeated Alternation)]]
+[[anchor: Judges 6:11-16]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 11]]
+
+j |  |
+  o1 | 11- | Angel. Place.
+    p1 | -11 | Gideon. Employment.
+  o2 | 12 | Angel. Encouragement.
+    p2 | 13 | Gideon. Complaint.
+  o3 | 14 | Angel. Mission.
+    p3 | 15 | Gideon. Question.
+  o4 | 16 | Angel. Answer.
+
+[[diagram: 17-24 (k, p. 334). Sign. Fire (Repeated Alternation)]]
+[[anchor: Judges 6:17-24]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 12]]
+
+k1 |  |
+  q1 | 17, 18- | Gideon. Request.
+    r1 | -18 | Angel. Compliance.
+  q2 | 19 | Gideon. Offering.
+    r2 | 20, 21 | Angel. Acceptance.
+  q3 | 22 | Gideon. Fear.
+    r3 | 23 | Angel. Assurance.
+  q4 | 24 | Gideon. Worship.
+
+[[diagram: 36-40 (k, p. 334). Sign. Fleece (Alternation)]]
+[[anchor: Judges 6:36-40]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 12]]
+
+k |  |
+  s | 36, 37 | Request.
+    t | 38 | Compliance.
+  s | 39 | Request.
+    t | 40 | Compliance.
+
+[[diagram: 7. 1-11 (l, p. 334). Direction (Introversion and Repeated Alternation)]]
+[[anchor: Judges 7:1-11]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 12]]
+
+l |  |
+  u | 1 | Gideon. Obedience.
+    v |  |
+      w1 | 2, 3- | Jehovah's objection.
+        x1 | -3 | Result.
+      w2 | 4 | Jehovah's objection.
+        x2 | 5, 6 | Result.
+      w3 | 7 | Jehovah's selection.
+        x3 | 8 | Result.
+  u | 9-11 | Gideon. Command.
+
+[[diagram: 7. 19—8. 23 (T1, p. 334). Deliverance (Alternation and Introversion)]]
+[[anchor: Judges 7:19]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 13]]
+
+T1 |  |
+  y |  | 7. 19, 20. The assault.
+    z |  |
+      a |  | 7. 21, 22. Midianite host. Flight.
+        b |  | 7. 23. Pursuit by Naphtali.
+  y |  | 7. 24, 25. The victory.
+    z |  |
+      b |  | 8. 1-12. Pursuit by Gideon.
+      a |  | 8. 13-23. Midianite kings. Capture.
+
+[[diagram: 8. 1-23 (z, p. 336). Pursuit and Capture (Introversion and Alternation)]]
+[[anchor: Judges 8:1-23]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 14]]
+
+z |  |
+  c | 1-3 | Men of Ephraim, and Gideon.
+    d |  |
+      e |  |
+        g | 4-7 | Succoth. Colloquy.
+          h | 8, 9 | Penuel. Colloquy.
+      f | 10-12 | Kings taken.
+    d |  |
+      e |  |
+        g | 13-16 | Succoth. Retribution.
+          h | 17 | Penuel. Retribution.
+      f | 18-21 | Kings slain.
+  c | 22, 23 | Men of Israel, and Gideon.
+
+[[diagram: 9. 1-57 (B, p. 323). Internal Disorders (Introversion)]]
+[[anchor: Judges 9:1-57]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 15]]
+
+B |  |
+  A | 1-6 | Abimelech's usurpation.
+    B | 7-21 | Action of Jotham.
+    B | 22-55 | Action of God.
+  A | 56, 57 | Abimelech's usurpation avenged.
+
+[[diagram: 7-21 (B, p. 338). Action of Jotham (Introversion)]]
+[[anchor: Judges 9:7-21]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 16]]
+
+B |  |
+  c | 7 | Jotham's coming forth.
+    d | 8-15 | Parable given.
+    d | 16-20 | Parable interpreted.
+  c | 21 | Jotham's fleeing away.
+
+[[diagram: 22-55 (B, p. 338). Action of God (Alternation and Introversion)]]
+[[anchor: Judges 9:22-55]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 16]]
+
+B |  |
+  C1 |  |
+    D | 22, 23 | Evil spirit sent out.
+      E |  |
+        F | 24- | Against Abimelech.
+          G | -24 | Against Shechemites.
+[[group: Purpose.]]
+  C2 |  |
+    D | 25-41 | Evil spirit in operation.
+      E |  |
+        G | 42-49 | Against Shechemites.
+        F | 50-55 | Against Abimelech.
+[[group: Accomplishment.]]
+
+[[diagram: 25-55 (C2, above). Evil Spirit in Operation (Alternations)]]
+[[anchor: Judges 9:25-55]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 16]]
+
+C2 |  |
+  H1 |  |
+    e | 25 | Shechemites.
+      f | 26- | Gaal.
+    e | -26, 27 | Shechemites.
+      f | 28, 29 | Gaal.
+  J1 | 30-33 | Zebul. Conspiracy.
+  H2 |  |
+    g | 34 | Abimelech.
+      h | 35- | Gaal.
+    g | -35 | Abimelech.
+      h | 36-38 | Gaal.
+  J2 | 39-41 | Zebul. Flight.
+  H3 |  |
+    i | 42-45 | Shechemites.
+      k | 46-49 | Tower of Shechem.
+    i | 50 | Thebez.
+      k | 51-55 | Tower of Thebez.
+
+# Printed as one diagram under two headings.
+[[diagram: 46-49 (k, p. 339). The Tower of Shechem. 51-55 (k, p. 339). The Tower of Thebez (Extended Alternation and Introversion)]]
+[[anchor: Judges 9:46-55]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 17]]
+
+H3 |  |
+  k |  |
+    l | 46, 47 | Refuge.
+      m |  |
+        o | 48 | Brushwood.
+        p | 49- | Burning.
+          n | -49 | Deaths. Shechemites.
+  k |  |
+    l | 51 | Refuge.
+      m |  |
+        p | 52 | Burning.
+        o | 53 | Millstone.
+          n | 54, 55 | Death. Abimelech.
+
+[[diagram: 10. 1—16. 31 (D, p. 323). Government (Alternation)]]
+[[anchor: Judges 10:1]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 18]]
+
+D |  |
+  A |  | 10. 1-5. Judges. (Tola and Jair.)
+    B |  | 10. 6—12. 7. Ammonites and Jephthah.
+  A |  | 12. 8-15. Judges. (Ibzan, Elon, Abdon.)
+    B |  | 13. 1—16. 31. Philistines and Samson.
+
+[[diagram: 10. 6—12. 7 (B, above). Ammonites and Jephthah (Extended Alternation)]]
+[[anchor: Judges 10:6]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 18]]
+
+B |  |
+  C |  | 10. 6. The evil wrought.
+    D |  | 10. 7. Selling to Philistines and Ammonites.
+      E |  | 10. 8, 9. Oppression (eighteen years).
+  C |  | 10. 10-16. The evil repented of.
+    D |  | 10. 17—12. 6. Deliverance by Jephthah.
+      E |  | 12. 7. Government by Jephthah (six years).
+
+[[diagram: 10-16 (C, above). The Evil Repented Of (Alternation)]]
+[[anchor: Judges 10:10-16]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 18]]
+
+C |  |
+  a | 10 | Confession.
+    b | 11-14 | Reproach.
+  a | 15, 16- | Confession.
+    b | -16 | Pity.
+
+[[diagram: 10. 17—12. 6 (D, p. 341). Deliverance by Jephthah (Repeated Alternations)]]
+[[anchor: Judges 10:17]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 19]]
+
+D |  |
+  F1 |  |
+    G1 |  | 10. 17. Ammonite invasion.
+      H1 |  |
+        c1 |  | 10. 18. A Leader needed.
+        d1 |  | 11. 1-3. Leader rejected.
+  F2 |  |
+    G2 |  | 11. 4. Ammonite war.
+      H2 |  |
+        c2 |  | 11. 5, 6. Jephthah called.
+        d2 |  | 11. 7-11. Jephthah appointed.
+  F3 |  |
+    G3 |  | 11. 12-28. Ammonite negotiation.
+      H3 |  |
+        c3 |  | 11. 29. Jephthah inspired.
+        d3 |  | 11. 30, 31. Jephthah's vow made.
+  F4 |  |
+    G4 |  | 11. 32, 33. Ammonite defeat.
+      H4 |  |
+        c4 |  | 11. 34-. Jephthah's return.
+        d4 |  | 11. -34-40. Jephthah's vow performed.
+  F5 |  |
+    G5 |  | 12. 1. Ephraimite dispute.
+      H5 |  |
+        c5 |  | 12. 2, 3. Jephthah's answer.
+        d5 |  | 12. 4-6. Jephthah's action.
+
+[[diagram: 12-28 (G3, above). Ammonite Negotiation (Alternation)]]
+[[anchor: Judges 11:12-28]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 19]]
+
+G3 |  |
+  e | 12 | First message.
+    f | 13 | King's answer.
+  e | 14-27 | Second message.
+    f | 28 | King's obstinacy.
+
+[[diagram: 11. -34-40 (d4, p. 342). The Vow Performed (Alternation)]]
+[[anchor: Judges 11:34-40]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 20]]
+
+d4 |  |
+  g | -34-36 | Performance.
+    h | 37, 38 | Suspension.
+  g | 39- | Performance.
+    h | -39, 40 | Commemoration.
+
+[[diagram: 8-15 (A, p. 341). Judges (Ibzan, Elon, Abdon) (Extended Alternation)]]
+[[anchor: Judges 12:8-15]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 21]]
+
+A |  |
+  i1 |  |
+    j1 | 8, 9- | Ibzan.
+      k1 | -9 | Government (seven years).
+        l1 | 10 | Death.
+  i2 |  |
+    j2 | 11- | Elon.
+      k2 | -11 | Government (ten years).
+        l2 | 12 | Death.
+  i3 |  |
+    j3 | 13, 14- | Abdon.
+      k3 | -14 | Government (eight years).
+        l3 | 15 | Death.
+
+[[diagram: 13. 1—16. 31 (B, p. 341). Philistines and Samson (Alternation)]]
+[[anchor: Judges 13:1]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 21]]
+
+B |  |
+  J |  | 13. 1-. Delivered to oppressors.
+    K |  | 13. -1. Time of servitude (forty years).
+  J |  | 13. 2—16. 31-. Delivered by Samson.
+    K |  | 16. -31. Time of government (twenty years).
+
+[[diagram: 13. 2—16. 31- (J, p. 344). Delivered by Samson (Introversion)]]
+[[anchor: Judges 13:2]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 22]]
+
+J |  |
+  L |  | 13. 2-21. Promise. A deliverer.
+    M |  | 13. 22, 23. Parents. Fear, and Cheer.
+    M |  | 13. 24, 25. Child. Growth, and Power.
+  L |  | 14. 1—16. 31-. Promise fulfilled. Deliverer.
+
+[[diagram: 13. 2-21 (L, above). Promise. A Deliverer (Division)]]
+[[anchor: Judges 13:2-21]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 22]]
+
+L |  |
+  m1 | 2-7 | First appearance of Angel.
+  m2 | 8-14 | Second appearance of Angel.
+  m3 | 15-21 | Detention of Angel.
+
+[[diagram: 13. 2-7 (m1, above). First Appearance of Angel (Introversion)]]
+[[anchor: Judges 13:2-7]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 22]]
+
+m1 |  |
+  n | 2- | Manoah, alone.
+    o | -2 | His wife, alone.
+    o | 3-5 | His wife, and Angel.
+  n | 6, 7 | Manoah, and wife.
+
+[[diagram: 8-14 (m2, above). Second Appearance of Angel (Alternation)]]
+[[anchor: Judges 13:8-14]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 22]]
+
+m2 |  |
+  p | 8- | Reappearance intreated.
+    q | -8 | Direction sought.
+  p | 9-11 | Reappearance vouchsafed.
+    q | 12-14 | Direction given.
+
+# The heading's hyphen ("15 21") did not print.
+[[diagram: 15-21 (m3, above). Detention of the Angel (Alternation and Introversion)]]
+[[anchor: Judges 13:15-21]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 22]]
+
+m3 |  |
+  r | 15, 16- | Invitation of Manoah.
+    s |  |
+      t | -16 | Manoah's ignorance.
+        u | 17, 18 | Angel's name. "Wonderful."
+  r | 19- | Offering of Manoah.
+    s |  |
+      u | -19-21- | Angel's action. "Wonderful."
+      t | -21 | Manoah's knowledge.
+
+[[diagram: 14. 1—16. 31- (L, p. 345). Promise Fulfilled (Alternation and Introversion)]]
+[[anchor: Judges 14:1]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 23]]
+
+L |  |
+  N |  |
+    A |  | 14. 1-20. Marriage.
+      B |  | 15. 1-19. Slaughter, in life.
+  O |  | 15. 20. Government, twenty years.
+  N |  |
+    A |  | 16. 1-20. Harlots.
+      B |  | 16. 21-31-. Slaughter, in death.
+
+[[diagram: 1-20 (N, above). Marriage (Division)]]
+[[anchor: Judges 14:1-20]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 23]]
+
+N |  |
+  P1 | 1-9 | Proposals.
+  P2 | 10-20 | Feast.
+
+[[diagram: 1-9 (P1, above). Proposals (Extended Alternations)]]
+[[anchor: Judges 14:1-9]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 23]]
+
+P1 |  |
+  v | 1-4 | Wife.
+    w | 5, 6- | Lion. Rent.
+      x | -6 | Concealment.
+  v | 7 | Wife.
+    w | 8, 9- | Lion. Honey in it.
+      x | -9 | Concealment.
+
+[[diagram: 10-20 (P2, above). The Feast (Introversion and Alternation)]]
+[[anchor: Judges 14:10-20]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 23]]
+
+P2 |  |
+  y | 10, 11 | Wife and companions.
+    z | 12, 13 | Conditions proposed.
+      a |  |
+        b | 14 | Riddle put forth.
+          c | 15-17 | Wife's deceit.
+      a |  |
+        b | 18- | Riddle solved.
+          c | -18 | Wife's deceit.
+    z | 19 | Conditions fulfilled.
+  y | 20 | Wife and companions.
+
+[[diagram: 15. 1-19 (B, p. 346). Slaughter, in Life (Division)]]
+[[anchor: Judges 15:1-19]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 24]]
+
+B |  |
+  Q1 | 1-8 | First slaughter.
+  Q2 | 9-19 | Second slaughter.
+
+[[diagram: 1-8 (Q1, above). First Slaughter (Alternation)]]
+[[anchor: Judges 15:1-8]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 24]]
+
+Q1 |  |
+  d | 1, 2 | Wife refused.
+    e | 3-5 | Retribution. Burning.
+  d | 6 | Wife burnt.
+    e | 7, 8- | Retribution. Slaughter.
+
+[[diagram: -8-19 (Q2, above). Second Slaughter (Alternation)]]
+[[anchor: Judges 15:8-19]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 24]]
+
+Q2 |  |
+  f | -8-16 | Expected retaliation.
+    g | 17 | Meaning of place. Ramath-lehi.
+  f | 18, 19- | Expected retaliation.
+    g | -19 | Meaning of place. En-hakkore.
+
+[[diagram: -8-16 (f, above). Expected Retaliation (Alternation)]]
+[[anchor: Judges 15:8-16]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 24]]
+
+f |  |
+  h | -8 | Etam. Samson there.
+    i | 9 | Philistines. Camp at Lehi.
+  h | 10-13 | Etam. Mission to Samson.
+    i | 14-16 | Philistines. Slaughter at Lehi.
+
+[[diagram: 16. 1-20 (A, p. 346). Harlots (Division)]]
+[[anchor: Judges 16:1-20]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 25]]
+
+A |  |
+  j1 | 1-3 | In Gaza.
+  j2 | 4-20 | In Sorek.
+
+[[diagram: 1-3 (j1, above). In Gaza (Introversion)]]
+[[anchor: Judges 16:1-3]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 25]]
+
+j1 |  |
+  k | 1 | Samson. Harlot of Gaza.
+[[group: -]]
+    l | 2- | Information given.
+    l | -2 | Expectation roused.
+[[group: Gazites.]]
+  k | 3 | Samson. Gates of Gaza.
+[[group: -]]
+
+[[diagram: 4-20 (j2, above). In Sorek (Introversion)]]
+[[anchor: Judges 16:4-31]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 25]]
+
+j2 |  |
+  m | 4 | Samson. Gaza to Sorek.
+    n | 5 | Delilah's bribe.
+    n | 6-20 | Delilah's snares.
+  m | 21-31- | Samson. Sorek to Gaza.
+
+[[diagram: 16. 6-20 (n, p. 348). Delilah's Snares (Division)]]
+[[anchor: Judges 16:6-20]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 26]]
+
+n |  |
+  o1 | 6-14 | Delilah's attempts. Failure.
+  o2 | 15-20 | Delilah's attempts. Success.
+
+[[diagram: 6-14 (o1, above). Delilah's Failure (Repeated and Extended Alternation)]]
+[[anchor: Judges 16:6-14]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 26]]
+
+o1 |  |
+  p1 |  |
+    q1 | 6 | Binding.
+      r1 | 7 | Means. Green withs.
+        s1 | 8 | Used.
+          t1 | 9 | Broken.
+  p2 |  |
+    q2 | 10 | Binding.
+      r2 | 11 | Means. New ropes.
+        s2 | 12- | Used.
+          t2 | -12 | Broken.
+  p3 |  |
+    q3 | 13- | Binding.
+      r3 | -13 | Means. Web and pin.
+        s3 | 14- | Used.
+          t3 | -14 | Carried away.
+
+[[diagram: 15-20 (o2, above). Delilah's Success (Introversion)]]
+[[anchor: Judges 16:15-20]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 26]]
+
+o2 |  |
+  u | 15-18 | Strength. Secret given.
+    v | 19 | Sleeping.
+    v | 20- | Waking.
+  u | -20 | Strength. Secret gone.
+
+[[diagram: 16. 21-31 (B, p. 346). Slaughter in Death (Introversion)]]
+[[anchor: Judges 16:21-31]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 27]]
+
+B |  |
+  w | 21- | Servitude.
+    x | -21 | Prison-house. Labour.
+      y | 22 | Hair growing.
+        z | 23, 24 | Festival.
+        z | 25-27 | Sport.
+      y | 28 | Strength restored.
+    x | 29, 30 | Prison-house. Destruction.
+  w | 31- | Burial.
+
+# A2's range prints as "18. -1 31", its hyphen not printed.
+[[diagram: 17. 1—18. 31 (C, p. 323). Israel and Other Peoples. Aggressions (Division)]]
+[[anchor: Judges 17:1]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 27]]
+
+C |  |
+  A1 |  | 17. 1—18. 1-. The idolatry of Micah.
+  A2 |  | 18. -1-31. Aggression of Danites.
+
+[[diagram: 17. 1—18. 1- (A1, above). Idolatry of Micah (Extended Alternation)]]
+[[anchor: Judges 17:1]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 27]]
+
+A1 |  |
+  a |  | 17. 1-4. Micah's house. Fabrication of image.
+    b |  | 17. 5. Consecration of his son.
+      c |  | 17. 6. "No king".
+  a |  | 17. 7-11. Micah's house. Arrival of Levite.
+    b |  | 17. 12, 13. Consecration of Levite.
+      c |  | 18. 1-. "No king".
+
+[[diagram: 18. -1-31 (A2, p. 350). Aggression of Danites (Introversion and Alternation)]]
+[[anchor: Judges 18:1-31]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 28]]
+
+A2 |  |
+  d | -1 | Danites. Inheritance.
+    e |  |
+      f | 2-6 | Mission of spies.
+        g | 7-10 | Security of Laish.
+    e |  |
+      f | 11-26 | Expedition of Danites.
+        g | 27-29 | Conquest of Laish.
+  d | 30, 31 | Danites. Idolatry.
+
+[[diagram: 18. 11-26 (f, p. 351). Expedition of Danites (Alternation)]]
+[[anchor: Judges 18:11-26]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 29]]
+
+f |  |
+  h | 11-13 | Expedition.
+    i | 14-20 | Interview with Levite.
+  h | 21 | Expedition.
+    i | 22-26 | Interview with Micah.
+
+[[diagram: 19. 1—21. 25 (B, p. 323). Internal Disorders (Introversion and Alternation)]]
+[[anchor: Judges 19:1]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 30]]
+
+B |  |
+  A |  | 19. 1-. "No king".
+    B |  |
+      C |  | 19. -1-28. The Provocation.
+        D |  | 19. 29—20. 11. Resentment.
+    B |  |
+      C |  | 20. 12-46. The civil war.
+        D |  | 20. 47—21. 24. The Regret.
+  A |  | 21. 25. "No king".
+
+[[diagram: 19. -1-28 (C, above). The Provocation (Alternation)]]
+[[anchor: Judges 19:1-28]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 30]]
+
+C |  |
+  a | -1-9 | At father-in-law's house.
+    b | 10-15 | Journey.
+  a | 16-26 | At old man's house.
+    b | 27, 28 | Journey.
+
+[[diagram: 19. 29—20. 11 (D, p. 353). Resentment (Alternation)]]
+[[anchor: Judges 19:29]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 31]]
+
+D |  |
+  c |  | 19. 29, 30. Message to tribes.
+    d |  | 20. 1-3. Unanimity.
+  c |  | 20. 4-7. Recital to tribes.
+    d |  | 20. 8-11. Unanimity.
+
+[[diagram: 20. 12-46 (C, p. 353). The Civil War (Introversion)]]
+[[anchor: Judges 20:12-46]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 32]]
+
+C |  |
+  E | 12-14 | Negotiations.
+    F | 15, 16 | Army of Benjamites.
+    F | 17 | Army of Israelites.
+  E | 18-46 | Hostilities.
+
+[[diagram: 12-14 (E, above). Negotiations (Introversion)]]
+[[anchor: Judges 20:12-14]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 32]]
+
+E |  |
+  e | 12 | Expostulation.
+    f | 13- | Requisition.
+    f | -13 | Refusal.
+  e | 14 | Preparation.
+
+[[diagram: 18-46 (E, above). Hostilities (Division)]]
+[[anchor: Judges 20:18-46]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 32]]
+
+E |  |
+  G1 | 18-25 | Unsuccessful.
+  G2 | 26-46 | Successful.
+
+[[diagram: 18-25 (G1, above). Unsuccessful (Alternation and Introversion)]]
+[[anchor: Judges 20:18-25]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 32]]
+
+G1 |  |
+  g |  |
+    i | 18 | Inquiry.
+    k | 19, 20 | Array.
+  h | 21 | Slain of Israel (22,000).
+  g |  |
+    k | 22 | Array.
+    i | 23 | Inquiry.
+  h | 24, 25 | Slain of Israel (18,000).
+
+[[diagram: 26-46 (G2, above). Successful (Division)]]
+[[anchor: Judges 20:26-46]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 32]]
+
+G2 |  |
+  H1 | 26-28 | Promise.
+  H2 | 29-46 | Fulfilment.
+
+[[diagram: 20. 29-46 (H2, p. 355). Fulfilment (Alternation)]]
+[[anchor: Judges 20:29-46]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 33]]
+
+H2 |  |
+  J | 29-33 | Ambuscade.
+    K | 34-37 | Defeat.
+  J | 38-41 | Ambuscade.
+    K | 42-46 | Defeat.
+
+[[diagram: 29-33 (J, above). Ambuscade (Introversion)]]
+[[anchor: Judges 20:29-33]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 33]]
+
+J |  |
+  l | 29 | Ambuscade.
+    m | 30 | Array.
+      n | 31, 32- | Slain of Israel (thirty).
+    m | -32, 33- | Pretended flight.
+  l | -33 | Ambuscade.
+
+[[diagram: 34-37 (K, above). Defeat (Introversion)]]
+[[anchor: Judges 20:34-37]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 33]]
+
+K |  |
+  o | 34- | Attack by ambuscade.
+    p | -34 | Danger unknown.
+      q | 35 | Slain of Benjamites (25,000).
+    p | 36 | Danger known.
+  o | 37 | Attack by ambuscade.
+
+[[diagram: 38-41 (J, above). Ambuscade (Alternation)]]
+[[anchor: Judges 20:38-41]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 33]]
+
+J |  |
+  r | 38 | Signal arranged.
+    s | 39 | Slain of Israel.
+  r | 40 | Signal given.
+    s | 41 | Amazement of Benjamites.
+
+[[diagram: 42-46 (K, above). Defeat (Alternation)]]
+[[anchor: Judges 20:42-46]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 33]]
+
+K |  |
+  t | 42- | Flight.
+    u | -42-44 | Slain of Benjamites.
+  t | 45- | Flight.
+    u | -45, 46 | Slain of Benjamites.
+
+[[diagram: 47—21. 24 (D, p. 353). Regret (Alternation and Introversion)]]
+[[anchor: Judges 20:47]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 33]]
+
+D |  |
+  v |  | 20. 47. The 600 fugitives (Rimmon).
+    w |  |
+      x |  | 20. 48. Destruction of others.
+        y |  | 21. 1-12. First expedient.
+  v |  | 21. 13-15. The 600 fugitives (Rimmon).
+    w |  |
+      y |  | 21. 16-23-. Second expedient.
+      x |  | 21. -23, 24. Reparation.
+
+[[diagram: 21. 1-12 (y, p. 356). First Expedient (Alternation and Introversion)]]
+[[anchor: Judges 21:1-12]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 34]]
+
+y |  |
+  z |  |
+    b | 1 | Oath.
+      c | 2-4 | Sorrow.
+        a | 5 | Absentees. Inquiry.
+  z |  |
+    c | 6 | Sorrow.
+    b | 7 | Oath.
+      a | 8-12 | Absentees. Punishment.
+
+[[diagram: 16-23- (y, p. 356). Second Expedient (Division and Introversions)]]
+[[anchor: Judges 21:16-23]]
+[[pdf: 7. Judges_text.pdf]]
+[[pdf-page: 34]]
+
+y |  |
+  d1 |  |
+    e | 16, 17 | Deficiency. Inquiry.
+      f | 18 | Prevention.
+    e | 19 | Deficiency. Supply.
+  d2 |  |
+    g | 20, 21 | Advice given.
+      h | 22 | Conciliation.
+    g | 23- | Advice taken.

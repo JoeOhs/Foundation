@@ -1,0 +1,460 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Judges
+# Marginal (side) notes, to be read alongside the KJV text.
+#
+# Format:  C:V | TEXT  —  verse 0 = a book-level introductory note
+#
+# ---------------------------------------------------------------------
+# Sources and method — as for Genesis (see genesis.notes.txt)
+# ---------------------------------------------------------------------
+# Read from the page scans inside thecompanionbible_202504_pdf/
+# 7. Judges_text.pdf, rendered at 200 and 400 dpi, then cross-checked
+# against a fresh Tesseract OCR with ocr-check.py. A verse whose notes
+# run over a page break is joined into one entry. Each Structure's
+# heading is kept at the head of the note for its first verse, as in
+# Joshua. Hebrew is written in plain ASCII, as elsewhere in this app;
+# the one Hebrew letter printed in a note (18:30, the suspended nun) is
+# left out, its name and transliteration being given beside it.
+#
+# COMPLETE: all 21 chapters, every printed note (419 verse entries plus
+# the introductory note on the title), printed pages 323-358.
+#
+# Checked after transcription:
+#   - provenance: every word is in the archive's PDF/EPUB/HOCR text,
+#     apart from Hebrew/Greek transliterations and words the archive OCR
+#     garbled but the scan prints plainly;
+#   - ocr-check.py against a fresh Tesseract OCR (300 + 400 dpi);
+#   - cross-references: every note round-trips through parseBullingerRefs,
+#     and every cited appendix's title was checked against its subject.
+#
+# No corrections were needed.
+#
+# Left as printed (likely slips, not provable from the page):
+#   - 10:1  "man. Heb. 'ish. Ap. 4. II." (the words for man are Ap. 14).
+#   - 13:2  "man. Heb. 'ish. Ap. 4. II." (likewise).
+#   - 20:2  "the [true] God. Ap. 14." (the Divine Names are Ap. 4).
+#   - 12:3  "nephesh. Ap. 13. II." (Ap. 13 has no section II).
+#   - 13:15 "15 21 (m3, above)", the heading's hyphen not printed.
+#
+# Re-run `node build.mjs --book=judges` after editing.
+
+0 | TITLE, Judges. The Heb. name is Shophetim = rulers; from verb to put right and then rule. Not Judges, as modern English. For origin and description of name, cp. 2. 7-19. In Sept. = kritai; Latin, Liber Judicum. The office peculiar to Israel. The book records the history of thirteen Judges (twelve called of God and one a usurper), whose names by Gematria make a multiple of eight and thirteen (see Ap. 10); six "evil" doings (see note on 2. 11); six oppressors and oppressions (see note on 2. 14); and six deliverances (see note on 2. 16).
+
+1:1 | 1. 1—2. 5 (C, p. 323). CONQUESTS. ISRAEL AND OTHER NATIONS. (Alternation.) 1-20 (A, above). BY THE TRIBE OF JUDAH. (Alternations.) Now = And. Commencing with the same word as the preceding books; thus connecting them all together. The book of Joshua = the inheritance possessed: Judges = the inheritance despised. Records the failure of the People, and the faithfulness of Jehovah. The Epilogue (21. 25) gives the key to the whole book. See note on 17. 6. Joshua. Cp. Josh. 24. 29. children = sons. asked = enquired: i.e. by Urim and Thummim, as in 18. 5; 20. 18. See note on Ex. 28. 30. Num. 26. 55. the LORD. Heb. Jehovah. Ap. 4. II. Who ...? All had been commanded. Deut. 20. 17. Josh. 10. 40.
+1:2 | behold. Fig. Asterismos (Ap. 6). Some codices, with three early printed editions, read "and behold".
+1:4 | men. Heb. 'ish. Ap. 14. II.
+1:5 | Adoni-bezek = Lord of Bezek. Bezek was seventeen miles south of Shechem. Cp. 1 Sam. 11. 8. Cp. Josh. 15. 13-19.
+1:6 | cut off. As he had done to others. See v. 7.
+1:7 | gathered. i.e. [the pieces]. as = according as. God. Heb. Elohim. Ap. 4. I.
+1:8 | Jerusalem. The first occurrence is in Josh. 10. 1, in connection with Adoni-zedek's fear of its being "utterly destroyed" like Ai. Here, in v. 8, we have a picture of its future history in miniature. See Ap. 53. The Tel-el-Amarna tablets contain a long correspondence with Egypt about 1400 B.C. taken it. The citadel not taken till 2 Sam. 5. 6-9, by David.
+1:9 | mountain = hill country. south. Heb. Negeb. valley = lowlands.
+1:10 | now. Note the Fig. Parenthesis (Ap. 6), and cp. with v. 17. Hebron. Cp. Num. 13. 22. Josh. 14. 13. Kirjath-arba. Cp. Gen. 23. 2. Josh. 14. 15; 20. 7. Sheshai. These are sons of Anak. Cp. v. 20.
+1:11 | Debir ... Kirjath-sepher. See note on Josh. 11. 21 and 15. 49.
+1:13 | Othniel. Mentioned only here; and 3. 9-11. Josh. 15. 17; and 1 Chron. 4. 13.
+1:14 | to him. Supply Fig. Ellipsis with "home". a = the. What wilt thou? or, What aileth thee? Josh. 15. 18, 19.
+1:16 | Kenite. A non-Israelite race (Gen. 15. 19. Num. 24. 21, &c. 1 Sam. 27. 10; 30. 29). See Saul's correspondence with them (1 Sam. 15. 6). One branch in the north (4. 11). palm trees: i.e. Jericho, 3. 13. Deut. 34. 3. the People: i.e. Israel.
+1:17 | destroyed = devoted. Hormah = utter destruction.
+1:18 | took Gaza, &c. These were wholly or partially retaken by the enemy, cp. 14. 19; 16. 1. 1 Sam. 5. 10. Perhaps this accounts for the Sept. reading, "Judah too did not inherit". coast = border.
+1:19 | he drave out = he possessed. (Omit italics.) mountain = hill country. valley = lowlands. chariots of iron. Cp. 4. 3.
+1:20 | as = according as. Cp. Num. 14. 24. Josh. 14. 13; 15. 13. three sons of Anak. See their names in v. 10 and Ap. 23 and 25.
+1:21 | did not drive out. Cp. Josh. 15. 63; 18. 28. 2 Sam. 5. 6-10.
+1:22 | 22-26 (A, p. 325). BY THE HOUSE OF JOSEPH. (Introversion and Alternation.)
+1:23 | Luz. Cp. Gen. 28. 19, and see Josh. 16. 1, 2. Luz and Beth-el not two cities.
+1:24 | spies = sentries.
+1:26 | Hittites. A nation north of Syria, mentioned on Egyptian inscriptions from 1500 B.C.
+1:27 | 1. 27—2. 5 (B, p. 325). UNEXPELLED INHABITANTS. (Division.) 27-36 (C1, above). NON-EXPULSION. SIN. (Introversion and Alternation.) Neither ... nor. Note the Fig. Paradiastole (Ap. 6) in vv. 29-33. Emphasising the unfaithfulness and disobedience, the cause of all subsequent trouble. drive out = possess.
+1:29 | dwelt: i.e. in friendly relations. Ps. 133. 1. 2 Kings 4. 13. See note on 1 Kings 9. 16, 17.
+1:32 | dwelt among = dwelt in the inside, as in the heart or bowels of the Canaanites; vv. 27-30 are very different.
+1:35 | hand. Fig. Metonymy (of Cause), Ap. 6, by which the hand is put for the power exerted by it.
+1:36 | coast = border or boundary.
+2:1 | 2. 1-5 (C2, p. 326). NON-EXPULSION. PUNISHMENT. (Alternation.) Chapter 2 gives a summary of events from 3. 1—16. 31. The period it covers is therefore 1434-1100, i.e. 334 years. an Angel = the Angel or Captain of Jehovah's host, Who had appeared to Joshua in Gilgal. Josh. 5. 13-15. the LORD. Heb. Jehovah. Ap. 4. II. Bochim = weepers. I said. Cp. Gen. 17. 7.
+2:2 | ye shall make no league. Cp. Ex. 23. 32. Deut. 7. 2, 5, &c. ye shall throw down. Cp. Ex. 34. 12, 13. Deut. 12. 3. why ...? Fig. Erotesis (Ap. 6). Or, "what [is] this [that] ye have done?"
+2:3 | be as thorns in your sides. Some codices read "be adversaries to you". Cp. Num. 33. 55. Josh. 23. 13.
+2:4 | children = sons.
+2:6 | 2. 6—8. 32 (D, p. 323). GOVERNMENT. (Division.) 2. 6-10 (D1, above). ANTECEDENT. (Alternation.) let the People go. Cp. Josh. 24. 28-31. man. Heb. 'ish. Ap. 14. II.
+2:7 | who. Some codices, with two early printed editions, Syr., and Vulg., read "and who". works = work.
+2:9 | Timnath-heres. Some codices, with Syr. and Vulg., read "Timnath-serah". Cp. Josh. 19. 50; 24. 30. mount = hill country.
+2:10 | knew not. Fig. Metonymy (of Cause). Ap. 6. Put for obeyed not or cared not for.
+2:11 | 2. 11—8. 32 (D2, above). SUBSEQUENT. (Division.) 2. 11—3. 4 (E1, above). THE PEOPLE AND THEIR APOSTASIES. (Extended Alternation.) evil = the evil. Heb. ra'a'. See Ap. 44. viii. Six "evil" doings recorded in this book (Ap. 10): 3. 7, 12; 4. 1; 6. 1; 10. 6; 13. 1.
+2:12 | forsook. Religion is not a gradual evolution to what is higher, but a declension to what is lower. See note on Josh. 24. 14. God. Heb. Elohim. Ap. 4. I. people = peoples.
+2:13 | Ashtaroth. The special evil of Canaanite nations. Name derived from the Asherah (see Ap. 42). The Asherah was idolatry of the most revolting form of immorality under the guise of religion. All virtue surrendered. The "going a whoring" is more than a figure of speech. See Ex. 34. 13. Deut. 7. 5; 12. 3; 16. 21. Note all the occurrences of 'Ashtaroth: Deut. 1. 4. Josh. 9. 10; 12. 4; 13. 12, 31. Judg. 2. 13; 10. 6. 1 Sam. 7. 3, 4; 12. 10; 31. 10.
+2:14 | spoilers ... enemies. Six oppressors and servitudes named: Judg. 3. 8, 12; 4. 2; 6. 1; 10. 7; 13. 1.
+2:15 | evil. Heb. ra'a'. Ap. 44. viii. as = according as. Cp. Lev. 26. Deut. 28.
+2:16 | 16-19 (v, p. 327). EVIL REPEATED. (Extended Alternation.) judges. This word gives the name to the book = one who put right what was wrong; hence, a ruler. delivered = saved. Six deliverances: 3. 9, 15; 4. 23; 8. 28; 11. 33; 16. 30.
+2:18 | all the days, &c. This raises the question as to Deborah's call. See note on 4. 4.
+2:19 | when. Cp. 3. 12.
+2:20 | 2. 20—3. 4 (x, p. 327). PUNISHMENT. PROVING. (Repeated Alternation.) people = nation. transgressed. Heb. 'abar. Ap. 44. vii.
+2:22 | therein. A special various reading called Sevir (Ap. 34), with some codices, Sept., and Vulg., read "in it": i.e. in Jehovah's way.
+2:23 | driving them out = dispossessing.
+3:1 | the LORD. Heb. Jehovah. Ap. 4. II.
+3:2 | children = sons.
+3:3 | five lords. See note on Josh. 13. 2-6. entering in = pass.
+3:5 | 3. 5—8. 32 (E2, p. 327). OPPRESSORS AND DELIVERERS. (Introversion.) 3. 5-11 (F, above). CHUSHAN-RISHATHAIM, AND OTHNIEL. (Extended Alternation.) dwelt among. Not the Canaanites dwelling in Israel, but Israel dwelling among the Canaanites, who were to be exterminated. Ex. 3. 8, 17; 23. 23-28. Deut. 7. 1-5.
+3:6 | took their daughters, contrary to Jehovah's express command. Ex. 34. 16. Deut. 7. 3.
+3:7 | evil. Heb. "the evil"; i.e. the special evil (idolatry) which had been forbidden as such. See Ap. 44. viii. God. Heb. Elohim. Ap. 4. I. the groves = Asherim. Ap. 42. See note on Ex. 34. 13.
+3:8 | sold. Cp. 2. 14. 490 years since Abraham left Mesopotamia. See Ap. 50. IV.
+3:9 | deliverer = saviour. delivered = saved. Cp. Luke 1. 68-70. Othniel. Cp. Josh. 15. 16, 17.
+3:10 | the Spirit of the LORD. Of Jehovah, Ap. 4. II, not Elohim. The spirit (Heb. ruach, Ap. 9) of Jehovah bestowing gifts rather than power or might (Gen. 1. 2). Cp. Isa. 11. 2; 61. 1.
+3:11 | had rest. Repeated four times: 3. 11, 30; 5. 31; 8. 20, to prevent the periods of rest and servitude being "telescoped". See Ap. 50. I, Introduction.
+3:12 | 12-30 (G, p. 328). EGLON. (EHUD.) (Extended Alternation.)
+3:13 | Amalek. See note on Ex. 17. 16. palm trees. Cp. Deut. 34. 3.
+3:15 | -15-30 (h, above). DELIVERER. (EHUD.) (Division.) -15-26 (j1, above). ASSASSINATION OF EGLON. (Division and Introversion.)
+3:16 | cubit. Occurs only here = a cut. Sept. spithame, a dirk, about 9 inches long.
+3:17 | present = admittance-offering. Heb. korban. Ap. 43. II. i. man. Heb. 'ish. Ap. 14.
+3:18 | offer = bring near. Heb. karab. Ap. 43. I. i.
+3:19 | quarries = graven images. So Sept., Vulg., and Targum, here and v. 26. Heb. pesilim. Deut. 7. 5, 25; 12. 3. 2 Kings 17. 41. Ps. 78. 53, &c. that were by Gilgal. Heb. the same [as] at Gilgal. errand. Heb. word. See note on "message", v. 20.
+3:20 | summer parlour. Cooling room. Occurs only here and v. 24. message = word; put by Fig. Metonymy (of Subject) for what is meant by it: here it is the "errand" of v. 19. God = Elohim. Ap. 4. I. The Creator to the creature; not Jehovah (the Covenant God) to His servant. seat = throne.
+3:21 | his left hand. Note the seven weak things in this book, illustrating 1 Cor. 1. 27. 2 Cor. 12. 9: left hand (3. 21); ox goad (3. 31); a woman (4. 4); a nail (4. 21); piece of a millstone (9. 53); pitcher and trumpet (7. 20); jawbone of an ass (15. 16). So in later times. Luther (a miner's son), Calvin (a cooper's son), Zwingle (a shepherd's son), Melancthon (an armourer's son), John Knox (a plain burgess's son).
+3:22 | haft = handle. Heb. nizzab, occurs only here.
+3:24 | behold. Fig. Asterismos. Ap. 6. covereth his feet. Fig. Euphemism for act performed while stooping, and causing feet to be covered.
+3:25 | a key = the key.
+3:26 | passed = he passed. beyond = by. quarries = the graven images of Ehud. Cp. v. 19.
+3:27 | the mount = the hill country.
+3:28 | man. Heb. 'ish. Ap. 14. II.
+3:30 | years. The Sept. adds "until he died".
+3:31 | Shamgar. Cp. 5. 6-8. an ox goad. See note on 3. 21. No weapons. Cp 5. 8. 1 Sam. 13. 19-22.
+4:1 | 4. 1—5. 31 (G, p. 329). JABIN. (DEBORAH.) (Division.) 1-3 (J1, above). OPPRESSION BY JABIN. (Alternation.) children = sons. evil = the evil: i.e. idolatry. See Ap. 44. viii. the LORD. Heb. Jehovah. Ap. 4.
+4:2 | Jabin. Another king. Cp. Josh. 11. 1-10. which = and he.
+4:3 | twenty years. A long time to wait for deliverance.
+4:4 | 4. 4—5. 31 (J2, above). DELIVERANCE BY DEBORAH. (Alternation.) a prophetess. Not therefore a "judge" in the strict sense of the title. Like Miriam, Ex. 15. 20; Huldah, 2 Kings 22. 14. Cp. her prophecy in vv. 7, 9. she. Some codices, with two early printed editions, read "and she". Note the two women connected with Barak, Deborah and Jael, vv. 17-21. See note on v. 17, and cp. 5. 7, 11, 24, 30. at that time. Yet Israel was "mightily oppressed", contrary to 2. 18. The words "she judged" state a fact: but do they imply a Divine appointment to the office? She was "a prophetess", but was she "a judge" in the proper sense of the word?
+4:5 | dwelt = sat [as judge]: near where her namesake, Rebekah's nurse, died. Gen. 35. 8.
+4:6 | 6-24 (L, above). DELIVERANCE. (Introversion and Extended Alternation.) Hath not ...? Fig. Erotesis. Ap. 6. God. Heb. Elohim. Ap. 4. men. Heb. 'ish or 'enosh. Ap. 14.
+4:7 | river Kishon. Cp. Ps. 83. 9, 10. hand. Some codices, with two early printed editions, Sept., and Syr., read "hands".
+4:10 | called: i.e. by proclamation.
+4:11 | Hobab. Cp. Num. 10. 29. unto the plain. Or, at the oak. Josh. 19. 33.
+4:13 | gathered: i.e. by proclamation. Cp. v. 10.
+4:14 | is not ...? Fig. Erotesis. Ap. 6.
+4:15 | the LORD discomfited = Jehovah discomfited. Cp. Ps. 83. 9. The word implies supernatural phenomena. Cp. 5. 20-22. Ex. 14. 24. Josh. 10. 10. 2 Sam. 22. 15. Ps. 18. 15.
+4:16 | upon = by. not a man. Heb. not so much as one.
+4:17 | 17-22 (t, p. 330). INSTRUMENT. A WOMAN. (Extended Alternation.) the tent of Jael. Note, not of Heber: the woman's tent, which itself brought Sisera under the death penalty. But there is nothing to apologise for here. The Author and Giver of life came on Jael as on Ehud, and enabled her to save the daughters of Israel from a fate worse than death. Cp. 5. 7, 11, 24, 30. Kenite. Cp. v. 11.
+4:18 | mantle = rug. Heb. semikah occurs only here.
+4:19 | bottle = skin. milk. Rendered "butter" in 5. 25; probably = buttermilk, much used in the East.
+4:20 | door = entrance. any man. Heb. 'ish. Ap. 14. II. No = there is not.
+4:21 | nail of the tent = a tent peg. Constantly tents are taken down and put up by the women to the present day. So he died. The first of ten recorded deaths at the hands of women: Sisera (Judg. 4. 21); Abimelech (Judg. 9. 53. 2 Sam. 11. 21); Sheba (2 Sam. 20. 22); the harlot's child (1 Kings 3. 19); prophets (1 Kings 18. 4); Naboth (1 Kings 21. 9, 10); a son by his mother (2 Kings 6. 29); seed royal (2 Kings 11. 1. 2 Chron. 22. 10); Haman's sons (Est. 9. 13, 14); John Baptist (Matt. 14. 8).
+4:22 | behold. Fig. Asterismos. Ap. 6.
+4:24 | prospered. Fig. Polyptoton. Ap. 6. Heb. going on went on. R.V. = prevailed more and more.
+5:1 | 5. 1-31- (K, p. 330). THE DELIVERERS' SONG. (Introversions.) Then sang. No singing till after victory. Cp. Ex. 15. 1. Only weeping before. Cp. 2. 4 with Ex. 2. 23, 24. See note on Ex. 15. 1 for the ten songs.
+5:2 | the LORD. Heb. Jehovah. Ap. 4. II.
+5:3 | I, even I. Fig. Epizeuxis. Ap. 6. God. Heb. Elohim. Ap. 4. I.
+5:4 | when. Cp. Ex. 19. 18. dropped = dripped.
+5:5 | The mountains melted = from the mountains flowed down streams.
+5:6 | Shamgar. Cp. 3. 31. the highways, &c. = the highways were closed.
+5:7 | The inhabitants. Why not supply the Fig. Ellipsis (Ap. 6) by the words "the women", considering the objects of Jabin's oppression? see notes on 4. 4, 17; 5. 7, 11, 24, 30. ceased = ceased [to be]. Same word as "unoccupied" in v. 6. I arose. Fig. Epizeuxis. Ap. 6.
+5:8 | new gods. Cp. Deut. 32. 16. Was there ...? Fig. Erotesis. Ap. 6.
+5:9 | is toward. Supply "saith to", instead of "is". The next clause gives the words spoken.
+5:11 | the places of drawing water: i.e. where the women were to be found. See notes on 4. 4, 17; 5. 7, 30. Cp. Gen. 24. 11. Ex. 2. 15-19. Translate v. 11 thus:— Instead of the shouting of the archers among the wells, There they laud the righteous acts of Jehovah, The righteous acts of His rule over Israel. Then the People of Jehovah hastened to the gates.
+5:12 | 12-18 (Q, p. 331). CONTRASTED CONDUCT OF TRIBES. (Introversion.) Awake, awake. Fig. Epizeuxis. Ap. 6. lead thy captivity captive = lead thy captives captive; "captivity" put by Fig. Metonymy (of Subject) for the persons made captive = lead captive thy captive train.
+5:13 | Some codices and Sept. divide the two lines thus:— Then came down a remnant of the nobles, And the People of Jehovah [came down] with me against the mighty ones.
+5:14 | was there. Supply Fig. Ellipsis thus: "came down", from vv. 13 and 15. a root, &c. = whose root was in Amalek. Cp. 12. 15. Or, according to Sept., "they who rooted them out in Amalek." handle = draw, in the sense of numbering, enrolling, or mustering, as in 4. 6. pen = rod (used in numbering). Lev. 27. 32. Ezek. 20. 37. Nowhere else rendered pen. writer = numberer. Heb. saphar, translated scribe. Cp. 2 Kings 25. 19. 2 Chron. 26. 11.
+5:15 | And = But. Even = Yea. He was sent, &c. = into the valley they rushed at his feet. For = among.
+5:16 | Why ...? Fig. Erotesis. Ap. 6.
+5:17 | breaches = creeks or bays.
+5:18 | lives = souls. Heb. nephesh. See Ap. 13.
+5:19 | gain = plunder.
+5:20 | fought. Fig. Prosopopoeia. Ap. 6. Cp. Josh. 10. 11.
+5:21 | river = torrent. Kishon. Rising in Mount Tabor and running into the Mediterranean near Mount Carmel. swept. Swollen by the heavy rains (v. 4). soul. Heb. nephesh. Ap. 13.
+5:22 | the pransings. Fig. Epizeuxis. Ap. 6.
+5:23 | 23-27 (b, p. 331). CONTRASTED SUCCOUR FOR ISRAEL. (Alternation.)
+5:24 | Blessed above women. Cp. Luke 1. 28 "among". See notes on 4. 4, 17; 5. 7, 11, 30.
+5:25 | butter. See note on 4. 19.
+5:27 | At her feet. Note the Fig. Asyndeton. Ap. 6. he bowed, he fell. Fig. Epibole. Ap. 6. dead = destroyed.
+5:28 | The mother. A woman active on each side, with other women involved (v. 30). a = the.
+5:30 | Have ...? Fig. Erotesis. Ap. 6. sped = found; i.e. the damsels they were fighting for: and while doing so they were defeated by a woman. To every man = to every head of a man; "head" put by Fig. Synecdoche (of the Part), Ap. 6, for the whole person. man. Heb. geber (Ap. 14. IV) = a strong man. damsel. Heb. womb. Put by Fig. Synecdoche (of the Part) for the whole person, to emphasise the motive underneath. This was the one object of Jabin's oppression. See notes on 4. 4, 17; 5. 7, 11, 24. spoil. Fig. Aposiopesis. Ap. 6.
+5:31 | So. Fig. Epiphonema. Ap. 6. had rest. See note on 3. 11.
+6:1 | 6. 1—8. 35 (F, p. 328). MIDIAN. (GIDEON.) (Division.) 6. 1-10 (R1, above). MIDIAN. (Introversion.) children = sons. evil. Heb. ra'a'. Ap. 44. viii. the LORD. Heb. Jehovah. Ap. 4. II.
+6:2 | and = the.
+6:5 | grasshoppers = locusts.
+6:8 | a prophet. Heb. "a man ('ish, Ap. 14. II) a prophet". God. Heb. Elohim. Ap. 4. I. from Egypt. Some codices, with Sept. and Syr., read "from the land of Egypt". bondage. Heb. bondmen. Fig. Metonymy (of Adjunct). Ap. 6.
+6:11 | 6. 11—8. 35 (R2, p. 333). GIDEON. (Repeated Alternation.) 6. 11—7. 18 (S1, above). THE DELIVERER. RAISED UP. (Extended Alternation, with Introversion.) 6. 11-16 (j, above). ANGEL OF JEHOVAH. MESSAGE, &c. (Repeated Alternation.) an oak = the oak, as being well known. Joash = Jehovah gave. Gideon = cutter down. by the winepress = in the winepress. Shows the straits of the people. Cp. vv. 2-6. Threshing-floor exposed, winepress sunk in ground.
+6:12 | Angel of the LORD = angel of Jehovah; i.e. the Covenant God "with" His servant (Gideon). Cp. v. 20 angel of Elohim, the Creator working a miracle for His creature. mighty man. Heb. gibbor. Adj. of Ap. 14. IV.
+6:13 | my Lord = Adonai. Ap. 4. VIII (2).
+6:14 | thy might. His might lay in the knowledge of Jehovah's strength (v. 13) and his own weakness.
+6:15 | my LORD*. This is one of the 134 places where the primitive text "Jehovah" has been altered to "Adonai". See Ap. 32. behold. Fig. Asterismos. Ap. 6. family = thousand (1 Sam. 10. 19). poor = the meanest.
+6:16 | I will be with thee. Cp. Ex. 3. 12. Isa. 7. 14. Matt. 1. 23. man. Heb. 'ish. Ap. 14. II.
+6:17 | 17-24 [For Structure see next page]. 17-24 (k, p. 334). SIGN. FIRE. (Repeated Alternation.) Thou talkest. Supply Fig. Ellipsis (Ap. 6) thus: "Thou [art Jehovah Who] talkest".
+6:18 | present = Heb. minhah. Ap. 43. II. iii.
+6:19 | kid = kid of the goats. unleavened. For offering: quickly made. ephah. See Ap. 51. III. 3. a basket = the tray. Heb. sal, always connected with royalty, or sacrifice. a pot = the pot.
+6:20 | God = Elohim. See note on v. 12, above. this = you.
+6:21 | rose up fire. This fire was the token of Jehovah's acceptance. See note on "respect", Gen. 4. 4. fire = the fire.
+6:22 | O Lord GOD = O Adonai Jehovah. Ap. 4. II, VIII (2). for because = forasmuch as.
+6:24 | Jehovah-shalom. Jehovah [gives] peace. One of the Jehovah titles. See Ap. 4. II.
+6:25 | even, or "and". the grove = the 'asherah. See Ex. 34. 13. Ap. 42.
+6:26 | rock = strong place. ordered place, or due order. offer. See Ap. 43. I. vi.
+6:27 | men. Heb. pl. of 'enosh. Ap. 14. III. as = according as.
+6:32 | Jerubbaal = Let Baal plead. 1 Sam. 12. 11. 2 Sam. 11. 21.
+6:34 | Spirit = Heb. ruach. See Ap. 9. came upon = clothed (1 Chron. 12. 18. 2 Chron. 24. 20). Heb. labash, to put on so as to fill. gathered: gathered by proclamation.
+6:36 | 36-40 (k, p. 334). SIGN. FLEECE. (Alternation.) God. See note on v. 12.
+6:37 | floor = threshing-floor.
+6:39 | God = ha-'Elohim. The God. Ap. 4. I.
+7:1 | 7. 1-11 (l, p. 334). DIRECTION. (Introversion and Repeated Alternation.) host = camp.
+7:2 | the LORD. Heb. Jehovah. Ap. 4. II. lest, &c. This is the real reason of this direction.
+7:3 | mount Gilead. What was more natural than that the half tribe of Manasseh on the west side of Jordan should so name a mount in their tribe in compliment to the famous mount on the east side? (Gen. 31. 21-25; 37. 25. Num. 32. 1, 40. Deut. 3. 15. Josh. 17. 1). Gideon was of that tribe. Probably "the wood of Ephraim", on east side; so named here out of compliment to the half tribe on west side (2 Sam. 18. 6). twenty = probably 20 + 2,000 = 2,020. Cp. 12. 6. 1 Sam. 6. 19. If there remained 10,000, there must have been 10,000 + 2,020 = 12,020; and, as only 300 remained, 9,700 must have gone away at the second testing. Only 1,000 of each tribe = 12,000, sent out to fight in Num. 31. 4, 5.
+7:5 | lappeth: i.e. without kneeling down as idolaters were accustomed to do (1 Kings 19. 18. 2 Chron. 29. 9. See note on Est. 3. 2. as = according as.
+7:6 | men. Heb. 'ish. Ap. 14. II.
+7:8 | the People. So the 300 are called.
+7:12 | Amalekites. See note on Ex. 17. 16. children = sons. grasshoppers = locusts. as the sand, &c. Fig. Paroemia. Ap. 6.
+7:13 | behold ... Behold ... lo. Fig. Asterismos (three times). Ap. 6. a dream. See note on Gen. 20. 3.
+7:14 | God = ha-'Elohim here (= the God), because in connection with Midianites, His creatures. Not Jehovah. Ap. 4. I, II.
+7:16 | lamps = torches, which smoulder till waved in the air.
+7:18 | The sword. These words are supplied by Fig. Ellipsis from v. 20. But some codices, with Aram. and Syr., read these words in the text. Lit. "For Jehovah and for Gideon".
+7:19 | 7. 19—8. 23 (T1, p. 334). DELIVERANCE. (Alternation and Introversion.)
+7:20 | of the LORD = of Jehovah. Lit. "A sword for Jehovah and Gideon."
+7:24 | mount = hill country.
+7:25 | two princes. Cp. Ps. 83. 11. Isa. 10. 26.
+8:1 | 8. 1-23 (z, p. 336). PURSUIT AND CAPTURE. (Introversion and Alternation.) men. Heb. 'ish. Ap. 14. II. Why ...? Fig. Erotesis. Ap. 6. chide. This was the beginning of the strife which ended in the division of the kingdom (1 Kings 12).
+8:2 | What ...? Is not ...? Fig. Erotesis. Ap. 6.
+8:3 | God = Elohim delivered His creatures; not Jehovah the Covenant-God. Ap. 4. I, II. anger. Heb. ruach, spirit (Ap. 9). Put by Fig. Metonymy (of Cause) for the angry manifestations of it.
+8:5 | men = folk. Heb. 'enosh. Ap. 14.
+8:7 | the LORD. Heb. Jehovah. Ap. 4.
+8:10 | hosts = camps. children. Heb. sons.
+8:11 | host = camp.
+8:15 | Are ...? Fig. Erotesis. Ap. 6.
+8:18 | a = the.
+8:21 | ornaments = crescent-shaped ornaments used still on necks of horses and camels.
+8:24 | earrings. Heb. Nezem. Any ring worn in ear or nose = a nose ring in Gen. 24. 47. Prov. 11. 22. Isa. 3. 21. Ezek. 16. 12; and "earring" in Gen. 35. 4 and Ex. 32. 2. Other passages doubtful (v. 25. Job 42. 11. Prov. 25. 12. Hos. 2. 13). because. This parenthetical remark solves the difficulty of Gen. 37. 25, 28, 36, and 39. 1. Ishmael and Midian were half-brothers, sons of Abraham by Hagar and Keturah (Gen. 16. 11, 12; 25. 1, 2). All Midianites were Ishmaelites, but all Ishmaelites were not Midianites.
+8:27 | ephod. Probably the priests were lax in restoring the worship of the true God. So that Gideon would have meant well and desired to judge well. Cp. 17. 5, where Micah made another. The reason given being that "there was no king, and every man did what was right in his own eyes", 17. 6; and 18. 5, where it was used to "ask counsel"; and for the same reason, 18. 1.
+8:28 | children = sons. lifted up their heads no more = made no more attempts to vex. was in quietness. See note on 3. 11.
+9:1 | 9. 1-57 (B, p. 323). INTERNAL DISORDERS. (Introversion.) brethren. Put by Fig. Synecdoche (of Species) for other relatives. Ap. 6.
+9:2 | men = masters, lords, or owners. Heb. baalim. persons = Heb. 'ish. Ap. 14. II.
+9:3 | men. Heb. 'ish. Ap. 14. II.
+9:4 | light = rash. persons. Heb. 'enosh. Ap. 14. III.
+9:6 | plain = oak. of the pillar. Gen. of Apposition (Ap. 6) = that is to say, the pillar made of oak. See Josh. 24. 26. Cp. Gen. 28. 18, 22; 31. 13, 45; 35. 14, 20. 2 Sam. 18. 18.
+9:7 | 7-21 [For Structure see next page]. 7-21 (B, p. 338). ACTION OF JOTHAM. (Introversion.) God. Heb. Elohim. Ap. 4. I. Not Jehovah in covenant.
+9:8 | The trees. This is pure allegory (Ap. 6). The interpretation is local and historical. The application is dispensational. went forth. Verb, duplicated by Fig. Polyptoton (Ap. 6). Very emphatic = "a going forth they went forth", or went forth with great earnestness of purpose. the olive tree = Israel's religious privileges. Rom. 11.
+9:9 | honour. Cp. Ex. 27. 20, 21. Lev. 2. 1. The interpretation of these three—"honour", &c.—is clear from the context. An application may be made as to what should be seen in Israel and in ourselves. man. Heb. 'enosh. Ap. 14. III. go = march about, instead of fulfilling my mission.
+9:10 | the fig tree. Israel's national privileges (Matt. 21. 19, 20. Mark 11. 13, 20, 21. Luke 13. 6-9).
+9:11 | forsake. Same Heb. as "leave" in vv. 9 and 13.
+9:12 | the vine = Israel's spiritual privileges (Isa. 5. John 15).
+9:13 | leave. Same Heb. as "forsake" (v. 11). wine = new wine. Heb. tirosh. Ap. 27. II.
+9:14 | the bramble. This is prophetic of the false nation under the rule of Antichrist, which will devour the nation as foreshown in v. 20.
+9:15 | put your trust = flee for refuge. Heb. hasah. Ap. 69. ii.
+9:17 | Note the parenthesis of vv. 17, 18. life = soul. Heb. nephesh. Ap. 13.
+9:22 | 22-55 (B, p. 338). ACTION OF GOD. (Alternation and Introversion.) reigned = exercised power over. Heb. sur. Occurs only here, and Hos. 8. 4; 12. 4. three years. A usurpation, and therefore not included in Anno Dei reckoning. See Ap. 50. 4. They are concurrent with Tola's first three.
+9:23 | God = Elohim. Not Jehovah. Ap. 4. I, II. an evil spirit = an evil ruach. Ap. 9.
+9:25 | 25-55 (C2, above). EVIL SPIRIT IN OPERATION. (Alternations.)
+9:28 | Who ...? who ...? Fig. Erotesis. Ap. 6. Shechem. Some codices, with Sept., read "the son of Shechem". is not ...? why ...? Fig. Erotesis. Ap. 6. men. Heb. 'enosh. Ap. 14.
+9:29 | would to God = would that. Fig. Ecphonesis. Ap. 6. And he said. The Sept. reads "and say".
+9:31 | privily = deceitfully or craftily. Behold. Fig. Asterismos. Ap. 6.
+9:33 | as = according as.
+9:37 | plain = oak.
+9:38 | Where ...? Who ...? is not ...? Fig. Erotesis. Ap. 6. now. A special various reading called Sevir has "thou" (emphatic) instead of "now" = I pray thee, thou, &c.
+9:41 | dwelt = waited, or sat down.
+9:44 | ran = rushed.
+9:46 | 46-49 (k, p. 339). THE TOWER OF SHECHEM. 51-55 (k, p. 339). THE TOWER OF THEBEZ. (Extended Alternation and Introversion.) Berith = covenant = a sanctuary.
+9:48 | trees = brushwood.
+9:52 | hard = close.
+9:53 | a piece of a = an upper. all to brake = altogether brake. (Obsolete.)
+9:54 | A woman slew. See note on 4. 21.
+9:55 | men. Heb. 'ish. Ap. 14. II.
+9:56 | rendered = requited. Heb. brought back. wickedness. Heb. ra'a'. Ap. 44. viii.
+10:1 | 10. 1—16. 31 (D, p. 323). GOVERNMENT. (Alternation.) defend = save or deliver. man. Heb. 'ish. Ap. 4. II. mount = hill country.
+10:2 | twenty, &c. See note on 9. 22.
+10:3 | twenty. See note, Ap. 50. IV, p. 55.
+10:6 | 10. 6—12. 7 (B, above). AMMONITES AND JEPHTHAH. (Extended Alternation.) children = sons. evil. Heb. ra'a'. Ap. 44. viii. again. Cp. 2. 11; 3. 7; 4. 1; 6. 1; 13. 1. the LORD. Heb. Jehovah. Ap. 4. II. Ashtaroth, pl. = the Ashtoreths. Cp. 2. 11-13. gods of Syria. Gen. 35. 3-6. gods of Zidon. 1 Kings 11. 5 (Baal, Astarte). gods of Moab. 11. 24 (Chemosh). 1 Kings 11. 33 (Milcom or Molech). gods of the Philistines: e.g. Dagon (16. 23).
+10:8 | vexed and oppressed = brake and crushed. See note on v. 3, above.
+10:10 | 10-16 (C, above). THE EVIL REPENTED OF. (Alternation.) our God. Heb. Elohim (Ap. 4. I). Some codices, with Aram., Sept., and Vulg., read "Jehovah our God".
+10:11 | Did not I ...? Fig. Erotesis. Ap. 6.
+10:12 | Maonites. Cp. 2 Chron. 26. 7, 8. A mixture of Moabites and Ammonites = the two words combined.
+10:13 | Yet. Cp. Deut. 32. 15. Jer. 2. 13.
+10:14 | Go. Fig. Eironeia (Divine Irony). Ap. 6. ye have chosen. Cp. Deut. 32. 37, 38. Jer. 2. 28.
+10:16 | strange gods = gods of strangers or foreigners. His soul = He (emph.). Heb. nephesh (Ap. 13). Attributed by Fig. Anthropopatheia to God (Ap. 6).
+10:17 | 10. 17—12. 6 (D, p. 341). DELIVERANCE BY JEPHTHAH. (Repeated Alternations.) gathered = gathered by proclamation. Note the extended alternation in this verse "children, gathered, encamped".
+10:18 | man. Heb. 'ish. Ap. 14. II.
+11:1 | Jephthah = He will deliver. Note the Fig. Epanadiplosis (Ap. 6), to call attention to the facts of this verse, introducing Jephthah. All was irregular: no king, no judge, no priest. Gileadite = son of the man Gilead. man. Heb. gibbor. Ap. 14. IV.
+11:2 | strange = foreign.
+11:3 | from. Heb. "from the face of". Fig. Pleonasm. Ap. 6. Tob = fruitful land. East of Syria. vain = unemployed, or bankrupt. men. Heb. pl. of 'enosh. Ap. 14. III.
+11:4 | children = sons.
+11:9 | the LORD. Heb. Jehovah. Ap. 4. II.
+11:10 | be witness = be a hearer.
+11:11 | with. Some codices, with three early printed editions, read "unto". before the LORD = in the presence of Jehovah. in Mizpeh. Cp. 10. 17.
+11:12 | 12-28 (G3, above). AMMONITE NEGOTIATION. (Alternation.) What ...? Fig. Erotesis. Ap. 6.
+11:15 | And said. A special reading (Sevir, Ap. 34) and some codices read "and they said". Heb. text = he.
+11:17 | me. Most codices, with Syr., read "us" as in v. 19. Cp. Num. 20. 14.
+11:18 | went along = went on. but came not. Cp. Num. 21. 13, 24.
+11:19 | Israel sent. Cp. Deut. 2. 26. us. Cp. v. 17 and Deut. 2. 27.
+11:20 | trusted = stayed or rested on. See Ap. 69. coast = border.
+11:21 | God. Heb. Elohim. Ap. 4. I.
+11:23 | shouldest thou ...? Fig. Erotesis. Ap. 6. it = him: i.e. Israel. Being masc. (in Heb.), cannot refer to the land of v. 21; and sing., so that it cannot refer to coasts of v. 22.
+11:24 | Wilt not thou ...? Fig. Erotesis. Ap. 6. Jephthah does not recognise Chemosh as a god. The emphasis is on "thy" and "our", and is the argument a fortiori: and, taking them on their own ground, it is the argumentum ad hominem.
+11:25 | art thou ...? Fig. Erotesis. Ap. 6. Cp. Num. 22. 2. Deut. 23. 4. Josh. 24. 9.
+11:26 | three hundred years. Not a "round number". See Ap. 50. IV, p. 54.
+11:27 | sinned. Heb. chata'. Ap. 44. i.
+11:29 | the Spirit. Heb. ruach (fem.). See Ap. 9. unto. This word is read in the text of some codices with Aram., Syr., and Vulg.
+11:30 | vowed a vow. Fig Polyptoton (Ap. 6) = made a solemn vow. See notes on Lev. 27. 1-8.
+11:31 | whatsoever. This is masculine. But the issuer from his house was feminine. Thus his rash vow was impossible of fulfilment, and was to be repented of. and = or. The Heb. Vav is a connective Particle, and is rendered in many different ways. It is also used as a disjunctive, and is often rendered "or" (or, with a negative, "nor"). See Gen. 41. 44. Ex. 20. 4; 21. 15, 17, 18. Num. 16. 14; 22. 26 (R.V. "nor"); Deut. 3. 24. 2 Sam. 3. 29. 1 Kings 18. 10, 27. With a negative = "nor", "neither". Ex. 20. 17. Deut. 7. 25. 2 Sam. 1. 21. Ps. 26. 9. Prov. 6. 4; 30. 3, &c. See note on "but", 1 Kings 2. 9. Here, Jephthah's vow consisted of two parts: (1) He would either dedicate it to Jehovah (according to Lev. 27); or (2) if unsuitable for this, he would offer it as a burnt offering. He performed his vow, and dedicated his daughter to Jehovah by a perpetual virginity (vv. 36, 39, 40); but he did not offer her as a burnt offering, because it was forbidden by Jehovah, and could not be accepted by Him (Lev. 18. 21; 20. 2-5).
+11:34 | 11. -34-40 (d4, p. 342). THE VOW PERFORMED. (Alternation.) behold. Fig. Asterismos. Ap. 6. timbrels = drums. See note on Ex. 15. 20. beside her. Fig. Pleonasm. Ap. 6. The fact is stated in two ways, in order to emphasise it.
+11:35 | Alas! Fig. Ecphonesis. Ap. 6. opened my mouth. Hebraism for making a formal, prepared, and solemn statement.
+11:37 | go up and down = wander about.
+11:39 | did with her according to his vow which he had vowed = He did not offer her as a burnt offering; for Jehovah could not accept that. Therefore Jephthah must have dedicated her to the LORD by a perpetual virginity. Such a vow was provided for in Lev. 27. See note on v. 31. and she knew no man. This is conclusive. It has nothing to do with a sacrificial death, but it has to do with a dedicated life to Jehovah. Thus was Jephthah's vow fulfilled. man. Heb. 'ish. Ap. 14. II. And it was = and it became.
+11:40 | to lament = to rehearse with, as in 5. 11; to celebrate [her dedication] in praises. four days in a year. Thus annually her friends "went", evidently to Jephthah's daughter, to rehearse with her this great event of her life: not of her death.
+12:1 | men. Heb. 'ish or 'enosh. Ap. 14. children = sons.
+12:3 | my life = my soul. Heb. nephesh. Ap. 13. II. the LORD. Heb. Jehovah. Ap. 4. II.
+12:4 | men. Heb. 'ish. Ap. 14. II. and. This "and" is read in the text in some codices, with two early printed editions, Sept., Syr., and Vulg.
+12:5 | passages = fords.
+12:6 | frame = take heed, give attention. forty and two thousand = 40 + 2,000 = 2,040. The whole tribe numbered only 32,500 at previous census (Num. 26. 37; see note on 7. 3), and that was less than the first numbering (Num. 1. 33). Only 1,000 from each tribe formed the army. Num. 31. 4, 5.
+12:7 | judged. First, deliverance; then rule. buried in one of the cities. City unnamed. Memory not honoured, though mentioned in Heb. 11. 32; yet the last name in that list.
+12:8 | 8-15 (A, p. 341). JUDGES (IBZAN, ELON, ABDON). (Extended Alternation.)
+12:14 | nephews = grandsons.
+12:15 | mount = hill country.
+13:1 | 13. 1—16. 31 (B, p. 341). PHILISTINES AND SAMSON. (Alternation.) children = sons. did evil again = Heb. added to commit. evil. Heb. ra'a'. Ap. 44. viii. the LORD. Heb. Jehovah. Ap. 4. forty years. 1120-1080.
+13:2 | 13. 2—16. 31- (J, p. 344). DELIVERED BY SAMSON. (Introversion.) 13. 2-21 (L, above). PROMISE. A DELIVERER. (Division.) 13. 2-7 (m1, above). FIRST APPEARANCE OF ANGEL. (Introversion.) man. Heb. 'ish. Ap. 4. II.
+13:3 | the Angel = Messenger. From vv. 18, 19, 22, the same that appeared to Gideon (6. 12). Behold. Fig. Asterismos. Ap. 6.
+13:4 | drink. Cp. Num. 6. 2, 3.
+13:5 | lo. Fig. Asterismos. Ap. 6. the child. Heb. na'ar. a Nazarite unto God = one separate unto Elohim.
+13:6 | A Man. Heb. 'ish. Ap. 14. II. This was according to the woman's apprehension. God. Heb. Elohim. Ap. 4. I. countenance = appearance. terrible = awe-inspiring.
+13:8 | 8-14 (m2, above). SECOND APPEARANCE OF ANGEL. (Alternation.) my LORD* = 'Adonai. Should be "Jehovah". This is one of the 134 changes indicated in the Massorah. Ap. 32.
+13:9 | God = The God: ha-'Elohim. Ap. 4. I. came. Some codices, with three early printed editions, read "appeared".
+13:10 | And. Note the Fig. Polysyndeton (Ap. 6) in this verse.
+13:12 | How shall we order the child, and how shall we do unto him? Heb. "What shall be the rule of (Gen. of relation = concerning) the boy, and what shall be his work?"
+13:14 | commanded = forbade. The verb zivvah is a Homonym here and Deut. 4. 23, where it is correctly rendered "forbid". Elsewhere "command".
+13:15 | 15 21 (m3, above). DETENTION OF THE ANGEL. (Alternation and Introversion.) a kid = a kid of the goats.
+13:16 | bread. Fig. Synecdoche (of Species). Ap. 6. Put for all kinds of food. offer = prepare. Ap. 43. I. iii. offer it = cause it to ascend. Ap. 43. I. vi.
+13:18 | secret. Heb. wonderful. Same as Isa. 9. 6.
+13:19 | wonderously = a wonderful thing.
+13:20 | the flame went up. See note on Gen. 4. 4. the altar. The rock is deemed the altar.
+13:23 | received. It is the acceptance of our Substitute by God which saves, not our acceptance of Him. This was sound reasoning.
+13:24 | called his name = called him. Fig. Pleonasm. Ap. 6. grew. Israel waited twenty years for deliverance. Cp. 15. 20; 16. 31.
+13:25 | the Spirit. Heb. ruach. Ap. 9. began. They had yet to wait. Cp. 15. 20. move him = stir him with trouble. See Gen. 41. 8. Ps. 77. 3. Dan. 2. 1, 3. at times = to and fro. the camp of Dan, where Israel lay in a fortified place. Cp. 18. 12. Eshtaol. On the borders of Judah.
+14:1 | 14. 1—16. 31- (L, p. 345). PROMISE FULFILLED. (Alternation and Introversion.) 1-20 (N, above). MARRIAGE. (Division.) 1-9 (P1, above). PROPOSALS. (Extended Alternations.)
+14:3 | take a wife of, &c. An unlawful connection. Cp. Ex. 34. 16. Deut. 7. 3, with Josh. 23. 12. pleaseth me well. Heb. is right in mine eyes.
+14:4 | the LORD. Heb. Jehovah. Ap. 4. II. occasion = opportunity.
+14:5 | behold. Fig. Asterismos. Ap. 6. a young lion. Lions once abounded in Palestine. Hence names Lebaoth (Josh. 15. 32; 19. 6). Arieh (2 Kings 15. 25). Laish (Judg. 18. 7). See also 1 Sam. 17. 36. 1 Kings 13. 24, &c.). against him = at meeting him.
+14:6 | the Spirit. Heb. ruach. Ap. 9.
+14:10 | 10-20 (P2, above). THE FEAST. (Introversion and Alternation.)
+14:11 | when they saw him: i.e. saw what sort of man he was. Note emphasis on "him".
+14:12 | I will = Let me. sheets = linen wraps, or shirts.
+14:14 | Out of. Fig. AEnigma. Ap. 6.
+14:15 | seventh. The Sept. reads "fourth". is it not so? The italics reveal the uncertainty of A.V. Many codices read "hither", which yields better sense. Heb. text reads simply "not".
+14:16 | children = sons.
+14:18 | men. Heb. pl. of 'enosh. Ap. 14. III. What ...? Fig. Anteisagoge. Ap. 6. If. Fig. Paroemia. Ap. 6.
+14:19 | men. Heb. 'ish. Ap. 14. II.
+14:20 | his friend. This was strictly in accordance with the laws of Khammurabi, §§ 159, 163, 164.
+15:1 | 15. 1-19 (B, p. 346). SLAUGHTER, IN LIFE. (Division.) 1-8 (Q1, above). FIRST SLAUGHTER. (Alternation.) kid = kid of the goats. I will go in = Let me come in.
+15:3 | concerning = to. Now = this once.
+15:4 | foxes = jackals. These go in packs, foxes go alone. firebrands = torches.
+15:6 | burnt her and her father. Some codices, with one early printed edition, Sept., and Syr., read "burned the house of her father".
+15:7 | this = like [this]: i.e. on this wise.
+15:8 | -8-19 (Q2, above). SECOND SLAUGHTER. (Alternation.) -8-16 (f, above). EXPECTED RETALIATION. (Alternation.) went down. Some codices, with one early printed edition, and Syr., read "went". top = cleft.
+15:9 | pitched = camped.
+15:10 | men. Heb. 'ish. Ap. 14. II. as = according as.
+15:14 | against = at meeting him, or to meet him. the Spirit. Heb. ruach. Ap. 9. No art. here. the LORD. Heb. Jehovah. Ap. 4. II.
+15:15 | jawbone of an ass. One of the seven "weak things" in Judges. See note on 3. 21.
+15:16 | With. Note the alternation of four lines. Another pointing of the second line given in Sept. is, chamor chamartim = "destroying I destroyed them", which by Fig. Polyptoton (Ap. 6) = I utterly destroyed them. There is also the Fig. Antanaclasis (Ap. 6) in the words chamor, "ass", and "destroyed".
+15:17 | Ramath-lehi = the uplifting of the jawbone.
+15:19 | God. Heb. Elohim. Ap. 4. I. Not Jehovah. A sign of distant or withdrawn relationship. In 13. 24, 25, and 14. 4, 6, we have Jehovah, but not again in Samson's history till he is humbled, 16. 20; then he prays to Jehovah, v. 28. clave an hollow place that was in the jaw = clave open the hollow that is in Lehi. spirit = courage. Heb. ruach. Ap. 9. En-hakkore = the Caller's Fount.
+15:20 | twenty. See note on 13. 24.
+16:1 | 16. 1-20 (A, p. 346). HARLOTS. (Division.) 1-3 (j1, above). IN GAZA. (Introversion.) Then = and. Gaza. About thirty-five miles south of his native place. an harlot. He could rend a lion, but not his lusts. He could break his bonds, but not his habits. He could conquer the Philistines, but not his passions. Now Ghuzzeh.
+16:3 | took the doors: i.e. unhinged both leaves. Cp. Isa. 45. 1. an hill = the hill. before = over against.
+16:4 | 4-20 (j2, above). IN SOREK. (Introversion.)
+16:5 | lords. See note on Josh. 13. 3. afflict = humble. eleven hundred. One of the two occurrences of this number. Eleven = the number of defective administration (= 12 - 1. See Ap. 10). Cp. 17. 2, where similar want of rule is seen. This 1,100 ruined them politically; the other (17. 2) ruined them religiously.
+16:6 | 16. 6-20 (n, p. 348). DELILAH'S SNARES. (Division.) 6-14 (o1, above). DELILAH'S FAILURE. (Repeated and Extended Alternation.)
+16:7 | green withs = green twigs. Anglo-Saxon, a willow, because of its twining and flexibility. man. Heb. 'adam. Ap. 14. I.
+16:9 | brake = snapped. as = according as. tow. Old English. Coarse flax or hemp for spinning or twining. Occurs only here and Isa. 1. 31. Very inflammable. toucheth = smelleth (before it toucheth).
+16:10 | Behold. Fig. Asterismos. Ap. 6.
+16:13 | tell me. Some codices, with one early printed edition, and Sept. add "I pray thee". with the web. Note the Homoeoteleuton. In the primitive text these words were probably followed by "and fasten them with a pin". For the Sept. adds "I shall be as another man. And it came to pass that when he was asleep that Delilah took the seven locks of his head and wove them with the web, and she fastened them with a pin". Ginsburg suggests that some ancient scribe, in copying the first words, "fasten them with a pin", carried his eye back to these last words, and omitted the whole of this clause, which has been preserved in the Sept.
+16:14 | out of his sleep: i.e. the sleep mentioned in the Homoeoteleuton above.
+16:15 | 15-20 (o2, above). DELILAH'S SUCCESS. (Introversion.) How ...? Fig. Erotesis. Ap. 6.
+16:16 | soul. Heb. nephesh. Ap. 13. vexed. Became impatient, or grieved. unto death = to make him die.
+16:17 | a Nazarite unto God = separate unto God. God. Heb. Elohim. Ap. 4. I.
+16:19 | man. Heb. 'ish. Ap. 14. II.
+16:20 | wist not = knew not. See note on Ex. 34. 29. the LORD. Heb. Jehovah. Ap. 4. II. Since 14. 6, only 'Elohim. See note on 15. 19.
+16:21 | 16. 21-31 (B, p. 346). SLAUGHTER IN DEATH. (Introversion.) fetters of brass. Heb. "two brasses". Put by Fig. Metonymy (of Cause), for the two fetters made of brass. Ap. 6. grind. The work of women and slaves. Denotes the condition to which he was reduced. Cp. Ex. 11. 5. Isa. 47. 2.
+16:23 | offer. Heb. "slay". See Ap. 43. I. v. to rejoice. Fig. Antimereia (of Noun). Ap. 6. Noun "rejoicing", put for verb "to rejoice" = for a rejoicing.
+16:25 | make us sport. Some codices, with one early printed edition, Sept., Syr., and Vulg., read "make sport before us". them sport = sport before them.
+16:26 | Suffer me that = Let me alone that, &c.
+16:27 | men. Heb. 'ish or 'enosh. Ap. 14.
+16:28 | Lord GOD = Adonai Jehovah. Ap. 4. VIII (2) and II.
+16:29 | the two middle pillars. Recent excavations at Gaza have laid bare two smooth stone bases close together in the centre, on (not in) which these two pillars stood. On these the main beams rested, and by which the whole house was sustained. Samson had only to pull these pillars out of the perpendicular, to effect his object.
+16:30 | me = my soul. Heb. nephesh. Ap. 13.
+16:31 | his brethren. Probably his parents were now dead. up: i.e. from Gaza, v. 21. between Zorah and Eshtaol. Where the Spirit had first come upon him, 13. 25. judged Israel. But he only began to deliver Israel. See 13. 5.
+17:1 | 17. 1—18. 31 (C, p. 323). ISRAEL AND OTHER PEOPLES. AGGRESSIONS. (Division.) 17. 1—18. 1- (A1, above). IDOLATRY OF MICAH. (Extended Alternation.) man. Heb. 'ish. Ap. 14. II. mount = hill country of Ephraim, where Joshua dwelt and was buried (Josh. 24. 30).
+17:2 | eleven hundred. See note on 16. 5. taken. Idolatry in Israel commenced with dishonesty. behold. Fig. Asterismos. Ap. 6. the LORD. Heb. Jehovah. Ap. 4. II.
+17:3 | wholly dedicated. Fig. Polyptoton (Ap. 6). Heb. "dedicating I had dedicated it".
+17:4 | money = silver (v. 2).
+17:5 | house of gods. The true house of God was neglected, and as hard to find as it is to-day (21. 19); and, when found, dancing was the prominent feature, not sacrifice or worship (21. 21-23). ephod. In imitation of Aaron's. Ex. 25. 7; 28. 4. consecrated. See note on Ex. 28. 41. Lev. 9. 17. his priest. Not Jehovah's, but "made with hands".
+17:6 | no king. First occurrence of four, see 18. 1; 19. 1; 21. 25. Two conform to the structure here; and two in chs. 19. 1, and 21. 25.
+17:7 | a young man. See note on 18. 30. Beth-lehem-Judah. To distinguish it from Beth-lehem in Zebulun (Josh. 19. 15).
+17:8 | to sojourn. True worship neglected. Priests and Levites unemployed. Idolaters busy making idols and dancing.
+17:12 | his priest. Not Jehovah's; see on v. 5.
+17:13 | do me good. The "good" (as in all such cases) never came. For Micah is afterward robbed both of his idols and his priest.
+18:1 | 18. -1-31 (A2, p. 350). AGGRESSION OF DANITES. (Introversion and Alternation.) those days. Chs. 17—21 thought by some to record earlier events in the days of Othniel by Fig. Hysteresis (Ap. 6). See note on 17. 1, and Structure. no king. No true "house of God" religiously (17. 5), leads to "no king" nationally (18. 1); and nationally to apostasy. See note on v. 6, above. Danites. See note on Gen. 49. 17.
+18:2 | children = sons. men. Heb. pl. of 'enosh. Ap. 14. III. coasts = borders. men of valour = sons of valour. mount = hill country of.
+18:3 | the young man. Cp. 17. 7. makest = doest.
+18:5 | Ask counsel. By the use of the ephod. See 17. 5. God. Heb. Elohim. Ap. 4. I. Not Jehovah. Ap. 4. II.
+18:6 | the LORD. Heb. Jehovah. Ap. 4. II.
+18:7 | Laish. Called Leshem. Josh. 19. 47. quiet and secure. Probably arising from the enervating effects of malaria now endemic there. If so, it may be identified with Tel-el-kadi in the fever-ridden district at the head of the Jordan. man = Heb. 'adam. Ap. 14. I.
+18:9 | behold. Fig. Asterismos. Ap. 6.
+18:11 | 18. 11-26 (f, p. 351). EXPEDITION OF DANITES. (Alternation.) men. Heb. 'ish. Ap. 14. II. appointed = girded.
+18:12 | Mahaneh-dan = camp of Dan (13. 25).
+18:14 | Do ye know ...? Fig. Erotesis. Ap. 6.
+18:18 | the ephod. Sept. reads "and the ephod". Cp. v. 17. The Heb. text has "the carved image of the ephod".
+18:19 | lay thine hand, &c. Put by Fig. Metonymy (of Adjunct) for "be silent". Ap. 6. better. Man's priest soon gets promotion.
+18:20 | and. Note the Fig. Polysyndeton. Ap. 6.
+18:21 | carriage = goods. Put by Fig. Metonymy (of Adjunct) for things carried.
+18:23 | that thou comest, &c. Heb. "that thou hast called thyself out".
+18:25 | life = soul. Heb. nephesh. Ap. 13. lives = souls. Heb. nephesh. Ap. 13.
+18:27 | unto. Some codices, with one early printed edition, and Sept. read "as far as".
+18:28 | business = dealings.
+18:29 | after the name. Cp. Josh. 19.
+18:30 | set up. On account of this, Dan is not named in Rev. 7, and Ephraim is there merged in Joseph. Manasseh. This word is one of the four that has a suspended letter. Here the letter nun (n), is written partly in the line and partly above the line, to show that originally it formed no part of the word, but was put in to make it spell "Manasseh" instead of "Moses". Jonathan was the grandson of Moses (his contemporary Phinehas, the grandson of Aaron, being mentioned in 20. 28). This was done for two reasons: (1) to spare the honour of Moses' memory and name; (2) to put the sin upon one who committed so gross a sin. The Talmud gives this latter as the reason. Jonathan's name is omitted in 1 Chron. 23. 15, 16, and 26. 24. The Chald. paraphrase says that "Shebuel", there substituted, is meant for Jonathan after his repentance and restoration. Shebuel = "he returned to God". The A.V. follows Sept. and Chald. by putting "Manasseh" in the text; R.V. follows Vulg., and those codices and early editions which have "n" suspended, by putting "Moses" in the text and "Manasseh" in the margin.
+18:31 | the house of God: i.e. the Tabernacle of Moses, but not recognised as the house of Jehovah, the Covenant God. God. Heb. ha-'Elohim = the [true] God. Ap. 4. Shiloh. First of five occurrences in Judges, cp. 21. 12, 19, 21, 21. For the eight occurrences in Joshua see note on Josh. 18. 1.
+19:1 | 19. 1—21. 25 (B, p. 323). INTERNAL DISORDERS. (Introversion and Alternation.) 19. -1-28 (C, above). THE PROVOCATION. (Alternation.) in those days. In the same days as ch. 18. 1. Soon after the death of Joshua. Fig. Hysterologia. Ap. 6. no king. See note on 18. 1. a certain Levite. The house of God neglected. Priests and Levites unemployed and wandering about. Cp. 17. 7. mount = the hill country of.
+19:2 | four whole months. Heb. "days, four months", so some think = "a year and four months".
+19:3 | friendly. Heb. "to her heart" = affectionately.
+19:6 | man. Heb. 'ish. Ap. 14. II.
+19:9 | Behold. Fig. Asterismos. Ap. 6.
+19:10 | Jebus. At that time still occupied by Canaanites. See Josh. 10. 1; 15. 63.
+19:12 | children = sons. Gibeah. City of Benjamin; later, the residence of Saul (1 Sam. 10. 26; 11. 4).
+19:15 | street = open place.
+19:16 | men. Heb. 'enosh. Ap. 14. III.
+19:18 | going. His direction was towards mount Ephraim, not to Shiloh! the house of the LORD. So Micah's temple was already called. Cp. 18. 31. the LORD. Heb. Jehovah. Ap. 4. II.
+19:19 | servants. Some codices, with three early printed editions, Aram., and Syr., read "servant" (Singular).
+19:22 | sons of Belial = worthless scoundrels, sons of the devil. door. Like Sodom (Gen. 19. 4), a sign of the moral corruption which follows apostasy and accompanies idolatry.
+19:23 | the man. Another Lot in another Sodom. wickedly. Heb. ra'a'. Ap. 44. viii.
+19:24 | Behold. Fig. Asterismos. Ap. 6.
+19:26 | door = entrance.
+19:28 | an = the.
+19:29 | 19. 29—20. 11 (D, p. 353). RESENTMENT. (Alternation.) coasts = borders.
+19:30 | no such deed done. "The days of Gibeah" became proverbial. Cp. Hos. 9. 9; 10. 9.
+20:1 | Then. These chapters (20, 21), by Fig. Hysterologia (Ap. 6), describe events which took place soon after Joshua's death. See notes on 18. 1 and 19. 1. children = sons. as one man. All this excitement, unanimity, and bloodshed about an injury done to a woman; no sense of the evil of idolatry and sin against God, recorded in ch. 19. man. Heb. 'ish. Ap. 14. II. the LORD. Heb. Jehovah. Ap. 4. II.
+20:2 | God. Heb. ha-'Elohim = the [true] God. Ap. 14. See note on 18. 31.
+20:3 | Now. Note the Fig. Parenthesis in this verse. Ap. 6. Mizpeh on the south-west border of Benjamin, not Mizpeh on the east of Jordan (10. 17; 11. 11, 29). wickedness. Heb. ra'a'. Ap. 44. viii.
+20:4 | the Levite. Heb. = "the man, the Levite".
+20:5 | men = masters or head-men.
+20:7 | Behold. Fig. Asterismos. Ap. 6.
+20:10 | men. Heb. 'enosh. Ap. 14. III.
+20:11 | men. Heb. 'ish. Ap. 14. II.
+20:12 | 12-46 [For Structures see next page]. 20. 12-46 (C, p. 353). THE CIVIL WAR. (Introversion.) 12-14 (E, above). NEGOTIATIONS. (Introversion.)
+20:15 | men. Heb. 'ish. Ap. 14. II.
+20:16 | lefthanded. Heb. lame, or bound, in his right hand. hair breadth = a hair. No Ellipsis, omit "breadth". miss. Heb. chata'. See Ap. 44. i.
+20:18 | 18-46 (E, above). HOSTILITIES. (Division.) 18-25 (G1, above). UNSUCCESSFUL. (Alternation and Introversion.) God. Heb. Elohim. Ap. 4.
+20:23 | And. Note the Fig. Parenthesis. Ap. 6. before the LORD. At Shiloh (18. 31). asked counsel. By Phinehas, with Urim and Thummim. Cp. v. 28, and see notes on Ex. 28. 30. Num. 26. 55.
+20:26 | 26-46 (G2, above). SUCCESSFUL. (Division.) the house of God. Not to be rendered "Beth-el" as in Sept., Syr., &c.; for the house of God was in Shiloh (18. 31), also the camp of Israel (21. 12). offered = offered up. See Ap. 43. I. vi.
+20:28 | Phinehas. The grandson of Aaron, the contemporary of Jonathan the grandson of Moses (18. 30). This is the only mention of the high priest throughout the book. Aaron. Some codices, with Syr., add "the priest".
+20:29 | 29-46 [For Structures see next page]. 20. 29-46 (H2, p. 355). FULFILMENT. (Alternation.) 29-33 (J, above). AMBUSCADE. (Introversion.)
+20:31 | the house of God = Beth-el. Here it denotes Beth-el. One of the three cities mentioned.
+20:33 | meadows. Probably = forest.
+20:34 | 34-37 (K, above). DEFEAT. (Introversion.) evil. Heb. ra'a'. Ap. 44. viii.
+20:36 | trusted. Confided or placed hope in. Heb. batah. Ap. 69. I.
+20:37 | drew themselves along = marched forward.
+20:38 | 38-41 (J, above). AMBUSCADE. (Alternation.)
+20:40 | behold. Fig. Asterismos. Ap. 6. the city = the whole city, or the holocaust of the city.
+20:42 | 42-46 (K, above). DEFEAT. (Alternation.)
+20:43 | over against = as far as over against.
+20:47 | 47—21. 24 (D, p. 353). REGRET. (Alternation and Introversion.) six hundred. Cp. 21. 13.
+20:48 | the men = every one.
+21:1 | 21. 1-12 (y, p. 356). FIRST EXPEDIENT. (Alternation and Introversion.) men. Heb. 'ish. Ap. 14. II. had sworn: i.e. before the fighting of ch. 20.
+21:2 | the house of God. Probably Shiloh, cp. v. 12 and 18. 31. God. Heb. ha-'Elohim, "the [true] God". Ap. 4. I. wept sore. Fig. Polyptoton (Ap. 6), "wept a great weeping". See note on Gen. 26. 28. Benjamin is indeed, now, "a son of sorrow" (Ben-oni, a son of sorrow, Gen. 35. 18).
+21:3 | LORD God = Jehovah Elohim. Ap. 4. I, II.
+21:4 | offered. Heb. 'alah. Ap. 43. I. vi.
+21:5 | children = sons. congregation = military assembly.
+21:8 | behold. Fig. Asterismos. Ap. 6.
+21:10 | children = little children. Heb. taph. Cp. 13. 5.
+21:11 | man = male. Heb. zakar.
+21:12 | young virgins. Heb. young women, virgins. virgins. Heb. bethulah. Shiloh. See note on 18. 31.
+21:13 | call peaceably = proclaim peace.
+21:16 | 16-23- (y, p. 356). SECOND EXPEDIENT. (Division and Introversions.)
+21:19 | a feast of the LORD. Some codices, with two early printed editions, read "a feast to Jehovah". yearly. The three feasts had come down to one. Apostasy was the cause of all their internal disorders. north side, &c. Shiloh and the house of Jehovah were so neglected that these minute instructions were necessary to enable an Israelite to find it. We have the same difficulty to-day; and when we find it we too often find, not the sacrifice of praise and thanksgiving, but what answers to that which we find in v. 21. Lebonah. A.V. 1611 reads "Lebanon" by an error. Modern "Lubban", about 3 1/2 miles north-west of Shiloh.
+21:21 | dance in dances. This is what "religion" had come to in those days of apostasy, by which we must judge it. man. Heb. 'ish. Ap. 14. II.
+21:22 | at this time, &c.: i.e. "at the time when ye would have incurred guilt [by so doing]".
+21:23 | repaired = rebuilt, or built up.
+21:25 | no king. Note the structural arrangement of the four occurrences of this expression. See note on 18. 1. did = did continually. This is the Divine summing up of the whole book, by way of Epilogue. All the evil follows as the result of the disobedience in 1. 27-36.
