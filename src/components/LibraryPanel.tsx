@@ -82,6 +82,8 @@ interface Row {
   license: string;
   licenseDetail: string;
   series?: string;
+  // Lists under Add-ons rather than its category section.
+  addon?: boolean;
   // Present once the row exists in the database.
   source?: Source;
   manifest?: LibraryEntry;
@@ -185,6 +187,7 @@ export default function LibraryPanel({
         license: entry.license,
         licenseDetail: entry.licenseDetail,
         series: entry.series,
+        addon: entry.addon,
         bundled: entry,
       });
     }
@@ -217,7 +220,7 @@ export default function LibraryPanel({
   const sections = useMemo(() => {
     return CATEGORY_LABELS.map(({ category, label }) => {
       const matching = rows
-        .filter((r) => r.category === category)
+        .filter((r) => r.category === category && !r.addon)
         .filter((r) => !query || rowHaystack(r, label).includes(query))
         .sort(compareByTitle);
 
@@ -350,7 +353,7 @@ export default function LibraryPanel({
 
   const visibleSections = sections.filter((s) => s.count > 0);
   const addonRows = rows
-    .filter((r) => ADDON_CATEGORIES.includes(r.category))
+    .filter((r) => r.addon || ADDON_CATEGORIES.includes(r.category))
     .filter((r) => !query || rowHaystack(r, 'Add-ons').includes(query))
     .sort(compareByTitle);
 

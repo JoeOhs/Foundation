@@ -1458,7 +1458,7 @@ running list of what's done and what's next, not a commitment.
   itself (as opposed to the Appendixes above). Installs from the Library's
   "Reference works" section as a single `commentary` source containing one
   `books` row per transcribed book — **Genesis**, **Exodus**,
-  **Leviticus**, **Numbers**, **Deuteronomy**, **Joshua** and **Philemon** so far (Philemon was the proof-of-concept). 7 of 66 books. Two content shapes share it:
+  **Leviticus**, **Numbers** and **Deuteronomy** — the Torah — as one add-on, listed with the Appendixes under Library → Add-ons. Joshua and Philemon are transcribed but held out of the shipped bundle (`build.mjs --books=…`) until the next release. Two content shapes share it:
   - *Structure diagrams* — Bullinger's nested outlines, stored as **data**
     (one `entries` row per outline line) rather than as page images, so
     highlighting, binding and annotating work on an individual outline line

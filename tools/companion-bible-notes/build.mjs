@@ -339,7 +339,11 @@ function main() {
   const bookArg = args.find((a) => a.startsWith('--book='));
   const all = args.includes('--all');
 
-  const slugs = all ? transcribedSlugs() : [bookArg ? bookArg.slice('--book='.length) : 'philemon'];
+  // --books=a,b,c compiles a chosen set — how the shipped bundle is scoped
+  // to a release (currently the Torah) while other books are in progress.
+  const booksArg = args.find((a) => a.startsWith('--books='));
+  const slugs = booksArg ? booksArg.slice('--books='.length).split(',')
+    : all ? transcribedSlugs() : [bookArg ? bookArg.slice('--book='.length) : 'philemon'];
   if (slugs.length === 0) {
     console.error('No *.structure.txt files found — nothing to compile.');
     process.exit(1);

@@ -394,6 +394,10 @@ export interface BundledLibraryEntry {
   // A work with no series lists above the series groups by default; this
   // lists it below them instead (Zwingli and Bullinger, after Luther).
   listAfterSeries?: boolean;
+  // Lists under Library → Add-ons instead of its category section: a
+  // reference layer read beside the text (the Companion Bible) rather than a
+  // standalone work.
+  addon?: boolean;
   // Returns the new source's id so the caller can open it straight away.
   install: (onProgress: (msg: string) => void) => Promise<number>;
 }
@@ -411,6 +415,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       '(levendwater.org/companion/) into a clean Markdown bundle shipped with the app; installs 198 short ' +
       'commentary articles as their own browsable source, no network call required. See ' +
       'tools/companion-bible-appendix/scrape.mjs for scrape provenance.',
+    addon: true,
     install: installCompanionAppendixes,
   },
   {
@@ -426,8 +431,9 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'and annotated, plus the side-notes themselves, with his scripture and appendix cross-references ' +
       'clickable. Reads alongside a translation in a normal pane. Hand-transcribed from the 1913 edition ' +
       'at the Internet Archive; see tools/companion-bible-notes/ for the transcription, its notation and its ' +
-      'build script. Installs whichever books have been transcribed so far.',
+      'build script. This release covers the Torah: Genesis, Exodus, Leviticus, Numbers and Deuteronomy.',
     verseKeyed: true,
+    addon: true,
     install: installCompanionNotes,
   },
   {
