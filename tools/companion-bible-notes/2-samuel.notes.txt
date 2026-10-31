@@ -1,0 +1,455 @@
+# The Companion Bible (E. W. Bullinger, 1913) — 2 Samuel
+# Marginal (side) notes, to be read alongside the KJV text.
+#
+# All 24 chapters, printed pp. 408-445. Method as for Judges; the opening note on both books is kept in 1-samuel.notes.txt.
+# At 8:4 and 10:18 the page prints Hebrew letters; they are written here
+# by name ("Zayin", "Nun final"), which is the transcriber's wording.
+# Checked against the archive text and a fresh OCR. The in-app checklist
+# has not been run.
+
+0 | TITLE, Second Book. See note on First Book, p. 366.
+
+1:1 | 2 Sam. 1. 1-27 (K2, p. 408). REPORT OF BATTLE. (Alternation.) the slaughter. Cp. 1 Sam. 30. 17. Ziklag. Cp. 1 Sam. 27. 6.
+1:2 | the third day. See note on 1 Sam. 30. 12. behold. Fig. Asterismos. Ap. 6. man. Heb. 'ish. Ap. 14. II.
+1:4 | he answered. He thought he brought news which would be welcomed.
+1:6 | behold ... lo. Fig. Asterismos. Ap. 6.
+1:8 | Amalekite. Thus Saul was dishonoured by one whom his disobedience spared. Cp. 1 Sam. 15. 3 and Ex. 17. 16.
+1:9 | He said. His whole story was a fabrication. See the facts in 1 Sam. 31. 4, 5. life = soul. Heb. nephesh. Ap. 13.
+1:10 | fallen: i.e. upon his own sword (1 Sam. 31. 4).
+1:11 | men. Heb. 'enosh. Ap. 14. III.
+1:12 | the LORD. Heb. Jehovah. Ap. 4. II.
+1:16 | Thy blood. Cp. v. 10. thy head = thyself. Fig. Synecdoche (of Part). Ap. 6.
+1:17 | 1. 17-27 (z, p. 408). THE LAMENTATION OF "THE BOW". (Repeated Alternation.)
+1:18 | children = sons. the use of. The Ellipsis is wrongly supplied. The word "Lamentation" should be repeated from v. 17; "The Bow" being the subject of the Lamentation (v. 22). the bow. This is the name of the Lamentation, because it is mentioned in v. 22; and it is what the tribe of Saul and Jonathan (Benjamin) was noted for (cp. 1 Chron. 8. 40; 12. 2. 2 Chron. 14. 8; 17. 17). For a similar reason the scripture (Ex. 3) about "The Bush" is so called in Mark 12. 26. Luke 20. 37. behold. Fig. Asterismos. Ap. 6. written, &c. In the Book of Jasher (or The Upright One) = "Thy hart, Israel, lies slain", &c.
+1:19 | beauty = gazelle. Symbolic of beauty and grace.
+1:21 | The shield of Saul. Omit the italics that follow, and supply instead "the weapon of one anointed with oil", the Heb. keli "weapons" being read instead of beli in the first edition of the Hebrew Bible, 1488, and the Syr. and Arabic Versions and Chaldee paraphrase.
+1:23 | swifter ... stronger. Fig. Hyperbole. Ap. 6.
+1:27 | How, &c. Render: "How [is it that] mighty ones have fallen, and weapons of war have perished".
+2:1 | 2 Sam. 2. 1—24. 25 (B2, p. 366). KING DAVID. (Division.) 2. 1—4. 12 (C1, above). KINGDOM DIVIDED. (Alternation.) 2. 1-11 (A, above). FOLLOWERS. ACCESSIONS. (Introversion and Alternation.) enquired. Probably by Urim and Thummim, in the breastplate of Abiathar the High Priest, who was with David (1 Sam. 22. 20). the LORD. Heb. Jehovah. Ap. 4. II.
+2:3 | men. Heb. 'enosh. Ap. 14. III. man. Heb. 'ish. Ap. 14. II.
+2:4 | anointed David. Aged thirty years. See note on 1 Sam. 16. 13.
+2:6 | The 20th Seder ends here. See note on p. 366.
+2:7 | valiant = sons of valour.
+2:8 | Ish-bosheth = man of shame: i.e. the idol "Baal". In 1 Chron. 8. 33 = Esh-baal.
+2:9 | and. Note the Fig. Polysyndeton (Ap. 6) in v. 9.
+2:12 | 12-32 (B, above). CONFLICTS. MILITARY. (Extended Alternation.)
+2:13 | Gibeon. Abner's city, in Benjamin (1 Chron. 8. 29, 30; 9. 35, 36).
+2:14 | young men = common soldiers. play = make sport.
+2:15 | which pertained. Sept. and Syr. read "pertaining".
+2:18 | as a wild roe = as one of the gazelles which are in the field.
+2:23 | stood still: i.e. with horror at the sight.
+2:25 | children = sons.
+2:27 | God. Heb. Elohim. Ap. 4. I (with Art.). spoken. Supply the Ellipsis (Ap. 6) thus: "spoken [the words which caused the provocation], surely". Cp. v. 14.
+2:29 | Bithron = the ravine.
+2:31 | men. Heb. 'ish. Ap. 14. II.
+3:1 | 3. 1-39 (A, p. 410). FOLLOWERS. DEFECTIONS. (Introversion.) Saul. Note the Fig. Antimetabole (Ap. 6) in this verse, and the Introversion of the subjects of this chapter.
+3:3 | wife of Nabal. Figs. Epitheton and Ampliatio (Ap. 6), by which Abigail is still so called by way of explanation. See note on 1 Sam. 30. 5. Absalom. Born in the Jubilee year, 958-957. Hence his name.
+3:5 | David's wife. Probably added, parenthetically, to indicate his first wife.
+3:6 | 6-11 (k, above). HOUSE OF SAUL. (Alternation.)
+3:7 | Ish-bosheth. Ellipsis. But some codices, with three early printed editions, read "the name".
+3:8 | fault. Heb. 'aven, iniquity. See Ap. 44. iii.
+3:9 | God. Heb. Elohim. Ap. 4. I. as = according as. the LORD. Heb. Jehovah. Ap. 4. II.
+3:12 | 12-39 (j, above). HOUSE OF DAVID. (Alternation.) league = covenant. behold. Fig. Asterismos. Ap. 6. hand. Fig. Metonymy (of Cause), Ap. 6. Hand put for help given by it.
+3:13 | Well = Good!
+3:15 | her. Aram., Sept., Syr., and Vulg. read "her" in the text. Phaltiel. Same as Phalti (1 Sam. 25. 44).
+3:16 | along weeping = weeping as he went.
+3:18 | do it = act.
+3:20 | 20-39 (p, p. 411). RETURN OF ABNER TO DAVID. (Extended Alternation.) men. Heb. 'enosh. Ap. 14. III.
+3:21 | 21-26 (r, above). TREATMENT OF ABNER. (Alternation.) thine heart = thy soul. Heb. nephesh. Ap. 13. sent Abner away = let Abner go.
+3:22 | pursuing a troop = making a raid.
+3:24 | What ...? ... why ...? Fig. Erotesis. Ap. 6.
+3:27 | 27-34 (s, above). DEATH OF ABNER. (Alternation.)
+3:28 | blood. Heb. = bloods. Fig. Heterosis (of Number) = much or noble blood. (Ap. 6).
+3:29 | rest = recoil. or. See note on Judg. 11. 31. falleth on the sword. Fig. Periphrasis (Ap. 6) for death by executioner; or, in war: commonly used where guilt of some kind is involved.
+3:30 | Gibeon. Cp. 2. 13.
+3:31 | bier. Heb. mittah, a bed; see 4. 7, and cp. Ex. 8. 3. The poor man's couch by day was his bed by night, and sometimes his bier.
+3:33 | Died ...? Fig. Erotesis. Ap. 6. a fool dieth: i.e. running into needless danger.
+3:34 | not bound: i.e. as a malefactor. Cp. 1 Sam. 25. 25, 26. fetters. Heb. = brass, put by Fig. Metonymy (of Cause) for fetters made of it. Ap. 6. wicked men = "sons of 'avlah". Ap. 44. vi.
+3:35 | meat. Put by Fig. Synecdoche (of Species) for food in general.
+3:36 | pleased them = was good in their eyes.
+3:38 | Know ye ...? Fig. Erotesis. Ap. 6.
+3:39 | shall reward. Cp. 1 Kings 2. 5, 6. evil. Heb. ra'a'. Ap. 44. viii. wickedness. Heb. ra'a'. Ap. 44. viii.
+4:1 | 4. 1-12 (B, p. 410). CONFLICTS. PERSONAL. (Introversion and Alternation.)
+4:2 | men. Heb. 'enosh. Ap. 14. III. Beerothite. Near Gibeon (Josh. 18. 25), now El Bireh, 6 miles north of Jerusalem, one of the Hivite towns possessed by Benjamin. children = sons. for. Note Fig. Parenthesis. Ap. 6.
+4:4 | lame of his feet. Cp. state of sinner by nature. of Saul: i.e. of the death of Saul, &c.: v. 4 is introduced here to explain the ease with which David's accession was accomplished, Mephibosheth being unable to succeed his father or avenge the death of Ish-bosheth.
+4:6 | And they came thither. Or, "Thither, into the interior of the house, came wheat-fetchers, and they smote", &c.
+4:7 | bed. Cp. 3. 31.
+4:8 | life = soul. Heb. nephesh. Ap. 13. the LORD. Heb. Jehovah. Ap. 4. II.
+4:9 | soul. Heb. nephesh. Ap. 13.
+4:10 | Behold. Fig. Asterismos. Ap. 6.
+4:11 | person. Heb. 'ish. Ap. 14. II. require = exact the penalty for. earth = land.
+4:12 | sepulchre. Cp. 3. 32.
+5:1 | 5. 1—24. 25 [For Structures see next page]. 5. 1—24. 25 (C2, p. 410). KINGDOM UNITED. (Introversion with Alternations.) 5. 1-25 (E, above). DAVID'S ACCESSION. (Extended and Simple Alternations.) Behold. Fig. Asterismos. Ap. 6.
+5:2 | the LORD. Heb. Jehovah. Ap. 4. II. feed = feed as a shepherd.
+5:3 | made a league = solemnised a covenant. anointed David. See note on 1 Sam. 16. 13.
+5:6 | men. Heb. 'enosh. Ap. 14. III. saying. What they said must be rendered thus: "Thou shalt not come in hither, for the blind and the lame shall drive thee away [by saying] 'David shall not come in hither.'"
+5:7 | the strong hold of Zion: i.e. the hill of Ophel, immediately south of Moriah. Zion. First occurrence. Occurs 154 times in O.T. (7 x 22, Ap. 10); used later (especially in prophecy) of the whole city. See Ap. 68. the City of David. Which is on Jebus, therefore, and not on the west side. First occurrence. Occurs forty times in O.T. Used of Zion five times (2 Sam. 5. 7, 9. 1 Kings 8. 1. 1 Chron. 11. 5. 2 Chron. 5. 2).
+5:8 | to the gutter = by (or through) the zinnor, a rock-cut passage from the lower Gihon or En-Rogel (now the Virgin's Fount on east of Ophel), leading up into the city and supplying water. Discovered by Sir Charles Warren. Cp. note on Neh. 2. 13, &c. soul. Heb. nephesh. Ap. 13. he shall be chief and captain. These words are supplied from 1 Chron. 11. 6, which tells that Joab got up the zinnor first. Probably revealed to him (or to David) by Araunah, who (though a Jebusite) was not slain, but is found, later on, owning property quite near (24. 16). Josephus says Araunah was a friend of David's. Wherefore = Because.
+5:9 | fort = the "strong hold" of v. 7. Citadel. round about = the wall, which was continued by Solomon (1 Kings 9. 15, 24; 11. 27), afterward by Hezekiah (2 Chron. 32. 5), and extended by Manasseh (2 Chron. 33. 14). Millo = the Millo, or the filling up: i.e. of the valley between Moriah and Jebus.
+5:10 | went on = went on and on. the LORD God of hosts = Jehovah Elohim zebaioth. Ap. 4. See note on 1 Sam. 1. 3.
+5:11 | Hiram. Not the Hiram of 1 Kings 9. 11, which was sixty years later. Josephus says he was his father. Cp. 2 Chron. 2. 13. 1 Kings 5. 1. Tyre. Israel had no war with Phoenicians. Asher failed to expel them (Judg. 1. 31).
+5:13 | out of. Perhaps this should read "into", as in 1 Chron. 14. 3. But both accounts are independent and complementary.
+5:16 | Eliada = Another name, Beeliada. See note on 1 Chron. 14. 7.
+5:17 | 17-25 [For Structure see next page]. 5. 17-25 (c, p. 414). PHILISTINES VANQUISHED. (Extended Alternation.) seek. Cp. 1 Sam. 26. 2. hold. Probably Adullam. 1 Sam. 22. 1. Not Zion, because he went "down" to it.
+5:18 | Rephaim. The descendants of the Nephilim through one "Rapha". See Ap. 23 and 25. Cp. 1 Chron. 11. 15.
+5:19 | the LORD. Heb. Jehovah (Ap. 4. II). See note on 1 Chron. 14. 10.
+5:20 | broken forth. Fig. Anthropopatheia. Ap. 6.
+5:25 | as = according as. Geba. Abbreviation for "Gibeon". Cp. Sept., and 1 Chron. 14. 16.
+6:1 | 6. 1—7. 29 (H, p. 414). WORSHIP. (Division.) 6. 1-23 (P1, above). THE ARK OF JEHOVAH. (Extended Alternation.)
+6:2 | Baale. The old Canaanite name of Kirjath-jearim. Cp. 1 Sam. 6. 21; 7. 2. 1 Chron. 13. 6. God. Heb. Elohim. Ap. 4. I. whose name is called by the name. Some codices, with Aram. and Vulg., read "whereupon is called the name", &c. the LORD of hosts. Heb. Jehovah Sebaioth. One of the Jehovah titles. Ap. 4. II. Cp. 5. 10, and see note on 1 Sam. 1. 3.
+6:3 | a new cart. This was contrary to the Divinely prescribed law (Num. 4. 15; 7. 9; 10. 21. Deut. 10. 8. Josh. 3. 14. 2 Sam. 15. 24. 1 Chron. 13. 7; 15. 2, &c.). When the Philistines did it in ignorance (1 Sam. 6. 7) no judgment fell on them, because the Law of Moses was not delivered to them. But David should have known: hence judgment came. The solemn lesson is that anything introduced into the worship of God contrary to His requirements is deserving of His judgments. This includes all that is contrary to John 4. 24, and all that is of the flesh, which "profiteth nothing" (John 6. 63). All this is like David's "new cart" and is sin in God's sight. See note on 1 Sam. 6. 7, and cp. 1 Sam. 15. 22.
+6:5 | the LORD. Heb. Jehovah. Ap. 4. instruments made of fir wood. The Sept. reads "with all boldness and with songs". See v. 14 and 1 Chron. 13. 8. According to Heb. text "fir woods", put by Fig. Metonymy (of Material) for instruments made from it. Ap. 6. timbrels = drums. See note on Ex. 15. 20. cymbals = timbrels, or tambourines. Heb. zilzilim. See note on 1 Chron. 13. 8.
+6:6 | Nachon's. Same as Chidon (1 Chron. 13. 9). his hand. These words are contained in the Aram., Sept., Syr., and Vulg.
+6:7 | error = negligence.
+6:8 | made a breach = broke forth. Fig. Anthropopatheia. Ap. 6.
+6:12 | pertaineth. A.V. (1611) reads "pertained". brought up the ark. Cp. 1 Chron. 15. 3.
+6:13 | six paces. See Ap. 51. III. 1. Cp. 1 Chron. 15. 26.
+6:14 | danced. This explains the subscription of Ps. 87 (not the title of 88, see note there), Mahalath Leannoth = dancing with shoutings. Cp. 1 Chron. 15. 25-29. See Ap. 65. a linen ephod. Cp. Aaron (Ex. 28. 6) and Samuel (1 Sam. 2. 18).
+6:16 | leaping and dancing. See note on v. 14.
+6:17 | tabernacle = 'ohel, tent. Not the Tabernacle of Moses, which was at Gibeon, cp. 1 Chron. 16. 39 (Ap. 40), but the tent David had prepared on Zion (7. 1-3). Cp. Ps. 132. 3-5. offered = offered up. Ap. 43. I. 6. peace offerings, which were for thanksgiving.
+6:18 | 6. 18-23 (n, p. 415). BLESSING. (Repeated Alternation.)
+6:19 | men ... every one. Heb. 'ish. Ap. 14. good piece of flesh. Note, "of flesh" is in italics, following the Vulgate. Translate, "a measure [of wine]". flagon of wine. Omit "flagon of wine", and render "a cake of raisins".
+6:20 | daughter of Saul. Note this. It does not say "the wife of David". uncovered = disrobed, referring to his royal robes.
+6:21 | It was. Omit these words and supply Ellipsis by adding, with Sept., "Before Jehovah [did I dance]".
+7:1 | 7. 1-29 (P2, p. 415). THE HOUSE OF JEHOVAH. (Introversion.) came to pass. This chapter takes its place with Gen. 15. It is the unconditional Covenant with David, to give him the Throne; as that was with Abraham, to give him the Land. the king. Thus now dignified. the LORD. Heb. Jehovah. Ap. 4. II.
+7:2 | Nathan. The first occurrence of his name. Cp. 1 Chron. 29. 29. An important figure in David's reign, and associated with his son Solomon (vv. 12, 13; 12. 25. 1 Kings 1. 10-45). See now. Fig. Asterismos. Ap. 6. of. Genitive of Material. Ap. 17. God. Heb. Elohim. Ap. 4. curtains. Put by Fig. Metonymy (of Cause) for the tent formed by them. Cp. 6. 17.
+7:3 | Nathan said. Not from Jehovah, as in v. 5, but from himself: and said what was wrong. do all that, &c. This is seldom safe advice.
+7:4 | 4-17 [For Structure see next page]. 7. 4-17 (R, p. 416). REPLY OF JEHOVAH. (Introversion.) that night. After these words all the MSS. have a hiatus, marking a solemn pause, and pointing back to the corresponding night of Gen. 15. 12-17, thus connecting the two great unconditional Covenants. See note on v. 1.
+7:5 | My servant. Note the repetition of this word throughout this chapter. See note on v. 18.
+7:6 | children = sons. walked = have been walking [habitually]. and in a tabernacle = as my habitation. Heb. mishkan. Ap. 40.
+7:7 | tribes, or "judges", as in 1 Chron. 17. 6.
+7:8 | the LORD of hosts. Heb. Jehovah Sebaioth. Ap. 4. II. One of the Jehovah titles. Cp. 5. 10; 6. 2, and see note on 1 Sam. 1. 3. I took. Cp. 1 Sam. 16. 11, 12. Ps. 78. 70, 71. over. Some codices, with one early printed edition, Syr., and Vulg., omit this second "over".
+7:9 | have made = I will assuredly make.
+7:10 | wickedness. Heb. 'amal. Ap. 44. v.
+7:11 | He. Heb. Jehovah. Ap. 4. II. house. Put by Fig. Metonymy (of Subject), Ap. 6, for household or family: i.e. a line of succession.
+7:12 | sleep with thy fathers. Fig. Euphemism (Ap. 6), put for "die". See note on Deut. 31. 16.
+7:14 | his Father = to him for a Father. My son = to Me for a son. iniquity. Heb. 'avah. Ap. 44. iv. men. Heb. 'enosh. Ap. 14. III. Ps. 89. 31, 32. men. Heb. 'adam. Ap. 14. I.
+7:15 | mercy = lovingkindness. as = according as.
+7:16 | thee. Some cod., with Sept. and Syr., read "Me".
+7:18 | 18-29 (Q, p. 416). DAVID BEFORE JEHOVAH. (Introversion.) 18-22 (S, above). DAVID. THANKSGIVING FOR HIMSELF. (Introversion.) Then. It is grace that really humbles. sat before the LORD. Very different from sitting before one's self, as in v. 1. Who am I ...? Fig. Erotesis. Ap. 6. Cp. v. 1. When David sat in his own house he sat before himself. See Structure, p. 416, "Q" and "Q". O Lord GOD = O Adonai Jehovah. Adonai because (1) David is the servant and He the master; (2) because this title has to do with lordship in the earth. Ap. 4. VIII (2). Cp. vv. 19 (twice), 20, 28, 29, six times in this chapter.
+7:19 | manner = Torah or Law. man. Heb. ha-adam = the man. "And is this the law of the man?" i.e. the Man of Ps. 8. 5, 6, who is to have dominion over all the earth, embracing all the world in the scope of this blessing in connection with the Messiah. This is an exclamation of greatest surprise and wonder of this revelation concerning David's son and David's Lord.
+7:22 | Wherefore Thou art great. Fig. Metonymy (of Subject), Ap. 6 = wherefore I will declare and praise Thee as great. O LORD God = O Jehovah Elohim. Note the change, because it is not now in connection with the earth, but what He is in Himself.
+7:23 | what ...? Fig. Erotesis. Ap. 6. like Israel. Some codices, with Sept., Syr., and Vulg., read "like Thy People Israel". redeem. Heb. padah. See notes on Ex. 13. 13 and 6. 6.
+7:25 | 7. 25-29 (S, p. 417). DAVID. PRAYER FOR HIS HOUSE. (Introversion.) as = according as.
+7:27 | found = taken heart, become emboldened.
+7:28 | true = truth.
+8:1 | 8. 1-14 (J, p. 414). DAVID'S MIGHTY ACTS. (Extended Alternation.) subdued. While David was victorious over enemies without, he was defeated by enemies within. See chs. 11 and 12. Metheg-ammah. 1 Chron. 18. 1 gives us the meaning, and shows that Metheg = bridle or reins, is put by Fig. Metonymy (of Cause), Ap. 6, for power or government, and Ammah = mother-city: i.e. "Gath and her daughters (i.e. towns)" (1 Chron. 18. 1).
+8:2 | smote Moab. Thus fulfilling Num. 24. 17. measured = allotted, or divided by lot. See note on "line", below: i.e. David divided into two companies those who were to be spared and those who were not. them = the territory. Put by Fig. Metonymy (of Subject), Ap. 6, for their territory. line. Line, put by Fig. Metonymy (of Cause), Ap. 6, for dividing or allotting what was measured with it. Deut. 3. 4, 13 (region); 32. 8, 9. Josh. 17. 5, 14. Ps. 19. 4. Amos 7. 17. Mic. 2. 5. 2 Cor. 10. 16. casting them = casting down the cities. See note on "them", above, and cp. 1 Chron. 18. 2 = "made them his servants", or vassals. to put to death. These were soldiers in arms, not inhabitants.
+8:3 | Hadadezer. Some codices, with four early printed editions, Sept., Syr., and Vulg., read "Hadarezer" (cp. 1 Chron. 18. 3, 5). Some divide and make it two words. Zobah. See Ps. 60 (title), and cp. 1 Sam. 14. 47. recover. Heb. cause his hand to cover: "hand" put by Fig. Metonymy (of Cause), Ap. 6, for possessing. border = boundary. 1 Chron. 18. 2, "establish his dominion there". Euphrates. Cp. 1 Chron. 18. 3 and Gen. 15. 18.
+8:4 | seven hundred. 1 Chron. 18. 4 = 7,000; but Heb. Zayin = 7 and Nun final = 700, are easily mistaken one for the other. See note on 1 Kings 4. 26.
+8:5 | men. Heb. 'ish. Ap. 14. II.
+8:6 | gifts: i.e. tribute. the LORD. Heb. Jehovah. Ap. 4. II.
+8:7 | shields. Sept. reads "bracelets".
+8:9 | Toi. Sept. and Vulg. read "Tou" throughout. Cp. 1 Chron. 18. 9. He was a Hittite king.
+8:10 | Joram. Sept. reads "Hadoram". Cp. 1 Chron. 18. 10. had wars with. Heb. = "was a man ('ish, Ap. 14. II) of wars with." with him. Heb. in his hand.
+8:12 | Syria. Some codices, with Sept. and Syr., read "Edom". and. Note the Fig. Polysyndeton. Ap. 6. children = sons. Amalek. See note on Ex. 17. 16.
+8:13 | gat him = made himself. smiting = his smiting. This is David's exploit. In 1 Chron. 18. 3, 12 it is Abishai's command, while in title of Ps. 60 it is Joab's share in the campaign (1 Kings 11. 16). eighteen thousand. This is the total. Joab's share was 12,000, and took six months longer. Cp. 1 Kings 11. 15, 16.
+8:14 | garrisons, or political residents.
+8:15 | 8. 15-18 (K, p. 414). DAVID'S OFFICERS. (Introversion.)
+8:16 | recorder = remembrancer.
+8:17 | Zadok. Probably served at Gibeon. Cp. 1 Chron. 18. 16. Ahimelech the son of Abiathar. Named after his grandfather (1 Sam. 21. 1; 22. 9, 16). Abiathar. Probably served at Jerusalem. the scribe. The first occurrence of this title. Heb. sopher, a counter. Individual scribes held high positions as associates of the High Priests, and of the commander-in-chief. They were amanuenses, registrars, accountants (2 Kings 12. 10); adjutants (2 Kings 25. 19); secretaries of state (2 Sam. 8. 17. Isa. 33. 18). First occurrence as a class or caste (1 Chron. 2. 55); a branch of the Levites (2 Chron. 34. 13). When Priests, who should have been teachers of the Law (Deut. 17. 11; 33. 10), became absorbed in ritual, the Scribes became custodians. Ezra was an ideal priest and scribe.
+8:18 | Benaiah. Cp. 23. 20. Cherethites ... Pelethites. David's body-guard. Here ends the prosperous part of David's reign.
+9:1 | 9. 1—10. 5 (L, p. 414). DAVID'S KINDNESS. (Division.) 1-13 (M1, above). KINDNESS TO MEPHIBOSHETH. (Division.) 1-4 (N1, above). MEPHIBOSHETH. SOUGHT. (Alternation.) kindness = grace, favour, or lovingkindness.
+9:3 | any = a man. Heb. 'ish. Ap. 14. II. God. Heb. Elohim. Ap. 4. I. lame. Cp. 4. 4.
+9:4 | Behold. Fig. Asterismos. Ap. 6. Lo-debar = no pasture. Where the sinner is until found by God's free grace.
+9:5 | 5-13 [For Structure see next page]. 9. 5-13 (N2, p. 419). MEPHIBOSHETH. FOUND. (Introversion.) sent, and fetched. This is the action of grace towards the "lost" sinner. Cp. Luke 15. 4, 5, 8, 9.
+9:6 | Mephibosheth. Born in 965 (4. 4). Now seventeen, and father of a young son (v. 12).
+9:7 | thy father's sake. So with God's grace to us; not for the sake of the lost one. Saul thy father = Saul thy grandfather.
+9:8 | What ...? Fig. Erotesis. Ap. 6. a dead dog. Self-abasement is ever the result of grace shown. I am. So the sinner is concerned about what he is, rather than what he has done. Cp. Isa. 6. 5. Luke 5. 8.
+9:12 | Mephibosheth. Note the Fig. Epanadiplosis (Ap. 6) in this verse: being repeated at the beginning of the next verse.
+9:13 | was = he was.
+10:1 | 10. 1-5 (M2, p. 419). KINDNESS TO HANUN. (Repeated Alternation.) children = sons.
+10:2 | kindness = lovingkindness, or grace. Cp. 9. 1. as = according as.
+10:3 | search = explore. the city. Some codices, with one early printed edition, read "the land". Cp. 1 Chron. 19. 3.
+10:5 | men. Heb. 'enosh. Ap. 14. III.
+10:6 | 10. 6—20. 22 (M, p. 414). WARS AND EVENTS. (Division.) 10. 6-19 (O1, above). FIRST AND SECOND WARS. (Repeated Alternation.) men. Heb. 'ish. Ap. 14. II. Ish-tob = men of Tob.
+10:12 | play the men = Be strong and let us put forth our strength. Heb. hozak. God. Heb. Elohim. Ap. 4. I. the LORD. Heb. Jehovah. Ap. 4. II.
+10:16 | river: i.e. the Euphrates. Shobach. Another name, Shophach (1 Chron. 19. 16).
+10:18 | seven hundred. 1 Chron. 19. 18 = 7,000. But Heb. Zayin = 7 and Zayin = 7,000, probably a scribe's infirmity. Cp. 8. 4 and 1 Chron. 18. 4.
+11:1 | 11. 1—20. 22 (O2, p. 420). THIRD WAR, AND EVENTS. (Alternation.) 11. -1—12. 25 (Q, above). DAVID'S SIN. (Repeated Alternation and Introversion.) at the time, &c.: i.e. the next spring. children = sons. Rabbah. The capital of Ammon (Deut. 3. 11. Josh. 13. 25). But David tarried. Note contrast with "kings" going forth, above, and this word "But".
+11:2 | washing = bathing. Probably in the court below.
+11:3 | Bath-sheba. Called Bath-shua, 1 Chron. 3. 5. Eliam. Called "Ammiel", 1 Chron. 3. 5. The son of Ahithophel (23. 34). Uriah. One of David's faithful soldiers (23. 39). Married the daughter of Eliam (11. 3), who was the son of Ahithophel (23. 34). This relationship probably led to Ahithophel's disloyalty (15. 12).
+11:4 | for = and when. purified. Cp. Lev. 15. 18. It is possible to be more punctilious about the ceremonial Law than the moral Law.
+11:5 | sent and told: that David might shield her from the death penalty (Lev. 20. 10).
+11:6 | 6-24 (T, above). DAVID AND URIAH. (Alternation.)
+11:9 | door = entrance.
+11:11 | thy soul = thou (emph.). Heb. nephesh. Ap. 13.
+11:16 | 11. 16-24 (W, p. 421). URIAH'S DEATH. (Repeated Alternation.) men. Heb. 'ish. Ap. 14. II.
+11:17 | men. Heb. 'enosh. Ap. 14. III.
+11:20 | from = from off, as in v. 24.
+11:21 | Jerubbesheth (Judg. 9. 1) = Jerubbaal. Baal = lord, Bosheth = shame; changed by Holy Ghost here to suit his idolatry (Judg. 8. 27), and now David's sin. a woman, one of the ten deaths caused by a woman. See note, Judg. 4. 21. piece = upper piece. millstone. One of the "despised" things used. See note on Judg. 3. 21; 9. 53.
+11:23 | entering = entrance.
+11:25 | displease thee = be evil in thine eyes. This event put David in Joab's power, which Joab freely used. David was not tongue-tied in 3. 29; but from now he had to endure Joab's insolence, being too suspicious to trust him, and too weak to dismiss him. Cp. 14. 19; 19. 7. 1 Kings 2. 5, 32, 33. one as well as another = now this one, now that one.
+11:26 | mourned = made lamentations.
+11:27 | sent. Not till nine months after. the LORD. Heb. Jehovah. Ap. 4. II.
+12:1 | 12. 1-14 (T, p. 421). DAVID AND NATHAN. (Repeated Alternation.) the LORD. Heb. Jehovah. Ap. 4. II. sent. See 11. 27. Nathan. Sept. and Syr. read "Nathan the prophet". he came. Cp. title of Ps. 51. men. Heb. 'ish. Ap. 14. II.
+12:3 | meat = morsel.
+12:5 | shall surely die. Heb. is a son of death = liable to die.
+12:6 | fourfold. Cp. Ex. 22. 1. Sept. reads "sevenfold".
+12:7 | Thou art the man. Many means used to produce conviction: God's greatness (Job 42. 1-6); God's glory (Isa. 6. 5); God's power (Luke 5. 8); a famine (Luke 15. 14, 18); a parable (2 Sam. 12. 1-13), &c. God. Heb. Elohim. Ap. 4. I. anointed thee. 1 Sam. 16. 13.
+12:9 | evil. Heb. ra'a'. Ap. 44. viii, with Art. thou hast killed. Not Joab, or the Ammonites. children = sons.
+12:10 | the sword. Put by Fig. Metonymy (of Adjunct), Ap. 6, for manifested hostility. never. Fig. Synecdoche (of the Whole), Ap. 6, put for a part of time: i.e. lifetime.
+12:11 | Behold. Fig. Asterismos. Ap. 6. evil. Heb. ra'a'. Ap. 44. viii. See the Structure of 13. 1—20. 22 (Q, p. 424). thine own house. Disgraced by one son (13. 14), banished by another (15. 19), revolted against by a third (1 Kings 2), bearded by his servant, betrayed by his friends, deserted by his People, bereaved of his children.
+12:12 | thou. See note on v. 9.
+12:13 | I have sinned. Ps. 51 is the expansion of this. sinned ... sin. Heb. chata'. Ap. 44. i. hath put away. Divine forgiveness instantly follows the sinner's confession (1 John 1. 9). Cp. Job 42. 6, 8, 10. Isa. 6. 5, 6, "then flew". Luke 15. 18, 20, "his father ran", &c. thou, &c. Some codices, with two early printed editions, read "and (or therefore) thou wilt not die".
+12:14 | thou hast given great occasion, &c. This is noted in the Massorah (Ap. 30) as one of the emendations of the Sopherim (Ap. 33), who altered the primitive text out of a mistaken reverence for David and Jehovah. The original reading was "thou hast greatly blasphemed Jehovah".
+12:15 | 12. 15-25 (R3, p. 421). DAVID AND THE CHILD. (Repeated and Extended Alternation.)
+12:16 | and. Note the Fig. Polysyndeton in this verse. Ap. 6. fasted. Heb. fasted a fast = made a strict fast. Fig Polyptoton. Ap. 6. lay all night upon the earth: as a penitent, with Ps. 51 for his utterance. Note his sitting before Jehovah as a worshipper, and his utterance (2 Sam. 7. 18-29); and his standing as a servant (1 Chron. 28. 2), and his utterance and service (1 Chron. 28. 3—29. 21).
+12:22 | Who can tell ...? Fig. Erotesis. Ap. 6. GOD = Jehovah. Ap. 4. II.
+12:23 | I shall go to him = I shall die and be buried (cp. v. 19): i.e. I shall go to the (not "a") grave (Sheol). On the use of this Fig. Euphemy (Ap. 6) as denoting death and burial, see Gen. 15. 15 (cp. Josh. 24. 2, 14, 15, Abraham's "fathers" being idolaters); 25. 8, 17; 35. 29; 49. 29, 33. Num. 20. 26; 27. 13; 31. 2. Deut. 31. 16; 32. 50. Judg. 2. 10. 1 Sam. 28. 19 (note "thou and thy sons"). 2 Kings 22. 20. 1 Chron. 17. 11. 2 Chron. 34. 28. Acts 13. 36.
+12:24 | And. Note the Fig. Polysyndeton in vv. 24-27. Ap. 6. he. Some codices, with Syr. and Vulg., read "she", in contrast with "he" in next verse. Solomon = Pacific or Peaceable. Cp. 7. 13.
+12:25 | He: i.e. Jehovah, by the hand of Nathan, in contrast with Bath-sheba. See note on v. 24. Jedidiah = beloved of Jah. See note on Ps. 127. 2. because of the LORD = for Jehovah's sake.
+12:26 | 12. 26-31 (P, p. 421). RABBAH. CAPTURED. (Division.)
+12:27 | city of waters. Fig. Hypallage. Ap. 6 = waters of the city: i.e. the lower waters or town, cutting off the citadel, which David came and took.
+12:30 | their king's crown = the crown of Milcom, with Sept. Cp. 1 Chron. 20. 2. Jer. 49. 1, 3. Amos 1. 15. Zeph. 1. 5 (Comp. Bible). talent. See Ap. 51. II.
+12:31 | put = appointed, appointed over, set, &c. Heb. sum (Gen. 2. 8; 45. 8, 9; 47. 6. Ex. 2. 14; 5. 14. 1 Sam. 8. 11; 2 Sam. 7. 10. 2 Kings 10. 24. Ps. 78. 5; 81. 5. Hos. 1. 11, &c.). under = with, especially to work with. Heb. letter Beth, prefixed as prep. = in, within, with. When the prep. "under" = beneath, then it is either part of a verb or one of four distinct words: 'el (2 Sam. 2. 23); mattah (1 Chron. 27. 23); techoth (Jer. 10. 11. Dan. 4. 12, 21; 7. 27, "under the heavens"); tahath (Dan. 4. 14, "under a tree"). Beth, when translated "under", is only in the sense of within (as "under (or within the shelter of) the wing", or "under (or within) the earth"). Otherwise, used with a tool or weapon or instrument, it always means "with". See "with an axe" (Deut. 19. 5. Jer. 10. 3); "with axes" (Jer. 46. 22. Ezek. 26. 9. Ps. 74. 6); "with nails and with hammers" (Jer. 10. 4); "with an ox-goad" (Judg. 3. 31); "with mattock" (Isa. 7. 25); "with sword and with bow" (Gen. 48. 22. Josh. 24. 12. 2 Kings 6. 22); "with a graving tool" (Ex. 32. 4), &c. pass through = pass by or before. Heb. 'abar, as in Ezek. 37. 2; 46. 21. Deut. 2. 30. Ex. 33. 19. 1 Sam. 16. 8, 9, 10, &c. brickkiln = brick-work; hence, brick pavement or paved area (R.V. marg.). Not brickkiln; no brickkilns in Palestine. All bricks there are sun-dried. Only once spoken of as burnt—as being a strange thing (Gen. 11. 3, and marg.). Heb. malben, occurs only here, Jer. 43. 9, and Nah. 3. 14, the former at "entry" of royal palace, the latter said to be "fortified". Both out of the question, and quite incongruous for a brickkiln. The very paved area of Jer. 43. 9 was discovered at Tahpanhes by Flinders Petrie in 1886, where Nebuchadnezzar did exactly what David did here and in ch. 8. 2 and 1 Chron. 20. 3. thus did he: i.e. as in 8. 2, with Moab, so here; he caused the captives to pass by before him, he seated on a pavement of brick-work, or paved area, where he appointed them to the various departments of labour for which they were suited. Cp. Jer. 43. 9-11. These were the "strangers" (i.e. foreigners) and the "abundance of workmen" referred to in 1 Chron. 22. 2, 15. Cp. Deut. 29. 11. Josh. 9. 27. See notes on 1 Kings 5. 13; 9. 15, 21, 22.
+13:1 | 13. 1—20. 22 (Q, p. 421). DAVID'S SIN. PUNISHED. (Division.) 13. 1—14. 33- (Y1, above). AMNON'S SIN. (Introversion and Extended Alternation.) after this: i.e. 938. David, 53; Amnon, 22; Absalom, 20; Tamar, 15; Solomon, 2. Absalom. Son of Maacah, daughter of king of Geshur (see note on 3. 3). Amnon. Son of Ahinoam (3. 2).
+13:3 | Shimeah = Shammah (1 Sam. 16. 9). subtil = wise. man. Heb. 'ish. Ap. 14. II.
+13:5 | make = feign. meat = heart-shaped cakes. Occurs only here and in vv. 6, 7, 8, 10.
+13:6 | cakes. See note on "meat", v. 5.
+13:8 | flour = dough, or paste.
+13:9 | a pan = the pan. Occurs only here. poured = put down. men. Heb. 'ish. Ap. 14. II.
+13:12 | force = humble.
+13:16 | no cause. Heb. 'al. "[Give] no ground for talk". evil. Heb. ra'a'. Ap. 44. viii.
+13:18 | divers colours = a long tunic with sleeves.
+13:19 | 13. 19-22 (c, p. 424). EMOTIONS. (Alternations.) laid her hand. Fig. Metonymy (of Adjunct), Ap. 6, put for "grieved".
+13:20 | desolate. Heb. "remained and [remained] desolate". Cp. 1 Tim. 5. 5.
+13:24 | Behold. Fig. Asterismos. Ap. 6.
+13:25 | chargeable = burdensome.
+13:27 | with him. The Sept. and Vulg. add here "and Absalom made a banquet, like the banquet of a king". Cp. 1 Sam. 25. 36.
+13:28 | valiant = sons of valour.
+13:29 | as = according as. 13. -29—14. 27 (c, p. 424). COMMOTIONS. (Division.) -29-39 (C1, above). ABSALOM'S FLIGHT. (Repeated Alternation.) mule. First occurrence. Not Gen. 36. 24. See note there.
+13:31 | with their clothes rent = and rent their garments.
+13:36 | wept very sore. Fig. Polyptoton (Ap. 6) = "wept with a great weeping".
+13:37 | Ammihud, or Ammihur. David. Sept. reads "David the king".
+13:39 | the soul of king David. The Aram. reads "the soul (nephesh) of the king". Cp. the omission of nephesh in Ps. 16. 2.
+14:1 | 14. 1-33 (C2, above). ABSALOM'S RECALL. (Introversion.)
+14:2 | Tekoah. On the edge of the hill country of Judah, south-east of Beth-lehem, about seven miles from Jerusalem (cp. Jer. 6. 1). Abounding in caverns. The abode of Amos.
+14:4 | 4-11 (F, above). PARABLE. PUT FORTH. (Repeated Alternation.) spake to the king. Many codices, with three early printed editions, Sept., Syr., and Vulg., read "came in unto the king".
+14:5 | a widow. One of nine widows specially mentioned. See note on Gen. 38. 19. mine husband is dead. Fig. Synonymia. Ap. 6.
+14:7 | behold. Fig. Asterismos. Ap. 6. life = soul. Heb. nephesh. Ap. 13.
+14:9 | iniquity. Heb. 'avah. See Ap. 44. iv.
+14:11 | remember = recall to mind: i.e. take an oath. the LORD. Heb. Jehovah. Ap. 4. II. God. Heb. Elohim. Ap. 4. I. revengers = avengers, or next of kin. Heb. ga'al. See note on Ex. 6. 6, and cp. Num. 35. 19, 21, 24, 25, 27. not one hair, &c. Fig. Paroemia. Ap. 6.
+14:14 | person = soul. Heb. nephesh. Ap. 13.
+14:16 | man. Heb. 'ish. Ap. 14. II.
+14:19 | hand = work, or handiwork. Put by Fig. Metonymy (of Cause), Ap. 6, for what is wrought by it. soul. Heb. nephesh. Ap. 13. none = no man. Heb. 'ish. Ap. 14. II.
+14:20 | To fetch about this form of speech = To bring about this turn of affairs.
+14:21 | 21-33 (D, p. 426). DAVID'S RECALL OF ABSALOM. (Repeated Alternation and Introversion.) Behold. Fig. Asterismos. Ap. 6. I. Some codices read "thou".
+14:22 | thanked = blessed.
+14:26 | for. Note the Fig. Parenthesis. Ap. 6. king's weight: to distinguish it from the sacred shekel. See Ap. 51. II.
+14:27 | three sons. Did not survive him. Cp. 18. 18.
+15:1 | 15. 1—19. 43 (Y2, p. 424). ABSALOM'S REBELLION. (Alternations, Simple and Extended). 15. 1-13 (J, above). REBELLION MADE. (Introversion and Alternation.) it came to pass. Cp. Ps. 3 and chs. 15—18. David was now fifty-six, Absalom twenty-four, Solomon six. horses. A sign of his pride (Deut. 17. 16, 20). men. Heb. 'ish. Ap. 14. II. run before. To clear the way. Mark of royalty or dignity. (Still done in Cairo.) Cp. 1 Sam. 8. 11. 1 Kings 1. 5; 18. 46.
+15:2 | rose = used to rise, &c.
+15:3 | matters: i.e. plea, cause, or suit. no man = no one.
+15:6 | hearts. Put by Fig. Metonymy (of Adjunct), Ap. 6, for affections and adhesion. men. Heb. 'enosh. Ap. 14. III.
+15:7 | forty years: i.e. from David's anointing (1 Sam. 16. 13): i.e. 974-934. my vow, which I have vowed. Fig. Polyptoton (Ap. 6) = my solemn vow. the LORD. Heb. Jehovah. Ap. 4. Hebron. Where he was born, and had friends.
+15:8 | vowed a vow = made a solemn vow. Fig. Polyptoton. Ap. 6.
+15:12 | sent for. Sept. reads "sent and called". Ahithophel. David's counsellor. Cp. Ps. 41. 9; 55. 13. See note on "Uriah", 11. 3. his city. Cp. Josh. 15. 51. offered sacrifices. See Ap. 43. I. iv. increased. Cp. Ps. 3. 1.
+15:14 | 14-37 (L, above). DAVID'S DEPARTURE. (Repeated Alternation.) evil. Heb. ra'a'. Ap. 44. viii. city. Put by Fig. Metonymy (of Subject), for its inhabitants. Ap. 6.
+15:15 | Behold. Fig. Asterismos. Ap. 6. appoint = choose.
+15:17 | a place that was far off. Heb. Beth-hammerhak. Probably a proper name.
+15:18 | Gittites. From Gath, the city of Goliath, now David's choicest followers.
+15:19 | stranger = foreigner.
+15:20 | mercy = lovingkindness, or grace. truth = faithfulness. Sept. and Syr. read "Jehovah will deal with thee in lovingkindness and faithfulness".
+15:23 | all: i.e. all the country round him. Fig. Synecdoche (of the Whole). Ap. 6. country. Put by Fig. Metonymy (of Subject) for the people. Fig. Prosopopoeia. Ap. 6.
+15:24 | lo. Fig. Asterismos. Ap. 6. God = ha-Elohim (with art.) = the [triune] God. Ap. 4. I.
+15:25 | if I shall find favour, &c. God's grace is the basis of all blessing. Cp. Num. 14. 8. Deut. 10. 15. 2 Sam. 22. 20. 1 Kings 10. 9. 2 Chron. 9. 8. Ps. 18. 19; 41. 11; 86. 2 (marg). Acts 7. 46.
+15:26 | as = according as.
+15:28 | See. Fig. Asterismos. Ap. 6.
+15:30 | Olivet. Name due to the Vulg. Oliveti in Acts 1. 12. wept. Cp. Luke 19. 41. head covered. Symbol for self-condemnation. barefoot. Symbol of mourning. Isa. 20. 2, 4. Ezek. 24. 17.
+15:31 | told David. The news came when the trial was greatest. Cp. Ps. 41. 9 and 55. 12-14. turn, &c. Cp. Pss. 41; 55; 69; 109.
+15:32 | the top. Doubtless a high place where God was worshipped. Nob was near where the Tabernacle once stood. God. Heb. Elohim. Ap. 4. I. behold. Fig. Asterismos. Ap. 6. Hushai. David's friend. Cp. v. 37; 16. 16. 1 Chron. 27. 33. Archite. Probably = a native of Archi, on frontier of Benjamin and Ephraim. coat = the long tunic with sleeves.
+15:35 | hast thou not ...? Fig. Erotesis. Ap. 6.
+16:1 | 16. 1-14 (M, p. 428). MEPHIBOSHETH, ZIBA, &c. (Introversion.) top. Cp. 15. 32. behold. Fig. Asterismos. Ap. 6. Mephibosheth. Now thirty-one. Born in 965. Cp. 4. 4. bottle = skin-bottle (Josh. 9. 4. Matt. 9. 17). wine. Heb. yayin. See Ap. 27. I.
+16:3 | he said. This was slander. See 19. 24-30, and cp. the two Structures.
+16:5 | 16. 5-13 (s, p. 429). IMPRECATION OF SHIMEI. (Introversion.) Bahurim. On east side of Olivet; "in tribe of Benjamin". man. Heb. 'ish. Ap. 14. II.
+16:7 | come out. Fig. Epizeuxis (Ap. 6): i.e. out = Begone! or Get out! bloody man = man of bloods (pl. denoting much blood). thou man of Belial. Cp. 1 Sam. 1. 16; 10. 27.
+16:8 | the LORD. Heb. Jehovah. Ap. 4. II.
+16:9 | dead dog. Fig. Antiprosopopoeia. Ap. 6. Cp. 1 Sam. 17. 43. let me go. Cp. 1 Sam. 26. 8.
+16:10 | What have I to do ...? First occurrence of this idiom. Fig. Erotesis (Ap. 6). Cp. 19. 22. 1 Kings 17. 18. 2 Kings 3. 13. Matt. 8. 29. Mark 1. 24. Luke 4. 34. John 2. 4. sons of Zeruiah. Cp. 3. 39 and Luke 9. 55. let him curse. Uriah's murder closed David's mouth (12. 9). Who shall then ...? Fig. Erotesis. Ap. 6.
+16:11 | Behold. Fig. Asterismos. Ap. 6. life = soul. Heb. nephesh. Ap. 13. how much ...? Fig. Erotesis. Ap. 6.
+16:12 | look on mine affliction. This is one of the eighteen emendations of the Sopherim (Ap. 33). The primitive text reads "Jehovah will behold with His eye". This was thought to be too anthropomorphic, and so was altered, and the alteration recorded. requite. Cp. Ps. 109. 26-28.
+16:13 | men. Heb. 'enosh. Ap. 14. III. cast dust. Heb. "dusted him with dust". Fig. Polyptoton (Ap. 6): i.e. cast much dust.
+16:14 | weary. Heb. 'Ayiphim. Perhaps the name of a place, or of a caravansary with that name, "for the weary".
+16:15 | 16. 15—17. 23 (N, p. 428). JERUSALEM. ABSALOM'S ENTRY. (Introversion.)
+16:18 | choose = hath chosen.
+16:21 | said. Instigated by feelings of private revenge against David for his sin with Bath-sheba; she being the daughter of his son, Eliam. See 23. 34. Cp. 11. 3. Foretold by Nathan (12. 11, 12).
+16:22 | the top of the house. Cp. 11. 2.
+16:23 | as = according as. oracle = word. The first occurrence of "oracle" as a rendering (fifteen times) of dabar, word. The holy of holies, because there the word of Jehovah was heard. Other occurrences: see 1 Kings 6. 5, 16, 19, 20, 22, 23, 31; 8. 6, 8. 2 Chron. 3. 16; 4. 20; 5. 7, 9. Ps. 28. 2. Cp. N.T. usage in plural: Acts 7. 38. Rom. 3. 2. Heb. 5. 12. 1 Pet. 4. 11.
+17:1 | choose out. Sept. and Vulg. read "choose for myself". men. Heb. 'ish. Ap. 14. II. I will. Ahithophel manifests personal vengeance. See note on 16. 21 and 17. 11. this night. Cp. Ps. 4. 8. Ps. 4 is concerning inheritances. David's was in jeopardy (v. 2), but his trust was in Jehovah's favour (15. 25; 22. 20. Ps. 18. 19).
+17:4 | pleased = was good in the eyes of. and = and [in the eyes of] all.
+17:5 | Call now. Heb. = "Call thou" (cp. "thou", v. 6); but Sept. and Vulg. read "Call ye".
+17:7 | counsel ... given. Heb. counsel ... counselled. Fig. Polyptoton (Ap. 6) = the good counsel (but "not good" now).
+17:8 | men. Heb. 'enosh. Ap. 14. III. mighty men. Heb. gibborim. Ap. 14. IV. chafed = bitter. minds = souls. Heb. nephesh. Ap. 13.
+17:9 | Behold. Fig. Asterismos. Ap. 6.
+17:10 | valiant men = sons of valour.
+17:11 | as. Fig. Paroemia. Ap. 6. thou = thou thyself. Heb. "thy face". Fig. Synecdoche (of Part), Ap. 6, put to emphasise the whole person. to battle. Heb. karab, never used of battle (which is milhamah). Bikkrab, rendered "to battle", is an abbreviation for bekirbah = "in the midst of them", which is the reading of the Sept. and Vulg. in thine own person. By all this emphasis Hushai represents Ahithophel's personal malice (which need not disturb Absalom) as being personal pride aimed against Absalom. See vv. 1-3, "I will arise"; "I will come"; "I will smite"; "I will bring back", &c.
+17:12 | as = according as.
+17:14 | the LORD. Heb. Jehovah. Ap. 4. II. evil = the evil. Heb. ra'a'. Ap. 44. viii.
+17:17 | En-rogel. Now the Virgin's Fount, on east side of Ophel, or Jebus, from which the Zinnor runs up to the citadel. See note on 5. 8. Cp. Josh. 15. 7; 18. 16, and Ap. 68, on "Zion". a wench = a maidservant. Cp. Matt. 26. 69. Mark 14. 66. Luke 22. 56. John 18. 17.
+17:18 | went down. Wells mostly dry in summer.
+17:20 | said. Probably misdirecting them.
+17:22 | Jordan. Cp. Pss. 42. 6 and 43; both Pss. referring to this period.
+17:23 | put his household in order = gave charge unto his household. hanged himself. Not so much because his counsel was not taken, but because his revenge was not taken on David (see note on 11. 3; 16. 21, and 17. 1), and that the conspiracy must fail. Same word in Matt. 27. 5 as in Sept. here (apegxato), as though to invite the comparison of Judas with Ahithophel.
+17:24 | 17. 24—18. 5 (J, p. 428). REBELLION QUELLED. (Introversion.) 17. 24—18. 5 (O1, above). MAHANAIM, &c. (Alternation.) all. Fig. Synecdoche (of Genus). Ap. 6. The whole put for the greater part.
+17:25 | made = set, or appointed. captain of = captain over. Ithra an Israelite = Jether an Ishmeelite. See 1 Chron. 2. 17. went in to. Probably meaning seduced. If so, it would be during David's stay in Moab (1 Sam. 22. 3, 4). Abigail. David was probably half-brother to Abigail and Zeruiah, having the same mother; he having Jesse for his father, they having Nahash. sister to Zeruiah. Implying that she was not sister to David.
+17:27 | Nahash. Cp. 10. 2. Machir. He had brought up Mephibosheth. Cp. 9. 5.
+17:28 | and. Note the Fig. Polysyndeton (Ap. 6) in vv. 28 and 29, emphasising the items.
+17:29 | butter. Scarce in Lo-debar. Cp. 9. 4. The word means place of "no pasture".
+18:1 | numbered = mustered, or inspected. David was now fifty-six.
+18:3 | succour us out of the city = come to us out of the city with succour by prayer and counsel.
+18:5 | heard. This explains v. 12.
+18:6 | 6-18 (P, above). THE BATTLE. (Alternation.) wood of Ephraim. Cp. Josh. 17. 15-18.
+18:8 | the face. Fig. Pleonasm, with Prosopopoeia. Ap. 6. devoured. Heb. "multiplied to devour", to emphasise the great number. Fig. Prosopopoeia. Ap. 6.
+18:9 | taken up. The tradition about his "hair" comes from Josephus (VII. 10. 2).
+18:10 | man. Heb. 'ish. Ap. 14. II. Behold. Fig. Asterismos. Ap. 6.
+18:11 | girdle. A common present, made of silk, linen, or leather, and worked sometimes in gold. Used for fastening up loose garments.
+18:12 | our hearing. See v. 5. Beware that none touch = Watch any one who [would touch] the, &c. After "Watch", Sept., Aram., Syr., and Vulg. add "for my sake", as in v. 5.
+18:13 | life = soul. Heb. nephesh. Ap. 13.
+18:14 | darts = clubs. Heb. shebet, a club with a long spike at the end. Still used in Palestine.
+18:15 | armour = weapons. slew him. David being fifty-seven years old; Absalom, twenty-four; Solomon, seven.
+18:17 | heap of stones. Not a memorial to honour but to warn (Josh. 7. 26; 8. 29). See note on v. 18.
+18:18 | pillar. Marks ambition's aim, while the heap of stones (v. 17) marks ambition's end. no son. Cp. 14. 27. Therefore built before the firstborn; or after his sons (14. 27) were dead. place = monument. About a quarter of a mile east of Jerusalem, in the Valley of Jehoshaphat.
+18:19 | 18. 19—19. 8 (O2, p. 432). MAHANAIM. REPORT. (Division.) 19-33 (Q1, above). SORROW INDULGED. (Alternation.) 19-23 (R, above). TIDINGS BORNE. (Extended Alternation.) the LORD. Heb. Jehovah. Ap. 4. II.
+18:24 | -24-32 (R, above). TIDINGS DELIVERED. (Alternation.) between the two gates. The outer and inner gates of the city wall.
+18:25 | If he be alone. Otherwise it would be flight.
+18:26 | porter = gatekeeper. No gates without the "Bawab" or gatekeeper. Cp. 2 Kings 7. 17. 1 Chron. 9. 21.
+18:27 | good. Cp. 1 Kings 1. 42.
+18:28 | Blessed be the LORD thy God. Some codices, with three early printed editions, reverse the order, thus changing the emphasis, and read: "Jehovah thy God be blessed". God. Heb. Elohim. Ap. 4. I. men. Heb. 'enosh. Ap. 14. III.
+18:29 | and = even. what it was = what [it meant].
+18:32 | be as that young man. Fig. Euphemism. Ap. 6.
+18:33 | my son ... my son. Fig. Epizeuxis. Ap. 6. for = instead of.
+19:1 | 19. 1-8 (Q2, p. 433). SORROW RESTRAINED. (Repeated Alternation.) Behold. Fig. Asterismos. Ap. 6.
+19:3 | as = according as.
+19:4 | covered his face. Symbol of mourning. Occurs only here. my son ... my son. Fig. Epizeuxis. Ap. 6. Cp. 18. 33.
+19:5 | life ... lives = soul ... souls. Heb. nephesh. Ap. 13. and. Note the Fig. Polysyndeton. Ap. 6.
+19:6 | declared = made clear.
+19:7 | Now. Note the Fig. Epanadiplosis (Ap. 6), to emphasise the completeness of Joab's reasoning. comfortably. Heb. 'al-leb, to the heart. Cp. Isa. 40. 2. the LORD. Heb. Jehovah. Ap. 4. II.
+19:8 | Israel. Note this name for Absalom's forces (17. 24, 26; 18. 6, 7). man. Heb. 'ish. Ap. 14. II.
+19:9 | 9-15 (L, p. 428). DAVID. RETURN. (Introversion.)
+19:10 | the king. Note the Fig. Anadiplosis (Ap. 6), "bringing back the king. And the king".
+19:13 | Art ...? Fig. Erotesis. Ap. 6. my bone, &c.: i.e. my near relation = my nephew (17. 25). Son of David's sister Abigail (1 Chron. 2. 17.) God. Heb. Elohim. Ap. 4. I.
+19:15 | Gilgal. Here Samuel renewed the kingdom. 1 Sam. 11. 14. Cp. Josh. 5. 9; 9. 6; 10. 6. 1 Sam. 7. 16; 15. 33. to go. Some codices, with one early printed edition, read "to go down". Cp. v. 20.
+19:16 | 19. 16-30 (M, p. 428). SHIMEI, ZIBA, AND MEPHIBOSHETH. (Alternation.) Shimei. Cp. 16. 5. a = the. Evidently a prominent Benjamite.
+19:18 | -18-23 (l, above). SHIMEI. FORGIVEN. (Introversion.)
+19:19 | iniquity. Heb. 'avah. Ap. 44. iv.
+19:20 | Joseph. Put by Fig. Metonymy (of Adjunct) for the two tribes (Ephraim and Manasseh), or for the ten tribes, Israel (Amos 5. 6, 15; 6. 6. Obad. 18. Zech. 10. 6). Cp. v. 43. In Ps. 80. 1 and 81. 5, Joseph is put for the twelve tribes.
+19:21 | Abishai. Always impetuous. 1 Sam. 26. 8; 2 Sam. 16. 9.
+19:22 | What have I to do ...? See note on 16. 10. adversaries. Heb. Satan. shall ...? Fig. Erotesis. Ap. 6. for do not I ...? Fig. Erotesis. Ap. 6.
+19:24 | 24-30 (m, above). ZIBA. DISCOVERY. (Introversion.) son = grandson. neither dressed, &c. A symbol and proof of great grief.
+19:26 | I will saddle. Sept. reads "Saddle for me the ass". A command which Ziba disobeyed, and went off himself instead. But was there only one ass in Jerusalem? See note on v. 29. to = with.
+19:28 | For all, &c. Some codices, with one early printed edition, read "When in all the house of my father were none other than dead men". dead men. Heb. men of death: i.e. doomed men. Heb. 'enosh. Ap. 14. III. What right ...? Fig. Erotesis (Ap. 6), to emphasise the free grace of David.
+19:29 | Why speakest ...? Fig. Erotesis (Ap. 6), to show dissatisfaction with Mephibosheth's defence. Hence his division of Saul's estate. See note on v. 26. I have said. Cp. 9. 10. David revokes 16. 4, and falls back on 9. 10. Thou and Ziba. Cp. 16. 4. the land: i.e. Saul's estate.
+19:30 | forasmuch = now that.
+19:31 | 19. 31-43 (N, p. 428). JERUSALEM. DAVID'S RE-ENTRY. (Alternation.)
+19:34 | How long ...? Fig. Erotesis. Ap. 6.
+19:35 | can ...? ... can ...? Fig. Anaphora. Ap. 6. evil. Heb. ra'a'. Ap. 44. viii.
+19:40 | -40-43 (t, above). THE PEOPLE. (Repeated Alternation.) all ... half. A whole-hearted act on the part of Judah: and a half-hearted act on the part of Israel. This explains what follows.
+19:41 | Why ...? Fig. Erotesis. Ap. 6.
+20:1 | 20. 1-22 (Y3, p. 424). SHEBA'S REVOLT. (Introversion.) man. Heb. 'ish. Ap. 14. II. son of Bichri = a descendant of Becher (Gen. 46. 21). tents. One of the emendations of the Sopherim (Ap. 33), by which they transposed the middle two letters of the primitive text and made it read "tents" instead of "gods". The same was done in 1 Kings 12. 16, and 2 Chron. 10. 16. See notes there.
+20:4 | 4-13 (x, above). JUDAH'S LOYALTY. (Repeated Alternation.)
+20:6 | thou. Some codices, with two early printed editions, read "now", and others, with Sept., read "now therefore".
+20:7 | men. Heb. 'enosh. Ap. 14. III.
+20:8 | as he went forth it fell out = and it (the sword) dropped out, and fell.
+20:9 | Art thou ...? Fig. Erotesis. Ap. 6.
+20:13 | he was removed, or, thrust. people. Heb. 'ish. Ap. 14. II.
+20:14 | 20. 14-22 (w, p. 436). SHEBA. REVOLT QUELLED. (Alternation.) he = Joab. Berites = Bichrites (v. 1). him = Sheba.
+20:15 | bank = mound. trench = rampart.
+20:16 | hear. Repeated by Fig. Epizeuxis. Ap. 6.
+20:18 | They shall, &c. Fig. Paroemia. Ap. 6.
+20:19 | a city and a mother = a city, a mother city, too. Fig. Hendiadys (Ap. 6): i.e. a metropolitan city. the LORD. Heb. Jehovah. Ap. 4. II.
+20:20 | far be it. Repeated by Fig. Epizeuxis. Ap. 6.
+20:21 | mount = hill country. Behold. Fig. Asterismos. Ap. 6.
+20:22 | all. Some codices, with three early printed editions, omit "all". her wisdom. Cp. Ecc. 9. 14, 15. tent. Cp. 19. 8.
+20:23 | 23-26 (K, p. 414). DAVID'S OFFICERS. (Alternation.) Benaiah. Cp. 8. 18; 23. 20. 1 Kings 1. 8; 2. 34.
+20:24 | Adoram. Same name as Adoniram (1 Kings 4. 6).
+20:25 | scribe, or secretary. Cp. 8. 17.
+20:26 | chief ruler. Cp. 8. 18; 23. 38.
+21:1 | 21. 1-14 (L, p. 414). DAVID'S ZEAL. (Introversion.) famine. One of the thirteen mentioned. See note on Gen. 12. 10. year after year = the year after that year: i.e. 932. David being now fifty-eight. the LORD. Heb. Jehovah. Ap. 4. II.
+21:2 | Gibeonites. Cp. Josh. 9. 3, 16, 17. now. Note the Fig. Parenthesis. Ap. 6. were = they [were]. children = sons.
+21:4 | any man. Heb. 'ish. Ap. 14. II.
+21:5 | coasts = borders.
+21:6 | men. Heb. 'enosh. Ap. 14. III.
+21:8 | Michal. Some codices, cited in the Massorah, with Sept. and Syr., read "Merab", as in 1 Sam. 18. 19.
+21:12 | men = lords, or masters (Heb. baalim). Cp. 1 Sam. 31. 10, 13. street. The open space by the gate (2 Chron. 32. 6. Neh. 8. 1, 3, 16). when = in the day.
+21:14 | and Jonathan. Some codices, with two early printed editions, and Sept., read "the bones of Jonathan". all. Some codices, with one early printed edition, read "according to all". God. Heb. Elohim. Ap. 4. I.
+21:15 | 15-22 (M, p. 414). WARS AND EVENTS. (Repeated Alternation). war again. 930-923 B.C. waxed faint. David was now sixty.
+21:16 | giant = Rapha. See Ap. 23 and 25. thought to have slain, or, said he would slay.
+21:17 | light = lamp. Cp. Gen. 15. 17. 1 Kings 15. 4. Prov. 13. 9; 20. 20, though not the same word in Gen. 15. 17.
+21:18 | Gob. Some codices, with two early printed editions, read "Nob".
+21:19 | the brother of Goliath. Omit the italics, and understand another giant of the same name as the Goliath of 1 Sam. 17. staff. Heb. "wood", put by Fig. Metonymy (of Cause) for what was made from it. Ap. 6.
+21:21 | defied = reproached.
+22:1 | 22. 1—23. 7 (H, p. 414). WORSHIP. (Division.) 1-51 (T1, above). SONG OF DAVID. (Introversion and Alternation.) David spake. At this point in his history (about 1018 B.C.). This song was written and edited by him later as Ps. 18, with the full liberty of all other editors of their own work. the LORD. Heb. Jehovah. Ap. 4. this song. Cp. Ex. 15. Deut. 32.
+22:2 | rock. Heb. sel'a = a shadow, or shelter. First occurrence.
+22:3 | The God of my rock. Sept. and Syr. read "My God was my rock" = immovable defence (Deut. 32. 4). God. Heb. Elohim. Ap. 4. I. rock. Heb. zur = a cliff, in situ. See Ps. 18. 2; 31. 3; 42. 9; 71. 3.
+22:4 | 4-7 (l, above). PRAYER MADE. (Introversion.)
+22:5 | When, or, For. ungodly men = Belial.
+22:6 | sorrows of hell = meshes of Sheol. See Ap. 35.
+22:8 | 8-16 (m, above). OVERTHROW OF ENEMIES. TEMPEST. (Introversion.) The. Some codices, with Sept. and Syr., read "and the".
+22:11 | fly. Fig. Anthropopatheia. Ap. 6. was seen. Some codices, with two early printed editions, read "and darted". wind. Heb. ruach. Ap. 9.
+22:12 | Dark = gathering of.
+22:14 | the MOST HIGH. Heb. Elyon. Ap. 4. VI.
+22:16 | channels. Heb. 'aphikim, a watercourse, constrained by rocks or pipes or rocky channels. First occurrence. See Job 6. 15; 12. 21; 40. 18; 41. 15. Ps. 18. 15; 42. 1; 126. 4. Song 5. 12. Isa. 8. 7. Ezek. 6. 3; 31. 12; 32. 6; 34. 13; 35. 8; 36. 4, 6. Joel 1. 20; 3. 18. See notes on these eighteen passages for the various renderings. discovered = laid bare. blast = neshamah. Ap. 16. breath. Heb. ruach. Ap. 9.
+22:17 | 22. 17-28 (l, p. 439). PRAYER ANSWERED. (Introversion.)
+22:18 | from. Some codices, with Syr. and Vulg., read "and from". Cp. Ps. 18. 17.
+22:19 | prevented = got before.
+22:23 | judgments. Cp. Deut. 4. 1, note.
+22:24 | upright = blameless. Heb. tamim. iniquity. Heb. 'avah. Ap. 44. iv.
+22:26 | merciful = gracious. And. Some codices, with two early printed editions, Sept., Syr., and Vulg., read this "And" in text. man. Heb. gibbor. Ap. 14. IV.
+22:27 | shew Thyself unsavoury = show Thyself ready to contend. unsavoury = a wrestler. Cp. Ps. 18. 26.
+22:29 | 29-49 (m, p. 439). OVERTHROW OF ENEMIES. ARMS. (Extended Alternation.) lamp = light.
+22:30 | By. Some codices, with two early printed editions, Sept., Aram., and Syr., read "And by".
+22:31 | GOD. Heb. 'El. Ap. 4. IV. word = statements. Heb. 'imrah, what is said. See Ap. 73. v. is tried = hath been proved.
+22:32 | who ...? Fig. Erotesis. Ap. 6.
+22:33 | strength = fortress. power = strength. maketh my way perfect: or, sheweth to the blameless His way. Some codices, with two early printed editions, read "my way", as in Ps. 18. 32.
+22:34 | setteth = maketh me to stand firm. my high places. Contrast the "high places" so fatal to Jonathan and Saul (1. 25).
+22:42 | looked = looked about. But Aram., Sept., Syr., and Vulg. read "cried out". Cp. Ps. 18. 41.
+22:44 | strivings = contentions. heathen = Gentile nations.
+22:45 | Strangers = foreigners. shall submit themselves, or give a feigned and unwilling obedience.
+22:46 | shall be afraid out of their close places = shall come forth trembling from their hiding-places.
+22:48 | People = Peoples.
+22:49 | violent man: i.e. Saul. man. Heb. 'ish. Ap. 14. II.
+22:51 | tower. Fig. Prosopopoeia. Ap. 6.
+23:1 | 23. 1-7 (T2, p. 439). LAST WORDS OF DAVID. (Division.) 1-3- (W1, above). THE SPEAKER. (Division.) Chapter 23 follows 24, but is placed here (by the Fig. Hysterologia) so as to include David's "last words" with his "song" under his "worship", and make the correspondence shown in the Structure. See p. 414. last words. Hence their importance. words = discourse, message, oracle, revelation. Heb. dabar. Ap. 73. x. said. Heb. na'am = to speak with assurance and authority. man. Heb. geber. Ap. 14. IV. God. Heb. 'Elohim. Ap. 4. I. God of Jacob: i.e. the God Who met Jacob when he had nothing and deserved nothing (but wrath), and promised him all = therefore "the God of all grace". Cp. Ps. 146. 5 and 1 Pet. 5. 10, referring to the grace which had called David.
+23:2 | Spirit = ruach. Ap. 9. the LORD. Heb. Jehovah. Ap. 4. II. spake: referring to the substance of the Divine revelation. Heb. dabar = to utter. See Ap. 73. x. word. Heb. millah. Used of a royal or divine decree (Ps. 19. 14. Dan. 3. 22, 28, &c.).
+23:3 | -3-7 (W2, above). THE WORDS. (Introversion.) Israel. The higher title (not Jacob), because human instrumentality not in question here. said. Here Heb. 'amar, referring to the matter of the Divine revelation. See Ap. 73. v. spake. See note on "spake", v. 2. men. Heb. 'adam. Ap. 14. I.
+23:4 | 4 (o, above). THE IDEAL RULE. (Introversion.) And he shall be. Translate in present tense, describing such an ideal rule. sun. Cp. Ps. 72. 6, 7, 16. Jer. 23. 5, 6. Mal. 4. 2.
+23:5 | 5-7 (n, above). THE RULER. ACTUAL. (Division.) 5 (r1, above). THE RULER. (Introversion.) Although = For (Heb. ki). GOD. Heb. El. Ap. 4. IV. Yet = for (Heb. ki). For (Heb. ki). Punctuate and translate: r1 s | For is not my house thus through God? t | For He hath made a covenant ... sure (2 Sam. 7). t | For this (Covenant) is all my ... desire. s | For shall He not cause it to prosper? it = i.e. my house.
+23:6 | 23. 6, 7 (r2, p. 441). THE RULED. (Introversion.) thrust away = put to flight, chased away. taken = handled.
+23:7 | man. Heb. 'ish. Ap. 14. II. fenced = furnished. in the same place = on the spot.
+23:8 | 8-39 (J, p. 414). DAVID'S MIGHTY MEN. (Introversion.) -8-24- (Z, above). THE PRINCIPAL. (Introversion and Repeated Alternation.) the mighty men. Heb. gibbor. Ap. 14. IV. This rehearsal comes at the end of David's reign, immediately before the setting up of the kingdom under Solomon. Even so will it be, at the time of the end, with the true David. The Tachmonite that sat in the seat. A.V. marg. and R.V. text = "Josheb-bassebet the Tachmonite". Really = Ish-bosheth, put for Ish-baal = "man of Baal, son of a Hachmonite" (cp. 1 Chron. 11. 11), altered later to Adino. Cp. St. Peter's exploit (Acts 2), and Stephen's (Acts 6. 7).
+23:9 | the men of Israel were gone away. This is the time for true courage to be manifested. Cp. v. 11. 2 Tim. 1. 15; 4. 16, 17.
+23:10 | the LORD (Heb. Jehovah, Ap. 4. II) wrought. Cp. v. 12, and see Acts 14. 27; 15. 4, 12; 21. 19.
+23:11 | Shammah. Like Acts 14. 3. into a troop. Probably = the place, Lehi. lentiles. See note on 1 Chron. 11. 13. fled. See note on v. 9, "gone away".
+23:13 | three ... thirty. See note on 1 Chron. 27. 1. Rephaim = Rapha. A noted descendant of the Nephilim. See Ap. 23 and 25.
+23:14 | an hold = a fort, or garrison.
+23:16 | the three. The three referred to in v. 13.
+23:17 | is not this ...? Supply instead "shall I drink?" men. Heb. 'enosh. Ap. 14. III. in jeopardy of their lives = with their lives [in their hands]. lives = souls. Heb. nephesh. Ap. 13. "Soul" put by Fig. Metonymy (of Adjunct), Ap. 6, for "blood", which is another name for it. Cp. Gen. 9. 4. Lev. 17. 11. Deut. 12. 23. Ap. 13.
+23:18 | Abishai. Mentioned in 10. 10, 14; 16. 9; 18. 2; 19. 21. 1 Sam. 26. 6-9. was = he [was]. among = of.
+23:19 | Was he not ...? Fig. Erotesis. Ap. 6. of three = of [the second] three. See the Structure above, and note on v. 13.
+23:20 | lionlike men. Men of Ariel. Ariel, proper name, occurs only here and twice in Isa. 29. 1, 2. a ... a ... snow. All these have the Art., as being a well-known exploit.
+23:21 | goodly of appearance. Heb. = a sight to see. 1 Chron. 11. 23 = stature. with his own spear. Often done now spiritually by the servants of the true David.
+23:24 | Asahel. The third of the second three. brother of Joab, but not Joab. His name here but not himself, because when the time of the end comes, with its "last words", loyalty will be the one test. Joab remained true in Absalom's rebellion, but fell away in Adonijah's. Hence in 1 Cor. 16. 22 "love" is the test, in the light of "Maran-atha", not the "strifes" of ch. 3, or the wrong judgments of ch. 4, or the uncleanness of ch. 5, or going to law of ch. 6; not the fornication of ch. 7, not a wrong conscience of chs. 9, 10, not ecclesiastical disorders of ch. 11, not the misuse of special gifts (chs. 12, 13, 14), not orthodoxy (ch. 15), but "love" and loyalty to the Person of Christ, the true David, David's son and David's Lord.
+23:34 | the. Probably "Hanan", the son, &c. (1 Chron. 11. 43), making three named in this verse. son of Ahithophel. But not Ahithophel himself, on account of his disloyalty. See note on v. 24, above.
+23:37 | armourbearer. Joab's armourbearer named, but not Joab himself. See note on v. 24, above.
+23:39 | Uriah. Is doubly honoured, being named with his son; but Joab or Ahithophel are not named. Read Jer. 9. 23, 24. thirty and seven in all: i.e. first three + second three + thirty-one of vv. 24-39.
+24:1 | 24. 1-25 (E, p. 414). DAVID'S SIN IN NUMBERING. (Alternation.) -1-10 (B, above). SIN COMMITTED. (Introversion.) And again. The history in this chapter precedes ch. 23, by Fig. Hysterologia (Ap. 6). See note on 23. 1. the LORD. Heb. Jehovah. Ap. 4. II. He moved = He suffered him to be moved. By Hebrew idiom (and also by modern usage) a person is said to do that which he permits to be done. Here we have the historical fact. In 1 Chron. 21. 1 we have the real fact from the Divine standpoint. Here the exoteric, in 1 Chron. 21. 1 the esoteric. For examples, see Ex. 4. 21; 5. 22. Jer. 4. 10. Ezek. 14. 9; 20. 25. Matt. 11. 25; 13. 11. Rom. 9. 18; 11. 7, 8. 2 Thess. 2. 11. God's permission, but Satan's suggestion (Jas. 1. 13, 14); or, yasath, may be taken impersonally, "David was moved".
+24:3 | God. Heb. Elohim. Ap. 4. I.
+24:5 | right side: i.e. the south side, facing east. river of Gad = the river valley belonging to Gad, which was the Jabbok.
+24:6 | Tahtim-hodshi. Site unknown. If translated = the lower parts of the country where the new moon was worshipped. Like Beth-shemesh = House of the Sun. Dan-jaan = Dan in the wood, perhaps Laish-Dan (Josh. 19. 47. Judg. 18. 29). about = passed round.
+24:7 | strong hold. Cp. Josh. 19. 29. went out. Some codices read "came [in]". south = the Negeb. Some codices read "land". See note on Gen. 13. 1.
+24:8 | nine months, &c. The long time implies a period of great peace.
+24:9 | Israel = 800,000 "valiant men". Heb. 'ish. Ap. 14. II. Judah = 500,000 "men". Heb. 'ish. Ap. 14. II. [Cp. 1 Chron. 21. 5, a different classification. Israel = 1,100,000, "all they of Israel that drew sword": i.e. all adults, not necessarily "valiant". Judah = 470,000 "men that drew sword"; not all the "men" by 30,000.]
+24:10 | I have sinned. Probably conviction of pride or other sinful motive. Heb. hata'. Ap. 44. i. take away = cause to pass over. See 12. 13. iniquity. See Ap. 44. iv.
+24:11 | 24. 11-16- (A, p. 443). JEHOVAH. JUDGMENT. (Introversion.) For = And. was = rose. Gad. Cp. 1 Sam. 9. 9. Gad last mentioned, 1 Sam. 22. 5. Probably inspired to write this history.
+24:12 | I offer thee = I impose on thee (Heb. natal). A choice out of God's four sore judgments (Ezek. 14. 21).
+24:13 | seven years. 1 Chron. 21. 12 = three years; also Sept. The Heb. numeral letters for three and seven were probably very much alike. Hence perhaps mistaken by an ancient scribe. Both may be right = "seven, or even three." advise = consider, or know.
+24:14 | mercies = compassions. great = manifold. man. Heb. 'adam. Ap. 14. I.
+24:15 | time appointed. Sept. and Syr. say the plague lasted only till noon. So this "time" may mean for the evening sacrifice, 3 p.m. (cp. v. 18).
+24:16 | repented. Fig. Anthropopatheia. Ap. 6. evil. Heb. ra'a'. Ap. 44. viii. -16-25 (B, p. 443). EXPIATION OF THE SIN. (Introversion and Repeated Alternation.) Araunah the Jebusite. Perhaps spared in the taking of Jebus. See note on 5. 8.
+24:17 | Lo. Fig. Asterismos. Ap. 6. wickedly. Heb. 'avah. Ap. 44. iv.
+24:19 | as = according as.
+24:20 | looked = looked down. coming on = crossing over.
+24:22 | burnt sacrifice. See Ap. 43. I. ii.
+24:24 | offer. See Ap. 43. I. vi. the threshingfloor and the oxen for fifty shekels of silver. Heb. goren (Ruth 3. 2), mentioned in vv. 16, 18, 21. Not the "place", Heb. makom, of 1 Chron. 21. 25 (Ruth 4. 10), which was afterward the Temple area, about eight acres, and for which David gave the much larger sum of 600 shekels of gold. Two separate purchases effected, the one here was hurried, as an earnest, and the other was made later. shekels. See Ap. 51. II.
+24:25 | there. See note on 1 Chron. 22. 1.

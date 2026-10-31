@@ -1,0 +1,1174 @@
+# The Companion Bible (E. W. Bullinger, 1913) — 2 Samuel
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/9. Samuel I-II_text.pdf, which holds both
+# books). Notation: README.md here. The Structures of the two books as a
+# whole are in 1-samuel.structure.txt.
+
+[[diagram: 2 Sam. 1. 1-27 (K2, p. 408). Report of Battle (Alternation)]]
+[[anchor: 2 Samuel 1:1-27]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 43]]
+
+K2 |  |
+  y | 1-10 | Amalekite's report.
+    z | 11, 12 | The lamentation of David.
+  y | 13-16 | Amalekite's execution.
+    z | 17-27 | The lamentation of "the Bow".
+
+[[diagram: 1. 17-27 (z, p. 408). The Lamentation of "the Bow" (Repeated Alternation)]]
+[[anchor: 2 Samuel 1:17-27]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 44]]
+
+Title |  |
+  L1 | 17 | The Lament.
+  L2 | 18 | The Lamentation.
+z |  |
+  a1 | 19- | Apostrophe (sing.). Saul.
+    b1 | -19 | Lamentation (pl.). Saul and Jonathan.
+  a2 | 20, 21 | Apostrophe (sing.). Saul.
+    b2 | 22, 23 | Celebration (pl.). Saul and Jonathan.
+  a3 | 24 | Apostrophe (sing.). Saul.
+    b3 | 25- | Lamentation (pl.). Saul and Jonathan.
+  a4 | -25, 26 | Apostrophe (sing.). Jonathan.
+    b4 | 27 | Lamentation (pl.). Saul and Jonathan.
+
+[[diagram: 2 Sam. 2. 1—24. 25 (B2, p. 366). King David (Division)]]
+[[anchor: 2 Samuel 2:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 45]]
+
+B2 |  |
+  C1 |  | 2. 1—4. 12. The Kingdom. Divided.
+  C2 |  | 5. 1—24. 25. The Kingdom. United.
+
+[[diagram: 2. 1—4. 12 (C1, above). Kingdom Divided (Alternation)]]
+[[anchor: 2 Samuel 2:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 45]]
+
+C1 |  |
+  A |  | 2. 1-11. Followers. Accessions.
+    B |  | 2. 12-32. Conflicts. Military.
+  A |  | 3. 1-39. Followers. Defections.
+    B |  | 4. 1-12. Conflicts. Personal.
+
+[[diagram: 2. 1-11 (A, above). Followers. Accessions (Introversion and Alternation)]]
+[[anchor: 2 Samuel 2:1-11]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 45]]
+
+A |  |
+  c | 1-3 | David goes to Hebron.
+    d |  |
+      e | 4- | David anointed over house of Judah.
+        f | -4-7 | Those who followed David.
+    d |  |
+      e | 8-10- | Ish-bosheth anointed over Israel.
+        f | -10 | Those who followed David.
+  c | 11 | David reigns in Hebron.
+
+[[diagram: 12-32 (B, above). Conflicts. Military (Extended Alternation)]]
+[[anchor: 2 Samuel 2:12-32]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 45]]
+
+B |  |
+  g | 12-14 | Abner and Joab. Colloquy.
+    h | 15-17 | Conflict ensues.
+      i | 18-25 | Pursuit. Asahel's death.
+  g | 26, 27 | Abner and Joab. Colloquy.
+    h | 28 | Conflict ended.
+      i | 29-32 | Return. Asahel's burial.
+
+[[diagram: 3. 1-39 (A, p. 410). Followers. Defections (Introversion)]]
+[[anchor: 2 Samuel 3:1-39]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 46]]
+
+A |  |
+  j | 1- | House of David.
+    k | -1 | House of Saul.
+      l | 2-5 | Sons of David.
+    k | 6-11 | House of Saul.
+  j | 12-39 | House of David.
+
+[[diagram: 6-11 (k, above). House of Saul (Alternation)]]
+[[anchor: 2 Samuel 3:6-11]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 46]]
+
+k |  |
+  m | 6 | Abner. Strong.
+    n | 7 | Ish-bosheth. Wrath with Abner.
+  m | 8-10 | Abner. Wrath.
+    n | 11 | Ish-bosheth. Fear of Abner.
+
+[[diagram: 12-39 (j, above). House of David (Alternation)]]
+[[anchor: 2 Samuel 3:12-39]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 46]]
+
+j |  |
+  o | 12 | Abner's overtures to David.
+    p | 13-16 | Return of Michal to David.
+  o | 17-19 | Abner's overtures to Israel.
+    p | 20-39 | Return of Abner to David.
+
+[[diagram: 20-39 (p, p. 411). Return of Abner to David (Extended Alternation)]]
+[[anchor: 2 Samuel 3:20-39]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 47]]
+
+p |  |
+  q | 20 | Feasting.
+    r | 21-26 | Treatment of Abner.
+      s | 27-34 | Death of Abner. Joab guilty.
+  q | 35, 36 | Fasting.
+    r | 37 | Treatment of Abner.
+      s | 38, 39 | Death of Abner. David innocent.
+
+[[diagram: 21-26 (r, above). Treatment of Abner (Alternation)]]
+[[anchor: 2 Samuel 3:21-26]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 47]]
+
+r |  |
+  t | 21 | David and Abner.
+    u | 22, 23 | Return of Joab.
+  t | 24, 25 | David and Joab.
+    u | 26 | Return of Abner.
+
+[[diagram: 27-34 (s, above). Death of Abner (Alternation)]]
+[[anchor: 2 Samuel 3:27-34]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 47]]
+
+s |  |
+  v | 27 | Retaliation of Joab.
+    w | 28, 29 | David's imprecation.
+  v | 30 | Retaliation of Joab.
+    w | 31-34 | David's lamentation.
+
+[[diagram: 4. 1-12 (B, p. 410). Conflicts. Personal (Introversion and Alternation)]]
+[[anchor: 2 Samuel 4:1-12]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 48]]
+
+B |  |
+  C |  |
+    x | 1 | Ish-bosheth's weakness.
+      y | 2, 3 | His two captains. Description.
+  D | 4 | Mephibosheth.
+  C |  |
+    x | 5-8 | Ish-bosheth's murder.
+      y | 9-12 | His two captains. Execution.
+
+[[diagram: 5. 1—24. 25 (C2, p. 410). Kingdom United (Introversion with Alternations)]]
+[[anchor: 2 Samuel 5:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 49]]
+
+C2 |  |
+  E |  | 5. 1-25. David's accession over Israel.
+    F |  |
+      H |  | 6. 1—7. 29. Worship.
+        J |  | 8. 1-14. David's mighty acts.
+    G |  |
+      K |  | 8. 15-18. David's officers.
+        L |  | 9. 1—10. 5. David's kindness.
+          M |  | 10. 6—20. 22. Wars and events.
+    G |  |
+      K |  | 20. 23-26. David's officers.
+        L |  | 21. 1-14. David's zeal.
+          M |  | 21. 15-22. Wars and events.
+    F |  |
+      H |  | 22. 1—23. 7. Worship.
+        J |  | 23. 8-39. David's mighty men.
+  E |  | 24. 1-25. David's sin. Numbering Israel.
+
+[[diagram: 5. 1-25 (E, above). David's Accession (Extended and Simple Alternations)]]
+[[anchor: 2 Samuel 5:1-25]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 49]]
+
+E |  |
+  N |  |
+    a | 1-3 | King anointed.
+      b | 4, 5 | Hebron. Reign.
+        c | 6-8 | Jebusites expelled.
+          O |  |
+            d | 9 | City of David.
+              e | 10 | Greatness of king.
+          O |  |
+            d | 11 | House of David.
+              e | 12- | Establishment of king.
+  N |  |
+    a | -12 | Kingdom exalted.
+      b | 13-16 | Hebron. Family.
+        c | 17-25 | Philistines vanquished.
+
+[[diagram: 5. 17-25 (c, p. 414). Philistines Vanquished (Extended Alternation)]]
+[[anchor: 2 Samuel 5:17-25]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 50]]
+
+c |  |
+  f | 17, 18 | Positions of Philistines.
+    g | 19 | Inquiry of Jehovah.
+      h | 20, 21 | Defeat.
+  f | 22 | Position of Philistines.
+    g | 23, 24 | Inquiry of Jehovah.
+      h | 25 | Defeat.
+
+[[diagram: 6. 1—7. 29 (H, p. 414). Worship (Division)]]
+[[anchor: 2 Samuel 6:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 50]]
+
+H |  |
+  P1 |  | 6. 1-23. The Ark of Jehovah.
+  P2 |  | 7. 1-29. The House of Jehovah.
+
+[[diagram: 6. 1-23 (P1, above). The Ark of Jehovah (Extended Alternation)]]
+[[anchor: 2 Samuel 6:1-23]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 50]]
+
+P1 |  |
+  i | 1-4 | Removal of Ark from Gibeah.
+    k | 5 | Music.
+      l | 6-8 | Sin of Uzzah.
+        m | 9-11- | Carried aside.
+          n | -11, 12- | Blessing.
+  i | -12, 13 | Removal of Ark from house of Obed-edom.
+    k | 14, 15 | Dancing.
+      l | 16 | Offence of Michal.
+        m | 17 | Carried in.
+          n | 18-23 | Blessing, &c.
+
+[[diagram: 6. 18-23 (n, p. 415). Blessing (Repeated Alternation)]]
+[[anchor: 2 Samuel 6:18-23]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 51]]
+
+n |  |
+  o1 | 18, 19- | Blessing of the People.
+    p1 | -19 | Return of the People.
+  o2 | 20- | Blessing of the household.
+    p2 | -20 | Return of David. Reproach.
+  o3 | 21, 22 | Blessing from Jehovah.
+    p3 | 23 | No return to Michal.
+
+[[diagram: 7. 1-29 (P2, p. 415). The House of Jehovah (Introversion)]]
+[[anchor: 2 Samuel 7:1-29]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 51]]
+
+P2 |  |
+  Q | 1, 2 | David before himself. ("Who I am.")
+    R | 3 | Reply of Nathan.
+    R | 4-17 | Reply of Jehovah.
+  Q | 18-29 | David before Jehovah. ("Who am I?")
+
+[[diagram: 7. 4-17 (R, p. 416). Reply of Jehovah (Introversion)]]
+[[anchor: 2 Samuel 7:4-17]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 52]]
+
+R |  |
+  q | 4 | Word of Jehovah to Nathan for David.
+    r | 5 | "Shalt thou build?" (Negative). David.
+      s | 6, 7 | Jehovah's condescension.
+      s | 8-12 | Jehovah's grace.
+    r | 13-16 | "He shall build" (Positive). Solomon.
+  q | 17 | Word of Jehovah for Nathan to David.
+
+[[diagram: 18-29 (Q, p. 416). David before Jehovah (Introversion)]]
+[[anchor: 2 Samuel 7:18-29]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 52]]
+
+Q |  |
+  S | 18-22 | David. Thanksgiving for himself.
+    T | 23, 24 | For Israel.
+  S | 25-29 | David. Prayer for his house.
+
+[[diagram: 18-22 (S, above). David. Thanksgiving for Himself (Introversion)]]
+[[anchor: 2 Samuel 7:18-22]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 52]]
+
+S |  |
+  t | 18 | Self-abasement. "Who am I?"
+    u | 19 | Acknowledgment of benefits.
+      v | 20 | Inability to praise aright.
+    u | 21 | Acknowledgment of benefits.
+  t | 22 | Divine exaltation. "Thou art great."
+
+[[diagram: 7. 25-29 (S, p. 417). David. Prayer for His House (Introversion)]]
+[[anchor: 2 Samuel 7:25-29]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 53]]
+
+S |  |
+  w | 25, 26 | Prayer. Establishment.
+[[group: -]]
+    x | 27 | Divine revelation.
+    x | 28 | Divine promise.
+[[group: Praise.]]
+  w | 29 | Prayer. Continuance.
+[[group: -]]
+
+[[diagram: 8. 1-14 (J, p. 414). David's Mighty Acts (Extended Alternation)]]
+[[anchor: 2 Samuel 8:1-14]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 53]]
+
+J |  |
+  a | 1-5 | Conquests.
+    b | 6- | Garrisons in Syria.
+      c | -6- | Subjection of Syrians.
+        d | -6 | Preservation of David.
+  a | 7-13 | Conquests.
+    b | 14- | Garrisons in Syria.
+      c | -14- | Subjection of Edomites.
+        d | -14 | Preservation of David.
+
+[[diagram: 8. 15-18 (K, p. 414). David's Officers (Introversion)]]
+[[anchor: 2 Samuel 8:15-18]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 54]]
+
+K |  |
+  e | 15 | David. King.
+    f | 16- | Chief captain.
+      g | -16 | Recorder.
+        h | 17- | Priests.
+      g | -17 | Scribe.
+    f | 18- | Captain.
+  e | -18 | David's sons.
+
+[[diagram: 9. 1—10. 5 (L, p. 414). David's Kindness (Division)]]
+[[anchor: 2 Samuel 9:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 54]]
+
+L |  |
+  M1 |  | 9. 1-13. To Mephibosheth. (Son of Jonathan.)
+  M2 |  | 10. 1-5. To Hanun. (Son of Nahash.)
+
+[[diagram: 1-13 (M1, above). Kindness to Mephibosheth (Division)]]
+[[anchor: 2 Samuel 9:1-13]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 54]]
+
+M1 |  |
+  N1 | 1-4 | Mephibosheth. Sought.
+  N2 | 5-13 | Mephibosheth. Found.
+
+[[diagram: 1-4 (N1, above). Mephibosheth. Sought (Alternation)]]
+[[anchor: 2 Samuel 9:1-4]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 54]]
+
+N1 |  |
+  i | 1-3- | Inquiry of David. "Who?"
+    k | -3 | Ziba's answer. Person. Mephibosheth.
+  i | 4- | Inquiry of David. "Where?"
+    k | -4 | Ziba's answer. Place. Lo-debar.
+
+[[diagram: 9. 5-13 (N2, p. 419). Mephibosheth. Found (Introversion)]]
+[[anchor: 2 Samuel 9:5-13]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 55]]
+
+N2 |  |
+  l | 5, 6 | Mephibosheth comes to Jerusalem.
+    m | 7, 8 | David's promise made.
+    m | 9-12 | David's promise fulfilled.
+  l | 13 | Mephibosheth dwells in Jerusalem.
+
+[[diagram: 10. 1-5 (M2, p. 419). Kindness to Hanun (Repeated Alternation)]]
+[[anchor: 2 Samuel 10:1-5]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 55]]
+
+M2 |  |
+  n1 | 1, 2- | David's purpose. Formed.
+    o | -2 | Servants sent.
+  n2 | 3 | David's purpose. Suspected.
+    o | 4 | Servants insulted.
+  n3 | 5 | David's purpose. Defeated.
+
+[[diagram: 10. 6—20. 22 (M, p. 414). Wars and Events (Division)]]
+[[anchor: 2 Samuel 10:6]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 55]]
+
+M |  |
+  O1 |  | 10. 6-19. First and second wars.
+  O2 |  | 11. 1—20. 22. Third war, and events.
+
+[[diagram: 10. 6-19 (O1, above). First and Second Wars (Repeated Alternation)]]
+[[anchor: 2 Samuel 10:6-19]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 55]]
+
+O1 |  |
+  p | 6-12 | Armies arrayed.
+    q | 13, 14- | Fight and flight. Ammon.
+      r | -14 | Return of Joab. Peace.
+[[group: First with Ammon.]]
+  p | 15-17- | Armies arrayed.
+    q | -17, 18 | Fight and flight. Syrians.
+      r | 19 | Submission of enemies. Peace.
+[[group: Second with Syrians.]]
+
+[[diagram: 11. 1—20. 22 (O2, p. 420). Third War, and Events (Alternation)]]
+[[anchor: 2 Samuel 11:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 56]]
+
+O2 |  |
+  P |  | 11. 1-. Rabbah. Besieged.
+    Q |  | 11. -1—12. 25. David's sin. Committed.
+  P |  | 12. 26-31. Rabbah. Captured.
+    Q |  | 13. 1—20. 22. David's sin. Punished.
+
+[[diagram: 11. -1—12. 25 (Q, above). David's Sin (Repeated Alternation and Introversion)]]
+[[anchor: 2 Samuel 11:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 56]]
+
+Q |  |
+  R1 |  | 11. -1-5. David and Bath-sheba.
+    S1 |  |
+      T |  | 11. 6-24. David and Uriah.
+        U |  | 11. 25. Displeasure of Joab.
+  R2 |  | 11. 26, 27-. David and Bath-sheba.
+    S2 |  |
+        U |  | 11. -27. Displeasure of Jehovah.
+      T |  | 12. 1-14. David and Nathan.
+  R3 |  | 12. 15-25. David and Bath-sheba's child.
+
+[[diagram: 6-24 (T, above). David and Uriah (Alternation)]]
+[[anchor: 2 Samuel 11:6-24]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 56]]
+
+T |  |
+  V | 6 | Message to Joab.
+    W | 7-13 | Uriah's reception.
+  V | 14, 15 | Letter to Joab.
+    W | 16-24 | Uriah's death.
+
+[[diagram: 11. 16-24 (W, p. 421). Uriah's Death (Repeated Alternation)]]
+[[anchor: 2 Samuel 11:16-24]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 57]]
+
+W |  |
+  s1 | 16, 17- | Joab. Obedience.
+    t1 | -17 | Death of Uriah.
+  s2 | 18-21- | Joab. Message sent.
+    t2 | -21 | Death of Uriah.
+  s3 | 22-24- | Joab. Message delivered.
+    t3 | -24 | Death of Uriah.
+
+[[diagram: 12. 1-14 (T, p. 421). David and Nathan (Repeated Alternation)]]
+[[anchor: 2 Samuel 12:1-14]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 57]]
+
+T |  |
+  u1 | 1-4 | Parable. Propounded.
+    v1 | 5, 6 | David's anger.
+  u2 | 7-9 | Parable. Applied.
+    v2 | 10-12 | David's judgment.
+  u3 | 13- | Parable. Effect.
+    v3 | -13, 14 | David's forgiveness.
+
+[[diagram: 12. 15-25 (R3, p. 421). David and the Child (Repeated and Extended Alternation)]]
+[[anchor: 2 Samuel 12:15-25]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 58]]
+
+R3 |  |
+  w1 |  |
+    x1 | 15 | Child stricken.
+      y1 | 16 | David's intercession.
+        z1 | 17 | Abstinence.
+  w2 |  |
+    x2 | 18, 19 | Child's death.
+      y2 | 20- | David's worship.
+        z2 | -20 | Eating.
+  w3 |  |
+    x3 | 21 | Child's death. Inquiry.
+      y3 | 22 | David's weeping.
+        z3 | 23 | Abstinence given up.
+Epilogue | 24, 25 | Epilogue.
+
+[[diagram: 12. 26-31 (P, p. 421). Rabbah. Captured (Division)]]
+[[anchor: 2 Samuel 12:26-31]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 59]]
+
+P |  |
+  X1 | 26-28 | Rabbah and Joab.
+  X2 | 29-31 | Rabbah and David.
+
+[[diagram: 13. 1—20. 22 (Q, p. 421). David's Sin. Punished (Division)]]
+[[anchor: 2 Samuel 13:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 59]]
+
+Q |  |
+  Y1 |  | 13. 1—14. 33. Amnon's sin.
+  Y2 |  | 15. 1—19. 43. Absalom's rebellion.
+  Y3 |  | 20. 1-22. Sheba's revolt.
+
+[[diagram: 13. 1—14. 33- (Y1, above). Amnon's Sin (Introversion and Extended Alternation)]]
+[[anchor: 2 Samuel 13:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 59]]
+
+Y1 |  |
+  A |  | 13. 1-4. Amnon's desire for sister's love.
+    B |  |
+      a |  | 13. 5-10. Stratagem.
+        b |  | 13. 11-18. Crime.
+          c |  | 13. 19-22. Emotions.
+[[group: Amnon's sin.]]
+    B |  |
+      a |  | 13. 23-27. Stratagem.
+        b |  | 13. 28, 29-. Crime.
+          c |  | 13. -29—14. 27. Commotions.
+[[group: Absalom's revenge.]]
+  A |  | 14. 28-33. Absalom's desire for father's love.
+
+[[diagram: 13. 19-22 (c, p. 424). Emotions (Alternations)]]
+[[anchor: 2 Samuel 13:19-22]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 60]]
+
+c |  |
+  d | 19 | Grief of Tamar.
+    e | 20 | Absalom's dissimulation.
+  d | 21 | Anger of David.
+    e | 22 | Absalom's hatred.
+
+[[diagram: 13. -29—14. 27 (c, p. 424). Commotions (Division)]]
+[[anchor: 2 Samuel 13:29]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 61]]
+
+c |  |
+  C1 |  | 13. -29-39. Absalom's flight.
+  C2 |  | 14. 1-33. Absalom's recall.
+
+[[diagram: -29-39 (C1, above). Absalom's Flight (Repeated Alternation)]]
+[[anchor: 2 Samuel 13:29-39]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 61]]
+
+C1 |  |
+  f1 | -29 | Flight of king's sons.
+    g1 | 30-33 | David. Anxiety.
+  f2 | 34- | Flight of Absalom.
+    g2 | -34-36 | David. Mourning.
+  f3 | 37, 38 | Flight of Absalom.
+    g3 | 39 | David. Comforted.
+
+[[diagram: 14. 1-33 (C2, above). Absalom's Recall (Introversion)]]
+[[anchor: 2 Samuel 14:1-33]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 61]]
+
+C2 |  |
+  D | 1 | David's heart toward Absalom.
+    E | 2, 3 | Joab's stratagem planned.
+      F | 4-11 | Parable. Put forth.
+      F | 12-17 | Parable. Applied.
+    E | 18-20 | Joab's stratagem discovered.
+  D | 21-33 | David's recall of Absalom.
+
+[[diagram: 4-11 (F, above). Parable. Put Forth (Repeated Alternation)]]
+[[anchor: 2 Samuel 14:4-11]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 61]]
+
+F |  |
+  h1 | 4 | Woman's importunity.
+    i1 | 5- | King's response.
+  h2 | -5-7 | Woman's grievance.
+    i2 | 8 | King's assurance.
+  h3 | 9 | Woman's importunity.
+    i3 | 10 | King's assurance.
+  h4 | 11- | Woman's grievance.
+    i4 | -11 | King's assurance.
+
+[[diagram: 21-33 (D, p. 426). David's Recall of Absalom (Repeated Alternation and Introversion)]]
+[[anchor: 2 Samuel 14:21-33]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 62]]
+
+D |  |
+  G1 | 21 | David's decision to receive Absalom.
+    H |  |
+      j | 22 | Joab's thanks.
+        k | 23 | Absalom in Jerusalem.
+  G2 | 24-27 | David's direction and Absalom's person.
+    H |  |
+        k | 28 | Absalom in Jerusalem.
+      j | 29-33- | Joab's appeal.
+  G3 | -33 | David's reception of Absalom.
+
+[[diagram: 15. 1—19. 43 (Y2, p. 424). Absalom's Rebellion (Alternations, Simple and Extended)]]
+[[anchor: 2 Samuel 15:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 63]]
+
+Y2 |  |
+  J |  | 15. 1-13. Rebellion made.
+    K |  |
+      L |  | 15. 14-37. David. Departure.
+        M |  | 16. 1-14. Mephibosheth. Ziba. Shimei.
+          N |  | 16. 15—17. 23. Jerusalem. Absalom's entry.
+  J |  | 17. 24—19. 8. Rebellion quelled.
+    K |  |
+      L |  | 19. 9-15. David. Return.
+        M |  | 19. 16-30. Mephibosheth. Shimei. Ziba.
+          N |  | 19. 31-43. Jerusalem. David. Re-entry.
+
+[[diagram: 15. 1-13 (J, above). Rebellion Made (Introversion and Alternation)]]
+[[anchor: 2 Samuel 15:1-13]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 63]]
+
+J |  |
+  l |  |
+    n | 1-6- | Machinations.
+      o | -6 | Their success.
+[[group: Treason (secret).]]
+    m | 7, 8 | Request.
+    m | 9 | Permission.
+[[group: Departure of Absalom.]]
+  l |  |
+    n | 10-12 | Machinations.
+      o | 13 | Their success.
+[[group: Treason (open).]]
+
+[[diagram: 14-37 (L, above). David's Departure (Repeated Alternation)]]
+[[anchor: 2 Samuel 15:14-37]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 63]]
+
+L |  |
+  p1 | 14-22 | Adherents. (Ittai.)
+    q1 | 23 | Weeping of country.
+  p2 | 24-29 | Adherents. (Zadok and sons.)
+    q2 | 30 | Weeping of David.
+  p3 | 31- | Defection. (Ahithophel.)
+    q3 | -31 | Prayer of David.
+  p4 | 32-37 | Adherents. (Hushai.)
+
+[[diagram: 16. 1-14 (M, p. 428). Mephibosheth, Ziba, &c. (Introversion)]]
+[[anchor: 2 Samuel 16:1-14]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 64]]
+
+M |  |
+  r | 1, 2 | Refreshment brought.
+    s | 3, 4 | Slander of Ziba.
+    s | 5-13 | Imprecations of Shimei.
+  r | 14 | Refreshment partaken of.
+
+[[diagram: 16. 5-13 (s, p. 429). Imprecation of Shimei (Introversion)]]
+[[anchor: 2 Samuel 16:5-13]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 65]]
+
+s |  |
+  t | 5-8 | Imprecations.
+    u | 9 | Resentment of Abishai.
+    u | 10-12 | Forbearance of David.
+  t | 13 | Imprecations.
+
+[[diagram: 16. 15—17. 23 (N, p. 428). Jerusalem. Absalom's Entry (Introversion)]]
+[[anchor: 2 Samuel 16:15]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 65]]
+
+N |  |
+  v |  | 16. 15-19. Hushai's mission. Ahithophel's defeat.
+    w |  | 16. 20—17. 4. Ahithophel. Counsel given.
+      x |  | 17. 5-13. Hushai. Counsel given.
+      x |  | 17. 14. Hushai. Counsel taken.
+    w |  | 17. 15-22. Ahithophel. Counsel reported.
+  v |  | 17. 23. Hushai's success. Ahithophel's death.
+
+[[diagram: 17. 24—19. 8 (J, p. 428). Rebellion Quelled (Introversion)]]
+[[anchor: 2 Samuel 17:24]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 67]]
+
+J |  |
+  O1 |  | 17. 24—18. 5. Mahanaim. David. Preparation.
+    P |  | 18. 6-18. The battle.
+  O2 |  | 18. 19—19. 8. Mahanaim. David. Report to.
+
+[[diagram: 17. 24—18. 5 (O1, above). Mahanaim, &c. (Alternation)]]
+[[anchor: 2 Samuel 17:24]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 67]]
+
+O1 |  |
+  y |  | 17. 24-. Mahanaim. Arrival.
+    z |  | 17. -24-26. Camp of Absalom.
+  y |  | 17. 27-29. Mahanaim. Refreshments.
+    z |  | 18. 1-5. Camp of David.
+
+[[diagram: 6-18 (P, above). The Battle (Alternation)]]
+[[anchor: 2 Samuel 18:6-18]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 67]]
+
+P |  |
+  a | 6-8 | The battle. Fought.
+    b | 9-15 | Absalom. Death.
+  a | 16 | The battle. Return from.
+    b | 17, 18 | Absalom. Burial.
+
+[[diagram: 18. 19—19. 8 (O2, p. 432). Mahanaim. Report (Division)]]
+[[anchor: 2 Samuel 18:19]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 68]]
+
+O2 |  |
+  Q1 |  | 18. 19-33. Sorrow indulged.
+  Q2 |  | 19. 1-8. Sorrow restrained.
+
+[[diagram: 19-33 (Q1, above). Sorrow Indulged (Alternation)]]
+[[anchor: 2 Samuel 18:19-33]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 68]]
+
+Q1 |  |
+  R | 19-23 | Tidings borne.
+    S | 24- | David's seat.
+  R | -24-32 | Tidings delivered.
+    S | 33 | David's lamentation.
+
+[[diagram: 19-23 (R, above). Tidings Borne (Extended Alternation)]]
+[[anchor: 2 Samuel 18:19-23]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 68]]
+
+R |  |
+  c | 19 | Request (Cushi).
+    d | 20 | Refusal.
+      e | 21 | Permission.
+  c | 22- | Request (Ahimaaz).
+    d | -22 | Reluctance.
+      e | 23 | Permission.
+
+[[diagram: -24-32 (R, above). Tidings Delivered (Alternation)]]
+[[anchor: 2 Samuel 18:24-32]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 68]]
+
+R |  |
+  f | -24, 25 | The first runner.
+    g | 26 | The second runner.
+  f | 27-30 | Name of first, Ahimaaz.
+    g | 31, 32 | Name of second, Cushi.
+
+[[diagram: 19. 1-8 (Q2, p. 433). Sorrow Restrained (Repeated Alternation)]]
+[[anchor: 2 Samuel 19:1-8]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 69]]
+
+Q2 |  |
+  h1 | 1 | Mourning of David.
+    i1 | 2, 3 | People. Sympathy with the king.
+  h2 | 4 | Mourning of David.
+    i2 | 5-7 | Joab. Remonstrance with the king.
+  h3 | 8 | Mourning of David and People.
+
+[[diagram: 9-15 (L, p. 428). David. Return (Introversion)]]
+[[anchor: 2 Samuel 19:9-15]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 69]]
+
+L |  |
+  j | 9, 10 | King's return. Desired.
+    k | 11, 12 | Message to Judah.
+    k | 13 | Message to Amasa.
+  j | 14, 15 | King's return. Accomplished.
+
+[[diagram: 19. 16-30 (M, p. 428). Shimei, Ziba, and Mephibosheth (Alternation)]]
+[[anchor: 2 Samuel 19:16-30]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 70]]
+
+M |  |
+  l | 16 | Shimei. Reception.
+    m | 17, 18- | Ziba. Deception.
+  l | -18-23 | Shimei. Forgiveness.
+    m | 24-30 | Ziba. Discovery.
+
+[[diagram: -18-23 (l, above). Shimei. Forgiven (Introversion)]]
+[[anchor: 2 Samuel 19:18-23]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 70]]
+
+l |  |
+  n | 18-20 | Shimei. Confession.
+    o | 21 | Abishai. Resentment.
+    o | 22 | Abishai. Resented.
+  n | 23 | Shimei. Forgiveness.
+
+[[diagram: 24-30 (m, above). Ziba. Discovery (Introversion)]]
+[[anchor: 2 Samuel 19:24-30]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 70]]
+
+m |  |
+  p | 24 | Mephibosheth. Mourning.
+    q | 25 | David. Reproach.
+      r | 26 | Ziba. Deception.
+      r | 27, 28 | Ziba. Slander.
+    q | 29 | David. Reparation.
+  p | 30 | Mephibosheth. Comfort.
+
+[[diagram: 19. 31-43 (N, p. 428). Jerusalem. David's Re-entry (Alternation)]]
+[[anchor: 2 Samuel 19:31-43]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 71]]
+
+N |  |
+  s | 31-38 | Barzillai.
+    t | 39- | The People.
+  s | -39, 40- | Barzillai.
+    t | -40-43 | The People.
+
+[[diagram: -40-43 (t, above). The People (Repeated Alternation)]]
+[[anchor: 2 Samuel 19:40-43]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 71]]
+
+t |  |
+  u1 | -40 | Judah and Israel. Escort of king.
+    v1 | 41 | Israel. Complaint.
+  u2 | 42 | Judah. Answer.
+    v2 | 43- | Israel. Complaint.
+  u3 | -43 | Judah and Israel. Prevalence.
+
+[[diagram: 20. 1-22 (Y3, p. 424). Sheba's Revolt (Introversion)]]
+[[anchor: 2 Samuel 20:1-22]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 71]]
+
+Y3 |  |
+  w | 1, 2- | Sheba. Revolt made.
+    x | -2 | Judah's loyalty.
+      y | 3 | David's concubines.
+    x | 4-13 | Judah's loyalty.
+  w | 14-22 | Sheba. Revolt quelled.
+
+[[diagram: 4-13 (x, above). Judah's Loyalty (Repeated Alternation)]]
+[[anchor: 2 Samuel 20:4-13]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 71]]
+
+x |  |
+  z1 | 4, 5 | Amasa. Disloyalty.
+    a1 | 6, 7 | Joab and Abishai. Pursuit.
+  z2 | 8-10- | Amasa. Murder.
+    a2 | -10, 11 | Joab and Abishai. Proclamation.
+  z3 | 12, 13- | Amasa. Dead.
+    a3 | -13 | Joab. Pursuit.
+
+[[diagram: 20. 14-22 (w, p. 436). Sheba. Revolt Quelled (Alternation)]]
+[[anchor: 2 Samuel 20:14-22]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 72]]
+
+w |  |
+  b | 14 | Abel. Flight to.
+    c | 15 | Siege laid.
+  b | 16-22- | Abel. Parley at.
+    c | -22 | Siege raised.
+
+[[diagram: 23-26 (K, p. 414). David's Officers (Alternation)]]
+[[anchor: 2 Samuel 20:23-26]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 72]]
+
+K |  |
+  d | 23 | Military.
+    e | 24 | Civil.
+  d | 25 | Ecclesiastical.
+    e | 26 | Civil.
+
+[[diagram: 21. 1-14 (L, p. 414). David's Zeal (Introversion)]]
+[[anchor: 2 Samuel 21:1-14]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 73]]
+
+L |  |
+  f | 1 | The land. God's judgment on it.
+    g | 2-9 | Saul's sons. Reparation.
+      h | 10, 11 | Rizpah. Mourning.
+    g | 12-14- | Saul's sons. Recovery of bones.
+  f | -14 | The land. God intreated for it.
+
+[[diagram: 15-22 (M, p. 414). Wars and Events (Repeated Alternation)]]
+[[anchor: 2 Samuel 21:15-22]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 73]]
+
+M |  |
+  i1 | 15 | War with Philistines.
+    k1 | 16, 17 | Giant (Ishbi-benob). Slain by Abishai.
+  i2 | 18- | Battle at Gob.
+    k2 | -18 | Giant (Saph). Slain by Sibbechai.
+  i3 | 19- | Battle at Gob.
+    k3 | -19 | Giant (brother of Goliath). Slain by Elhanan.
+  i4 | 20- | Battle at Gath.
+    k4 | -20, 21 | Giant. Slain by Jonathan.
+  i5 | 22 | End of war.
+
+[[diagram: 22. 1—23. 7 (H, p. 414). Worship (Division)]]
+[[anchor: 2 Samuel 22:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 74]]
+
+H |  |
+  T1 |  | 22. 1-51. Song of David.
+  T2 |  | 23. 1-7. Last words of David.
+
+[[diagram: 1-51 (T1, above). Song of David (Introversion and Alternation)]]
+[[anchor: 2 Samuel 22:1-51]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 74]]
+
+T1 |  |
+  U | 2, 3 | Praise.
+    V |  |
+      l | 4-7 | Prayer made.
+        m | 8-16 | Overthrow of enemies. Tempest.
+    V |  |
+      l | 17-28 | Prayer answered.
+        m | 29-49 | Overthrow of enemies. Arms.
+  U | 50, 51 | Praise.
+
+[[diagram: 4-7 (l, above). Prayer Made (Introversion)]]
+[[anchor: 2 Samuel 22:4-7]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 74]]
+
+l |  |
+  A | 4 | Call for deliverance.
+    B | 5 | Compassed by pangs.
+    B | 6 | Compassed by sorrows.
+  A | 7 | Call for deliverance.
+
+[[diagram: 8-16 (m, above). Overthrow of Enemies. Tempest (Introversion)]]
+[[anchor: 2 Samuel 22:8-16]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 74]]
+
+m |  |
+  C | 8- | On earth. Wonders.
+    D | -8-10- | In heaven. Fire.
+      E | -10 | Darkness.
+        F | 11 | Speedy succour.
+      E | 12 | Darkness.
+    D | 13-15 | In heaven. Fire.
+  C | 16 | On earth. Wonders.
+
+[[diagram: 22. 17-28 (l, p. 439). Prayer Answered (Introversion)]]
+[[anchor: 2 Samuel 22:17-28]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 75]]
+
+l |  |
+  G | 17, 18- | Deliverance.
+    H | -18 | Enemies.
+    H | 19- | Enemies.
+  G | -19-28 | Deliverance.
+
+[[diagram: 29-49 (m, p. 439). Overthrow of Enemies. Arms (Extended Alternation)]]
+[[anchor: 2 Samuel 22:29-49]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 75]]
+
+m |  |
+  J | 29 | Jehovah my light.
+    K | 30-32 | God my avenger.
+      L | 33-40 | God my strength.
+        M | 41-46 | Deliverance.
+  J | 47 | Jehovah my life.
+    K | 48 | God my avenger.
+      L | 49- | God my exalter.
+        M | -49 | Deliverance.
+
+[[diagram: 23. 1-7 (T2, p. 439). Last Words of David (Division)]]
+[[anchor: 2 Samuel 23:1-7]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 76]]
+
+T2 |  |
+  W1 | 1-3- | The speaker.
+  W2 | -3-7 | His words.
+
+[[diagram: 1-3- (W1, above). The Speaker (Division)]]
+[[anchor: 2 Samuel 23:1-3]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 76]]
+
+W1 |  |
+  X1 | 1 | David's mouth.
+  X2 | 2, 3- | Not David's words.
+
+[[diagram: -3-7 (W2, above). The Words (Introversion)]]
+[[anchor: 2 Samuel 23:3-7]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 76]]
+
+W2 |  |
+  n | -3- | The ruler. Ideal.
+    o | -3 | The ideal rule.
+    o | 4 | The ideal rule.
+  n | 5-7 | The ruler. Actual.
+[[group: The Ruler, and his rule.]]
+
+[[diagram: 4 (o, above). The Ideal Rule (Introversion)]]
+[[anchor: 2 Samuel 23:4]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 76]]
+
+o |  |
+  p | 4- | The light. Effect in heavens.
+    q | -4- | Its clearness.
+    q | -4 | Its clearness.
+  p | -4- | The light. Effect on earth.
+[[group: This is the order in Heb.]]
+
+[[diagram: 5-7 (n, above). The Ruler. Actual (Division)]]
+[[anchor: 2 Samuel 23:5-7]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 76]]
+
+n |  |
+  r1 | 5 | The ruler.
+  r2 | 6, 7 | The ruled.
+
+[[diagram: 5 (r1, above). The Ruler (Introversion)]]
+[[anchor: 2 Samuel 23:5]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 76]]
+
+r1 |  |
+  s | 5- | David's house.
+    t | -5- | God's covenant with David.
+    t | -5- | God's covenant with David.
+  s | -5 | David's house.
+
+[[diagram: 23. 6, 7 (r2, p. 441). The Ruled (Introversion)]]
+[[anchor: 2 Samuel 23:6-7]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 77]]
+
+r2 |  |
+  u | 6- | The sons of Belial. Put to flight.
+    v | -6 | How they cannot be ruled.
+    v | 7- | How they can be ruled.
+  u | -7 | The sons of Belial. Consumed.
+
+[[diagram: 8-39 (J, p. 414). David's Mighty Men (Introversion)]]
+[[anchor: 2 Samuel 23:8-39]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 77]]
+
+J |  |
+  Y | 8- | Names.
+    Z | -8-24- | Principal.
+    Z | -24-39- | Subordinate.
+  Y | -39 | Number.
+
+[[diagram: -8-24- (Z, above). The Principal (Introversion and Repeated Alternation)]]
+[[anchor: 2 Samuel 23:8-24]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 77]]
+
+Z |  |
+  A |  |
+    w1 | -8- | Adino.
+      x1 | -8 | His achievement.
+    w2 | 9 | Eleazar.
+      x2 | 10 | His achievement.
+    w3 | 11 | Shammah.
+      x3 | 12 | His achievement.
+[[group: First three.]]
+    B | 13-17 | Three together.
+[[group: -]]
+  A |  |
+    w4 | 18- | Abishai.
+      x4 | -18, 19 | Achievement and rank.
+    w5 | 20- | Benaiah.
+      x5 | -20-23 | Achievement and rank.
+    w6 | 24- | Asahel.
+[[group: Second three.]]
+
+[[diagram: 24. 1-25 (E, p. 414). David's Sin in Numbering (Alternation)]]
+[[anchor: 2 Samuel 24:1-25]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 78]]
+
+E |  |
+  A | 1- | Jehovah. Anger.
+    B | -1-10 | Sin committed.
+  A | 11-16- | Jehovah. Judgment.
+    B | -16-25 | Sin expiated.
+
+[[diagram: -1-10 (B, above). Sin Committed (Introversion)]]
+[[anchor: 2 Samuel 24:1-10]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 78]]
+
+B |  |
+  a | -1, 2 | David. Command.
+    b | 3, 4 | Joab's objection.
+    b | 5-9 | Joab's obedience.
+  a | 10 | David. Confession.
+
+[[diagram: 24. 11-16- (A, p. 443). Jehovah. Judgment (Introversion)]]
+[[anchor: 2 Samuel 24:11-16]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 79]]
+
+A |  |
+  c | 11-13 | Divine offers.
+    d | 14 | David's decision made.
+    d | 15 | David's decision carried out.
+  c | 16- | Divine forbearance.
+
+[[diagram: -16-25 (B, p. 443). Expiation of the Sin (Introversion and Repeated Alternation)]]
+[[anchor: 2 Samuel 24:16-25]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 79]]
+
+B |  |
+  e | -16, 17 | Entreaty for the Land. David's.
+    f | 18 | David. Command given to.
+      g |  |
+        h1 | 19 | David's obedience.
+          i1 | 20, 21- | Araunah's reception.
+        h2 | -21 | David's request.
+          i2 | 22, 23 | Araunah's offer.
+        h3 | 24 | David's refusal.
+    f | 25- | David. Obedience.
+  e | -25 | Entreaty for the Land. Jehovah.

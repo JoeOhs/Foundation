@@ -26,7 +26,7 @@ Nothing here is part of the app runtime or `src-tauri/`.
 verification gates and the correction policy for OCR damage, is the
 `companion-bible-book` skill (`.claude/skills/companion-bible-book/`).
 
-Transcribed so far: **Genesis**, **Exodus**, **Leviticus**, **Numbers**, **Deuteronomy**, **Joshua**, **Judges**, **Ruth**, **Philemon**.
+Transcribed so far: **Genesis**, **Exodus**, **Leviticus**, **Numbers**, **Deuteronomy**, **Joshua**, **Judges**, **Ruth**, **1 Samuel**, **2 Samuel**, **Philemon**.
 
 ## Why a notation instead of JSON by hand
 

@@ -1,0 +1,1264 @@
+# The Companion Bible (E. W. Bullinger, 1913) — 1 Samuel
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/9. Samuel I-II_text.pdf, which holds both
+# books); [[pdf-page:]] is the page of that file each diagram is on.
+# Notation: README.md here. The diagrams on p. 366 cover both books and
+# are kept here, the book they open.
+
+[[diagram: The Structure of the Two Books as a Whole. The Whole (Division)]]
+[[anchor: 1 Samuel 1:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 1]]
+
+A1 |  | 1 Sam. 1. 1—7. 17. RULE UNDER THE JUDGES.
+A2 |  | 1 Sam. 8. 1—2 Sam. 24. 25. RULE UNDER THE KINGS.
+
+[[diagram: 1 Sam. 8. 1—2 Sam. 24. 25 (A2, above). Rule under the Kings (Division)]]
+[[anchor: 1 Samuel 1:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 1]]
+
+A2 |  |
+  B1 |  | 1 Sam. 8. 1—2 Sam. 1. 27. KING SAUL.
+  B2 |  | 2 Sam. 2. 1—24. 25. KING DAVID.
+
+[[diagram: 2 Sam. 2. 1—24. 25 (B2, above). King David (Division)]]
+[[anchor: 1 Samuel 1:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 1]]
+
+B2 |  |
+  C1 |  | 2 Sam. 2. 1—4. 12. KINGDOM DIVIDED.
+  C2 |  | 2 Sam. 5. 1—24. 25. KINGDOM UNITED.
+
+[[diagram: The Structure of These Four "Books of the Kingdoms"]]
+[[anchor: 1 Samuel 1:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 1]]
+
+X |  |
+  Y |  | 2 Sam. 2. 1—4. 12. The Divided Kingdom.
+    Z |  | 2 Sam. 5. 1—24. 25. The United Kingdom.
+    Z |  | 1 Kings 1. 1—12. 15. The United Kingdom.
+  Y |  | 1 Kings 12. 16—2 Kings 25. 38. The Divided Kingdom.
+
+[[diagram: 1. 1—7. 17 (A1, p. 366). Rule under Judges (Alternation)]]
+[[anchor: 1 Samuel 1:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 2]]
+
+A1 |  |
+  A |  | 1. 1—4. 1-. The provocation of Israel.
+    B |  | 4. -1—7. 2-. Subjection by Philistines.
+  A |  | 7. -2-6. The repentance of Israel.
+    B |  | 7. 7-17. Deliverance from Philistines.
+
+[[diagram: 1. 1—4. 1- (A, above). Provocation of Israel (Repeated Alternation)]]
+[[anchor: 1 Samuel 1:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 2]]
+
+A |  |
+  C1 |  | 1. 1-3-. Elkanah and family.
+    D1 |  | 1. -3. The sons of Eli.
+  C2 |  | 1. 4—2. 11. Elkanah and family.
+    D2 |  | 2. 12-17. The sons of Eli.
+  C3 |  | 2. 18-21. Elkanah and family.
+    D3 |  | 2. 22-25. The sons of Eli.
+  C4 |  | 2. 26. Elkanah's son, Samuel.
+    D4 |  | 2. 27-36. Eli and his sons.
+  C5 |  | 3. 1-10. Elkanah's son, Samuel.
+    D5 |  | 3. 11-18. Eli and his sons.
+  C6 |  | 3. 19—4. 1-. Elkanah's son, Samuel.
+
+[[diagram: 1. 4—2. 11 (C2, above). Elkanah and Family (Introversion and Alternation)]]
+[[anchor: 1 Samuel 1:4]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 2]]
+
+C2 |  |
+  E |  | 1. 4-7. Hannah and her adversary.
+    F |  |
+      a |  | 1. 8-10. Prayer offered.
+        b |  | 1. 11. Vow made.
+    F |  |
+      a |  | 1. 12-20. Prayer answered.
+        b |  | 1. 21-28. Vow fulfilled.
+  E |  | 2. 1-11. Hannah and Jehovah.
+
+[[diagram: 21-28 (b, p. 367). Vow Fulfilled (Repeated Alternation)]]
+[[anchor: 1 Samuel 1:21-28]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 3]]
+
+b |  |
+  c1 | 21 | Worship.
+    d1 | 22, 23 | Presentation postponed.
+  c2 | 24, 25 | Worship.
+    d2 | 26-28- | Presentation made.
+  c3 | -28 | Worship.
+
+[[diagram: 2. 1-11 (E, p. 367). Hannah and Jehovah (Repeated Alternation)]]
+[[anchor: 1 Samuel 2:1-11]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 4]]
+
+E |  |
+  e1 | 1, 2 | Jehovah. Holiness.
+    f1 | 3- | Enemies. Pride broken.
+  e2 | -3 | Jehovah. Knowledge.
+    f2 | 4, 5 | Enemies. Weapons broken.
+  e3 | 6-9 | Jehovah. Grace.
+    f3 | 10- | Enemies. Themselves broken.
+  e4 | -10 | Jehovah. Grace.
+
+[[diagram: 18-21 (C3, p. 367). Elkanah and Family (Introversion and Alternation)]]
+[[anchor: 1 Samuel 2:18-21]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 4]]
+
+C3 |  |
+  g | 18 | Samuel. Ministration.
+    h |  |
+      i | 19 | Parents' yearly visit.
+        k | 20- | Eli's blessing.
+    h |  |
+      i | -20 | Parents' return.
+        k | 21- | Jehovah's visitation.
+  g | -21 | Samuel. Growth.
+
+[[diagram: 2. 27-36 (D4, p. 367). Eli and His Sons (Repeated Alternation)]]
+[[anchor: 1 Samuel 2:27-36]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 5]]
+
+D4 |  |
+  l1 | 27, 28 | Election of priestly order.
+    m1 | 29 | Provocation of Eli's sons.
+  l2 | 30- | Election of Eli.
+    m2 | -30-34 | Rejection of Eli's sons.
+  l3 | 35, 36 | Election of Samuel.
+
+[[diagram: 3. 1-10 (C5, p. 367). Elkanah's Son, Samuel (Alternation)]]
+[[anchor: 1 Samuel 3:1-10]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 6]]
+
+C5 |  |
+  n | 1 | Samuel, and the word of Jehovah.
+    o |  |
+      p1 | 2-5 | His first call.
+      p2 | 6 | His second call.
+  n | 7 | Samuel, and the word of Jehovah.
+    o |  |
+      p3 | 8, 9 | His third call.
+      p4 | 10 | His fourth call.
+
+[[diagram: 11-18 (D5, p. 367). Eli and His Sons (Repeated Alternation)]]
+[[anchor: 1 Samuel 3:11-18]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 6]]
+
+D5 |  |
+  q1 | 11-14 | Eli. Threatening.
+    r1 | 15 | Samuel's fear.
+  q2 | 16, 17 | Eli. Demand.
+    r2 | 18- | Samuel. Compliance.
+  q3 | -18 | Eli. Submission.
+
+[[diagram: 3. 19—4. 1- (C6, p. 367). Elkanah's Son, Samuel (Alternation)]]
+[[anchor: 1 Samuel 3:19]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 6]]
+
+C6 |  |
+  s |  | 3. 19. Samuel. Jehovah with him.
+    t |  | 3. 20. Israel. Acknowledgment.
+  s |  | 3. 21. Samuel. Jehovah's revelation to him.
+    t |  | 4. 1-. Israel. Submission.
+
+[[diagram: 4. -1—7. 2 (B, p. 367). Subjection by Philistines (Extended Alternation)]]
+[[anchor: 1 Samuel 4:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 6]]
+
+B |  |
+  u |  | 4. -1-. Israel in camp of war.
+    v |  | 4. -1. Philistines.
+      w |  | 4. 2. First battle, and result.
+  u |  | 4. 3-5. Israel in camp of war.
+    v |  | 4. 6-9. Philistines.
+      w |  | 4. 10—7. 2. Second battle, and result.
+
+[[diagram: 4. 10—7. 2 (w, p. 371). Second Battle and Result (Alternation)]]
+[[anchor: 1 Samuel 4:10]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 7]]
+
+w |  |
+  G |  | 4. 10. Israel. Defeat.
+    H |  | 4. 11. Ark taken by Philistines.
+  G |  | 4. 12-22. Israel. Report of defeat.
+    H |  | 5. 1—7. 2. Ark in captivity to Philistines.
+
+[[diagram: 12-22 (G, above). Israel. Report of Defeat (Repeated Alternation)]]
+[[anchor: 1 Samuel 4:12-22]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 7]]
+
+G |  |
+  x1 | 12 | Fugitive comes to Shiloh.
+    y1 | 13- | Eli's fear for Ark.
+  x2 | -13 | Fugitive comes to people.
+    y2 | 14- | Eli's alarm for Ark.
+  x3 | -14 | Fugitive comes to Eli.
+    y3 | 15-18 | Eli's death.
+  x4 | 19- | Tidings come to son's wife.
+    y4 | -19-22 | Her death.
+
+[[diagram: 5. 1—7. 2 (H, p. 372). Ark in Captivity to Philistines (Introversion and Alternation)]]
+[[anchor: 1 Samuel 5:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 8]]
+
+H |  |
+  J |  |
+    a |  | 5. 1-12. Captivity in Philistia.
+      b |  | 6. 1. Duration. Seven months.
+  K |  | 6. 2-16. Removal to Beth-shemesh.
+    L |  | 6. 17, 18. Lords of Philistines.
+  K |  | 6. 19, 20. Judgment at Beth-shemesh.
+  J |  |
+    a |  | 6. 21—7. 1. Captivity of Ark ended.
+      b |  | 7. 2-. Duration. Twenty years.
+
+[[diagram: 5. 1-12 (a, above). Captivity in Philistia (Repeated Alternation)]]
+[[anchor: 1 Samuel 5:1-12]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 8]]
+
+a |  |
+  c1 | 1 | From Eben-ezer to Ashdod.
+    d1 | 2-6 | Judgment on Ashdodites.
+  c2 | 7, 8 | From Ashdod to Gath.
+    d2 | 9 | Judgment on Gathites.
+  c3 | 10- | From Gath to Ekron.
+    d3 | -10-12 | Judgment on Ekronites.
+
+[[diagram: 6. 2-16 (K, above). Removal to Beth-shemesh (Alternation)]]
+[[anchor: 1 Samuel 6:2-16]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 8]]
+
+K |  |
+  M | 2-12- | Dismissal of Ark.
+    N | -12 | Lords of Philistines following.
+  M | 13-15 | Reception of Ark.
+    N | 16 | Lords of Philistines returning.
+
+[[diagram: 2-12- (M, above). Dismissal of Ark (Alternation)]]
+[[anchor: 1 Samuel 6:2-12]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 8]]
+
+M |  |
+  e | 2-8 | Consultation of Philistines.
+    f | 9 | Test suggested.
+  e | 10, 11 | Consultation. Result.
+    f | 12- | Test applied.
+
+[[diagram: 2-8 (e, above). Consultation of Philistines (Alternation)]]
+[[anchor: 1 Samuel 6:2-8]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 8]]
+
+e |  |
+  g | 2 | Questions. What? Wherewith?
+    h | 3 | Answer. Trespass offering.
+  g | 4- | Question. What?
+    h | -4-8 | Answer. A new cart.
+
+[[diagram: 7. -2-6 (A, p. 367). Repentance of Israel. 7. 7-17 (B, p. 367). Deliverance from Philistines (Alternation)]]
+[[anchor: 1 Samuel 7:2-17]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 10]]
+
+A |  |
+  i | -2-6- | Israel. Repentance.
+    k | -6 | Government of Samuel. Place.
+B |  |
+  i | 7-14 | Israel. Recovery.
+    k | 15-17 | Government of Samuel. Time.
+
+[[diagram: 1 Sam. 8. 1—2 Sam. 1. 27 (B1, p. 366). King Saul (Alternation)]]
+[[anchor: 1 Samuel 8:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 10]]
+
+B1 |  |
+  O |  | 1 Sam. 8. 1—12. 25. Choice of Saul.
+    P |  | 1 Sam. 13. 1—15. 35. Provocation of Saul. Rejection threatened.
+  O |  | 1 Sam. 16. 1—27. 4. Choice of David.
+    P |  | 1 Sam. 27. 5—2 Sam. 1. 27. Provocation of Saul. Rejection carried out.
+
+[[diagram: 8. 1—12. 25 (O, above). Choice of Saul (Introversion)]]
+[[anchor: 1 Samuel 8:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 10]]
+
+O |  |
+  Q |  | 8. 1—10. 26. Settlement of Kingdom.
+    R |  | 10. 27. Men of Belial.
+      S |  | 11. 1-11. Aggression of Nahash.
+    R |  | 11. 12, 13. Men of Belial.
+  Q |  | 11. 14—12. 25. Inauguration of Kingdom.
+
+[[diagram: 8. 1—10. 26 (Q, above). Settlement of Saul's Kingdom (Alternation)]]
+[[anchor: 1 Samuel 8:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 10]]
+
+Q |  |
+  T |  | 8. 1-22-. King desired.
+    U |  | 8. -22. Dismissal of People to cities.
+  T |  | 9. 1—10. 25-. King given.
+    U |  | 10. -25, 26. Dismissal of People to homes.
+
+[[diagram: 8. 1-22- (T, above). King Desired (Introversion and Alternation)]]
+[[anchor: 1 Samuel 8:1-22]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 10]]
+
+T |  |
+  l |  |
+    n | 1-5 | Desire expressed.
+      o | 6-9- | Compliance.
+        m | -9 | Warning. (General.)
+        m | 10-18 | Warning. (Particular.)
+  l |  |
+    n | 19, 20 | Desire persisted in.
+      o | 21, 22- | Compliance.
+
+[[diagram: 9. 1—10. 25- (T, p. 375). King Given (Repeated Alternation)]]
+[[anchor: 1 Samuel 9:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 11]]
+
+T |  |
+  W1 |  | 9. 1, 2. King designated.
+    X1 |  | 9. 3-14. Asses lost.
+  W2 |  | 9. 15—10. 13. King sought.
+    X2 |  | 10. 14-16. Asses found.
+  W3 |  | 10. 17-25-. King appointed.
+
+[[diagram: 9. 3-14 (X1, above). Asses Lost (Extended Alternation)]]
+[[anchor: 1 Samuel 9:3-14]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 11]]
+
+X1 |  |
+  Y1 |  |
+    p1 | 3- | Kish. Asses lost.
+      q1 | -3 | His command.
+        r1 | 4 | Obeyed by Saul.
+  Y2 |  |
+    p2 | 5 | Saul's servant.
+      q2 | 6-10- | His advice.
+        r2 | -10 | Taken by Saul.
+  Y3 |  |
+    p3 | 11 | Maidens of the city.
+      q3 | 12, 13 | Their advice.
+        r3 | 14 | Taken by Saul.
+
+[[diagram: 9. 6-10- (q2, p. 376). Servant's Advice (Alternation)]]
+[[anchor: 1 Samuel 9:6-10]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 12]]
+
+q2 |  |
+  s | 6 | The man of God. Statement.
+    t | 7 | Objection.
+  s | 8, 9 | The man of God. Explanation.
+    t | 10- | Assent.
+
+[[diagram: 9. 15—10. 13 (W2, p. 376). King Sought (Alternation)]]
+[[anchor: 1 Samuel 9:15]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 12]]
+
+W2 |  |
+  A |  | 9. 15-17. The anointing. Command.
+    B |  | 9. 18-27. Reception by Samuel.
+  A |  | 10. 1. The anointing. Obedience.
+    B |  | 10. 2-13. Directions by Samuel.
+
+[[diagram: 18-27 (B, above). Reception by Samuel (Introversion)]]
+[[anchor: 1 Samuel 9:18-27]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 12]]
+
+B |  |
+  u | 18 | Meeting of Samuel with Saul.
+    v | 19, 20 | Samuel's answer to Saul.
+    v | 21 | Saul's answer to Samuel.
+  u | 22-27 | Communication of Samuel.
+
+[[diagram: 10. 2-13 (B, p. 377). Directions by Samuel (Introversion)]]
+[[anchor: 1 Samuel 10:2-13]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 13]]
+
+B |  |
+  w | 2-6 | Signs given.
+    x | 7 | Command.
+    x | 8 | Appointment.
+  w | 9-13 | Signs fulfilled.
+
+[[diagram: 10. 17-25- (W3, p. 376). King Appointed (Repeated Alternation)]]
+[[anchor: 1 Samuel 10:17-25]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 14]]
+
+W3 |  |
+  y1 | 17 | People assembled. En masse.
+    z1 | 18, 19- | Samuel's remonstrance.
+  y2 | -19 | People presented. By tribes.
+    z2 | 20-24- | Samuel. Lots cast.
+  y3 | -24 | People. Approbation.
+    z3 | 25- | Samuel. Confirmation.
+
+[[diagram: 11. 1-11 (S, p. 375). Aggression of Nahash (Repeated Alternation)]]
+[[anchor: 1 Samuel 11:1-11]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 14]]
+
+S |  |
+  a1 | 1- | Aggression of Nahash.
+    b1 | -1 | Men of Jabesh-gilead. Message to Nahash.
+  a2 | 2 | Ultimatum of Nahash.
+    b2 | 3, 4 | Men of Jabesh-gilead. Message to Saul.
+  a3 | 5-9 | Ultimatum of Nahash.
+    b3 | 10 | Men of Jabesh-gilead. Reply to Nahash.
+  a4 | 11 | Defeat of Nahash.
+
+[[diagram: 11. 14—12. 25 (Q, p. 375). Inauguration of Kingdom (Division)]]
+[[anchor: 1 Samuel 11:14]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 15]]
+
+Q |  |
+  D1 |  | 11. 14, 15. People assembled.
+  D2 |  | 12. 1-25. People addressed.
+
+[[diagram: 12. 1-25 (D2, above). People Addressed (Introversions and Alternations)]]
+[[anchor: 1 Samuel 12:1-25]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 15]]
+
+D2 |  |
+  E1 |  |
+    c1 | 1, 2- | The king presented. Desired.
+      d1 |  |
+        e | -2-5 | Samuel's past administration.
+          f | 6-12 | Remonstrance.
+    c2 | 13 | The king presented. Given.
+  E2 |  |
+    c3 | 14, 15 | The king presented. Conditions.
+      d2 |  |
+          f | 16-22 | Remonstrance.
+        e | 23 | Samuel's future action.
+    c4 | 24, 25 | The king presented. Conditions.
+
+[[diagram: 13. 1—15. 35 (P, p. 375). Provocation of Saul (Alternation)]]
+[[anchor: 1 Samuel 13:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 16]]
+
+P |  |
+  F |  | 13. 1, 2. The levies of Saul.
+    G |  | 13. 3—14. 46. War with Philistines.
+  F |  | 14. 47-52. The levies of Saul.
+    G |  | 15. 1-35. War with Amalek.
+
+[[diagram: 13. 3—14. 46 (G, above). War with Philistines (Division)]]
+[[anchor: 1 Samuel 13:3]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 16]]
+
+G |  |
+  H1 |  | 13. 3-22. First aggression of Jonathan.
+  H2 |  | 13. 23—14. 46. Second aggression of Jonathan.
+
+[[diagram: 13. 3-22 (H1, above). First Aggression of Jonathan (Introversion and Extended Alternation)]]
+[[anchor: 1 Samuel 13:3-22]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 16]]
+
+H1 |  |
+  J1 |  |
+    g | 3, 4 | Saul's assemblage of Israel.
+      h |  |
+        j | 5- | The Philistines. Number.
+        k | -5 | Encampment at Michmash.
+          i | 6, 7 | Israel. Distress.
+            K | 8 | Delay of Samuel.
+            K | 9-15- | Sin of Saul.
+  J2 |  |
+    g | -15, 16- | Saul's assemblage of Israel.
+      h |  |
+        k | -16 | Encampment at Michmash.
+        j | 17, 18 | The Philistines. Number.
+          i | 19-22 | Israel. Disarmament.
+
+[[diagram: 13. 23—14. 46 (H2, p. 381). Second Aggression of Jonathan (Introversion)]]
+[[anchor: 1 Samuel 13:23]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 18]]
+
+H2 |  |
+  L |  | 13. 23—14. 19. Jonathan's success.
+    M |  | 14. 20-23. Saul's success.
+  L |  | 14. 24-46. Jonathan's sin.
+
+[[diagram: 13. 23—14. 19 (L, above). Jonathan's Success (Extended Alternation)]]
+[[anchor: 1 Samuel 13:23]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 18]]
+
+L |  |
+  l |  | 13. 23. Garrison of Philistines. Place.
+    m |  | 14. 1. Attack proposed.
+      n |  | 14. 2, 3. Army of Saul.
+  l |  | 14. 4, 5. Garrison of Philistines. Description.
+    m |  | 14. 6-15. Attack carried out.
+      n |  | 14. 16-19. Army of Saul.
+
+[[diagram: 14. 20-23 (M, p. 383). Saul's Success (Alternation)]]
+[[anchor: 1 Samuel 14:20-23]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 19]]
+
+M |  |
+  o | 20- | Assemblage.
+    p | -20 | Mutual slaughter of enemies.
+  o | 21, 22 | Assemblage.
+    p | 23 | Salvation of Israel.
+
+[[diagram: 24-46 (L, p. 383). Jonathan's Sin (Alternation)]]
+[[anchor: 1 Samuel 14:24-46]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 19]]
+
+L |  |
+  q | 24-35 | Sin committed.
+    r | 36- | Pursuit proposed by Saul.
+  q | -36-45 | Sin discovered.
+    r | 46 | Pursuit abandoned by Saul.
+
+[[diagram: 24-35 (q, above). Sin Committed (Division)]]
+[[anchor: 1 Samuel 14:24-35]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 19]]
+
+q |  |
+  N1 | 24-30 | By Jonathan.
+  N2 | 31-35 | By the people.
+
+[[diagram: 24-30 (N1, above). By Jonathan (Alternation)]]
+[[anchor: 1 Samuel 14:24-30]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 19]]
+
+N1 |  |
+  s | 24-26 | The people distressed.
+    t | 27, 28- | Jonathan ignorant.
+  s | -28 | The people faint.
+    t | 29, 30 | Jonathan troubled.
+
+[[diagram: 14. 31-35 (N2, p. 384). Sin of the People (Introversion)]]
+[[anchor: 1 Samuel 14:31-35]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 20]]
+
+N2 |  |
+  u | 31- | Victory.
+    v | -31-33- | Sin.
+    v | -33, 34 | Remedy.
+  u | 35 | Altar.
+
+[[diagram: 47-52 (F, p. 381). The Levies of Saul (Introversions)]]
+[[anchor: 1 Samuel 14:47-52]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 20]]
+
+F |  |
+  w |  |
+    y | 47, 48 | Wars.
+      z | 49, 50- | Family.
+  x | -50 | Abner. Chief captain.
+  w |  |
+      z | 51 | Kindred.
+    y | 52 | Wars.
+
+[[diagram: 15. 1-35 (G, p. 381). War with Amalekites (Introversion and Extended Alternation)]]
+[[anchor: 1 Samuel 15:1-35]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 21]]
+
+G |  |
+  a |  |
+    c | 1 | Saul's call by Samuel.
+      d | 2 | Amalekites' crime against Israel.
+        e | 3 | Command to smite Amalek.
+          b | 4 | Saul's army.
+          b | 5 | Saul's strategy.
+  a |  |
+    c | 6- | Saul's call to the Kenites.
+      d | -6 | The Kenites' kindness to Israel.
+        e | 7-35 | Disobedience of Saul.
+
+[[diagram: 7-35 (e, above). Disobedience of Saul (Alternation and Introversion)]]
+[[anchor: 1 Samuel 15:7-35]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 21]]
+
+e |  |
+  O | 7-9 | Saul's sin.
+    P |  |
+      f | 10, 11- | Repentance of Jehovah.
+        g | -11 | Sorrow of Samuel.
+          h | 12, 13- | Journey to Saul.
+  O | -13-33 | Saul's reproof.
+    P |  |
+          h | 34, 35- | Departure from Saul.
+        g | -35- | Sorrow of Samuel.
+      f | -35 | Repentance of Jehovah.
+
+[[diagram: -13-33 (O, above). Saul's Reproof (Division)]]
+[[anchor: 1 Samuel 15:13-33]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 21]]
+
+O |  |
+  Q1 | -13-31 | By Samuel's word.
+  Q2 | 32, 33 | By Samuel's action.
+
+[[diagram: -13-31 (Q1, above). By Samuel's Word (Alternations and Introversions)]]
+[[anchor: 1 Samuel 15:13-31]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 21]]
+
+Q1 |  |
+  R1 |  |
+    i1 | -13 | Saul's self-commendation.
+      k1 | 14 | Samuel's condemnation.
+    i1 | 15 | Saul's self-justification.
+      S1 | 16-19 | Message from Jehovah.
+  R2 |  |
+    i2 | 20, 21 | Saul's self-justification.
+      k2 | 22, 23 | Samuel's refutation.
+    i2 | 24, 25 | Saul's confession.
+      S2 | 26-29 | Sentence of Jehovah.
+  R3 |  |
+    i3 | 30 | Saul's confession and request.
+      k3 | 31- | Samuel's compliance.
+    i3 | -31 | Saul's worship.
+
+[[diagram: 16. 1—27. 4 (O, p. 375). Choice of David (Division)]]
+[[anchor: 1 Samuel 16:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 22]]
+
+O |  |
+  T1 |  | 16. 1-13. David's call and anointing by God.
+  T2 |  | 16. 14-23. Episode. Inserted here to show the contrast between David and Saul.
+  T3 |  | 17. 1—27. 4. David opposed by Saul. An earlier episode (17. 1—18. 9), see p. 389.
+
+[[diagram: 16. 1-13 (T1, above). David's Call (Alternation)]]
+[[anchor: 1 Samuel 16:1-13]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 22]]
+
+T1 |  |
+  l | 1-3 | Jehovah's provision of David.
+    m | 4, 5 | Samuel's arrival.
+  l | 6-12 | Jehovah's choice of David.
+    m | 13 | Samuel's anointing.
+
+[[diagram: 16. 14-23 (T2, p. 387). The Later Episode (Introversion)]]
+[[anchor: 1 Samuel 16:14-23]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 23]]
+
+T2 |  |
+  n | 14, 15 | Evil spirit troubling Saul.
+    o | 16- | Harper recommended.
+      p | -16 | Recovery promised.
+    o | 17-22 | Harper successful.
+  n | 23 | Evil spirit departing from Saul.
+
+[[diagram: 17. 1—27. 4 (T3, p. 387). David Opposed by Saul (Extended Alternation)]]
+[[anchor: 1 Samuel 17:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 24]]
+
+T3 |  |
+  U |  | 17. 1—18. 9. War with the Philistines.
+    V |  | 18. 10, 11. Evil spirit incites Saul against David.
+      W |  | 18. 12—19. 7. Saul's hostility to David.
+  U |  | 19. 8. War with the Philistines.
+    V |  | 19. 9—20. 1-. Evil spirit incites Saul against David.
+      W |  | 20. -1—27. 4. Saul's hostility to David.
+
+[[diagram: 17. 1—18. 9 (U, above). War with Philistines (Alternation)]]
+[[anchor: 1 Samuel 17:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 24]]
+
+U |  |
+  X |  | 17. 1-54. Battle with Philistines.
+    Y |  | 17. 55—18. 5. Favour of Saul to David.
+  X |  | 18. 6, 7. Battle won. Praise for victory.
+    Y |  | 18. 8, 9. Disfavour of Saul to David.
+
+[[diagram: 17. 1-54 (X, above). Battle with Philistines (Introversion)]]
+[[anchor: 1 Samuel 17:1-54]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 24]]
+
+X |  |
+  q | 1-3 | The two armies. Arrayed.
+    r | 4-40- | Defiance of Goliath.
+    r | -40-51- | Combat with Goliath.
+  q | -51-54 | The two armies. Flight and pursuit.
+
+[[diagram: 4-40- (r, above). Defiance of Goliath (Introversion)]]
+[[anchor: 1 Samuel 17:4-40]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 24]]
+
+r |  |
+  Z |  |
+    s | 4-7 | Goliath's armour.
+      t | 8-10 | Goliath's challenge.
+        u | 11 | Israel's fear.
+          A | 12-31 | David's mission.
+  Z |  |
+        u | 32- | Saul's encouragement.
+      t | -32-37 | Goliath's challenge accepted.
+    s | 38-40 | David's armour.
+
+[[diagram: 17. 12-31 (A, p. 389). David's Mission (Alternation and Introversion)]]
+[[anchor: 1 Samuel 17:12-31]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 25]]
+
+A |  |
+  B | 12 | House of Jesse.
+    C |  |
+      v | 13-15 | The army.
+        w | 16 | Goliath's challenge.
+  B | 17-22 | Message of Jesse.
+    C |  |
+        w | 23, 24 | Goliath's challenge.
+      v | 25-31 | The army.
+
+[[diagram: 13-15 (v, above). The Army (Alternation)]]
+[[anchor: 1 Samuel 17:13-15]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 25]]
+
+v |  |
+  x | 13 | The eldest three.
+    y | 14- | David.
+  x | -14 | The eldest three.
+    y | 15 | David.
+
+[[diagram: 17-22 (B, above). Message of Jesse (Division)]]
+[[anchor: 1 Samuel 17:17-22]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 25]]
+
+B |  |
+  z1 | 17, 18 | Command.
+  z2 | 19-22 | Obedience.
+
+[[diagram: 25-31 (v, above). The Army (Introversion and Alternation)]]
+[[anchor: 1 Samuel 17:25-31]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 25]]
+
+v |  |
+  a | 25 | The king's reward.
+    b |  |
+      d | 26 | David. Inquiry.
+        e | 27 | People. Answer.
+          c | 28 | Eliab's reproof of David.
+          c | 29 | David's reply to Eliab.
+    b |  |
+      d | 30- | David. Inquiry.
+        e | -30 | People. Answer.
+  a | 31 | The king's mission.
+
+[[diagram: 17. -40-51- (r, p. 389). Combat with Goliath (Alternation)]]
+[[anchor: 1 Samuel 17:40-51]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 26]]
+
+r |  |
+  f | -40, 41 | Approach.
+    g | 42-47 | Colloquy.
+  f | 48 | Approach.
+    g | 49-51- | Conflict.
+
+[[diagram: 42-47 (g, above). Colloquy (Division)]]
+[[anchor: 1 Samuel 17:42-47]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 26]]
+
+g |  |
+  h1 | 42-44 | Goliath.
+  h2 | 45-47 | David.
+
+[[diagram: 18. 12—19. 7 (W, p. 389). Hostility to David (Alternation)]]
+[[anchor: 1 Samuel 18:12]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 27]]
+
+W |  |
+  E |  | 18. 12-16. Saul's fear of David.
+    F |  | 18. 17-27. Machinations against David.
+  E |  | 18. 28-30. Saul's fear of David.
+    F |  | 19. 1-7. Aggressions against David.
+
+[[diagram: 12-16 (E, above). Saul's Fear of David (Division)]]
+[[anchor: 1 Samuel 18:12-16]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 27]]
+
+E |  |
+  i1 | 12-15 | Saul's fear.
+  i2 | 16 | The People's love.
+
+[[diagram: 12-15 (i1, above). Saul's Fear (Introversion)]]
+[[anchor: 1 Samuel 18:12-15]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 27]]
+
+i1 |  |
+  j | 12- | Fear.
+    k | -12 | Reason.
+      l | 13 | Promotion.
+      l | 14 | Propriety.
+    k | 15- | Reason.
+  j | -15 | Fear.
+
+[[diagram: 18. 17-27 (F, p. 392). Machinations against David (Division)]]
+[[anchor: 1 Samuel 18:17-27]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 28]]
+
+F |  |
+  m1 | 17-19 | By means of Merab.
+  m2 | 20-27 | By means of Michal.
+
+[[diagram: 19. 1-7 (F, p. 392). Aggressions against David (Repeated Alternation)]]
+[[anchor: 1 Samuel 19:1-7]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 28]]
+
+F |  |
+  n1 | 1 | Saul and David. Resolve to kill David.
+    o1 | 2, 3 | David and Jonathan.
+  n2 | 4-6 | Saul and Jonathan.
+    o2 | 7- | David and Jonathan.
+  n3 | -7 | Saul and David. Reconciliation.
+
+[[diagram: 19. 9—20. 1- (V, p. 389). Evil Spirit Incites Saul (Repeated and Extended Alternation)]]
+[[anchor: 1 Samuel 19:9]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 29]]
+
+V |  |
+  G1 |  |
+    p1 |  | 19. 9, 10-. Saul's first attempt.
+      q1 |  | 19. -10-. Failure.
+        r1 |  | 19. -10. David's escape.
+[[group: Personal (I). Thwarted by David.]]
+    H1 |  |
+      s1 |  | 19. 11-. Saul's second attempt.
+        t1 |  | 19. -11-13. Failure. Michal's rescue.
+      s2 |  | 19. 14-. Saul's third attempt.
+        t2 |  | 19. -14. Failure. Michal's ruse.
+      s3 |  | 19. 15. Saul's fourth attempt.
+        t3 |  | 19. 16. Failure. Michal's deception.
+[[group: Messengers: three attempts thwarted by human agency.]]
+  G2 |  |
+    p2 |  | 19. 17-. Saul's fifth attempt.
+      q2 |  | 19. -17. Failure.
+        r2 |  | 19. 18. David's escape.
+[[group: Personal (II). Thwarted by David.]]
+    H2 |  |
+      s4 |  | 19. 19, 20-. Saul's sixth attempt.
+        t4 |  | 19. -20. Failure. Spirit of God.
+      s5 |  | 19. 21-. Saul's seventh attempt.
+        t5 |  | 19. -21-. Failure. Spirit of God.
+      s6 |  | 19. -21-. Saul's eighth attempt.
+        t6 |  | 19. -21. Failure. Spirit of God.
+[[group: Messengers: three attempts thwarted by Divine agency.]]
+  G3 |  |
+    p3 |  | 19. 22, 23-. Saul's ninth attempt.
+      q3 |  | 19. -23, 24. Failure.
+        r3 |  | 20. 1-. David's escape.
+[[group: Personal (III). Thwarted by God.]]
+
+[[diagram: 20. -1—27. 4 (W, p. 389). Hostility to David (Alternation)]]
+[[anchor: 1 Samuel 20:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 29]]
+
+W |  |
+  I |  | 20. -1-42. Visit of David to Jonathan. Covenant.
+    J |  | 21. 1—23. 15. Saul's pursuit of David.
+  I |  | 23. 16-18. Visit of Jonathan to David. Covenant.
+    J |  | 23. 19—27. 4. Saul's pursuit of David.
+
+[[diagram: 20. -1-42 (I, above). Visit of David to Jonathan (Division)]]
+[[anchor: 1 Samuel 20:1-42]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 29]]
+
+I |  |
+  K1 | -1-4 | David's peril.
+  K2 | 5-42 | David's expedients.
+
+[[diagram: -1-4 (K1, above). David's Peril (Alternation)]]
+[[anchor: 1 Samuel 20:1-4]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 29]]
+
+K1 |  |
+  y | -1 | David's complaint.
+    z | 2 | Jonathan's reassurance.
+  y | 3 | David's plea.
+    z | 4 | Jonathan's promise.
+
+[[diagram: 20. 5-42 (K2, p. 394). David's Expedients (Repeated and Extended Alternation)]]
+[[anchor: 1 Samuel 20:5-42]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 30]]
+
+K2 |  |
+  L1 |  |
+    a1 | 5-9 | Expedient. David's.
+      b1 | 10 | Signal desired.
+        c1 | 11-17 | Covenant made.
+  L2 |  |
+    a2 | 18, 19 | Expedient. Jonathan's.
+      b2 | 20-22 | Signal arranged.
+        c2 | 23 | Covenant asserted.
+  L3 |  |
+    a3 | 24-34 | Expedient carried out.
+      b3 | 35-41 | Signal given.
+        c3 | 42 | Covenant reasserted.
+
+[[diagram: 21. 1—23. 15 (J, p. 394). Pursuit of David (Extended Alternation)]]
+[[anchor: 1 Samuel 21:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 31]]
+
+J |  |
+  M |  | 21. 1-9. Nob. Priest's help given.
+    N |  | 21. 10-15. Philistines. David's flight to Achish.
+      O |  | 22. 1-5. Places of refuge. Adullam.
+  M |  | 22. 6-23. Nob. Priests slaughtered.
+    N |  | 23. 1-13. Philistines. Relief of Keilah.
+      O |  | 23. 14, 15. Place of refuge. Desert of Ziph.
+
+[[diagram: 21. 1-9 (M, above). Priest's Help Given (Repeated Alternation)]]
+[[anchor: 1 Samuel 21:1-9]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 31]]
+
+M |  |
+  d1 | 1 | Ahimelech's fear.
+    e1 | 2, 3 | "Let no man know".
+  d2 | 4-6 | Ahimelech's help.
+    e2 | 7 | Doeg knows.
+  d3 | 8, 9 | Ahimelech's gift.
+
+[[diagram: 21. 10-15 (N, p. 396). Philistines. David's Flight (Introversion)]]
+[[anchor: 1 Samuel 21:10-15]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 32]]
+
+N |  |
+  f | 10 | Achish. Arrival of David.
+    g | 11 | David's fear.
+    g | 12, 13 | David's simulation.
+  f | 14, 15 | Achish. Deception by David.
+
+[[diagram: 6-23 (M, p. 396). Nob. Priests Slaughtered (Introversion)]]
+[[anchor: 1 Samuel 22:6-23]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 32]]
+
+M |  |
+  h | 6-8 | Saul's threatening of Benjamites.
+    i | 9, 10 | Doeg informs against David.
+      k | 11-19 | Ahimelech slain by Saul.
+      k | 20, 21 | Abiathar's escape to David.
+    i | 22 | Doeg suspected by David.
+  h | 23 | David's assurance to Abiathar.
+
+[[diagram: 23. 1-13 (N, p. 396). Philistines. Relief of Keilah (Alternations)]]
+[[anchor: 1 Samuel 23:1-13]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 33]]
+
+N |  |
+  P | 1 | Keilah. Assault by Philistines.
+    Q |  |
+      l | 2 | David's inquiries.
+        m | 3 | David and his men.
+      l | 4 | David's inquiries.
+        m | 5- | David and his men.
+  P | -5 | Keilah. Delivered by David.
+    Q |  |
+      n | 6 | David and Abiathar.
+        o | 7, 8 | Information given to Saul.
+      n | 9-13- | David and Abiathar.
+        o | -13 | Information given to Saul.
+
+[[diagram: 23. 19—27. 4 (J, p. 394). Pursuit of David (Alternation)]]
+[[anchor: 1 Samuel 23:19]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 34]]
+
+J |  |
+  R |  | 23. 19-26. Place of refuge.
+    S |  | 23. 27, 28. Philistines.
+  R |  | 23. 29—26. 25. Places of refuge.
+    S |  | 27. 1-4. Philistines.
+
+[[diagram: 23. 29—26. 25 (R, above). Places of Refuge (Introversion)]]
+[[anchor: 1 Samuel 23:29]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 34]]
+
+R |  |
+  T |  | 23. 29—24. 22. Desert of En-gedi.
+    U |  | 25. 1-. Trouble. Death of Samuel.
+    U |  | 25. -1-44. Trouble. Action of Nabal.
+  T |  | 26. 1-25. Desert of Ziph.
+
+[[diagram: 23. 29—24. 22 (T, above). Desert of En-gedi (Introversion and Alternation)]]
+[[anchor: 1 Samuel 23:29]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 34]]
+
+T |  |
+  p |  | 23. 29—24. 1. Information brought to Saul.
+    q |  |
+      r |  | 24. 2. Search by Saul.
+        s |  | 24. 3-7. Proof obtained by David.
+    q |  |
+      r |  | 24. 8. Sight by Saul.
+        s |  | 24. 9-22-. Proof exhibited by David.
+  p |  | 24. -22-. Separation from Saul.
+
+[[diagram: 24. 9-22- (s, p. 399). Proof Exhibited (Division)]]
+[[anchor: 1 Samuel 24:9-22]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 35]]
+
+s |  |
+  V1 | 9-15 | Remonstrance of David.
+  V2 | 16-22- | Reconciliation of Saul.
+
+[[diagram: 9-15 (V1, above). Remonstrance of David (Alternation)]]
+[[anchor: 1 Samuel 24:9-15]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 35]]
+
+V1 |  |
+  t | 9-11 | Expostulation with Saul.
+    u | 12, 13 | Appeal to Jehovah.
+  t | 14 | Expostulation with Saul.
+    u | 15 | Appeal to Jehovah.
+
+[[diagram: 16-22- (V2, above). Reconciliation of Saul (Introversion and Alternation)]]
+[[anchor: 1 Samuel 24:16-22]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 35]]
+
+V2 |  |
+  v | 16 | Recognition of David by Saul.
+    w |  |
+      x | 17-19- | Acknowledgment of David's act.
+        y | -19 | Blessing.
+    w |  |
+      x | 20 | Acknowledgment of Jehovah's will.
+        y | 21, 22- | Oath.
+  v | -22 | Separation of David and Saul.
+
+[[diagram: 25. -1-44 (U, p. 399). Action of Nabal (Introversions and Alternations)]]
+[[anchor: 1 Samuel 25:1-44]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 36]]
+
+U |  |
+  W | -1 | David. Personal. Other dwelling.
+    X |  |
+      a | 2-4 | Nabal's wealth.
+        b | 5-12 | David's message to Nabal.
+          Y | 13 | Resentment of David.
+            Z |  |
+              c | 14-17 | Report of David to Abigail.
+              d | 18-20 | Abigail's present prepared.
+          Y | 21, 22 | Resentment of David.
+            Z |  |
+              d | 23-31 | Abigail's present presented.
+              c | 32-35 | Answer of David to Abigail.
+    X |  |
+      a | 36-38 | Nabal's death.
+        b | 39-42 | David's message to Abigail.
+  W | 43, 44 | David. Personal. Other wives.
+
+[[diagram: 5-12 (b, above). David's Message to Nabal (Alternation)]]
+[[anchor: 1 Samuel 25:5-12]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 36]]
+
+b |  |
+  e | 5-8 | Message of David.
+    f | 9 | Delivery by young men.
+  e | 10, 11 | Reply to David.
+    f | 12 | Report by young men.
+
+[[diagram: 26. 1-25 (T, p. 399). Desert of Ziph (Introversion and Alternation)]]
+[[anchor: 1 Samuel 26:1-25]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 37]]
+
+T |  |
+  A | 1 | Information given.
+    B |  |
+      g | 2-4 | Search by Saul.
+        h | 5-13 | Camp. Proof obtained.
+    B |  |
+      g | 14 | Search by Saul.
+        h | 15-25- | Camp. Proof exhibited.
+  A | -25 | Separation made.
+
+[[diagram: 15-25 (h, p. 402). Proof Exhibited (Division)]]
+[[anchor: 1 Samuel 26:15-25]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 38]]
+
+h |  |
+  i1 | 15, 16 | Remonstrance with Abner.
+  i2 | 17-25 | Reconciliation with Saul.
+
+[[diagram: 17-25 (i2, above). Reconciliation with Saul (Repeated Alternation)]]
+[[anchor: 1 Samuel 26:17-25]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 38]]
+
+i2 |  |
+  k1 | 17- | Saul's recognition of David.
+    l1 | -17-20 | David's remonstrance.
+  k2 | 21 | Saul's acknowledgment.
+    l2 | 22-24 | David's remonstrance.
+  k3 | 25- | Saul's blessing.
+
+[[diagram: 27. 5—2 Sam. 1. 27 (P, p. 375). The Provocation of Saul. Rejection Carried Out (Alternation and Introversion)]]
+[[anchor: 1 Samuel 27:5]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 39]]
+
+P |  |
+  C |  |
+    E |  | 27. 5-12. Ziklag. Possessed by David.
+      F |  | 28. 1, 2. Philistines and David.
+      D |  | 28. 3-25. Saul's sin.
+  C |  |
+      F |  | 29. 1-11. Philistines and David.
+    E |  | 30. 1-31. Ziklag. Repossessed by David.
+      D |  | 31. 1—2 Sam. 1. 27. Saul's death.
+
+[[diagram: 5-12 (E, above). Ziklag. David's Possession Of (Repeated Alternation)]]
+[[anchor: 1 Samuel 27:5-12]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 39]]
+
+E |  |
+  m1 | 5-7 | David and Achish. Gift.
+    n1 | 8, 9 | David. Invasion of aborigines.
+  m2 | 10 | Achish and David. Deception.
+    n2 | 11 | David. Extermination.
+  m3 | 12 | Achish and David. Deception.
+
+[[diagram: 3-25 (D, above). Saul's Sin (Repeated Alternation, and Introversion)]]
+[[anchor: 1 Samuel 28:3-25]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 39]]
+
+D |  |
+  o1 | 3 | Familiar spirits. Owner put away.
+    p |  |
+      q | 4, 5 | Saul's fear. (Of Philistines.)
+      r | 6 | No answer from Jehovah.
+  o2 | 7-14 | Familiar spirit. Woman sought.
+    p |  |
+      r | 15-19 | Answer from familiar spirit.
+      q | 20 | Saul's fear. (Of Jehovah.)
+  o3 | 21-25 | Familiar spirit. Woman spared.
+
+[[diagram: 29. 1-11 (F, p. 404). Philistines and David (Alternation)]]
+[[anchor: 1 Samuel 29:1-11]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 41]]
+
+F |  |
+  s | 1, 2- | Philistines. Assembly.
+    t | -2 | David's junction.
+  s | 3-10 | Philistines. Objection.
+    t | 11 | David's return.
+
+[[diagram: 30. 1-31 (E, p. 404). Ziklag Repossessed (Introversion and Alternation)]]
+[[anchor: 1 Samuel 30:1-31]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 41]]
+
+E |  |
+  G | 1-6- | Ziklag. Taken.
+    H |  |
+      u | -6-8 | Jehovah's promise. Made.
+        v | 9, 10 | Division of forces.
+          J | 11-16 | Colloquy with Egyptian.
+    H |  |
+      u | 17-20 | Jehovah's promise. Kept.
+        v | 21-25 | Junction of forces.
+  G | 26-31 | Ziklag. Retaken.
+
+[[diagram: 1 Sam. 31. 1—2 Sam. 1. 27 (D, p. 404). Saul's Death (Division)]]
+[[anchor: 1 Samuel 31:1]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 43]]
+
+D |  |
+  K1 |  | 1 Sam. 31. 1-13. The battle.
+  K2 |  | 2 Sam. 1. 1-27. Report of the battle.
+
+[[diagram: 31. 1-13 (K1, above). The Battle (Repeated Alternation)]]
+[[anchor: 1 Samuel 31:1-13]]
+[[pdf: 9. Samuel I-II_text.pdf]]
+[[pdf-page: 43]]
+
+K1 |  |
+  w1 | 1-3 | Israel. Defeat.
+    x | 4-6 | Saul's death.
+  w2 | 7 | Israel. Flight.
+    x | 8-10 | Saul. Indignities.
+  w3 | 11-13 | Israel. Rescue of bodies.

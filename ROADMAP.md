@@ -1458,7 +1458,7 @@ running list of what's done and what's next, not a commitment.
   itself (as opposed to the Appendixes above). Installs from the Library's
   "Reference works" section as a single `commentary` source containing one
   `books` row per transcribed book — **Genesis**, **Exodus**,
-  **Leviticus**, **Numbers** and **Deuteronomy** — the Torah — as one add-on, listed with the Appendixes under Library → Add-ons. Joshua, Judges, Ruth and Philemon are transcribed but held out of the shipped bundle (`build.mjs --books=…`) until the next release. Two content shapes share it:
+  **Leviticus**, **Numbers** and **Deuteronomy** — the Torah — as one add-on, listed with the Appendixes under Library → Add-ons. Joshua, Judges, Ruth, 1 and 2 Samuel and Philemon are transcribed but held out of the shipped bundle (`build.mjs --books=…`) until the next release. Two content shapes share it:
   - *Structure diagrams* — Bullinger's nested outlines, stored as **data**
     (one `entries` row per outline line) rather than as page images, so
     highlighting, binding and annotating work on an individual outline line
@@ -1563,6 +1563,11 @@ running list of what's done and what's next, not a commitment.
   all 4 chapters. The genealogy chart on its last page is a drawing, not
   an outline, so it is left to the page scan; its footnote is kept with
   the 4:18 note.
+
+  **1 and 2 Samuel** are transcribed (31 and 24 chapters) as two books from
+  one scan. Not yet run through the in-app checklist; Structure indentation
+  is set from the page and not machine-proven (the HOCR comparison is too
+  noisy to confirm it).
 
   Known gap, Genesis onward: a bare in-book reference ("See note on
   26. 28", "Cp. 30. 21") is **not** linked — only `v. N` and references
