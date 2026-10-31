@@ -158,8 +158,8 @@
             },
             {
               "idx": 7,
-              "parent": 0,
-              "depth": 1,
+              "parent": 6,
+              "depth": 7,
               "label": "D",
               "ref_range": null,
               "text": "TERAH (11. 27—25. 11)."
@@ -402,8 +402,8 @@
             },
             {
               "idx": 6,
-              "parent": 0,
-              "depth": 1,
+              "parent": 4,
+              "depth": 4,
               "label": "C",
               "ref_range": null,
               "text": null
@@ -411,7 +411,7 @@
             {
               "idx": 7,
               "parent": 6,
-              "depth": 2,
+              "depth": 5,
               "label": "d",
               "ref_range": "8",
               "text": "The Garden."
@@ -419,23 +419,23 @@
             {
               "idx": 8,
               "parent": 7,
-              "depth": 3,
+              "depth": 6,
               "label": "e",
               "ref_range": "9",
               "text": "The Trees."
             },
             {
               "idx": 9,
-              "parent": 0,
-              "depth": 1,
+              "parent": 8,
+              "depth": 7,
               "label": "D",
               "ref_range": "10-14",
               "text": "The Rivers."
             },
             {
               "idx": 10,
-              "parent": 0,
-              "depth": 1,
+              "parent": 4,
+              "depth": 4,
               "label": "C",
               "ref_range": null,
               "text": null
@@ -443,7 +443,7 @@
             {
               "idx": 11,
               "parent": 10,
-              "depth": 2,
+              "depth": 5,
               "label": "d",
               "ref_range": "15",
               "text": "The Garden."
@@ -451,7 +451,7 @@
             {
               "idx": 12,
               "parent": 11,
-              "depth": 3,
+              "depth": 6,
               "label": "e",
               "ref_range": "16, 17",
               "text": "The Trees."
@@ -526,16 +526,16 @@
             },
             {
               "idx": 2,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "F",
               "ref_range": "6",
               "text": "The Tree of knowledge. Eating of it."
             },
             {
               "idx": 3,
-              "parent": 0,
-              "depth": 1,
+              "parent": 2,
+              "depth": 3,
               "label": "G",
               "ref_range": null,
               "text": null
@@ -543,7 +543,7 @@
             {
               "idx": 4,
               "parent": 3,
-              "depth": 2,
+              "depth": 4,
               "label": "f",
               "ref_range": "7-",
               "text": "Effect on both: the man and the woman."
@@ -551,63 +551,63 @@
             {
               "idx": 5,
               "parent": 4,
-              "depth": 3,
+              "depth": 5,
               "label": "g",
               "ref_range": "-7",
               "text": "Human provision: man-made aprons."
             },
             {
               "idx": 6,
-              "parent": 0,
-              "depth": 1,
+              "parent": 3,
+              "depth": 4,
               "label": "H",
               "ref_range": "8-12",
               "text": "God's enquiry of the man."
             },
             {
               "idx": 7,
-              "parent": 0,
-              "depth": 1,
+              "parent": 6,
+              "depth": 5,
               "label": "I",
               "ref_range": "13",
               "text": "God's enquiry of the woman."
             },
             {
               "idx": 8,
-              "parent": 0,
-              "depth": 1,
+              "parent": 7,
+              "depth": 6,
               "label": "K",
               "ref_range": "14",
               "text": "Sentence on the Nachash."
             },
             {
               "idx": 9,
-              "parent": 0,
-              "depth": 1,
+              "parent": 7,
+              "depth": 6,
               "label": "K",
               "ref_range": "15",
               "text": "Promise of the Seed."
             },
             {
               "idx": 10,
-              "parent": 0,
-              "depth": 1,
+              "parent": 6,
+              "depth": 5,
               "label": "I",
               "ref_range": "16",
               "text": "God's sentence on the woman."
             },
             {
               "idx": 11,
-              "parent": 0,
-              "depth": 1,
+              "parent": 3,
+              "depth": 4,
               "label": "H",
               "ref_range": "17-19",
               "text": "God's sentence on the man."
             },
             {
               "idx": 12,
-              "parent": 0,
-              "depth": 1,
+              "parent": 2,
+              "depth": 3,
               "label": "G",
               "ref_range": null,
               "text": null
@@ -615,7 +615,7 @@
             {
               "idx": 13,
               "parent": 12,
-              "depth": 2,
+              "depth": 4,
               "label": "f",
               "ref_range": "20",
               "text": "Effect on both: the man and the woman."
@@ -623,15 +623,15 @@
             {
               "idx": 14,
               "parent": 13,
-              "depth": 3,
+              "depth": 5,
               "label": "g",
               "ref_range": "21",
               "text": "Divine provision: God-made coats."
             },
             {
               "idx": 15,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "F",
               "ref_range": "22-24-",
               "text": "The Tree of Life. Expulsion from it."
@@ -718,24 +718,24 @@
             },
             {
               "idx": 1,
-              "parent": null,
-              "depth": 0,
+              "parent": 0,
+              "depth": 1,
               "label": "B",
               "ref_range": "3-5",
               "text": "Fallen Adam, and his years. The total 930, and the first 130."
             },
             {
               "idx": 2,
-              "parent": null,
-              "depth": 0,
+              "parent": 1,
+              "depth": 2,
               "label": "C",
               "ref_range": "6-27",
               "text": "The progeny of Adam, and their deaths."
             },
             {
               "idx": 3,
-              "parent": null,
-              "depth": 0,
+              "parent": 2,
+              "depth": 3,
               "label": "D",
               "ref_range": "28-32",
               "text": "Noah, and his promise of \"comfort\"."
@@ -750,24 +750,24 @@
             },
             {
               "idx": 5,
-              "parent": null,
-              "depth": 0,
+              "parent": 4,
+              "depth": 1,
               "label": "B",
               "ref_range": null,
               "text": "6. 3. Fallen Adam, and his years. The total 930, and the last 120."
             },
             {
               "idx": 6,
-              "parent": null,
-              "depth": 0,
+              "parent": 5,
+              "depth": 2,
               "label": "C",
               "ref_range": null,
               "text": "6. 4-7. The progeny of the fallen angels, and their threatened destruction. The Nephilim (see Ap. 25)."
             },
             {
               "idx": 7,
-              "parent": null,
-              "depth": 0,
+              "parent": 6,
+              "depth": 3,
               "label": "D",
               "ref_range": null,
               "text": "6. 8. Noah, and his possession of \"grace\"."
@@ -794,64 +794,64 @@
             },
             {
               "idx": 1,
-              "parent": null,
-              "depth": 0,
+              "parent": 0,
+              "depth": 1,
               "label": "B",
               "ref_range": "11",
               "text": "Noah's Family."
             },
             {
               "idx": 2,
-              "parent": null,
-              "depth": 0,
+              "parent": 1,
+              "depth": 2,
               "label": "C",
               "ref_range": "11-13",
               "text": "The Earth corrupt."
             },
             {
               "idx": 3,
-              "parent": null,
-              "depth": 0,
+              "parent": 2,
+              "depth": 3,
               "label": "D",
               "ref_range": "14-22",
               "text": "The making of the Ark."
             },
             {
               "idx": 4,
-              "parent": null,
-              "depth": 0,
+              "parent": 3,
+              "depth": 4,
               "label": "E",
               "ref_range": null,
               "text": "7. 1-24. Noah entering the Ark."
             },
             {
               "idx": 5,
-              "parent": null,
-              "depth": 0,
+              "parent": 3,
+              "depth": 4,
               "label": "E",
               "ref_range": null,
               "text": "8. 1-19. Noah leaving the Ark."
             },
             {
               "idx": 6,
-              "parent": null,
-              "depth": 0,
+              "parent": 2,
+              "depth": 3,
               "label": "D",
               "ref_range": null,
               "text": "8. 20. The building of the Altar."
             },
             {
               "idx": 7,
-              "parent": null,
-              "depth": 0,
+              "parent": 1,
+              "depth": 2,
               "label": "C",
               "ref_range": null,
               "text": "8. 21—9. 17. The Earth replenished."
             },
             {
               "idx": 8,
-              "parent": null,
-              "depth": 0,
+              "parent": 0,
+              "depth": 1,
               "label": "B",
               "ref_range": null,
               "text": "9. 18-27. Noah's Family."
@@ -894,8 +894,8 @@
             },
             {
               "idx": 2,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "G",
               "ref_range": null,
               "text": null
@@ -903,7 +903,7 @@
             {
               "idx": 3,
               "parent": 2,
-              "depth": 2,
+              "depth": 3,
               "label": "a",
               "ref_range": null,
               "text": "9. 1. Fruitfulness committed to man."
@@ -911,7 +911,7 @@
             {
               "idx": 4,
               "parent": 3,
-              "depth": 3,
+              "depth": 4,
               "label": "b",
               "ref_range": null,
               "text": "9. 2. Power committed to man."
@@ -919,15 +919,15 @@
             {
               "idx": 5,
               "parent": 4,
-              "depth": 4,
+              "depth": 5,
               "label": "c",
               "ref_range": null,
               "text": "9. 3. Change in Ordinance (nourishment)."
             },
             {
               "idx": 6,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "G",
               "ref_range": null,
               "text": null
@@ -935,7 +935,7 @@
             {
               "idx": 7,
               "parent": 6,
-              "depth": 4,
+              "depth": 5,
               "label": "c",
               "ref_range": null,
               "text": "9. 4, 5. Change in Ordinance (punishment)."
@@ -943,7 +943,7 @@
             {
               "idx": 8,
               "parent": 6,
-              "depth": 3,
+              "depth": 4,
               "label": "b",
               "ref_range": null,
               "text": "9. 6. Power committed to man."
@@ -951,7 +951,7 @@
             {
               "idx": 9,
               "parent": 6,
-              "depth": 2,
+              "depth": 3,
               "label": "a",
               "ref_range": null,
               "text": "9. 7. Fruitfulness committed to man."
@@ -1036,32 +1036,32 @@
             },
             {
               "idx": 2,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "C",
               "ref_range": "-1-",
               "text": "Ham."
             },
             {
               "idx": 3,
-              "parent": 0,
-              "depth": 1,
+              "parent": 2,
+              "depth": 3,
               "label": "D",
               "ref_range": "-1",
               "text": "Japheth."
             },
             {
               "idx": 4,
-              "parent": 0,
-              "depth": 1,
+              "parent": 2,
+              "depth": 3,
               "label": "D",
               "ref_range": "2-5",
               "text": "The sons of Japheth."
             },
             {
               "idx": 5,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "C",
               "ref_range": "6-20",
               "text": "The sons of Ham."
@@ -1120,16 +1120,16 @@
             },
             {
               "idx": 4,
-              "parent": 0,
-              "depth": 1,
+              "parent": 3,
+              "depth": 4,
               "label": "F",
               "ref_range": "3, 4",
               "text": "The Tower. Man's building."
             },
             {
               "idx": 5,
-              "parent": 0,
-              "depth": 1,
+              "parent": 3,
+              "depth": 4,
               "label": "F",
               "ref_range": "5",
               "text": "The Tower. God's inspection."
@@ -1180,8 +1180,8 @@
             },
             {
               "idx": 1,
-              "parent": null,
-              "depth": 0,
+              "parent": 0,
+              "depth": 1,
               "label": "B1",
               "ref_range": null,
               "text": "22. 20-24. The Posterity of Nahor."
@@ -1196,8 +1196,8 @@
             },
             {
               "idx": 3,
-              "parent": null,
-              "depth": 0,
+              "parent": 2,
+              "depth": 1,
               "label": "B2",
               "ref_range": null,
               "text": "25. 1-4. The Posterity of Keturah."
@@ -1240,16 +1240,16 @@
             },
             {
               "idx": 2,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "D",
               "ref_range": null,
               "text": "12. 4-9. Sojourn in Canaan."
             },
             {
               "idx": 3,
-              "parent": 0,
-              "depth": 1,
+              "parent": 2,
+              "depth": 3,
               "label": "E",
               "ref_range": null,
               "text": null
@@ -1257,7 +1257,7 @@
             {
               "idx": 4,
               "parent": 3,
-              "depth": 2,
+              "depth": 4,
               "label": "a",
               "ref_range": null,
               "text": "12. 10-20. Sojourn in Egypt. Denial of Sarai."
@@ -1265,7 +1265,7 @@
             {
               "idx": 5,
               "parent": 3,
-              "depth": 2,
+              "depth": 4,
               "label": "b",
               "ref_range": null,
               "text": null
@@ -1273,7 +1273,7 @@
             {
               "idx": 6,
               "parent": 5,
-              "depth": 3,
+              "depth": 5,
               "label": "c",
               "ref_range": null,
               "text": "13. 1-13. Separation of Lot."
@@ -1281,23 +1281,23 @@
             {
               "idx": 7,
               "parent": 6,
-              "depth": 4,
+              "depth": 6,
               "label": "d",
               "ref_range": null,
               "text": "13. 14-18. Manifestation of the Land."
             },
             {
               "idx": 8,
-              "parent": 0,
-              "depth": 1,
+              "parent": 7,
+              "depth": 7,
               "label": "F",
               "ref_range": null,
               "text": "14. 1-24. War on Sodom. Rescue of Lot by Abram."
             },
             {
               "idx": 9,
-              "parent": 0,
-              "depth": 1,
+              "parent": 8,
+              "depth": 8,
               "label": "G",
               "ref_range": null,
               "text": null
@@ -1305,7 +1305,7 @@
             {
               "idx": 10,
               "parent": 9,
-              "depth": 2,
+              "depth": 9,
               "label": "e1",
               "ref_range": null,
               "text": "15. Covenant made."
@@ -1313,7 +1313,7 @@
             {
               "idx": 11,
               "parent": 10,
-              "depth": 3,
+              "depth": 10,
               "label": "f1",
               "ref_range": null,
               "text": "16. Sarai's Policy."
@@ -1321,7 +1321,7 @@
             {
               "idx": 12,
               "parent": 9,
-              "depth": 2,
+              "depth": 9,
               "label": "e2",
               "ref_range": null,
               "text": "17. 1-14. Covenant repeated."
@@ -1329,7 +1329,7 @@
             {
               "idx": 13,
               "parent": 12,
-              "depth": 3,
+              "depth": 10,
               "label": "f2",
               "ref_range": null,
               "text": "17. 15-27. Sarah's blessing."
@@ -1337,23 +1337,23 @@
             {
               "idx": 14,
               "parent": 9,
-              "depth": 2,
+              "depth": 9,
               "label": "e3",
               "ref_range": null,
               "text": "18. 1-15. Covenant renewed."
             },
             {
               "idx": 15,
-              "parent": 0,
-              "depth": 1,
+              "parent": 7,
+              "depth": 7,
               "label": "F",
               "ref_range": null,
               "text": "18. 16—19. 38. Destruction of Sodom. Rescue of Lot by angels."
             },
             {
               "idx": 16,
-              "parent": 0,
-              "depth": 1,
+              "parent": 2,
+              "depth": 3,
               "label": "E",
               "ref_range": null,
               "text": null
@@ -1361,7 +1361,7 @@
             {
               "idx": 17,
               "parent": 16,
-              "depth": 2,
+              "depth": 4,
               "label": "a",
               "ref_range": null,
               "text": "20. 1-18. Sojourn in Gerar. Denial of Sarah."
@@ -1369,7 +1369,7 @@
             {
               "idx": 18,
               "parent": 16,
-              "depth": 2,
+              "depth": 4,
               "label": "b",
               "ref_range": null,
               "text": null
@@ -1377,7 +1377,7 @@
             {
               "idx": 19,
               "parent": 18,
-              "depth": 4,
+              "depth": 6,
               "label": "d",
               "ref_range": null,
               "text": "21. 1-8. Manifestation of the Seed."
@@ -1385,15 +1385,15 @@
             {
               "idx": 20,
               "parent": 18,
-              "depth": 3,
+              "depth": 5,
               "label": "c",
               "ref_range": null,
               "text": "21. 9-21. Separation of Ishmael."
             },
             {
               "idx": 21,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "D",
               "ref_range": null,
               "text": "21. 22-34. Sojourn in Gerar."
@@ -1573,8 +1573,8 @@
             },
             {
               "idx": 5,
-              "parent": 0,
-              "depth": 1,
+              "parent": 4,
+              "depth": 3,
               "label": "j",
               "ref_range": "9-14",
               "text": "Circumcision. Command."
@@ -1621,8 +1621,8 @@
             },
             {
               "idx": 11,
-              "parent": 6,
-              "depth": 1,
+              "parent": 10,
+              "depth": 3,
               "label": "j",
               "ref_range": "23-27",
               "text": "Circumcision. Obedience."
@@ -1657,16 +1657,16 @@
             },
             {
               "idx": 2,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "n",
               "ref_range": "3-8",
               "text": "Their reception by Abraham."
             },
             {
               "idx": 3,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "n",
               "ref_range": "9-15",
               "text": "Their conference with Abraham."
@@ -2125,8 +2125,8 @@
             },
             {
               "idx": 2,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "x",
               "ref_range": null,
               "text": null
@@ -2134,7 +2134,7 @@
             {
               "idx": 3,
               "parent": 2,
-              "depth": 2,
+              "depth": 3,
               "label": "e",
               "ref_range": "25, 26",
               "text": "The well taken."
@@ -2142,15 +2142,15 @@
             {
               "idx": 4,
               "parent": 3,
-              "depth": 3,
+              "depth": 4,
               "label": "f",
               "ref_range": "27",
               "text": "Covenant."
             },
             {
               "idx": 5,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "x",
               "ref_range": null,
               "text": null
@@ -2158,7 +2158,7 @@
             {
               "idx": 6,
               "parent": 5,
-              "depth": 2,
+              "depth": 3,
               "label": "e",
               "ref_range": "28-31",
               "text": "The well digged."
@@ -2166,7 +2166,7 @@
             {
               "idx": 7,
               "parent": 6,
-              "depth": 3,
+              "depth": 4,
               "label": "f",
               "ref_range": "32, 33",
               "text": "Covenant."
@@ -2617,8 +2617,8 @@
             },
             {
               "idx": 2,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "x",
               "ref_range": null,
               "text": null
@@ -2626,7 +2626,7 @@
             {
               "idx": 3,
               "parent": 2,
-              "depth": 2,
+              "depth": 3,
               "label": "y",
               "ref_range": "-54",
               "text": "Request for departure made."
@@ -2634,15 +2634,15 @@
             {
               "idx": 4,
               "parent": 3,
-              "depth": 3,
+              "depth": 4,
               "label": "z",
               "ref_range": "55",
               "text": "Departure hindered."
             },
             {
               "idx": 5,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "x",
               "ref_range": null,
               "text": null
@@ -2650,7 +2650,7 @@
             {
               "idx": 6,
               "parent": 5,
-              "depth": 2,
+              "depth": 3,
               "label": "y",
               "ref_range": "56",
               "text": "Request for departure renewed."
@@ -2658,7 +2658,7 @@
             {
               "idx": 7,
               "parent": 6,
-              "depth": 3,
+              "depth": 4,
               "label": "z",
               "ref_range": "57-60",
               "text": "Departure expedited."
@@ -2753,8 +2753,8 @@
             },
             {
               "idx": 2,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "B",
               "ref_range": null,
               "text": null
@@ -2762,7 +2762,7 @@
             {
               "idx": 3,
               "parent": 2,
-              "depth": 2,
+              "depth": 3,
               "label": "a",
               "ref_range": "20-22",
               "text": "Marriage with Rebekah."
@@ -2770,23 +2770,23 @@
             {
               "idx": 4,
               "parent": 3,
-              "depth": 3,
+              "depth": 4,
               "label": "b",
               "ref_range": "23-28",
               "text": "Isaac's two sons."
             },
             {
               "idx": 5,
-              "parent": 0,
-              "depth": 1,
+              "parent": 4,
+              "depth": 5,
               "label": "C",
               "ref_range": "29-34",
               "text": "Esau and Jacob."
             },
             {
               "idx": 6,
-              "parent": 0,
-              "depth": 1,
+              "parent": 5,
+              "depth": 6,
               "label": "D",
               "ref_range": null,
               "text": null
@@ -2794,7 +2794,7 @@
             {
               "idx": 7,
               "parent": 6,
-              "depth": 2,
+              "depth": 7,
               "label": "E",
               "ref_range": null,
               "text": "26. 1. Journey to Gerar."
@@ -2802,7 +2802,7 @@
             {
               "idx": 8,
               "parent": 7,
-              "depth": 3,
+              "depth": 8,
               "label": "F",
               "ref_range": null,
               "text": "26. 2-5. Appearance of Jehovah."
@@ -2810,7 +2810,7 @@
             {
               "idx": 9,
               "parent": 8,
-              "depth": 4,
+              "depth": 9,
               "label": "G",
               "ref_range": null,
               "text": null
@@ -2818,7 +2818,7 @@
             {
               "idx": 10,
               "parent": 9,
-              "depth": 5,
+              "depth": 10,
               "label": "c",
               "ref_range": null,
               "text": "26. 6-11. Isaac's wife."
@@ -2826,15 +2826,15 @@
             {
               "idx": 11,
               "parent": 10,
-              "depth": 6,
+              "depth": 11,
               "label": "d",
               "ref_range": null,
               "text": "26. 12-22. Sep. from Abim."
             },
             {
               "idx": 12,
-              "parent": 0,
-              "depth": 1,
+              "parent": 5,
+              "depth": 6,
               "label": "D",
               "ref_range": null,
               "text": null
@@ -2842,7 +2842,7 @@
             {
               "idx": 13,
               "parent": 12,
-              "depth": 2,
+              "depth": 7,
               "label": "E",
               "ref_range": null,
               "text": "26. 23. Journey to Beer-sheba."
@@ -2850,7 +2850,7 @@
             {
               "idx": 14,
               "parent": 13,
-              "depth": 3,
+              "depth": 8,
               "label": "F",
               "ref_range": null,
               "text": "26. 24, 25. Appearance of Jehovah."
@@ -2858,7 +2858,7 @@
             {
               "idx": 15,
               "parent": 14,
-              "depth": 4,
+              "depth": 9,
               "label": "G",
               "ref_range": null,
               "text": null
@@ -2866,7 +2866,7 @@
             {
               "idx": 16,
               "parent": 15,
-              "depth": 6,
+              "depth": 11,
               "label": "d",
               "ref_range": null,
               "text": "26. 26-33. Cov. with Abim."
@@ -2874,23 +2874,23 @@
             {
               "idx": 17,
               "parent": 15,
-              "depth": 5,
+              "depth": 10,
               "label": "c",
               "ref_range": null,
               "text": "26. 34, 35. Esau's wives."
             },
             {
               "idx": 18,
-              "parent": 0,
-              "depth": 1,
+              "parent": 4,
+              "depth": 5,
               "label": "C",
               "ref_range": null,
               "text": "27. 1—35. 15. Esau and Jacob."
             },
             {
               "idx": 19,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "B",
               "ref_range": null,
               "text": null
@@ -2898,7 +2898,7 @@
             {
               "idx": 20,
               "parent": 19,
-              "depth": 2,
+              "depth": 3,
               "label": "a",
               "ref_range": null,
               "text": "35. 16-20. Death of Rachel."
@@ -2906,7 +2906,7 @@
             {
               "idx": 21,
               "parent": 20,
-              "depth": 3,
+              "depth": 4,
               "label": "b",
               "ref_range": null,
               "text": "35. 21-26. Israel's twelve sons."
@@ -2973,16 +2973,16 @@
             },
             {
               "idx": 5,
-              "parent": 1,
-              "depth": 2,
+              "parent": 4,
+              "depth": 5,
               "label": "K",
               "ref_range": null,
               "text": "27. 42—28. 5. Departure of Jacob to Padan-aram."
             },
             {
               "idx": 6,
-              "parent": 0,
-              "depth": 1,
+              "parent": 5,
+              "depth": 6,
               "label": "I",
               "ref_range": null,
               "text": null
@@ -2990,7 +2990,7 @@
             {
               "idx": 7,
               "parent": 6,
-              "depth": 2,
+              "depth": 7,
               "label": "g",
               "ref_range": null,
               "text": "28. 6-9. Esau's wives."
@@ -2998,15 +2998,15 @@
             {
               "idx": 8,
               "parent": 7,
-              "depth": 3,
+              "depth": 8,
               "label": "h",
               "ref_range": null,
               "text": "28. 10-22. Jacob's Vision at Bethel."
             },
             {
               "idx": 9,
-              "parent": 0,
-              "depth": 1,
+              "parent": 5,
+              "depth": 6,
               "label": "I",
               "ref_range": null,
               "text": null
@@ -3014,7 +3014,7 @@
             {
               "idx": 10,
               "parent": 9,
-              "depth": 2,
+              "depth": 7,
               "label": "g",
               "ref_range": null,
               "text": "29. 1—31. 55. Jacob's wives."
@@ -3022,7 +3022,7 @@
             {
               "idx": 11,
               "parent": 10,
-              "depth": 3,
+              "depth": 8,
               "label": "h",
               "ref_range": null,
               "text": "32. 1, 2. Jacob's Vision at Mahanaim."
@@ -3061,8 +3061,8 @@
             },
             {
               "idx": 16,
-              "parent": 12,
-              "depth": 2,
+              "parent": 15,
+              "depth": 4,
               "label": "K",
               "ref_range": null,
               "text": "35. 1-15. Return of Jacob to Padan-aram."
@@ -3257,8 +3257,8 @@
             },
             {
               "idx": 2,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "B",
               "ref_range": null,
               "text": null
@@ -3266,7 +3266,7 @@
             {
               "idx": 3,
               "parent": 2,
-              "depth": 2,
+              "depth": 3,
               "label": "a",
               "ref_range": "2-",
               "text": "Adah."
@@ -3274,7 +3274,7 @@
             {
               "idx": 4,
               "parent": 3,
-              "depth": 3,
+              "depth": 4,
               "label": "b",
               "ref_range": "-2",
               "text": "Aholibamah."
@@ -3282,15 +3282,15 @@
             {
               "idx": 5,
               "parent": 4,
-              "depth": 4,
+              "depth": 5,
               "label": "c",
               "ref_range": "3",
               "text": "Bashemath."
             },
             {
               "idx": 6,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "B",
               "ref_range": null,
               "text": null
@@ -3298,7 +3298,7 @@
             {
               "idx": 7,
               "parent": 6,
-              "depth": 2,
+              "depth": 3,
               "label": "a",
               "ref_range": "4-",
               "text": "Adah's son, Eliphaz."
@@ -3306,7 +3306,7 @@
             {
               "idx": 8,
               "parent": 7,
-              "depth": 3,
+              "depth": 4,
               "label": "c",
               "ref_range": "-4",
               "text": "Bashemath's son, Reuel."
@@ -3314,7 +3314,7 @@
             {
               "idx": 9,
               "parent": 7,
-              "depth": 3,
+              "depth": 4,
               "label": "b",
               "ref_range": "5",
               "text": "Aholibamah's sons, Jeush, &c."
@@ -3357,8 +3357,8 @@
             },
             {
               "idx": 2,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "B",
               "ref_range": null,
               "text": null
@@ -3366,7 +3366,7 @@
             {
               "idx": 3,
               "parent": 2,
-              "depth": 2,
+              "depth": 3,
               "label": "a1",
               "ref_range": "10-",
               "text": "Eliphaz, Adah's son."
@@ -3374,7 +3374,7 @@
             {
               "idx": 4,
               "parent": 3,
-              "depth": 3,
+              "depth": 4,
               "label": "b1",
               "ref_range": "-10",
               "text": "Reuel, Bashemath's son."
@@ -3382,7 +3382,7 @@
             {
               "idx": 5,
               "parent": 2,
-              "depth": 2,
+              "depth": 3,
               "label": "a2",
               "ref_range": "11, 12",
               "text": "Sons of Eliphaz."
@@ -3390,7 +3390,7 @@
             {
               "idx": 6,
               "parent": 5,
-              "depth": 3,
+              "depth": 4,
               "label": "b2",
               "ref_range": "13",
               "text": "Sons of Reuel."
@@ -3398,15 +3398,15 @@
             {
               "idx": 7,
               "parent": 6,
-              "depth": 4,
+              "depth": 5,
               "label": "C",
               "ref_range": "14",
               "text": "Jeush, &c., Aholibamah's sons."
             },
             {
               "idx": 8,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "B",
               "ref_range": null,
               "text": null
@@ -3414,7 +3414,7 @@
             {
               "idx": 9,
               "parent": 8,
-              "depth": 2,
+              "depth": 3,
               "label": "a3",
               "ref_range": "15, 16",
               "text": "Dukes of Eliphaz (Adah)."
@@ -3422,7 +3422,7 @@
             {
               "idx": 10,
               "parent": 9,
-              "depth": 3,
+              "depth": 4,
               "label": "b3",
               "ref_range": "17",
               "text": "Dukes of Reuel (Bashemath)."
@@ -3430,7 +3430,7 @@
             {
               "idx": 11,
               "parent": 10,
-              "depth": 4,
+              "depth": 5,
               "label": "C",
               "ref_range": "18",
               "text": "Dukes of Jeush (Aholibamah)."
@@ -3825,8 +3825,8 @@
             },
             {
               "idx": 5,
-              "parent": 2,
-              "depth": 2,
+              "parent": 4,
+              "depth": 4,
               "label": "k",
               "ref_range": "14, 15",
               "text": "Joseph's request (made)."
@@ -3857,8 +3857,8 @@
             },
             {
               "idx": 9,
-              "parent": 6,
-              "depth": 2,
+              "parent": 8,
+              "depth": 4,
               "label": "k",
               "ref_range": "23",
               "text": "Joseph's request (forgotten)."
@@ -4081,8 +4081,8 @@
             },
             {
               "idx": 3,
-              "parent": 1,
-              "depth": 2,
+              "parent": 2,
+              "depth": 3,
               "label": "u",
               "ref_range": null,
               "text": null
@@ -4090,7 +4090,7 @@
             {
               "idx": 4,
               "parent": 3,
-              "depth": 3,
+              "depth": 4,
               "label": "z",
               "ref_range": "3",
               "text": "Journey."
@@ -4098,15 +4098,15 @@
             {
               "idx": 5,
               "parent": 4,
-              "depth": 4,
+              "depth": 5,
               "label": "a",
               "ref_range": "4",
               "text": "Benjamin left."
             },
             {
               "idx": 6,
-              "parent": 3,
-              "depth": 3,
+              "parent": 5,
+              "depth": 6,
               "label": "v",
               "ref_range": "5",
               "text": "Arrival."
@@ -4114,7 +4114,7 @@
             {
               "idx": 7,
               "parent": 6,
-              "depth": 4,
+              "depth": 7,
               "label": "w",
               "ref_range": "6-24",
               "text": "Meeting with Joseph."
@@ -4122,7 +4122,7 @@
             {
               "idx": 8,
               "parent": 7,
-              "depth": 5,
+              "depth": 8,
               "label": "x",
               "ref_range": "25, 26",
               "text": "Dismissal."
@@ -4130,7 +4130,7 @@
             {
               "idx": 9,
               "parent": 8,
-              "depth": 6,
+              "depth": 9,
               "label": "y",
               "ref_range": "27-38",
               "text": "Return."
@@ -4153,8 +4153,8 @@
             },
             {
               "idx": 12,
-              "parent": 10,
-              "depth": 2,
+              "parent": 11,
+              "depth": 3,
               "label": "u",
               "ref_range": null,
               "text": null
@@ -4162,7 +4162,7 @@
             {
               "idx": 13,
               "parent": 12,
-              "depth": 4,
+              "depth": 5,
               "label": "a",
               "ref_range": null,
               "text": "43. 3-15-. Benjamin taken."
@@ -4170,15 +4170,15 @@
             {
               "idx": 14,
               "parent": 12,
-              "depth": 3,
+              "depth": 5,
               "label": "z",
               "ref_range": null,
               "text": "43. -15-. Journey."
             },
             {
               "idx": 15,
-              "parent": 12,
-              "depth": 3,
+              "parent": 14,
+              "depth": 6,
               "label": "v",
               "ref_range": null,
               "text": "43. -15. Arrival."
@@ -4186,7 +4186,7 @@
             {
               "idx": 16,
               "parent": 15,
-              "depth": 4,
+              "depth": 7,
               "label": "w",
               "ref_range": null,
               "text": "43. 16-34. Meeting with Joseph."
@@ -4194,7 +4194,7 @@
             {
               "idx": 17,
               "parent": 16,
-              "depth": 5,
+              "depth": 8,
               "label": "x",
               "ref_range": null,
               "text": "44. 1—45. 24. Dismissal."
@@ -4202,7 +4202,7 @@
             {
               "idx": 18,
               "parent": 17,
-              "depth": 6,
+              "depth": 9,
               "label": "y",
               "ref_range": null,
               "text": "45. 25-28. Return."
@@ -4801,8 +4801,8 @@
             },
             {
               "idx": 2,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "X1",
               "ref_range": null,
               "text": null
@@ -4810,7 +4810,7 @@
             {
               "idx": 3,
               "parent": 2,
-              "depth": 2,
+              "depth": 3,
               "label": "S",
               "ref_range": "29, 30",
               "text": "Jacob's meeting with Joseph."
@@ -4818,7 +4818,7 @@
             {
               "idx": 4,
               "parent": 3,
-              "depth": 3,
+              "depth": 4,
               "label": "T",
               "ref_range": null,
               "text": null
@@ -4826,7 +4826,7 @@
             {
               "idx": 5,
               "parent": 4,
-              "depth": 4,
+              "depth": 5,
               "label": "o",
               "ref_range": "31, 32",
               "text": "Presentation planned."
@@ -4834,7 +4834,7 @@
             {
               "idx": 6,
               "parent": 5,
-              "depth": 5,
+              "depth": 6,
               "label": "p",
               "ref_range": "33, 34",
               "text": "Directions given."
@@ -4849,8 +4849,8 @@
             },
             {
               "idx": 8,
-              "parent": 0,
-              "depth": 1,
+              "parent": 7,
+              "depth": 2,
               "label": "X2",
               "ref_range": null,
               "text": null
@@ -4858,7 +4858,7 @@
             {
               "idx": 9,
               "parent": 8,
-              "depth": 3,
+              "depth": 4,
               "label": "T",
               "ref_range": null,
               "text": null
@@ -4866,7 +4866,7 @@
             {
               "idx": 10,
               "parent": 9,
-              "depth": 4,
+              "depth": 5,
               "label": "o",
               "ref_range": null,
               "text": "47. 2. Presentation made."
@@ -4874,7 +4874,7 @@
             {
               "idx": 11,
               "parent": 10,
-              "depth": 5,
+              "depth": 6,
               "label": "p",
               "ref_range": null,
               "text": "47. 3-6. Directions followed."
@@ -4882,7 +4882,7 @@
             {
               "idx": 12,
               "parent": 8,
-              "depth": 2,
+              "depth": 3,
               "label": "S",
               "ref_range": null,
               "text": "47. 7-10. Jacob's meeting with Pharaoh."
@@ -4933,16 +4933,16 @@
             },
             {
               "idx": 3,
-              "parent": 1,
-              "depth": 2,
+              "parent": 2,
+              "depth": 3,
               "label": "V",
               "ref_range": "28",
               "text": "Years of life (147); and dwelling (17)."
             },
             {
               "idx": 4,
-              "parent": 0,
-              "depth": 1,
+              "parent": 3,
+              "depth": 4,
               "label": "W",
               "ref_range": null,
               "text": "47. 29—49. 32. Charges."
@@ -4965,8 +4965,8 @@
             },
             {
               "idx": 7,
-              "parent": 5,
-              "depth": 2,
+              "parent": 6,
+              "depth": 3,
               "label": "V",
               "ref_range": null,
               "text": "50. 3-14. Days of mourning."
@@ -5346,8 +5346,8 @@
             },
             {
               "idx": 2,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "E",
               "ref_range": null,
               "text": null
@@ -5355,7 +5355,7 @@
             {
               "idx": 3,
               "parent": 2,
-              "depth": 2,
+              "depth": 3,
               "label": "y",
               "ref_range": "-24",
               "text": "Assurance of return to Canaan."
@@ -5363,15 +5363,15 @@
             {
               "idx": 4,
               "parent": 3,
-              "depth": 3,
+              "depth": 4,
               "label": "z",
               "ref_range": "25-",
               "text": "Oath."
             },
             {
               "idx": 5,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "E",
               "ref_range": null,
               "text": null
@@ -5379,7 +5379,7 @@
             {
               "idx": 6,
               "parent": 5,
-              "depth": 2,
+              "depth": 3,
               "label": "y",
               "ref_range": "-25-",
               "text": "Assurance of return to Canaan."
@@ -5387,7 +5387,7 @@
             {
               "idx": 7,
               "parent": 6,
-              "depth": 3,
+              "depth": 4,
               "label": "z",
               "ref_range": "-25",
               "text": "Oath."
@@ -12057,8 +12057,8 @@
             },
             {
               "idx": 2,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "f",
               "ref_range": null,
               "text": null
@@ -12066,7 +12066,7 @@
             {
               "idx": 3,
               "parent": 2,
-              "depth": 2,
+              "depth": 3,
               "label": "g",
               "ref_range": "3-11",
               "text": "The Symbol."
@@ -12074,15 +12074,15 @@
             {
               "idx": 4,
               "parent": 3,
-              "depth": 3,
+              "depth": 4,
               "label": "h",
               "ref_range": "12, 13",
               "text": "The Signification and Reason."
             },
             {
               "idx": 5,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "f",
               "ref_range": null,
               "text": null
@@ -12090,7 +12090,7 @@
             {
               "idx": 6,
               "parent": 5,
-              "depth": 2,
+              "depth": 3,
               "label": "g",
               "ref_range": "14-17-",
               "text": "The Symbol."
@@ -12098,7 +12098,7 @@
             {
               "idx": 7,
               "parent": 6,
-              "depth": 3,
+              "depth": 4,
               "label": "h",
               "ref_range": "-17",
               "text": "The Signification and Reason."
@@ -12537,16 +12537,16 @@
             },
             {
               "idx": 4,
-              "parent": 0,
-              "depth": 1,
+              "parent": 3,
+              "depth": 4,
               "label": "c",
               "ref_range": "2, 3",
               "text": "Praise."
             },
             {
               "idx": 5,
-              "parent": 0,
-              "depth": 1,
+              "parent": 4,
+              "depth": 5,
               "label": "d",
               "ref_range": null,
               "text": null
@@ -12554,7 +12554,7 @@
             {
               "idx": 6,
               "parent": 5,
-              "depth": 2,
+              "depth": 6,
               "label": "g",
               "ref_range": "4-12",
               "text": "Overthrow of Pharaoh."
@@ -12562,15 +12562,15 @@
             {
               "idx": 7,
               "parent": 6,
-              "depth": 3,
+              "depth": 7,
               "label": "h",
               "ref_range": "13",
               "text": "Israel's guidance."
             },
             {
               "idx": 8,
-              "parent": 0,
-              "depth": 1,
+              "parent": 4,
+              "depth": 5,
               "label": "d",
               "ref_range": null,
               "text": null
@@ -12578,7 +12578,7 @@
             {
               "idx": 9,
               "parent": 8,
-              "depth": 2,
+              "depth": 6,
               "label": "g",
               "ref_range": "14-16",
               "text": "Overthrow of Egyptians."
@@ -12586,15 +12586,15 @@
             {
               "idx": 10,
               "parent": 9,
-              "depth": 3,
+              "depth": 7,
               "label": "h",
               "ref_range": "17",
               "text": "Israel's settlement."
             },
             {
               "idx": 11,
-              "parent": 0,
-              "depth": 1,
+              "parent": 3,
+              "depth": 4,
               "label": "c",
               "ref_range": "18, 19",
               "text": "Praise."
@@ -12682,8 +12682,8 @@
             },
             {
               "idx": 2,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "b",
               "ref_range": null,
               "text": null
@@ -12691,7 +12691,7 @@
             {
               "idx": 3,
               "parent": 2,
-              "depth": 2,
+              "depth": 3,
               "label": "c",
               "ref_range": "6",
               "text": "Thy right hand."
@@ -12699,7 +12699,7 @@
             {
               "idx": 4,
               "parent": 3,
-              "depth": 3,
+              "depth": 4,
               "label": "d",
               "ref_range": "7, 8",
               "text": "Thou, Thee, Thy."
@@ -12714,8 +12714,8 @@
             },
             {
               "idx": 6,
-              "parent": 0,
-              "depth": 1,
+              "parent": 5,
+              "depth": 2,
               "label": "b",
               "ref_range": null,
               "text": null
@@ -12723,7 +12723,7 @@
             {
               "idx": 7,
               "parent": 6,
-              "depth": 3,
+              "depth": 4,
               "label": "d",
               "ref_range": "10, 11",
               "text": "Thou, Thy, Thee."
@@ -12731,7 +12731,7 @@
             {
               "idx": 8,
               "parent": 6,
-              "depth": 2,
+              "depth": 3,
               "label": "c",
               "ref_range": "12",
               "text": "Thy right hand."
@@ -12898,8 +12898,8 @@
             },
             {
               "idx": 10,
-              "parent": 2,
-              "depth": 2,
+              "parent": 9,
+              "depth": 5,
               "label": "V",
               "ref_range": null,
               "text": "20. 1—24. 8. GIVING OF THE LAW."
@@ -12970,8 +12970,8 @@
             },
             {
               "idx": 19,
-              "parent": 11,
-              "depth": 2,
+              "parent": 18,
+              "depth": 5,
               "label": "V",
               "ref_range": null,
               "text": "35. 4—40. 35. MAKING OF TABERNACLE."
@@ -13632,8 +13632,8 @@
             },
             {
               "idx": 2,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "E",
               "ref_range": null,
               "text": null
@@ -13641,7 +13641,7 @@
             {
               "idx": 3,
               "parent": 2,
-              "depth": 2,
+              "depth": 3,
               "label": "x",
               "ref_range": "9",
               "text": "The six days for man's work."
@@ -13649,15 +13649,15 @@
             {
               "idx": 4,
               "parent": 3,
-              "depth": 3,
+              "depth": 4,
               "label": "y",
               "ref_range": "10",
               "text": "Seventh for man's rest."
             },
             {
               "idx": 5,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "E",
               "ref_range": null,
               "text": null
@@ -13665,7 +13665,7 @@
             {
               "idx": 6,
               "parent": 5,
-              "depth": 2,
+              "depth": 3,
               "label": "x",
               "ref_range": "11-",
               "text": "Six days for Jehovah's work."
@@ -13673,7 +13673,7 @@
             {
               "idx": 7,
               "parent": 6,
-              "depth": 3,
+              "depth": 4,
               "label": "y",
               "ref_range": "-11-",
               "text": "Seventh for Jehovah's rest."
@@ -13932,8 +13932,8 @@
             },
             {
               "idx": 2,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "h",
               "ref_range": null,
               "text": null
@@ -13941,7 +13941,7 @@
             {
               "idx": 3,
               "parent": 2,
-              "depth": 2,
+              "depth": 3,
               "label": "i",
               "ref_range": "12-14",
               "text": "Violence."
@@ -13949,7 +13949,7 @@
             {
               "idx": 4,
               "parent": 3,
-              "depth": 3,
+              "depth": 4,
               "label": "j",
               "ref_range": "15",
               "text": "Parents (Smiting)."
@@ -13964,8 +13964,8 @@
             },
             {
               "idx": 6,
-              "parent": 0,
-              "depth": 1,
+              "parent": 5,
+              "depth": 2,
               "label": "h",
               "ref_range": null,
               "text": null
@@ -13973,7 +13973,7 @@
             {
               "idx": 7,
               "parent": 6,
-              "depth": 3,
+              "depth": 4,
               "label": "j",
               "ref_range": "17",
               "text": "Parents (Cursing)."
@@ -13981,7 +13981,7 @@
             {
               "idx": 8,
               "parent": 6,
-              "depth": 2,
+              "depth": 3,
               "label": "i",
               "ref_range": "18-32",
               "text": "Violence."
@@ -14152,8 +14152,8 @@
             },
             {
               "idx": 4,
-              "parent": 1,
-              "depth": 2,
+              "parent": 2,
+              "depth": 3,
               "label": "s",
               "ref_range": "4, 5",
               "text": "Enemy. Assistance."
@@ -14184,8 +14184,8 @@
             },
             {
               "idx": 8,
-              "parent": 5,
-              "depth": 2,
+              "parent": 7,
+              "depth": 3,
               "label": "s",
               "ref_range": "9",
               "text": "Stranger. Oppression."
@@ -14499,8 +14499,8 @@
             },
             {
               "idx": 2,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "a",
               "ref_range": null,
               "text": null
@@ -14508,7 +14508,7 @@
             {
               "idx": 3,
               "parent": 2,
-              "depth": 2,
+              "depth": 3,
               "label": "b",
               "ref_range": "-15",
               "text": "The cloud."
@@ -14516,15 +14516,15 @@
             {
               "idx": 4,
               "parent": 3,
-              "depth": 3,
+              "depth": 4,
               "label": "c",
               "ref_range": "16-",
               "text": "The glory."
             },
             {
               "idx": 5,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "a",
               "ref_range": null,
               "text": null
@@ -14532,7 +14532,7 @@
             {
               "idx": 6,
               "parent": 5,
-              "depth": 2,
+              "depth": 3,
               "label": "b",
               "ref_range": "-16",
               "text": "The cloud."
@@ -14540,7 +14540,7 @@
             {
               "idx": 7,
               "parent": 6,
-              "depth": 3,
+              "depth": 4,
               "label": "c",
               "ref_range": "17",
               "text": "The glory."
@@ -15025,8 +15025,8 @@
             },
             {
               "idx": 4,
-              "parent": 0,
-              "depth": 1,
+              "parent": 3,
+              "depth": 4,
               "label": "W",
               "ref_range": null,
               "text": null
@@ -15034,7 +15034,7 @@
             {
               "idx": 5,
               "parent": 4,
-              "depth": 2,
+              "depth": 5,
               "label": "h",
               "ref_range": "3, 4-",
               "text": "Idolatry purposed."
@@ -15042,15 +15042,15 @@
             {
               "idx": 6,
               "parent": 5,
-              "depth": 3,
+              "depth": 6,
               "label": "i",
               "ref_range": "-4",
               "text": "Jehovah's rejection."
             },
             {
               "idx": 7,
-              "parent": 0,
-              "depth": 1,
+              "parent": 3,
+              "depth": 4,
               "label": "W",
               "ref_range": null,
               "text": null
@@ -15058,7 +15058,7 @@
             {
               "idx": 8,
               "parent": 7,
-              "depth": 2,
+              "depth": 5,
               "label": "h",
               "ref_range": "5, 6",
               "text": "Idolatry practised."
@@ -15066,7 +15066,7 @@
             {
               "idx": 9,
               "parent": 8,
-              "depth": 3,
+              "depth": 6,
               "label": "i",
               "ref_range": "7-10",
               "text": "Jehovah's wrath."
@@ -15245,8 +15245,8 @@
             },
             {
               "idx": 2,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "o",
               "ref_range": null,
               "text": null
@@ -15254,7 +15254,7 @@
             {
               "idx": 3,
               "parent": 2,
-              "depth": 2,
+              "depth": 3,
               "label": "p",
               "ref_range": "26-",
               "text": "Call of Moses."
@@ -15262,15 +15262,15 @@
             {
               "idx": 4,
               "parent": 3,
-              "depth": 3,
+              "depth": 4,
               "label": "q",
               "ref_range": "-26",
               "text": "Levites' response."
             },
             {
               "idx": 5,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "o",
               "ref_range": null,
               "text": null
@@ -15278,7 +15278,7 @@
             {
               "idx": 6,
               "parent": 5,
-              "depth": 2,
+              "depth": 3,
               "label": "p",
               "ref_range": "27",
               "text": "Command of Moses."
@@ -15286,7 +15286,7 @@
             {
               "idx": 7,
               "parent": 6,
-              "depth": 3,
+              "depth": 4,
               "label": "q",
               "ref_range": "28",
               "text": "Levites' obedience."
@@ -15689,8 +15689,8 @@
             },
             {
               "idx": 4,
-              "parent": 0,
-              "depth": 1,
+              "parent": 3,
+              "depth": 4,
               "label": "N",
               "ref_range": "21",
               "text": "The Sabbath."
@@ -20190,8 +20190,8 @@
             },
             {
               "idx": 1,
-              "parent": null,
-              "depth": 0,
+              "parent": 0,
+              "depth": 1,
               "label": "B1",
               "ref_range": null,
               "text": null
@@ -20199,7 +20199,7 @@
             {
               "idx": 2,
               "parent": 1,
-              "depth": 1,
+              "depth": 2,
               "label": "D",
               "ref_range": null,
               "text": "8. 1—10. 20. PRIESTHOOD."
@@ -20207,15 +20207,15 @@
             {
               "idx": 3,
               "parent": 2,
-              "depth": 2,
+              "depth": 3,
               "label": "E",
               "ref_range": null,
               "text": "11. 1—15. 33. CEREMONIAL LAWS (PROMULGATION)."
             },
             {
               "idx": 4,
-              "parent": null,
-              "depth": 0,
+              "parent": 3,
+              "depth": 4,
               "label": "C",
               "ref_range": null,
               "text": "16. 1-34. ISRAEL'S FAST (DAY OF ATONEMENT)."
@@ -20230,8 +20230,8 @@
             },
             {
               "idx": 6,
-              "parent": null,
-              "depth": 0,
+              "parent": 5,
+              "depth": 1,
               "label": "B2",
               "ref_range": null,
               "text": null
@@ -20239,7 +20239,7 @@
             {
               "idx": 7,
               "parent": 6,
-              "depth": 2,
+              "depth": 3,
               "label": "E",
               "ref_range": null,
               "text": "18. 1—20. 27. CEREMONIAL LAWS (PENALTIES)."
@@ -20247,15 +20247,15 @@
             {
               "idx": 8,
               "parent": 6,
-              "depth": 1,
+              "depth": 2,
               "label": "D",
               "ref_range": null,
               "text": "21. 1—22. 33. PRIESTHOOD."
             },
             {
               "idx": 9,
-              "parent": null,
-              "depth": 0,
+              "parent": 8,
+              "depth": 3,
               "label": "C",
               "ref_range": null,
               "text": "23. 1—25. 55. JEHOVAH'S FEASTS."
@@ -20298,8 +20298,8 @@
             },
             {
               "idx": 2,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "x",
               "ref_range": null,
               "text": null
@@ -20307,7 +20307,7 @@
             {
               "idx": 3,
               "parent": 2,
-              "depth": 2,
+              "depth": 3,
               "label": "E",
               "ref_range": "3-17",
               "text": "Burnt Offerings."
@@ -20315,7 +20315,7 @@
             {
               "idx": 4,
               "parent": 3,
-              "depth": 3,
+              "depth": 4,
               "label": "F",
               "ref_range": null,
               "text": "2. 1-16. Meal Offerings."
@@ -20323,7 +20323,7 @@
             {
               "idx": 5,
               "parent": 4,
-              "depth": 4,
+              "depth": 5,
               "label": "G",
               "ref_range": null,
               "text": null
@@ -20331,7 +20331,7 @@
             {
               "idx": 6,
               "parent": 5,
-              "depth": 5,
+              "depth": 6,
               "label": "a",
               "ref_range": null,
               "text": "3. 1-17. Peace Offerings."
@@ -20339,15 +20339,15 @@
             {
               "idx": 7,
               "parent": 6,
-              "depth": 6,
+              "depth": 7,
               "label": "b",
               "ref_range": null,
               "text": "4. 1—6. 7. Sin Offerings."
             },
             {
               "idx": 8,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "x",
               "ref_range": null,
               "text": null
@@ -20355,7 +20355,7 @@
             {
               "idx": 9,
               "parent": 8,
-              "depth": 2,
+              "depth": 3,
               "label": "E",
               "ref_range": null,
               "text": "6. 8-13. Burnt Offerings."
@@ -20363,7 +20363,7 @@
             {
               "idx": 10,
               "parent": 9,
-              "depth": 3,
+              "depth": 4,
               "label": "F",
               "ref_range": null,
               "text": "6. 14-23. Meal Offerings."
@@ -20371,7 +20371,7 @@
             {
               "idx": 11,
               "parent": 10,
-              "depth": 4,
+              "depth": 5,
               "label": "G",
               "ref_range": null,
               "text": null
@@ -20379,7 +20379,7 @@
             {
               "idx": 12,
               "parent": 11,
-              "depth": 6,
+              "depth": 7,
               "label": "b",
               "ref_range": null,
               "text": "6. 24—7. 10. Sin Offerings."
@@ -20387,7 +20387,7 @@
             {
               "idx": 13,
               "parent": 11,
-              "depth": 5,
+              "depth": 6,
               "label": "a",
               "ref_range": null,
               "text": "7. 11-34. Peace Offerings."
@@ -21764,8 +21764,8 @@
             },
             {
               "idx": 5,
-              "parent": 1,
-              "depth": 2,
+              "parent": 4,
+              "depth": 5,
               "label": "J",
               "ref_range": null,
               "text": null
@@ -21773,7 +21773,7 @@
             {
               "idx": 6,
               "parent": 5,
-              "depth": 3,
+              "depth": 6,
               "label": "c",
               "ref_range": "7-",
               "text": "Wife."
@@ -21781,15 +21781,15 @@
             {
               "idx": 7,
               "parent": 6,
-              "depth": 4,
+              "depth": 7,
               "label": "d",
               "ref_range": "-7, 8",
               "text": "Reason."
             },
             {
               "idx": 8,
-              "parent": 1,
-              "depth": 2,
+              "parent": 7,
+              "depth": 8,
               "label": "H",
               "ref_range": "9",
               "text": "Daughter."
@@ -21828,8 +21828,8 @@
             },
             {
               "idx": 13,
-              "parent": 9,
-              "depth": 2,
+              "parent": 12,
+              "depth": 5,
               "label": "J",
               "ref_range": null,
               "text": null
@@ -21837,7 +21837,7 @@
             {
               "idx": 14,
               "parent": 13,
-              "depth": 3,
+              "depth": 6,
               "label": "c",
               "ref_range": "13-15-",
               "text": "Wife."
@@ -21845,7 +21845,7 @@
             {
               "idx": 15,
               "parent": 14,
-              "depth": 4,
+              "depth": 7,
               "label": "d",
               "ref_range": "-15",
               "text": "Reason."
@@ -22460,8 +22460,8 @@
             },
             {
               "idx": 4,
-              "parent": 0,
-              "depth": 1,
+              "parent": 3,
+              "depth": 4,
               "label": "D",
               "ref_range": null,
               "text": null
@@ -22469,7 +22469,7 @@
             {
               "idx": 5,
               "parent": 4,
-              "depth": 2,
+              "depth": 5,
               "label": "G1",
               "ref_range": "14, 15",
               "text": "Disobedience."
@@ -22477,7 +22477,7 @@
             {
               "idx": 6,
               "parent": 5,
-              "depth": 3,
+              "depth": 6,
               "label": "H1",
               "ref_range": "16, 17",
               "text": "Punishment."
@@ -22485,7 +22485,7 @@
             {
               "idx": 7,
               "parent": 4,
-              "depth": 2,
+              "depth": 5,
               "label": "G2",
               "ref_range": "18-",
               "text": "Disobedience."
@@ -22493,7 +22493,7 @@
             {
               "idx": 8,
               "parent": 7,
-              "depth": 3,
+              "depth": 6,
               "label": "H2",
               "ref_range": "-18-20",
               "text": "Punishment."
@@ -22501,7 +22501,7 @@
             {
               "idx": 9,
               "parent": 4,
-              "depth": 2,
+              "depth": 5,
               "label": "G3",
               "ref_range": "21-",
               "text": "Disobedience."
@@ -22509,7 +22509,7 @@
             {
               "idx": 10,
               "parent": 9,
-              "depth": 3,
+              "depth": 6,
               "label": "H3",
               "ref_range": "-21, 22",
               "text": "Punishment."
@@ -22517,7 +22517,7 @@
             {
               "idx": 11,
               "parent": 4,
-              "depth": 2,
+              "depth": 5,
               "label": "G4",
               "ref_range": "23",
               "text": "Disobedience."
@@ -22525,7 +22525,7 @@
             {
               "idx": 12,
               "parent": 11,
-              "depth": 3,
+              "depth": 6,
               "label": "H4",
               "ref_range": "24-26",
               "text": "Punishment."
@@ -22533,7 +22533,7 @@
             {
               "idx": 13,
               "parent": 4,
-              "depth": 2,
+              "depth": 5,
               "label": "G5",
               "ref_range": "27",
               "text": "Disobedience."
@@ -22541,7 +22541,7 @@
             {
               "idx": 14,
               "parent": 13,
-              "depth": 3,
+              "depth": 6,
               "label": "H5",
               "ref_range": "28-39",
               "text": "Punishment."
@@ -22644,8 +22644,8 @@
             },
             {
               "idx": 2,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "K",
               "ref_range": null,
               "text": null
@@ -22653,7 +22653,7 @@
             {
               "idx": 3,
               "parent": 2,
-              "depth": 2,
+              "depth": 3,
               "label": "L1",
               "ref_range": null,
               "text": null
@@ -22661,7 +22661,7 @@
             {
               "idx": 4,
               "parent": 3,
-              "depth": 3,
+              "depth": 4,
               "label": "c1",
               "ref_range": "2-7",
               "text": "Ability"
@@ -22669,15 +22669,15 @@
             {
               "idx": 5,
               "parent": 4,
-              "depth": 4,
+              "depth": 5,
               "label": "d1",
               "ref_range": "8",
               "text": "Inability"
             },
             {
               "idx": 6,
-              "parent": 3,
-              "depth": 3,
+              "parent": 5,
+              "depth": 6,
               "label": "M1",
               "ref_range": null,
               "text": null
@@ -22685,7 +22685,7 @@
             {
               "idx": 7,
               "parent": 6,
-              "depth": 4,
+              "depth": 7,
               "label": "e1",
               "ref_range": "9, 10",
               "text": "Clean"
@@ -22693,7 +22693,7 @@
             {
               "idx": 8,
               "parent": 7,
-              "depth": 5,
+              "depth": 8,
               "label": "f1",
               "ref_range": "11-13",
               "text": "Unclean"
@@ -22701,7 +22701,7 @@
             {
               "idx": 9,
               "parent": 2,
-              "depth": 2,
+              "depth": 3,
               "label": "L2",
               "ref_range": null,
               "text": null
@@ -22709,7 +22709,7 @@
             {
               "idx": 10,
               "parent": 9,
-              "depth": 3,
+              "depth": 4,
               "label": "c2",
               "ref_range": "14, 15",
               "text": "Houses."
@@ -22717,15 +22717,15 @@
             {
               "idx": 11,
               "parent": 10,
-              "depth": 4,
+              "depth": 5,
               "label": "d2",
               "ref_range": "16-25",
               "text": "Fields."
             },
             {
               "idx": 12,
-              "parent": 9,
-              "depth": 3,
+              "parent": 11,
+              "depth": 6,
               "label": "M2",
               "ref_range": null,
               "text": null
@@ -22733,7 +22733,7 @@
             {
               "idx": 13,
               "parent": 12,
-              "depth": 4,
+              "depth": 7,
               "label": "e2",
               "ref_range": "26",
               "text": "Clean"
@@ -22741,7 +22741,7 @@
             {
               "idx": 14,
               "parent": 13,
-              "depth": 5,
+              "depth": 8,
               "label": "f2",
               "ref_range": "27",
               "text": "Unclean"
@@ -22749,7 +22749,7 @@
             {
               "idx": 15,
               "parent": 2,
-              "depth": 2,
+              "depth": 3,
               "label": "L3",
               "ref_range": null,
               "text": null
@@ -22757,7 +22757,7 @@
             {
               "idx": 16,
               "parent": 15,
-              "depth": 3,
+              "depth": 4,
               "label": "c3",
               "ref_range": "28, 29",
               "text": "Devoted"
@@ -22765,7 +22765,7 @@
             {
               "idx": 17,
               "parent": 16,
-              "depth": 4,
+              "depth": 5,
               "label": "d3",
               "ref_range": "30-33",
               "text": "Tithes"
@@ -26060,8 +26060,8 @@
             },
             {
               "idx": 2,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "f1",
               "ref_range": null,
               "text": null
@@ -26069,7 +26069,7 @@
             {
               "idx": 3,
               "parent": 2,
-              "depth": 2,
+              "depth": 3,
               "label": "·",
               "ref_range": "3, 4",
               "text": "Judah"
@@ -26077,7 +26077,7 @@
             {
               "idx": 4,
               "parent": 2,
-              "depth": 2,
+              "depth": 3,
               "label": "·",
               "ref_range": "5, 6",
               "text": "Issachar"
@@ -26085,7 +26085,7 @@
             {
               "idx": 5,
               "parent": 2,
-              "depth": 2,
+              "depth": 3,
               "label": "·",
               "ref_range": "7, 8",
               "text": "Zebulon"
@@ -26093,15 +26093,15 @@
             {
               "idx": 6,
               "parent": 2,
-              "depth": 2,
+              "depth": 3,
               "label": "g1",
               "ref_range": "9",
               "text": "Total."
             },
             {
               "idx": 7,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "f2",
               "ref_range": null,
               "text": null
@@ -26109,7 +26109,7 @@
             {
               "idx": 8,
               "parent": 7,
-              "depth": 2,
+              "depth": 3,
               "label": "·",
               "ref_range": "10, 11",
               "text": "Reuben"
@@ -26117,7 +26117,7 @@
             {
               "idx": 9,
               "parent": 7,
-              "depth": 2,
+              "depth": 3,
               "label": "·",
               "ref_range": "12, 13",
               "text": "Simeon"
@@ -26125,7 +26125,7 @@
             {
               "idx": 10,
               "parent": 7,
-              "depth": 2,
+              "depth": 3,
               "label": "·",
               "ref_range": "14, 15",
               "text": "Gad"
@@ -26133,7 +26133,7 @@
             {
               "idx": 11,
               "parent": 7,
-              "depth": 2,
+              "depth": 3,
               "label": "g2",
               "ref_range": "16",
               "text": "Total."
@@ -26141,15 +26141,15 @@
             {
               "idx": 12,
               "parent": 11,
-              "depth": 3,
+              "depth": 4,
               "label": "h1",
               "ref_range": "17",
               "text": "Levites."
             },
             {
               "idx": 13,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "f3",
               "ref_range": null,
               "text": null
@@ -26157,7 +26157,7 @@
             {
               "idx": 14,
               "parent": 13,
-              "depth": 2,
+              "depth": 3,
               "label": "·",
               "ref_range": "18, 19",
               "text": "Ephraim"
@@ -26165,7 +26165,7 @@
             {
               "idx": 15,
               "parent": 13,
-              "depth": 2,
+              "depth": 3,
               "label": "·",
               "ref_range": "20, 21",
               "text": "Manasseh"
@@ -26173,7 +26173,7 @@
             {
               "idx": 16,
               "parent": 13,
-              "depth": 2,
+              "depth": 3,
               "label": "·",
               "ref_range": "22, 23",
               "text": "Benjamin"
@@ -26181,15 +26181,15 @@
             {
               "idx": 17,
               "parent": 13,
-              "depth": 2,
+              "depth": 3,
               "label": "g3",
               "ref_range": "24",
               "text": "Total."
             },
             {
               "idx": 18,
-              "parent": 0,
-              "depth": 1,
+              "parent": 1,
+              "depth": 2,
               "label": "f4",
               "ref_range": null,
               "text": null
@@ -26197,7 +26197,7 @@
             {
               "idx": 19,
               "parent": 18,
-              "depth": 2,
+              "depth": 3,
               "label": "·",
               "ref_range": "25, 26",
               "text": "Dan"
@@ -26205,7 +26205,7 @@
             {
               "idx": 20,
               "parent": 18,
-              "depth": 2,
+              "depth": 3,
               "label": "·",
               "ref_range": "27, 28",
               "text": "Asher"
@@ -26213,7 +26213,7 @@
             {
               "idx": 21,
               "parent": 18,
-              "depth": 2,
+              "depth": 3,
               "label": "·",
               "ref_range": "29-31",
               "text": "Naphtali"
@@ -26221,7 +26221,7 @@
             {
               "idx": 22,
               "parent": 18,
-              "depth": 2,
+              "depth": 3,
               "label": "g4",
               "ref_range": "32",
               "text": "Total."
@@ -26229,7 +26229,7 @@
             {
               "idx": 23,
               "parent": 22,
-              "depth": 3,
+              "depth": 4,
               "label": "h2",
               "ref_range": "33",
               "text": "Levites."
@@ -26757,8 +26757,8 @@
             },
             {
               "idx": 4,
-              "parent": 0,
-              "depth": 1,
+              "parent": 3,
+              "depth": 4,
               "label": "D",
               "ref_range": null,
               "text": "7. 1-89. Event (dedication of altar)."
@@ -26789,8 +26789,8 @@
             },
             {
               "idx": 8,
-              "parent": 0,
-              "depth": 1,
+              "parent": 7,
+              "depth": 3,
               "label": "D",
               "ref_range": null,
               "text": "9. 15-23. Event (erection of tabernacle)."
@@ -29061,8 +29061,8 @@
             },
             {
               "idx": 4,
-              "parent": 1,
-              "depth": 2,
+              "parent": 3,
+              "depth": 4,
               "label": "r",
               "ref_range": null,
               "text": null
@@ -29070,7 +29070,7 @@
             {
               "idx": 5,
               "parent": 4,
-              "depth": 3,
+              "depth": 5,
               "label": "u",
               "ref_range": "6, 7",
               "text": "Obedience."
@@ -29078,7 +29078,7 @@
             {
               "idx": 6,
               "parent": 5,
-              "depth": 4,
+              "depth": 6,
               "label": "v",
               "ref_range": "8, 9",
               "text": "Intention. Effected."
@@ -29109,8 +29109,8 @@
             },
             {
               "idx": 10,
-              "parent": 7,
-              "depth": 2,
+              "parent": 9,
+              "depth": 4,
               "label": "r",
               "ref_range": null,
               "text": null
@@ -29118,7 +29118,7 @@
             {
               "idx": 11,
               "parent": 10,
-              "depth": 3,
+              "depth": 5,
               "label": "u",
               "ref_range": "11",
               "text": "Obedience."
@@ -29126,7 +29126,7 @@
             {
               "idx": 12,
               "parent": 11,
-              "depth": 4,
+              "depth": 6,
               "label": "v",
               "ref_range": "12, 13",
               "text": "Intention. Accomplished."
@@ -30901,8 +30901,8 @@
             },
             {
               "idx": 4,
-              "parent": 1,
-              "depth": 2,
+              "parent": 3,
+              "depth": 4,
               "label": "h",
               "ref_range": "-22",
               "text": "STRENGTH (Simile: Buffalo)."
@@ -30933,8 +30933,8 @@
             },
             {
               "idx": 8,
-              "parent": 5,
-              "depth": 2,
+              "parent": 7,
+              "depth": 4,
               "label": "h",
               "ref_range": "24",
               "text": "VICTORY (Simile: Lion)."
@@ -36761,8 +36761,8 @@
             },
             {
               "idx": 6,
-              "parent": 3,
-              "depth": 4,
+              "parent": 5,
+              "depth": 6,
               "label": "J",
               "ref_range": null,
               "text": null
@@ -36770,7 +36770,7 @@
             {
               "idx": 7,
               "parent": 6,
-              "depth": 5,
+              "depth": 7,
               "label": "c",
               "ref_range": null,
               "text": "11. 26-28. Blessings and curses."
@@ -36778,7 +36778,7 @@
             {
               "idx": 8,
               "parent": 7,
-              "depth": 6,
+              "depth": 8,
               "label": "d",
               "ref_range": null,
               "text": "11. 29-32. Gerizim and Ebal."
@@ -36786,7 +36786,7 @@
             {
               "idx": 9,
               "parent": 8,
-              "depth": 7,
+              "depth": 9,
               "label": "F",
               "ref_range": null,
               "text": "12. 1—27. 10. Laws IN the Land."
@@ -36802,7 +36802,7 @@
             {
               "idx": 11,
               "parent": 10,
-              "depth": 4,
+              "depth": 6,
               "label": "J",
               "ref_range": null,
               "text": null
@@ -36810,7 +36810,7 @@
             {
               "idx": 12,
               "parent": 11,
-              "depth": 6,
+              "depth": 7,
               "label": "d",
               "ref_range": null,
               "text": "27. 11-26. Gerizim and Ebal."
@@ -36818,7 +36818,7 @@
             {
               "idx": 13,
               "parent": 11,
-              "depth": 5,
+              "depth": 7,
               "label": "c",
               "ref_range": null,
               "text": "28. 1-68. Blessings and curses."
@@ -37693,8 +37693,8 @@
             },
             {
               "idx": 9,
-              "parent": 1,
-              "depth": 2,
+              "parent": 8,
+              "depth": 9,
               "label": "Q1",
               "ref_range": null,
               "text": null
@@ -37702,7 +37702,7 @@
             {
               "idx": 10,
               "parent": 9,
-              "depth": 3,
+              "depth": 10,
               "label": "l1",
               "ref_range": null,
               "text": "6. 10—7. 26. Warnings."
@@ -37710,15 +37710,15 @@
             {
               "idx": 11,
               "parent": 10,
-              "depth": 4,
+              "depth": 11,
               "label": "m1",
               "ref_range": null,
               "text": "8. 1-9. Command to remember."
             },
             {
               "idx": 12,
-              "parent": 1,
-              "depth": 2,
+              "parent": 8,
+              "depth": 9,
               "label": "Q2",
               "ref_range": null,
               "text": null
@@ -37726,7 +37726,7 @@
             {
               "idx": 13,
               "parent": 12,
-              "depth": 3,
+              "depth": 10,
               "label": "l2",
               "ref_range": null,
               "text": "8. 10-20. Warnings."
@@ -37734,15 +37734,15 @@
             {
               "idx": 14,
               "parent": 13,
-              "depth": 4,
+              "depth": 11,
               "label": "m2",
               "ref_range": null,
               "text": "9. 1-. Command to hear."
             },
             {
               "idx": 15,
-              "parent": 1,
-              "depth": 2,
+              "parent": 8,
+              "depth": 9,
               "label": "Q3",
               "ref_range": null,
               "text": null
@@ -37750,7 +37750,7 @@
             {
               "idx": 16,
               "parent": 15,
-              "depth": 3,
+              "depth": 10,
               "label": "l3",
               "ref_range": null,
               "text": "9. -1—10. 11. Warnings."
@@ -37758,7 +37758,7 @@
             {
               "idx": 17,
               "parent": 16,
-              "depth": 4,
+              "depth": 11,
               "label": "m3",
               "ref_range": null,
               "text": "10. 12—11. 12. Command to obey."
@@ -37989,8 +37989,8 @@
             },
             {
               "idx": 16,
-              "parent": 15,
-              "depth": 4,
+              "parent": 14,
+              "depth": 3,
               "label": "p4",
               "ref_range": null,
               "text": "7. 16. Injunction. Not to spare."
@@ -38773,8 +38773,8 @@
             },
             {
               "idx": 4,
-              "parent": 0,
-              "depth": 1,
+              "parent": 3,
+              "depth": 4,
               "label": "S1",
               "ref_range": null,
               "text": "15. 1—16. 17. Ecclesiastical laws (Sabbath, &c.)."
@@ -38782,7 +38782,7 @@
             {
               "idx": 5,
               "parent": 4,
-              "depth": 2,
+              "depth": 5,
               "label": "T",
               "ref_range": null,
               "text": null
@@ -38790,7 +38790,7 @@
             {
               "idx": 6,
               "parent": 5,
-              "depth": 3,
+              "depth": 6,
               "label": "v",
               "ref_range": null,
               "text": "16. 18—17. 13. Laws. Civil."
@@ -38798,15 +38798,15 @@
             {
               "idx": 7,
               "parent": 6,
-              "depth": 4,
+              "depth": 7,
               "label": "w",
               "ref_range": null,
               "text": "17. 14-20. The KING."
             },
             {
               "idx": 8,
-              "parent": 0,
-              "depth": 1,
+              "parent": 3,
+              "depth": 4,
               "label": "S2",
               "ref_range": null,
               "text": "18. 1-8. Laws. Ecclesiastical (Levites, &c.)."
@@ -38814,7 +38814,7 @@
             {
               "idx": 9,
               "parent": 8,
-              "depth": 2,
+              "depth": 5,
               "label": "T",
               "ref_range": null,
               "text": null
@@ -38822,7 +38822,7 @@
             {
               "idx": 10,
               "parent": 9,
-              "depth": 4,
+              "depth": 7,
               "label": "w",
               "ref_range": null,
               "text": "18. 9-22. The PROPHET."
@@ -38830,15 +38830,15 @@
             {
               "idx": 11,
               "parent": 9,
-              "depth": 3,
+              "depth": 6,
               "label": "v",
               "ref_range": null,
               "text": "19. 1—25. 19. Laws. Civil."
             },
             {
               "idx": 12,
-              "parent": 0,
-              "depth": 1,
+              "parent": 3,
+              "depth": 4,
               "label": "S3",
               "ref_range": null,
               "text": "26. 1-15. Laws. Ecclesiastical (Firstfruits)."
@@ -39581,8 +39581,8 @@
             },
             {
               "idx": 4,
-              "parent": 0,
-              "depth": 1,
+              "parent": 3,
+              "depth": 4,
               "label": "u",
               "ref_range": null,
               "text": null
@@ -39590,7 +39590,7 @@
             {
               "idx": 5,
               "parent": 4,
-              "depth": 2,
+              "depth": 5,
               "label": "x",
               "ref_range": "-7",
               "text": "Warning."
@@ -39598,15 +39598,15 @@
             {
               "idx": 6,
               "parent": 5,
-              "depth": 3,
+              "depth": 6,
               "label": "y",
               "ref_range": "8",
               "text": "Command."
             },
             {
               "idx": 7,
-              "parent": 0,
-              "depth": 1,
+              "parent": 3,
+              "depth": 4,
               "label": "u",
               "ref_range": null,
               "text": null
@@ -39614,7 +39614,7 @@
             {
               "idx": 8,
               "parent": 7,
-              "depth": 2,
+              "depth": 5,
               "label": "x",
               "ref_range": "9",
               "text": "Warning."
@@ -39622,7 +39622,7 @@
             {
               "idx": 9,
               "parent": 8,
-              "depth": 3,
+              "depth": 6,
               "label": "y",
               "ref_range": "10",
               "text": "Command."
@@ -40473,8 +40473,8 @@
             },
             {
               "idx": 6,
-              "parent": 1,
-              "depth": 2,
+              "parent": 5,
+              "depth": 4,
               "label": "D",
               "ref_range": null,
               "text": null
@@ -40482,7 +40482,7 @@
             {
               "idx": 7,
               "parent": 6,
-              "depth": 3,
+              "depth": 5,
               "label": "i",
               "ref_range": "15-",
               "text": "\"Like unto Moses\""
@@ -40490,15 +40490,15 @@
             {
               "idx": 8,
               "parent": 7,
-              "depth": 4,
+              "depth": 6,
               "label": "k",
               "ref_range": "-15-17",
               "text": "Hearken. Command (positive)"
             },
             {
               "idx": 9,
-              "parent": 1,
-              "depth": 2,
+              "parent": 5,
+              "depth": 4,
               "label": "D",
               "ref_range": null,
               "text": null
@@ -40506,7 +40506,7 @@
             {
               "idx": 10,
               "parent": 9,
-              "depth": 3,
+              "depth": 5,
               "label": "i",
               "ref_range": "18",
               "text": "\"Like unto Moses\""
@@ -40514,7 +40514,7 @@
             {
               "idx": 11,
               "parent": 10,
-              "depth": 4,
+              "depth": 6,
               "label": "k",
               "ref_range": "19",
               "text": "Hearken. Command (negative)"
@@ -42352,8 +42352,8 @@
             },
             {
               "idx": 4,
-              "parent": 0,
-              "depth": 1,
+              "parent": 3,
+              "depth": 4,
               "label": "R",
               "ref_range": null,
               "text": null
@@ -42361,7 +42361,7 @@
             {
               "idx": 5,
               "parent": 4,
-              "depth": 2,
+              "depth": 5,
               "label": "i",
               "ref_range": "-5",
               "text": "Unworthiness of grace."
@@ -42369,7 +42369,7 @@
             {
               "idx": 6,
               "parent": 5,
-              "depth": 3,
+              "depth": 6,
               "label": "k",
               "ref_range": "6",
               "text": "Egypt. Bondage."
@@ -42377,15 +42377,15 @@
             {
               "idx": 7,
               "parent": 6,
-              "depth": 4,
+              "depth": 7,
               "label": "l",
               "ref_range": "7-",
               "text": "Cry made."
             },
             {
               "idx": 8,
-              "parent": 0,
-              "depth": 1,
+              "parent": 3,
+              "depth": 4,
               "label": "R",
               "ref_range": null,
               "text": null
@@ -42393,7 +42393,7 @@
             {
               "idx": 9,
               "parent": 8,
-              "depth": 4,
+              "depth": 7,
               "label": "l",
               "ref_range": "-7",
               "text": "Cry heard."
@@ -42401,7 +42401,7 @@
             {
               "idx": 10,
               "parent": 8,
-              "depth": 3,
+              "depth": 6,
               "label": "k",
               "ref_range": "8",
               "text": "Egypt. Deliverance."
@@ -42409,7 +42409,7 @@
             {
               "idx": 11,
               "parent": 8,
-              "depth": 2,
+              "depth": 5,
               "label": "i",
               "ref_range": "9",
               "text": "Grace for the unworthy."

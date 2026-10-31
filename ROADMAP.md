@@ -1576,6 +1576,12 @@ running list of what's done and what's next, not a commitment.
   not Genesis 18. Needs a rule that only takes a bare reference when no
   other book is in force; until then they read as plain text.
 
+  **Structure depths were corrected across the Torah** after a review against
+  the page scans. `updateCompanionNotesLayout` applies such corrections once on
+  boot, changing only `structure_lines.depth` and `parent_id`, so annotations
+  survive. "Reinstall / repair" still deletes the source and its annotations.
+  Tested on a database copy, not yet run inside the app.
+
   **Bullinger's cross-references are clickable.** His notes are dense with
   them — 119 in Philemon alone — in two forms: scripture (`Eph. 3. 1`, where
   chapter and verse are separated by periods, and chains continue

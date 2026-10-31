@@ -17,8 +17,10 @@
 // here. Re-running rebuilds the source from scratch rather than duplicating
 // it, and deleting the source removes everything below.
 
+import { planLayoutChanges } from './companionLayout';
 import {
-  deleteSource, findSourceByTitle, getEntries, getMeta, setMeta,
+  deleteSource, findSourceByTitle, getEntries, getMeta, getStructureForSource, setMeta,
+  updateStructureLineLayout,
   insertParsedSource, insertStructureDiagram, insertStructureGroups, insertStructureLines,
 } from './db';
 import type { ParsedEntry, ParsedSource } from './types';
@@ -173,6 +175,24 @@ export async function retireCompanionNotesTestSource(): Promise<boolean> {
   if (stale) await deleteSource(stale.id);
   await setMeta(RETIRE_FLAG, new Date().toISOString());
   return stale !== null;
+}
+
+// Bump when a release corrects Structure depths. Each update runs once.
+const LAYOUT_FLAG = 'companion-notes-layout-2026-10';
+
+export async function updateCompanionNotesLayout(): Promise<void> {
+  if ((await getMeta(LAYOUT_FLAG)) !== null) return;
+  const source = await findSourceByTitle(COMPANION_NOTES_TITLE);
+  if (source) {
+    const bundle = await loadBundle();
+    const { diagrams, lines } = await getStructureForSource(source.id);
+    const installed = diagrams.map((d) => ({ title: d.title, lines: lines.filter((l) => l.diagram_id === d.id) }));
+    const { changes, skipped } = planLayoutChanges(installed, bundle.books.flatMap((b) => b.diagrams));
+    if (skipped.length > 0) console.warn('Companion Bible diagrams left unchanged:', skipped);
+    for (const c of changes) await updateStructureLineLayout(c.id, c.depth, c.parentId);
+  }
+  // Set last: an interrupted run repeats, and repeating only rewrites values.
+  await setMeta(LAYOUT_FLAG, new Date().toISOString());
 }
 
 export async function installCompanionNotes(onProgress: (msg: string) => void): Promise<number> {

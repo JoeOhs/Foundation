@@ -1406,6 +1406,14 @@ export async function getStructureForSource(sourceId: number): Promise<Structure
   return { diagrams, lines, groups };
 }
 
+// Depth and parent only: this is what lets a corrected outline reach an
+// install without deleting the source, so highlights, links and notes on its
+// entries stay attached. It must never write to entries.
+export async function updateStructureLineLayout(id: number, depth: number, parentId: number | null): Promise<void> {
+  const db = await ensureDb();
+  await db.execute('UPDATE structure_lines SET depth = ?, parent_id = ? WHERE id = ?', [depth, parentId, id]);
+}
+
 export async function insertStructureDiagram(
   sourceId: number,
   d: {
