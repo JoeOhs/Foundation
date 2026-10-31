@@ -7,6 +7,9 @@
 # can't be a REF_RANGE, which is verses of one chapter; such a line keeps
 # its reference at the head of its TEXT instead, as printed.
 #
+# 21. 1-12: the second "a" (8-12) prints one step deeper than here; the
+# parser allows only one step after a text line.
+#
 # Printed slips kept as printed, each noted above its diagram: "1. 17-36"
 # (for 1. 27-36) and "8. 32" (for 8. 35). Two ranges whose type broke
 # or did not print are restored from their own headings: E2's "8. 32"
@@ -398,7 +401,7 @@ S1 |  |
       k |  | 6. 36-40. Signs. Fleece.
         l |  | 7. 1-11. Directions.
           V |  |
-            n |  | 7. 12-14. Midianites.
+              n |  | 7. 12-14. Midianites.
             m |  | 7. 15-18. Obedience of Gideon.
 
 [[diagram: 6. 11-16 (j, above). Angel of Jehovah. Message, &c. (Repeated Alternation)]]
@@ -468,7 +471,7 @@ T1 |  |
         b |  | 7. 23. Pursuit by Naphtali.
   y |  | 7. 24, 25. The victory.
     z |  |
-      b |  | 8. 1-12. Pursuit by Gideon.
+        b |  | 8. 1-12. Pursuit by Gideon.
       a |  | 8. 13-23. Midianite kings. Capture.
 
 [[diagram: 8. 1-23 (z, p. 336). Pursuit and Capture (Introversion and Alternation)]]
@@ -527,7 +530,7 @@ B |  |
   C2 |  |
     D | 25-41 | Evil spirit in operation.
       E |  |
-        G | 42-49 | Against Shechemites.
+          G | 42-49 | Against Shechemites.
         F | 50-55 | Against Abimelech.
 [[group: Accomplishment.]]
 
@@ -566,12 +569,12 @@ H3 |  |
     l | 46, 47 | Refuge.
       m |  |
         o | 48 | Brushwood.
-        p | 49- | Burning.
+          p | 49- | Burning.
           n | -49 | Deaths. Shechemites.
   k |  |
     l | 51 | Refuge.
       m |  |
-        p | 52 | Burning.
+          p | 52 | Burning.
         o | 53 | Millstone.
           n | 54, 55 | Death. Abimelech.
 
@@ -750,7 +753,7 @@ m3 |  |
         u | 17, 18 | Angel's name. "Wonderful."
   r | 19- | Offering of Manoah.
     s |  |
-      u | -19-21- | Angel's action. "Wonderful."
+        u | -19-21- | Angel's action. "Wonderful."
       t | -21 | Manoah's knowledge.
 
 [[diagram: 14. 1—16. 31- (L, p. 345). Promise Fulfilled (Alternation and Introversion)]]
@@ -1149,7 +1152,7 @@ D |  |
         y |  | 21. 1-12. First expedient.
   v |  | 21. 13-15. The 600 fugitives (Rimmon).
     w |  |
-      y |  | 21. 16-23-. Second expedient.
+        y |  | 21. 16-23-. Second expedient.
       x |  | 21. -23, 24. Reparation.
 
 [[diagram: 21. 1-12 (y, p. 356). First Expedient (Alternation and Introversion)]]
@@ -1163,7 +1166,7 @@ y |  |
       c | 2-4 | Sorrow.
         a | 5 | Absentees. Inquiry.
   z |  |
-    c | 6 | Sorrow.
+      c | 6 | Sorrow.
     b | 7 | Oath.
       a | 8-12 | Absentees. Punishment.
 

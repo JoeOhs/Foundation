@@ -24,7 +24,10 @@
 #     garbled but the scan prints plainly;
 #   - ocr-check.py against a fresh Tesseract OCR (300 + 400 dpi);
 #   - cross-references: every note round-trips through parseBullingerRefs,
-#     and every cited appendix's title was checked against its subject.
+#     every resolved reference was compared with its printed text, and
+#     each cited appendix's title was reviewed (citation by citation
+#     only for the slips listed below);
+#   - the 13 flagged number pairs were each viewed on the scan.
 #
 # No corrections were needed.
 #
