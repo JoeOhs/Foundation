@@ -414,16 +414,16 @@ A |  |
     e | 1- | Singers: Moses and the men.
       f | -1 | The Theme.
 [[group: Moses' Song.]]
-  c | 2, 3 | Praise.
+        c | 2, 3 | Praise.
 [[group: -]]
-  d |  |
-    g | 4-12 | Overthrow of Pharaoh.
-      h | 13 | Israel's guidance.
-  d |  |
-    g | 14-16 | Overthrow of Egyptians.
-      h | 17 | Israel's settlement.
+          d |  |
+            g | 4-12 | Overthrow of Pharaoh.
+              h | 13 | Israel's guidance.
+          d |  |
+            g | 14-16 | Overthrow of Egyptians.
+              h | 17 | Israel's settlement.
 [[group: The Song itself.]]
-  c | 18, 19 | Praise.
+        c | 18, 19 | Praise.
 [[group: -]]
   b |  |
     e | 20 | Singers: Miriam and women.
@@ -475,7 +475,7 @@ B |  |
         Y2 |  | 19. 14-19. Descent.
       X3 |  | 19. 20-24. Ascent III: Setting of bounds.
         Y3 |  | 19. 25. Descent.
-    V |  | 20. 1—24. 8. GIVING OF THE LAW.
+          V |  | 20. 1—24. 8. GIVING OF THE LAW.
   T |  |
     U |  |
       X4 |  | 24. 9—32. 14. Ascent IV: First 40 days (De. 9. 9) and 1st Tables.
@@ -484,7 +484,7 @@ B |  |
         Y5 |  | 32. 34—34. 3. Descent.
       X6 |  | 34. 4-28. Ascent VI: Second 40 days (De. 10. 10) and 2nd Tables.
         Y6 |  | 34. 29—35. 3. Descent.
-    V |  | 35. 4—40. 35. MAKING OF TABERNACLE.
+          V |  | 35. 4—40. 35. MAKING OF TABERNACLE.
   S |  | 40. 36-38. Journeyings from Sinai.
 
 [[diagram: 15. 22—19. 2 (S, p. 94). Journeyings to Sinai (Repeated Alternation)]]
@@ -704,11 +704,11 @@ E3 |  |
   r |  |
     t | 1, 2 | Falsehood.
       u | 3 | Cause of poor man.
-    s | 4, 5 | Enemy. Assistance.
+      s | 4, 5 | Enemy. Assistance.
   r |  |
       u | 6 | Cause of poor man.
     t | 7, 8 | Falsehood.
-    s | 9 | Stranger. Oppression.
+      s | 9 | Stranger. Oppression.
 
 [[diagram: 23. 10-19- (D4, p. 102). God: Laws of His Worship (Alternation)]]
 [[anchor: Exodus 23:10-19]]
@@ -764,12 +764,12 @@ X4 |  |
 
 H |  |
   z | 15- | Ascent of Moses.
-  a |  |
-    b | -15 | The cloud.
-      c | 16- | The glory.
-  a |  |
-    b | -16 | The cloud.
-      c | 17 | The glory.
+    a |  |
+      b | -15 | The cloud.
+        c | 16- | The glory.
+    a |  |
+      b | -16 | The cloud.
+        c | 17 | The glory.
   z | 18 | Ascent of Moses.
 
 # M1 and N each print several ranges under one letter; each range is set
@@ -986,7 +986,7 @@ H2 |  |
   M |  |
     v | 18 | The one Feast. No leaven.
       w | 19, 20 | The Firstborn. Liberality.
-  N | 21 | The Sabbath.
+        N | 21 | The Sabbath.
   M |  |
     v | 22-25 | The three Feasts. No leaven.
       w | 26 | The Firstfruits. Kindliness.

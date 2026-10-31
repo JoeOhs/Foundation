@@ -558,7 +558,8 @@ C2 |  |
     i | 50 | Thebez.
       k | 51-55 | Tower of Thebez.
 
-# Printed as one diagram under two headings.
+# Printed as one diagram under two headings. The second n prints two steps
+# right of o; the parser allows one, so it is set one level in.
 [[diagram: 46-49 (k, p. 339). The Tower of Shechem. 51-55 (k, p. 339). The Tower of Thebez (Extended Alternation and Introversion)]]
 [[anchor: Judges 9:46-55]]
 [[pdf: 7. Judges_text.pdf]]
@@ -570,7 +571,7 @@ H3 |  |
       m |  |
         o | 48 | Brushwood.
           p | 49- | Burning.
-          n | -49 | Deaths. Shechemites.
+            n | -49 | Deaths. Shechemites.
   k |  |
     l | 51 | Refuge.
       m |  |

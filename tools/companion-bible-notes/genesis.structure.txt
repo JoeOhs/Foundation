@@ -8,6 +8,12 @@
 # only), the deeper member is set one level in instead: the parser
 # only allows a two-level step straight after a bracket line.
 #
+# In 3. 1-24, H prints right of the bracket G but is not part of it; depth
+# follows the printed staircase, so H's parent in the data is G.
+#
+# In 27. 1—35. 15 the second K prints two steps right of e; the parser
+# allows one, so it is set one level in.
+#
 # A printed reference that reaches outside the diagram's anchor chapter
 # (e.g. "2. 4—50. 26") can't be a REF_RANGE, which is verses of one chapter;
 # such a line keeps its reference at the head of its TEXT instead, as printed.
@@ -87,13 +93,13 @@ J1 |  |
     a | -5 | For the ground, no man.
       b | 6 | The ground and vegetable creation.
         c | 7 | The formation of man.
-  C |  |
-    d | 8 | The Garden.
-      e | 9 | The Trees.
-  D | 10-14 | The Rivers.
-  C |  |
-    d | 15 | The Garden.
-      e | 16, 17 | The Trees.
+        C |  |
+          d | 8 | The Garden.
+            e | 9 | The Trees.
+              D | 10-14 | The Rivers.
+        C |  |
+          d | 15 | The Garden.
+            e | 16, 17 | The Trees.
   B |  |
     a | 18 | For the man, no woman.
       b | 19, 20- | The ground and animate creation.
@@ -107,20 +113,20 @@ J1 |  |
 
 J2 |  |
   E | 1-5 | The Nachash: procuring man's death, in Adam.
-  F | 6 | The Tree of knowledge. Eating of it.
-  G |  |
-    f | 7- | Effect on both: the man and the woman.
-      g | -7 | Human provision: man-made aprons.
-  H | 8-12 | God's enquiry of the man.
-  I | 13 | God's enquiry of the woman.
-  K | 14 | Sentence on the Nachash.
-  K | 15 | Promise of the Seed.
-  I | 16 | God's sentence on the woman.
-  H | 17-19 | God's sentence on the man.
-  G |  |
-    f | 20 | Effect on both: the man and the woman.
-      g | 21 | Divine provision: God-made coats.
-  F | 22-24- | The Tree of Life. Expulsion from it.
+    F | 6 | The Tree of knowledge. Eating of it.
+      G |  |
+        f | 7- | Effect on both: the man and the woman.
+          g | -7 | Human provision: man-made aprons.
+        H | 8-12 | God's enquiry of the man.
+          I | 13 | God's enquiry of the woman.
+            K | 14 | Sentence on the Nachash.
+            K | 15 | Promise of the Seed.
+          I | 16 | God's sentence on the woman.
+        H | 17-19 | God's sentence on the man.
+      G |  |
+        f | 20 | Effect on both: the man and the woman.
+          g | 21 | Divine provision: God-made coats.
+    F | 22-24- | The Tree of Life. Expulsion from it.
   E | -24 | The Cherubim: preserving man's life, in Christ.
 
 [[diagram: 4. 1-26 (J3, p. 5). After the Fall (Alternation)]]
@@ -198,10 +204,10 @@ A2 |  | 11. 1-9. The Nations scattered abroad on the Earth.
 
 A1 |  |
   B | 1- | Shem.
-  C | -1- | Ham.
-  D | -1 | Japheth.
-  D | 2-5 | The sons of Japheth.
-  C | 6-20 | The sons of Ham.
+    C | -1- | Ham.
+      D | -1 | Japheth.
+      D | 2-5 | The sons of Japheth.
+    C | 6-20 | The sons of Ham.
   B | 21-32 | The sons of Shem.
 
 [[diagram: 11. 1-9 (A2, p. 15). The Nations Scattered (Introversion and Alternation)]]
@@ -213,8 +219,8 @@ A2 |  |
   E |  |
     a | 1 | Unity.
       b | 2 | Shinar.
-  F | 3, 4 | The Tower. Man's building.
-  F | 5 | The Tower. God's inspection.
+        F | 3, 4 | The Tower. Man's building.
+        F | 5 | The Tower. God's inspection.
   E |  |
     a | 6, 7 | Unity.
       b | 8, 9 | Babel.
@@ -237,26 +243,26 @@ A3 |  | 25. 5-11. Abram's history. Death. (Isaac's inheritance.)
 
 A1 |  |
   C |  | 11. 31—12. 3. Abram's Call. Promise of Seed.
-  D |  | 12. 4-9. Sojourn in Canaan.
-  E |  |
-    a |  | 12. 10-20. Sojourn in Egypt. Denial of Sarai.
-    b |  |
-      c |  | 13. 1-13. Separation of Lot.
-        d |  | 13. 14-18. Manifestation of the Land.
-  F |  | 14. 1-24. War on Sodom. Rescue of Lot by Abram.
-  G |  |
-    e1 |  | 15. Covenant made.
-      f1 |  | 16. Sarai's Policy.
-    e2 |  | 17. 1-14. Covenant repeated.
-      f2 |  | 17. 15-27. Sarah's blessing.
-    e3 |  | 18. 1-15. Covenant renewed.
-  F |  | 18. 16—19. 38. Destruction of Sodom. Rescue of Lot by angels.
-  E |  |
-    a |  | 20. 1-18. Sojourn in Gerar. Denial of Sarah.
-    b |  |
-        d |  | 21. 1-8. Manifestation of the Seed.
-      c |  | 21. 9-21. Separation of Ishmael.
-  D |  | 21. 22-34. Sojourn in Gerar.
+    D |  | 12. 4-9. Sojourn in Canaan.
+      E |  |
+        a |  | 12. 10-20. Sojourn in Egypt. Denial of Sarai.
+        b |  |
+          c |  | 13. 1-13. Separation of Lot.
+            d |  | 13. 14-18. Manifestation of the Land.
+              F |  | 14. 1-24. War on Sodom. Rescue of Lot by Abram.
+                G |  |
+                  e1 |  | 15. Covenant made.
+                    f1 |  | 16. Sarai's Policy.
+                  e2 |  | 17. 1-14. Covenant repeated.
+                    f2 |  | 17. 15-27. Sarah's blessing.
+                  e3 |  | 18. 1-15. Covenant renewed.
+              F |  | 18. 16—19. 38. Destruction of Sodom. Rescue of Lot by angels.
+      E |  |
+        a |  | 20. 1-18. Sojourn in Gerar. Denial of Sarah.
+        b |  |
+            d |  | 21. 1-8. Manifestation of the Seed.
+          c |  | 21. 9-21. Separation of Ishmael.
+    D |  | 21. 22-34. Sojourn in Gerar.
   C |  | 22. 1-19. Abraham's Trial. Blessing of Seed.
 
 [[diagram: 15. 1-21 (G e1, p. 18). The Covenant Made. The Seed and The Land. (Repeated Alternation)]]
@@ -287,13 +293,13 @@ e2 |  |
     k1 | 1, 2 | Promise of seed to Abram.
       l | 3- | Prostration of Abram, and reverence.
     k2 | -3-8 | God's talk with Abram. His seed.
-  j | 9-14 | Circumcision. Command.
+      j | 9-14 | Circumcision. Command.
 f2 |  |
   i |  |
     k3 | 15, 16 | Promise of seed to Sarah.
       l | 17 | Prostration of Abraham, and joy.
     k4 | 18-22 | God's talk with Abraham. Sarah's seed.
-  j | 23-27 | Circumcision. Obedience.
+      j | 23-27 | Circumcision. Obedience.
 
 [[diagram: 18. 1-16 (G e3, p. 18). The Covenant Renewed (Introversion)]]
 [[anchor: Genesis 18:1-16]]
@@ -302,8 +308,8 @@ f2 |  |
 
 e3 |  |
   m | 1, 2 | Appearance of Jehovah. (Three men.)
-  n | 3-8 | Their reception by Abraham.
-  n | 9-15 | Their conference with Abraham.
+    n | 3-8 | Their reception by Abraham.
+    n | 9-15 | Their conference with Abraham.
   m | 16- | Departure of Jehovah. (Three men.)
 
 [[diagram: 18. -16—19. 38 (F, p. 18). Destruction of Sodom (Alternation)]]
@@ -511,26 +517,26 @@ C |  |
 
 F |  |
   A | 19 | The birth of Isaac.
-  B |  |
-    a | 20-22 | Marriage with Rebekah.
-      b | 23-28 | Isaac's two sons.
-  C | 29-34 | Esau and Jacob.
-  D |  |
-    E |  | 26. 1. Journey to Gerar.
-      F |  | 26. 2-5. Appearance of Jehovah.
-        G |  |
-          c |  | 26. 6-11. Isaac's wife.
-            d |  | 26. 12-22. Sep. from Abim.
-  D |  |
-    E |  | 26. 23. Journey to Beer-sheba.
-      F |  | 26. 24, 25. Appearance of Jehovah.
-        G |  |
-            d |  | 26. 26-33. Cov. with Abim.
-          c |  | 26. 34, 35. Esau's wives.
-  C |  | 27. 1—35. 15. Esau and Jacob.
-  B |  |
-    a |  | 35. 16-20. Death of Rachel.
-      b |  | 35. 21-26. Israel's twelve sons.
+    B |  |
+      a | 20-22 | Marriage with Rebekah.
+        b | 23-28 | Isaac's two sons.
+          C | 29-34 | Esau and Jacob.
+            D |  |
+              E |  | 26. 1. Journey to Gerar.
+                F |  | 26. 2-5. Appearance of Jehovah.
+                  G |  |
+                    c |  | 26. 6-11. Isaac's wife.
+                      d |  | 26. 12-22. Sep. from Abim.
+            D |  |
+              E |  | 26. 23. Journey to Beer-sheba.
+                F |  | 26. 24, 25. Appearance of Jehovah.
+                  G |  |
+                      d |  | 26. 26-33. Cov. with Abim.
+                    c |  | 26. 34, 35. Esau's wives.
+          C |  | 27. 1—35. 15. Esau and Jacob.
+    B |  |
+      a |  | 35. 16-20. Death of Rachel.
+        b |  | 35. 21-26. Israel's twelve sons.
   A |  | 35. 27-29. The death of Isaac.
 
 [[diagram: 27. 1—35. 15 (C, p. 36). Esau and Jacob (Introversion and Alternation)]]
@@ -543,18 +549,18 @@ C |  |
     J |  |
       e | 1-40 | Deception of father and brother by Jacob and Rebekah.
         f | 41 | Hatred of Esau.
-    K |  | 27. 42—28. 5. Departure of Jacob to Padan-aram.
-  I |  |
-    g |  | 28. 6-9. Esau's wives.
-      h |  | 28. 10-22. Jacob's Vision at Bethel.
-  I |  |
-    g |  | 29. 1—31. 55. Jacob's wives.
-      h |  | 32. 1, 2. Jacob's Vision at Mahanaim.
+          K |  | 27. 42—28. 5. Departure of Jacob to Padan-aram.
+            I |  |
+              g |  | 28. 6-9. Esau's wives.
+                h |  | 28. 10-22. Jacob's Vision at Bethel.
+            I |  |
+              g |  | 29. 1—31. 55. Jacob's wives.
+                h |  | 32. 1, 2. Jacob's Vision at Mahanaim.
   H |  |
     J |  |
         f |  | 32. 3—33. 17. Reconciliation of Esau.
       e |  | 33. 18—34. 31. Deception of Shechemites by Jacob's sons.
-    K |  | 35. 1-15. Return of Jacob to Padan-aram.
+        K |  | 35. 1-15. Return of Jacob to Padan-aram.
 
 [[diagram: 29. 1—31. 55 (g, p. 38). Jacob's Wives (Repeated Alternation)]]
 [[anchor: Genesis 29:1]]
@@ -699,11 +705,11 @@ e |  |
   i |  |
     l | 9-11 | The Butler's dream.
       m | 12, 13 | Its Interpretation.
-    k | 14, 15 | Joseph's request (made).
+        k | 14, 15 | Joseph's request (made).
   i |  |
     l | 16, 17 | The Baker's dream.
       m | 18-22 | Its Interpretation.
-    k | 23 | Joseph's request (forgotten).
+        k | 23 | Joseph's request (forgotten).
 
 [[diagram: 41. 1-57 (E2, p. 55). Joseph's Exaltation]]
 [[anchor: Genesis 41:1-57]]
@@ -750,22 +756,22 @@ n2 |  |
 D |  |
   F |  |
     t | 1, 2 | Commission to buy corn.
-    u |  |
-      z | 3 | Journey.
-        a | 4 | Benjamin left.
-      v | 5 | Arrival.
-        w | 6-24 | Meeting with Joseph.
-          x | 25, 26 | Dismissal.
-            y | 27-38 | Return.
+      u |  |
+        z | 3 | Journey.
+          a | 4 | Benjamin left.
+            v | 5 | Arrival.
+              w | 6-24 | Meeting with Joseph.
+                x | 25, 26 | Dismissal.
+                  y | 27-38 | Return.
   F |  |
     t |  | 43. 1, 2. Commission to buy corn.
-    u |  |
-        a |  | 43. 3-15-. Benjamin taken.
-      z |  | 43. -15-. Journey.
-      v |  | 43. -15. Arrival.
-        w |  | 43. 16-34. Meeting with Joseph.
-          x |  | 44. 1—45. 24. Dismissal.
-            y |  | 45. 25-28. Return.
+      u |  |
+          a |  | 43. 3-15-. Benjamin taken.
+          z |  | 43. -15-. Journey.
+            v |  | 43. -15. Arrival.
+              w |  | 43. 16-34. Meeting with Joseph.
+                x |  | 44. 1—45. 24. Dismissal.
+                  y |  | 45. 25-28. Return.
 
 [[diagram: 43. 3-5. The Introversion in this Colloquy]]
 [[anchor: Genesis 43:3-5]]
@@ -915,11 +921,11 @@ P |  |
 P |  |
   Q |  |
     U | 27 | Jacob's dwelling in Egypt.
-    V | 28 | Years of life (147); and dwelling (17).
-  W |  | 47. 29—49. 32. Charges.
+      V | 28 | Years of life (147); and dwelling (17).
+        W |  | 47. 29—49. 32. Charges.
   Q |  |
     U |  | 49. 33—50. 2. Jacob's death in Egypt.
-    V |  | 50. 3-14. Days of mourning.
+      V |  | 50. 3-14. Days of mourning.
 
 [[diagram: 47. 29—49. 32 (W, above). Jacob's Charges]]
 [[anchor: Genesis 47:29]]
