@@ -7,6 +7,7 @@
 # can't be a REF_RANGE, which is verses of one chapter; such a line keeps
 # its reference at the head of its TEXT instead, as printed. Where a
 # printed letter is missing, "·" stands in for it.
+# Parser limit: a line after a text line may step in only one level. In 1. 6-32. 47 the final F and in 6. 10-7. 26 the q4 print further in and are held one level in.
 
 [[diagram: The Structure of the Book as a Whole]]
 [[anchor: Deuteronomy 1:1]]
@@ -35,14 +36,14 @@ C |  |
       H |  |
         a |  | 4. 1—5. 33. Injunctions in Horeb. Retrospective.
           b |  | 6. 1—11. 25. Injunctions on entry. Prospective.
-        J |  |
-          c |  | 11. 26-28. Blessings and curses.
-            d |  | 11. 29-32. Gerizim and Ebal.
-              F |  | 12. 1—27. 10. Laws IN the Land.
+            J |  |
+              c |  | 11. 26-28. Blessings and curses.
+                d |  | 11. 29-32. Gerizim and Ebal.
+                  F |  | 12. 1—27. 10. Laws IN the Land.
   E |  |
-        J |  |
-            d |  | 27. 11-26. Gerizim and Ebal.
-          c |  | 28. 1-68. Blessings and curses.
+            J |  |
+              d |  | 27. 11-26. Gerizim and Ebal.
+              c |  | 28. 1-68. Blessings and curses.
       H |  |
         a |  | 29. 1-17. Injunctions plus Horeb. Retrospective.
           b |  | 29. 18—30. 20. Injunctions re Dispersion. Prospective.
@@ -214,15 +215,15 @@ b |  |
               k |  | 6. 8. "Thou shalt bind."
                 h |  | 6. 9. "Thou shalt write."
 [[group: Phylactery.]]
-    Q1 |  |
-      l1 |  | 6. 10—7. 26. Warnings.
-        m1 |  | 8. 1-9. Command to remember.
-    Q2 |  |
-      l2 |  | 8. 10-20. Warnings.
-        m2 |  | 9. 1-. Command to hear.
-    Q3 |  |
-      l3 |  | 9. -1—10. 11. Warnings.
-        m3 |  | 10. 12—11. 12. Command to obey.
+                  Q1 |  |
+                    l1 |  | 6. 10—7. 26. Warnings.
+                      m1 |  | 8. 1-9. Command to remember.
+                  Q2 |  |
+                    l2 |  | 8. 10-20. Warnings.
+                      m2 |  | 9. 1-. Command to hear.
+                  Q3 |  |
+                    l3 |  | 9. -1—10. 11. Warnings.
+                      m3 |  | 10. 12—11. 12. Command to obey.
 [[group: -]]
     P |  |
       e |  | 11. 13-17. "Ye shall hear."
@@ -258,7 +259,7 @@ l1 |  |
   n4 |  |
     o4 |  | 7. 12-. Hypothesis. Obedience.
       q4 |  | 7. -12-15. Blessing: "that."
-        p4 |  | 7. 16. Injunction. Not to spare.
+      p4 |  | 7. 16. Injunction. Not to spare.
   n5 |  |
     o5 |  | 7. 17. Hypothesis. Inability.
       p5 |  | 7. 18-21-. Injunction. Not to fear.
@@ -404,15 +405,15 @@ F |  |
   R |  |
     t |  | 12. 1. These statutes.
       u |  | 12. 2—14. 29. Sacred places and meats.
-  S1 |  | 15. 1—16. 17. Ecclesiastical laws (Sabbath, &c.).
-    T |  |
-      v |  | 16. 18—17. 13. Laws. Civil.
-        w |  | 17. 14-20. The KING.
-  S2 |  | 18. 1-8. Laws. Ecclesiastical (Levites, &c.).
-    T |  |
-        w |  | 18. 9-22. The PROPHET.
-      v |  | 19. 1—25. 19. Laws. Civil.
-  S3 |  | 26. 1-15. Laws. Ecclesiastical (Firstfruits).
+        S1 |  | 15. 1—16. 17. Ecclesiastical laws (Sabbath, &c.).
+          T |  |
+            v |  | 16. 18—17. 13. Laws. Civil.
+              w |  | 17. 14-20. The KING.
+        S2 |  | 18. 1-8. Laws. Ecclesiastical (Levites, &c.).
+          T |  |
+              w |  | 18. 9-22. The PROPHET.
+            v |  | 19. 1—25. 19. Laws. Civil.
+        S3 |  | 26. 1-15. Laws. Ecclesiastical (Firstfruits).
   R |  |
     t |  | 26. 16-19. These statutes.
       u |  | 27. 1-10. Sacred places and worship.
@@ -551,12 +552,12 @@ q1 |  |
   t |  |
     v | 7- | Case of poverty.
       w | -7- | Thy land.
-  u |  |
-    x | -7 | Warning.
-      y | 8 | Command.
-  u |  |
-    x | 9 | Warning.
-      y | 10 | Command.
+        u |  |
+          x | -7 | Warning.
+            y | 8 | Command.
+        u |  |
+          x | 9 | Warning.
+            y | 10 | Command.
   t |  |
     v | 11- | Cases of poverty.
       w | -11 | Thy land.
@@ -722,12 +723,12 @@ w |  |
     g | 13 | Command. Jehovah thy God
       h | 14 | Reason. Hearkening
 [[group: False prophet: heathen.]]
-    D |  |
-      i | 15- | "Like unto Moses"
-        k | -15-17 | Hearken. Command (positive)
-    D |  |
-      i | 18 | "Like unto Moses"
-        k | 19 | Hearken. Command (negative)
+        D |  |
+          i | 15- | "Like unto Moses"
+            k | -15-17 | Hearken. Command (positive)
+        D |  |
+          i | 18 | "Like unto Moses"
+            k | 19 | Hearken. Command (negative)
 [[group: THE PROPHET.]]
   C |  |
     l | 20- | Presumptuous prophet. Utterance
@@ -1069,14 +1070,14 @@ P1 |  |
   Q |  |
     g | 1 | Inheritance possessed.
       h | 2-5- | Command.
-  R |  |
-    i | -5 | Unworthiness of grace.
-      k | 6 | Egypt. Bondage.
-        l | 7- | Cry made.
-  R |  |
-        l | -7 | Cry heard.
-      k | 8 | Egypt. Deliverance.
-    i | 9 | Grace for the unworthy.
+        R |  |
+          i | -5 | Unworthiness of grace.
+            k | 6 | Egypt. Bondage.
+              l | 7- | Cry made.
+        R |  |
+              l | -7 | Cry heard.
+            k | 8 | Egypt. Deliverance.
+          i | 9 | Grace for the unworthy.
   Q |  |
       h | 10 | Obedience.
     g | 11 | Inheritance enjoyed.

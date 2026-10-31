@@ -6,6 +6,7 @@
 # A printed reference that reaches outside the diagram's anchor chapter
 # can't be a REF_RANGE, which is verses of one chapter; such a line keeps
 # its reference at the head of its TEXT instead, as printed.
+# Parser limit: a line after a text line may step in only one level. In the whole-book diagram the second C, and in 23. 1-44 the S bracket, print two steps in and are held one level in.
 
 [[diagram: The Structure of the Book as a Whole (Repeated Alternation and Introversion)]]
 [[anchor: Leviticus 1:1]]
@@ -13,15 +14,15 @@
 [[pdf-page: 1]]
 
 A1 |  | 1. 1—7. 38. THE OFFERINGS AND THEIR LAWS.
-B1 |  |
-  D |  | 8. 1—10. 20. PRIESTHOOD.
-    E |  | 11. 1—15. 33. CEREMONIAL LAWS (PROMULGATION).
-C |  | 16. 1-34. ISRAEL'S FAST (DAY OF ATONEMENT).
+  B1 |  |
+    D |  | 8. 1—10. 20. PRIESTHOOD.
+      E |  | 11. 1—15. 33. CEREMONIAL LAWS (PROMULGATION).
+        C |  | 16. 1-34. ISRAEL'S FAST (DAY OF ATONEMENT).
 A2 |  | 17. 1-16. THE OFFERINGS AND THEIR REQUIREMENTS.
-B2 |  |
-    E |  | 18. 1—20. 27. CEREMONIAL LAWS (PENALTIES).
-  D |  | 21. 1—22. 33. PRIESTHOOD.
-C |  | 23. 1—25. 55. JEHOVAH'S FEASTS.
+  B2 |  |
+      E |  | 18. 1—20. 27. CEREMONIAL LAWS (PENALTIES).
+    D |  | 21. 1—22. 33. PRIESTHOOD.
+      C |  | 23. 1—25. 55. JEHOVAH'S FEASTS.
 A3 |  | 26. 1—27. 34. THE OFFERERS AND THEIR CHARGES.
 
 [[diagram: 1. 1—7. 38 (A1, p. 131). The Offerings and their Laws (Introversion and Extended Alternation)]]
@@ -32,19 +33,19 @@ A3 |  | 26. 1—27. 34. THE OFFERERS AND THEIR CHARGES.
 A1 |  |
   D | 1, 2 | Introduction (General).
 [[group: -]]
-  x |  |
-    E | 3-17 | Burnt Offerings.
-      F |  | 2. 1-16. Meal Offerings.
-        G |  |
-          a |  | 3. 1-17. Peace Offerings.
-            b |  | 4. 1—6. 7. Sin Offerings.
+    x |  |
+      E | 3-17 | Burnt Offerings.
+        F |  | 2. 1-16. Meal Offerings.
+          G |  |
+            a |  | 3. 1-17. Peace Offerings.
+              b |  | 4. 1—6. 7. Sin Offerings.
 [[group: The Offerings.]]
-  x |  |
-    E |  | 6. 8-13. Burnt Offerings.
-      F |  | 6. 14-23. Meal Offerings.
-        G |  |
-            b |  | 6. 24—7. 10. Sin Offerings.
-          a |  | 7. 11-34. Peace Offerings.
+    x |  |
+      E |  | 6. 8-13. Burnt Offerings.
+        F |  | 6. 14-23. Meal Offerings.
+          G |  |
+              b |  | 6. 24—7. 10. Sin Offerings.
+            a |  | 7. 11-34. Peace Offerings.
 [[group: The Law of the Offerings.]]
   D |  | 7. 35-38. Conclusion (Particular).
 
@@ -325,17 +326,17 @@ D |  |
     G |  |
       a | 1-5 | Relations.
         b | 6 | Reason.
-    J |  |
-      c | 7- | Wife.
-        d | -7, 8 | Reason.
-    H | 9 | Daughter.
+          J |  |
+            c | 7- | Wife.
+              d | -7, 8 | Reason.
+                H | 9 | Daughter.
   F |  |
     G |  |
       a | 10-12- | Parents.
         b | -12 | Reason.
-    J |  |
-      c | 13-15- | Wife.
-        d | -15 | Reason.
+          J |  |
+            c | 13-15- | Wife.
+              d | -15 | Reason.
 
 [[diagram: 22. 1-16 (D, p. 163). Defilements (Uncleanness) (Repeated Alternation)]]
 [[anchor: Leviticus 22:1-16]]
@@ -451,17 +452,17 @@ B1 |  |
   C |  |
     E | 3 | The People. Obedience.
       F | 4-13 | Blessings.
-  D |  |
-    G1 | 14, 15 | Disobedience.
-      H1 | 16, 17 | Punishment.
-    G2 | 18- | Disobedience.
-      H2 | -18-20 | Punishment.
-    G3 | 21- | Disobedience.
-      H3 | -21, 22 | Punishment.
-    G4 | 23 | Disobedience.
-      H4 | 24-26 | Punishment.
-    G5 | 27 | Disobedience.
-      H5 | 28-39 | Punishment.
+        D |  |
+          G1 | 14, 15 | Disobedience.
+            H1 | 16, 17 | Punishment.
+          G2 | 18- | Disobedience.
+            H2 | -18-20 | Punishment.
+          G3 | 21- | Disobedience.
+            H3 | -21, 22 | Punishment.
+          G4 | 23 | Disobedience.
+            H4 | 24-26 | Punishment.
+          G5 | 27 | Disobedience.
+            H5 | 28-39 | Punishment.
   C |  |
     E | 40, 41 | The People. Repentance.
       F | 42-46 | Blessings.
@@ -488,26 +489,26 @@ a | 40, 42 | Obedience. Confession.
 B2 |  |
   J | 1 | Jehovah's command to Moses.
 [[group: -]]
-  K |  |
-    L1 |  |
-      c1 | 2-7 | Ability
-        d1 | 8 | Inability
+    K |  |
+      L1 |  |
+        c1 | 2-7 | Ability
+          d1 | 8 | Inability
 [[group: Personalty.]]
-      M1 |  |
-        e1 | 9, 10 | Clean
-          f1 | 11-13 | Unclean
+            M1 |  |
+              e1 | 9, 10 | Clean
+                f1 | 11-13 | Unclean
 [[group: Beasts.]]
-    L2 |  |
-      c2 | 14, 15 | Houses.
-        d2 | 16-25 | Fields.
+      L2 |  |
+        c2 | 14, 15 | Houses.
+          d2 | 16-25 | Fields.
 [[group: Property.]]
-      M2 |  |
-        e2 | 26 | Clean
-          f2 | 27 | Unclean
+            M2 |  |
+              e2 | 26 | Clean
+                f2 | 27 | Unclean
 [[group: Beasts.]]
-    L3 |  |
-      c3 | 28, 29 | Devoted
-        d3 | 30-33 | Tithes
+      L3 |  |
+        c3 | 28, 29 | Devoted
+          d3 | 30-33 | Tithes
 [[group: Property.]]
   J | 34 | Jehovah's command to Moses.
 [[group: -]]

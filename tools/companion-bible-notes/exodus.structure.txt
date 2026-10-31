@@ -326,12 +326,12 @@ a |  |
 
 b |  |
   e | 1, 2 | The Month.
-  f |  |
-    g | 3-11 | The Symbol.
-      h | 12, 13 | The Signification and Reason.
-  f |  |
-    g | 14-17- | The Symbol.
-      h | -17 | The Signification and Reason.
+    f |  |
+      g | 3-11 | The Symbol.
+        h | 12, 13 | The Signification and Reason.
+    f |  |
+      g | 14-17- | The Symbol.
+        h | -17 | The Signification and Reason.
   e | 18-20 | The Month.
 
 [[diagram: 12. 21-28 (b, p. 87). The Passover Communicated (Alternation)]]
@@ -437,13 +437,13 @@ A |  |
 
 g |  |
   a | 4, 5 | The Enemy overthrown.
-  b |  |
-    c | 6 | Thy right hand.
-      d | 7, 8 | Thou, Thee, Thy.
+    b |  |
+      c | 6 | Thy right hand.
+        d | 7, 8 | Thou, Thee, Thy.
   a | 9 | The Enemy's words.
-  b |  |
-      d | 10, 11 | Thou, Thy, Thee.
-    c | 12 | Thy right hand.
+    b |  |
+        d | 10, 11 | Thou, Thy, Thee.
+      c | 12 | Thy right hand.
 
 [[diagram: 14-16 (g, p. 93). Overthrow of Egyptians (Introversion)]]
 [[anchor: Exodus 15:14-16]]
@@ -607,13 +607,13 @@ a |  |
 
 C |  |
   D | 8 | To be remembered and kept by man.
-  E |  |
-    x | 9 | The six days for man's work.
-      y | 10 | Seventh for man's rest.
+    E |  |
+      x | 9 | The six days for man's work.
+        y | 10 | Seventh for man's rest.
 [[group: Man (command).]]
-  E |  |
-    x | 11- | Six days for Jehovah's work.
-      y | -11- | Seventh for Jehovah's rest.
+    E |  |
+      x | 11- | Six days for Jehovah's work.
+        y | -11- | Seventh for Jehovah's rest.
   D | -11 | Sabbath blessed and hallowed by Jehovah.
 [[group: God (reason).]]
 
@@ -663,13 +663,13 @@ E1 |  |
 
 e |  |
   g | 1-11 | Servitude.
-  h |  |
-    i | 12-14 | Violence.
-      j | 15 | Parents (Smiting).
+    h |  |
+      i | 12-14 | Violence.
+        j | 15 | Parents (Smiting).
   g | 16 | Servitude.
-  h |  |
-      j | 17 | Parents (Cursing).
-    i | 18-32 | Violence.
+    h |  |
+        j | 17 | Parents (Cursing).
+      i | 18-32 | Violence.
 
 [[diagram: 18-32 (i, p. 102). Violence: Relating to Persons (Extended Alternation)]]
 [[anchor: Exodus 21:18-32]]
@@ -858,12 +858,12 @@ F |  |
   V |  |
     f | 1 | Request of the People.
       g | 2 | Aaron's answer.
-  W |  |
-    h | 3, 4- | Idolatry purposed.
-      i | -4 | Jehovah's rejection.
-  W |  |
-    h | 5, 6 | Idolatry practised.
-      i | 7-10 | Jehovah's wrath.
+        W |  |
+          h | 3, 4- | Idolatry purposed.
+            i | -4 | Jehovah's rejection.
+        W |  |
+          h | 5, 6 | Idolatry practised.
+            i | 7-10 | Jehovah's wrath.
   V |  |
     f | 11-13 | Request of Moses.
       g | 14 | Jehovah's answer.
@@ -899,12 +899,12 @@ X |  |
 
 Z |  |
   n | 25 | Idolatry.
-  o |  |
-    p | 26- | Call of Moses.
-      q | -26 | Levites' response.
-  o |  |
-    p | 27 | Command of Moses.
-      q | 28 | Levites' obedience.
+    o |  |
+      p | 26- | Call of Moses.
+        q | -26 | Levites' response.
+    o |  |
+      p | 27 | Command of Moses.
+        q | 28 | Levites' obedience.
   n | 29, 30 | Atonement.
 
 [[diagram: 32. 31—33. 3 (X5, p. 94). Moses' Fifth Ascent (Alternations)]]

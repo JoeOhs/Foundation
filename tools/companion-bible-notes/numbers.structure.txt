@@ -12,6 +12,7 @@
 
 # B3's opening verse is damaged on the scan ("27. 1?"); the 27. 12—31. 54
 # heading on p. 222 gives 27. 12. The Epilogue is printed below a rule, with no letter.
+# Parser limit: a line after a text line may step in only one level. In 5. 1-9. 23 the second D and in 1-29 (r) the second v print two steps in and are held one level in.
 [[diagram: The Structure of the Book as a Whole (Repeated Alternation)]]
 [[anchor: Numbers 1:1]]
 [[pdf: 4. Numbers_text.pdf]]
@@ -62,35 +63,35 @@ A |  |
 B |  |
   e | 1, 2 | Command.
 [[group: -]]
-  f1 |  |
-    · | 3, 4 | Judah
-    · | 5, 6 | Issachar
-    · | 7, 8 | Zebulon
+    f1 |  |
+      · | 3, 4 | Judah
+      · | 5, 6 | Issachar
+      · | 7, 8 | Zebulon
 [[group: East.]]
-    g1 | 9 | Total.
+      g1 | 9 | Total.
 [[group: -]]
-  f2 |  |
-    · | 10, 11 | Reuben
-    · | 12, 13 | Simeon
-    · | 14, 15 | Gad
+    f2 |  |
+      · | 10, 11 | Reuben
+      · | 12, 13 | Simeon
+      · | 14, 15 | Gad
 [[group: South.]]
-    g2 | 16 | Total.
-      h1 | 17 | Levites.
+      g2 | 16 | Total.
+        h1 | 17 | Levites.
 [[group: -]]
-  f3 |  |
-    · | 18, 19 | Ephraim
-    · | 20, 21 | Manasseh
-    · | 22, 23 | Benjamin
+    f3 |  |
+      · | 18, 19 | Ephraim
+      · | 20, 21 | Manasseh
+      · | 22, 23 | Benjamin
 [[group: West.]]
-    g3 | 24 | Total.
+      g3 | 24 | Total.
 [[group: -]]
-  f4 |  |
-    · | 25, 26 | Dan
-    · | 27, 28 | Asher
-    · | 29-31 | Naphtali
+    f4 |  |
+      · | 25, 26 | Dan
+      · | 27, 28 | Asher
+      · | 29-31 | Naphtali
 [[group: North.]]
-    g4 | 32 | Total.
-      h2 | 33 | Levites.
+      g4 | 32 | Total.
+        h2 | 33 | Levites.
   e | 34 | Obedience.
 [[group: -]]
 
@@ -184,11 +185,11 @@ B1 |  |
   C |  |
     a |  | 5. 1—6. 21. Laws for the People (Leprosy, &c.).
       b |  | 6. 22-27. Laws for the priests (Blessing, &c.).
-  D |  | 7. 1-89. Event (dedication of altar).
+        D |  | 7. 1-89. Event (dedication of altar).
   C |  |
       b |  | 8. 1-26. Laws for priests and Levites.
     a |  | 9. 1-14. Laws for People (Passover).
-  D |  | 9. 15-23. Event (erection of tabernacle).
+      D |  | 9. 15-23. Event (erection of tabernacle).
 
 [[diagram: 5. 1—6. 21 (a, above). Laws for the People]]
 [[anchor: Numbers 5:1]]
@@ -637,15 +638,15 @@ i |  |
   q |  |
     s | 1-4 | Commandment.
       t | 5 | Intention announced.
-    r |  |
-      u | 6, 7 | Obedience.
-        v | 8, 9 | Intention. Effected.
+        r |  |
+          u | 6, 7 | Obedience.
+            v | 8, 9 | Intention. Effected.
   q |  |
     s | 10- | Commandment.
       t | -10 | Intention. Predicted.
-    r |  |
-      u | 11 | Obedience.
-        v | 12, 13 | Intention. Accomplished.
+        r |  |
+          u | 11 | Obedience.
+            v | 12, 13 | Intention. Accomplished.
 
 [[diagram: 18. 1—19. 22 (M2, p. 195). Laws for Priests and People (Division)]]
 [[anchor: Numbers 18:1]]
@@ -988,11 +989,11 @@ e2 |  |
   g |  |
     i | 21- | Negative. Absence of iniquity.
       k | -21, 22- | Positive. Presence of God.
-    h | -22 | STRENGTH (Simile: Buffalo).
+        h | -22 | STRENGTH (Simile: Buffalo).
   g |  |
     i | 23- | Negative. Powerlessness of enemies.
       k | -23 | Positive. Power of God.
-    h | 24 | VICTORY (Simile: Lion).
+        h | 24 | VICTORY (Simile: Lion).
 
 [[diagram: 23. 27—24. 25 (t2, p. 215). Without Enchantments (Extended Alternation. Corresponding with t1, p. 215)]]
 [[anchor: Numbers 23:27]]

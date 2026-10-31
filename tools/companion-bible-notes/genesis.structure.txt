@@ -17,6 +17,7 @@
 # A printed reference that reaches outside the diagram's anchor chapter
 # (e.g. "2. 4—50. 26") can't be a REF_RANGE, which is verses of one chapter;
 # such a line keeps its reference at the head of its TEXT instead, as printed.
+# Parser limit: a line after a text line may step in only one level. In 36. 1-8 the second c prints two steps right of a, so it is held one level in.
 
 [[diagram: The Structure of the Book as a Whole (Division)]]
 [[anchor: Genesis 1:1]]
@@ -50,7 +51,7 @@ A2 |  |
           H |  | THE SONS OF NOAH (10. 1—11. 9).
             I |  | SHEM (11. 10—11. 26).
 [[group: MANKIND IN GENERAL]]
-  D |  | TERAH (11. 27—25. 11).
+              D |  | TERAH (11. 27—25. 11).
 [[group: -]]
   C |  |
     E |  | ISHMAEL (25. 12-18).
@@ -146,13 +147,13 @@ J3 |  |
 [[pdf-page: 17]]
 
 A | 1, 2 | Unfallen Adam: a "son of God" (Luke 3. 38).
-B | 3-5 | Fallen Adam, and his years. The total 930, and the first 130.
-C | 6-27 | The progeny of Adam, and their deaths.
-D | 28-32 | Noah, and his promise of "comfort".
+  B | 3-5 | Fallen Adam, and his years. The total 930, and the first 130.
+    C | 6-27 | The progeny of Adam, and their deaths.
+      D | 28-32 | Noah, and his promise of "comfort".
 A |  | 6. 1, 2. The fallen angels: "sons of God" (see Ap. 23).
-B |  | 6. 3. Fallen Adam, and his years. The total 930, and the last 120.
-C |  | 6. 4-7. The progeny of the fallen angels, and their threatened destruction. The Nephilim (see Ap. 25).
-D |  | 6. 8. Noah, and his possession of "grace".
+  B |  | 6. 3. Fallen Adam, and his years. The total 930, and the last 120.
+    C |  | 6. 4-7. The progeny of the fallen angels, and their threatened destruction. The Nephilim (see Ap. 25).
+      D |  | 6. 8. Noah, and his possession of "grace".
 
 [[diagram: 6. 9—9. 29 (G, p. 1). The Generations of Noah (Introversion)]]
 [[anchor: Genesis 6:9]]
@@ -160,14 +161,14 @@ D |  | 6. 8. Noah, and his possession of "grace".
 [[pdf-page: 18]]
 
 A | 9 | Noah before the Flood.
-B | 11 | Noah's Family.
-C | 11-13 | The Earth corrupt.
-D | 14-22 | The making of the Ark.
-E |  | 7. 1-24. Noah entering the Ark.
-E |  | 8. 1-19. Noah leaving the Ark.
-D |  | 8. 20. The building of the Altar.
-C |  | 8. 21—9. 17. The Earth replenished.
-B |  | 9. 18-27. Noah's Family.
+  B | 11 | Noah's Family.
+    C | 11-13 | The Earth corrupt.
+      D | 14-22 | The making of the Ark.
+        E |  | 7. 1-24. Noah entering the Ark.
+        E |  | 8. 1-19. Noah leaving the Ark.
+      D |  | 8. 20. The building of the Altar.
+    C |  | 8. 21—9. 17. The Earth replenished.
+  B |  | 9. 18-27. Noah's Family.
 A |  | 9. 28, 29. Noah after the Flood.
 
 [[diagram: 8. 21—9. 17 (C, p. 11). The Earth Replenished (Double Introversion)]]
@@ -178,14 +179,14 @@ A |  | 9. 28, 29. Noah after the Flood.
 C |  |
   F | 21, 22 | God's covenant with the earth.
 [[group: -]]
-  G |  |
-    a |  | 9. 1. Fruitfulness committed to man.
-      b |  | 9. 2. Power committed to man.
-        c |  | 9. 3. Change in Ordinance (nourishment).
-  G |  |
-        c |  | 9. 4, 5. Change in Ordinance (punishment).
-      b |  | 9. 6. Power committed to man.
-    a |  | 9. 7. Fruitfulness committed to man.
+    G |  |
+      a |  | 9. 1. Fruitfulness committed to man.
+        b |  | 9. 2. Power committed to man.
+          c |  | 9. 3. Change in Ordinance (nourishment).
+    G |  |
+          c |  | 9. 4, 5. Change in Ordinance (punishment).
+        b |  | 9. 6. Power committed to man.
+      a |  | 9. 7. Fruitfulness committed to man.
 [[group: God's blessing for Noah.]]
   F |  | 9. 8-17. God's covenant with Noah.
 
@@ -231,9 +232,9 @@ A2 |  |
 [[pdf-page: 24]]
 
 A1 |  | 11. 31—22. 19. Abram's history: From his Call, to his Trial. (Isaac's birth.)
-B1 |  | 22. 20-24. The Posterity of Nahor.
+  B1 |  | 22. 20-24. The Posterity of Nahor.
 A2 |  | 23, 24. Abram's history. His old age. (Isaac's marriage.)
-B2 |  | 25. 1-4. The Posterity of Keturah.
+  B2 |  | 25. 1-4. The Posterity of Keturah.
 A3 |  | 25. 5-11. Abram's history. Death. (Isaac's inheritance.)
 
 [[diagram: 11. 31—22. 19 (A1, p. 17). Abram's History (Call to Trial) (Introversions and Alternations)]]
@@ -398,12 +399,12 @@ c |  |
 
 D |  |
   d | 22-24 | Sojourning. Commencement.
-  x |  |
-    e | 25, 26 | The well taken.
-      f | 27 | Covenant.
-  x |  |
-    e | 28-31 | The well digged.
-      f | 32, 33 | Covenant.
+    x |  |
+      e | 25, 26 | The well taken.
+        f | 27 | Covenant.
+    x |  |
+      e | 28-31 | The well digged.
+        f | 32, 33 | Covenant.
   d | 34 | Sojourning. Continued.
 
 [[diagram: 22. 1-19 (C, p. 18). Abraham's Trial (Repeated Alternation)]]
@@ -491,12 +492,12 @@ n1 |  |
 
 n2 |  |
   w | -54- | The return desired.
-  x |  |
-    y | -54 | Request for departure made.
-      z | 55 | Departure hindered.
-  x |  |
-    y | 56 | Request for departure renewed.
-      z | 57-60 | Departure expedited.
+    x |  |
+      y | -54 | Request for departure made.
+        z | 55 | Departure hindered.
+    x |  |
+      y | 56 | Request for departure renewed.
+        z | 57-60 | Departure expedited.
   w | 61-67 | The return consummated.
 
 [[diagram: 25. 12-18 (C, p. 1). The Generations of Ishmael (Alternation)]]
@@ -598,14 +599,14 @@ f |  |
 
 G |  |
   A | 1 | Esau. In Canaan.
-  B |  |
-    a | 2- | Adah.
-      b | -2 | Aholibamah.
-        c | 3 | Bashemath.
-  B |  |
-    a | 4- | Adah's son, Eliphaz.
-      c | -4 | Bashemath's son, Reuel.
-      b | 5 | Aholibamah's sons, Jeush, &c.
+    B |  |
+      a | 2- | Adah.
+        b | -2 | Aholibamah.
+          c | 3 | Bashemath.
+    B |  |
+      a | 4- | Adah's son, Eliphaz.
+        c | -4 | Bashemath's son, Reuel.
+        b | 5 | Aholibamah's sons, Jeush, &c.
   A | 6-8 | Esau. Removal from Canaan.
 
 [[diagram: 36. 9-43 (H, p. 1). The Generations of Esau (in Mount Seir) (Introversion and Repeated Alternation)]]
@@ -615,16 +616,16 @@ G |  |
 
 H |  |
   A | 9 | Sons of Esau (Edom).
-  B |  |
-    a1 | 10- | Eliphaz, Adah's son.
-      b1 | -10 | Reuel, Bashemath's son.
-    a2 | 11, 12 | Sons of Eliphaz.
-      b2 | 13 | Sons of Reuel.
-        C | 14 | Jeush, &c., Aholibamah's sons.
-  B |  |
-    a3 | 15, 16 | Dukes of Eliphaz (Adah).
-      b3 | 17 | Dukes of Reuel (Bashemath).
-        C | 18 | Dukes of Jeush (Aholibamah).
+    B |  |
+      a1 | 10- | Eliphaz, Adah's son.
+        b1 | -10 | Reuel, Bashemath's son.
+      a2 | 11, 12 | Sons of Eliphaz.
+        b2 | 13 | Sons of Reuel.
+          C | 14 | Jeush, &c., Aholibamah's sons.
+    B |  |
+      a3 | 15, 16 | Dukes of Eliphaz (Adah).
+        b3 | 17 | Dukes of Reuel (Bashemath).
+          C | 18 | Dukes of Jeush (Aholibamah).
   A | 20-43 | Dukes of Edom, &c.
 
 [[diagram: 37. 1—50. 26 (I, p. 1). The Generations of Jacob (Repeated Alternation)]]
@@ -900,17 +901,17 @@ A3 |  |
 
 P |  |
   R1 | 28 | Jacob's arrival in Goshen accomplished.
-  X1 |  |
-    S | 29, 30 | Jacob's meeting with Joseph.
-      T |  |
-        o | 31, 32 | Presentation planned.
-          p | 33, 34 | Directions given.
+    X1 |  |
+      S | 29, 30 | Jacob's meeting with Joseph.
+        T |  |
+          o | 31, 32 | Presentation planned.
+            p | 33, 34 | Directions given.
   R2 |  | 47. 1. Jacob's arrival in Goshen announced.
-  X2 |  |
-      T |  |
-        o |  | 47. 2. Presentation made.
-          p |  | 47. 3-6. Directions followed.
-    S |  | 47. 7-10. Jacob's meeting with Pharaoh.
+    X2 |  |
+        T |  |
+          o |  | 47. 2. Presentation made.
+            p |  | 47. 3-6. Directions followed.
+      S |  | 47. 7-10. Jacob's meeting with Pharaoh.
   R3 |  | 47. 11, 12. Jacob's settlement in Rameses.
 
 [[diagram: 47. 27—50. 13 (P, p. 66). Israelites (Alternation and Introversion)]]
@@ -1005,10 +1006,10 @@ B3 |  |
 
 C |  |
   D | 24- | Death approaching.
-  E |  |
-    y | -24 | Assurance of return to Canaan.
-      z | 25- | Oath.
-  E |  |
-    y | -25- | Assurance of return to Canaan.
-      z | -25 | Oath.
+    E |  |
+      y | -24 | Assurance of return to Canaan.
+        z | 25- | Oath.
+    E |  |
+      y | -25- | Assurance of return to Canaan.
+        z | -25 | Oath.
   D | 26 | Death experienced.
