@@ -7,6 +7,10 @@
 # can't be a REF_RANGE, which is verses of one chapter; such a line keeps
 # its reference at the head of its TEXT instead, as printed. Where a
 # printed letter is missing, "·" stands in for it.
+#
+# 4. 1-9: the third y prints one step deeper than here; the parser allows
+# only one step after a text line.
+# 11. 10-15 likewise: the second Z prints one step deeper than here.
 
 [[diagram: The Structure of the Book as a Whole (Introversion)]]
 [[anchor: Joshua 1:1]]
@@ -128,14 +132,14 @@ E1 |  |
         p |  | 3. 8. Commands to Priests.
           q |  |
             r |  | 3. 9-17. Cutting off of the waters.
-            s |  | 4. 1-10. Memorial.
+              s |  | 4. 1-10. Memorial.
   F |  |
     n |  | 4. 11-13. The Ark going before.
       o |  | 4. 14. Joshua magnified. (Performance.)
         p |  | 4. 15-17. Commands to Priests.
           q |  |
             r |  | 4. 18, 19. Return of the waters.
-            s |  | 4. 20-24. Memorial.
+              s |  | 4. 20-24. Memorial.
 
 [[diagram: 3. 9—4. 10 (r, p. 293). Cutting Off, and Memorial (Alternation)]]
 [[anchor: Joshua 3:9]]
@@ -177,8 +181,8 @@ t |  |
         y2 | 6, 7 | The Memorial.
   x3 |  |
       a3 | 8- | Twelve stones.
-        z3 | -8- | Twelve men.
-          y3 | -8, 9 | The Place.
+    z3 | -8- | Twelve men.
+      y3 | -8, 9 | The Place.
 
 [[diagram: 13-15 (C, p. 292). Jehovah's One Captain (Repeated Alternation)]]
 [[anchor: Joshua 5:13-15]]
@@ -303,6 +307,7 @@ C |  |
 
 L |  |
   Q | 1, 2 | The Promise.
+[[group: -]]
     R |  |
       s | 3, 4 | The Ambush.
         t | 5 | The Residue and Decoy
@@ -779,12 +784,12 @@ D |  |
     n | 2 | Advancing age.
       o | 3 | Appeal to Jehovah's faithfulness.
         p | 4 | Division of the land. Accomplished.
-    F |  |
-      q | 5 | Promise.
-        r | 6-8 | Exhortation.
-    F |  |
-      q | 9, 10 | Promise.
-        r | 11-13 | Exhortation.
+          F |  |
+            q | 5 | Promise.
+              r | 6-8 | Exhortation.
+          F |  |
+            q | 9, 10 | Promise.
+              r | 11-13 | Exhortation.
   E |  |
     n | 14- | Approaching death.
       o | -14 | Appeal to Jehovah's goodness.

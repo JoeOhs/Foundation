@@ -4,6 +4,13 @@
 # books); [[pdf-page:]] is the page of that file each diagram is on.
 # Notation: README.md here. The diagrams on p. 366 cover both books and
 # are kept here, the book they open.
+#
+# Where print steps two levels after a text line the parser allows one, so
+# these sit one level in from print: 13. 3-22 second i; 15. -13-31 each S;
+# 27. 5—2 Sam. 1. 27 second D.
+#
+# Headings corrected from their own lines: 20. -1-42 prints "(H, above)"
+# for I, and -1-4 prints "1-4".
 
 [[diagram: The Structure of the Two Books as a Whole. The Whole (Division)]]
 [[anchor: 1 Samuel 1:1]]
@@ -225,9 +232,9 @@ H |  |
   J |  |
     a |  | 5. 1-12. Captivity in Philistia.
       b |  | 6. 1. Duration. Seven months.
-  K |  | 6. 2-16. Removal to Beth-shemesh.
-    L |  | 6. 17, 18. Lords of Philistines.
-  K |  | 6. 19, 20. Judgment at Beth-shemesh.
+        K |  | 6. 2-16. Removal to Beth-shemesh.
+          L |  | 6. 17, 18. Lords of Philistines.
+        K |  | 6. 19, 20. Judgment at Beth-shemesh.
   J |  |
     a |  | 6. 21—7. 1. Captivity of Ark ended.
       b |  | 7. 2-. Duration. Twenty years.
@@ -499,14 +506,14 @@ H1 |  |
     g | 3, 4 | Saul's assemblage of Israel.
       h |  |
         j | 5- | The Philistines. Number.
-        k | -5 | Encampment at Michmash.
-          i | 6, 7 | Israel. Distress.
-            K | 8 | Delay of Samuel.
-            K | 9-15- | Sin of Saul.
+          k | -5 | Encampment at Michmash.
+            i | 6, 7 | Israel. Distress.
+              K | 8 | Delay of Samuel.
+              K | 9-15- | Sin of Saul.
   J2 |  |
     g | -15, 16- | Saul's assemblage of Israel.
       h |  |
-        k | -16 | Encampment at Michmash.
+          k | -16 | Encampment at Michmash.
         j | 17, 18 | The Philistines. Number.
           i | 19-22 | Israel. Disarmament.
 
@@ -595,7 +602,7 @@ F |  |
   w |  |
     y | 47, 48 | Wars.
       z | 49, 50- | Family.
-  x | -50 | Abner. Chief captain.
+        x | -50 | Abner. Chief captain.
   w |  |
       z | 51 | Kindred.
     y | 52 | Wars.
@@ -885,26 +892,26 @@ V |  |
       q1 |  | 19. -10-. Failure.
         r1 |  | 19. -10. David's escape.
 [[group: Personal (I). Thwarted by David.]]
-    H1 |  |
-      s1 |  | 19. 11-. Saul's second attempt.
-        t1 |  | 19. -11-13. Failure. Michal's rescue.
-      s2 |  | 19. 14-. Saul's third attempt.
-        t2 |  | 19. -14. Failure. Michal's ruse.
-      s3 |  | 19. 15. Saul's fourth attempt.
-        t3 |  | 19. 16. Failure. Michal's deception.
+          H1 |  |
+            s1 |  | 19. 11-. Saul's second attempt.
+              t1 |  | 19. -11-13. Failure. Michal's rescue.
+            s2 |  | 19. 14-. Saul's third attempt.
+              t2 |  | 19. -14. Failure. Michal's ruse.
+            s3 |  | 19. 15. Saul's fourth attempt.
+              t3 |  | 19. 16. Failure. Michal's deception.
 [[group: Messengers: three attempts thwarted by human agency.]]
   G2 |  |
     p2 |  | 19. 17-. Saul's fifth attempt.
       q2 |  | 19. -17. Failure.
         r2 |  | 19. 18. David's escape.
 [[group: Personal (II). Thwarted by David.]]
-    H2 |  |
-      s4 |  | 19. 19, 20-. Saul's sixth attempt.
-        t4 |  | 19. -20. Failure. Spirit of God.
-      s5 |  | 19. 21-. Saul's seventh attempt.
-        t5 |  | 19. -21-. Failure. Spirit of God.
-      s6 |  | 19. -21-. Saul's eighth attempt.
-        t6 |  | 19. -21. Failure. Spirit of God.
+          H2 |  |
+            s4 |  | 19. 19, 20-. Saul's sixth attempt.
+              t4 |  | 19. -20. Failure. Spirit of God.
+            s5 |  | 19. 21-. Saul's seventh attempt.
+              t5 |  | 19. -21-. Failure. Spirit of God.
+            s6 |  | 19. -21-. Saul's eighth attempt.
+              t6 |  | 19. -21. Failure. Spirit of God.
 [[group: Messengers: three attempts thwarted by Divine agency.]]
   G3 |  |
     p3 |  | 19. 22, 23-. Saul's ninth attempt.
@@ -1115,10 +1122,10 @@ U |  |
           Y | 13 | Resentment of David.
             Z |  |
               c | 14-17 | Report of David to Abigail.
-              d | 18-20 | Abigail's present prepared.
+                d | 18-20 | Abigail's present prepared.
           Y | 21, 22 | Resentment of David.
             Z |  |
-              d | 23-31 | Abigail's present presented.
+                d | 23-31 | Abigail's present presented.
               c | 32-35 | Answer of David to Abigail.
     X |  |
       a | 36-38 | Nabal's death.
@@ -1181,7 +1188,7 @@ P |  |
   C |  |
     E |  | 27. 5-12. Ziklag. Possessed by David.
       F |  | 28. 1, 2. Philistines and David.
-      D |  | 28. 3-25. Saul's sin.
+        D |  | 28. 3-25. Saul's sin.
   C |  |
       F |  | 29. 1-11. Philistines and David.
     E |  | 30. 1-31. Ziklag. Repossessed by David.
@@ -1208,10 +1215,10 @@ D |  |
   o1 | 3 | Familiar spirits. Owner put away.
     p |  |
       q | 4, 5 | Saul's fear. (Of Philistines.)
-      r | 6 | No answer from Jehovah.
+        r | 6 | No answer from Jehovah.
   o2 | 7-14 | Familiar spirit. Woman sought.
     p |  |
-      r | 15-19 | Answer from familiar spirit.
+        r | 15-19 | Answer from familiar spirit.
       q | 20 | Saul's fear. (Of Jehovah.)
   o3 | 21-25 | Familiar spirit. Woman spared.
 

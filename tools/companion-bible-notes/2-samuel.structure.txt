@@ -3,6 +3,9 @@
 # thecompanionbible_202504_pdf/9. Samuel I-II_text.pdf, which holds both
 # books). Notation: README.md here. The Structures of the two books as a
 # whole are in 1-samuel.structure.txt.
+#
+# 17. 24—19. 8: the page heads this "17. 24—18. 5"; the range here follows
+# the diagram's own O1, P, O2 lines.
 
 [[diagram: 2 Sam. 1. 1-27 (K2, p. 408). Report of Battle (Alternation)]]
 [[anchor: 2 Samuel 1:1-27]]
@@ -159,7 +162,7 @@ B |  |
   C |  |
     x | 1 | Ish-bosheth's weakness.
       y | 2, 3 | His two captains. Description.
-  D | 4 | Mephibosheth.
+        D | 4 | Mephibosheth.
   C |  |
     x | 5-8 | Ish-bosheth's murder.
       y | 9-12 | His two captains. Execution.
@@ -174,14 +177,14 @@ C2 |  |
     F |  |
       H |  | 6. 1—7. 29. Worship.
         J |  | 8. 1-14. David's mighty acts.
-    G |  |
-      K |  | 8. 15-18. David's officers.
-        L |  | 9. 1—10. 5. David's kindness.
-          M |  | 10. 6—20. 22. Wars and events.
-    G |  |
-      K |  | 20. 23-26. David's officers.
-        L |  | 21. 1-14. David's zeal.
-          M |  | 21. 15-22. Wars and events.
+          G |  |
+            K |  | 8. 15-18. David's officers.
+              L |  | 9. 1—10. 5. David's kindness.
+                M |  | 10. 6—20. 22. Wars and events.
+          G |  |
+            K |  | 20. 23-26. David's officers.
+              L |  | 21. 1-14. David's zeal.
+                M |  | 21. 15-22. Wars and events.
     F |  |
       H |  | 22. 1—23. 7. Worship.
         J |  | 23. 8-39. David's mighty men.
@@ -651,8 +654,8 @@ J |  |
     n | 1-6- | Machinations.
       o | -6 | Their success.
 [[group: Treason (secret).]]
-    m | 7, 8 | Request.
-    m | 9 | Permission.
+        m | 7, 8 | Request.
+        m | 9 | Permission.
 [[group: Departure of Absalom.]]
   l |  |
     n | 10-12 | Machinations.
@@ -1113,7 +1116,7 @@ Z |  |
     w3 | 11 | Shammah.
       x3 | 12 | His achievement.
 [[group: First three.]]
-    B | 13-17 | Three together.
+        B | 13-17 | Three together.
 [[group: -]]
   A |  |
     w4 | 18- | Abishai.
