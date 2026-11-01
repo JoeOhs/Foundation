@@ -1,0 +1,565 @@
+# The Companion Bible (E. W. Bullinger, 1913) — 2 Kings
+# Marginal (side) notes, to be read alongside the KJV text.
+#
+# All 25 chapters, printed pp. 489-530. Method as for 1 Kings; the notes
+# on both books open 1-kings.notes.txt.
+#
+# Left as printed (likely slips, not provable from the page):
+#   - 19:35 "Cp. 37. 36" (Isa. 37. 36 is meant).
+#   - 23:13 "Zech. 16. 4" (Zechariah 14 has 21 verses; 16 does not exist).
+#
+# Checked as for 1 Kings: pages 44-49, 70, 72, 74 and 78 re-read; the
+# flagged numbers on them compared; the other flags as first transcribed. In-app, reference, appendix, scan and hover checks passed; annotating a line was not tested.
+
+1:1 | Moab rebelled. Moab had been subdued by David (2 Sam. 8. 2; 23. 20); and when the kingdom was divided it passed to Israel. It was greatly oppressed by Omri and Ahab, and, on the death of the latter (cp. 3. 5), Mesha, king of Moab, rebelled. See the record of the event on "the Moabite stone". Ap. 54. The verse is introduced here to complete the symmetry of the introversion. See "G" in the Structure above. after. The inscription on the Moabite stone leaves the exact date indefinite. Line five, "Israel perished", may refer to the death of Ahab.
+1:2 | 2-16 (F, above). AHAZIAH. PERSONAL. EVIL-DOING. (Introversion and Extended Alternation.) lattice = network or balustrade, which protected the open window of the upper chamber. Cp. Judg. 3. 20; 5. 28. 1 Kings 17. 19. 2 Kings 4. 10. Baal-zebub = Lord of flies. Later Jews polluted it by changing it to Beel-zebul (Lord of dung or dunghills). In Matt. 12. 24 it is in Greek Baal-zebul = lord of abominable idols; the prince of idols and idolatry; the worst and chief of all wickedness. Imagine the blasphemy. Ekron. One of the five Philistine cities. Josh. 13. 3.
+1:3 | Angel of the LORD. See note on Ex. 3. 2. He who directed Moses directs Elijah. the LORD. Heb. Jehovah. Ap. 4. II. Elijah = my GOD is JAH. See Ap. 4. III. God. Heb. Elohim. Ap. 4. I.
+1:4 | shalt surely die. Same as Gen. 2. 17.
+1:6 | man. Heb. 'ish. Ap. 14. II.
+1:8 | hairy = clad in a garment consisting of a skin. Prophets wore coarse clothing (Zech. 13. 4. Matt. 3. 4). girdle of leather. Worn by Palestine peasants to-day.
+1:9 | behold. Fig. Asterismos. Ap. 6. man of God. The people's name for a prophet. See Ap. 49.
+1:10 | let fire come down. Quoted in Luke 9. 54.
+1:12 | unto them. Some codices, with Sept. and Syr., read "unto him". fire of God. Occurs only here and Job 1. 16. Some codices, with Aram., Sept., and Vulg., omit "of God", as in v. 10.
+1:13 | life = soul. Heb. nephesh. Ap. 13.
+1:14 | burnt up = consumed, as in vv. 10, 12.
+1:16 | is it not ... ? Fig. Erotesis (Ap. 6), or "was it because", &c.
+2:1 | 2. 1-25 (D, p. 488). ELIJAH. TRANSLATION. (Alternation.) the LORD. Heb. Jehovah. Ap. 4. II. heaven = heavens, and elsewhere. Elisha = my God [is] salvation. See his call (1 Kings 19. 16) ten years before. from Gilgal. The reverse route taken by Israel on entering the Land.
+2:2 | 2-24 (d, above). TRANSLATION EFFECTED. (Introversion.) thy soul = thyself. Heb. nephesh. Ap. 13. down. Therefore Gilgal in v. 1 cannot be the well-known Gilgal near Jericho, but another between Tibneh and Shiloh. See 4. 38. Gilgal = circle; and there may have been several such.
+2:3 | from thy head = from over thee: "head," put by Fig. Synecdoche (of Part), Ap. 6, for himself.
+2:6 | 6-18 (h, above). JORDAN. TRANSLATION. (Introversion.)
+2:7 | men. Heb. 'ish. Ap. 14. II.
+2:9 | double portion. See note on v. 15. spirit. Heb. ruach. Ap. 9. Put by Fig. Metonymy (of Cause) for the gifts and operations of the Spirit of God.
+2:10 | nevertheless. The verse needs no italics. see = clearly see.
+2:11 | a whirlwind. Not a fiery chariot, according to a certain hymn. Cp. v. 1.
+2:12 | and. Note the Fig. Polysyndeton (Ap. 6) in v. 12. My father. Fig. Epizeuxis. Ap. 6. The repetition = my revered, or beloved father.
+2:14 | Where ... ? Fig. Erotesis. Ap. 6. the LORD God = Jehovah Elohim; or, Where is Jehovah the God of Elijah? After this the Heb. text has 'aph hu' = "even he". The Vulg. reads this as the end of the question. But the Massorites, by the accent (athnach), throw it on to the next sentence, "and when even he smote the waters", &c. they parted. The first of sixteen miracles. See note on v. 15. over. The 19th Seder ends here. See note on p. 366.
+2:15 | doth rest = hath rested. Cp. 1 Pet. 4. 14. Rest in "double portion" according to v. 9. Seen in the fact that Elijah wrought eight miracles and Elisha sixteen, and all were parables in action.
+2:15 | Elijah's eight Miracles (1 and 2 Kings). 1. Shutting heaven (17. 1). 2. Oil multiplied (17. 14). 3. Widow's son raised (17. 22, 23). 4. Fire from heaven (18. 38). 5. Rain (18. 45). 6. Fire on 50 (2 Kings 1. 10). 7. Fire on 50 (2 Kings 1. 12). 8. Jordan (2 Kings 2. 8).
+2:15 | Elisha's sixteen Miracles (2 Kings). 1. Jordan divided (2. 14). 2. Waters healed (2. 21). 3. Bears from wood (2. 24). 4. Water for kings (3. 20). 5. Oil for widow (4. 1-6). 6. Gift of son (4. 16, 17). 7. Raising from dead (4. 35). 8. Healing of pottage (4. 41). 9. Bread multiplied (4. 43). 10. Naaman healed (5. 10). 11. Gehazi smitten (5. 27). 12. Iron to swim (6. 6). 13. Sight to blind (6. 17). 14. Smiting blindness (6. 18). 15. Restoring sight (6. 20). 16. One after death (13. 21).
+2:16 | men. Heb. 'enosh. Ap. 14. III.
+2:20 | cruse. Occurs only here.
+2:21 | cast the salt. Elisha's second miracle.
+2:23 | Beth-el. One of the seats of Israel's calf-worship (1 Kings 12. 26-30). little children = young men. Heb. na'ar. Used of Isaac (twenty-eight years old); Joseph (thirty-nine); Rehoboam (forty). Go up, &c. An open insult, avenged by Elisha's God in a way suited for that dispensation, though not for this. "Go up" may have referred to Elijah's translation; and thus, a blasphemous insult outraging Jehovah's own act. bald head. Baldness premature. Elisha lived fifty years longer (13. 14). go up, &c. Fig. Epizeuxis. Ap. 6.
+2:24 | bears. See 1 Sam. 17. 34-36. children = progeny. Not the same word as v. 23.
+3:1 | 3. 1—8. 15 (C2, p. 488). JORAM. (Division.)
+3:2 | evil = the evil. Heb. ra'a'. Ap. 44. viii. the LORD. Heb. Jehovah. Ap. 4. II. his mother. Jezebel, who lived through the whole of his reign (9. 30). image = pillar, or statue (which Ahab had made. Cp. 10. 18). 1 Kings 19. 18. Others remained (10. 26, 27).
+3:3 | sins. Heb. chata'. Ap. 44. i. made Israel to sin. See note on 1 Kings 14. 16.
+3:4 | 3. 4—8. 15 (K2, p. 491). EVENTS. POLITICAL. (Extended Alternation and Introversion.) 4-27 (O, above). WAR WITH MOAB. MESHA. (Alternations and Introversion.) Mesha. See Ap. 54 on "the Moabite stone".
+3:5 | Ahab was dead. Cp. 1. 1. He and his son Ahaziah both died in the same year (800 B.C.). See Ap. 50. V, p. 58.
+3:7 | I am, &c. Cp. 1 Kings 22. 4.
+3:8 | he said: i.e. Jehoram. Which way ... ? Either by crossing Jordan north of the Dead Sea and attacking Moab from the north; or by Edom, which was under Judah (1 Kings 22. 47). he answered: i.e. Jehoshaphat answered.
+3:9 | fetched a compass = made a circuit. Cp. Acts 28. 13.
+3:10 | 10-25 (t, above). EXIGENCY. HOW MET. (Alternation and Introversion.) Alas! Fig. Ecphonesis. Ap. 6.
+3:11 | Is there not here ... ? A similar question asked before by Jehoshaphat (1 Kings 22. 7). poured water, &c. Put by Fig. Metonymy (of Adjunct), Ap. 6, for being an attendant.
+3:12 | Jehoshaphat. Some codices, with Sept., Syr., and Vulg., add "king of Judah".
+3:13 | What ... ? See note on 2 Sam. 16. 10. Fig. Erotesis. Ap. 6. Nay = Say not so.
+3:14 | before, &c. Implying Elisha's priesthood. not look. Jehoram was wicked in himself (v. 2), as well as being the son of Ahab. Elisha less austere later (ch. 6).
+3:15 | 15-25 (w, above). ELISHA. HELP GIVEN. (Division.) minstrel = harper. From Heb. nagan, to harp. hand. Fig. Prosopopoeia (Ap. 6). But some codices, with Aram., read "the Spirit".
+3:16 | valley = a dry watercourse. ditches = trenches. Heb. ditches ditches. Fig. Epizeuxis (Ap. 6) = full of.
+3:17 | 17-25 (S2, above). ENDS. (Alternation.) wind. Heb. ruach. Ap. 9.
+3:19 | mar = spoil. Fig. Prosopopoeia. Ap. 6.
+3:20 | meat offering = meal offering. Heb. minhah. See Ap. 43. II. iii = gift offering. offered = offered up. See Ap. 43. I. vi.
+3:20 | there came water. Elisha's fourth miracle. See note on 2. 15.
+3:21 | put on armour. Heb. gird a girdle.
+3:22 | red as blood. Implied as owing to the action of the sun. Equally a miracle.
+3:23 | slain = destroyed.
+3:24 | went forward. Some codices, &c., add "still further", and connect this with entering. Other codices, with six early printed editions, Sept., Syr., and Vulg., connect these words with the smiting, and read "still further smote", or "went on smiting".
+3:25 | every man. Heb. 'ish. Ap. 14. II. Kir-haraseth = The city of the hill. The capital of Moab. stones [in the wall] thereof. Supply Fig. Ellipsis. Ap. 6. howbeit, &c. = and [till] the slingers should surround and smite it.
+3:27 | offered him = offered him up. Ap. 43. I. vi. a burnt offering. Ap. 43. II. ii. Recording a fact on which Mesha is silent on the Moabite stone. Ap. 54. the wall. i.e., the higher of the two. Heb. homah not kir as in vv. 4, 10. indignation = wrath. This led probably to Moab's subsequent success. they departed. This expresses the failure of Israel's expedition, while Mesha goes on to record his subsequent successes, which were great—all the cities taken by him (Ap. 54) being those belonging to Reuben and Gad. from him: i.e. from the king of Moab. their own. The Syr. and Vulg. have these words in the text.
+4:1 | husband = man. Heb. 'ish. Ap. 14. II. the LORD. Heb. Jehovah. Ap. 4. II. bondmen. Cp. Lev. 25. 39 and Neh. 5. 5.
+4:3 | borrow not a few = scant not.
+4:5 | who brought = they bringing. she poured out. Elisha's fifth miracle. See note on 2. 15.
+4:7 | man. Heb. 'ish. See Ap. 14. II. God. Heb. Elohim. Ap. 4. I. debt = creditor. children = sons.
+4:8 | 4. 8-37 (Q, p. 492). THE SHUNAMMITE. (Introversion.) 8-17 (U, above). SON GIVEN. (Alternation.) Shunem. In the plain of Esdraelon. The native place of Abishag (1 Kings 1. 3). great = wealthy, or a person of position (2 Sam. 19. 32).
+4:9 | holy. See note on Ex. 3. 5.
+4:10 | chamber = upper chamber, or wall-chamber. and. Note the Fig. Polysyndeton. Ap. 6. candlestick = lampstand. Very little furniture used in the East to-day.
+4:12 | servant = young man.
+4:13 | careful ... care. Fig. Polyptoton (Ap. 6) = exceedingly careful. spoken for to the king. This confidence in his influence with the king is accounted for by the miraculous aid recently given by Elisha in 3. 16-19.
+4:15 | door = entrance.
+4:17 | of life, or of spring. Read "that season about the time of spring of which Elisha had said unto her". The sixth miracle. Cp. 2. 15.
+4:18 | child = progeny.
+4:19 | my head. Fig. Epizeuxis. Ap. 6.
+4:26 | now. Some codices, with two early printed editions, read "now therefore".
+4:27 | her soul = herself. Heb. nephesh. Ap. 13. vexed = bitter.
+4:28 | Did I ... ? Fig. Erotesis. Ap. 6. deceive = cajole.
+4:29 | said. In what Elisha said the signs given are put by Fig. Metonymy (of Adjunct), Ap. 6, for the things symbolised by them. salute him not. Idiom. The salutation being ceremonial and taking time. any = a man. Heb. 'ish. Ap. 14. II. child. Heb. na'ar = youth.
+4:30 | thy soul = thou. Heb. nephesh. Ap. 13.
+4:36 | Take up thy son. The seventh miracle (2. 15).
+4:38 | 4. 38-44 (R, p. 492). FAMINE. (Alternation.) a dearth = the dearth. One of thirteen famines. See note on Gen. 12. 10. seethe = boil.
+4:39 | wild vine: i.e. a plant with vine-like tendrils. Not the grape, but probably the colocynth.
+4:40 | men. Heb. 'enosh. Ap. 14. III. death. Put by Fig. Metonymy (of Effect), Ap. 6, for that which causes death.
+4:41 | no harm = no evil thing. Elisha's eighth miracle Cp. 2. 15.
+4:43 | servitor = attendant. Old English = one who serves. an hundred men. Elisha's ninth miracle. See note on 2. 15. One of three (Ap. 10) miracles of feeding multitudes. Cp. Matt. 14. 20; 15. 34, 38.
+5:1 | 5. 1-27 (N, p. 492). MISSION TO ELISHA. (Introversion.) Naaman. Note the five servants in this chapter:— 1. The King's servant (Naaman), v. 1. 2. Naaman's wife's servant (the maid), v. 2. 3. Jehovah's servant (Elisha), v. 8. 4. Naaman's servants (v. 13). 5. The Prophet's servant (Gehazi), v. 20. was = had come to be. man. Heb. 'ish. Ap. 14. II. by him. An unconscious instrument. the LORD. Heb. Jehovah. Ap. 4. II. deliverance. Probably from the Assyrians. but, &c. Fig. Anesis. Ap. 6. a leper. Cp. Lev. 13. Not regarded ceremonially by heathen. Not far gone (cp. v. 19). Probably only in initial stage. One of nine so afflicted. See note on Ex. 4. 6. The story of Naaman may be compared with the parallel in John 9.
+5:2 | companies = marauding bands. Cp. 6. 23.
+5:3 | Would God, &c. Fig. Ejaculatio. Ap. 6. in Samaria. This is the girl's expression. Samaria was where she had heard of him.
+5:5 | king of Israel. Probably Jehoram. talents. See Ap. 51. II. changes of raiment. See Gen. 45. 22.
+5:6 | recover. A Homonym, with another meaning, to snatch away or destroy, as in Ps. 26. 9 and Jer. 16. 5. See notes there.
+5:7 | Am I God ... ? Fig. Erotesis. Ap. 6. God. Heb. Elohim (the Creator). Ap. 4. I.
+5:8 | man of God. See Ap. 49.
+5:9 | door = entrance.
+5:10 | Go and wash. Cp. John 9. 7, and other commands: "Go, call" (John 4. 16); "Go, sell" (Matt. 19. 21). wash = bathe (ceremonially). See note on Lev. 14. 9.
+5:11 | Behold. Fig. Asterismos. Ap. 6. I thought. Cp. v. 15, "Now I know". Human thought and Divine certitude. strike = wave, move, or pass.
+5:12 | Are not ... ? Fig. Erotesis. Ap. 6. Abana. Some codices, and three early printed editions, read "Amana". rivers. Heb. nahar, an ever-flowing stream. (Not nahal, a summer stream.) Rising in Mount Hermon and losing themselves in a lake near Damascus. Damascus. Used of the district, or of the city near which they flowed and were known. in a rage. One of eleven rulers offended with God's servants for speaking the truth. See note on Ex. 10. 28.
+5:13 | servants. Again used by God. Cp. vv. 2-4. My father. A title of honour and affection.
+5:14 | came again. The tenth miracle of Elisha. See note on 2. 15. child = boy.
+5:15 | returned. About thirty miles. now I know. Cp. "Behold, I thought", v. 11. take = accept. blessing = a present. Cp. Gen. 33. 11. Judg. 1. 15.
+5:16 | before, &c. A phrase referring to priesthood, for the sacrifices Naaman speaks of (v. 17).
+5:17 | earth = soil. Naaman may have heard of Ex. 20. 24. offer = prepare. See Ap. 43. I. iii.
+5:18 | Rimmon. The Assyrian storm-god Ramman. worship = bow down himself. leaneth. Cp. 7. 2, 17. the LORD pardon = Jehovah pardon. Some codices add "I pray thee", but marked "to be cancelled".
+5:19 | Go in peace. God's servants are not "directors of conscience", but ministers of His Word. To have sanctioned it would have recognised idolatry. To have forbidden it would have put Naaman under a yoke to Elisha. It was for Naaman to decide whether he could do this thing, and be at "peace". a little way. A phrase found only here and Gen. 35. 16 and 48. 7. = a stone's throw.
+5:20 | servant = young man. somewhat = a trifle.
+5:21 | Is all well? Heb. Is it peace?
+5:22 | mount Ephraim. There were two schools of the prophets there: Beth-el and Gilgal. Cp. 2. 1, 3. talent. See Ap. 51. II.
+5:23 | take = accept. Some codices, with one early printed edition, read "and accept".
+5:24 | men. Heb. 'enosh. Ap. 14. III.
+5:26 | Went not ... ? Fig. Erotesis. Ap. 6. = Did not my heart bear? Is it ... ? Fig. Erotesis. Ap. 6. Cp. Hag. 1. 4. and. Note the Fig. Polysyndeton. Ap. 6.
+5:27 | cleave. Elisha's eleventh miracle. See note on 2. 15. a leper. One of the nine afflicted with leprosy. See note on Ex. 4. 6. as snow. i.e. completely a leper; but not clean ceremonially. See note on Lev. 13. 13.
+6:1 | 6. 1-7 (P, p. 492). ELISHA. RESIDENCE, &c. (Alternation.) Behold. Fig. Asterismos. Ap. 6. strait = narrow.
+6:2 | man. Heb. 'ish. Ap. 14. II.
+6:3 | one = the one: i.e. of v. 3.
+6:4 | cut down. Heb. nazar. Cp. v. 6. wood = logs.
+6:5 | axe head. Heb. "iron", put by Fig. Metonymy (of Cause), Ap. 6, for the axe head made of iron. Cp. v. 6, where the Fig. is translated literally. Alas. Fig. Ecphonesis. Ap. 6.
+6:6 | man of God. See Ap. 49. cut down. Not same word as v. 3. Heb. kazab = to cut evenly: i.e. shape or size evenly. Occurs only here and Song 4. 2 ("even shorn"). a stick = a helve. iron did swim = made him see the iron: by causing it to rise to the surface. Elisha's twelfth miracle. See note on 2. 15. The spiritual application is thus put by John Newton:— "Not one concern of ours is small If we belong to Him; To teach us this, the Lord of all Once made the iron to swim".
+6:8 | 8-23 (O, p. 492). WAR WITH SYRIA. (Introversion.) king of Syria. Probably Ben-hadad of v. 24. 1 Kings 20. 1.
+6:9 | king of Israel. Jehoram.
+6:12 | but = for: i.e. "[the fact is] that".
+6:15 | the servant = attendant. Heb. mesharet. his servant = young man. Heb. na'ar.
+6:17 | the LORD. Heb. Jehovah. Ap. 4. II. open his eyes. Elisha's thirteenth miracle. See note on 2. 15. see ... saw = see ... saw clearly. round about. Cp. Ps. 34. 7; 91. 4.
+6:18 | blindness. Elisha's fourteenth miracle. See note on 2. 15. One of nine instances of persons so afflicted. See note on Gen. 19. 11.
+6:19 | I will bring. So he did. man. Heb. 'ish. Ap. 14. II. But = And; or, So. Heb. Vav. he led them to Samaria: where they found the man they sought: i.e. Elisha himself.
+6:20 | open. Elisha's fifteenth miracle. See note on 2. 15.
+6:22 | wouldest ... ? Fig. Erotesis. Ap. 6.
+6:23 | bands = marauding bands. Quite different from the organised host of v. 24.
+6:24 | 6. 24—7. 20 (R, p. 492). FAMINE IN SAMARIA. (Alternation.) 24-33 (A, above). FAMINE. SUFFERED. (Introversion.) gathered. This was organised war, in contrast with the freebooting irregular bands of v. 23.
+6:25 | famine. One of the thirteen recorded in Scripture. See note on Gen. 12. 10. ass's head. This was unclean food. pieces. Supply Fig. Ellipsis (Ap. 6), "shekels" instead of "pieces". cab. Only occurrence. See Ap. 51. III. 3. dove's dung. A Euphemism (Ap. 6) is included in official Massoretic lists as being substituted for this indelicate expression, the word meaning "decayed leaves". Whichever is the meaning, it was always highly valuable as manure, especially to force growth during dearth.
+6:27 | If the LORD do not help thee. Heb. reads "Let not Jehovah help thee", as in A.V. marg. The R.V. "Nay, let Jehovah help thee", is contrary to the normal sense of this negative. Ginsburg suggests that 'al (not) is an abbreviation for 'im l'o, which is the exact equivalent for the A.V. text.
+6:28 | woman. One of the ten deaths occasioned by women. See note on Judg. 4. 21.
+6:29 | we boiled. Cp. Deut. 28. 53.
+6:32 | hold him fast at the door: or, hold the door fast against him. Ap. 6.
+6:33 | messenger. Heb. hammal'ak, without the 'aleph ('a), as in Sept. and Syr. In 1 Sam. 11. 4 the case is reversed. The Massorah informs us that the aleph was wrongly inserted, making it read messengers instead of "kings". The king must have followed on his heels, for Elisha addresses him directly in 7. 1, 2. Cp. 7. 17. evil. Heb. ra'a'. Ap. 44. viii. what ... ? = why? Fig. Erotesis. Ap. 6. These are the words of the king.
+7:1 | Then Elisha. The Structure shows that verses 1, 2 should be read with 6. 33. the LORD. Heb. Jehovah. Ap. 4. II. measure. See Ap. 51. III. 3. shekel. Cp. 6. 25. See Ap. 51. II. measures = seahs. See Ap. 51. III. 3.
+7:2 | leaned. Cp. 5. 18. man of God. See Ap. 49. Behold. Fig. Asterismos. Ap. 6. thou shalt see it. Cp. vv. 19, 20.
+7:3 | 7. 3-15 (A, above). FAMINE. RELIEVED. (Division.) 3-11 (r1, above). DISCOVERY BY LEPERS. (Alternation.) leprous men. One of the nine cases of affliction with leprosy. See note on Ex. 4. 6. men. Heb. 'enosh. Ap. 14. III.
+7:4 | famine. Cp. 6. 25. host = camp.
+7:5 | twilight = darkness. See note on the Homonym, 1 Sam. 30. 17. man. Heb. 'ish. Ap. 14. II.
+7:6 | the LORD* = Jehovah. One of the 134 occurrences of Jehovah which the Sopherim altered to Adonai. See Ap. 32. and a noise. Note the Figs. Polysyndeton and Repetitio (Ap. 6) for great emphasis. even = and. Some codices, with one early printed edition, Syr., and Vulg., read "and a noise", as in the two preceding clauses. Lo. Fig. Asterismos. Ap. 6. kings of the Hittites. The Hittites were divided into several tribes, each with its king or chief. Their empire extended from the Euphrates to Asia Minor. Cp. 1 Sam. 26. 6. The Assyrian monuments speak of a confederacy of twelve existing at this time. kings of the Egyptians. The monuments of this date speak of a large number of names at this time.
+7:7 | their life = their soul. Heb. nephesh. Ap. 13.
+7:8 | uttermost = outermost.
+7:9 | We do not well. The application of this is full of instruction to others in like circumstances, for all time. mischief = punishment.
+7:10 | man. Heb. 'adam. Ap. 14. I. the tents = their tents. So Sept. as = just as.
+7:11 | he called the porters. The Sept., and a special reading called Sevir (Ap. 34), read "the porters called".
+7:13 | that are left ... Israelites. These words are repeated by Homoeoteleuton (instead of omitted, as is usually the case with Homoeoteleuton). They are not in many codices, or Sept., Syr., or Vulg. This accounts for the parenthesis in A.V.
+7:16 | shekel. See Ap. 51. II. 5.
+7:17 | king came down. See note on 6. 33.
+7:19 | might such a thing be? This is the reading of some codices, and four early printed editions, with Sept. and Syr. The current Heb. text reads "could it be according to this word?"
+8:1 | whose son. Cp. 4. 35. the LORD. Heb. Jehovah. Ap. 4. II. famine = the famine, which had already begun. Probably the same as 4. 38. Occasion is not determined by the text, but v. 3 takes up the history at the end of the seven years. it shall also come = it is come. seven years: i.e. "[to last] seven years".
+8:2 | man of God. See Ap. 49.
+8:3 | for ... for. Heb. 'el = "for [to recover]". Not same word as v. 5. land = field: i.e. estate.
+8:4 | all the great things. See note on 2. 15.
+8:5 | restored a dead body. Cp. 4. 35. behold. Fig. Asterismos. Ap. 6. for ... for. Heb. 'al = for [to call attention to].
+8:6 | fruits = produce.
+8:8 | Hazael. One of Ben-hadad's servants. present. It does not say that Elisha accepted it.
+8:9 | every good = every kind of. Fig. Synecdoche (of Genus). Ap. 6.
+8:10 | mayest certainly recover, &c. = "so far as recovering goes, thou wilt recover. And [yet] Jehovah hath made me plainly see that he will surely die." surely die. Fig. Polyptoton (Ap. 6). See notes on Gen. 2. 17 and 26. 28.
+8:11 | he: i.e. Hazael. ashamed. The thought of murder came into his mind.
+8:12 | the evil. Described in 10. 32; 12. 17; 13. 3, 22. Hos. 10. 14. Amos 1. 3, 4. Heb. ra'a'. Ap. 44. viii. children = sons. their children = little ones. Heb. 'ul. with child. Heb. harah.
+8:13 | a dog. Cp. 1 Sam. 17. 43; 24. 14. 2 Sam. 9. 8.
+8:14 | surely recover. See note on v. 10. A false report.
+8:15 | it came to pass. The inscriptions of Shalmanezer II agree with this. The name of Jehu appears on them with Hazael's.
+8:16 | 8. 16—9. 29 (F3, p. 446). JUDAH. (Division.) 16-24 (C1, above). JEHORAM. (Introversion.) Jehoshaphat being then king. Jehoram associated with him in Joram's fifth year, and reigned solely in Joram's sixth year. Cp. 9. 29. Joram (of Ahab) began in Jehoshaphat's eighteenth year (2 Kings 3. 1). His fifth year is therefore Jehoshaphat's twenty-third year, when Jehoram is associated with him as king, in the third year before his death. See Ap. 50. V, p. 58. began to reign: i.e. in consort with his father.
+8:18 | as = according as. daughter of Ahab. Cp. v. 26. See Ap. 55. did evil. Cp. 2 Chron. 21. 2-4.
+8:19 | as He promised. Cp. 2 Sam. 7. 13. light. Cp. 1 Kings 11. 36. See note on Gen. 15. 17. Heb. ner. Found only four times, and always of David (2 Sam. 21. 17. 1 Kings 11. 36. 2 Kings 8. 19. 2 Chron. 21. 7). and to his children. Many codices, and five early printed editions, read "for his children": i.e. sons.
+8:20 | Edom revolted. Cp. 2 Chron. 21. 8 with 1 Kings 22. 47, and see above (3. 9).
+8:21 | the people: i.e. of Judah.
+8:22 | Yet Edom, &c. The success of Edom accounted for from the end of v. 21, and Gen. 27. 40. this day. Written therefore before the captivity of Judah. Then Libnah revolted. Cp. 2 Chron. 21. 10. Libnah was a city of the priests (Josh. 21. 13), and Jehoram with his wife and sons had "broken up" the Temple worship (2 Chron. 24. 7). The priests therefore, headed by Jehoiada (2 Chron. 23. 1), led this revolt, and were afterwards active in repairing the house of the Lord (2 Chron. 24. 1-14).
+8:23 | the rest. Cp. 2 Chron. 21. Joram = Jehoram. are they not ... ? Fig. Erotesis. Ap. 6.
+8:24 | slept with his fathers. See note on Deut. 31. 16. Ahaziah his son: i.e. his youngest son; all the rest being slain. See 2 Chron. 21. 17; 22. 1; and Ap. 55.
+8:25 | 8. 25—9. 29 (C2, p. 500). AHAZIAH. (Introversion and Alternation.)
+8:26 | Two and twenty years. See note on 2 Chron. 22. 2. Ahaziah. Note that Ahaziah, Joash, and Amaziah, omitted in Matt. 1. 8, all died violent deaths (9. 27; 12. 20; 14. 19). daughter. Put by Fig. Synecdoche (of Genus), Ap. 6, for grand-daughter; and even for successors not in descent by blood.
+8:28 | he went with Joram. His uncle. Ramoth-gilead. It was then in the hands of Israel, but threatened by Syria. Cp. 9. 14.
+8:29 | Ramah = Ramoth-gilead.
+9:1 | children = sons. box of oil = oil flask. oil. For its use in consecration see 1 Sam. 10. 1; 16. 13. Ramoth-gilead. Israelite army on guard here. Cp. v. 14.
+9:2 | Jehu the son of Jehoshaphat. In the Assyrian inscriptions he is called the son of Omri.
+9:3 | the LORD. Heb. Jehovah. Ap. 4. II. king = to be king. over, or unto.
+9:5 | behold. Fig. Asterismos. Ap. 6.
+9:6 | he arose: i.e. Jehu arose. he poured: i.e. the prophet poured. God. Heb. Elohim. Ap. 4. I.
+9:8 | him that, &c. = every male.
+9:9 | like the house of Jeroboam, &c. Both these houses had been exterminated (1 Kings 15. 29; 16. 11).
+9:11 | one said. A special various reading called Sevir (Ap. 34), some codices, with two early printed editions, Sept., Syr., and Vulg., read "they said". Is all well? Heb. Is it peace? Ye know, &c. = Why, ye are in the secret, or ye know all about the man. man. Heb. 'ish. Ap. 14. II.
+9:13 | stairs = steps. Acts 21. 35, 40. is king = reigneth.
+9:14 | had kept = had been keeping.
+9:15 | was returned. Cp. 8. 29. minds = souls. Heb. nephesh. Ap. 13. The parenthesis in vv. 14, 15 is so placed by the Structure. See above.
+9:17 | an horseman, or a charioteer.
+9:18 | What ... ? Fig. Anteisagoge (Ap. 6).
+9:22 | whoredoms = idolatry. witchcrafts = spiritism. Joined together. Cp. Num. 24. 1; 25. 1; 31. 16.
+9:23 | turned his hands: i.e. to wheel his chariot round.
+9:24 | between his arms: i.e. between his shoulders.
+9:25 | laid, &c. Cp. 1 Kings 21. 29. burden = a prophetic pronouncement of doom. Cp. Isa. 13. 1; 15. 1; 17. 1. Nah. 1. 1. Hab. 1. 1.
+9:26 | the blood of his sons. Additional information here given to that in 1 Kings 21. 13. saith the LORD = [is] Jehovah's oracle. plat = portion. Cp. v. 21.
+9:27 | And they did so. Supply Fig. Ellipsis (Ap. 6) thus: "and they smote him".
+9:28 | to Jerusalem. Sept. reads "and brought him to Jerusalem".
+9:30 | 9. 30—10. 36 (E4, p. 446). JEHU. (Alternation.) 9. 30—10. 28 (D, above). EVENTS. PUBLIC. (Enumeration.) 9. 30-37 (F1, above). END OF JEZEBEL. (Introversion.) heard of it: i.e. of the murder of her grandson. face = eyebrows and eyelids. tired = adorned. a window = the lattice.
+9:31 | Had Zimri peace ... ? Fig. Erotesis. Ap. 6. See 1 Kings 16. 9-20. Suggesting the wisdom of coming to terms with her. master = lord.
+9:34 | a king's daughter. A daughter of Eth-baal, king of Zidon (1 Kings 16. 31).
+9:36 | He spake. Cp. 1 Kings 21. 23.
+9:37 | field. Some codices, with Sept. and Vulg., read "ground". so that, &c. = [something] of which they shall not say, &c.
+10:1 | sons. Put by Fig. Synecdoche (of Part), Ap. 6, for grandsons and great-grandsons. unto. Some codices, with Sept., Syr., and Vulg., read "and unto". rulers = elders. of Jezreel. Doubtless they had fled to Samaria, being in great fear (v. 4) from what Jehu had done in Jezreel.
+10:4 | Behold. Fig. Asterismos. Ap. 6.
+10:6 | mine = for me. the men. Heb. 'enosh. Ap. 14. III. persons. Heb. 'ish. Ap. 14. II. men. Heb. 'ish. Ap. 14. II.
+10:7 | baskets = the baskets. Heb. dud, for carrying fruit. Still used for this purpose. Not sal (bread-basket), which Gideon (Judg. 6. 19), and Pharaoh's baker (Gen. 40. 17) used.
+10:9 | Ye be righteous. Said by way of flattery and to allay disaffection.
+10:10 | the word of the LORD = the word of Jehovah. Cp. 1 Kings 21. 19-29. the LORD. Heb. Jehovah. Ap. 4. II. by = by the hand of.
+10:11 | kinsfolks = acquaintance.
+10:13 | brethren. Put by Fig. Synecdoche (of the Part) for near relatives. Cp. 2 Chron. 22. 8, where we have "sons of the brethren". children = sons. the king = Joram. the queen = Jezebel, the queen-mother.
+10:15 | Jehonadab. He was a Kenite (1 Chron. 2. 55), descendants of the father-in-law of Moses (Num. 10. 29. Judg. 1. 16; 4. 11. 1 Sam. 15. 6). See Jer. 35. as = according as. give me thine hand. Cp. the pledge (Ezra 10. 19. Ezek. 17. 18).
+10:16 | see = be eyewitnesses of. zeal for the LORD. Not pure. See vv. 29-31.
+10:18 | 10. 18-28 (F5, p. 502). END OF BAAL-WORSHIP. (Introversion.)
+10:19 | worshippers = servants.
+10:20 | Proclaim = Sanctify, Hallow, or Solemnise.
+10:21 | man. Heb. 'ish. Ap. 14. II. full, &c. = so full [that they stood] mouth to mouth. Ellipsis to be thus supplied, as in A.V. margin.
+10:24 | offer = prepare. See Ap. 43. I. iii. life = soul. Heb. nephesh. Ap. 13.
+10:25 | the city = Heb. 'ir, the innermost or most inaccessible part, whether of a city (= the citadel) or a house (as here).
+10:26 | images, or statues. them = each of them.
+10:27 | draught house = dunghill, middens, latrinae.
+10:29 | sins. Heb. chata'. Ap. 44. i. made Israel to sin. See note on 1 Kings 14. 16. to wit = namely. in Dan. See 1 Kings 12. 29, 30, and cp. Gen. 49. 17.
+10:30 | fourth generation. See 15. 12. These were Jehoahaz, Joash, Jeroboam II, and Zachariah. Jehu's dynasty was the longest in all Israel.
+10:31 | God. Heb. Elohim. Ap. 4. I. the sins. Heb. chata'. Ap. 44. i. Some codices read "all the sins".
+10:32 | to cut Israel short: or, to cut off the outskirts, or make inroads into. coasts = borders.
+10:33 | eastward = toward the sun-rising.
+10:34 | the rest. An Assyrian inscription (now in the British Museum) records that Jehu paid tribute to Shalmaneser II, who in 842 B.C. defeated Hazael, king of Syria. Jehu bought Shalmaneser II off by giving him, as tribute, bars of silver and gold; a golden ladle and golden goblets and pitchers were among his gifts. are they not ... ? Fig. Erotesis. Ap. 6.
+10:35 | slept with his fathers. See note on Deut. 31. 16.
+11:1 | 11. 1—12. 21 (F4, p. 446). JUDAH. (Division.) 11. 1-16 (G1, above). ATHALIAH. (Introversion.) Athaliah. For genealogy see Ap. 55. she arose, &c. Another of the ten occasions of deaths being caused by a woman. See note on Judg. 4. 21. destroyed: or thought she did. They were left for dead.
+11:2 | Jehosheba. She was the wife of Jehoiada, the high priest (2 Chron. 22. 11); Jehoiada being brother-in-law to Ahaziah (2 Chron. 22. 11), and therefore uncle to Joash. from among. Expressive words, pointing to our Joash, raised from the dead and now hidden in the house of God on high; and we with Him (Col. 3. 1-3).
+11:3 | hid in the house of the LORD. This was the safest possible place: for it had been broken up, and everything removed to the house of Baal (2 Chron. 24. 7) The Temple courts were deserted. Hence, Jehoiada and the priests were plotting for the restoration of the rightful heir. See note on Libnah, 8. 22. the LORD. Heb. Jehovah. Ap. 4. six years. The number of man's defiance and disorder. See Ap. 10.
+11:4 | Jehoiada. See note on Jehosheba, v. 2. rulers. For their names see 2 Chron. 23. 1. the king's son. Cp. 2 Chron. 23. 3.
+11:5 | that enter in = must come inside. shall even be = and must be.
+11:6 | shall be = must be.
+11:8 | man. Heb. 'ish. Ap. 14. II.
+11:9 | men. Heb. 'enosh. Ap. 14. III.
+11:10 | king David's. All prepared by him against such a day as this (2 Sam. 8. 7).
+11:12 | gave him. The Fig. Zeugma (Ap. 6), by which the second verb has to be thus supplied. testimony. See note on Ex. 17. 14, and Ap. 47.
+11:14 | behold. Fig. Asterismos. Ap. 6. a pillar = the pillar. Treason, Treason. Fig. Epizeuxis (Ap. 6), for great emphasis.
+11:16 | laid hands on her = made way for her.
+11:17 | 11. 17—12. 21 (G2, above). JOASH. (Introversion.)
+11:18 | house of Baal. Built by Jehoram and Athaliah (2 Chron. 24. 7).
+11:20 | land rejoiced. city was in quiet. When? When the usurper had been cast out, and slain. So shall it be when judgment shall be executed on the "prince" and "god" of this world (Rev. 19. 1, 2, 7). beside the king's house = in the king's house.
+12:2 | the LORD. Heb. Jehovah. Ap. 4. all his days: i.e. all the days of Jehoiada. Cp. 2 Chron. 24. 14-18. Jehoiada. His uncle. See note on Jehosheba, 11. 2.
+12:3 | the high places. They were first abolished by Hezekiah, and then (after their revival by Manasseh) by Josiah. Note the Fig. Epanadiplosis. Ap. 6.
+12:4 | 12. 4-16 (p2, p. 505). ECCLESIASTICAL. REFORM. (Alternation.) the priests. See note on Libnah, 8. 22. dedicated = sacred. See note on Ex. 3. 5. every one. Heb. 'ish. Ap. 14. II. the account. These italics are not needed. Heb. 'abar = to pass over. that every man, &c. Heb. "of the souls (= persons. Heb. nephesh. Ap. 13) of his [the priest's] valuation" (Lev. 27. 2-8). any man's. Heb. 'ish. Ap. 14.
+12:8 | consented = acquiesced. Heb. 'oth, a rare word, occurring only here and Gen. 34. 15, 22, 23.
+12:9 | bored a hole. There were two chests made on account of the slackness of the priests. The first by Jehoiada named here (in Kings), beside the altar of burnt-offering in the court. The other at the king's commandment without a hole bored (in 2 Chron. 24. 8, 14), outside "at the gate". In the former there was not room enough for the vessels of the house; in the latter there was abundance for all.
+12:10 | told = counted.
+12:11 | being told = being weighed or balanced.
+12:15 | men. Heb. 'enosh. Ap. 14. III.
+12:16 | trespass. Heb. 'asham. Ap. 44. ii. sin. Heb. chata'. Ap. 44. i.
+12:17 | Gath. One of the five Philistine cities, to reach which Hazael must have passed through Israel. Probably connected with his attacks on Jehu and Jehoahaz (10. 32; 13. 3, 4). to = against.
+12:18 | hallowed = set apart. Heb. kodesh. See note on Ex. 3. 5. treasures = treasuries.
+12:19 | the rest of the acts of Joash. His punishment is recorded in Kings; the causes of it are found in Chronicles. See note on "Kings" (p. 446). See the esoteric causes in 2 Chron. 24. 25. are they not ... ? Fig. Erotesis. Ap. 6.
+12:20 | slew Joash. See note on 8. 26. Millo. See note on 1 Kings 9. 15. "The house" would be in connection with it.
+13:1 | 13. 1-25 (E5, p. 446). ISRAEL. (Division.) 1-9 (H1, above). JEHOAHAZ. (Introversion.) three and twentieth year. See note on v. 10.
+13:2 | evil. Heb. ra'a'. Ap. 44. viii. the LORD. Heb. Jehovah. Ap. 4. II. sins. Heb. chata'. Ap. 44. i. made Israel to sin. See note on 1 Kings 14. 16.
+13:3 | all their days. Supply Fig. Ellipsis (Ap. 6), by reading "all [his] days". Cp. vv. 22-25.
+13:5 | And the LORD = And Jehovah. Note the parenthesis of vv. 5 and 6. a saviour. Some think an angel; some, Elisha; some, a general of Jehoahaz. Cp. v. 25; 14. 27. children = sons.
+13:6 | of the house of. Some codices, with Aram. and Syr., omit these words. walked. Heb. "he [Israel] walked". therein. Heb. in it: i.e. in Jeroboam's way; but some codices, with Aram., Sept., Syr., and Vulg., read "in them". remained = stood. the grove = the 'Asherah. See Ap. 42.
+13:7 | like the dust, &c. A powerful emblem, true to Eastern life.
+13:8 | are they not ... ? Fig. Erotesis. Ap. 6.
+13:9 | slept with his fathers. See note on Deut. 31. 16. Joash, or Jehoash. in his stead: i.e. alone.
+13:10 | 10-25 (H2, above). JEHOASH. (Alternation.) thirty and seventh. Joash (of Israel) became king in the thirty-seventh year of Joash (of Judah). Amaziah, son of Joash (of Judah), became king in the second year of Joash (of Israel), 14. 1. Therefore Amaziah became associate king in the thirty-ninth year of Joash of Judah: i.e. one year before Joash died, for he "reigned forty years in Jerusalem" (2 Chron. 24. 1). The cause of Amaziah's kingship in Joash's lifetime is not named in Kings, but we see it in the "diseases" of 2 Chron. 24. 25. over: i.e. in consort with his father. Cp. 14. 1.
+13:13 | Jeroboam. Usually known as Jeroboam II.
+13:14 | 14-25 (v, above). EVENTS. POLITICAL. (Division.) sick of his sickness. Fig. Polyptoton. Ap. 6. Elisha's long ministry of sixty-six years was now drawing to a close, after forty-five years' silence. We hear of no sickness of Elijah.
+13:14 | my father. Fig. Epizeuxis. Ap. 6. the chariot of Israel. A memory of 2. 12, wondering whether his end would be like Elijah's.
+13:17 | The arrow of the LORD'S deliverance. Fig. Metonymy (of Subject), Ap. 6. The arrow put for the deliverance Jehovah would give.
+13:19 | man of God. See Ap. 49. God. Heb. Elohim with Art. Ap. 4. I.
+13:20 | died. He was called in the days of Ahab (1 Kings 19. 19), and ministered fifty years. coming in of the year: i.e. the spring. Cp. 2 Sam. 11. 1.
+13:21 | they: prob. those who were evading the Moabite marauders. man. Heb. 'ish. Ap. 14. behold. Fig. Asterismos. Ap. 6. he revived = he lived. The sixteenth miracle. See note on 2. 15.
+13:23 | And = But. and had. Note the Fig. Polysyndeton. Ap. 6.
+13:24 | Ben-hadad. Probably the third of that name. Cp. 1 Kings 15. 18; 20. 1.
+13:25 | by war = in the war. Three times. According to v. 18.
+14:1 | 14. 1-22 (F5, p. 446). JUDAH. (Division.) 1-20 (J1, above). AMAZIAH. (Introversion.) second year of Joash. According to 13. 10, Joash (king of Israel) began to reign in the thirty-seventh year of Joash (king of Judah). If Amaziah began in the second year of Joash (king of Israel), he would have reigned only thirty-nine years. But he reigned forty (12. 1). All depends on mode of reckoning from Nisan, and counting parts of years for complete years. This would at once explain the difference. See Ap. 50. V, p. 58. Our difficulty, as usual, arises from our ignorance.
+14:3 | the LORD. Heb. Jehovah. Ap. 4. as Joash his father. He began well and ended badly.
+14:4 | the high places. See 1 Kings 15. 14.
+14:5 | 5-14 (L, above). EVENTS. POLITICAL. (Division.)
+14:6 | children = sons. written in the book of the law of Moses. See note on Ex. 17. 14, and Ap. 47. every man. Heb. 'ish. Ap. 14. II. sin. Heb. chata'. Ap. 44. I.
+14:7 | 7-14 (M2, above). FOREIGN. (Introversion.) He slew. The account in Chronicles supplies additional particulars. See 2 Chron. 25. 5-11.
+14:8 | look one another, &c. Fig. Tapeinosis (Ap. 6), meaning very much more (vv. 11, 12).
+14:9 | The thistle, or briar or thorn. Heb. choch, rendered thistle here, and in 2 Chron. 25. 18. Job 31. 40; thorn in 2 Chron. 33. 11. Job 41. 2. Prov. 26. 9. Song 2. 2. Hos. 9. 6; and bramble in Isa. 34. 13. sent. For a similar fable, see Judg. 9. 8. Fig. Prosopopoeia. Ap. 6.
+14:11 | Beth-shemesh = house of the sun, on frontier of Judah and Dan, fifteen miles west of Jerusalem (Josh. 15. 10). Now Ain Shems. A city of the priests (Josh. 21. 9, 13, 16). Afterward associated with idolatry, and now with defeat.
+14:12 | put to the worse = smitten. every man. Heb. 'ish. Ap. 14. II.
+14:13 | cubits. See Ap. 51. III. 2.
+14:14 | and. Note the Fig. Polysyndeton. Ap. 6. hostages. Heb. sons of the securities. Occurs only here and in 2 Chron. 25. 24.
+14:15 | which he did. Some codices, with Syr., read "and all that he did". are they not ... ? Fig. Erotesis. Ap. 6.
+14:17 | fifteen years: i.e. from 729-714. See Ap. 50. V, p. 58.
+14:19 | Lachish. On the Philistine border in Judah (Josh. 15. 39). Now Tel-el-Hesy, and recently excavated with important results. slew him there. See note on 8. 26.
+14:21 | 14. 21, 22 (J2, p. 508). UZZIAH, OR AZARIAH. (Introversion.) Azariah. Called also Uzziah (15. 13, 30, 32. 2 Chron. 26. 1. Isa. 1. 1; 6. 1. Hos. 1. 1. Amos 1. 1. Zech. 14. 5). In Chronicles called Azariah (1 Chron. 3. 12). These different names are common, having the same or similar meanings. sixteen years: i.e. when "made" king. Only three years old at his father's death. See note on 15. 1.
+14:22 | built = rebuilt or fortified. This implies the subjugation of Edom. Elath. On the Red Sea. Cp. 1 Kings 9. 26, and, for its eventual loss, 2 Kings 16. 6. slept with his fathers. See note on Deut. 31. 16.
+14:23 | 23-29 (E6, p. 446). ISRAEL. JEROBOAM II. (Introversion.) of Israel. Some codices, with one early printed edition, and Sept., read "over Israel". forty and one years. See note on 15. 8.
+14:24 | made Israel to sin. See note on 1 Kings 14. 16.
+14:25 | coast = border, or boundary. entering of Hamath. The pass between Lebanon and Hermon. the sea of the plain. The Dead Sea. God. Heb. Elohim. Ap. 4. I. Jonah. Named by the Lord Jesus (Matt. 12. 39, 40).
+14:26 | not any shut up, nor any left = not any [place] strengthened or fortified. See note on Ex. 23. 5. Deut. 32. 36. 1 Kings 14. 10.
+14:28 | recovered Damascus, and Hamath. Both were included in Solomon's kingdom (1 Kings 4. 21). Damascus lost to Rezin (1 Kings 11. 23-25). This recovery did not last long. See Amos 1. 3.
+14:29 | reigned. After an interregnum of eleven years. See 2 Kings 15. 8.
+15:1 | 15. 1-7 (F6, p. 446). JUDAH. UZZIAH. (Introversion.) twenty and seventh year. So in 2 Chron. 26. 1-3. Azariah being then sixteen (v. 2), and therefore only three on the death of his father Amaziah. Hence, there were thirteen years interregnum (16 - 3 = 13). Amaziah died in the fourteenth year of Jeroboam. Therefore Azariah began to reign in the twenty-seventh year of Jeroboam (13 + 14 = 27). This is the twenty-seventh year of Jeroboam's partnership with his father on his going to the Syrian wars. Azariah = Uzziah. See note on 14. 21.
+15:3 | the LORD. Heb. Jehovah. Ap. 4. II. according to all: i.e. he began well, but see 2 Chron. 26. 3-23.
+15:4 | Save that. Cp. 1 Kings 12. 31.
+15:5 | the LORD smote = Jehovah smote. Chronicles comes in here to explain why. See 2 Chron. 26. 16-21, and note on "Kings" in title of 1 Kings (p. 447). a leper. One of nine afflicted with leprosy. See note on Ex. 4. 6. No reason is given here, but it is given in Chronicles according to the object of the latter book. See note above. several house = a lazar house. See note on v. 7. over the house, or palace: i.e. the king's house, as regent or co-regent.
+15:6 | the rest of the acts. For details see 2 Chron. 26. 1-15. The writings of HOSEA, JOEL, AMOS, and JONAH belong to this period: from the latter days of Joash (king of Judah) to the end of Uzziah. See the notes on the events in these reigns in their respective prophecies. They foretell the doom of Judah. are they not ... ? Fig. Erotesis. Ap. 6.
+15:7 | Azariah. In the year of his death (649) Isaiah had his vision (Isa. 6. 1-9. John 12. 41), when the "voice" from the Temple prophesied the Dispersion (see the Structure of Isaiah). Uzziah had been driven from the Temple to a lazar house, when Isaiah saw the vision of the Temple in heaven. slept with his fathers. See note on Deut. 31. 16. Jotham. The first-named of the four kings in whose reigns Isaiah prophesied (Isa. 1. 1). Micah also began to prophesy and mourn over the coming dispersion of Israel. in his stead. There had been an interregnum of eleven or twelve years.
+15:8 | 8-31 (E7, p. 446). ISRAEL. (Division.) 8-12 (N1, above). ZACHARIAH. (Introversion.) thirty and eighth year. Cp. with 14. 29. Jeroboam died in the fourteenth year of Azariah (or Uzziah). There must have been an interregnum of twenty-four years. See Ap. 50. V, p. 59, and note on 15. 1.
+15:9 | evil. Heb. ra'a'. Ap. 44. viii. as = according as. sins. Heb. chata'. Ap. 44. i. made Israel to sin. See note on 1 Kings 14. 16.
+15:10 | and. Note the Fig. Polysyndeton. Ap. 6. smote him: as prophesied (Amos 7. 9).
+15:11 | behold. Fig. Asterismos. Ap. 6.
+15:12 | He spake. Cp. 10. 30 and Hos. 1. 4.
+15:13 | 15. 13-16 (N2, p. 510). SHALLUM. (Alternation.) Uzziah. See note on 14. 21.
+15:14 | Tirzah. The capital before Samaria (1 Kings 14. 17; 15. 21; 16. 8). Now Telluzah, about nine miles north of Samaria.
+15:17 | 17-22 (N3, p. 510). MENAHEM. (Introversion.) Azariah. See note on 14. 21. Menahem. Their names are mentioned, together with Rezin (16. 9), in Tiglath-pileser's inscriptions.
+15:18 | the sins. Some codices, with Aram. and Sept., read "any of the sins". See note on 1 Kings 14. 16.
+15:19 | Pul. Thought to be the same as Tiglath-pileser (a throne name). But see 1 Chron. 5. 26. came against. Probably at invitation of Menahem. Cp. Hos. 5. 13; 7. 11; 8. 9. talents. See Ap. 51. II. 6.
+15:20 | exacted. Judah usually bought off foreign invaders (12. 18; 16. 8; 18. 15). man. Heb. 'ish. Ap. 14. II. shekels. See Ap. 51. II. 5. there = then. Heb. sham. Cp. Judg. 5. 11. Ps. 14. 5.
+15:23 | 23-26 (N4, p. 510). PEKAHIAH. (Introversion.) fiftieth year. From v. 17 there appears to be an interregnum of some months.
+15:25 | Pekah. Cp. Isa. 7. 1.
+15:27 | 27-31 (N5, p. 510). PEKAH. (Introversion.) twenty years. See Ap. 50. V, p. 59. The Assyrian inscription shows only four years. But why is writing on stone always assumed to be correct, and on parchment, always wrong? There were two chronological mistakes on the Duke of Cambridge's monument erected in Whitehall, London, which were the subject of a correspondence in the London newspapers of that date. (The Duke died in March, 1904.) On the coffin-plate of King Edward VII, his death is put as occurring in the "ninth" instead of in the "tenth" year of his reign. In the inscription of DARIUS HYSTASPIS on the Behistun Rock (see Ap. 57), no less than fourteen "mistakes" made by the graver (one of them actually corrected by himself) are noted as such by the authors of the exhaustive work on that subject issued by the Trustees of the British Museum.
+15:29 | Tiglath pileser. See note on "Pul", v. 19. Abel-beth-maachah ... Gilead. These names are mentioned in Tiglath's own inscriptions. carried them captive. This deportation took place in 734 B.C., and is referred to in Isa. 9. 1, 2.
+15:30 | twentieth year, i.e. in 629. This was nine years before he succeeded in obtaining the throne, which was in the twelfth year of Ahaz (17. 1). In v. 33, sixteen years. So this twentieth year must be reckoned from his father's being struck with leprosy, as distinctly stated in v. 5.
+15:32 | 15. 32—16. 20 (F7, p. 446). JUDAH. (Division.) 32-38 (O1, above). JOTHAM. (Introversion.)
+15:33 | sixteen years: i.e. from his accession, on the death of Uzziah his father, for whom he reigned four years. See note on v. 30 above. Zadok. The high priest (1 Chron. 6. 12). Perhaps this was why he invaded the priests' office.
+15:34 | all: i.e. all [the good].
+15:35 | He built. Cp. 2 Chron. 27. 3.
+15:36 | the rest. Cp. 2 Chron. 27. 2-8. are they not ... ? Fig. Erotesis. Ap. 6.
+15:37 | Rezin. The war which broke out in the reign of Ahaz was already threatening. Cp. Isa. 7. 1-16.
+16:1 | 16. 1-20 (O2, above). AHAZ. (Introversion.) Ahaz. One of the four kings in whose reign Isaiah prophesied. Cp. 2 Chron. 28. 1. Isa. 1. 1.
+16:2 | Twenty years old ... sixteen. There is no reason for concluding that "there must be an error in one of the passages" (viz. 16. 2 and 18. 2), for Ahaz begins in 622 and reigns till 616. As he was twenty when he began, he was born in 652, and died when he was thirty-six. Hezekiah begins in 617, and reigns twenty-nine years, till 588. As he was twenty-five when he began he was therefore born in 642, and died when he was fifty-four. From this it is clear that Ahaz was between ten and eleven when his son Hezekiah was born. This sounds improbable only to Western ears. But, to Eastern ears and physiological phenomena, there is nothing unusual, and nothing to justify a conclusion that the text is corrupt—the usual excuse for ignorance of the facts. the LORD. Heb. Jehovah. Ap. 4. II. God. Heb. Elohim. Ap. 4. I.
+16:3 | he walked. Cp. 2 Chron. 28. 2. son. See note on 2 Chron. 28. 3. to pass through the fire. The first king of Judah to do this. Followed in it by Manasseh (21. 6; 23. 10). Cp. Jer. 7. 31. Ezek. 20. 26, and Lev. 18. 21. heathen = nations. children = sons.
+16:5 | Rezin. Cp. Isa. 7. He and Pekah are the two firebrands of Isa. 7. 4. The events in vv. 5-9 are said by some to contradict 2 Chron. 28. 5-20; but the event recorded in 2 Chron. happened the year before, directly after (2 Chron. 28. 5-20), in 631 (see Ap. 50. V, p. 59). Rezin and Pekah both attacked directly after his accession (successfully). But they confederated unsuccessfully. came up. Pekah's design to persuade Ahaz failed; and he tried to supersede him himself ("Tabeal" being a cipher for Remaliah). Cp. Isa. 7. 6. could not: because of the promise to David. Cp. Isa. 7. 7, 16.
+16:6 | Syria. Probably Edom (for Aram). See note below. Elath. It had belonged to Edom (14. 22).
+16:7 | sent messengers. This was opposed by Isaiah (7. 17). Cp. Hos. 5. 13; 7. 11, 12; 8. 9; 11. 5. Tiglath-pileser is the "razor" of Isa. 7. 20.
+16:8 | house. Some codices, with two early printed editions, and Sept., read "treasures of the house". a present. Tiglath-pileser regarded it (in his inscriptions) as tribute.
+16:10 | 16. 10-18 (t, p. 512). AHAZ. PERSONAL. APOSTASY. (Alternation.) Ahaz. Called Jehoahaz in Tiglath-pileser's great triumphal inscriptions. The first syllable of his name dropped in Scripture, as he was unworthy of it. to meet: and do him honour. Hence the solemn warnings of Isa. 8. 13, 14, 19. fashion = likeness, or sketch. pattern, or model.
+16:11 | Urijah. Perhaps the Uriah of Isa. 8. 2. His name does not occur in the list of high priests (1 Chron. 6. 3-15). Note the emphatic repetition of "Ahaz the king" and "Urijah the priest".
+16:12 | and. Note the Fig. Polysyndeton (Ap. 6) in vv. 12-15.
+16:13 | burnt = offered up. Ap. 43. I. vi. burnt his burnt offering. Fig. Polyptoton (Ap. 6) for emphasis. meat offering = meal offering. Ap. 43. II. iii.
+16:14 | brasen altar. Cp. 1 Kings 8. 64. the altar: i.e. the new altar.
+16:15 | great altar: i.e. the new altar. to enquire = to consider further [what shall be done with it]. Fig. Ellipsis. Ap. 6. Heb. bakar. Occurs seven times (16. 15. Lev. 13. 36; 27. 33. Ps. 27. 4. Prov. 20. 25. Ezek. 34. 11, 12).
+16:16 | did Urijah. Unlike Azariah in 2 Chron. 26. 17, 18.
+16:17 | the laver. Cp. 1 Kings 7. 23-39. 2 Chron. 28. 24, 25. the sea. Cp. 1 Kings 7. 23-26.
+16:18 | covert = the covered way. for = because of.
+16:19 | the rest. Cp. 2 Chron. 28. 24, 25. He shut up the house of the Lord altogether. which. Some codices, with Aram. (MS.) and Syr., read "and all that". are they not ... ? Fig. Erotesis. Ap. 6.
+16:20 | slept with his fathers. See note on Deut. 31. 16. buried ... in the city of David. But not in the tombs of the kings. Cp. 2 Chron. 28. 27, where observe the phrase "kings of Israel".
+17:1 | 17. 1-41 (E8, p. 446). ISRAEL. HOSHEA. (Introversion.) twelfth year. There was anarchy for nine years between Pekah and Hoshea. For, in 15. 30, Hoshea conspired against Pekah in the twentieth year of Jotham, which was the third year of Ahaz (20 - 12 = 8): for Ahaz began in Pekah's seventeenth year (16. 1), and Hoshea began in Ahaz's twelfth year. But Pekah's twenty years end in Ahaz's third year. (See Ap. 50. V, p. 59.) nine years: reckoned from twelfth of Ahaz. Hoshea kept under by the Assyrians till then. Cp. Hos. 10. 14, where Shalman[eser] spoiled Beth-arbel in his first expedition, and would spoil Beth-el at his second.
+17:2 | evil. Heb. ra'a'. Ap. 44. viii. the LORD. Heb. Jehovah. Ap. 4. II. not as the kings of Israel ... before him: thus, we do not read that he opposed Hezekiah's invitation (2 Chron. 30. 5-11).
+17:4 | So. The Heb. drops the embarrassing "k" of Sabako, his Ethiopian name. Afterward vanquished by Tirhakah. See note on 19. 9.
+17:5 | the king of Assyria. Shalmaneser (v. 3), who commenced the siege, but died before Sargon, his successor, captured Samaria in 611 B.C. three years. From 613-611.
+17:6 | king of Assyria = Shalmaneser. See v. 3. took Samaria. Here, in the days of Hoshea (king of Israel); and in ch. 18 as connected with the days of Hezekiah (king of Judah). Cp. 18. 9. carried Israel away. Sargon's own inscription says 27,290. Cp. 18. 9-12. Halah. Some codices, with four early printed editions, read "Halath".
+17:7 | 17. 7-41 (P, p. 513). CONCLUSION. CAPTIVITY. CAUSES. (Repeated Alternation.) children = sons. sinned. Heb. chata. Ap. 44. i. God. Heb. Elohim. Ap. 4. I.
+17:8 | heathen = nations.
+17:9 | from the tower ... to the fenced city: from the remote watchtower in the country to the fortified city = the whole country.
+17:10 | images = statues. groves = 'Asherah. See note on Ex. 34. 13, and Ap. 42.
+17:12 | idols = filthy, or manufactured idols. shall not do this thing. Cp. Ex. 20. 3; 23. 13. Lev. 26. 1. Deut. 12. 31, &c.
+17:13 | all the seers = every one who had a vision. evil. Heb. ra'a'. See Ap. 44. viii. and. Note the Fig. Polysyndeton. Ap. 6. and My statutes. Some codices, with two early printed editions, Aram., Sept., Syr., and Vulg., read "and My statutes" (the "and" being in the text). by = by the hand of; and so generally. Cp. v. 23. the prophets. Those in ISRAEL were Ahijah, Jehu (son of Hanani), Elijah, Elisha, Micaiah, Jonah, Oded, Amos, and Hosea. Those in JUDAH were Shemaiah, Iddo, Azariah, Hanani, Jehu, Zechariah (son of Jehoiada), Micah, and Isaiah.
+17:14 | like to. Supply Fig. Ellipsis (Ap. 6), "as their fathers' neck [was stiffened]".
+17:15 | and. Note the Fig. Polysyndeton (Ap. 6) in vv. 15-17. Sixteen "ands" emphasising each detail. vanity. A term often applied to idols.
+17:17 | pass through the fire. Cp. Lev. 18. 21. Deut. 12. 31; 18. 10. divination and enchantments: i.e. traffic with evil spirits and demons, and familiar spirits. Identical with modern spiritism. Cp. Deut. 18. 10, and see 1 Sam. 28. 8. Acts 16. 16. Rev. 9. 21.
+17:18 | Judah only. Fig. Synecdoche (of the Part), Ap. 6. Levites and Benjamin and additions from Israel are of course included.
+17:19 | but walked. Cp. Athaliah (8. 18, 27; 16. 3, &c.).
+17:20 | all the seed. A prophetic anticipation.
+17:21 | made. See note on 1 Kings 14. 16. sin a great sin. Fig. Polyptoton (Ap. 6) for emphasis. Heb. chata'. Ap. 44. i.
+17:23 | 17. -23-33 (y4, p. 514). REMOVAL. (Repeated Alternation.) as = according as.
+17:24 | brought men. These were the substituted people forming the nucleus of the later Samaritans; but subsequently intermixed with Israelites returning with Ezra and Nehemiah (Neh. 13. 3, 23-31). In N.T. called "foreigners" (Luke 17. 18). Cp. Matt. 10. 5, 6. Sargon refers to this in his inscriptions. Only one figure remains (7) of the number he gives. and. Note the Fig. Polysyndeton. Ap. 6. Cuthah. Ten miles north-east of Babylon. In the first year of Sargon there was war between Cuthah and Babylon, and the people of Cuthah were transported to Syria and Palestine. Ava = either the Ivah of 18. 34, or the Ahava of Ezra 8. 15. Hamath. The one in Syria. Sepharvaim (Dual). The two Sippars in Babylonia. Sippar sa Samas (the sun-god) and Sippar sa Anuitur.
+17:25 | lions. For lions in Palestine see note on 1 Kings 13. 24. slew = kept on slaying. Omit "some".
+17:26 | behold. Fig. Asterismos. Ap. 6.
+17:27 | one of the priests. An idolatrous Israelite priest from Samaria (v. 28).
+17:30 | men. Heb. 'enosh. Ap. 14. III. and. Note the Fig. Polysyndeton (Ap. 6) emphasising the five nations brought into Palestine. Cp. v. 24. Each brought its own gods. Thus (according to the language of the O.T.) Samaria committed adultery (idolatry) with five husbands (cp. Isa. 54. 5 with Isa. 23. 17. Jer. 22. 20. Hos. 2. 10-12). Repeated individually in John 4. 18. No wonder the woman worshipped she knew not what (John 4. 22).
+17:31 | burnt = burnt up. See Ap. 43. I. viii.
+17:32 | lowest. Cp. 1 Kings 12. 31.
+17:33 | feared. Cp. v. 41. whom they carried away from thence: or, whence they (the settlers) had carried them away.
+17:34 | they. These, according to the Structure, are the Israelites. The member (x5, 34-40, p. 514) records their continued obduracy in their dispersion. statutes. See note on Deut. 4. 1. whom, &c. Render: "after the manner of the [several] nations; [gods] which had caused them [i.e. the Israelites] to go captive thence [i.e. out of the Land]. Gen. 32. 28. 1 Kings 18. 31.
+17:37 | which He wrote, &c. See note on Ex. 17. 14, and Ap. 47.
+17:41 | as = according as.
+18:1 | 18. 1—24. 20 (F8, p. 446). JUDAH. (Division.) 18. 1—20. 21 (R1, above). HEZEKIAH. (Introversion.) third year of Hoshea. Hoshea began in the twelfth year of Ahaz. Therefore Hezekiah began in the fifteenth year of Ahaz. Ahaz reigned sixteen years, but was deposed by Shalmaneser (17. 3, 4), who set up Hezekiah. Hezekiah rebelled (v. 7), which shows he was under Assyria till then. See Ap. 50. V, p. 59.
+18:2 | Abi. In 2 Chron. 29. 1 it is "Abijah", but "Abi" may be the abbreviation of "Abijah", the "i" or "j" standing for "jah".
+18:3 | the LORD. Heb. Jehovah. Ap. 4. II.
+18:4 | groves = 'Asherah, sing. See note on Ex. 34. 13, and Ap. 42. brasen serpent. Cp. Num. 21. 9. Now 835 years old. (From 1452 to 617 = 835). children = sons. Nehushtan = a brass thing.
+18:5 | trusted = confided. Heb. batah. Ap. 69. i. God. Heb. Elohim. Ap. 4. I. none like him: i.e. for trust in Jehovah. Same praise given of Josiah (23. 25), but in a different respect.
+18:6 | and. This "and" is contained in some codices, two early printed editions, Syr., and Vulg. The Fig. Polysyndeton (Ap. 6) emphasising the Fig. Synonymia, by which the phrases are heaped up to express Hezekiah's goodness.
+18:7 | 18. -7—19. 37 (U, above). EVENTS. POLITICAL. (Introversion.) rebelled. Hezekiah had hitherto been dependent on him. See note on v. 15.
+18:8 | Philistines. As prophesied by Isaiah (14. 28-32).
+18:9 | 18. 9—19. 37 (V, above). ASSYRIA. INVASIONS. (Division.) it came to pass. Cp. 17. 3-6. Shalmaneser. Commenced the siege; Sargon, his successor, completed it after three years. Cp. 17. 5, 6, where we have the same interval as here. In Sargon's own inscription he refers to the "tributes imposed upon them by the former king".
+18:10 | the end of three years. See note on 17. 5. they. Sept. and Syr. read "he": i.e. Sargon. See note on 17. 5, 6. Sargon took it after Shalmaneser's death.
+18:11 | Halah. Some codices, with two early printed editions, read "Halath".
+18:12 | transgressed. Heb. 'abar. Ap. 44. vii. Moses the servant of the LORD. See note on Deut. 34. 5.
+18:13 | 18. 13—19. 37 (X2, above). INVASIONS OF JUDAH. (Division.) the fourteenth year. This was the first invasion of Judah which Sennacherib's inscription enlarges upon, but is only mentioned here. See note on v. 17. Cp. Isa. 36, 37, and 2 Chron. 32. all the fenced cities. Forty-six are mentioned in the inscriptions (see Ap. 67. xi).
+18:14 | sent. Sennacherib had not approached Jerusalem yet. I have offended. See v. 7. three hundred talents. The Assyrian inscriptions say 800, the exact equivalent of 300 Hebrew (silver) talents. See note on "twenty" (15. 27). talents. See Ap. 51. II.
+18:15 | treasures = treasuries. See note on Isa. 39. 2.
+18:16 | pillars, or supports. it = them.
+18:17 | 18. 17—19. 37 (Y2, p. 516). SECOND INVASION. (Repeated and Extended Alternation.) king of Assyria. Some suppose Sargon, and treat Sennacherib as a mistake here. But probably Sennacherib was the co-regent in the field. Cp. Jerusalem's being taken by Nebuchadnezzar, while Nabopolassar was king in Babylon. So Belshazzar was co-regent with Nabonnedus at the taking of Babylon. sent. The gift of vv. 14-16 did not prevent a further assault. Compromise seldom does. Tartan. A title = commander-in-chief. Rabsaris. A title = chief of the heads. Rab-shakeh. A title = chief of the captains; possibly a political officer. Lachish. Ten miles south-east of Jerusalem, on Sennacherib's way to Egypt. See note on 19. 8. great host = heavy force. against Jerusalem. See note on Judg. 1. 8. upper pool. On east side of Jebus = Gihon.
+18:18 | household = palace.
+18:19 | Rab-shakeh said. See the references to this in Hezekiah's "Songs of the degrees". Pss. 120. 2, 3; 128. 3, 4, and cp. Isa. 57. 4. See Ap. 67. ii. What confidence ... ? Note the Fig. Erotesis (Ap. 6), which the Rab-shakeh constantly uses. See vv. 20, 22, 24, 25, 27, 33, 34, 35. Figure used for emphasis.
+18:20 | vain words. Heb. word of lips = lip-words.
+18:21 | behold. Fig. Asterismos. Ap. 6. trustest, &c. A policy opposed by Isaiah (Isa. 30. 2; 31. 4). bruised reed. Cp. Ezek. 29. 6. man. Heb. 'ish. Ap. 14. II. king of Egypt. Probably Shabako, the successor of So. See note on 19. 9, and cp. 17. 3, 4.
+18:22 | if ye say. Isa. 36. 7. If thou say. Spoken to one, but meant for all.
+18:25 | without the LORD. Either said in pretence, or from having heard Jehovah's prophecies (cp. 19. 25 with Isa. 10. 5).
+18:26 | Syrian = Aramaic.
+18:27 | men. Heb. 'enosh. Ap. 14. III.
+18:28 | word = message. Some codices, with two early printed editions, Sept., and Syr., read "words".
+18:29 | deceive = raise false hopes. Note the Lamed here, as in the first occurrence (Gen. 3. 13). his hand = his [i.e. Asshur's king's] hand. Some codices, with one early printed edition and Vulg., read "my hand".
+18:31 | Make [an agreement] = Get a blessing out of my coming. Lit. Make with me a blessing. come out: i.e. capitulate. every man. Heb. 'ish. Ap. 14. II.
+18:32 | a land. Note the Fig. Anaphora (Ap. 6) for emphasis. wine. Heb. tirosh. See Ap. 27. II. deliver = rescue.
+18:34 | Hamath. Cp. 17. 24. Arpad. A city of Syria, north-west of Aleppo. Now identified with Tell Erfad. Sepharvaim. On the Euphrates, north of Babylon. See note on 17. 24. Hena, and Ivah. Probably the names of gods or goddesses. Samaria. See note on 17. 5, 24. Hamath, Arpad, and Samaria are all mentioned in the inscriptions at Khorsabad. See note on 17. 21.
+19:1 | it came to pass. Cp. Isa. 37. 1. the LORD. Heb. Jehovah. Ap. 4. II.
+19:2 | Isaiah. The first occurrence in the historical books. Hezekiah was one of the four kings in whose reign he prophesied (Isa. 1. 1). The chapters in Isaiah which refer to these events are 10. 5—12. 6; 14. 24-27; 17. 12-14; 22; 29—33; 36, and 37.
+19:3 | children = sons.
+19:4 | God. Heb. Elohim. Ap. 4. I. all. Some codices, with Syr., omit "all". reproach = disparage, taunt, or flout. lift up thy prayer. Hezekiah's "Songs of the degrees" witness to this prayer in his distress. See Pss. 120. 1; 130. 1, 2. Ap. 67. iv.
+19:6 | Isaiah. In Greek (N.T.) = Esaias. blasphemed = reviled, or vilified.
+19:7 | Behold. Fig. Asterismos. Ap. 6. a blast. Heb. ruach. Ap. 9. hear a rumour. Fig. Polyptoton (Ap. 6), "hear a hearing" = hear a serious report. See note on Gen. 26. 28.
+19:8 | departed from Lachish. Sennacherib had laid siege against it (2 Chron. 32. 9), but had found it difficult, as Joshua had (Josh. 10. 31, 32, "the second day"); and "left" it untaken (Jer. 34. 7).
+19:9 | Tirhakah. An Ethiopian by birth; king of Egypt by conquest. Defeated later by Esarhaddon, son of Sennacherib, after fifteen days' battle. Esarhaddon is shown on a stele, recently discovered, leading Tirhakah with cords.
+19:10 | trustest = confidest. Heb. batah. Ap. 69. i.
+19:11 | and shalt thou be delivered? Note the Fig. Erotesis here, and in vv. 12, 13, and 25.
+19:13 | Hamath, &c. See note on 18. 34.
+19:14 | the house of the LORD. Hezekiah's zeal for the house of Jehovah is seen in his "Songs of the degrees". Cp. Pss. 122. 1, 9; 134. 1, 2. See Ap. 67. xiii.
+19:15 | prayed. When assaulted by the king of terrors he "turned his face to the wall and prayed" (Isa. 38. 2). But when the king of Babylon came with a present he did not pray, and fell into the snare (Isa. 39. 1, 2). Note the Structure of Isaiah, chs. 36—39, and see Ap. 67. iv. dwellest. Cp. his prayer in Ps. 123. 1. Ap. 67. iv. art the God = art Thyself the God. Thou hast made heaven and earth. Cp. Gen. 1. 1. Hezekiah, in his "Songs of the degrees", repeats this phrase as witnessing to the power of God, as Creator, to defeat the enemy. See Pss. 121. 1, 2; 123. 1; 124. 8; 134. 3. See Ap. 67. v.
+19:16 | living God. Always used in contrast with idols.
+19:20 | 19. 20-37 (d, p. 517). ANSWER OF JEHOVAH. (Alternation.)
+19:21 | at thee = after thee: i.e. after she hath seen thy back turned.
+19:23 | the LORD*. This is one of the 134 places where the Sopherim altered "Jehovah" to "Adonai" (Ap. 32). will = have, as in v. 24.
+19:25 | done it = made it: i.e. the earth.
+19:26 | as the grass, &c. Note Hezekiah's reference to this in his "Song of the degrees" (Ps. 129. 5-7). See Ap. 67. ii. blasted = blighted.
+19:27 | abode, &c. = downsitting, and thy outgoing, and thy incoming. thy rage = thy enraging thyself. Very emphatic. The Hithpael gerund occurs only here and Isa. 37. 28, 29.
+19:28 | tumult = arrogance. turn thee back. See the reference to this in Hezekiah's "Song of the degrees" (Ps. 129. 4, 5). See Ap. 67. iii.
+19:29 | eat this year, &c. See the reference to Jehovah's sign in Hezekiah's "Songs of the degrees" (Pss. 126. 5, 6; 128. 2). See Ap. 67. ix.
+19:31 | out of Jerusalem ... remnant: i.e. the country people who had retired into Jerusalem for safety. remnant. Cp. v. 4, and see Isa. 10. 20. the LORD of hosts = Jehovah of hosts. Some codices, with three early printed editions, Aram., Sept., Syr., and Vulg., read "of hosts" in the text.
+19:32 | cast a bank: i.e. erect an earthwork.
+19:34 | defend = spread, or be a shield over. for Mine own sake. Man's sins cannot foil God's purpose. He does not go outside of His own will to explain His actions in grace.
+19:35 | it came to pass. Cp. 37. 36. that night: i.e. the night of the prophecy when the promise was fulfilled. Cp. "that day" (Luke 21. 34. 1 Thess. 5. 4). the Angel of the LORD: i.e. the destroying Angel. Cp. 2 Sam. 24. 16. they: i.e. the king and his people.
+19:35 | dead corpses. Fig. Pleonasm (Ap. 6), for emphasis.
+19:36 | departed. There is no mention of the capture of Jerusalem in Sennacherib's inscription. This omission is more remarkable than what Sennacherib says. Had he taken Jerusalem, the omission would be unaccountable. Cp. 2 Chron. 32. 21 and Ps. 129. 4, 5. and. Note the Fig. Polysyndeton (Ap. 6) to greatly emphasise the fact of his defeat.
+19:37 | Nisroch. Mentioned in the inscriptions. his sons. A cylinder recently acquired (1910) by, and now in the British Museum, states: "On the twentieth day of the month Tebet (Dec.), Sennacherib, king of Assyria, his son slew him in a rebellion." The rebellion (it says) lasted till the twenty-eighth of Sivan (June) of next year, "when Esarhaddon his son sat on the throne of Assyria." The will, or rather deed of gift, of Sennacherib (2 inches by 1, containing eleven lines; in the Kouyoujik Gallery) gives all to Esarhaddon. This probably led to Esarhaddon having afterwards to fight his two brothers, Sennacherib's murderers. smote him. Some years later; but mentioned here as the sequel to this history. Armenia. Heb. Ararat. Esarhaddon. See note, above.
+20:1 | 20. 1-19 (T, p. 516). PERSONAL. SICKNESS. (Division.) 1-11 (C1, above). HEZEKIAH'S HEALING. (Alternation.) those days. About the time of the second invasion (18. 13), but before the deliverance of 19. 35. the LORD. Heb. Jehovah. Ap. 4. II. Set thine house in order = Give charge concerning thine house. See the Structure of Isa. 36—39. die, and not live. Fig. Pleonasm (Ap. 6), a double emphasis.
+20:2 | he. Some codices, with four early printed editions, Sept., and Syr., read "Hezekiah". prayed. See note on v. 15. See his references to this in his "Songs of the degrees" (Pss. 120. 1; 123. 1-3; 130. 1, 2); and Ap. 67. iv.
+20:3 | walked = walked to and fro: i.e. habitually walked. a perfect = whole, or undivided. wept sore. Heb. "wept with a great weeping" = wept bitterly. Fig. Polyptoton. Ap. 6. See note on Gen. 26. 28.
+20:4 | came. The only occurrence of this in the case of Isaiah. Cp. Gen. 15. 1.
+20:5 | God of David (Heb. Elohim). This tells us the nature of Hezekiah's prayer. He had no heir to the throne, but remembered Jehovah's word to David in 2 Sam. 7. 12-16. Hence his anxiety, as manifested in his "Songs of the degrees". Cp. Pss. 127. 3-5; 128; and 132. See Ap. 67. xiv. (Manasseh not born till three years later, 600 B.C.) behold. Fig. Asterismos. Ap. 6. Introducing the fivefold (Ap. 10) promise and answer to his prayer in vv. 5 and 6. go up, &c. This also must have been a subject of prayer.
+20:6 | fifteen years. 603-588 B.C. defend = be a shield to. Cp. 19. 34. My servant David's sake. See note on v. 5 and Ps. 132.
+20:7 | lump = cake, or plaister.
+20:8 | What shall be the sign ... ? Contrast Ahaz (Isa. 7. 11, 12). go up into the house of the LORD. See note on 19. 14, and Ap. 67. xiii.
+20:9 | degrees. It is to these degrees that Hezekiah's fifteen Songs refer (Pss. 120—134). The word "degrees" is repeated here six times (in the history), but five times in Isaiah's gracious words (38. 8).
+20:10 | down = forward (v. 9).
+20:11 | dial = degrees. Ahaz. See note on v. 8.
+20:12 | 20. 12-19 (C2, p. 520). BERODACH'S EMBASSY. (Repeated Alternation.) Berodach. Some codices, with Sept. and Syr., read "Merodach". Cp. Isa. 39. 1. king of Babylon. First occurrence of this title. Babylon and Nineveh the two great cities competing henceforward for supremacy in Assyria. Finally settled by Nabopolassar and his son Nebuchadnezzar, "the head of gold" (Dan. 2. 37, 38). sent letters and a present. These did what the king of Assyria and the king of terrors could not do. See the Structure "C" of Isa. 36—39. present. Cp. 2 Chron. 32. 22, 23. These presents account for the treasures exhibited to the Babylonian ambassadors, and explain Hezekiah's wealth (2 Chron. 32. 27, 28) so soon after the depletion of his treasures in 18. 15, 16.
+20:13 | hearkened. He did not pray as in v. 2, or as in 19. 15. See the notes and Isa. 39. 2, "was glad". all. Some codices, with Syr. and Vulg., omit this "all". It was omitted also in A.V. edition, 1611. his. The depletion of 18. 15, 16 was not of "his" house, but of the house of Jehovah as well as "the king's house". and. Note the Fig. Polysyndeton (Ap. 6) emphasising each item. all the house of his armour = all his armoury. treasures = treasuries.
+20:14 | Then came Isaiah. He was to Hezekiah what Nathan was to David (2 Sam. 12. 1). What said ... ? Fig. Anthropopatheia. Ap. 6: for God knew who the men were, and what they had said. men. Heb. 'enosh. Ap. 14. III. a far country. Some codices, with three early printed editions, Aram., Sept., Syr., and Vulg., add "unto me".
+20:17 | Behold. Fig. Asterismos. Ap. 6. into Babylon. Cp. 2 Chron. 33. 11, and see note on v. 12. A remarkable prophecy, as Babylon was of little account as yet (cp. Isa. 39. 6). The return from Babylon was also foretold (Isa. 48, 49).
+20:18 | they. Heb. text reads "he". But some codices, with 3 early printed editions, read "they". Cp. Isa. 39. 7. eunuchs: i.e. courtiers, chamberlains, &c. Cp. Gen. 37. 36 and Dan. 1. 3, 4.
+20:19 | Good. Hezekiah's submission was like Eli's. Cp. 1 Sam. 3. 18. Is it not good, if: or, Is it not that, &c. Fig. Erotesis. Ap. 6. Sept. reads "Let there be good".
+20:20 | a pool = the pool. Cp. 18. 17. The pool of Siloam fed by the conduit mentioned below. a conduit = the conduit. A long underground channel discovered by Sir Charles Warren (in 1867) running from Gihon (now the Virgin's Fount) down to Siloam. An inscription found in it describes the making of it. Cp. 2 Chron. 32. 30. brought water = brought the water. This is referred to by Hezekiah in Psalm 46. 4, where it is contrasted with the raging waters of v. 3. Cp. this with Isa. 8. 6-8.
+20:21 | slept with his fathers. See note on Deut. 31. 16.
+21:1 | 21. 1-18 (R2, p. 516). MANASSEH. (Introversion.) Manasseh = forgetting. So named because God had made Hezekiah forget his troubles (cp. Joseph, Gen. 41. 51). A sad name for him who became the worst of Judah's kings. His name appears second in a list of kings who brought gifts to Esar-haddon. twelve years. Therefore not born till the third of Hezekiah's fifteen added years. See note on 20. 18. Hephzi-bah = my delight is in her. Cp. reference to the marriage in Isa. 62. 4. A prophecy, given at the time of Hezekiah, foretelling a happier time; even the "good" of 20. 19, and note.
+21:2 | did ... evil = did the evil. Heb. ra'a'. Ap. 44. viii. Generally associated with idolatry. the LORD. Heb. Jehovah. Ap. 4. II. heathen = nations. children = sons.
+21:3 | the high places. Restoring what his father had destroyed (18. 4, 22). a grove = an 'Asherah. See note on Ex. 34. 13. Ap. 42. as = according as. did Ahab. See 11. 18, and cp. 1 Kings 16. 31, 32. the host of heaven. Never before done in Judah. Cp. Deut. 4. 19; 17. 3.
+21:5 | two courts. See note on 1 Kings 7. 12.
+21:6 | his son. Son put by Fig. Synecdoche (of Part), Ap. 6, for his sons. Cp. 2 Chron. 33. 6. pass through the fire. As Ahaz had done (16. 3; cp. 23. 10. Deut. 18. 10). The name of Moloch was common at this time (Zeph. 1. 5). observed times. Cp. Deut. 18. 10. used enchantments. The same as modern spiritism. Cp. Lev. 19. 31. Deut. 18. 11. familiar spirits. Heb. a familiar spirit. See note on Lev. 19. 31. wizards = mediums. wickedness. Heb. ra'a'. Ap. 44. viii. Same word as 'evil', v. 2. Him. Some codices, with four early printed editions, Aram., Sept., Syr., and Vulg., read "Him" in text.
+21:7 | a graven image of the grove = a carved 'Asherah (v. 3). Removed by Josiah (23. 6). See Ap. 42.
+21:8 | the feet. Fig. Pleonasm. Ap. 6. move = wander. My servant Moses. See note on Num. 12. 7.
+21:9 | seduced. Not said of any previous king. Cp. Jer. 15. 4. do more evil = do the evil more.
+21:10 | by = through. Heb. by the hand of. Fig. Metonymy (of Cause). Ap. 6.
+21:11 | done = made. Amorites. One of the seven nations of Canaan, descendants of the Nephilim. Ap. 23 and 25. sin. Heb. chata'. Ap. 44. i. idols = filthy, or manufactured idols.
+21:12 | God. Heb. Elohim. Ap. 4. I. Behold. Fig. Asterismos. Ap. 6. both his ears, &c. Cp. 1 Sam. 3. 11.
+21:13 | the line ... the plummet. Put by Fig. Metonymy (of the Cause), Ap. 6, for what is measured by them. wipe ... wipeth ... wiping. Fig. Polyptoton (Ap. 6), emphasising the completeness of the work.
+21:14 | remnant. Cp. 19. 30. Jerusalem survived the calamities of 18. 13, but would not survive those that were coming.
+21:16 | innocent blood. Tradition says that Isaiah was one who suffered martyrdom (Jos. Ant. x. 3. 1).
+21:17 | the rest. Cp. 2 Chron. 33. 12-19. His captivity in Babylon, &c. sin that he sinned = his great sin. Fig. Polyptoton. Ap. 6. are they not written ... ? Fig. Erotesis. Ap. 6.
+21:18 | slept with his fathers. His father was the best of Judah's kings, and he was the worst. See note on Deut. 31. 16. in the garden. Not in the sepulchres of the kings.
+21:19 | 21. 19-26 (R3, p. 516). AMON. (Introversion.) Jotbah. Cp. Num. 33. 33. Deut. 10. 7.
+21:25 | which he did. Some codices, with Aram. and Syr., read "and all that which he did".
+21:26 | he was buried = one buried him. But some codices, with three early printed editions, Aram., Sept., Syr., and Vulg., read "and they buried him". sepulchre. Heb. keber, a (not "the") grave, or tomb. Cp. 22. 20.
+22:1 | 22. 1—23. 30 (R4, p. 516). JOSIAH. (Introversion and Alternations.) eight years. Manasseh began at twelve, bred under godly Hezekiah. Josiah began at eight, bred by ungodly Amon. Contrast the two characters. Boscath. In Judah. Cp. Josh. 15. 39.
+22:2 | the LORD. Heb. Jehovah. Ap. 4. II. way. Edition of 1611 had "ways". turned not aside. Josiah is the only king of whom this is said.
+22:3 | 22. 3—23. 24 (q, above). JOSIAH'S REFORMATION. (Alternations.) the eighteenth year. Marks the completion of the work (23. 23). Begun in the twelfth year (2 Chron. 34. 3, 8). Jeremiah was called in Josiah's thirteenth year (Jer. 1. 2; 25. 3), and was to Josiah what Isaiah had been to Hezekiah. Shaphan. Eight relatives mentioned in 2 Kings and 2 Chronicles: (1) His grandfather, Meshullam (2 Kings 22. 3); (2) his father, Azaliah (v. 3); (3) his son, Ahikam (v. 12); (4) his son, Gemariah (Jer. 36. 10); (5) his son, Elasah (Jer. 29. 3); (6) his son, Jaazaniah (Ezek. 8. 11); (7) his grandson, Michaiah (Jer. 36. 11, 13); (8) his grandson, Gedaliah (Jer. 39—43).
+22:4 | Hilkiah. The son of Shallum and father of Azariah (1 Chron. 6. 13). sum = pour out, or pay away.
+22:5 | of the doers. These were the overseers. to the doers. These were the labourers.
+22:6 | the house. Some codices, with two early printed editions, and Sept., read "the breaches of the house", as in v. 5.
+22:8 | the book of the law: i.e. the original copy of the Pentateuch, laid up by the side of the Ark (Deut. 31. 24-26). Probably secreted during the reigns of Manasseh (21. 16) and Amon (21. 21). See Ap. 47.
+22:10 | read it. Especially those parts applicable to the then circumstances, such as Lev. 26. Deut. 28, &c.
+22:11 | he rent his clothes. Not necessarily on account of his surprise, but on account of the solemnity of the words.
+22:12 | Ahikam. The friend of Jeremiah (Jer. 26. 24) and father of Gedaliah (cp. 25. 22. Jer. 39. 14; 40. 5). See note on "Shaphan" (v. 3). Achbor. Not the same person as Abdon, in 2 Chron. 34. 20. The two books are independent.
+22:13 | and for all Judah. Some codices, with two early printed editions, read "and for the remnant in Israel and in Judah". Cp. 2 Chron. 34. 21.
+22:14 | the prophetess. Others mentioned are: Miriam (Ex. 15. 20. Mic. 6. 4); Deborah (Judg. 4. 4); Noadiah (Neh. 6. 14); Isaiah's wife (Isa. 8. 3); Anna (Luke 2. 36); and Philip's daughters (Acts 21. 9). the wife. Cp. the usage (Judg. 4. 4). The employment of a woman as prophet shows the degeneracy of the times, deplored by Isaiah (9. 15), denounced by Jeremiah (5. 7, 8; 14. 14; 23. 14-30; 37. 19. Lam. 2. 14), and by Ezekiel (13. 2-23). Inferred also from Huldah's words (vv. 15-18), and Jer. 5. 31. wardrobe: i.e. vestry, or vestments. now. Note the Fig. Parenthesis. Ap. 6. in the college. Heb. in the second. Some supply "part", or "city". Probably = "second gate [of the city]". Cp. 2 Chron. 34. 22 and Zeph. 1. 10.
+22:15 | man. Heb. 'ish. Ap. 14. II.
+22:16 | Behold. Fig. Asterismos. Ap. 6. evil. Heb. ra'a'. Ap. 44. viii.
+22:17 | forsaken Me. Huldah adopts the words of Deut. 29. 25-27.
+22:18 | God. Heb. Elohim. Ap. 4. I. As touching. No Ellipsis here, but at end of verse. See below. heard, or hearkened to. Supply Fig. Ellipsis (Ap. 6) thus: "Thus saith Jehovah Elohim: the words which thou hast hearkened to [shall surely come to pass]. In that thine heart was tender ... I also have heard thee".
+22:19 | Because = In that. a desolation and a curse. These words are from Deut. 11. 26; 28. 15-19; 29. 19; 30. 1. Cp. Jer. 44. 22.
+22:20 | gathered. See note on Gen. 49. 33. thy grave. Heb. keber (not Sheol). In 21. 26 rendered sepulchre. in peace. Josiah died in war (23. 29); but why not "in peace" of mind and heart as well? Cp. Isa. 57. 2.
+23:2 | the LORD. Heb. Jehovah. Ap. 4. II. men. Heb. 'ish. Ap. 14. II. prophets. Some codices read "Levites", as in 2 Chron. 34. 30. read. Either himself; or, by Heb. idiom, "caused to be read". in their ears. Cp. Neh. 8. 1-4, &c. The king did not keep it to himself. God's word is for all.
+23:3 | by a pillar: or, on the pillar, or platform. Cp. 11. 14. soul. Heb. nephesh. Ap. 13. written. See Ap. 47. stood. But not for long. See Jer. 11. 2-20.
+23:4 | priests of the second order (or degree), i.e. ordinary priests. the grove = the 'Asherah. See Ap. 42. host of heaven. Cp. 21. 3. burned them. As prescribed in Deut. 7. 25. unto Beth-el. To defile the altar there, according to the prophecy in 1 Kings 13. 2.
+23:5 | idolatrous priests = black-robed; not kohen, as appointed by God, but kemarim, as appointed by man. Cp. Hos. 10. 5; Zeph. 1. 4. planets = stations: i.e. the twelve signs of the Zodiac. Heb. mazzaloth. Spelt Mazzaroth in Job 38. 32 = stations. The Babylonian name for the divisions of the zodiac. Called in the Assyrian inscriptions "Mauzalti". (See Western Asiatic Inscriptions.)
+23:6 | graves. Heb. keber. See note on 21. 26. of the children of the people = of the common people in Jer. 26. 23. In 2 Chron. 35. 5 it = the laity as distinguished from Levites. children = sons.
+23:7 | sodomites = male prostitutes. Suppression directed in Deut. 23. 17, 18. See note on 1 Kings 14. 23, 24. hangings. Heb. houses. Probably veils to cover the 'Asherah, as it is covered in Romish processions to-day.
+23:8 | the high places. Seemingly (from v. 9) some were used for the worship of Jehovah. See notes on 1 K. 18. 29; 19. 10, 14. Geba. Now Jeba (Josh. 18. 24). Beer-sheba. Southern boundary (Gen. 21. 31. Judg. 20. 1). Cp. Amos 5. 5; 8. 14. man's. Heb. 'ish. Ap. 14. II.
+23:9 | priests of the high places. Not idolatrous priests. See note on v. 8.
+23:10 | Topheth = the Topheth. First occurrence. Put by Fig. Metonymy (of Adjunct), Ap. 6, put for anything abhorrent. valley, &c. The junction of the three valleys uniting south of Jerusalem. The continual fires burning there gave the Greek name Gehenna (from the Heb. Ge Hinnom = valley of Hinnom). Molech. Cp. Jer. 7. 31, 32; 19. 2-6. Prohibited Deut. 18. 10. Cp. 1 Kings 11. 7.
+23:11 | kings of Judah. Presumably Manasseh and Amon. See 21. 3-5. of = from. by = to. chamberlain = eunuch, or officer. suburbs, or outskirts.
+23:12 | top = roof, "[the roof] of", &c. brake them down. The marg. of A.V. seems preferable here: "hurried away [with them] from thence".
+23:13 | before Jerusalem: i.e. the east side. See Zech. 16. 4. which, &c. Fig. Polyonymia. Ap. 6. mount of corruption: i.e. the Mount of Olives. Thus called on account of the idolatries connected with it. Chemosh. Cp. 1 Kings 11. 5, 7.
+23:14 | images = pillars, or statues. men. Heb. 'adam. Used collectively. Ap. 14. I.
+23:15 | the altar. Cp. 1 Kings 12. 32, 33. made Israel to sin. See note on 1 Kings 14. 16.
+23:16 | sepulchres. Heb. pl. of keber. See note on 21. 26. the word. See 1 Kings 13. 2. the man of God. See note on Deut. 33. 1. Ap. 49. God. Heb. Elohim. Ap. 4. I. proclaimed. Supply Fig. Ellipsis (Ap. 6) thus: "proclaimed [when Jeroboam stood by the altar at the feast], who proclaimed these words" 369 years before. See 1 Kings 13. 1, 2.
+23:17 | title = monument. men. Heb. 'enosh. Ap. 14. III.
+23:19 | the LORD. Sept., Syr., and Vulg. read "Jehovah" in the text.
+23:20 | slew = sacrificed. See Ap. 43. I. iv.
+23:21 | Keep the passover. See note on Ex. 12. 28. the book of this covenant = this covenant-book. A.V., 1611, reads "this book of the covenant".
+23:22 | not holden such. Cp. Hezekiah's passover, of which the same is said (2 Chron. 30. 26). Both statements true. Hezekiah's greater than any before it. Josiah's greater than Hezekiah's. See the details (2 Chron. 35. 1-19). There were larger numbers, and the law was more exactly followed. Hezekiah's passover kept just before the dispersion of Israel. Josiah's passover kept just before the captivity of Judah. judges that judged. Fig. Polyptoton. Ap. 6.
+23:24 | familiar spirits. See note on Lev. 19. 31. images = teraphim = household gods. idols = manufactured gods. put = clear. Hilkiah the priest found. See 22. 8, &c.
+23:25 | like unto. Note the Fig. Epanadiplosis (Ap. 6), by which (for emphasis) the statement begins and ends with the same words. soul. Heb. nephesh. Ap. 13.
+23:27 | as = according as. I have chosen = I once, or erewhile, chose.
+23:28 | are they not ... ? Fig. Erotesis. Ap. 6.
+23:29 | Pharaoh-nechoh: i.e. Nechoh II, the sixth king of the twenty-sixth dynasty. His father was a tributary to Assyria, but had secured independence for Egypt. the king of Assyria: i.e. the king of Babylon, who had just conquered Nineveh, the rival capital. went against him. His motive not known. he = the king of Egypt. him = Josiah. Megiddo. Southern margin of the plain of Esdraelon, celebrated for Syria's defeat by Barak (Judg. 5. 19). seen. Fig. Tapeinosis (Ap. 6), to emphasise the fact that he did much more than "see" him. Cp. 14. 8 and 2 Chron. 35. 21, 22.
+23:30 | buried him. For the sorrow attending this, see 2 Chron. 35. 25.
+23:31 | 23. 31-35 (R5, p. 516). JEHOAHAZ. (Division.) Jehoahaz. Also called Johanan (Jer. 22. 11. 1 Chron. 3. 15). He was the younger brother of Jehoiakim (v. 36).
+23:32 | evil. Heb. ra'a'. Ap. 44. viii.
+23:33 | at Riblah. After his defeat by Nebuchadrezzar at Carchemish. Riblah was a centre from whence roads branched to the Euphrates and Nineveh, or by Palmyra to Babylon. The southern roads led to Palestine, Lebanon, and Egypt. Riblah still bears this name, and is about twenty-five miles south-south-west of Emesa. that he might not reign. Heb. text reads "when he reigned". A.V. follows some codices, with Aram., Sept., and Vulg. talents. See Ap. 51. II.
+23:34 | Eliakim. Name changed, to assert Pharaoh-nechoh's authority. in the room. Refusing to recognise the People's appointment of v. 30. died there. As Jeremiah (22. 11, 12) foretold.
+23:35 | taxed = assessed.
+23:36 | 23. 36—24. 7 (R6, p. 516). JEHOIAKIM. (Alternation.)
+23:37 | did that which was evil. See 2 Chron. 36. 5-8. Jer. 22. 17; 24. 8; 26. 22, 23. N.B. Jer. 13—20, and probably 22; 26; 35; 36; belong to this period.
+24:1 | Nebuchadnezzar. Or Nebuchadrezzar (Jer. 21. 2, 7; 22. 25), or Nebuchadonosor in Josephus and Berosus, Sept., and Vulg. This is the first occurrence of his name in Scripture. came up. In the fourth year of Jehoiakim (Jer. 25. 1; 46. 2). Daniel says in third year (1. 1); but he writes from Babylon, whence Nebuchadnezzar set out, and here (cp. Jer. 46. 2), it refers to the actual coming. The Babylonian Servitude begins here (496 to 426 B.C.).
+24:2 | the LORD. Heb. Jehovah. Ap. 4. II. bands = marauding bands. children = sons. by = through. Heb. by the hand of. "Hand" put by Fig. Metonymy (of Cause), Ap. 6, for what is effected by it.
+24:3 | commandment. Heb. mouth. Put by Fig. Metonymy (of Cause), Ap. 6, for what is spoken by it. according to all. A special reading called Sevir (Ap. 34) reads "in all". So some codices.
+24:4 | blood. Put by Fig. Synecdoche (of Species), Ap. 6, for murder, and the guilt of it.
+24:5 | the rest. See 2 Chron. 36. 6-8. are they not ... ? Fig. Erotesis. Ap. 6.
+24:6 | slept with his fathers. Only the fact referred to here. Not the manner of his death and burial, for which see Jer. 22. 18, 19; 36. 29, 30. It was as foretold. The expression "slept with his fathers" is used even of Ahab; and every king of Judah whose death is recorded is said also to have been buried, except Jehoiakim. See note on Deut. 31. 16.
+24:8 | 24. 8-17 (R7, p. 516). JEHOIACHIN. (Introversion.) Jehoiachin. Called also Coniah and Jeconiah (Jer. 22. 24; 24. 1). eighteen. This was his age. In 2 Chron. 36. 9 he is said to be eight. See note there. three months. Is put by Fig. Synecdoche (of the Part), Ap. 6, for three months and ten days. Cp. 2 Chron. 36. 9.
+24:9 | evil. Heb. ra'a'. Ap. 44. viii.
+24:10 | 10-17 (J, above). EVENTS. EXTERNAL. (Alternation.) the servants of. Some codices, with two early printed editions, Sept. and Syr., omit these words, and read "came up".
+24:11 | and. Note the Fig. Polysyndeton (Ap. 6) in vv. 11-16 to emphasise every detail. did besiege = were besieging.
+24:12 | officers: i.e. eunuchs or chamberlains. the eighth year. Computed from the time that his father entrusted him with regal authority. This was the 4th year of Jehoiakim (Jer. 25. 1, cp. 32. 1).
+24:13 | as = according as. had said. Cp. 20. 17.
+24:14 | carried away. This deportation was eleven years before that of Zedekiah (25. 18). Mordecai was in this deportation. See note on 2 Chron. 36. 6. The Captivity begun in 489. craftsmen = artificers. the People of the land. Cp. 23. 6.
+24:15 | Jehoiachin to Babylon. Where he was captive for thirty-seven years. the mighty of the land. Princes and potentates, priests and prophets (Jer. 29. 1). Among them Ezekiel (1. 12), Daniel, and Nehemiah.
+24:16 | men. Heb. 'enosh. Ap. 14. III. smiths = armourers.
+24:17 | changed his name. See note on 23. 34.
+24:18 | 24. 18-20 (R8, p. 516). ZEDEKIAH. (Introversion.) Hamutal. Therefore only half-brother to Jehoiakim, but full brother to Jehoahaz.
+24:19 | did that which was evil. See 2 Chron. 36. 12-16. Jer. 24. 8; 37. 2; 38. 2, 5.
+24:20 | rebelled. Though bound by oath (2 Chron. 36. 13. Ezek. 17. 13).
+25:1 | 25. 1-30 (C2, p. 446). THE KINGDOM ENDED. (Introversion.) 25. 1-21 (L, above). NEBUCHADNEZZAR AND ZEDEKIAH. (Extended Alternation.) And. Note the Fig. Polysyndeton (Ap. 6) in vv. 1-7, to emphasise every detail. it came to pass. Cp. 2 Chron. 36. 11-13 and Jer. 52. The prophecy of Jer. 39—44 is the Divine comment on the history. ninth year, &c. The day revealed to Ezekiel in exile (Ezek. 24. 1). Cp. Jer. 39. 1.
+25:3 | fourth. This numeral is supplied from Jer. 52. 6. the famine. The ninth recorded in Scripture. See note on Gen. 12. 10. Fulfilling Lev. 26. 29. Deut. 28. 53-57. Jer. 15. 2; 27. 13. Lam. 2. 20-22. Ezek. 4. 16. Sufferings described in Jer. 21. 7-9. Lam. 4. 9, 10; 5. 10, &c.
+25:4 | broken up = breached. Before this an Egyptian force approached and the Babylonians retired (Jer. 37. 5-11). The relief was only temporary, as predicted. men. Heb. 'enosh. Ap. 14. III. fled. Some codices, with Syr., read "the men of war fled, and went forth by night". Cp. Jer. 39. 4; 52. 7. two = the two. now. Note Fig. Parenthesis. Ap. 6.
+25:6 | Riblah. See note on 23. 33. they. Some codices, with Sept., Syr., and Vulg., read "he". gave judgment = passed sentence. Cp. 24. 20.
+25:7 | put out the eyes. So that he did not "see" Babylon, though he was to die there (Ezek. 12. 13). But he did "see" the king of Babylon, according to Jer. 32. 4; 34. 3. See note on Gen. 19. 11.
+25:8 | seventh day. Jer. 52. 12 says tenth day. He may have set fire to it on the seventh day, and it burnt until the tenth. captain of the guard = chief of the royal executioners.
+25:9 | the LORD. Heb. Jehovah. Ap. 4. II. great man's house. See note on Prov. 17. 19.
+25:12 | husbandmen. Cp. Jer. 52. 16.
+25:17 | The height of the one pillar. See note on 1 Kings 7. 15. cubits. See Ap. 51. III. 2. wreathen work = network.
+25:18 | Seraiah. The grandfather or great-grandfather of Ezra (1 Chron. 6. 14. Ezra 7. 1). chief priest. See note on Lev. 4. 3. second priest. See note on 23. 4. Probably a deputy high priest. No provision for such in the Law. door = threshold.
+25:19 | were in the king's presence. Heb. saw the king's face. principal scribe = scribe of the captain of the host.
+25:21 | So Judah was carried away. Thus ended the kingdom of Judah, as Jeremiah had predicted (Jer. 20. 4). their = his.
+25:22 | 25. 22-25 (M, p. 528). THE REMNANT. MIGRATION TO EGYPT. (Alternation.) Ahikam. He had befriended Jeremiah (Jer. 26. 24)
+25:23 | when all the captains, &c. For fuller account see Jer. 40. 7—43. 13. Ishmael. He was of the seed royal (v. 25), and laid claim to the throne. Cp. Jer. 40. 8; 41. 1-18. Josephus, Ant. X. 9. 2. Johanan. Who, with others, warned Gedaliah of Ishmael's treachery (Jer. 40. 13; 41. 15).
+25:24 | it shall be well with you. So God designed it (Jer. 27. 5, 6, 11).
+25:25 | seventh month. Afterward observed as a fast. Cp. Zech. 7. 5. smote Gedaliah. Instigated by Baalis, king of Ammon (Jer. 40. 7—43. 13).
+25:26 | came to Egypt. In defiance of the counsel of Jeremiah (whom they took with them). See Jer. 42 and 43. 8-13, who foretold that Egypt also would be given to the king of Babylon (Jer. 44. 29, 30).
+25:27 | Evil-merodach. The son and successor of Nebuchadnezzar. lift up the head. Heb. idiom = show favour to. out of prison. Some codices, with Sept. and Syr., read "and brought him forth out of his prison". Cp. Jer. 52. 31.
+25:28 | kindly = good words. throne = seat (Prov. 9. 14). Cp. Lam. 1. 1.
+25:29 | did eat bread. He was a guest at the royal table. Cp. 2 Sam. 19. 33. 1 Kings 2. 7.
+25:30 | This chapter, compared with the last chapter of Jeremiah, points to his authorship. The (one) book of Kings brings the history of Israel and Judah down to the Captivity, and ends there. See the Structure, p. 413. The (one) book of Chronicles begins from Adam, and leads on from the Captivity to the book of Ezra-Nehemiah.

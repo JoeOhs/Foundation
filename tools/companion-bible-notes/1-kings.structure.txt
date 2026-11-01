@@ -1,0 +1,1308 @@
+# The Companion Bible (E. W. Bullinger, 1913) — 1 Kings
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/10. Kings I-II_text.pdf, which holds both
+# books); [[pdf-page:]] is the page of that file each diagram is on.
+# Notation: README.md here. The diagrams on p. 446 cover both books and
+# are kept here, the book they open.
+#
+# Where print steps two or more levels after a text line the parser allows
+# one, so these sit one level in from print: 1. 1—2. 11 second H; 8. 1-66 second X.
+
+[[diagram: The Structure of the Two Books as a Whole. The Kingdom (Division)]]
+[[anchor: 1 Kings 1:1]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 1]]
+
+A1 |  | 1 Kings 1. 1—12. 15. THE KINGDOM. UNITED.
+A2 |  | 1 Kings 12. 16—2 Kings 25. 30. THE KINGDOM. DIVIDED. (Covering a period of 444 years: viz. 921-477.)
+
+[[diagram: 1 Kings 1. 1—12. 15 (A1, above). The Kingdom. United (Division)]]
+[[anchor: 1 Kings 1:1]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 1]]
+
+A1 |  |
+  B1 |  | 1 Kings 1. 1—2. 11. DAVID.
+  B2 |  | 1 Kings 2. 12—11. 43. SOLOMON.
+  B3 |  | 1 Kings 12. 1-15. REHOBOAM.
+
+[[diagram: 1 Kings 12. 16—2 Kings 25. 30 (A2, above). The Kingdom. Divided (Introversion and Repeated Alternation)]]
+[[anchor: 1 Kings 1:1]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 1]]
+
+A2 |  |
+  C1 |  | 1 Kings 12. 16-19. THE DIVISION OF THE KINGDOM.
+    D1 |  |
+      E1 |  | 1 Kings 12. 20—14. 20. ISRAEL (JEROBOAM I).
+        F1 |  | 1 Kings 14. 21—15. 24. JUDAH (REHOBOAM, 14. 21-31; ABIJAM, 15. 1-8; ASA, 15. 9-24).
+      E2 |  | 1 Kings 15. 25—22. 40. ISRAEL (NADAB, 15. 25-31; BAASHA, 15. 32—16. 7; ELAH, 16. 8-14; ZIMRI, 16. 15-20; (INTERREGNUM, 16. 21, 22); OMRI, 16. 23-28; AHAB, 16. 29—22. 40.
+        F2 |  | 1 Kings 22. 41-50. JUDAH (JEHOSHAPHAT).
+      E3 |  | 1 Kings 22. 51—2 Kings 8. 15. ISRAEL (AHAZIAH, 1 Kings 22. 51—2 Kings 1. 18; (ELIJAH'S Translation, 2 Kings 2. 1-25). JORAM, 2 Kings 3. 1—8. 15).
+        F3 |  | 2 Kings 8. 16—9. 29. JUDAH (JEHORAM, 8. 16-24; AHAZIAH, 8. 25—9. 29).
+[[group: -]]
+      E4 |  | 2 Kings 9. 30—10. 36. ISRAEL (JEHU).
+        F4 |  | 2 Kings 11. 1—12. 21. JUDAH (ATHALIAH, 11. 1-16; JOASH, 11. 17—12. 21).
+[[group: DISRUPTION OF ISRAEL AND JUDAH. †]]
+    D2 |  |
+      E5 |  | 2 Kings 13. 1-25. ISRAEL (JEHOAHAZ, 13. 1-9; JEHOASH, 13. 10-25).
+        F5 |  | 2 Kings 14. 1-22. JUDAH (AMAZIAH, 14. 1-20; UZZIAH, 14. 21, 22).
+      E6 |  | 2 Kings 14. 23-29. ISRAEL (JEROBOAM II).
+        F6 |  | 2 Kings 15. 1-7. JUDAH (UZZIAH).
+      E7 |  | 2 Kings 15. 8-31. ISRAEL (ZACHARIAH, 15. 8-12; SHALLUM, 15. 13-16; MENAHEM, 15. 17-22; PEKAHIAH, 15. 23-26; PEKAH, 15. 27-31).
+        F7 |  | 2 Kings 15. 32—16. 20. JUDAH (JOTHAM, 15. 32-38; AHAZ, 16. 1-20).
+[[group: -]]
+      E8 |  | 2 Kings 17. 1-41. ISRAEL (HOSHEA).
+        F8 |  | 2 Kings 18. 1—24. 20. JUDAH (HEZEKIAH, 18. 1—20. 21; MANASSEH, 21. 1-18; AMON, 21. 19-26; JOSIAH, 22. 1—23. 30; JEHOAHAZ, 23. 31-35; JEHOIAKIM, 23. 36—24. 7; JEHOIACHIN, 24. 8-16; ZEDEKIAH, 24. 17-20.
+[[group: DISPERSION OF ISRAEL AND CAPTIVITY OF JUDAH. †]]
+  C2 |  | 2 Kings 25. 1-30. THE ENDING OF THE KINGDOM.
+
+[[diagram: The Structure of 1 and 2 Kings as Related to 1 and 2 Samuel]]
+[[anchor: 1 Kings 1:1]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 2]]
+
+x |  | 2 Sam. 2. 1—4. 12. The Divided kingdom.
+  y |  | 2 Sam. 5. 1—24. 25. The United kingdom.
+  y |  | 1 Kings 1. 1—12. 15. The United kingdom.
+x |  | 1 Kings 12. 16—2 Kings 25. 30. The Divided kingdom.
+
+[[diagram: 1. 1—2. 11 (B1, p. 446). David (Repeated Alternation with Introversions)]]
+[[anchor: 1 Kings 1:1]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 2]]
+
+B1 |  |
+  G1 |  |
+    J |  | 1. 1. David. Length of years.
+      K |  | 1. 2-4. Advice of servants to David.
+        H |  |
+          L |  | 1. 5-10. Solomon. Wrongful succession.
+[[group: -]]
+            M |  |
+              N |  | 1. 11-14. Nathan.
+                O |  | 1. 15-. Bath-sheba.
+[[group: Counteraction.]]
+  G2 | -15 | David. Very old.
+[[group: -]]
+    H |  |
+            M |  |
+                O |  | 1. 16-21. Bath-sheba.
+              N |  | 1. 22-27. Nathan.
+[[group: Counteraction.]]
+          L |  | 1. 28-53. Solomon. Rightful succession.
+  G3 |  |
+      K |  | 2. 1-9. Advice of David to Solomon.
+    J |  | 2. 10, 11. David. Length of reign.
+
+[[diagram: 5-10 (L, above). Solomon. Wrongful Successors (Alternation)]]
+[[anchor: 1 Kings 1:5-10]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 2]]
+
+L |  |
+  a | 5-7 | His adherents. Invited.
+    b | 8 | Non-adherents.
+  a | 9 | His adherents. Invited.
+    b | 10 | Non-invited.
+
+[[diagram: 1. 11-14 (N, p. 447). Nathan and Bath-sheba. Counteraction (Introversion)]]
+[[anchor: 1 Kings 1:11-14]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 3]]
+
+N |  |
+  c | 11 | Bath-sheba. Danger.
+    d | 12 | Advice for David.
+    d | 13 | Advice for Bath-sheba.
+  c | 14 | Bath-sheba. Support.
+
+[[diagram: 16-27 (M, p. 447). Nathan and Bath-sheba. Counteraction (Extended Alternation)]]
+[[anchor: 1 Kings 1:16-27]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 3]]
+
+M |  |
+  O |  |
+    e | 16 | Obeisance of Bath-sheba.
+      f | 17 | Rightful successor?
+        g | 18 | Adonijah.
+          h | 19 | Feast.
+            i | 20, 21 | Expectation.
+[[group: Nathan's advice followed.]]
+  N |  |
+    e | 22, 23 | Obeisance of Nathan.
+      f | 24 | Wrongful successor.
+        g | 25- | Adonijah.
+          h | -25, 26 | Feast.
+            i | 27 | Inquiry.
+[[group: Nathan's promise fulfilled.]]
+
+[[diagram: 28-53 (L, p. 447). Solomon. Rightful Successor (Division)]]
+[[anchor: 1 Kings 1:28-53]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 3]]
+
+L |  |
+  P1 | 28-40 | Proclamation and anointing.
+  P2 | 41-53 | Adonijah. Rebellion quelled.
+
+[[diagram: 28-40 (P1, above). Proclamation and Anointing (Extended and Repeated Alternation)]]
+[[anchor: 1 Kings 1:28-40]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 3]]
+
+P1 |  |
+  Q1 |  |
+    j1 | 28 | Call for Bath-sheba (David).
+      k1 | 29, 30 | Command. Given.
+        l1 | 31 | Acquiescence. Reverence.
+  Q2 |  |
+    j2 | 32 | Call for Zadok (David).
+      k2 | 33-35 | Command. Given.
+        l2 | 36, 37 | Acquiescence. Benediction.
+  Q3 |  |
+    j3 | 38 | Call for Solomon (Zadok).
+      k3 | 39 | Command. Obeyed.
+        l3 | 40 | Acquiescence. Rejoicing.
+
+[[diagram: 41-53 (P2, p. 448). Adonijah. Rebellion Quelled (Alternation)]]
+[[anchor: 1 Kings 1:41-53]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 4]]
+
+P2 |  |
+  m | 41 | Alarm.
+    n | 42-48 | Tidings brought to Adonijah.
+  m | 49, 50 | Fear and flight.
+    n | 51-53 | Tidings brought to Solomon.
+
+[[diagram: 2. 1-10 (K, p. 447). Advice of David to Solomon (Introversion and Alternations)]]
+[[anchor: 1 Kings 2:1-10]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 5]]
+
+K |  |
+  o | 1- | David. End near.
+    p |  |
+      q | -1-4 | For good. Solomon.
+        r | 5, 6 | For retribution. Joab.
+    p |  |
+      q | 7 | For good. Barzillai.
+        r | 8, 9 | For retribution. Shimei.
+  o | 10 | David. Death.
+
+[[diagram: 2. 12—11. 43 (B2, p. 446). Solomon (Introversion)]]
+[[anchor: 1 Kings 2:12]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 5]]
+
+B2 |  |
+  R |  | 2. 12-. Solomon. Accession.
+    S |  | 2. -12—11. 40. Reign. Events.
+    S |  | 11. 40-42. Reign. Record of events.
+  R |  | 11. 43-. Solomon. Death and burial.
+
+[[diagram: 2. -12—11. 40 (S, above). Reign. Events (Alternation)]]
+[[anchor: 1 Kings 2:12]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 5]]
+
+S |  |
+  T |  | 2. -12-46. Government.
+    U |  | 3. 1. Marriage.
+  T |  | 3. 2—10. 29. Government.
+    U |  | 11. 1-40. Marriages, &c.
+
+[[diagram: 2. -12-46 (T, above). Government (Introversion and Repeated Alternation)]]
+[[anchor: 1 Kings 2:12-46]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 5]]
+
+T |  |
+  V | -12 | Establishment of kingdom.
+    W |  |
+      X1 | 13-25 | Execution. Adonijah.
+        Y1 | 26, 27 | Deposition. Abiathar.
+      X2 | 28-34 | Execution. Joab.
+        Y2 | 35 | Substitution. Benaiah and Zadok.
+      X3 | 36-46- | Execution. Shimei.
+  V | -46 | Establishment of kingdom.
+
+[[diagram: 2. 13-25 (X1, p. 450). Execution. Adonijah (Extended Alternation)]]
+[[anchor: 1 Kings 2:13-25]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 6]]
+
+X1 |  |
+  s | 13-16 | Bath-sheba. Approached by Adonijah.
+    t | 17 | Adonijah's request.
+      u | 18 | Promise made.
+  s | 19, 20 | Bath-sheba. Approach to Solomon.
+    t | 21 | Adonijah's request.
+      u | 22-25 | Promise fulfilled. Result.
+
+[[diagram: 3. 2—10. 29 (T, p. 450). Government (Alternations, Simple and Extended, with Introversion)]]
+[[anchor: 1 Kings 3:2]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 7]]
+
+T |  |
+  A |  | 3. 2-15. First appearance of Jehovah to Solomon.
+    B |  |
+      C |  | 3. 16—4. 34. Wisdom and riches. Two women.
+        D |  |
+          E |  | 5. 1-12. Contract with Hiram.
+            F |  | 5. 13-18. Levy.
+              G |  | 6. 1—8. 66. Temple (part).
+  A |  | 9. 1-9. Second appearance of Jehovah to Solomon.
+    B |  |
+        D |  |
+          E |  | 9. 10-14. Contract with Hiram.
+            F |  | 9. 15-24. Levy.
+              G |  | 9. 25. Temple (general).
+      C |  | 9. 26—10. 29. Riches and wisdom. One woman (Queen of Sheba).
+
+[[diagram: 3. 2-15 (A, above). First Appearance of Jehovah to Solomon (Introversion and Alternation)]]
+[[anchor: 1 Kings 3:2-15]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 7]]
+
+A |  |
+  v | 2-4 | Solomon's worship at Gibeon.
+    w | 5- | Dream.
+      x |  |
+        y | -5 | Jehovah. Offer.
+          z | 6-9 | Solomon. Choice.
+      x |  |
+        y | 10 | Jehovah. Approbation.
+          z | 11-14 | Solomon. Gifts.
+    w | 15- | Dream.
+  v | -15 | Solomon's worship at Jerusalem.
+
+[[diagram: 3. 16—4. 34 (C, p. 452). Wisdom and Riches (Introversion)]]
+[[anchor: 1 Kings 3:16]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 8]]
+
+C |  |
+  H |  | 3. 16-28. Wisdom.
+    J |  | 4. 1-28. Dominion and riches.
+  H |  | 4. 29-34. Wisdom.
+
+[[diagram: 3. 16-28 (H, above). Wisdom (Alternation)]]
+[[anchor: 1 Kings 3:16-28]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 8]]
+
+H |  |
+  a | 16-22 | Case propounded.
+    b | 23-25 | Sentence pronounced.
+  a | 26 | Case withdrawn.
+    b | 27, 28 | Judgment executed.
+
+[[diagram: 4. 1-28 (J, above). Dominion and Riches (Repeated Alternation)]]
+[[anchor: 1 Kings 4:1-28]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 8]]
+
+J |  |
+  c1 | 1-19 | Solomon. Riches (officers).
+    d1 | 20 | People. Prosperity.
+  c2 | 21 | Solomon. Dominion (foreign).
+    d2 | 22, 23 | People. Provision.
+  c3 | 24 | Solomon. Dominion (foreign).
+    d3 | 25 | People. Security.
+  c4 | 26-28 | Solomon. Riches (officers).
+
+[[diagram: 4. 29-34 (H, p. 453). Wisdom (Alternation)]]
+[[anchor: 1 Kings 4:29-34]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 9]]
+
+H |  |
+  e | 29 | Extent.
+    f | 30, 31 | Others. Pre-eminence over.
+  e | 32, 33 | Extent.
+    f | 34 | Others. Resort by.
+
+[[diagram: 5. 1-12 (E, p. 452). Contract with Hiram (Introversion and Alternation)]]
+[[anchor: 1 Kings 5:1-12]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 10]]
+
+E |  |
+  h | 1 | Hiram and Solomon. Congratulations.
+    i |  |
+      k | 2-6- | Timber required.
+        l | -6 | Payment.
+    i |  |
+      k | 7-10 | Timber required.
+        l | 11 | Payment.
+  h | 12 | Hiram and Solomon. Covenant.
+
+[[diagram: 6. 1—8. 66 (G, p. 452). The Temple. (Particular.) (Introversion)]]
+[[anchor: 1 Kings 6:1]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 11]]
+
+G |  |
+  K |  | 6. 1-38. The Temple.
+    L |  | 7. 1-12. Other buildings.
+  K |  | 7. 13—8. 66. The Temple.
+
+[[diagram: 6. 1-38 (K, above). The Temple (Introversion)]]
+[[anchor: 1 Kings 6:1-38]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 11]]
+
+K |  |
+  M | 1 | Date of commencement.
+    N | 2-8 | Exterior of house.
+      O | 9, 10 | Completion.
+        P | 11-13 | Word of Jehovah.
+      O | 14 | Completion.
+    N | 15-36 | Interior of house.
+  M | 37, 38 | Date of completion.
+
+[[diagram: 6. 2-8 (N, above). Exterior of House (Alternation)]]
+[[anchor: 1 Kings 6:2-8]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 11]]
+
+N |  |
+  m | 2 | House. Dimensions.
+    n | 3-6 | Accessories. Porch, &c.
+  m | 7 | House. Materials.
+    n | 8 | Accessories. Door, &c.
+
+[[diagram: 6. 15-36 (N, p. 456). Interior of House (Repeated Alternation)]]
+[[anchor: 1 Kings 6:15-36]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 12]]
+
+N |  |
+  o1 | 15 | Covering. Walls, within, covered, cedar.
+    p1 | 16, 17 | Oracle. Dimensions.
+  o2 | 18 | Covering. Walls, within, carved, cedar.
+    p2 | 19, 20 | Oracle. Ark, &c.
+  o3 | 21, 22 | Covering. Walls, within, gold.
+    p3 | 23-29 | Oracle. Cherubim.
+  o4 | 30 | Covering. Floor, covered, gold.
+    p4 | 31-36 | Oracle. Entrances.
+
+[[diagram: 7. 1-12 (L, p. 456). Other Buildings (Introversion)]]
+[[anchor: 1 Kings 7:1-12]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 12]]
+
+L |  |
+  q | 1 | Solomon's own house. Time.
+    r | 2-8- | House of forest of Lebanon.
+    r | -8 | House of the queen.
+  q | 9-12 | Solomon's house. Materials.
+
+[[diagram: 7. 13—8. 66 (K, p. 456). The Temple (Division)]]
+[[anchor: 1 Kings 7:13]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 13]]
+
+K |  |
+  Q1 |  | 7. 13-51. The work itself.
+  Q2 |  | 8. 1-66. The dedication of the work.
+
+[[diagram: 7. 13-51 (Q1, above). The Work (Division)]]
+[[anchor: 1 Kings 7:13-51]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 13]]
+
+Q1 |  |
+  R1 | 13, 14- | The worker.
+  R2 | -14-51 | The works.
+
+[[diagram: 7. -14-51 (R2, above). The Works (Alternation)]]
+[[anchor: 1 Kings 7:14-51]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 13]]
+
+R2 |  |
+  S | -14-40- | Description.
+    T | -40 | Completion.
+  S | 41-50 | Enumeration.
+    T | 51 | Completion.
+
+[[diagram: 7. -14-40 (S T, above). Description (Introversion)]]
+[[anchor: 1 Kings 7:14-40]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 13]]
+
+S |  |
+  s | -14 | Hiram commences the work.
+    t | 15-22 | The position of pillars.
+[[group: -]]
+      u | 23-37 | The sea.
+      u | 38 | The lavers.
+[[group: Water.]]
+    t | 39, 40- | The position of sea and lavers.
+T |  |
+  s | -40 | Hiram completes the work.
+
+[[diagram: 8. 1-66 (Q2, p. 458). The Dedication (Introversion and Alternation)]]
+[[anchor: 1 Kings 8:1-66]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 15]]
+
+Q2 |  |
+  U | 1-11 | The Feast.
+    V |  |
+      W |  |
+        Y | 12-21 | Blessing.
+          Z | 22 | Station.
+            X | 23-53 | PRAYER.
+    V |  |
+      W |  |
+          Z | 54, 55 | Station.
+        Y | 56-61 | Blessing.
+          X | 62-64 | WORSHIP.
+  U | 65, 66 | The Feast.
+
+[[diagram: 1-11 (U, above). The Feast (Alternation)]]
+[[anchor: 1 Kings 8:1-11]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 15]]
+
+U |  |
+  v | 1-4 | The Ark brought up.
+    w | 5 | "Could not be numbered." (Multitude.)
+  v | 6-9 | The Ark brought in.
+    w | 10, 11 | "Could not stand." (Cloud.)
+
+[[diagram: 8. 12-21 (Y, p. 460). The Blessing (Repeated Alternation)]]
+[[anchor: 1 Kings 8:12-21]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 16]]
+
+Y |  |
+  x1 | 12 | Words of and to Jehovah.
+    y1 | 13 | The house.
+  x2 | 14-16 | Words of and to Jehovah.
+    y2 | 17 | The house.
+  x3 | 18, 19 | Words of and to Jehovah.
+    y3 | 20, 21 | The house.
+
+[[diagram: 23-53 (X, p. 460). The Prayer (Division)]]
+[[anchor: 1 Kings 8:23-53]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 16]]
+
+X |  |
+  A1 | 23-30 | General. Jehovah and himself.
+  A2 | 31-53 | Special. The people.
+
+[[diagram: 23-30 (A1, above). General (Alternation)]]
+[[anchor: 1 Kings 8:23-30]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 16]]
+
+A1 |  |
+  a | 23, 24 | Jehovah's faithfulness.
+    b | 25, 26 | Solomon's plea.
+  a | 27 | Jehovah's immensity.
+    b | 28-30 | Solomon's plea.
+
+[[diagram: 31-53 (A2, p. 461). Special. The People (Introversion and Repeated Alternation)]]
+[[anchor: 1 Kings 8:31-53]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 17]]
+
+A2 |  |
+  B |  |
+    c1 | 31 | Subject.
+      d1 | 32 | "Hear Thou".
+[[group: Individual.]]
+  C |  |
+    c2 | 33 | Subject.
+      d2 | 34 | "Hear Thou".
+    c3 | 35 | Subject.
+      d3 | 36 | "Hear Thou".
+    c4 | 37, 38 | Subject.
+      d4 | 39, 40 | "Hear Thou".
+[[group: National.]]
+  B |  |
+    c5 | 41, 42 | Subject.
+      d5 | 43 | "Hear Thou".
+[[group: Individual.]]
+  C |  |
+    c6 | 44 | Subject.
+      d6 | 45 | "Hear Thou".
+    c7 | 46-48 | Subject.
+      d7 | 49-53 | "Hear Thou".
+[[group: National.]]
+
+[[diagram: 8. 56-61 (Y, p. 460). The Blessing (Introversion)]]
+[[anchor: 1 Kings 8:56-61]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 18]]
+
+Y |  |
+  e | 56- | The faithfulness of Jehovah. Celebrated.
+    f | -56 | Retrospective. Praise.
+    f | 57-60 | Prospective. Prayer.
+  e | 61 | The faithfulness of His People. Exhortation.
+
+[[diagram: 9. 1-9 (A, p. 452). Second Appearance of Jehovah (Division)]]
+[[anchor: 1 Kings 9:1-9]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 19]]
+
+A |  |
+  E1 | 1, 2 | Appearance.
+  E2 | 3 | Acceptance.
+  E3 | 4-9 | Admonition.
+
+[[diagram: 4-9 (E3, above). Admonition (Alternation)]]
+[[anchor: 1 Kings 9:4-9]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 19]]
+
+E3 |  |
+  g | 4 | Obedience.
+    h | 5 | Establishment.
+  g | 6 | Disobedience.
+    h | 7-9 | Rejection.
+
+[[diagram: 15-24 (F, p. 452). The Levy (Extended Alternation)]]
+[[anchor: 1 Kings 9:15-24]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 19]]
+
+F |  |
+  i | 15 | Levy for buildings.
+    k | 16 | Pharaoh's daughter. City given.
+      l | 17-19 | Buildings. Gezer, &c.
+  i | 20-23 | Levy for builders.
+    k | 24- | Pharaoh's daughter. House built.
+      l | -24 | Building. Millo.
+
+[[diagram: 9. 26—10. 29 (C, p. 452). Riches and Wisdom (Repeated Alternation)]]
+[[anchor: 1 Kings 9:26]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 20]]
+
+C |  |
+  G1 |  | 9. 26-28. Riches. Navy.
+    H1 |  | 10. 1-10. Wisdom. Queen of Sheba.
+  G2 |  | 10. 11, 12. Riches. Navy.
+    H2 |  | 10. 13. Wisdom. Queen of Sheba.
+  G3 |  | 10. 14-29. Riches. Possessions.
+
+[[diagram: 10. 14-29 (G3, p. 465). Riches. Possessions (Introversion and Alternation)]]
+[[anchor: 1 Kings 10:14-29]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 21]]
+
+G3 |  |
+  m |  |
+    p | 14 | Gold. Material.
+      q | 15 | Means. Merchandise.
+        n |  |
+          r | 16-21 | Manufactures. Armour, &c.
+            s | 22 | Means. Navy.
+              o | 23, 24 | Pre-eminence.
+        n |  |
+            s | 25 | Means. Presents.
+          r | 26 | Manufactures. Chariots, &c.
+  m |  |
+    p | 27, 28- | Silver, cedars, &c. Material.
+      q | -28, 29 | Means. Merchandise.
+
+[[diagram: 11. 1-40 (U, p. 450). Marriages (Alternation)]]
+[[anchor: 1 Kings 11:1-40]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 22]]
+
+U |  |
+  t | 1-8 | Sins. Committed.
+    u | 9- | Jehovah's anger.
+  t | -9, 10 | Sins. Charged.
+    u | 11-40 | Jehovah's punishment.
+
+[[diagram: 11-40 (u, above). Jehovah. Punishment (Division)]]
+[[anchor: 1 Kings 11:11-40]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 22]]
+
+u |  |
+  J1 | 11-13 | Threatening (diminution).
+  J2 | 14-40 | Execution (adversaries).
+
+[[diagram: 14-40 (J2, above). Execution (Adversaries) (Introversion)]]
+[[anchor: 1 Kings 11:14-40]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 22]]
+
+J2 |  |
+  v |  |
+    x | 14 | Hadad.
+      y | 15-22 | Cause.
+        w | 23-25 | Rezon.
+  v |  |
+    x | 26 | Jeroboam.
+      y | 27-40 | Cause.
+
+[[diagram: 12. 1-15 (B3, p. 446). Rehoboam (Introversions)]]
+[[anchor: 1 Kings 12:1-15]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 24]]
+
+B3 |  |
+  z | 1 | Rehoboam. Accession to kingdom.
+    a |  |
+      c | 2-4 | Petition of Jeroboam. Made.
+        d | 5 | Dismissal.
+          b | 6-11 | Answer considered.
+    a |  |
+        d | 12 | Return.
+      c | 13, 14 | Petition of Jeroboam. Answered.
+  z | 15 | Rehoboam. Rending of kingdom.
+
+[[diagram: 12. 20—14. 20 (E1, p. 446). Israel. Jeroboam I (Introversion)]]
+[[anchor: 1 Kings 12:20]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 25]]
+
+E1 |  |
+  K |  | 12. 20. Jeroboam. Accession.
+    L |  | 12. 21-24. Reign. Assured.
+    L |  | 12. 25—14. 18. Reign. Events.
+  K |  | 14. 19, 20. Jeroboam. Record.
+
+[[diagram: 12. 25—14. 18 (L, above). Reign. Events (Introversion and Alternation)]]
+[[anchor: 1 Kings 12:25]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 25]]
+
+L |  |
+  M |  | 12. 25. Reign. Beginning.
+    N |  |
+      e |  | 12. 26-33. Idolatry. Commenced.
+        f |  | 13. 1-32. Warning. Prophet from Judah.
+    N |  |
+      e |  | 13. 33, 34. Idolatry. Persistence.
+        f |  | 14. 1-17. Warning. Ahijah.
+  M |  | 14. 18. Reign. End.
+
+[[diagram: 12. 26-33 (e, above). Idolatry. Commenced (Division)]]
+[[anchor: 1 Kings 12:26-33]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 25]]
+
+e |  |
+  O1 | 26, 27 | Jeroboam. Fear.
+  O2 | 28-33 | Jeroboam. Expedients.
+
+[[diagram: 12. 28-33 (O2, above). Jeroboam. Expedients (Division)]]
+[[anchor: 1 Kings 12:28-33]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 25]]
+
+O2 |  |
+  g1 | 28-30 | Idolatry. The two calves.
+  g2 | 31-33 | Idolatry. The high places.
+
+[[diagram: 13. 1-32 (f, p. 470). Warning. By Man of God (Repeated Alternation)]]
+[[anchor: 1 Kings 13:1-32]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 26]]
+
+f |  |
+  h |  |
+    i1 | 1, 2 | Jeroboam. Warned.
+      j1 | 3 | Sign given.
+    i2 | 4 | Jeroboam. Smitten.
+      j2 | 5 | Sign fulfilled.
+    i3 | 6 | Jeroboam. Healed.
+[[group: Arrival.]]
+  h |  |
+    k1 | 7-10 | Obedience.
+      l1 | 11-14 | Old prophet.
+    k2 | 15-19 | Disobedience.
+      l2 | 20-32 | Old prophet.
+[[group: Return.]]
+
+[[diagram: 14. 1-17 (f, p. 470). Warning from Ahijah (Repeated Alternation)]]
+[[anchor: 1 Kings 14:1-17]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 27]]
+
+f |  |
+  m1 | 1-4 | Message from Jeroboam by his wife.
+    n1 | 5, 6 | Messenger revealed to Ahijah.
+  m2 | 7-11 | Message from Jehovah to Jeroboam.
+    n2 | 12, 13 | Messenger to return.
+  m3 | 14-16 | Message from Jehovah.
+    n3 | 17 | Messenger returns.
+
+[[diagram: 14. 21—15. 24 (F1, p. 446). Judah (Division)]]
+[[anchor: 1 Kings 14:21]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 28]]
+
+F1 |  |
+  P1 |  | 14. 21-31. Rehoboam.
+  P2 |  | 15. 1-8. Abijam.
+  P3 |  | 15. 9-24. Asa.
+
+[[diagram: 14. 21-31 (P1, above). Rehoboam (Introversion)]]
+[[anchor: 1 Kings 14:21-31]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 28]]
+
+P1 |  |
+  O | 21 | Introduction.
+    P | 22-24 | Sins. Committed.
+    P | 25-28 | Sins. Punished.
+  O | 29-31 | Conclusion.
+
+[[diagram: 15. 1-8 (P2, p. 473). Abijah (Introversion)]]
+[[anchor: 1 Kings 15:1-8]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 29]]
+
+P2 |  |
+  q | 1, 2 | Introduction.
+    r | 3 | Sins. Committed.
+      s | 4, 5 | Divine forbearance.
+    r | 6 | Sins. Punished.
+  q | 7, 8 | Conclusion.
+
+[[diagram: 15. 9-24 (P3, p. 473). Asa (Introversion)]]
+[[anchor: 1 Kings 15:9-24]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 29]]
+
+P3 |  |
+  t | 9, 10 | Introduction.
+    u | 11-15 | Events. Religious.
+    u | 16-22 | Events. Military.
+  t | 23, 24 | Conclusion.
+
+[[diagram: 15. 16-22 (u, p. 474). Events. Military (Introversion)]]
+[[anchor: 1 Kings 15:16-22]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 30]]
+
+u |  |
+  v | 16 | War with Baasha. Begun.
+    w | 17 | Baasha's building of Ramah. Begun.
+      x | 18 | Ben-hadad. Subsidy to.
+        y | 19 | Former league appealed to.
+      x | 20 | Ben-hadad. Help from.
+    w | 21 | Baasha's building of Ramah. Left.
+  v | 22 | War with Baasha. Ended.
+
+[[diagram: 15. 25—22. 40 (E2, p. 446). Israel (Division)]]
+[[anchor: 1 Kings 15:25]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 30]]
+
+E2 |  |
+  Q1 |  | 15. 25-31. Nadab.
+  Q2 |  | 15. 32—16. 7. Baasha.
+  Q3 |  | 16. 8-14. Elah.
+  Q4 |  | 16. 15-20. Zimri.
+    ¶ |  | 16. 21, 22. Interregnum.
+  Q5 |  | 16. 23-28. Omri.
+  Q6 |  | 16. 29—22. 40. Ahab.
+
+[[diagram: 25-31 (Q1, above). Nadab (Introversion)]]
+[[anchor: 1 Kings 15:25-31]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 30]]
+
+Q1 |  |
+  z | 25 | Introduction.
+    a | 26 | Evil-doing.
+      b | 27-29 | Conspiracy of Baasha.
+    a | 30 | Evil-doing.
+  z | 31 | Conclusion.
+
+[[diagram: 15. 32—16. 7 (Q2, p. 475). Baasha (Introversion)]]
+[[anchor: 1 Kings 15:32]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 31]]
+
+Q2 |  |
+  c |  | 15. 32, 33. Introduction.
+    d |  | 15. 34. Evil-doing. Committed.
+    d |  | 16. 1-4. Evil-doing. Punished.
+  c |  | 16. 5-7. Conclusion.
+
+[[diagram: 16. 8-14 (Q3, p. 475). Elah (Introversion)]]
+[[anchor: 1 Kings 16:8-14]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 31]]
+
+Q3 |  |
+  e | 8 | Introduction.
+    f |  |
+      g | 9, 10 | Zimri. Conspiracy.
+        h | 11 | Elah. Cut off.
+    f |  |
+      g | 12 | Zimri. Prophecy.
+        h | 13 | Elah cut off. Reason.
+  e | 14 | Conclusion.
+
+[[diagram: 15-20 (Q4, p. 475). Zimri (Introversion)]]
+[[anchor: 1 Kings 16:15-20]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 31]]
+
+Q4 |  |
+  i | 15- | Introduction.
+    k | -15, 16- | Zimri. Conspiracy.
+      l | -16 | Omri. Elected.
+      l | 17 | Omri. Siege of Tirzah.
+    k | 18, 19 | Zimri. Suicide.
+  i | 20 | Conclusion.
+
+[[diagram: 16. 21, 22 (¶, p. 475). Interregnum (Division)]]
+[[anchor: 1 Kings 16:21-22]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 32]]
+
+¶ |  |
+  m1 | 21 | People. Division for Tibni.
+  m2 | 22 | People. Prevalence for Omri.
+
+[[diagram: 23-28 (Q5, p. 475). Omri (Introversion)]]
+[[anchor: 1 Kings 16:23-28]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 32]]
+
+Q5 |  |
+  n | 23 | Introduction.
+    o | 24 | Events. Building Samaria.
+    o | 25, 26 | Events. Evil-doing.
+  n | 27, 28 | Conclusion.
+
+[[diagram: 16. 29—22. 40 (Q6, p. 475). Ahab (Introversion and Alternation)]]
+[[anchor: 1 Kings 16:29]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 32]]
+
+Q6 |  |
+  R |  | 16. 29-. Introduction.
+    S |  |
+      T |  | 16. -29-33. Personal evil. Idolatry.
+        U |  | 16. 34—20. 43. Public events. War with Syria.
+    S |  |
+      T |  | 21. 1-29. Personal evil. Naboth.
+        U |  | 22. 1-38. Public events. War with Syria.
+  R |  | 22. 39, 40. Conclusion.
+
+[[diagram: -29-33 (T, above). Personal Evil (Introversion)]]
+[[anchor: 1 Kings 16:29-33]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 32]]
+
+T |  |
+  p | -29 | Ahab. Length of reign.
+    q | 30, 31 | Personal evil.
+    q | 32, 33- | Public evil.
+  p | -33 | Ahab. Character of reign.
+
+[[diagram: 16. 34—20. 43 (U, above). Public Events (Division)]]
+[[anchor: 1 Kings 16:34]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 32]]
+
+U |  |
+  V1 |  | 16. 34. The rebuilding of Jericho.
+  V2 |  | 17. 1—19. 21. The drought.
+  V3 |  | 20. 1-43. War with Syria.
+
+[[diagram: 17. 1—19. 21 (V2, p. 477). The Drought (Alternation)]]
+[[anchor: 1 Kings 17:1]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 33]]
+
+V2 |  |
+  W |  | 17. 1-24. Elijah's retirement.
+    X |  | 18. 1-46. Mission to Ahab.
+  W |  | 19. 1-14. Elijah's flight.
+    X |  | 19. 15-21. Mission to Hazael and others.
+
+[[diagram: 17. 1-24 (W, above). Elijah's Retirement (Extended Alternation)]]
+[[anchor: 1 Kings 17:1-24]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 33]]
+
+W |  |
+  Y |  |
+    r | 1-4 | Command.
+      s | 5, 6 | Obedience.
+        t | 7 | Circumstance. The brook and ravens.
+  Y |  |
+    r | 8, 9 | Command.
+      s | 10- | Obedience.
+        t | -10-24 | Circumstance. The widow.
+
+[[diagram: -10-24 (t, above). Circumstance. The Widow (Division)]]
+[[anchor: 1 Kings 17:10-24]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 33]]
+
+t |  |
+  Z1 | -10-16 | Maintenance.
+  Z2 | 17-24 | Bereavement.
+
+[[diagram: -10-16 (Z1, above). Maintenance (Repeated Alternation)]]
+[[anchor: 1 Kings 17:10-16]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 33]]
+
+Z1 |  |
+  u1 | -10, 11 | Elijah. Request.
+    v1 | 12 | The widow. Excuse.
+  u2 | 13, 14 | Elijah. Promise.
+    v2 | 15- | The widow. Compliance.
+  u3 | -15, 16 | Elijah. Promise fulfilled.
+
+[[diagram: 17-24 (Z2, above). Bereavement (Introversion and Alternation)]]
+[[anchor: 1 Kings 17:17-24]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 33]]
+
+Z2 |  |
+  w |  |
+    y | 17 | Son. Death.
+      z | 18 | Widow. Complaint.
+        x |  |
+          a | 19 | Son taken.
+            b | 20, 21 | Prayer made.
+        x |  |
+            b | 22 | Prayer answered.
+          a | 23- | Son restored.
+  w |  |
+    y | -23 | Son. Life.
+      z | 24 | Widow. Acknowledgment.
+
+[[diagram: 18. 1-46 (X, p. 478). Mission to Ahab (Alternation)]]
+[[anchor: 1 Kings 18:1-46]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 34]]
+
+X |  |
+  A | 1- | Command.
+    B | -1 | Promise of rain. Given.
+  A | 2-40 | Obedience.
+    B | 41-46 | Promise of rain. Fulfilled.
+
+[[diagram: 2-40 (A, above). Obedience (Extended Alternation)]]
+[[anchor: 1 Kings 18:2-40]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 34]]
+
+A |  |
+  C | 2-6 | Ahab and Obadiah.
+    D | 7, 8- | Elijah.
+      E | -8-16- | Ahab. Elijah's message.
+  C | -16, 17 | Ahab and Elijah.
+    D | 18 | Elijah.
+      E | 19-40 | Ahab. Elijah's proposal.
+
+[[diagram: -8-16- (E, above). Ahab. Elijah's Message (Introversion)]]
+[[anchor: 1 Kings 18:8-16]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 34]]
+
+E |  |
+  c | -8 | Command to Obadiah.
+    d | 9-14 | Expostulation of Obadiah.
+    d | 15 | Assurance of Elijah.
+  c | 16- | Obedience of Obadiah.
+
+[[diagram: 9-14 (d, above). Expostulation of Obadiah (Introversion and Alternation)]]
+[[anchor: 1 Kings 18:9-14]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 34]]
+
+d |  |
+  e | 9 | Danger of Obadiah.
+    f |  |
+      g | 10 | Ahab's search for Elijah (past).
+        h | 11 | Command. Of Elijah.
+    f |  |
+      g | 12, 13 | Ahab's search for Elijah (future).
+        h | 14- | Command. Of Elijah.
+  e | -14 | Danger of Obadiah.
+
+[[diagram: 18. 19-40 (E, p. 479). Ahab. Elijah's Proposal (Introversion)]]
+[[anchor: 1 Kings 18:19-40]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 35]]
+
+E |  |
+  i | 19, 20 | Baal's prophets. Assembled.
+    k | 21-38 | Conflict with prophets.
+    k | 39 | Confession of the People.
+  i | 40 | Baal's prophets. Slain.
+
+[[diagram: 21-38 (k, above). Conflict with the Prophets (Alternation)]]
+[[anchor: 1 Kings 18:21-38]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 35]]
+
+k |  |
+  F | 21-24 | The People. Elijah's appeal.
+    G | 25-29 | Bullock of the prophets.
+  F | 30- | The People. Elijah's call.
+    G | -30-38 | Bullock of Elijah.
+
+[[diagram: 25-29 (G, above). Bullock of the Prophets (Alternation)]]
+[[anchor: 1 Kings 18:25-29]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 35]]
+
+G |  |
+  l | 25 | Elijah.
+    m | 26 | The prophets of Baal.
+  l | 27 | Elijah.
+    m | 28, 29 | The prophets of Baal.
+
+[[diagram: -30-38 (G, above). The Bullock of Elijah (Repeated Alternation)]]
+[[anchor: 1 Kings 18:30-38]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 35]]
+
+G |  |
+  n1 | -30-32- | Altar. Its repairing.
+    o1 | -32 | The trench.
+  n2 | 33- | Altar. Arrangement of wood.
+    o2 | -33-35 | The water.
+  n3 | 36, 37 | Altar. Time for offering. Prayer.
+    o3 | 38 | The fire.
+
+[[diagram: 18. 41-46 (B, p. 479). Promise of Rain. Fulfilled (Alternation and Introversion)]]
+[[anchor: 1 Kings 18:41-46]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 36]]
+
+B |  |
+  H |  |
+    r | 41- | Command. To Ahab.
+      s | -41 | Reason.
+        J |  |
+          K |  |
+            t | 42- | Obedience of Ahab.
+              u | -42 | Elijah. Ascent of Carmel.
+                L | 43, 44- | Rain. Expectation of.
+  H |  |
+    r | -44- | Command. To servant.
+      s | -44 | Reason.
+        J |  |
+                L | 45- | Rain. Fall of.
+          K |  |
+            t | -45 | Obedience of Ahab.
+              u | 46 | Elijah. Run to Jezreel.
+
+[[diagram: 19. 1-14 (W, p. 478). Elijah's Flight (Repeated Alternation)]]
+[[anchor: 1 Kings 19:1-14]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 36]]
+
+W |  |
+  M1 | 1, 2 | Jezebel's threat.
+    N1 |  |
+      v | 3, 4 | Elijah. To the desert.
+        w | 5-7 | Coming of angel.
+      v | 8, 9- | Elijah. To Horeb.
+        w | -9 | Coming of word of Jehovah.
+  M2 | 10 | Jezebel's threat.
+    N2 |  |
+      x | 11- | Elijah. Command.
+        y | -11, 12 | Jehovah. Manifestations.
+      x | 13- | Elijah. Awe.
+        y | -13 | Jehovah. Inquiry.
+  M3 | 14 | Jezebel's threat.
+
+[[diagram: 19. 15-21 (X, p. 478). Mission to Hazael and Others (Introversion and Alternation)]]
+[[anchor: 1 Kings 19:15-21]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 37]]
+
+X |  |
+  O |  |
+    z | 15- | Return of Elijah. Commanded.
+      a | -15, 16 | Anointings. Commanded.
+        P |  |
+          b1 | 17 | Prophecy.
+          b2 | 18 | History.
+  O |  |
+    z | 19- | Return of Elijah. Effected.
+      a | -19-21 | Anointings. Effected.
+
+[[diagram: 20. 1-43 (V3, p. 477). War with Syria (Repeated Alternation)]]
+[[anchor: 1 Kings 20:1-43]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 38]]
+
+V3 |  |
+  c1 | 1 | Syria. First invasion.
+    d1 | 2-11 | Israel. Negotiations.
+  c2 | 12 | Syria. Siege of Samaria.
+    d2 | 13-21 | Israel. Sortie by Ahab.
+  c3 | 22-26 | Syria. Second invasion.
+    d3 | 27 | Israel. Numbering of.
+  c4 | 28-30 | Syria. Defeat.
+    d4 | 31-33- | Israel. Ahab's forbearance.
+  c5 | -33, 34 | Syria. Covenant with Ahab.
+    d5 | 35-43 | Israel. God reproves Ahab.
+
+[[diagram: 2-11 (d1, above). Negotiations (Repeated Alternation)]]
+[[anchor: 1 Kings 20:2-11]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 38]]
+
+d1 |  |
+  e1 | 2, 3 | Ben-hadad. First demand.
+    f1 | 4 | Ahab. Compliance.
+  e2 | 5, 6 | Ben-hadad. Second demand.
+    f2 | 7-9 | Ahab. Refusal.
+  e3 | 10 | Ben-hadad. Threatening.
+    f3 | 11 | Ahab. Retort.
+
+[[diagram: 35-43 (d5, p. 483). Israel. God Reproves Ahab (Extended Alternation)]]
+[[anchor: 1 Kings 20:35-43]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 39]]
+
+d5 |  |
+  g | 35-38 | Prophet disguised.
+    h | 39, 40- | Symbol used.
+      i | -40 | Ahab's sentence.
+  g | 41 | Prophet discovered.
+    h | 42 | Symbol interpreted.
+      i | 43 | Ahab's heaviness.
+
+[[diagram: 21. 1-29 (T, p. 477). Personal Evil. Naboth (Division)]]
+[[anchor: 1 Kings 21:1-29]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 40]]
+
+T |  |
+  Q1 | 1-16 | Evil committed.
+  Q2 | 17-29 | Evil to be judged.
+
+[[diagram: 1-16 (Q1, above). Evil Committed (Alternation and Introversion)]]
+[[anchor: 1 Kings 21:1-16]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 40]]
+
+Q1 |  |
+  j | 1-3 | Ahab's covetousness. Fact.
+    k |  |
+      l | 4 | Ahab's heaviness.
+        m | 5 | Jezebel's inquiry.
+  j | 6 | Ahab's covetousness. Recital.
+    k |  |
+        m | 7-15 | Jezebel's promise.
+      l | 16 | Ahab's gratification.
+
+[[diagram: 17-29 (Q2, above). Evil to Be Judged (Double Introversion and Alternation)]]
+[[anchor: 1 Kings 21:17-29]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 40]]
+
+Q2 |  |
+  R |  |
+    n | 17-19- | Call to Elijah to go to Ahab.
+      o | -19 | Judgment pronounced.
+        S |  |
+          p | 20 | Altercation.
+            q | 21, 22 | Judgment. Particular.
+              T | 23 | Jezebel.
+        S |  |
+            q | 24 | Judgment. Particular.
+          p | 25, 26 | Provocation.
+  R |  |
+    n | 27-29- | Call to Elijah to see Ahab humbled.
+      o | -29 | Judgment mitigated.
+
+[[diagram: 22. 1-38 (U, p. 477). Public Events. War with Syria (Repeated Alternation and Introversion)]]
+[[anchor: 1 Kings 22:1-38]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 41]]
+
+U |  |
+  V1 | 1, 2 | Ahab. Visited by Jehoshaphat.
+    W1 |  |
+      r1 | 3, 4 | Ramoth-gilead. Plan of Ahab.
+        s1 | 5-28 | Jehoshaphat's uneasiness.
+      r2 | 29 | Ramoth. Battle fought.
+  V2 | 30 | Ahab's expedient.
+    W2 |  |
+      r3 | 31 | Ramoth-gilead. Plan of king of Syria.
+        s2 | 32 | Jehoshaphat's danger.
+      r4 | 33-36 | Ramoth-gilead. Battle won.
+  V3 | 37, 38 | Ahab's death.
+
+[[diagram: 5-28 (s1, above). Jehoshaphat's Uneasiness (Introversion and Repeated Alternation)]]
+[[anchor: 1 Kings 22:5-28]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 41]]
+
+s1 |  |
+  X1 |  |
+    t1 | 5 | Jehoshaphat.
+      u1 | 6 | Ahab.
+    t2 | 7 | Jehoshaphat.
+      u2 | 8, 9 | Ahab.
+    t3 | 10- | Jehoshaphat.
+      u3 | -10-12 | Ahab.
+        Y |  |
+          x1 | 13 | Micaiah. Messenger to.
+          x2 | 14 | Micaiah. To messenger.
+  X2 |  |
+    v1 | 15 | Micaiah.
+      w1 | 16 | The king.
+    v2 | 17 | Micaiah.
+      w2 | 18 | The king.
+    v3 | 19-25 | Micaiah.
+      w3 | 26, 27 | The king.
+    v4 | 28 | Micaiah.
+
+[[diagram: 41-50 (F2, p. 446). Judah (Jehoshaphat) (Repeated Alternation)]]
+[[anchor: 1 Kings 22:41-50]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 43]]
+
+F2 |  |
+  A1 | 41, 42 | Jehoshaphat. Accession.
+    B1 | 43, 44 | Personal. Well- and wrong-doing.
+  A2 | 45 | Jehoshaphat. Political events. Record.
+    B2 | 46-49 | Personal. Well- and wrong-doing.
+  A3 | 50 | Jehoshaphat. Death and burial.
+
+[[diagram: 1 Kings 22. 51—2 Kings 8. 15 (E3, p. 446). Israel (Introversion)]]
+[[anchor: 1 Kings 22:51]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 43]]
+
+E3 |  |
+  C1 |  | 1 Kings 22. 51—2 Kings 1. 18. Ahaziah.
+    D |  | 2 Kings 2. 1-25. Elijah.
+  C2 |  | 2 Kings 3. 1—8. 15. Joram.
+
+[[diagram: 1 Kings 22. 51—2 Kings 1. 18 (C1, p. 488). Ahaziah (Introversion)]]
+[[anchor: 1 Kings 22:51]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 44]]
+
+C1 |  |
+  E |  | 1 Kings 22. 51. Introduction. Accession.
+    F |  | 1 Kings 22. 52, 53. Personal. Evil-doing.
+      G |  | 2 Kings 1. 1. Political. Rebellion of Moab.
+    F |  | 2 Kings 1. 2-16. Personal. Evil-doing.
+  E |  | 2 Kings 1. 17, 18. Conclusion. Death and burial.

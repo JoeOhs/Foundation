@@ -1,0 +1,965 @@
+# The Companion Bible (E. W. Bullinger, 1913) — 2 Kings
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/10. Kings I-II_text.pdf, which holds both
+# books). Notation: README.md here. The Structures of the two books as a
+# whole, and of 1 Kings 22. 51—2 Kings 8. 15, are in 1-kings.structure.txt.
+#
+# Where print steps two or more levels after a text line the parser allows
+# one, so these sit one level in from print: 3. 4—8. 15 second N; 25. 1-21 second P and Q.
+
+[[diagram: 2-16 (F, above). Ahaziah. Personal. Evil-doing (Introversion and Extended Alternation)]]
+[[anchor: 2 Kings 1:2-16]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 44]]
+
+F |  |
+  H |  |
+    a | 2 | Mission to Baal-zebub.
+      b | 3 | Reproof of Elijah.
+        c | 4 | Assurance of death.
+          J | 5 | Messengers. Inquiry.
+          J | 6-8 | Messengers. Report.
+  H |  |
+    a | 9-15 | Missions to Elijah.
+      b | 16- | Reproof of Elijah.
+        c | -16 | Assurance of death.
+
+[[diagram: 2. 1-25 (D, p. 488). Elijah. Translation (Alternation)]]
+[[anchor: 2 Kings 2:1-25]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 45]]
+
+D |  |
+  d | 1- | Translation purposed.
+    e | -1 | Elisha accompanies Elijah from Gilgal.
+  d | 2-24 | Translation effected.
+    e | 25 | Elisha returns to Samaria.
+
+[[diagram: 2-24 (d, above). Translation Effected (Introversion)]]
+[[anchor: 2 Kings 2:2-24]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 45]]
+
+d |  |
+  f | 2, 3 | Beth-el.
+    g | 4, 5 | Jericho.
+[[group: Journey.]]
+      h | 6-18 | Jordan. Translation.
+[[group: -]]
+    g | 19-22 | Jericho.
+  f | 23, 24 | Beth-el.
+[[group: Return.]]
+
+[[diagram: 6-18 (h, above). Jordan. Translation (Introversion)]]
+[[anchor: 2 Kings 2:6-18]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 45]]
+
+h |  |
+  i | 6 | Their journey thither.
+    k | 7 | Sons of the prophets. Observation.
+      l | 8 | Passage of Jordan. From Jericho.
+        m | 9, 10 | Elisha. Request made.
+          n | 11 | Translation of Elijah.
+        m | 12 | Elisha. Request granted.
+      l | 13, 14 | Repassage of Jordan. To Jericho.
+    k | 15 | Sons of the prophets. Observation.
+  i | 16-18 | Their journey thither, and return.
+
+[[diagram: 3. 1—8. 15 (C2, p. 488). Joram (Division)]]
+[[anchor: 2 Kings 3:1]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 46]]
+
+C2 |  |
+  K1 |  | 3. 1-3. Events. Personal.
+  K2 |  | 3. 4—8. 15. Events. Political.
+
+[[diagram: 3. 4—8. 15 (K2, p. 491). Events. Political (Extended Alternation and Introversion)]]
+[[anchor: 2 Kings 3:4]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 47]]
+
+K2 |  |
+  L |  |
+    O |  | 3. 4-27. War with Moab. Mesha.
+      P |  | 4. 1-7. Elisha. Creditor and widow.
+        M |  |
+          Q |  | 4. 8-37. Shunammite.
+            R |  | 4. 38-44. Famine. Miraculous supplies.
+              N |  | 5. 1-27. Mission to Elisha (Naaman).
+  L |  |
+      P |  | 6. 1-7. Elisha. Residence and axe head.
+    O |  | 6. 8-23. War with Syria.
+      M |  |
+            R |  | 6. 24—7. 20. Famine. Miraculous supplies.
+          Q |  | 8. 1-6. Shunammite.
+            N |  | 8. 7-15. Mission to Elisha (Ben-hadad).
+
+[[diagram: 4-27 (O, above). War with Moab. Mesha (Alternations and Introversion)]]
+[[anchor: 2 Kings 3:4-27]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 47]]
+
+O |  |
+  o | 4, 5 | Mesha's rebellion.
+    p |  |
+      q | 6-9- | Allies advance.
+        r |  |
+          s | -9 | Exigence.
+            t | 10-25 | How met.
+  o | 26- | Mesha's defeat.
+    p |  |
+        r |  |
+          s | -26 | Exigence.
+            t | 27- | How met.
+      q | -27 | Allies retire.
+
+[[diagram: 10-25 (t, above). Exigency. How Met (Alternation and Introversion)]]
+[[anchor: 2 Kings 3:10-25]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 47]]
+
+t |  |
+  u | 10 | Trouble of the three kings.
+    v |  |
+      w | 11, 12 | Elisha. Help sought.
+        x | 13- | Reproof.
+  u | -13 | Trouble of the three kings.
+    v |  |
+        x | 14 | Reproof.
+      w | 15-25 | Elisha. Help given.
+
+[[diagram: 15-25 (w, above). Elisha. Help Given (Division)]]
+[[anchor: 2 Kings 3:15-25]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 47]]
+
+w |  |
+  S1 | 15, 16 | Means.
+  S2 | 17-25 | Ends.
+
+[[diagram: 17-25 (S2, above). Ends (Alternation)]]
+[[anchor: 2 Kings 3:17-25]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 47]]
+
+S2 |  |
+  T1 |  |
+    y | 17 | Water.
+      z | 18, 19 | Victory.
+[[group: Prophecy.]]
+  T2 |  |
+    y | 20 | Water.
+      z | 21-25 | Victory.
+[[group: Fulfilment.]]
+
+[[diagram: 4. 8-37 (Q, p. 492). The Shunammite (Introversion)]]
+[[anchor: 2 Kings 4:8-37]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 48]]
+
+Q |  |
+  U | 8-17 | Son given.
+    V | 18-20 | Son's death.
+      W | 21 | Elisha's bed. Placed on.
+        X | 22-24 | Her Mission to Elisha.
+          Y | 25-27 | Her Arrival.
+        X | 28-31 | Her Converse with Elisha.
+      W | 32, 33 | Elisha's bed. Found on.
+    V | 34, 35 | Son raised.
+  U | 36, 37 | Son restored.
+
+[[diagram: 8-17 (U, above). Son Given (Alternation)]]
+[[anchor: 2 Kings 4:8-17]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 48]]
+
+U |  |
+  a | 8 | Resort of Elisha (general).
+    b | 9, 10 | Accommodation.
+  a | 11 | Resort of Elisha (particular).
+    b | 12-17 | Compensation.
+
+[[diagram: 4. 38-44 (R, p. 492). Famine (Alternation)]]
+[[anchor: 2 Kings 4:38-44]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 49]]
+
+R |  |
+  c | 38- | Dearth.
+    d | -38-41 | Supply. Eighth miracle.
+  c | 42 | Firstfruits.
+    d | 43, 44 | Supply. Ninth miracle.
+
+[[diagram: 5. 1-27 (N, p. 492). Mission to Elisha (Introversion)]]
+[[anchor: 2 Kings 5:1-27]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 50]]
+
+N |  |
+  e | 1 | Leprosy of Naaman. Providential.
+    f | 2-8 | Negotiation. Naaman and king of Israel.
+      g | 9 | Naaman's visit to Elisha.
+        h | 10 | Elisha's direction. Given.
+          i | 11, 12 | Naaman. Resentment.
+          i | 13 | Naaman. Compliance.
+        h | 14 | Elisha's direction. Taken.
+      g | 15- | Naaman's return to Elisha.
+    f | -15-26 | Negotiations. Naaman with Elisha and Gehazi.
+  e | 27 | Leprosy of Gehazi. Judicial.
+
+[[diagram: 6. 1-7 (P, p. 492). Elisha. Residence, &c. (Alternation)]]
+[[anchor: 2 Kings 6:1-7]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 52]]
+
+P |  |
+  j | 1, 2 | Sons of the prophets. Proposal.
+    k | 3, 4 | Elisha. Consent.
+  j | 5 | Sons of prophets. Accident.
+    k | 6, 7 | Elisha. Miracle.
+
+[[diagram: 8-23 (O, p. 492). War with Syria (Introversion)]]
+[[anchor: 2 Kings 6:8-23]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 52]]
+
+O |  |
+  l | 8-12 | King of Syria. Hostility.
+    m | 13, 14 | Elisha. Baffling.
+      n | 15-17 | Eyes of servant opened.
+      n | 18 | Eyes of Syrians closed.
+    m | 19 | Elisha. Leading.
+  l | 20-23 | King of Israel. Benevolence.
+
+[[diagram: 6. 24—7. 20 (R, p. 492). Famine in Samaria (Alternation)]]
+[[anchor: 2 Kings 6:24]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 53]]
+
+R |  |
+  A |  | 6. 24-33. Famine. Suffered.
+    B |  | 7. 1, 2. Prediction of supply.
+  A |  | 7. 3-15. Famine. Relieved.
+    B |  | 7. 16-20. Prediction. Supplies received.
+
+[[diagram: 24-33 (A, above). Famine. Suffered (Introversion)]]
+[[anchor: 2 Kings 6:24-33]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 53]]
+
+A |  |
+  o | 24, 25 | Origin. Second cause.
+    p | 26-29 | Effects. Experienced.
+      q | 30 | King's mourning.
+    p | 31 | Effects. Threatening.
+  o | 32, 33 | Origin. First cause.
+
+[[diagram: 7. 3-15 (A, above). Famine. Relieved (Division)]]
+[[anchor: 2 Kings 7:3-15]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 53]]
+
+A |  |
+  r1 | 3-11 | Discovery by lepers.
+  r2 | 12-15 | Confirmation by scouts.
+
+[[diagram: 3-11 (r1, above). Discovery by Lepers (Alternation)]]
+[[anchor: 2 Kings 7:3-11]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 53]]
+
+r1 |  |
+  s1 |  |
+    t | 3, 4 | Consultation.
+      u | 5-8 | Discovery. Made.
+  s2 |  |
+    t | 9 | Consultation.
+      u | 10, 11 | Discovery. Reported.
+
+[[diagram: 8. 16—9. 29 (F3, p. 446). Judah (Division)]]
+[[anchor: 2 Kings 8:16]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 55]]
+
+F3 |  |
+  C1 |  | 8. 16-24. Jehoram.
+  C2 |  | 8. 25—9. 24. Ahaziah.
+
+[[diagram: 16-24 (C1, above). Jehoram (Introversion)]]
+[[anchor: 2 Kings 8:16-24]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 55]]
+
+C1 |  |
+  v | 16, 17 | Introduction.
+    w | 18, 19 | Evil-doing. Personal.
+    w | 20-22 | Evil events. Political.
+  v | 23, 24 | Conclusion.
+
+[[diagram: 8. 25—9. 29 (C2, p. 500). Ahaziah (Introversion and Alternation)]]
+[[anchor: 2 Kings 8:25]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 56]]
+
+C2 |  |
+  x |  | 8. 25-27. Introduction.
+    y |  |
+      z |  | 8. 28, 29. Joram, Ramoth-gilead, and Hazael.
+        a |  | 9. 1-14-. Conspiracy of Jehu.
+    y |  |
+      z |  | 9. -14, 15-. Joram, Ramoth-gilead, and Hazael.
+        a |  | 9. -15-26. Conspiracy of Jehu.
+  x |  | 9. 27-29. Conclusion.
+
+[[diagram: 9. 30—10. 36 (E4, p. 446). Jehu (Alternation)]]
+[[anchor: 2 Kings 9:30]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 57]]
+
+E4 |  |
+  D |  | 9. 30—10. 28. Events. Public.
+    E |  | 10. 29-31. Personal character.
+  D |  | 10. 32, 33. Events. Political.
+    E |  | 10. 34-36. Personal.
+
+[[diagram: 9. 30—10. 28 (D, above). Events. Public (Enumeration)]]
+[[anchor: 2 Kings 9:30]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 57]]
+
+D |  |
+  F1 |  | 9. 30-37. End of Jezebel.
+  F2 |  | 10. 1-11. End of Ahab's house.
+  F3 |  | 10. 12-14. End of Ahaziah's brethren.
+  F4 |  | 10. 15-17. End of Ahab's seed in Samaria.
+  F5 |  | 10. 18-28. End of Baal-worship.
+
+[[diagram: 9. 30-37 (F1, above). End of Jezebel (Introversion)]]
+[[anchor: 2 Kings 9:30-37]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 57]]
+
+F1 |  |
+  b | 30-32 | Exclamation of Jezebel.
+    c | 33 | Jezebel's death.
+    c | 34, 35 | Jezebel's carcase.
+  b | 36, 37 | Exclamation of Jehu.
+
+[[diagram: 10. 18-28 (F5, p. 502). End of Baal-Worship (Introversion)]]
+[[anchor: 2 Kings 10:18-28]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 59]]
+
+F5 |  |
+  d | 18, 19 | Jehu's purpose formed.
+    e | 20, 21 | Baal-worshippers. Assembled.
+      f | 22 | Vestments brought out.
+        g | 23 | Search made.
+      f | 24 | Offerings brought in.
+    e | 25 | Baal-worshippers. Slain.
+  d | 26-28 | Jehu's purpose effected.
+
+[[diagram: 11. 1—12. 21 (F4, p. 446). Judah (Division)]]
+[[anchor: 2 Kings 11:1]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 60]]
+
+F4 |  |
+  G1 |  | 11. 1-16. Athaliah.
+  G2 |  | 11. 17—12. 21. Joash.
+
+[[diagram: 11. 1-16 (G1, above). Athaliah (Introversion)]]
+[[anchor: 2 Kings 11:1-16]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 60]]
+
+G1 |  |
+  h | 1 | The slaying of the seed-royal.
+    i | 2, 3- | Joash. Rescue of.
+      k | -3 | Athaliah. Reign.
+        l | 4-12 | Manifestation of Joash.
+      k | 13, 14 | Athaliah. Alarm.
+    i | 15 | Joash. Capture of the murderess.
+  h | 16 | The slaying of the usurper.
+
+[[diagram: 11. 17—12. 21 (G2, above). Joash (Introversion)]]
+[[anchor: 2 Kings 11:17]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 60]]
+
+G2 |  |
+  m |  | 11. 17-21. Conspiracy of Athaliah. Defeated.
+    n |  | 12. 1. Joash. Accession.
+      o |  |
+        p1 |  | 12. 2, 3. Personal. Well-doing.
+        p2 |  | 12. 4-16. Ecclesiastical. Reform.
+        p3 |  | 12. 17, 18. Political. Invasion.
+    n |  | 12. 19. Joash. Record.
+  m |  | 12. 20, 21. Conspiracy of servants. Successful.
+
+[[diagram: 12. 4-16 (p2, p. 505). Ecclesiastical. Reform (Alternation)]]
+[[anchor: 2 Kings 12:4-16]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 61]]
+
+p2 |  |
+  q | 4, 5 | Money. Command.
+    r | 6 | Neglect.
+  q | 7-10 | Money. Obedience.
+    r | 11-16 | Attention.
+
+[[diagram: 13. 1-25 (E5, p. 446). Israel (Division)]]
+[[anchor: 2 Kings 13:1-25]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 62]]
+
+E5 |  |
+  H1 | 1-9 | Jehoahaz.
+  H2 | 10-25 | Jehoash.
+
+[[diagram: 1-9 (H1, above). Jehoahaz (Introversion)]]
+[[anchor: 2 Kings 13:1-9]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 62]]
+
+H1 |  |
+  s | 1 | Introduction.
+    t | 2 | Events. Personal.
+    t | 3-7 | Events. Political.
+  s | 8, 9 | Conclusion.
+
+[[diagram: 10-25 (H2, above). Jehoash (Alternation)]]
+[[anchor: 2 Kings 13:10-25]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 62]]
+
+H2 |  |
+  u | 10 | Introduction.
+    v | 11 | Events. Personal.
+  u | 12, 13 | Conclusion.
+    v | 14-25 | Events. Political.
+
+[[diagram: 14-25 (v, above). Events. Political (Division)]]
+[[anchor: 2 Kings 13:14-25]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 62]]
+
+v |  |
+  w1 | 14-21 | Domestic.
+  w2 | 22-25 | Foreign.
+
+[[diagram: 14. 1-22 (F5, p. 446). Judah (Division)]]
+[[anchor: 2 Kings 14:1-22]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 63]]
+
+F5 |  |
+  J1 | 1-20 | Amaziah.
+  J2 | 21, 22 | Uzziah, or Azariah.
+
+[[diagram: 1-20 (J1, above). Amaziah (Introversion)]]
+[[anchor: 2 Kings 14:1-20]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 63]]
+
+J1 |  |
+  K | 1, 2 | Introduction.
+    L | 3, 4 | Events. Personal.
+    L | 5-14 | Events. Political.
+  K | 15-20 | Conclusion.
+
+[[diagram: 5-14 (L, above). Events. Political (Division)]]
+[[anchor: 2 Kings 14:5-14]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 63]]
+
+L |  |
+  M1 | 5, 6 | Domestic.
+  M2 | 7-14 | Foreign.
+
+[[diagram: 7-14 (M2, above). Foreign (Introversion)]]
+[[anchor: 2 Kings 14:7-14]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 63]]
+
+M2 |  |
+  w | 7 | Victory over Edom.
+    x | 8 | Jehoash. Message to.
+    x | 9, 10 | Jehoash. Reply from.
+  w | 11-14 | Defeat by Israel.
+
+[[diagram: 14. 21, 22 (J2, p. 508). Uzziah, or Azariah (Introversion)]]
+[[anchor: 2 Kings 14:21-22]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 64]]
+
+J2 |  |
+  y | 21 | Introduction. Accession.
+    z | 22- | Events.
+  y | -22 | Conclusion. Father's death.
+
+[[diagram: 23-29 (E6, p. 446). Israel. Jeroboam II (Introversion)]]
+[[anchor: 2 Kings 14:23-29]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 64]]
+
+E6 |  |
+  a | 23 | Introduction. Accession.
+    b | 24 | Events. Personal.
+    b | 25-27 | Events. Political.
+  a | 28, 29 | Conclusion. Death.
+
+[[diagram: 15. 1-7 (F6, p. 446). Judah. Uzziah (Introversion)]]
+[[anchor: 2 Kings 15:1-7]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 65]]
+
+F6 |  |
+  c | 1, 2 | Introduction. Accession.
+    d | 3, 4 | Events. Personal.
+    d | 5 | Events. Political.
+  c | 6, 7 | Conclusion. Death.
+
+[[diagram: 8-31 (E7, p. 446). Israel (Division)]]
+[[anchor: 2 Kings 15:8-31]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 65]]
+
+E7 |  |
+  N1 | 8-12 | Zachariah.
+  N2 | 13-16 | Shallum.
+  N3 | 17-22 | Menahem.
+  N4 | 23-26 | Pekahiah.
+  N5 | 27-31 | Pekah.
+
+[[diagram: 8-12 (N1, above). Zachariah (Introversion)]]
+[[anchor: 2 Kings 15:8-12]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 65]]
+
+N1 |  |
+  e | 8 | Introduction. Accession.
+    f | 9 | Events. Personal.
+    f | 10 | Events. Political.
+  e | 11, 12 | Conclusion. Record and death.
+
+[[diagram: 15. 13-16 (N2, p. 510). Shallum (Alternation)]]
+[[anchor: 2 Kings 15:13-16]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 66]]
+
+N2 |  |
+  g | 13 | Introduction. Accession.
+    h | 14 | Event. Personal.
+  g | 15 | Conclusion. Record.
+    h | 16 | Events. Political.
+
+[[diagram: 17-22 (N3, p. 510). Menahem (Introversion)]]
+[[anchor: 2 Kings 15:17-22]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 66]]
+
+N3 |  |
+  i | 17 | Introduction. Accession.
+    k | 18 | Events. Personal.
+    k | 19, 20 | Events. Political.
+  i | 21, 22 | Conclusion. Record. Death.
+
+[[diagram: 23-26 (N4, p. 510). Pekahiah (Introversion)]]
+[[anchor: 2 Kings 15:23-26]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 66]]
+
+N4 |  |
+  l | 23 | Introduction. Accession.
+    m | 24 | Events.
+    m | 25 | Events.
+  l | 26 | Conclusion. Record.
+
+[[diagram: 27-31 (N5, p. 510). Pekah (Introversion)]]
+[[anchor: 2 Kings 15:27-31]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 66]]
+
+N5 |  |
+  n | 27 | Introduction. Accession.
+    o | 28 | Events. Personal.
+    o | 29, 30 | Events. Political.
+  n | 31 | Conclusion. Record.
+
+[[diagram: 15. 32—16. 20 (F7, p. 446). Judah (Division)]]
+[[anchor: 2 Kings 15:32]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 67]]
+
+F7 |  |
+  O1 |  | 15. 32-38. Jotham.
+  O2 |  | 16. 1-20. Ahaz.
+
+[[diagram: 32-38 (O1, above). Jotham (Introversion)]]
+[[anchor: 2 Kings 15:32-38]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 67]]
+
+O1 |  |
+  p | 32, 33 | Introduction.
+    q | 34 | Events. Personal.
+      r | 35 | Events. Public.
+      r | 36 | Events. Public.
+    q | 37 | Event. Personal.
+  p | 38 | Conclusion.
+
+[[diagram: 16. 1-20 (O2, above). Ahaz (Introversion)]]
+[[anchor: 2 Kings 16:1-20]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 67]]
+
+O2 |  |
+  s | 1, 2- | Introduction. Accession.
+    t | -2-4 | Personal. Apostasy.
+      u | 5-9 | Events. Political.
+    t | 10-18 | Personal. Apostasy.
+  s | 19, 20 | Conclusion. Record and death.
+
+[[diagram: 16. 10-18 (t, p. 512). Ahaz. Personal. Apostasy (Alternation)]]
+[[anchor: 2 Kings 16:10-18]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 68]]
+
+t |  |
+  v | 10-13 | The Altar.
+    w | 14 | Removal.
+  v | 15, 16 | The Altar.
+    w | 17, 18 | Alterations.
+
+[[diagram: 17. 1-41 (E8, p. 446). Israel. Hoshea (Introversion)]]
+[[anchor: 2 Kings 17:1-41]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 68]]
+
+E8 |  |
+  P | 1 | Introduction.
+    Q | 2 | Events. Personal. Evil-doing.
+    Q | 3-6 | Event. Political. Captivity.
+  P | 7-41 | Conclusion. Causes.
+
+[[diagram: 17. 7-41 (P, p. 513). Conclusion. Captivity. Causes (Repeated Alternation)]]
+[[anchor: 2 Kings 17:7-41]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 69]]
+
+P |  |
+  x1 | 7-12 | Provocation of Israel.
+    y1 | 13 | Remonstrance.
+  x2 | 14-17 | Obduracy of Israel.
+    y2 | 18 | Removal.
+  x3 | 19 | Disobedience of Judah.
+    y3 | 20, 21 | Rejection and rending.
+  x4 | 22, 23- | Obduracy of Israel.
+    y4 | -23-33 | Removal.
+  x5 | 34-40 | Transplanting of Israel; and sequel.
+    y5 | 41 | Replaced people.
+
+[[diagram: 17. -23-33 (y4, p. 514). Removal (Repeated Alternation)]]
+[[anchor: 2 Kings 17:23-33]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 70]]
+
+y4 |  |
+  z1 | -23-25- | Peoples exchanged. "No fear of God."
+    a1 | -25 | Punishment. Lions.
+  z2 | 26 | Peoples. Report. Ignorance.
+    a2 | 27, 28 | Remedy proposed: to fear Jehovah.
+  z3 | 29-33 | People. Corrupt fear of Jehovah.
+
+[[diagram: 18. 1—24. 20 (F8, p. 446). Judah (Division)]]
+[[anchor: 2 Kings 18:1]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 71]]
+
+F8 |  |
+  R1 |  | 18. 1—20. 21. Hezekiah.
+  R2 |  | 21. 1-18. Manasseh.
+  R3 |  | 21. 19-26. Amon.
+  R4 |  | 22. 1—23. 30. Josiah.
+  R5 |  | 23. 31-35. Jehoahaz.
+  R6 |  | 23. 36—24. 7. Jehoiakim.
+  R7 |  | 24. 8-16. Jehoiachin.
+  R8 |  | 24. 17-20. Zedekiah.
+
+[[diagram: 18. 1—20. 21 (R1, above). Hezekiah (Introversion)]]
+[[anchor: 2 Kings 18:1]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 71]]
+
+R1 |  |
+  S |  | 18. 1, 2. Introduction. Accession.
+    T |  | 18. 3-7-. Personal. Well-doing.
+      U |  | 18. -7—19. 37. Events. Political.
+    T |  | 20. 1-19. Personal. Sickness.
+  S |  | 20. 20, 21. Conclusion. Record and death.
+
+[[diagram: 18. -7—19. 37 (U, above). Events. Political (Introversion)]]
+[[anchor: 2 Kings 18:7]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 71]]
+
+U |  |
+  V |  | 18. -7. Assyria. Hezekiah's rebellion.
+    W |  | 18. 8. Philistines. Smitten.
+  V |  | 18. 9—19. 37. Assyria. Shalmaneser's invasions.
+
+[[diagram: 18. 9—19. 37 (V, above). Assyria. Invasions (Division)]]
+[[anchor: 2 Kings 18:9]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 71]]
+
+V |  |
+  X1 |  | 18. 9-12. Invasions of Israel (Shalmaneser).
+  X2 |  | 18. 13—19. 37. Invasions of Judah (Sennacherib).
+
+[[diagram: 18. 13—19. 37 (X2, above). Invasions of Judah (Division)]]
+[[anchor: 2 Kings 18:13]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 71]]
+
+X2 |  |
+  Y1 |  | 18. 13-16. First invasion.
+  Y2 |  | 18. 17—19. 37. Second invasion.
+
+[[diagram: 18. 17—19. 37 (Y2, p. 516). Second Invasion (Repeated and Extended Alternation)]]
+[[anchor: 2 Kings 18:17]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 72]]
+
+Y2 |  |
+  A1 |  | 18. 17-36. King of Assyria. Mission.
+[[group: -]]
+    B1 |  |
+      a |  | 18. 37. Report.
+        b |  | 19. 1. Conduct.
+          c |  | 19. 2-5. Message to Isaiah.
+            d |  | 19. 6, 7. Answer of Isaiah.
+[[group: Hezekiah.]]
+  A2 |  | 19. 8-13. King of Assyria. Letter.
+[[group: -]]
+    B2 |  |
+      a |  | 19. 14-. Letter.
+        b |  | 19. -14. Conduct.
+          c |  | 19. 15-19. Prayer to Jehovah.
+            d |  | 19. 20-34. Answer of Jehovah.
+[[group: Hezekiah.]]
+  A3 |  | 19. 35-37. King of Assyria. Destruction.
+
+[[diagram: 19. 20-37 (d, p. 517). Answer of Jehovah (Alternation)]]
+[[anchor: 2 Kings 19:20-37]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 74]]
+
+d |  |
+  e | 20 | Jehovah. Prayer regarded.
+    f | 21-28 | Defiance of the foe.
+  e | 29-31 | Jehovah. Sign given.
+    f | 32-34 | Defeat of the foe.
+
+[[diagram: 20. 1-19 (T, p. 516). Personal. Sickness (Division)]]
+[[anchor: 2 Kings 20:1-19]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 75]]
+
+T |  |
+  C1 | 1-11 | Hezekiah's miraculous healing.
+  C2 | 12-19 | Berodach's embassy.
+
+[[diagram: 1-11 (C1, above). Hezekiah's Healing (Alternation)]]
+[[anchor: 2 Kings 20:1-11]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 75]]
+
+C1 |  |
+  g | 1 | Isaiah's warning.
+    h | 2, 3 | Hezekiah's prayer.
+  g | 4-7 | Isaiah's promise.
+    h | 8-11 | Hezekiah's sign.
+
+[[diagram: 20. 12-19 (C2, p. 520). Berodach's Embassy (Repeated Alternation)]]
+[[anchor: 2 Kings 20:12-19]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 76]]
+
+C2 |  |
+  i1 | 12 | Messengers from Babylon.
+    j1 | 13 | Hezekiah. Ostentation.
+  i2 | 14 | Messengers from Babylon.
+    j2 | 15 | Hezekiah. Ostentation.
+  i3 | 16-18 | Messenger from Jehovah.
+    j3 | 19 | Hezekiah. Submission.
+
+[[diagram: 21. 1-18 (R2, p. 516). Manasseh (Introversion)]]
+[[anchor: 2 Kings 21:1-18]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 76]]
+
+R2 |  |
+  k | 1 | Introduction. Accession.
+    l | 2-9 | Events. Personal. Evil-doing.
+      m | 10-15 | Threatening of Jehovah.
+    l | 16 | Events. Personal. Evil-doing.
+  k | 17, 18 | Conclusion. Record and death.
+
+[[diagram: 21. 19-26 (R3, p. 516). Amon (Introversion)]]
+[[anchor: 2 Kings 21:19-26]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 77]]
+
+R3 |  |
+  n | 19 | Introduction. Accession.
+    o | 20-22 | Events. Personal. Evil-doing.
+    o | 23, 24 | Events. Political. Retribution.
+  n | 25, 26 | Conclusion. Burial.
+
+[[diagram: 22. 1—23. 30 (R4, p. 516). Josiah (Introversion and Alternations)]]
+[[anchor: 2 Kings 22:1]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 78]]
+
+R4 |  |
+  D |  | 22. 1. Introduction. Accession.
+    E |  |
+      p |  | 22. 2. Event. Personal well-doing.
+        q |  | 22. 3—23. 24. Josiah's reformation.
+    E |  |
+      p |  | 23. 25. Event. Personal well-doing.
+        q |  | 23. 26, 27. Manasseh's provocation.
+  D |  | 23. 28-30. Conclusion.
+
+[[diagram: 22. 3—23. 24 (q, above). Josiah's Reformation (Alternations)]]
+[[anchor: 2 Kings 22:3]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 78]]
+
+q |  |
+  F |  |
+    r1 |  | 22. 3-7. Repairs of Temple.
+      s1 |  | 22. 8. Book found.
+    r2 |  | 22. 9. Repairs of Temple.
+      s2 |  | 22. 10, 11. Book found.
+[[group: -]]
+        G |  |
+          t1 |  | 22. 12, 13. Command.
+            u1 |  | 22. 14. Obedience.
+[[group: Inquiry.]]
+          t2 |  | 22. 15-17. Threatening. Judah.
+            u2 |  | 22. 18-20. Consolation. Josiah.
+[[group: Answer.]]
+  F |  |
+    r3 |  | 23. 1, 2-. Assembly of people.
+      s3 |  | 23. -2. Book read.
+        G |  |
+          t3 |  | 23. 3. Josiah's well-doing. Covenant made.
+            u3 |  | 23. 4-20. Evil removed.
+          t4 |  | 23. 21-23. Josiah's well-doing. Passover.
+            u4 |  | 23. 24. Evil removed.
+
+[[diagram: 23. 31-35 (R5, p. 516). Jehoahaz (Division)]]
+[[anchor: 2 Kings 23:31-35]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 81]]
+
+R5 |  |
+  H | 31 | Appointment by People (v. 30).
+    I | 32 | Personal character.
+  H | 33-35 | Appointment by Pharaoh-nechoh.
+
+[[diagram: 23. 36—24. 7 (R6, p. 516). Jehoiakim (Alternation)]]
+[[anchor: 2 Kings 23:36]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 81]]
+
+R6 |  |
+  v |  | 23. 36. Introduction.
+    w |  |
+      x1 |  | 23. 37. Events. Personal.
+      x2 |  | 24. 1-4. Events. Political.
+  v |  | 24. 5, 6. Conclusion.
+    w |  |
+      x3 |  | 24. 7-. Event. Non-invasion from Egypt.
+      x4 |  | 24. -7. Event. Reason.
+
+[[diagram: 24. 8-17 (R7, p. 516). Jehoiachin (Introversion)]]
+[[anchor: 2 Kings 24:8-17]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 82]]
+
+R7 |  |
+  J | 8 | Event. Internal. Accession.
+    K | 9 | Personal character.
+  J | 10-17 | Events. External. Supercession.
+
+[[diagram: 10-17 (J, above). Events. External (Alternation)]]
+[[anchor: 2 Kings 24:10-17]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 82]]
+
+J |  |
+  y | 10, 11 | Nebuchadnezzar besieges Jerusalem.
+    z | 12- | Jehoiachin surrenders.
+    z | -12-16 | Jehoiachin made captive.
+  y | 17 | Nebuchadnezzar makes Mattaniah king.
+
+[[diagram: 24. 18-20 (R8, p. 516). Zedekiah (Introversion)]]
+[[anchor: 2 Kings 24:18-20]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 83]]
+
+R8 |  |
+  a | 18 | Accession.
+    b | 19 | Personal. Evil-doing.
+  a | 20 | Rebellion.
+
+[[diagram: 25. 1-30 (C2, p. 446). The Kingdom Ended (Introversion)]]
+[[anchor: 2 Kings 25:1-30]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 83]]
+
+C2 |  |
+  L | 1-21 | Nebuchadnezzar and Zedekiah.
+    M | 22-25 | Remnant. In the land.
+    M | 26 | Remnant. Migration to Egypt.
+  L | 27-30 | Evil-Merodach and Jehoiachin.
+
+[[diagram: 25. 1-21 (L, above). Nebuchadnezzar and Zedekiah (Extended Alternation)]]
+[[anchor: 2 Kings 25:1-21]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 83]]
+
+L |  |
+  N | 1- | Date. Ninth of Zedekiah (Jer. 39. 1).
+    O |  |
+      c | -1, 2 | City besieged.
+        d | 3 | Famine.
+      c | 4- | City broken up.
+        d | -4 | Flight.
+          P | 5-7- | Executions at Riblah.
+            Q | -7 | Carrying away of Zedekiah.
+  N | 8 | Date. Nineteenth of Nebuchadnezzar.
+    O |  |
+      e | 9 | Temple burned.
+        f | 10 | City wall broken down.
+        f | 11, 12 | City. Inhabitants. Flight.
+      e | 13-17 | Temple spoiled.
+        P | 18-21- | Executions at Riblah.
+          Q | -21 | Carrying away of Judah.
+
+[[diagram: 25. 22-25 (M, p. 528). The Remnant. Migration to Egypt (Alternation)]]
+[[anchor: 2 Kings 25:22-25]]
+[[pdf: 10. Kings I-II_text.pdf]]
+[[pdf-page: 84]]
+
+M |  |
+  g | 22 | Governor. Gedaliah.
+    h | 23 | Ishmael. Visit of.
+  g | 24 | Governor's reception.
+    h | 25 | Ishmael. Murders by.
