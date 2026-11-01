@@ -17,10 +17,10 @@
 // here. Re-running rebuilds the source from scratch rather than duplicating
 // it, and deleting the source removes everything below.
 
-import { planLayoutChanges } from './companionLayout';
+import { planBraceTrims, planLayoutChanges } from './companionLayout';
 import {
   deleteSource, findSourceByTitle, getEntries, getMeta, getStructureForSource, setMeta,
-  updateStructureLineLayout,
+  removeStructureGroupMember, updateStructureLineLayout,
   insertParsedSource, insertStructureDiagram, insertStructureGroups, insertStructureLines,
 } from './db';
 import type { ParsedEntry, ParsedSource } from './types';
@@ -193,6 +193,24 @@ export async function updateCompanionNotesLayout(): Promise<void> {
   }
   // Set last: an interrupted run repeats, and repeating only rewrites values.
   await setMeta(LAYOUT_FLAG, new Date().toISOString());
+}
+
+// Stops braces stretching over their leading bracket lines on an install that
+// predates that build rule, without the reinstall that would lose annotations.
+const BRACE_FLAG = 'companion-notes-braces-2026-10';
+
+export async function updateCompanionNotesBraces(): Promise<void> {
+  if ((await getMeta(BRACE_FLAG)) !== null) return;
+  const source = await findSourceByTitle(COMPANION_NOTES_TITLE);
+  if (source) {
+    const bundle = await loadBundle();
+    const { diagrams, lines, groups } = await getStructureForSource(source.id);
+    const installed = diagrams.map((d) => ({ id: d.id, title: d.title, lines: lines.filter((l) => l.diagram_id === d.id) }));
+    for (const t of planBraceTrims(installed, groups, bundle.books.flatMap((b) => b.diagrams))) {
+      await removeStructureGroupMember(t.groupId, t.lineId);
+    }
+  }
+  await setMeta(BRACE_FLAG, new Date().toISOString());
 }
 
 export async function installCompanionNotes(onProgress: (msg: string) => void): Promise<number> {

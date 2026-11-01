@@ -125,8 +125,11 @@ function parseStructure(file) {
         }
         // Re-using a label merges: Bullinger's correspondence pairs sit at
         // opposite ends of the outline, so a group is often non-contiguous.
+        // Leading bracket lines stay out: in print they share the row of their
+        // first child, so as rows of their own they would stretch the brace.
+        const firstText = ungrouped.findIndex((i) => d.lines.find((l) => l.idx === i).text !== null);
         const members = d.groups.get(label) ?? [];
-        d.groups.set(label, members.concat(ungrouped));
+        d.groups.set(label, members.concat(firstText < 0 ? [] : ungrouped.slice(firstText)));
         ungrouped = [];
         return;
       }

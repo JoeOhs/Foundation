@@ -1414,6 +1414,11 @@ export async function updateStructureLineLayout(id: number, depth: number, paren
   await db.execute('UPDATE structure_lines SET depth = ?, parent_id = ? WHERE id = ?', [depth, parentId, id]);
 }
 
+export async function removeStructureGroupMember(groupId: number, lineId: number): Promise<void> {
+  const db = await ensureDb();
+  await db.execute('DELETE FROM structure_group_members WHERE group_id = ? AND structure_line_id = ?', [groupId, lineId]);
+}
+
 export async function insertStructureDiagram(
   sourceId: number,
   d: {

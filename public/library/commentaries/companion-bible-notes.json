@@ -217,8 +217,6 @@
             {
               "label": "MANKIND IN GENERAL",
               "members": [
-                0,
-                1,
                 2,
                 3,
                 4,
@@ -229,7 +227,6 @@
             {
               "label": "THE CHOSEN PEOPLE",
               "members": [
-                8,
                 9,
                 10,
                 11,
@@ -969,7 +966,6 @@
             {
               "label": "God's blessing for Noah.",
               "members": [
-                2,
                 3,
                 4,
                 5,
@@ -1503,7 +1499,6 @@
             {
               "label": "The Seed",
               "members": [
-                0,
                 1,
                 2,
                 3,
@@ -3972,7 +3967,6 @@
             {
               "label": "dreamt",
               "members": [
-                0,
                 1,
                 2
               ]
@@ -12628,8 +12622,6 @@
             {
               "label": "Moses' Song.",
               "members": [
-                0,
-                1,
                 2,
                 3
               ]
@@ -12637,7 +12629,6 @@
             {
               "label": "The Song itself.",
               "members": [
-                5,
                 6,
                 7,
                 8,
@@ -12648,7 +12639,6 @@
             {
               "label": "Miriam's Song.",
               "members": [
-                12,
                 13,
                 14
               ]
@@ -13589,7 +13579,6 @@
             {
               "label": "\"THE LORD THY GOD.\"",
               "members": [
-                0,
                 1,
                 2,
                 3
@@ -13691,7 +13680,6 @@
             {
               "label": "Man (command).",
               "members": [
-                0,
                 1,
                 2,
                 3,
@@ -13701,7 +13689,6 @@
             {
               "label": "God (reason).",
               "members": [
-                5,
                 6,
                 7,
                 8
@@ -14455,7 +14442,6 @@
             {
               "label": "The Tabernacle.",
               "members": [
-                0,
                 1,
                 2,
                 3,
@@ -14682,8 +14668,6 @@
             {
               "label": "Contents.",
               "members": [
-                0,
-                1,
                 2,
                 3,
                 4
@@ -14692,7 +14676,6 @@
             {
               "label": "Construction.",
               "members": [
-                5,
                 6,
                 7,
                 8,
@@ -20405,7 +20388,6 @@
             {
               "label": "The Offerings.",
               "members": [
-                2,
                 3,
                 4,
                 5,
@@ -20416,7 +20398,6 @@
             {
               "label": "The Law of the Offerings.",
               "members": [
-                8,
                 9,
                 10,
                 11,
@@ -22783,8 +22764,6 @@
             {
               "label": "Personalty.",
               "members": [
-                2,
-                3,
                 4,
                 5
               ]
@@ -22792,10 +22771,8 @@
             {
               "label": "Beasts.",
               "members": [
-                6,
                 7,
                 8,
-                12,
                 13,
                 14
               ]
@@ -22803,10 +22780,8 @@
             {
               "label": "Property.",
               "members": [
-                9,
                 10,
                 11,
-                15,
                 16,
                 17
               ]
@@ -26017,8 +25992,6 @@
             {
               "label": "Nation.",
               "members": [
-                0,
-                1,
                 2,
                 3
               ]
@@ -26026,7 +25999,6 @@
             {
               "label": "Levites.",
               "members": [
-                5,
                 6,
                 7
               ]
@@ -26247,7 +26219,6 @@
             {
               "label": "East.",
               "members": [
-                2,
                 3,
                 4,
                 5
@@ -26256,7 +26227,6 @@
             {
               "label": "South.",
               "members": [
-                7,
                 8,
                 9,
                 10
@@ -26265,7 +26235,6 @@
             {
               "label": "West.",
               "members": [
-                13,
                 14,
                 15,
                 16
@@ -26274,7 +26243,6 @@
             {
               "label": "North.",
               "members": [
-                18,
                 19,
                 20,
                 21
@@ -26948,7 +26916,6 @@
             {
               "label": "Case.",
               "members": [
-                0,
                 1,
                 2,
                 5,
@@ -27138,8 +27105,6 @@
             {
               "label": "Command.",
               "members": [
-                0,
-                1,
                 2,
                 3
               ]
@@ -27147,7 +27112,6 @@
             {
               "label": "Obedience.",
               "members": [
-                4,
                 5,
                 6
               ]
@@ -28212,8 +28176,6 @@
             {
               "label": "Report",
               "members": [
-                0,
-                1,
                 2,
                 3,
                 4
@@ -28222,7 +28184,6 @@
             {
               "label": "Reception.",
               "members": [
-                5,
                 6,
                 7,
                 8
@@ -32372,7 +32333,6 @@
             {
               "label": "Distribution.",
               "members": [
-                0,
                 1,
                 2,
                 3
@@ -36952,8 +36912,6 @@
             {
               "label": "Before the forty years.",
               "members": [
-                0,
-                1,
                 2,
                 3,
                 4
@@ -36962,7 +36920,6 @@
             {
               "label": "After the forty years.",
               "members": [
-                5,
                 6,
                 7,
                 8
@@ -37832,14 +37789,12 @@
             {
               "label": "Phylactery.",
               "members": [
-                2,
                 3,
                 4,
                 5,
                 6,
                 7,
                 8,
-                18,
                 19,
                 20,
                 21,
@@ -40564,8 +40519,6 @@
             {
               "label": "False prophet: heathen.",
               "members": [
-                0,
-                1,
                 2,
                 3,
                 4,
@@ -40575,7 +40528,6 @@
             {
               "label": "THE PROPHET.",
               "members": [
-                6,
                 7,
                 8,
                 9,
@@ -40586,7 +40538,6 @@
             {
               "label": "False prophet: Israel.",
               "members": [
-                12,
                 13,
                 14,
                 15,
@@ -41253,7 +41204,6 @@
             {
               "label": "Living Persons.",
               "members": [
-                2,
                 3,
                 4,
                 5
@@ -41431,7 +41381,6 @@
             {
               "label": "Case.",
               "members": [
-                0,
                 1,
                 2
               ]
@@ -41863,8 +41812,6 @@
             {
               "label": "Vineyard.",
               "members": [
-                0,
-                1,
                 2,
                 3,
                 4
@@ -41873,7 +41820,6 @@
             {
               "label": "Cornfields.",
               "members": [
-                5,
                 6,
                 7,
                 8

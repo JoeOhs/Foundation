@@ -98,7 +98,9 @@ makes the outline readable. Two consequences:
 `[[group: LABEL]]` claims **every content line emitted since the previous
 group marker** (or since the start of the diagram, for the first one). This
 matches how the braces actually print — as a stack of consecutive spans down
-the right margin — and needs no depth arithmetic.
+the right margin — and needs no depth arithmetic. Bracket lines at the start
+of that run are left out, since in print they share their first child's row.
+A text line above the brace needs a `[[group: -]]` after it.
 
 **Re-using a label later in the file adds those lines to the same group.**
 Bullinger's correspondence pairs sit at opposite ends of the outline —

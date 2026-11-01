@@ -20,7 +20,7 @@ import ConfirmDialog from './components/ConfirmDialog';
 import { requestConfirm } from './confirmBus';
 import { BUNDLED_LIBRARY, type BundledLibraryEntry } from './library';
 import { COMPANION_APPENDIX_TITLE } from './companionAppendixImport';
-import { retireCompanionNotesTestSource, updateCompanionNotesLayout } from './companionNotesImport';
+import { retireCompanionNotesTestSource, updateCompanionNotesBraces, updateCompanionNotesLayout } from './companionNotesImport';
 import { applyTheme, applyTexture, normalizeStoredTheme, systemDefaultTheme, systemDefaultTexture, type TexturePref, type ThemeId } from './themes';
 import { applyReaderFont, normalizeStoredFont, type FontId } from './fonts';
 import { entryToMarkdown, versesToMarkdown } from './scripture';
@@ -354,6 +354,7 @@ export default function App() {
         await repairSeededTextsIfNeeded(setSplashMsg);
         await retireCompanionNotesTestSource();
         await updateCompanionNotesLayout();
+        await updateCompanionNotesBraces();
         await seedHighlightersIfEmpty();
         await seedTutorialNoteIfNeeded();
         setHighlighters(await listHighlighters());
