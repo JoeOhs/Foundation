@@ -1,0 +1,1191 @@
+# The Companion Bible (E. W. Bullinger, 1913) — 2 Chronicles
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/11. Chronicles I-II_text.pdf, which holds both
+# books); [[pdf-page:]] is the page of that file each diagram is on.
+# Notation: README.md here. The diagram of both books is in 1-chronicles.structure.txt.
+#
+# Where print steps two or more levels after a text line the parser allows
+# one, so these sit in from print: 17. 1—21. 1- second O, U, V, P.
+
+[[diagram: 2 Chron. 1. 1—9. 31 (G2, p. 545). Solomon (Introversion and Alternation)]]
+[[anchor: 2 Chronicles 1:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 39]]
+
+G2 |  |
+  A |  | 1. 1-. Introduction.
+[[group: -]]
+  B |  |
+    C |  | 1. -1-17. Appearance of Jehovah. Personal details.
+      D |  | 2. 1—7. 11. Building of Temple. Sacred.
+  B |  |
+    C |  | 7. 12-22. Appearance of Jehovah. National details.
+      D |  | 8. 1—9. 28. Building of cities. Secular.
+[[group: Events.]]
+  A |  | 9. 29-31. Conclusion.
+
+[[diagram: -1-17 (C, above). Appearance of Jehovah (Introversion)]]
+[[anchor: 2 Chronicles 1:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 39]]
+
+C |  |
+  E | -1 | Magnificence of Solomon's kingdom.
+    F | 2-6 | Journey to Gibeon.
+      G | 7-12 | Appearance of God.
+    F | 13 | Return to Jerusalem.
+  E | 14-17 | Magnificence of Solomon's kingdom.
+
+[[diagram: 1. 7-12 (G, above). Appearance of God (Introversion)]]
+[[anchor: 2 Chronicles 1:7]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 39]]
+
+G |  |
+  a | 7 | God. Appearance and offer.
+    b | 8, 9 | Solomon. Acknowledgment.
+    b | 10 | Solomon. Choice.
+  a | 11, 12 | God. Reason and gift.
+
+[[diagram: 2. 1—7. 11 (D, p. 569). Building of Temple (Events: Sacred) (Introversion)]]
+[[anchor: 2 Chronicles 2:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 40]]
+
+D |  |
+  H |  | 2. 1. Determination to build.
+    J |  | 2. 2-18. Preparation.
+      K |  | 3. 1—5. 1. Execution.
+    J |  | 5. 2—7. 10. Dedication.
+  H |  | 7. 11. Completion of building.
+
+[[diagram: 2-18 (J, above). Preparation (Introversion)]]
+[[anchor: 2 Chronicles 2:2]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 40]]
+
+J |  |
+  d | 2 | Labourers.
+    e | 3-10 | Embassy to Hiram. Request.
+    e | 11-16 | Embassy to Hiram. Agreement.
+  d | 17, 18 | Labourers.
+
+[[diagram: 3. 1—5. 1 (K, p. 570). Execution (Introversion and Alternation)]]
+[[anchor: 2 Chronicles 3:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 41]]
+
+K |  |
+  L |  | 3. 1, 2. Commencement.
+    M |  |
+      N |  | 3. 3-17. The house.
+        O |  | 4. 1-8. Its furniture.
+    M |  |
+      N |  | 4. 9. The courts.
+        O |  | 4. 10, 11-. Their furniture.
+  L |  | 4. -11—5. 1. Completion.
+
+[[diagram: 3. 3-17 (N, above). The House (Alternation)]]
+[[anchor: 2 Chronicles 3:3]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 41]]
+
+N |  |
+  f | 3 | The house.
+    g | 4 | Its porch.
+  f | 5-14 | The house.
+    g | 15-17 | Its pillars.
+
+[[diagram: 5. 2—7. 10 (J, p. 570). Dedication of House (Introversion and Alternation)]]
+[[anchor: 2 Chronicles 5:2]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 43]]
+
+J |  |
+  P |  | 5. 2-13-. The feast.
+    Q |  |
+      h |  | 5. -13. The cloud.
+        i |  | 5. 14. Inability to minister.
+          R |  | 6. 1-11. Solomon's blessing.
+            S |  | 6. 12, 13. His station.
+          R |  | 6. 14-42. Solomon's prayer.
+    Q |  |
+      h |  | 7. 1. The fire.
+        i |  | 7. 2, 3. Inability to minister.
+  P |  | 7. 4-10. The feast.
+
+[[diagram: 5. 2-13- (P, above). The Feast (Alternation)]]
+[[anchor: 2 Chronicles 5:2]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 43]]
+
+P |  |
+  j | 2-5 | The Ark brought up.
+    k | 6 | Sacrifices.
+  j | 7-10 | The Ark brought in.
+    k | 11-13- | Worship.
+
+[[diagram: 6. 1-11 (R, p. 573). Solomon's Blessing (Introversion and Repeated Alternation)]]
+[[anchor: 2 Chronicles 6:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 44]]
+
+R |  |
+  T |  |
+    l1 | 1 | Words of Jehovah. Recited.
+      m1 | 2 | The house. Built.
+        U | 3 | Blessing. The People.
+        U | 4 | Blessing. Jehovah.
+  T |  |
+    l2 | 5, 6 | Words of Jehovah. To David. Rehearsed.
+      m2 | 7 | The house. David's purpose.
+    l3 | 8, 9 | Words of Jehovah. Rehearsed.
+      m3 | 10, 11 | The house. Built.
+
+[[diagram: 14-42 (R, p. 573). Solomon's Prayer (Introversion)]]
+[[anchor: 2 Chronicles 6:14]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 44]]
+
+R |  |
+  n | 14-20 | For himself.
+    o | 21-39 | For others. The People.
+      p | 40, 41- | The house.
+    o | -41 | For others. The priests.
+  n | 42 | For himself.
+
+[[diagram: 14-20 (n, above). For Himself (Alternation)]]
+[[anchor: 2 Chronicles 6:14]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 44]]
+
+n |  |
+  q | 14, 15 | Plea. Jehovah's faithfulness.
+    r | 16, 17 | Prayer.
+  q | 18 | Plea. Jehovah's condescension.
+    r | 19, 20 | Prayer.
+
+[[diagram: 6. 21-39 (o, p. 574). Prayer. For the People (Introversion)]]
+[[anchor: 2 Chronicles 6:21]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 45]]
+
+o |  |
+  s | 21-31 | Israel.
+    t | 32 | Stranger.
+    t | 33 | Stranger.
+  s | 34-39 | Israel.
+
+[[diagram: 21-31 (s, above). Israel (Extended Alternation)]]
+[[anchor: 2 Chronicles 6:21]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 45]]
+
+s |  |
+  u1 | 21- | Worship.
+    v1 | -21 | Regard.
+  u2 | 22 | Trouble. Sin.
+    v2 | 23 | Regard.
+  u3 | 24 | Trouble. Defeat.
+    v3 | 25 | Regard.
+  u4 | 26 | Trouble. Drought.
+    v4 | 27 | Regard.
+  u5 | 28 | Trouble. Pestilence, &c.
+    v5 | 29-31 | Regard.
+
+[[diagram: 34-39 (s, above). Israel (Alternation)]]
+[[anchor: 2 Chronicles 6:34]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 45]]
+
+s |  |
+  w | 34 | Trouble. Battle.
+    x | 35 | Regard.
+  w | 36-38 | Trouble. Captivity.
+    x | 39 | Regard.
+
+[[diagram: 7. 4-10 (P, p. 573). The Feast (Double Introversion)]]
+[[anchor: 2 Chronicles 7:4]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 46]]
+
+P |  |
+  V1 |  |
+    y | 4, 5 | Sacrifices.
+      z | 6- | The priests.
+      z | -6 | The Levites.
+    y | 7 | Sacrifices.
+  V2 |  |
+    a | 8 | The feast.
+      b | 9- | Convocation.
+      b | -9- | Dedication.
+    a | -9, 10 | The feast.
+
+[[diagram: 12-22 (C, p. 569). Appearance of Jehovah (Second) (Alternations and Introversion)]]
+[[anchor: 2 Chronicles 7:12]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 46]]
+
+C |  |
+  W |  |
+    c | 12- | Prayer accepted.
+      d | -12 | House accepted.
+        X |  |
+          e | 13 | Jehovah. Displeasure.
+            f | 14- | People. Humiliation.
+            f | -14- | People. Prayer.
+          e | -14 | Jehovah. Regard.
+  W |  |
+    c | 15 | Prayer accepted.
+      d | 16 | House accepted.
+        X |  |
+          g | 17 | Solomon. Obedience.
+            h | 18 | Jehovah. Establishment.
+          g | 19 | Solomon. Disobedience.
+            h | 20-22 | Jehovah. Rejection.
+
+[[diagram: 8. 1—9. 28 (D, p. 569). Events. Building of Cities, &c. (Repeated Alternations)]]
+[[anchor: 2 Chronicles 8:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 47]]
+
+D |  |
+  Y1 |  | 8. 1-18. Acquired. Riches.
+    Z1 |  | 9. 1-12. Admired. Riches and wisdom.
+  Y2 |  | 9. 13-22. Acquired. Riches.
+    Z2 |  | 9. 23, 24. Admired. Riches and wisdom.
+  Y3 |  | 9. 25-28. Acquired. Riches.
+
+[[diagram: 8. 1-18 (X1, above). Acquired. Riches (Introversion)]]
+[[anchor: 2 Chronicles 8:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 47]]
+
+Y1 |  |
+  i | 1-6 | Hiram. Cities given and rebuilt.
+    k | 7-10 | Service. Civil.
+      l | 11 | House for Pharaoh's daughter.
+    k | 12-16 | Service. Sacred.
+  i | 17, 18 | Hiram. Navy built.
+
+[[diagram: 9. 1-12 (Z1, p. 577). Admired. Riches and Wisdom (Introversion)]]
+[[anchor: 2 Chronicles 9:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 48]]
+
+Z1 |  |
+  m | 1- | Queen of Sheba. Journey.
+    n | -1 | Presents brought.
+      o | 2 | What she heard.
+        p | 3, 4 | What she saw.
+      o | 5-8 | What she said.
+    n | 9-11 | Presents exchanged.
+  m | 12 | Queen of Sheba. Return.
+
+[[diagram: 9. 13-22 (Y2, p. 577). Acquired. Riches (Alternation)]]
+[[anchor: 2 Chronicles 9:13]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 49]]
+
+Y2 |  |
+  q | 13, 14 | Importation.
+    r | 15-20 | Manufacture.
+  q | 21 | Importation.
+    r | 22 | Possession.
+
+[[diagram: 10. 1—12. 16 (G3, p. 545). Rehoboam (Repeated Alternation)]]
+[[anchor: 2 Chronicles 10:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 49]]
+
+G3 |  |
+  A1 |  | 10. 1. Personal events. Accession.
+    B1 |  | 10. 2—11. 4. Public events. Revolt of Jeroboam.
+  A2 |  | 11. 5—12. 1. Personal events.
+    B2 |  | 12. 2-12. Public events. Invasion of Shishak.
+  A3 |  | 12. 13-16. Personal. Records and death.
+
+[[diagram: 10. 2—11. 4 (B1, above). Revolt of Jeroboam (Introversion)]]
+[[anchor: 2 Chronicles 10:2]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 49]]
+
+B1 |  |
+  C | 2, 3- | Jeroboam and Rehoboam.
+    D | -3-5 | First application.
+    D | 6-19 | Second application.
+  C |  | 11. 1-4. Jeroboam and Rehoboam.
+
+[[diagram: 10. 3-19 (D and D, above). Applications]]
+[[anchor: 2 Chronicles 10:3]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 49]]
+
+D |  |
+  s1 | -3, 4 | Petition made.
+    t1 | 5 | Dismissal.
+[[group: The first.]]
+D |  |
+  s2 | 6-12 | Petition. Considered.
+    t2 | 12-14 | Answer. Returned.
+  s3 | 15 | Petition. Repeated.
+    t3 | 16-19 | Answer. Consequences.
+[[group: The second.]]
+
+[[diagram: 11. 5—12. 1 (A2, p. 579). Personal Events (Alternation)]]
+[[anchor: 2 Chronicles 11:5]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 50]]
+
+A2 |  |
+  E |  | 11. 5-12. Residence.
+    F |  | 11. 13-17. Faithfulness.
+  E |  | 11. 18-23. Marriage.
+    F |  | 12. 1. Apostasy.
+
+[[diagram: 12. 2-12 (B2, p. 579). Public Events. Invasion by Shishak (Extended Alternation)]]
+[[anchor: 2 Chronicles 12:2]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 51]]
+
+B2 |  |
+  u | 2-4 | Invasion.
+    v | 5 | Threatening of Jehovah.
+      w | 6 | Humiliation.
+        x | 7, 8 | Mitigation.
+  u | 9 | Invasion.
+    v | 10, 11 | Preparation of Rehoboam.
+      w | 12- | Humiliation.
+        x | -12 | Mitigation.
+
+[[diagram: 13. 1—14. 1- (G4, p. 545). Abijah (Introversion)]]
+[[anchor: 2 Chronicles 13:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 52]]
+
+G4 |  |
+  A |  | 13. 1, 2. Introduction.
+    B |  | 13. 3. War declared.
+      C |  | 13. 4-12. Address to Jeroboam.
+    B |  | 13. 13-21. War made.
+  A |  | 13. 21—14. 1-. Conclusion.
+
+[[diagram: 13. 4-12 (C, above). Address to Jeroboam (Extended Alternation)]]
+[[anchor: 2 Chronicles 13:4]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 52]]
+
+C |  |
+  a | 4, 5 | Kingdom given.
+    b | 6 | Rebellion against Rehoboam.
+      c | 7 | Dependence of Jeroboam on man.
+  a | 8- | Kingdom withstood.
+    b | -8-11 | Rebellion against Jehovah.
+      c | 12 | Dependence of Abijah on God.
+
+[[diagram: 13. 13-20 (B, p. 582). War Made (Alternation)]]
+[[anchor: 2 Chronicles 13:13]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 53]]
+
+B |  |
+  d | 13 | Jeroboam. Assault.
+    e | 14, 15 | Abijah. Cry to Jehovah.
+  d | 16-18 | Jeroboam. Defeat.
+    e | 19, 20 | Abijah. Victory through Jehovah.
+
+[[diagram: 14. -1—16. 14 (G5, p. 545). Asa (Introversion)]]
+[[anchor: 2 Chronicles 14:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 53]]
+
+G5 |  |
+  D |  | 14. -1, 2. Introduction.
+    E |  | 14. 3-8. Events. Personal. Well-doing.
+    E |  | 14. 9—16. 10. Events. Public. War.
+  D |  | 16. 11-14. Conclusion.
+
+[[diagram: 14. 3-8 (E, above). Events. Personal (Introversions)]]
+[[anchor: 2 Chronicles 14:3]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 53]]
+
+E |  |
+  F1 |  |
+    f | 3 | Removal of idolatry.
+      g | 4- | Exhortation to Judah. Faith.
+      g | -4 | Exhortation to Judah. Works.
+    f | 5 | Removal of idolatry.
+  F2 |  |
+    h | 6 | Defence. Cities.
+      i | 7- | Exhortation to Judah. Works.
+      i | -7 | Exhortation to Judah. Faith.
+    h | 8 | Defence. Armies.
+
+[[diagram: 14. 9—16. 10 (E, p. 583). Events. Public (Extended Alternation)]]
+[[anchor: 2 Chronicles 14:9]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 54]]
+
+E |  |
+  G |  | 14. 9-15. Invasion by Zerah.
+    H |  | 15. 1-7. Word of Jehovah by Azariah.
+      J |  | 15. 8-19. Obedience.
+  G |  | 16. 1-6. Invasion by Baasha.
+    H |  | 16. 7-9. Word of the Lord by Hanani.
+      J |  | 16. 10. Disobedience.
+
+[[diagram: 15. 1-7 (H, above). The Word of Jehovah by Azariah (Introversion)]]
+[[anchor: 2 Chronicles 15:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 54]]
+
+H |  |
+  j | 1, 2 | Threatening.
+    k | 3 | Trouble. The cause.
+      l | 4 | Humiliation.
+    k | 5, 6 | Trouble. The consequence.
+  j | 7 | Encouragement.
+
+[[diagram: 15. 8-19 (J, above). Obedience (Repeated Alternation and Introversion)]]
+[[anchor: 2 Chronicles 15:8]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 54]]
+
+J |  |
+  K | 8 | Removal of idols.
+    L |  |
+      m | 9-12 | Covenant.
+        n | 13-15- | Exception, then. The queen mother's idol. (Destroyed later, v. 16).
+      M | -15 | Rest.
+  K | 16 | Removal of idol.
+    L |  |
+        n | 17 | Exception. Israel's high places.
+      m | 18 | Dedicated things.
+      M | 19 | Rest.
+
+[[diagram: 17. 1—21. 1- (G6, p. 545). Jehoshaphat (Extended and Simple Alternations, with Introversion)]]
+[[anchor: 2 Chronicles 17:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 56]]
+
+G6 |  |
+  N |  |
+    Q |  | 17. 1, 2. Introduction. Accession.
+      R |  |
+        S |  | 17. 3-9. Personal. Reformation.
+          T |  | 17. 10-19. The kingdom. Established.
+            O |  |
+              U |  | 18. 1-34. Alliance with Ahab.
+                V |  | 19. 1-3. Remonstrance. Jehu.
+                  P |  | 19. 4. Jerusalem. Dwelling.
+  N |  |
+      R |  |
+        S |  | 19. 5-11. Personal. Reformation.
+          T |  | 20. 1-30. The kingdom. Invaded.
+    Q |  | 20. 31-34. Conclusion. Reign.
+      O |  |
+        U |  | 20. 35, 36. Alliance with Ahaziah.
+          V |  | 20. 37. Remonstrance. Eliezer.
+            P |  | 21. 1. Jerusalem. Death.
+
+[[diagram: 3-19 (R, above; S, vv. 3-9; T, vv. 10-19). Personal. Reformation (Extended Alternation)]]
+[[anchor: 2 Chronicles 17:3]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 56]]
+
+S |  |
+  o | 3-5- | Divine presence.
+    p | -5 | Presents from Judah.
+      q | 6-9 | Goodness.
+T |  |
+  o | 10 | Divine protection.
+    p | 11 | Presents from Philistines.
+      q | 12-19 | Greatness.
+
+[[diagram: 18. 1-34 (U, p. 586). Alliances with Ahab (Alternation and Introversion)]]
+[[anchor: 2 Chronicles 18:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 57]]
+
+U |  |
+  W |  |
+    r | 1 | Alliance. Matrimonial.
+      s | 2 | Jehoshaphat's consent.
+    r | 3 | Alliance. Military.
+      s | 4-27 | Jehoshaphat's anxiety.
+        X | 28 | The expedition.
+  W |  |
+    t | 29- | Ahab's device.
+      u | -29 | Jehoshaphat's consent.
+      u | 30, 31 | Jehoshaphat's concern.
+    t | 32-34 | Ahab's death.
+
+[[diagram: 18. 4-27 (s, above). Jehoshaphat's Anxiety (Introversions and Alternations)]]
+[[anchor: 2 Chronicles 18:4]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 57]]
+
+s |  |
+  Y |  |
+    v | 4 | Jehoshaphat. Inquiry.
+      w | 5 | Ahab. Compliance.
+    v | 6 | Jehoshaphat. Further inquiry.
+      w | 7 | Ahab. Reply.
+        Z | 8 | True prophet sent for. Micaiah.
+          A | 9, 10 | False prophets. Zedekiah.
+          A | 11 | False prophets. All.
+        Z | 12, 13 | True prophet brought. Micaiah.
+  Y |  |
+    x | 14- | Inquiry made. Ahab.
+      y | -14 | Micaiah's answer. Ironical.
+    x | 15 | Inquiry adjured. Ahab.
+      y | 16-27 | Micaiah's answer. Serious.
+
+[[diagram: 18. 16-27 (y, p. 587). Micaiah's Answer (Repeated Alternation)]]
+[[anchor: 2 Chronicles 18:16]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 58]]
+
+y |  |
+  B1 |  |
+    a | 16 | Vision seen.
+      b | 17 | Understood.
+    a | 18-21 | Vision seen.
+      b | 22 | Interpreted.
+[[group: Communicated.]]
+  B2 |  |
+    c | 23 | Zedekiah.
+      d | 24 | Micaiah.
+    c | 25, 26 | Ahab.
+      d | 27 | Micaiah.
+[[group: Received.]]
+
+[[diagram: 19. 5-11 (S, p. 586). Personal. Reformation (Alternation)]]
+[[anchor: 2 Chronicles 19:5]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 59]]
+
+S |  |
+  C1 |  |
+    e | 5 | Judges.
+      f | 6, 7 | Exhortation.
+[[group: In Judah.]]
+  C2 |  |
+    e | 8 | Levites.
+      f | 9-11 | Exhortation.
+[[group: In Jerusalem.]]
+
+[[diagram: 20. 1-30 (T, p. 586). The Kingdom. Invaded (Introversion and Alternation)]]
+[[anchor: 2 Chronicles 20:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 60]]
+
+T |  |
+  g | 1, 2 | Invasion. Made and reported.
+    h | 3 | Fear of Moab. Jehoshaphat.
+      i | 4 | Assemblage. To seek Jehovah.
+        k |  |
+          l | 5-13 | Prayer.
+            m | 14-17 | Prophecy. Given.
+        k |  |
+          l | 18, 19 | Praise.
+            m | 20-25 | Prophecy. Fulfilled.
+      i | 26-28 | Assemblage. To bless Jehovah.
+    h | 29 | Fear of God. The kingdoms.
+  g | 30 | Invasion. Repelled.
+
+[[diagram: 21. -1-20 (G7, p. 545). Jehoram (Introversion)]]
+[[anchor: 2 Chronicles 21:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 61]]
+
+G7 |  |
+  D | -1-5 | Introduction.
+    E | 6, 7 | Events. Personal.
+    E | 8-19 | Events. Public.
+  D | 20 | Conclusion.
+
+[[diagram: 21. 8-19 (E, p. 591). Events. Public (Alternation)]]
+[[anchor: 2 Chronicles 21:8]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 62]]
+
+E |  |
+  n | 8-10 | Revolts. Edom and Libnah.
+    o | 11-15 | Judgments. Prophesied.
+  n | 16, 17 | Invasions. Philistines and Arabians.
+    o | 18, 19 | Judgments. Fulfilled.
+
+[[diagram: 22. 1-9 (G8, p. 545). Ahaziah (Introversion)]]
+[[anchor: 2 Chronicles 22:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 63]]
+
+G8 |  |
+  p | 1, 2 | Introduction.
+    q | 3, 4 | Events. Personal.
+    q | 5-9- | Events. Public.
+  p | -9 | Conclusion.
+
+[[diagram: 22. 10—23. 21 (G9, p. 545). Athaliah. (Usurpation.) (Repeated Alternation)]]
+[[anchor: 2 Chronicles 22:10]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 63]]
+
+G9 |  |
+  F1 |  | 22. 10. Athaliah. Murderess.
+    G1 |  | 22. 11, 12-. Joash. Rescue and concealment.
+  F2 |  | 22. -12. Athaliah. Usurpation.
+    G2 |  | 23. 1-11. Joash. Investiture.
+  F3 |  | 23. 12. Athaliah. Alarm.
+    G3 |  | 23. 13-. Joash. Station.
+  F4 |  | 23. -13-15. Athaliah. Execution.
+    G4 |  | 23. 16-20. Joash. Exaltation.
+  F5 |  | 23. 17. Athaliah. End.
+
+[[diagram: 23. 1-11 (G2, p. 593). Joash. Investiture (Alternation)]]
+[[anchor: 2 Chronicles 23:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 64]]
+
+G2 |  |
+  r | 1-3- | Assemblage.
+    s | -3 | The king's son. Revealed.
+  r | 4-10 | Arrangements.
+    s | 11 | The king's son. Crowned.
+
+[[diagram: 24. 1-27 (G10, p. 545). Joash (Introversion)]]
+[[anchor: 2 Chronicles 24:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 65]]
+
+G10 |  |
+  H | 1-3 | Introduction.
+    J | 4-26 | Events.
+  H | 27 | Conclusion.
+
+[[diagram: 4-26 (J, above). Events (Introversion)]]
+[[anchor: 2 Chronicles 24:4]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 65]]
+
+J |  |
+  K | 4-22 | Administration of Jehoiada.
+    L | 23, 24 | Invasion by Syrians.
+  K | 25, 26 | Conspiracy of servants.
+
+[[diagram: 4-22 (K, above). Administration of Jehoiada (Alternation)]]
+[[anchor: 2 Chronicles 24:4]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 65]]
+
+K |  |
+  M | 4-14 | House of God. Repaired.
+    N | 15, 16 | Jehoiada. Death.
+  M | 17-20 | House of God. Forsaken.
+    N | 21, 22 | Jehoiada's son. Death.
+
+[[diagram: 4-14 (M, above). House of God. Repaired (Alternation)]]
+[[anchor: 2 Chronicles 24:4]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 65]]
+
+M |  |
+  O | 4 | Repairs. Purposed.
+    P | 5-11 | Collection. Made.
+  O | 12, 13 | Repairs. Effected.
+    P | 14 | Collection. Surplus.
+
+[[diagram: 5-11 (P, above). Collection. Made (Extended Alternation)]]
+[[anchor: 2 Chronicles 24:5]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 65]]
+
+P |  |
+  t | 5- | Command of Joash.
+    u | -5 | Delay of Levites.
+      v | 6, 7 | Need and expostulation.
+  t | 8, 9 | Command of Joash.
+    u | 10 | Alacrity of princes and people.
+      v | 11 | Need supplied. Abundance.
+
+[[diagram: 25. 1-28 (G11, p. 545). Amaziah (Introversion and Alternation)]]
+[[anchor: 2 Chronicles 25:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 66]]
+
+G11 |  |
+  Q | 1, 2 | Introduction.
+    R |  |
+      S | 3, 4 | Home events. Requital.
+        T | 5-13 | Foreign events. War.
+    R |  |
+      S | 14-16 | Home events. Apostasy.
+        T | 17-24 | Foreign events. War.
+  Q | 25-28 | Conclusion.
+
+[[diagram: 25. 5-13 (T, p. 596). Foreign Events. War with Ephraim (Alternation)]]
+[[anchor: 2 Chronicles 25:5]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 67]]
+
+T |  |
+  w | 5 | Home levies. Raised.
+    x | 6-10 | Mercenaries. Prohibition.
+  w | 11, 12 | Home levies. Led.
+    x | 13 | Mercenaries. Sent back.
+
+[[diagram: 17-24 (T, p. 596). Foreign Events. War (Introversion)]]
+[[anchor: 2 Chronicles 25:17]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 67]]
+
+T |  |
+  y | 17 | Amaziah. Challenge.
+    z | 18-20 | Challenge given.
+    z | 21 | Challenge accepted.
+  y | 22-24 | Amaziah. Defeat.
+
+[[diagram: 26. 1-23 (G12, p. 545). Uzziah (Introversion and Alternation)]]
+[[anchor: 2 Chronicles 26:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 68]]
+
+G12 |  |
+  U | 1-3 | Introduction.
+    V | 4, 5 | Personal. Well-doing.
+      W |  |
+        X | 6, 7 | Events. Foreign wars.
+          Y | 8 | Renown.
+      W |  |
+        X | 9-15- | Events. Home affairs.
+          Y | -15 | Renown.
+    V | 16-21 | Personal. Evil-doing.
+  U | 22, 23 | Conclusion.
+
+[[diagram: 9-15- (X, above). Events. Home Affairs (Introversion)]]
+[[anchor: 2 Chronicles 26:9]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 68]]
+
+X |  |
+  a | 9 | Jerusalem. Fortifications.
+    b | 10 | Defences. Forts, &c.
+      c | 11-13 | Armies.
+    b | 14 | Defences. Armour.
+  a | 15- | Jerusalem. Fortifications.
+
+[[diagram: 26. 16-21 (V, p. 598). Personal. Evil-doing (Alternation)]]
+[[anchor: 2 Chronicles 26:16]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 69]]
+
+V |  |
+  d | 16 | Uzziah. Transgression.
+    e | 17, 18 | Jehovah. Opposition.
+  d | 19- | Uzziah. Anger.
+    e | -19-21 | Jehovah. Judgment.
+
+[[diagram: 27. 1-9 (G13, p. 545). Jotham (Introversion)]]
+[[anchor: 2 Chronicles 27:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 69]]
+
+G13 |  |
+  A | 1 | Introduction.
+    B | 2 | Events. Personal.
+    B | 3-6 | Events. Public.
+  A | 7-9 | Conclusion.
+
+[[diagram: 28. 1-27 (G14, p. 545). Ahaz (Introversion and Alternation)]]
+[[anchor: 2 Chronicles 28:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 70]]
+
+G14 |  |
+  C | 1 | Introduction.
+    D | 2-4 | Personal. Evil-doing.
+      E |  |
+        F | 5-15 | Defeat by Syria and Israel.
+          G | 16 | Embassy. Sent to Assyria.
+      E |  |
+        F | 17-19 | Defeat by Edomites and Philistines.
+          G | 20, 21 | Embassy. Failure.
+    D | 22-25 | Personal. Evil-doing.
+  C | 26, 27 | Conclusion.
+
+[[diagram: 29. 1—32. 33 (G15, p. 545). Hezekiah (Introversions)]]
+[[anchor: 2 Chronicles 29:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 71]]
+
+G15 |  |
+  H |  | 29. 1. Introduction. Accession.
+    J |  |
+      K |  | 29. 2. Personal. Well-doing.
+        L |  | 29. 3—31. 21. Events. Reformation.
+    J |  |
+        L |  | 32. 1-23. Events. Invasion.
+      K |  | 32. 24-31. Personal. Sickness.
+  H |  | 32. 32, 33. Conclusion. Record and Death.
+
+[[diagram: 29. 3—31. 21 (L, above). Events. Reformation (Double Introversion)]]
+[[anchor: 2 Chronicles 29:3]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 71]]
+
+L |  |
+  M1 |  | 29. 3. The house of Jehovah. Reformation.
+    N1 |  | 29. 4-36. Restoration of worship.
+    N2 |  | 30. 1-27. Restoration of the Passover.
+  M2 |  | 31. 1. Idolatry. Abolition.
+    N3 |  | 31. 2. Restoration of ministry.
+    N4 |  | 31. 3-10. Restoration of offerings.
+  M3 |  | 31. 11-21. The worship of Jehovah. Preparation.
+
+[[diagram: 29. 4-36 (N1, above). Restoration of Worship (Extended Alternation)]]
+[[anchor: 2 Chronicles 29:4]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 71]]
+
+N1 |  |
+  O | 4- | Assemblage of priests and Levites.
+    P | -4 | The place. The East street.
+      Q | 5-11 | The sanctification of the priests and Levites.
+        R | 12-19 | The cleansing of the house.
+  O | 20- | Assemblage of the rulers of the city.
+    P | -20 | The place. The house of Jehovah.
+      Q | 21-30 | The offerings for their sanctification.
+        R | 31-36 | The offerings of the People.
+
+[[diagram: 29. 5-11 (Q, p. 601). The Sanctification of the Priests and Levites (Introversion)]]
+[[anchor: 2 Chronicles 29:5]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 72]]
+
+Q |  |
+  f | 5 | Sanctification.
+    g | 6-9 | Reasons.
+    g | 10 | Object.
+  f | 11 | Sanctification.
+
+[[diagram: 12-19 (R, p. 601). The Cleansing of the House (Division)]]
+[[anchor: 2 Chronicles 29:12]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 72]]
+
+R |  |
+  S1 | 12-15 | The persons.
+  S2 | 16-19 | The house.
+
+[[diagram: 21-30 (Q, p. 601). The Offerings for Their Sanctification (Alternation)]]
+[[anchor: 2 Chronicles 29:21]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 72]]
+
+Q |  |
+  h | 21-24 | The sin offering.
+    i | 25, 26 | Worship.
+  h | 27 | The burnt offering.
+    i | 28-30 | Worship.
+
+[[diagram: 29. 31-36 (R, p. 601). The Offerings of the People (Introversion)]]
+[[anchor: 2 Chronicles 29:31]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 73]]
+
+R |  |
+  k | 31- | Hezekiah's command.
+    l | -31 | Obedience of assembly.
+      m | 32, 33 | The offerings.
+    l | 34, 35 | Obedience of priests.
+  k | 36 | Hezekiah's joy.
+
+[[diagram: 30. 1-27 (N2, p. 601). Restoration of the Passover (Introversion)]]
+[[anchor: 2 Chronicles 30:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 73]]
+
+N2 |  |
+  T | 1-13 | The feast. Preparation.
+    U | 14 | Idolatrous altars in Jerusalem taken away.
+  T | 15-27 | The feast. Observance.
+
+[[diagram: 1-13 (T, above). The Feast. Preparation (Alternation)]]
+[[anchor: 2 Chronicles 30:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 73]]
+
+T |  |
+  n | 1 | The invitation. General.
+    o | 2-5 | Time. The second month.
+  n | 6-12 | The invitation. Particular.
+    o | 13 | Time. The second month.
+
+[[diagram: 30. 15-27 (T, p. 603). The Feast. Observance (Extended Alternation)]]
+[[anchor: 2 Chronicles 30:15]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 74]]
+
+T |  |
+  p | 15-18- | Passover eaten.
+    q | -18, 19 | Intercession of Hezekiah.
+      r | 20 | Acceptance by Jehovah.
+  p | 21-26 | Feast kept.
+    q | 27- | Blessing of the priests.
+      r | -27 | Acceptance by Jehovah.
+
+[[diagram: 31. 3-10 (N4, p. 601). Restoration of Offerings (Alternation)]]
+[[anchor: 2 Chronicles 31:3]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 75]]
+
+N4 |  |
+  s | 3, 4 | Hezekiah. Command.
+    t | 5-8 | Obedience of the people.
+  s | 9 | Hezekiah. Question.
+    t | 10 | Answer of the chief priests.
+
+[[diagram: 11-19 (M3, p. 601). The Worship of Jehovah. Preparation (Introversion)]]
+[[anchor: 2 Chronicles 31:11]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 75]]
+
+M3 |  |
+  u | 11- | Hezekiah. Command.
+    v | -11 | Storehouses prepared.
+    v | 12- | Storehouses filled.
+  u | -12-21 | Hezekiah. Overseers.
+
+[[diagram: 32. 1-23 (L, p. 601). The Invasion of Sennacherib (Introversion)]]
+[[anchor: 2 Chronicles 32:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 76]]
+
+L |  |
+  V | 1 | Sennacherib. Invasion.
+    W | 2-8 | Defence. Preparation.
+      X | 9-19 | Sennacherib. Message and letters.
+    W | 20 | Defence. Prayer.
+  V | 21-23 | Sennacherib. Destruction.
+
+[[diagram: 2-8 (W, above). Defence. Preparation (Alternation)]]
+[[anchor: 2 Chronicles 32:2]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 76]]
+
+W |  |
+  w | 2-5 | Hezekiah. His works.
+    x | 6- | The People. Captains over them.
+  w | -6-8- | Hezekiah. His encouragement.
+    x | -8 | The People. Confidence.
+
+[[diagram: 32. 9-19 (X, p. 606). Sennacherib. Message and Letters (Alternation and Introversion)]]
+[[anchor: 2 Chronicles 32:9]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 77]]
+
+X |  |
+  y | 9 | Sennacherib's servants.
+[[group: -]]
+    z |  |
+      a | 10-12 | Hezekiah's weakness.
+        b | 13-15 | Sennacherib's strength.
+[[group: Railing message.]]
+  y | 16 | Sennacherib's servants.
+[[group: -]]
+    z |  |
+        b | 17 | Sennacherib's strength.
+      a | 18, 19 | Hezekiah's weakness.
+[[group: Railing letters.]]
+
+[[diagram: 32. 24-31 (K, p. 601). Personal. Sickness (Alternation)]]
+[[anchor: 2 Chronicles 32:24]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 78]]
+
+K |  |
+  c | 24 | Sickness.
+    d | 25, 26 | Transgression. Ingratitude.
+  c | 27-30 | Prosperity.
+    d | 31 | Transgression. Pride.
+
+[[diagram: 33. 1-20 (G16, p. 545). Manasseh (Introversion)]]
+[[anchor: 2 Chronicles 33:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 78]]
+
+G16 |  |
+  Y | 1 | Introduction.
+    Z | 2-13 | Events. Personal. Apostasy.
+      A | 14 | Public events. Buildings.
+    Z | 15-17 | Events. Personal. Reformation.
+  Y | 18-20 | Conclusion.
+
+[[diagram: 2-13 (Z, above). Events. Personal. Apostasy, and Repentance (Introversion)]]
+[[anchor: 2 Chronicles 33:2]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 78]]
+
+Z |  |
+  e | 2-9 | Manasseh. His apostasy from Jehovah.
+    f | 10- | Jehovah's remonstrance.
+      g | -10 | Disregard.
+        h | 11 | Captivity.
+        h | 12, 13- | Deliverance.
+      g | -13- | Regard.
+    f | -13- | Jehovah's restoration.
+  e | -13 | Manasseh. His acknowledgment of Jehovah.
+
+[[diagram: 2-9 (e, above). His Apostasy (Introversion)]]
+[[anchor: 2 Chronicles 33:2]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 78]]
+
+e |  |
+  i | 2 | Evil-doing. General.
+[[group: -]]
+    k |  |
+      l | 3 | Heathen high places rebuilt.
+        m | 4, 5 | Temple profaned.
+    k |  |
+      l | 6 | Heathen practices resumed.
+        m | 7, 8 | Temple profaned.
+[[group: Particular.]]
+  i | 9 | Evil-doing. General.
+
+[[diagram: 33. 21-25 (G17, p. 545). Amon (Introversion)]]
+[[anchor: 2 Chronicles 33:21]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 79]]
+
+G17 |  |
+  n | 21 | Introduction.
+    o | 22, 23 | Personal. Evil-doing. Committed.
+    o | 24 | Personal. Evil-doing. Punished.
+  n | 25 | Conclusion.
+
+[[diagram: 34. 1—35. 27 (G18, p. 545). Josiah (Introversion)]]
+[[anchor: 2 Chronicles 34:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 79]]
+
+G18 |  |
+  B |  | 34. 1, 2. Introduction.
+    C |  | 34. 3—35. 19. Events. Ecclesiastical.
+    C |  | 35. 20-25. Events. Military.
+  B |  | 35. 26, 27. Conclusion.
+
+[[diagram: 34. 3—35. 19 (C, p. 609). Events. Ecclesiastical (Division)]]
+[[anchor: 2 Chronicles 34:3]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 80]]
+
+C |  |
+  D1 |  | 34. 3-33. Reformation made.
+  D2 |  | 35. 1-19. Passover kept.
+
+[[diagram: 3-33 (D1, above). Reformation. Made (Introversion. Compound Alternations)]]
+[[anchor: 2 Chronicles 34:3]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 80]]
+
+D1 |  |
+  E |  |
+    G | 3-7 | Judah and Jerusalem. The purging.
+      H |  |
+        p1 | 8-13 | Temple. Repair.
+          q1 | 14-16- | Book found and delivered.
+        p2 | -16, 17 | Temple. Repair.
+          q2 | 18, 19 | Book found and read.
+[[group: -]]
+            F |  |
+              r | 20, 21 | Jehovah. Inquiry.
+                s | 22 | Servant's obedience.
+            F |  |
+              r | 23-28- | Jehovah. Answer.
+                s | -28 | Servant's return.
+[[group: Consequences.]]
+  E |  |
+    G | 29 | Judah and Jerusalem. The assembling.
+      H |  |
+        p3 | 30- | Temple. Entry of Josiah.
+          q3 | -30 | Book read.
+        p4 | 31- | Temple. Station of Josiah.
+          q4 | -31-33 | Book obeyed.
+
+[[diagram: 35. 1-19 (D2, p. 610). Passover Kept (Introversion)]]
+[[anchor: 2 Chronicles 35:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 81]]
+
+D2 |  |
+  t | 1- | Passover. Kept.
+    u | -1 | Time. Fourteen days.
+      v | 2-6 | Command.
+        w | 7 | Donation of the king.
+        w | 8, 9 | Donation of the princes and others.
+      v | 10-16 | Obedience.
+    u | 17 | Time. Seven days.
+  t | 18, 19 | Passover. None like it.
+
+[[diagram: 35. 20-25 (C, p. 609). Events. Military (Repeated Alternation)]]
+[[anchor: 2 Chronicles 35:20]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 83]]
+
+C |  |
+  x1 | 20- | Pharaoh-necho. Invasion.
+    y1 | -20 | Josiah. Advance.
+  x2 | 21 | Pharaoh-necho. Embassy.
+    y2 | 22 | Josiah. Persistence.
+  x3 | 23 | Pharaoh-necho. Victory.
+    y3 | 24, 25 | Josiah. Death. Lamentation.
+
+[[diagram: 36. 1-4 (G19, p. 545). Jehoahaz (Introversion)]]
+[[anchor: 2 Chronicles 36:1]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 83]]
+
+G19 |  |
+  a | 1, 2 | Jehoahaz. Accession.
+    b | 3 | King of Egypt puts him down.
+    b | 4- | King of Egypt sets his brother up.
+  a | -4 | Jehoahaz. Captivity.
+
+[[diagram: 5-8 (G20, p. 545). Jehoiakim (Introversion)]]
+[[anchor: 2 Chronicles 36:5]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 83]]
+
+G20 |  |
+  c | 5 | Introduction.
+    d | 6 | Nebuchadnezzar. Jehoiakim taken.
+    d | 7 | Nebuchadnezzar. Temple spoiled.
+  c | 8 | Conclusion.
+
+[[diagram: 36. 9, 10 (G21, p. 545). Jehoiachin (Introversion)]]
+[[anchor: 2 Chronicles 36:9]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 84]]
+
+G21 |  |
+  e | 9 | Accession.
+    f | 10- | King. Captive.
+    f | -10- | Temple. Spoiled.
+  e | -10 | Supercession.
+
+[[diagram: 11-21 (G22, p. 545). Zedekiah (Introversion)]]
+[[anchor: 2 Chronicles 36:11]]
+[[pdf: 11. Chronicles I-II_text.pdf]]
+[[pdf-page: 84]]
+
+G22 |  |
+  g | 11, 12 | Evil-doing. Against Jehovah.
+    h | 13- | Nebuchadnezzar. Rebellion.
+      i | -13 | Jehovah. Obduracy of Zedekiah.
+        k | 14 | Priests and people. Evil-doing.
+      i | 15, 16 | Jehovah. Remonstrance.
+    h | 17-19 | Nebuchadnezzar. Revenge.
+  g | 20, 21 | Evil-doing. Requited by Jehovah.

@@ -1,0 +1,550 @@
+# The Companion Bible (E. W. Bullinger, 1913) — 1 Chronicles
+# Marginal (side) notes, to be read alongside the KJV text.
+#
+# All 29 chapters, printed pp. 530-569, except p. 549: that page (12. 33—13. 7,
+# with its notes and any Structures) is missing from the archive scan and from
+# every rendering of it, so 12:33-13:7 have no notes here. Nothing was supplied.
+# Superscript member numbers are written on the line ("B1"). Hebrew macrons are dropped.
+
+0 | TITLE, First. See note on p. 530.
+0 | Chronicles. Heb. name, Dibrei hayyamim = words of the days. Greek name, Paraleipomena = things omitted. Latin name, Chronicon, from whence comes English title, Chronicles. These books belong to quite another part of the O.T., and do not follow in sequence on the books of Kings. See Ap. 1. They are, according to the Heb. Canon, the conclusion of the O.T.; and the genealogies here lead up to that of Matt. 1. 1, and the commencement of the N.T. They end with the ending of the kingdom; and the question of Cyrus, "Who is there?" (2 Chron. 36. 23) is followed by the answer, "Where is He?" (Matt. 2. 2), and the proclamation of the kingdom by the rightful King and His forerunner. It begins with the first Adam and leads on to the "last Adam".
+0 | For the relation of Chronicles to Kings see notes on title "Kings" (p. 447); and for the parallel passages in Samuel and Kings see Ap. 56.
+0 | It deals with the kingdom of Judah, because Christ was proclaimed as the successor of David.
+0 | It refers to other books:—Kings (2 Chron. 16. 11; 27. 7; 33. 18); Prophets (1 Chron. 29. 29. 2 Chron. 9. 29; 12. 15; 13. 22; 20. 34; 26. 22; 32. 32). It gives the histories from the Divine standpoint, pointing the moral, and giving the reason of both the judgments and the mercies (cp. 1 Chron. 10. 13. 2 Chron. 12. 12; 25. 20; 27. 6, &c.).
+
+1:1 | 1. 1—9. 1 (A, p. 530). UP TO THE CAPTIVITY (GENEALOGY). (Division.) 1. 1—8. 40 (A1, above). IN DETAIL. (Repeated Alternation.) Adam. Cp. Gen. 1. 26; 2. 7. Sheth. Cp. Gen. 4. 25; 5. 3.
+1:2 | Kenan = Cainan (Gen. 5. 9).
+1:4 | Shem. Cp. Gen. 5. 32; 10. 21. In cases where there are several sons of one father, the collateral are dealt with first, and the main line taken up later. Hence Shem's main line is not dealt with till v. 24, after the sons of Japheth and Ham have been given.
+1:5 | 5-23 (C1, above). COLLATERAL. (Division.) Japheth. Cp. Gen. 10. 2, &c.
+1:6 | Riphath. Some codices, with four early printed editions, Syr. and Vulg., read "Riphath", others "Diphath", owing to Heb. ד ("D") and ר ("R").
+1:7 | Dodanim, or Rodanim. See above note.
+1:8 | Cush. Recent discoveries at Pterium, in Cappadocia, show that the Babylonians called Cappadocia Kus. The great king of the Hittites had his palace there, and was called "king of Kus". The river Gihon (classic, Pijramus) flows into the Mediterranean. Cp. Gen. 10. 6, 7. Isa. 11. 11.
+1:10 | Nimrod. Cp. Gen. 10. 8.
+1:17 | Uz . . . Meshech were sons of Aram (Shem's youngest son). No error, for grandsons are often reckoned, by descent, as sons. See Laban (Gen. 29. 5), Mephibosheth (2 Sam. 19. 24). Of the "sons of Judah" (4. 1-4) only the first-named was his son. It is assumed that we are acquainted with Genesis, and shall supply the links dealt with here with such brevity.
+1:19 | Peleg = disruption. See note on Gen. 10. 25.
+1:20 | Joktan. Cp. Gen. 10. 26.
+1:24 | Shem. Direct descent taken up here, from v. 4. See Structure, B2.
+1:29 | 29-33 (C2, p. 531). COLLATERAL. (Division).
+1:35 | 35-54 (C3, p. 531). COLLATERAL. (Division.) Esau. Cp. Gen. 36. 9, 10.
+1:36 | Zephi. Some codices, with one early printed edition, read "Zepho" (cp. Gen. 36. 11), owing to the slight difference between the Heb. ו ("O") and י ("I"). Timna. There was a Timna a daughter of Seir. The Timna here is a son of Eliphaz.
+1:38 | sons of Seir. Horites dwelling in Seir before the descendants of Esau (Gen. 36. 20).
+1:40 | Alian. Some codices, with two early printed editions, read "Alvan" (Gen. 36. 23).
+1:41 | sons. A special various reading called Sevir reads "son". See Ap. 34. Gen. 36. 25 tells of a daughter. This shows that banim may include daughters. Amram. Some codices read "Hemdan" (cp. Gen. 36. 26). These names are more alike in Hebrew than in English.
+1:42 | Jakan. Some codices, with Sept., read "and Akan", with the "and" in the text.
+1:43 | before any king. See note on Gen. 36. 31, which must have been before the writer's eyes. children = sons.
+1:46 | Avith. Heb. text reads "Ayuth". But some codices, with two early printed editions, read "Avith", which A.V. follows.
+1:50 | Baal-hanan. Some codices, with one early printed edition, add "son of Achbor". Cp. Gen. 36. 39. Hadad. Some codices, with four early printed editions, read "Hadar". See note on Amram, v. 41, and cp. Gen. 36. 39. Pai. Some codices read "Pau". See note on Zephi, v. 36, and cp. Gen. 36. 39.
+1:51 | dukes of Edom were. Read, "there arose chiefs to Edom", viz. These seem to have superseded the kings. Aliah. Some codices, with two early printed editions, read "Alvah". See note on Zephi, v. 36, and cp. Gen. 36. 40.
+2:1 | 2. 1-12 (B4, p. 531). DIRECT DESCENT. (Division.) Israel. See notes on Gen. 32. 28; 43. 8; 45. 26, 28. Reuben. For the order of these names see Ap. 45
+2:3 | Judah. Put first because of his being chief. Cp. Gen. 38. 1-11. evil. Heb. ra'a'. Ap. 44. viii. Cp. Gen. 38. 1-11. the LORD. Heb. Jehovah. Ap. 4. II.
+2:4 | Tamar. Cp. Gen. 38. 18, 29, 30; and Matt. 1. 3.
+2:5 | Pharez. Ruth 4. 18.
+2:7 | sons. Put for "son" by Fig. Synecdoche (of Genus), Ap. 6. Achar = Achan. Cp. Josh. 7. 25. transgressed. Heb. ma'al. Ap. 44. xi.
+2:8 | Ethan. Not the same person as "Ethan the Ezrahite" (1 Kings 4. 31), who was probably a Levite (see 1 Chron. 6. 27-29; 15. 17-19), and not of Judah, as the Heman and Ethan here.
+2:9 | Ram. Christ's genealogy traced through Jerahmeel. Called Aram in Matt. 1. 3, 4. Chelubai = Caleb. Cp. vv. 18, 42.
+2:10 | Nahshon. He led the van of Israel at the Exodus. Cp. Num. 2. 3, 9. children = sons.
+2:11 | Salma = Salmon, who married Rahab (Ruth 4. 21). He led on entry into Canaan. Cp. vv. 50, 51.
+2:13 | 2. 13-55 (C4, p. 531). COLLATERAL. (Division.)
+2:15 | David. The different spelling of many of these names in the Heb. is due to certain vowels being written out in full ("plene"). Where not written they are called "defective". The fact of this difference in Chronicles shows an independent origin. the seventh. Jesse begat eight sons (1 Sam. 16. 5-11 and 17. 12-14). Here seven are numbered and named, and David is the seventh and the youngest; the eighth may have died young and left no issue. While it was proper to mention the eight in the history, it is unnecessary to do so in the genealogy.
+2:16 | Zeruiah. Sister of David. Nahash (2 Sam. 17. 25) may have been the father of Jesse's wife. Otherwise, she and Abigail were half-sisters.
+2:17 | Jether. Cp. 2 Sam. 17. 25 (marg.). Another name was Ithra.
+2:18 | Caleb the son of Hezron. The ancestor of "Caleb the son of Jephunneh" (Num. 13. 6, 30; 14. 6, 24; 32. 12; 34. 19. Josh. 14. 6, 14), who is distinguished from this Caleb in 4. 15. This shows the present genealogy to be independent.
+2:19 | Ephrath. Called Ephratah, v. 50. Cp. 4. 4.
+2:20 | Bezaleel. Gifted for the construction of the Tabernacle (Ex. 31. 2; 35. 30; 36. 1, 2; 37. 1). This proves those to be wrong who assume that the Caleb of v. 18 is the same as Caleb the son of Jephunneh (Bezaleel's great-grandfather), thus creating their own difficulty.
+2:21 | Machir. Cp. Num. 32. 40. Deut. 3. 15.
+2:22 | three and twenty. Increased afterward to thirty (Judg. 10. 4).
+2:23 | Geshur. North-east of Bashan (Deut. 3. 14. Josh. 12. 5. 2 Sam. 15. 8). them: the Manassites. Cp. Num. 32. 41. Deut. 3. 14. threescore cities. Cp. Num. 32. 33. Deut. 3. 4. belonged to. Supply the Fig. Ellipsis (Ap. 6) by inserting "took" instead of "belonged to".
+2:24 | dead in Caleb-ephratah. Some wrongly affirm that this grandson of Judah must have died in Egypt. True, Hezron lived in Egypt, but did no one ever leave Egypt? Had he not heard of Abraham's sepulchre and Jacob's funeral? Had he no faith and no thoughts of God's promises? The difficulty is created gratuitously. His death there gave the name to the place, afterward called Beth-lehem.
+2:25 | Jerahmeel. See 1 Sam. 27. 10; 30. 29. and: or, supply "of".
+2:35 | to Jarha. So to make him his heir. The laws of Khammurabi included this, § 191. See Ap. 15.
+2:42 | Caleb the brother of Jerahmeel and son of Hezron (v. 18). father. Here used in the sense of ruler. Cp. v. 54; 4. 4. Mareshah. The name of a city, also in Judah (Josh. 15. 44. 2 Chron. 11. 8). Hebron. The name of a city, also in Judah. (Gen. 13. 18; 23. 2, 19). See note on Num. 13. 22. Given to Caleb by Joshua (14. 13).
+2:43 | Tappuah. Also the name of a city (Josh. 15. 34). Rekem. Also a city, of Benjamin (Josh. 18. 27).
+2:45 | Maon. Also the name of a city (Josh. 15. 55). Mentioned in connection with David (1 Sam. 23. 24).
+2:49 | the daughter of Caleb was Achsa. "Caleb the son of Jephunneh" had a daughter named Achsah, who married Othniel (Josh. 15. 16, 17). Judg. 1. 12, 13). Hence the "discrepancy" assumed by some. See note on v. 18.
+2:50 | Caleb the son of Hur. The son of the Caleb in v. 19, Hur giving him the name of his own father. It is possible that this Caleb (v. 50) may have been the son of Jephunneh (Num. 13. 6), Jephunneh being the surname of the Hur of Ex. 17. 10; 24. 14; 31. 2; 35. 30. Kirjath-jearim. An old Gibeonite city (Josh. 9. 17; 15. 60), where the Ark tarried long, and whence it was brought to Zion by David (1 Sam. 6. 21; 7. 2. 2 Sam. 6. 2. 1 Chron. 13. 5, 6).
+2:51 | Salma. A family name, repeated in Ruth 4. 20 and v. 11 above. Beth-gader. Probably the same as Geder in 12. 4; 27. 28. Cp. Josh. 12. 13.
+2:52 | half. For the other half see v. 54.
+2:53 | Zareathites . . . Eshtaulites = of Zerah . . . of Eshtaol, two cities of Judah (Josh. 15. 33. Judg. 13. 25; 16. 31).
+2:55 | Jabez. Supposed to have been founded by Jabez. See below on 4. 9. Kenites. These were the posterity of Jethro and Hobab. See Judg. 1. 16; and cp. 1 Sam. 15. 6; 27. 10. They became an ascetic people, and, by being mentioned here in connection with "scribes," may have been teachers. This perhaps accounts for Jehu's action in 2 Kings 10. 15, 16. Rechab. Cp. Jer. 35.
+3:1 | 3. 1-24 (B5, p. 531). DIRECT DESCENT. DAVID TO ZEDEKIAH. (Division.) born . . . in Hebron. Cp. 2 Sam. 3. 2-5. Daniel. Another name of Chileab (2 Sam. 3. 3).
+3:3 | Eglah his wife. The only woman in this list called David's "wife". Perhaps his original wife.
+3:5 | born . . . Jerusalem. Cp. 2 Sam. 5. 13-16. Nathan. The son through whom the genealogy of Joseph is traced in Luke 3; and in Matt. 1, after Solomon's line failed in Jeconiah. See note on v. 17. Solomon. Through whom the line is traced in Matt. 1. Bath-shua. Another name for Bath-sheba. Cp. 2 Sam. 11. 3. Ammiel, or Eliam. Cp. 2 Sam. 11. 3.
+3:8 | nine. Eleven are mentioned in 2 Sam. 5. 14-16; but probably two died young, and their names were not needed in the genealogy. Cp. 2 Sam. 5. 15.
+3:9 | Tamar. Cp. 2 Sam. 13.
+3:15 | Johanan. Or Jehoahaz. 2 Kings 23. 30. Jehoiakim. Called Eliakim by his father, but Jehoiakim by Pharaoh-nechoh, king of Egypt (2 Kings 23. 34). Zedekiah. The same as Mattaniah. Cp. 2 Kings 24. 17, 18. He was the last king of Judah. Shallum. The same as Jehoahaz, the successor of Josiah (Jer. 22. 11. 2 Kings 23. 31, 34).
+3:16 | Jeconiah. Called also Jehoiachin (2 Kings 24. 6), and Coniah (Jer. 22. 24, 28). Cp. 2 Chron. 36. 9. 2 Kings 24. 8.
+3:17 | sons. Cp. Jer. 22. 28-30. Assir = the captive, perhaps referring to Zedekiah, and not a proper name.
+3:19 | Zerubbabel. According to Matt. 1. 12 and Ezra 3. 2; 5. 2, the son of Shealtiel.
+3:22 | six. Heb. Shishshah, which may be a proper name and not the numeral.
+4:1 | 4. 1—8. 40 (C5, p. 531). COLLATERAL. (Division.) sons = descendants. Hur, and Shobal. These were sons of Caleb, the son of Hezron (2. 18, 20, 50, 52).
+4:2 | Zorathites. See 2. 53.
+4:3 | these were of. Some codices, with Sept., read "these were the sons of".
+4:4 | father: or lord, or prince. See note on 2. 42.
+4:5 | Ashur. A son of Hezron. Cp. 2. 24.
+4:7 | Ethnan. Supply Fig. Ellipsis (Ap. 6) thus: "Ethnan, and Coz, [and Coz] begat Anub". Cp. v. 13.
+4:9 | more honourable. Perhaps his going up with Caleb and Othniel against the Canaanites is referred to. See Judg. 1. 2, 4, 9-15. Josh. 15. 13-19. Jabez. The transposition of letters in Heb. may intimate a change of experiences, and mean "may he have pain or grief reversed." with sorrow. Cp. Gen. 3. 16 (same word).
+4:10 | the God of Israel (Heb. Elohim, Ap. 4). A suitable title and prayer before going on the expedition. Israel. The nation as descended from him for whom God orders all. See notes on Gen. 32. 28; 43. 6; 45. 26, 28. coast = border or boundary. evil. Heb. ra'a'. Ap. 44. viii. grieve = pain. Note Fig. Aposiopesis. Ap. 6. No conclusion to his prayer.
+4:12 | men. Heb. 'enosh. Ap. 14. III.
+4:13 | Hathath. Supply Fig. Ellipsis (Ap. 6) thus: "Hathath and Meonothai [and Meonothai] begat Ophrah".
+4:14 | valley of Charashim = Ge-harashim, the name of the place.
+4:15 | Caleb the son of Jephunneh. Not the son of Hezron (2. 18).
+4:18 | Jehudijah = the Jewess. Bithiah, the daughter of Pharaoh. Is Bithiah the same as Jehudijah, and did she turn a Jewess? Mered was evidently a man of position.
+4:19 | Hodiah. The Jehudijah of v. 18.
+4:21 | fine linen: or byssus, a fine white Egyptian linen.
+4:22 | had the dominion: or became lords to Moab. Jashubi-lehem. The Vulg. renders it "and returned to Beth-lehem", like Naomi and Ruth (1. 1-4, 19). things: or records.
+4:23 | those that dwelt, &c. The inhabitants of Netaim and Gedera.
+4:27 | children = sons.
+4:28 | Beer-sheba. Cp. Josh. 19. 2-5.
+4:30 | Ziklag. Given later to David by the Philistines (1 Sam. 27. 6).
+4:31 | unto the reign of David. The Codex Hilleli, with one early printed edition, Sept., Syr., and Vulg. read "unto king David".
+4:33 | Baal. Another name for Baalath-beer in Josh. 19. 8. their genealogy: or, "and they had their own genealogical register."
+4:39 | Gedor. Probably south of Simeon, toward Mount Seir.
+4:41 | written by name: i. e. in the foregoing list. the habitations = Maonites, or Mehumims (2 Chron. 26. 7). Cp. 20. 1 and Judg. 10. 12.
+4:42 | five hundred. If these could accomplish such things, what could not the whole of Israel have done? Cp. v. 10 and 5. 20.
+4:43 | the rest of the Amalekites. Not all destroyed in 1 Sam. 15. 8. A number survived. Cp. 1 Sam. 27. 8; 30. 1. 2 Sam. 8. 12. Est. 3. 1. See note on Ex. 17. 16. unto this day. Evidently not disturbed by the king of Babylon in the deportation of Israel.
+5:1 | for. Note the Fig. Parenthesis. Ap. 6. forasmuch. Cp. Gen. 35. 22; 49. 4. not to be reckoned, &c. = not to be enrolled in the place of the firstborn. birthright. See note on Gen. 25. 31.
+5:2 | Judah prevailed. Cp. Gen. 49. 8, referring to intertribal precedence. came. Supply Fig. Ellipsis (Ap. 6) with "is". chief ruler. Referring to the regal line, and the coming of the Messiah. A.V., 1611, had "rulers".
+5:6 | carried away. This was the first carrying away, and took place in 654. Cp. v. 26. The second was by Tiglath-Pileser (= Pul) in the reign of Pekah (649-629). This was the Galilee-Naphtali carrying away (2 Kings 15. 29, Isa. 9. 1) referred to in Matt. 4. 15. The third was the Samaria deportation in the ninth year of Hoshea and sixth of Hezekiah (611 B. C.), and ended the kingdom of Israel (2 Kings 17. 3-23; 18. 9-12). It was begun by Shalmaneser and ended by Sargon (613-611).
+5:8 | Azaz. Some codices, with four early printed editions, read "Azan", or "Azzan". Aroer . . . Nebo . . . Baal-meon. All east of Dead Sea. See Num. 32. 34, 38. Deut. 2. 36.
+5:10 | Hagarites. Tracing their descent from Hagar through Ishmael. Cp. v. 19 with 1. 31, and Ps. 83. 6.
+5:11 | children = sons.
+5:13 | Heber. Some codices, with two early printed editions and Sept., read "Hebed", mistaking Resh, ר ("r") for Daleth, ד ("d").
+5:16 | in Gilead: i. e. in part of it, other parts having been allotted to the half-tribes of Reubenites and Manassites (Num. 32. 39-40. Deut. 3. 13. Josh. 13. 31).
+5:17 | Jotham . . . Jeroboam. Jotham (647-631) and Jeroboam II (728-687). See Ap. 50. V, p. 59. Consequently, the statement here refers to consensusses at different times.
+5:18 | valiant men = sons of valour. men. Heb. 'enosh. Ap. 14. III. These two and a half tribes, east of Jordan, chose their own portions, but were nearest to the enemy, and were the first to be carried away. Cp. Lot, Gen. 13. 10, 11, with 14. 11, 12. Better to have our "lot" chosen for us by Jehovah (Gen. 13. 14, 15).
+5:20 | helped: i. e. by God (2 Chron. 26. 17. Ps. 28. 7). This victory should have shown them that there could have been no captivity had they obeyed God (see note on 4. 43). God. Heb. Elohim. Ap. 4. I. trust. Heb. batah. Ap. 69. i.
+5:21 | men. Heb. "souls (nephesh) of men ('adam)". Ap. 13 and 14. I. Cp. Num. 31. 35.
+5:22 | until the captivity. Cp. 2 Kings 15. 29; 17. 6; 18. 9-12: i. e. that of Tiglath-pileser.
+5:23 | half: i. e. the half beyond Jordan.
+5:24 | even. Sept. and Vulg. omit this word "even". mighty men. Heb. gibbor. Ap. 14. IV.
+5:25 | transgressed = acted faithlessly. Ap. 44. xi. people = peoples.
+5:26 | God of Israel. Note Elohim: not Jehovah, as dealing with Gentiles; but Israel, as not forgetting His covenant-relation though stirring up enemies. spirit. Heb. ruach. Ap. 9. Pul . . . and . . . Tilgath-pilneser. Two names of one person: Pul, the original and official name in Babylon of this usurper; Tilgath, his official name in Assyria, which he assumed from an earlier king. Cp. 2 Kings 15. 19. Halah . . . Gozan. Whither the Israelites west of Jordan were deported by Sargon (2 Kings 15. 29; 17. 6; 18. 11). and. Note the Fig. Polysyndeton. Ap. 6. unto this day. See note on 4. 43.
+6:1 | Levi. This care to give these genealogies after the captivities was to show that God's promises to preserve the nation would be faithfully kept. Cp. Jer. 23. 5, 6. Gershon. Cp. Ex. 6. 16. The Western Massorite spelling; the eastern spelling being "Gershom". Kohath. The second son placed first because Aaron descended from him.
+6:3 | children = sons. Aaron, and Moses. One of the six passages where Aaron precedes Moses (23. 13. Ex. 6. 20, 26. Num. 3. 1; 26. 59). Nadab, and Abihu. Perished at Sinai for offering "strange fire". See note on Lev. 10. 1. Cp. Num. 3. 4. 1 Chron. 24. 2. Eleazar. His line given without a break up to the Captivity. Cp. v. 15. In Ezra 7. 1-5 an abbreviated genealogy is given. Moses not enumerated here, though a priest (Ps. 99. 6), because separated for civil government before the appointment of the Levitic priesthood.
+6:4 | Phinehas. Cp. Ex. 6. 25. Ps. 106. 30. Num. 25. 11.
+6:8 | Zadok. Cp. 2 Sam. 8. 17; 15. 27. 1 Chron. 24. 3, 6, 31. Ahimaaz. Cp. v. 53. 2 Sam. 15. 27, 36; 18. 19, 22, 27.
+6:10 | he. Note the Fig. Parenthesis. Ap. 6. See 2 Chron. 26. 17. temple = house.
+6:13 | Shallum. In Neh. 11. 11 called Meshullam. Hilkiah. The high priest in reign of Josiah (2 Kings 22. 4. 2 Chron. 34. 9).
+6:14 | Seraiah. Carried away by Nebuchadnezzar, and put to death at Riblah (2 Kings 25. 18, 21).
+6:15 | Jehozadak. The Jozadak was the father of Joshua the high priest, who returned from the Captivity (Ezra 3. 2; 5. 2. Neh. 12. 26. Hag. 1. 1, 12. Zech. 6. 11). the LORD. Heb. Jehovah. Ap. 4. II.
+6:16 | sons of Levi. These were not high priests.
+6:22 | Amminadab. His other name was Izhar, vv. 2 and 38.
+6:23 | Elkanah. A common Levitical name. Cp. vv. 25, 27, and see 1 Sam. 1. 1. Assir. Cp. Ex. 6. 24.
+6:26 | the sons of Elkanah. Some codices, with Sept. and one early printed edition, omit this second "Elkanah"; the Heb. reads "his son".
+6:28 | the firstborn Vashni. Cp. 1 Sam. 8. 2, where the firstborn's name "came to be" Joel. From 1 Chron. 6. 28 it seems to have been originally Vashni. From v. 33 he seems to have had two names.
+6:31 | service = the hands: hands being put by Fig. Metonymy (of Cause), Ap. 6, for the work done by them. ark had rest. See 16. 1, notes on 13. 3, and Ex. 25. 22.
+6:32 | dwelling place = tabernacle. Heb. mishkan. Ap. 40. tabernacle = tent of meeting. Heb. 'ohel-moed. Ap. 40.
+6:33 | waited = stood. children = sons. Heman, &c. = Heman the singer, Samuel's grandson. See 15. 17-19; 25. 1-6. Cp. 1 Kings 4. 31, and see his name in the Psalm titles (Ap. 63. viii). the son. Note the parenthesis, vv. 33-38. Joel. See note on v. 28 above. Shemuel = Samuel. Twenty-one generations given.
+6:38 | Israel. Traced back to fountain head.
+6:39 | his brother Asaph: i. e. his brother in service. Fifteen generations.
+6:40 | Baaseiah. Some codices, with three early printed editions, Sept., and Syr., read "Maaseiah".
+6:42 | Ethan. The same as Jeduthun (9. 16; 16. 41; 25. 1. 2 Chron. 35. 15). Fourteen generations.
+6:44 | their brethren. Heman, from Kohath (Levi's second son); Asaph, from Gershom (Levi's eldest son); Ethan, from Merari (Levi's youngest son). Merari. The youngest son of Levi (Ex. 6. 16).
+6:48 | all manner of service. Cp. ch. 23 below. God. Heb. ha-'Elohim (Ap. 4), the [Triune] God.
+6:49 | Aaron and his sons. Cp. Num. 18. 1-7. Lev. 8. 2. This refutes the assertions of some that the kings of Judah were allowed to offer sacrifices or burn incense. Cp. 1 Kings 8. 64. offered = burnt incense. Heb. katar. Ap. 43. I. vii. Cp. Lev. 1. 9. altar of incense. Cp. Ex. 30. 7. most holy = holy of holies. See note on Ex. 3. 5. Moses the servant of God. This expression occurs only four times: here, 2 Chron. 24. 9. Neh. 10. 29, and Dan. 9. 11. For other titles descriptive of Moses, as a servant, see notes on Ex. 14. 31. Num. 12. 7. Deut. 34. 5. 1 Kings 8. 53. God. Heb. Elohim. Ap. 4. I.
+6:50 | these. Restating by way of summary.
+6:54 | their dwelling places. Cp. Josh. 21. 4-42. This was the basis of their claim for reinstatement after their return from Babylon. Probably many of these places had changed their names in spelling or otherwise since those days. This accounts for all the variations. castles = districts. coasts = borders. was the lot. Supply Fig. Ellipsis (Ap. 6): "was the [first] lot".
+6:55 | suburbs = pasture land (as distinguished from "field" or arable land). So throughout the rest of this chapter. See v. 56.
+6:58 | Hilen = Holon of Josh. 21. 15. Some codices, with one early printed edition, read "Helez".
+6:65 | which are called by their names: or, which are mentioned by name.
+6:66 | And the residue. Supply Fig. Ellipsis (Ap. 6) thus: "[as for some] of the families", &c. cities of their coasts = the cities of their lot. Cp. Josh. 21. 20.
+6:67 | Shechem. Only Shechem in this list is a city of refuge. No list of the six is intended to be given, although all are named. See vv. 57, 67, 71, 76, 78, 80. mount = hill country of. Gezer. See note on 1 Kings 9. 15-17.
+6:77 | the rest of = those remaining from.
+7:1 | Now the sons of Issachar were = And to the sons of Issachar belonged. Issachar born 1746 B. C.
+7:2 | the sons of Tola. Descendants of younger sons are contrasted with his firstborn Uzzi (vv. 3, 4). These names occur nowhere else, and prove Chronicles to be entirely independent. valiant men. Heb. gibbor. Ap. 14. IV. in the days of David. When he numbered the people (2 Sam. 24).
+7:3 | sons. A special various reading called Sevir (Ap. 34) reads "son".
+7:5 | valiant. A.V., 1611, omits this word.
+7:6 | three. In Gen. 46. 21 there were ten. When Chronicles was written the others probably had become extinct. Even in Num. 26. 38 only five are mentioned. In 8. 1, 2 only five are given.
+7:7 | mighty men. Heb. gibbor. Ap. 14. IV.
+7:11 | their fathers. Fig. Ellipsis (Ap. 6), "their fathers [houses]".
+7:12 | children = sons. Hushim, the sons of Aher = Hushim the son of another, that other being Dan (Gen. 46. 23). Not named here. For reason, see note below, and on Gen. 49. 17. sons. Put by Fig. Synecdoche (of the Whole), Ap. 6, for "son". Aher. Heb. 'aher = another.
+7:14 | she = his wife. Aramitess = Aramaean, or woman of Syria.
+7:15 | second: i. e. second son of Manasseh, Machir being the first. daughters. Not sons (Num. 27. 1).
+7:17 | Bedan. The name of a judge (1 Sam. 12. 11).
+7:18 | his sister: i. e. Gilead's sister. Mahalah. Supply Fig. Ellipsis (Ap. 6), "Mahalah [and Shemidah] and the sons". The name of one of the daughters of Zelophehad (Num. 26. 33).
+7:19 | Shemidah. Occurs only here, Num. 26. 32, and Josh. 17. 2.
+7:21 | they: i. e. the sons of Ephraim. A pre-Exodus raid, presuming perhaps on their descent from Joseph (Gen. 46. 20), the governor of Egypt.
+7:23 | he = Ephraim. Born 1712. Cp. Gen. 41. 50. Beriah. An ancestor of Joshua. Not to be confounded with Beriah of Benjamin (8. 13), who made a reprisal on Gath; or with Beriah of Asher (v. 30).
+7:24 | And. Note the Fig. Parenthesis. Ap. 6.
+7:27 | Non = Nun, of Num. 13. 8.
+7:28 | Gezer. See note on 1 Kings 9. 15-17. towns. Heb. daughters. Put by Fig. Catachresis (Ap. 6) for villages. Gaza. Not the Gaza in Philistia assigned to Judah (Josh. 15. 47).
+7:34 | Shamer: or Shomer, v. 32.
+7:35 | sons. Heb. "son". A special various reading called Sevir (Ap. 34), and some codices, with one early printed edition, read "sons". This reading was followed by first edition of A.V., 1611.
+8:1 | Benjamin. This tribe is now dealt with, and brought down to Saul and Jonathan. The date of writing is Post-Exilic. See v. 28; 9. 3, 27, and compare with Ezra 2 and Neh. 10, which show that Benjamin was brought back to the Land after being nearly extinguished in Judg. 20. Loyalty to Judah and the house of God had been rewarded. Note the passages which connect Benjamin with Judah and with the blessings of the return from Babylon: Ezra 1. 5; 2; 4. 1. Neh. 7; 11. 4, 7, 31; 12. 34. The genealogy of Saul leads up to the subject of the book. begat. The former genealogy (7. 6-12) is not full, but specifies only the families to be dealt with later.
+8:2 | Nohah . . . Rapha. Nowhere else mentioned in O.T. Cp. Gen. 46. 21. Perhaps grandsons. But these names show independence of Chronicles.
+8:3 | Addar. Called Ard in Gen. 46. 21. Num. 26. 40. Gera. Name derived from a son of Benjamin (Gen. 46. 21). Repeated in v. 5.
+8:5 | Gera. Another Gera. Cp. v. 7.
+8:6 | these are the: or, "and these are they—the". Geba. Near Gibeah of Saul (Josh. 18. 24. 1 Sam. 10. 26; 13. 3). Cp. Judg. 19. 12. and. Read: "but they were carried away to Manahath". they (the Gebaites) removed = were carried away, (same word as in 5. 26). The occasion is not known, but probably after they returned from captivity, as Geba is mentioned in Ezra 2. 26. Lod and Ono in v. 12 are named in Ezra 2. 33, and "the sons of Gibeon" in Neh. 7. 25. Cp. Ezra 2. 20. Other names found here are mentioned in Neh. 10. 14, 20, 22, 24, 26, 27: e. g. Meshullam (v. 17), Hanan (v. 23), Elam and Hananiah (v. 24).
+8:7 | Gera. A third Gera. Cp. vv. 3, 5. Ahihud. Supply Fig. Ellipsis (Ap. 6): "and Ahihud [and Shaharaim]. And Shaharaim begat", &c.
+8:8 | of Moab. As Boaz did. them: i. e. his wives.
+8:9 | Hodesh: i. e. his Moabitish wife.
+8:12 | Shamed. Some codices, with Sept. and Syr., read "Shemer". Cp. 7. 34. Ono . . . Lod. Mentioned only after the exile (Ezra 2. 33. Neh. 7. 37). See note on v. 6.
+8:13 | Beriah. See notes on 7. 23, 30. Aijalon. In Josh. 19. 42, it was in Dan. In Josh. 21. 24 it was a Levitical city. In 2 Chron. 28. 18 it was occupied by Philistines, under Ahaz. But here occupied by Benjamites, because (1) of Dan's idolatry (see note on Gen. 49. 17), and (2) of different distribution after the exile. drove away. A reprisal later than 7. 21. See notes on 7. 23, 30.
+8:18 | Ishmerai = Ishmar-yah. The Yod (י) = y, being the abbreviation for Yah = Jehovah.
+8:22 | Heber. Most codices, and nine early printed editions, read "Heber". Some MSS. read "Hebed".
+8:28 | These dwelt. Cp. v. 32; 9. 34. Neh. 11. 1-4. Another token of God's faithfulness to Benjamin (cp. Deut. 33. 12), for adhering to Judah and the worship of the true God.
+8:29 | at Gibeon. Repeated in 9. 35-44. father = lord, chief, or ruler. Cp. 9. 35. Called Jehiel there.
+8:31 | Zacher. Supply Ellipsis thus: "and Zacher [and Mikloth]. And Mikloth", &c.
+8:33 | Ner begat Kish. There are three genealogies of the house of Saul. We place the facts, (1) that persons often had two names (v. 34. Judg. 6. 32, &c.), and (2) that the same name recurs in the same family, against the assumption that the opposite is the case. It is this assumption which creates the difficulties in "reconciling" 1 Sam. 9. 1; 14. 51; and 1 Chron. 9. 38. The following makes all the lists agree: Jehiel (or Zeror, 1 Sam. 9. 1). Abdon Zur Kish Baal Ner (or Abiel, 1 Sam. 9. 1; 14. 51). (1 Sam. 14. 51) Abner Kish (1 Sam. 14. 51). Saul (born 1030). Esh-baal. Another name for Ish-bosheth (2 Sam. 2. 8).
+8:34 | Merib-baal. Another name by which Mephibosheth was known. Cp. 2 Sam. 2. 8; 4. 4. See note on v. 33 above. The addition "bosheth" (= shame) came to be substituted for "Baal" as the latter word became associated with idolatry. Cp. Judg. 6. 32 with 2 Sam. 11. 21.
+8:38 | Bocheru. Some codices, with Sept. and Syr., read "his firstborn" (bekhoro).
+8:40 | were = became. mighty men. Heb. gibbor. Ap. 14. IV. archers. Cp. 2 Chron. 14. 8.
+9:1 | behold. Fig. Asterismos. Ap. 6. in the book of the kings of Israel and Judah. Not the existing books of Samuel and Kings, but another book, being a collection of matters from them. Referred to in 2 Chron. 16. 11; 25. 26; 27. 7; 28. 26; 32. 32; 35. 27; 36. 8. Israel. Punctuate and read "Israel: and Judah was carried away", &c. transgression = defection. Heb. ma'al. Ap. 44. xi.
+9:2 | 9. 2-44 (B, p. 530). AFTER THE RETURN (GENEALOGY). (Introversion.) the first inhabitants: i. e. after the reoccupation on the return from Babylon, under Zerubbabel, Joshua, Nehemiah, and Ezra, 454-400 B. C. See Ap. 50. V, VI, p. 60 and VII (5), p. 67. the Israelites. Heb. "Israel": i. e. the "Israel of God". Cp. Neh. 11. 3. See note on "Israel" (Gen. 32. 28; 43. 6; 45. 26, 28). Called "Israel", although only the return of Judah and Benjamin. See note on 1 Kings 12. 17. Levites = the Levites. the Nethinims. Taken from the people in proportion of one in fifty to assist the Levites (Num. 31. 47. Ezra 8. 20).
+9:3 | 9. 3-34 (E, above). IN JERUSALEM. (Division.) Jerusalem. As distinct from the Land (v. 2). Cp. Neh. 11. 1. children = sons. Ephraim, and Manasseh. So that others beside Judah and Benjamin were included in the People now known as "Jews". Cp. Ezra 6. 21. Neh. 10. 28, 29. See note on 1 Kings 12. 17.
+9:5 | Shilonites = Shelonites. Not from the place Shiloh, but from Shelah the son of Judah. Cp. 2. 3. Num. 26. 28. Neh. 9. 5. So that some from each of the three lines of Judah were included, viz. Pharez, Shelah, Judah.
+9:6 | their: i. e. Uthai (v. 4) and Asaiah (v. 5). (Jewish.) six hundred and ninety. These were the sons of Zerah. The 468 in Neh. 11. 6 were sons of Perez (i. e. Pharez).
+9:7 | Sallu. At the head of the Benjamites (Neh. 11. 7). Hasenuah. In Neh. 11. 9 called Senuah.
+9:9 | nine hundred and fifty and six. In Neh. 11. 8 we have 928. The dates of the enumeration are independent and not identical. men. Heb. 'enosh. Ap. 14. III.
+9:10 | Jedaiah, &c. Cp. Neh. 11. 10 and 12. 6.
+9:11 | Azariah. In Neh. 11. 11 the same enumeration, but Seraiah. This is explained in 6. 12-14 above. the ruler of the house of God. Applied to the high priest: at this time Ahitub (6. 11). Later it was Joshua the high priest (Ezra 3. 2. Zech. 3. 1-8; 6. 11-13). Cp. 2 Chron. 31. 13; 35. 8. God. Heb. Elohim (with Art.) = the (true) God. Ap. 4. I.
+9:12 | Adaiah. Cp. Neh. 11. 12. Maasiai. Cp. 24. 14 and Neh. 11. 13.
+9:13 | a thousand and seven hundred and threescore. In Neh. 11. 12-14, 1,192, which must have been before the priests had settled in the priestly cities. very able men = mighty men of valour. Heb. gibbor. Ap. 14. IV.
+9:14 | Shemaiah. Cp. Neh. 11. 15.
+9:16 | Asa. Some codices, with two early printed editions (one marg.), and Syr., read "Asaph". dwelt in the villages. Till the priestly cities were rebuilt. Netophathites. Cp. Neh. 12. 28.
+9:17 | porters = gatekeepers. Cp. Neh. 12. 25.
+9:18 | hitherto. Referring to the ancient practice. the king's gate. Leading from the royal palace to the Temple.
+9:19 | Korahites. The descendants of Korah. Cp. Num. 16; 26. 9-11; and see Pss. 42; 44—49; 84; 85; 87; 88. gates = thresholds. tabernacle = tent. Heb. 'ohel. See Ap. 40. III. the LORD. Heb. Jehovah. Ap. 4. II.
+9:20 | Phinehas. Cp. Ex. 6. 23. in time past: i. e. previous to the writing of this history. 1434-1383?
+9:21 | door = entrance.
+9:22 | two hundred and twelve. These were for the Tabernacle (v. 21). In Neh. 11. 19, 172, excluding those in the villages. Not the 4,000 of 23. 5, or their ninety-three heads (ch. 26), which were for the future Temple. their genealogy = [Was registered] in their villages. There is no record of this. But Samuel stood at the head. did ordain = founded. Cp. 23. 1-6. Cp. Acts 3. 24.
+9:23 | wards = watches, twenty-four quarters. Heb. ruach = winds.
+9:26 | chief. Heb. gibbor. Ap. 14. IV. Some codices, with one early printed edition, Sept. and Syr., read "mighty men of the gates". set office = trust. chambers = storehouses.
+9:27 | opening thereof, &c. = were over the key. Cp. Judg. 3. 25. Isa. 22. 22.
+9:28 | ministering vessels = vessels of service. by tale = by number.
+9:29 | and. Note the Fig. Polysyndeton (Ap. 6), to emphasise all the details. and the fine flour = and over the fine flour. spices. Cp. Ex. 30. 22-38.
+9:30 | made = compounded.
+9:31 | in the pans = on the flat plates.
+9:32 | every sabbath. Cp. Ex. 25. 30. Lev. 24. 5-8.
+9:33 | these are the singers. Referring to vv. 14-16, and Neh. 11. 22. 2 Chron. 34. 12. free = exempt from duty.
+9:35 | in Gibeon dwelt. Verses 35-44 are an abridgment of 8. 29-38. Could not suitably be introduced there. Reserved to be inserted here, to lead up to Saul's death in ch. 10. the father of Gibeon = parent-family of Gibeon: Jehiel, &c. Jehiel. Had another name, "Zoror", in 1 Sam. 9. 1. See note on 8. 33.
+9:39 | Ner begat Kish. See note on 8. 33.
+9:41 | and Ahaz. Supplied from 8. 35.
+9:44 | Azrikam, Bocheru. Some codices, with one early printed edition, Sept. and Syr., read "Azrikam his firstborn".
+10:1 | 10. 1—2 Chron. 36. 21 (A, p. 530). HISTORY. (UP TO THE CAPTIVITY.) (Division.) 10. 1-14 (F1, above). THE HOUSE OF SAUL OVERTHROWN. (Extended Alternation.) the Philistines fought. Cp. 1 Sam. 31. 1-6 and 2 Sam. 1. 9, 10. men. Heb. 'ish. Ap. 14. II.
+10:2 | Abinadab. Another name was Ishui (1 Sam. 14. 49).
+10:4 | abuse = insult, or mock.
+10:6 | So Saul died. Here, the event. In v. 13, the reason. See the Structure above. his three sons = three of his sons. all. Fig. Synecdoche (of the Whole), Ap. 6, put for greater part. See 2 Sam. 2. 8; 21. 8. house. Put by Fig. Metonymy (of Subject), Ap. 6, for family or household.
+10:9 | took his head. Fig. Ellipsis (Ap. 6), "head [which they had cut off] and his armour".
+10:10 | gods. Ashtaroth. Cp. 1 Sam. 31. 10. his head. This is additional to 1 Sam. 31. 10. "His body", there, is additional to this passage. The two books thus independent and complementary.
+10:12 | buried their bones. After they had burnt them (1 Sam. 31. 12). the oak. Cp. 1 Sam. 31. 13.
+10:13 | for. In this book the reason; in 1 Sam. only the event. See Ap. 56. transgression = disobedience, shown in his faithlessness or defection. Heb. ma'al. Ap. 44. xi. Cp. 1 Sam. 13. 13, 14; 15. 1-9; 28. 7. the LORD. Heb. Jehovah. Ap. 4. II. Note it is not Elohim (God). familiar spirit. See note on Lev. 19. 31. to enquire = to seek and consult. Heb. darash, to seek earnestly. Saul sought thus with the medium, but not with Jehovah. See note on 1 Sam. 28. 6, 7.
+10:14 | He: i. e. Jehovah. 1 Chron. gives the esoteric cause. 1 Sam. gives the exoteric event, which men could see. See Ap. 56.
+11:1 | 11. 1—2 Chron. 36. 21 (F2, p. 544). THE HOUSE OF DAVID ESTABLISHED. (Division.) 11. 1—29. 30 (G1, above). DAVID. (Division.) 11. 1—29. 25 (H1, above). EVENTS IN DETAIL. (Introversion.) 11. 1—12. 40 (J, above). DAVID. ACCESSION. (Introversion and Alternation.) Then all Israel. Cp. 2 Sam. 5. 2. Omitting all events in Hebron (2 Sam. 2. 1-4). See Ap. 56. In this chapter we have 1-3 David's Coronation; 4-9, David's Capital; 10-47, David's Captains.
+11:2 | the LORD. Heb. Jehovah. Ap. 4. II. God. Heb. Elohim. Ap. 4. I.
+11:3 | by Samuel. Heb. by the hand of Samuel: "hand" being put by Fig. Metonymy (of Cause), Ap. 6, for what is done or written by it.
+11:4 | went to Jerusalem. This is the first event recorded in Chronicles. See note on 2 Sam. 5. 6-10. inhabitants. The descendants of the Nephilim. Ap. 23 and 25.
+11:5 | said. 2 Sam. 5. 6-8 is supplementary to this. Zion, which is the city of David. See notes on 2 Sam. 5.
+11:8 | Millo = the filling up: i. e. of the valley north of Jebus and south of Moriah. Cp. 2 Sam. 5. 9. repaired = rebuilt.
+11:10 | 11. 10—12. 37 (O, above). THE FORCES. (Division.) 11. 10-47 (P1, above). DAVID'S MIGHTY MEN. (Introversion.) the mighty men. Heb. gibbor. Ap. 14. IV. Introduced here, at beginning of reign, instead of end of it (2 Sam. 23. 8-39). Both positions full of instruction: Samuel, chronological; Chronicles, moral (according to the word of the LORD). See Ap. 56.
+11:11 | Jashobeam. See note on "Tachmonite" (2 Sam. 23. 8). captains, or thirty.
+11:12 | Dodo. Sept. reads "Dodai". Cp. 27. 4. three. See note on 1 Chron. 27. 1.
+11:13 | He was with David. Eleazar. In 2 Sam. 23. 11, 12, Shammah also was with him. Note the plural verbs in next verse, "they set . . . and [they] delivered it and [they] slew". This account is supplementary, not contradictory. Pas-dammim. Probably Ephes-dammim, between Shocoh and Azekah (1 Sam. 17. 1). barley. In 2 Sam. 23. 11, "lentiles". Therefore the field contained both: and the accounts are complementary, not contradictory.
+11:14 | they: i. e. David and Eleazar. See note on v. 13. saved them by a great deliverance. Sept. and Syr. read "wrought a great victory". Cp. 2 Sam. 23. 10, 12.
+11:15 | thirty. See note on 27. 1. Rephaim. Heb. Rapha. One of the great among the Nephilim, like Anak; giving his name to this valley. Cp. Josh. 15. 8. 2 Sam. 5. 18, 22; 23. 13. Isa. 17. 5. See note on Num. 13. 22, 28. Deut. 1. 28, and Ap. 23, 25.
+11:17 | Oh that one, &c. Fig. Ecphonesis. Ap. 6.
+11:19 | men. Heb. 'enosh. Ap. 14. III. that have put their lives in jeopardy? Heb. "with their lives". Cp. Judg. 12. 3. 1 Sam. 19. 5; 28. 21. Job 13. 14. lives = souls. Heb. nephesh. Ap. 13.
+11:20 | was = came to be (as in Gen. 1. 2). the three: i. e. who performed the foregoing act. had. Some codices, with five early printed editions, Sept., Syr., and Vulg., read "he had".
+11:22 | a lion. See note on 1 Kings 13. 24.
+11:23 | cubit = about 18 inches. See Ap. 51. III. 2.
+11:25 | Behold. Fig. Asterismos. Ap. 6. guard = audience chamber.
+11:26 | valiant men. Heb. gibbor. Ap. 14. IV. The list contains several non-Israelites. Cp. Ps. 18. 43, 44.
+11:27 | Pelonite. Syr. reads "Paltite". Cp. 2 Sam. 23. 26.
+11:31 | children = sons.
+11:38 | Joel the brother of Nathan. Not to be confused with Igal the son of Nathan. The lists are supplementary and independent, Chronicles being of later date, and adding several names after Uriah (v. 41).
+11:47 | the Mesobaite. Sept. and Vulg. read "of (or from) Zobah".
+12:1 | 12. 1-37 (P2, p. 546). THEIR AUXILIARIES. (Alternation.) these are they. These not included elsewhere: showing the independence of Chronicles. Saul the son of Kish. See note on 8. 33. mighty men. Heb. gibbor. Ap. 14. IV.
+12:2 | 2-22 (S, above). AUXILIARIES. AT ZIKLAG (PARTICULAR). (Alternation.) could use, &c. Cp. Judg. 3. 15; 20. 15, 16. Saul's brethren: i. e. his fellow-tribesmen. Cp. v. 29.
+12:4 | among the thirty. Probably another "thirty" at a later period. Ismaiah not in the list. 2 Sam. 23. 24, &c.
+12:8 | separated themselves. Another example of how Judah came to be representative of the whole of Israel. See note on 1 Kings 12. 17. men of might. Heb. gibbor. Ap. 14. IV. men. Heb. 'enosh. Ap. 14. III. buckler. Heb. = spear. But some codices, with one early printed edition and Syr., read "buckler". Cp. Jer. 46. 3.
+12:15 | the first month. Nisan, or Abib. overflown. Cp. Josh. 3. 15.
+12:16 | children = sons.
+12:17 | If ye be come, &c. A second band made David suspicious. knit unto = one with. wrong = act of violence. Heb. hamas, not same word as 16. 21. God. Heb. Elohim. Ap. 4. I.
+12:18 | the Spirit. Heb. ruach. Ap. 9. came upon = clothed: i. e. clothed him with wisdom and power: i. e., employed him as His mouthpiece. Amasai. Probably the same as Amasa, David's nephew (2. 17). Cp. 2 Sam. 19. 13. peace, peace. Fig. Epizeuxis. Ap. 6.
+12:19 | there fell some of Manasseh, beside the Gadites (see the Structure above). See note on 1 Kings 12. 17 for the strengthening of Judah and making it representative of the whole nation. they: David and his men. See 1 Sam. 28. 1, 2; 29. them: the Philistines. lords, or princes. upon advisement = advisedly, or by counsel. Cp. 21. 12. to the jeopardy of our heads. Heb. with our heads; or, at the cost of our heads.
+12:21 | helped David = helped with David. the band: i. e. the Amalekites, who had burned Ziklag during his absence. See 1 Sam. 30. 1-20. It is assumed that we know of this.
+12:22 | a great host. About 300,000 men.
+12:23 | word = mouth. Put by Fig. Metonymy (of Cause), Ap. 6, for what was spoken by it. the LORD. Heb. Jehovah. Ap. 4. II.
+12:24 | 12. 24-37 (S, p. 547). AUXILIARIES AT HEBRON. (PARTICULAR). (Division.)
+12:27 | Jehoiada. Not the high priest; for Abiathar held that office (1 Sam. 23. 9; 30. 7).
+12:28 | Zadok. Probably the same as Solomon's high priest (2 Sam. 8. 17; 15. 29, 35; 20. 25. 1 Kings 1. 8, 26; 2. 35).
+12:29 | kindred. Heb. brethren. Fig. Synecdoche (of Species), Ap. 6, "brethren" put for other relatives. kept the ward = kept the charge. Fig. Metonymy (of Effect), Ap. 6, charge put for keeping what was commanded.
+12:30 | famous. Heb. men of names.
+12:32 | had understanding. Understood statesmanship. the times. Fig. Metonymy (of Adjunct), Ap. 6, put for what is (or ought to be) done in them. commandment. Heb. mouth. Put by Fig. Metonymy (of Cause), Ap. 6, for what is commanded by it.
+13:8 | with all their might. Cp. 2 Sam. 6. 5. No need to arbitrarily make this correspond. They are two independent books, complementary in their information. and. Note the Fig. Polysyndeton (Ap. 6) in this verse, emphasising each item. timbrels. See note on Ex. 15. 20. cymbals. Heb. meziltayim: two metal discs, making a clashing sound. Always so rendered. Not to be confounded (as in A.V. and R.V.) with zilzelim = timbrels, which make a rustling sound, but rendered "cymbals" in 2 Sam. 6. 5. Ps. 150. 5.
+13:9 | Chidon. See 2 Sam. 6. 6; where he has another name, Nachon.
+13:10 | Uzza. See 2 Sam. 6. 6, 7. died before God. Showing the sin of disobeying the Divine commands.
+13:11 | displeased = grieved, sad.
+13:12 | How shall I . . . ? Fig. Erotesis. Ap. 6.
+13:13 | brought not the ark home. See 2 Sam. 6. 10, 11.
+14:1 | Hiram. See note on 2 Sam. 5. 11.
+14:2 | the LORD. Heb. Jehovah. Ap. 4. II.
+14:3 | more wives. Cp. 3. 9. 2 Sam. 5. 13-16.
+14:4 | children: of both sexes.
+14:7 | Beeliada. In 2 Sam. 5. 16 called Eliada, which was a later name, perhaps changed from Beeliada because of the name "Baal", or lord, which, at first innocent, came to be associated with idolatry. See note on 8. 34.
+14:8 | 14. 8-17 (W, p. 549). THE KINGDOM. ITS DEFENCE. (Introversion, and Extended Alternation.) seek = search for. Heb. bakkesh, especially to seek for blood or life. Cp. 2 Sam. 4. 11, "require". went out against them. 2 Sam. 5. 17 says "went down to the hold". But this was earlier; for the later command was "thou shalt bestir thyself", which corresponds with the command "Go up" (v. 10) here, as well as with "thou shalt bestir thyself" of 2 Sam. 5. 24.
+14:9 | Rephaim = Rapha. See note on 11. 15.
+14:10 | God. Heb. Elohim. Ap. 4. I. In 2 Sam. 5. 19 it is Jehovah. Here, it is God's power as Creator. In 2 Sam. 5. 19 it is Jehovah's faithfulness to David. Both pleas were in David's mind, and the accounts are complementary. Cp. them in this narrative. Here, Elohim six times; Jehovah once. In 2 Sam., Jehovah six times; Elohim not once.
+14:12 | left their gods. Cp. 1 Sam. 4. 7. they were burned with fire. This is supplementary information. In 2 Sam. 5. 21 David "took them away": i. e. to burn them, as recorded here.
+14:16 | Gibeon. In 2 Sam. 5. 25, Geba. But both places were close together, and the accounts are independent. Gazer = Gezer. See note on 1 Kings 9. 15-17.
+14:17 | all nations. Fig. Synecdoche (of Genus), Ap. 6, put for nations in all parts of the world.
+15:1 | 15. -1—16. 43 (U, p. 549). REMOVAL OF ARK FROM HOUSE OF OBED-EDOM. the ark. See notes on 13. 3 and Ex. 25. 22. God. Heb. Elohim. Ap. 4. I. pitched for it a tent. Had the Tabernacle of Moses been brought to Jerusalem, difficulties would have arisen in building the Temple. David's Tabernacle was merely provisional. The provision will yet be repeated, before the erection of the future Temple. See Acts 15. 16.
+15:2 | None ought to carry. David's mistake in the matter of the "new cart" was not to be repeated. Cp. 13. 7. God. In most codices = Jehovah. But Cod. Hillel, and one early printed edition, read "God". See note on v. 1. the LORD. Heb. Jehovah. Ap. 4. II. for ever. Fig. Synecdoche (of the Whole), Ap. 6, put for a long time.
+15:4 | children = sons.
+15:5 | sons of Kohath. Of the six Ark-carriers, four were chosen from Kohath, one from Merari, and one from Gershom.
+15:11 | Zadok is put first, of the line of Phinehas. Abiathar was afterward disloyal (cp. 1 Kings 2. 26, 35). See note on 2 Sam. 8. 17.
+15:13 | the due order = according to the rule.
+15:15 | as = according as.
+15:16 | brethren: i. e. fellow-tribesmen. See note on the names in v. 17 below.
+15:17 | Heman. Samuel's grandson (a Kohathite). 1 Chron. 2. 6. Asaph. A Gershonite. Cp. 6. 39, and 1 Kings 4. 31. Ethan, or Jeduthun, a Merarite. See the three Psalms connected with him (Pss. 38, 61, 76).
+15:20 | Aziel. Another name, Jaaziel, in v. 18. on. Heb. 'al, relating to. Alamoth. The maidens' choir (see Ap. 65. ii). One of three special choirs, the other two being Sheminith (a men's choir, see Ap. 65. xix); and Jeduthun's choir. "Alamoth" found only once as the subscript of Ps. 45. See note there. This choir was processional, not ecclesiastical. Cp. Ps. 68. 11, 25, which refers to this event, not to the Exodus.
+15:21 | Sheminith = the eighth. (See Ap. 65. xix.) to excel = to lead.
+15:22 | chief = prince. Not by birth, but by merit. Probably "the chief musician". was for song, or, was for service: especially the service of carrying up the Ark. about the song. Three Psalms appointed: 1 Chron. 16. 7-36. Pss. 5 and 11; which, being suitable for general use, were afterwards handed over to "the chief musician". See note on the subscript at end of Ps. 3.
+15:25 | the elders. As representing "all Israel" (2 Sam. 6. 15).
+15:26 | helped. With His favour; there being no miscarriage now, as there had been in ch. 13. they offered = sacrificed. Heb. zabach. Ap. 43. I. iv. 2 Sam. 6. 13 is complementary, not contradictory.
+15:27 | an ephod. Cp. 2 Sam. 6. 14.
+15:29 | despised him. Implying treatment with contempt.
+16:1 | brought the ark. See note on 15. 3. This was in 951-950 B. C. A Sabbatic year. the ark. See notes on 13. 3, and Ex. 25. 22. God. Heb. Elohim. Ap. 4. I. See note on 14. 10-16. the tent. See note on 15. 1. offered = brought near. Heb. karab. Ap. 43. I. i.
+16:2 | 16. 2-43 (y, p. 549). THE BLESSING OF JEHOVAH. (Introversion.) David. Not with his own hand, but by the priests'. offering = offering up. Heb. 'alah. Ap. 43. I. vi. and. Note the Fig. Polysyndeton (Ap. 6) in vv. 2-4. the LORD. Heb. Jehovah. Ap. 4. II. See note on 14. 10-16.
+16:3 | every one = every one, to a man. Heb. 'ish. Ap. 14. II. man. Heb. 'ish. Ap. 14. II.
+16:4 | to record. Cp. titles of Pss. 38 and 70.
+16:6 | continually: i. e. morning and evening, as prescribed.
+16:7 | this psalm. Supply the Ellipsis thus: "Delivered first [the following words] to thank", &c. Other Psalms were probably 5, 11, and 68. Originally provided for this event, Ps. 68 was afterward divided up and incorporated in Pss. 105. 1-15; 96. 1-13; 106. 1, 47, 48. Exactly the same has been done since then by many human authors. It is those who say they "treat the Bible like any other book" who deny to the Divine Author this right to do as He will with His own.
+16:8 | 8-36- (B, above). THE PSALM OF PRAISE. (Repeated Alternation.) people = Peoples.
+16:9 | Talk ye = meditate.
+16:11 | His strength. Fig. Metonymy (of Subject), Ap. 6. "Strength" put for the Ark, which was the sign of the presence of Jehovah, and the symbol of His strength. Cp. Ps. 105. 4 and 132. 8, and see note on 13. 3 and Ex. 25. 22.
+16:12 | judgments = righteous rules.
+16:13 | Israel. When adapted for more general worship, in Ps. 105, this was changed to the more general term "Abraham" (v. 6). children = sons. Jacob. See notes on Gen. 32. 28; 43. 6; 45. 26, 28.
+16:15 | Be ye mindful. This was specially for this occasion. In Ps. 105. 8, where it is for more general use, David (in editing) changed it to "He hath remembered". See note on v. 7.
+16:16 | with Abraham . . . Isaac. See note on Gen. 50. 24, and cp. Gen. 17. 2; 26. 3; 28. 13.
+16:17 | Jacob. See note on Gen. 50. 24 and v. 13 above.
+16:18 | lot = measuring line. Put by Fig. Metonymy (of Cause), Ap. 6, for the boundaries marked out by it.
+16:19 | ye. In Ps. 105. 12 it is "they". See notes on vv. 13 and 15 above.
+16:21 | do them wrong = oppress them. Heb. 'ashak. reproved kings. Cp. Gen. 12. 17; 20. 3.
+16:22 | Mine anointed. Israel was regarded as a kingdom of anointed kings and priests (Ex. 19. 6).
+16:24 | heathen = nations. nations = peoples.
+16:26 | people = peoples. Not same word as 12. 17. idols = things of naught, or nothings.
+16:27 | in His place = in His dwelling-place: i. e. the place of the Ark of the Covenant. In Ps. 96. 6, which is more general, it is "in His sanctuary". Cp. vv. 7 and 15.
+16:28 | Give = ascribe, as in Ps. 96. 7, 8. kindreds = families.
+16:29 | offering = gift offering. See Ap. 43. II. iii. come before Him. In Ps. 96. 8, which is more general, it is "come into His courts". the beauty of holiness. Cp. 2 Chron. 20. 21 and Ps. 96. 9, from which the meaning seems to be "in His glorious sanctuary".
+16:30 | be not moved. The Creator knows how to speak of the work of His hands.
+16:33 | trees of the wood. Referring specially to the wood at Kirjath-jearim (the city of woods). Cp. Ps. 132. 6.
+16:34 | endureth for ever = is age-abiding.
+16:35 | And say ye. A liturgical direction suited to this special occasion. Not needed for subsequent general use in Ps. 106. 47. See notes. Cp. vv. 7 and 15. gather us . . . deliver us. David knew from Deut. 4. 27; 28. 64; and 32, that the scattering of Israel had been foretold; and this prayer was based upon that revelation. So with Solomon. 1 Kings 8. 46-50. holy. See note on Ex. 3. 5.
+16:37 | before the ark. This was now in Zion (2 Sam. 6. 12-17). But the altars and vessels were in the Tabernacle at Gibeon (2 Chron. 1. 3-6). Asaph and his brethren. These were left in Zion "before the Ark", while the priests ministered "before the Tabernacle" (see v. 39 below), until Divine worship should be reconstructed in the Temple.
+16:39 | the tabernacle. Heb. mishkan = dwelling-place. Ap. 40.
+16:40 | offer = offer up. Heb. 'alah. Ap. 43. I. vi.
+16:41 | Jeduthun. One of the three directors of the Temple-worship. Cp. 25. 1-6. 2 Chron. 5. 12. A descendant of Merari (cp. 16. 38 with 26. 10). Called also "Ethan" (15. 17, 19, and cp. 25. 1, 3, 6. 2 Chron. 35. 15). Jeduthun = to confess, give thanks. Pss. 38; 61; and 76, as printed in this edition of the Bible. (In Heb., A.V., and R.V., these Psalms are 39; 62; 77.) See Ap. 65. mercy = lovingkindness, or, grace.
+16:42 | were porters = were for the gate.
+16:43 | to bless his house. This was when Michal met him (15. 29). Cp. 2 Sam. 6. 20.
+17:1 | 17. 1—22. 19 (K, p. 545). THE TEMPLE. DAVID'S PREPARATION FOR IT. (Introversion.) 17. 1-27 (C, above). PURPOSE DECLARED. (Introversion.) as David = according as David. Cp. 2 Sam. 7. 1-3 with the royal title "king". Here the personal name, "David". The two accounts are complementary. Lo. Fig. Asterismos. Ap. 6. the ark. See notes on 13. 3, and Ex. 25. 22. the LORD. Heb. Jehovah. Ap. 4. II. remaineth. Better supply Ellipsis with "dwelleth".
+17:2 | God. Heb. Elohim (with Art.). Ap. 4. I.
+17:3 | 17. 3-15 (G, above). NATHAN'S REPLY FROM JEHOVAH. (Introversion.) Nathan. Some codices, with Syr., add "the prophet".
+17:4 | Thou shalt not build, or, "Thou art not he who shall build." an = the.
+17:5 | Israel. Some codices, with six early printed editions, read "the sons of Israel".
+17:6 | walked = walked to and fro. judges. 2 Sam. 7. 7 = "tribes". These could "feed" only by judges, so both agree. My People. Western MSS. read 'Ammi = My People. The Eastern MSS. read 'Ammo = His People.
+17:8 | a name. Some codices, with Syr., read "a great name", as in 2 Sam. 7. 9.
+17:9 | children = sons. wickedness. Heb. 'aval. Ap. 44. vi. waste them = wear them out. Some codices, with three early printed editions, read "cause them to languish".
+17:11 | go to be. Sept. reads "sleep" (2 Sam. 7. 12).
+17:13 | mercy = lovingkindness, or grace.
+17:14 | Mine . . . My. 2 Sam. 7. 16 = Thine . . . Thy. Both alike, for the kingdom was David's because it was God's gift to him.
+17:16 | 17. 16-27 (F, above). DAVID SITTING BEFORE JEHOVAH. (Introversions.) Who am I? Fig. Erotesis. Ap. 6. See notes on 2 Sam. 7. 18. hitherto = to this point.
+17:17 | regarded. Cp. "art mindful" of Ps. 8. 4. estate. Heb. tor, abbreviation of torah = law. See note on 2 Sam. 7. 19. a man. Heb. ha-'adam = the Man, of Ps. 8. 5, 6, Who is to have dominion over all the earth.
+17:18 | What can . . . ? Fig. Erotesis. Ap. 6.
+17:20 | none like Thee. This is ever the worship rendered by all true worshippers. See note on 1 Sam. 2. 2.
+17:21 | God. Heb. ha-'Elohim, the [great] God. Ap. 4. I. redeem . . . redeemed. See notes on Ex. 6. 6; 13. 13. Thee = for Thyself.
+17:23 | as = according as.
+17:25 | hast told = revealed to the ear.
+17:27 | bless . . . blessest . . . blessed. Fig. Polyptoton. Ap. 6.
+18:1 | 18. 1-13 (D, p. 554). CONQUESTS. (Extended Alternation.) it came to pass. Cp. the parallel (2 Sam. 8. 1-8); and note that the two accounts are supplementary and complementary, not contradictory. Gath. See note on "Metheg-ammah" (2 Sam. 8. 1). In the time of Solomon (1 Kings 2. 39) Gath was tributary. her towns. Heb. her daughters. Fig. Prosopopoeia. Ap. 6.
+18:2 | smote Moab. Thus fulfilling Num. 24. 17.
+18:3 | Hadarezer. Some codices, with two early printed editions, read "Hadadezer" as in 2 Sam. 8. 5. Zobah. Cp. Ps. 60, title, and 1 Sam. 14. 47. It was in the neighbourhood of Damascus. In 19. 6 we have the provocation which led to this war. Cp. 2 Sam. 10. 16. to stablish his dominion. It had been impaired. Cp. 2 Sam. 8. 3.
+18:4 | seven thousand. See note on 2 Sam. 8. 4 an = for an.
+18:5 | men. Heb. 'ish. Ap. 14. II.
+18:6 | garrisons. Some codices, with Aram., Sept., and Syr., read this word in the text, as in 2 Sam. 8. 6. the LORD. Heb. Jehovah. Ap. 4.
+18:8 | Tibhath. Called also Beta and Berothai (2 Sam. 8. 8): unless the four names represent four cities. the pillars: i. e. the two pillars afterward made by Solomon (1 Kings 7. 15, 21. 2 Chron. 3. 15-17).
+18:9 | Tou. Called also Toi (2 Sam. 8. 9).
+18:10 | Hadoram. Called also Joram in 2 Sam. 8. 10. had war = was a man (Heb. 'ish. Ap. 14. II) of war.
+18:11 | from Edom. In 2 Sam. 8. 14 we have another exploit included in this summary. See note on v. 12. children = sons.
+18:12 | eighteen thousand. This was Abishai's command. In 2 Sam. 8. 13 we have David's command; while in Ps. 60 (title) we have Joab's share in the campaign (1 Kings 11. 16). There is no contradiction, but independent and separate exploits. Abishai's number was 18,000. We do not know how long Abishai's took him. Joab's (which took him six months longer) was 10,000.
+18:14 | 18. 14-17 (E, p. 554). HOUSEHOLD. (Introversion.)
+18:15 | recorder: or remembrancer.
+18:16 | Zadok. Cp. 6. 8. 2 Sam. 8. 17; 15. 29. Abimelech. Some codices, with Aram., Sept., Syr., and Vulg., read "Ahimelech". Cp. 2 Sam. 8. 17. Shavsha. Called also Seraiah (2 Sam. 8. 17).
+18:17 | the. Some codices, with Sept., and two early printed editions, read "over the". chief = heads, because David's sons were not priests. about = at the hand of.
+19:1 | 19. 1—20. 8 (D, p. 554). CONQUESTS. (Division.) 19. 1-5 (K1, above). THE PROVOCATION. (Introversion.) it came to pass. See 2 Sam. 10. 1-19. children = sons. and his son. Sept. reads "and Hanun his son", as in 2 Sam. 10. 1.
+19:2 | messengers to comfort = consolers.
+19:3 | Thinkest thou . . . ? Fig. Erotesis. Ap. 6.
+19:5 | men. Heb. pl. of 'ish or 'enosh. Ap. 14.
+19:6 | 19. 6—20. 8 (K2, above). THE WARS. (Division.) 6-19 (L1, above). WARS WITH AMMON AND SYRIANS. (Extended Alternation.) Mesopotamia. Heb. 'Aram-naharaim = Syria of the two rivers.
+19:7 | chariots = cavalry. Used of men as well as horses, see v. 18. Cp. 2 Sam. 10. 6.
+19:8 | mighty men. Heb. gibbor. Ap. 14. IV.
+19:9 | gate = entrance.
+19:10 | was set against him = confronted him.
+19:12 | children = sons.
+19:13 | God. Heb. Elohim. Ap. 4. I. the LORD. Heb. Jehovah. Ap. 4. II.
+19:16 | river = Euphrates. Hadarezer. Some codices, with two early printed editions, read "Hadadezer". Cp. 18. 3.
+19:18 | chariots. See note on v. 7, and cp. 2 Sam. 10. 18.
+20:1 | it came to pass. Cp. 2 Sam. 11. 1; 12. 26-31; 21. 18-22. children = sons. David tarried at Jerusalem. No reference is made here to the result of this tarrying, which is recorded in 2 Sam. 11. 1—12. 25.
+20:2 | David took. No discrepancy here, for Joab had summoned David for the purpose (2 Sam. 12. 27). their king. Probably Milcom, their king-idol.
+20:3 | cut. Heb. sur. Occurs only here; the meaning "cut" is arbitrary. It must be explained by 2 Sam. 12. 31, where it is sum, and is rendered "put" = "appointed them [to work] with". See notes there. Sur is probably from yashar = to regulate, or rule.
+20:4 | Gezer. See note on 1 Kings 9. 15-17. children = those born. the giant. Heb. raphah, a descendant of one Rapha, who came of the Nephilim. See 2 Sam. 21. 18-22, and Ap. 23, 25.
+20:6 | man. Heb. 'ish. Ap. 14. II.
+21:1 | 21. 1—22. 1 (C, p. 554). SITE OF TEMPLE PREDICATED. (Alternation.) Satan. See note on 2 Sam. 24. 1.
+21:2 | 2-8 (N, above). THE SIN. (Alternation.)
+21:3 | The LORD. Heb. Jehovah. Ap. 4. II.
+21:3 | are . . . why . . . why . . . ? Fig. Erotesis. Ap. 6. trespass = guilt. Heb. 'asham. Ap. 44. ii. See Ex. 30. 11-16. The Tabernacle was erected with the ransom paid for 600,000. The site of the Temple obtained at the cost of 70,000 souls.
+21:5 | the sum. See note on 2 Sam. 24. 9. men. Heb. 'ish. Ap. 14. II.
+21:7 | God. Heb. Elohim (with Art.) = the [true] God. Ap. 4. I.
+21:8 | sinned. Heb. chata'. Ap. 44. i. David's repentance and confession preceded Gad's visit to him. iniquity = perverseness. Cp. v. 4. Heb. 'avah. Ap. 44. iv.
+21:9 | 21. 9-15- (M, p. 557). PUNISHMENT. (Introversion.)
+21:12 | three years. See note on 2 Sam. 24. 13. be destroyed. Sept. and Vulg. read "flee", as in 2 Sam. 24. 13. coasts = borders.
+21:13 | great = many. man. Heb. 'adam. Ap. 14. I.
+21:15 | 21. -15—22. 1 (N, p. 557). EXPIATION. (Introversion.) He repented. Fig. Anthropopatheia. Ap. 6. Ornan: or Araunah in 2 Sam. 24.
+21:17 | Is it not I . . . ? Fig. Erotesis. Ap. 6. evil. Heb. ra'a'. Ap. 44. viii.
+21:18 | 21. 18—22. 1 (O, above). ANGEL. MESSAGE. (Alternation.)
+21:19 | 21. 19-26 (R, above). DAVID. SITE OF ALTAR. (Introversion.) at = according to.
+21:20 | hid = were hiding themselves. was = had been.
+21:22 | the place. Heb. makom, as in Ruth 4. 10. Referring to the whole place, afterward the Temple area. Not Heb. goren, as in 2 Sam. 24. 24, which was merely the threshingfloor, as in Ruth 3. 2. Hence 600 shekels of gold for the former, but only 50 shekels of silver for the latter. Two distinct transactions.
+21:23 | threshing instruments = threshing sledges composed of balks of timber, with sharp stones or iron spikes beneath. Cp. Isa. 41. 15. 2 Sam. 24. 22. Heb. morag. Called to-day in Palestine moarej. meat offering = meal offering. Heb. minchah, gift offering. Ap. 43. II. iii.
+21:24 | offer = offer up. Heb. 'alah. Ap. 43. vi.
+21:26 | from heaven by fire. All sacrifices accepted by God were consumed by fire from heaven, not kindled on earth. See note on Gen. 4. 4.
+21:27 | sheath. Occurs only here.
+21:28 | 21. 28—22. 1 (R, p. 558). DAVID. SITE OF TEMPLE. (Alternation.) he sacrificed there; i. e. by the priests.
+21:29 | tabernacle = dwelling-place. Heb. mishkan. Gibeon. Cp. 16. 39. 2 Chron. 1. 3. 1 Kings 3. 4.
+21:30 | afraid: i. e. afraid [to delay] because, &c. Otherwise Gibeon was only about eight miles away.
+22:1 | This is the house of the LORD God. The place where grace had been manifested was the place where alone true worship could be offered. This it is that makes "the house of God". the LORD. Heb. Jehovah. Ap. 4. God. Heb. Elohim. Ap. 4.
+22:2 | 22. 2—29. 25 (J, p. 545). THE RESIGNATION OF DAVID. (Introversion and Alternation.) 22. 2-19 (U, above). INTENTION TO BUILD THE TEMPLE. (Introversions.) strangers = foreigners. Cp. 20. 3. 2 Chron. 2. 17. These were the forced labourers David had prepared in 2 Sam. 12. 31. Cp. 1 Sam. 8. 2. 1 Kings 5. 13; 9. 15, 22; and see Deut. 29. 11. Josh. 9. 27. The word "tribute" (Judg. 1. 28) means forced labour. Cp. 2 Sam. 20. 24. 1 Kings 9. 21. masons. See above note.
+22:3 | iron. None in Tabernacle.
+22:4 | the Zidonians, &c. See note on 2 Sam. 5. 11. Cp. 1 Kings 5. 1-15.
+22:5 | young and tender. Cp. 29. 1. of fame and of glory. Fig. Hendiadys (Ap. 6) = of glorious fame. throughout: or for. Cp. Isa. 56. 7.
+22:8 | saying. See ch. 17; 28. 3. 2 Sam. 7. 13.
+22:9 | man. Heb. 'ish. Ap. 14. II. Solomon . . . peace. Fig. Paronomasia. Ap. 6. Heb. Shelomoh . . . shalom.
+22:11 | as = according as.
+22:12 | give thee wisdom. This was Solomon's prayer in 1 Kings 3. 5-15. the law. The whole Levitical code. Ex. 21. 1. Deut. 4. 1.
+22:13 | the statutes and judgments. The whole Levitical code. Ex. 21. 1. Deut. 4. 1. be strong, and of good courage. See note on Deut. 31. 7.
+22:14 | in my trouble: i. e. in the unsettled years of his warlike reign; and of the trouble brought on by his sin with Bath-sheba, and by Absalom's rebellion. The Sept. reads "according to my poverty". prepared for the house. The Tabernacle was built with the spoils of Egypt: the Temple from spoils of David's wars (2 Sam. 8. 7-12. 1 Chron. 18. 7-11). talents. See Ap. 51. II. 6.
+22:15 | workmen. See note on "strangers", v. 2 above. cunning = skilful. Cp. Ex. 26. 1. One of the words which have been degraded in meaning, through the fall of man. Cunning = knowing; but those who know, generally know too much.
+22:19 | your soul = you (emph.). Heb. nephesh. Ap. 13. God. Heb. Elohim (with Art.) = the [true] God. Ap. 4. I. the ark. See note on 13. 3. holy. See note on Ex. 3. 5. is to be built. And thus supersede the Tabernacle.
+23:1 | old and full of days. Cp. Abraham (Gen. 25. 8), and Isaac (Gen. 35. 29). David born in 990. Now in his seventieth year. full of = satisfied with. made Solomon his son king. During his lifetime. This was a common practice in those days; and these co-regnant kings explain many chronological problems.
+23:3 | 23. 3—27. 34 (T, p. 559). PRINCES AND PRIESTS. APPOINTMENTS. (Division.) 23. 3—26. 28 (W1, above). SACRED APPOINTMENTS. (Introversion.) thirty years. According to Num. 4. 3, 23, 35, 47. Changed to twenty-five years by Jehovah (Num. 8. 24); and, by David's "last words", to twenty years (v. 27). Cp. Ezra 3. 8. man = strong man. Heb. geber. Ap. 14. IV.
+23:4 | set forward = oversee. the LORD. Heb. Jehovah. Ap. 4. II.
+23:5 | four thousand . . . porters. In ch. 26 we have the ninety-three chiefs. The 212 in 9. 22 pertained to the Tabernacle, not to the Temple (9. 21).
+23:6 | courses: or classes. See note on 24. 1, &c.
+23:13 | Amram. Cp. Ex. 6. 20. Aaron and Moses. See note on Ex. 6. 20. holy. See note on Ex. 3. 5.
+23:14 | the man of God. See Ps. 90, title. Ap. 49. man. Heb. 'ish. Ap. 14. II. God. Heb. Elohim (with Art.) = the [true] God. Ap. 4. I.
+23:16 | Shebuel. See note on Judg. 18. 30. The Chald. paraphrase asserts that this name "Shebuel" (which means "he returned to 'El, the true God") was given to Jonathan after he had returned to the fear of the Lord. chief = head.
+23:19 | first = head.
+23:22 | brethren: or kinsmen. took: i. e. by lot.
+23:24 | twenty. See note on v. 3 above. According to David's "last words", v. 3.
+23:27 | the = these.
+23:28 | office = station. and. Note the Fig. Polysyndeton (Ap. 6) in vv. 28-32. in = over.
+23:29 | Both = And. See note above. meat offering = meal offering. Heb. minha. Ap. 43. II. iii. measure and size. The standards were committed to the Levites. Honesty in dealing is part of true religion. Cp. Lev. 19. 36. Deut. 25. 15. Prov. 11. 1; 16. 11; 20. 23. Mic. 6. 11. If this be so in the secular sphere, how much more in sacred things.
+23:30 | And. See note on v. 28.
+23:31 | offer = offer up. Heb. 'alah. Ap. 43. I. vi. set feasts. Cp. Num. 28 and 29.
+23:32 | keep the charge. This is the idiom of the Pentateuch. Cp. Gen. 26. 5. Num. 18. 3-5. tabernacle = tent. Heb. 'ohel. Ap. 40. III.
+24:1 | divisions . . . Aaron. Ch. 24 is concerning the courses of the priests, as ch. 23 is of the Levites. Cp. 23. 6.
+24:2 | children = sons.
+24:3 | distributed = divided into courses, as in 23. 6.
+24:4 | chief men = strong men. Heb. geber. Ap. 14. IV. Here denoting the heads of houses, or families.
+24:5 | divided by lot. See note on the Urim and Thummim (Ex. 28. 30. Num. 26. 55). God. Heb. Elohim (with Art.) = the [true] God. Ap. 4. I. and of. Some codices, with four early printed editions, Aram., Syr., and Vulg., read "and from among".
+24:6 | the scribe = the secretary. Cp. 27. 32. See note on 2 Sam. 8. 17. Ahimelech. So that Abiathar had a son named Ahimelech, who assisted him, as Hophni and Phinehas assisted Eli.
+24:6 | one principal household . . . Ithamar. Some codices, with Sept. and Syr., read "an ancestral house, one by one for Eleazar, and one by one for Ithamar". taken: i. e. by lot. Heb. 'ahar.
+24:7 | lot came forth. See notes on Ex. 28. 30. Jehoiarib. The twenty-four courses took, and kept, the names of these first heads (vv. 7-18). Each officiated a week (Sabbath to Sabbath), and Zacharias belonged to the eighth (Luke 1. 5). Cp. Neh. 12. Solomon appointed the same courses, which were continued by Hezekiah and Josiah. Only four returned from the Captivity (Ezra 2. 36-39. Neh. 7. 39-42; 12. 1-21). Luke 1. 5 shows that they must have been made complete.
+24:19 | the orderings = the appointments: i. e. the order in which they fulfilled their service was all of Jehovah. the LORD. Heb. Jehovah. Ap. 4. II. as = according as.
+24:20 | the rest of the sons of Levi. Verses 20-30 give the names of the heads of the twenty-four courses of Levites enumerated in 23. 6-23. Shubael. Cp. 23. 16.
+24:23 | Jeriah. Some codices, with eight early printed editions, Sept., and Syr., read "and the sons of Jeriah", but the Ellipses are rightly supplied from ch. 23. 19.
+24:26 | Beno = his son; Jaaziah being a third son of Merari. "Ben" (15. 18) prob. an abbreviation.
+24:31 | cast lots. See notes on the Urim and Thummim (Ex. 28. 30. Num. 26. 55). Cp. vv. 6, 7. over against = equally with.
+25:1 | captains of the host = the heads of the Temple service. This word "host" applied to Levites in Num. 4. 3. Rendered "service" (marg. warfare) in Num. 4. 23, 30, 35, 39, 43; 8. 24. Jeduthun. Probably another name for Ethan. See note on 16. 41. prophesy with harps. Not "perform", or "render". The music therefore eminently spiritual. See note on v. 5.
+25:3 | six. Only five named. The sixth is Shimei (v. 17). the LORD. Heb. Jehovah. Ap. 4. II.
+25:4 | Giddalti. The fact that the meanings of these six names form a complete sentence in Hebrew is no more proof that this is a mistaken "obscure and ancient prayer", than that the chronicler has strung together a list of six names in order to form a sentence. What it shows is that Heman, in naming his sons, did so with this set purpose, as parents have often done since his day. The supposed prayer would read: "I have magnified, and I have raised up help; Sitting in trouble, I have spoken many oracles."
+25:5 | the words of God. Not the words of man. None but Divine words used in Divine worship. God. Heb. Elohim (with Art.) = the [true] God. Ap. 4. I.
+25:7 | songs of the LORD. Not of man. cunning = skilful. See note on 22. 15. Cp. Ex. 26. 1. two hundred fourscore and eight. (288 = 24 x 12.) Twelve (the number of Governmental perfection) is a factor in all that pertains to government. Cp. 27. 1. See Ap. 10.
+25:8 | cast lots. See notes on the Urim and Thummim (Ex. 28. 30. Num. 26. 55). ward = charge. A word belonging to usage of Pentateuch. Cp. 23. 32.
+25:9 | came forth: i. e. out of the ephod, the bag behind the high priest's breastplate; the lap, or bag of Prov. 16. 33. Cp. Josh. 21. 4, and see note on Ex. 28. 30. Num. 26. 55. to Joseph. Not the eldest son. Cp. v. 2. his brethren. Fig. Synecdoche (of Genus), Ap. 6, for relatives.
+25:10 | Zaccur, the son of Asaph (v. 2).
+25:11 | Izri. Another spelling of Zeri (v. 3). Just as we spell the same name differently: e. g. Esther and Hester, Elisabeth and Elizabeth, Ellen and Helen, Catharine and Katharine, Norah and Nora.
+25:14 | Jesharelah = Asarelah of v. 2.
+25:18 | Azareel = Uzziel of v. 4.
+26:1 | divisions = courses. The names of the chiefs are given, as of the courses of priests and Levites. Ninety-three chiefs here; 4,000 under them (23. 5). The 212 of ch. 9. 22 were connected with the Tabernacle (9. 21), not the Temple. porters = gatekeepers. See 9. 17, 18-26; 15. 18; 16. 38, 42. They were drawn from three families, viz. Meshelemiah (the Shallum of 9. 19 and Shelemiah of v. 14), Obed-edom (v. 4), and Hosah (v. 10). Korhites. Cp. 9. 19, 31. Asaph = Ebiasaph of 6. 37; 9. 19.
+26:5 | God. Heb. Elohim. Ap. 4. I. him: i. e. Obed-edom (v. 4). Cp. 13. 14.
+26:6 | mighty men. Heb. gibbor. Ap. 14. IV.
+26:7 | strong men. Heb. sons of valour.
+26:8 | men. Heb. 'ish. Ap. 14. II. In sing. to show that each one was equally qualified.
+26:10 | children = sons. chief = head.
+26:12 | chief men. Heb. pl. of geber. Ap. 14. IV. the LORD. Heb. Jehovah. Ap. 4. II.
+26:13 | cast lots. See note on 25. 8, 9. for every gate. This ordering of David was according to the plan of the Temple, given by God "in writing" to David. See 28. 11-13, 19. So was the Tabernacle plan shown to Moses in the mount (Ex. 25. 40. Heb. 9. 5).
+26:14 | Shelemiah. The Meshelemiah of v. 1. See note on 25. 11.
+26:15 | house of Asuppim = the treasuries (from Heb. 'asaph, to gather). Cp. 2 Chron. 25. 24, where Joash took what was in Obed-edom's charge. So named because of the two gates called Asuppim.
+26:16 | Shuppim. Not an "accidental repetition" or "unintelligible intrusion", but a proper name. Shallecheth = a casting up. Occurs only here, and Isa. 6. 13. Another gate made by Solomon (1 Kings 10. 5. 2 Chron. 9. 4). the causeway of the going up. Made by Solomon (1 Kings 10. 5. 2 Chron. 9. 4). Connected with "Millo", between Zion (Jebus) and Moriah.
+26:18 | Parbar. Another gate connected with this causeway. Cp. 2 Kings 23. 11, rendered "suburbs". Cp. 2 Kings 11. 16.
+26:20 | of the Levites, Ahijah was. The Sept. reads "the Levites their brethren were" (reading Ahikem instead of Ahijah). treasures = treasuries. There were several in divers places, with various names. dedicated = holy. See note on Ex. 3. 5.
+26:21 | chief fathers = heads of the fathers.
+26:24 | Shebuel. See note on 23. 16.
+26:27 | dedicate = set apart.
+26:28 | had dedicated. A practice dating from the time of Moses (Num. 31. 28-47), and Joshua (6. 24).
+26:29 | 26. 29—27. 34 (W2, p. 560). APPOINTMENTS. CIVIL. (Introversion.) outward business: outside the Temple (Neh. 10. 32-39; 11. 16), as distinguished from the worship within (which was the "business of the house of God". Neh. 11. 22). officers and judges. See Deut. 16. 18 (same Heb.), 6,000 appointed. Provision made for them in Ex. 18. 13-26.
+26:30 | men of valour = sons of valour. Cp. v. 7.
+27:1 | children = sons. chief fathers = heads of the fathers. captains of thousands. The host comprised all males over twenty. From this were organised twelve divisions of 24,000 men, commanded by twelve of the thirty. David's 600 (1 Sam. 23. 13, &c.) divided into three of 200 each (consisting of ten subdivisions of twenty each, commanded by the "thirty"), commanded by the "three". The commander of the "thirty" was not one of the "three", but next below them. See notes on ch. 11 and 2 Sam. 23.
+27:2 | Jashobeam. Cp. 11. 11.
+27:3 | Perez = Pharez, son of Judah. See note on 25. 11. chief = head.
+27:4 | Dodai = Dodo (2 Sam. 23. 9). See note on 25. 11. ruler = divisional officer.
+27:5 | Benaiah. Cp. 11. 22-25. 2 Sam. 23. 20-23. chief priest. Read "Jehoiada the priest"—a head (1 Kings 4. 4).
+27:6 | mighty. Heb. gibbor. Ap. 14. IV. among = "a hero [of] thirty".
+27:8 | Shamhuth = Shammah (2 Sam. 23. 11), and Shammoth (11. 27), and see note on 25. 11. Izrahite. Cp. 25. 11.
+27:9 | Ira. One of the thirty (see 11. 28 and 2 Sam. 23. 26).
+27:10 | Helez. Cp. 2 Sam. 23. 26.
+27:11 | Sibbecai. Cp. 11. 29 and 2 Sam. 21. 18.
+27:12 | Abiezer. Cp. 11. 28. 2 Sam. 23. 27.
+27:13 | Maharai. Cp. 11. 30. 2 Sam. 23. 28.
+27:14 | Benaiah. Cp. 11. 31. 2 Sam. 23. 30.
+27:15 | Heldai. Cp. 11. 30. Heled, 2 Sam. 23. 29 (Hildai, see note on 25. 11).
+27:16 | the tribes of Israel. Each tribe had a ruler, called (v. 22) "the princes of the tribes": 1. The first four sons of Leah, in order of their birth. 2. Issachar and Zebulun, fifth and sixth (Gen. 30. 18, 20). Thus the first six are Leah's sons. Her maid Zilpah's (Gad and Asher) not mentioned. Then Naphtali (Bilhah, Rachel's maid). Then Ephraim and Manasseh (Rachel's, through Joseph). Then Benjamin (Rachel's other son). Dan comes last! See note on Gen. 49. 17.
+27:18 | Elihu. Probably Eliab (2. 13), Jesse's eldest son (1 Sam. 16. 6).
+27:23 | not the number. Only the fighting men. See 21. 5 and 2 Sam. 24. 9. the LORD. Heb. Jehovah. Ap. 4. II. the stars of the heavens. Fig. Paroemia. Ap. 6. See note on Gen. 15. 5.
+27:24 | there fell wrath. Cp. 21. 6, 7.
+27:25 | over the king's treasures. There were twelve of these stewards. See Ap. 10. treasures = treasuries. castles = fortresses.
+27:30 | Ishmaelite. Camels appropriately committed to him.
+27:32 | David's uncle. In 20. 7 and 2 Sam. 21. 21 Jonathan is the son of Shimea, David's brother. The Heb. dad may thus be used of a brother's son as well as a father's brother's son. a wise man = a man of understanding ("man". Heb. 'ish. Ap. 14. II.).
+27:34 | general = prince. army = host.
+28:1 | 28. 1—29. 22- (U, p. 559). INTENTION TO BUILD THE TEMPLE. (Alternation.) 28. 1—29. 8 (F, above). PREPARATIONS. PERSONS. (Introversions.) assembled = convoked, or mustered. princes of Israel. Cp. 27. 16-22. captains = princes (throughout the chapter). See note on 27. 1. stewards. Cp. 27. 25-31. Each body consisted of twelve persons. See Ap. 10. the mighty men. Heb. gibbor. Ap. 14. IV.
+28:2 | stood up upon his feet. Note David's three attitudes: lying on the earth as a penitent (2 Sam. 12. 16. Cp. Ps. 51); sitting before Jehovah as a worshipper (2 Sam. 7. 18. 1 Chron. 17. 16); and standing on his feet as a servant (28. 2). the ark. See note on 13. 3 and Ex. 25. 22. the LORD. Heb. Jehovah. Ap. 4. II. and = even. the footstool of our God = the Ark. Fig. Anthropopatheia. Ap. 6. God. Heb. Elohim. Ap. 4. I.
+28:3 | man. Heb. 'ish. Ap. 14. II.
+28:4 | chose me. Cp. 1 Sam. 16. 12. chosen Judah. Cp. Gen. 49. 10.
+28:5 | chosen Solomon. Cp. 22. 9. 2 Sam. 12. 25.
+28:6 | He said unto me. Cp. 22. 9. 2 Sam. 7. 13, 14.
+28:8 | congregation = assembly as in v. 1. seek. Heb. darash. See notes on 10. 13, 14. 1 Sam. 28. 6, 7. children = sons.
+28:9 | mind = soul. Heb. nephesh. Ap. 13.
+28:10 | Take heed, &c. The 11th Seder begins here, and ends with 2 Chron. 2. 2. See note on p. 366.
+28:11 | 28. 11-19 (K, above). THE PATTERN DELIVERED. (Introversion.) the pattern. Same word as of Tabernacle to Moses (Ex. 25. 9, 40: See Heb. 9. 5). and. Note the Fig. Polysyndeton (Ap. 6) in vv. 11-13, for emphasis. thereof: i. e. of the sanctuary. mercy seat = the propitiatory. See note on Ex. 25. 17.
+28:12 | by the Spirit. Heb. "by the Spirit (ruach. Ap. 9) with (or in) me". The pattern without, and the worship within, all of God. Nothing can be offered in worship but what comes from God (John 4. 24). Therefore said to be built by David in intention, and by Solomon in fact. chambers = attached chambers. dedicated = holy. See note on Ex. 3. 5.
+28:15 | candlesticks = lampstands.
+28:17 | basons = covered bowls.
+28:18 | of = even. Genitive of Apposition. See Ap. 17.
+28:20 | Be strong, and of a good courage. See note on Deut. 31. 7. He will not fail thee. See notes on Deut. 4. 31; 31. 6.
+28:21 | behold. Fig. Asterismos. Ap. 6.
+29:1 | congregation. Same word as in 28. 8. whom = the one whom. God. Heb. Elohim. Ap. 4. I. hath chosen. Cp. 22. 9. 2 Sam. 12. 25. young and tender. Cp. 22. 5. the palace. Heb. birah. Used only here and v. 19. Est. 1. 2, 5; 2. 3, 5, 8, 15; 8. 14; 9. 6, 11, 12. Neh. 1. 1; 2. 8; 7. 2. Dan. 8. 2. The name for a Persian royal palace, which shows the date of these books. (See note on "drams", v. 7), and why it is found among the Kethubim, or later books (and not with the historical books); and why Daniel is there too (and not among the prophets). the LORD. Heb. Jehovah. Ap. 4. II.
+29:2 | gold . . . silver . . . brass . . . iron. Put by Fig. Metonymy (of Cause), Ap. 6, for what is made from them. The Fig. is completed by the words in italics. and. Note the Fig. Polysyndeton (Ap. 6), to emphasise the fifteen gifts of grace (3 x 5, see Ap. 10). A.V., 1611, omits this first "and". onyx. Cp. Gen. 2. 12. Ex. 25. 7; 28. 9.
+29:3 | I have of mine own proper good = Seeing I have a treasure of mine own. Omit the word "which". mine own proper good. Heb. only one word, segullah = personal treasure. Occurs only in Ex. 19. 5. Deut. 7. 6; 14. 2; 26. 18. 1 Chron. 29. 3. Ps. 135. 4. Ecc. 2. 8. Mal. 3. 17 (see margin). See note on Ex. 19. 5. over and above. Cp. 22. 14. holy. See note on Ex. 3. 5.
+29:4 | houses. Cp. 28. 11.
+29:5 | to consecrate. See notes on Ex. 28. 41. Lev. 9. 17.
+29:6 | chief = prince. See note on 27. 16.
+29:7 | drams. Heb. 'adarkonim, darics. Only here, and Ezra 27. A Persian coin. Probably so called from the appellative "Darius" = the king's coin (like English "sovereign"). Indicates date of book. See note on "the palace", v. 1, and consult Ap. 51. I. 1, p. 73.
+29:8 | by the hand = unto the hand: i. e. under the direction of. Lit. "[laying them] upon the hand".
+29:9 | rejoiced with great joy = rejoiced exceedingly. Fig. Polyptoton (Ap. 6), for emphasis.
+29:10 | 29. 10-20 (F, p. 566). PREPARATION. DEVOTIONS. (Introversions and Alternations.) David said. A wonderful ascription of praise follows, tracing all good to Jehovah's sovereign grace.
+29:11 | greatness. Cp. Ps. 145. 3. and. Note the Fig. Polysyndeton in vv. 11-13, fourteen "ands", (including "Both" (v. 12) and "Now" (v. 12) placing great emphasis on the fifteen separate clauses of praise and prayer. power. Cp. v. 12 and Ps. 21. 13. glory. Cp. v. 13. Ps. 96. 6 ("beauty"). victory. Cp. 1 Sam. 15. 29 ("Strength"). majesty. Cp. Ps. 21. 5 ("honour").
+29:12 | of Thee. Heb. from thy face. Fig. Anthropopatheia. Ap. 6.
+29:14 | who am I . . . ? See note on 2 Sam. 7. 18.
+29:15 | we are strangers. Cp. Pss. 39. 12; 119. 19. none abiding = no hope of continuance.
+29:17 | triest the heart. Cp. 28. 9. 1 Sam. 16. 7. present = found.
+29:18 | Abraham, Isaac, and of Israel. See note on Ex. 32. 13.
+29:20 | congregation = assembly. worshipped = did homage to. Heb. shahah. First occurrence in Gen. 18. 2.
+29:21 | sacrificed sacrifices. Ap. 43. I. iv, and 43. II. xii. offered = offered up. Ap. 43. I. vi, and 43. II. ii.
+29:22 | -22-25 (V, p. 559). SOLOMON. SECOND INVESTITURE. (Introversion.) did eat = they did eat. the second time. The first is recorded in 23. 1 and 1 Kings 1. 39. Zadok. Solomon completed this act of David by removing Abiathar after David's death (1 Kings 2. 27).
+29:24 | the mighty men. Heb. gibbor. Ap. 14. IV. submitted. Heb. gave the hand unto: "hand" being put by Fig. Metonymy (of Adjunct), Ap. 6, for the submission implied by it. Cp. 2 Chron. 30. 8.
+29:25 | bestowed. Cp. 1 Kings 3. 13. 2 Chron. 1. 12. Ecc. 2. 9. in = over.
+29:26 | 26-30 (H2, p. 545). EVENTS. IN SUM (DAVID). (Introversion.)
+29:28 | full of = satisfied with.
+29:29 | behold. Fig. Asterismos. Ap. 6. the seer. Heb. ro-'eh, a seer of visions. Samuel was known as a ro'eh, but the ro'eh afterwards became known as a nabi'. See note on 1 Sam. 9. 9. the prophet. Heb. nabi', a spokesman, one who spoke for another. Cp. Ex. 7. 1 with Ex. 4. 16; and see notes there, and on Deut. 33. 1, and Ap. 49. First occurrence Gen. 20. 7. Gad the seer. Heb. hozeh, a seer. Ro'eh = one who sees more clearly than the hozeh. First occ. 2 Sam. 24. 11.
+29:30 | might: or royal estate. the times. Fig. Metonymy (of Adjunct), Ap. 6, put for all the events that happened in those times.
