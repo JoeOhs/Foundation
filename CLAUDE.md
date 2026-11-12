@@ -21,7 +21,7 @@ should protect that, not just "work."
      to the Library manifest
    - anything that could silently drop or mutate user data
 4. Confirm any touched SQLite query still matches the schema described in
-   `src/db.ts` and the "Data model" section of README.md.
+   `src/db.ts` and the "Data model" section of docs/GUIDE.md.
 
 ## Non-negotiable architecture rules
 
