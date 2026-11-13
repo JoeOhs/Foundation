@@ -5,7 +5,7 @@
 <h1 align="center">Foundation Bible Study</h1>
 
 <p align="center">
-  <b>A quiet, offline Bible study desk for one person.</b><br>
+  <b>An offline Bible study app for a clean conscience.</b><br>
   No accounts. No ads. No tracking. No subscriptions. Just the texts.
 </p>
 
@@ -19,8 +19,8 @@
 
 ## Why it exists
 
-Classic Bible software is aging, and the modern replacements tend to want an
-account, a connection, or a credit card — and to sell you the next resource pack.
+Legacy Bible software is aging, and the modern replacements want
+account info for their databases, a connection, or a credit card — to market resource packs or sell your data to agencies.
 Foundation is the opposite: a personal study app that runs entirely on your
 machine and only ships texts that are public domain or explicitly license-checked.
 
