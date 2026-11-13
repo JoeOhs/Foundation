@@ -2,7 +2,7 @@
   <img src="src-tauri/icons/128x128@2x.png" width="112" alt="Foundation icon">
 </p>
 
-<h1 align="center">Foundation</h1>
+<h1 align="center">Foundation Bible Study</h1>
 
 <p align="center">
   <b>A quiet, offline Bible study desk for one person.</b><br>
