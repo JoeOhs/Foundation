@@ -1457,8 +1457,14 @@ running list of what's done and what's next, not a commitment.
 - **Companion Bible verse-keyed marginal notes.** The marginal commentary
   itself (as opposed to the Appendixes above). Installs from the Library's
   "Reference works" section as a single `commentary` source containing one
-  `books` row per transcribed book — **Genesis**, **Exodus**,
-  **Leviticus**, **Numbers** and **Deuteronomy** — the Torah — as one add-on, listed with the Appendixes under Library → Add-ons. Joshua, Judges, Ruth, 1 and 2 Samuel and Philemon are transcribed but held out of the shipped bundle (`build.mjs --books=…`) until the next release. Two content shapes share it:
+  `books` row per transcribed book — the whole **Old Testament**, Genesis
+  to Malachi (39 books) — as one add-on, listed with the Appendixes under
+  Library → Add-ons. Philemon is transcribed but held out of the shipped
+  bundle (`build.mjs --books=…`) until a New Testament release. An install
+  from the earlier Torah-only release gains the other 34 books in place on
+  startup (`addCompanionNotesBooks`, once per release flag), so its
+  annotations survive; "Reinstall / repair" would delete them. Two content
+  shapes share it:
   - *Structure diagrams* — Bullinger's nested outlines, stored as **data**
     (one `entries` row per outline line) rather than as page images, so
     highlighting, binding and annotating work on an individual outline line

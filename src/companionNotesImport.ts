@@ -19,8 +19,8 @@
 
 import { planBraceTrims, planLayoutChanges } from './companionLayout';
 import {
-  deleteSource, findSourceByTitle, getEntries, getMeta, getStructureForSource, setMeta,
-  removeStructureGroupMember, updateStructureLineLayout,
+  deleteNewBook, deleteSource, findSourceByTitle, getEntries, getMeta, getStructureForSource, setMeta,
+  insertBook, listBooks, removeStructureGroupMember, updateStructureLineLayout,
   insertParsedSource, insertStructureDiagram, insertStructureGroups, insertStructureLines,
 } from './db';
 import type { ParsedEntry, ParsedSource } from './types';
@@ -213,6 +213,75 @@ export async function updateCompanionNotesBraces(): Promise<void> {
   await setMeta(BRACE_FLAG, new Date().toISOString());
 }
 
+// A book's Structure diagrams, once its entries are in. Requeries the entries
+// to turn positions into real ids rather than threading them out of the
+// insert — same approach as insertTocEntries.
+async function insertBookDiagrams(
+  sourceId: number,
+  b: BundleBook,
+  lineEntryIndex: (number | null)[][],
+): Promise<void> {
+  const inserted = await getEntries(sourceId, b.book, null);
+  for (let di = 0; di < b.diagrams.length; di++) {
+    const d = b.diagrams[di];
+    const diagramId = await insertStructureDiagram(sourceId, {
+      title: d.title,
+      anchor_book: d.anchor_book,
+      anchor_chapter: d.anchor_chapter,
+      anchor_verse_start: d.anchor_verse_start,
+      anchor_verse_end: d.anchor_verse_end,
+      reference_pdf_path: d.reference_pdf_path,
+      reference_pdf_page: d.reference_pdf_page,
+    });
+    const lineIds = await insertStructureLines(
+      diagramId,
+      d.lines.map((line) => {
+        const entryIdx = lineEntryIndex[di][line.idx];
+        return {
+          entryId: entryIdx === null ? null : inserted[entryIdx]?.id ?? null,
+          parentIndex: line.parent,
+          depth: line.depth,
+          label: line.label || null,
+          refRange: line.ref_range,
+        };
+      }),
+    );
+    await insertStructureGroups(
+      diagramId,
+      d.groups.map((g) => ({ label: g.label, memberLineIds: g.members.map((m) => lineIds[m]) })),
+    );
+  }
+}
+
+// Bump when a release adds books. An install from an earlier release gains
+// the new ones in place; the books it already has, and every highlight, link
+// and note on them, are left exactly as they are.
+const BOOKS_FLAG = 'companion-notes-books-old-testament';
+
+export async function addCompanionNotesBooks(): Promise<void> {
+  if ((await getMeta(BOOKS_FLAG)) !== null) return;
+  const source = await findSourceByTitle(COMPANION_NOTES_TITLE);
+  if (source) {
+    const bundle = await loadBundle();
+    const { parsed, lineEntryIndex } = buildParsedSource(bundle);
+    const have = new Set((await listBooks(source.id)).map((b) => b.name));
+    for (let bi = 0; bi < bundle.books.length; bi++) {
+      const b = bundle.books[bi];
+      if (have.has(b.book)) continue;
+      try {
+        await insertBook(source.id, parsed.books[bi], bi);
+        await insertBookDiagrams(source.id, b, lineEntryIndex[bi]);
+      } catch (err) {
+        // Never leave half a book: the next boot would see it and skip it.
+        await deleteNewBook(source.id, b.book).catch(() => {});
+        throw err;
+      }
+    }
+  }
+  // Set last, so an interrupted run picks up the books still missing.
+  await setMeta(BOOKS_FLAG, new Date().toISOString());
+}
+
 export async function installCompanionNotes(onProgress: (msg: string) => void): Promise<number> {
   onProgress('Loading bundled Companion Bible notes…');
   const bundle = await loadBundle();
@@ -236,40 +305,7 @@ export async function installCompanionNotes(onProgress: (msg: string) => void): 
   try {
     onProgress('Building structure diagrams…');
     for (let bi = 0; bi < bundle.books.length; bi++) {
-      const b = bundle.books[bi];
-      // Requery per book to turn entry positions into real ids, rather than
-      // threading them out of insertParsedSource — same approach as
-      // insertTocEntries.
-      const inserted = await getEntries(sourceId, b.book, null);
-      for (let di = 0; di < b.diagrams.length; di++) {
-        const d = b.diagrams[di];
-        const diagramId = await insertStructureDiagram(sourceId, {
-          title: d.title,
-          anchor_book: d.anchor_book,
-          anchor_chapter: d.anchor_chapter,
-          anchor_verse_start: d.anchor_verse_start,
-          anchor_verse_end: d.anchor_verse_end,
-          reference_pdf_path: d.reference_pdf_path,
-          reference_pdf_page: d.reference_pdf_page,
-        });
-        const lineIds = await insertStructureLines(
-          diagramId,
-          d.lines.map((line) => {
-            const entryIdx = lineEntryIndex[bi][di][line.idx];
-            return {
-              entryId: entryIdx === null ? null : inserted[entryIdx]?.id ?? null,
-              parentIndex: line.parent,
-              depth: line.depth,
-              label: line.label || null,
-              refRange: line.ref_range,
-            };
-          }),
-        );
-        await insertStructureGroups(
-          diagramId,
-          d.groups.map((g) => ({ label: g.label, memberLineIds: g.members.map((m) => lineIds[m]) })),
-        );
-      }
+      await insertBookDiagrams(sourceId, bundle.books[bi], lineEntryIndex[bi]);
     }
   } catch (err) {
     // Never leave a source installed with half its diagrams: roll the whole

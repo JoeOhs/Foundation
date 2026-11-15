@@ -431,7 +431,7 @@ export const BUNDLED_LIBRARY: BundledLibraryEntry[] = [
       'and annotated, plus the side-notes themselves, with his scripture and appendix cross-references ' +
       'clickable. Reads alongside a translation in a normal pane. Hand-transcribed from the 1913 edition ' +
       'at the Internet Archive; see tools/companion-bible-notes/ for the transcription, its notation and its ' +
-      'build script. This release covers the Torah: Genesis, Exodus, Leviticus, Numbers and Deuteronomy.',
+      'build script. This release covers the Old Testament, Genesis to Malachi.',
     verseKeyed: true,
     addon: true,
     install: installCompanionNotes,

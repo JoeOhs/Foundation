@@ -343,7 +343,7 @@ function main() {
   const all = args.includes('--all');
 
   // --books=a,b,c compiles a chosen set — how the shipped bundle is scoped
-  // to a release (currently the Torah) while other books are in progress.
+  // to a release (currently the Old Testament) while other books are in progress.
   const booksArg = args.find((a) => a.startsWith('--books='));
   const slugs = booksArg ? booksArg.slice('--books='.length).split(',')
     : all ? transcribedSlugs() : [bookArg ? bookArg.slice('--book='.length) : 'philemon'];

@@ -1130,31 +1130,60 @@ export async function insertParsedSource(
   const total = parsed.books.reduce((n, b) => n + b.entries.length, 0);
   let done = 0;
   for (let bi = 0; bi < parsed.books.length; bi++) {
-    const book = parsed.books[bi];
-    const bres = await db.execute(
-      'INSERT INTO books (source_id, name, sort_order) VALUES (?, ?, ?)',
-      [sourceId, book.name, bi],
-    );
-    const bookId = bres.lastInsertId as number;
-    for (let i = 0; i < book.entries.length; i += INSERT_BATCH) {
-      const batch = book.entries.slice(i, i + INSERT_BATCH);
-      const placeholders = batch.map(() => '(?, ?, ?, ?, ?, ?, ?, ?)').join(', ');
-      const params: unknown[] = [];
-      batch.forEach((e, j) => {
-        params.push(
-          bookId, e.chapter, e.verse, e.position_ref, e.text, i + j, e.heading ?? null,
-          e.isApparatus ? 1 : 0,
-        );
-      });
-      await db.execute(
-        `INSERT INTO entries (book_id, chapter, verse, position_ref, text, sort_order, heading, is_apparatus) VALUES ${placeholders}`,
-        params,
-      );
-      done += batch.length;
-      onProgress?.(done, total);
-    }
+    await insertBook(sourceId, parsed.books[bi], bi, (n) => onProgress?.((done += n), total));
   }
   return sourceId;
+}
+
+// One `books` row and its entries, under an existing source. Also how a
+// growing work (the Companion Bible notes) gains a book without the reinstall
+// that would take its annotations with it.
+export async function insertBook(
+  sourceId: number,
+  book: ParsedSource['books'][number],
+  sortOrder: number,
+  onBatch?: (inserted: number) => void,
+): Promise<void> {
+  const db = await ensureDb();
+  const bres = await db.execute(
+    'INSERT INTO books (source_id, name, sort_order) VALUES (?, ?, ?)',
+    [sourceId, book.name, sortOrder],
+  );
+  const bookId = bres.lastInsertId as number;
+  for (let i = 0; i < book.entries.length; i += INSERT_BATCH) {
+    const batch = book.entries.slice(i, i + INSERT_BATCH);
+    const placeholders = batch.map(() => '(?, ?, ?, ?, ?, ?, ?, ?)').join(', ');
+    const params: unknown[] = [];
+    batch.forEach((e, j) => {
+      params.push(
+        bookId, e.chapter, e.verse, e.position_ref, e.text, i + j, e.heading ?? null,
+        e.isApparatus ? 1 : 0,
+      );
+    });
+    await db.execute(
+      `INSERT INTO entries (book_id, chapter, verse, position_ref, text, sort_order, heading, is_apparatus) VALUES ${placeholders}`,
+      params,
+    );
+    onBatch?.(batch.length);
+  }
+}
+
+// Undoes a half-finished insertBook: the book's diagrams, entries and row.
+// Only for a book inserted moments ago, which nothing can have annotated yet.
+export async function deleteNewBook(sourceId: number, bookName: string): Promise<void> {
+  const db = await ensureDb();
+  const diagrams = 'SELECT id FROM structure_diagrams WHERE source_id = ? AND anchor_book = ?';
+  await db.execute(
+    `DELETE FROM structure_group_members WHERE group_id IN (
+       SELECT id FROM structure_groups WHERE diagram_id IN (${diagrams}))`,
+    [sourceId, bookName],
+  );
+  await db.execute(`DELETE FROM structure_groups WHERE diagram_id IN (${diagrams})`, [sourceId, bookName]);
+  await db.execute(`DELETE FROM structure_lines WHERE diagram_id IN (${diagrams})`, [sourceId, bookName]);
+  await db.execute('DELETE FROM structure_diagrams WHERE source_id = ? AND anchor_book = ?', [sourceId, bookName]);
+  const book = 'SELECT id FROM books WHERE source_id = ? AND name = ?';
+  await db.execute(`DELETE FROM entries WHERE book_id IN (${book})`, [sourceId, bookName]);
+  await db.execute('DELETE FROM books WHERE source_id = ? AND name = ?', [sourceId, bookName]);
 }
 
 // Inserts a parsed source's table of contents. Requeries the just-inserted
