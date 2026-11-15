@@ -1,0 +1,221 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Ezra
+# Marginal (side) notes, to be read alongside the KJV text.
+#
+# All 10 chapters, printed pp. 616-632 (pages 1-17 of
+# thecompanionbible_202504_pdf/12. Ezra & Nehemiah_text.pdf). Every page was
+# transcribed from its scan. Introductory notes: the footnotes to the
+# Structures on p. 616, and the "Notes to the Chronological Structure" on
+# p. 618. Not transcribed: the table of "Certain fixed points" on p. 617 (the
+# page link shows it). Superscript member numbers are written on the line
+# ("C1"); Hebrew macrons and the small-capital GOD/LORD styling are dropped.
+#
+# Laid out differently from print: the number table under 2:64 is run on as
+# prose (its ditto marks, = "Named", dropped; dot leaders as " . . . "), and
+# the list of the ten Sedarim under 10:44 likewise (ditto marks spelled out).
+# Restorations with no visible trace on the scan, only a gap: 7:13 12-26 and
+# 7:28 "=" (Bullinger's formula elsewhere); the others show damaged type.
+#
+# Restored where the type is broken on the scan: 7:1 "25 18-21" -> 25. 18-21;
+# 7:13 "vv. 12 26" -> 12-26; 7:28 "chief heads" -> chief = heads; 10:18
+# "houso" -> house, "~orters" -> porters.
+#
+# Left as printed (likely slips): 1:1 "Ezra 1. 1-14" (Ezra 1 has 11 verses);
+# 3:2 "the man of God (with Art.) = the [true] God"; 4:11 "Ap. 14. iii"
+# (lower case); 10:44 N.B. "See note on p. 617" (the Sedarim
+# note is on p. 616); 6:9 "Ap. 4." with no section; 6:17 "Ap. 43. I. i". In 6:4 the
+# character Bullinger prints for the ancient Tau looks like an aleph and is
+# written א.
+
+[[heading: EZRA-NEHEMIAH]]
+0 | In Hebrew manuscripts of the Bible, and the early printed editions of the Hebrew text, these two books are always treated and reckoned as one book: the 685 verses being numbered from the first verse of Ezra to the last verse of Nehemiah; the middle verse of the one book being given by the Massorites as Neh. 3. 32; while of the ten Sedarim (or Cycles for public reading), the fourth begins at Ezra 8. 35 and ends with Neh. 2. 10. See note at foot of p. 632. Moreover, the notes which the Massorites place at the end of each book are placed at the end of Nehemiah, and not at the end of Ezra. Cp. note on the books of Samuel, Kings, and Chronicles, p. 366.
+0 | The Structure of the one book is set forth as above, the two Divisions being given in their Canonical Order.
+0 | Ezra confines himself mainly to the events connected with the Temple.
+0 | Nehemiah confines himself mainly to the events connected with the Wall and the City.
+0 | Ezra comes first in the Canonical Order, because the Temple is more important than the Wall, morally and spiritually.
+0 | Nehemiah follows, because the Wall is of secondary importance.
+0 | When the whole of the events are looked at in their Chronological and Historical order, a different Structure is necessarily observed: this Structure is determined by certain fixed points, common to both Orders. These fixed points determine the place of the remaining events recorded in the two parts respectively. See Table of Events and Chronological Structure on p. 618, and the Harmony of Events in Ap. 58.
+0 | The letters of this fount (in brackets) correspond with the same letters in the Chronological Structure on page 617.
+0 | Notes to the Chronological Structure (p. 617). The Chronological Order of Events, and the Structure based thereon, revolutionises the traditional view, which treats this one book as two books; places Ezra historically as preceding Nehemiah; and inserts the book of Esther between Ezra, chapters 6 and 7, instead of before Ezra-Nehemiah. (See date, Est. 1. 3.)
+0 | Those who thus dislocate the two divisions of this book proceed to speak of certain portions as being "misplaced", and "not original", and as having "false connections". These so-called "discrepancies", after having thus been first made by the commentators, are charged home on the inspired writers themselves.
+0 | That the "difficulties" exist only in the minds of the critics will be seen if we note the following facts:—
+0 | 1. The fixed points, common to the two parts of the book, determine for us the true position of all the other parts, and result in giving us the Chronological Structure of the whole on page 617.
+0 | 2. The traditional view places the building of the temple by Ezra as coming many years before Nehemiah 1. But this is inconceivable in view of the report brought by Hanani to Nehemiah concerning the desolations (Neh. 1. 3) and repeated to the king (Neh. 2. 3).
+0 | 3. Nehemiah would surely have inquired about the welfare of the 42,360 exiles who are supposed to have returned to Jerusalem, and not about "the Jews that had escaped, which were left of the captivity" (Neh. 1. 2).
+0 | 4. When the wall was finished, "the houses were not yet builded" (Neh. 7. 1-4).
+0 | 5. When the Feast of the seventh month was kept (Neh. 8), "the foundation of the temple of the LORD was not yet laid" (Ezra 3. 1-6).
+0 | 6. When the people dwelt in their "cieled houses", the house of the LORD still lay waste (Hag. 1. 1-4). These facts are more certain than all chronology, and are more important and conclusive than all reasoning.
+0 | 7. The names of some of the kings mentioned have been hitherto regarded as proper names; whereas, according to Sir Henry Rawlinson, Professor Sayce, The Encyclopaedia Britannica, and The Century Encyclopaedia of Names, three at least are appellatives (like Pharaoh, Abimelech, Czar, Shah, Sultan); viz. Ahasuerus, which means "The venerable king", Artaxerxes, which means "The great king", and Darius, which means "The maintainer". See the Genealogy of the Persian kings (Ap. 57). If these appellatives denote separate and different individual kings, no place can be found for them all on the page of history.
+0 | 8. See the longer notes on special passages at the end of Nehemiah, page 653.
+
+1:1 | TITLE, Ezra. For the Structure of the two books (Ezra-Nehemiah) as a whole, in their canonical order, see p. 616. For the Structure of the chronological order, see p. 617 and the reasons for it, on p. 618. The book of Esther precedes (chronologically) the book of Ezra-Nehemiah.
+1:1 | Cyrus. The son of Astyages and Esther. See Ap. 57, 58, on the genealogy of the Persian kings. So named nearly 200 years before he was born (Isa. 44. 28). The book of Esther precedes the book of Ezra-Nehemiah, and Neh. 1. 1—7. 4 precedes Ezra 1. 1-14. See note on Neh. 1. 2. Est. 3. 8; 10. 3, and Ap. 57, 58. the LORD. Heb. Jehovah. Ap. 4. II. mouth. Cp. 2 Chron. 36. 21-23. Jer. 29. 10-14. spirit. Heb. ruach. Ap. 9.
+1:2 | God. Heb. Elohim. Ap. 4. I. God of heaven. See note on 2 Chron. 36. 23. Appropriate in the mouth of Cyrus, and in contrast with all heathen inscriptions. hath given me. The son of Astyages (the venerable king = Ahasuerus) and Esther. Trained by Mordecai and Nehemiah, he was brought up in the knowledge of God and His Word. charged me to build. Cp. Isa. 44. 24-28; 45. 1-6, 13. an house. This proclamation put first, as it is the great subject treated of by Ezra.
+1:3 | Who is there . . . ? Fig. Erotesis. Ap. 6. build = rebuild.
+1:4 | whosoever [of the captive people] remaineth in any place, &c. Note the Fig. Ellipsis. Ap. 6. remaineth = is left. the men of his place: i. e. his Persian neighbours. men. Heb. 'ish. Ap. 14. II. and. Note the Fig. Polysyndeton. Ap. 6. God. Heb. Elohim (with Art.) = the [true] God. Ap. 4. I.
+1:5 | 1. 5—2. 70 (C, p. 616; P, p. 617). THE RETURN UNDER ZERUBBABEL. (Alternation and Introversion.) the chief of the fathers: i. e. those named in the next chapter. chief = heads. Judah and Benjamin. But the other tribes found representatives. Cp. 2. 59, 70, where the terms "of Israel" and "all Israel" are used. In 1 Chron. 9. 3, Ephraim and Manasseh are mentioned by name. See note on 1 Kings 12. 17.
+1:6 | their hands = them. Put by Fig. Synecdoche (of Part), Ap. 6, for themselves.
+1:7 | which Nebuchadnezzar had brought. Cp. 2 Kings 24. 13; 25. 14. 2 Chron. 36. 7. Jer. 27. 18-22; 28. 6; 52. 18, 19. Dan. 1. 2; 5. 2.
+1:8 | Sheshbazzar = the Chaldean name of the prince of Judah. Not Zerubbabel, which means born at Babel. Probably = Nehemiah, for he was the son of Hachaliah and Zidkijah (Neh. 10. 1), and therefore a "prince of Judah".
+1:9 | chargers = basons or bowls. Heb. 'agartal. In Numbers k'arah, plate or dish. Eng. "charger", from French charger, to load. Hence used of both a dish and a horse.
+2:1 | 2. 1-67 (A, p. 619). THE SONS OF THE PROVINCE. (Introversion.) these are. This chapter is parallel with Neh. 7. 69. See the Structure, M P, p. 617, and Ap. 58. children = sons. the Province: i. e. the Persian province of Judah. Cp. Neh. 1. 3. and Judah. Some codices read "and unto Judaea". Cp. Neh. 7. 6. one. Heb. 'ish. Ap. 14. II.
+2:2 | came with Zerubbabel. But not till after Neh. 1. 1—7. 4. See note on Neh. 1. 2, 3. In Neh. 7. 4 no houses built, but in Hag. 1. 4, houses built and yet Temple lying waste. Jeshua. The great helper of Zerubbabel. Nehemiah. Cp. Neh. 1. 1; 10. 1. See note on "Sheshbazzar", 1. 8. Seraiah = Azariah (Neh. 7. 7). Not Seraiah the high priest, put to death with Zedekiah (2 Kings 25. 18-21). Mordecai. He had been taken in Jehoiachin's deportation (Est. 2. 5, 6). men. Heb. pl. of 'enosh. Ap. 14. III. the People of Israel. See note on 1. 5. So 2. 59, 70; 3. 1; 7. 13; 9. 1; 10. 5. Cp. 1 Kings 12. 17.
+2:25 | Kirjath-arim. Now Khan 'Erma. Some codices, with Sept. and Vulg., read "Kirjath-jearim".
+2:36 | Jedaiah. The head of the ninth course (1 Chron. 24. 11).
+2:37 | Immer. The head of the sixteenth course (1 Chron. 24. 14).
+2:38 | Pashur. Cp. Jer. 20. 1; 21. 1 and 1 Chron. 9. 12. Probably belonging to the fifth course, as son of Malchijah. Cp. 1 Chron. 24. 9 with Neh. 11. 12.
+2:39 | Harim. The third course. These four were subdivided into six each, making the twenty-four.
+2:43 | Nethinims = men given to God or His service. Temple servants. Cp. v. 58; 7. 7, 24; 8. 17, 20. Neh. 3. 26; 10. 28; 11. 21. 1 Chron. 9. 2.
+2:46 | Shalmai. Some codices, with one early printed edition, Sept. and Syr., read "Selami".
+2:59 | of Israel. See note on 2. 2, and cp. 1 Kings 12. 17.
+2:62 | as polluted, put. R.V. = deemed polluted and put. Heb. ga'al, to pollute; not ga'al, to redeem. Supply Ellipsis thus: "therefore were they [rejected] from the priesthood as polluted". So in Neh. 7. 64; 13. 29. Isa. 59. 3; 63. 3. Lam. 4. 14. Zeph. 3. 1. Mal. 1. 7.
+2:63 | Tirshatha = governor (Persian title). Here refers to Nehemiah, as in Neh. 8. 9; 10. 1; 12. 26. The Heb. title is Pechah (Neh. 5. 14, 18; 12. 26). Whence the Turkish Pashah. See note on 5. 3. not eat of the most holy things: i. e. the remains of the meal offering, sin offering, and right shoulder of the peace offerings. Cp. Lev. 2. 3; 10. 12-14, 16, 17. Num. 18. 9, 10. holy. See note on Ex. 3. 5. with = for. Urim and with Thummim. See note on Ex. 28. 30. Num. 26. 55.
+2:64 | congregation = assembly, or muster. forty and two thousand three hundred and threescore. This number (42,360) agrees with Neh. 7. 66. The two lists of names are not alike; but there is no "discrepancy". The two lists, while they agree in the numbers, and vary in names, yet have the totals identical. This shows the independence of the two accounts. Numbered in Ezra 2 . . . 42,360. Named in Ezra 29,818; in Neh., not in Ezra 1,765; 31,583. Difference between names and numbers 10,777. Numbered in Neh. 7 . . . 42,360. Named in Nehemiah 31,089; in Neh., not in Ezra 494; 31,583. Difference between names and numbers 10,777.
+2:65 | maids = handmaids.
+2:68 | some = a portion. Ezra mentions what one portion gave. Nehemiah (7. 70) mentions what he and two other portions gave. Hence the numbers "perforce" cannot be the same, and there is no "discrepancy". chief = heads. the LORD. Heb. Jehovah. Ap. 4. II. God. Heb. Elohim (with Art.) = the [true] God. Ap. 4. I.
+2:69 | treasure = treasury. drams. See Ap. 51. I. 1 (2). pound. See Ap. 51. II. 4 (1).
+2:70 | all Israel. See note on 2. 2, and 1 Kings 12. 17.
+3:1 | 3. 1-13 (D, p. 616; Q, p. 617). THE TEMPLE. FOUNDATION AND FEAST. (Division.) 1-7 [For Structure of C1 see next page]. seventh month. Tisri. See Ap. 51. III. 5. children = sons. of Israel. See note on 2. 2, and 1 Kings 12. 17. the cities. Some codices, with Sept., Syr., and Vulg., read "their cities". man. Heb. 'ish. Ap. 14. II. to = in. Therefore this was after Neh. 7. 1-4.
+3:2 | 3. 1-7 (C1, p. 621). SETTING UP THE ALTAR. (Alternations.) Jeshua. The high priest. Spelt Joshua in Hag. 1. 1; 2. 2. Zech. 3. 1. Jozadak. The son of Seraiah (1 Chron. 6. 14, 15). But Ezra was the son of Seraiah (Ezra 7. 1). Therefore Ezra was brother to Jozadak and uncle to Joshua the high priest. Zerubbabel. Cp. Matt. 1. 12. Luke 3. 27, called Zorobabel. God. Heb. Elohim (with Art.) = the [true] God. Ap. 4. I. offer = offer up. Heb. 'alah. Ap. 43. I. vi. written in the law of Moses. See note on Ex. 17. 14, and Ap. 47. the man of God (with Art.) = the [true] God. See note on Deut. 33. 1; and Ap. 49.
+3:3 | people = peoples. the LORD. Heb. Jehovah. Ap. 4. II.
+3:4 | kept, &c. As recorded also in the parallel passage (Neh. 8. 1-18). as it is written. See Lev. 23. 34-43. Deut. 16. 13-15, and cp. 1 Kings 8. 2, 65.
+3:7 | 3. 7-13 (C2, p. 621). THE FOUNDATION OF THE HOUSE. (Repeated Alternation.) and. Note the Fig. Polysyndeton (Ap. 6), to emphasise each detail. carpenters = artificers. bring cedar trees. Cp. 1 Kings 5. 6. 2 Chron. 2. 8, 10. Joppa. Cp. Josh. 19. 46. Acts 9. 35, 43. Jon. 1. 3. grant. Occurs only here. of = from. Genitive of Origin. See Ap. 17.
+3:8 | God. Heb. Elohim (with Art.) = the [true] God. Ap. 4. I. set forward = oversee.
+3:9 | Judah: or Hodaviah, as in 2. 40.
+3:10 | they set the priests: or, the priests took their stand. cymbals. Heb. m'ziltayim. Dual form, meaning two metal discs struck together, making a clashing sound. Not zilzilim, which = timbrels, but is translated cymbals in 2 Sam. 6. 5 and Ps. 150. 5, from the rustling sound. See note on 1 Chron. 13. 8.
+3:11 | mercy = lovingkindness, or grace. shouted with a great shout. Fig. Polyptoton. Ap. 6.
+3:12 | chief = heads. who were. Some codices, with one early printed edition and Vulg., read "and the". shouted aloud for joy. Thus fulfilling Jer. 33. 10, 11.
+4:1 | 4. 1—6. 22 [For Structures see next page]. adversaries. The Samaritans (v. 10). See note on 2 Kings 17. 24, 26. children = sons. the temple. The walls and gates already built by Nehemiah. See Structures (pp. 616, 617), and notes on Neh. 1. 2. The desolations did not end with Ezra 1, though the servitude did. Cp. Jer. 25. 11. 2 Chron. 36. 21. See special note at end of 2 Chronicles, p. 615. the LORD. Heb. Jehovah. Ap. 4. II. God. Heb. Elohim. Ap. 4. I.
+4:2 | 4. 1—6. 22 (D, p. 616; Q, p. 617). THE TEMPLE. BUILDING AND DEDICATION. (Division.) 4. 1—6. 15 (F1, above). THE BUILDING. (Extended Alternation.) Zerubbabel. See note on 3. 2. chief = heads. we seek your God. A priest had been sent to these Samaritans (2 Kings 17. 28-33). we do sacrifice unto Him. Heb. text = "although we have not been sacrificing". Some codices, and two early printed editions, with Sept. and Syr., add "unto Him". Esar-haddon. The son and successor of Sennacherib (see notes on 2 Kings 19. 37, and 2 Chron. 33. 11). Assur = Assyria.
+4:3 | Jeshua. See note on 3. 2. Israel. See note on 2. 2 and 1 Kings 12. 17. as = according as.
+4:4 | 4. 4-16 (J, above). OPPOSITION. LETTER TO CYRUS. (Alternation.) troubled them in = terrified them from.
+4:5 | Cyrus. The son of Astyages and Esther. See Ap. 57, 58. Darius: i. e. Darius Hystaspis (see Ap. 57, 58). "Darius" being only an appellative (= the maintainer), needs "Hystaspis" to be added, to identify him; as Astyages, when called Darius, needs the addition of "the Mede". See Ap. 58, and notes on p. 618.
+4:6 | Ahasuerus = the venerable king. See Ap. 57, 58, and p. 618. An appellative, used here of Cyrus (v. 5), or retrospectively of Astyages; or, this verse may be retrospective, and should be in parenthesis.
+4:7 | Artaxerxes = the great king. Used here of the Cyrus of v. 3. See Ap. 57, 58, and p. 618. Verses 7-23 may also be retrospective of Neh. 2. 20—6. 15. companions = colleagues or associates. the Syrian tongue: i. e. in Aramaic characters as well as in the Aramaic language. Cp. Est. 1. 22; 8. 9, where "writing" (Heb. kathab, to grave) is the same word as in this book.
+4:8 | Rehum. From here to 6. 18 is in Syriac, which was like the French of to-day. Cp. 2 Kings 18. 26. From 6. 19—7. 11 is Hebrew; and Syriac again from 7. 12-27; then Hebrew. the chancellor = the master of judgments or decrees. the scribe: or secretary. in this sort = after this manner.
+4:9 | Dinaites. Probably from a Persian city. Apharsathchites. A Medo-Persian tribe. Tarpelites. Probably from east of Elymais. Apharsites. Of Persian origin. Archevites. From Babylonia. Cp. Gen. 10. 10. Susanchites. From the Persian province or city of Shushan, the capital of Elam. Dehavites = the Dahae of Herodotus (i. 125). Elamites. From a province of Persia.
+4:10 | nations = peoples. Asnapper = Assur-bani-pal, or Sardanapalus, the only Assyrian king who got into Elam, or held Shushan (now Susa) its capital. on this side = beyond, on the west side: regarded from the east side of the Euphrates. at such a time. This may refer to the date of the letter; or be rendered, as in R.V., "and so forth".
+4:11 | men. Chald. 'enosh. See Ap. 14. iii.
+4:12 | 4. 12-16 (O, above). ACTION. WRITING. (Introversion and Alternation.) Jews. Nehemiah, Hanani, and friends. Occurs eight times in Ezra, viz. 4. 12, 23; 5. 1, 5; 6. 7, 7, 8, 14. The name by which they were known to Gentiles, because the majority belonged to Judah.
+4:12 | set up the walls. Quite true; for Nehemiah's work had long preceded this. See the Chronological Structure, p. 617, and notes on p. 618; also Ap. 58. And note that, when Nehemiah's work was done (7. 4) and the houses built, the house of God was still lying waste (Hag. 1. 1-4). The Temple not mentioned here.
+4:14 | we have maintenance = the salt of the palace is our salt. See note on Num. 18. 19.
+4:17 | 4. 17-22 (K, p. 623). KING'S ANSWER. SUCCESS OF PLOT. (Introversion.) answer. Chald. pithgam = an order or decree. A Persian word. Occurs only here and 5. 5, 11; 6. 11. Dan. 3. 16; 4. 17.
+4:19 | I commanded = I made a decree. made insurrection. Chald. lifted itself up.
+4:20 | mighty kings. Such as David and Solomon.
+4:21 | commandment = decree. men = strong men, gubrayya'a. Chald. form of Ap. 14. IV.
+4:23 | by force. Chald. by arm; "arm" being put by Fig. Metonymy (of Cause), Ap. 6, for the force put forth by it.
+4:24 | GOD. Chald. 'elaha' (ha, emphatic), sing., same as Heb. Eloah. Ap. 4. V.
+5:1 | Haggai. The prophet of that name. In the second year of Darius (Hag. 1. 1), "sixth month". Zechariah. The prophet of that name. In the second year of Darius, "eighth month" (Zech. 1. 1). GOD. Chald. 'elah (sing.). Same as Eloah. Ap. 4. V. of Israel. Still "Israel", because representative of the whole nation. See note on 1 Kings 12. 17. even unto them: or "[which was] over them".
+5:2 | GOD. Chald. 'elaha', as in 4. 24. Heb. Eloah (emph.). Ap. 4. V.
+5:3 | 5. 3-17 (J, p. 623). OPPOSITION. LETTER TO DARIUS. (Extended Alternation.) governor. Chald. pechah (modern "Pasha"). Tatnai was governor in Syria, Zerubbabel was governor in Judah. Cp. vv. 6, 14; 6. 6, 7, 13; 8. 36. Dan. 3. 2, 3, 27; 6. 7; and Hag. 1. 1, 14; 2. 2, 21. companions = colleagues or associates. commanded you = made a decree to you; given a firman. make up = build. So the wall had already been built by Nehemiah. See the Chronological Structure, p. 617, and notes on p. 618; and Ap. 58.
+5:4 | said = told. Chald. 'amar, which must be followed by the words spoken (which are given in next clause). we. Note this pronoun (first person sing. and pl.). Here, and 7. 27—9. 15, and Neh. 1. 1—7. 73; 12. 27-43; 13. 4-31. Sept., Syr., and Arab. read "they". after this manner. Verse 4 should be rendered "we told them what the names were, accordingly the names of the men", &c. It is not a question. men. As in 4. 21. make this building. Heb. "build this building". Fig. Polyptoton (Ap. 6), for emphasis.
+5:5 | the eye. Fig. Anthropopatheia. Ap. 6. elders. Chald. sib = grey, hoary. Used only of Ezra here and 6. 7, 8, 14. Darius. See note on 4. 5. answer. See note on 4. 17.
+5:6 | Tatnai. His name has been recently found in a contract. Apharsachites. See note on 4. 9.
+5:8 | province. Cp. Neh. 1. 3. great = rolling: i. e. too heavy to be moved without rolling.
+5:10 | chief = head.
+5:11 | 5. 11-16 (S, p. 624). CESSATION. REASON. (Introversion and Alternation.) the GOD of heaven. See note on 2 Chron. 36. 23. GOD. Chald. 'elah. Same as Eloah. Ap. 4. V. these many years ago. Nearly 500 years. and set up. Cp. 1 Kings 6. 1.
+5:12 | gave them. Cp. 2 Kings 24. 2; 25. 8-11.
+5:13 | Cyrus. Cp. 1. 1. Babylon. Included now with Persia. Cp. 6. 1. Neh. 13. 6.
+5:14 | the vessels. Cp. Ezra 1. 7, 8; 6. 5. Sheshbazzar. See note on 1. 8. This was Nehemiah, who was present, though the stone was actually laid by Zerubbabel (Zech. 4. 9).
+5:15 | carry them into = set them down, or deposit them in. is = is to be.
+6:1 | 6. 1-12 (K, p. 623). KING'S ANSWER. DEFEAT OF PLOT. (Alternation.) Darius: i. e. Darius (Hystaspis). See Chronological Structure and notes (pp. 617, 618), and Ap. 57, 58. Babylon. See note on 5. 13.
+6:2 | Achmetha = Ecbatana, the capital of ancient Media.
+6:3 | first year of Cyrus. Cp. 1. 1. GOD. Chald. 'elaha = Heb. Eloah (Ap. 4. V.); the final "ha" is for emphasis. offered. Chald. d'ba'h. Same as Heb. zebach. Ap. 43. I. iv. cubits. See Ap. 51. III. 2.
+6:4 | rows = layers or stories, as in 1 Kings 6. 36. new timber. Should be "timber, one": i. e. one row. In changing the ancient characters into the modern square characters the aleph ('a) in had'a ("one"), in the ancient character, was mistaken for א, Tau, the "th" in hadath ("new"), and so was transliterated. The Sept. has preserved the original reading, and the R.V. notes it in the margin. The two lines should read: "layers of great stones, three; and a layer of timber, one". house = treasury: "house" being put by Fig. Metonymy (of Adjunct), Ap. 6, for the treasures in it.
+6:5 | vessels. Cp. 1. 7. is = was.
+6:6 | Tatnai, governor = Tatnai, pasha. See notes on 5. 3, 6. companions = fellow-labourers or colleagues.
+6:7 | Jews. See note on 4. 12.
+6:8 | I make a decree. This was a new decree of Darius Hystaspis. men = strong men. Chald. gubbrayya'. Heb. geber. Ap. 14. IV.
+6:9 | GOD. Chald. 'elah. (Sing.) Same as Heb. Eloah. Ap. 4. GOD of heaven. See note on 2 Chron. 36. 23. wine = strong red wine. Heb. chemer. See Ap. 27. iii.
+6:10 | sweet savours. See note on Lev. 1. 9.
+6:11 | alter. A similar strong threat in the inscription of Darius on the Behistun rock (Ap. 57). Cp. Dan. 3. 29.
+6:12 | alter. Supply Fig. Ellipsis (Ap. 6): "alter [this decree]".
+6:14 | commandment = decree. Cyrus, and Darius, and Artaxerxes. Note the Fig. Polysyndeton, to mark the important fact that three kings, at various times, were concerned in the rebuilding of Jerusalem. The last named was the first in order. Darius was Darius Hystaspis, and Artaxerxes was Astyages (the father of Cyrus), the same as in Neh. 2. 1. See Ap. 57 and 58; and notes on p. 618.
+6:15 | Adar = the twelfth month. See Ap. 51. III. 4.
+6:16 | 6. 16-22 (F2, p. 623). THE DEDICATION. (Introversion.) children = sons.
+6:17 | offered = brought near. Ap. 43. I. i all Israel. See note on 1 Kings 12. 17. Note the number "twelve". Ap. 10.
+6:18 | as it is written = according to the writing. the book of Moses: i. e. the Pentateuch. See Ap. 47.
+6:19 | And, &c. Here recommences the Hebrew language. See note on 4. 8. kept the passover. One of the ten so recorded. See note on Ex. 12. 28.
+6:21 | heathen = nations. the LORD. Heb. Jehovah. Ap. 4. II. God. Heb. Elohim. Ap. 4. I.
+7:1 | 7. 1—8. 36 (C, p. 616; P, p. 617). THE RETURN UNDER EZRA. (Repeated Alternation.) Artaxerxes = the great king: i.e. Darius (Hystaspis). See notes on p. 618. Ap. 57 and 58. Ezra. By this genealogy (vv. 1-5), compared with 1 Chron. 6. 15, Ezra was brother to Jehozadak and uncle to the high priest Joshua. Ezra was deported with Zedekiah. son = descendant. Seraiah. Slain at Riblah (2 Kings 25. 18-21).
+7:6 | ready = skilful. the LORD. Heb. Jehovah. Ap. 4. II. God. Heb. Elohim. Ap. 4. I.
+7:7 | children = sons. and. Note the Fig. Polysyndeton (Ap. 6) in this verse. Nethinims. See note on 2. 43.
+7:8 | fifth month. Nisan (March-April). Ap. 51. III. 4.
+7:9 | the first day of the first month. See note on Gen. 8. 13. first month. Ab (July-August). Ap. 51. III. 4.
+7:10 | to teach in Israel. This was the chief duty of priests. See note on Deut. 33. 10. Israel. Judah contained representatives of the whole Nation. See note on 1 Kings 12. 17.
+7:11 | 7. 11-26 (W3, above). ARTAXERXES. DECREE. (Introversion.) the scribe . . . a scribe = a perfect scribe. Fig. Epizeuxis (Ap. 6).
+7:12 | GOD. Chald. 'elah. Same as Heb. Eloah. Ap. 4. V. GOD of heaven. See note on 2 Chron. 36. 23.
+7:13 | 13-25 (Z, above). THE DECREE FOR EZRA. (Alternation.) decree. This decree (vv. 12-26) is in Chaldee, not in Hebrew. An inscription found at Susa commences with the same words. Cp. Dan. 2. 37. his: i. e. Israel's priests.
+7:14 | 14-20 (y, above). TO EZRA. SUPPLIES. (Introversion.) seven counsellors. Cp. Est. 1. 10, 14.
+7:15 | Israel. See note on 1 Kings 12. 17.
+7:17 | meat offerings = meal offerings. Heb. gift offerings. Ap. 43. II. iii.
+7:19 | vessels. See note on 1. 1.
+7:20 | bestow, bestow. Fig. Anadiplosis (Ap. 6), for emphasis.
+7:21 | I, even I. Fig. Epizeuxis (Ap. 6), for emphasis.
+7:22 | talents. See Ap. 51. II. measures . . . baths. See Ap. 51. III. 3. wine. Cp. 6. 9. Heb. chemer. Ap. 27. iii. without prescribing how much = without measure.
+7:23 | diligently = quickly, exactly. A Persian word, 'adrazda'. Occurs only here. why . . . ? Fig. Erotesis. Ap. 6.
+7:24 | GOD. Chald. 'elahah = Heb. Eloah (emph.). See Ap. 4. V.
+7:26 | to banishment: or exclusion from the assembly. Chald. = to rooting out. Occurs only here.
+7:27 | Blessed, &c. These two verses (27, 28) resume the Hebrew language.
+7:28 | mercy = lovingkindness, or grace. mighty. Heb. gibbor. Ap. 14. IV. chief = heads.
+8:1 | chief = heads: i. e. heads of houses. them that went up. Most of these names appear in ch. 2 and Neh. 10. The number is 1,496. If there were no women with them, this might be the cause of the "strange" marriages in ch. 10 and Neh. 10. Artaxerxes: i. e. Darius (Hystaspis). See Ap. 57 and 58.
+8:3 | by genealogy = a lineage.
+8:4 | Pahath-moab. Cp. 2. 6.
+8:5 | sons of Shechaniah. Sept. reads "sons of Zattu, Shechaniah".
+8:9 | Of. Some codices, with one early printed edition and Sept., read "And of".
+8:10 | sons of Shelomith. Sept. reads "sons of Bani, Shelomith".
+8:12 | ten. Some codices, with Syr., read "twenty".
+8:13 | last. In contrast with others. these. The only case where there were three heads. In all other cases (except v. 14, where there are two) only one head is mentioned.
+8:14 | them. Heb. text reads "him"; but some codices, with one early printed edition, read "them", as in A.V.
+8:15 | 8. 15-36 (v4, p. 627). EZRA. JOURNEY. (Introversion and Alternation.) together = out. Ahava. The name of the river, and of the city. Cp. v. 21. abode = encamped. none of the sons of Levi. Only priests and laymen. The Levites were slack. Cp. 2. 40. Only a small number accompanied Zerubbabel (2. 36). Not so the priests (2. 36-39).
+8:16 | for. The Syr. and Vulg. omit the word "for" throughout this verse, and read "then sent I Eliezer", &c., as in v. 17. chief men = heads. Joiarib. A.V., 1611, read "Jarib". men of understanding. Fig. Antimereia (of Noun), Ap. 6 = wise and prudent men, especially for teaching.
+8:17 | Casiphia. Not identified. Probably near Babylon. Nethinims. These were the ministers of the Levites. Originally Gibeonites. See note on 2. 43. God. Heb. Elohim. Ap. 4. I.
+8:18 | a man. Heb. 'ish. Ap. 14. II.
+8:21 | of. Omitted in A.V., 1611.
+8:24 | chief = princes.
+8:25 | offering = heave offering. Ap. 43. II. viii. all Israel. See note on 2. 2 and 1 Kings 12. 17.
+8:26 | talents. See Ap. 51. II. 6.
+8:27 | basons = bowls. of = valued at. drams. Heb. darics. See Ap. 51. I, and cp. 2. 69 and 1 Chron. 29. 7. fine copper, &c. = copper shining like gold.
+8:28 | holy = a holy body. See note on Ex. 3. 5. the LORD. Heb. Jehovah. Ap. 4. II.
+8:34 | By number and by weight of every one: or, the whole by number and weight.
+8:35 | Also, &c. The fourth of the ten Sedarim (or cycles for public reading) begins here and goes on to Neh. 2. 10, where it ends; thus uniting the two books in one. See note, p. 632. children = sons.
+8:36 | commissions = Royal decrees. Heb. dath. See note on Est. 1. 8. lieutenants. Heb. satraps. A Persian title. God. Heb. Elohim (with Art.) = the [true] God. Ap. 4. I.
+9:1 | 9. 1—10. 44 (B, p. 617). THE PEOPLE. DEDICATION. REFORMATION. (Division.) 9. 1—10. 17 (C1, above). THE EVIL-DOING. (Introversion and Alternation.) the princes. Not all of them. Cp. v. 2. People of Israel. See note on 2. 2 and 1 Kings 12. 17. people = peoples, or nations. Canaanites. Contrary to the law (Ex. 34. 12-16. Deut. 7. 1-3). See Ap. 23 and 25.
+9:2 | holy seed, or the sanctuary's seed. See note on Ex. 3. 5 and cp. Dan. 2. 43. Ex. 19. 6; 22. 31. Deut. 7. 6; 14. 2. trespass = defection. Heb. ma'al. Ap. 44. xi. Not the same word as in v. 6.
+9:3 | rent my garment, &c. These were signs of inward mourning. See v. 5. Josh. 7. 6. 1 Sam. 4. 12. 2 Sam. 1. 2; 13. 31. 2 Kings 18. 37. Job 1. 20. Matt. 26. 65. astonied: i. e. causing astonishment in such as saw me.
+9:4 | trembled at the words, &c. Cp. Isa. 66. 2. God. Heb. Elohim. Ap. 4. I. transgression = defection. Heb. ma'al. Ap. 44. xi.
+9:4 | 9. -4—10. 1- (d2, above). EZRA. PRAYER. (Introversion and Alternation.) sacrifice = meal offering. Heb. minchah. Ap. 43. II. iii.
+9:5 | having rent = having already rent. I fell upon my knees. Cp. 10. 1. 2 Chron. 6. 13. Dan. 6. 10. Luke 22. 41. Acts 7. 60; 9. 40; 20. 36; 21. 5. the LORD. Heb. Jehovah. Ap. 4. II.
+9:6 | iniquities. Heb. 'avah. Ap. 44. iv. trespass. Heb. 'ashma (fem.) = guilt incurred. The masc. = guilt imputed (as in Lev. 5. 7. Num. 5. 8. 2 Kings 12. 16. Ps. 68. 21). Ap. 44. ii. Not the same word as in v. 2. Cp. vv. 7, 13, 15.
+9:7 | been delivered. For these selfsame sins! as in v. 2. confusion of face. Cp. Dan. 9. 5-7.
+9:8 | a little space = a little while. Heb. kim'at. See note on "almost" (Prov. 5. 14). Referring to the respite which had been begun by the kings of Assyria (6. 22. Neh. 9. 32) and continued by the kings of Persia. remnant to escape. The same which Nehemiah had already inquired about (Neh. 1. 2, 3). a nail = a peg surely driven in. Put by Fig. Metonymy (of Adjunct), Ap. 6, for the dwelling secured by it. holy place = Jerusalem, or sanctuary. Cp. Ps. 24. 3. Isa. 56. 7; 57. 13.
+9:9 | we were. Or, supply the Ellipsis "we [are]". bondmen. The subjects of the Persians (Neh. 9. 36). mercy = lovingkindness, or grace. kings of Persia. See Ap. 57. to repair the desolations. Cp. Neh. 1. 2, 3. give us a wall. This helps to prove that the task of Nehemiah had already been effected. See the Structure on p. 617, notes on p. 618, and Ap. 58.
+9:10 | what shall we say . . . ? Fig. Erotesis. Ap. 6.
+9:11 | by = by the hand of. filthiness. Showing Ezra's acquaintance with the Pentateuch. Cp. Gen. 15. 16. Deut. 9. 5. 1 Kings 21. 26.
+9:12 | nor seek their peace. Ref. to Pent.: the very words of Deut. 23. 6. children = sons.
+9:13 | evil. Heb. ra'a'. Ap. 44. viii. such deliverance: or, such a reserved survival.
+9:14 | Should we . . . ? Fig. Erotesis. Ap. 6.
+9:15 | we remain yet escaped: or, we are left but a remnant that is escaped. Cp. Neh. 1. 2, 3. behold. Fig. Asterismos. Ap. 6.
+10:1 | when Ezra had prayed. Note the change to the third person. This does not imply another authorship. Such changes are common. Cp. Isa. 6. 5-8; 7. 3; 37. 6 with other passages. Also Jer. 20. 1-6 with v. 7; and 21. 1 and 28. 1, 5. God. Heb. Elohim (with Art.) = the [true] God. Ap. 4. I. Israel. Cp. 1. 5; 2. 2, 59, 70; 6. 21; 7. 10, 13; 8. 25; 9. 1. See note on 1 Kings 12. 17. congregation = assembly. Assembled 24th Tisri. Cp. Neh. 9. 3. men. Heb. 'enosh. Ap. 14. III. children = little ones. Heb. yeled. Not the same word as in v. 7. wept very sore. Heb. "wept a great weeping". Fig. Polyptoton. Ap. 6. See note on Gen. 26. 28.
+10:2 | the sons of Elam. Cp. v. 26. answered and said. A Heb. idiom, by which the first verb "answered" must be rendered according to the context. Here = "confessed and said". trespassed = acted treacherously. Heb. ma'al. Ap. 44. xi. people = peoples. in = for.
+10:3 | such as are born. It does not appear that Shechaniah's proposal was carried out. Cp. vv. 11, 14. counsel. See Ps. 33. 11; 73. 24; 106. 13. Prov. 8. 14; 19. 21. Isa. 46. 10, 11. my LORD* = Jehovah. One of the 134 places where Jehovah was altered by the Sopherim to Adonay. See App. 32 and 4. viii. 2. tremble. Cp. 9. 4. according to the law. See Deut. 24. 1, 2.
+10:4 | Arise. It would seem that Ezra continued kneeling.
+10:5 | the chief priests = the princes of the priests. Cp. 2 Chron. 36. 14. the Levites. Some codices, with one early printed edition, read "and the Levites".
+10:6 | Then Ezra rose up. In response to Shechaniah. Johanan. The son of Eliashib, the high priest who succeeded Joiakim, the successor of Jeshua (Neh. 12. 10, 23). came thither. According to Syr. and Arabic = "lodged (or spent the night) there". mourned. Cp. the first occ. of Heb. 'abal. Gen. 37. 34. transgression = unfaithfulness. Heb. ma'al. Ap. 44. xi. Cp. v. 2 and 10.
+10:7 | children = sons. Not the same word as in v. 1. captivity = exile. As in vv. 6, 8, 16; 1. 11; 2. 1; 4. 1; 6. 19, 20, 21; 8. 35; 9. 4.
+10:8 | forfeited = devoted. carried away = into captivity.
+10:9 | Judah and Benjamin. Yet spoken of as containing representatives of all Israel. See note on v. 1. ninth month. That is Chisleu (= Nov.-Dec.), four months after Ezra's arrival (7. 8). street = broad place.
+10:10 | trespass. Heb. 'ashah. See note on 9. 6. Ap. 44. ii.
+10:11 | the LORD. Heb. Jehovah. Ap. 4. II.
+10:12 | As thou hast said = according to thy words. Heb. marg. reads "word".
+10:13 | a time of much rain = the rainy season. transgressed = rebelled. Heb. pasha'. Ap. 44. ix.
+10:14 | rulers = princes. for. Heb. 'ad = "until", as in the previous clause. Translate and supply Fig. Ellipsis (Ap. 6) thus: "until the fierce wrath of our God be turned from us, until this matter [be carried out]".
+10:15 | Only = But, or, Nevertheless. Tikvah. Cp. 2 Kings 22. 14 and 2 Chron. 34. 22. were employed, &c. = superintended [the business].
+10:16 | certain = men. Heb. 'enosh. Ap. 14. III. chief = heads.
+10:17 | the first day of the first month. See note on Gen. 8. 13. Ezra's last date. The commission, therefore, sat for eighty-eight days.
+10:18 | the sons of Jeshua. Who had come up with Zerubbabel (2. 2). There were 973 priests of that house (2. 36). There were found guilty seventeen priests, ten Levites singers and porters, and eighty-six lay people, making 113 in all.
+10:19 | gave their hands. Heb. idiom for giving their word. Cp. 2 Kings 10. 15. being guilty. Cp. Lev. 5. 1. a ram. See Lev. 5. 14-19.
+10:22 | Nethaneel. Some codices, with five early printed editions, read "and Nethaneel".
+10:29 | and Ramoth. Heb. text reads "Jeremoth". Marg. reads "and Ramoth".
+10:31 | of. Some codices, with one early printed edition, Sept., Syr., and Vulg., have this word "of" in the text.
+10:44 | strange = foreign. Thus ends the first part of this book "Ezra-Nehemiah"; not abruptly; as it is followed by the second part, which is concerned mainly with the rebuilding of the city and the walls, instead of with the Temple. The incidents recorded in Neh. 1. 1—7. 4 had taken place before the first return under Zerubbabel. See the Structures and notes on pp. 617, 618, and Ap. 58. Cp. also Neh. 7. 4 with Hag. 1. 1-4.
+10:44 | [N.B. This division of the book Ezra-Nehemiah, in the later printed Hebrew Bibles, is quite modern. It breaks up the fourth of the ten Sedarim (or cycles for public reading) which begins at Ezra 8. 35 and ends with Neh. 2. 10. See note on p. 617, and cp. note on p. 366.] THE TEN SEDARIM are as follows: (1) Ezra 1. 1—3. 12. (2) Ezra 3. 13—6. 17. (3) Ezra 6. 18—8. 34. (4) Ezra 8. 35—Neh. 2. 10. (5) Neh. 2. 11—3. 37. (6) Neh. 3. 38—6. 14. (7) Neh. 6. 15—8. 9. (8) Neh. 8. 10—10. 1 (Heb. 9. 37). (9) Neh. 10. 1 (Heb. 2)—12. 25. (10) Neh. 12. 26—13. 31.

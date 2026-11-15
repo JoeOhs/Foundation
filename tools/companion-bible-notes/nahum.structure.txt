@@ -1,0 +1,89 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Nahum
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/30. Nahum_text.pdf, printed pp. 1261-1265);
+# [[pdf-page:]] is the page of that file each diagram is on. Notation:
+# README.md here. Small-capital words are written in title case.
+#
+# The book Structure's G2 is the Nahum member of the Six Prophets
+# diagram (p. 1206; see hosea.structure.txt).
+
+[[diagram: Nahum. The Structure of the Book as a Whole (Division)]]
+[[anchor: Nahum 1:1]]
+[[pdf: 30. Nahum_text.pdf]]
+[[pdf-page: 1]]
+
+Title |  | 1. 1. THE TITLE.
+G2 |  |
+  A1 |  | 1. 2-8. JEHOVAH'S ATTRIBUTES DECLARED.
+  A2 |  | 1. 9—3. 19. JEHOVAH'S JUDGMENTS FORETOLD.
+
+[[diagram: 1. 2-8 (A1, p. 1261). Jehovah's Attributes Declared (Introversion)]]
+[[anchor: Nahum 1:2-8]]
+[[pdf: 30. Nahum_text.pdf]]
+[[pdf-page: 2]]
+
+A1 |  |
+  A | 2 | Vengeance.
+    B | 3- | Long-suffering.
+      C | -3-5 | Power. Unequalled.
+      C | 6 | Power. Irresistible.
+    B | 7 | Goodness.
+  A | 8 | Vengeance.
+
+[[diagram: 1. 9—3. 19 (A2, p. 1261). Jehovah's Judgments Foretold (Introversion)]]
+[[anchor: Nahum 1:9]]
+[[pdf: 30. Nahum_text.pdf]]
+[[pdf-page: 2]]
+
+A2 |  |
+  D |  | 1. 9-12-. Destruction of Nineveh.
+    E |  | 1. -12-15. Deliverance of Judah.
+  D |  | 2. 1—3. 19. Destruction of Nineveh.
+
+[[diagram: 1. -12-15 (E, p. 1262). Deliverance of Judah (Division)]]
+[[anchor: Nahum 1:12-15]]
+[[pdf: 30. Nahum_text.pdf]]
+[[pdf-page: 3]]
+
+E |  |
+  F1 | -12-14 | Evil removed.
+  F2 | 15 | Good bestowed.
+
+[[diagram: 2. 1—3. 19 (D, p. 1262). Destruction of Nineveh (Introversion and Extended Alternation)]]
+[[anchor: Nahum 2:1]]
+[[pdf: 30. Nahum_text.pdf]]
+[[pdf-page: 3]]
+
+D |  |
+  G |  |
+    K |  | 2. 1, 2. Jehovah's defiance.
+      L |  | 2. 3-10. Judgment. Invasion.
+        M |  | 2. 11—3. 7. Causes.
+          H |  | 3. 8-10. Examples. Citation.
+          H |  | 3. 11-13. Examples. Application.
+  G |  |
+    K |  | 3. 14. Jehovah's defiance.
+      L |  | 3. 15-17. Judgment. Devastation.
+        M |  | 3. 18, 19. Causes.
+
+[[diagram: 2. 3-10 (L, above). Judgment. Invasion (Alternation)]]
+[[anchor: Nahum 2:3-10]]
+[[pdf: 30. Nahum_text.pdf]]
+[[pdf-page: 3]]
+
+L |  |
+  N | 3-6 | Nineveh. Assaulted.
+    O | 7, 8 | Captured.
+  N | 9 | Nineveh. Spoiled.
+    O | 10 | Dismayed.
+
+[[diagram: 2. 11—3. 7 (M, p. 1263). Causes (Alternation)]]
+[[anchor: Nahum 2:11]]
+[[pdf: 30. Nahum_text.pdf]]
+[[pdf-page: 4]]
+
+M |  |
+  P |  | 2. 11, 12. Jehovah. Defiance.
+    Q |  | 2. 13. The cause. Hostility.
+  P |  | 3. 1-3. Jehovah. Defiance.
+    Q |  | 3. 4-7. The cause. Hostility.

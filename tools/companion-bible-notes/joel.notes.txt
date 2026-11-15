@@ -1,0 +1,120 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Joel
+# Marginal (side) notes, to be read alongside the KJV text.
+#
+# Format:  C:V | TEXT  —  verse 0 = a book-level introductory note
+#          [[heading: TEXT]] — the page's own heading over those notes
+#
+# ---------------------------------------------------------------------
+# Sources and method — as for Hosea (see hosea.notes.txt)
+# ---------------------------------------------------------------------
+# Read from the page scans inside thecompanionbible_202504_pdf/
+# 25. Joel_text.pdf (printed pp. 1224-1230), one note column and
+# bottom block at a time, then cross-checked against a fresh Tesseract
+# OCR with ocr-check.py. Verse 0 holds Joel's introduction (p. 1224,
+# below the end of Hosea); its table of contemporaries is one entry
+# per row. Each Structure's heading is kept at the head of the note
+# for its first verse (two headings that print together are kept at
+# the head of 2:21). Notes that run over a page join their verse's
+# entry. Transliterations are plain ASCII (superscript e written ');
+# small capitals are written in capitals; Gothic-letter pronouns
+# (I, He, ye, you) are written in plain type.
+#
+# COMPLETE: all 3 chapters, every printed note, printed pp. 1224-1230.
+#
+# Corrections: none.
+# Kept as printed (verified on the scan):
+#   - 1:14 heading "1. 14—3. 27" (the book Structure has 1. 14—2. 17;
+#     Joel 3 has 21 verses).
+#   - 2:28 "(2. 21-27, O2 above)" (2. 21-27 is O1).
+#   - 2:19 "See note on "rule", v. 17" (no such note is printed).
+#   - 3:11, 3:12 "Cp. 3. 2." (cross-reference within the chapter).
+
+[[heading: JOEL]]
+0 | For the CANONICAL order and place of the Prophets, see Ap. 1, and p. 1206.
+0 | For the CHRONOLOGICAL order of the Prophets, see Ap. 77.
+0 | For the Formulae of Prophetic utterance, see Ap. 82.
+0 | For the Inter-relation of the Prophetic Books, see Ap. 78.
+0 | For the Inter-relation of the Minor (or Shorter) Prophets, see p. 1206.
+0 | For the References to the Pentateuch by the Prophets, see Ap. 92.
+0 | Joel's prophecy is undated. No references are made to time, because it looks onward to the time of the end, and to the events that will usher in "the Day of the LORD".
+0 | As Hosea was sent to guilty Israel, so Joel was sent to guilty Judah. Hosea's "burden" relates to the end of the Northern Kingdom; Joel's prophecy relates to the end of the Kingdom of Judah, and probably covers the last seven years of Zedekiah. In that case he would commence in the fifth year of Jehoiachin's captivity, the very year that Ezekiel begins, and 100 years after Isaiah ends. If "Joel completed his prophecy before Amos collected his" (as alleged), then, in the period of Uzziah-Jeroboam II, which ended in 687 B.C., there is no historical background for Joel's burning words concerning Judah and the great "Day of the LORD".
+0 | Similar passages in Joel 3. 16 and Amos 1. 2 no more prove that Amos quoted from Joel than they prove that Joel quoted from Amos. The same may be said of Joel 1. 15 and Isa. 13. 6.
+0 | In Joel's summons to fasting and prayer, many as are the classes invited, no mention is made of the royal house; and, throughout his prophecy, no king of Judah is mentioned later than Jehoshaphat, and then only in connection with his "valley".
+0 | But if the period covered by Joel be taken as from 488 to 477 B.C., then we have, as contemporaries:—
+0 | Jeremiah in Jerusalem;
+0 | Joel in Judah;
+0 | Daniel in Babylon;
+0 | Ezekiel in Babylonia and in the Land.
+0 | All prophesying together during the last seven years of the kingdom of Judah.
+1:1 | TITLE. The word of the LORD. Therefore not Joel's. This is the Divine key to the book: Joel's pen, but not Joel's words. Cp. Acts 1. 16 for a similar fact concerning David. the LORD. Heb. Jehovah. Ap. 4. II. Joel = Jehovah [is] GOD. the son of Pethuel. This does not imply that Pethuel was a prophet. It merely distinguishes this Joel from others of the same name.
+1:2 | Hear. Note this indication of the formula of Joel's prophetic utterances. See Ap. 82. ye. Heb. has no proper vocative. The simple Noun with the Article takes its place. old men. Not official elders, but those whose memory goes back farthest. Hath . . .? Fig. Erotesis (Ap. 6), for emphasis. Cp. 2. 2.
+1:3 | Tell ye your children. Ref. to Pent. (Deut. 4. 9; 6. 6, 7; 11. 19). Ap. 92. Cp. Ps. 78. 3-8. children = sons. Note the Fig. Climax (Ap. 6).
+1:4 | 1. 4-13 (B, p. 1224). JUDGMENTS. INFLICTED. (Division.) That which, &c. Ref. to Pent. (Deut. 28. 38). Cp. 2. 25. The English of this verse is beautifully idiomatic, but twelve Hebrew words condense the whole. See below. palmerworm. This is named first of four different stages of the locust. English = hairy caterpiller; Heb. gazam, or the gnawer. The pupa stage. locust. Heb. 'arbeh = the swarmer. The imago stage. cankerworm. Heb. yelek = the devourer. caterpiller. Heb. hasil = the consumer. The larva stage. Cp. 2. 25, and Nah. 3. 15, 16. These four words show the completeness of the destroying agencies. The Heb. reads:— "Gnawer's remnant, Swarmer eats: Swarmer's remnant, Devourer eats; Devourer's remnant, Consumer eats."
+1:5 | 1. 5-13 (A2, above). THE DESTRUCTION. LITERAL AND PARTICULAR. (Alternations.) wine. Heb. yayin. Ap. 27. I. new wine. Heb. 'asis. Ap. 27. V.
+1:6 | a nation. See 2. 20; and cp. Dan. 11. Put for the great destroying powers which are symbolized in v. 4 by the locusts. Cp. 2. 2, 11, 25. Rev. 9. My land. So called because Jehovah is about to put in His claim. The end-time is here referred to, when He will do this: "the day of the LORD". See v. 15, and 2. 1, &c.
+1:7 | He. The nation of v. 6. My vine . . . My fig tree. Note this "My", for Jehovah is about to recover His People Israel, as the issue of "the day of the LORD". Cp. Ps. 80. 8, 14. Isa. 5. 1-6; 27. 2. Hos. 10. 1. Also for the fig-tree cp. Hos. 9. 10. Matt. 21. 19. Luke 13. 6, 7. barked = reduced to splinters or chips. Heb. k'zaphah. Occurs only here. The root is connected with foam, cp. Hos. 10. 7.
+1:8 | Lament. Fem. agreeing with "land", v. 6.
+1:9 | meat offering = the meal or gift offering. Heb. minchah. See Ap. 43. II. iii. Ref. to Pent. (Lev. 2). Ap. 92. Cp. 2. 14. drink offering. Ref. to Pent. (Ex. 29. 40. Lev. 23. 13. Num. 15. 3-10) and Ap. 92. See Ap. 43. II. x. ministers. Ref. to Pent. (Num. 3. 6, &c.). Ap. 92.
+1:10 | field . . . wasted. Note the Fig. Paronomasia (Ap. 6). Heb. shuddad . . . sadeh. land = soil. Heb. 'adamah. Not the same word as in vv. 2, 6, 14, &c., in this book; but the same as in 2. 21. Verses 10-12 show why the offerings cannot be brought. new wine. Heb. tirosh. Ap. 27. II. Same word as in 2. 19, 24. Not the same as in v. 5 and 3. 18.
+1:12 | men. Heb. 'adam. Ap. 14. I.
+1:13 | ministers of the altar. Ref. to Pent. (Ex. 30. 20). Ap. 92. lie all night, &c. The symbol of mourning; cp. 2 Sam. 12. 16. God. Heb. Elohim. Ap. 4. I.
+1:14 | 1. 14—3. 27 (A, p. 1224). CALL TO REPENTANCE. (Simple and Extended Alternations.) a solemn assembly = a day of restraint. Heb. 'azarah. Occurs only here, in 2. 15; 2 Kings 10. 20; and Isa. 1. 13. Ref. to Pent. (Lev. 23. 36. Num. 29. 35. Deut. 16. 8) where the fem. form 'azereth is used (Ap. 92). It is found also in 2 Chron. 7. 9. Neh. 8. 18. gather the elders. There being no mention of a king in this book is held by some as pointing to the time of Athaliah's usurpation. But see notes on p. 1224, and Ap. 77.
+1:15 | the day of the LORD. See note on Isa. 2. 12. This is the great subject of Joel's prophecy, already then "at hand". destruction from the ALMIGHTY. Note the Fig. Paronomasia (Ap. 6). Heb. k'shod mishshaddai = mighty destruction from the ALMIGHTY. Cp. Isa. 13. 6. the ALMIGHTY = the All-bountiful. Heb. Shaddai. Ap. 4. VII. In this connection it is similar to "the wrath of the Lamb" (Rev. 6. 16, 17) in its violent contrast.
+1:16 | Is not . . . ? Fig. Erotesis. Ap. 6. joy and gladness. Ref. to Pent. (Deut. 12. 6, 7; 16. 11, 14, 15).
+1:17 | The seed, &c. Note the Fig. Anabasis (Ap. 6) in this verse.
+1:18 | the beasts. Cp. Hos. 4. 3.
+1:19 | to Thee will I cry. Cp. Ps. 50. 15. the fire. Cp. 2. 3. wilderness = common land.
+1:20 | rivers = waters of the Aphikim. See note on "channels", 2 Sam. 22. 16.
+2:1 | Zion. See Ap. 68. sound an alarm. Ref. to Pent. (Num. 10. 5, 9). Ap. 92. My. Note the Pronoun, and see notes on 1. 6, 7. holy mountain = mountain of My sanctuary. holy. See note on Ex. 3. 5. the day of the LORD. See notes on 1. 15. This is the subject of the book. Cp. Obad. 15. Zeph. 1. 14, 15. the LORD. Heb. Jehovah. Ap. 4. II.
+2:2 | A day, &c. Cp. Amos 5. 18, 20. morning = blackness, or darkness. Heb. shahar. A Homonym with two meanings: (1) to be black or dark (Job 30. 30). Hence put for seeking in the early morning while yet dark (Pss. 78. 34; 63. 1. Prov. 1. 28. Isa. 26. 9. Hos. 5. 15, &c.); (2) dawn or morning (Gen. 19. 15; 32. 24, 26. Josh. 6. 15. Hos. 6. 3; 10. 15, &c.). a great people. Symbolized by the locusts in 1. 4.
+2:3 | A fire, &c. Cp. 1. 19, 20. them. The northern army (v. 11) symbolized by the locusts of 1. 4. the garden of Eden. Ref. to Pent. (Gen. 2. 8; 13. 10). Ap. 92. Cp. Isa. 51. 3. Ezek. 36. 35. a desolate wilderness. Cp. 3. 19. Ps. 107. 34.
+2:4 | The appearance of them: i.e. the army of v. 20, symbolized by the locusts of 1. 4. Cp. Rev. 9. 7. horsemen = war-horses (Hab. 1. 8).
+2:5 | Like the noise, &c. Cp. Rev. 9. 9. Connect this with the end of v. 4. on the tops, &c. The Heb. accents connect this with the leaping, not with the chariots. leap = rattle along. as a strong people. Cp. v. 2. Not locusts. The symbol must not be confused with what is symbolized.
+2:6 | people = people's. blackness = paleness.
+2:7 | men. Heb. pl. of 'enosh. Ap. 14. III.
+2:8 | thrust = jostle, or press. walk = march, as in v. 7. sword = weapons. Heb. shelach = missiles, supposed to be "a late word" because not used earlier than 2 Chron. 23. 10; 32. 5. Neh. 4. 17, 23; but it is used in Job 33. 18; 36. 12. Song 4. 13. they shall not, &c. Cp. Rev. 9. The whole scene belongs to "the day of the LORD". Only confusion arises from not keeping the symbol distinct from what is symbolized. be wounded = stop.
+2:9 | run . . . in the city . . . climb . . . enter, &c. These are put for the acts of men. like a thief. A thief is a man (not an insect); so are these. Cp. Matt. 24. 43, 44. Luke 12. 39. 1 Thess. 5. 2. 2 Pet. 3. 10.
+2:10 | the sun and the moon shall be dark. Another proof of what is signified; and that this prophecy concerns what is future. Cp. 3. 15. See Matt. 24. 29. Cp. Isa. 13. 10. Ezek. 32. 7, 8. Acts 2. 20. Rev. 6. 12.
+2:11 | great, &c. Cp. v. 31. Jer. 30. 7. Amos 5. 18. Zeph. 1. 15. who can abide it? Ref. to Pent. (Num. 24. 23). Ap. 92. Cp. Jer. 10. 10. Zeph. 1. 14. Mal. 3. 2.
+2:12 | Therefore, &c. Another call ("F", v. 12, corresponding with "F", v. 1). See the Structure, p. 1226. saith the LORD = [is] Jehovah's oracle. turn ye = turn ye back, or return. to = quite up to, as in Hos. 14. 1. with all your heart. Ref. to Pent. (Deut. 6. 5). and. Some codices, with one early printed edition, Syr., and Vulg., omit this "and".
+2:13 | rend your heart. Cp. Pss. 34. 18; 51. 17. your garments. Ref. to Pent. (Gen. 37. 34). Ap. 92. God. Heb. Elohim. Ap. 4. I. He is gracious, &c. Ref. to Pent. (Ex. 34. 6, 7. Num. 14. 18). Ap. 92. Cp. 2 Chron. 30. 9. Neh. 9. 17, 31. Pss. 86. 5, 15; 103. 8; 145. 8. kindness = grace. repenteth. Fig. Anthropopatheia. Ap. 6. evil. Heb. ra'a'. Ap. 44. viii.
+2:14 | Who knoweth . . . ? That this refers to Jehovah is clear from Jonah 3. 9. return = turn away from [His fierce anger], as in Jonah 3. 9, where it is ascribed to "God". Same word as in v. 12. a blessing: i.e. a new harvest. Cp. Isa. 65. 8. meat . . . drink offering, &c. See note on 1. 9, 13.
+2:15 | a solemn assembly = a day of restraint. See note on 1. 14.
+2:16 | Gather = Gather in. sanctify the congregation = hallow a convocation. Ref. to Pent. (Ex. 19. 10, 22). Ap. 92. gather = gather out. closet = bridal canopy. See notes on Ps. 19. 5 and Isa. 4. 5. The only three occurrences of Heb. chuppah.
+2:17 | the priests, the ministers of the LORD. See note on 1. 9. between, &c. Cp. Ezek. 8. 16. Spare Thy People, &c. Ref. to Pent. (Ex. 32. 11, 12. Deut. 9. 26, 29). Ap. 92. Cp. Neh. 13. 22. Thine heritage. Ref. to Pent. (Deut. 32. 9). Ap. 92. heathen = nations. wherefore . . . ? Fig. Erotesis. Ap. 6. Ref. to Pent. (Deut. 9. 26-29). Ap. 92. Cp. Pss. 42. 10; 79. 10; 115. 2. Mic. 7. 10. people = peoples.
+2:18 | 2. 18—3. 21 (L, p. 1226). CONSEQUENCES. (Repeated Alternation.) jealous for His land, &c. Ref. to Pent. (Deut. 32. 36-43). Ap. 92. These remind us of the concluding words of the "Song of Moses", and sum up the object and outcome of all the events which go to make up "the day of the LORD".
+2:19 | Behold. Fig. Asterismos (Ap. 6), to call attention to the "blessing" mentioned in v. 14. corn, &c. Cp. 1. 10; Mal. 3. 11, 12. The Article is used with each of these in the Hebrew text. wine. Heb. tirosh. Ap. 27. II. make you a reproach. See note on "rule", v. 17.
+2:20 | the northern army. This is what the "locusts" of 1. 4 are the symbol of. The prophet does not "forget for a moment" the locusts of 1. 4; but, here explains the symbol. Locusts do not come from the north. The armies of Rev. 9, Dan. 11 do. the east sea: i.e. the Dead Sea. Cp. Ezek. 47. 18. Zech. 14. 8. the utmost sea = the Great Sea. Ref. to Pent. (Deut. 11. 24; 34. 2). Ap. 92. Cp. "hinder" in Zech. 14. 8. stink shall come up. Referring to the destruction of Isa. 66. 24. he. The invader, the antichrist or beast of Dan. 7 and 8. hath done great things = he magnified himself to do great things. Cp. Dan. 8. 9-11; 11. 36, and notes there. This is quite inapplicable to locusts.
+2:21 | 2. 21-32 (M2, p. 1227). GOOD BESTOWED. LAND AND PEOPLE. (Division.) 2. 21-27 (O1, above). TEMPORAL BLESSINGS. (Repeated Alternation.) Fear not. Fig. Apostrophe. Ap. 6. land = soil. Heb. 'adamah. See note on 1. 10. will do great things. Greater than the foe himself (v. 20).
+2:22 | Be not afraid, &c. Fig. Apostrophe (Ap. 6), as in v. 21. Cp. 1. 18, 20. pastures, &c. Cp. 1. 19. strength = abundance.
+2:23 | Be glad, &c. Fig. Apostrophe (Ap. 6), to the people. children = sons. moderately = in due measure. Ref. to Pent. (Lev. 26. 4. Deut. 11. 14; 28. 12). Ap. 92. in the first month = [as at] the first, or [as] aforetime. Obviously, the two rains do not come in one and the same month.
+2:24 | floors = threshing-floors. wheat = corn. fats = vats. Anglo-Saxon (northern) faet, (southern) vat = a vessel, or cask. Lit. = that which contains. Heb. yekeb = the reservoir for receiving the wine; not gath, the press where the grapes are pressed. See note on Isa. 5. 2.
+2:25 | restore: make good. locust, &c. See note on 1. 4. My great army. Here the symbol, and what is symbolized, are joined together, and the army of men (vv. 11, 20) is implied by the Fig. Hypocatastasis (Ap. 6).
+2:26 | ye shall eat, &c. Ref. to Pent. (Lev. 26. 5). Ap. 92. eat = eat on. praise, &c. Ref. to Pent. (Lev. 19. 24. Deut. 12. 7; 16. 11; 26. 11). Ap. 92. shall never be ashamed. This is repeated at the end of the next verse by the Fig. Epistrophe (Ap. 6) for emphasis. Not "a copyist's error", as alleged.
+2:27 | ye shall know, &c. Ref. to Pent. (Lev. 26. 11-13. Deut. 23. 14). Ap. 92. Cp. Ezek. 37. 26-28.
+2:28 | 2. 28-32 (O2, above). SPIRITUAL BLESSINGS. (Introversion.) afterward: i.e. after the "good bestowed" had begun to be enjoyed (2. 21-27, O2 above): for the nation had been restored under Ezra and Nehemiah; "the light had sprung up" (Isa. 42. 7. Matt. 4. 12-16. Luke 2. 32); "the days of the Son of Man" were then present (Luke 17. 22). "Afterward" would come the days of the Spirit; and "this is that" which was seen on "the day of Pentecost", when Joel 2. 28, 29 began to be fulfilled. Had the nation repented at the summons of Peter in Acts 3. 18-26, "all things which God had spoken by the mouth of all His holy prophets" would have been fulfilled, including Joel 2. 30, 31, and 32 (S and R). Mal. 4. 5 also would have been taken of John the Baptist if they had received it (Matt. 11. 14): the Heb. 'achare-ken always referring to what follows. I will pour out My spirit. Note the Fig. Epanadiplosis (Ap. 6) used to emphasise the statement included within this sentence, and the repetition of it at the end of v. 29. spirit. Heb. ruach. Ap. 9. This must be put by Fig. Metonymy (of Cause), Ap. 6, for the "power from on high", or spiritual gifts. See note on Acts 2. 4. God the Holy Spirit cannot be "poured out". all flesh. Put by Fig. Synecdoche (of Genus), Ap. 6, for all sorts and conditions of men, as described in the words which follow. and your daughters. Women are not excluded from spiritual gifts. prophesy. Not necessarily foretelling, but forthtelling, by speaking for God. Only such as were thus called and gifted could be His spokesmen. Cp. Num. 11. 16, 17, 29. See Ap. 78.
+2:29 | servants, &c. Any whom God might call. Elisha was a ploughman, Amos a herdsman.
+2:30 | I will shew. Cp. Matt. 24. 29. Mark 13. 24. blood, and fire. These are symbols of Divine judgment; not of salvation by grace.
+2:31 | the terrible, &c. This is the time for the fulfilment of Joel's prophecy. Cp. 2. 1, 11. Mal. 4. 5.
+2:32 | in mount Zion. Cp. Isa. 46. 13; 59. 20. Obad. 17. Zech. 14. 1-5. Rom. 11. 26. Jerusalem. As distinct from Mount Zion. See Ap. 68. deliverance = a delivered remnant. Cp. 2. 3. as = according as. hath said: by Joel and other prophets. remnant = an escaped set. shall call = is going to call.
+3:1 | 3. 1-16- (N2, p. 1227). EVIL REMOVED. (Extended and Repeated Alternation.) For. Binding this portion to what immediately precedes. behold. Fig. Asterismos. Ap. 6. in those days, &c. The prophecy, instead of contracting, widens out to the final judgment of the nations (Matt. 25. 31-46, "when the Son of Man shall come in His glory . . . and sit upon the throne of His glory"). There is no resurrection in this chapter or in that. Here we have the nucleus of the nations of Rev. 21. 24. bring again the captivity. The idiom for restoring the fortunes of. Ref. to Pent. (Deut. 30. 3). Ap. 92. Cp. Job 42. 10. Ps. 126. 1, 4. Ezek. 16. 53, &c. Amos 9. 14.
+3:2 | I will also gather. Cp. Zech. 14. 2-4. all nations. Put by Fig. Synecdoche (of the Whole), Ap. 6, for representatives or people from all nations. the valley of Jehoshaphat. Between Jerusalem and the Mount of Olives. The name then existing is still preserved in the village of Sh'afat; now the Wady Sitti Miriam and Wady Far'aun. Mentioned only here, and in v. 12; the event recorded in 2 Chron. 20. 21-26 being typical of this scene of the future judgment of the nations. Note "to this day". Jehoshaphat = Jehovah hath judged. will plead with them = will judge them. Note the Fig. Paronomasia (Ap. 6) for emphasis. Heb. y'hoshaphat v'nishpatti. Cp. Isa. 66. 16. Ezek. 38. 22. My. Note the force of this pronoun when Jehovah calls Israel again "Ammi" (Hos. 2. 23). The judgment of Matt. 25 turns on how the nations had treated "My brethren", and not upon the grounds of justification by faith. My heritage. Ref. to Pent. (Deut. 32. 9). Ap. 92. Israel. Note this; not merely Judah, but the twelve-tribed nation.
+3:3 | they have, &c. This describes past sufferings. Cp. Obad. 16. Nah. 3. 11. wine. Heb. yayin. Ap. 27. I.
+3:4 | coasts = circuit, or region. Palestine = Philistia. render = pay back. Cp. Ezek. 25. 15-17. if = though.
+3:5 | pleasant things = things of desire, or valuable things. Cp. Dan. 11. 38.
+3:6 | children = sons. the Grecians. Heb. the sons of the Greeks.
+3:7 | I will raise, &c. Cp. Isa. 43. 5, 6, with 49. 12. Jer. 23. 8.
+3:8 | Sabeans. Defined as a distant nation. See note on Job 1. 15. people = nations. the LORD. Heb. Jehovah. Ap. 4. II.
+3:9 | Proclaim, &c. Cp. Isa. 8. 9, 10. Jer. 46. 3, 4. Ezek. 38. 7. Gentiles = nations. Prepare = Hallow. men. Heb. pl. of 'enosh. Ap. 14. III.
+3:10 | Beat your plowshares, &c. This precedes the opposite command to be given after this in Isa. 2. 4 and Mic. 4. 3, when Hos. 2. 18 shall be fulfilled. pruninghooks: or, scythes.
+3:11 | Assemble yourselves. Cp. 3. 2. Heb. 'ushu = haste ye, as in Sept. and Vulg. Occurs only here. heathen = nations. thither. To the valley of Jehoshaphat. Thy mighty ones. Cp. Ps. 103. 20. Isa. 13. 3.
+3:12 | wakened. Cp. 3. 2. and come up. Cp. Pss. 96. 13; 98. 9; 110. 6. Isa. 2. 4; 3. 13. Mic. 4. 3. there will I sit, &c. See v. 2.
+3:13 | Put ye in the sickle. Cp. Matt. 13. 39. Rev. 14. 15, 18. sickle = vintage-knife. Heb. maggal. Occurs only here and Jer. 50. 16. the harvest = the vintage. Cp. Jer. 51. 33. Hos. 6. 11. get you down = go in: i.e. into the winepress = tread ye. press. Heb. gath. fats. Heb. yekeb. See note on 2. 24. their. The 1611 edition of the A.V. reads "the". wickedness. Heb. ra'a'. Ap. 44. viii.
+3:14 | Multitudes. Note the Fig. Epizeuxis (Ap. 6), to express "great multitudes". decision = threshing: i.e. judgment. Cp. Isa. 41. 15. the day, &c. Defining the time as well as the place. Cp. 2. 1.
+3:15 | The sun and the moon, &c. Cp. 2. 10, 31.
+3:16 | The LORD = But Jehovah. Ap. 4. II. roar out of Zion. Cp. Jer. 25. 30. Ezek. 38. 18-22. Amos 1. 2. roar = thunder. the heavens . . . shall shake. Cp. 2. 10. Hag. 2. 6. but the LORD. Cp. Isa. 51. 5, 6. hope = refuge. strength = stronghold.
+3:17 | So shall ye know, &c. Cp. 2. 27. See note on Ezek. 6. 7. God. Heb. Elohim. Ap. 4. I. My holy mountain. Cp. Dan. 11. 45. Obad. 16. Zech. 8. 3. holy = holiness. See note on Ex. 3. 5. no strangers. Cp. Isa. 35. 8; 52. 1. Nah. 1. 15. Zech. 14. 21. Rev. 21. 27. strangers = foreigners.
+3:18 | that day. Cp. v. 1. mountains . . . hills. Cp. Amos 9. 13. drop down = distil. new wine = sweet wine, or mead. Heb. 'asis. Ap. 27. V. rivers. Heb. 'aphikim. See note on "channels", 2 Sam. 22. 16. Judah. The country; not the People. a fountain, &c. Ezek. 47. 1. Zech. 14. 8. Rev. 22. 1. See Ap. 68. Shittim = the acacias. Ref. to Pent. (Num. 33. 49). Ap. 92.
+3:19 | violence against. Genitive of Relation. Ap. 17. 5. innocent blood. Ref. to Pent. (Deut. 19. 10; 27. 25).
+3:20 | dwell = remain, or be established.
+3:21 | cleanse . . . cleansed = clear . . . cleared. This could be done only by avenging it; for God will "by no means clear the guilty" (Ex. 34. 7. Num. 14. 18); and Egypt, Edom, &c., were guilty (v. 19), and are not to be "cleansed", but punished for shedding Judah's blood. The Heb. nakah is not used of cleansing, naturally or ceremonially. Not the same word as Isa. 4. 4. The Sept. and Syr. render it "make inquisition for" in 2 Kings 9. 7; and evidently read nakam = to avenge (akin to nakah). This would be a vivid ref. to Pent. in Deut. 32. 42, 43, the parallel event. Cp. Rev. 6. 10, 11. have not = had not. dwelleth in Zion = is about to make His dwelling in Zion. Thus ending like Ezekiel (Ezek. 48. 35), Jehovah Shammah. Cp. 3. 17. Ps. 87. 3. Rev. 21. 3.

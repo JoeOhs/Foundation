@@ -1569,12 +1569,12 @@ running list of what's done and what's next, not a commitment.
   is set from the page and not machine-proven (the HOCR comparison is too
   noisy to confirm it).
 
-  Known gap, Genesis onward: a bare in-book reference ("See note on
-  26. 28", "Cp. 30. 21") is **not** linked — only `v. N` and references
-  that name a book are. Linking bare `C. V` as the note's own book would
-  mis-link chained references: "Ex. 5. 23 "…"; 18. 18" means Exodus 18,
-  not Genesis 18. Needs a rule that only takes a bare reference when no
-  other book is in force; until then they read as plain text.
+  A bare `C. V` is linked only after a cue word ("Cp.", "See", "as in",
+  "note on"): to the book of a reference just before it ("Ex. 30. 12
+  (cp. 38. 25)", or across a full stop inside that reference's bracket,
+  "(Dan. 9. 1. Cp. 6. 1)"), else to a book named in the prose, else the
+  note's own book. Known gap: a bare `C. V` with no cue ("the three thirteens: 3. 12, 13", Est. 3. 12)
+  still reads as plain text, since it can't be told from dates and figures.
 
   **Structure depths were corrected across the Torah** after a review against
   the page scans. `updateCompanionNotesLayout` applies such corrections once on

@@ -1,0 +1,434 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Daniel
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/23. Daniel_text.pdf, printed pp. 1178-1206);
+# [[pdf-page:]] is the page of that file each diagram is on. Notation:
+# README.md here.
+
+[[diagram: Daniel. The Structure of the Book as a Whole (Introversion)]]
+[[anchor: Daniel 1:1]]
+[[pdf: 23. Daniel_text.pdf]]
+[[pdf-page: 1]]
+
+A |  | 1. 1-21. THE CAPTIVITY OF JUDAH. HISTORICAL EVENTS CONNECTED WITH ITS BEGINNING.
+  B |  | 2. 1-49. THE DREAM OF NEBUCHADNEZZAR. THE BEGINNING AND DURATION OF GENTILE DOMINION.
+    C |  | 3. 1-30. DANIEL'S COMPANIONS. THE "FIERY FURNACE". ANGELIC DELIVERANCE.
+      D |  | 4. 1-37. THE FIRST KING OF BABYLON. NEBUCHADNEZZAR'S DREAM OF THE "GREAT TREE", REVEALING HIS TEMPORARY DEPOSITION.
+      D |  | 5. 1-31. THE LAST KING OF BABYLON. BELSHAZZAR'S VISION OF THE "HAND", REVEALING HIS FINAL DOOM.
+    C |  | 6. 1-28. DANIEL HIMSELF. THE "DEN OF LIONS". ANGELIC DELIVERANCE.
+  B |  | 7. 1—8. 27. THE DREAM AND VISION OF DANIEL. THE END OF GENTILE DOMINION.
+A |  | 9. 1—12. 13. THE DESOLATIONS OF JERUSALEM. PROPHETIC ANNOUNCEMENTS CONNECTED WITH THEIR END.
+
+[[diagram: 1. 1-21 (A, p. 1178). The Captivity of Judah. Historical Events Connected with its Beginning (Introversions and Alternation)]]
+[[anchor: Daniel 1:1-21]]
+[[pdf: 23. Daniel_text.pdf]]
+[[pdf-page: 2]]
+
+A |  |
+  A | 1, 2 | The time.
+    B |  |
+      C | 3 | Daniel and his companions.
+      D |  |
+        a | 4 | Their attainments.
+          b | 5 | Their provision. (Appointment.)
+    B |  |
+      C | 6, 7 | Daniel and his companions.
+      D |  |
+        b | 8-16 | Their provision. (Resolve.)
+        a | 17-20 | Their attainments.
+  A | 21 | The time.
+
+# 1. 1-21: the first D's b prints one step right of a (followed); the
+# second D prints b, a as a leftward staircase, set at one depth.
+
+# 2. 1-49: F pair prints one step right of e; set one level in from E
+# (Jeremiah/Ezekiel convention). In the second F, H prints before G and
+# f, g print at one x; set at one depth.
+[[diagram: 2. 1-49 (B, p. 1178). The Dream of Nebuchadnezzar. The Duration of Gentile Dominion (Alternations and Introversion)]]
+[[anchor: Daniel 2:1-49]]
+[[pdf: 23. Daniel_text.pdf]]
+[[pdf-page: 3]]
+
+B |  |
+  E |  |
+    c | 1-3 | Chaldeans brought in.
+      d | 4-9 | King's requisition.
+        e | 10, 11 | Their inability.
+[[group: Chaldeans]]
+    F |  |
+      G |  |
+        f | 12-16 | King's resentment.
+          g | 17, 18 | Daniel and others.
+        H | 19-23 | Revelation.
+[[group: Suspense]]
+  E |  |
+    c | 24, 25 | Daniel brought in.
+      d | 26, 27 | King's requisition.
+        e | 28-30 | Daniel's ability.
+[[group: Daniel]]
+    F |  |
+      H | 31-45 | Communication.
+      G |  |
+        f | 46-48 | King's gratitude.
+        g | 49 | Daniel and others.
+[[group: Captivity]]
+
+# 3. 1-30: O prints one step right of N (followed). M prints one step
+# right of O; set one level in from L (sibling of N), as Ezekiel's U/T.
+[[diagram: 3. 1-30 (C, p. 1178). Daniel's Companions. The Fiery Furnace (Alternations)]]
+[[anchor: Daniel 3:1-30]]
+[[pdf: 23. Daniel_text.pdf]]
+[[pdf-page: 7]]
+
+C |  |
+  K |  |
+    L |  |
+      N | 1-6 | Command to worship the image.
+        O | 7 | Obedience.
+      M | 8-12 | Accusation of the three.
+  K |  |
+    L |  |
+      N | 13-15 | Command to worship the image.
+        O | 16-18 | Refusal.
+      M | 19-30 | Condemnation of the three.
+
+[[diagram: 3. 19-30 (M, p. 1184). Condemnation of the Three (Extended Alternation)]]
+[[anchor: Daniel 3:19-30]]
+[[pdf: 23. Daniel_text.pdf]]
+[[pdf-page: 8]]
+
+M |  |
+  h | 19 | The king enraged.
+    i | 20, 21 | The Three cast into the furnace.
+      k | 22 | Fire. Power over the executioners.
+        l | 23 | Deliverance to the fire. Fall.
+  h | 24, 25 | The king amazed.
+    i | 26 | The Three called forth from the furnace.
+      k | 27 | Fire. No power over the Three.
+        l | 28-30 | Deliverance from the furnace. Promotion.
+
+# 4. 1-37: the Q members print one step right of P; set one level in.
+# The third R's superscript is damaged in the scan (reads like 1); R3 by
+# the sequence.
+[[diagram: 4. 1-37 (D, p. 1178). Nebuchadnezzar's Dream of the Great Tree. His Temporary Deposition (Introversion and Repeated Alternation)]]
+[[anchor: Daniel 4:1-37]]
+[[pdf: 23. Daniel_text.pdf]]
+[[pdf-page: 8]]
+
+D |  |
+  P | 1-3 | The Proclamation.
+    Q1 | 4, 5 | The Dream dreamed.
+      R1 | 6-9 | Interpretation desired.
+    Q2 | 10-17 | The Dream recited.
+      R2 | 18 | Interpretation required.
+    Q3 | 19-23 | The Dream repeated.
+      R3 | 24-33 | Interpretation given and fulfilled.
+  P | 34-37 | The Proclamation.
+
+[[diagram: 5. 1-31 (D, p. 1178). Belshazzar's Vision of the Hand. His Final Doom (Division)]]
+[[anchor: Daniel 5:1-31]]
+[[pdf: 23. Daniel_text.pdf]]
+[[pdf-page: 11]]
+
+D |  |
+  S1 | 1-29 | The Prediction.
+  S2 | 30, 31 | The Fulfilment.
+
+# 5. 1-29: U prints one step right of n; set one level in from T.
+[[diagram: 5. 1-29 (S1, above). The Prediction. (Belshazzar's Feast.) (Alternations)]]
+[[anchor: Daniel 5:1-29]]
+[[pdf: 23. Daniel_text.pdf]]
+[[pdf-page: 11]]
+
+S1 |  |
+  T |  |
+    m | 1-4- | Impiety.
+      n | -4 | Idolatry.
+    U |  |
+      o | 5 | The Hand.
+        p | 6-15 | Interpretation required.
+          q | 16 | Gifts promised.
+  T |  |
+    m | 17-23- | Impiety.
+      n | -23 | Idolatry.
+    U |  |
+      o | 24 | The Hand.
+        p | 25-28 | Interpretation given.
+          q | 29 | Gifts given.
+
+# 6. 1-28: the W members print one step right of V; set one level in.
+[[diagram: 6. 1-28 (C, p. 1178). Daniel Himself. The Den of Lions (Alternations)]]
+[[anchor: Daniel 6:1-28]]
+[[pdf: 23. Daniel_text.pdf]]
+[[pdf-page: 13]]
+
+C |  |
+  V | 1-3 | Daniel's prosperity.
+    W1 |  |
+      X1 | 4-6 | Conspiracy made.
+        Y1 | 7-9 | Decree obtained.
+    W2 |  |
+      X2 | 10-13 | Conspiracy succeeds.
+        Y2 | 14-17 | Decree enforced.
+    W3 |  |
+      X3 | 18-24 | Conspiracy fails.
+        Y3 | 25-27 | Decree reversed.
+  V | 28 | Daniel's prosperity.
+
+[[diagram: 7. 1—8. 27 (B, p. 1178). The Dream, and Visions of Daniel. The End of Gentile Dominion (Division)]]
+[[anchor: Daniel 7:1]]
+[[pdf: 23. Daniel_text.pdf]]
+[[pdf-page: 15]]
+
+B |  |
+  Z1 |  | 7. 1-28. The Vision of the Four Beasts. (First year.)
+  Z2 |  | 8. 1-27. The Vision of the Two Beasts. (Third year.)
+
+# 7. 1-28: each B prints one step right of D; set one level in from A
+# (sibling of C). Braces span C, D only.
+[[diagram: 7. 1-28 (Z1, above). The Vision of the Four Beasts (Repeated Alternations)]]
+[[anchor: Daniel 7:1-28]]
+[[pdf: 23. Daniel_text.pdf]]
+[[pdf-page: 15]]
+
+Z1 |  |
+  A1 |  |
+    C1 | 1-8 | The Four Beasts.
+      D1 | 9-14 | The judgment of the Son of Man.
+[[group: The Vision]]
+    B1 | 15, 16 | Daniel's perturbation and inquiry.
+[[group: -]]
+  A2 |  |
+    C2 | 17 | The Four Beasts.
+      D2 | 18 | The judgment of the Son of Man.
+[[group: The Interpretation]]
+    B2 | 19-22 | Daniel's inquiry.
+[[group: -]]
+  A3 |  |
+    C3 | 23-25 | The Fourth Beast.
+      D3 | 26, 27 | The judgment of the Son of Man.
+[[group: The Interpretation]]
+    B3 | 28 | Daniel's perturbation.
+
+# 8. 1-27: F prints one step right of E, set one level in from E; J
+# prints right of w, set one level in from H; G prints right of J, set
+# one level in from F. The r-w staircase is followed. The braces span
+# r-w only.
+[[diagram: 8. 1-27 (Z2, p. 1192). The Vision of the Two Beasts (Introversion and Extended Alternation)]]
+[[anchor: Daniel 8:1-27]]
+[[pdf: 23. Daniel_text.pdf]]
+[[pdf-page: 17]]
+
+Z2 |  |
+  E | 1, 2 | Circumstances.
+[[group: -]]
+    F |  |
+      H |  |
+        r | 3, 4 | Ram.
+          s | 5- | He-goat.
+            t | -5-7 | Great horn.
+              u | 8- | Great horn broken.
+                v | -8 | Four horns.
+                  w | 9-12 | Little horn. (Future.)
+[[group: The Vision]]
+        J | 13, 14 | Time. Number of days.
+      G | 15, 16 | Command to Angel to give the interpretation to Daniel.
+      G | 17, 19 | The command obeyed by the Angel.
+[[group: -]]
+    F |  |
+      H |  |
+        r | 20 | Ram.
+          s | 21- | He-goat.
+            t | -21 | Great horn.
+              u | 22- | Great horn broken.
+                v | -22 | Four horns.
+                  w | 23-25 | Little horn. (Future.)
+[[group: The Interpretation]]
+        J | 26 | Time. "Many days".
+  E | 27 | Circumstances.
+
+[[diagram: 9. 1—12. 13 (A, p. 1178). The Desolations of Jerusalem (Extended Alternation)]]
+[[anchor: Daniel 9:1]]
+[[pdf: 23. Daniel_text.pdf]]
+[[pdf-page: 19]]
+
+A |  |
+  K |  | 9. 1, 2. The time.
+    L |  | 9. 3-19. Daniel's Humiliation.
+      M |  | 9. 20-23-. The Hierophant.
+        N |  | 9. -23-27. The Prophecy.
+  K |  | 10. 1. The time.
+    L |  | 10. 2, 3. Daniel's Humiliation.
+      M |  | 10. 4-21. The Hierophant.
+        N |  | 11. 1—12. 13. The Prophecy.
+
+[[diagram: 9. -23-27 (N, p. 1196). The Prophecy (Alternation)]]
+[[anchor: Daniel 9:23-27]]
+[[pdf: 23. Daniel_text.pdf]]
+[[pdf-page: 21]]
+
+N |  |
+  O | -23 | Admonition. "Understand", "Consider".
+    P | 24 | The Seventy sevens. In whole.
+  O | 25- | Admonitions. "Know", "Understand".
+    P | -25-27 | The Seventy sevens. In their parts.
+
+[[diagram: 9. 24 (P, above). The Seventy Sevens. In Whole (Extended Alternation)]]
+[[anchor: Daniel 9:24]]
+[[pdf: 23. Daniel_text.pdf]]
+[[pdf-page: 21]]
+
+P |  |
+  x |  | To finish the transgression,
+    y |  | And to make an end of (hatham) sin.
+      z |  | And to make reconciliation for iniquity,
+[[group: Internals]]
+  x |  | And to bring in everlasting righteousness,
+    y |  | And to seal up (hatham) the vision and prophecy,
+      z |  | And to anoint the Most Holy.
+[[group: Externals]]
+
+[[diagram: 9. -25-27 (P, above). The Seventy Sevens. In Their Parts (Introversion)]]
+[[anchor: Daniel 9:25-27]]
+[[pdf: 23. Daniel_text.pdf]]
+[[pdf-page: 21]]
+
+P |  |
+  Q | -25- | The City. Restoration.
+    R | -25 | Messiah. Coming.
+      S | -25 | Time. "Unto" seven sevens and sixty-two sevens.
+      S | 26- | Time. "After" the sixty-two sevens.
+    R | -26- | Messiah. Cut off.
+  Q | -26, 27 | The City. Destruction.
+
+# 9. -26, 27: U prints one step right of b; set one level in from T.
+[[diagram: 9. -26, 27 (Q, p. 1198). The City. Destroyed (Introversion and Alternation)]]
+[[anchor: Daniel 9:26-27]]
+[[pdf: 23. Daniel_text.pdf]]
+[[pdf-page: 22]]
+
+Q |  |
+  T |  |
+    a | -26- | The Coming Prince. (The Desolator.)
+      b | -26 | The Desolation (shamem) decreed. The end of the Desolation.
+    U | 27- | His Covenant made.
+      V | -27- | The Time. One seven (= 7 years).
+      V | -27- | The Time. The middle of the one seven (= 3½ years).
+    U | -27- | His Covenant broken (cp. 11. 30, 31).
+  T |  |
+    a | -27- | The Coming Prince. (The Desolator.)
+      b | -27 | The Desolation (shamem) decreed. The end of the Desolator.
+
+[[diagram: 10. 4-21 (M, p. 1196). The Hierophant (Repeated Alternations)]]
+[[anchor: Daniel 10:4-21]]
+[[pdf: 23. Daniel_text.pdf]]
+[[pdf-page: 23]]
+
+M |  |
+  W1 |  |
+    Y1 | 4-8 | The Hierophant.
+      Z1 | 9- | His words.
+        X1 | -9 | Their effect.
+  W2 |  |
+    Y2 | 10 | The Hierophant.
+      Z2 | 11-14 | His words.
+        X2 | 15 | Their effect.
+  W3 |  |
+    Y3 | 16- | The Hierophant.
+      Z3 | -16-17- | Daniel's words.
+        X3 | -17 | Their effect.
+  W4 |  |
+    Y4 | 18 | The Hierophant.
+      Z4 | 19- | His words.
+        X4 | -19 | Their effect.
+  W5 |  |
+    Y5 | 20- | The Hierophant.
+      Z5 | -20, 21 | His words.
+
+[[diagram: 11. 1—12. 13 (N, p. 1196). His Prophecy (Division)]]
+[[anchor: Daniel 11:1]]
+[[pdf: 23. Daniel_text.pdf]]
+[[pdf-page: 24]]
+
+N |  |
+  A1 |  | 11. 1-20. The Past. (Then Future to Daniel.)
+  A2 |  | 11. 21—12. 3. The Future. (Still Future to us.)
+  A3 |  | 12. 4-13. Meanwhile. (As to Daniel himself.)
+
+[[diagram: 11. 1-20 (A1, above). The Past. Then Future to Daniel (Division)]]
+[[anchor: Daniel 11:1-20]]
+[[pdf: 23. Daniel_text.pdf]]
+[[pdf-page: 24]]
+
+A1 |  |
+  B1 | 1-3 | The first king of Grecia.
+  B2 | 4 | Four contemporary kings.
+  B3 | 5-20 | Subsequent kings.
+
+[[diagram: 11. 5-20 (B3, above). Subsequent Kings (Repeated Alternation)]]
+[[anchor: Daniel 11:5-20]]
+[[pdf: 23. Daniel_text.pdf]]
+[[pdf-page: 24]]
+
+B3 |  |
+  C1 | 5 | The first king of the South.
+    D1 | 6 | The first king of the North.
+  C2 | 7-9 | The second king of the South.
+    D2 | 10 | The second king of the North.
+  C3 | 11, 12 | The second king of the South.
+    D3 | 13-20 | The second king of the North.
+
+[[diagram: 11. 21—12. 3 (A2, p. 1201). The Future. (Still Future to us.) (Alternation)]]
+[[anchor: Daniel 11:21]]
+[[pdf: 23. Daniel_text.pdf]]
+[[pdf-page: 26]]
+
+A2 |  |
+  E |  | 11. 21-31. "The vile person" ("the little horn").
+    F |  | 11. 32-35. The People. Tried.
+  E |  | 11. 36-45. "The wilful king" ("the little horn").
+    F |  | 12. 1-3. The People. Delivered.
+
+[[diagram: 11. 32-35 (F, p. 1203). The People. Tried (Alternation)]]
+[[anchor: Daniel 11:32-35]]
+[[pdf: 23. Daniel_text.pdf]]
+[[pdf-page: 27]]
+
+F |  |
+  G | 32- | The unfaithful.
+    H | -32-34- | The faithful.
+  G | -34 | The unfaithful.
+    H | 35 | The faithful.
+
+[[diagram: 11. 36-45 (E, p. 1203). "The Wilful King." (Alternations)]]
+[[anchor: Daniel 11:36-45]]
+[[pdf: 23. Daniel_text.pdf]]
+[[pdf-page: 27]]
+
+E |  |
+  J | 36-39 | His character.
+    K | 40- | His adversaries. Their Assault.
+  J | -40-43 | His conquests.
+    K | 44, 45 | His adversaries. Their Victory.
+
+# 12. 4-13: M prints one step right of O; set one level in from L. In
+# the second L, O prints before N, one step right; set at one depth.
+[[diagram: 12. 4-13 (A3, p. 1201). Meanwhile. As to Daniel Himself (Alternations and Introversion)]]
+[[anchor: Daniel 12:4-13]]
+[[pdf: 23. Daniel_text.pdf]]
+[[pdf-page: 28]]
+
+A3 |  |
+  L |  |
+    N | 4 | The book closed and sealed.
+      O | 5, 6 | Inquiry of the two. "How long?"
+    M |  |
+      a | 7- | The answer.
+        b | -7- | The times. Three and a half years.
+          c | -7 | The end.
+  L |  |
+    O | 8 | Inquiry of Daniel. "What?"
+    N | 9 | The book closed and sealed.
+    M |  |
+      a | 10 | The answer.
+        b | 11, 12 | The times.
+          c | 13 | The end. The 1,290 and 1,335 days (Ap. 90).

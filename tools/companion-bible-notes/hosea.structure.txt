@@ -1,0 +1,319 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Hosea
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/24. Hosea_text.pdf, printed pp. 1206-1224);
+# [[pdf-page:]] is the page of that file each diagram is on. Notation:
+# README.md here.
+#
+# The Structure of the Twelve Minor Prophets (p. 1206) prints at the head
+# of Hosea, the first of them, and is kept here with its notes (p. 1207).
+# Its Six Prophets D2 prints G2 two steps right of D2 (at G1's x); set one
+# level in, since the parser allows only one step after a bracket line;
+# E2 (printed at E1's x) then sits one step right of F2, not two.
+
+[[diagram: The Minor Prophets. The Structure of the Twelve Books as a Whole (Division)]]
+[[anchor: Hosea 1:1]]
+[[pdf: 24. Hosea_text.pdf]]
+[[pdf-page: 1]]
+
+A1 |  | THREE Prophets: HOSEA, JOEL, AMOS. The first and third dated, as being in the reigns of Kings of Judah, and in that of a King of ISRAEL also.
+A2 |  | SIX Prophets: OBADIAH, JONAH, MICAH, NAHUM, HABAKKUK, ZEPHANIAH. The third and sixth being dated, as in the reigns of Kings of JUDAH only.
+A3 |  | THREE Prophets: HAGGAI, ZECHARIAH, MALACHI. The first and second being dated, as in the reigns of Kings of Medo-Persia only; after the Captivity.
+
+[[diagram: The Minor Prophets. A1. Three Prophets (Introversion)]]
+[[anchor: Hosea 1:1]]
+[[pdf: 24. Hosea_text.pdf]]
+[[pdf-page: 1]]
+
+A1 |  |
+  B1 |  | HOSEA. Like AMOS (B2), dated in the reigns of Kings of Judah, and in that of Jeroboam II, the King of Israel. HOSEA probably belonged (like Amos) to the Ten Tribes (perhaps to Reuben); and prophesied both to the house of Israel, and to the house of Judah apart.
+    C1 |  | JOEL. Undated. General: concerning (1) the Gentile kingdoms, and (2) "the Day of the Lord."
+  B2 |  | AMOS. Like HOSEA (B1), dated in the reigns of one King of Judah, and in that of Jeroboam II, one King of Israel. AMOS probably belonged (like Hosea) to the Ten Tribes (perhaps to Asher); and prophesied to the house of Israel and to the house of Judah apart.
+
+[[diagram: The Minor Prophets. A2. Six Prophets (Alternation and Introversion)]]
+[[anchor: Hosea 1:1]]
+[[pdf: 24. Hosea_text.pdf]]
+[[pdf-page: 1]]
+
+A2 |  |
+  D1 |  |
+    F1 |  | OBADIAH. Like HABAKKUK (F2), is undated; and his prophecy is special, concerning EDOM.
+      G1 |  | JONAH. Like NAHUM (G2), is undated; and his prophecy is special, concerning NINEVEH. Gentile repentance.
+        E1 |  | MICAH. Like ZEPHANIAH (E2), is dated in the reigns of Kings of Judah only; and his prophecy is special, concerning JUDAH.
+  D2 |  |
+    G2 |  | NAHUM. Like JONAH (G1), is undated; and his prophecy is special, concerning NINEVEH. Gentile destruction.
+    F2 |  | HABAKKUK. Like OBADIAH (F1), is undated; and his prophecy is special, concerning the posterity of Nebuchadnezzar.
+      E2 |  | ZEPHANIAH. Like MICAH (E1), is dated in the reigns of Kings of Judah only; and his prophecy is special, concerning JUDAH.
+
+[[diagram: The Minor Prophets. A3. Three Prophets (Division)]]
+[[anchor: Hosea 1:1]]
+[[pdf: 24. Hosea_text.pdf]]
+[[pdf-page: 1]]
+
+A3 |  |
+  H1 |  |
+    J1 |  | HAGGAI. Dated
+    J2 |  | ZECHARIAH. Dated
+[[group: in the reigns of Medo-Persian Kings. After the Captivity. Special, concerning the Second Temple.]]
+  H2 |  | MALACHI. Undated. General. After the Captivity, and after the days of the Second Temple.
+
+[[diagram: Hosea. The Structure of the Book as a Whole (Introversion)]]
+[[anchor: Hosea 1:1]]
+[[pdf: 24. Hosea_text.pdf]]
+[[pdf-page: 3]]
+
+B1 |  |
+  A |  | 1. 1. INTRODUCTION.
+    B |  | 1. 2—3. 5. SYMBOLICAL.
+    B |  | 4. 1—14. 8. LITERAL.
+  A |  | 14. 9. CONCLUSION
+
+[[diagram: 1. 2—3. 5 (B, p. 1208). Symbolical (Introversion and Alternations)]]
+[[anchor: Hosea 1:2]]
+[[pdf: 24. Hosea_text.pdf]]
+[[pdf-page: 4]]
+
+B |  |
+  A |  |
+    C |  |
+      a |  | 1. 2-. Symbol. The First Wife. "Go, take."
+        b |  | 1. -2. Signification. The Land departs from Jehovah.
+          c |  | 1. 3. The Prophet takes Gomer.
+            D |  |
+              E |  | 1. 4-9. The Former State.
+                F |  | 1. 10, 11. The Latter State.
+                  B |  | 2. 1-4. Samaria. Remonstrance.
+                  B |  | 2. 5-23. Samaria. Reasons.
+  A |  |
+    C |  |
+      a |  | 3. 1-. Symbol. The Second Wife. "Go yet, love", &c.
+        b |  | 3. -1. Signification. Israel looks to other gods.
+          c |  | 3. 2, 3. The Prophet takes a Woman.
+            D |  |
+              E |  | 3. 4. The Present State.
+                F |  | 3. 5. The Future State.
+
+[[diagram: 1. 4-9 (E, above). The Former State (Repeated Alternation)]]
+[[anchor: Hosea 1:4-9]]
+[[pdf: 24. Hosea_text.pdf]]
+[[pdf-page: 4]]
+
+E |  |
+  G1 | 4- | Symbol. Son's name ("Jezreel").
+    H1 | -4, 5 | Signification, and Reason.
+  G2 | 6- | Symbol. Daughter's name (Lo-Ruhamah).
+    H2 | -6, 7 | Signification, and Reason.
+  G3 | 8, 9- | Symbol. Son's name (Lo-Ammi).
+    H3 | -9 | Signification, and Reason.
+
+[[diagram: 1. 10, 11 (F, p. 1209). The Latter State (Division)]]
+[[anchor: Hosea 1:10-11]]
+[[pdf: 24. Hosea_text.pdf]]
+[[pdf-page: 5]]
+
+F |  |
+  J1 | 10 | Israel.
+  J2 | 11 | Judah.
+
+[[diagram: 2. 5-23 (B, p. 1209). Reasons (Extended Alternation)]]
+[[anchor: Hosea 2:5-23]]
+[[pdf: 24. Hosea_text.pdf]]
+[[pdf-page: 5]]
+
+B |  |
+  d | 5 | Her False Benefactors.
+    e | 6, 7- | Her Punishments.
+      f | -7 | Her Return.
+  d | 8 | Her True Benefactor.
+    e | 9-13 | Punishments.
+      f | 14-23 | Her Reception.
+
+[[diagram: 3. 4, 5 (D, p. 1209). The Present and Future States (Alternations. According to the Heb. text)]]
+[[anchor: Hosea 3:4-5]]
+[[pdf: 24. Hosea_text.pdf]]
+[[pdf-page: 7]]
+
+D |  |
+  E |  |
+    K1 | 4- | Time. "Many days."
+      L |  |
+        g | -4- | "Shall abide."
+          h | -4- | "The children of Israel."
+            i | -4 | "Without a king", &c. (Neg.)
+[[group: Present.]]
+  F |  |
+    K2 | 5- | Time. "Afterward."
+      L |  |
+        g | -5- | "Shall return."
+          h | -5- | "The children of Israel."
+            i | -5- | "Jehovah, and David their king." (Positive.)
+    K3 | -5 | Time. "In the latter days."
+[[group: Future.]]
+
+[[diagram: 4. 1—14. 8 (B, p. 1208). Literal (Alternation)]]
+[[anchor: Hosea 4:1]]
+[[pdf: 24. Hosea_text.pdf]]
+[[pdf-page: 8]]
+
+B |  |
+  M |  | 4. 1—5. 15. Incriminations and Threatenings.
+    N |  | 6. 1-3. Resolve to return.
+  M |  | 6. 4—13. 8. Incriminations and Threatenings.
+    N |  | 13. 9—14. 8. Invitation to return.
+
+[[diagram: 4. 1—5. 15 (M, above). Incriminations, etc. (Extended Alternation)]]
+[[anchor: Hosea 4:1]]
+[[pdf: 24. Hosea_text.pdf]]
+[[pdf-page: 8]]
+
+M |  |
+  O |  | 4. 1-5. Call to Israel. General.
+    P |  | 4. 6-14. Incriminations, &c.
+      Q |  | 4. 15-19. Warning as to places in Judah.
+  O |  | 5. 1, 2. Call to Israel. Particular.
+    P |  | 5. 3-7. Incriminations.
+      Q |  | 5. 8-15. Warning as to places in Judah.
+
+[[diagram: 4. 1-5 (O, above). Call to Israel (Extended Alternation)]]
+[[anchor: Hosea 4:1-5]]
+[[pdf: 24. Hosea_text.pdf]]
+[[pdf-page: 8]]
+
+O |  |
+  R |  |
+    j | 1- | Call.
+      k | -1, 2 | Reason.
+        l | 3 | Threatening.
+  R |  |
+    j | 4- | Call.
+      k | -4 | Reason.
+        l | 5 | Threatening.
+
+[[diagram: 4. 6-14 (P, above). Incriminations and Threatenings (Division)]]
+[[anchor: Hosea 4:6-14]]
+[[pdf: 24. Hosea_text.pdf]]
+[[pdf-page: 8]]
+
+P |  |
+  S1 | 6-11 | The Priests.
+  S2 | 12-14 | The People.
+
+[[diagram: 6. 4—13. 8 (M, p. 1213). Incrimination and Threatening (Extended Alternation)]]
+[[anchor: Hosea 6:4]]
+[[pdf: 24. Hosea_text.pdf]]
+[[pdf-page: 10]]
+
+M |  |
+  T |  | 6. 4. Divine Forbearance.
+    U |  | 6. 5—10. 15. Incorrigibility.
+      V |  | 11. 1-7. Contrasted Conduct.
+  T |  | 11. 8-11. Divine Forbearance.
+    U |  | 11. 12—12. 14. Incorrigibility.
+      V |  | 13. 1-8. Contrasted Conduct.
+
+[[diagram: 6. 5—10. 15 (U, above). Incorrigibility (Alternation)]]
+[[anchor: Hosea 6:5]]
+[[pdf: 24. Hosea_text.pdf]]
+[[pdf-page: 10]]
+
+U |  |
+  W |  | 6. 5. Divine Judgments.
+    X |  | 6. 6-11-. Incorrigibility.
+  W |  | 6. -11—7. 1-. Divine Mercy.
+    X |  | 7. -1—10. 15. Incorrigibility.
+
+[[diagram: 7. 1—10. 15 (X, p. 1215). Incorrigibility (Repeated Alternation)]]
+[[anchor: Hosea 7:1]]
+[[pdf: 24. Hosea_text.pdf]]
+[[pdf-page: 11]]
+
+X |  |
+  Y1 |  | 7. -1-7. Internal wickedness. Idolatry.
+    Z1 |  | 7. 8—8. 3. External trouble. Foreigners.
+  Y2 |  | 8. 4-6. Internal wickedness. Idolatry.
+    Z2 |  | 8. 7-10. External trouble. Foreigners.
+[[group: Political.]]
+  Y3 |  | 8. 11—9. 8. Internal wickedness. Idolatry.
+    Z3 |  | 9. 9. External trouble. The days of Gibeah.
+  Y4 |  | 9. 10—10. 8. Internal wickedness. Idolatry.
+    Z4 |  | 10. 9-15. External chastisement. The days of Gibeah.
+[[group: Religious.]]
+
+[[diagram: 11. 1-7 (V, p. 1215). Contrasted Conduct (Repeated Alternation)]]
+[[anchor: Hosea 11:1-7]]
+[[pdf: 24. Hosea_text.pdf]]
+[[pdf-page: 15]]
+
+V |  |
+  m1 | 1 | Love.
+    n1 | 2 | Ingratitude.
+  m2 | 3- | Love.
+    n2 | -3 | Insensibility.
+  m3 | 4 | Love.
+    n3 | 5-7 | Threatening.
+
+[[diagram: 11. 12—12. 14 (U, p. 1215). Incorrigibility (Extended Alternation)]]
+[[anchor: Hosea 11:12]]
+[[pdf: 24. Hosea_text.pdf]]
+[[pdf-page: 16]]
+
+U |  |
+  A |  | 11. 12—12. 2. Incrimination. Lies, &c.
+    B |  |
+      o |  | 12. 3, 4-. Jacob. Personal history.
+        p |  | 12. -4-6. Divine Favour and Communication.
+          C |  |
+            q |  | 12. 7, 8. Provocation.
+              r |  | 12. 9, 10. Cause.
+  A |  | 12. 11. Incrimination. Idolatry.
+    B |  |
+      o |  | 12. 12. Jacob. Personal history.
+        p |  | 12. 13. Divine Favour and Communication.
+          C |  |
+            q |  | 12. 14-. Provocation.
+              r |  | 12. -14. Consequence.
+
+[[diagram: 13. 1-8 (V, p. 1215). Contrasted Conduct (Extended Alternation)]]
+[[anchor: Hosea 13:1-8]]
+[[pdf: 24. Hosea_text.pdf]]
+[[pdf-page: 17]]
+
+V |  |
+  D | 1- | Ephraim's eminence.
+    E | -1, 2 | Ephraim's fall. Idolatry.
+      F | 3 | Threatening, and Comparisons.
+  D | 4, 5 | Jehovah the source of Ephraim's eminence.
+    E | 6 | Ephraim's fall. Forgetting Jehovah.
+      F | 7, 8 | Threatening, and Comparisons.
+
+[[diagram: 13. 9—14. 8 (N, p. 1213). Invitation to Return (Division)]]
+[[anchor: Hosea 13:9]]
+[[pdf: 24. Hosea_text.pdf]]
+[[pdf-page: 17]]
+
+N |  |
+  G1 |  | 13. 9-16. Revolt.
+  G2 |  | 14. 1-8. Return.
+
+[[diagram: 13. 9-16 (G1, above). Revolt (Repeated Alternation)]]
+[[anchor: Hosea 13:9-16]]
+[[pdf: 24. Hosea_text.pdf]]
+[[pdf-page: 17]]
+
+G1 |  |
+  s1 | 9- | Incrimination.
+    t1 | -9-11 | Promise.
+  s2 | 12, 13 | Incrimination.
+    t2 | 14 | Promise.
+  s3 | 15, 16 | Incrimination.
+
+[[diagram: 14. 1-8 (G2, p. 1222). The Return (Repeated Alternation)]]
+[[anchor: Hosea 14:1-8]]
+[[pdf: 24. Hosea_text.pdf]]
+[[pdf-page: 18]]
+
+G2 |  |
+  H1 | 1, 2- | Jehovah. Invitation.
+    J1 | -2, 3 | Israel. Confession. Words provided.
+  H2 | 4-7 | Jehovah. Promises.
+    J2 | 8- | Israel. Confession. Words used.
+  H3 | -8 | Jehovah. Blessing.

@@ -1,0 +1,1903 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Ezekiel
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/22. Ezekiel_text.pdf, printed pp. 1104-1178);
+# [[pdf-page:]] is the page of that file each diagram is on. Notation:
+# README.md here.
+
+[[diagram: Ezekiel. The Structure of the Book as a Whole (Introversion and Extended Alternation)]]
+[[anchor: Ezekiel 1:1]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 1]]
+
+A |  | 1. 1—12. 28. THE DESOLATION.
+  B |  | 13. 1-23. PROPHETS AND PROPHETESSES.
+    C |  |
+      D |  | 14. 1-11. ELDERS.
+        E |  | 14. 12—15. 8. THE LAND AND CITY. (JUDGMENTS.)
+          F |  | 16. 1-63. JERUSALEM. (DESERTED INFANT.)
+            G |  | 17. 1-24. BABYLONIAN WAR. (PARABLE.)
+              H |  | 18. 1-32. THE PEOPLE. PROVERB. (SOUR GRAPES.)
+                J |  | 19. 1-14. THE PRINCES OF ISRAEL.
+    C |  |
+      D |  | 20. 1-44. ELDERS.
+        E |  | 20. 45—22. 31. THE LAND AND CITY. (JUDGMENTS.)
+          F |  | 23. 1-49. JERUSALEM. (TWO SISTERS.)
+            G |  | 24. 1—32. 32. BABYLONIAN WAR. (PARABLE.)
+              H |  | 33. 1-22. THE PEOPLE. SIGN. (WATCHMAN.)
+                J |  | 33. 23-33. THE INHABITANT OF THE WASTES.
+  B |  | 34. 1-31. SHEPHERDS AND FLOCK.
+A |  | 35. 1—48. 35. THE RESTORATION.
+
+[[diagram: 1. 1—12. 28 (A, p. 1104). The Desolation (Alternation)]]
+[[anchor: Ezekiel 1:1]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 3]]
+
+A |  |
+  A |  | 1. 1—3. 27. First Vision (by Chebar).
+    B |  | 4. 1—7. 27. Signs.
+  A |  | 8. 1—11. 24. Second Vision (at Jerusalem).
+    B |  | 12. 1-28. Signs.
+
+[[diagram: 1. 1—3. 27 (A, above). First Vision (at Chebar) (Extended Alternation)]]
+[[anchor: Ezekiel 1:1]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 3]]
+
+A |  |
+  C |  | 1. 1-28-. The Cherubim.
+    D |  | 1. -28. Prostration of Ezekiel.
+      E |  | 2. 1, 2. Raised by the Spirit.
+        F |  | 2. 3—3. 9. Mission of Ezekiel.
+  C |  | 3. 10-23-. The Cherubim.
+    D |  | 3. 23. Prostration of Ezekiel.
+      E |  | 3. 24-. Raised by the Spirit.
+        F |  | 3. -24-27. Mission of Ezekiel.
+
+[[diagram: 1. 1-28- (C, above). The Cherubim (First Vision) (Introversion and Alternation)]]
+[[anchor: Ezekiel 1:1-28]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 3]]
+
+C |  |
+  G | 1-3 | Visions of God.
+    H |  |
+      a | 4 | The cloud.
+        b | 5-21 | The living creatures.
+    H |  |
+      a | 22 | The firmament.
+        b | 23-28- | The living creatures.
+  G | -28- | Glory of Jehovah.
+
+[[diagram: 2. 3—3. 9 (F, p. 1106). Mission of Ezekiel (Introversion and Extended Alternation)]]
+[[anchor: Ezekiel 2:3]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 5]]
+
+F |  |
+  J |  |
+    c |  | 2. 3, 4. People. Their character.
+      d |  | 2. 5. Reception.
+        e |  | 2. 6-8-. Encouragement.
+[[group: Mission]]
+          K |  | 2. -8. Command to eat.
+            L |  | 2. 9. The Roll. Sent.
+            L |  | 2. 10. The Roll. Contents.
+          K |  | 3. 1-3. Command to eat.
+[[group: -]]
+  J |  |
+    c |  | 3. 4-6. People. Their language.
+      d |  | 3. 7. Reception.
+        e |  | 3. 8, 9. Encouragement.
+[[group: Mission]]
+
+[[diagram: 3. 10-23- (C, p. 1106). The Cherubim (Alternation and Introversion)]]
+[[anchor: Ezekiel 3:10-23]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 6]]
+
+C |  |
+  M |  |
+    f | 10, 11 | Command.
+      g | 12-14 | The hand of Jehovah.
+        N | 15-21 | Obedience.
+  M |  |
+    g | 22- | The hand of Jehovah.
+    f | -22 | Command.
+      N | 23- | Obedience.
+
+[[diagram: 4. 1—7. 27 (B, p. 1106). Signs (Introversion)]]
+[[anchor: Ezekiel 4:1]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 7]]
+
+B |  |
+  O |  | 4. 1-8. The city.
+    P |  | 4. 9-17. Food.
+    P |  | 5. 1-17. Hair.
+  O |  | 6. 1—7. 27. The mountains.
+
+[[diagram: 4. 1-8 (O, above). The City. The Siege (Introversion and Alternation)]]
+[[anchor: Ezekiel 4:1-8]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 7]]
+
+O |  |
+  Q | 1-3 | The city. Siege.
+    R |  |
+      h | 4 | Sign. Left side.
+        i | 5 | Signification.
+    R |  |
+      h | 6- | Sign. Right side.
+        i | -6 | Signification.
+  Q | 7, 8 | The city. Siege.
+
+[[diagram: 4. 9-17 (P, above). Food (Alternation)]]
+[[anchor: Ezekiel 4:9-17]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 7]]
+
+P |  |
+  j | 9-12 | Sign. Food.
+    k | 13 | Signification.
+  j | 14, 15 | Sign. Food.
+    k | 16, 17 | Signification.
+
+[[diagram: 5. 1-17 (P, p. 1110). Hair (Extended Alternation)]]
+[[anchor: Ezekiel 5:1-17]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 8]]
+
+P |  |
+  S |  |
+    l | 1 | Shaving. (The fourth sign.)
+      m | 2 | Third part. Burning, &c.
+        n | 3, 4 | Binding in skirts.
+[[group: The sign.]]
+  S |  |
+    l | 5-11 | Judgments.
+      m | 12 | Third part. Death, &c.
+        n | 13-17 | Anger accomplished.
+[[group: Signification.]]
+
+[[diagram: 6. 1—7. 27 (O, p. 1110). The Mountains (Extended Alternation)]]
+[[anchor: Ezekiel 6:1]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 9]]
+
+O |  |
+  T |  |
+    o |  | 6. 1-7. The mountains of Israel.
+      p |  | 6. 8-10. The remnant.
+        q |  | 6. 11-. Sign. Smiting.
+          r |  | 6. -11-14. Signification.
+  T |  |
+    o |  | 7. 1-15. The Land of Israel.
+      p |  | 7. 16-22. The remnant.
+        q |  | 7. 23-. Sign. A chain.
+          r |  | 7. -23-27. Signification.
+
+[[diagram: 8. 1—11. 24 (A, p. 1106). Second Vision. In Jerusalem (Introversion and Alternation)]]
+[[anchor: Ezekiel 8:1]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 11]]
+
+A |  |
+  U |  | 8. 1-4. The beginning of the Vision.
+    V |  |
+      W |  | 8. 5—9. 11. Sins and Punishments.
+        X |  | 10. 1-22. Cherubim.
+    V |  |
+      W |  | 11. 1-21. Sins and Punishments.
+        X |  | 11. 22-23. Cherubim.
+  U |  | 11. 24, 25. The end of the Vision.
+
+[[diagram: 8. 1-4 (U, above). The Beginning of the Vision (Alternation)]]
+[[anchor: Ezekiel 8:1-4]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 11]]
+
+U |  |
+  s | 1 | Place. "Mine house."
+    t | 2 | Vision.
+  s | 3 | Place. Jerusalem.
+    t | 4 | Vision.
+
+[[diagram: 8. 5—9. 11 (W, p. 1114). Sins and Punishments (Division)]]
+[[anchor: Ezekiel 8:5]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 12]]
+
+W |  |
+  Y1 |  | 8. 5-17. The Sins of the People.
+  Y2 |  | 8. 18—9. 11. The Punishments.
+
+[[diagram: 8. 5-17 (Y1, above). The Sins of the People (Extended and Repeated Alternations. Like their sins)]]
+[[anchor: Ezekiel 8:5-17]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 12]]
+
+Y1 |  |
+  Z1 |  |
+    u1 | 5- | Place. The North.
+      v1 | -5 | Abomination. Image of Jealousy.
+        w1 | 6- | Appeal to Ezekiel.
+          x1 | -6 | Announcement of greater.
+  Z2 |  |
+    u2 | 7 | Place. Entrance of the Court.
+      v2 | 8-11 | Abomination. Chamber of Imagery.
+        w2 | 12 | Appeal to Ezekiel.
+          x2 | 13 | Announcement of greater.
+  Z3 |  |
+    u3 | 14- | Place. Entrance of North Gate.
+      v3 | -14 | Abomination. Women weeping for Tammuz.
+        w3 | 15- | Appeal to Ezekiel.
+          x3 | -15 | Announcement of greater.
+  Z4 |  |
+    u4 | 16- | Place. The Inner Court.
+      v4 | -16 | Abomination. Worshipping the Sun.
+        w4 | 17- | Appeal to Ezekiel.
+          x4 | -17 | Announcement of greatest.
+
+[[diagram: 8. 18—9. 11 (Y2, p. 1115). The Punishments (Introversion and Alternation)]]
+[[anchor: Ezekiel 8:18]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 13]]
+
+Y2 |  |
+  A |  |
+    C |  | 8. 18. Jehovah. Threatening.
+      D |  | 9. 1-7. Punishment. Commanded.
+    B |  | 9. 8. Ezekiel. Deprecation.
+  A |  |
+    C |  | 9. 9, 10. Jehovah. Threatening.
+      D |  | 9. 11. Punishment executed.
+
+[[diagram: 9. 1-7 (D, above). Punishment Commanded (Alternation)]]
+[[anchor: Ezekiel 9:1-7]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 13]]
+
+D |  |
+  E | 1-6- | Command to slay. (The Agents.)
+    F | -6 | Obedience.
+  E | 7- | Command to defile. (The Agents.)
+    F | -7 | Obedience.
+
+[[diagram: 9. 1-6- (E, above). Command to Slay. (The Agents.) (Introversion)]]
+[[anchor: Ezekiel 9:1-6]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 13]]
+
+E |  |
+  y | 1, 2- | Six men.
+    z | -2 | One man.
+    z | 3, 4 | One man.
+  y | 5, 6 | The others.
+
+[[diagram: 10. 1-22 (X, p. 1114). The Cherubim (Division)]]
+[[anchor: Ezekiel 10:1-22]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 14]]
+
+X |  |
+  G1 | 1-19 | Particular.
+  G2 | 20-22 | General.
+
+[[diagram: 10. 1-19 (G1, above). Particular (Alternation and Introversion)]]
+[[anchor: Ezekiel 10:1-19]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 14]]
+
+G1 |  |
+  H |  |
+    a | 1 | Appearance of the Throne.
+      b | 2 | Fire. Ignition. Command.
+    I | 3-5 | Position of the Glory.
+  H |  |
+    b | 6, 7 | Fire. Ignition. Obedience.
+    a | 8-17 | Appearance of the Cherubim.
+    I | 18, 19 | Position of the Glory.
+
+[[diagram: 11. 1-21 (W, p. 1114). Sins and Punishments (Alternation)]]
+[[anchor: Ezekiel 11:1-21]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 15]]
+
+W |  |
+  J | 1-3 | Sin. Security.
+    K | 4-13 | Prophecy. Judgment.
+  J | 14, 15 | Sin. Security.
+    K | 16-21 | Promise. Restoration.
+
+[[diagram: 11. 4-13 (K, above). Prophecy (Alternation)]]
+[[anchor: Ezekiel 11:4-13]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 15]]
+
+K |  |
+  c | 4 | Prophecy. Command.
+    d | 5-12 | Threatening.
+  c | 13- | Prophecy. Event.
+    d | -13 | Deprecation.
+
+[[diagram: 11. 16-21 (K, above). Promise (Alternation)]]
+[[anchor: Ezekiel 11:16-21]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 15]]
+
+K |  |
+  e | 16, 17 | Restoration.
+    f | 18 | Evil. Removal.
+  e | 19, 20 | Conversion.
+    f | 21 | Evil. Recompense.
+
+[[diagram: 12. 1-28 (B, p. 1106). Signs (Alternation)]]
+[[anchor: Ezekiel 12:1-28]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 16]]
+
+B |  |
+  L |  |
+    g | 1-7 | Signs. Removal.
+      h | 8-16 | Signification.
+    g | 17, 18 | Sign. Eating and drinking.
+      h | 19, 20 | Signification.
+  L |  |
+    i | 21, 22 | Proverb.
+      k | 23-25 | Explanation.
+    i | 26, 27 | Saying.
+      k | 28 | Explanation.
+
+[[diagram: 13. 1-23 (B, p. 1104). Prophets and Prophetesses (Alternation and Introversion)]]
+[[anchor: Ezekiel 13:1-23]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 17]]
+
+B |  |
+  M | 1, 2- | Prophets.
+    N |  |
+      O | -2-7 | Lies.
+        P | 8, 9 | Divine hostility.
+          Q | 10-16 | Symbols.
+  M | 17 | Prophetesses.
+    N |  |
+      Q | 18, 19 | Symbols.
+      P | 20, 21 | Divine hostility.
+      O | 22, 23 | Lies.
+
+[[diagram: 13. 10-16 (Q, p. 1120). Symbols (Introversion and Alternation)]]
+[[anchor: Ezekiel 13:10-16]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 18]]
+
+Q |  |
+  R | 10- | False peace.
+    S | -10 | Wall.
+      T |  |
+        l | 11 | Storm.
+          m | 12 | Fall.
+      T |  |
+        l | 13 | Storm.
+          m | 14 | Fall.
+    S | 15 | Wall.
+  R | 16 | False peace.
+
+[[diagram: 14. 1-11 (D, p. 1097). Elders (Extended Alternation)]]
+[[anchor: Ezekiel 14:1-11]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 19]]
+
+D |  |
+  U | 1-4- | Sin. Idolaters seeking the Prophet.
+    V | -4 | Answer of Jehovah.
+      W | 5 | Purpose of His answer.
+  U | 6, 7- | Sin. Idolaters seeking the Prophet.
+    V | -7-10 | Answer of Jehovah.
+      W | 11 | Purpose of His answer.
+
+[[diagram: 14. 12—15. 8 (E, p. 1097). The Land and City. (Judgments.) (Division)]]
+[[anchor: Ezekiel 14:12]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 19]]
+
+E |  |
+  X1 |  | 14. 12-23. Literal.
+  X2 |  | 15. 1-8. Symbolical.
+
+[[diagram: 14. 12-23 (X1, above). Literal (Repeated Alternation)]]
+[[anchor: Ezekiel 14:12-23]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 19]]
+
+X1 |  |
+  n1 | 12, 13 | Famine.
+    o1 | 14 | Noah, Daniel, and Job.
+  n2 | 15 | Beasts.
+    o2 | 16 | The three men.
+  n3 | 17 | Sword.
+    o3 | 18 | The three men.
+  n4 | 19 | Pestilence.
+    o4 | 20 | Noah, Daniel, and Job.
+  n5 | 21 | The four sore judgments.
+    o5 | 22, 23 | A remnant.
+
+[[diagram: 15. 1-8 (X2, p. 1122). Symbolical. (Vine.) (Alternation)]]
+[[anchor: Ezekiel 15:1-8]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 20]]
+
+X2 |  |
+  p | 1-4 | Vine. Fit only for fuel.
+    q | 5 | Devoured by fire.
+[[group: Symbol.]]
+  p | 6 | Inhabitants of Jerusalem.
+    q | 7, 8 | Devoured by another fire.
+[[group: Signification.]]
+
+[[diagram: 16. 1-63 (F, p. 1104). Jerusalem. (Deserted Infant.) (Alternation)]]
+[[anchor: Ezekiel 16:1-63]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 21]]
+
+F |  |
+  Y | 1-22 | Birth and Education.
+    Z | 23-43 | Sins.
+  Y | 44-46 | Birth and Sisterhood.
+    Z | 47-63 | Sins.
+
+[[diagram: 16. 1-22 (Y, above). Birth and Education (Introversion and Alternation)]]
+[[anchor: Ezekiel 16:1-22]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 21]]
+
+Y |  |
+  A | 1-9 | Birth. Pollution.
+    B |  |
+      r | 10-13- | Garments.
+        s | -13 | Food.
+      C | 14 | Beauty. Renowned.
+      C | 15 | Beauty. Misused.
+    B |  |
+      r | 16-18 | Garments.
+        s | 19-21 | Food.
+  A | 22 | Birth. Pollution.
+
+[[diagram: 16. 23-43 (Z, p. 1124). Sins (Alternation and Introversion)]]
+[[anchor: Ezekiel 16:23-43]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 22]]
+
+Z |  |
+  D |  |
+    t | 23-25 | Whoredoms. (Idolatries.)
+      u | 26 | Egyptians.
+    E | 27 | Threatenings.
+  D |  |
+    u | 28, 29 | Assyrians.
+    t | 30-34 | Whoredoms. (Idolatries.)
+    E | 35-43 | Threatenings.
+
+[[diagram: 16. 44-46 (Y, p. 1124). Birth and Sisterhood (Alternation)]]
+[[anchor: Ezekiel 16:44-46]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 23]]
+
+Y |  |
+  F | 44 | Relations. Mother and daughter.
+    G | 45- | Application.
+  F | -45 | Relations. Mother and sisters.
+    G | 46 | Application.
+
+[[diagram: 16. 46 (G, above). Application (Alternation and Introversion)]]
+[[anchor: Ezekiel 16:46]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 23]]
+
+G |  |
+  H |  | And thine elder sister
+    J |  |
+      v |  | is Samaria, and her daughters
+        w |  | who dwelleth at thy left hand:
+  H |  | and thy younger sister,
+    J |  |
+      w |  | who dwelleth at thy right hand,
+      v |  | is Sodom and her daughters.
+
+[[diagram: 16. 47-63 (Z, p. 1124). Sins (Alternation and Introversion)]]
+[[anchor: Ezekiel 16:47-63]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 23]]
+
+Z |  |
+  K |  |
+    M | 47-52 | Jerusalem's sins.
+      N | 53 | Restoration.
+    L | 54 | Jehovah's purpose.
+  K |  |
+    N | 55 | Restoration.
+    M | 56-62 | Jerusalem's sins.
+    L | 63 | Jehovah's purpose.
+
+[[diagram: 16. 47-52 (M, above). Jerusalem's Sins (Introversion)]]
+[[anchor: Ezekiel 16:47-52]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 23]]
+
+M |  |
+  x | 47 | Collectively.
+[[group: -]]
+    y | 48 | More than Sodom.
+      z | 49, 50 | Sins of Sodom.
+    y | 51- | More than Samaria.
+[[group: Severally.]]
+  x | -51, 52 | Collectively.
+
+[[diagram: 16. 56-62 (M, p. 1126). Jerusalem's Sins (Alternation)]]
+[[anchor: Ezekiel 16:56-62]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 24]]
+
+M |  |
+  a | 56-59 | Jerusalem's sins.
+    b | 60 | Jehovah's covenant remembered.
+  a | 61 | Jerusalem's sins.
+    b | 62 | Jehovah's covenant established.
+
+[[diagram: 17. 1-24 (G, p. 1104). Babylonian War. Parable (Repeated and Extended Alternation)]]
+[[anchor: Ezekiel 17:1-24]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 24]]
+
+G |  |
+  O1 |  |
+    P1 | 1-4 | Great Eagle. "Topmost branch".
+      Q1 | 5, 6 | Planting of seed.
+        R1 | 7, 8 | Another Eagle. (Egypt.)
+          S1 | 9, 10 | "Shall it prosper?"
+[[group: The Parable.]]
+  O2 |  |
+    P2 | 11, 12 | King of Babylon.
+      Q2 | 13, 14 | Planting of seed. (King's.)
+        R2 | 15- | Another kingdom. (Egypt.)
+          S2 | -15-21 | "Shall he prosper?"
+[[group: The Solution.]]
+  O3 |  |
+    P3 | 22- | Adonai Jehovah.
+      Q3 | -22, 23- | Planting of Messiah.
+        R3 | -23 | His increase.
+          S3 | 24 | "It shall prosper."
+[[group: Future Solution.]]
+
+[[diagram: 17. -15-21 (S2, p. 1127). "Shall He Prosper?" (Introversion)]]
+[[anchor: Ezekiel 17:15-21]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 25]]
+
+S2 |  |
+  c | -15, 16 | Zedekiah's oath broken. "Yet death in Babylon."
+    d | 17 | No escape through the king of Egypt.
+    d | 18 | No escape from the king of Babylon.
+  c | 19-21 | Jehovah's oath sure. Death in Babylon.
+
+[[diagram: 18. 1-32 (H, p. 1104). People. Proverb. (Sour Grapes.) (Repeated Alternation)]]
+[[anchor: Ezekiel 18:1-32]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 26]]
+
+H |  |
+  T1 | 1, 2 | Proverb.
+    U1 | 3 | Recrimination.
+  T2 | 4 | Proverb.
+    U2 | 5-18 | Discrimination.
+  T3 | 19- | Proverb.
+    U3 | -19-24 | Discrimination.
+  T4 | 25- | Proverb.
+    U4 | -25-28 | Discrimination.
+  T5 | 29- | Proverb.
+    U5 | -29-32 | Discrimination.
+
+[[diagram: 18. 5-18 (U2, above). Discrimination (Alternation)]]
+[[anchor: Ezekiel 18:5-18]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 26]]
+
+U2 |  |
+  c | 5-9 | The righteous.
+    d | 10-13 | The wicked.
+  c | 14-17 | The righteous.
+    d | 18 | The wicked.
+[[group: All in the Singular Number.]]
+
+[[diagram: 19. 1-14 (J, p. 1104). The Prince of Israel (Introversion and Alternation)]]
+[[anchor: Ezekiel 19:1-14]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 27]]
+
+J |  |
+  V | 1 | Lamentation.
+    W |  |
+      e | 2, 3 | Young lion.
+        f | 4 | Taken.
+      e | 5-7 | Another young lion.
+        f | 8, 9 | Taken.
+    W |  |
+      g | 10, 11 | Vine (planted by waters).
+        h | 12 | Plucked up.
+      g | 13 | Vine (planted in desert).
+        h | 14- | Devoured.
+  V | -14 | Lamentation.
+
+[[diagram: 20. 1-44 (D, p. 1104). Elders (Introversion)]]
+[[anchor: Ezekiel 20:1-44]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 28]]
+
+D |  |
+  X | 1-4 | The Elders of Israel.
+    Y | 5-22 | Rebellions and Causes.
+    Y | 23-26 | Punishments and Reasons.
+  X | 27-44 | The house of Israel.
+
+[[diagram: 20. 5-22 (Y, above). Rebellions and Causes (Repeated and Extended Alternations)]]
+[[anchor: Ezekiel 20:5-22]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 28]]
+
+Y |  |
+  Z1 |  |
+    i1 | 5-7 | Commands.
+      k1 | 8- | Rebellion.
+        l1 | -8 | Threatening.
+          m1 | 9, 10 | Forbearance.
+  Z2 |  |
+    i2 | 11, 12 | Statutes.
+      k2 | 13- | Rebellion.
+        l2 | -13 | Threatening.
+          m2 | 14-17 | Forbearance.
+  Z3 |  |
+    i3 | 18-20 | Commands.
+      k3 | 21- | Rebellions.
+        l3 | -21 | Threatening.
+          m3 | 22 | Forbearance.
+
+[[diagram: 20. 23-26 (Y, p. 1131). Punishments and Reasons (Introversions and Alternation)]]
+[[anchor: Ezekiel 20:23-26]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 29]]
+
+Y |  |
+  A | 23 | Punishments.
+[[group: -]]
+    B |  |
+      C |  |
+        n | 24- | Judgments.
+          o | -24- | Statutes.
+        D | -24 | Pollution by People.
+    B |  |
+      C |  |
+        o | 25- | Statutes.
+        n | -25 | Judgments.
+        D | 26- | Pollution by Jehovah.
+[[group: Reasons.]]
+  A | -26 | Punishment.
+
+[[diagram: 20. 27-44 (X, p. 1131). The House of Israel (Alternation)]]
+[[anchor: Ezekiel 20:27-44]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 30]]
+
+X |  |
+  p | 27-32 | Incrimination.
+    q | 33-38 | Threatening.
+  p | 39 | Incrimination.
+    q | 40-44 | Restoration.
+
+[[diagram: 20. 45—21. 32 (E, p. 1104). The Land and the City. (Judgments.) (Division)]]
+[[anchor: Ezekiel 20:45]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 31]]
+
+E |  |
+  G1 |  | 20. 45—21. 5. Parable and its Interpretation.
+  G2 |  | 21. 6-32. Signs and their Signification.
+
+[[diagram: 20. 45—21. 5 (G1, above). Parable and its Interpretation (Introversion and Extended Alternation)]]
+[[anchor: Ezekiel 20:45]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 31]]
+
+G1 |  |
+  H |  |
+    r |  | 20. 45, 46. Subject. Forest of the South.
+      s |  | 20. 47. Fire. Devouring.
+        t |  | 20. 48. All flesh shall see.
+    I |  | 20. 49. Ezekiel. Complaint.
+  H |  |
+    r |  | 21. 1, 2. Subject. Jerusalem and the Land.
+      s |  | 21. 3, 4. Sword. Cutting off.
+        t |  | 21. 5. All flesh shall know.
+
+[[diagram: 20. 45—22. 31 (E, p. 1104). The Land and the City (Alternation)]]
+[[anchor: Ezekiel 20:45]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 31]]
+
+E |  |
+  E |  | 20. 45—21. 32. Parables and signs.
+    F |  | 22. 1-16. The City defiled.
+  E |  | 22. 17-22. Symbol. Dross.
+    F |  | 22. 23-31. The Land not cleansed.
+
+[[diagram: 21. 6-32 (G2, above). Signs and their Signification (Alternation)]]
+[[anchor: Ezekiel 21:6-32]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 31]]
+
+G2 |  |
+  J | 6, 7 | Ezekiel. First sign. Sighing.
+    K | 8-13 | Signification of first sign.
+  J | 14-17 | Ezekiel. Second sign. Smiting.
+    K | 18-32 | Signification of second sign.
+
+[[diagram: 21. 8-13 (K, above). Signification of First Sign (Alternation)]]
+[[anchor: Ezekiel 21:8-13]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 31]]
+
+K |  |
+  L | 8-10- | The sword of Jehovah.
+    M | -10 | Its contempt for the sceptre of Judah.
+  L | 11, 12 | The sword of Jehovah.
+    M | 13 | Its contempt for the sceptre of Judah.
+
+[[diagram: 21. 18-32 (K, p. 1134). Signification of Second Sign (Alternation and Introversion)]]
+[[anchor: Ezekiel 21:18-32]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 32]]
+
+K |  |
+  N | 18-20- | The two ways.
+    O |  |
+      u | -20- | The Ammonites.
+        v | -20 | Judah and Jerusalem.
+  N | 21-24 | The two ways.
+    O |  |
+      v | 25-27 | The wicked prince of Israel.
+      u | 28-32 | The Ammonites.
+
+[[diagram: 22. 1-16 (F, p. 1134). The City Defiled (Repeated Alternation)]]
+[[anchor: Ezekiel 22:1-16]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 33]]
+
+F |  |
+  w1 | 1, 2- | Judgment. Determined.
+    x1 | -2-4- | Abominations. General.
+  w2 | -4, 5 | Judgment. Declared.
+    x2 | 6-12 | Abominations. Particular.
+  w3 | 13-16 | Judgment. Detailed.
+
+[[diagram: 22. 17-22 (E, p. 1134). Symbol, Dross (Introversion)]]
+[[anchor: Ezekiel 22:17-22]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 34]]
+
+E |  |
+  P | 17, 18 | Incrimination.
+    Q | 19 | Gathering.
+      R | 20 | Comparison.
+    Q | 21 | Gathering.
+  P | 22 | Incrimination.
+
+[[diagram: 22. 23-31 (F, p. 1134). Land not Cleansed (Introversion and Alternation)]]
+[[anchor: Ezekiel 22:23-31]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 34]]
+
+F |  |
+  S | 23 | Jehovah. His word.
+    T | 24 | The Land. Not cleansed.
+      U |  |
+        y | 25 | The prophets. Conspiracy.
+          z | 26 | The priests. Violated the Law.
+        V | 27 | The princes. Like wolves.
+      U |  |
+        y | 28 | The prophets. Daubed.
+          z | 29 | The People. Violated the Law.
+    T | 30 | The Land. No intercessor.
+  S | 31 | Jehovah. His judgment.
+
+[[diagram: 23. 1-49 (F, p. 1104). Jerusalem. (Two Sisters.) (Introversion)]]
+[[anchor: Ezekiel 23:1-49]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 34]]
+
+F |  |
+  W | 1-4 | Aholah and Aholibah.
+    X | 5-10 | Aholah = Samaria (Israel).
+    X | 11-35 | Aholibah = Jerusalem (Judah).
+  W | 36-49 | Aholah and Aholibah.
+
+[[diagram: 23. 5-35 (X, p. 1137). Aholah and Aholibah (Extended Alternation)]]
+[[anchor: Ezekiel 23:5-35]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 35]]
+
+X |  |
+  Y |  |
+    A | 5- | Aholah. (Samaria.)
+      B | -5, 6 | Doting on the Assyrians.
+        C | 7 | Her idolatry with them.
+          D | 8 | Her perseverance.
+            E | 9, 10 | Judgment executed.
+  Y |  |
+    A | 11 | Aholibah. (Jerusalem.)
+      B | 12 | Doting on the Assyrians.
+        C | 13-18 | Her idolatry with them.
+          D | 19-21 | Her perseverance.
+            E | 22-35 | Judgment threatened.
+
+[[diagram: 23. 22-35 (E, above). Judgment Threatened (Alternation)]]
+[[anchor: Ezekiel 23:22-35]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 35]]
+
+E |  |
+  a | 22-26 | Enemies.
+    b | 27 | Purpose. (Negative.)
+  a | 28-34 | Enemies.
+    b | 35 | Purpose. (Positive.)
+
+[[diagram: 23. 36-49 (W, p. 1137). Aholah and Aholibah (Alternation)]]
+[[anchor: Ezekiel 23:36-49]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 36]]
+
+W |  |
+  c | 36, 37 | Judgment.
+    d | 38-44 | Incrimination.
+  c | 45 | Judgment.
+    d | 46-49 | Threatening.
+
+[[diagram: 24. 1—32. 33 (G, p. 1104). The Babylonian War. Parable (Division)]]
+[[anchor: Ezekiel 24:1]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 37]]
+
+G |  |
+  F1 |  | 24. 1-27. Jerusalem.
+  F2 |  | 25. 1-17. Ammonites and others.
+  F3 |  | 26. 1—28. 26. Tyre and Sidon.
+  F4 |  | 29. 1—32. 32. Egypt.
+
+[[diagram: 24. 1-27 (F1, above). Jerusalem (Division)]]
+[[anchor: Ezekiel 24:1-27]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 37]]
+
+F1 |  |
+  G1 | 1, 2 | Literal.
+  G2 | 3-27 | Symbolical.
+
+[[diagram: 24. 3-27 (G2, above). Symbolical (Repeated Alternation)]]
+[[anchor: Ezekiel 24:3-27]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 37]]
+
+G2 |  |
+  H1 | 3-5 | Symbol. A Pot.
+    J1 | 6-9 | Signification.
+  H2 | 10, 11 | Symbol. A Fire.
+    J2 | 12-14 | Signification.
+  H3 | 15-18 | Symbol. Ezekiel.
+    J3 | 19-27 | Signification.
+
+[[diagram: 25. 1-17 (F2, p. 1140). Ammonites and Other Nations (Repeated Alternation)]]
+[[anchor: Ezekiel 25:1-17]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 38]]
+
+F2 |  |
+  e1 | 1-3 | Incrimination.
+    f1 | 4, 5 | Threatening.
+  e2 | 6 | Incrimination.
+    f2 | 7 | Threatening.
+[[group: Ammon.]]
+  e3 | 8 | Incrimination.
+    f3 | 9-11 | Threatening.
+[[group: Moab and Seir.]]
+  e4 | 12 | Incrimination.
+    f4 | 13, 14 | Threatening.
+[[group: Edom.]]
+  e5 | 15 | Incrimination.
+    f5 | 16, 17 | Threatening.
+[[group: Philistines.]]
+
+[[diagram: 26. 1—28. 26 (F3, p. 1140). Tyre and Zidon (Division)]]
+[[anchor: Ezekiel 26:1]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 39]]
+
+F3 |  |
+  K1 |  | 26. 1—28. 19. Tyre.
+  K2 |  | 28. 20-26. Zidon.
+
+[[diagram: 26. 1—28. 19 (K1, above). Tyre (Division)]]
+[[anchor: Ezekiel 26:1]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 39]]
+
+K1 |  |
+  L1 |  | 26. 1—27. 36. The City of Tyre.
+  L2 |  | 28. 1-19. The "Prince" and "King" of Tyre.
+
+[[diagram: 26. 1—27. 36 (L1, above). The City of Tyre (Division)]]
+[[anchor: Ezekiel 26:1]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 39]]
+
+L1 |  |
+  M1 |  | 26. 1-21. The Destruction of Tyre.
+  M2 |  | 27. 1-36. The Lamentation of Tyre.
+
+[[diagram: 26. 1-21 (M1, above). The Destruction of Tyre (Introversion and Extended Alternation)]]
+[[anchor: Ezekiel 26:1-21]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 39]]
+
+M1 |  |
+  N | 1, 2 | Tyre rejoices at Jerusalem's fall.
+    O |  |
+      g | 3 | Invasion by many nations.
+        h | 4- | Breaking down.
+          i | -4-6 | Likeness to top of a rock.
+    O |  |
+      g | 7, 8 | Invasion by Babylon.
+        h | 9-13 | Breaking down.
+          i | 14 | Likeness to top of a rock.
+  N | 15-21 | Nations lament at Tyre's fall.
+
+[[diagram: 27. 1-36 (M2, p. 1142). The Lamentation of Tyre (Extended Alternation)]]
+[[anchor: Ezekiel 27:1-36]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 40]]
+
+M2 |  |
+  j | 1-25 | Opulence. Influx.
+    k | 26, 27 | Ruin.
+      l | 28-32 | Commiseration.
+  j | 33 | Opulence. Efflux.
+    k | 34 | Ruin.
+      l | 35, 36 | Astonishment.
+
+[[diagram: 28. 1-19 (L2, p. 1142). "The Prince" and "The King" of Tyre (Extended Alternation)]]
+[[anchor: Ezekiel 28:1-19]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 42]]
+
+L2 |  |
+  P |  |
+    Q | 1, 2- | "The Prince of Tyre." Commission to speak.
+      R | -2-6 | Description. Type. A mere man (vv. 1, 9).
+        S | 7-10 | Destruction of "the Prince".
+  P |  |
+    Q | 11, 12- | "The King of Tyre." Commission to speak.
+      R | -12-17- | Description. Antitype. Satan.
+        S | -17-19 | Destruction of "the King".
+
+[[diagram: 28. -2-6 (R, above). Description of the Prince. (The Type.) (Introversion and Alternation)]]
+[[anchor: Ezekiel 28:2-6]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 42]]
+
+R |  |
+  T |  |
+    m | -2- | Thine heart is lifted up.
+      n | -2 | As the heart of God.
+    U |  |
+      o | 3, 4- | Thy wisdom.
+        p | -4 | Thy riches. Gotten.
+    U |  |
+      o | 5- | Thy wisdom.
+        p | -5- | Thy riches. Increased.
+  T |  |
+    m | -5 | Thine heart is lifted up.
+      n | 6 | As the heart of God.
+
+[[diagram: 28. 7-10 (S, above). Destruction of "The Prince" (Introversion)]]
+[[anchor: Ezekiel 28:7-10]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 42]]
+
+S |  |
+  q | 7, 8- | Judgment executed by strangers.
+    r | -8 | Thou shalt die the deaths, &c.
+      s | 9- | I am Elohim.
+      s | -9 | Thou art a man.
+    r | 10- | Thou shalt die the deaths, &c.
+  q | -10 | Judgment executed by strangers.
+
+[[diagram: 28. -12-17- (R, above). Description of "The King". (The Antitype.) (Introversion)]]
+[[anchor: Ezekiel 28:12-17]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 42]]
+
+R |  |
+  t | -12, 13 | His "wisdom" and "beauty".
+    u | 14, 15- | The covering Cherub.
+      v | -15 | His iniquity.
+      v | 16- | His sin.
+    u | -16 | The covering Cherub.
+  t | 17- | His "wisdom" and "beauty".
+
+[[diagram: 28. -17-19 (S, p. 1145). Destruction of "The King". (Introversion and Alternation)]]
+[[anchor: Ezekiel 28:17-19]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 43]]
+
+S |  |
+  V |  |
+    w | -17- | Cast to the earth.
+      x | -17 | They that behold thee.
+    W | 18- | His fall: the cause of it.
+    W | -18- | His fall: the consequence of it.
+  V |  |
+    w | -18- | Brought to ashes on the earth.
+      x | -18, 19 | They that behold thee.
+
+[[diagram: 28. 20-26 (K2, p. 1142). Zidon. (Introversion)]]
+[[anchor: Ezekiel 28:20-26]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 43]]
+
+K2 |  |
+  y | 20, 21 | Prophecy of evil for Zidon.
+    z | 22, 23 | Jehovah known by His judgment on Zidon.
+    z | 24 | Jehovah known by His removal of Zidon.
+  y | 25, 26 | Prophecy of good for Israel.
+
+[[diagram: 29. 1—32. 32 (F4, p. 1140). Egypt. (Alternation)]]
+[[anchor: Ezekiel 29:1]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 44]]
+
+F4 |  |
+  X |  | 29. 1—30. 26. Destruction.
+    Y |  | 31. 1-18. Perdition.
+  X |  | 32. 1-16. Destruction.
+    Y |  | 32. 17-32. Perdition.
+
+[[diagram: 29. 1—30. 26 (X, above). Destruction. (Alternation)]]
+[[anchor: Ezekiel 29:1]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 44]]
+
+X |  |
+  A |  | 29. 1-16. Egypt. Pharaoh.
+    B |  | 29. 17-21. Nebuchadnezzar. Wages promised.
+  A |  | 30. 1-19. Egypt. Allies.
+    B |  | 30. 20-26. Nebuchadnezzar. Wages paid.
+
+[[diagram: 29. 1-16 (A, above). Egypt. Pharaoh. (Extended Alternation)]]
+[[anchor: Ezekiel 29:1-16]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 44]]
+
+A |  |
+  a | 1-3 | Incrimination. The River.
+    b | 4, 5 | Threatening.
+      c | 6, 7 | Purpose.
+  a | 8, 9 | Incrimination. The River.
+    b | 10-12 | Threatening.
+      c | 13-16 | Purpose.
+
+[[diagram: 30. 1-19 (A, p. 1147). Egypt and Her Allies. (Alternation)]]
+[[anchor: Ezekiel 30:1-19]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 45]]
+
+A |  |
+  d | 1-4 | The Sword.
+    e | 5-9 | The Allies.
+  d | 10-12 | The Sword.
+    e | 13-19 | The Allies.
+
+[[diagram: 30. 20-26 (B, p. 1147). Nebuchadnezzar. Wages Paid. (Alternation)]]
+[[anchor: Ezekiel 30:20-26]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 46]]
+
+B |  |
+  f | 20-22 | Arms of Pharaoh broken.
+    g | 23 | Dispersion.
+  f | 24, 25 | Arms of Nebuchadnezzar strengthened.
+    g | 26 | Dispersion.
+
+[[diagram: 31. 1-18 (Y, p. 1147). Perdition. (Introversion and Extended Alternation)]]
+[[anchor: Ezekiel 31:1-18]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 46]]
+
+Y |  |
+  C | 1 | Introduction.
+    D | 2 | Question. Likeness, &c.
+[[group: -]]
+      E |  |
+        h | 3-5 | Exaltation.
+          i | 6 | Shelter.
+            k | 7-9 | Envy.
+[[group: Former state.]]
+      E |  |
+        h | 10-12 | Excision.
+          i | 13, 14 | Shelter.
+            k | 15-17 | Mourning.
+[[group: Latter state.]]
+    D | 18- | Question. Likeness.
+  C | -18 | Conclusion.
+
+[[diagram: 32. 1-16 (X, p. 1147). Destruction. (Introversions and Alternation)]]
+[[anchor: Ezekiel 32:1-16]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 47]]
+
+X |  |
+  F | 1, 2- | Lamentation.
+    G |  |
+      H |  |
+        l | -2 | Beast. Waters troubled.
+          m | 3 | Net.
+      J | 4-10 | Destruction.
+    G |  |
+      H |  |
+        m | 11, 12 | Sword.
+        l | 13 | Beasts. Waters troubled no more.
+      J | 14, 15 | Desolation.
+  F | 16 | Lamentation.
+
+[[diagram: 32. 17-32 (Y, p. 1147). Perdition. (Alternation and Introversion)]]
+[[anchor: Ezekiel 32:17-32]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 48]]
+
+Y |  |
+  K | 17-20 | Fellowship in Sheol.
+    L |  |
+      n | 21 | Pharaoh.
+        o | 22-27 | Other Kings and nations.
+  K | 28 | Fellowship in Sheol.
+    L |  |
+      o | 29, 30 | Other Kings and nations.
+      n | 31, 32 | Pharaoh.
+
+[[diagram: 33. 1-22 (H, p. 1104). People. Sign. (Watchman.) (Division)]]
+[[anchor: Ezekiel 33:1-22]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 49]]
+
+H |  |
+  M1 | 1-9 | Signification.
+  M2 | 10-20 | Application.
+  M3 | 21, 22 | Fulfilment.
+
+[[diagram: 33. 1-9 (M1, above). Signification. (Alternation and Introversion)]]
+[[anchor: Ezekiel 33:1-9]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 49]]
+
+M1 |  |
+  N | 1, 2 | Sign. The watchman.
+    O |  |
+      p | 3-5 | Warning. Positive.
+        q | 6 | Warning. Negative.
+  N | 7 | Sign. Signification. (Ezekiel.)
+    O |  |
+      q | 8 | Warning. Negative.
+      p | 9 | Warning. Positive.
+
+[[diagram: 33. 10-20 (M2, p. 1152). Application. (Repeated Alternation)]]
+[[anchor: Ezekiel 33:10-20]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 50]]
+
+M2 |  |
+  r1 | 10, 11 | The way of Jehovah.
+    s1 | 12-16 | The righteous and the wicked.
+  r2 | 17 | The way of Jehovah.
+    s2 | 18, 19 | The righteous and the wicked.
+  r3 | 20 | The way of Jehovah.
+
+[[diagram: 33. 23-33 (J, p. 1104). Inhabitants of the Wastes. (Extended Alternation)]]
+[[anchor: Ezekiel 33:23-33]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 50]]
+
+J |  |
+  P | 23, 24 | The saying of the People.
+    Q | 25-28 | Threatening.
+      R | 29 | Purpose. "Then shall they know."
+  P | 30-32 | The saying of the People.
+    Q | 33- | Threatening.
+      R | -33 | Purpose. "Then shall they know."
+
+[[diagram: 34. 1-31 (B, p. 1104). Shepherds and Flock. (Alternation)]]
+[[anchor: Ezekiel 34:1-31]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 51]]
+
+B |  |
+  S | 1-16 | False Shepherds.
+    T | 17-22 | The Flock. False.
+  S | 23-30 | True Shepherds.
+    T | 31 | The Flock. True.
+
+[[diagram: 34. 1-16 (S, above). False Shepherds. (Alternation and Introversion)]]
+[[anchor: Ezekiel 34:1-16]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 51]]
+
+S |  |
+  U | 1-3 | The False Shepherds.
+    V |  |
+      t | 4 | Their neglect.
+        u | 5, 6 | Consequent scattering of Flock.
+  U | 7-10 | The False Shepherds.
+    V |  |
+      u | 11-16- | Subsequent gathering of Flock.
+      t | -16 | Their punishment.
+
+[[diagram: 34. 17-22 (T, p. 1154). The Flock (Repeated Alternation)]]
+[[anchor: Ezekiel 34:17-22]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 52]]
+
+T |  |
+  v1 | 17 | "I judge".
+    w1 | 18, 19 | Destructiveness.
+  v2 | 20 | "I will judge".
+    w2 | 21, 22- | Voracity.
+  v3 | -22 | "I will judge".
+
+[[diagram: 34. 23-30 (S, p. 1154). True Shepherd. (Alternations and Introversion)]]
+[[anchor: Ezekiel 34:23-30]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 52]]
+
+S |  |
+  W |  |
+    x | 23, 24 | The true Shepherd.
+      y | 25 | Security.
+    X |  |
+      a | 26, 27- | Prosperity. (Positive.)
+        b | -27 | Purpose.
+  W |  |
+    y | 28 | Security.
+    x | 29- | The plant of renown.
+    X |  |
+      a | -29 | Prosperity. (Negative.)
+        b | 30 | Purpose.
+
+[[diagram: 35. 1—48. 35 (A, p. 1104). The Restoration. (Alternation)]]
+[[anchor: Ezekiel 35:1]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 53]]
+
+A |  |
+  Y |  | 35. 1-15. Judgments on enemies.
+    Z |  | 36. 1—37. 38. Restoration of Israel.
+  Y |  | 38. 1—39. 29. Judgments on nations.
+    Z |  | 40. 1—48. 35. Restoration of Israel.
+
+[[diagram: 35. 1-15 (Y, above). Judgments on Enemies. (Seir.) (Repeated Alternation)]]
+[[anchor: Ezekiel 35:1-15]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 53]]
+
+Y |  |
+  c1 | 1-4 | Threatening. Desolation.
+    d1 | 5 | Reason. Hatred.
+  c2 | 6-9 | Threatening. Desolation.
+    d2 | 10 | Reason. Covetousness.
+  c3 | 11-15 | Threatening. Desolation.
+
+[[diagram: 36. 1—37. 38 (Z, above). Restoration of Israel. (Division)]]
+[[anchor: Ezekiel 36:1]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 53]]
+
+Z |  |
+  A1 |  | 36. 1-38. Literal.
+  A2 |  | 37. 1-28. Symbolical.
+
+[[diagram: 36. 1-38 (A1, above). Restoration. Literal. (Introversion)]]
+[[anchor: Ezekiel 36:1-38]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 53]]
+
+A1 |  |
+  B | 1-15 | The Land.
+    C | 16-29- | The People. Israel.
+  B | -29-38 | The Land.
+
+[[diagram: 36. 1-15 (B, above). The Land. (Alternation)]]
+[[anchor: Ezekiel 36:1-15]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 53]]
+
+B |  |
+  e | 1-3 | What the enemy said.
+    f | 4-12 | What Jehovah purposed.
+  e | 13 | What the enemy said.
+    f | 14, 15 | What Jehovah purposed.
+
+[[diagram: 36. 16-29- (C, p. 1156). The People. Israel (Introversion and Alternation)]]
+[[anchor: Ezekiel 36:16-29]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 54]]
+
+C |  |
+  D | 16, 17 | Israel's uncleanness.
+    E | 18, 19 | "I scattered".
+      F | 20 | "They profaned".
+        G |  |
+          g | 21- | Jehovah's Name's sake.
+            h | -21 | Which Israel had profaned.
+        G |  |
+          g | 22- | Jehovah's Name's sake.
+            h | -22 | Which Israel had profaned.
+      F | 23 | "I will sanctify".
+    E | 24 | "I will bring".
+  D | 25-29 | Israel's cleansing.
+
+[[diagram: 36. -29-38 (B, p. 1156). The Land. (Alternation)]]
+[[anchor: Ezekiel 36:29-38]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 55]]
+
+B |  |
+  H | -29, 30 | Its Restoration.
+    J | 31 | The Purpose. (Negative.)
+  H | 32-35 | Its Restoration.
+    J | 36-38 | The Purpose. (Positive.)
+
+[[diagram: 37. 1-28 (A2, p. 1156). Restoration. Symbolical. (Division)]]
+[[anchor: Ezekiel 37:1-28]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 56]]
+
+A2 |  |
+  K1 | 1-14 | The Dry Bones.
+  K2 | 15-28 | The Two Sticks.
+
+[[diagram: 37. 1-14 (K1, above). The Dry Bones. (Alternations: Simple and Extended)]]
+[[anchor: Ezekiel 37:1-14]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 56]]
+
+K1 |  |
+  L |  |
+    N | 1, 2 | The Vision shown.
+      O | 3 | The Question. Answer of prophet.
+    M |  |
+      l | 4 | Command to prophesy over ('al).
+        m | 5, 6 | Words of the prophecy.
+          n | 7- | Obedience of the prophet.
+            o | -7, 8 | Result.
+    M |  |
+      l | 9- | Command to prophecy unto ('el).
+        m | -9 | Words of the prophecy.
+          n | 10- | Obedience of the prophet.
+            o | -10 | Result.
+  L |  |
+    N | 11 | The Vision explained.
+      O | 12-14 | The Question. Answer of Jehovah.
+
+[[diagram: 37. 12-14 (O, above). The Question. Answered by Jehovah. (Introversion and Extended Alternation)]]
+[[anchor: Ezekiel 37:12-14]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 56]]
+
+O |  |
+  P | 12- | "Thus saith Jehovah".
+    Q |  |
+      p | -12- | "I will open your graves".
+        q | -12 | "And bring you into the land".
+          r | 13- | "And ye shall know", &c.
+    Q |  |
+      p | -13 | "When I have opened your graves".
+        q | 14- | "And I shall place you in your own land".
+          r | -14- | "Then shall ye know", &c.
+  P | -14 | "Saith Jehovah."
+
+[[diagram: 37. 15-28 (K2, p. 1159). The Two Sticks (Division)]]
+[[anchor: Ezekiel 37:15-28]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 57]]
+
+K2 |  |
+  R1 | 15-19 | The Sign.
+  R2 | 20-28 | The Signification.
+
+[[diagram: 37. 15-19 (R1, above). The Sign. (Alternation and Introversion)]]
+[[anchor: Ezekiel 37:15-19]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 57]]
+
+R1 |  |
+  S |  |
+    s | 15, 16- | The stick for Judah.
+      t | -16 | The stick for Ephraim.
+    T | 17 | Union.
+  S |  |
+    t | 18, 19- | The stick for Ephraim.
+    s | -19- | The stick for Judah.
+    T | -19 | Union.
+
+[[diagram: 37. 20-28 (R2, above). The Signification. (Repeated and Extended Alternation)]]
+[[anchor: Ezekiel 37:20-28]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 57]]
+
+R2 |  |
+  U1 |  |
+    u1 | 20, 21 | Restoration.
+      v1 | 22 | One Nation.
+        w1 | 23- | Conversion.
+  U2 |  |
+    u2 | -23 | Restoration.
+      v2 | 24- | One King.
+        w2 | -24 | Conversion.
+  U3 |  |
+    u3 | 25- | Restoration.
+      v3 | -25 | One King.
+        w3 | 26-28 | Sanctification.
+
+[[diagram: 38. 1—39. 29 (Y, p. 1156). Judgments on Enemies. (Gog.) (Alternations)]]
+[[anchor: Ezekiel 38:1]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 58]]
+
+Y |  |
+  V |  | 38. 1-3. Gog.
+    W |  | 38. 4-7. Repulsed.
+      X |  |
+        x |  | 38. 8-16-. Invasion.
+          y |  | 38. -16. Purpose.
+        x |  | 38. 17-22. Invasion.
+          y |  | 38. 23. Purpose.
+  V |  | 39. 1. Gog.
+    W |  | 39. 2, 3. Repulse.
+      X |  |
+        z |  | 39. 4-6. Fall.
+          a |  | 39. 7. Purpose.
+        z |  | 39. 8-21. Spoliation.
+          a |  | 39. 22-29. Purpose.
+
+[[diagram: 40. 1—48. 35 (Z, p. 1156). The Restoration. (Alternation)]]
+[[anchor: Ezekiel 40:1]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 60]]
+
+Z |  |
+  A |  | 40. 1—44. 31. The House.
+    B |  | 45. 1—46. 18. The Land.
+  A |  | 46. 19-24. The House.
+    B |  | 47. 1—48. 35. The Land.
+
+[[diagram: 40. 1—44. 31 (A, above). The House. (Repeated and Extended Alternation)]]
+[[anchor: Ezekiel 40:1]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 60]]
+
+A |  |
+  C1 |  |
+    D1 |  | 40. 1-3. Visions of God.
+      E1 |  | 40. 4. Injunctions.
+        F1 |  | 40. 5—42. 20. The House. Itself.
+  C2 |  |
+    D2 |  | 43. 1-6. The Glory. Returning.
+      E2 |  | 43. 7-12. Injunctions.
+        F2 |  | 43. 13-27. The House. Its altar.
+  C3 |  |
+    D3 |  | 44. 1-4. The Glory. Abiding.
+      E3 |  | 44. 5-8. Injunctions.
+        F3 |  | 44. 9-31. The House. Its Ministers.
+
+[[diagram: 40. 5—42. 20 (F1, p. 1163). The House Itself. (Extended Alternation)]]
+[[anchor: Ezekiel 40:5]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 61]]
+
+F1 |  |
+  G |  | 40. 5-43. The Inclosures.
+    H |  | 40. 44-46. The Priests' rooms.
+      J |  | 40. 47. The Court. Its size and shape.
+  G |  | 40. 48—41. 26. The Inner House, or Temple.
+    H |  | 42. 1-14. The Priests' rooms.
+      J |  | 42. 15-20. The outer place. Its size and shape.
+
+[[diagram: 40. 5-43 (G, above). The Inclosures. (Division)]]
+[[anchor: Ezekiel 40:5-43]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 61]]
+
+G |  |
+  K1 | 5-16 | The Outer Wall and Gates.
+  K2 | 17-43 | The Outer and Inner Courts.
+
+[[diagram: 40. 17-43 (K2, above). The Outer and Inner Court. (Repeated and Extended Alternation)]]
+[[anchor: Ezekiel 40:17-43]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 61]]
+
+K2 |  |
+  L1 |  |
+    b1 | 17-22- | North Gate.
+      c1 | -22 | Seven steps.
+        d1 | 23 | Opposite Inner Gate.
+  L2 |  |
+    b2 | 24, 25 | South Gate.
+      c2 | 26 | Seven steps.
+        d2 | 27 | Opposite Inner Gate.
+[[group: The Outer Court.]]
+  L3 |  |
+    b3 | 28 | South Gate.
+      c3 | 29, 30 | Chambers, &c.
+        d3 | 31 | Porches. Eight steps.
+  L4 |  |
+    b4 | 32 | East Gate.
+      c4 | 33 | Chambers, &c.
+        d4 | 34 | Porches. Eight steps.
+  L5 |  |
+    b5 | 35 | North Gate.
+      c5 | 36 | Chambers, &c.
+        d5 | 37-43 | Porches. Eight steps.
+[[group: The Inner Court.]]
+
+[[diagram: 40. 44-46 (H, p. 1164). The Priests' Rooms. (Alternation)]]
+[[anchor: Ezekiel 40:44-46]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 63]]
+
+H |  |
+  e | 44- | South Prospect.
+    f | -44 | North Prospect.
+[[group: Situation.]]
+  e | 45 | South Prospect.
+    f | 46 | North Prospect.
+[[group: Use.]]
+
+[[diagram: 40. 48—41. 26 (G, p. 1164). The Inner House. (Alternations)]]
+[[anchor: Ezekiel 40:48]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 63]]
+
+G |  |
+  M |  |
+    g |  | 40. 48, 49. The Porch.
+      h |  | 41. 1-3. The Temple.
+    N |  | 41. 4. The Most Holy Place.
+  M |  |
+    g |  | 41. 5-11. The Porch.
+      h |  | 41. 12-15. The Temple.
+    N |  | 41. 16-26. The Most Holy Place.
+
+[[diagram: 41. 16-26 (N, p. 1166). The Most Holy Place. (Introversion and Alternation)]]
+[[anchor: Ezekiel 41:16-26]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 64]]
+
+N |  |
+  O |  |
+    i | 16, 17 | Walls.
+      k | 18-21 | Cherubim.
+    P | 22 | Altar of Wood.
+  O |  |
+    i | 23, 24 | Doors.
+      k | 25, 26 | Cherubim.
+
+[[diagram: 42. 1-14 (H, p. 1164). The Priests' Rooms. (Division)]]
+[[anchor: Ezekiel 42:1-14]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 64]]
+
+H |  |
+  Q1 | 1-12 | The Rooms.
+  Q2 | 13, 14 | Their Uses.
+
+[[diagram: 42. 15-20 (J, p. 1164). The Outer Place. (Introversion)]]
+[[anchor: Ezekiel 42:15-20]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 65]]
+
+J |  |
+  l | 15 | The circumference.
+    m | 16 | East side.
+      n | 17 | North side.
+      n | 18 | South side.
+    m | 19 | West side.
+  l | 20 | The circumference.
+
+[[diagram: 43. 13-27 (F2, p. 1163). The Altar, Etc. (Division)]]
+[[anchor: Ezekiel 43:13-27]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 66]]
+
+F2 |  |
+  R1 | 13-17 | The Altar. Itself.
+  R2 | 18-27 | The Altar. Its ordinances.
+
+[[diagram: 43. 18-27 (R2, above). The Altar. Its Ordinances. (Alternation)]]
+[[anchor: Ezekiel 43:18-27]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 66]]
+
+R2 |  |
+  o | 18-21 | First day.
+    p | 22-24 | Second day.
+[[group: Separate.]]
+  o | 25, 26 | Seven days.
+    p | 27 | Eighth day.
+[[group: Collective.]]
+
+[[diagram: 44. 9-31 (F3, p. 1163). The House. Its Ordinances. (Division)]]
+[[anchor: Ezekiel 44:9-31]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 67]]
+
+F3 |  |
+  S1 | 9-14 | The Levites.
+  S2 | 15-31 | The Priests.
+
+[[diagram: 44. 9-14 (S1, above). The Levites. (Introversion and Alternation)]]
+[[anchor: Ezekiel 44:9-14]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 67]]
+
+S1 |  |
+  T |  |
+    q | 9, 10 | Prohibitions. (Negative.)
+      r | 11 | Ministry. (Positive.)
+    U | 12 | Reason.
+  T |  |
+    q | 13 | Prohibitions. (Negative.)
+      r | 14 | Ministry. (Positive.)
+
+[[diagram: 44. 15-31 (S2, p. 1170). The Priests. (Alternation and Introversion)]]
+[[anchor: Ezekiel 44:15-31]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 68]]
+
+S2 |  |
+  V |  |
+    s | 15, 16 | Public.
+      t | 17-22 | Personal.
+[[group: Ceremonial.]]
+    W | 23, 24 | Moral.
+[[group: -]]
+  V |  |
+    t | 25 | Personal.
+    s | 26, 27 | Public.
+[[group: Ceremonial.]]
+    W | 28-31 | Moral.
+
+[[diagram: 45. 1—46. 18 (B, p. 1163). Restoration. The Land. (Division)]]
+[[anchor: Ezekiel 45:1]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 69]]
+
+B |  |
+  X1 |  | 45. 1-6. The Oblation.
+  X2 |  | 45. 7—46. 18. The Prince's Portion.
+
+[[diagram: 45. 1-6 (X1, above). The Oblation. (Division)]]
+[[anchor: Ezekiel 45:1-6]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 69]]
+
+X1 |  |
+  Y1 | 1-4 | The Holy Portion.
+  Y2 | 5 | The Portion of the Levites.
+[[group: Persons.]]
+  Y3 | 6 | The Portion of the City. Place.
+
+[[diagram: 45. 1-4 (Y1, above). The Holy Portion. (Repeated Alternation)]]
+[[anchor: Ezekiel 45:1-4]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 69]]
+
+Y1 |  |
+  u1 | 1 | The Holy Portion.
+    v1 | 2 | The Sanctuary.
+  u2 | 3- | The Holy Portion.
+    v2 | -3 | The Sanctuary.
+  u3 | 4- | The Holy Portion.
+    v3 | -4 | The Sanctuary.
+
+[[diagram: 45. 7—46. 18 (X2, above). The Holy Portion. (Introversion)]]
+[[anchor: Ezekiel 45:7]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 69]]
+
+X2 |  |
+  A |  | 45. 7-12. The Prince's Portion.
+    B |  | 45. 13-25. Ordinances.
+    B |  | 46. 1-15. Ordinances.
+  A |  | 46. 16-18. The Prince's Portion.
+
+[[diagram: 45. 7-12 (A, above). The Prince's Portion. (Alternation)]]
+[[anchor: Ezekiel 45:7-12]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 69]]
+
+A |  |
+  w | 7, 8- | The Prince.
+    x | -8- | Injunctions to princes.
+  w | -8 | The Tribes.
+    x | 9-12 | Injunctions to princes.
+
+[[diagram: 45. 13-25 (B, above). Ordinances. (Division)]]
+[[anchor: Ezekiel 45:13-25]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 69]]
+
+B |  |
+  C1 | 13-15 | The Offerings. (Things, 13, 14. Lamb, 15.)
+  C2 | 16, 17- | The Offerers. (People, 16 Prince, 17-.)
+  C3 | -17-25 | The Times. (General, -17. Part., 18-25.)
+
+[[diagram: 46. 1-15 (B, p. 1172). Ordinances. (Repeated and Extended Alternation)]]
+[[anchor: Ezekiel 46:1-15]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 70]]
+
+B |  |
+  D1 |  |
+    a1 | 1, 2 | Prince.
+      b1 | 3 | The People. "They".
+        c1 | 4-7 | The offerings.
+  D2 |  |
+    a2 | 8 | The Prince.
+      b2 | 9, 10 | The People.
+        c2 | 11 | The offerings.
+  D3 |  |
+    a3 | 12- | The Prince.
+      b3 | -12 | Personal.
+        c3 | 13-15 | The offerings.
+
+[[diagram: 46. 19-24 (A, p. 1163). The House. (Alternation)]]
+[[anchor: Ezekiel 46:19-24]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 71]]
+
+A |  |
+  d | 19 | Boiling places. In the inner court.
+    e | 20 | Uses. For the Priests.
+  d | 21-23 | Boiling places. In the outer court.
+    e | 24 | Uses. For the People.
+
+[[diagram: 47. 1—48. 35 (B, p. 1163). The Land. (Division)]]
+[[anchor: Ezekiel 47:1]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 72]]
+
+B |  |
+  E1 |  | 47. 1-12. The Healing of the Land.
+  E2 |  | 47. 13—48. 35. The Restoration of the Land.
+
+[[diagram: 47. 1-12 (E1, above). The Healing of the Land. (Alternation)]]
+[[anchor: Ezekiel 47:1-12]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 72]]
+
+E1 |  |
+  f | 1-6 | The water.
+    g | 7 | The trees.
+  f | 8-11 | The water.
+    g | 12 | The trees.
+
+[[diagram: 47. 13—48. 35 (E2, above). The Restoration of the Land. (Division)]]
+[[anchor: Ezekiel 47:13]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 72]]
+
+E2 |  |
+  F1 |  | 47. 13-23. The Land.
+  F2 |  | 48. 1-29. The Tribes.
+  F3 |  | 48. 30-35. The City.
+
+[[diagram: 47. 13-23 (F1, above). The Land. (Introversion and Alternation)]]
+[[anchor: Ezekiel 47:13-23]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 72]]
+
+F1 |  |
+  G | 13, 14 | Distribution and Boundaries.
+    H |  |
+      h | 15-17 | North border.
+        i | 18 | East border.
+    H |  |
+      h | 19 | South border.
+        i | 20 | West border.
+  G | 21-23 | Distribution and Boundaries.
+
+[[diagram: 48. 1-29 (F2, p. 1175). The Tribes. (Introversion and Alternation)]]
+[[anchor: Ezekiel 48:1-29]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 73]]
+
+F2 |  |
+  J | 1- | The Tribes. "These are the names", &c.
+    K | -1-3 | The Slave Offspring (Bilhah and Zilpah).
+[[group: -]]
+      L |  |
+        N | 4, 5 | Rachel.
+          O | 6, 7 | Leah.
+[[group: The Wives' Offspring.]]
+        M | 8-22 | THE OBLATION.
+[[group: -]]
+      L |  |
+        N | 23 | Rachel.
+          O | 24-26 | Leah.
+[[group: The Wives' Offspring.]]
+    K | 27 | The Slave Offspring (Zilpah).
+  J | 28, 29 | The Tribes. "This is the Land", &c.
+
+[[diagram: 48. 8-22 (M, above). The Oblation. (Alternation)]]
+[[anchor: Ezekiel 48:8-22]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 73]]
+
+M |  |
+  P | 8, 9 | The Oblation. Foursquare.
+    Q | 10-19 | The Inhabitants.
+  P | 20 | The Oblation. Foursquare.
+    Q | 21, 22 | The Prince.
+
+[[diagram: 48. 10-19 (Q, above). The Inhabitants. (Division)]]
+[[anchor: Ezekiel 48:10-19]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 73]]
+
+Q |  |
+  R1 | 10-14 | Ecclesiastical.
+  R2 | 15-19 | Civil.
+
+[[diagram: 48. 10-14 (R1, above). Ecclesiastical. (Division)]]
+[[anchor: Ezekiel 48:10-14]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 73]]
+
+R1 |  |
+  S1 | 10-12 | The Priests' Portion.
+  S2 | 13, 14 | The Levites' Portion.
+
+[[diagram: 48. 15-19 (R2, p. 1176). Civil. (Introversion)]]
+[[anchor: Ezekiel 48:15-19]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 74]]
+
+R2 |  |
+  j | 15- | The common place.
+    k | -15 | The City. Its site.
+    k | 16 | The City. Its measurements.
+  j | 17-19 | The suburbs.
+
+[[diagram: 48. 30-35 (F3, p. 1175). The City. (Introversion and Alternation)]]
+[[anchor: Ezekiel 48:30-35]]
+[[pdf: 22. Ezekiel_text.pdf]]
+[[pdf-page: 74]]
+
+F3 |  |
+  T | 30- | The City. Its exits.
+    U | -30- | Its measurements.
+[[group: -]]
+      V |  |
+        l | -30, 31 | The North side.
+          m | 32 | The East side.
+      V |  |
+        l | 33 | The South side.
+          m | 34 | The West side.
+[[group: Its Gates.]]
+    U | 35- | Its measurements.
+  T | -35 | The City. Its name.

@@ -1,0 +1,152 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Esther
+# Marginal (side) notes, to be read alongside the KJV text.
+#
+# All 10 chapters, printed pp. 655-664 (pages 2-11 of
+# thecompanionbible_202504_pdf/13. Esther_text.pdf; p. 654 holds only the
+# whole-book Structure). Every page was transcribed from its scan, including
+# the full-width note blocks at the foot of pp. 655 and 663. Structure
+# headings printed in the note column are kept at the head of the verse they
+# open. Superscript member numbers are written on the line ("C1"); Hebrew
+# macrons and dots, small capitals and the small-capital GOD/LORD styling are
+# dropped; a superscript e is written ' (v'eth); other superscripts are
+# written ^ (12^2). The "x" is Bullinger's multiplication sign.
+#
+# Laid out differently from print: the alternation under 8:5 and the list
+# of Haman's ten sons under 9:10 are run on as prose.
+#
+# Restored where the type is broken on the scan: 6:5 "Anaaiplosis" ->
+# Anadiplosis; 10:3 "(496-42?)" -> 496-426 (461 is stated as the midway year).
+#
+# Left as printed (likely slips): 5:10 "507 (13^3 x 3)" (507 = 13^2 x 3;
+# 9:10 gives 13 x 39); 1:13 heading "1. 13-22" against D1's "1. 13—2. 1"
+# (D1 also gives A3 as 2. 2-20, its own heading 2. 1-20); 9:16 "themselves
+# Heb." (no stop).
+
+1:1 | TITLE, Book of Esther. One of the five Megilloth. For its place in the Hebrew Canon see Ap. 1. Read at the Feast of Purim. Comes chronologically thus: (1) Daniel; (2) Esther; (3) Nehemiah; (4) Ezra. The Divine name does not occur, except five times in the form of an Acrostic (Ap. 6). See Ap. 60, and notes on Est. 1. 20; 5. 4, 13; 7. 5, 7.
+1:1 | Now it came to pass in the days of. See important note of Rabbinical commentators on Gen. 14. 1. Ahasuerus = the venerable king. An appellative, like Pharaoh, Czar, Shah, &c. See notes on p. 618 and Ap. 57 and 58. this. Implying that others were so called, from whom he is to be distinguished. This Ahasuerus was Astyages (Gr.), Arsames (Persian). See Ap. 57 and 58. "This Ahasuerus" emphasises the one who was specially renowned. Fig. Parenthesis. Ap. 6. from India even unto Ethiopia: i. e. the two extreme boundaries of the known world. an hundred and seven and twenty provinces. Dan. 6. 1 says 120 princes. The number continually altered to suit the requirements of government. Only in Dan. 6. 1 do we find 120. Plato says that "when Darius (i. e. 'the Maintainer' = Astyages) came to the throne, being one of the seven, he divided the country into seven portions" (De Legibus iii). These are the seven named in vv. 13, 14. When Babylon afterward fell into his hands, he divided his newly acquired kingdom into 120 parts (Dan. 9. 1. Cp. 6. 1). Why should he not have added these to the seven he already possessed, and thus have made the 127 of Est. 1. 1; 9. 30? In the later days of Darius (Hystaspis) these had reduced to twenty-three, as stated and named on the Behistun inscription.
+1:2 | 1. 2—2. 20 (D1, p. 654). AHASUERUS. ON HIS THRONE. (Division.) 1. 2-12 (A1, above). QUEEN VASHTI. OFFENCE. (Alternation.) in those days: i. e. the days when these events took place. At other times he dwelt at Ecbatana, or elsewhere. Verse 1 mentions the ruler; v. 2, the place; v. 3, the time. sat = took his seat, or came to. Shushan. Now, the ruins of Susa, on the river Shapur, east of Persian Gulf. palace = castle, or fortress. Cp. Neh. 1. 1.
+1:3 | the third year: i. e. in 471; six years after the destruction of Jerusalem. Astyages now seventeen or eighteen years. See Ap. 50. VII (5). In this year Xerxes (who is supposed to be this king), according to Herod. vii. 8, and Diod. Sic. xi. 2, was preparing his expedition against Greece; whereas this chapter presupposes a season of peace and quiet. a feast. For its own sake. No reason is given. power. Put by Fig. Metonymy (of Effect), Ap. 6, for those who exercised it: viz. the people of power. Persia and Media. In this book this is always the order, except 10. 2. In Daniel it is the reverse.
+1:4 | an hundred and fourscore days. This was to allow all peoples to be feasted in turn. Not all at the same time; or one feast of that duration.
+1:5 | palace = house, or, large house.
+1:6 | beds = couches.
+1:7 | the vessels. Note the frequent Parentheses (Ap. 6) in vv. 1, 7, 13, 14, 20. wine. Heb. yayin. Ap. 27. I.
+1:8 | law. Heb. dath = royal decree, or special mandate, as in vv. 13, 15, 19; 3. 8; 4. 11, 16. man's. Heb. 'ish. Ap. 14. II.
+1:9 | Vashti. The daughter of Alyattes (king of Lydia), married by Cyaxares to his son Astyages after the battle of Halys. See Ap. 57.
+1:10 | commanded. Heb. 'amar. So rendered in vv. 15, 17; 2. 20; 4. 13; 6. 1; 9. 14, 25. Note the different words rendered "command" and "decree" in this book. seven chamberlains = seven eunuchs. This shows the minuteness of the writer's knowledge.
+1:11 | people = peoples.
+1:12 | refused. Probably because sent for by servants; not by the nobles (v. 3), and before the "peoples" (v. 5).
+1:12 | commandment. Heb. dabar = word, precept. Occurs v. 19; 2. 8; 3. 15; 8. 14, 17. See note on v. 10.
+1:13 | 1. 13-22 (A2, p. 655). QUEEN VASHTI. DEGRADATION. (Alternation.) for. See note on the parentheses, v. 7.
+1:18 | ladies = princesses.
+1:19 | not altered. Cp. Dan. 6. 8.
+1:20 | decree = rescript. Only here and Ecc. 8. 11. it is great: i. e. the decree is important. ALL THE WIVES SHALL GIVE. This is the first of the five Acrostics (Ap. 6), exhibiting in the initials the Divine name. See Ap. 60.
+2:1 | 2. 1-20 (A3, p. 655). QUEEN ESTHER. SUBSTITUTED. (Repeated Alternation and Introversions.) After these things: i. e. in 467. Astyages was now twenty-one. In the seventh year (v. 16); one of these spent in preparations (v. 12). Ahasuerus. See note on 1. 1. Vashti. See note on 1. 9.
+2:2 | virgins. Heb. bethulah. See note on Gen. 24. 43.
+2:3 | custody = hand. chamberlain = eunuch.
+2:4 | maiden = a young person. Heb. na'ar.
+2:5 | a certain Jew = a man (Heb. 'ish. Ap. 14. II), a Jew. The contrast between Judah and Israel was lost in a strange land; and, as Nebuchadnezzar's campaign was against Judah, so "Jew" became the name used by Gentiles. Mordecai. Daniel and Ezekiel taken to Babylon (2 Kings 24. 14, 15); Nehemiah and Mordecai to Shushan; and Mordecai dwelt in the royal palace, as did Daniel and others (Dan. 1. 4. 2 Kings 20. 16-18). a Benjamite. Thus Mordecai, a Benjamite, ends Jehovah's war against Amalek. Ex. 17. 16. Cp. 3. 1 with 7. 10; 9. 10. A work entrusted to Saul (a Benjamite). 1 Sam. 15. 2-33.
+2:6 | Jeconiah = Jehoiachin (2 Kings 24. 6). carried away. Cp. 2 Kings 24. 14, 15. Jer. 52. 24-34. 133 years before the generally received date (i. e. 598-465 = 133), which, therefore, cannot be correct. From the carrying away of Jeconiah to the marriage of Esther to Astyages in his seventh year was only twenty-two years (489-467). See Ap. 50. VII (5).
+2:7 | Hadassah = myrtle. Not living with Mordecai (who was in the palace, v. 5), but brought up by him. Esther = star. But Rabbi Yehudah derives it from sathar, to hide, because she was hidden in her guardian's house; and her nationality also was concealed (v. 10). father. Abihail: now dead. See v. 15; 9. 29.
+2:8 | commandment = word. Heb. dabar. See note on 1. 12. decree = Imperial decree. Heb. dath, as in 3. 15; 4. 3, 8; 8. 14, 17; 9. 1, 13, 14.
+2:9 | obtained = won. preferred = promoted. Probably influenced by Mordecai.
+2:10 | not shewed. Not till 7. 3-5. This was Mordecai's wisdom. Cp. v. 20.
+2:11 | to know. This was Mordecai's solicitude. All this proves that these events must have taken place before the emancipation made by Cyrus (the son of this Astyages, Ap. 57), recorded in Ezra 1. No such secrecy would have been necessary, and no thought of allowing the People, whom he had just emancipated, to be exterminated, as is described in the book of Esther: But Cyrus, being her son, would be carefully prepared by her and Mordecai to begin his reign by such emancipation from Babylon (note, not from Shushan: cp. Ezra 1. 1 with Jer. 25. 11, 12), thus fulfilling Isa. 44. 28 and 45. 1-4.
+2:12 | for. Another Parenthesis. Ap. 6. See note on 1. 7.
+2:16 | Tebeth. See Ap. 51. VII. 5. seventh year. The first feast was in the third year. The search probably took one year; the preparation another; oblations another. Other seasons are unnamed.
+2:18 | release = a holiday. Heb. hanahah.
+2:19 | when, &c. = while they were collecting, &c. sat in the king's gate. Mordecai was of the king's household. See v. 5. This guarded Esther's interests, and enabled him to obtain all information. (N.B. Haman lived in his own house with his family in the city.)
+2:20 | as = according as. for, &c. Thus revealing a new characteristic of Esther. This secrecy was hardly needed if the emancipation of Ezra 1. 1 had already taken place. commandment. Heb. 'amar, as in 1. 10, 15, 17.
+2:21 | 2. 21-23 (F, p. 654). MORDECAI. DISCOVERY OF PLOT. (Alternation.) gate. Heb. sha'ar = the lofty gate of a palace, not the same word as "door", v. 21; 6. 2. door = threshold. Heb. saph.
+2:22 | was known. Mordecai sat in the king's gate: the very place to hear all news.
+2:23 | written. See note on 6. 1.
+3:1 | 3. 1-15 [For Structure see next page]. 3. 1-15 (G, p. 654). HAMAN. PLOT. (Alternations and Introversion.) After these things. Haman was not made Grand Vizier till five years later. See v. 7. Ahasuerus. See note on 1. 1. Agagite. A descendant of Amalekite kings (Num. 24. 7. 1 Sam. 15. 8, 32). Called an Amalekite by Josephus (Ant. xi. 6. 5).
+3:2 | gate = lofty porch. Heb. sha'ar. See note on 2. 21. bowed. Heb. kara'. Kara', used of idols (1 Kings 19. 18. 2 Chron. 29. 29). Shahah is the word used of bowing to kings and others. commanded = appointed or charged. Heb. zavah. Mordecai. See note on 2. 5. bowed not. He could not bow to an Amalekite, against whom Jehovah had declared perpetual war. See note on Ex. 17. 16.
+3:3 | transgressest. Heb. 'abar. Ap. 44. VII.
+3:6 | Haman sought. Another assault of Satan against the nation through whom the Seed of the woman was to come. See Ap. 23, p. 27.
+3:7 | they cast. From 1st Nisan 462 to 13th Adar 462. Pur. Persian for "lot". The reference is to "the monthly prognosticators" of Isa. 47. 13. This was to fix on a fortunate time. Cp. 9. 24.
+3:8 | Haman said. Having got the month and the day (the thirteenth, see v. 13, cp. Ap. 10), he could go to the king. There is a certain People. Would it have been necessary for Haman thus to have explained and described the Jews, if they had already received their emancipation? Impossible! We are asked to believe this according to the traditional teaching. But see note on 10. 3, and Ap. 57 and 58. scattered abroad, &c. Cp. 2 Chron. 36. 23. Ezra 1. 1-4. There is no reference to any emancipation here. laws. See note on 1. 8.
+3:9 | talents. See Ap. 51. II.
+3:10 | the Jews' enemy. Haman so called four times: 3. 10; 8. 1; 9. 10, 24. No one else so called in Scripture.
+3:11 | the People also. This was the aim of the great enemy, who was using Haman as he had tried to use Pharaoh in Egypt. See Ap. 23.
+3:12 | the thirteenth day. Ominous number. See Ap. 10. Note the three thirteens: 3. 12, 13; 8. 12.
+3:13 | posts = the hand of the runners. Cp. 8. 10. destroy . . . kill . . . cause to perish. Note the Fig. Synonymia (Ap. 6), to emphasise the utter destruction contemplated. perish. Heb. 'abad. Here and 4. 16; 7. 4; 8. 11: not 9. 28. take the spoil. See note on 9. 10.
+3:14 | commandment = Imperial decree. Heb. dath. See note on 2. 8. people = peoples.
+3:15 | commandment = word. Heb. dabar. See note on 1. 12. decree. Heb. dath. See notes on 1. 8; 2. 8. sat down to drink. So Joseph's brethren (Gen. 37. 25), and Herod (Matt. 14. 6. Mark 6. 21). So will it be (Rev. 11. 7-10). the city. Put by Fig. Metonymy (of Adjunct), Ap. 6, for the inhabitants. perplexed. A rare word. Ex. 14. 3, "entangled". Joel 1. 18. This verse speaks of the effect on the Persians. Ch. 4 speaks of the effect on the Jews. Contrast 8. 15.
+4:1 | 4. 1-3 (F, p. 654). MORDECAI. DISCOVERY OF (HAMAN'S) PLOT. (Division.) done = being done. bitter cry. Not (we may be sure) without confession and prayer, as with Nehemiah (ch. 1), and Daniel (ch. 9).
+4:2 | even = as far as.
+4:3 | commandment = word. See note on 1. 12. decree = Imperial decree. Heb. dath. See notes on 1. 8; 2. 8. and. Note the Fig. Polysyndeton (Ap. 6), to emphasise the greatness and universality of the mourning. fasting, &c. These were the accompaniments of true repentance.
+4:4 | 4. 4—5. 14 (C1, p. 654). ESTHER. INTERCESSION. (Division.) 4. 4-17 (G1, above). ESTHER AND MORDECAI. (Introversion and Alternation.) maids. See note on 2. 4. chamberlains = eunuchs. his. Edition of A.V., 1611, reads "the".
+4:5 | commandment = charge. Heb. zavah. See 3. 2.
+4:7 | the sum of the money = the exact sum of the money. Mordecai knew of this, but how we cannot tell. He evidently did not know that the king had made Haman a present of it (3. 11).
+4:11 | man. Heb. 'ish. Ap. 14. II. law = Imperial decree. Heb. dath. See note on 1. 8.
+4:13 | commanded. Heb. 'amar. See note on 1. 10. thyself = thy soul. Heb. nephesh. Ap. 13.
+4:14 | enlargement = respite. who knoweth . . . ? Note the Fig. Erotesis (Ap. 6), for emphasis. Used here of hope and trust in God and His overruling grace.
+4:16 | three days, night or day. The Jerusalem Talmud says "a day and night together make up a nukthemeron, and that any part of such period is counted as a whole". Cp. 1 Sam. 30. 12, 13. Jonah 1. 17. Matt. 12. 40. I perish. See note on 3. 13.
+4:17 | went his way = passed over: i. e. over the river Ulai, on which Shushan is built, to the Jewish quarter, to accomplish his part of the compact.
+5:1 | 5. 1-14 (G2, above). ESTHER AND THE KING. (Alternations.) the third day. The beginning of a new life for Israel. See Ap. 10. inner court. All houses had courts; a palace had several. over against = right opposite. upon his royal throne. To transact business. gate = porch, or entrance. Heb. pethah.
+5:2 | obtained = won. Cp. 4. 11.
+5:3 | kingdom. Put by Fig. Metonymy (of Adjunct), Ap. 6, for a year's revenue. Cp. Mark 6. 23.
+5:4 | LET THE KING AND HAMAN COME THIS DAY. This is the second of the five Acrostics (Ap. 6) of the Divine name (Ap. 4. II) in this book. See Ap. 60. The second pivot on which the history turns.
+5:6 | What is thy petition? He must have seen that there was something behind the mere banquet. petition = question. request = wish.
+5:8 | do to morrow. She still keeps back her petition, showing the king that he had rightly divined that there was something important behind it.
+5:9 | 5. -9-14 (t, p. 659). ESTHER. SECOND INVITATION. (Introversion.) stood not up. Notwithstanding the crisis reached; and well knowing the cause of it. moved = stirred. Only here, and Ecc. 12. 3.
+5:10 | Zeresh his wife. By Gematria = 507 (13^3 x 3). See note on 9. 10, also Ap. 10.
+5:11 | told = recounted. children = sons. He had ten sons. See 9. 10.
+5:13 | THIS AVAILETH ME NOTHING. This is the third of the five Acrostics of this book, exhibiting the Divine names (Ap. 4. II) to the eye. See Ap. 60. Mordecai. The enmity was not merely personal, but religious; which is the worst form enmity can take.
+5:14 | gallows = tree: i. e. a stake to which a criminal was fastened till he died. The same word for cross. Cp. 2. 23; 7. 9; and see Acts 5. 30; 10. 39; 13. 29. 1 Pet. 2. 24. cubits. See Ap. 51. III (2). to morrow. There was no delay; but, quick as the action was, it was none too soon for its real usefulness.
+6:1 | On that night. The time for Divine action had come. See Ap. 23, p. 27. could not the king sleep. God uses small things to accomplish His purposes. See note on Judg. 3. 21. We know not what He used here. But the time had come for Him to work. commanded. Heb. 'amar. See note on 1. 10. they . . . read. The very portion which God ruled for the working out of His plan.
+6:2 | Mordecai had told. See 2. 21, 22. door = threshold. Heb. saph. Cp. 2. 21.
+6:4 | Now Haman was come. This was the next step. The Fig. Parenthesis (Ap. 6) is used to emphasise the importance of it. gallows = tree. See note on 5. 14.
+6:5 | Behold. Fig. Asterismos. Ap. 6. standeth in the court. As explained in the Parenthesis, v. 4. come in. Note the Fig. Anadiplosis (Ap. 6); v. 5 ending with the same verb which begins the next sentence.
+6:6 | came in. See note on v. 5. man. Heb. 'ish. Ap. 14. II. thought = said.
+6:8 | and. Note the Fig. Polysyndeton (Ap. 6) in vv. 8, 9, to emphasise the eagerness with which Haman enumerated the honours his heart desired.
+6:9 | one = a man. Heb. 'ish. Ap. 14. II.
+6:10 | Make haste = be expeditious. Heb. mahar, as in 5. 5; not dahaph (to urge oneself), as in v. 12; 3. 15; or bahal (to hurry away), as in v. 14; 8. 14. as = according as.
+6:12 | hasted. Heb. dahaph. See note on v. 10. and. Note the Fig. Polysyndeton (Ap. 6) in vv. 12, 13, emphasising the excitement which had seized him.
+6:13 | Zeresh. See note on 5. 14.
+6:14 | while. Everything was hastening to the approaching crisis.
+7:2 | petition . . . request. See note on 5. 6. kingdom. See note on 5. 3.
+7:3 | my life = my soul. Heb. nephesh. Ap. 13. Life put before petition, and her People put before her request.
+7:4 | are = have been. sold. Implying that a bargain had been made. destroyed . . . slain . . . perish. Note the Fig. Synonymia (Ap. 6), to emphasise the urgency of her petition. Cp. 3. 13. perish. See note on 3. 13. countervail = make good, or compensate.
+7:5 | answered and said. Note the idiom = threatened and said. See note on Deut. 1. 41. WHO IS HE, AND WHERE IS HE . . . ? This is the fifth Acrostic, which gives (not Jehovah but) the Divine Name "I AM" of Ex. 3. 14. See Ap. 60. HE. Note the emphatic repetition of this pronoun.
+7:7 | life = soul. Heb. nephesh. Ap. 13. THAT THERE WAS EVIL DETERMINED AGAINST HIM. This is the fourth, and last, of the four acrostics exhibiting the name Jehovah in this book. See Ap. 60. evil. Heb. ra'a'. Ap. 44. viii. the king. Note the Fig. Epanadiplosis (Ap. 6), the verse beginning and ending with the same word, marking and emphasising its importance.
+7:8 | bed = couch. Will he force . . . ? Fig. Erotesis. Ap. 6.
+7:9 | Behold. Fig. Asterismos. Ap. 6. gallows. See note on 5. 14. cubits. See Ap. 51. III. 2 (1).
+7:10 | they hanged Haman. See note on "Benjamite" (2. 5).
+8:1 | On that day. Contrast "On that night", 6. 1. the Jews' enemy. See note on 3. 10.
+8:2 | gave it unto Mordecai. Cp. 3. 10. Note how God honoured godly Jews in foreign courts: Joseph next to Pharaoh; Moses the heir to the throne of Egypt; Daniel next to Darius in Babylon; Mordecai next to Astyages in Shushan. over the house of Haman. Wonderful retribution.
+8:3 | mischief. Heb. ra'a'. Ap. 44. viii. Same word as "evil", 7. 7. Haman the Agagite. See notes on 2. 5 and 3. 1.
+8:5 | If it please the king. Note the Alternation in this verse:— a | The king. "If it please the king." b | Esther. "And if I have found favour." a | The king. "And . . . before the king." b | Esther. "And I be pleasing in his eyes." the Jews. Some codices, with Aram. and Syr., read "all the Jews".
+8:6 | evil. Same word as "mischief", v. 3.
+8:7 | 8. 7-17 (N, p. 654). KING. DECREE. (Introversions and Alternation.) Behold. Fig. Asterismos. Ap. 6. gallows. See note on 5. 14.
+8:8 | liketh = pleaseth. Cp. 3. 11. may no man reverse. But cp. 3. 12, and see Ap. 23, p. 27.
+8:9 | Sivan. See Ap. 51. III. 4. commanded unto = charged. Heb. zavah. See note on "law", 3. 2.
+8:10 | posts on horseback = couriers on horseback. Haman's "posts" were runners on foot (3. 13, 15), but speed was now essential. See 9. 1.
+8:11 | their life = themselves. Heb. nephesh. Ap. 13. destroy . . . slay . . . perish. Fig. Synonymia (Ap. 6), for emphasis. See note on 3. 13. power = force. Heb. hayil, as in 1. 3. Not shalat = mastery, as in 9. 1; or tokeph = authority, as in 9. 29. little ones. These were spared, notwithstanding. Cp. 9. 6.
+8:12 | thirteenth. See note on 3. 12.
+8:13 | a commandment = an imperial decree. Heb. dath. See note on 2. 8. people = the peoples.
+8:14 | hastened. Heb. bahal. See note on 6. 10. commandment = word. Heb. dabar. See note on 1. 12. decree. Heb. dath. See note on 2. 8.
+8:16 | light. Put by Fig. Metonymy (of Adjunct), Ap. 6, for joy. and. Note the Fig. Polysyndeton (Ap. 6), to emphasise the greatness of the joy.
+8:17 | became Jews = made common cause with the Jews.
+9:1 | 9. 1-28 (M, p. 654). ESTHER. PLEA FOR HER PEOPLE. (Repeated Alternation and Introversion.) thirteenth. See note on 3. 12. commandment. Heb. dabar. See note on 1. 12. decree. Heb. dath. See note on 2. 8. power = mastery. See note on 8. 11. though, &c. Note the Parenthesis. Ap. 6. the Jews = the Jews themselves.
+9:2 | man. Heb. 'ish. Ap. 14. II. withstand = stand before. people = the peoples.
+9:4 | Mordecai = the man (Heb. 'ish. Ap. 14. II) Mordecai, greatly emphasising the person. Cp. Num. 12. 3. 1 Kings 11. 28. Dan. 9. 21.
+9:5 | sword . . . slaughter . . . destruction. Note the Fig. Synonymia (Ap. 6), for emphasis. and. Note the Fig. Polysyndeton. Ap. 6.
+9:6 | destroyed, &c. Note that they took no advantage of the permission given in 8. 11.
+9:7 | And. Note the Fig. Polysyndeton (Ap. 6) in vv. 7-9, particularising each one of Haman's ten sons.
+9:10 | The ten sons. In all Heb. MSS. and printed editions these ten names are written with the word v'eth, being the demonstrative pronoun = self, or this same, or himself, thus: v'eth Parshandatha, v'eth Dalphon, v'eth Aspatha, v'eth Poratha, v'eth Adalia, v'eth Aridatha, v'eth Parmashta, v'eth Arisai, v'eth Aridai, v'eth Vajezatha. It has been suggested that it is because they were hanged one above another. But, as each Hebrew character is a number as well as a letter, the numerical value of these names (regarded as an addition sum) amounts to 10,244, or 13 x 788; while Haman the Agagite = 117 (13 x 9), and Zeresh = 507 (13 x 39), and the whole family = 10,868 (13 x 836). See Ap. 10 for the significance of this. On the other hand, 'Eth-Hadassah hi' Esther (2. 7) adds up 1,152 = 8 x 12^2, and "Mordecai", son of Jair, son of Shimei, son of Kish, a Benjamite (2. 5), adds up 1,912 = (8 x 239). See Ap. 10. the enemy of the Jews. See note on 3. 10. slew they. See note on "Benjamite" (2. 5). laid they not their hand. Cp. note on "take the spoil" (3. 13). They probably remembered taking the spoil instead of obeying in 1 Sam. 15. Hence the emphasis on this in vv. 10, 15, 16.
+9:13 | let Haman's ten sons be hanged. One of the ten deaths occasioned or obtained by women. See note on Judg. 4. 21. be hanged. Not alive, but hanged up after death. They were slain in conflict first. See vv. 6, 7.
+9:14 | commanded. Heb. 'amar. See note on 1. 10.
+9:16 | their lives = themselves Heb. nephesh. Ap. 13. had rest from. Dr. Ginsburg thinks the Heb. should read "to avenge themselves upon". Cp. 8. 13.
+9:21 | stablish = ordain. Heb. kum, as in vv. 29, 31.
+9:25 | device, which he devised = his great device. Fig. Polyptoton. Ap. 6.
+9:26 | Purim = lots. The name of the feast to this day. Pur. See note on 3. 7.
+9:27 | ordained. Heb. kum, as in vv. 21, 31.
+9:28 | should not fail. This sounds like a prophecy, and sets a seal on the inspiration of the book. perish = come to an end. See note on 3. 13.
+9:29 | 9. 29-32 (C4, p. 654). ESTHER. ROYAL AUTHORITY. (Alternation.) the daughter of Abihail. See 2. 15. confirm. Heb. kum, as in vv. 21, 31.
+9:30 | hundred, &c. See note on 1. 1.
+9:31 | enjoined = ordained. Heb. kum. as = according as. decreed = ordained. Heb. kum, as in vv. 27, 29, 31. themselves = their souls. Heb. nephesh. Ap. 13.
+9:32 | decree = command. Heb. ma'amar. Occurs only in Esther (1. 15; 2. 20).
+10:1 | isles = coasts.
+10:2 | power. Heb. tokeph. See note on 8. 11. are they not . . . ? Fig. Erotesis. Ap. 6.
+10:3 | next = the second = the Grand Vizier. Cp. 8. 2. speaking peace = maintaining peace. his seed: i. e. the People of Israel. N.B. in Persia, not Judaea. Thus was prepared the way for the emancipation of the Jews, which, not long after, was proclaimed by Cyrus (Ezra 1. 1), the son of Astyages and Esther (see Ap. 57), and is further proof that this book comes, chronologically, before the book Ezra-Nehemiah. N.B. the year 461 is the midway year of the Babylonian Servitude (496-426). See special note on p. 615.

@@ -1,0 +1,136 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Jonah
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/28. Jonah_text.pdf, printed pp. 1246-1252);
+# [[pdf-page:]] is the page of that file each diagram is on. Notation:
+# README.md here. Small-capital words are written in title case.
+#
+# The book Structure's G1 is the Jonah member of the Six Prophets
+# diagram (p. 1206; see hosea.structure.txt).
+#
+# 1. 4-15 (p. 1248) prints the second E two steps right of F (at the
+# first E's x); set one level in, since the parser allows only one step
+# after a text line, with H and J following it. 4. 1-11 (p. 1251) prints
+# the second R two steps right of o (at the first R's x); set one in.
+
+[[diagram: Jonah. The Structure of the Book as a Whole (Extended Alternation)]]
+[[anchor: Jonah 1:1]]
+[[pdf: 28. Jonah_text.pdf]]
+[[pdf-page: 1]]
+
+G1 |  |
+  A |  | 1. 1. THE WORD OF JEHOVAH.
+    B |  | 1. 2. MISSION TO NINEVEH.
+      C |  | 1. 3. JONAH. DISOBEDIENCE.
+        D |  | 1. 4—2. 10. CONSEQUENCES. RESURRECTION OF JONAH.
+  A |  | 3. 1. THE WORD OF JEHOVAH.
+    B |  | 3. 2. MISSION TO NINEVEH.
+      C |  | 3 3, 4-. JONAH. OBEDIENCE.
+        D |  | 3. -4—4. 11. CONSEQUENCES. CORRECTION OF JONAH.
+
+[[diagram: 1. 4—2. 10 (D, p. 1246). Consequences. Resurrection of Jonah (Extended Alternation)]]
+[[anchor: Jonah 1:4]]
+[[pdf: 28. Jonah_text.pdf]]
+[[pdf-page: 3]]
+
+D |  |
+  A |  | 1. 4-15. Jonah's Punishment.
+    B |  | 1. 16. Sacrifice and Vows of Mariners.
+      C |  | 1. 17. The Fish. Preparation and Reception.
+  A |  | 2. 1-7. Jonah's Prayer and Thanksgiving.
+    B |  | 2. 8, 9. Sacrifice and Vow.
+      C |  | 2. 10. The Fish. Ejection.
+
+[[diagram: 1. 4-15 (A, above). Jonah's Punishment (Alternation and Introversion)]]
+[[anchor: Jonah 1:4-15]]
+[[pdf: 28. Jonah_text.pdf]]
+[[pdf-page: 3]]
+
+A |  |
+  D |  |
+    F | 4- | The Tempest.
+      G | -4 | Danger.
+        E |  |
+          H | 5, 6 | Prayer of Mariners.
+            J | 7-12 | Jonah. Self-sacrifice.
+  D |  |
+      G | 13- | Danger.
+    F | -13 | The Tempest.
+      E |  |
+        H | 14 | Prayer of Mariners.
+          J | 15 | Jonah. Death.
+
+[[diagram: 1. 7-12 (J, p. 1248). Jonah. Self-sacrifice (Repeated Alternation)]]
+[[anchor: Jonah 1:7-12]]
+[[pdf: 28. Jonah_text.pdf]]
+[[pdf-page: 4]]
+
+J |  |
+  a1 | 7- | Mariners. Counsel. Casting of lots.
+    b1 | -7 | Jonah taken.
+  a2 | 8 | Mariners. Inquiry.
+    b2 | 9 | Jonah. Confession.
+  a3 | 10, 11 | Mariners. Fear.
+    b3 | 12 | Jonah. Determination.
+
+[[diagram: 2. 1-7 (A, p. 1248). Jonah's Prayer and Thanksgiving (Introversion and Alternation)]]
+[[anchor: Jonah 2:1-7]]
+[[pdf: 28. Jonah_text.pdf]]
+[[pdf-page: 5]]
+
+A |  |
+  K | 1, 2- | Affliction.
+    L |  |
+      c | -2-4- | Place. Sheol.
+        d | -4 | Deliverance. Jonah's words.
+    L |  |
+      c | 5, 6- | Place. The Deep.
+        d | -6 | Deliverance. Jehovah's deeds.
+  K | 7 | Affliction.
+
+[[diagram: 3. -4—4. 11 (D, p. 1246). Consequences. Correction of Jonah (Division)]]
+[[anchor: Jonah 3:4]]
+[[pdf: 28. Jonah_text.pdf]]
+[[pdf-page: 6]]
+
+D |  |
+  M1 |  | 3. -4-10. Pardon of Nineveh.
+  M2 |  | 4. 1-11. Correction of Jonah.
+
+[[diagram: 3. -4-10 (M1, above). Pardon of Nineveh (Introversion)]]
+[[anchor: Jonah 3:4-10]]
+[[pdf: 28. Jonah_text.pdf]]
+[[pdf-page: 6]]
+
+M1 |  |
+  i | -4 | Jehovah. Proclamation.
+    k | 5 | People.
+[[group: -]]
+      l | 6 | King.
+    k | 7-9 | People.
+[[group: Repentance]]
+  i | 10 | Jehovah. Pardon.
+
+[[diagram: 4. 1-11 (M2, above). Correction of Jonah (Introversions and Alternations)]]
+[[anchor: Jonah 4:1-11]]
+[[pdf: 28. Jonah_text.pdf]]
+[[pdf-page: 6]]
+
+M2 |  |
+  N |  |
+    m | 1 | Jonah's anger.
+      n | 2, 3 | Jonah's complaint to Jehovah.
+        O | 4 | Jehovah's question. "Doest thou well?"
+          P |  |
+            Q |  |
+              o | 5 | East side.
+                p | 6- | Gourd. Comes up.
+                  R | -6 | Jonah's gladness.
+          P |  |
+            Q |  |
+                p | 7 | Gourd smitten.
+              o | 8- | East wind.
+                R | -8 | Jonah's sorrow.
+        O | 9- | Jehovah's question. "Doest thou well?"
+  N |  |
+    m | -9 | Jonah's answer.
+      n | 10, 11 | Jonah's correction by Jehovah.

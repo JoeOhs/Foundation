@@ -1,0 +1,89 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Zephaniah
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/32. Zephaniah_text.pdf, printed pp. 1271-1275);
+# [[pdf-page:]] is the page of that file each diagram is on. Notation:
+# README.md here. Small-capital words are written in title case.
+#
+# The book Structure's E2 is the Zephaniah member of the Six Prophets
+# diagram (p. 1206; see hosea.structure.txt).
+
+[[diagram: Zephaniah. The Structure of the Book as a Whole]]
+[[anchor: Zephaniah 1:1]]
+[[pdf: 32. Zephaniah_text.pdf]]
+[[pdf-page: 1]]
+
+E2 |  |
+  A1 |  | 1. 1—3. 8. MINATORY.
+  A2 |  | 3. 9-20. PROMISSORY.
+
+[[diagram: 1. 1—3. 8 (A1, p. 1271). Minatory (Alternations and Introversion)]]
+[[anchor: Zephaniah 1:1]]
+[[pdf: 32. Zephaniah_text.pdf]]
+[[pdf-page: 2]]
+
+A1 |  |
+  A |  |
+    C |  | 1. 1-3. Judgments. General. The Land.
+      D |  | 1. 4-6. Judah and Jerusalem.
+        B |  |
+          E |  | 1. 7-18. The Day of Jehovah.
+            F |  | 2. 1-3. Call to Repentance.
+  A |  |
+    C |  | 2. 4-15. Judgments. General. Nations.
+      D |  | 3. 1-5. Jerusalem.
+        B |  |
+            F |  | 3. 6, 7. Charge of Impenitence.
+          E |  | 3. 8. The Day of Jehovah.
+
+[[diagram: 1. 7-18 (E, above). The Day of Jehovah (Alternation)]]
+[[anchor: Zephaniah 1:7-18]]
+[[pdf: 32. Zephaniah_text.pdf]]
+[[pdf-page: 2]]
+
+E |  |
+  G | 7 | Its nearness.
+    H | 8-13 | Judgments.
+  G | 14-16 | Its nearness.
+    H | 17, 18 | Judgments.
+
+[[diagram: 1. 8-13 (H, above). Judgments (Alternation)]]
+[[anchor: Zephaniah 1:8-13]]
+[[pdf: 32. Zephaniah_text.pdf]]
+[[pdf-page: 2]]
+
+H |  |
+  J | 8 | Princes.
+    K | 9 | People.
+  J | 10, 11 | Merchants.
+    K | 12, 13 | People.
+
+[[diagram: 2. 4-15 (C, p. 1272). Judgments. General. Nations (Division)]]
+[[anchor: Zephaniah 2:4-15]]
+[[pdf: 32. Zephaniah_text.pdf]]
+[[pdf-page: 3]]
+
+C |  |
+  L1 | 4-7 | Gaza. West.
+  L2 | 8-11 | Moab and Ammon. East.
+  L3 | 12 | Ethiopians. South.
+  L4 | 13-15 | Assyria. North.
+
+[[diagram: 3. 9-20 (A2, p. 1271). Promissory (Introversion and Alternations)]]
+[[anchor: Zephaniah 3:9-20]]
+[[pdf: 32. Zephaniah_text.pdf]]
+[[pdf-page: 5]]
+
+A2 |  |
+  M |  |
+    P | 9, 10 | Good bestowed. Gentiles and Israel. Conversion.
+      Q | 11-13 | Evil removed.
+        N |  |
+          R | 14 | Zion and Jerusalem to praise. (Positive.)
+            S | 15- | Jehovah in the midst.
+              O | -15 | Evil no more seen.
+        N |  |
+          R | 16 | Zion and Jerusalem. Not to Fear. (Negative.)
+            S | 17 | Jehovah in the midst.
+  M |  |
+    P | 18-20- | Good bestowed. Israel and Gentiles. Restoration.
+      Q | -20 | Evil removed.

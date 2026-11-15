@@ -1,0 +1,85 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Haggai
+# Marginal (side) notes, to be read alongside the KJV text.
+#
+# Format:  C:V | TEXT  —  verse 0 = a book-level introductory note
+#          [[heading: TEXT]] — the page's own heading over those notes
+#
+# ---------------------------------------------------------------------
+# Sources and method — as for Hosea (see hosea.notes.txt)
+# ---------------------------------------------------------------------
+# Read from the page scans inside thecompanionbible_202504_pdf/
+# 33. Haggai_text.pdf (printed pp. 1276-1280), one note column and
+# bottom block at a time, then cross-checked against a fresh Tesseract
+# OCR with ocr-check.py. Verse 0 holds Haggai's introduction (p. 1276),
+# one entry per paragraph; each of the four numbered messages is its
+# own entry, and the page's footnote is kept as "Footnote 1:" with its
+# mark written "(see footnote 1)", as in ezekiel.notes.txt. Each
+# Structure's heading is kept at the head of the note for its first
+# verse. Transliterations are plain ASCII; small capitals are written
+# in capitals; Gothic-letter pronouns are written in plain type. The
+# Hebrew letter He (1:8) is kept in Hebrew type, as printed.
+#
+# COMPLETE: both chapters, every printed note, printed pp. 1276-1280.
+#
+# Corrections: none.
+# Kept as printed (verified on the scan):
+#   - 1:1 'Spelt "Josuah"'; 1:9, 2:4 "Sabaioth".
+#   - 1:5 "(1. 5, 7; 2. 15, 18, 18)".
+#   - 1:14 "2 Chron. 21. 16": the last digit is damaged in print and
+#     read as 6 (that verse speaks of Jehovah stirring up a spirit).
+#   - 2:15 '("K" and "K")', 2:21 '("D" and "D")': the second letter of
+#     each pair is italic in print.
+#
+[[heading: HAGGAI]]
+0 | For the CANONICAL Order and place of the Prophets, see Ap. 1, and p. 1206.
+0 | For the CHRONOLOGICAL Order of the Prophets, see Ap. 77.
+0 | For the Inter-relation of the Prophetic Books, see Ap. 78.
+0 | For the Formulae of Prophetic Utterance, see Ap. 82.
+0 | For References to the Pentateuch by the Prophets, see Ap. 92.
+0 | For the Inter-relation of the Minor (or Shorter) Prophets, see pp. 1206 and 1207.
+0 | Between ZEPHANIAH and HAGGAI lay the seventy years' captivity in Babylon.
+0 | Haggai was the first prophet by whom "God spake" after the Return. Heb. 1. 1, and Ap. 95.
+0 | His prophecy is dated "in the second year of Darius" (Hystaspis), sixteen years after the decree of Cyrus, see Ap. 57; and therefore in the year 410 B.C., from the sixth to the ninth month; covering a period of about four months. See Ap. 50, p. 67, and Ap. 77.
+0 | There were four distinct messages:—
+0 | 1. The first, on the first day of the sixth month, 1. 1-11.
+0 | 2. The second (see footnote 1), on the twenty-first day of the seventh month, 2. 1-9.
+0 | 3. The third, on the twenty-fourth day of the ninth month, 2. 10-19.
+0 | 4. The fourth, on the same day as the third, 2. 20-23.
+0 | ZECHARIAH'S prophecy began midway between Haggai's second and third messages. See Zech. 1. 1.
+0 | Footnote 1: The message in 1. 13 is not a dated message, but it refers to the time when Jehovah stirred up the spirit of obedience in Zerubbabel, recorded in v. 14, twenty-three days after the delivery of Haggai's first message; nearly a month before the second message (2. 1-9).
+1:1 | 1. 1-4 (A, p. 1276). DISAPPROBATION AT NEGLECT. (Alternation.) In the second year. See note on p. 1276. Darius = Darius (Hystaspis). See Ap. 57; and notes on Ezra and Nehemiah. the king. In Aramaic and later books these words follow the name. In the earlier O.T. books they nearly always precede it. Cp. "king David", "king Hezekiah", &c. sixth month. Elul, our August-September. the first day, &c. Therefore the feast-day or Sabbath of the full moon. the LORD. Heb. Jehovah. Ap. 4. II. by = by the hand of. The Heb. idiom for God speaking "by the prophets". Ref. to Pent., where the expression occurs thirteen times (Ex. 9. 35; 35. 29. Lev. 8. 36; 10. 11; 26. 46. Num. 4. 37, 45; 9. 23; 10. 13; 15. 23; 16. 40; 27. 23; 36. 13). Cp. the five occurrences in Joshua (14. 2; 20. 2; 21. 2, 8; 22. 9). Judg. 3. 4. 2 Sam. 12. 25. 1 Kings 8. 53, 56; 12. 15; 14. 18; 15. 29; 16. 7; 17. 16. 2 Kings 14. 25. 2 Chron. 10. 15; 23. 18; 29. 25. Neh. 9. 14. Isa. 20. 2. Jer. 37. 2, &c. Haggai. Heb. Haggai; from Hag = feast, or festival. Zerubbabel. Heb. = sown in Babylon; because he was of the royal seed of Judah born (or seed sown) in Babylon. Cp. 1 Chron. 3. 19. Ezra 2. 2; 3. 2. See Ap. 99. son. Put by Fig. Synecdoche (of Genus), Ap. 6, for grandson. Shealtiel. Heb. = asked for from God. The son of Jeconiah (= Jehoiachin), who was taken captive to Babylon (2 Kings 24. 15. 1 Chron. 3. 17). Cp. Ezra 3. 2, 8; 5. 2. Neh. 12. 1. Matt. 1. 12. Luke 3. 27. See Ap. 99. governor. Ruling Judea as a Persian province, with a Persian title pechah, from which we have the modern pasha = prefect, or satrap. Joshua. The first high priest after the return. See 1. 12, 14; 2. 2, 4. Zech. 3. 1, 3, 8, 9; 6. 11. Spelt "Josuah" in the 1611 edition of the A.V. Josedech. Heb. = Jehovah is righteous.
+1:2 | the LORD of hosts. See note on 1 Sam. 1. 3. This People. Not Zerubbabel or Joshua. time. Repeated here and in v. 4 for emphasis. not. Sept. reads "not yet".
+1:4 | you, O ye. Heb. Fig. Epizeuxis (Ap. 6), for emphasis = you, even you, or that ye yourselves. cieled = panelled. Used of the lining of an arched roof. Occurs in 1 Kings 6. 9; 7. 3, 7. Jer. 22. 14. Showing that their houses were not only roofed, but wainscotted or decorated. Heb. = "in your houses [and that too] panelled". Cp. David (2 Sam. 7. 2. Ps. 132. 3). This proves that the Temple had not then been commenced. Cp. v. 9. See notes on Neh. 7. 4, and longer note on p. 653. Also Ap. 58.
+1:5 | 1. 5-11 (B, p. 1276). PUNISHMENT. SCARCITY. (Alternation.) Consider = Set your heart on, or give your attention to. Occurs five times in this book (1. 5, 7; 2. 15, 18, 18). Cp. Job 1. 8; 2. 3. Isa. 41. 22. your ways: i.e. the ways in which ye have been led, your experiences which are detailed in the next verse.
+1:6 | Ye have sown, &c. Ref. to Pent. (Deut. 28. 38, 39). Ap. 92. have not enough = are not satisfied. Ref. to Pent. (Lev. 26. 26). Ap. 92.
+1:8 | mountain = hill country. take pleasure = be pleased therewith. I will be glorified = I will get Me honour. Heb. text has 'ekkabda. This is one in a list of twenty-nine words which are without the letter He (ה = H) at the end (see Ginsburg's Massorah, vol. i, p. 281). Ap. 30. This letter ה = five (Ap. 10), and later Talmudists regard it as betokening the fact that five things were lacking in the second Temple, viz.: (1) the ark; (2) the sacred fire; (3) the Shekinah; (4) the Urim and Thummim; and (5) the spirit of prophecy. This list is to safeguard (Ap. 93) the other occurrences of the word, which have this letter at the end, among them being Ex. 14. 4, 17. These constitute a ref. to Pent. with Lev. 10. 3 (which, like Hag. 1. 8, is without the ה). Ap. 92. saith the LORD = hath said Jehovah.
+1:9 | saith the LORD of hosts = [is] the oracle of Jehovah Sabaioth. every man. Heb. 'ish. Ap. 14. II.
+1:10 | the heaven, &c. Ref. to Pent. (Lev. 26. 19. Deut. 28. 23). Ap. 92. dew. See note on Ps. 133. 3. and. Note the Fig. Polysyndeton (Ap. 6), emphasising each item which is particularised here, and in v. 11.
+1:11 | new wine. Heb. tirosh. Ap. 27. II. that which. Some codices, with Aram. and Syr., read "all which". men. Heb. 'adam. Ap. 14. I.
+1:12 | 1. 12—2. 5 (C, p. 1276). OBEDIENCE AND ENCOURAGEMENT. (Alternation.) the remnant: which had returned from Babylon. Cp. v. 14; 2. 2, &c. God. Heb. Elohim. Ap. 4. I. as = according as. Some codices, with a special various reading called Sevir (Ap. 34), one early printed edition, and Syr., read "with which". sent him. Some codices, with Sept., Syr., and Vulg., read "sent him unto them". Cp. Jer. 43. 1.
+1:13 | the LORD'S messenger, &c. = the messenger of Jehovah in the message of Jehovah. message. Heb. word occ. only here.
+1:14 | spirit. Heb. ruach. Ap. 9. Put by Fig. Metonymy (of Adjunct), Ap. 6, for the state of mind and feeling, &c. Cp. 1 Chron. 5. 26. 2 Chron. 21. 16; 36. 22 (= Ezra 1. 1). Jer. 51. 11. they came. See Ezra 3. 1, &c.
+1:15 | In the, &c. This reads on from v. 14, giving the date when Haggai's message took effect about three weeks later. It is not the commencement of another message, as some have supposed. See note on p. 1276.
+2:1 | In the seventh month. See note on p. 1276. the LORD. Heb. Jehovah. Ap. 4. II. by. See note on 1. 1. Haggai. See note on 1. 1.
+2:2 | Zerubbabel . . . Shealtiel, governor . . . Joshua . . . Josedech. See notes on 1. 1. the residue = the remnant.
+2:3 | Who is left . . . ? = Who is there among you, the remnant? Evidently there were some present who had seen it. Cp. Ezra 3. 12. this house. The Temple is regarded as one throughout. first = primitive.
+2:4 | saith the LORD of hosts = [is] the oracle of Jehovah Sabaioth. See note on 1 Sam. 1. 3.
+2:5 | I covenanted with you: or, supply the Ellipsis thus: "[I remember", or "Remember ye] the word which I", &c. Ref. to Pent. (Ex. 29. 45, 46). Ap. 92. when ye came, &c. Ref. to Pent. (Ex. 12. 51). Ap. 92. so My Spirit, &c.: i.e. speaking by the prophets. Cp. Neh. 9. 20. Isa. 63. 10-14. Spirit. Heb. ruach. Ap. 9. remaineth: or, abideth.
+2:6 | 2. 6-9 (D, p. 1276). "I WILL SHAKE", ETC. (Division.) saith = hath said. once = first; as in 1. 1 and 2. 1. Heb. 'chad = one of several. See note on Deut. 6. 4. There had been shakings before; but this one would be extreme and final. Quoted in Heb. 12. 26, 27. Greek hapax = once for all: i.e. first, before the fulfilment of the promise given in the clause which follows. It is fem. here, and cannot agree with "little" (one little, or a little) because me'at is masculine. I will shake. See the Structure "D", below (v. 21). Not "convert"; but shake violently, as in Pss. 46. 3; 77. 18. Jer. 10. 10, &c. and. Note the Fig. Polysyndeton (Ap. 6): emphasising the universality of this last shaking, in contrast with all former shakings. It refers to the great tribulation (Matt. 24. 29, 30). Cp. Isa. 13. 13; 24. 18.
+2:7 | the desire. Put by Fig. Metonymy (of the Adjunct), Ap. 6, for the object of desire, which cannot be "things", for hemdath is fem. sing., and refers to Him Who alone can satisfy the desire of all nations. Cp. 1 Sam. 9. 20. 2 Chron. 21. 20. shall come. The verb is plural: hence some would refer it to the treasures of "silver and gold" of v. 8. But when two nouns stand together (as here) the verb may agree in number with either noun. Here it agrees with "nations" in number, but with the object desired in reality. The Sept. reads "the elect of all the nations". glory. This refers to the future millennial Sanctuary of Ezekiel (Ap. 88), as it follows after the great shaking of this verse and Rev. 6. 12-17. Moreover this "glory" is connected with the final peace (v. 9. Isa. 9. 6; 60. 18). The second Temple was connected with "grace", not "glory", and was followed by wars, not peace (Matt. 10. 34; 24. 6-8. Luke 12. 51).
+2:8 | The silver, &c. Cp. Isa. 2. 7; 60. 9-17; 61. 6.
+2:9 | latter house, &c. Render: "Greater shall be the last glory of this house than the first". Ezek. 43. 2, 4, 5; 44. 4. peace. Cp. Isa. 9. 6. Mic. 5. 5. Zech. 9. 9, 10.
+2:10 | 2. 10-14 (A, p. 1276). DISAPPROBATION. (Introversion and Alternation.) In the, &c. Nearly two months after the preceding message. See note on p. 1276. by. Many codices, with eight early printed editions, Sept., and Vulg., read "unto"; but in Codex Hillel (quoted in the Massorah, Ap. 30) and others, with two early printed editions, Aram., and Syr., read "by the hand of", as elsewhere in this book. See note on 1. 1.
+2:11 | Ask now, &c. Ref. to Pent. (Lev. 10. 10, 11. Deut. 17. 11; 33. 10). Ap. 92. Supply the Ellipsis: "Ask now [direction]", &c.
+2:12 | holy. See note on Ex. 3. 5. holy flesh: i.e. the flesh of a sacrifice. Cp. Jer. 11. 15. skirt = wing. See note on Ruth 3. 9. or. Note the Fig. Paradiastole (Ap. 6). wine. Heb. yayin. Ap. 27. I. shall = will. holy. See note on Ex. 3. 5. No. Ref. to Pent. (Lev. 6. 27). Ap. 92.
+2:13 | by = by [touching]. dead body = soul. Heb. nephesh. See Ap. 13. ix, where see thirteen passages in which nephesh is used of a "dead soul" in distinction from a "living soul", as in Gen. 2. 7. Ref. to Pent. Ap. 92. unclean. Ref. to Pent. (Lev. 22. 4, 6). Ap. 92.
+2:14 | Then, &c. This is the application of vv. 11-13. there. Referring to the altar which was set up before the building of the Temple. See v. 15. Cp. Ezra 3. 2, 3, with v. 6.
+2:15 | 2. 15-19 (B and C, p. 1276). PUNISHMENT AND ENCOURAGEMENT. (Extended Alternation.) consider. See note on 1. 5. from this day. The day of the prophet's message. upward = above, as to place; backward, as regards time; as explained. Referring to past time, before the foundation was laid. See the Structure ("K" and "K"); and note on v. -19.
+2:16 | measures. Supply "sheaves". there = and there. vessels. Omit "vessels". Heb. purah = a winepress. Occurs only here, and Isa. 63. 3. Hence used of a wine measure.
+2:17 | I smote you, &c. Ref. to Pent. (Deut. 28. 22). Ap. 92.
+2:18 | Consider . . . consider. Fig. Anadiplosis. Ap. 6. from this day: i.e. from the day the foundation of the Temple was laid. From this time, subsequently, things would be different, and Jehovah would bless them, as promised in v. -19.
+2:19 | Is the seed . . . ? The answer is no. It was sown. yea, as yet = howbeit, though at present. See notes on p. 618, and Ap. 58. from this day = from this very day. Referring to their obedience in building. you. Omit; and take "bless" absolutely.
+2:20 | 2. 20-23 (D, p. 1276). I WILL SHAKE. (Division.) again. On the same day: i.e. a second time.
+2:21 | governor. See note on 1. 1. I will shake. Cp. the Structure ("D" and "D"), p. 1276; and note on 2. 6. Heb. I am shaking, or about to shake. Referring to a nearer shaking than 2. 6. the heavens and the earth. See note on Deut. 4. 26.
+2:22 | heathen = nations.
+2:23 | as a signet. Cp. Song 8. 6. Jer. 22. 24. See also, for this honour, Zech. 4. 7-10; 6. 13; and cp. Gen. 41. 42. Est. 3. 10. chosen thee. As David and others were chosen (1 Kings 8. 16; 11. 34, &c.). thee. This must refer to the true prince and governor of Isa. 9. 6, 7.

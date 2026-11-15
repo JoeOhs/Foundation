@@ -1,0 +1,4357 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Psalms
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/15. The Psalms_text.pdf, printed pp. 720-864);
+# [[pdf-page:]] is the page of that file each diagram is on. Notation:
+# README.md here.
+#
+# Checked: every diagram compared line by line with its scan (200-300 dpi
+# zooms for the dense ones), all 145 pages, Pss. 1-150 complete.
+#
+# Depths follow the printed staircase, one level per step to the right
+# (literal staircases kept, e.g. 78, 92, 106 to depth 10-11). Where a page
+# steps two levels after a text line the line is set one level in: 1-8 (C),
+# 12 (R), 22.7-21, 28, 30, 31, 32, 34.1-10, 40.11-17, 45.9-16, 49, 55, 57,
+# 71, 100, 102 (J1). Members printed side by side in reverse order (k,l;
+# s,r; x,w...) are set at one depth.
+#
+# Labels: stacked super/subscripts are written G1/1, H2/15 etc.; Ps. 119's
+# sections use their Hebrew letters as root labels; a diagram printed for
+# two Psalms gets a combined root ("135, 136"). Division and cross-Psalm
+# diagrams keep their verse refs inside the text, with empty REF.
+#
+# Corrections (demonstrable): 105 H3 first V ref printed "18-2." -> 8-12
+# (margin, sub-heading "8-12 (V, above)", next member starts 13).
+# Faint: 118's last J ref read as 29 (both OCR runs; the Psalm's last verse).
+# Kept as printed: 128 second i ref "-5" (5- expected); 92 second k "15-".
+#
+# Gaps / editorial:
+#  - 112 (F2): the unlettered opening line "1-. HALLELUJAH." is omitted (no
+#    LABEL to give it); its words stay in the 112:1 heading note.
+#  - 132 (G2/13): unlettered "The Theme. David's Distress." given as a
+#    132:1 note instead of an outline line.
+#  - 145 (O3): first b printed bracketed "[b | (Nun), 14. He.]" for the
+#    missing Nun verse; written "b | 14 | He.", brackets and letter dropped.
+#  - 149. 3: the Hebrew Introversion printed inside the notes is its own
+#    diagram here (two depth-0 roots, as printed).
+#  - 146-150 division: printed untitled; its title is taken from the words
+#    introducing it on p. 827 ("The last five Hallelujah Psalms (146—150, F").)
+#  - Braces are transcribed over exactly the lines they span on the page,
+#    even where the sense might cover more (142: Statements/Pleas over D-E).
+
+[[diagram: Psalms. The Structure of the Book as a Whole. 1—150. The Five Books]]
+[[anchor: Psalms 1:1]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 1]]
+
+A1 |  | 1—41. THE GENESIS BOOK: CONCERNING MAN. The counsels of God concerning him. All blessing bound up in obedience (cp. 1. 1 with Gen. 1. 28). Obedience is man's "tree of life" (cp. 1. 3 with Gen. 2. 16). Disobedience brought ruin (cp. Ps. 2 with Gen. 3). The ruin repaired only by the Son of Man in His atoning work as the seed of the woman (cp. Ps. 8 with Gen. 3. 15). The book concludes with a Benediction and double Amen.
+  B1 |  | 42—72. THE EXODUS BOOK: CONCERNING ISRAEL AS A NATION. The counsels of God concerning Israel's Ruin, Israel's Redeemer, and Israel's Redemption (Ex. 15. 13). Cp. Ps. 68. 4 with Ex. 15. 3, "JAH". It begins with Israel's cry for deliverance, and ends with Israel's king reigning over the redeemed nation. The book concludes with a Benediction and a double Amen.
+    C1 |  | 73—89. THE LEVITICUS BOOK: CONCERNING THE SANCTUARY. The counsels of God concerning the Sanctuary in its relation to man, and the Sanctuary in relation to Jehovah. The Sanctuary, Congregation, Assembly, or Zion, &c., referred to in nearly every Psalm. The book concludes with a Benediction and a double Amen.
+  B2 |  | 90—106. THE NUMBERS BOOK: CONCERNING ISRAEL AND THE NATIONS OF THE EARTH. The counsels of God concerning the Earth, showing that there is no hope or rest for the Earth apart from Jehovah. Its figures and similes are from this world as a wilderness (cp. the references to mountains, hills, floods, grass, trees, pestilence, &c.). It begins with the prayer of Moses (the Man of the Wilderness), Ps. 90, and closes with a rehearsal of Israel's rebellions in the wilderness (Ps. 106). Note "the New Song" for "all the earth" in Ps. 96. 11, where the theme is contained in one sentence which gives an Acrostic, spelling the word "Jehovah": "Let the heavens rejoice, and let the earth be glad" (see note on 96. 11). The book concludes with a Benediction and Amen, Hallelujah.
+A2 |  | 107—150. THE DEUTERONOMY BOOK: CONCERNING GOD AND HIS WORD. The counsels of God concerning His Word, showing that all blessings for Man (Book I), all blessings for Israel (Book II), all blessings for the Earth and the Nations (Book IV), are bound up with living on the words of God (Deut. 8. 3). Disobedience to Jehovah's words was the source of Man's sorrows, Israel's dispersion, the Sanctuary's ruin, and Earth's miseries. Blessing is to come from that Word written on the heart (cp. Jer. 31. 33, 34. Heb. 8. 10-12; 10. 16, 17). Ps. 119 is in this book. The Living Word (John 1. 1) began His ministry by quoting Deut. 6. 13, 16; 8. 3; 19. 20 in Matt. 4. 4, 7, 10. The book begins with Ps. 107, and in v. 20 we read, "He sent His Word and healed them", and it concludes with five Psalms (one for each of the five books), each Psalm beginning and ending with "Hallelujah".
+
+[[diagram: 1—41 (A1, p. 720). The First or Genesis Book. Man (Division)]]
+[[anchor: Psalms 1:1]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 2]]
+
+A1 |  |
+  A1 |  | 1—8. "MAN", AND "THE SON OF MAN" (8. 4).
+  A2 |  | 9—15. "THE MAN OF THE EARTH" (Antichrist, 10. 18).
+  A3 |  | 16—41. "THE MAN CHRIST JESUS."
+
+[[diagram: 1—8 (A1, above). "Man", and "The Son of Man" (Introversion and Alternations)]]
+[[anchor: Psalms 1:1]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 2]]
+
+A1 |  |
+  B |  |
+    D |  | 1. MAN BLESSED. THE LAW OF JEHOVAH HIS DELIGHT (Refers to Paradise).
+      E |  | 2. REBELLIOUS MAN. VAINLY MEDITATING AGAINST THE SON OF GOD, through Whom alone Universal Dominion can be Restored (v. 12 and Heb. 1. 5).
+[[group: -]]
+    C |  |
+      F |  | 3. PRAYER IN VIEW OF THIS REBELLION (Morning). "Jehovah my Shield" (v. 3).
+        G |  | 4. PRAYER IN VIEW OF THIS REBELLION (Night). "How long?" (v. 2).
+[[group: Enemies without.]]
+    C |  |
+      F |  | 5. PRAYER IN VIEW OF THIS REBELLION (Morning). "Jehovah my King" (v. 2).
+        G |  | 6. PRAYER IN VIEW OF THIS REBELLION (Night). "How long?" (v. 3).
+[[group: Sorrows within.]]
+  B |  |
+    D |  | 7. MAN BLESSED. TRUST IN JEHOVAH HIS DEFENCE.
+      E |  | 8. REBELLIOUS SUBDUED. THE SON OF MAN EXALTED WITH DOMINION IN THE EARTH.
+
+[[diagram: 9—15 (A2, above). "The Man of the Earth" (Introversion)]]
+[[anchor: Psalms 9:1]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 2]]
+
+A2 |  |
+  H |  | 9 (H1), 10 (H2). "THE MAN OF THE EARTH." THE ANTICHRIST. His Days, Character, and End. "The Times of Trouble" (9. 9; 10. 1). The Great Tribulation. The Two Psalms linked together by an Acrostic Alphabet, broken, like those "times".
+    J |  |
+      K |  | 11. PRAYER IN VIEW OF (9 and 10) THOSE "TIMES OF TROUBLE".
+        L |  | 12. THE VANITY OF MAN.
+    J |  |
+      K |  | 13. PRAYER IN VIEW OF (9 and 10) THOSE "TIMES OF TROUBLE".
+        L |  | 14. THE DEPRAVITY OF MAN.
+  H |  | 15. THE PERFECT MAN. His Character and Eternal Abiding. Leading up to A3.
+
+[[diagram: 16—41 (A3, above). "The Man Christ Jesus" (Extended Alternations)]]
+[[anchor: Psalms 16:1]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 2]]
+
+A3 |  |
+  M |  |
+    P |  | 16. Taking His Place of Suffering. Jehovah Apportioning His Lot.
+      Q |  | 17. Prayer and Appeal in View of Ps. 16 (P).
+        R |  | 18. Answer to the Prayer of Ps. 17, and Promise of Deliverance and Triumph.
+          N |  |
+            S |  | 19. His People Acknowledging God's Glory in Creation and Revelation.
+              T |  | 20. Their Prayer as they see in Messiah their own Salvation.
+                U |  | 21. Their Exultation in Messiah's Exaltation.
+                  O |  |
+                    V |  | 22. The Good Shepherd in Death (John 10. 11). Atonement the Basis of all Blessing.
+                      W |  | 23. The Great Shepherd in Resurrection (Heb. 13. 20). Resurrection the Basis of present Blessing.
+                        X |  | 24. The Chief Shepherd in Glory (1 Pet. 5. 4). Advent the Basis of all future Blessing.
+  M |  |
+    P |  | 25. Prayer with Reference to Ps. 16 (P). The "Path" and the "Way" (cp. vv. 4, 8-10, 12 with 16. 11).
+      Q |  | 26. Prayer with Reference to Ps. 17 (Q). Appeal to Integrity (cp. 17. 1, 3, 4).
+        R |  | 27 (R1), 28 (R2). Prayers with Reference to Ps. 18 (R). Answer from Jehovah, as His "Rock" and "Deliverer".
+          N |  |
+            S |  | 29. His People's Praise for God's Glory in Creation. Cp. 19 (S).
+              T |  | 30 (T1), 31 (T2), 32 (T3), 34 (T4). Their Praise as they see the Answer to Ps. 20 (Ps. 33 being the First "New Song" in the Psalter).
+                U |  | 34. Their Exultation in Messiah's Exaltation. As in "U", Ps. 21.
+                  O |  |
+                    V |  | 35 (V1), 36 (V2). Prayer and Praise with Reference to Atonement as being the Basis of all Blessing. Cp. 22 (V).
+                      W |  | 37. Instruction as to present Blessing, in view of Ps. 23 (W).
+                        X |  | 38 (X1), 39 (X2), 40 (X3), 41 (X4). Prayer and Praise with Reference to future Blessing. Cp. 41. 12, the Divine Answer to 24. 3 (X).
+
+[[diagram: 1 (D, p. 721). Man Blessed. Law of Jehovah (Alternation)]]
+[[anchor: Psalms 1:1-6]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 4]]
+
+D |  |
+  A | 1-3 | The godly.
+    B | 4, 5 | The ungodly.
+  A | 6- | The godly.
+    B | -6 | The ungodly.
+
+[[diagram: 1-5 (A, 1-3; B, 4, 5) (Introversion and Alternation)]]
+[[anchor: Psalms 1:1-5]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 4]]
+
+A |  |
+  C | 1 | Godly. Not standing with ungodly. Now.
+    D |  |
+      a | 2 | Their character.
+        b | 3 | Comparison.
+[[group: The godly.]]
+B |  |
+    D |  |
+      a | 4- | Their character.
+        b | -4 | Comparison.
+  C | 5 | Ungodly. Not standing with godly. Then.
+[[group: The ungodly.]]
+
+[[diagram: 2 (E, p. 721). Rebellious Man (Repeated Alternation)]]
+[[anchor: Psalms 2:1-12]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 4]]
+
+E |  |
+  E | 1-3 | Mankind. Speaking.
+    F | 4, 5 | Jehovah. Fig. Chleuasmos. Ap. 6.
+      G | 6-9 | The Son. His rule.
+  E | 10 | Mankind. Spoken to.
+    F | 11 | Jehovah. Fig. Apostrophe. Ap. 6.
+      G | 12 | The Son. His judgment.
+
+[[diagram: 3 (F, p. 721). Prayer in view of Psalm 2 (Morning) (Introversion and Repeated Alternation)]]
+[[anchor: Psalms 3:1-8]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 5]]
+
+F |  |
+  H |  |
+    c | 1 | Numbers of enemies against me.
+      d | 2 | No salvation (they say).
+        e | 3 | Thou my help. (Experience. 2nd person.)
+[[group: -]]
+          I | 4 | Prayer answered.
+          I | 5 | Confidence justified.
+[[group: (Experience. 3rd person.)]]
+  H |  |
+    c | 6 | Numbers of enemies against me.
+      d | 7- | Save me (I say).
+        e | -7, 8 | Thou my help. (Experience. 2nd person.)
+
+[[diagram: 4 (G, p. 721). Prayer in view of Psalm 2 (Evening) (Introversion and Alternation)]]
+[[anchor: Psalms 4:1-8]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 6]]
+
+G |  |
+  J | 1 | Prayer to Jehovah.
+    K |  |
+      f | 2- | The sons of men. (David.)
+        g | -2 | The sons of men. (Themselves.)
+    K |  |
+      f | 3 | The sons of men. (David.)
+        g | 4, 5 | The sons of men. (Themselves.)
+  J | 6-8 | Prayer to Jehovah.
+
+[[diagram: 5 (F, p. 721). Prayer in view of Psalm 2 (Morning) (Repeated Alternation)]]
+[[anchor: Psalms 5:1-12]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 6]]
+
+F |  |
+  L | 1-3 | Prayer to Jehovah.
+    M | 4 | "For": Reason. Character of Jehovah.
+      N | 5, 6 | The lawless and their wickedness.
+        O | 7 | "But": The true worshippers. (Sheminith.)
+  L | 8 | Prayer to Jehovah.
+    M | 9 | "For": Reason. Character of the wicked.
+      N | 10 | The wicked and their judgment.
+        O | 11, 12 | "But": The true worshippers. (Sheminith.)
+
+[[diagram: 6 (G, p. 721). Prayer in view of Psalm 2 (Night) (Introversion)]]
+[[anchor: Psalms 6:1-10]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 7]]
+
+G |  |
+  P | 1-5 | Prayer offered.
+    Q | 6- | Exhaustion.
+      R | -6- | Tears.
+      R | -6 | Tears.
+    Q | 7 | Exhaustion.
+  P | 8-10 | Prayer answered.
+
+[[diagram: 7 (D, p. 721). Man Blessed. Trust in Jehovah (Introversion)]]
+[[anchor: Psalms 7:1-17]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 8]]
+
+D |  |
+  S | 1- | Trust in Jehovah for defence.
+    T | -1 | Prayer for deliverance.
+      U | 2 | The evil to be delivered from.
+        V | 3, 4- | Demerit.
+        V | -4 | Merit.
+      U | 5 | The evil to be delivered from.
+    T | 6-9 | Prayer for deliverance.
+  S | 10-17 | Trust in Jehovah for defence.
+
+[[diagram: 8 (E, p. 721). Rebellious Man. Subdued]]
+[[anchor: Psalms 8:1-9]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 9]]
+
+E |  |
+  W | 1- | Greatness of Jehovah in the earth.
+    X |  |
+      h | -1 | Glory of Jehovah in the heavens.
+        j | 2 | His condescension to man.
+    X |  |
+      h | 3 | Glory of Jehovah in the heavens.
+        j | 4-8 | His condescension to man.
+  W | 9 | Greatness of Jehovah in the earth.
+
+[[diagram: 9—15 (A2, p. 721). "The Man of the Earth" (Division)]]
+[[anchor: Psalms 9:1]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 9]]
+
+A2 |  |
+  H1 |  | 9. The Lawless one. (General.)
+  H2 |  | 10. The Lawless one. (Particular.)
+
+[[diagram: 9 (H1, above). The Lawless One. (General.)]]
+[[anchor: Psalms 9:1-20]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 9]]
+
+H1 |  |
+  Y | 1, 2 | Thanksgiving.
+    Z | 3-10 | Excision of the wicked.
+  Y | 11 | Thanksgiving.
+    Z | 12-20 | Excision of the wicked.
+
+[[diagram: 9. 3-10 (Z, above). Excision of the Wicked (Alternations and Introversion)]]
+[[anchor: Psalms 9:3-10]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 9]]
+
+Z |  |
+  A | 3 | The wicked. Excision.
+    B |  |
+      k | 4- | Deliverance.
+        l | -4, 5 | Judgment.
+  A | 6 | The wicked. Apostrophe.
+    B |  |
+      l | 7, 8 | Judgment.
+      k | 9, 10 | Deliverance.
+
+[[diagram: 12-20 (Z, p. 728). Excision of the Lawless (Introversion and Extended Alternations)]]
+[[anchor: Psalms 9:12-20]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 10]]
+
+Z |  |
+  C |  |
+    m | 12 | Remembrance of oppressed.
+      n | 13 | Prayer.
+        o | 14 | Effect of the prayer.
+        D | 15 | The nations.
+          E | 16 | The wicked.
+          E | 17- | The wicked.
+        D | -17 | The nations.
+  C |  |
+    m | 18 | Remembrance of oppressed.
+      n | 19, 20- | Prayer.
+        o | -20 | Effect of the prayer.
+
+[[diagram: 10 (H2, p. 728). The Man of the Earth. (Particular.) (Introversion and Alternations)]]
+[[anchor: Psalms 10:1-18]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 10]]
+
+H2 |  |
+  F | 1 | Appeal to Jehovah.
+    G |  |
+      I | 2-5 | The lawless one. His acts.
+        J | 6 | His thoughts (concerning himself.)
+    G |  |
+      I | 7-10 | The lawless one. His acts.
+        J | 11 | His thoughts (concerning God.)
+  F | 12-18 | Appeal to Jehovah.
+
+[[diagram: 10. 7-10 (I, p. 729). The Lawless One. Acts (Alternation)]]
+[[anchor: Psalms 10:7-10]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 11]]
+
+I |  |
+  p | 7 | His mouth and tongue.
+    q | 8- | Comparison to beast of prey.
+  p | -8 | His eyes.
+    q | 9, 10 | Comparison to beast of prey.
+
+[[diagram: 11 (K, p. 721). Prayer in view of Psalms 9 and 10 (Introversion)]]
+[[anchor: Psalms 11:1-7]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 11]]
+
+K |  |
+  L | 1 | Trust in Jehovah. Defender of the righteous.
+    M | 2 | The lawless. Violence manifested.
+      N | 3 | The righteous. Tried.
+        O | 4- | Jehovah's temple and throne in heaven.
+        O | -4 | Jehovah's eyes and eyelids on earth.
+      N | 5- | The righteous. Tried.
+    M | -5, 6 | The lawless. Violence revenged.
+  L | 7 | Trust in Jehovah. Lover of the righteous.
+
+[[diagram: 12 (L, p. 721). The Vanity of Man (Introversion and Alternation)]]
+[[anchor: Psalms 12:1-8]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 12]]
+
+L |  |
+  P | 1 | Decrease of the godly and faithful.
+    Q |  |
+      r | 2 | Man's words.
+        s | 3, 4 | The speakers. "Cut off."
+          R | 5- | The oppression of the humble.
+          R | -5 | Deliverance from the oppression.
+    Q |  |
+      r | 6 | Jehovah's words.
+        s | 7 | The hearers. "Preserved."
+  P | 8 | Increase of the lawless and vile.
+
+[[diagram: 13 (K, p. 721). Prayer in view of Psalms 9, 10 (Division)]]
+[[anchor: Psalms 13:1-6]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 12]]
+
+K |  |
+  S1 | 1-4 | Prayer.
+  S2 | 5, 6 | Praise.
+
+[[diagram: 1-4 (S1, above). Prayer]]
+[[anchor: Psalms 13:1-4]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 12]]
+
+S1 |  |
+  t | 1, 2- | For himself.
+    u | -2 | Against the enemy.
+  t | 3 | For himself.
+    u | 4 | Against the enemy.
+
+[[diagram: 13. 5, 6 (S2, p. 731). Praise (Introversion)]]
+[[anchor: Psalms 13:5-6]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 13]]
+
+S2 |  |
+  v | 5- | Past.
+    w | -5 | Future.
+    w | 6- | Future.
+  v | -6 | Past.
+
+[[diagram: 14 (L, p. 721). The Depravity of Man (Repeated Alternation)]]
+[[anchor: Psalms 14:1-7]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 13]]
+
+L |  |
+  x1 | 1 | The lawless. Their words.
+    y1 | 2 | Jehovah. His inspection.
+  x2 | 3 | The lawless. Their deeds.
+    y2 | 4 | Jehovah. His expostulation.
+  x3 | 5, 6 | The lawless. Their feelings.
+    y3 | 7 | Jehovah. His interposition.
+
+[[diagram: 15 (H, p. 721). The Perfect Man (Introversion and Alternation)]]
+[[anchor: Psalms 15:1-5]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 13]]
+
+H |  |
+  T | 1 | His eternal abiding. Question.
+[[group: -]]
+    U |  |
+      a | 2 | Positive.
+        b | 3 | Negative.
+    U |  |
+      a | 4- | Positive.
+        b | -4, 5- | Negative.
+[[group: Answers.]]
+  T | -5 | His eternal abiding. Question.
+
+[[diagram: 16 (P, p. 721). Taking His Place of Suffering (Division)]]
+[[anchor: Psalms 16:1-11]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 14]]
+
+P |  |
+  V1 | 1-7 | David speaketh to Jehovah and to the saints.
+  V2 | 8-11 | "David speaketh concerning" Messiah (Acts 2. 25-28).
+
+[[diagram: 1-7 (V1, above). Himself. His Trust (Introversion)]]
+[[anchor: Psalms 16:1-7]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 14]]
+
+V1 |  |
+  c | 1 | Prayer. For preservation.
+    d | 2- | My Adonai. My good.
+      e | -2, 3 | The saints.
+[[group: David to Jehovah.]]
+      e | 4 | The apostates.
+    d | 5, 6 | My portion. My heritage.
+  c | 7 | Praise. For counsel.
+[[group: David to saints.]]
+
+[[diagram: 16. 8-11 (V2, above). His Mission and Work (Introversion)]]
+[[anchor: Psalms 16:8-11]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 14]]
+
+V2 |  |
+  f | 8 | Jehovah at My right hand. (Life.)
+    g | 9 | Rest in hope. Positive. (Death.)
+    g | 10 | Not left in Sheol. Negative. (Resurrection.)
+  f | 11 | I at His right hand. (Ascension.)
+
+[[diagram: 17 (Q, p. 721). Prayer in view of Psalm 16 (Introversion and Repeated Alternation)]]
+[[anchor: Psalms 17:1-15]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 15]]
+
+Q |  |
+  W | 1-6 | I ('ani = As for me). The righteous sufferer.
+    X |  |
+      i | 7, 8 | Prayer for deliverance.
+        k | 9 | From enemies.
+          l | 10, 11 | Description of them.
+            Y | 12- | Comparison. Lion.
+            Y | -12 | Comparison. Young lion.
+    X |  |
+      i | 13- | Prayer for deliverance.
+        k | -13, 14- | From enemies.
+          l | -14 | Description of them.
+  W | 15 | I ('ani = As for me). The righteous sufferer.
+
+[[diagram: 1-6 (W, above). The Righteous Sufferer (Introversion)]]
+[[anchor: Psalms 17:1-6]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 15]]
+
+W |  |
+  m | 1, 2 | Prayer. "Hear me". ("Thine eyes".)
+    n | 3, 4 | Purpose. Mouth not transgress.
+    n | 5 | Purpose. Footsteps not slip.
+  m | 6 | Prayer. "Hear me". ("Thine ear".)
+
+[[diagram: 18 (R, p. 721). Answer to Prayer (Introversion)]]
+[[anchor: Psalms 18:1-50]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 16]]
+
+R |  |
+  A |  |
+    D | 1 | Jehovah spoken to. Love.
+      E | 2 | Jehovah spoken of. Deliverer.
+        B | 3-19 | Enemies. Deliverance from.
+          C | 20-24 | Equity of Jehovah's dealings. Me.
+          C | 25-27 | Equity of Jehovah's dealings. Others.
+        B | 28-48 | Enemies. Victory over.
+  A |  |
+    D | 49 | Jehovah spoken to. Praise.
+      E | 50 | Jehovah spoken of. Deliverer.
+
+[[diagram: 3-19 (B, above). Enemies. Deliverance from (Division)]]
+[[anchor: Psalms 18:3-19]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 16]]
+
+B |  |
+  F1 | 3-6 | David's call for deliverance.
+  F2 | 7-15 | Deliverance effected.
+  F3 | 16-19 | Jehovah the deliverer.
+
+[[diagram: 3-6 (F1, above). David's Call for Deliverance (Introversion)]]
+[[anchor: Psalms 18:3-6]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 16]]
+
+F1 |  |
+  m | 3 | David's call and confidence.
+[[group: -]]
+    n | 4 | Compassed by enemies.
+    n | 5 | Compassed by danger.
+[[group: Cp. t and t, v. 18.]]
+  m | 6 | David's call and answer.
+
+[[diagram: 7-15 (F2, above). Deliverance Effected (Introversion)]]
+[[anchor: Psalms 18:7-15]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 16]]
+
+F2 |  |
+  o | 7 | Wonders on earth.
+    p | 8 | Fire from heaven.
+      q | 9 | Darkness in the heavens.
+        r | 10- | Jehovah's speedy succour.
+        r | -10 | Jehovah's speedy succour.
+      q | 11 | Darkness in the heavens.
+    p | 12-14 | Fire from heaven.
+  o | 15 | Wonders on earth.
+
+[[diagram: 16-19 (F3, above). Jehovah the Deliverer (Introversion)]]
+[[anchor: Psalms 18:16-19]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 16]]
+
+F3 |  |
+  s | 16, 17- | Jehovah's deliverance.
+[[group: -]]
+    t | -17 | Compassed by enemies.
+    t | 18- | Compassed by enemies.
+[[group: Cp. n and n, vv. 4, 5.]]
+  s | -18, 19 | Jehovah's deliverance.
+
+[[diagram: 18. 28-48 (B, p. 735). Enemies. Victory over (Extended Alternation)]]
+[[anchor: Psalms 18:28-48]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 17]]
+
+B |  |
+  u | 28-31 | Help. General.
+    v | 32-39- | Vengeance on enemies.
+      w | -39-42 | Subjugation of enemies.
+        x | 43-45 | Deliverance.
+  u | 46 | Help. General.
+    v | 47- | Vengeance on enemies.
+      w | -47 | Subjugation of enemies.
+        x | 48 | Deliverance.
+
+[[diagram: 19 (S, p. 721). Acknowledgment of Christ's Glory in Creation, and Revelation]]
+[[anchor: Psalms 19:1-14]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 18]]
+
+S |  |
+  G |  |
+    H | 1-4- | The heavens. The word written there: (eight lines).
+      J | -4-6 | In them (bahem) the sun (six lines).
+  G |  |
+    H | 7-10 | The Scriptures. The word written therein (eight lines).
+      J | 11-14 | In them (bahem) Thy servant (six lines).
+
+[[diagram: 1-6 (G, above). The Heavens (Introversion)]]
+[[anchor: Psalms 19:1-6]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 18]]
+
+G |  |
+  a | 1 | The heavens.
+    b | 2 | Their testimony. Incessant. (Pos.)
+      c | 3 | Their words. Inaudible. (Neg.)
+    b | 4- | Their testimony. Universal. (Pos.)
+  a | -4-6 | The heavens.
+
+[[diagram: 20 (T, p. 721). His People's Prayer in view of A3, p. 721 (Introversion)]]
+[[anchor: Psalms 20:1-9]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 19]]
+
+T |  |
+  K | 1-4 | Prayer.
+    L | 5- | We. His People's trust.
+      M | -5 | Jehovah's Messiah.
+      M | 6 | Jehovah's Messiah.
+    L | 7, 8 | We. His People's trust.
+  K | 9 | Prayer.
+
+[[diagram: 21 (U, p. 721). His People's Joy in view of A3: the Coronation of their King (Introversions and Alternations)]]
+[[anchor: Psalms 21:1-13]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 20]]
+
+U |  |
+  N | 1 | Messiah. Strong in Jehovah's strength.
+[[group: -]]
+    O |  |
+      P | 2-5 | Jehovah's dealings with the king.
+        Q |  |
+          d | 6 | His reward.
+            e | 7 | His merit.
+[[group: Jehovah addressed.]]
+    O |  |
+      P | 8-10 | The king's dealings with his enemies.
+        Q |  |
+          e | 11 | Their guilt.
+          d | 12 | Their defeat.
+[[group: The king addressed.]]
+  N | 13 | Messiah. Strong in His own strength.
+
+[[diagram: 22 (V, p. 721). Messiah. The Good Shepherd, in Death (Division)]]
+[[anchor: Psalms 22:1-31]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 20]]
+
+V |  |
+  R1 | 1-21 | Messiah. His "sufferings."
+  R2 | 22-31 | Messiah. His "glory."
+[[group: See Ap. 71.]]
+
+[[diagram: 1-21 (R1, above). Messiah. His "Sufferings" (Division)]]
+[[anchor: Psalms 22:1-21]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 20]]
+
+R1 |  |
+  S1 | 1-6 | The "Sufferings." Messiah's prayer. Desertion.
+  S2 | 7-21 | The "Sufferings." Messiah's plea. Enemies.
+
+[[diagram: 22. 1-6 (S1, p. 739). Messiah's Prayer. Desertion (Introversion)]]
+[[anchor: Psalms 22:1-6]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 21]]
+
+S1 |  |
+  T | 1, 2 | His desertion. Mourned.
+    U | 3 | Jehovah's holiness. Declared.
+    U | 4, 5 | Jehovah's goodness. Experienced.
+  T | 6 | His desertion. Experienced.
+
+[[diagram: 22. 7-21 (S2, p. 739). Messiah's Plea. Enemies (Introversion and Alternations)]]
+[[anchor: Psalms 22:7-21]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 21]]
+
+S2 |  |
+  V |  |
+    f | 7, 8 | Enemies.
+      g | 9-11 | "But Thou".
+        W |  |
+          h | 12, 13 | "Bulls" (pl.). "Lion" (sing.).
+            i | 14, 15 | "I".
+        W |  |
+          h | 16 | "Dogs" (pl.). "Lion" (sing.).
+            i | 17- | "I".
+  V |  |
+    f | -17, 18 | Enemies.
+      g | 19-21 | "But Thou".
+
+[[diagram: 22. 22-31 (R2, p. 739). Messiah's Glory (Ap. 71) (Extended Alternations)]]
+[[anchor: Psalms 22:22-31]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 22]]
+
+R2 |  |
+  X | 22 | "I". Messiah's praise. Promised.
+    Y | 23- | Praise to Jehovah.
+      Z |  |
+        j1 | -23 | Israel to praise.
+          k1 | 24 | The reason. "For".
+  X | 25 | "I". Messiah's praise. Awarded.
+    Y | 26 | Praise to Jehovah.
+      Z |  |
+        j2 | 27 | The nations to praise.
+          k2 | 28 | The reason. "For".
+        j3 | 29-31- | All to praise.
+          k3 | -31 | The reason. "For".
+
+[[diagram: 23 (W, p. 721). Messiah. The Great Shepherd, in Resurrection (Introversion)]]
+[[anchor: Psalms 23:1-6]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 22]]
+
+W |  |
+  A | 1-3 | Jehovah. Supply. "Pastures and waters". Spoken of. "He".
+    B | 4 | Danger. "Death". "Rod and staff". Spoken to. "Thou".
+    B | 5 | Danger. "Enemies". "Table and Cup". Spoken to. "Thou".
+  A | 6 | Jehovah. Supply. "Goodness and Mercy". Spoken of. "His".
+
+[[diagram: 24 (X, p. 721). Messiah. The Chief Shepherd in Glory (Repeated Alternation)]]
+[[anchor: Psalms 24:1-10]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 23]]
+
+X |  |
+  C1 | 1, 2 | Right to the earth.
+    D1 | 3 | Question. Who . . . ?
+      E1 | 4-6 | Answer. Selah.
+[[group: -]]
+  C2 | 7 | His Own right.
+    D2 | 8- | Question. Who . . . ?
+      E2 | -8 | Answer.
+  C3 | 9 | His right with His People.
+    D3 | 10- | Question. Who . . . ?
+[[group: Right to millennial kingdom.]]
+      E3 | -10 | Answer.
+
+[[diagram: 25 (P, p. 721). Prayer in view of P (Ps. 16) (Repeated Alternation)]]
+[[anchor: Psalms 25:1-22]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 24]]
+
+P |  |
+  F1 | 1-7 | Prayer and worship.
+    G1 | 8-10 | Teaching. Worshippers.
+  F2 | 11 | Prayer and worship.
+    G2 | 12-14 | Teaching. Worshippers.
+  F3 | 15-22 | Prayer and worship.
+
+[[diagram: 26 (Q, p. 721). Prayer with Reference to Psalm 17 (Repeated Alternation)]]
+[[anchor: Psalms 26:1-12]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 25]]
+
+Q |  |
+  H1 | 1- | Prayer.
+    J1 | -1 | Plea. "For".
+  H2 | 2 | Prayer.
+    J2 | 3-8 | Plea. "For".
+  H3 | 9, 10 | Prayer.
+    J3 | 11- | Plea. Profession.
+  H4 | -11 | Prayer.
+    J4 | 12 | Plea. Profession.
+
+[[diagram: 27 (R1, p. 721). Prayer in view of Psalm 18 (Division)]]
+[[anchor: Psalms 27:1-14]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 25]]
+
+R1 |  |
+  K1 | 1-3 | Confidence. The basis of the prayer.
+  K2 | 4-14 | Prayer. Resulting from the confidence.
+
+[[diagram: 4-14 (K2, above). Prayer. Resulting from the Confidence (Extended Alternation)]]
+[[anchor: Psalms 27:4-14]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 25]]
+
+K2 |  |
+  L |  |
+    l | 4 | Seeking.
+      m | 5 | Hiding.
+        n | 6- | Enemies.
+          o | -6 | Joy.
+[[group: Prayer meditated.]]
+  L |  |
+    l | 7, 8 | Seeking.
+      m | 9, 10 | Hiding.
+        n | 11, 12 | Enemies.
+          o | 13, 14 | Hope.
+[[group: Prayer offered.]]
+
+[[diagram: 28 (R2, p. 721). Prayer in view of Psalm 18 (Alternations)]]
+[[anchor: Psalms 28:1-9]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 26]]
+
+R2 |  |
+  M |  |
+    p | 1, 2 | For audience.
+    q | 3 | For discrimination.
+[[group: Prayer.]]
+      N | 4, 5 | Enemies. Imprecation.
+[[group: -]]
+  M |  |
+    p | 6 | For audience.
+    q | 7, 8 | For help.
+[[group: Praise.]]
+      N | 9 | Enemies. Imprecation.
+
+[[diagram: 29 (S, p. 721). His People's Praise of God's Glory in Creation. In view of Psalm 19 (Division)]]
+[[anchor: Psalms 29:1-11]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 26]]
+
+S |  |
+  O1 | 1, 2 | Praise promised.
+  O2 | 3-11 | Praise rendered.
+
+[[diagram: 29. 3-11 (O2, p. 745). Praise Rendered (Alternation)]]
+[[anchor: Psalms 29:3-11]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 27]]
+
+O2 |  |
+  P | 3-9- | Nature.
+    Q | -9 | Grace.
+  P | 10 | Nature.
+    Q | 11 | Grace.
+
+[[diagram: 3-9- (P, above). Nature (Alternation and Introversion)]]
+[[anchor: Psalms 29:3-9]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 27]]
+
+P |  |
+  R | 3, 4 | Waters.
+    S |  |
+      r | 5 | Cedars.
+        s | 6 | Mountains.
+  R | 7 | Waters.
+    S |  |
+      s | 8 | Wilderness.
+      r | 9- | Forests.
+
+[[diagram: 30 (T1, p. 721). His People's Praise in view of Psalm 20 (Introversion and Extended Alternation)]]
+[[anchor: Psalms 30:1-12]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 27]]
+
+T1 |  |
+  T | 1 | Thanksgiving promised.
+    U |  |
+      t | 2- | David's cry to Jehovah.
+        u | -2, 3 | The relief obtained.
+          v | 4 | Songs of praise.
+            V | 5 | Joy succeeds weeping.
+            V | 6, 7 | Prosperity precedes trouble.
+    U |  |
+      t | 8-10 | David's cry to Jehovah.
+        u | 11 | The relief obtained.
+          v | 12- | Songs of praise.
+  T | -12 | Thanksgiving promised.
+
+[[diagram: 31 (T2, p. 721). His People's Prayer and Praise in view of Psalm 20 (Alternations and Introversions)]]
+[[anchor: Psalms 31:1-24]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 28]]
+
+T2 |  |
+  W |  |
+    Y | 1, 2 | Let me not be ashamed. "Thine ear".
+      Z |  |
+        A | 3, 4 | Reason. "For". [Thrice.]
+          B |  |
+            w | 5 | "Into Thine hand".
+              x | 6 | "I trust".
+[[group: Prayer.]]
+                X | 7, 8 | Praise for benefits received.
+[[group: -]]
+  W |  |
+      Z |  |
+        A | 9-13 | Reason. "For". [Thrice.]
+          B |  |
+            x | 14 | "I trusted".
+            w | 15 | "In Thy hand".
+    Y | 16-18 | Let me not be ashamed. "Thy face".
+[[group: Prayer.]]
+      X | 19-24 | Praise for benefits received.
+
+[[diagram: 32 (T3, p. 721). His People's Prayer and Praise in view of Psalm 20 (Introversions and Alternations)]]
+[[anchor: Psalms 32:1-11]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 29]]
+
+T3 |  |
+  C |  |
+    y | 1, 2- | The justified.
+      z | -2 | The sanctified.
+      D |  |
+        a | 3, 4 | Trouble.
+          b | 5-7 | Deliverance.
+[[group: David speaks.]]
+            E | 8 | Promise.
+            E | 9 | Injunction.
+[[group: God speaks.]]
+      D |  |
+        a | 10- | Trouble.
+          b | -10 | Deliverance.
+  C |  |
+    y | 11- | The justified.
+      z | -11 | The sanctified.
+[[group: David speaks.]]
+
+[[diagram: 33 (T4, p. 721). His People's New Song in view of Psalm 20 (Division)]]
+[[anchor: Psalms 33:1-22]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 30]]
+
+T4 |  |
+  F1 | 1-9 | Exhortation to praise Jehovah.
+  F2 | 10-22 | Declarations concerning Jehovah.
+
+[[diagram: 1-9 (F1, above). Exhortation to Praise Jehovah (Alternation)]]
+[[anchor: Psalms 33:1-9]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 30]]
+
+F1 |  |
+  G | 1-3 | Exhortation for righteous to praise Jehovah.
+    H | 4-7 | Reason. "For". (The word and works of Jehovah.)
+  G | 8 | Exhortation to all to fear Jehovah.
+    H | 9 | Reason. "For". (The word and works of Jehovah.)
+
+[[diagram: 10-22 (F2, above). Declarations concerning Jehovah (Alternation)]]
+[[anchor: Psalms 33:10-22]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 30]]
+
+F2 |  |
+  J | 10, 11 | Mankind's relation to Jehovah.
+    K | 12 | Relation of Jehovah to His People.
+  J | 13-17 | Results of J.
+    K | 18-22 | Results of K.
+
+[[diagram: 34 (U, p. 721). His People's Exultation in His Exaltation: in view of Psalm 21 (Division)]]
+[[anchor: Psalms 34:1-22]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 31]]
+
+U |  |
+  L1 | 1-10 | Praise. (א—ל.)
+  L2 | 11-22 | Instruction. (מ—ת.)
+
+[[diagram: 1-10 (L1, above). Praise. (א—ל.) (Introversion and Alternation)]]
+[[anchor: Psalms 34:1-10]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 31]]
+
+L1 |  |
+  M |  |
+    c | 1, 2 | The oppressed. "I" and "they".
+      d | 3 | Invitation. "O magnify". "Ye".
+        N | 4 | Acknowledgment. "I".
+  M |  |
+    c | 5-7 | The oppressed. "I" and "they".
+      d | 8-10 | Invitation. ("O taste . . . see . . . fear"). "Ye".
+
+[[diagram: 11-22 (L2, above). Instruction. (מ—ת.) (Repeated Alternation)]]
+[[anchor: Psalms 34:11-22]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 31]]
+
+L2 |  |
+  e1 | 11-15 | The righteous.
+    f1 | 16 | The evil-doers.
+  e2 | 17-20 | The righteous.
+    f2 | 21 | The evil-doers.
+  e3 | 22 | The righteous.
+
+[[diagram: 35 (V1, p. 721). Messiah's Prayer and Praise in view of Psalm 22 (Introversion and Extended Alternation)]]
+[[anchor: Psalms 35:1-28]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 32]]
+
+V1 |  |
+  O |  |
+    g | 1-3 | Appeal for help.
+      h | 4-8 | Imprecation.
+        i | 9, 10 | Praise.
+          P | 11 | Evildoers. Words.
+[[group: -]]
+            Q | 12 | Their evil for good.
+              R | 13 | His good for evil.
+              R | 14 | His good for evil.
+            Q | 15 | Their evil for good.
+[[group: Deeds.]]
+          P | 16 | Evildoers. Words.
+  O |  |
+    g | 17, 18 | Appeal for help.
+      h | 19-26 | Deprecation.
+        i | 27, 28 | Praise.
+
+[[diagram: 1-3 (g, above). Appeal for Help (Repeated Alternation)]]
+[[anchor: Psalms 35:1-3]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 32]]
+
+g |  |
+  k1 | 1- | Defensive.
+    l1 | -1 | Offensive.
+  k2 | 2 | Defensive.
+    l2 | 3- | Offensive.
+  k3 | -3 | Defensive.
+
+[[diagram: 36 (V2, p. 721). Messiah's Prayer and Praise in view of Psalm 22 (Introversion)]]
+[[anchor: Psalms 36:1-12]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 33]]
+
+V2 |  |
+  S | 1-4 | The wicked. Their misdeeds.
+    T | 5-9 | The lovingkindness of Jehovah. Declaration.
+    T | 10 | The lovingkindness of Jehovah. Prayer.
+  S | 11, 12 | The wicked. Their end.
+
+[[diagram: 36. 5-9 (T, p. 752). The Lovingkindness of Jehovah Declared (Repeated Alternation)]]
+[[anchor: Psalms 36:5-9]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 34]]
+
+T |  |
+  m1 | 5, 6- | His attributes.
+    n1 | -6 | Their effects.
+  m2 | 7- | His attributes.
+    n2 | -7, 8 | Their effects.
+  m3 | 9- | His attributes.
+    n3 | -9 | Their effects.
+
+[[diagram: 37 (W, p. 721). Instruction as to Present Blessing in view of Psalm 23 (Repeated Alternations)]]
+[[anchor: Psalms 37:1-40]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 34]]
+
+W |  |
+  U1 | 1-11 | Admonitions and reasons.
+    V1 | 12-26 | Contrasts. Lawless and righteous.
+  U2 | 27-29 | Admonition and reason.
+    V2 | 30-33 | Contrasts. Righteous and lawless.
+  U3 | 34 | Admonition and reason.
+    V3 | 35-40 | Contrasts. Lawless and righteous.
+
+[[diagram: 1-11 (U1, above). Admonitions and Reasons (Alternation)]]
+[[anchor: Psalms 37:1-11]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 34]]
+
+U1 |  |
+  o | 1 | Trust. Fret not.
+    p | 2 | Reason. "For".
+  o | 3-8 | Trust. Delight. Commit.
+    p | 9-11 | Reason. "For".
+
+[[diagram: 12-26 (V1, above). Contrasts. Lawless and Righteous (Alternation)]]
+[[anchor: Psalms 37:12-26]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 34]]
+
+V1 |  |
+  q | 12-15 | The lawless.
+    r | 16-19 | The righteous.
+  q | 20-22 | The lawless.
+    r | 23-26 | The righteous.
+
+[[diagram: 37. 35-40 (V3, p. 753). Contrasts. The Lawless and the Righteous (Alternation)]]
+[[anchor: Psalms 37:35-40]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 35]]
+
+V3 |  |
+  s | 35, 36 | The lawless.
+    t | 37 | The righteous.
+  s | 38 | The lawless.
+    t | 39, 40 | The righteous.
+
+[[diagram: 38 (X1, p. 721). Prayer and Praise in view of Future Blessing (Ps. 24) (Introversion and Alternation)]]
+[[anchor: Psalms 38:1-22]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 36]]
+
+X1 |  |
+  W | 1 | Prayer. "Not rebuke".
+    X |  |
+      u | 2-10 | Sin and suffering. "For".
+        v | 11-16 | Treatment from friends.
+    X |  |
+      u | 17, 18 | Sin and suffering. "For".
+        v | 19, 20 | Treatment from enemies.
+  W | 21, 22 | Prayer. "Not forsake".
+
+[[diagram: 39 (X2, p. 721). Prayer and Praise in view of Future Blessing (Ps. 24) (Extended Alternation and Introversion)]]
+[[anchor: Psalms 39:1-13]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 37]]
+
+X2 |  |
+  Y | 1-3 | Silent meditation.
+    Z | 4 | Speech. Prayer.
+      A | 5- | The fading of life. "I".
+        B | -5, 6 | Vanity of man. Selah.
+[[group: -]]
+          C |  |
+            D |  |
+              w | 7- | Departure.
+                x | -7 | Hope in Thee.
+                  E |  |
+                    y | 8- | Supplication.
+                      z | -8 | Deprecation.
+[[group: Prayer.]]
+  Y | 9 | Silent meditation.
+    Z | 10- | Speech. Prayer.
+      A | -10 | The fading of beauty. "I".
+        B | 11 | Vanity of man. Selah.
+[[group: -]]
+          C |  |
+                  E |  |
+                    y | 12- | Supplication.
+                      z | -12- | Deprecation.
+            D |  |
+                x | -12 | Hope in Thee.
+                w | 13 | Departure.
+[[group: Prayer.]]
+
+[[diagram: 40 (X3, p. 721). Messiah's Prayer and Praise in view of Future Blessing (Ps. 24)]]
+[[anchor: Psalms 40:1-17]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 37]]
+
+X3 |  |
+  F1 | 1-5 | Deliverance by Jehovah.
+  F2 | 6-10 | Address to Jehovah.
+  F3 | 11-17 | Prayer to Jehovah.
+
+[[diagram: 1-5 (F1, above). Deliverance by Jehovah (Introversion)]]
+[[anchor: Psalms 40:1-5]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 37]]
+
+F1 |  |
+  G | 1-3- | Deliverance.
+    H | -3 | Trust.
+    H | 4 | Trust.
+  G | 5 | Deliverance.
+
+[[diagram: 40. 6-10 (F2, p. 756). Address to Jehovah (Introversion and Alternation)]]
+[[anchor: Psalms 40:6-10]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 38]]
+
+F2 |  |
+  J | 6 | What Jehovah had done, and not done.
+    K |  |
+      w | 7- | Messiah's delighted obedience.
+        x | -7 | Reason. Written in the Book.
+    K |  |
+      w | 8- | Messiah's delighted obedience.
+        x | -8 | Reason. Written in His heart.
+  J | 9, 10 | What Messiah had done, and not done.
+
+[[diagram: 11-17 (F3, p. 756). Prayer to Jehovah (Introversions and Alternation)]]
+[[anchor: Psalms 40:11-17]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 38]]
+
+F3 |  |
+  L |  |
+    N |  |
+      a | 11 | Jehovah's care for Messiah.
+        b | 12 | Messiah's distress.
+          O | 13 | His prayer. "Make haste".
+            P | 14, 15 | Against enemies.
+            P | 16 | For friends.
+  L |  |
+    N |  |
+      b | 17- | Messiah's distress.
+      a | -17- | Jehovah's care for Messiah.
+        O | -17 | His prayer. "Make no tarrying".
+
+[[diagram: 41 (X4, p. 721). Messiah's Prayer and Praise in view of Future Blessing (Ps. 24) (Introversion and Extended Alternation)]]
+[[anchor: Psalms 41:1-13]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 39]]
+
+X4 |  |
+  Q | 1-3 | Jehovah's favour to Messiah.
+    R | 4 | Prayer.
+      S |  |
+        c | 5- | Enemies. What they do.
+          d | -5 | Enemies. What they say.
+            e | 6 | The Traitor.
+      S |  |
+        c | 7 | Enemies. What they do.
+          d | 8 | Enemies. What they say.
+            e | 9 | The Traitor.
+    R | 10 | Prayer.
+  Q | 11, 12 | Jehovah's favour to Messiah.
+
+[[diagram: 42—72 (B1, p. 720). The Second, or Exodus Book. Israel (Division)]]
+[[anchor: Psalms 42:1]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 40]]
+
+B1 |  |
+  A1 |  | 42—49. CONCERNING ISRAEL'S RUIN.
+  A2 |  | 50—60. CONCERNING ISRAEL'S REDEEMER.
+  A3 |  | 61—72. CONCERNING ISRAEL'S REDEMPTION.
+
+[[diagram: 42—49 (A1, above). Israel's Ruin (Introversion and Alternation)]]
+[[anchor: Psalms 42:1]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 40]]
+
+A1 |  |
+  B |  | 42 (B1), 43 (B2). THE RUIN AND OPPRESSION REALISED (42. 9; 43. 2). NO HELP FROM MAN. IT OPENS WITH CRYING AND TEARS AS EXODUS DOES. (Cp. Ex. 2. 23; 3. 7-9; 6. 9.)
+    C |  |
+      D |  | 44. THE CRY FOR HELP TO THE DELIVERER AND REDEEMER (vv. 23-26).
+        E |  | 45. THE DELIVERER PRAISED. ANSWER TO THE CRY.
+    C |  |
+      D |  | 46. THE HELP OF THE DELIVERER. (Cp. 48. 8.)
+        E |  | 47 (E1), 48 (E2). THE DELIVERER PRAISED. (Cp. 48. 8 with 44. 1.)
+  B |  | 49. THE RUIN, AND NEED OF REDEMPTION REALISED. NO HELP FROM MAN (v. 7), ONLY FROM GOD (v. 15).
+
+[[diagram: 50—60 (A2, above). Israel's Redeemer (Introversion)]]
+[[anchor: Psalms 50:1]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 40]]
+
+A2 |  |
+  F |  | 50. GOD SPEAKS TO HIS PEOPLE. HE BREAKS THE SILENCE AS IN EXODUS 3. 4 Cp. Heb. 12. 25, 26.
+    G |  | 51. TRANSGRESSION. CONFESSED AND FORGIVEN.
+    G |  | 52 (G1), 53 (G2), 54 (G3), 55 (G4). TRANSGRESSORS. UNCONFESSED AND DESTROYED.
+  F |  | 56 (F1), 57 (F2), 58 (F3), 59 (F4), 60 (F5). GOD'S PEOPLE SPEAK TO HIM OF ISRAEL'S REDEEMER AND HIS WORK: TELLING OF DEATH AND RESURRECTION (Michtam, Ap. 65. XII).
+
+[[diagram: 61—72 (A3, above). Israel's Redemption (Alternations)]]
+[[anchor: Psalms 61:1]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 40]]
+
+A3 |  |
+  H |  |
+    K |  | 61 (K1), 62 (K2), 63 (K3), 64 (K4). ISRAEL WAITS FOR DELIVERANCE "FROM THE ENDS OF THE EARTH", WHICH IS THE WORK OF GOD ALONE (64. 9).
+      L |  | 65. ZION WAITS FOR HER BLESSING.
+        M |  | 66 (M1), 67 (M2). PRAISE PROMISED. THE TROUBLE REMEMBERED (66. 10-12).
+          J |  | 68 THE ANSWER TO 61—67. GOD ARISES. "BLESSED BE GOD" (v. 35).
+  H |  |
+    K |  | 69. THE KING WAITS FOR DELIVERANCE (v. 14) FROM SUFFERINGS, SHAME, AND SORROW. (THE TRESPASS OFFERING).
+      L |  | 70. THE KING WAITS FOR HIS DELIVERANCE. "MAKE HASTE".
+        M |  | 71. PRAISE PROMISED (vv. 22-24). THE TROUBLE REMEMBERED (v 20).
+          J |  | 72. THE ANSWER. THE KING REIGNS. "BLESSED BE THE LORD GOD" (v. 18). THIS WAS ALL HIS DESIRE (2 Sam. 23. 5). THE REDEEMED NATION BLESSED, AND A BLESSING TO ALL NATIONS.
+
+[[diagram: 42, 43 (B1, B2, p. 759). The Ruin Realised (Repeated Alternation)]]
+[[anchor: Psalms 42:1]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 42]]
+
+B |  |
+  A1 |  | 42. 1-3. Cry from afar.
+    B1 |  | 42. 4. Hope. "I remember".
+      C1 |  | 42. 5. Appeal. "Why cast down?" Praise.
+  A2 |  | 42. 6, 7. Cry from afar.
+    B2 |  | 42. 8-10. Hope. "Jehovah will command", &c.
+      C2 |  | 42. 11. Appeal. "Why cast down?" Praise.
+  A3 |  | 43. 1, 2. Cry from afar.
+    B3 |  | 43. 3, 4. Hope. "I will go".
+      C3 |  | 43. 5. Appeal. "Why cast down?" Praise.
+
+[[diagram: 44 (D, p. 759). The Cry for a Deliverer (Introversions)]]
+[[anchor: Psalms 44:1-26]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 43]]
+
+D |  |
+  D | 1-8 | God our help.
+    E |  |
+      F | 9-14 | Us.
+[[group: -]]
+        G | 15 | Me. Thy reproach.
+    E |  |
+      G | 16 | Me. The reason.
+[[group: Trouble.]]
+      F | 17-22 | Us.
+[[group: -]]
+  D | 23-26 | Jehovah our help.
+
+[[diagram: 1-8 (D, above). God our Help (Extended Alternation)]]
+[[anchor: Psalms 44:1-8]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 43]]
+
+D |  |
+  a | 1, 2 | By Thee our fathers cast out.
+[[group: -]]
+    b | 3- | Not their own sword.
+      c | -3 | But Thy right hand.
+[[group: Reason.]]
+        d | 4 | Thou our confidence.
+  a | 5 | By Thee will we put down.
+[[group: -]]
+    b | 6 | Not my own sword.
+      c | 7 | But Thou.
+[[group: Reason.]]
+        d | 8 | Thou our confidence.
+
+[[diagram: 44. 9-14 (F, p. 762). Us. Trouble (Alternation)]]
+[[anchor: Psalms 44:9-14]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 44]]
+
+F |  |
+  e | 9 | Thou hast cast us off. (Pos. and Neg.)
+    f | 10, 11 | Enemies' acts.
+  e | 12 | Thou hast cast us off. (Pos. and Neg.)
+    f | 13, 14 | Enemies' words.
+
+[[diagram: 17-22 (F, p. 762). Us. Trouble (Alternation)]]
+[[anchor: Psalms 44:17-22]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 44]]
+
+F |  |
+  g | 17, 18 | Righteousness.
+    h | 19 | Calamities.
+  g | 20, 21 | Righteousness.
+    h | 22 | Calamities.
+
+[[diagram: 23-26 (D, p. 762). Jehovah our Help (Introversion)]]
+[[anchor: Psalms 44:23-26]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 44]]
+
+D |  |
+  i | 23, 24 | Prayer. "Awake".
+    k | 25- | Affliction.
+    k | -25 | Affliction.
+  i | 26 | Prayer. "Arise".
+
+[[diagram: 45 (E, p. 759). The Deliverer. Praised (Introversion)]]
+[[anchor: Psalms 45:1-17]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 44]]
+
+E |  |
+  H | 1 | The Psalmist.
+    J | 2-8 | The king.
+    J | 9-16 | The queen.
+  H | 17 | The Psalmist.
+
+[[diagram: 45. 2-8 (J, p. 763). The King (Introversion and Alternation)]]
+[[anchor: Psalms 45:2-8]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 45]]
+
+J |  |
+  K |  |
+    l | 2- | The king's merits.
+      m | -2 | His reward. "Therefore" ('al ken).
+        L | 3, 4 | His weapon, and its effects.
+        L | 5 | His weapons, and their effects.
+  K |  |
+    l | 6, 7- | The king's merits.
+      m | -7, 8 | His reward. "Therefore" ('al ken).
+
+[[diagram: 45. 9-16 (J, p. 763). The Queen (Introversions and Alternation)]]
+[[anchor: Psalms 45:9-16]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 45]]
+
+J |  |
+  M |  |
+    O |  |
+      n | 9- | Maids of honour.
+        o | -9 | The queen's apparel.
+          P | 10, 11 | The queen addressed.
+            N | 12- | Suppliant.
+            N | -12 | Suppliants.
+  M |  |
+    O |  |
+      o | 13, 14- | The queen's apparel.
+      n | -14, 15 | Maids of honour.
+        P | 16 | The queen addressed.
+
+[[diagram: 46 (D, p. 759). The Help of the Deliverer (Introversions and Alternations)]]
+[[anchor: Psalms 46:1-11]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 46]]
+
+D |  |
+  Q1 | 1 | God our refuge.
+[[group: -]]
+    R |  |
+      p | 2 | The earth moved.
+        q | 3 | The waters roar.
+[[group: Danger defied.]]
+          S | 4 | The holy city.
+          S | 5 | The holy city.
+[[group: Zion defended.]]
+    R |  |
+        q | 6- | The heathen rage.
+      p | -6 | The earth melted.
+[[group: Danger defied.]]
+  Q2 | 7 | God our refuge. Selah.
+[[group: -]]
+    T |  |
+      r | 8- | Behold God, in His works.
+        s | -8 | The earth. His desolations.
+[[group: Works seen.]]
+          U | 9- | The world. War.
+          U | -9 | The world. Weapons.
+[[group: Wars ended.]]
+    T |  |
+      r | 10- | Know God in Himself.
+        s | -10 | The earth. God's exaltation.
+[[group: Himself known.]]
+  Q3 | 11 | God our refuge. Selah.
+
+[[diagram: 47 (E1, p. 759). Praise to the Deliverer (Extended Alternations)]]
+[[anchor: Psalms 47:1-9]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 47]]
+
+E1 |  |
+  V |  |
+    t | 1 | A call to praise.
+      u | 2 | The reasons.
+        W | 3, 4 | The nations, and Israel.
+          X | 5 | God exalted.
+  V |  |
+    t | 6 | A call to praise.
+      u | 7, 8 | The reason.
+        W | 9- | The nations, and Israel.
+          X | -9 | God exalted.
+
+[[diagram: 48 (E2, p. 759). Praise to the Deliverer (Repeated Alternation)]]
+[[anchor: Psalms 48:1-14]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 47]]
+
+E2 |  |
+  Y | 1- | Praise.
+    Z | -1-3 | Zion a joy. In her palaces, God known.
+      A | 4-8 | The reason. "For". God's power shown in her establishment "for ever". Selah.
+  Y | 9, 10 | Praise.
+    Z | 11-13 | Zion to rejoice. In her towers, strength surveyed.
+      A | 14 | The reason. "For". God's favour shown in guidance "for evermore".
+
+[[diagram: 49 (B, p. 759). Need of Redemption Realized (Alternations and Introversion)]]
+[[anchor: Psalms 49:5-20]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 48]]
+
+B |  |
+  B |  |
+    v | 5 | Why fear? (two lines).
+      w | 6-9 | No redemption from man (four lines. Alt.).
+        x | 10- | Death (two lines).
+          y | -10, 11 | Worldly wisdom (four lines. Int.)
+            C | 12 | Man like the beasts (two lines).
+  B |  |
+          y | 13 | Worldly wisdom (two lines). Selah.
+        x | 14 | Death (two lines. Int.).
+      w | 15 | Redemption for me (two lines). Selah.
+    v | 16-19 | Fear not! (four lines. Alt.).
+      C | 20 | Man like the beasts (two lines).
+
+[[diagram: 50 (F, p. 759). He Breaks Silence (Alternations)]]
+[[anchor: Psalms 50:1-23]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 49]]
+
+F |  |
+  D | 1-6 | The Psalmist.
+    E |  |
+      F | 7-13 | Reproof. Neg. Owns them.
+        G | 14, 15- | Duty. Praise and prayer.
+          H | -15 | Promise. I will deliver.
+[[group: His people addressed.]]
+  D | 16- | The Psalmist.
+    E |  |
+      F | -16-22 | Reproof. Pos. Disowns them.
+        G | 23- | Duty. Praise.
+          H | -23 | Promise. I will show.
+[[group: The wicked addressed.]]
+
+[[diagram: 51 (G, p. 759). The Response of His People (Division)]]
+[[anchor: Psalms 51:1-19]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 50]]
+
+G |  |
+  J | 1, 2 | Prayer.
+    K | 3-5 | Transgression. Confession.
+      L |  |
+        a | 6 | What God desires.
+          b | 7, 8 | Prayer and resulting praise.
+  J | 9-12 | Prayer.
+    K | 13 | Transgressors. Instruction.
+      L |  |
+        b | 14, 15 | What God desires.
+          a | 16-19 | Prayer and resulting praise.
+
+[[diagram: 52 (G1, p. 759). Instruction as to the Defeat of Enemies (Alternation)]]
+[[anchor: Psalms 52:1-9]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 51]]
+
+G1 |  |
+  M | 1-5 | The enemies apostrophised. (Doeg.)
+    N | 6 | The righteous ones. (Pl. = Israel.)
+  M | 7 | The enemies apostrophised. (Doeg.)
+    N | 8, 9 | The righteous one. (Sing. = David.)
+
+[[diagram: 53 (G2, p. 759). Instruction as to Defeat of Enemies (Introversion and Alternation)]]
+[[anchor: Psalms 53:1-6]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 52]]
+
+G2 |  |
+  O | 1- | The fool. God no-where.
+    P |  |
+      a | -1 | Man. Depravity.
+        b | 2 | God. Inspection.
+    P |  |
+      a | 3 | Man. Depravity.
+        b | 4 | God. Expostulation.
+  O | 5, 6 | The righteous. God now-here.
+
+[[diagram: 54 (G3, p. 759). Instruction as to the Defeat of Enemies (Introversion and Alternation)]]
+[[anchor: Psalms 54:1-7]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 52]]
+
+G3 |  |
+  Q |  |
+    c | 1, 2 | Prayer.
+      d | 3 | Reason. Enemies assemble.
+        R | 4 | Jehovah my helper.
+        R | 5 | Jehovah my helper.
+  Q |  |
+    c | 6 | Praise.
+      d | 7 | Reason. Enemies scattered.
+
+[[diagram: 55 (G4, p. 759). Instruction as to Defeat of Enemies (Repeated Alternation)]]
+[[anchor: Psalms 55:1-23]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 53]]
+
+G4 |  |
+  S1 |  |
+    e | 1-2 | Prayer. Despondency.
+      f | 3-5 | Reason. "For".
+    e | 6-9- | Prayer. Encouragement.
+      f | -9-11 | Reason. "For".
+        T1 | 12-14 | Treachery of Ahithophel.
+  S2 |  |
+    g | 15- | Prayer. Imprecatory.
+      h | -15 | Reason. "For".
+    g | 16-18- | Prayer. Encouragement.
+      h | -18, 19 | Reason. "For".
+        T2 | 20, 21 | Treachery of Ahithophel.
+  S3 |  |
+    i | 22- | Prayer. Encouragement.
+      k | -22 | Reason. Assurance.
+    i | 23- | Prayer. Imprecatory.
+      k | -23 | Reason. Assurance.
+
+[[diagram: 56 (F1, p. 759). Israel's Redeemer, and His Work (Extended Alternation)]]
+[[anchor: Psalms 56:1-13]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 54]]
+
+F1 |  |
+  U | 1, 2 | Complaint.
+    V | 3 | Trust.
+      W | 4 | Praise.
+  U | 5-8 | Complaint.
+    V | 9 | Trust.
+      W | 10-13 | Praise.
+
+[[diagram: 57 (F2, p. 759). Israel's Redeemer, and His Work (Alternations and Introversions)]]
+[[anchor: Psalms 57:1-11]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 55]]
+
+F2 |  |
+  X |  |
+    Z |  |
+      l | 1 | Repetition. Prayer.
+        m | 2, 3- | Resolve. "I will cry".
+          n | -3 | Mercy and truth. Sent.
+            A | 4 | Enemies.
+              Y | 5 | "Be Thou exalted".
+  X |  |
+            A | 6 | Enemies.
+    Z |  |
+      l | 7- | Repetition. Praise.
+        m | -7-9 | Resolve. "I will sing".
+          n | 10 | "Mercy and truth". Great.
+            Y | 11 | "Be Thou exalted".
+
+[[diagram: 58 (F3, p. 759). Israel's Redeemer, and His Work (Introversion)]]
+[[anchor: Psalms 58:1-11]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 55]]
+
+F3 |  |
+  B | 1, 2 | Man's judgment. Unrighteous.
+    C | 3-5 | The wicked. Their character.
+      D | 6-9 | Imprecation.
+    C | 10 | The righteous. Their rejoicing.
+  B | 11 | God's judgment. Righteous.
+
+[[diagram: 59 (F4, p. 759). Israel's Redeemer, and His Work (Extended Alternation)]]
+[[anchor: Psalms 59:1-17]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 56]]
+
+F4 |  |
+  E | 1-5 | Prayer. Enemies in the land. Selah.
+    F | 6 | Comparison to a dog.
+      G | 7 | Doggish characteristic. Barking.
+        H | 8, 9- | Psalmist's trust in God.
+          J | -9, 10 | Reason. "God my defence".
+  E | 11-13 | Prayer. Enemies with them in the land. Selah.
+    F | 14 | Comparison to a dog.
+      G | 15 | Doggish characteristic. Greediness.
+        H | 16- | Psalmist's trust in God.
+          J | -16, 17 | Reason. "God my defence".
+
+[[diagram: 60 (F5, p. 759). Israel's Redeemer, and His Work (Alternations)]]
+[[anchor: Psalms 60:1-12]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 57]]
+
+F5 |  |
+  K | 1-5 | Prayer. (God, the object.)
+    L |  |
+      o | 6, 7 | Israel.
+        p | 8, 9 | Heathen.
+[[group: (God, the subject.)]]
+  K | 10, 11 | Prayer. (God, the object.)
+    L |  |
+      o | 12- | Israel.
+        p | -12 | Heathen.
+[[group: (God, the subject.)]]
+
+[[diagram: 61 (K1, p. 759). Waited for by Israel (Introversion)]]
+[[anchor: Psalms 61:1-8]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 58]]
+
+K1 |  |
+  M | 1, 2 | Prayer.
+    N | 3, 4 | Confidence.
+      O | 5 | Reason.
+    N | 6, 7 | Confidence.
+  M | 8 | Praise.
+
+[[diagram: 62 (K2, p. 759). Israel's Redemption Waited For (Repeated Alternation)]]
+[[anchor: Psalms 62:1-12]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 58]]
+
+K2 |  |
+  P1 | 1, 2 | Trust in God.
+    Q1 | 3, 4 | Enmity of foes.
+  P2 | 5-7 | Trust in God.
+    Q2 | 8-10 | Enmity of foes.
+  P3 | 11, 12 | Trust in God.
+
+[[diagram: 63 (K3, p. 759). Israel's Redemption Waited For (Repeated Alternation)]]
+[[anchor: Psalms 63:1-11]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 59]]
+
+K3 |  |
+  R1 | 1, 2 | Assurance.
+    S1 | 3 | Reason for praise.
+  R2 | 4-6 | Assurance.
+    S2 | 7 | Reason for praise.
+  R3 | 8-10 | Assurance. (Enemies.)
+    S3 | 11- | Reason for praise.
+  R4 | -11 | Assurance. (Enemies.)
+
+[[diagram: 64 (K4, p. 759). Israel's Redemption Waited For (Division)]]
+[[anchor: Psalms 64:1-10]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 59]]
+
+K4 |  |
+  T1 | 1-8 | Enemies.
+  T2 | 9 | Mankind in general.
+  T3 | 10 | The righteous in particular.
+
+[[diagram: 64. 1-8 (T1, above). Enemies (Alternation and Introversion)]]
+[[anchor: Psalms 64:1-8]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 59]]
+
+T1 |  |
+  U |  |
+    q | 1 | The enemies. (Sing.)
+      r | 2 | Enemies. (Pl.)
+        V | 3, 4 | Their attempt to wound.
+  U |  |
+    r | 5, 6- | Enemies. (Pl.)
+      q | -6 | The enemy. (Sing.)
+        V | 7, 8 | Their wounding.
+
+[[diagram: 65 (L, p. 759). Israel's Redemption. Zion Waits (Alternation)]]
+[[anchor: Psalms 65:1-13]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 60]]
+
+L |  |
+  W | 1 | Israel. Zion.
+    X | 2 | Mankind.
+  W | 3-5- | Israel. Zion.
+    X | -5-13 | Mankind.
+
+[[diagram: 65. 3-5- (W, above). Israel. Zion (Alternation)]]
+[[anchor: Psalms 65:3-5]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 60]]
+
+W |  |
+  s | 3- | Singular. "Me".
+    t | -3 | Plural. "Our".
+  s | 4 | Singular. "He".
+    t | 5- | Plural. "We".
+
+[[diagram: 65. -5-13 (X, above). Mankind (Alternation)]]
+[[anchor: Psalms 65:5-13]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 60]]
+
+X |  |
+  Y | -5 | God the confidence of all afar off.
+    Z | 6, 7 | The power of God.
+[[group: God spoken of.]]
+  Y | 8- | God the fear of all afar off.
+    Z | -8-13 | The goodness of God.
+[[group: God spoken to.]]
+
+[[diagram: 65. -8-13 (Z, above). The Goodness of God (Alternation)]]
+[[anchor: Psalms 65:8-13]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 60]]
+
+Z |  |
+  u | -8 | Times. Morning and evening.
+    v | 9, 10 | Places. Earth and water.
+  u | 11 | Time. The year.
+    v | 12, 13 | Places. Hills and valleys.
+
+[[diagram: 66 (M1, p. 759). Praise Promised. Trouble Remembered (Repeated Alternation)]]
+[[anchor: Psalms 66:1-20]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 60]]
+
+M1 |  |
+  A | 1, 2 | Exhortation to praise.
+    B | 3 | Address. God's works in the world.
+      C | 4 | Address. Promise for the world. Selah.
+        D | 5-7 | Invitation. "Come and see," &c. Selah.
+  A | 8, 9 | Exhortation to praise.
+    B | 10-12 | Address. God's dealings with His People.
+      C | 13-15 | Address. Promise for Psalmist. Selah.
+        D | 16-20 | Invitation. "Come and hear," &c.
+
+[[diagram: 66. 13-15 (C, p. 779). Address. Promise of Psalmist (Introversion)]]
+[[anchor: Psalms 66:13-15]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 61]]
+
+C |  |
+  w | 13- | Offerings.
+    x | -13 | Vows.
+    x | 14 | Vows.
+  w | 15 | Offerings.
+
+[[diagram: 66. 16-20 (D, p. 779). Invitation: "Come and Hear." (Introversion)]]
+[[anchor: Psalms 66:16-20]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 61]]
+
+D |  |
+  y | 16 | God.
+    z | 17 | I.
+    z | 18 | I.
+  y | 19, 20 | God.
+
+[[diagram: 67 (M2, p. 759). Praise Promised. Trouble Remembered (Introversion and Alternations)]]
+[[anchor: Psalms 67:1-7]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 62]]
+
+M2 |  |
+  E |  |
+    a | 1 | Prayer. "God be merciful".
+      b | 2 | Object. Way known on earth.
+        F |  |
+          c | 3 | Injunction. "Let the people praise".
+            d | 4- | Effect. Peoples glad.
+              G | -4- | Address. People judged.
+              G | -4 | Address. Nations governed.
+        F |  |
+          c | 5 | Injunction. "Let the people praise".
+            d | 6- | Effect. Earth fruitful.
+  E |  |
+    a | -6 | Prayer. "God be merciful".
+      b | 7 | Object. God feared on earth.
+
+[[diagram: 67. 6, 7 (d, E, above). Prayer. Effect and Object. According to the Hebrew (Introversion)]]
+[[anchor: Psalms 67:6-7]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 62]]
+
+d, E |  |
+  x |  | The earth shall yield.
+    y |  | God will bless us.
+      z |  | Our own God (Jehovah).
+    y |  | God will bless us.
+  x |  | All the ends of the earth shall fear.
+
+[[diagram: 68 (J, p. 759). Israel's Redemption. The Answer to Psalms 61-67 (Division)]]
+[[anchor: Psalms 68:1-35]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 62]]
+
+J |  |
+  H1 | 1-3 | Introduction to psalm.
+  H2 | 4-35 | The psalm itself.
+
+[[diagram: 68. 1-3 (H1, above). The Introduction (Division)]]
+[[anchor: Psalms 68:1-3]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 62]]
+
+H1 |  |
+  J1 | 1, 2 | The wicked scattered.
+  J2 | 3 | The righteous made glad.
+
+[[diagram: 68. 4-35 (H2, above). The Psalm Itself (Introversion and Extended Alternation)]]
+[[anchor: Psalms 68:4-35]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 62]]
+
+H2 |  |
+  K | 4 | Exhortation to praise (four lines).
+    L |  |
+      N | 5, 6- | Mercies to His People.
+        O | -6 | Enemies judged.
+          P | 7-10 | Goings in the wilderness (nine lines).
+            Q | 11-14 | Jehovah's word. History (four verses).
+              M | 15, 16 | Zion. Jehovah's chosen dwelling-place.
+              M | 17, 18 | Zion. Jehovah's chosen dwelling-place.
+    L |  |
+      N | 19, 20 | Mercies to His People.
+        O | 21-23 | Enemies judged.
+          P | 24-27 | Goings in the sanctuary (nine lines).
+            Q | 28-31 | God's command. Prophecy (four verses).
+  K | 32-35 | Exhortation to praise (four verses).
+
+[[diagram: 68. 7-10 (P, p. 781); 24-27 (P, p. 781). Goings (Extended Alternation)]]
+[[anchor: Psalms 68:7-27]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 63]]
+
+P, P |  |
+  P |  |
+    e | 7 | Goings in the wilderness.
+      f | 8 | Accompaniments.
+        g | 9 | Address.
+          h | 10 | Thy congregation.
+[[group: In the wilderness.]]
+  P |  |
+    e | 24 | Goings in the sanctuary.
+      f | 25 | Accompaniments.
+        g | 26 | Address.
+          h | 27 | The congregation.
+[[group: Into the sanctuary.]]
+
+[[diagram: 69 (K, p. 759). Israel's Redemption. Their Redeemer Waits for His Deliverance (Division)]]
+[[anchor: Psalms 69:1-36]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 65]]
+
+K |  |
+  R1 | 1-21 | Prayer.
+  R2 | 22-29 | Imprecation.
+  R3 | 30-36 | Praise.
+
+[[diagram: 69. 1-21 (R1, above). Prayer (Extended Alternation)]]
+[[anchor: Psalms 69:1-21]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 65]]
+
+R1 |  |
+  S | 1- | Salvation.
+    T | -1-4 | Trouble.
+      U | 5, 6 | Appeal.
+        V | 7-12 | Reproach. Treatment received.
+  S | 13 | Salvation.
+    T | 14-18 | Trouble.
+      U | 19 | Appeal.
+        V | 20, 21 | Reproach. Treatment received.
+
+[[diagram: 69. -1-4 (T, above); 14-18 (T, above). Trouble (Alternation)]]
+[[anchor: Psalms 69:1-18]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 65]]
+
+T, T |  |
+  T |  |
+    i | -1, 2 | Mire and waters.
+      k | 3 | Desire after God.
+        l | 4 | Enemies.
+  T |  |
+    i | 14, 15 | Mire and waters.
+      k | 16-18- | Desire after God.
+        l | -18 | Enemies.
+
+[[diagram: 69. 7-12 (V, above); 20, 21 (V, above). Reproaches (Extended Alternation)]]
+[[anchor: Psalms 69:7-21]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 65]]
+
+V, V |  |
+  V |  |
+    m | 7 | I. Reproached.
+      n | 8-10 | Desolation.
+        o | 11, 12- | "I gave", &c.
+          p | -12 | Drunkards.
+  V |  |
+    m | 20- | I. Reproached.
+      n | -20 | Desolation.
+        o | 21- | "They gave", &c.
+          p | -21 | Drink.
+
+[[diagram: 69. 22-29 (R2, p. 784). Imprecation (Alternation)]]
+[[anchor: Psalms 69:22-29]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 66]]
+
+R2 |  |
+  q | 22-25 | Imprecation. "They".
+    r | 26 | Reason. They hurt Thine afflicted.
+  q | 27, 28 | Imprecation.
+    r | 29 | Contrast. Thou savest Thine oppressed.
+
+[[diagram: 69. 30-36 (R3, above). Praise (Alternation and Introversion)]]
+[[anchor: Psalms 69:30-36]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 66]]
+
+R3 |  |
+  W | 30, 31 | "I will praise".
+    X |  |
+      s | 32 | Promise to God's servants.
+        t | 33 | Reason. Jehovah's dealings.
+  W | 34 | Let creation praise.
+    X |  |
+      t | 35 | Reason. God's dealings.
+        s | 36 | Promise to God's servants.
+
+[[diagram: 70 (L, p. 759). Israel's Redemption. Their Redeemer Waits for His Deliverance (Introversion)]]
+[[anchor: Psalms 70:1-5]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 67]]
+
+L |  |
+  Y | 1 | David.
+    Z | 2, 3 | Imprecation.
+    Z | 4 | Intercession.
+  Y | 5 | David.
+
+[[diagram: 71 (M, p. 759). Israel's Redeemer. Praise Promised (Alternations and Introversion)]]
+[[anchor: Psalms 71:1-24]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 67]]
+
+M |  |
+  A |  |
+    C | 1-5- | Declaration of trust.
+      D |  |
+        u | -5, 6- | Youth. Care. (Past.)
+          v | -6-8 | Promise of praise. (Present.)
+            w | 9-12 | Prayer for old age. (Future.)
+              B |  |
+                x | 13 | Confusion of enemies.
+                  y | 14-16 | Return for mercies.
+  A |  |
+      D |  |
+        u | 17- | Youth. Teaching. (Past.)
+          v | -17 | Promise of praise. (Present.)
+            w | 18 | Prayer for old age. (Future.)
+    C | 19-21 | Declaration of trust.
+      B |  |
+        y | 22-24- | Return for mercies.
+        x | -24 | Confusion of enemies.
+
+[[diagram: 72 (J, p. 759). Israel's Redemption. The Answer to Psalms 69-71 (Introversion and Extended Alternation)]]
+[[anchor: Psalms 72:1-20]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 68]]
+
+J |  |
+  E | 1 | Prayer and theme of Psalm.
+    F |  |
+      G | 2-4 | Messiah's goodness to the poor.
+        H | 5-10 | Other attributes.
+          I | 11 | General adoration.
+    F |  |
+      G | 12-14 | Messiah's goodness to the poor.
+        H | -15-17- | Other attributes.
+          I | -17 | General adoration.
+  E | 18-20 | Praise and doxology to Book II.
+
+[[diagram: 72. 5-10 (H, above); 15-17- (H, above). Other Attributes (Introversion)]]
+[[anchor: Psalms 72:5-17]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 68]]
+
+H, H |  |
+  H |  |
+    a | 5 | Eternity.
+      b | 6, 7 | Agricultural prosperity. (Moon.)
+        c | 8, 9 | The world. Dominion.
+          d | 10 | Gifts.
+  H |  |
+          d | -15- | Gifts.
+        c | -15 | His People. Worship.
+      b | 16 | Agricultural prosperity. (Sun.)
+    a | 17- | Eternity.
+
+[[diagram: 73—89 (C, p. 720). The Third or Leviticus Book. The Sanctuary (Division)]]
+[[anchor: Psalms 73:1]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 70]]
+
+C |  |
+  A1 |  | 73—83. THE SANCTUARY IN RELATION TO MAN.
+  A2 |  | 84—89. THE SANCTUARY IN RELATION TO JEHOVAH.
+
+[[diagram: 73—83 (A1, above). The Sanctuary in Relation to Man (Extended Alternation)]]
+[[anchor: Psalms 73:1]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 70]]
+
+A1 |  |
+  B |  | 73. THE EFFECT OF BEING OUTSIDE THE SANCTUARY. OCCUPATION OF HEART WITH OTHERS, AND CONSEQUENT DISTRACTION.
+    C |  | 74. THE ENEMY IN THE SANCTUARY.
+      D |  | 75. GOD'S ANOINTED IN THE SANCTUARY.
+        E |  | 76. DESTRUCTION OF THE ENEMIES OF THE SANCTUARY.
+  B |  | 77 (B1), 78 (B2). THE EFFECT OF BEING OUTSIDE THE SANCTUARY. OCCUPATION OF HEART WITH SELF, AND CONSEQUENT MISERY. 78 IS INSTRUCTION (MASCHIL) AS TO 73 AND 77, SHOWING HOW JEHOVAH FORSOOK "SHILOH" (v. 60), AND CHOSE NOT JOSEPH (v. 67): BUT CHOSE ZION (vv 68, 69), AND CHOSE DAVID (vv. 70-72).
+    C |  | 79. THE ENEMY IN THE SANCTUARY.
+      D |  | 80 (D1), 81 (D2), 82 (D3). GOD IN THE SANCTUARY.
+        E |  | 83. DESTRUCTION OF THE ENEMIES OF THE SANCTUARY.
+
+[[diagram: 84—89 (A2, above). The Sanctuary in Relation to Jehovah (Repeated Alternation)]]
+[[anchor: Psalms 84:1]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 70]]
+
+A2 |  |
+  F1 |  | 84 (F1), 85 (F1). THE BLESSEDNESS OF APPROACHERS TO THE SANCTUARY.
+    G1 |  | 86. PRAYER BEFORE GOD (IN THE SANCTUARY). MESSIAH'S HUMILIATION THE SECRET AND SOURCE OF THE BLESSING.
+  F2 |  | 87. THE BLESSEDNESS OF DWELLERS IN ZION.
+    G2 |  | 88. PRAYER BEFORE GOD. INSTRUCTION (MASCHIL) AS TO MESSIAH'S HUMILIATION, AS THE SECRET AND SOURCE OF THE BLESSING.
+  F3 |  | 89. THE BLESSEDNESS OF THOSE WHO "KNOW THE JOYFUL SOUND" (v. 15). GOD IN THE ASSEMBLY OF HIS SAINTS (v. 7). INSTRUCTION AS TO GOD'S DEALINGS IN HIS SANCTUARY, AND AS TO THE WHOLE BOOK.
+
+[[diagram: 73 (B, p. 789). Outside the Sanctuary. Effect. Distraction (Introversion)]]
+[[anchor: Psalms 73:1-28]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 71]]
+
+B |  |
+  A | 1 | Occupation with God. Peace.
+    B | 2 | Occupation with others. My error.
+      C | 3 | Result. My discontent.
+        D | 4-12 | The wicked. Their prosperity.
+          E | 13-16 | Result. Distraction.
+          E | 17 | Remedy. The Sanctuary.
+        D | 18-20 | The wicked. Their end.
+      C | 21 | Result. My discontent.
+    B | 22 | Occupation with others. My error.
+  A | 23-28 | Occupation with God. Peace.
+
+[[diagram: 73. 4-12 (D, above). The Wicked. Their Prosperity (Introversion)]]
+[[anchor: Psalms 73:4-12]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 71]]
+
+D |  |
+  F | 4, 5 | Their prosperity. (Negative.)
+    G |  |
+      a | 6, 7 | Their pride and fulness.
+        b | 8, 9 | Their speech.
+    G |  |
+      a | 10 | Their pride and fulness.
+        b | 11 | Their speech.
+  F | 12 | Their prosperity. (Positive.)
+
+[[diagram: 73. 23-28 (A, p. 790). Occupation with God (Introversion)]]
+[[anchor: Psalms 73:23-28]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 72]]
+
+A |  |
+  c | 23-26 | I (emphatic).
+    d | 27- | They. Far from Thee.
+    d | -27 | They. Departing from Thee.
+  c | 28 | I (emphatic).
+
+[[diagram: 74 (C, p. 789). The Enemy in the Sanctuary (Introversion)]]
+[[anchor: Psalms 74:1-23]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 72]]
+
+C |  |
+  H | 1-11 | Prayer. The enemy in the Sanctuary.
+    J | 12 | Plea. Former merciful deliverances.
+    J | 13-17 | Plea. Former merciful deliverances.
+  H | 18-23 | Prayer. The enemy in the Sanctuary.
+
+[[diagram: 74. 1-11 (H, above). Prayer (Introversion)]]
+[[anchor: Psalms 74:1-11]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 72]]
+
+H |  |
+  K | 1 | Expostulation.
+    L | 2 | Prayer. Memory. "Of old".
+      M | 3 | Enemies.
+      M | 4-8 | Enemies.
+    L | 9 | Prayer. Inquiry. "How long?"
+  K | 10, 11 | Expostulation.
+
+[[diagram: 74. 13-17 (J, p. 791). Plea. Former Merciful Deliverances (Introversions)]]
+[[anchor: Psalms 74:13-17]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 73]]
+
+J |  |
+  N |  |
+    c | 13- | Dividing the sea.
+      d | -13 | The breaking of Egypt.
+      d | 14 | The breaking of Egypt.
+    c | 15 | Dividing the Jordan.
+  N |  |
+    e | 16- | Day and night.
+      f | -16 | Heavens.
+      f | 17- | Earth.
+    e | -17 | Summer and winter.
+
+[[diagram: 74. 18-23 (H, above). Prayer. The Enemy in the Sanctuary (Introversion and Alternation)]]
+[[anchor: Psalms 74:18-23]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 73]]
+
+H |  |
+  O | 18 | Remember the enemies' reproach.
+    P |  |
+      g | 19 | Deprecation. The oppressed.
+        h | 20 | Prayer. "Thy covenant".
+    P |  |
+      g | 21 | Deprecation. The oppressed.
+        h | 22, 23 | Prayer. "Thy cause".
+  O | -22 | Remember the enemies' reproach.
+
+[[diagram: 75 (D, p. 789). God's Anointed in the Sanctuary (Alternation)]]
+[[anchor: Psalms 75:1-10]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 74]]
+
+D |  |
+  Q | 1 | Praise. Offered.
+    R | 2-8 | Judgment. Upright.
+  Q | 9 | Praise. Promised.
+    R | 10 | Judgment. Upright.
+
+[[diagram: 75. 2-8 (R, above). Judgment. Upright (Alternation)]]
+[[anchor: Psalms 75:2-8]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 74]]
+
+R |  |
+  S | 2, 3- | The earth.
+    T | -3- | Its inhabitants.
+  S | -3 | The earth.
+    T | 4-8 | Its inhabitants.
+
+[[diagram: 76 (E, p. 789). Destruction of the Enemies of the Sanctuary (Repeated Alternation)]]
+[[anchor: Psalms 76:1-12]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 75]]
+
+E |  |
+  U1 | 1-3 | The Jebusites' defeat. Selah.
+    V1 | 4 | God. Thou art glorious.
+  U2 | 5, 6 | The Jebusites' defeat.
+    V2 | 7 | God. Thou art to be feared.
+  U3 | 8, 9 | The Jebusites' defeat. Selah.
+    V3 | 10 | God. Thou art to be praised.
+  U4 | 11, 12 | The Jebusites' defeat,
+
+[[diagram: 77 (B1, p. 789). Outside the Sanctuary. Effect. Misery (Alternation)]]
+[[anchor: Psalms 77:1-20]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 75]]
+
+B1 |  |
+  W | 1-6 | Occupation with self.
+    X | 7-9 | Its sure result. Misery.
+  W | 10-12 | Occupation with God.
+    X | 13-20 | Its sure result. Happiness.
+
+[[diagram: 77. 13-20 (X, p. 794). The Sure Result. Happiness (Introversions and Alternation)]]
+[[anchor: Psalms 77:13-20]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 76]]
+
+X |  |
+  Y |  |
+    i | 13 | God's way in the Sanctuary.
+      k | 14, 15 | His people. Redeemed. Jacob and Joseph.
+        Z |  |
+          l | 16 | The waters beneath. (Fear and trouble.)
+            m | 17 | The heavens. (Clouds and skies.)
+        Z |  |
+            m | 18- | The heavens. (Thunder and lightning.)
+          l | -18 | The earth beneath. (Trembling and shaking.)
+  Y |  |
+    i | 19 | God's way in the sea.
+      k | 20 | His People. Led by Moses and Aaron.
+
+[[diagram: 78 (B2, p. 789). Outside the Sanctuary (Introversion and Extended Alternation)]]
+[[anchor: Psalms 78:1-72]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 77]]
+
+B2 |  |
+  A | 1-7 | Mosaic Institution. Giving of the Law.
+    B |  |
+      D | 8 | Provocation. General.
+        E | 9 | Turning back.
+          F | 10, 11 | Forgetfulness.
+            G | 12 | Wonders in Egypt and Zoan.
+              H | 13-16 | "Led" with mercies in wilderness.
+                J | 17-20 | Provocation in wilderness.
+                  K | 21 | Wrath in wilderness.
+                    C | 22-33 | Unbelief in spite of wrath.
+                    C | 34-39 | Insincerity in spite of mercies.
+    B |  |
+      D | 40 | Provocation. General.
+        E | 41 | Turning back.
+          F | 42 | Forgetfulness.
+            G | 43-51 | Wonders in Egypt and Zoan.
+              H | 52-55 | "Led forth" from Egypt to wilderness.
+                J | 56-58 | Provocation in the land.
+                  K | 59-64 | Wrath in the land.
+  A | 65-72 | Davidic Institution. Giving of Temple and monarchy.
+
+[[diagram: 78. 1-7 (A, above). Mosaic Institution (Extended Alternation)]]
+[[anchor: Psalms 78:1-7]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 77]]
+
+A |  |
+  N |  |
+    r | 1, 2 | The Law.
+      s | 3 | Taught us by our fathers.
+        t | 4 | To be taught by us.
+  N |  |
+    r | 5- | The Law.
+      s | -5 | Taught us by our fathers.
+        t | 6, 7 | To be taught by us.
+
+[[diagram: 78. 22-33 (C, above). Unbelief in Spite of Wrath (Repeated Alternation)]]
+[[anchor: Psalms 78:22-33]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 77]]
+
+C |  |
+  l1 | 22 | Israel. Sin. Unbelief.
+    m1 | 23-28 | Jehovah. Mercies.
+  l2 | 29, 30- | Israel. Sin. Lust.
+    m2 | -30, 31 | Jehovah. Wrath.
+  l3 | 32 | Israel. Sin. Unbelief.
+    m3 | 33 | Jehovah. Wrath.
+
+[[diagram: 78. 34-39 (C, p. 796). Insincerity in Spite of Mercies (Introversion and Alternations)]]
+[[anchor: Psalms 78:34-39]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 78]]
+
+C |  |
+  L |  |
+    n | 34 | Repentance of Israel.
+      o | 35 | Remembrance of Israel.
+        M |  |
+          p | 36- | Mouth.
+            q | -36 | Lied.
+[[group: Positive.]]
+        M |  |
+          p | 37- | Heart.
+            q | -37 | Unsteadfast.
+[[group: Negative.]]
+  L |  |
+    n | 38 | Repentance of Jehovah.
+      o | 39 | Remembrance of Jehovah.
+
+[[diagram: 79 (C, p. 789). The Enemy in the Sanctuary (cp. Ps. 74) (Introversion and Extended Alternation)]]
+[[anchor: Psalms 79:1-13]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 79]]
+
+C |  |
+  N | 1-3 | Complaint.
+    O | 4 | Our neighbours. Reproach.
+      P |  |
+        r | 5 | Question.
+          s | 6, 7 | Prayer against nations.
+            t | 8, 9 | Prayer for selves.
+      P |  |
+        r | 10- | Question.
+          s | -10 | Prayer against nations.
+            t | 11 | Prayer for selves.
+    O | 12 | Our neighbours. Reproach.
+  N | 13 | Praise.
+
+[[diagram: 80 (D1, p. 789). God in the Sanctuary (cp. Ps. 75) (Repeated Alternation)]]
+[[anchor: Psalms 80:1-19]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 80]]
+
+D1 |  |
+  Q1 | 1-3 | Prayer. Turn us. Shine.
+    R1 | 4-6 | Representation. The People.
+  Q2 | 7 | Prayer. Turn us. Shine.
+    R2 | 8-13 | Representation. The Vine.
+  Q3 | 14, 15 | Prayer. Turn Thou.
+    R3 | 16 | Representation. Vine and People.
+  Q4 | 17-19 | Prayer. Turn us. Shine.
+
+[[diagram: 81 (D2, p. 789). God in the Sanctuary (Division)]]
+[[anchor: Psalms 81:1-16]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 81]]
+
+D2 |  |
+  S1 | 1-10 | Israel. God's call to praise and hearken.
+  S2 | 11-16 | Israel. Refusal and consequence.
+
+[[diagram: 81. 1-10 (S1, above). Israel. God's Call to Praise and Hearken (Extended Alternation)]]
+[[anchor: Psalms 81:1-10]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 81]]
+
+S1 |  |
+  T | 1-3 | Call to praise. (Positive.)
+    U | 4-6 | Deliverance from Egypt. Reason.
+      V |  |
+        u | 7- | Israel. Prayer.
+          v | -7 | God's answer.
+  T | 8, 9 | Call to hear. (Negative.)
+    U | 10- | Deliverance from Egypt. Reason.
+      V |  |
+        u | -10- | Israel. Command.
+          v | -10 | God's promise.
+
+[[diagram: 81. 11-16 (S2, p. 800). Israel. Refusal, and Consequences (Alternation)]]
+[[anchor: Psalms 81:11-16]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 82]]
+
+S2 |  |
+  W | 11 | Refusal to hear.
+    X | 12 | Consequence. The worst possible.
+  W | 13 | If they had heard.
+    X | 14-16 | Consequence. The most blessed.
+
+[[diagram: 82 (D3, p. 789). God in the Sanctuary (Introversion)]]
+[[anchor: Psalms 82:1-8]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 82]]
+
+D3 |  |
+  Y | 1 | God, the righteous Judge.
+    Z | 2-4 | Earthly judges indicted.
+      A | 5- | Their wrong judgment. (Negative.)
+      A | -5 | Their wrong judgment. (Positive.)
+    Z | 6, 7 | Earthly judges condemned.
+  Y | 8 | God, the righteous Judge.
+
+[[diagram: 83 (E, p. 789). Destruction of the Enemies of the Sanctuary (Introversions)]]
+[[anchor: Psalms 83:1-18]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 83]]
+
+E |  |
+  B | 1 | Appeal against enemies.
+    C |  |
+      y1 | 2, 3 | Their combination. "For".
+        z1 | 4 | Their words.
+      y2 | 5-8 | Their combination. "For".
+    C |  |
+      y3 | 9-11 | Enemies. Their punishment.
+        z2 | 12 | Their words.
+      y4 | 13-15 | Enemies. Their punishment.
+  B | 16-18 | Appeal against enemies.
+
+[[diagram: 84 (F1, p. 789). The Blessedness of Its Worshippers (Introversion and Alternation)]]
+[[anchor: Psalms 84:1-12]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 84]]
+
+F1 |  |
+  D |  |
+    F | 1-4 | Blessedness of dwellers.
+      G | 5-7 | Blessedness of approachers.
+        E | 8 | Prayer.
+        E | 9 | Prayer.
+  D |  |
+    F | 10 | Blessedness of dwellers. "For". (Reason of F.)
+      G | 11, 12 | Blessedness of approachers. "For". (Reason of G.)
+
+[[diagram: 84. 1-4 (F, above). Blessedness of Its Dwellers (Introversion)]]
+[[anchor: Psalms 84:1-4]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 84]]
+
+F |  |
+  a | 1 | "Thy tabernacles".
+    b | 2 | Desire for the courts of Jehovah.
+      c | 3- | As the sparrow.
+      c | -3- | As the swallow.
+    b | -3 | Desire for the altars of Jehovah.
+  a | 4 | "Thy house".
+
+[[diagram: 84. 5-7 (G, above). Blessedness of Approachers (Introversion)]]
+[[anchor: Psalms 84:5-7]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 84]]
+
+G |  |
+  d | 5- | Blessed is the man whose strength is in Thee. (Singular.)
+    e | -5 | [They] in whose heart are [Thy] ways. (Plural.)
+      f | 6- | Those passing through the valley of the weeping, make it a place of springs.
+      f | -6 | The early rain filleth its pools.
+[[group: The Valley.]]
+    e | 7- | They go from strength to strength. (Plural.)
+  d | -7 | He (the "man" of v. 5, d) appeareth before God in Zion. (Singular.)
+
+[[diagram: 85 (F2, p. 789). Prayer for the Land of the Sanctuary (Introversion and Alternation)]]
+[[anchor: Psalms 85:1-13]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 85]]
+
+F2 |  |
+  H | 1-3 | Mercies to the Land.
+    J |  |
+      g | 4 | Prayer.
+        h | 5, 6 | Questions.
+    J |  |
+      g | 7 | Prayer.
+        h | 8 | Answer.
+  H | 9-13 | Mercies to the Land.
+
+[[diagram: 86 (G1, p. 789). Prayer in the Sanctuary. Messiah's Humiliation. The Secret of the Blessing (Introversion and Alternation)]]
+[[anchor: Psalms 86:1-17]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 85]]
+
+G1 |  |
+  K | 1-6 | Prayer.
+    L |  |
+      i | 7- | "I will call".
+        k | -7 | Reason. "For".
+          M | 8- | Jehovah incomparable.
+          M | -8 | His works incomparable.
+    L |  |
+      i | 9 | "All nations shall worship".
+        k | 10 | Reason. "For
+  K | 11-17 | Prayer.
+
+[[diagram: 86. 11-17 (K, p. 804). Prayer (Introversion)]]
+[[anchor: Psalms 86:11-17]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 86]]
+
+K |  |
+  l | 11, 12 | Prayer, and consequence.
+    m | 13 | Plea. Goodness of God.
+      n | 14- | Man's wickedness. Man-ward.
+      n | -14 | Man's wickedness. God-ward.
+    m | 15 | Pleas. Goodness of God.
+  l | 16, 17 | Prayer, and object.
+
+[[diagram: 87 (F2, p. 789). The Blessedness of the Dwellers in Zion (Repeated Alternations)]]
+[[anchor: Psalms 87:1-7]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 86]]
+
+F2 |  |
+  N1 | 1, 2 | Other dwellings spoken of.
+    O1 | 3 | Zion spoken to.
+  N2 | 4 | Other nations spoken of.
+    O2 | 5 | Zion spoken to.
+  N3 | 6 | Other peoples spoken of.
+    O3 | 7 | Zion spoken to.
+
+[[diagram: 88 (G2, p. 789). Instruction. Messiah's Humiliation, the Secret Source of the Blessing (Alternation)]]
+[[anchor: Psalms 88:1-18]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 87]]
+
+G2 |  |
+  P | 1, 2 | Prayer.
+    Q |  |
+      R | 3-6 | Dissolution near.
+        S | 7 | Wrath. Waves.
+          T | 8, 9- | Desolation.
+  P | -9-14 | Prayer.
+    Q |  |
+      R | 15 | Dissolution near.
+        S | 16, 17 | Wrath. Waves.
+          T | 18 | Desolation.
+
+[[diagram: 88. -9-14 (P, above). Prayer (Alternation)]]
+[[anchor: Psalms 88:9-14]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 87]]
+
+P |  |
+  o | -9 | Declaratory.
+    p | 10-12 | Interrogatory.
+  o | 13 | Declaratory.
+    p | 14 | Interrogatory.
+
+[[diagram: 89 (F3, p. 789). Instruction as to Blessing in the Sanctuary (Introversion and Alternation)]]
+[[anchor: Psalms 89:1-52]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 87]]
+
+F3 |  |
+  U | 1 | Eternal praises.
+    V |  |
+      W | 2-4 | Ethan reminds Jehovah of His covenant with David.
+        X | 5-18 | Ethan praises Jehovah's faithfulness.
+    V |  |
+      W | 19-37 | Ethan reminds Jehovah of His covenant with David.
+        X | 38-51 | Ethan deplores Jehovah's visitation.
+  U | 52 | Eternal praises.
+
+[[diagram: 89. 5-18 (X, p. 806). Praise for Jehovah's Faithfulness (Alternation)]]
+[[anchor: Psalms 89:5-18]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 88]]
+
+X |  |
+  q | 5 | Jehovah addressed.
+    r | 6, 7 | Reason. "For".
+  q | 8-17 | Jehovah addressed.
+    r | 18 | Reason. "For".
+
+[[diagram: 89. 19-37 (W, p. 806). Ethan Reminds Jehovah of His Covenant with David (Extended Alternation)]]
+[[anchor: Psalms 89:19-37]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 88]]
+
+W |  |
+  s | 19-27 | David. "Faithfulness" (v. 2).
+    t | 28 | Covenant (v. 3).
+      u | 29-32 | Seed (v. 4).
+  s | 33 | David. "Faithfulness (v. 2).
+    t | 34, 35 | Covenant (v. 3).
+      u | 36, 37 | Seed (v. 4).
+
+[[diagram: 89. 38-51 (X, p. 806). Ethan Deplores the Divine Visitation (Division)]]
+[[anchor: Psalms 89:38-51]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 89]]
+
+X |  |
+  Y1 | 38-45 | Visitation.
+  Y2 | 46-51 | Expostulation.
+
+[[diagram: 89. 38-45 (Y1, above). Visitation (Introversion)]]
+[[anchor: Psalms 89:38-45]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 89]]
+
+Y1 |  |
+  v | 38 | Rejection.
+    w | 39 | Degradation.
+      x | 40 | Desolation.
+        y | 41 | Enemies. Spoil.
+        y | 42 | Enemies. Rejoice.
+      x | 43 | Desolation.
+    w | 44 | Degradation.
+  v | 45 | Rejection.
+
+[[diagram: 89. 46-51 (Y2, above). Expostulation (Alternation)]]
+[[anchor: Psalms 89:46-51]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 89]]
+
+Y2 |  |
+  z | 46 | Complaint.
+    a | 47, 48 | "Remember". Frailty.
+  z | 49 | Complaint.
+    a | 50, 51 | "Remember". Reproach.
+
+[[diagram: 90—106 (B2, p. 720). The Fourth, or Numbers Book. The Earth and the Nations (Division, with Prologue and Epilogue)]]
+[[anchor: Psalms 90:1]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 91]]
+
+B2 |  |
+  Prologue |  | 90. THE REST. LOST, AND NEEDED.
+  A1 |  | 91—94. REST FOR THE EARTH DESIRED. NO HOPE FOR IT TILL "THE WICKED CEASE FROM TROUBLING".
+  A2 |  | 95—100. REST FOR THE EARTH ANTICIPATED. NOTE THE CENTRAL VERSE OF THE PSALTER (96. 11) AND THE REASON (96. 13).
+  A3 |  | 101—105. REST FOR THE EARTH CELEBRATED. JEHOVAH'S THRONE IN THE HEAVENS, AND HIS KINGDOM OVER ALL (103. 19).
+  Epilogue |  | 106. THE REST. HOW LOST, AND VALUED.
+
+[[diagram: 91—94 (A1, above). Rest for the Earth Desired (Alternation)]]
+[[anchor: Psalms 91:1]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 91]]
+
+A1 |  |
+  B |  | 91. REST, ONLY IN JEHOVAH IN A PERISHING WORLD; AND, THE SECRET PLACE OF THE MOST HIGH THE ONLY PLACE OF SAFETY IN IT.
+    C |  | 92. PRAYER FOR THAT "SABBATH-KEEPING" (YET TO COME, Heb. 4. 9) WHEN ALL "WORKERS OF INIQUITY" SHALL BE CUT OFF (vv. 7, 9), AND THE RIGHTEOUS SHALL FLOURISH (v. 12) IN JEHOVAH THEIR "ROCK" AND "DEFENCE" (v. 15).
+  B |  | 93. REST, ONLY IN JEHOVAH. HIS THRONE WHEN ESTABLISHED WILL BE THE PLACE OF SAFETY. (See note on 93. 5.)
+    C |  | 94. PRAYER FOR REST, TO JEHOVAH, "THE JUDGE OF THE EARTH", TO CUT OFF ALL "WORKERS OF INIQUITY" (vv. 4, 16, 23), AND TO GIVE THE RIGHTEOUS REST (vv. 13-15) IN JEHOVAH, THEIR "ROCK" AND "DEFENCE" (v. 22).
+
+[[diagram: 95—100 (A2, above). Rest for the Earth Anticipated (Introversion and Alternation)]]
+[[anchor: Psalms 95:1]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 91]]
+
+A2 |  |
+  D |  | 95. WORSHIP, IN VIEW OF REST ANTICIPATED. HIS "PEOPLE" AND "SHEEP" (v. 7) TO "COME BEFORE HIS PRESENCE WITH THANKSGIVING" (v. 2). REASON: "JEHOVAH IS GREAT" (v. 3).
+    E |  |
+      F |  | 96. A SUMMONS TO SING THE "NEW SONG". "FOR HE COMETH" (JUDGMENT).
+        G |  | 97. THE NEW SONG. "JEHOVAH REIGNETH"
+    E |  |
+      F |  | 98. A SUMMONS TO SING THE "NEW SONG". "FOR HE COMETH" (JUDGMENT).
+        G |  | 99. THE NEW SONG. "JEHOVAH REIGNETH".
+  D |  | 100. WORSHIP, IN VIEW OF REST ANTICIPATED. HIS "PEOPLE" AND "SHEEP" (v. 3), TO "COME BEFORE HIS PRESENCE WITH SINGING" (v. 2). REASON: "JEHOVAH IS GOOD" (v. 5).
+
+[[diagram: 101—105 (A3, above). Rest for the Earth Celebrated (Alternation)]]
+[[anchor: Psalms 101:1]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 91]]
+
+A3 |  |
+  H1 |  | 101. THE COMING KINGDOM. ITS PRINCIPLES: "MERCY AND JUDGMENT" (v. 1). THE WICKED CUT OFF (vv. 5, 8).
+    J1 |  | 102. THE KING IN HIS HUMILIATION AND COMING GLORY AS THE ETERNAL CREATOR (vv. 12, 24-27). ALL ELSE PERISHING (v. 26).
+  H2 |  | 103. THE COMING KINGDOM. ITS MERCIES AND JUDGMENTS (vv. 4, 6, 17, 19).
+    J2 |  | 104. THE KING IN HIS COMING GLORY AS THE ETERNAL CREATOR (v. 31). ALL ELSE PERISHING (vv. 27-29).
+  H3 |  | 105. THE COMING KINGDOM. BASED ON THE COVENANT (vv. 8-12; 42-45-) OF "MERCY AND JUDGMENT" (vv. 5-7).
+
+[[diagram: 90 (p. 810). Prologue. Rest. Lost, and Needed (Division)]]
+[[anchor: Psalms 90:1-17]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 92]]
+
+B |  |
+  A1 | 1, 2 | The eternity of Jehovah-El.
+  A2 | 3-11 | The frailty of man.
+  A3 | 12-17 | The application of both.
+
+[[diagram: 90. 1, 2 (A1, above). The Eternity of Jehovah-El (Introversion)]]
+[[anchor: Psalms 90:1-2]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 92]]
+
+A1 |  |
+  a | 1- | Jehovah our dwelling-place.
+    b | -1 | In time.
+      c | 2- | Before the mountains.
+      c | -2- | Before the earth and the world.
+    b | -2- | In eternity.
+  a | -2 | Thou art El.
+
+[[diagram: 90. 3-11 (A2, above). The Frailty of Man (Repeated Alternation)]]
+[[anchor: Psalms 90:3-11]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 92]]
+
+A2 |  |
+  d1 | 3 | Declaration.
+    e1 | 4 | Reason. "For".
+  d2 | 5, 6 | Declaration.
+    e2 | 7 | Reason. "For".
+  d3 | 8 | Declaration.
+    e3 | 9 | Reason. "For".
+  d4 | 10- | Declaration.
+    e4 | -10 | Reason. "For".
+  d5 | 11 | Declaration.
+
+[[diagram: 90. 12-17 (A3, p. 811). The Application (Repeated Alternation)]]
+[[anchor: Psalms 90:12-17]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 93]]
+
+A3 |  |
+  f1 | 12 | Us. Our days. Numeration.
+    g1 | 13 | Thy servants. Favour.
+  f2 | 14, 15 | Us. Our days. Exhilaration.
+    g2 | 16 | Thy servants. Favour.
+  f3 | 17 | Us. Our works. Establishment.
+
+[[diagram: 91 (B, p. 810). Rest Provided in, and for Messiah (Alternations)]]
+[[anchor: Psalms 91:1-16]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 93]]
+
+B2 |  |
+  B1 | 1 | Address re the dweller. "He" (the Spirit speaks).
+    C1 | 2 | His response. "My" (Messiah speaks).
+  B2 | 3-8 | Address to dweller. "Thee" (the Spirit speaks).
+    C2 | 9- | His response. "My" (Messiah speaks).
+  B3 | -9-13 | Address to dweller. "Thee" (the Spirit speaks).
+    C3 | 14-16 | Jehovah's response. "I".
+
+[[diagram: 92 (C, p. 810). Prayer and Praise for Sabbath Rest (Introversion and Alternations)]]
+[[anchor: Psalms 92:1-15]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 94]]
+
+C |  |
+  D |  |
+    j | 1-3 | The praise of Jehovah.
+      k | 4 | What He is to me.
+        l | 5 | His attributes. Greatness.
+          E |  |
+            m | 6 | A wicked individual. (Sing.)
+              n | 7, 8 | The wicked. (Plural.)
+                F |  |
+                  o | 9- | Thine enemies.
+                    p | -9 | Workers of iniquity.
+                      G | 10- | Favour to me. (Future.)
+                      G | -10 | Favour to me. (Past.)
+                F |  |
+                  o | 11- | Mine enemies.
+                    p | -11 | Doers of evil.
+          E |  |
+            m | 12 | A righteous individual. (Sing.)
+              n | 13, 14 | The righteous. (Plural.)
+  D |  |
+    j | 15- | The praise of Jehovah.
+      k | 15- | What He is to me.
+        l | -15 | His attributes. Righteousness.
+
+[[diagram: 93 (B, p. 810). The Rest Desired (Introversion)]]
+[[anchor: Psalms 93:1-5]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 94]]
+
+B |  |
+  H | 1, 2 | Attributes of Jehovah.
+    J | 3 | The floods. High.
+    J | 4 | Jehovah. Higher.
+  H | 5 | Attributes of Jehovah.
+
+[[diagram: 94 (C, p. 810). Prayer for Rest for the Earth (Repeated Alternation)]]
+[[anchor: Psalms 94:1-23]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 95]]
+
+C |  |
+  K1 | 1-7 | Address to Jehovah.
+    L1 | 8-11 | Declaration concerning Him.
+  K2 | 12, 13 | Address to Jehovah.
+    L2 | 14-17 | Declaration concerning Him.
+  K3 | 18-21 | Address to Jehovah.
+    L3 | 22, 23 | Declaration concerning Him.
+
+[[diagram: 95 (D, p. 810). Worship in View of Rest Anticipated (Introversion and Alternation)]]
+[[anchor: Psalms 95:1-11]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 95]]
+
+D |  |
+  M1 | 1-7- | Rest to be found in true worship. People speak.
+  M2 | -7-11 | Rest lost through unbelief. God speaks.
+
+[[diagram: 95. 1-7- (M1, above). Rest to Be Found in True Worship (Introversion and Alternation)]]
+[[anchor: Psalms 95:1-7]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 95]]
+
+M1 |  |
+  N |  |
+    q | 1, 2 | Exhortation to praise.
+      r | 3 | Reason. "For".
+        O | 4 | The earth is His.
+          P | 5- | The sea is His.
+          P | -5- | He made the sea.
+        O | -5 | He formed the earth.
+  N |  |
+    q | 6 | Exhortation to praise.
+      r | 7- | Reason. "For".
+
+[[diagram: 95. -7-11 (M2, p. 814). Rest Lost Through Unbelief (Alternation)]]
+[[anchor: Psalms 95:7-11]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 96]]
+
+M2 |  |
+  Q | -7, 8 | Time. "To-day".
+    R | 9 | Sin. Committal. Place ('asher = where).
+  Q | 10 | Time. "Forty years".
+    R | 11 | Sin. Punishment. Place ('asher = where.)
+
+[[diagram: 96 (F, p. 810). Summons to Sing the New Song (Alternation)]]
+[[anchor: Psalms 96:1-13]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 96]]
+
+F |  |
+  S | 1-3 | Exhortation to sing the New Song.
+    T | 4-6 | Reasons. "For".
+  S | 7-13- | Exhortation to sing the New Song.
+    T | -13 | Reasons. "For".
+
+[[diagram: 97 (G, p. 810). The New Song (Introversion and Alternations)]]
+[[anchor: Psalms 97:1-12]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 97]]
+
+G |  |
+  U |  |
+    s | 1- | Jehovah reigneth.
+      t | -1 | Joy and gladness.
+        V |  |
+          u | 2- | Clouds, &c.
+            v | -2- | Righteousness.
+              w | -2 | Judgment.
+        V |  |
+          u | 3-5 | Lightnings, &c.
+            v | 6, 7 | Righteousness.
+              w | 8 | Judgment.
+  U |  |
+    s | 9, 10 | Jehovah reigneth.
+      t | 11, 12 | Joy and gladness.
+
+[[diagram: 98 (F, p. 810). Summons to Sing the New Song (Alternation)]]
+[[anchor: Psalms 98:1-9]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 97]]
+
+F |  |
+  W | 1- | Exhortation to praise.
+    X | -1-3 | Reason. "For".
+  W | 4-9- | Exhortation to praise.
+    X | -9 | Reasons. "For".
+
+[[diagram: 99 (G, p. 810). The New Song (Alternations)]]
+[[anchor: Psalms 99:1-9]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 98]]
+
+G |  |
+  Y |  |
+    x | 1-4- | Of Jehovah.
+      y | -4 | To Jehovah.
+[[group: Motives.]]
+        Z | 5 | Exalt ye, &c.
+[[group: -]]
+  Y |  |
+    x | 6, 7 | Of Jehovah.
+      y | 8 | To Jehovah.
+[[group: Examples.]]
+        Z | 9 | Exalt ye, &c.
+[[group: -]]
+
+[[diagram: 100 (D, p. 810). Worship, in View of Rest Anticipated (Alternation and Introversion)]]
+[[anchor: Psalms 100:1-5]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 98]]
+
+D |  |
+  A |  |
+    a | 1, 2- | Exhortation to worship.
+      b | -2 | Entrance into His presence.
+        B | 3 | What Jehovah is. (Three declarations.)
+  A |  |
+      b | 4- | Entrance into His presence.
+    a | -4 | Exhortation to worship.
+      B | 5 | What Jehovah is. (Three declarations.)
+
+[[diagram: 101 (H1, p. 810). The Coming King and His Rule (Alternation)]]
+[[anchor: Psalms 101:1-8]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 99]]
+
+H1 |  |
+  C | 1, 2 | I. My. "The perfect way". "Mercy".
+    D | 3-5 | Them that "turn aside" "cut off". "Judgment".
+  C | 6 | I. Me, mine. "Perfect way". "Mercy".
+    D | 7, 8 | He that "worketh deceit" "cut off". "Judgment".
+
+[[diagram: 102 (J1, p. 810). The King, in His Humiliation (Extended Alternation and Introversion)]]
+[[anchor: Psalms 102:1-28]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 99]]
+
+J1 |  |
+  E |  |
+    c | 1, 2 | Prayer.
+      d | 3-11 | Humiliation. "Days cut short".
+        F | 12 | Jehovah everlasting.
+          G | 13-22 | Favour to His People.
+  E |  |
+      d | 23 | Humiliation. "Days cut short".
+    c | 24- | Prayer.
+      F | -24-27 | Jehovah everlasting.
+        G | 28 | Favour to His People.
+
+[[diagram: 102. 13-22 (G, p. 818). Favour to His People (Introversion and Alternations)]]
+[[anchor: Psalms 102:13-22]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 100]]
+
+G |  |
+  H |  |
+    e | 13, 14 | Favour to Zion.
+      f | 15 | Favour to the nations.
+        J |  |
+          g | 16 | Jehovah's glory in Zion.
+            h | 17 | Jehovah's grace to the needy.
+              K | 18- | For a future People.
+              K | -18 | For a future People.
+        J |  |
+          g | 19 | Jehovah's glory in Zion.
+            h | 20 | Jehovah's grace to the needy.
+  H |  |
+    e | 21 | Favour to Zion.
+      f | 22 | Favour to the peoples.
+
+[[diagram: 103 (H2, p. 810). The Coming Kingdom (Introversion)]]
+[[anchor: Psalms 103:1-22]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 100]]
+
+H2 |  |
+  L | 1-5 | Exhortation to bless.
+    M | 6, 7 | Jehovah's kingdom. Israel.
+      N | 8 | Merciful goodness.
+        O | 9 | Sparing goodness. Time.
+          P | 10 | Pardoning goodness.
+          P | 11-13 | Pardoning goodness.
+        O | 14-16 | Sparing goodness. Time.
+      N | 17, 18 | Merciful goodness.
+    M | 19 | Jehovah's kingdom. Universal.
+  L | 20-22 | Exhortation to bless.
+
+[[diagram: 104 (J2, p. 810). The King in His Coming Power and Glory (Introversion and Repeated Alternation)]]
+[[anchor: Psalms 104:1-35]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 101]]
+
+J2 |  |
+  Q | 1- | Jehovah to be praised.
+    R |  |
+      S1 | -1, 2 | Thou.
+        T1 | 3-5 | He. Who. Day I. Earth.
+      S2 | 6-9 | Thou. Day II. Waters.
+[[group: -]]
+        T2 | 10-19 | He. Who.
+      S3 | 20- | Thou.
+        T3 | -20-23 | They.
+[[group: Day III, IV. Earth. Light.]]
+      S4 | 24-30 | Thou. Day V, VI. Water. Sun.
+        T4 | 31, 32 | He.
+  Q | 33-35 | Jehovah to be praised.
+
+[[diagram: 105 (H3, p. 810). The Coming Kingdom. As Based on the Past (Introversion and Alternations)]]
+[[anchor: Psalms 105:1-45]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 103]]
+
+H3 |  |
+  U | 1-7 | Exhortation to praise (2nd person pl.).
+    V | 8-12 | Basis of praise. The Covenant in promise.
+[[group: -]]
+      W |  |
+        i | 13 | Journeyings.
+          k | 14, 15 | Favour.
+            l | 16 | Affliction.
+              m | 17-22 | Mission of deliverance. Joseph.
+[[group: History of Patriarchs.]]
+      W |  |
+        i | 23 | Journeyings.
+          k | 24 | Favour.
+            l | 25 | Affliction.
+              m | 26-41 | Mission of deliverance. Moses and Aaron.
+[[group: History of Nation.]]
+    V | 42-45- | Basis of the praise. The Covenant in performance.
+  U | -45 | Exhortation to praise (2nd person pl.).
+
+[[diagram: 105. 8-12 (V, above); 42-45- (V, above). Covenant in Promise; Covenant in Performance (Extended Alternation)]]
+[[anchor: Psalms 105:8-45]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 103]]
+
+V, V |  |
+  V |  |
+    n | 8-10 | The Covenant remembered.
+      o | 11 | The Land given.
+        p | 12 | The People described.
+  V |  |
+    n | 42, 43 | The Covenant remembered.
+      o | 44 | The Land possessed.
+        p | 45- | The People described.
+
+[[diagram: 105. 17-22 (m, above); 26-41 (m, above). The Mission of Joseph; The Mission of Moses and Aaron (Extended Alternation)]]
+[[anchor: Psalms 105:17-41]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 103]]
+
+m, m |  |
+  m |  |
+    q | 17 | The sending of the Deliverer.
+      r | 18, 19 | Trial by the Word (Joseph).
+        s | 20-22 | The deliverance.
+  m |  |
+    q | 26 | The sending of the Deliverers.
+      r | 27-36 | Trial by the Word (Egypt's).
+        s | 37-41 | The deliverance.
+
+[[diagram: 106 (X, p. 810). Epilogue. Rest. How Lost, and Valued (Introversion and Alternation)]]
+[[anchor: Psalms 106:1-48]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 104]]
+
+X |  |
+  A | 1- | Hallelujah.
+    B | -1-3 | Exhortation to praise.
+      C | 4, 5 | Prayer.
+        D |  |
+          t1 | 6, 7 | Sin.
+            u1 | 8-12 | NEVERTHELESS.
+              E1 |  |
+                v1 | 13-16 | Sin.
+                  w1 | 17, 18 | Punishment.
+                v2 | 19-22 | Sin.
+                  w2 | 23- | Punishment.
+                    F1 | -23 | DELIVERANCE. Moses.
+              E2 |  |
+                v3 | 24, 25 | Sin.
+                  w3 | 26, 27 | Punishment.
+                v4 | 28, 29- | Sin.
+                  w4 | -29 | Punishment.
+                    F2 | 30, 31 | DELIVERANCE. Phinehas.
+              E3 |  |
+                v5 | 32- | Sin.
+                  w5 | -32, 33 | Punishment.
+                v6 | 34-39 | Sin.
+                  w6 | 40-42 | Punishment.
+                    F3 | 43- | DELIVERANCE. "He".
+        D |  |
+          t | -43 | Sin.
+            u | 44-46 | NEVERTHELESS.
+      C | 47 | Prayer.
+    B | 48- | Exhortation to praise.
+  A | -48 | Hallelujah.
+
+[[diagram: 107—150 (A2, p. 720). The Fifth, or Deuteronomy Book. God's Word the Only Good (Alternations and Introversion)]]
+[[anchor: Psalms 107:1]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 107]]
+
+A2 |  |
+  A1 |  | 107. DELIVERANCE BY THE HEALING WORD.
+    B1 |  |
+      C |  |
+        E |  | 108 (E1), 109 (E2), 110 (E3). THE TRUE DAVID'S HUMILIATION, DELIVERANCE, AND EXALTATION (108. 6).
+          F |  | 111 (F1), 112 (F2), 113 (F3). PRAISE. THREE HALLELUJAH PSALMS. THE FIRST TWO BEGINNING, AND THE THIRD, BOTH BEGINNING AND ENDING, WITH "HALLELUJAH". (Ps. 111 Being Praise for Jehovah's WORKS; 112, for His WAYS; and 113, for HIMSELF.)
+            D |  |
+              G1 |  | 114 (G1/1), 115 (G1/2). DELIVERANCE FROM EGYPT, AND EGYPT'S IDOLS.
+                H1 |  | 116 (H1/1), 117 (H1/2), 118 (H1/3). PRAISE. THREE PSALMS. THE FIRST TWO ENDING WITH "HALLELUJAH", AND THE THIRD BEGINNING AND ENDING WITH "O GIVE THANKS".
+  A2 |  | 119. QUICKENING AND SUSTAINING BY THE REVEALING WORD.
+    B2 |  |
+            D |  |
+              G2 |  | 120 (G2/1)—134 (G2/15). DELIVERANCE FROM SENNACHERIB TYPICAL OF ISRAEL'S FUTURE DELIVERANCE. Fifteen Psalms Arranged in Five Triads. (See Ap. 67.)
+                H2 |  | 135 (H2/1), 136 (H2/2). PRAISE. TWO PSALMS LINKED TOGETHER BY ONE COMBINED STRUCTURE.
+              G3 |  | 137. DELIVERANCE OF CAPTIVES. SENNACHERIB'S CAPTIVES (See notes)
+                H3 |  | 138. PRAISE.
+              G4 |  | 139. DELIVERANCE FROM AN EVIL HEART. (Compare Ezek 36. 26. Jer. 31. 33.)
+                H4 |  | 140 (H4/1)—144 (H4/5). PRAYER AND PRAISE.
+      C |  |
+        E |  | 145. THE TRUE DAVID LEADING THE PRAISES OF HIS PEOPLE (144. 9).
+          F |  | 146 (F1)—150 (F5). PRAISE. FIVE HALLELUJAH PSALMS, EACH BEGINNING AND ENDING WITH "HALLELUJAH".
+
+[[diagram: 146—150 (F, p. 826). The Last Five Hallelujah Psalms]]
+[[anchor: Psalms 107:1]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 108]]
+
+F |  |
+  J |  | 146. GENESIS. Compare v. 4 with Gen. 2. 7; v. 5 with Gen. 28; v. 6 with Gen 1.
+    K |  | 147. EXODUS. Compare v. 4 ("names") with Ex. 1. 1; vv. 2, 20 with the building up of the nation (Ex. 1. 7-20); and vv. 15, 19 with Ex. 20.
+      L |  | 148. LEVITICUS. Compare v. 14 ("a People near unto Him") with Lev. 10. 3.
+    K |  | 149. NUMBERS. Compare vv. 5-9 with Num. 14. 21; 24. 17-24. The nations ruled and blessed by the Saints.
+  J |  | 150. DEUTERONOMY. Compare v. 2 with Deut. 3. 24.
+
+[[diagram: 107 (A1, p. 826). The Delivering and Healing, or Living Word (Introversion)]]
+[[anchor: Psalms 107:1-43]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 109]]
+
+A1 |  |
+  A | 1-3 | Praise for Jehovah's lovingkindness.
+    B | 4-32 | Distress and Deliverance.
+    B | 33-41 | Judgment and Blessing.
+  A | 42, 43 | Praise for Jehovah's lovingkindness.
+
+[[diagram: 107. 4-32 (B, above). Distress and Deliverance (Repeated and Extended Alternation)]]
+[[anchor: Psalms 107:4-32]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 109]]
+
+B |  |
+  C1 |  |
+    a1 | 4, 5 | Trouble. Wanderers. (Wilderness.)
+      b1 | 6- | Cry.
+        c1 | -6, 7 | Deliverance.
+          d1 | 8, 9 | Praise, and Reason.
+  C2 |  |
+    a2 | 10-12 | Trouble. Rebels.
+      b2 | 13- | Cry.
+        c2 | -13, 14 | Deliverance.
+          d2 | 15, 16 | Praise, and Reason.
+  C3 |  |
+    a3 | 17, 18 | Trouble. Fools.
+      b3 | 19- | Cry.
+        c3 | -19, 20 | Deliverance.
+          d3 | 21, 22 | Praise, and Injunction.
+  C4 |  |
+    a4 | 23-27 | Trouble. Wanderers on Deep.
+      b4 | 28- | Cry.
+        c4 | -28-30 | Deliverance.
+          d4 | 31, 32 | Praise, and Injunction.
+
+[[diagram: 107. 33-41 (B, p. 828). Judgment and Blessing (Alternation)]]
+[[anchor: Psalms 107:33-41]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 110]]
+
+B |  |
+  e | 33, 34 | Judgment.
+    f | 35-38 | Lovingkindness.
+  e | 39, 40 | Judgment.
+    f | 41 | Lovingkindness.
+
+[[diagram: 108 (E1, p. 826). The True David's Deliverance (Alternations)]]
+[[anchor: Psalms 108:1-13]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 111]]
+
+E1 |  |
+  D | 1-6 | God spoken to. Prayer.
+[[group: -]]
+    E |  |
+      g | 7, 8 | Israel.
+        h | 9, 10 | Enemies.
+[[group: God spoken of.]]
+  D | 11, 12 | God spoken to. Prayer.
+[[group: -]]
+    E |  |
+      g | 13- | Israel.
+        h | -13 | Enemies.
+[[group: God spoken of.]]
+
+[[diagram: 109 (E2, p. 826). The True David's Humiliation and Deliverance (Extended Alternation)]]
+[[anchor: Psalms 109:1-31]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 111]]
+
+E2 |  |
+  F | 1-5 | Prayer for himself.
+    G | 6-15 | Enemies. Their cursing.
+      H | 16-20 | Reward of those who curse his soul.
+  F | 21-27 | Prayer for himself.
+    G | 28, 29 | Enemies. Their cursing.
+      H | 30, 31 | Deliverance from those who condemn his soul.
+
+[[diagram: 109. 21-27 (F, p. 830). Prayer for Himself (Introversion)]]
+[[anchor: Psalms 109:21-27]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 112]]
+
+F |  |
+  i | 21- | "Thou".
+    k | -21 | "Thy mercy".
+      l | 22- | My humiliation.
+        m | -22 | My heart wounded.
+          n | 23- | Comparison to a shadow.
+          n | -23 | Comparison to a locust.
+        m | 24 | My body weakened.
+      l | 25 | My emaciation.
+    k | 26 | "Thy mercy".
+  i | 27 | "Thou".
+
+[[diagram: 110 (E3, p. 826). The True David's Exaltation (Extended Alternation)]]
+[[anchor: Psalms 110:1-7]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 113]]
+
+E3 |  |
+  J | 1 | What Jehovah has uttered.
+    K | 2- | What He will do.
+      L | -2 | Messiah's enemies.
+        M | 3 | Refreshment. Dew.
+  J | 4 | What Jehovah has uttered.
+    K | 5 | What He will do.
+      L | 6 | Messiah's enemies.
+        M | 7 | Refreshment. Brook.
+
+[[diagram: 111 (F1, p. 826). Praise for Jehovah's Works (Introversion and Alternation)]]
+[[anchor: Psalms 111:1-10]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 113]]
+
+F1 |  |
+  N | 1 | Praise to Jehovah.
+    O |  |
+      P | 2-4 | For His works.
+        Q | 5, 6 | His bounty, and objects of it.
+    O |  |
+      P | 7, 8 | For His works.
+        Q | 9, 10- | His bounty, and objects of it.
+  N | -10 | Praise to Jehovah.
+
+[[diagram: 112 (F2, p. 826). Praise for Jehovah's Ways (Alternation and Introversion)]]
+[[anchor: Psalms 112:1-10]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 114]]
+
+F2 |  |
+  R |  |
+    o | -1-3- | Happiness.
+      p | -3, 4- | Righteousness.
+        q | -4, 5 | Goodness.
+          S | 6-8 | Shall stand.
+  R |  |
+        q | 9- | Goodness.
+      p | -9- | Righteousness.
+    o | -9 | Happiness.
+      S | 10 | Shall fall.
+
+[[diagram: 113 (F3, p. 826). Praise to Jehovah Himself (Introversion)]]
+[[anchor: Psalms 113:1-9]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 114]]
+
+F3 |  |
+  T | 1- | HALLELUJAH.
+    U | -1- | Praise Jehovah.
+      V | -1 | Praise His Name.
+[[group: Command given.]]
+      V | 2, 3 | Bless His Name.
+    U | 4-9- | Praise Jehovah.
+[[group: Command obeyed.]]
+  T | -9 | HALLELUJAH.
+
+[[diagram: 114 (G1/1, p. 826). Israel's Deliverance from Egypt (Introversion and Alternation)]]
+[[anchor: Psalms 114:1-8]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 115]]
+
+G1/1 |  |
+  W | 1, 2 | God's mercies to Jacob.
+[[group: -]]
+    X |  |
+      r | 3 | By water.
+        s | 4 | On land.
+[[group: Statements.]]
+    X |  |
+      r | 5 | Water.
+        s | 6 | Land.
+[[group: Questions.]]
+  W | 7, 8 | God's mercies to Jacob.
+
+[[diagram: 115 (G1/2, p. 826). Israel's Deliverance from Egypt's Idolatry (Introversion and Alternations)]]
+[[anchor: Psalms 115:1-18]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 115]]
+
+G1/2 |  |
+  Y |  |
+    t | 1- | Negative.
+      u | -1 | Positive.
+[[group: The praise given.]]
+        Z |  |
+          v | 2 | Heathen theology.
+            w | 3 | Israelitish.
+        Z |  |
+          v | 4-8 | Heathen theology.
+            w | 9-16 | Israelitish.
+[[group: -]]
+  Y |  |
+    t | 17 | Negative.
+      u | 18 | Positive.
+[[group: The praise-givers.]]
+
+[[diagram: 115. 4-8 (v, above). Heathen Theology (Introversion)]]
+[[anchor: Psalms 115:4-8]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 115]]
+
+v |  |
+  x | 4- | The idols.
+    y | -4 | Their fabrication.
+      z | 5- | Mouth without speech. (Sing.)
+        a | -5 | Eyes without sight. (Pl.)
+          b | 6- | Ears without hearing. (Pl.)
+            c | -6 | Nose without smell. (Sing.)
+          b | 7- | Hands without handling. (Pl.)
+        a | -7- | Feet without walking. (Pl.)
+      z | -7 | Throat without voice. (Sing.)
+    y | 8- | The fabricators.
+  x | -8 | The idolaters.
+
+[[diagram: 116 (H1, p. 826). Praise for Deliverance (Extended Alternation)]]
+[[anchor: Psalms 116:1-19]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 116]]
+
+H1/1 |  |
+  A1 | 1, 2 | Resolve to praise.
+    B | 3 | Afflictions.
+      C |  |
+        E | 4- | Promise.
+          F |  |
+            d | -4 | Prayer.
+              e | 5, 6- | The Lord's goodness to others.
+              D | -6 | His goodness to me.
+  A2 | 7-9 | Resolve to praise.
+    B | 10, 11 | Afflictions.
+      C |  |
+        E | 12-14 | Promise.
+          F |  |
+              e | 15 | The Lord's goodness to others.
+            d | 16- | Prayer.
+              D | -16 | His goodness to me.
+  A3 | 17-19 | Resolve to praise.
+
+[[diagram: 117 (H1/2, p. 826). Praise (Introversion)]]
+[[anchor: Psalms 117:1-2]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 117]]
+
+H1/2 |  |
+  G | 1 | Praise.
+[[group: -]]
+    H | 2- | His lovingkindness.
+    H | -2- | His truth.
+[[group: Motives.]]
+  G | -2 | Praise.
+
+[[diagram: 118 (H1/3, p. 826). Praise (Introversions and Alternations)]]
+[[anchor: Psalms 118:1-29]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 117]]
+
+H1/3 |  |
+  J | 1-4 | O give thanks.
+    K1 |  |
+      L1 | 5 | Acknowledgment. My deliverer.
+[[group: -]]
+        M1 |  |
+          e | 6, 7 | Help.
+            f | 8, 9 | Trust.
+            f | 10-12 | Trust.
+          e | 13 | Help.
+[[group: Trust.]]
+    K2 |  |
+      L2 | 14 | Acknowledgment. My strength.
+[[group: -]]
+        M2 |  |
+          g | 15- | Tents of the righteous.
+            h | -15, 16 | Cause. Hand.
+            h | 17, 18 | Effect. Life.
+          g | 19, 20 | Gates of righteousness.
+[[group: Help.]]
+    K3 |  |
+      L3 | 21 | Acknowledgment. My salvation.
+[[group: -]]
+        M3 |  |
+          i | 22-24 | Messiah. Matt. 21. 42.
+            k | 25- | Prayer.
+            k | -25 | Prayer.
+          i | 26-28 | Messiah. Matt. 21. 9.
+[[group: Triumph.]]
+  J | 29 | "O give thanks".
+
+[[diagram: 119. 1-8 (A2, p. 826). Quickening by the Written Word (א. Aleph, Extended Alternation)]]
+[[anchor: Psalms 119:1-8]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 118]]
+
+א |  |
+  N | 1 | The way.
+    O | 2 | Condition. Happy.
+      P | 3 | They, upright.
+        Q | 4 | Command.
+[[group: Third Person. (General.)]]
+  N | 5 | My ways.
+    O | 6 | Condition. Not ashamed.
+      P | 7 | I, upright.
+        Q | 8 | Promise.
+[[group: First Person. (Individual.)]]
+
+[[diagram: 119. 9-16 (ב Beth). Cleansing of the Way (Introversion and Repeated Alternation)]]
+[[anchor: Psalms 119:9-16]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 119]]
+
+ב |  |
+  R | 9 | The way to be cleansed. (Future.)
+    S |  |
+      l1 | 10- | What I have done. My heart.
+        m1 | -10 | Prayer. (Negative.)
+      l2 | 11 | What I have done. My heart.
+        m2 | 12 | Prayer. (Positive.)
+      l3 | 13, 14 | What I have done. My lips.
+  R | 15, 16 | The way to be cleansed. (Future.)
+
+[[diagram: 119. 17-24 (ג Gimel). Prayer for Strengthening (Alternation)]]
+[[anchor: Psalms 119:17-24]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 119]]
+
+ג |  |
+  T | 17-19 | Prayer and Reasons.
+    U | 20, 21 | Twofold statement. Himself and wicked.
+  T | 22 | Prayer and Reasons.
+    U | 23, 24 | Twofold statement. Himself and wicked.
+
+[[diagram: 119. 25-32 (ד Daleth). Prayer. Preservation (Alternations and Introversion)]]
+[[anchor: Psalms 119:25-32]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 119]]
+
+ד |  |
+  V |  |
+    n | 25- | Depression.
+      o | -25 | "Quicken me".
+        W |  |
+          p | 26- | Profession. (Past.)
+            q | -26 | Prayer. "Teach me".
+            q | 27- | Prayer. (Future.)
+          p | -27 | Profession. "I will talk".
+  V |  |
+    n | 28- | Depression.
+      o | -28 | "Strengthen me".
+        W |  |
+          r | 29 | Prayer. "Remove".
+            s | 30, 31- | Profession. (Past.)
+          r | -31 | Prayer. "Put not to shame".
+            s | 32 | Profession. (Future.)
+
+[[diagram: 119. 33-40 (ה He). Prayer. Teaching (Introversion and Alternation)]]
+[[anchor: Psalms 119:33-40]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 120]]
+
+ה |  |
+  X |  |
+    t | 33 | Eyes. Make me to see.
+      u | 34- | Mind. Its comprehension.
+        Y | -34 | Heart.
+          Z | 35 | Feet. Practical walking.
+        Y | 36 | Heart.
+  X |  |
+    t | 37-39 | Eyes. Turn them away.
+      u | 40 | Mind. Its desires.
+
+[[diagram: 119. 41-48 (ו Vau). Prayer. Strengthening (Alternation)]]
+[[anchor: Psalms 119:41-48]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 120]]
+
+ו |  |
+  A | 41, 42- | Prayer. (Positive.)
+    B | -42 | Reason and Plea.
+  A | 43- | Prayer. (Negative.)
+    B | -43-48 | Reasons and Pleas.
+
+[[diagram: 119. 49-56 (ז Zain). Prayer. Comfort and Remembrance (Repeated Alternation)]]
+[[anchor: Psalms 119:49-56]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 120]]
+
+ז |  |
+  C1 | 49 | "Remember . . . Thou".
+    D1 | 50, 51 | Statement as to consequences.
+  C2 | 52 | "I remembered".
+    D2 | 53, 54 | Statement as to consequences.
+  C3 | 55 | "I have remembered".
+    D3 | 56 | Statement as to consequences.
+
+[[diagram: 119. 57-64 (ח Cheth). Prayer and Profession (Alternation)]]
+[[anchor: Psalms 119:57-64]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 121]]
+
+ח |  |
+  E | 57-60 | Jehovah my portion.
+    F | 61 | Statement re the work of the lawless.
+  E | 62, 63 | Jehovah my praise.
+    F | 64 | Statement re the favour of Jehovah.
+
+[[diagram: 119. 65-72 (ט Teth). Prayer. Jehovah's Dealings (Introversion and Alternation)]]
+[[anchor: Psalms 119:65-72]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 121]]
+
+ט |  |
+  G | 65 | Thy dealings good.
+    H |  |
+      t | 66 | Thy judgments good. Teach me.
+        u | 67 | Affliction good. Result.
+    H |  |
+      t | 68 | Thou art good. Teach me.
+        u | 69-71 | Affliction good. Result.
+  G | 72 | Thy law good.
+
+[[diagram: 119. 73-80 (י Jod). Prayer. Instruction and Deliverance (Introversion)]]
+[[anchor: Psalms 119:73-80]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 121]]
+
+י |  |
+  J | 73 | Prayer. "I".
+    K | 74 | "They that revere Thee".
+      L | 75 | Affliction. "I".
+        M | 76 | Lovingkindness.
+        M | 77 | Tender mercies.
+      L | 78 | Affliction. "I".
+    K | 79 | "They that fear Thee".
+  J | 80 | Prayer. "I"
+
+[[diagram: 119. 81-88 (כ Caph). Prayer. In Distress (Division)]]
+[[anchor: Psalms 119:81-88]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 122]]
+
+כ |  |
+  N1 | 81-84 | Distress. Complaints and Pleas.
+  N2 | 85-88 | Distress. Causes, Contrasts, and Prayers.
+
+[[diagram: 119. 81-84 (N1, above). Complaints and Pleas (Alternation)]]
+[[anchor: Psalms 119:81-84]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 122]]
+
+N1 |  |
+  O | 81, 82- | Two complaints, with plea between.
+    P | -82 | Question. When comfort?
+  O | 83, 84- | Two complaints, with plea between.
+    P | -84 | Question. When vindicate?
+
+[[diagram: 119. 85-88 (N2, above). Causes, Contrasts, and Prayers (Repeated Alternation)]]
+[[anchor: Psalms 119:85-88]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 122]]
+
+N2 |  |
+  Q1 | 85 | Enemies. "They . . . me".
+    R1 | 86- | Statement. "Thy".
+  Q2 | -86- | Enemies. "They . . . me".
+    R2 | -86 | Statement. "Thou".
+  Q3 | 87- | Enemies. "They . . . me".
+    R3 | -87, 88 | Statement. "Thy".
+
+[[diagram: 119. 89-96 (ל Lamed). Jehovah and His Word (Introversion)]]
+[[anchor: Psalms 119:89-96]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 122]]
+
+ל |  |
+  S | 89-91 | Jehovah's Word settled and eternal.
+    T | 92 | Affliction cannot destroy my delight in it.
+      U | 93 | Statement and reason. "For".
+      U | 94 | Statement and reason. "For".
+    T | 95 | The wicked cannot destroy my meditation in it.
+  S | 96 | Jehovah's Word perfect and eternal.
+
+[[diagram: 119. 89-91 (S, above). Jehovah's Word (Alternation)]]
+[[anchor: Psalms 119:89-91]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 122]]
+
+S |  |
+  v | 89- | Jehovah eternal.
+    w | -89 | His Word established.
+[[group: The heavens (89. 37).]]
+  v | 90- | Jehovah's faithfulness eternal.
+    w | -90, 91 | The earth established.
+[[group: The earth (89. 4).]]
+
+[[diagram: 119. 97-104 (מ Mem). Jehovah's Word the Source of Wisdom (Introversion and Alternations)]]
+[[anchor: Psalms 119:97-104]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 123]]
+
+מ |  |
+  V |  |
+    X | 97 | The Word of Jehovah. Precious.
+      Y | 98-100 | The source of Understanding and Reason.
+        W | 101 | The Psalmist's practice (Pos.) and motive.
+        W | 102 | The Psalmist's practice (Neg.) and Reason.
+  V |  |
+    X | 103 | The Word of Jehovah. Precious.
+      Y | 104 | The source of Understanding and Consequences.
+
+[[diagram: 119. 98-100 (Y, above). The Source of Understanding (Pos.) (Repeated Alternation)]]
+[[anchor: Psalms 119:98-100]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 123]]
+
+Y |  |
+  x1 | 98- | Wiser than mine enemies.
+    y1 | -98 | Reason.
+  x2 | 99- | Wiser than my teachers.
+    y2 | -99 | Reason.
+  x3 | 100- | Wiser than the aged.
+    y3 | -100 | Reason.
+
+[[diagram: 119. 105-112 (נ Nun). Jehovah's Word the Source of Light and Joy (Introversion and Alternation)]]
+[[anchor: Psalms 119:105-112]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 123]]
+
+נ |  |
+  A |  |
+    a | 105 | The Word my Light.
+      b | 106 | Purpose to keep it.
+        B | 107, 108 | Affliction and Prayer.
+        B | 109, 110 | Danger and Protestations.
+  A |  |
+    a | 111 | The Word my Heritage and Joy.
+      b | 112 | Purpose to keep it.
+
+[[diagram: 119. 113-120 (ס Samech). Jehovah's Law. The Security Given by It (Introversion)]]
+[[anchor: Psalms 119:113-120]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 123]]
+
+ס |  |
+  C | 113, 114 | Protestations. "I".
+    D | 115 | Evildoers. Addressed concerning God.
+      E | 116 | Uphold me. From above and without.
+      E | 117 | Uphold me. From beneath and within.
+    D | 118, 119 | Evildoers. God addressed concerning them.
+  C | 120 | Protestations. "I".
+
+[[diagram: 119. 121-128 (ע Ain). Jehovah's Servant's Confidence (Extended Alternation)]]
+[[anchor: Psalms 119:121-128]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 124]]
+
+ע |  |
+  F | 121, 122 | What I have done, and Prayer (Neg.).
+    G | 123 | The Word. Desire for it.
+      H | 124, 125 | Thy servant's prayer.
+  F | 126 | What Jehovah should do, and Plea (Pos.).
+    G | 127, 128- | The Word. Love for it.
+      H | -128 | Thy servant's resolve.
+
+[[diagram: 119. 129-136 (פ Pe). Guidance by the Word (Introversion)]]
+[[anchor: Psalms 119:129-136]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 124]]
+
+פ |  |
+  J | 129-131 | Statements concerning the Word.
+    K | 132 | Prayer concerning the Righteous.
+    K | 133-135 | Prayer concerning the Wicked.
+  J | 136 | Statement concerning the Word.
+
+[[diagram: 119. 137-144 (צ Tzaddi). Jehovah's Word and the Psalmist (Repeated Alternation)]]
+[[anchor: Psalms 119:137-144]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 124]]
+
+צ |  |
+  L1 | 137, 138 | Thy Word. Righteous.
+    M1 | 139 | I. Consumed.
+  L2 | 140 | Thy Word. Pure.
+    M2 | 141 | I. Despised.
+  L3 | 142 | Thy Word. Truth.
+    M3 | 143 | I. Consumed.
+  L4 | 144 | Thy Word. Righteous.
+
+[[diagram: 119. 145-152 (ק Koph); 153-160 (ר Resh). Prayer for Faithfulness in Distress (Extended Alternation)]]
+[[anchor: Psalms 119:145-160]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 125]]
+
+ק, ר |  |
+  ק |  |
+    N | 145-149 | The Psalmist's cry.
+      O | 150, 151 | Jehovah near Psalmist. Foes nigh.
+        P | 152 | The Word established for ever.
+  ר |  |
+    N | 153, 154 | The Psalmist's cry.
+      O | 155-159 | Jehovah far from wicked. Foes many.
+        P | 160 | The Word established for ever.
+
+[[diagram: 119. 161-168 (ש Schin). Jehovah's Word Gives Peace and Comfort (Repeated Alternation)]]
+[[anchor: Psalms 119:161-168]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 125]]
+
+ש |  |
+  Q1 | 161 | Contrastive Statement.
+    R1 | 162 | Praise. "Thy".
+  Q2 | 163 | Contrastive Statement.
+    R2 | 164 | Praise. "Thy".
+  Q3 | 165 | Contrastive Statement.
+    R3 | 166-168 | Prayer. "Thy".
+
+[[diagram: 119. 169-176 (ת Tau). Petitions and Statements (Repeated Alternation)]]
+[[anchor: Psalms 119:169-176]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 126]]
+
+ת |  |
+  S1 | 169, 170 | Prayer ("Let") and Plea.
+    T1 | 171, 172 | Statements. "I". Praise.
+  S2 | 173 | Prayer ("Let") and Plea ("For").
+    T2 | 174 | Statements. "I".
+  S3 | 175 | Prayers ("Let").
+    T3 | 176- | Statement. "I". Confession.
+  S4 | -176 | Prayer and Plea ("For").
+
+[[diagram: 120 (G2/1, p. 826). Group I. Psalm (First). Distress (Introversion)]]
+[[anchor: Psalms 120:1-7]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 126]]
+
+G2/1 |  |
+  A | 1 | Hezekiah and Jehovah.
+    B | 2 | His prayer to Jehovah.
+    B | 3, 4 | His apostrophe to Rab-shakeh.
+  A | 5-7 | Hezekiah and Jehovah.
+
+[[diagram: 121 (G2/2, p. 826). Group I. Psalm (Second). Trust (Division)]]
+[[anchor: Psalms 121:1-8]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 126]]
+
+G2/2 |  |
+  C1 | 1, 2 | Jehovah's help proclaimed.
+  C2 | 3-8 | Jehovah's help promised.
+
+[[diagram: 121. 1, 2 (C1, above). Jehovah's Help Proclaimed (Introversion)]]
+[[anchor: Psalms 121:1-2]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 126]]
+
+C1 |  |
+  a | 1- | Contemplation of Creation.
+    b | -1 | Whence can help come? Question.
+    b | 2- | Whence help cometh. Answer.
+  a | -2 | Contemplation of the Creator.
+
+[[diagram: 121. 3-8 (C2, p. 845). Jehovah's Help. Promised (Alternation)]]
+[[anchor: Psalms 121:3-8]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 127]]
+
+C2 |  |
+  c | 3, 4 | What Jehovah will not suffer. (Neg.)
+    d | 5 | What He will do as the Keeper. (Pos.)
+  c | 6 | What Jehovah will not do. (Neg.)
+    d | 7, 8 | What He will do as the Keeper. (Pos.)
+
+[[diagram: 122 (G2/3, p. 826). Group I. Psalm (Third). Deliverance, Blessing, and Peace in Zion (Introversion)]]
+[[anchor: Psalms 122:1-9]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 127]]
+
+G2/3 |  |
+  D | 1 | The house of Jehovah.
+    E | 2 | Jerusalem spoken to.
+      F | 3 | Jerusalem spoken of.
+        G | 4 | Description.
+        G | 5 | Description.
+      F | 6- | Jerusalem spoken of.
+    E | -6-8 | Jerusalem spoken to.
+  D | 9 | The house of Jehovah.
+
+[[diagram: 123 (G2/4, p. 826). Group II. Psalm (First). Distress (Introversion)]]
+[[anchor: Psalms 123:1-4]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 127]]
+
+G2/4 |  |
+  H | 1 | Prayer to Jehovah.
+[[group: -]]
+    J | 2- | As the eyes . . . look.
+    J | -2 | So our eyes look.
+[[group: Comparison.]]
+  H | 3, 4 | Prayer to Jehovah.
+
+[[diagram: 124 (G2/5, p. 826). Group II. Psalm (Second). Trust (Introversion and Alternation)]]
+[[anchor: Psalms 124:1-8]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 128]]
+
+G2/5 |  |
+  K | 1, 2 | Jehovah our help.
+    L |  |
+      e | 3 | Voracity of enemies.
+        f | 4, 5 | Comparison. Waters.
+          M | 6- | Blessed be Jehovah.
+    L |  |
+      e | -6 | Voracity of enemies.
+        f | 7 | Comparison. Fowlers.
+  K | 8 | Jehovah our help.
+
+[[diagram: 125 (G2/6, p. 826). Group II. Psalm (Third). Blessing and Peace in Zion (Introversion)]]
+[[anchor: Psalms 125:1-5]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 128]]
+
+G2/6 |  |
+  N | 1-3 | Israel's security.
+    O | 4- | Jehovah's goodness.
+      P | -4 | The upright.
+      P | 5- | The evildoers.
+    O | -5- | Jehovah's judgment.
+  N | -5 | Israel's security.
+
+[[diagram: 126 (G2/7, p. 826). Group III. Psalm (First). Distress (Extended Alternation)]]
+[[anchor: Psalms 126:1-6]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 129]]
+
+G2/7 |  |
+  Q | 1- | Distress.
+    R | -1 | Its ending. As dreams.
+      S | 2, 3 | Joy.
+  Q | 4- | Distress.
+    R | -4 | Its ending. As streams.
+      S | 5, 6 | Joy.
+
+[[diagram: 127 (G2/8, p. 826). Group III. Psalm (Second). Trust (Alternation)]]
+[[anchor: Psalms 127:1-5]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 129]]
+
+G2/8 |  |
+  T |  |
+    g | 1- | Human builders. Vain.
+      h | -1 | Human defenders of city. Vain.
+        U | 2- | Human labours. Vain.
+        U | -2 | Divine gifts.
+  T |  |
+    g | 3 | Divine provision of builders. Sons.
+      h | 4, 5 | Divine provision of defenders.
+
+[[diagram: 128 (G2/9, p. 826). Group III. Psalm (Third). Deliverance, Blessing, and Peace (Alternations)]]
+[[anchor: Psalms 128:1-6]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 129]]
+
+G2/9 |  |
+  V | 1 | Blessedness of those who revere Jehovah. (Third Person.)
+[[group: -]]
+    W |  |
+      i | 2 | Thou.
+        k | 3- | Thy house and thy wife.
+          l | -3 | Thy sons. Peace.
+[[group: Second Person.]]
+  V | 4 | Blessedness of those who revere Jehovah. (Third Person.)
+[[group: -]]
+    W |  |
+      i | -5 | Thou.
+        k | -5 | Thy city and thy life.
+          l | 6 | Thy sons. Peace.
+[[group: Second Person.]]
+
+[[diagram: 129 (G2/10, p. 826). Group IV. Psalm (First). Distress (Alternation)]]
+[[anchor: Psalms 129:1-8]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 130]]
+
+G2/10 |  |
+  X | 1, 2- | Distress. Caused by enemies.
+    Y | -2 | Failure of enemies. Stated.
+  X | 3 | Distress. Caused by enemies.
+    Y | 4-8 | Failure of enemies. Prayed for.
+
+[[diagram: 130 (G2/11, p. 826). Group IV. Psalm (Second). Trust (Alternation)]]
+[[anchor: Psalms 130:1-8]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 130]]
+
+G2/11 |  |
+  A | 1-3 | Waiting on Jehovah.
+    B | 4 | Reason. "For".
+  A | 5-7- | Waiting for Jehovah.
+    B | -7, 8 | Reason. "For".
+
+[[diagram: 131 (G2/12, p. 826). Group IV. Psalm (Third). Deliverance, Blessing, and Peace (Introversion)]]
+[[anchor: Psalms 131:1-3]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 131]]
+
+G2/12 |  |
+  C | 1 | Jehovah. My comfort and peace.
+    D | 2- | I have comforted myself in Thee.
+    D | -2 | I have comforted myself in Thee.
+  C | 3 | Jehovah. Israel's comfort and peace.
+
+[[diagram: 132 (G2/13, p. 826). Group V. Psalm (First). Distress. Blessing for the House of Jehovah (Extended Alternation)]]
+[[anchor: Psalms 132:1-18]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 131]]
+
+G2/13 |  |
+  F | 2 | David sware unto Jehovah.
+    G | 3-5 | What David sware.
+      H | 6, 7 | Dwelling-place for the Ark. Search.
+        J | 8 | Prayer for the Ark's rest.
+          K | 9- | Prayer for the Priests.
+            L | -9 | Prayer for the Saints.
+              M | 10 | Prayer for Messiah.
+  F | 11- | Jehovah sware unto David.
+    G | -11, 12 | What Jehovah sware.
+      H | 13 | Dwelling-place for the Ark. Designation.
+        J | 14, 15 | Answer to Prayer (v. 8, J).
+          K | 16- | Answer to Prayer for Priests (v. 9, K).
+            L | -16 | Answer to Prayer for Saints (v. 9, L).
+              M | 17, 18 | Answer to Prayer for Messiah (v. 10, M).
+
+[[diagram: 133 (G2/14, p. 826). Group V. Psalm (Second). Trust. Blessing in the House of Jehovah (Introversion and Alternation)]]
+[[anchor: Psalms 133:1-3]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 132]]
+
+G2/14 |  |
+  N | 1 | The blessing enjoyed. Unity.
+    O |  |
+      m | 2- | Comparison to the anointing oil.
+        n | -2 | Descent of the oil.
+    O |  |
+      m | 3- | Comparison to Hermon's dew.
+        n | -3- | Descent of the dew.
+  N | -3 | The blessing enjoyed. Life.
+
+[[diagram: 134 (G2/15, p. 826). Group V. Psalm (Third). Blessing from the House of Jehovah (Introversion)]]
+[[anchor: Psalms 134:1-3]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 132]]
+
+G2/15 |  |
+  P | 1- | Blessing given to Jehovah.
+    Q | -1 | The Servants. Their Watch.
+    Q | 2 | The Servants. Their Service.
+  P | 3 | Blessing given by Jehovah.
+
+[[diagram: 135 (H2/1, p. 826). Praise (Introversion and Alternation)]]
+[[anchor: Psalms 135:1-21]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 133]]
+
+H2/1 |  |
+  R | 1- | Hallelujah.
+    S | -1-3 | Exhortation to praise. Servants.
+      T |  |
+        V | 4 | Jehovah's choice of Israel.
+          W | 5-12 | Superiority over idols.
+            U | 13- | Jehovah addressed. Name.
+            U | -13 | Jehovah addressed. Memorial.
+      T |  |
+        V | 14 | Jehovah's vindication of Israel.
+          W | 15-18 | Superiority over idols.
+    S | 19-21- | Exhortation to praise. Israel.
+  R | -21 | Hallelujah.
+
+[[diagram: 135. 15-18 (W, above). Superiority over Idols (Introversion)]]
+[[anchor: Psalms 135:15-18]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 133]]
+
+W |  |
+  o | 15- | The idols.
+    p | -15 | Their fabrication.
+      q | 16- | Mouth without speech. (Sing.)
+        r | -16 | Eyes without sight. (Pl.).
+        r | 17- | Ears without hearing. (Pl.)
+      q | -17 | Mouth without breath. (Sing.)
+    p | 18- | Their fabricators.
+  o | -18 | The idolaters.
+
+[[diagram: 136 (H2/2, p. 826). Praise (Introversion and Extended Alternation)]]
+[[anchor: Psalms 136:1-26]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 134]]
+
+H2/2 |  |
+  A | 1-3 | Exhortation to praise.
+    B | 4-9 | General dealings. Creation.
+      C |  |
+        s | 10 | Smote Egyptians.
+          t | 11, 12 | Brought Israel out of Egypt.
+            u | 13, 14 | Israel's rescue.
+              D | 15 | Overthrow of Enemies. Sea.
+              D | 16 | Guidance of His People. Desert.
+      C |  |
+        s | 17-20 | Smote kings.
+          t | 21, 22 | Brought Israel into Canaan.
+            u | 23, 24 | Israel's rescue.
+    B | 25 | General dealings. Grace.
+  A | 26 | Exhortation to praise.
+
+[[diagram: Psalms 135 and 136 Compared (Extended Alternation)]]
+[[anchor: Psalms 136:1]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 134]]
+
+135, 136 |  |
+  135 |  |
+    E |  | 1-5. Exhortation to praise.
+      F |  | 6, 7. Creative wonders.
+        G |  | 8, 9. Deliverance from Egypt.
+          H |  | 10, 11. Deliverance on Journey.
+            J |  | 12, 13. Gift of the Land.
+              K |  | 14. Goodness to His People.
+                L |  | 15-18. False gods.
+                  M |  | 19-21. Praise.
+  136 |  |
+    E |  | 1-3. Exhortation to praise.
+      F |  | 4-9. Creative wonders.
+        G |  | 10-15. Deliverance from Egypt.
+          H |  | 16-20. Deliverance on Journey.
+            J |  | 21, 22. Gift of the Land.
+              K |  | 23, 24. Goodness to His People.
+                L |  | 25. The True God.
+                  M |  | 26. Praise.
+
+[[diagram: 137 (G3, p. 826). Israel. Deliverance from Babylon (Repeated Alternation)]]
+[[anchor: Psalms 137:1-9]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 135]]
+
+G3 |  |
+  N1 | 1- | Babylon. Weeping.
+    O1 | -1 | Zion. Remembrance.
+  N2 | 2-4 | Babylon. Weeping.
+    O2 | 5, 6 | Jerusalem. Remembrance. "I".
+  N3 | 7- | Edom. Remembrance.
+    O3 | -7 | Jerusalem. Destruction.
+  N4 | 8 | Babylon. Destruction.
+
+[[diagram: 138 (H3, p. 826). Praise (Repeated Alternation)]]
+[[anchor: Psalms 138:1-8]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 135]]
+
+H3 |  |
+  P1 | 1-4 | To Jehovah. Praise. (Second Person.)
+    Q1 | 5, 6 | Of Jehovah. (Third Person.)
+  P2 | 7 | To Jehovah. (Second Person.)
+    Q2 | 8- | Of Jehovah. (Third Person.)
+  P3 | -8 | To Jehovah. (Second Person.)
+
+[[diagram: 139 (G4, p. 826). Deliverance from Self (Alternation)]]
+[[anchor: Psalms 139:1-24]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 136]]
+
+G4 |  |
+  R | 1 | Divine searching
+  S1 |  |
+    T1 | 2-5 | Omniscience.
+      U1 | 6 | Admiration.
+  S2 |  |
+    T2 | 7-16 | Omnipresence.
+      U2 | 17, 18 | Admiration.
+  S3 |  |
+    T3 | 19- | Omnipotence.
+      U3 | -19-22 | Detestation.
+  R | 23, 24 | Divine searching.
+
+[[diagram: 140 (H4/1, p. 826). Prayer and Praise (Repeated Alternation)]]
+[[anchor: Psalms 140:1-13]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 137]]
+
+H4/1 |  |
+  V1 | 1 | Prayer. Preservation from enemies.
+    W1 | 2, 3 | The evil man. Purposes. (Selah.)
+  V2 | 4- | Prayer. Preservation from enemies.
+    W2 | -4, 5 | The evil man. Purposes. (Selah.
+  V3 | 6, 7 | Prayer. Preservation from enemies.
+    W3 | 8 | The evil man. Desires. (Selah.)
+  V4 | 9-11 | Prayer. Destruction of enemies.
+  Epilogue | 12, 13 | Trust and Praise.
+
+[[diagram: 141 (H4/2, p. 826). Prayer and Praise (Introversion and Extended Alternation)]]
+[[anchor: Psalms 141:1-10]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 138]]
+
+H4/2 |  |
+  X |  |
+    Z | 1, 2 | I cry to Thee. Help me.
+      A | 3-5- | Prayer for preventing grace (Shamar).
+        B |  |
+          s | -5 | Yet, I.
+            t | 6 | Punishment of wicked.
+              Y | 7- | Bones scattered.
+              Y | -7 | Wood cleaved.
+  X |  |
+    Z | 8 | I look to Thee. Help me.
+      A | 9 | Prayer for preventing grace (Shamar).
+        B |  |
+          t | 10- | Punishment of wicked.
+            s | -10 | Yet, I.
+
+[[diagram: 142 (H4/3, p. 826). Prayer and Praise (Extended Alternation)]]
+[[anchor: Psalms 142:1-7]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 138]]
+
+H4/3 |  |
+  C | 1, 2 | I cried unto Jehovah.
+[[group: -]]
+    D | 3- | Trouble. Comfort in.
+      E | -3 | Enemies.
+[[group: Statements]]
+        F | 4 | Friends. Desertion of.
+  C | 5 | I cried unto Jehovah.
+[[group: -]]
+    D | 6- | Trouble. Deliverance from.
+      E | -6 | Enemies.
+[[group: Pleas]]
+        F | 7 | Friends. Surrounded by.
+
+[[diagram: 143 (H4/4, p. 826). Prayer (Introversion and Alternation)]]
+[[anchor: Psalms 143:1-12]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 139]]
+
+H4/4 |  |
+  G |  |
+    J | 1, 2 | Prayer.
+      K | 3, 4 | Enemy. Action.
+        H | 5 | Conduct. Past. Remembrance.
+        H | 6 | Conduct. Present. Desire.
+  G |  |
+    J | 7-11 | Prayer.
+      K | 12 | Enemies. Excision.
+
+[[diagram: 144 (H4/5, p. 826). Prayer and Thanksgiving (Repeated Alternation)]]
+[[anchor: Psalms 144:1-15]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 140]]
+
+H4/5 |  |
+  L1 | 1-7 | David's words. Praise and Prayer.
+    M1 | 8 | Words of foreigners. Vain and false.
+  L2 | 9-11 | David's words. Praise and Prayer.
+    M2 | 12-15- | Words of foreigners. Vain and false.
+  L3 | -15 | David's words. Right and true.
+
+[[diagram: 145 (E, p. 826). David's [Psalm] of Praise (Repeated Introversion)]]
+[[anchor: Psalms 145:1-21]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 141]]
+
+E |  |
+  N1 | 1, 2 | Praise promised. For Jehovah. (David.)
+    O1 | 3 | Praise offered.
+  N2 | 4-7 | Praise promised. For His work. (David and others.)
+    O2 | 8, 9 | Praise offered.
+  N3 | 10-12 | Praise promised. For His kingdom. (The works.)
+    O3 | 13-20 | Praise offered.
+  N4 | 21 | Praise promised. David and all others.
+
+[[diagram: 145. 1, 2 (N1, above). David Alone (Alternation)]]
+[[anchor: Psalms 145:1-2]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 141]]
+
+N1 |  |
+  u | 1- | Thee.
+    v | -1 | Thy name.
+  u | 2- | Thee.
+    v | -2 | Thy name.
+
+[[diagram: 145. 4-7 (N2, above). David and Others. Praise (Alternation)]]
+[[anchor: Psalms 145:4-7]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 141]]
+
+N2 |  |
+  w1 | 4 | They shall.
+    x1 | 5 | I will.
+  w2 | 6- | They shall.
+    x2 | -6 | I will.
+  w3 | 7 | They shall.
+
+[[diagram: 145. 10-12 (N3, above). The Works Praise (Introversion)]]
+[[anchor: Psalms 145:10-12]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 141]]
+
+N3 |  |
+  y | 10, 11- | Glory.
+    z | -11 | Might.
+[[group: "Thy"]]
+    z | 12- | Might.
+  y | -12 | Glory.
+[[group: "His"]]
+
+[[diagram: 145. 13-20 (O3, above). Praise Offered (Alternation)]]
+[[anchor: Psalms 145:13-20]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 141]]
+
+O3 |  |
+  a | 13 | Thou.
+    b | 14 | He.
+  a | 15, 16 | Thou.
+    b | 17-20 | He.
+
+[[diagram: 146 (J, p. 827). First Hallelujah Psalm. (Genesis.) (Introversion and Extended Alternation)]]
+[[anchor: Psalms 146:1-10]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 142]]
+
+J |  |
+  P | 1, 2 | Hallelujah.
+    Q |  |
+[[group: -]]
+      c | 3- | Wrong trust.
+        d | -3 | Powerless.
+          e | 4 | Mortal.
+[[group: Man]]
+    Q |  |
+[[group: -]]
+      c | 5 | Right trust.
+        d | 6-9 | Powerful.
+          e | 10- | Eternal.
+[[group: Jehovah]]
+  P | -10 | Hallelujah.
+
+[[diagram: 147 (K, p. 827). The Second Hallelujah Psalm. (Exodus.) (Introversion and Extended Alternation)]]
+[[anchor: Psalms 147:1-20]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 143]]
+
+K |  |
+  R | 1- | Hallelujah.
+    S1 |  |
+      f1 | -1-3 | Praise. Kindness to Israel.
+        g1 | 4, 5 | General operations. Nature.
+          h1 | 6 | Contrast. What Jehovah does.
+    S2 |  |
+      f2 | 7 | Praise. Kindness to Israel.
+        g2 | 8, 9 | General operations. Nature.
+          h2 | 10, 11 | Contrast. What Jehovah delights in.
+    S3 |  |
+      f3 | 12-14 | Praise. Kindness to Israel.
+        g3 | 15-18 | General operations. Nature.
+          h3 | 19, 20- | Contrast. What Jehovah has shown.
+  R | -20 | Hallelujah.
+
+[[diagram: 148 (L, p. 827). The Third Hallelujah Psalm. (Leviticus.) (Introversion and Extended Alternation)]]
+[[anchor: Psalms 148:1-14]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 143]]
+
+L |  |
+  T | 1- | Hallelujah.
+    U |  |
+      i | -1 | Praise from the heavens. (2nd Person.)
+        k | 2-4 | Things in the heavens.
+          l | 5- | Injunction. "Let them praise".
+            m | -5, 6 | Reasons. "For".
+    U |  |
+      i | 7- | Praise from the earth. (2nd Person.)
+        k | -7-12 | Things in the earth.
+          l | 13- | Injunction. "Let them praise".
+            m | -13-14- | Reasons. "For".
+  T | -14 | Hallelujah.
+
+[[diagram: 149 (K, p. 827). The Fourth Hallelujah Psalm. (Numbers.) (Introversion and Alternation)]]
+[[anchor: Psalms 149:1-9]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 144]]
+
+K |  |
+  V | 1- | Hallelujah.
+    W | -1 | Saints to praise.
+      X | 2 | Israel to rejoice in Jehovah.
+[[group: -]]
+        Y |  |
+          n | 3- | Praise.
+            o | -3- | How.
+        Y |  |
+          n | -3- | Praise.
+            o | -3 | How.
+[[group: In A.V. For Heb. see note below.]]
+      X | 4 | Jehovah taketh pleasure in Israel.
+    W | 5-9- | Saints to praise.
+  V | -9 | Hallelujah.
+
+[[diagram: 149. 3 (In the Hebrew). Introversion]]
+[[anchor: Psalms 149:3]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 144]]
+
+Y | 3- | Let them praise His name.
+  Z | -3- | With the dance.
+  Z | -3- | With the timbrel and harp.
+Y | -3- | Let them sing praises unto Him.
+
+[[diagram: 150 (J, p. 827). The Fifth Hallelujah Psalm. (Deuteronomy.) (Introversion)]]
+[[anchor: Psalms 150:1-6]]
+[[pdf: 15. The Psalms_text.pdf]]
+[[pdf-page: 144]]
+
+J |  |
+  A | 1- | Hallelujah.
+    B | -1- | The Sanctuary.
+      C | -1 | Praise of Jehovah's power.
+      C | 2 | Praise of Jehovah's might.
+    B | 3-6- | Instruments of the Sanctuary.
+  A | -6 | Hallelujah.

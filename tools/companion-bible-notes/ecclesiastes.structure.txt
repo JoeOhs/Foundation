@@ -1,0 +1,369 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Ecclesiastes
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/17. Ecclesiastes_text.pdf, printed pp. 906-920);
+# [[pdf-page:]] is the page of that file each diagram is on. Notation:
+# README.md here.
+#
+# Checked: all 21 diagrams compared with their scans. A member printed one
+# step right of the row above is set one level in, so several diagrams
+# staircase deeply (bracket > bracket > a > b > c). In 5. 13-6. 9 and
+# 12. 9-12 a member printed outside an inner bar but further right (N; L)
+# is set at its printed depth. 12. -1-7's External brace starts at the w row.
+# In 12. 9-12 the outer "The words of the wise" brace encloses the inner
+# "well planted," one; groups can't nest, so the outer label is given to
+# the two c lines only.
+
+[[diagram: Ecclesiastes. The Structure of the Book as a Whole (Introversion)]]
+[[anchor: Ecclesiastes 1:1]]
+[[pdf: 17. Ecclesiastes_text.pdf]]
+[[pdf-page: 1]]
+
+A |  | 1. 1. INTRODUCTION.
+  B |  | 1. 2—6. 9. THE CHIEF GOOD. WHAT IT IS NOT.
+  B |  | 6. 10—12. 12. THE CHIEF GOOD. WHAT IT IS.
+A |  | 12. 13, 14. CONCLUSION.
+
+[[diagram: 1. 2—6. 9 (B, p. 906). The Chief Good. What it is not (Division and Repeated Introversion)]]
+[[anchor: Ecclesiastes 1:2]]
+[[pdf: 17. Ecclesiastes_text.pdf]]
+[[pdf-page: 2]]
+
+B |  |
+  A1 |  |
+    B1 |  | 1. 2-11. Man. His labour. Vanity.
+      C1 |  | 1. 12—2. 26. Personal search.
+  A2 |  |
+    B2 |  | 3. 1-9. Man. Times for his labour.
+      C2 |  | 3. 10—4. 16. Personal Observation.
+  A3 |  |
+    B3 |  | 5. 1-12. Man. His Works.
+      C3 |  | 5. 13—6. 9. Personal Observation.
+
+[[diagram: 1. 2-11 (B1, above). Man. His labour. Vanity (Alternation)]]
+[[anchor: Ecclesiastes 1:2-11]]
+[[pdf: 17. Ecclesiastes_text.pdf]]
+[[pdf-page: 2]]
+
+B1 |  |
+  D | 2-7 | Transience. "Passeth away".
+    E | 8 | Dissatisfaction.
+  D | 9, 10 | Recurrence.
+    E | 11 | Oblivion.
+
+[[diagram: 1. 12—2. 26 (C1, p. 907). Personal Search (Division and Extended and Repeated Alternation)]]
+[[anchor: Ecclesiastes 1:12]]
+[[pdf: 17. Ecclesiastes_text.pdf]]
+[[pdf-page: 3]]
+
+C1 |  |
+  F1 |  |
+    a1 |  | 1. 12-15. Labour. Things done.
+      b1 |  | 1. 16-18. Wisdom.
+        c1 |  | 2. 1-3. Pleasure sought.
+  F2 |  |
+    a2 |  | 2. 4-8. Labour. "Great works".
+      b2 |  | 2. 9. Wisdom.
+        c2 |  | 2. 10. Pleasure enjoyed.
+  F3 |  |
+    a3 |  | 2. 11. Labour. "Great works".
+      b3 |  | 2. 12-16. Wisdom.
+        c3 |  | 2. 17-. Pleasure hated.
+  F4 |  |
+    a4 |  | 2. -17-25. Labour. "All my labour".
+      b4 |  | 2. 26-. Wisdom.
+        c4 |  | 2. -26. Pleasure judged.
+
+[[diagram: 3. 1-9 (B2, p. 907). Man. Times for his labour (Introversion)]]
+[[anchor: Ecclesiastes 3:1-9]]
+[[pdf: 17. Ecclesiastes_text.pdf]]
+[[pdf-page: 4]]
+
+B2 |  |
+  G | 1 | Labour. Its appointment.
+    H | 2-8 | Seasons.
+  G | 9 | Labour. Its profit.
+
+[[diagram: 3. 10—4. 16 (C2, p. 907). Personal Observation (Repeated and Extended Alternation)]]
+[[anchor: Ecclesiastes 3:10]]
+[[pdf: 17. Ecclesiastes_text.pdf]]
+[[pdf-page: 5]]
+
+C2 |  |
+  J1 |  |
+    d1 |  | 3. 10. Labour. Sons of men.
+      e1 |  | 3. 11. Wisdom. Man ignorant of God's work.
+        f1 |  | 3. 12, 13. Pleasure, or enjoyment.
+  J2 |  |
+    d2 |  | 3. 14, 15. Labour. God's work is for ever.
+      e2 |  | 3. 16-21. Wisdom. Man's ignorance like beasts'.
+        f2 |  | 3. 22. Pleasure, or enjoyment.
+  J3 |  |
+    d3 |  | 4. 1-4. Labour. For others.
+      e3 |  | 4. 4, 5. Wisdom. The fool, none.
+        f3 |  | 4. 6. Pleasure, or enjoyment.
+  J4 |  |
+    d4 |  | 4. 7-12. Labour. "For whom".
+      e4 |  | 4. 13, 14. Wisdom.
+        f4 |  | 4. 15, 16. Pleasure, or enjoyment. None.
+
+[[diagram: 5. 1-12 (B3, p. 907). Man. His Works (Repeated Alternation)]]
+[[anchor: Ecclesiastes 5:1-12]]
+[[pdf: 17. Ecclesiastes_text.pdf]]
+[[pdf-page: 7]]
+
+B3 |  |
+  K1 | 1, 2 | Works.
+    L1 | 3 | Reason.
+  K2 | 4-6 | Vows.
+    L2 | 7 | Reason.
+  K3 | 8- | Perverting of judgment.
+    L3 | -8 | Reason.
+  K4 | 9-12 | Riches.
+
+[[diagram: 5. 13—6. 9 (C3, p. 907). Personal Observation (Alternations)]]
+[[anchor: Ecclesiastes 5:13]]
+[[pdf: 17. Ecclesiastes_text.pdf]]
+[[pdf-page: 7]]
+
+C3 |  |
+  M |  |
+    g1 |  | 5. 13. Self. Labour for.
+      h1 |  | 5. 14, 15. Profitless.
+    g2 |  | 5. 16. Self. Labour for.
+      h2 |  | 5. 17. Profitless.
+        N |  | 5. 18-20. Long life.
+  M |  |
+    g3 |  | 6. 1, 2-. Self. Riches for.
+      h3 |  | 6. -2. Profitless.
+    g4 |  | 6. 3-. Self. Children.
+      h4 |  | 6. -3. Profitless.
+        N |  | 6. 4-9. Long life.
+
+[[diagram: 6. 10—12. 12 (B, p. 906). The Chief Good. What it is (Repeated Alternation)]]
+[[anchor: Ecclesiastes 6:10]]
+[[pdf: 17. Ecclesiastes_text.pdf]]
+[[pdf-page: 8]]
+
+B |  |
+  O1 |  | 6. 10—7. 14. Man. In himself.
+    P1 |  | 7. 15-29. Personal proving.
+  O2 |  | 8. 1-8. Man. In his wisdom.
+    P2 |  | 8. 9, 10. Personal observation.
+  O3 |  | 8. 11-13. Man. In his evil-doing.
+    P3 |  | 8. 14—9. 1. Personal observation.
+  O4 |  | 9. 2-10. Man. In his end.
+    P4 |  | 9. 11—10. 15. Personal inspection.
+  O5 |  | 10. 16—12. 8. Man. In his different portions.
+    P5 |  | 12. 9-12. Personal information.
+
+[[diagram: 6. 10—7. 14 (O1, above). Man. In himself (Introversion)]]
+[[anchor: Ecclesiastes 6:10]]
+[[pdf: 17. Ecclesiastes_text.pdf]]
+[[pdf-page: 8]]
+
+O1 |  |
+  Q |  | 6. 10. Man and God.
+    R |  | 6. 11—7. 10. Good. Q. What is it?
+    R |  | 7. 11, 12. Good. Ans. What it is.
+  Q |  | 7. 13, 14. God and man.
+
+[[diagram: 7. 15-29 (P1, p. 913). Personal Proving (Division and Repeated Alternation)]]
+[[anchor: Ecclesiastes 7:15-29]]
+[[pdf: 17. Ecclesiastes_text.pdf]]
+[[pdf-page: 9]]
+
+P1 |  |
+  S1 |  |
+    l1 | 15, 16- | Overmuch righteousness.
+      m1 | -16 | Reason.
+  S2 |  |
+    l2 | 17- | Overmuch wickedness.
+      m2 | -17, 18 | Reason.
+  S3 |  |
+    l3 | 19 | Overmuch might.
+      m3 | 20 | Reason.
+  S4 |  |
+    l4 | 21 | Overmuch heed.
+      m4 | 22 | Reason.
+  S5 |  |
+    l5 | 23-25 | Overmuch wisdom.
+      m5 | 26 | Reason.
+  S6 |  |
+    l6 | 27, 28- | Overmuch search.
+      m6 | -28, 29 | Reason.
+
+[[diagram: 8. 1-8 (O2, p. 913). Man. In his wisdom (Introversion and Alternation)]]
+[[anchor: Ecclesiastes 8:1-8]]
+[[pdf: 17. Ecclesiastes_text.pdf]]
+[[pdf-page: 10]]
+
+O2 |  |
+  T |  |
+    n | 1- | Wisdom. Happiness of it.
+      o | -1 | Reason.
+        U | 2, 3 | King's commandment.
+        U | 4 | King's word.
+  T |  |
+    n | 5 | Wisdom. Strength of it.
+      o | 6-8 | Reason.
+
+[[diagram: 8. 9, 10 (P2, p. 913). Personal Observation (Alternation)]]
+[[anchor: Ecclesiastes 8:9-10]]
+[[pdf: 17. Ecclesiastes_text.pdf]]
+[[pdf-page: 10]]
+
+P2 |  |
+  V | 9- | Observation.
+    W | -9 | Result.
+  V | 10- | Observation.
+    W | -10 | Result.
+
+[[diagram: 8. 11-13 (O3, p. 913). Man in his evil-doing (Introversion)]]
+[[anchor: Ecclesiastes 8:11-13]]
+[[pdf: 17. Ecclesiastes_text.pdf]]
+[[pdf-page: 10]]
+
+O3 |  |
+  X | 11 | Consequence of God's suspended judgment.
+    Y | 12- | Evil-doing prolonged.
+      Z | -12 | Evil-doers. Well with them.
+      Z | 13- | Evil-doers. Evil with them.
+    Y | -13- | Evil-doers' days not prolonged.
+  X | -13 | Cause. No fear of God.
+
+[[diagram: 8. 14—9. 1 (P3, p. 913). Personal Observation (Introversion and Alternation)]]
+[[anchor: Ecclesiastes 8:14]]
+[[pdf: 17. Ecclesiastes_text.pdf]]
+[[pdf-page: 11]]
+
+P3 |  |
+  A |  | 8. 14. Contrariety. Man's happenings.
+    B1 |  |
+      p1 |  | 8. 15-. Mirth commended.
+        q1 |  | 8. -15. Reason.
+    B2 |  |
+      p2 |  | 8. 16-. Wisdom. Man's work on earth.
+        q2 |  | 8. -16. Reason.
+    B3 |  |
+      p3 |  | 8. 17-. Wisdom. God's work on earth.
+        q3 |  | 8. -17. Reason.
+  A |  | 9. 1. Contrariety. God's dealings.
+
+[[diagram: 9. 2-10 (O4, p. 913). Man. In his end (Repeated Alternation)]]
+[[anchor: Ecclesiastes 9:2-10]]
+[[pdf: 17. Ecclesiastes_text.pdf]]
+[[pdf-page: 11]]
+
+O4 |  |
+  C1 | 2, 3 | The dead.
+    D1 | 4, 5- | The living.
+  C2 | -5, 6 | The dead.
+    D2 | 7-10- | The living.
+  C3 | -10 | The dead.
+
+[[diagram: 9. 11—10. 15 (P4, p. 913). Personal Inspection (Division and Repeated Alternation)]]
+[[anchor: Ecclesiastes 9:11]]
+[[pdf: 17. Ecclesiastes_text.pdf]]
+[[pdf-page: 12]]
+
+P4 |  |
+  E1 |  |
+    r1 |  | 9. 11, 12-. Wisdom. Unequally requited, &c.
+      s1 |  | 9. -12. Man snared by ignorance.
+  E2 |  |
+    r2 |  | 9. 13-15-. Wisdom. Better than strength.
+      s2 |  | 9. -15. Man benefits by wisdom of poor.
+  E3 |  |
+    r3 |  | 9. 16-. Wisdom. Better than strength.
+      s3 |  | 9. -16. Man despises wisdom of poor.
+  E4 |  |
+    r4 |  | 9. 17-18-. Wisdom. Better than strength.
+      s4 |  | 9. -18. Man's folly destroys what is good.
+  E5 |  |
+    r5 |  | 10. 1. Wisdom. Better than reputation.
+      s5 |  | 10. 2. Man's heart betrays his folly.
+  E6 |  |
+    r6 |  | 10. 3-. Wisdom of the fool fails him.
+      s6 |  | 10. -3. Man's folly declares itself.
+  E7 |  |
+    r7 |  | 10. 4, 5. Wisdom. Better than power.
+      s7 |  | 10. 6, 7. Man's folly often in high places.
+  E8 |  |
+    r8 |  | 10. 8-10-. Wisdom. Better than labour.
+      s8 |  | 10. -10. Man's wisdom saves labour.
+  E9 |  |
+    r9 |  | 10. 11, 12-. Wisdom's words are gracious.
+      s9 |  | 10. -12-15. Man's words destroy himself.
+
+[[diagram: 10. 16—12. 8 (O5, p. 913). Man in his different portions (Extended Alternation)]]
+[[anchor: Ecclesiastes 10:16]]
+[[pdf: 17. Ecclesiastes_text.pdf]]
+[[pdf-page: 13]]
+
+O5 |  |
+  F |  | 10. 16, 17. Kings and the Land.
+    G |  | 10. 18. Builders.
+      H |  | 10. 19. Riches.
+  F |  | 10. 20. Kings and subjects.
+    G |  | 11. 1-6. Sowers.
+      H |  | 11. 7—12. 8. Youth.
+
+[[diagram: 11. 7—12. 8 (H, above). Youth (Repeated Alternations)]]
+[[anchor: Ecclesiastes 11:7]]
+[[pdf: 17. Ecclesiastes_text.pdf]]
+[[pdf-page: 13]]
+
+H |  |
+  J1 |  |
+    t1 |  | 11. 7, 8-. Youth. Rejoice.
+      u1 |  | 11. -8-. Remembrance. Days of darkness.
+        v1 |  | 11. -8. Vanity.
+  J2 |  |
+    t2 |  | 11. 9-. Youth. Rejoice.
+      u2 |  | 11. -9. Knowledge. Day of judgment.
+        v2 |  | 11. 10. Vanity.
+  J3 |  |
+    t3 |  | 12. 1-. Youth. Remember.
+      u3 |  | 12. -1-7. Knowledge. Days of evil.
+        v3 |  | 12. 8. Vanity.
+
+[[diagram: 12. -1-7 (u3, p. 918). Knowledge. Days of Evil (Introversion and Repeated Alternation)]]
+[[anchor: Ecclesiastes 12:1-7]]
+[[pdf: 17. Ecclesiastes_text.pdf]]
+[[pdf-page: 14]]
+
+u3 |  |
+  w | -1 | Evil days. Approach. (Fig.).
+    x |  |
+      y1 | 2-4 | Figures. Luminaries, &c.
+        z1 | 5- | Literal. Fear.
+      y2 | -5- | Figures. Almond tree, &c.
+        z2 | -5 | Literal. Failure.
+[[group: External.]]
+      y3 | 6 | Figures. Silver cord, &c.
+  w | 7 | Evil days. (Literal.)
+[[group: Internal.]]
+
+[[diagram: 12. 9-12 (P5, p. 913). Personal Information and Counsel (Alternation)]]
+[[anchor: Ecclesiastes 12:9-12]]
+[[pdf: 17. Ecclesiastes_text.pdf]]
+[[pdf-page: 15]]
+
+P5 |  |
+  K |  |
+    a | 9- | And moreover (yother).
+      b | -9, 10- | The efforts of Koheleth.
+        L | -10 | What hath been written by one writer.
+          M |  |
+[[group: -]]
+            c | 11- | The words of the wise
+[[group: "The words of the wise".]]
+              d | -11- | like goads
+              d | -11- | like nails
+[[group: well planted,]]
+            c | -11- | [are] rulers of assemblies.
+[[group: "The words of the wise".]]
+        L | -11 | What hath been furnished by one Giver.
+  K |  |
+    a | 12- | And further (yother).
+      b | -12 | The efforts of others.

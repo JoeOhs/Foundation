@@ -1,0 +1,319 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Amos
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/26. Amos_text.pdf, printed pp. 1231-1243);
+# [[pdf-page:]] is the page of that file each diagram is on. Notation:
+# README.md here. Small-capital words are written in title case.
+#
+# 1. 2—2. 16 (p. 1232) prints C2 two steps right of D2 (at C1's x); set
+# one level in, since the parser allows only one step after a text line.
+
+[[diagram: Amos. The Structure of the Book as a Whole (Repeated Alternation)]]
+[[anchor: Amos 1:1]]
+[[pdf: 26. Amos_text.pdf]]
+[[pdf-page: 1]]
+
+Title |  | 1. 1, 2. THE TITLE.
+B2 |  |
+  A1 |  | 1. 3—6. 14. LITERAL. PROPHETIC.
+    B1 |  | 7. 1-9. SYMBOLIC. GRASSHOPPERS. FIRE. PLUMBLINE.
+  A2 |  | 7. 10-17. LITERAL. PROPHETIC.
+    B2 |  | 8. 1-3. SYMBOLIC. BASKET OF SUMMER FRUIT.
+  A3 |  | 8. 4-14. LITERAL. PROPHETIC.
+    B3 |  | 9. 1-4. SYMBOLIC. STRIKING THE LINTEL.
+  A4 |  | 9. 5-15. LITERAL. PROPHETIC.
+
+[[diagram: 1. 2—6. 14 (A1, p. 1231). Literal. Prophetic (Division)]]
+[[anchor: Amos 1:2]]
+[[pdf: 26. Amos_text.pdf]]
+[[pdf-page: 2]]
+
+A1 |  |
+  A1 |  | 1. 2—2. 16. Israel, Judah, and other nations.
+  A2 |  | 3. 1—6. 14. Israel alone.
+
+[[diagram: 1. 2—2. 16 (A1, above). Israel, Judah, and Other Nations (Repeated Alternation, and Introversion)]]
+[[anchor: Amos 1:2]]
+[[pdf: 26. Amos_text.pdf]]
+[[pdf-page: 2]]
+
+A1 |  |
+  B1 |  |
+    D1 |  | 1. 2-5. North. (Damascus.)
+      E1 |  | 1. 6-8. South. (Gaza.)
+        C1 |  | 1. 9, 10. Middle. (Tyre.)
+  B2 |  |
+      E2 |  | 1. 11, 12. South. (Edom.)
+    D2 |  | 1. 13-15. North. (Ammon.)
+      C2 |  | 2. 1-3. Middle. (Moab.)
+  B3 |  |
+      E3 |  | 2. 4, 5. South. (Judah.)
+    D3 |  | 2. 6-16. North. (Israel.)
+
+[[diagram: 1. 2-5 (D1, above). North. Damascus (Alternation)]]
+[[anchor: Amos 1:2-5]]
+[[pdf: 26. Amos_text.pdf]]
+[[pdf-page: 2]]
+
+D1 |  |
+  a | 2- | Transgressions. (General.)
+    b | -3- | Threatening. (Negative.)
+  a | -3 | Transgressions. (Particular.)
+    b | 4, 5 | Threatening. (Positive.)
+
+[[diagram: 1. 6-8 (E1, p. 1232). South. Gaza (Alternation)]]
+[[anchor: Amos 1:6-8]]
+[[pdf: 26. Amos_text.pdf]]
+[[pdf-page: 3]]
+
+E1 |  |
+  c | 6- | Transgressions. (General.)
+    d | -6- | Threatening. (Negative.)
+  c | -6 | Transgressions. (Particular.)
+    d | 7, 8 | Threatening. (Positive.)
+
+[[diagram: 1. 9, 10 (C1, p. 1232). Middle. Tyre (Alternation)]]
+[[anchor: Amos 1:9-10]]
+[[pdf: 26. Amos_text.pdf]]
+[[pdf-page: 3]]
+
+C1 |  |
+  e | 9- | Transgressions. (General.)
+    f | -9- | Threatening. (Negative.)
+  e | -9 | Transgressions. (Particular.)
+    f | 10 | Threatening. (Positive.)
+
+[[diagram: 1. 11, 12 (E2, p. 1232). South. Edom (Alternation)]]
+[[anchor: Amos 1:11-12]]
+[[pdf: 26. Amos_text.pdf]]
+[[pdf-page: 3]]
+
+E2 |  |
+  g | 11- | Transgression. (General.)
+    h | -11- | Threatening. (Negative.)
+  g | -11 | Transgression. (Particular.)
+    h | 12 | Threatening. (Positive.)
+
+[[diagram: 1. 13-15 (D2, p. 1232). North. Ammon (Alternation)]]
+[[anchor: Amos 1:13-15]]
+[[pdf: 26. Amos_text.pdf]]
+[[pdf-page: 3]]
+
+D2 |  |
+  i | 13- | Transgressions (General.)
+    k | -13- | Threatening. (Negative.)
+  i | -13 | Transgressions. (Particular.)
+    k | 14, 15 | Threatening. (Positive.)
+
+[[diagram: 2. 1-3 (C2, p. 1232). Middle. Moab (Alternation)]]
+[[anchor: Amos 2:1-3]]
+[[pdf: 26. Amos_text.pdf]]
+[[pdf-page: 3]]
+
+C2 |  |
+  l | 1- | Transgressions. (General.)
+    m | -1- | Threatening. (Negative.)
+  l | -1 | Transgressions. (Particular.)
+    m | 2, 3 | Threatening. (Positive).
+
+[[diagram: 2. 4, 5 (E3, p. 1232). South. Judah (Alternation)]]
+[[anchor: Amos 2:4-5]]
+[[pdf: 26. Amos_text.pdf]]
+[[pdf-page: 4]]
+
+E3 |  |
+  n | 4- | Transgressions. (General.)
+    o | -4- | Threatening. (Negative.)
+  n | -4 | Transgressions. (Particular.)
+    o | 5 | Threatening. (Positive.)
+
+[[diagram: 2. 6-16 (D3, p. 1232). North. Israel (Alternation)]]
+[[anchor: Amos 2:6-16]]
+[[pdf: 26. Amos_text.pdf]]
+[[pdf-page: 4]]
+
+D3 |  |
+  p | 6- | Transgressions. (General.)
+    q | -6- | Threatening. (Negative.)
+  p | -6-12 | Transgressions. (Particular.)
+    q | 13-16 | Threatening. (Positive.)
+
+[[diagram: 3. 1—6. 14 (A2, p. 1232). Israel Alone (Division)]]
+[[anchor: Amos 3:1]]
+[[pdf: 26. Amos_text.pdf]]
+[[pdf-page: 5]]
+
+A2 |  |
+  F1 |  | 3. 1-15. The whole family from Egypt.
+  F2 |  | 4. 1-13. The Northern Kingdom. (Kine of Bashan.)
+  F3 |  | 5. 1—6. 14. Lamentations. "Woe, Woe."
+
+[[diagram: 3. 1-15 (F1, above). The Whole Family from Egypt (Extended Alternation)]]
+[[anchor: Amos 3:1-15]]
+[[pdf: 26. Amos_text.pdf]]
+[[pdf-page: 5]]
+
+F1 |  |
+  G | 1 | Call to Hear.
+    H | 2- | Jehovah. "I have known."
+      J | -2 | Threatening.
+  G | 3-9 | Call to Answer.
+    H | 10 | Israel. "They know not."
+      J | 11-15 | Threatening.
+
+[[diagram: 4. 1-13 (F2, p. 1235). The Northern Kingdom. (The Kine of Bashan.) (Extended Alternation)]]
+[[anchor: Amos 4:1-13]]
+[[pdf: 26. Amos_text.pdf]]
+[[pdf-page: 6]]
+
+F2 |  |
+  K | 1- | Call to Hear.
+    L | -1 | Judgments deserved.
+      M | 2, 3 | Threatening.
+  K | 4, 5 | Call to Come.
+    L | 6-11 | Judgments inflicted.
+      M | 12, 13 | Threatening.
+
+[[diagram: 4. 6-11 (L, above). Judgments Inflicted (Repeated Alternation)]]
+[[anchor: Amos 4:6-11]]
+[[pdf: 26. Amos_text.pdf]]
+[[pdf-page: 6]]
+
+L |  |
+  r1 | 6- | Judgment. (Famine.)
+    s1 | -6 | Impenitence.
+  r2 | 7, 8- | Judgment. (Drought.)
+    s2 | -8 | Impenitence.
+  r3 | 9- | Judgment. (Blasting.)
+    s3 | -9 | Impenitence.
+  r4 | 10- | Judgment. (Pestilence.)
+    s4 | -10 | Impenitence.
+  r5 | 11- | Judgment. (Overthrow.)
+    s5 | -11 | Impenitence.
+
+[[diagram: 5. 1—6. 14 (F3, p. 1235). Lamentations (Introversions)]]
+[[anchor: Amos 5:1]]
+[[pdf: 26. Amos_text.pdf]]
+[[pdf-page: 7]]
+
+F3 |  |
+  N |  | 5. 1, 2. Lamentation.
+    O1 |  |
+      t1 |  | 5. 3. Threatening.
+        u1 |  | 5. 4-6-. Exhortation. "Seek Him."
+      t2 |  | 5. -6. Threatening.
+    O2 |  |
+      t3 |  | 5. 7. Incrimination.
+        u2 |  | 5. 8, 9. Exhortation. "Seek Him."
+      t4 |  | 5. 10, 11-. Incrimination.
+    O3 |  |
+      t5 |  | 5. -11-13. Threatening.
+        u3 |  | 5. 14, 15. Exhortation. "Seek Good."
+      t6 |  | 5. 16, 17. Threatening.
+  N |  | 5. 18—6. 14. Lamentation.
+
+[[diagram: 5. 18—6. 14 (N, p. 1237). Lamentation (Division)]]
+[[anchor: Amos 5:18]]
+[[pdf: 26. Amos_text.pdf]]
+[[pdf-page: 8]]
+
+N |  |
+  P1 |  | 5. 18-27. The First Woe. Presumption, &c.
+  P2 |  | 6. 1-14. The Second Woe. Security, &c.
+
+[[diagram: 5. 18-27 (P1, above). The First Woe (Alternation)]]
+[[anchor: Amos 5:18-27]]
+[[pdf: 26. Amos_text.pdf]]
+[[pdf-page: 8]]
+
+P1 |  |
+  w | 18- | Incrimination. Presumption.
+    x | -18-20 | Threatening. Darkness.
+  w | 21-26 | Incrimination. Idolatry.
+    x | 27 | Threatening. Captivity.
+
+[[diagram: 6. 1-14 (P2, p. 1238). The Second Woe. Security (Repeated Alternation)]]
+[[anchor: Amos 6:1-14]]
+[[pdf: 26. Amos_text.pdf]]
+[[pdf-page: 9]]
+
+P2 |  |
+  y1 | 1-6 | Incrimination. Security.
+    z1 | 7 | Threatening. Captivity.
+  y2 | 8- | Incrimination. Pride.
+    z2 | -8-11 | Threatening. Depopulation.
+  y3 | 12, 13 | Incrimination. Injustice.
+    z3 | 14 | Threatening. Invasion.
+
+[[diagram: 7. 1-9 (B1, p. 1231). Symbolic (Repeated Alternation)]]
+[[anchor: Amos 7:1-9]]
+[[pdf: 26. Amos_text.pdf]]
+[[pdf-page: 10]]
+
+B1 |  |
+  Q1 |  |
+    a1 | 1 | Symbol. Grasshoppers.
+      b1 | 2 | Signification. Deprecated.
+        c1 | 3 | Judgment averted.
+  Q2 |  |
+    a2 | 4 | Symbol. Fire.
+      b2 | 5 | Signification. Deprecated.
+        c2 | 6 | Judgment averted.
+  Q3 |  |
+    a3 | 7 | Symbol. Plumbline.
+      b3 | 8- | Signification. Deprecated.
+        c3 | -8, 9 | Judgment averted.
+
+[[diagram: 7. 10-17 (A2, p. 1231). Literal. Prophetic (Introversion and Alternation)]]
+[[anchor: Amos 7:10-17]]
+[[pdf: 26. Amos_text.pdf]]
+[[pdf-page: 11]]
+
+A2 |  |
+  R | 10, 11 | Threatening. Captivity.
+    S |  |
+      d | 12 | Rejection by Amaziah.
+        e | 13 | Prophecy rejected.
+    S |  |
+      d | 14, 15 | Justification by Amos.
+        e | 16, 17- | Prophecy repeated.
+  R | -17 | Threatening. Captivity.
+
+[[diagram: 8. 1-3 (B2, p. 1231). Symbolical (Division)]]
+[[anchor: Amos 8:1-3]]
+[[pdf: 26. Amos_text.pdf]]
+[[pdf-page: 11]]
+
+B2 |  |
+  T1 | 1, 2- | The Symbol. Basket of Summer Fruit.
+  T2 | -2, 3 | The Signification.
+
+[[diagram: 8. 4-14 (A3, p. 1231). Literal (Alternation)]]
+[[anchor: Amos 8:4-14]]
+[[pdf: 26. Amos_text.pdf]]
+[[pdf-page: 11]]
+
+A3 |  |
+  U | 4-6 | Incrimination.
+    V | 7-13 | Threatening. Mourning.
+  U | 14- | Incrimination.
+    V | -14 | Threatening. Fall.
+
+[[diagram: 9. 1-4 (B3, p. 1231). Symbolic (Division)]]
+[[anchor: Amos 9:1-4]]
+[[pdf: 26. Amos_text.pdf]]
+[[pdf-page: 12]]
+
+B3 |  |
+  W1 | 1- | Symbol. Striking the lintel.
+  W2 | -1-4 | Signification.
+
+[[diagram: 9. 5-15 (A4, p. 1231). Literal (Alternation)]]
+[[anchor: Amos 9:5-15]]
+[[pdf: 26. Amos_text.pdf]]
+[[pdf-page: 12]]
+
+A4 |  |
+  X | 5, 6 | The Land. Touched.
+    Y | 7-10 | Exile from it.
+  X | 11-13 | The Land. Blessed.
+    Y | 14, 15 | Restoration to it.

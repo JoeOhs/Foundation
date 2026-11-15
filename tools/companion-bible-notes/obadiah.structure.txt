@@ -1,0 +1,49 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Obadiah
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/27. Obadiah_text.pdf, printed pp. 1244-1246);
+# [[pdf-page:]] is the page of that file each diagram is on. Notation:
+# README.md here. Small-capital words are written in title case.
+#
+# The book Structure's D1 and F1 are the Obadiah members of the Six
+# Prophets diagram (p. 1206; see hosea.structure.txt).
+#
+# 1-16 (p. 1245) prints the second B two steps right of a (at the first
+# B's x); set one level in, since the parser allows only one step after
+# a text line.
+
+[[diagram: Obadiah. The Structure of the Book as a Whole (Division)]]
+[[anchor: Obadiah 1:1]]
+[[pdf: 27. Obadiah_text.pdf]]
+[[pdf-page: 1]]
+
+D1 |  |
+  F1 |  |
+    A1 | 1-16 | EDOM. DESTRUCTION.
+    A2 | 17-21 | ISRAEL. RESTORATION.
+
+[[diagram: 1-16 (A1, p. 1244). Edom. Destruction (Alternation and Introversion)]]
+[[anchor: Obadiah 1:1-16]]
+[[pdf: 27. Obadiah_text.pdf]]
+[[pdf-page: 2]]
+
+A1 |  |
+  A |  |
+    a | 1, 2 | Remote Cause. Jehovah's Purpose.
+      b | 3, 4 | Deceived by Self.
+        B | 5, 6 | Devastation.
+  A |  |
+      b | 7-9 | Deceived by Others.
+    a | 10-14 | Immediate Cause. Edom's Sin.
+      B | 15, 16 | Extermination.
+
+[[diagram: 17-21 (A2, p. 1244). Israel. Restoration (Introversion)]]
+[[anchor: Obadiah 1:17-21]]
+[[pdf: 27. Obadiah_text.pdf]]
+[[pdf-page: 3]]
+
+A2 |  |
+  C | 17- | Deliverance.
+    D | -17 | Possession.
+      E | 18 | Victory.
+    D | 19, 20 | Possession.
+  C | 21 | Deliverers.

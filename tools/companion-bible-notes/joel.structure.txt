@@ -1,0 +1,136 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Joel
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/25. Joel_text.pdf, printed pp. 1224-1230);
+# [[pdf-page:]] is the page of that file each diagram is on. Notation:
+# README.md here. Small-capital words are written in title case.
+
+[[diagram: Joel. The Structure of the Book as a Whole (Alternation)]]
+[[anchor: Joel 1:1]]
+[[pdf: 25. Joel_text.pdf]]
+[[pdf-page: 1]]
+
+Title |  | 1. 1. THE TITLE.
+C1 |  |
+  A |  | 1. 2, 3. CALL TO HEAR.
+    B |  | 1. 4-13. JUDGMENTS. INFLICTED.
+  A |  | 1. 14—2. 17. CALL TO REPENT.
+    B |  | 2. 18—3. 21. JUDGMENTS. REMOVED.
+
+[[diagram: 1. 4-13 (B, p. 1224). Judgments. Inflicted (Division)]]
+[[anchor: Joel 1:4-13]]
+[[pdf: 25. Joel_text.pdf]]
+[[pdf-page: 2]]
+
+B |  |
+  A1 | 4 | The Destroyers. Symbolical and General.
+  A2 | 5-13 | The Destruction. Literal and Particular.
+
+[[diagram: 1. 5-13 (A2, above). The Destruction. Literal and Particular (Alternations)]]
+[[anchor: Joel 1:5-13]]
+[[pdf: 25. Joel_text.pdf]]
+[[pdf-page: 2]]
+
+A2 |  |
+  B |  |
+    a | 5- | People. Call to Awake and Howl.
+      b | -5-7 | Reason. Vine and Fig. Laid waste.
+        C |  |
+          c | 8 | Land. Call to Lament.
+            d | 9, 10 | Reason. Offerings cut off.
+  B |  |
+    a | 11- | People. Call to be Ashamed and Howl.
+      b | -11, 12 | Reason. Corn and Wine perished.
+        C |  |
+          c | 13- | Priests. Call to Lament.
+            d | -13 | Reason. Offerings withholden.
+
+# Printed heading reads "1. 14—3. 27" (Joel has 3. 21 verses; the
+# diagram's own last member runs to 3. 21); kept as printed.
+[[diagram: 1. 14—3. 27 (A, p. 1224). Call to Repentance (Simple and Extended Alternations)]]
+[[anchor: Joel 1:14]]
+[[pdf: 25. Joel_text.pdf]]
+[[pdf-page: 3]]
+
+A |  |
+  D |  |
+    F |  | 1. 14. Call to Fast.
+      G |  | 1. 15. Reason.
+        H |  | 1. 16-20. Consequences.
+[[group: -]]
+          E |  |
+            J |  | 2. 1-. Call to Blow the Trumpet.
+              K |  | 2. -1. Reason.
+                L |  | 2. 2-11. Consequences.
+[[group: People.]]
+  D |  |
+    F |  | 2. 12-13-. Call to Fast.
+      G |  | 2. -13. Reason.
+        H |  | 2. 14. Consequences.
+[[group: -]]
+          E |  |
+            J |  | 2. 15-17-. Call to Blow the Trumpet.
+              K |  | 2. -17. Reason.
+                L |  | 2. 18—3. 21. Consequences.
+[[group: Priests.]]
+
+[[diagram: 2. 18—3. 21 (L, p. 1226). Consequences (Repeated Alternation)]]
+[[anchor: Joel 2:18]]
+[[pdf: 25. Joel_text.pdf]]
+[[pdf-page: 4]]
+
+L |  |
+  M1 |  | 2. 18, 19. Good bestowed. Land and People.
+    N1 |  | 2. 20. Evil removed. Enemy cut off.
+  M2 |  | 2. 21-32. Good bestowed. Land and People.
+    N2 |  | 3. 1-16-. Evil removed. Enemy cut off.
+  M3 |  | 3. -16-18. Good bestowed. Land and People.
+    N3 |  | 3. 19. Evil removed. Enemies cut off.
+  M4 |  | 3. 20, 21. Good bestowed. Land and People.
+
+[[diagram: 2. 21-32 (M2, p. 1227). Good Bestowed. Land and People (Division)]]
+[[anchor: Joel 2:21-32]]
+[[pdf: 25. Joel_text.pdf]]
+[[pdf-page: 5]]
+
+M2 |  |
+  O1 | 21-27 | Temporal blessings.
+  O2 | 28-32 | Spiritual blessings.
+
+[[diagram: 2. 21-27 (O1, above). Temporal Blessings (Repeated Alternation)]]
+[[anchor: Joel 2:21-27]]
+[[pdf: 25. Joel_text.pdf]]
+[[pdf-page: 5]]
+
+O1 |  |
+  P1 | 21- | Apostrophe to the Soil.
+    Q1 | -21 | Reason.
+  P2 | 22- | Apostrophe to the Beasts.
+    Q2 | -22 | Reason.
+  P3 | 23- | Apostrophe to the People.
+    Q3 | -23-27 | Reason.
+
+[[diagram: 2. 28-32 (O2, above). Spiritual Blessings (Introversion)]]
+[[anchor: Joel 2:28-32]]
+[[pdf: 25. Joel_text.pdf]]
+[[pdf-page: 5]]
+
+O2 |  |
+  R | 28, 29 | Afterward. After the restoration. Gifts from God.
+    S | 30, 31 | Before the day of the LORD.
+  R | 32 | Afterward. After the restoration. Deliverance from God.
+
+[[diagram: 3. 1-16- (N2, p. 1227). Evil Removed (Extended and Repeated Alternation)]]
+[[anchor: Joel 3:1-16]]
+[[pdf: 25. Joel_text.pdf]]
+[[pdf-page: 6]]
+
+N2 |  |
+  T1 | 1, 2- | Assemblage.
+    U1 | -2, 3 | Place and Act. "I will plead."
+      V1 | 4-8 | Judgment. Threatened.
+  T2 | 9-12- | Assemblage.
+    U2 | -12 | Place and Act. "I will judge."
+      V2 | 13 | Judgment. Executed.
+  T3 | 14- | Assemblage.
+    U3 | -14 | Place and Act. Time.
+      V3 | 15, 16- | Judgment. Threatened.

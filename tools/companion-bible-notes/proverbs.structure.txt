@@ -1,0 +1,326 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Proverbs
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/16. The Proverbs_text.pdf, printed pp. 864-905);
+# [[pdf-page:]] is the page of that file each diagram is on. Notation:
+# README.md here.
+#
+# Checked: all 23 diagrams compared with their scans. A member printed one
+# step right of the row above is set one level in; 9.13-18's second R prints
+# T and S reversed at stepped x and is set at one depth (Job/Esther
+# precedent). 7.5-23's last g reads 22-27 and is anchored 7:5-27. 30.1-31.31
+# prints F1 and F2 with no outer A, so they are two top-level members. The
+# 25.1-28 D1 heading says "(Division.)" but prints no members, so it has no
+# diagram. Restored: C3 "24. 1 20" -> 24. 1-20 (dash lost to broken type).
+
+[[diagram: Proverbs. The Structure of the Book as a Whole (Introversion and Alternation). Introduction 1. 1-6-]]
+[[anchor: Proverbs 1:1]]
+[[pdf: 16. The Proverbs_text.pdf]]
+[[pdf-page: 1]]
+
+A |  | 1. -6—9. 18. "THE WORDS OF THE WISE". FOR SOLOMON. FOR A PRINCE AND A KING. SECOND PERSON ("MY SON", "THY", "THEE", "THOU", "THINE"). THE "MOTHER".
+B |  |
+  C |  | 10. 1—19. 19. PROVERBS BY SOLOMON. FOR ALL. THIRD PERSON ("HE", "HIS", "HIM", "THEY", "THEM").
+    D |  | 19. 20—24. 34. PROVERBS FOR SOLOMON. FOR A PRINCE AND A KING. SECOND PERSON ("MY SON", "THOU", "THY").
+B |  |
+  C |  | 25. 1—26. 28. PROVERBS BY SOLOMON. FOR ALL. "COPIED BY THE MEN OF HEZEKIAH". THIRD PERSON ("HE", "HIM", "HIS").
+    D |  | 27. 1—29. 27. PROVERBS FOR SOLOMON. FOR A PRINCE AND A KING. SECOND PERSON ("MY SON", "THEE", "THY").
+A |  | 30. 1—31. 31. "THE WORDS OF AGUR" AND "THE WORDS OF LEMUEL". FOR SOLOMON. FOR A PRINCE AND A KING ("MY SON", "THY"). THE "MOTHER".
+
+[[diagram: 1. -6—9. 18 (A, p. 864). "The Words of the Wise". For Solomon (Repeated Alternation)]]
+[[anchor: Proverbs 1:6]]
+[[pdf: 16. The Proverbs_text.pdf]]
+[[pdf-page: 2]]
+
+A |  |
+  A1 |  | 1. -6—2. 15. Wisdom's Call.
+    B1 |  | 2. 16-22. The Foreign Woman.
+  A2 |  | 3. 1—4. 27. Wisdom's Call.
+    B2 |  | 5. 1-23. The Foreign Woman.
+  A3 |  | 6. 1-23. Wisdom's Call.
+    B3 |  | 6. 24-35. The Foreign Woman.
+  A4 |  | 7. 1-4. Wisdom's Call.
+    B4 |  | 7. 5-27. The Foreign Woman.
+  A5 |  | 8. 1—9. 12. Wisdom's Call.
+    B5 |  | 9. 13-18. The Foolish Woman.
+
+[[diagram: 1. 20-33. Wisdom's Call (Extended Alternation)]]
+[[anchor: Proverbs 1:20-33]]
+[[pdf: 16. The Proverbs_text.pdf]]
+[[pdf-page: 3]]
+
+a | 20, 21 | The Call made.
+  b | 22 | Expostulation of Wisdom with the simple.
+    c | 23 | Promise to hearers.
+a | 24, 25 | The Call made.
+  b | 26-32 | Expostulation of Wisdom with refusers.
+    c | 33 | Promise to hearers.
+
+[[diagram: 4. 23-27. Heart, Mouth, Eyes, Feet (Alternation)]]
+[[anchor: Proverbs 4:23-27]]
+[[pdf: 16. The Proverbs_text.pdf]]
+[[pdf-page: 8]]
+
+d | 23 | Positive. Heart.
+  e | 24 | Negative. Mouth.
+d | 25 | Positive. Eyes.
+  e | 26, 27 | Negative. Feet.
+
+[[diagram: 7. 5-23 (B4, p. 865). The Foreign Woman (Alternation)]]
+[[anchor: Proverbs 7:5-27]]
+[[pdf: 16. The Proverbs_text.pdf]]
+[[pdf-page: 10]]
+
+B4 |  |
+  f | 5 | The woman.
+    g | 6-9 | The young man.
+  f | 10-21 | The woman.
+    g | 22-27 | The young man.
+
+[[diagram: 8. 1—9. 12 (A5, p. 865). Wisdom's Call (Simple and Extended Alternation)]]
+[[anchor: Proverbs 8:1]]
+[[pdf: 16. The Proverbs_text.pdf]]
+[[pdf-page: 11]]
+
+A5 |  |
+  C |  | 8. 1. Wisdom's call.
+    D |  |
+      E |  | 8. 2, 3. From high places.
+        F |  | 8. 4-6. To the simple.
+          G |  | 8. 7-9. Reasons.
+            H |  | 8. 10-31. Wisdom self-commended.
+  C |  | 8. 32-36. Wisdom's call.
+    D |  |
+      E |  | 9. 1-3. From high places.
+        F |  | 9. 4-6. To the simple.
+          G |  | 9. 7-9. Reasons.
+            H |  | 9. 10-12. Wisdom self-commended.
+
+[[diagram: 8. 10-31 (H, above). Wisdom Self-Commended (Introversion and Extended Alternation)]]
+[[anchor: Proverbs 8:10-31]]
+[[pdf: 16. The Proverbs_text.pdf]]
+[[pdf-page: 11]]
+
+H |  |
+  J | 10, 11 | Wisdom personified.
+    K |  |
+      L | 12-14 | Prudence.
+        M | 15, 16 | Rule.
+          N | 17 | Recompense.
+    K |  |
+      L | 18, 19 | Riches, &c.
+        M | 20 | Righteousness.
+          N | 21 | Recompense.
+  J | 22-31 | Wisdom personified.
+
+[[diagram: 8. 22-31 (J, p. 874). Wisdom Personified (Alternation)]]
+[[anchor: Proverbs 8:22-31]]
+[[pdf: 16. The Proverbs_text.pdf]]
+[[pdf-page: 12]]
+
+J |  |
+  O | 22 | In eternity past. With Jehovah.
+    P | 23-29 | Before the creation of man.
+  O | 30 | In eternity past. With Jehovah.
+    P | 31 | After the creation of man.
+
+[[diagram: 8. 23-29 (P, above). Before Creation (Repeated Alternation and Introversion)]]
+[[anchor: Proverbs 8:23-29]]
+[[pdf: 16. The Proverbs_text.pdf]]
+[[pdf-page: 12]]
+
+P |  |
+  j1 |  |
+    k | 23 | Before the earth.
+      l | 24 | Before the seas.
+  j2 | 25, 26 | Before the earth.
+  j3 | 27 | When the heavens.
+    k | 28, 29- | When the seas.
+  j4 | -29 | When the earth.
+
+[[diagram: 9. 13-18 (B5, p. 865). The Foolish Woman (Alternation and Introversion)]]
+[[anchor: Proverbs 9:13-18]]
+[[pdf: 16. The Proverbs_text.pdf]]
+[[pdf-page: 13]]
+
+B5 |  |
+  Q | 13 | Her call.
+    R |  |
+      S | 14 | From high places.
+        T | 15 | From the right way.
+  Q | 16 | Her call.
+    R |  |
+      T | 17 | To the wrong way.
+      S | 18 | To the lowest place.
+
+[[diagram: 10. 1—19. 19 (C, p. 864). Proverbs by Solomon. For All (Division)]]
+[[anchor: Proverbs 10:1]]
+[[pdf: 16. The Proverbs_text.pdf]]
+[[pdf-page: 14]]
+
+C |  |
+  U1 |  | 10. 1—15. 33. The Pious and the Ungodly. With reference to others. Their lots in life. (Chiefly Antithetic.)
+  U2 |  | 16. 1—19. 19. The Pious and the Ungodly. With reference to God. Their life and character. (Chiefly Synthetic.)
+
+[[diagram: 10. 1—15. 32 (U1, above). The Pious and the Ungodly. With Reference to Others (Division)]]
+[[anchor: Proverbs 10:1]]
+[[pdf: 16. The Proverbs_text.pdf]]
+[[pdf-page: 14]]
+
+U1 |  |
+  W1 |  | 10. 1-32. Their Life and Conduct. (General.)
+  W2 |  | 11. 1—15. 33. Their advantages and disadvantages. (Particular.)
+
+[[diagram: 11. 1—15. 33 (W2, p. 877). The Pious and Ungodly. Their Advantages and Disadvantages (Division)]]
+[[anchor: Proverbs 11:1]]
+[[pdf: 16. The Proverbs_text.pdf]]
+[[pdf-page: 16]]
+
+W2 |  |
+  X1 |  | 11. 1-31. With reference to one's Neighbours.
+  X2 |  | 12. 1-28. With reference to Domestic and Public vocations.
+  X3 |  | 13. 1-25. With reference to Temporal and Eternal good.
+  X4 |  | 14. 1-35. With reference to Wise and Foolish; Rich and Poor; Masters and Servants.
+  X5 |  | 15. 1-33. With reference to other relations in the religious sphere.
+
+[[diagram: 16. 1—19. 19 (U2, p. 877). The Pious and Ungodly with Reference to God. Their Life and Action (Division)]]
+[[anchor: Proverbs 16:1]]
+[[pdf: 16. The Proverbs_text.pdf]]
+[[pdf-page: 23]]
+
+U2 |  |
+  Y1 |  | 16. 1-33. Personal confidence in God.
+  Y2 |  | 17. 1-28. Personal contentment and peace.
+  Y3 |  | 18. 1-24. Personal virtues in social life.
+  Y4 |  | 19. 1-19. Personal character. Humility, meekness, and gentleness.
+
+[[diagram: 19. 20—24. 34 (D, p. 864). Proverbs for Solomon. For a Prince and a King. Second Person (Repeated and Extended Alternation)]]
+[[anchor: Proverbs 19:20]]
+[[pdf: 16. The Proverbs_text.pdf]]
+[[pdf-page: 28]]
+
+D |  |
+  A1 |  | 19. 20-27. Call to hear.
+    B1 |  | 19. 28—21. 1. Personal conduct.
+      C1 |  | 21. 2—22. 16. Personal character.
+  A2 |  | 22. 17-21. Call to hear.
+    B2 |  | 22. 22-29. Personal conduct.
+      C2 |  | 23. 1-21. Personal character.
+  A3 |  | 23. 22-25. Call to hear.
+    B3 |  | 23. 26-35. Personal conduct.
+      C3 |  | 24. 1-20. Personal character.
+  A4 |  | 24. 21, 22. Call to hear.
+    B4 |  | 24. 23-29. Personal conduct.
+      C4 |  | 24. 30-34. Personal character.
+
+[[diagram: 25. 1—26. 28 (C, p. 864). Proverbs by Solomon. Third Person (Division)]]
+[[anchor: Proverbs 25:1]]
+[[pdf: 16. The Proverbs_text.pdf]]
+[[pdf-page: 34]]
+
+C |  |
+  D1 |  | 25. 1-28. Admonition to the Fear of God.
+  D2 |  | 26. 1-28. Warning against the Sins of Men.
+
+[[diagram: 27. 1—29. 27 (D, p. 864). "Words of the Wise". For Solomon. Second Person]]
+[[anchor: Proverbs 27:1]]
+[[pdf: 16. The Proverbs_text.pdf]]
+[[pdf-page: 36]]
+
+D |  |
+  E1 |  | 27. 1-27. Against self-praise and arrogance.
+  E2 |  | 28. 1-28. Against unscrupulous dealing.
+  E3 |  | 29. 1-27. Against stubbornness and insubordination.
+
+[[diagram: 30. 1—31. 31 (A, p. 864). The Words of Agur and Lemuel, for Solomon: for a Prince and Ruler (Division)]]
+[[anchor: Proverbs 30:1]]
+[[pdf: 16. The Proverbs_text.pdf]]
+[[pdf-page: 40]]
+
+F1 |  | 30. 1-33. The words of Agur.
+F2 |  | 31. 1-31. The words of king Lemuel.
+
+[[diagram: 30. 1-33 (F1, above). The Words of Agur (Alternation and Introversions). Title, v. 1-.]]
+[[anchor: Proverbs 30:1-33]]
+[[pdf: 16. The Proverbs_text.pdf]]
+[[pdf-page: 40]]
+
+F1 |  |
+  G | -1-3 | Confession. Himself.
+[[group: -]]
+  H |  |
+    J1 | 4 | Address.
+      K1 | 5 | Declaration.
+    J2 | 6 | Address.
+[[group: God.]]
+  G | 7-9 | Prayer. Himself.
+[[group: -]]
+  H |  |
+    J3 | 10 | Address.
+      K2 | 11-31 | Declaration.
+    J4 | 32, 33 | Address.
+[[group: Man.]]
+
+[[diagram: 30. 11-31 (K2, p. 903). Declaration (Alternation and Divisions)]]
+[[anchor: Proverbs 30:11-31]]
+[[pdf: 16. The Proverbs_text.pdf]]
+[[pdf-page: 41]]
+
+K2 |  |
+  L | 11 | Parents. Cursing of.
+[[group: -]]
+  M |  |
+    N1 | 12 | Impurity.
+    N2 | 13 | Pride.
+    N3 | 14 | Violence.
+    N4 | 15, 16 | Insatiableness.
+[[group: Fourfold enumeration.]]
+  L | 17 | Parents. Mocking of.
+[[group: -]]
+  M |  |
+    N5 | 18-20 | Four things inscrutable (m).
+    N6 | 21-23 | Four things disquieting (f).
+    N7 | 24-28 | Four things little and wise (m).
+    N8 | 29-31 | Four things graceful (m).
+[[group: Fourfold enumeration.]]
+
+[[diagram: 31. 1-31 (F2, p. 903). The Words of King Lemuel, for Solomon: a Prince and King (Division)]]
+[[anchor: Proverbs 31:1]]
+[[pdf: 16. The Proverbs_text.pdf]]
+[[pdf-page: 41]]
+
+F2 |  |
+  O1 |  | 31. 1-9. Warnings. Women and wine.
+  O2 |  | 31. 10-31. Example. The model woman.
+
+[[diagram: 31. 1-9 (O1, above). Warnings. "My Son" (v. 2). Second Person. "Thy" (vv. 3, 8, 9) (Introversion)]]
+[[anchor: Proverbs 31:1-9]]
+[[pdf: 16. The Proverbs_text.pdf]]
+[[pdf-page: 41]]
+
+O1 |  |
+  P | 1, 2 | Call to attention.
+[[group: -]]
+    Q | 3 | Women.
+    Q | 4-7 | Wine.
+[[group: Warning.]]
+  P | 8, 9 | Call to advocacy.
+[[group: -]]
+
+[[diagram: 31. 10-31 (O2, p. 904). The Model Woman (Extended Alternation)]]
+[[anchor: Proverbs 31:10-31]]
+[[pdf: 16. The Proverbs_text.pdf]]
+[[pdf-page: 42]]
+
+O2 |  |
+  R |  |
+    S | 10-12 | Her husband (א—ג).
+      T | 13-19 | Her occupation (ד—י).
+        U | 20 | Her character. Bounty (כ).
+          V | 21 | Her household (ל).
+            W | 22 | Herself. Without (מ).
+  R |  |
+    S | 23 | Her husband (נ).
+      T | 24, 25 | Her occupation (ס and ע).
+        U | 26 | Her character. Wisdom (פ).
+          V | 27, 28 | Her household (צ and ק).
+            W | 29-31 | Herself. Within (ר—ת).

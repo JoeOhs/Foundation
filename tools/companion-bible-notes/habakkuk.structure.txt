@@ -1,0 +1,102 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Habakkuk
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/31. Habakkuk_text.pdf, printed pp. 1266-1271);
+# [[pdf-page:]] is the page of that file each diagram is on. Notation:
+# README.md here. Small-capital words are written in title case.
+#
+# The book Structure's F2 is the Habakkuk member of the Six Prophets
+# diagram (p. 1206; see hosea.structure.txt).
+
+[[diagram: Habakkuk. The Structure of the Book as a Whole (Division)]]
+[[anchor: Habakkuk 1:1]]
+[[pdf: 31. Habakkuk_text.pdf]]
+[[pdf-page: 1]]
+
+F2 |  |
+  A1 |  | 1. 1—2. 20. THE BURDEN OF HABAKKUK.
+  A2 |  | 3. 1-19. THE PRAYER OF HABAKKUK.
+
+[[diagram: 1. 1—2. 20 (A1, p. 1266). The Burden of Habakkuk (Alternation)]]
+[[anchor: Habakkuk 1:1]]
+[[pdf: 31. Habakkuk_text.pdf]]
+[[pdf-page: 2]]
+
+A1 |  |
+  A |  | 1. 1-4. The prophet's cry.
+    B |  | 1. 5-11. Jehovah's answer.
+  A |  | 1. 12—2. 1. The prophet's cry.
+    B |  | 2. 2-20. Jehovah's answer.
+
+[[diagram: 2. 2-20 (B, p. 1267). Jehovah's Answer (Repeated Alternation)]]
+[[anchor: Habakkuk 2:2-20]]
+[[pdf: 31. Habakkuk_text.pdf]]
+[[pdf-page: 3]]
+
+B |  |
+  C1 |  |
+    a1 | 2 | Command to write.
+      b1 | 3 | Reason. That the reader may flee.
+        D1 |  |
+          c1 | 4- | Incrimination. Pride.
+            d1 | -4 | Contrast. Jehovah's reward.
+  C2 |  |
+    a2 | 5-7 | Incrimination. Greed.
+      b2 | 8 | Reason. Retaliation.
+        D2 |  |
+          c2 | 9-13 | Incrimination. Covetousness.
+            d2 | 14 | Contrast. Jehovah's glory.
+  C3 |  |
+    a3 | 15, 16 | Incrimination. Drunkenness.
+      b3 | 17 | Reason. Retaliation.
+        D3 |  |
+          c3 | 18, 19 | Incrimination. Idolatry.
+            d3 | 20 | Contrast. Jehovah's exaltation.
+
+[[diagram: 3. 1-19 (A2, p. 1266). The Prayer of Habakkuk (Introversion and Alternation)]]
+[[anchor: Habakkuk 3:1-19]]
+[[pdf: 31. Habakkuk_text.pdf]]
+[[pdf-page: 4]]
+
+A2 |  |
+  E | 1 | The Superscription.
+    F |  |
+      G | 2 | "I have heard." Consequent effect, "fear".
+        H | 3-15 | Salvation. Jehovah's doings. The Giving of the Law.
+    F |  |
+      G | 16 | "I have heard." Consequent effect, "trembling".
+        H | 17-19- | Salvation. Jehovah's character. The Sending of Grace.
+  E | -19 | The Subscription.
+
+[[diagram: 3. 3-15 (H, above). Salvation. Jehovah's Doings (Repeated Alternation)]]
+[[anchor: Habakkuk 3:3-15]]
+[[pdf: 31. Habakkuk_text.pdf]]
+[[pdf-page: 4]]
+
+H |  |
+  J1 | 3-5 | His comings.
+    K1 | 6-11 | His doings.
+  J2 | 12, 13 | His going.
+    K2 | 14 | His doings.
+  J3 | 15 | His going.
+
+[[diagram: 3. 6-11 (K1, p. 1269). His Doings (Repeated Alternations)]]
+[[anchor: Habakkuk 3:6-11]]
+[[pdf: 31. Habakkuk_text.pdf]]
+[[pdf-page: 5]]
+
+K1 |  |
+  e1 | 6 | At, and after Creation.
+    f1 | 7 | Among Israel's enemies.
+  e2 | 8 | At the Exodus.
+    f2 | 9, 10 | In Israel's Deliverances.
+  e3 | 11 | At the Conquest of Canaan.
+
+[[diagram: 3. 12, 13 (J2, p. 1269). Jehovah's Goings (Introversion)]]
+[[anchor: Habakkuk 3:12-13]]
+[[pdf: 31. Habakkuk_text.pdf]]
+[[pdf-page: 5]]
+
+J2 |  |
+  g | 12 | For the subduing of Israel's enemies.
+    h | 13- | For the salvation of Israel.
+  g | -13 | For the subduing of Israel's enemies.

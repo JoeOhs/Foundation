@@ -14,7 +14,8 @@
 //   Appendix    "Ap. 98. XII" appendix number, then a subsection path in
 //                             mixed roman/arabic/letter notation.
 //
-// Plus bare "v. 22", meaning a verse of the book the note itself is in.
+// Plus bare "v. 22", meaning a verse of the book the note itself is in, and
+// bare "Cp. 38. 7" after a cue word, a chapter and verse of that same book.
 
 import { canonicalBookName } from './bibleMeta';
 
@@ -38,7 +39,7 @@ const BOOK_ABBREVIATIONS: Record<string, string> = {
   gen: 'Genesis', ex: 'Exodus', exod: 'Exodus', lev: 'Leviticus', num: 'Numbers',
   deut: 'Deuteronomy', josh: 'Joshua', judg: 'Judges', jud: 'Judges', ruth: 'Ruth',
   ezra: 'Ezra', neh: 'Nehemiah', est: 'Esther', esth: 'Esther', job: 'Job',
-  ps: 'Psalms', psa: 'Psalms', psalm: 'Psalms', psalms: 'Psalms',
+  ps: 'Psalms', pss: 'Psalms', psa: 'Psalms', psalm: 'Psalms', psalms: 'Psalms',
   prov: 'Proverbs', ecc: 'Ecclesiastes', eccl: 'Ecclesiastes',
   cant: 'Song of Solomon', song: 'Song of Solomon',
   isa: 'Isaiah', jer: 'Jeremiah', lam: 'Lamentations', ezek: 'Ezekiel', dan: 'Daniel',
@@ -99,7 +100,11 @@ const SCRIPTURE_RE = new RegExp(
 // "; 4. 1" (or "; 33:39") continues into a new chapter of the same book;
 // ", 25" adds another verse of the same chapter.
 const CHAPTER_CONT_RE = /^;\s*(\d{1,3})[.:]\s*(\d{1,3})/;
-const VERSE_CONT_RE = /^,\s*(\d{1,3})/;
+// Never a thousands separator: "601,730" is a figure, not verse 730.
+const VERSE_CONT_RE = /^,(?!\d{3}(?!\d))\s*(\d{1,3})(?!\d)/;
+// "Ezra 29,818" / "Neh. 31,089": a count written after a book named as a
+// noun ("Named in Ezra 29,818"), not chapter 29.
+const THOUSANDS_AHEAD_RE = /^,\d{3}(?!\d)/;
 
 const APPENDIX_RE = /\bAp\.?\s*(\d{1,3})/g;
 // A subsection token: roman numeral, small number, or a single letter.
@@ -116,6 +121,10 @@ function isOrdinalOfNextBook(n: string, text: string, pos: number): boolean {
 
 // "v. 22" — a verse of the book this note belongs to.
 const LOCAL_VERSE_RE = /\bv{1,2}\.\s*(\d{1,3})/g;
+// "Cp. 38. 7" — a chapter and verse of the note's own book, with no book
+// name. Only taken after a cue word, so bare number pairs elsewhere (dates,
+// "p. 666", appendix sections) are never read as references.
+const LOCAL_CHAPTER_RE = /(?:\b(?:Cp|cp|See|see)\.?|\bNot|\bas in|\bnotes? on)\s+(\d{1,3})\.\s*(\d{1,3})/g;
 
 interface Match {
   start: number;
@@ -148,12 +157,59 @@ function scanAppendixes(text: string, out: Match[]): void {
   }
 }
 
+// Continuations chain off the end of a reference: "; 4. 1" moves to a new
+// chapter of the same book, ", 25" adds a verse — or, after a chapter-only
+// reference ("Pss. 56, 57"), another chapter. Returns where the chain ends.
+function chainContinuations(
+  text: string, pos: number, book: string, chapter: number, verse: number | null, out: Match[],
+): number {
+  let curChapter = chapter;
+  let chapterList = verse === null;
+  for (;;) {
+    const rest = text.slice(pos);
+    const ch = CHAPTER_CONT_RE.exec(rest);
+    if (ch) {
+      curChapter = Number(ch[1]);
+      chapterList = false;
+      out.push({
+        start: pos, end: pos + ch[0].length,
+        ref: { kind: 'scripture', book, chapter: curChapter, verse: Number(ch[2]) },
+      });
+      pos += ch[0].length;
+      continue;
+    }
+    const v = VERSE_CONT_RE.exec(rest);
+    if (v && !isOrdinalOfNextBook(v[1], text, pos + v[0].length)) {
+      out.push({
+        start: pos, end: pos + v[0].length,
+        ref: chapterList
+          ? { kind: 'scripture', book, chapter: Number(v[1]), verse: null }
+          : { kind: 'scripture', book, chapter: curChapter, verse: Number(v[1]) },
+      });
+      pos += v[0].length;
+      continue;
+    }
+    return pos;
+  }
+}
+
+const SINGLE_CHAPTER_BOOKS = new Set(['Obadiah', 'Philemon', '2 John', '3 John', 'Jude']);
+
 function scanScripture(text: string, out: Match[]): void {
   SCRIPTURE_RE.lastIndex = 0;
   let m: RegExpExecArray | null;
   while ((m = SCRIPTURE_RE.exec(text)) !== null) {
     const book = resolveBook(m[1], m[2]);
-    if (!book || isOrdinalOfNextBook(m[4] ?? m[3], text, m.index + m[0].length)) {
+    const figureAhead = THOUSANDS_AHEAD_RE.test(text.slice(m.index + m[0].length));
+    if (book && figureAhead && m[4] !== undefined) {
+      // "Ezra 2: 42,360" — chapter 2 gives the figure 42,360: link the
+      // chapter only, and leave the figure as text.
+      const chEnd = m.index + m[0].indexOf(m[3], (m[1]?.length ?? 0) + m[2].length) + m[3].length;
+      out.push({ start: m.index, end: chEnd, ref: { kind: 'scripture', book, chapter: Number(m[3]), verse: null } });
+      SCRIPTURE_RE.lastIndex = m.index + m[0].length;
+      continue;
+    }
+    if (!book || figureAhead || isOrdinalOfNextBook(m[4] ?? m[3], text, m.index + m[0].length)) {
       // A near-miss must not eat the text it spanned. "See 1 Cor. 16. 9"
       // first matches "See 1" (book "See", chapter 1), which resolves to
       // nothing — but it has already consumed the "1" that belongs to
@@ -162,38 +218,32 @@ function scanScripture(text: string, out: Match[]): void {
       SCRIPTURE_RE.lastIndex = m.index + 1;
       continue;
     }
-    const chapter = Number(m[3]);
-    const verse = m[4] === undefined ? null : Number(m[4]);
+    // "Jude 23": a one-chapter book is cited by verse alone.
+    const oneChapter = m[4] === undefined && SINGLE_CHAPTER_BOOKS.has(book);
+    const chapter = oneChapter ? 1 : Number(m[3]);
+    const verse = oneChapter ? Number(m[3]) : m[4] === undefined ? null : Number(m[4]);
     out.push({ start: m.index, end: m.index + m[0].length, ref: { kind: 'scripture', book, chapter, verse } });
 
-    // Continuations chain off the end of the reference just matched.
-    let pos = m.index + m[0].length;
-    let curChapter = chapter;
-    for (;;) {
-      const rest = text.slice(pos);
-      const ch = CHAPTER_CONT_RE.exec(rest);
-      if (ch) {
-        curChapter = Number(ch[1]);
-        out.push({
-          start: pos, end: pos + ch[0].length,
-          ref: { kind: 'scripture', book, chapter: curChapter, verse: Number(ch[2]) },
-        });
-        pos += ch[0].length;
-        continue;
-      }
-      const v = VERSE_CONT_RE.exec(rest);
-      if (v && !isOrdinalOfNextBook(v[1], text, pos + v[0].length)) {
-        out.push({
-          start: pos, end: pos + v[0].length,
-          ref: { kind: 'scripture', book, chapter: curChapter, verse: Number(v[1]) },
-        });
-        pos += v[0].length;
-        continue;
-      }
-      break;
-    }
-    SCRIPTURE_RE.lastIndex = pos;
+    SCRIPTURE_RE.lastIndex = chainContinuations(text, m.index + m[0].length, book, chapter, verse, out);
   }
+}
+
+// "Deuteronomy supplied Solomon with petitions for his prayer. Cp. 30. 1-3":
+// a book named in full shortly before a bare reference, with no reference in
+// between, is the book meant. Only names that are never a person ("Job",
+// "Ruth") or an ordinary word ("the Exodus", "Numbers", "Judges"), and
+// "Kings"/"Chronicles" are left out because they need an ordinal.
+const PROSE_BOOK_RE = /\b(Genesis|Leviticus|Deuteronomy|Psalms|Proverbs|Ecclesiastes|Lamentations)\b(?!\.?\s*\d)/g;
+const PROSE_BOOK_WINDOW = 150;
+function bookNamedInProse(text: string, cueAt: number, out: Match[]): string | null {
+  const from = Math.max(0, cueAt - PROSE_BOOK_WINDOW);
+  let last: RegExpExecArray | null = null;
+  PROSE_BOOK_RE.lastIndex = from;
+  for (let m; (m = PROSE_BOOK_RE.exec(text)) !== null && m.index < cueAt;) last = m;
+  if (!last) return null;
+  const at = last.index;
+  if (out.some((x) => x.ref.kind === 'scripture' && x.start > at && x.start < cueAt)) return null;
+  return canonicalBookName(last[1]);
 }
 
 function scanLocalVerses(text: string, out: Match[], context: { book: string; chapter: number }): void {
@@ -205,6 +255,30 @@ function scanLocalVerses(text: string, out: Match[], context: { book: string; ch
       end: m.index + m[0].length,
       ref: { kind: 'scripture', book: context.book, chapter: context.chapter, verse: Number(m[1]) },
     });
+  }
+  LOCAL_CHAPTER_RE.lastIndex = 0;
+  while ((m = LOCAL_CHAPTER_RE.exec(text)) !== null) {
+    const start = m.index + m[0].length - m[0].replace(/^\D+/, '').length; // link the numbers, not the cue
+    const chapter = Number(m[1]);
+    // "(Jer. 25. 1, cp. 32. 1)", "Ex. 30. 12 (cp. 38. 25)": a cue
+    // straight after another book's reference continues that book, not the
+    // note's own. Not across "and": "2 Chron. 5. 9, and see 9. 21" in a
+    // 1 Kings note means 1 Kings 9. 21. Across a full stop only inside a
+    // bracket that book's reference opened: "(Dan. 9. 1. Cp. 6. 1)" is
+    // Daniel 6. 1, but "Ex. 17. 16. Cp. 3. 1" in Esther is Esther 3. 1.
+    const cueAt = m.index;
+    const open = text.lastIndexOf('(', cueAt);
+    const prev = out.find((x) => x.ref.kind === 'scripture' && x.end <= cueAt
+      && (/^[,;]?\s*\(?$/.test(text.slice(x.end, cueAt))
+        || (/^\.\s*$/.test(text.slice(x.end, cueAt)) && open >= 0 && open < x.start
+          && !text.slice(open, cueAt).includes(')'))));
+    const book = prev && prev.ref.kind === 'scripture' ? prev.ref.book : (bookNamedInProse(text, cueAt, out) ?? context.book);
+    out.push({
+      start,
+      end: m.index + m[0].length,
+      ref: { kind: 'scripture', book, chapter, verse: Number(m[2]) },
+    });
+    LOCAL_CHAPTER_RE.lastIndex = chainContinuations(text, m.index + m[0].length, book, chapter, Number(m[2]), out);
   }
 }
 

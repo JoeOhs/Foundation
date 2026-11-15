@@ -1,3 +1,4 @@
+import { COMPANION_NOTES_TITLE } from '../companionNotesImport';
 import { useEffect, useMemo, useState } from 'react';
 import { hasStrongsData } from '../db';
 import { languageName } from '../language';
@@ -296,8 +297,10 @@ export default function LibraryPanel({
     // A footer commentary is the exception: it's verse-keyed but appears in
     // no pane picker at all, so without this its only route back after
     // install would be to find the right footer tab by hand.
+    // The Companion notes are an add-on read beside the text, so they open too.
     const canOpen = installed && row.source
-      && (row.source.is_verse_keyed === 0 || isFooterOnly(row.source));
+      && (row.source.is_verse_keyed === 0 || isFooterOnly(row.source)
+        || row.source.title === COMPANION_NOTES_TITLE);
     return (
       <div className="note-card library-row" key={row.key}>
         <div className="note-title">{row.title}</div>

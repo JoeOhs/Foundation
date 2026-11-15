@@ -1,0 +1,164 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Lamentations
+# Marginal (side) notes, to be read alongside the KJV text.
+#
+# Format:  C:V | TEXT  —  verse 0 = a book-level introductory note
+#          [[heading: TEXT]] — the page's own heading over those notes
+#
+# ---------------------------------------------------------------------
+# Sources and method — as for Judges (see judges.notes.txt)
+# ---------------------------------------------------------------------
+# Read from the page scans inside thecompanionbible_202504_pdf/
+# 21. Lamentations_text.pdf (printed pp. 1097-1104), one note column at a
+# time, then cross-checked against a fresh Tesseract OCR with
+# ocr-check.py. The book introduction (p. 1097) is verse-0 notes, its
+# numbered list of calamities run on as prose. The "TITLE" note is keyed
+# to 1:1. Hebrew letters are kept in Hebrew script; transliterations are
+# plain ASCII (macrons and under-dots dropped).
+#
+# COMPLETE: all 5 chapters, every printed note, printed pp. 1097-1104.
+#
+# Corrections (demonstrable slips only):
+#   - 2:5 "Note tne Fig." -> the; 5:12 "Ap 6" -> Ap. 6.
+#
+# Left as printed (likely slip or oddity, not provable from the page):
+#   - 2:15 "Pss. 109. 5; 144, 12" (comma for stop; zoomed at 600 dpi,
+#     printed so).
+#   - 3:45 "people = peoples" printed twice, the second time after the
+#     v. 46 note (zoomed: the numeral is 45). Not misplaced from v. 48:
+#     only v. 45's "people" carries the note mark in the text column.
+#     A printer's duplicate; both kept under 3:45.
+#   - no notes are printed for some marked words (e.g. 5:10 skin).
+
+[[heading: THE LAMENTATIONS OF JEREMIAH]]
+0 | For the place of Lamentations in the Hebrew Canon, see Ap. 1, where it is found to be the central book of the five M'gilloth (or scrolls).
+0 | The book consists of five Elegies on the destruction of Jerusalem; and not, as Josephus supposed, on the death of Josiah (Ant. Jud. L. x, c. 5, § 1), basing his opinion on 2 Chron. 35. 25.
+0 | This book is appropriately read on the Fast of the ninth day of the fifth month (Ab, our August. See Ap. 51. V). For on that day are still commemorated the five great calamities which befell the nation, viz.:—
+0 | 1. The return of the twelve spies, and the decree of the forty years' wanderings in consequence of the rebellion of the People.
+0 | 2. The destruction of the first Temple by Nebuchadnezzar.
+0 | 3. The destruction of the second Temple by the Romans under Titus.
+0 | 4. The taking of Bether by the Romans under Hadrian, when 580,000 were slain.
+0 | 5. The ploughing of Zion like a field, in fulfilment of Jer. 26. 18, &c. and Micah 3. 12.
+0 | The five Elegies are arranged in a remarkable manner:—
+0 | The first two (chapters 1 and 2) consist of twenty-two long verses of three lines each, each verse respectively commencing with the successive letters of the alphabet.
+0 | The third (chap. 3) consists of sixty-six verses (3 x 22), each triad of verses commencing with the same letter: e. g. the first three lines commence with א (Aleph), the next three with ב (Beth), and so on through the twenty-two letters of the alphabet.
+0 | The fourth (chap. 4) is arranged in twenty-two long verses of two lines each, also arranged acrostically.
+0 | The fifth (chap. 5) Lamentation is resolved into a prayer, and the acrostic arrangement gives way before the outburst of emotion. The only connection with the alphabet is that the number of the verses corresponds with the number of letters (twenty-two).
+0 | The Septuagint (followed by the Arabic and Vulgate versions) prefaces its version with these words: "It came to pass that, after Israel was taken captive and Jerusalem was made desolate, Jeremiah sat weeping, and lamented with this lamentation over Jerusalem, and said . . ."
+0 | The Arabic Targum begins its paraphrase thus: "Jeremiah the prophet, and great priest, said . . ."
+1:1 | TITLE. In the Hebrew text the name of the book is its first word, 'Eykah = ALAS! The Talmud (Tract, Baha Bathra, fol. 14b) calls it Kinoth = dirges or elegies. The Sept. has Threnoi, with the same meaning. The Vulg. has Threni, i. e. Lamentationes and Lamenta.
+1:1 | How = Alas! or, O how! Heb. 'eykah = an exclamation of pain and grief, a wailing cry (preserved in Eng. "jackal"). The Massorah (Ap. 30) points out that this exclamation is used by three prophets, concerning Israel: (1) by Moses in her multiplication (Deut. 1. 12. Cp. v. 11); (2) by Isaiah in her dissipation (Isa. 1. 21); (3) by Jeremiah in her desolation (Lam. 1. 1). This word "How" is to be supplied at the beginning of vv. 2 and 3 by Fig. Ellipsis (Ap. 6). Cp. also 2. 1; 4. 1; and Isa. 14. 12. solitary: i. e. empty; referring to the houses and streets.
+1:2 | weepeth sore. Note Fig. Polyptoton (Ap. 6). The Heb. = a weeping she weepeth. Thus well rendered. See note on Gen. 26. 28; and note the Fig. Prosopopoeia (Ap. 6). lovers: i. e. allies, whom she had preferred to Jehovah. See Jer. 2. 17, 27, 36, 37; 4. 30; 22. 22. Ezek. 23; and 29. 6, 7, 16. enemies. Especially the Edomites and Ammonites. Cp. Jer. 12. 14.
+1:3 | among the heathen. Ref. to Pent. (Deut. 28. 64, 65). heathen = nations. persecutors = pursuers. between the straits. Like a hunted animal driven where there is no escape. Same word as in Pss. 116. 3; 118. 5. Occurs only in these three places. Cp. v. 6.
+1:4 | The ways. Not streets in the city, but the roads leading thereto. mourn. Fig. Prosopopoeia. Ap. 6. solemn feasts = appointed feasts. See note on Ps. 74. 8 (same word). bitterness = bitter for her. Instead of festal joy. Cp. Jer. 7. 34; 16. 9; 25. 10; 31. 13; 33. 11.
+1:5 | are the chief = are the head. Ref. to Pent. (Deut. 28. 13, 44), the same word. Ap. 92. the LORD. Heb. Jehovah. Ap. 4. II. transgressions = rebellions. Heb. pasha'. Ap. 44. ix. children = young children, as in 2. 11, 19, 20; and 4. 4. Not "sons".
+1:6 | like harts. See note on v. 3.
+1:7 | pleasant things. Heb. = things of desire. Put by Fig. Metonymy (of Adjunct), Ap. 6, for the things she used to enjoy. sabbaths: or, sabbath-keepings; which she had herself profaned. See Jer. 17. 21-23. Ezek. 22. 8, 26; 23. 38.
+1:8 | grievously sinned. Note the Fig. Polyptoton (Ap. 6). Heb. = sinned a sin. Thus well rendered. See note on "weepeth sore" (v. 2). sinned. Heb. chata'. Ap. 44. i. is removed = separated as unclean.
+1:9 | remembereth = remembered. last end = hereafter. wonderfully. Heb. pl. "wonders" = a great wonder. behold = see, behold. Same word as in vv. 18, 20. Not the same word as in v. 12.
+1:10 | entered into her sanctuary. Ref. to Pent. (Deut. 23. 3), a technical expression. Ap. 92. congregation = convocation, or assembly.
+1:11 | soul. Heb. nephesh. Ap. 13.
+1:12 | behold = look attentively. Not the same word as in vv. 9, 18, 20. be = exists. Heb. yesh. See Gen. 18. 24. Prov. 8. 21; 18. 24, &c. sorrow = pain. done unto me. Cp. v. 22; 3. 15.
+1:14 | The yoke, &c. Ref. to Pent. (Deut. 28. 48), the same words. Ap. 92. wreathed = intertwined. He: or, It: i. e. the yoke. fall = stumble. the LORD*. One of the 134 places where the Sopherim say they changed Jehovah to Adonai. See Ap. 32.
+1:15 | mighty men = valiant ones. Heb. 'abir. Not the same word as in 3. 1, 27, 35, 39. called = proclaimed. Same word as in vv. 19, 21. an assembly = a festal gathering. Now that Israel's feasts had ceased, there was another of a different nature and with a different object. winepress. Heb. gath, where the grapes were trodden. Not the vat (yekeb) into which the juice was received.
+1:16 | mine eye, mine eye. Fig. Epizeuxis (Ap. 6), for emphasis. It is not repeated in the Sept. relieve my soul = bring me back to life. Cp. v. 19. children = sons. Not the same word as in 2. 11, 19, 20 and 4. 4.
+1:17 | Jacob. Referring to the natural seed. See notes on Gen. 32. 28; 43. 6; 45. 26, 28. Cp. 2. 1.
+1:18 | is. Heb. = He [is]. people = peoples.
+1:19 | gave up the ghost = expired, or breathed their last.
+1:20 | Behold. Here begins the prayer. See the Structure C1, on p. 1097. abroad the sword. Ref. to Pent. (Deut. 32. 25).
+1:21 | the day: i. e. the day of vengeance of Jer. 25. 17-26.
+1:22 | Let all, &c. This prayer is in accordance with that Dispensation. Not with this. See Ap. 63. IX. wickedness. Heb. ra'a'. Ap. 44. viii. as = according as. transgressions = rebellions. Heb. pasha'. Ap. 44. ix. Cp. 3. 42.
+2:1 | the LORD*. One of the 134 places where the Sopherim say they altered "Jehovah" of the primitive text to "Adonai". See Ap. 32. the beauty of Israel. Probably referring to the Temple (Isa. 64. 11), or the heroic defenders of Jerusalem (2 Sam. 1. 19). Israel. Referring to the spiritual seed. See note on 1. 17. His footstool. Probably referring to the ark of the covenant (1 Chron. 28. 2), or the sanctuary (Pss. 99. 5; 132. 7. Isa. 60. 13).
+2:2 | swallowed up: i. e. as by an earthquake. habitations = the open villages of the shepherds, in contrast with the strongholds of the next lines.
+2:3 | horn. Put by Fig. Metonymy (of Cause), Ap. 6, for the self-protection afforded by it. right hand. Fig. Anthropopatheia. Ap. 6.
+2:4 | His bow. Fig. Anthropopatheia. Ap. 6. all that were pleasant to the eye. Heb. = all the desires of the eye; "eye" being put by Fig. Metonymy (of the Adjunct), Ap. 6, for the things desired by it. eye. Transfer here the colon which is wrongly placed after Zion. tabernacle = tent. Heb. 'ohel. Ap. 40. 3. Zion: place this colon after "eye" in preceding line, and connect Zion with the verb which follows.
+2:5 | her. Ginsburg thinks it should be "His". mourning and lamentation. Note the Fig. Paronomasia (Ap. 6). Heb. taaniyyah vaaniyyah.
+2:6 | tabernacle = dwelling, or pavilion. Heb. sok. Occurs only here. as if it were of a garden: or, as [a booth in] a garden [is destroyed]. See note on Isa. 1. 8. Sept. reads "like a vine". Ginsburg thinks "like a thief". the LORD. Heb. Jehovah. Ap. 4. II. solemn feasts = appointed seasons.
+2:8 | destroying = swallowing up.
+2:9 | ground = earth. her king, &c. Ref. to Pent. (Deut. 28. 36). Ap. 92. Gentiles = nations. the law is no more: i. e. is no longer known and obeyed. Cp. Neh. 13. 1, and Esdras 14. 20, 21.
+2:10 | girded . . . with sackcloth. The outward symbol of mourning.
+2:11 | troubled = moved, or in ferment. liver. Fig. for the seat of the emotions. Cp. Job 16. 13. children = babes.
+2:12 | wine. Heb. yayin. Ap. 27. I. soul. Heb. nephesh. Ap. 13.
+2:14 | prophets, &c. Cp. Ezek. 12. 24; 13. 1-16, 23; 21. 29; 22. 28. iniquity. Heb. 'avah. Ap. 44. iv. turn away thy captivity = cause thy captives to return. See note on Deut. 30. 3. burdens = oracles. causes of banishment. Here, the Fig. Metonymy (of Effect), Ap. 6, is translated. Heb. = expulsions, which is put for the effect of listening to those who brought about the expulsion (Jer. 2. 8; 5. 31; 14. 14; 23. 16).
+2:15 | pass by = pass by the way. saying. Note the Ellipsis of this verb, which is very frequent in Hebrew. See Pss. 109. 5; 144, 12, &c. Is . . . ? Fig. Erotesis. Ap. 6.
+2:16 | All, &c. In some Codices, with Syr., vv. 16 and 17 are transposed to bring the letters Ayin (ע = ') and Pe (פ = P) into alphabetical order. The Sept. leaves the verses, but transposes the letters. This is done because it is supposed to be a mistake. But it cannot be, because the same order appears in chs. 3 and 4, and in the former case it occurs three times, although the subject-matter allows no such break. It is easier to believe that the outward artificial form is sacrificed to call our attention to the greater importance of the utterance. In v. 16 we learn what the enemy thought and said; but, as the Ayin (ע) really precedes the Pe (פ), so we are reminded that this was only owing to Jehovah's purpose which had been revealed centuries before. See note on v. 17.
+2:17 | For the transposition of the Hebrew alphabet here, see note on v. 16, above. devised. Ref. to Pent. (Lev. 26. 16, 17. Deut. 28. 15).
+2:18 | cried = cried (distressfully).
+2:19 | the LORD*. This is the reading in some Codices, with one early printed edition. life = soul. Heb. nephesh. Ap. 13.
+2:20 | consider. Put a colon after "consider", and an "?" after "this". Shall . . . ? Fig. Erotesis. Ap. 6. Ref. to Pent. (Lev. 26. 29. Deut. 28. 53). Ap. 92. span. See Ap. 51. III. 2 (4).
+2:22 | solemn day = day of assembly. terrors round about. Cp. Jer. 6. 25; 20. 3, 10; 46. 5; 49. 29.
+3:1 | This chapter contains twenty-two verses: each verse having three lines: each line beginning with the same letter: and so, onward to the end of the alphabet. I am the man. The prophet is representative of the nation, and speaks in the name of the whole. He is also typical and prophetical of Another, Who, in after years, took on Himself and bore the nation's sin. Ap. 85. The chapter must be read in connection with the Passion Psalms (Pss. 22, 69, 88). The Fig. is Prosopopoeia (Ap. 6), by which the nation speaks as one man. man = strong man. Heb. geber. Ap. 14. IV. affliction: or, humiliation.
+3:5 | builded against = built up against. gall. Cp. v. 19, and Ps. 69. 21, with Matt. 27. 34. travel = travail, or labour. This line probably is put for the fortifications and the trench.
+3:6 | set me = made me to dwell. as they, &c. = like the age-long dead.
+3:7 | chain = iron, or bronze. Put by Fig. Metonymy (of Cause), Ap. 6, for the fetters made of it. Cp. Judg. 16. 21 and 2 Kings 25. 7. 2 Chron. 33. 11; 36. 6. Jer. 39. 7; all of distinguished men.
+3:9 | crooked = to turn or wind back.
+3:10 | as a lion. See note on Ps. 22. 16.
+3:12 | His bow. Fig. Anthropopatheia. Ap. 6.
+3:13 | arrows = sons. Fig. Hypocatastasis. Ap. 6. As "sparks" are called "sons of the flame".
+3:14 | derision. Cp. Jer. 20. 8. all my People. A special various reading called Sevir (Ap. 34), with some codices, and Syr., read "all peoples". song = mocking-song. Cp. v. 63 and Ps. 69. 12.
+3:17 | soul. Heb. nephesh. Ap. 13.
+3:18 | strength = strength (for endurance). Heb. nezah. See notes on Isa. 40. 9, 10, 26, 29, 31. the LORD. Heb. Jehovah. Ap. 4. II.
+3:19 | Remembering = Remember.
+3:20 | My soul. The primitive reading was "Thy soul", which the Sopherim have recorded, and state that they altered it to "My soul" (see Ap. 33), considering it an offensive anthropomorphism. By so doing they destroyed the logical sequence and deep pathos of the primitive text. The three verses (19, 20, 21) retranslated will show this:— 19 "Remember my humiliation and my misery, The wormwood and the gall. 20 Yea, verily, Thou wilt remember, And Thy soul will mourn over me. 21 This I bring back to my heart, Therefore I shall have hope."
+3:21 | mind = heart. hope = expectation.
+3:22 | mercies = lovingkindnesses. because = verily.
+3:23 | new = fresh. every morning. Put by Fig. Synecdoche (of the Part), Ap. 6, for always and continually.
+3:25 | wait for Him. Ref. to Pent. (Gen. 49. 18, same word).
+3:26 | quietly wait = wait, and be silent.
+3:29 | be. See note on 1. 12.
+3:30 | giveth his cheek. Cp. Isa. 50. 6.
+3:31 | the LORD*. One of the 134 places where the Sopherim say they altered "Jehovah" of the primitive text to "Adonai". See Ap. 32. Here some codices, with two early printed editions, also read "Jehovah".
+3:33 | willingly = from His heart. children = sons. men. Heb. 'ish (sing.). Ap. 14. II.
+3:35 | turn aside, &c. Ref. to Pent. (Deut. 16. 19; 24. 17; 27. 19, same word). Ap. 92. the MOST HIGH. Heb. 'Elyon. Ap. 4. VI.
+3:36 | man. Heb. 'adam. Ap. 14. I.
+3:38 | evil. Heb. ra'a'. Ap. 44. viii.
+3:39 | sins. Heb. chata'. Ap. 44. i.
+3:41 | GOD. Heb. El. Ap. 4. IV. the heavens. Supply the Ellipsis thus: "the heavens [saying], We have", &c.
+3:42 | transgressed = revolted. Heb. pasha'. Ap. 44. ix. Cp. 1. 22.
+3:43 | persecuted = pursued. Cp. Ps. 35. 6.
+3:45 | people = peoples.
+3:46 | All our enemies, &c. Here again, as in 2. 16 and 17, the letters Pe (פ = P) and Ayin (ע) are transposed; not from any "mistake" or "forgetfulness", but to call our attention to the truth which might otherwise have been overlooked: viz. the sorrow, on account of the destructive work of the enemies (vv. 46-48), which would have been averted by true sorrow for the sins which caused it (vv. 49-51). opened their mouths. Cp. Ps. 22. 13.
+3:45 | people = peoples.
+3:47 | Fear and a snare. Note the Fig. Paronomasia (Ap. 6). Heb. pachad vapachath. Cp. Isa. 24. 17. Jer. 48. 43. In English, "Scare and snare".
+3:48 | Mine eye runneth down. Cp. Luke 19. 41. Ap. 85. eye = tears: "eye" being put by Fig. Metonymy (of Adjunct), Ap. 6, for the tears which flow from it.
+3:51 | mine heart = my soul. Heb. nephesh. Ap. 13.
+3:53 | dungeon = pit. Cp. Jer. 38. 6; and Ps. 88. 6.
+3:54 | over mine head. Cp. Ps. 69. 2. I am cut off. Cp. Ps. 88. 5.
+3:55 | Thy name = Thee, or Thy attributes. See note on Ps. 20. 1.
+3:56 | at my breathing. See note on Mal. 3. 16. at my cry. Some codices, with Vulg., read "and at my cry" (or outcry).
+3:58 | redeemed. Heb. ga'al. See note on Ex. 6. 6.
+3:62 | lips. Cp. Ps. 22. 7. Ap. 85. device = meditation. Heb. Higyon. See Ap. 66. I.
+3:63 | their musick = their mocking song, as in v. 14.
+3:64 | Render, &c. Cp. Ps. 69. 22.
+3:65 | Give them sorrow of heart = Thou wilt suffer them a veiling (or obstinacy) of heart. See Isa. 6. 9, 10. sorrow = covering, or veiling.
+4:1 | This chapter, like chs. 1 and 2, is an acrostic: the twenty-two verses commencing successively with the twenty-two letters of the Hebrew alphabet. gold . . . most fine gold . . . fine gold. Fig. Anabasis (Ap. 6), which is lost in A.V. rendering, which should be "gold . . . fine gold . . . pure gold". become dim . . . changed . . . poured out. Note the Fig. Catabasis (Ap. 6).
+4:2 | fine gold = pure gold. See note above. as earthen pitchers. The comparison is both in the material and in the workmanship. Cp. Jer. 18. 1-6; 19. 1-10.
+4:3 | sea monsters. R.V. = jackals (Jer. 9. 11). ostriches. Cp. Job 39. 13-17.
+4:5 | embrace. Cp. Job 24. 8.
+4:6 | For = And. punishment of the iniquity. This is the full translation of the Fig. Metonymy (of Effect), Ap. 6: the "iniquity" being put for its consequent punishment. iniquity. Heb. 'avah. Ap. 44. iv. punishment of the sin. This is the full translation of the Fig. Metonymy (of Effect), Ap. 6, the Heb. chata' (sin) being put for the consequent punishment. overthrown, &c. Ref. to Pent. (Gen. 19. 25). Ap. 92. stayed = travailed on her: i. e. brought it about; for the overthrow was direct from God.
+4:8 | known = recognised. cleaveth. Heb. occurs only here.
+4:9 | are = have proved.
+4:10 | pitiful = tender-hearted. have sodden, &c. Ref. to Pent. (Deut. 28. 56, 57). Ap. 92. Cp. 2 Kings 6. 29. children = babes.
+4:11 | The LORD. Heb. Jehovah. Ap. 4. II. kindled a fire. Ref. to Pent. (Deut. 32. 22). Ap. 92.
+4:13 | just = righteous ones. Cp. Matt. 23. 31, 37.
+4:14 | polluted . . . with blood. Ref. to Pent. (Num. 19. 11, 16). Ap. 92.
+4:15 | Depart ye, &c. Ref. to Pent. (Lev. 13. 45). Ap. 92. heathen = nations.
+4:16 | anger = face. Put by Fig. Metonymy (of Effect), Ap. 6, as manifesting the anger felt. persons = face. Put by Fig. Synecdoche (of the Part), Ap. 6, for the whole person.
+4:19 | persecutors = pursuers. swifter than the eagles. Ref. to Pent. (Deut. 28. 49).
+4:20 | breath. Heb. ruach. Ap. 9. the anointed: i. e. Zedekiah was still Jehovah's "anointed", even as Saul was (1 Sam. 26. 9, 11, 16, 23. 2 Sam. 1. 14, 16). pits = toils. Occurs only here and Ps. 107. 20. Heb. shichith. Cp. Jer. 2. 6; 18. 20, 22.
+4:21 | Rejoice, &c. Said in solemn irony. the land of Uz. See notes on p. 666, and Ap. 62. naked. Between vv. 21 and 22 lies the whole of this present Dispensation. See Ap. 63. IX and 72.
+4:22 | accomplished = completed. visit = punish, as in v. 6. See note there.
+5:1 | The acrostic gives way before the outburst of emotion in prayer. The only connection with it is the number of the verses (twenty-two, corresponding with the letters of the Hebrew alphabet). LORD. Heb. Jehovah. Ap. 4. II.
+5:2 | inheritance: i. e. Canaan.
+5:5 | Our necks are under persecution = Our pursuers are upon our necks. persecution = pursuers. and. Some codices, with two early printed editions and Syr., read this "and" in the text. have no rest = no respite was granted us.
+5:6 | given the hand. Put by Fig. Metonymy (of the Adjunct), Ap. 6, for voluntary submission.
+5:7 | sinned. Heb. chata'. Ap. 44. i. borne. As a burden. The same word as in Isa. 53. 4, 11. iniquities. Heb. 'avah. Ap. 44. iv.
+5:9 | We gat our bread = We brought home our bread. lives = souls. Heb. nephesh. Ap. 13. Some codices, with one early printed edition, read "souls". sword of the wilderness. "The sword" is put, by Fig. Metonymy (of Cause), Ap. 6, for the raids and fightings of the inhabitants of the wilderness.
+5:11 | women = wives.
+5:12 | faces. Put by Fig. Synecdoche (of the Part), Ap. 6, for the whole person.
+5:13 | to grind: i. e. to do women's work. children = young children, youths. fell = staggered. under the wood: i. e. under [the weight or load] of the wood (they were compelled as bond-slaves to carry).
+5:17 | this: i. e. this sin. these things: i. e. loss of king, country, possessions, and liberties.
+5:18 | foxes = jackals.
+5:19 | remainest = sittest: i. e. as king.
+5:20 | dost = wilt.
+5:21 | Turn Thou us. National repentance was the one abiding condition of national blessing, and this must be Jehovah's own work. unto Thee = unto Thyself.
+5:22 | art = hast been. In the public reading of the Hebrew text v. 21 is repeated after v. 22, so that the book may end with comfort. The same is the case with Ecclesiastes, Isaiah, and Malachi. The synagogue use appoints this book to be read on the Fast of Ab, which commemorates the destruction of Jerusalem.

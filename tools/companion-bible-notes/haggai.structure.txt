@@ -1,0 +1,105 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Haggai
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/33. Haggai_text.pdf, printed pp. 1276-1280);
+# [[pdf-page:]] is the page of that file each diagram is on. Notation:
+# README.md here. Small-capital words are written in title case.
+#
+# The book Structure's J1 is the Haggai member of the Three Prophets
+# diagram (p. 1206; see hosea.structure.txt).
+
+[[diagram: Haggai. The Structure of the Book as a Whole (Extended Alternation)]]
+[[anchor: Haggai 1:1]]
+[[pdf: 33. Haggai_text.pdf]]
+[[pdf-page: 1]]
+
+J1 |  |
+  A |  | 1. 1-4. DISAPPROBATION AT NEGLECT.
+    B |  | 1. 5-11. PUNISHMENT. SCARCITY.
+      C |  | 1. 12—2. 5. OBEDIENCE AND ENCOURAGEMENT.
+        D |  | 2. 6-9. "I WILL SHAKE", &c.
+[[group: The first and second messages.]]
+  A |  | 2. 10-14. DISAPPROBATION AT NEGLECT.
+    B |  | 2. 15-17. PUNISHMENT. SCARCITY.
+      C |  | 2. 18, 19. OBEDIENCE AND ENCOURAGEMENT.
+        D |  | 2. 20-23. "I WILL SHAKE", &c.
+[[group: The third and fourth messages.]]
+
+[[diagram: 1. 1-4 (A, p. 1276). Disapprobation at Neglect (Alternation)]]
+[[anchor: Haggai 1:1-4]]
+[[pdf: 33. Haggai_text.pdf]]
+[[pdf-page: 2]]
+
+A |  |
+  A | 1 | The word of Jehovah.
+    B | 2 | The People's saying. Cited by Jehovah.
+  A | 3 | The word of Jehovah.
+    B | 4 | The People's saying. Reply of Jehovah.
+
+[[diagram: 1. 5-11 (B, p. 1276). Punishment. Scarcity (Alternation)]]
+[[anchor: Haggai 1:5-11]]
+[[pdf: 33. Haggai_text.pdf]]
+[[pdf-page: 2]]
+
+B |  |
+  C | 5 | Call to consider.
+    D | 6 | Scarcity.
+  C | 7, 8 | Call to consider.
+    D | 9-11 | Scarcity.
+
+[[diagram: 1. 12—2. 5 (C, p. 1276). Obedience and Encouragement (Alternation)]]
+[[anchor: Haggai 1:12]]
+[[pdf: 33. Haggai_text.pdf]]
+[[pdf-page: 3]]
+
+C |  |
+  E |  | 1. 12. Obedience.
+    F |  | 1. 13. Encouragement.
+  E |  | 1. 14, 15. Obedience.
+    F |  | 2. 1-5. Encouragement.
+
+[[diagram: 2. 6-9 (D, p. 1276). "I Will Shake", etc. (Division)]]
+[[anchor: Haggai 2:6-9]]
+[[pdf: 33. Haggai_text.pdf]]
+[[pdf-page: 3]]
+
+D |  |
+  G1 | 6, 7- | Threatening.
+  G2 | -7-9 | Promise.
+
+[[diagram: 2. 10-14 (A, p. 1276). Disapprobation (Introversion and Alternation)]]
+[[anchor: Haggai 2:10-14]]
+[[pdf: 33. Haggai_text.pdf]]
+[[pdf-page: 4]]
+
+A |  |
+  H | 10 | The word of Jehovah by Haggai.
+    J |  |
+      a | 11-12- | Question re uncleanness.
+        b | -12 | Answer.
+    J |  |
+      a | 13- | Question re uncleanness.
+        b | -13 | Answer.
+  H | 14 | The word of Jehovah by Haggai.
+
+[[diagram: 2. 15-19 (B and C, p. 1276). Punishment and Encouragement (Extended Alternation)]]
+[[anchor: Haggai 2:15-19]]
+[[pdf: 33. Haggai_text.pdf]]
+[[pdf-page: 4]]
+
+B |  |
+  K | 15 | Consider. Past time: "before".
+    L | 16, 17- | After the Ingathering.
+      M | -17 | Impenitence.
+C |  |
+  K | 18 | Consider. Subsequent time.
+    L | 19- | Before the Ingathering.
+      M | -19 | Beneficence.
+
+[[diagram: 2. 20-23 (D, p. 1276). I Will Shake (Division)]]
+[[anchor: Haggai 2:20-23]]
+[[pdf: 33. Haggai_text.pdf]]
+[[pdf-page: 4]]
+
+D |  |
+  N1 | 20-22 | Threatening.
+  N2 | 23 | Promise.

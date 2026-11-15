@@ -1,0 +1,42 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Lamentations
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/21. Lamentations_text.pdf, printed pp. 1097-1104);
+# [[pdf-page:]] is the page of that file each diagram is on. Notation:
+# README.md here. Hebrew letters are written in Hebrew script as printed;
+# the dotted transliterations (H, Z, K under-dot) are plain ASCII.
+#
+# Book Structure: each A text line, B bracket, D, E and C member prints one
+# step further right, and depths follow the print (C deepest). In A3 the
+# page steps C3 two levels after the text line D4; it is set one level in.
+
+[[diagram: Lamentations. The Structure of the Book as a Whole (Extended Alternations and Introversion)]]
+[[anchor: Lamentations 1:1]]
+[[pdf: 21. Lamentations_text.pdf]]
+[[pdf-page: 1]]
+
+A1 |  |
+  A1 |  | 1. 1-7. JUDGMENTS. (Aleph (א = A) to Zayin (ז = Z).)
+    B1 |  |
+      D1 |  | 1. 8-11. ZION. CONFESSION. (Cheth (ח = H) to Kaph (כ = K).)
+        E1 |  | 1. 12, 13. APPEAL TO PASSERS BY. (Lamed (ל = L) to Mem (מ = M).)
+      D2 |  | 1. 14-18-. ZION. CONFESSION. (Nun) (נ = N) to Tzaddi (צ = Z).)
+        E2 |  | 1. -18, 19. APPEAL TO PASSERS BY. (Koph, ק = K.)
+          C1 |  | 1. 20-22. PRAYER. (Resh (ר = R) to Tau (ת = T).)
+A2 |  |
+  A2 |  | 2. 1-13. THE JUDGE. (Aleph (א = A) to Mem (מ = M).)
+    B2 |  |
+      D3 |  | 2. 14. ZION. SIN UNCONFESSED. (Nun, נ = N.)
+        E3 |  | 2. 15-17. RECRIMINATION OF PASSERS BY. (Samech (ס = S) to Pe (פ = P).)
+          C2 |  | 2. 18-22. PRAYER. (Tzaddi (צ = Z) to Tau (ת = T).)
+A3 |  |
+  A3 |  | 3. 1-21. THE JUDGE. (Aleph (א = A) to Zayin (ז = Z).)
+    B3 |  |
+        E4 |  | 3. 22-36. REMEMBRANCE OF JEHOVAH'S MERCIES. (Cheth (ח = H) to Lamed (ל = L).)
+      D4 |  | 3. 37-51. ZION. SIN CONFESSED. (Mem (מ = M) to Pe (פ = P).)
+        C3 |  | 3. 52-66. PRAYER. (Tzaddi (צ = Z) to Tau (ת = T).)
+A4 |  |
+  A4 |  | 4. 1-12. JUDGMENTS. (Aleph (א = A) to Lamed (ל = L).)
+    B4 |  |
+      D5 |  | 4. 13-20. ZION. CONFESSION. (Mem (מ = M) to Resh (ר = R).)
+        E5 |  | 4. 21, 22. RETRIBUTION OF JEHOVAH. (Shin (ש = S) to Tau (ת = T).)
+          C4 |  | 5. 1-22. PRAYER.

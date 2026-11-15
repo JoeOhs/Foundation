@@ -1,0 +1,265 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Esther
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/13. Esther_text.pdf, printed pp. 654-664);
+# [[pdf-page:]] is the page of that file each diagram is on. Notation:
+# README.md here.
+#
+# In the whole-book Structure (p. 654) each C prints outside B's bar but one
+# step right of the row above it (the second F, H, K, M); as in Isaiah and
+# Ecclesiastes it is set one level in from that row. The fourth E
+# prints with no superscript and is written "E" as printed. Where the second
+# half of a pair prints its members in reverse order (2. 1-20: f2 e2, f3 e3)
+# both sit at one depth; likewise 3. 1-15 second E (m, l) and 8. 7-17 second
+# z (b, a). In 3. 1-15 each E prints one step right of k and is set one
+# level in from it. Multi-chapter diagrams are anchored at their first verse.
+#
+# Checked: all 15 diagrams compared with their scans; bar-check's 5 flags
+# are the documented reversed-pair depths and two 8. 7-17 rows matched to
+# the scripture column.
+
+[[diagram: Esther. The Structure of the Book as a Whole (Introversions and Alternations)]]
+[[anchor: Esther 1:1]]
+[[pdf: 13. Esther_text.pdf]]
+[[pdf-page: 1]]
+
+A1 |  | 1. 1. Ahasuerus. Reign. Extent of kingdom.
+B1 |  |
+  D1 |  | 1. 2—2. 20. Ahasuerus. On his throne.
+    E1 |  |
+      F |  | 2. 21-23. Mordecai. Discovery of plot (Bigthan and Teresh).
+        G |  | 3. 1-15. Haman. His plot.
+      F |  | 4. 1-3. Mordecai. Discovery of Haman's plot.
+        C1 |  | 4. 4—5. 14. Esther. Her intercession.
+B2 |  |
+  D2 |  | 6. 1. Ahasuerus. On his bed.
+    E2 |  |
+      H |  | 6. 2, 3. Mordecai. King's inquiry.
+        J |  | 6. 4-9. Haman. King's inquiry.
+      H |  | 6. 10-14. Mordecai. King's command.
+        C2 |  | 7. 1. Esther. Her banquet.
+B3 |  |
+  D3 |  | 7. 2-. Ahasuerus. At Esther's table.
+    E3 |  |
+      K |  | 7. -2. King. Inquiry and promise.
+        L |  | 7. 3, 4. Esther. Plea for life.
+      K |  | 7. 5-10. King. Inquiry and wrath.
+        C3 |  | 8. 1-. Esther. Her royal gift.
+B4 |  |
+  D4 |  | 8. -1, 2. Ahasuerus. On his throne.
+    E |  |
+      M |  | 8. 3-6. Esther. Plea for her people.
+        N |  | 8. 7-17. King. Decree.
+      M |  | 9. 1-28. Esther. Plea for her people.
+        C4 |  | 9. 29-32. Esther. Her royal authority.
+A2 |  | 10. 1-3. Ahasuerus. Reign. Extent of kingdom.
+
+[[diagram: 1. 2—2. 20 (D1, p. 654). Ahasuerus. On His Throne (Division)]]
+[[anchor: Esther 1:2]]
+[[pdf: 13. Esther_text.pdf]]
+[[pdf-page: 2]]
+
+D1 |  |
+  A1 |  | 1. 2-12. Queen Vashti. Offence.
+  A2 |  | 1. 13—2. 1. Queen Vashti. Degradation.
+  A3 |  | 2. 2-20. Queen Esther. Substituted.
+
+[[diagram: 1. 2-12 (A1, above). Queen Vashti. Offence (Alternation)]]
+[[anchor: Esther 1:2-12]]
+[[pdf: 13. Esther_text.pdf]]
+[[pdf-page: 2]]
+
+A1 |  |
+  a |  | 2, 3. Feast: king's to nobles.
+    b |  | 4. Display of riches.
+  a |  | 5-9. Feasts: king's to people; queen's to women.
+    b |  | 10-12. Display of Vashti.
+
+[[diagram: 1. 13-22 (A2, p. 655). Queen Vashti. Degradation (Alternation)]]
+[[anchor: Esther 1:13-22]]
+[[pdf: 13. Esther_text.pdf]]
+[[pdf-page: 3]]
+
+A2 |  |
+  c |  | 13-15. King's inquiry of wise men.
+    d |  | 16-20. Advice. Given.
+  c |  | 21. King's agreement with wise men.
+    d |  | 22. Advice. Acted on.
+
+[[diagram: 2. 1-20 (A3, p. 655). Queen Esther. Substituted (Repeated Alternation and Introversions)]]
+[[anchor: Esther 2:1-20]]
+[[pdf: 13. Esther_text.pdf]]
+[[pdf-page: 3]]
+
+A3 |  |
+  B1 |  | 1-4. Maidens. Sought.
+    C1 |  |
+      e1 |  | 5, 6. Mordecai. Position.
+        f1 |  | 7. Esther. Relation.
+  B2 |  | 8-. Maidens. Gathered.
+    C2 |  |
+      f2 |  | -8, 9. Esther. Included.
+      e2 |  | 10, 11. Mordecai. Solicitude.
+  B3 |  | 12-14. Maidens. Rotation.
+    C3 |  |
+      f3 |  | 15-18. Esther. Selection.
+      e3 |  | 19, 20. Mordecai. Station.
+
+[[diagram: 2. 21-23 (F, p. 654). Mordecai. Discovery of Plot (Alternation)]]
+[[anchor: Esther 2:21-23]]
+[[pdf: 13. Esther_text.pdf]]
+[[pdf-page: 4]]
+
+F |  |
+  g |  | 21-. Mordecai. Station.
+    h |  | -21. Conspiracy. Made.
+  g |  | 22, 23-. Mordecai. Discovery.
+    h |  | -23. Conspiracy. Punished.
+
+[[diagram: 3. 1-15 (G, p. 654). Haman. Plot (Alternations and Introversion)]]
+[[anchor: Esther 3:1-15]]
+[[pdf: 13. Esther_text.pdf]]
+[[pdf-page: 5]]
+
+G |  |
+  D |  |
+    i |  | 1, 2-. Haman. Advancement.
+      k |  | -2-4. The king. Command re Haman.
+        E |  |
+          l |  | 5, 6. The plot. Devised.
+            m |  | 7. Pur. The month by lot. Twelfth month.
+  D |  |
+    i |  | 8, 9. Haman. Plot purposed.
+      k |  | 10, 11. The king. Compliance with Haman.
+        E |  |
+          m |  | 12-. Pur. The day by lot. Thirteenth day.
+          l |  | -12-15. The plot. Succeeds.
+
+[[diagram: 4. 1-3 (F, p. 654). Mordecai. Discovery of (Haman's) Plot (Division)]]
+[[anchor: Esther 4:1-3]]
+[[pdf: 13. Esther_text.pdf]]
+[[pdf-page: 5]]
+
+F |  |
+  n1 |  | 1, 2. Bitter cry. Mordecai. Shushan.
+  n2 |  | 3. Bitter cry. Jews. Provinces.
+
+[[diagram: 4. 4—5. 14 (C1, p. 654). Esther. Intercession (Division)]]
+[[anchor: Esther 4:4]]
+[[pdf: 13. Esther_text.pdf]]
+[[pdf-page: 6]]
+
+C1 |  |
+  G1 |  | 4. 4-17. Esther and Mordecai.
+  G2 |  | 5. 1-14. Esther and the king.
+
+[[diagram: 4. 4-17 (G1, above). Esther and Mordecai (Introversion and Alternation)]]
+[[anchor: Esther 4:4-17]]
+[[pdf: 13. Esther_text.pdf]]
+[[pdf-page: 6]]
+
+G1 |  |
+  H |  | 4. Esther. Information.
+    J |  |
+      o |  | 5, 6. Esther. Inquiry of Mordecai.
+        p |  | 7-9. Mordecai. Reply and request.
+    J |  |
+      o |  | 10, 11. Esther. Message to Mordecai.
+        p |  | 12-14. Mordecai. Reply and expostulation.
+  H |  | 15-17. Esther. Decision.
+
+[[diagram: 5. 1-14 (G2, above). Esther and the King (Alternations)]]
+[[anchor: Esther 5:1-14]]
+[[pdf: 13. Esther_text.pdf]]
+[[pdf-page: 6]]
+
+G2 |  |
+  K |  | 1, 2. King on royal throne.
+    L |  |
+      q |  | 3. King. Inquiry.
+        r |  | 4. Esther. Invitation given.
+      q |  | 5-. King. Compliance.
+        r |  | -5. Esther. Invitation accepted.
+  K |  | 6-. King at Esther's banquet.
+    L |  |
+      s |  | -6. King. Promise.
+        t |  | 7, 8. Esther. Second invitation.
+      s |  | 9-. Haman's joy.
+        t |  | -9-14. Esther. Second invitation.
+
+[[diagram: 5. -9-14 (t, p. 659). Esther. Second Invitation (Introversion)]]
+[[anchor: Esther 5:9-14]]
+[[pdf: 13. Esther_text.pdf]]
+[[pdf-page: 7]]
+
+t |  |
+  u |  | -9. Mordecai. Haman's indignation.
+    v |  | 10, 11. Haman. Ostentation.
+    v |  | 12. Haman. Pride.
+  u |  | 13, 14. Mordecai. Haman's gallows.
+
+[[diagram: 8. 7-17 (N, p. 654). King. Decree (Introversions and Alternation)]]
+[[anchor: Esther 8:7-17]]
+[[pdf: 13. Esther_text.pdf]]
+[[pdf-page: 9]]
+
+N |  |
+  w |  | 7-. The king.
+    x |  |
+      y |  | -7. Grant to Esther.
+[[group: -]]
+        z |  |
+          a |  | 8. The writing. Commanded.
+            b |  | 9, 10. The writing. Written.
+[[group: Decree.]]
+    x |  |
+      y |  | 11, 12. Grant to Esther's People.
+[[group: -]]
+        z |  |
+          b |  | 13. The writing. Copied.
+          a |  | 14. The writing. Dispatched.
+[[group: Decree.]]
+  w |  | 15-17. The king.
+
+[[diagram: 9. 1-28 (M, p. 654). Esther. Plea for Her People (Repeated Alternation and Introversion)]]
+[[anchor: Esther 9:1-28]]
+[[pdf: 13. Esther_text.pdf]]
+[[pdf-page: 10]]
+
+M |  |
+  N1 |  |
+    c1 |  | 1-4. Assemblage.
+      d1 |  | 5-10-. Slaughter. Palace.
+        e1 |  | -10. Abstention from plunder.
+          O |  |
+            i |  | 11. King. Receives report.
+              k |  | 12, 13. Esther's request.
+            i |  | 14. King. Makes another decree.
+  N2 |  |
+    c2 |  | 15-. Assemblage.
+      d2 |  | -15-. Slaughter. Shushan. City.
+        e2 |  | -15. Abstention from plunder.
+    c3 |  | 16-. Assemblage.
+      d3 |  | -16-. Slaughter. Provinces.
+        e3 |  | -16. Abstention from plunder.
+          O |  |
+            l |  | 17. Feasting. Provinces. One day (13th).
+              m |  | 18. Feasting. Shushan. Three days (13th, 14th, and 15th).
+            l |  | 19. Feasting. Villages. One day (14th).
+  N3 |  |
+    f |  | 20. Letters of Mordecai.
+      g |  | 21, 22. Days. Commemoration.
+        h |  | 23, 24. Observance.
+    f |  | 25. Letters of the king.
+      g |  | 26. Days. Names (Purim).
+        h |  | 27, 28. Observance.
+
+[[diagram: 9. 29-32 (C4, p. 654). Esther. Royal Authority (Alternation)]]
+[[anchor: Esther 9:29-32]]
+[[pdf: 13. Esther_text.pdf]]
+[[pdf-page: 11]]
+
+C4 |  |
+  n |  | 29-. Esther. Authority.
+    o |  | -29-31-. Confirmation.
+  n |  | -31. Esther. Authority.
+    o |  | 32. Confirmation.

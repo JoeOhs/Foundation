@@ -1,0 +1,68 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Obadiah
+# Marginal (side) notes, to be read alongside the KJV text.
+#
+# Format:  V | TEXT  —  verse 0 = a book-level introductory note
+#          [[heading: TEXT]] — the page's own heading over those notes
+#
+# ---------------------------------------------------------------------
+# Sources and method — as for Hosea (see hosea.notes.txt)
+# ---------------------------------------------------------------------
+# Read from the page scans inside thecompanionbible_202504_pdf/
+# 27. Obadiah_text.pdf (printed pp. 1244-1246), one note column and
+# bottom block at a time, then cross-checked against a fresh Tesseract
+# OCR with ocr-check.py. Obadiah is one chapter: notes are keyed by
+# verse alone. Verse 0 holds the introduction (p. 1244); its table of
+# Obadiah / Jer. 49 correspondences is one entry per row (left column,
+# then right), ditto marks (",,") as printed. Each Structure's heading
+# is kept at the head of the note for its first verse. Transliterations
+# are plain ASCII; small capitals are written in capitals; Gothic-letter
+# pronouns (thou) are written in plain type.
+#
+# COMPLETE: all 21 verses, every printed note, printed pp. 1244-1246
+# (p. 1246 continues with Jonah, not transcribed here).
+#
+# Corrections: none.
+# Kept as printed (verified on the scan): 8 "Jer. 49 13" (no stop);
+# 8 "Cp. 15, 16"; 18 "or Isa. 63. 1-6".
+
+[[heading: OBADIAH]]
+0 | For the CANONICAL order and place of the Prophets, see Ap. 1, and p. 1206.
+0 | For the CHRONOLOGICAL order of the Prophets, see Ap. 77.
+0 | For the Inter-relation of the Prophetic Books, see Ap. 78.
+0 | For the Formulae of Prophetic utterance, see Ap. 82.
+0 | For References to the Pentateuch by the Prophets, see Ap. 92.
+0 | For the Inter-relation of the Minor (or Shorter) Prophets, see pp. 1206 and 1207.
+0 | The Minor Prophets do not profess to be chronological. The order seems to be logical; hence, Obadiah corresponds with Joel, and takes up Joel's theme, and shows (by contrast) what Joel's "day of the LORD" shall be for Israel's enemies. See pp. 1206-7. Edom is the one enemy in Joel (3. 19) as in Obadiah: indeed, from the first, Gen. 27. 39, 40 was fulfilled (see notes on 1 Kings 22. 47 and 2 Kings 8. 20-22. 2 Chron. 21. 8-10). After that we find prophecies against Edom (Isa. 34. 5-17. Jer. 49. 17-22. Ezek. 25. 12-14; 35; and Obadiah).
+0 | The correspondence between Jer. 49 and Obadiah may be thus shown:
+0 | Obad. 1- = Jer. 49. 7-.
+0 | ,, -1, 2 = ,, 14, 15.
+0 | ,, 3, 4 = ,, 16.
+0 | ,, 5- = ,, -9.
+0 | Obad. -5 = Jer. 49. 9-.
+0 | ,, 6 = ,, 10.
+0 | ,, 8 = ,, -7.
+0 | ,, 9 = ,, 22.
+0 | The two prophecies are independent and original. There is no need to discuss which of the two quoted the other, or whether both refer to an earlier prophet. All beyond the Scripture record is conjecture.
+0 | That Obadiah gives details which are complementary may well be explained by the Fig. Hysteresis (Ap. 6).
+0 | For the partial fulfilment of the prophecy, see the notes.
+0 | The prophecy of Obadiah is undated; but, from the internal evidence, referred to above, it was almost certainly subsequent to the captivity of Jehoiachin (489-8 B.C.), or to the destruction of Jerusalem by Nebuchadnezzar, and the end of Judah. This would bring it to either 482 B.C. or 472 B.C.
+1 | 1-16 (A1, p. 1244). EDOM. DESTRUCTION. (Alternation and Introversion.) Obadiah = Servant of Jehovah. Cp. 1 Kings 18. 3. Thus saith, &c. The words of this prophecy, therefore, are not Obadiah's, but Jehovah's. Cp. vv. 8, 18. the Lord GOD. Heb. Adonai Jehovah. Ap. 4. VIII (2) and II. concerning Edom. See notes on p. 1244. We have heard. The rhetorical difficulty may be removed by regarding these words as the words of Edom's foes. a rumour = tidings. the LORD. Heb. Jehovah. Ap. 4. II. Supply the logical Ellipsis (Ap. 6): "from Jehovah [that Edom is to be attacked]". and: or, and [already]. heathen = nations. Arise ye. These are the words of the embassage. in battle = the war.
+2 | Behold. Fig. Asterismos. Ap. 6. Calling attention to the words of Jehovah.
+3 | the clefts, &c. Referring to the natural position of the Edomites. Cp. 2 Kings 14. 7.
+4 | Though, &c. The words of Jehovah. set thy nest. Ref. to Pent. (Num. 24. 21). Ap. 92. Cp. Hab. 2. 9. among the stars. Fig. Hyperbole. Ap. 6. saith the LORD = [is] Jehovah's oracle.
+5 | If . . . ? Fig. Erotesis. Ap. 6. how. Fig. Ejaculatio, or Erotesis. Ap. 6. if the grapegatherers. Some codices, with Aram., Sept., and Syr., read "or if", &c. would they not . . . ? Ref. to Pent. (Deut. 24. 21). Ap. 92. Cp. Isa. 17. 6; 24. 13.
+6 | How . . . ! Fig. Erotesis. Ap. 6. searched out: i.e. discovered by the enemies. Ginsburg thinks it should be read "stripped bare".
+7 | men. Pl. of 'enosh. Ap. 14. III. confederacy. See Ps. 83. 5-8. the men, &c. = the men who were wont to salute thee. and. Some codices, with three early printed editions and Syr., read this "and" in the text. they that eat. The Ellipsis is thus correctly supplied. wound = snare. understanding in him: or, no discernment of it: in spite of their renown for wisdom. Cp. v. 8. Jer. 49. 7.
+8 | that day: i.e. the day of the fulfilment of the prophecy. Cp. 15, 16, and Isa. 63. 1-6. Jer. 49 13. mount = hill country.
+9 | Teman. Cp. Jer. 49. 7.
+10 | thy violence, &c. Ref. to Pent. (Gen. 27. 41-44. Deut. 23. 7). Ap. 92.
+11 | in the day. See Ap. 18. Note the Fig. Repetitio (Ap. 6) in vv. 12, 13, 14. strangers = aliens. gates. Heb. text = gate; but Heb. marg., with some codices and two early printed editions, read "gates" (pl.).
+12 | thou shouldest not have looked on, &c. All these are Prohibitives in Heb.: i.e. they are addressed to Edom as from a spectator looking on and saying; "Look not thou," &c. children = sons. spoken proudly. Heb. enlarged thy mouth [with laughter]. Cp. Ps. 35. 21. Isa. 57. 4. Ezek. 35. 13.
+14 | stood in the crossway. Referring to some antecedent event by Fig. Hysteresis (Ap. 6). crossway = fork of the roads, or a mountain pass.
+15 | the day of the LORD. See note on Isa. 2. 11, 17. The prophecy is now enlarged, and includes all the nations who were Israel's enemies. as = according as. This prophecy was fulfilled, so far as Edom was concerned, later on (see 1 Macc. 5. 4, 65. Josephus, De Bell. iv. 5); likewise will the judgment on "all the nations" be literally fulfilled.
+16 | holy. See note on Ex. 3. 5. continually. Some codices, with four early printed editions (one Rabbinic in marg.), read "round about". swallow down: or, stagger. Only elsewhere in Job 6. 3. as though, &c. Solemn and noteworthy words.
+17 | 17-21 (A2, p. 1244). ISRAEL. RESTORATION. (Introversion.) upon mount Zion. Cp. Isa. 46. 13. Joel 2. 32. shall be. Cp. Jer. 46. 28. Joel 3. 16. Amos 9. 8. deliverance = a delivered remnant. Cp. Joel 2. 32. and there shall be, &c. Cp. Isa. 1. 26; 4. 3, 4. Joel 3. 17. shall possess, &c. Ref. to Pent. (Num. 24. 18, 19). Ap. 92. Cp. Isa. 14. 1, 2. Joel 3. 19-21. Amos 9. 11-15.
+18 | there shall not be. Cp. vv. 9, 10, 16. any remaining = him that remaineth. Twenty-four centuries ago this prophecy was written, and to-day no Edomites can be identified. Cp. v. 14, and Num. 24. 19 (the same word). There will be a restored Edom, "in that day", or Isa. 63. 1-6. Jer. 49. 7-22 could not be fulfilled.
+19 | the south = the south [country], the Negeb. See note on Ps. 126. 4. Cp. Amos 9. 12. the plain = the lowlands, the Shephelah [shall possess]. Cp. Zeph. 2. 7. they = they [of the mountain], or [of the centre]. fields = territory. and Benjamin = and [they of] Benjamin.
+20 | captivity = the captives: "captivity" being put by Fig. Metonymy (of Adjunct), Ap. 6, for the captives. this host: i.e. the whole of the twelve tribes. shall possess. Supply the Ellipsis thus: "they who are scattered among [the Canaanites]". even, &c. Supply "[shall possess] as far as". Zarephath = Sarepta, belonging to Sidon and Tyre. Sepharad is mentioned with Ionia and Greece (in the west) in the inscriptions of Behistun, col. 1, line 15. See Ap. 57, p. 81. Jews were sold as slaves, and were taken to Spain by the Phoenicians to work in the mines near the great city of Ampuria, now being unearthed, near Figueras, in the province of Gerona. The "Jews' houses" are still shown at Besalu. the cities, &c. Jewish tradition declares for Spain. south. After v. 20, supply the logical Ellipsis of thought thus: "[yea, My People shall enlarge their borders on all sides], and saviours", &c.
+21 | saviours = deliverers: i.e. earthly and human, as in Judges 3. 9, 15. Cp. Mic. 5. 4, 5. See the Structure ("C" and "C"), above. the kingdom shall be the LORD'S. Cp. Ps. 22. 28. Dan. 2. 44; 7. 14, 27. Zech. 14. 9. Rev. 11. 15; 19. 6.

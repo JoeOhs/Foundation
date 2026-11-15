@@ -1,0 +1,127 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Song of Solomon
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/18. Song of Solomon_text.pdf, printed
+# pp. 920-929); [[pdf-page:]] is the page of that file each diagram is on.
+# Notation: README.md here.
+#
+# Checked: all 9 diagrams compared with their scans. A member printed one
+# step right of the row above is set one level in, so the speaker
+# alternations staircase (bracket > E > F; bracket > J > K > L > M).
+# Superscript member numbers are written on the line (E1); small capitals
+# are written in ordinary case.
+
+[[diagram: The Song of Solomon. The Structure of the Book as a Whole (Introversion and Alternation)]]
+[[anchor: Song of Solomon 1:1]]
+[[pdf: 18. Song of Solomon_text.pdf]]
+[[pdf-page: 1]]
+
+A |  | 1. 1-11. THE INTRODUCTION. THE SHULAMITE SEPARATED. TAKEN BY SOLOMON FROM HER HOME AND HER BELOVED (SHEPHERD) INTO THE ROYAL TENTS, PITCHED NEAR THEM.
+B |  |
+  C |  | 1. 12—2. 7. THE SHULAMITE AND HER BELOVED TOGETHER.
+    D |  | 2. 8—3. 5. THE SHULAMITE AND HER BELOVED APART.
+B |  |
+  C |  | 3. 6—5. 1. THE SHULAMITE AND HER BELOVED TOGETHER.
+    D |  | 5. 2—8. 4. THE SHULAMITE AND HER BELOVED APART.
+A |  | 8. 5-14. THE CONCLUSION. THE SHULAMITE RESTORED. RETURN FROM SOLOMON TO HER HOME WITH HER BELOVED (SHEPHERD).
+
+[[diagram: 1. 1-11 (A, p. 920). The Introduction (Introversion and Alternation)]]
+[[anchor: Song of Solomon 1:1-11]]
+[[pdf: 18. Song of Solomon_text.pdf]]
+[[pdf-page: 3]]
+
+A |  |
+  A | 1 | Solomon's Song about the Shulamite.
+    B |  |
+      C | 2-4 | The Shulamite soliloquizes about her beloved (shepherd).
+        D | 5, 6 | The Court-Ladies (who disdain her) answered by the Shulamite.
+    B |  |
+      C | 7 | The Shulamite soliloquizes about her beloved (shepherd).
+        D | 8 | The Court-Ladies (who tell her to return) answered by the Shulamite.
+  A | 9-11 | Solomon's admiration of the Shulamite.
+
+[[diagram: 1. 12—2. 7 (C, p. 920). The Shulamite and her Beloved, together (Repeated Alternation)]]
+[[anchor: Song of Solomon 1:12]]
+[[pdf: 18. Song of Solomon_text.pdf]]
+[[pdf-page: 4]]
+
+C |  |
+  E1 |  | 1. 12-14. The Shulamite to her shepherd lover. They meet and exchange their vows.
+    F1 |  | 1. 15. The Beloved (shepherd) to the Shulamite. (It is thou who art beautiful; not I.)
+  E2 |  | 1. 16—2. 1. The Shulamite to her shepherd love. (No. It is thou who art comely; not I.)
+    F2 |  | 2. 2. The Beloved (shepherd) to the Shulamite. (Thou art my loved one.)
+  E3 |  | 2. 3-7. The Shulamite to her shepherd lover: ending with an apostrophe to the court-ladies not to incite or excite her affection for another person till she herself desires it. See notes on "awake" (2. 7) and "love" (2. 7), and cp. 3. 5 and 8. 4.
+
+[[diagram: 2. 8—3. 5 (D, p. 920). The Shulamite and her Beloved, apart (Repeated Alternation)]]
+[[anchor: Song of Solomon 2:8]]
+[[pdf: 18. Song of Solomon_text.pdf]]
+[[pdf-page: 4]]
+
+D |  |
+  G1 |  | 2. 8-14. The Shulamite tells the court-ladies about her beloved: how he once came and invited her to go out with him.
+    H1 |  | 2. 15. Hindered by her brothers, she tells how they set her a task in the vineyards.
+  G2 |  | 2. 16, 17. The Shulamite tells the court-ladies how she waited for her beloved to come again in the evening.
+    H2 |  | 3. 1-3. Hindered by the watchmen, she tells how she went out and sought him.
+  G3 |  | 3. 4. The Shulamite tells the court-ladies how she found her beloved again.
+    H3 |  | 3. 5. Hindered by the court-ladies, she again adjures them not to hinder, as before, in 2. 7; in 3. 5, and again in 8. 4.
+
+[[diagram: 3. 6—5. 1 (C, p. 920). The Shulamite and her Beloved, together (Introversion and Repeated Alternation)]]
+[[anchor: Song of Solomon 3:6]]
+[[pdf: 18. Song of Solomon_text.pdf]]
+[[pdf-page: 5]]
+
+C |  |
+  J1 |  | 3. 6-11. The inhabitants of Jerusalem see the procession approaching. Remark of one (v. 6); of another (vv. 7, 8); of a third (vv. 9, 10); of a fourth (v. 11).
+    K |  |
+      L1 |  | 4. 1-5. The Beloved (shepherd), who has followed the court, comes to Jerusalem to rescue the Shulamite. He obtains an interview, and again expresses his delight in her. [Contrast his modesty with Solomon's coarse flatteries in 6. 4-10, and 7. 1-9.]
+        M1 |  | 4. 6. The Shulamite proposes to return, referring to 2. 17.
+      L2 |  | 4. 7-16-. The Beloved (shepherd) immediately proffers assistance, emboldened by her beauty (vv. 7-11) and by her faithfulness (vv. 12-16-).
+        M2 |  | 4. -16. The Shulamite declares that all she has is for his pleasure.
+      L3 |  | 5. 1-. The Beloved (shepherd) suitably responds: "I am coming".
+  J2 |  | 5. -1. The daughters of Jerusalem (some of the court-ladies) encourage them and urge them on.
+
+[[diagram: 5. 2—8. 4 (D, p. 920). The Shulamite and her Beloved, apart (Division)]]
+[[anchor: Song of Solomon 5:2]]
+[[pdf: 18. Song of Solomon_text.pdf]]
+[[pdf-page: 7]]
+
+D |  |
+  N1 |  | 5. 2—6. 3. Her colloquies with the court-ladies.
+  N2 |  | 6. 4—8. 4. Her colloquies with Solomon.
+
+[[diagram: 5. 2—6. 3 (N1, above). Her Colloquies with the Court-Ladies (Repeated Alternation)]]
+[[anchor: Song of Solomon 5:2]]
+[[pdf: 18. Song of Solomon_text.pdf]]
+[[pdf-page: 7]]
+
+N1 |  |
+  O1 |  | 5. 2-8. The Shulamite tells the court-ladies a dream she once had about her beloved (shepherd).
+    P1 |  | 5. 9. The Court-Ladies, astonished at her love, ask, "What is there in thy beloved more than any other?"
+  O2 |  | 5. 10-16. The Shulamite describes him to them, and ends, "Such is my beloved".
+    P2 |  | 6. 1. The Court-Ladies wish to see such an one; and ask, "Where is he, that we may seek him?"
+  O3 |  | 6. 2, 3. The Shulamite evades their question, suspecting their motives.
+
+[[diagram: 6. 4—8. 4 (N2, p. 926). Her Colloquies with Solomon (Repeated Alternation)]]
+[[anchor: Song of Solomon 6:4]]
+[[pdf: 18. Song of Solomon_text.pdf]]
+[[pdf-page: 8]]
+
+N2 |  |
+  Q1 |  | 6. 4-10. Solomon comes forward with flatteries (vv. 4-9). What his court-ladies said was true (v. 10).
+    R1 |  | 6. 11, 12. The Shulamite explains that her meeting with him was "unwittingly" (see notes). She withdraws.
+  Q2 |  | 6. 13-. Solomon: "Return, return".
+    R2 |  | 6. -13-. The Shulamite: "What is there to look at in me?"
+  Q3 |  | 6. -13—7. 9. Solomon renews his flatteries.
+    R3 |  | 7. 10—8. 4. The Shulamite rejects him: "I belong to my beloved; not to you". Calls on her beloved to fetch her away, and again adjures the court-ladies not to excite her feelings (as in 2. 7, and 3. 5).
+
+[[diagram: 8. 5-14 (A, p. 920). The Conclusion. The Shulamite Restored (Repeated Alternation)]]
+[[anchor: Song of Solomon 8:5-14]]
+[[pdf: 18. Song of Solomon_text.pdf]]
+[[pdf-page: 9]]
+
+A |  |
+  S1 | 5- | The Companions of the shepherd see them approaching.
+    T1 | -5-7 | The Shulamite and her beloved (shepherd) revisit the spot where they first plighted their troth; and renew their vows.
+  S2 | 8, 9 | The Brothers confer as to their sister's dowry. "What shall we do for her?" "If she be a wall (i.e. virtuous) we will adorn her." "If she be a door (accessible to any) we will shut her up."
+    T2 | 10-12 | The Shulamite: "I am a wall" (not a door). Solomon has many vineyards; I will keep my own.
+  S3 | 13 | The Beloved (shepherd) asks her to tell them her story.
+    T3 | 14 | The Shulamite owns him her beloved. He is to hasten to her now and ever. No longer over the mountains which separated them (2. 8, 17), for these have given place to the mountains of delight.

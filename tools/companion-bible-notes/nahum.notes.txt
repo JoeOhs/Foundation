@@ -1,0 +1,87 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Nahum
+# Marginal (side) notes, to be read alongside the KJV text.
+#
+# Format:  C:V | TEXT  —  verse 0 = a book-level introductory note
+#          [[heading: TEXT]] — the page's own heading over those notes
+#
+# ---------------------------------------------------------------------
+# Sources and method — as for Hosea (see hosea.notes.txt)
+# ---------------------------------------------------------------------
+# Read from the page scans inside thecompanionbible_202504_pdf/
+# 30. Nahum_text.pdf (printed pp. 1261-1265), one note column and
+# bottom block at a time, then cross-checked against a fresh Tesseract
+# OCR with ocr-check.py. Verse 0 holds Nahum's introduction (p. 1261),
+# one entry per paragraph. Each Structure's heading is kept at the head
+# of the note for its first verse. Transliterations are plain ASCII;
+# small capitals are written in capitals; Gothic-letter pronouns are
+# written in plain type. The note on 1:-12 is kept as a second 1:12
+# entry, carrying the heading of the Structure it begins.
+#
+# COMPLETE: all 3 chapters, every printed note, printed pp. 1261-1265.
+#
+# Corrections: none.
+# Kept as printed (verified on the scan):
+#   - 1:1 "See the Structure, p. 930), and Habakkuk. = A prophetic
+#     oracle" (unbalanced parenthesis).
+#   - 1:4 "(Ex. 14.) Cp."; 3:9 "Lybians"; 2:13, 3:5 "Sabaioth".
+#   - 3:5 "Cp. 2. 13; 3. 5." (cites its own verse).
+#
+[[heading: NAHUM]]
+0 | For the CANONICAL order and place of the Prophets, see Ap. 1, and pages 1206 and 1207.
+0 | For the CHRONOLOGICAL order of the Prophets, see Ap. 77.
+0 | For the Formulae of Prophetic utterance, see Ap. 82.
+0 | For the Inter-relation of the Prophetical Books, see Ap. 78.
+0 | For the Relation of NAHUM to the twelve Minor (or Shorter) Prophets, see p. 1206.
+0 | For the References to the Pentateuch, see Ap. 92.
+0 | Nahum concludes the seven pre-captivity Prophets, being the last of the second group of three; and corresponding with JONAH, which also has Nineveh for its subject. See the Structure (p. 1206).
+0 | Some eighty-seven years before, JONAH had proclaimed Jehovah's favour to Nineveh, which had prolonged its existence till now, when Nahum's prophecy of coming judgment was fulfilled without further delay.
+0 | Nahum is undated; but, if 1. 11 refers primarily to the Rab-shakeh (as we believe it does) of 2 Kings 18. 26-28, then we have a clue of great importance, for that speaks of the fourteenth year of Hezekiah, and gives us the date as 603 B.C.
+0 | The Rab-shakeh = the chief of the captains, was apparently a renegade Jew, and a "counsellor" high in favour with the Assyrian king (Sennacherib). He was apparently, as to office, similar to our "Political Officer" in the Indian Frontier campaigns. He insisted on speaking to the common People on the wall in the Jews' language; indicating a freedom in the use of Hebrew that would scarcely be possessed by an Assyrian ambassador.
+0 | The Rab-shakeh's words certainly show a deadly animosity towards Jehovah; which is borne out by Nah. 1. 11, and Pss. 120. 2; 123. 3. See Ap. 67.
+0 | If this be correct, then we may date Nahum as living and prophesying in 603 B.C.
+1:1 | burden. Cp. Isa. 13. 1—27. 13. See the Structure, p. 930), and Habakkuk. = A prophetic oracle: or, the prophetic doom of Nineveh, written about ninety (603-514 = B.C.) years before Nineveh's doom; and while the Assyrian Empire was at its height. The doom of Nineveh came therefore 176 years after Jonah's mission. The prophecy was addressed to Nahum's own People, but as a menace to Nineveh. Nineveh. This heading is not "undoubtedly by a later hand", as alleged. The words "the place thereof" (v. 8) would be unintelligible without it. Nineveh is not mentioned again until 2. 8; and is only hinted at elsewhere (3. 1, 18). The Structure below is the best commentary. vision. Like Isaiah, always one whole. Not written before or separately from, its deliverance. Nahum = the compassionate, or consoler. The name refers back to Jehovah's compassion connected with Jonah's mission eighty-seven years before. Nothing is known of Nahum beyond his book. Elkoshite. Heb. 'Elkoshi. A village of this name exists to-day, twenty-four miles north of Nineveh (now Konyunjik). See Layard's Nineveh and its Remains, i, p. 233.
+1:2 | 1. 2-8 (A1, p. 1261). JEHOVAH'S ATTRIBUTES DECLARED. (Introversion.) GOD. Heb. El. Ap. 4. IV. jealous. Ref. to Pent. (Ex. 20. 5-7. Deut. 4. 24). Ap. 92. See the Structure, and note the subjects of "A" and "A"; "B" and "B"; "C" and "C". the LORD. Heb. Jehovah. Ap. 4. II. Note the Fig. Epizeuxis (Ap. 6), for great emphasis. revengeth = avengeth. is furious = a possessor of wrath. Heb. "lord of wrath". take vengeance on = be an Avenger to. wrath. Fig. Ellipsis (Absolute). Ap. 6. for = against.
+1:3 | slow to anger = long-suffering. Ref. to Pent. (Ex. 34. 6, 7). Ap. 92. Heb. "long of anger". The opposite of Prov. 14. 17. Cp. Jonah 4. 2. great. Cp. Job 9. 4; and see the Structure "C", above. will not, &c. Ref. to Pent. (Ex. 34. 7. Num. 14. 18). acquit = clear, or hold guiltless.
+1:4 | He rebuketh the sea. Ref. to Pent. (Ex. 14.) Cp. Ps. 106. 9. Ap. 92. and drieth up, &c. Cp. Josh. 4. 23. Ps. 74. 15.
+1:5 | The mountains quake, &c. Cp. Mic. 1. 3, 4. burned = upheaved. world. Heb. tebel = the world as inhabited.
+1:6 | abide = stand up. Cp. Jer. 10. 10. Mal. 3. 2.
+1:7 | good. See the Structure "B", above. Cp. 1 Chron. 16. 34. Ps. 100. 5. Jer. 33. 11. Lam. 3. 25. strong hold = a place of safety. He knoweth, &c. Cp. Ps. 1. 6. 2 Tim. 2. 12. trust in = flee for refuge to. Heb. hasah. Ap. 69. II.
+1:8 | But, &c. Note the transition in v. 8, which is explained by the Structure "A", above. the place thereof. Heb. her place: i.e. Nineveh's. See note on title above (v. 1). and darkness, &c.: or, "as for His foes, darkness shall pursue [them]".
+1:9 | 1. 9—3. 19 (A2, p. 1261). JEHOVAH'S JUDGMENTS FORETOLD. (Introversion.) imagine = devise. Cp. Ps. 2. 1. affliction = distress, or trouble; Heb. zarar, as in v. 7: i.e. the trouble that now threatens Nineveh. the second time. Referring to the rising up after Jonah's proclamation. Cp. "rise", Jer. 51. 64. Same word as "abide", v. 6, above.
+1:10 | folden = entangled. thorns. The emblem of hostile armies (Isa. 10. 17; 27. 4).
+1:11 | of. Gen. of Origin. Ap. 17. 2. thee: i.e. Nineveh (fem.). evil. Heb. ra'a'. Ap. 44. viii. a wicked counsellor = a counsellor of Belial. The counsellor probably = Rabshakeh; and Belial = Sennacherib. See note on p. 1261.
+1:12 | quiet = secure. cut down = cut down (like dry stubble). when he, &c. Ref. to Pent. (Ex. 12. 12). Cp. Isa. 8. 8. Dan. 11. 10.
+1:12 | 1. -12-15 (E, p. 1262). DELIVERANCE OF JUDAH. (Division.) Though, &c. = And [now, O Judah], &c. Through not seeing the Structure and the change of subject at "E", modern critics say "the first part of this verse is certainly more or less corrupt"; and they alter the Heb. text to make it agree with the last clause ("F1"), the subject changing there to the removal of evil from Judah. thee: i.e. Judah (v. 13).
+1:13 | will I break, &c. Ref. to Pent. (Gen. 27. 40). Ap. 92. his yoke. Some codices read "his rod".
+1:14 | no more of thy name, &c.: i.e. the dynasty of Nineveh should end. make = make [it]: i.e. "the house of thy gods". grave = sepulchre. Heb. keber. See note on Gen. 23. 4. Ap. 35. vile = despicable. Cp. Isa. 37. 37, 38.
+1:15 | Behold. Fig. Asterismos (Ap. 6), for emphasis, calling attention to the ref. to Isa. 52. 7, the hypothetical second Isaiah, 100 years before he is supposed by modern critics to have lived. keep thy solemn feasts. Fig. Polyptoton. Ap. 6. Heb. "feast thy solemn feasts": used for great emphasis. Ref. to Pent. (Deut. 16. 16, &c.; 23. 21, &c.). Ap. 92. the wicked. Heb. [the man of] Belial. See note on v. 11.
+2:1 | 2. 1—3. 19 (D, p. 1262). DESTRUCTION OF NINEVEH. (Introversion and Extended Alternation.) He that dasheth, &c.: i.e. Cyaxares and Nabopolassar (Herod. i. 106). A reference or type of the future destruction of Antichrist. dasheth, &c.: or, the breaker (Heb. mephitz = battle-axe, or hammer (Prov. 25. 18)). Cp. Jer. 23. 29; 51. 20. Ezek. 9. 2, marg. Mic. 2. 13. keep the munition. Fig. Homoeopropheron (Ap. 6), in the Heb. In English, keep the keeps, or fortify the fortress, or fence the defences. make thy loins strong: i.e. be courageous. Cp. Job 40. 7. Jer. 1. 17. fortify, &c. = strengthen [thee] with power mightily. Cp. Prov. 24. 5.
+2:2 | the LORD. Heb. Jehovah. Ap. 4. II. The verse not "misplaced", as alleged. See the Structure above. hath turned away = restoreth, or is on the way to bring back. the excellency = pre-eminence. Used in good, or bad sense according to the context. Jacob. Put here for the natural seed, and Judah in contrast with Israel; cp. Gen. 32. 28; 43. 6; 45. 26, 28. as = as [He will restore] the excellency, &c.
+2:3 | 2. 3-10 (L, above). JUDGMENT. INVASION. (Alternation.) mighty men = mighty ones, or warriors. Cp. 2 Sam. 23. 8. 1 Kings 1. 8, 10. made red = reddened [with blood]. men. Heb. pl. of 'enosh. Ap. 14. III. are in scarlet = [are clad] in scarlet, as were the armies of the Persians. the chariots shall be . . . torches: or, with the flashing of steel the chariots [glitter]. fir trees. Put by Fig. Metonymy (of Cause), Ap. 6, for the spears or lances made from them.
+2:4 | rage = rave [as though mad]. Heb. halal. justle. From Old French jouster, to tilt; from Low Latin juxtare, to approach (as in tilting). Jostle = to push against, a frequentative form; but the Heb. (shakak) means to run to and fro, as in Isa. 33. 4. Joel 2. 9. they shall seem = their appearance is. run = rush, or flash. Heb. ruz.
+2:5 | He. The king of Assyria (3. 18). recount = bethink himself of. worthies = nobles, who may assemble their troops; as in 3. 18. Judg. 5. 13. 2 Chron. 23. 20. in their walk = as they march. the wall thereof = her wall: i.e. the wall of Nineveh. and = yet. the defence = the mantelet, or portable storming cover [of the besiegers].
+2:6 | gates = flood-gates, or sluices. the rivers. Nineveh lay on the east (or left) bank of the Tigris. The Khusur (a perennial stream) ran through it; also a canal from it to the Tigris ran through the city. opened: i.e. by the enemy. be dissolved = melt away [in fear], or was in dismay.
+2:7 | Huzzab. The words which follow show that the queen or queen-mother is meant: or, Huzzab may be taken as a verb (dual of natzah), and the "and" as = though (like "but" in v. 8). In that case read: "though firmly established, she shall be dishonoured and taken captive"; the city being thus personified. lead her = mourn for, or bemoaning. tabering = drumming [with their fingers] incessantly. Heb. taphaph, from toph = a drum. See note on Ex. 15. 20. 1 Sam. 10. 5. breasts = hearts. Some codices read "heart" (sing.); but others, with eight early printed editions, read "hearts" (pl.).
+2:8 | But = Though, to answer to the "yet" of the next line. is of old, &c. Read "hath been from of old [filled with men] as a pool [is full] of water". they: i.e. the defenders. flee away. Before their besiegers. they: i.e. the captains.
+2:9 | take the spoil. Note the Fig. Epizeuxis (Ap. 6), for emphasis. none end, &c. = [there are] treasures without end, [and] stores of all covetable vessels.
+2:10 | empty . . . void . . . waste. Note the Fig. Paronomasia (Ap. 6), for emphasis. Heb. bukah umbukah um'bullakah. and. Note the Fig. Polysyndeton (Ap. 6), for emphasis. the faces of them all, &c. Only here, and in Joel 2. 6. The reference is to Joel 2. 6 (as 1. 15 is to Isa. 52. 7); not vice versa.
+2:11 | 2. 11—3. 7 (M, p. 1263). CAUSES. (Alternation.) Where . . . ? Fig. Erotesis (Ap. 6), for emphasis. lions. Note the Fig. Synonymia (Ap. 6), for emphasis. This is Jehovah's answer to Sennacherib's taunt in 2 Kings 18. 34, looking back after the fulfilment of this prophecy. old lion = lioness.
+2:12 | did tear = was tearing. Nineveh again personified in vv. 11, 12.
+2:13 | Behold. Fig. Asterismos. Ap. 6. saith the LORD of Hosts = [is] the oracle of Jehovah Sabaioth. the LORD. Heb. Jehovah, as in v. 2. The full expression, "Jehovah of hosts", occurs only here in Nahum ("Q") and in the corresponding member ("Q", 3. 5). See note on 1 Sam. 1. 3. in the smoke = into smoke. messengers = ambassadors. Cp. 2 Kings 18. 17, 19; 19. 9, 23.
+3:1 | bloody city = city of great bloodshed (Ezek. 22. 2, 3; 24. 6, 9. Hab. 2. 12). departeth not = will not be lacking. Captive princes were exposed to public contumely in cages, &c.
+3:2 | The noise, &c. Between vv. 1 and 2 supply the logical Ellipsis (Ap. 6), thus: "is not released. [Hark! the enemy is within thy gates!] The noise of a whip . . . chariot". and. Note the Fig. Polysyndeton (Ap. 6), for emphasis. jumping = bumping, or sounding.
+3:3 | bright = gleaming. glittering = flashing. they: i.e. the slayers. Heb. text margin, with some codices, and four early printed editions, reads "so that they stumble", &c. upon = over.
+3:4 | Because, &c. Note the Structure, which shows that here, in the member "Q" (vv. 4-7), we have the cause, corresponding with "Q" (2. 13). whoredoms = idolatries. the mistress of witchcrafts. Ref. to Pent. (Ex. 22. 18. Deut. 18. 10). Ap. 92. witchcrafts = sorceries. Cp. Isa. 47. 9.
+3:5 | Behold. Fig. Asterismos (Ap. 6), for emphasis. saith the LORD of Hosts = [is] the oracle of Jehovah Sabaioth. See note on 2. 13. I will discover. Carrying out the symbol of whoredom for idolatry. Cp. 2. 13; 3. 5. I will shew, &c. (Isa. 47. 2, 3. Jer. 13. 22, 26. Ezek. 16. 37).
+3:6 | make thee vile = disgrace thee.
+3:7 | her. Some codices, with two early printed editions, Aram., Syr., and Vulg., read "thee"; but the Codex "Mugah", quoted in the Massorah (Ap. 30), reads "her".
+3:8 | better = situated better. populous No = No-'Amon. 'Amon is not a Heb. word meaning "multitude", but an Egyptian word meaning the Egyptian god "'Amon". No = the Egyptian net, meaning the city; now known as "Thebes". (Cp. Jer. 46. 25. Ezek. 30. 14, 15, 16). the rivers = the Nile streams. Heb. y'orim, the regular word for the Nile and its canals, &c. First occurrence Gen. 41. 1; rendered "flood" (Jer. 46. 7, 8. Amos 8. 8; 9. 5); "brooks" (Isa. 19. 6, 7, 8); "streams" (Isa. 33. 21). the sea. The Nile so called in Job 41. 31. Isa. 18. 2; 19. 5. from = of: i.e. consisted of.
+3:9 | and. Some codices, cited in the Massorah (Ap. 30), omit this word "and"; in which case we should render the clause: "Ethiopia strengthened her; Egypt [defended her with countless hosts (or hosts without end)]". infinite. Heb. = and there is no end. See the above note; and cp. 2. 9; 3. 3. Isa. 2. 7. Put. Gen. 10. 6, the third son of Ham, next to Cush (Ethiopia) and Mizraim (Egypt). Put was among the mercenaries of Tyre (Ezek. 27. 10). Cp. Jer. 46. 9. Lubim = Lybians. Cp. 2 Chron. 12. 3. Dan. 11. 43.
+3:10 | Yet was she, &c. The cuneiform monuments tell us that Thebes, the old capital of Egypt, was destroyed by Assyria about 663 B.C. Assurbanipal has recorded his conquest. Nahum, writing about 603 B.C., refers to this as a well-known event, and likely to be remembered. Nineveh fell later, just as Nahum had foretold. See note on 1. 1. Yet Nahum refers to the Pentateuch! See Ap. 92. she: i.e. Thebes.
+3:11 | Thou: i.e. Nineveh. be drunken: i.e. drink of the cup [of judgment]; or, be stupefied by thy calamity. be hid = hide thyself. strength = strength [for defence]; hence = "thou shalt seek a stronghold, or refuge [in vain]".
+3:14 | Draw thee = Draw for thyself. go . . . tread, &c.: i.e. make plenty of bricks [for the strongholds]. the brickkiln = the brick-work [= fortifications, or walls] built with bricks. Heb. malben. See notes on 2 Sam. 12. 31. Jer. 43. 9; and Ap. 87.
+3:15 | cankerworm = the young locust. Heb. yelek. See note on Joel 1. 4. make thyself many = [though thou be] numerous. Fig. Irony (Ap. 6). locusts = the young locust. Heb. 'arbeh. See note on Joel 1. 4.
+3:16 | Thou = [Though] thou, &c. spoileth = stript itself, or cast off the skin.
+3:17 | Thy. The 1611 edition of the A.V. reads "The". crowned = mercenary crowds. Heb. minzarim. Occurs only here. See Fuerst, Lex., p. 832. captains = muster-masters, or marshals. Heb. tiphsar. Occurs only here, and Jer. 51. 27. Like the Assyrian dupsarru = a tablet-writer. hedges = loose stone walls. flee away = are in flight.
+3:18 | shepherds = leaders, or rulers. Here = generals. dwell = lie down: i.e. in death. no man gathereth them. Ref. to Pent. (Deut. 30. 4). Ap. 92.
+3:19 | healing = alleviation. bruise = breaking, or breach: i.e. ruin. bruit = report, tidings. Heb. shema'. The English "bruit" = rumour; from the French bruire, to make a noise. upon = over. Fig. Erotesis. Ap. 6. wickedness = cruelty. Heb. ra'a'. Ap. 44. viii.

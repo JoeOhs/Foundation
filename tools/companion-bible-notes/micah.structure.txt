@@ -1,0 +1,162 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Micah
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/29. Micah_text.pdf, printed pp. 1252-1260);
+# [[pdf-page:]] is the page of that file each diagram is on. Notation:
+# README.md here. Small-capital words are written in title case.
+#
+# The book Structure's E1 is the Micah member of the Six Prophets
+# diagram (p. 1206; see hosea.structure.txt).
+
+[[diagram: Micah. The Structure of the Book as a Whole (Alternation)]]
+[[anchor: Micah 1:1]]
+[[pdf: 29. Micah_text.pdf]]
+[[pdf-page: 1]]
+
+Title |  | 1. 1. THE TITLE.
+E1 |  |
+  A |  | 1. 2—3. 12. THREATENING.
+    B |  | 4. 1—5. 15. CONSOLATION.
+  A |  | 6. 1—7. 10. THREATENING.
+    B |  | 7. 11-20. CONSOLATION.
+
+[[diagram: 1. 2—3. 12 (A, p. 1252). Threatening (Alternation)]]
+[[anchor: Micah 1:2]]
+[[pdf: 29. Micah_text.pdf]]
+[[pdf-page: 2]]
+
+A |  |
+  A |  | 1. 2—2. 13. The People.
+    B |  | 3. 1-4. The Rulers.
+  A |  | 3. 5-8. The False Prophets.
+    B |  | 3. 9-12. The Rulers.
+
+[[diagram: 1. 2—2. 13 (A, above). The People (Introversion and Extended Alternation)]]
+[[anchor: Micah 1:2]]
+[[pdf: 29. Micah_text.pdf]]
+[[pdf-page: 2]]
+
+A |  |
+  C |  | 1. 2-4. The coming of Jehovah.
+    D1 |  |
+      a1 |  | 1. 5. Incrimination.
+        b1 |  | 1. 6, 7. Threatening.
+          c1 |  | 1. 8-16. Lamentation.
+    D2 |  |
+      a2 |  | 2. 1, 2. Incrimination.
+        b2 |  | 2. 3. Threatening.
+          c2 |  | 2. 4, 5. Lamentation.
+    D3 |  |
+      a3 |  | 2. 6-. Incrimination.
+        b3 |  | 2. -6. Threatening.
+          c3 |  | 2. 7-11. Lamentation.
+  C |  | 2. 12, 13. The coming of Jehovah.
+
+[[diagram: 4. 1—5. 15 (B, p. 1252). Consolation (Division)]]
+[[anchor: Micah 4:1]]
+[[pdf: 29. Micah_text.pdf]]
+[[pdf-page: 5]]
+
+B |  |
+  E1 |  | 4. 1-5. General. The end.
+  E2 |  | 4. 6—5. 15. Particular. The means.
+
+[[diagram: 4. 6—5. 15 (E2, above). Particular. The Means (Alternation)]]
+[[anchor: Micah 4:6]]
+[[pdf: 29. Micah_text.pdf]]
+[[pdf-page: 5]]
+
+E2 |  |
+  F |  | 4. 6—5. 8. Good supplied.
+    G |  | 5. 9. Enemies cut off.
+  F |  | 5. 10-14. Evil removed.
+    G |  | 5. 15. Enemies cut off.
+
+[[diagram: 4. 6—5. 8 (F, above). Good Supplied (Introversion and Extended Alternation)]]
+[[anchor: Micah 4:6]]
+[[pdf: 29. Micah_text.pdf]]
+[[pdf-page: 5]]
+
+F |  |
+  H |  | 4. 6, 7. The Remnant gathered out.
+    J |  |
+      d |  | 4. 8. The Kingdom. "But thou" (v'attah).
+        e |  | 4. 9, 10-. Travail.
+          f |  | 4. -10-. Departure.
+            g |  | -10. Deliverance.
+              K |  | 4. 11. Hostility.
+                L |  | 4. 12, 13. Victory.
+              K |  | 5. 1. Hostility.
+    J |  |
+      d |  | 5. 2. The King. "But thou" (v'attah).
+        e |  | 5. 3-. Travail.
+          f |  | 5. -3-6-. Return.
+            g |  | 5. -6. Deliverance.
+  H |  | 5. 7, 8. The Remnant gathered in.
+
+[[diagram: 5. 10-14 (F, p. 1256). Evil Removed (Alternation)]]
+[[anchor: Micah 5:10-14]]
+[[pdf: 29. Micah_text.pdf]]
+[[pdf-page: 7]]
+
+F |  |
+  h | 10 | Evil people, &c. Military.
+    i | 11 | Cities.
+  h | 12-14- | Evil people, &c. Idolaters, &c.
+    i | -14 | Cities.
+
+[[diagram: 6. 1—7. 10 (A, p. 1252). Threatening (Extended Alternation)]]
+[[anchor: Micah 6:1]]
+[[pdf: 29. Micah_text.pdf]]
+[[pdf-page: 7]]
+
+A |  |
+  M |  | 6. 1, 2-. Call to hear. Mountains.
+    N |  | 6. -2. Controversy.
+      O |  | 6. 3-8. Expostulation.
+  M |  | 6. 9. Call to hear. City.
+    N |  | 6. 10-16. Controversy.
+      O |  | 7. 1-10. Lamentation.
+
+[[diagram: 6. 3-8 (O, above). Expostulation (Alternation)]]
+[[anchor: Micah 6:3-8]]
+[[pdf: 29. Micah_text.pdf]]
+[[pdf-page: 7]]
+
+O |  |
+  P | 3 | Questions of Jehovah.
+    Q | 4, 5 | Jehovah's Answer. What He had done.
+  P | 6, 7 | Questions of Jehovah.
+    Q | 8 | Jehovah's Answer. What Israel should do.
+
+[[diagram: 6. 10-16 (N, p. 1258). Controversy (Alternation)]]
+[[anchor: Micah 6:10-16]]
+[[pdf: 29. Micah_text.pdf]]
+[[pdf-page: 8]]
+
+N |  |
+  j | 10-12 | Incrimination. Fraud and Deceit.
+    k | 13-15 | Judgment. Desolation.
+  j | 16- | Incrimination. Omri and Ahab.
+    k | -16 | Judgment. Desolation.
+
+[[diagram: 7. 1-10 (O, p. 1258). Lamentation (Introversion)]]
+[[anchor: Micah 7:1-10]]
+[[pdf: 29. Micah_text.pdf]]
+[[pdf-page: 8]]
+
+O |  |
+  R | 1-4 | Evils lamented.
+    S | 5, 6 | Remedies. Vain.
+    S | 7 | Remedy. True.
+  R | 8-10 | Evils endured.
+
+[[diagram: 7. 11-20 (B, p. 1252). Consolation (Alternation)]]
+[[anchor: Micah 7:11-20]]
+[[pdf: 29. Micah_text.pdf]]
+[[pdf-page: 9]]
+
+B |  |
+  T | 11-13 | Restoration of Israel.
+    U | 14 | Prayer.
+  T | 15-17 | Subjugation of Israel's enemies.
+    U | 18-20 | Pardon.

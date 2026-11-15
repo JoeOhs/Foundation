@@ -1,0 +1,561 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Nehemiah
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/12. Ezra & Nehemiah_text.pdf, which holds both
+# books; Nehemiah is pages 18-38, printed pp. 633-653); [[pdf-page:]] is the
+# page of that file each diagram is on. Notation: README.md here. The
+# diagrams covering both books (pp. 616-617) are kept in ezra.structure.txt.
+#
+# Where the second half of a pair prints its members in reverse order
+# (1. 1—2. 20 second K: M, L, and second M: i, h; 12. 27-47 second N: R2,
+# Q2) both sit at one depth: stepping the first in would make the parser
+# hang it under the previous pair's member. In 12. 27-47 the first N prints
+# two steps right of O2; it is set one level in. Its last O prints with a
+# damaged superscript, read O4 (after O1-O3 and P1-P4): at 1000 dpi it
+# lacks the serifed "1" of O1 and leans like the stem of P4's "4", but the
+# crossbar is gone, so the reading rests on the sequence. "33 37" (r2, B2)
+# and "3 36" (E, heading) print with broken hyphens; read 33-37, 3-36.
+# Multi-chapter diagrams are anchored at their first verse.
+#
+# Checked: all 41 diagrams compared with their scans in structure-review;
+# bar-check's 7 flags are glyph-width drift (H1, W1 h/i), an HOCR misread
+# (S: W3) and rows matched to the scripture column (J, 12. 1-26).
+
+[[diagram: 1. 1—6. 19 (E, p. 616; K, p. 617). The Wall Building. External Disorders Overcome (Division)]]
+[[anchor: Nehemiah 1:1]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 18]]
+
+E |  |
+  H1 |  | 1. 1—2. 20. Desolation.
+  H2 |  | 3. 1—6. 19. Reparation.
+
+[[diagram: 1. 1—2. 20 (H1, above). Desolation (Alternation and Introversion)]]
+[[anchor: Nehemiah 1:1]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 18]]
+
+H1 |  |
+  J |  | 1. 1. Date.
+    K |  |
+      L |  | 1. 2, 3. The desolations. Reported.
+        M |  |
+          h |  | 1. 4-11-. Prayer.
+          i |  | 1. -11. Office. King's cupbearer.
+  J |  | 2. 1-. Date.
+    K |  |
+      M |  |
+        i |  | 2. -1-4-. Office. King's cupbearer.
+        h |  | 2. -4. Prayer.
+      L |  | 2. 5-20. The desolations. Repeated.
+
+[[diagram: 4-11- (h, above). Prayer (Introversion)]]
+[[anchor: Nehemiah 1:4-11]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 18]]
+
+h |  |
+  k |  | 4-6-. Regard.
+    l |  | -6, 7. Confession. People's sins.
+      m |  | 8, 9. Remembrance.
+    l |  | 10. Confession. Jehovah's goodness.
+  k |  | 11-. Regard.
+
+[[diagram: 2. 5-20 (L, p. 633). The Desolations (Repeated) (Alternations)]]
+[[anchor: Nehemiah 2:5-20]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 19]]
+
+L |  |
+  N |  |
+    n |  | 5, 6. Desolations. Repeated to king and queen.
+      o |  | 7, 8. Letters requested.
+        p |  | 9. The governors beyond the river.
+          q |  | 10. Opposition.
+            O |  | 11-15. Nehemiah. Inspection.
+  N |  |
+    n |  | 16, 17. Desolations. Repeated to rulers.
+      o |  | 18-. Letters, and king's words reported.
+        p |  | -18. Rulers in Jerusalem.
+          q |  | 19. Opposition.
+            O |  | 20. Nehemiah. Encouragement.
+
+[[diagram: 3. 1—6. 19 (H2, p. 633). Reparation (Alternation)]]
+[[anchor: Nehemiah 3:1]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 20]]
+
+H2 |  |
+  P |  | 3. 1-32. Commencement of work.
+    Q |  | 4. 1—6. 14. Opposition. Wrath. Mockery (III).
+  P |  | 6. 15. Completion of work.
+    Q |  | 6. 16-19. Opposition. Wrath. Hostility (IV).
+
+[[diagram: 3. 1-32 (P, above). Commencement of Work (Introversion)]]
+[[anchor: Nehemiah 3:1-32]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 20]]
+
+P |  |
+  R |  | 1, 2. From the sheep gate.
+[[group: -]]
+    r1 |  | 3-5. The fish gate.
+    r2 |  | 6-12. The old gate.
+    r3 |  | 13. The valley gate.
+    r4 |  | 14. The dung gate.
+    r5 |  | 15-24. The fountain gate.
+    r6 |  | 25. The prison gate.
+    r7 |  | 26, 27. The water gate.
+    r8 |  | 28, 29-. The horse gate.
+    r9 |  | -29, 30. The east gate.
+    r10 |  | 31. The Miphkad gate.
+[[group: The other gates.]]
+  R |  | 32. To the sheep gate.
+
+[[diagram: 4. 1—6. 14 (Q, p. 635). Opposition (Introversion)]]
+[[anchor: Nehemiah 4:1]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 22]]
+
+Q |  |
+  S |  | 4. 1-23. Opposition. Wrath (III). Fighting (IV).
+    T |  | 5. 1-5. Grievance.
+    T |  | 5. 6-19. Redress.
+  S |  | 6. 1-14. Opposition. Compromise (V and VI).
+
+[[diagram: 4. 1-23 (S, above). Opposition. Third and Fourth (Extended and Repeated Alternation)]]
+[[anchor: Nehemiah 4:1-23]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 22]]
+
+S |  |
+  U1 |  | 1-3. Opposition. Wrath and mockery (III).
+    V1 |  | 4, 5. Prayer.
+      W1 |  | 6. Perseverance.
+  U2 |  | 7, 8. Opposition. Conspiracy to fight (IV).
+    V2 |  | 9. Prayer.
+      W2 |  | 10. Despondency.
+  U3 |  | 11. Opposition. Hostility.
+    V3 |  | 12. Warning.
+      W3 |  | 13-23. Encouragement. Sword and trowel.
+
+[[diagram: 4. 13-23 (W3, p. 637). Encouragement (Extended Alternation)]]
+[[anchor: Nehemiah 4:13-23]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 23]]
+
+W3 |  |
+  s |  | 13. Weapons.
+    t |  | 14, 15. Encouragement to nobles, &c.
+      u |  | 16-18-. Division of labour and defence.
+  s |  | -18. Trumpets.
+    t |  | 19, 20. Encouragement to nobles, &c.
+      u |  | 21-23. Division of labour and guard.
+
+[[diagram: 5. 1-5 (T, p. 637). Grievance (Alternation)]]
+[[anchor: Nehemiah 5:1-5]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 23]]
+
+T |  |
+  v |  | 1. Complaint.
+    w |  | 2-4. Cause. Debt (Particular).
+  v |  | 5-. Complaint.
+    w |  | -5. Cause. Alienation (General).
+
+[[diagram: 6-19 (T, p. 637). Redress (Repeated Alternation)]]
+[[anchor: Nehemiah 5:6-19]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 23]]
+
+T |  |
+  x1 |  | 6-8-. Nehemiah. Anger and remonstrance.
+    y1 |  | -8. People. Silence.
+  x2 |  | 9-11. Nehemiah. Expostulation.
+    y2 |  | 12-. People. Promise.
+  x3 |  | -12, 13-. Nehemiah. Adjuration.
+    y3 |  | -13. People. Performance.
+  x4 |  | 14-19. Nehemiah. Example.
+
+[[diagram: 6. 1-14 (S, p. 637). Opposition. Fifth and Sixth (Compromise) (Extended Alternation)]]
+[[anchor: Nehemiah 6:1-14]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 24]]
+
+S |  |
+  X |  | 1. Occasion.
+    Y |  | 2-8. First stratagem. (V) Compromise.
+      Z |  | 9-. Fear.
+        A |  | -9. Prayer.
+  X |  | 10-. Occasion.
+    Y |  | -10-12. Second stratagem. (VI) Affrighting.
+      Z |  | 13. Fear.
+        A |  | 14. Prayer.
+
+[[diagram: 2-8 (Y, above). First Stratagem. (V) Compromise (Repeated Alternation)]]
+[[anchor: Nehemiah 6:2-8]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 24]]
+
+Y |  |
+  a1 |  | 2. Application. Made.
+    b1 |  | 3. Nehemiah. Refusal.
+  a2 |  | 4-. Application. Repeated. Four times.
+    b2 |  | -4. Nehemiah. Refusal repeated. Four times.
+  a3 |  | 5-7. Accusation.
+    b3 |  | 8. Nehemiah. Denial.
+
+[[diagram: 6. -10-12 (Y, p. 639). Second Stratagem. (VI) (Affrighting) (Alternation)]]
+[[anchor: Nehemiah 6:10-12]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 25]]
+
+Y |  |
+  c |  | -10-. Stratagem. Made.
+    d |  | -10. Pretence. Feigned.
+  c |  | 11. Stratagem. Failure.
+    d |  | 12. Pretence. Discovered.
+
+[[diagram: 7. 5-73 (J, p. 616; P, p. 617). The Return under Zerubbabel (Introversion)]]
+[[anchor: Nehemiah 7:5-73]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 26]]
+
+J |  |
+  B |  | 5-. Assembly and genealogy.
+    C |  | -5-7. Register. Found (General).
+    C |  | 8-69. Register. Contents (Particular).
+  B |  | 70-73. Assembly. Contributors.
+
+[[diagram: 8-69 (C, above). Register. Contents. (Particular) (Repeated Alternation)]]
+[[anchor: Nehemiah 7:8-69]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 26]]
+
+C |  |
+  e1 |  | 8-62. Names found. Detail.
+    f1 |  | 63-65. Not found. Priests.
+  e2 |  | 66. Names found. Sum.
+    f2 |  | 67. Not found. Servants and strangers.
+  e3 |  | 68, 69. Possessions. Animals.
+
+[[diagram: 7. -73—8. 18 (G, p. 616; Q, p. 617). The Feast of the Seventh Month (426 B.C.) (Introversion)]]
+[[anchor: Nehemiah 7:73]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 28]]
+
+G |  |
+  U |  | 7. -73—8. 1-. The solemn assembly.
+    V |  | 8. -1-12. The first day.
+    V |  | 8. 13-18-. The second and following days.
+  U |  | 8. -18. The solemn assembly.
+
+[[diagram: 8. -1-12 (V, above). The First Day (Division)]]
+[[anchor: Nehemiah 8:1-12]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 28]]
+
+V |  |
+  W1 |  | 8. -1-8. The book. Opened and read.
+  W2 |  | 8. 9-12. The book. Effect of reading.
+
+[[diagram: 8. -1-8 (W1, above). The Book. Opened and Read (Alternation and Introversion)]]
+[[anchor: Nehemiah 8:1-8]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 28]]
+
+W1 |  |
+  g |  | -1, 2. The book brought forth.
+    X |  |
+      h |  | 3. The reading.
+      i |  | 4. Station of Ezra and others.
+  g |  | 5-. The book opened.
+    X |  |
+      i |  | -5-7. Station of Ezra and others.
+      h |  | 8. The reading.
+
+[[diagram: 8. 9-12 (W2, above). The Book. Effect of Reading (Extended Alternation)]]
+[[anchor: Nehemiah 8:9-12]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 28]]
+
+W2 |  |
+  j |  | 9. Prohibition. No weeping.
+    k |  | 10-. Dismissal.
+      l |  | -10. Joy.
+  j |  | 11. Prohibition. No grieving.
+    k |  | 12-. Departure.
+      l |  | -12. Joy.
+
+[[diagram: 8. 13-18 (V, p. 643). The Second and Following Days (Alternation)]]
+[[anchor: Nehemiah 8:13-18]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 29]]
+
+V |  |
+  m |  | 13. Second day. Reading.
+    n |  | 14-17. Feast. Tabernacles (manner).
+  m |  | 18-. Every day. Reading.
+    n |  | -18-. Feast. Tabernacles (continuance).
+
+[[diagram: 14-17 (n, above). Feast. Tabernacles (Manner) (Introversion)]]
+[[anchor: Nehemiah 8:14-17]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 29]]
+
+n |  |
+  o |  | 14. Command. To dwell in booths.
+    p |  | 15. To go forth, &c.
+    p |  | 16. The going forth, &c.
+  o |  | 17. Obedience. Dwelling in booths.
+
+[[diagram: 9. 1—10. 39 (G, p. 616; (N), p. 617). The Separation of the People (Repeated Alternations)]]
+[[anchor: Nehemiah 9:1]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 29]]
+
+G |  |
+  Y1 |  | 9. 1-3. The People. Separation and worship.
+    Z1 |  |
+      q1 |  | 9. 4-. The Levites. Cry to Jehovah.
+        r1 |  | 9. -4. Prayer.
+      q2 |  | 9. 5-. The Levites. Blessing Jehovah.
+        r2 |  | 9. -5-38. Praise.
+  Y2 |  | 10. 1-27. The People. Covenant made.
+    Z2 |  |
+      q3 |  | 10. 28-. The Levites. Themselves.
+        r3 |  | 10. -28-. Separation from foreigners.
+      q4 |  | 10. -28. The Levites. Their families.
+        r4 |  | 10. 29-. Cleaving to their brethren.
+  Y3 |  | 10. -29-39. The People. Ordinances.
+
+[[diagram: 9. -5-38 (r2, p. 644). Praise. Confession. Prayer (Repeated Alternation)]]
+[[anchor: Nehemiah 9:5-38]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 30]]
+
+r2 |  |
+  A1 |  | -5, 6. Praise of Jehovah.
+    B1 |  | 7-31. Confession.
+  A2 |  | 32. Prayer to Jehovah.
+    B2 |  | 33-37. Confession.
+  A3 |  | 38. Covenant with Jehovah.
+
+[[diagram: 7-31 (B1, above). Confession (Repeated Alternation)]]
+[[anchor: Nehemiah 9:7-31]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 30]]
+
+B1 |  |
+  s1 |  | 7-15. Jehovah. Grace.
+    t1 |  | 16, 17-. Israel. Ingratitude. Pride.
+  s2 |  | -17. Jehovah. Pardon.
+    t2 |  | 18. Israel. Ingratitude. Provocation.
+  s3 |  | 19-25. Jehovah. Manifold mercies.
+    t3 |  | 26. Israel. Rebellion.
+  s4 |  | 27-. Jehovah. Punishment.
+    t4 |  | -27-. Israel. Humiliation. Cry.
+  s5 |  | -27. Jehovah. Manifold mercies.
+    t5 |  | 28. Israel. Evil-doing repeated.
+  s6 |  | -28-. Jehovah. Punishment.
+    t6 |  | -28-. Israel. Humiliation. Cry.
+  s7 |  | -28, 29-. Jehovah. Mercies.
+    t7 |  | -29. Israel. Ingratitude. Pride.
+  s8 |  | 30-. Jehovah. Forbearance.
+    t8 |  | -30-. Israel. Obstinacy.
+  s9 |  | -30, 31. Jehovah. Judgment. Forbearance.
+
+[[diagram: 10. 1-27 (Y2, p. 644). The People. Covenant Made (Introversion)]]
+[[anchor: Nehemiah 10:1-27]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 32]]
+
+Y2 |  |
+  u |  | 1-. The chief. Nehemiah the Governor.
+    v |  | -1-8. The priests.
+    v |  | 9-13. The Levites.
+  u |  | 14-27. The chiefs of the people.
+
+[[diagram: -29-39 (Y3, p. 644). The People. Ordinances (Introversion)]]
+[[anchor: Nehemiah 10:29-39]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 32]]
+
+Y3 |  |
+  w |  | -29, 30. The People. Marriages.
+    x |  | 31. The sabbath.
+    x |  | 32-37. The Temple.
+  w |  | 38, 39. The Priests, &c. Service.
+
+[[diagram: 32-37 (x, above). The Temple (Division)]]
+[[anchor: Nehemiah 10:32-39]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 32]]
+
+x |  |
+  C1 |  | 32. Money.
+  C2 |  | 33, 34. Provisions.
+  C3 |  | 35-39. Firstfruits and tithes.
+
+[[diagram: 11. 1-36 (H, p. 616; (N), p. 617). Jerusalem. Residences In (Alternation)]]
+[[anchor: Nehemiah 11:1-36]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 33]]
+
+H |  |
+  D |  | 1-. Dwelling. Proportion.
+    E |  | -1. The dwellers. Distribution.
+  D |  | 2. Dwelling. Blessing.
+    E |  | 3-36. The dwellers. Distribution.
+
+[[diagram: 3-36 (E, above). The Dwellers (Repeated Alternation)]]
+[[anchor: Nehemiah 11:3-36]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 33]]
+
+E |  |
+  F1 |  | 3-. In Jerusalem.
+    G1 |  | -3. In the cities.
+  F2 |  | 4-19. In Jerusalem.
+    G2 |  | 20. In the cities.
+  F3 |  | 21-24. In Jerusalem.
+    G3 |  | 25-36. In the villages.
+
+[[diagram: 4-19 (F2, above). In Jerusalem (Division)]]
+[[anchor: Nehemiah 11:4-19]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 33]]
+
+F2 |  |
+  H1 |  | 4-9. Civil.
+  H2 |  | 10-19. Sacred.
+
+[[diagram: 4-9 (H1, above). Civil (Alternation)]]
+[[anchor: Nehemiah 11:4-9]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 33]]
+
+H1 |  |
+  t |  | 4-. Judah.
+    u |  | -4-. Benjamin.
+  t |  | -4-6 Judah.
+    u |  | 7-9. Benjamin.
+
+[[diagram: 11. 10-19 (H2, p. 648). Sacred (Division)]]
+[[anchor: Nehemiah 11:10-19]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 34]]
+
+H2 |  |
+  J1 |  | 10-14. The priests.
+  J2 |  | 15-18. The Levites.
+  J3 |  | 19. The porters.
+
+[[diagram: 25-36 (G3, p. 648). In the Villages (Division)]]
+[[anchor: Nehemiah 11:25-36]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 34]]
+
+G3 |  |
+  K1 |  | 25-30. Judah.
+  K2 |  | 31-35. Benjamin.
+[[group: Civil.]]
+  K3 |  | 36. Levites. Sacred.
+
+[[diagram: 12. 1-26 (J, p. 616; (N), p. 617). The Return under Ezra (Alternation)]]
+[[anchor: Nehemiah 12:1-26]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 34]]
+
+J |  |
+  v |  | 1-7. Priests.
+    w |  | 8, 9. Levites.
+  v |  | 10-21. Priests.
+    w |  | 22-26. Levites.
+[[group: Names.]]
+
+[[diagram: 12. 27—13. 31 (E, p. 616; (K), p. 617). The Wall. Dedication. Internal Disorders Overcome (Division)]]
+[[anchor: Nehemiah 12:27]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 35]]
+
+E |  |
+  L1 |  | 12. 27-47. Dedication of the wall.
+  L2 |  | 13. 1-31. Internal disorders overcome.
+
+[[diagram: 12. 27-47 (L1, above). Dedication of the Wall (Introversion)]]
+[[anchor: Nehemiah 12:27-47]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 35]]
+
+L1 |  |
+  M |  |
+    O1 |  | 27. Assemblage. Levites.
+      P1 |  | 28, 29. Singers.
+      P2 |  | 30. Priests and Levites.
+    O2 |  | 31-. Assemblage. Princes of Judah.
+      N |  |
+        Q1 |  | -31-. The two companies.
+          R1 |  | -31-37. Right hand. Thanksgiving.
+      N |  |
+        R2 |  | 38, 39. Left hand. Thanksgiving.
+        Q2 |  | 40-. The two companies.
+  M |  |
+    O3 |  | -40-42. Assemblage. In detail.
+      P3 |  | 43. Offerings. Rejoicing.
+      P4 |  | 44. Offerings. Rejoicing.
+    O4 |  | 45-47. Assemblage. In sum.
+
+[[diagram: 13. 1-31 (L2, p. 650). Internal Disorders Overcome (Introversion)]]
+[[anchor: Nehemiah 13:1-31]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 36]]
+
+L2 |  |
+  S |  | 1-9. Strangers.
+    T |  | 10-14. Sin. Cheating.
+    T |  | 15-22. Sin. Sabbath-breaking.
+  S |  | 23-31. Strangers.
+
+[[diagram: 1-9 (S, above). Strangers (Alternation)]]
+[[anchor: Nehemiah 13:1-9]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 36]]
+
+S |  |
+  x |  | 1, 2. Lawful exclusion.
+    y |  | 3. Separation.
+  x |  | 4-7. Unlawful inclusion.
+    y |  | 8, 9. Separation.
+
+[[diagram: 13. 10-22 (T and T, p. 651). Non-Payment (Extended Alternation)]]
+[[anchor: Nehemiah 13:10-22]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 37]]
+
+T |  |
+  z |  | 10. Neglect. Tithes.
+    a |  | 11-13. Reformation.
+      b |  | 14. Prayer.
+T |  |
+  z |  | 15, 16. Neglect. Sabbath.
+    a |  | 17-22-. Reformation.
+      b |  | -22. Prayer.
+
+[[diagram: 23-31 (S, p. 651). Strangers (Alternations)]]
+[[anchor: Nehemiah 13:23-31]]
+[[pdf: 12. Ezra & Nehemiah_text.pdf]]
+[[pdf-page: 37]]
+
+S |  |
+  U |  | 23, 24. Unlawful marriages. (General.)
+    V |  |
+      c |  | 25-. Action.
+        d |  | -25. Adjuration.
+      c |  | 26. Words.
+        d |  | 27. Adjuration.
+  U |  | 28-. Unlawful marriage. (Particular.)
+    V |  |
+      e |  | -28. Action. Expulsion.
+        f |  | 29. Prayer.
+      e |  | 30, 31-. Action. Cleansing.
+        f |  | -31. Prayer.

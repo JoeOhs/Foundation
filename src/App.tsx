@@ -692,15 +692,18 @@ export default function App() {
   // own "Open as a pane" button calls to deliberately promote a dictionary
   // out of the footer.
   const openSourceAsPane = (sourceId: number) => {
+    // A verse-keyed commentary still sits rightmost, but follows the text.
+    const source = sources.find((s) => s.id === sourceId);
+    const group: PaneGroup = source?.type === 'commentary' && source.is_verse_keyed === 1 ? 'A' : 'solo';
     if (!paneSourceIds.includes(sourceId)) {
       if (paneSourceIds.length < 4) {
         setPaneSourceIds((prev) => [...prev, sourceId]);
         setPaneFlex((prev) => [...prev, 1]);
-        setPaneGroups((prev) => [...prev, 'solo']);
+        setPaneGroups((prev) => [...prev, group]);
       } else {
         const last = paneSourceIds.length - 1;
         setPaneSource(last, sourceId);
-        setPaneGroups((prev) => prev.map((g, j) => (j === last ? 'solo' : g)));
+        setPaneGroups((prev) => prev.map((g, j) => (j === last ? group : g)));
       }
     }
     setLibraryOpen(false);

@@ -1,0 +1,814 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Proverbs
+# Marginal (side) notes, to be read alongside the KJV text.
+#
+# All 31 chapters, printed pp. 864-905 (pages 1-42 of
+# thecompanionbible_202504_pdf/16. The Proverbs_text.pdf), each page
+# transcribed from its scan. The verse-0 note is the p. 864 foot-note.
+# Structure headings printed in the note column are kept at the head of the
+# verse they open. Superscript member numbers are written on the line ("E1");
+# Hebrew macrons and dots, small capitals and blackletter (GOD) are dropped; a
+# superscript e is written ' (k'sil); ligatures are written out (Paroemia).
+#
+# Restored where the type is broken on the scan: dropped range dashes 10:2
+# "2 Kings 5. 20-27", 14:34 "Isa. 14. 4-23", "47. 6-15", "23. 1-9"; 8:5
+# "k sil" -> k'sil; 11:3 "trangsressors" -> transgressors; 31:2 trailing
+# "(p. 864)," -> "(p. 864).".
+#
+# Left as printed (likely slips): 1:2 "1. 12 rendered prudence" (8. 12?);
+# 1:7 "Acts 17. 18. 32"; 2:2 and 14:8 "chokma."; 2:16 heading "B2" (the
+# Structure has B1); 3:7 and 12:19 unclosed parentheses; 3:11 "Jas. 5. 17",
+# "Job. 34", "Rom. 12 20"; 3:18 "22. 2. 14"; 3:32 "17. 15, 15"; 3:33
+# "2 Kings 19. 8-12"; 6:11 "22. 9, 16, 22, 22"; 8:13 "Zophar's"; 9:2
+# "Ap. 27. I."; 10:2 "Daniel (6. 22-30; 6. 22" (first 6 may be a broken 3);
+# 10:3 "2 Kings 6. 5"; 10:4 "slack deceitful" (no "="); the 10.1 heading
+# "15. 32" against the member's "15. 33"; 11:4 "in v. 9"; 12:3 "Heb. adam";
+# 12:4 "Ruth 31. 11"; 15:4 "Ezek. 27. 12"; 15:12 a stray ")"; "chakmah" (15:33,
+# 16:16, 17:16, 18:4, 23:23, 24:3, 29:3, 30:3, 31:26); 16:22 "sekel See";
+# 16:23 "17. 28; 17; 24. 25"; 21:17 "Heb heser"; 23:26 heading "26-33"; 24:6
+# "11. 15"; 26:2 "Baalam's"; 28:3 "vv. 3"; 30:20 "Ap. 44. III."; 31:11
+# "Ap. 69. I."
+
+0 | For Introduction and Analysis explanatory of the above Structure, see Appendix 74.
+1:1 | TITLE. The Proverbs. Heb. Mishlai; Greek, Paroimiai = any dark sententious saying; Vulg. Proverbia. Whence the English name. Heb. Mishlai is from Mashal = to rule (Gen. 1. 18; 3. 16. Ex. 21. 8, &c.). Hence applied to words which are to rule and govern the life. Not a collection of human wisdom, but of Divine rules from heaven for earth. The book is quoted in the N.T.:— 1. 16 in Rom. 3. 15. 3. 11, 12 in Heb. 12. 5, 6. Rev. 3. 19. 3. 34 in Jas. 4. 6. 1 Pet. 5. 5. 11. 31 in 1 Pet. 4. 18. 25. 21, 22 in Rom. 12. 20. 26. 11 in 2 Pet. 2. 22. And also allusions, as in Rom. 12. 16, &c. The Structure (p. 864) distinguishes the main divisions of the book, marked by such expressions as "My son"; "The words of the wise"; and the pronouns "thy", "thee", &c.; and the Proverbs "for"; and Proverbs "by" Solomon. Some proverbs are for a ruler, others are general, and for all men. Mashal is used of an Allegory (Ezek. 17. 2); a discourse (Num. 23. 7, 8); a taunt (Isa. 14. 4); an argument (Job 29. 1); a byword (Jer. 24. 9); a lament (Mic. 2. 4): all Proverbs are distinguished by parallelism of lines, synonymous, or gradational, or synthetic (i. e. constructive), or antithetic (i.e. contrastive). These again are arranged (as to order) either in alternate or introverted lines.
+1:1 | of. Genitive of Relation (Ap. 17), being the title or heading of the whole book, some being "for" him; others "by" him. If not, why the words of 10. 1? Chapters 10—19. 19 are not to "my son", but are in the third person, "he" and "him". See Ap. 74, and note also other sub-headings, 25. 1; 30. 1; 31. 1. All these are covered by the Genitive of Relation (Ap. 17).
+1:2 | To know = For discerning. So in vv. 3, 4, 6. wisdom. Heb. chokmah. There are six words rendered "wisdom" in this book. (1) chokmah, rendered "wisdom" except in the passages below. It occurs thirty-nine times in sing., and three times in pl. (1. 20; 9. 1; 24. 7 = true wisdom); forty-two times altogether (6×7. See Ap. 10). (2) binah = discernment or discrimination. Once rendered "wisdom" (23. 4). Elsewhere, in twelve passages rendered "understanding"; once "knowledge" (2. 3). (3) leb = heart; rendered "wisdom" four times (10. 21; 11. 12; 15. 21; 19. 8). (4) 'armah = shrewdness; rendered "wisdom" only in 8. 5; elsewhere only in 1. 4 rendered "subtilty"; 1. 12 rendered "prudence". (5) sahal = prudence, or good sense, rendered "wisdom" once (1. 3); and (6) sekel = insight, rendered "wisdom" (12. 8; 23. 9); elsewhere rendered "understanding" (3. 4; 13. 15; 16. 22), and "prudence" (19. 11). For "sound wisdom", see note on 2. 7. instruction = admonition or discipline. Sometimes rendered "chastening". words = sayings. Heb. 'imrah. See Ap. 73. No. V. understanding. Heb. binah. See note on "wisdom", v. 2.
+1:3 | wisdom. Heb. sakal. See note on v. 2 (No. 5), above.
+1:4 | subtilty = prudence. Same root as Gen. 3. 1. Cp. Matt. 10. 16. 1 Sam. 23. 22. Not the same word as Gen. 27. 35. simple = artless, guileless, unsuspecting. Cp. vv. 22, 32; 7. 7; 8. 5; 9. 4, 16; 14. 15, 18; 19. 25; 21. 11; 22. 3; 27. 12.
+1:5 | will hear. Illustrations: Eunuch (Acts 8. 27, 39); Sergius Paulus (Acts 13. 7); the Bereans (Acts 17. 11, 12); Apollos (Acts 18. 24-28).
+1:6 | the interpretation = satire, or the point of what is said. Occurs only here and Hab. 2. 6.
+1:6 | 1. -6—9. 18 (A, p. 864). "THE WORDS OF THE WISE". FOR SOLOMON (FOR A PRINCE AND A KING). SECOND PERSON ("MY SON", "THY", "THEE", "THOU", "THINE"). THE "MOTHER". (Repeated Alternation.) words. Heb. dabar. Ap. 73. x.
+1:7 | fear = reverence. This expression occurs fourteen times in Proverbs (1. 7, 29; 2. 5; 8. 13; 9. 10; 10. 27; 14. 26, 27; 15. 16, 33; 16. 6; 19. 23; 22. 4; 23. 17). See Ap. 75. the LORD. Heb. Jehovah. Ap. 4. II. the beginning. And only the "beginning", not the end. It is not "wisdom" itself. True wisdom is to justify God and condemn oneself. See note on Job 28. 28, and cp. 9. 10. Ps. 111. 10. fools. Heb. 'evil. In this book three Heb. words are rendered "fools": (1) 'evil = lax or careless habit of mind and body. Occurs nineteen times in Proverbs, viz. here, 7. 22; 10. 8, 10, 14, 21; 11. 29; 12. 15, 16; 14. 3, 9; 15. 5; 16. 22; 17. 28; 20. 3; 24. 7; 27. 3, 22; 29. 9. (2) k'sil = fat, and then dense, or stupid, which comes of it, showing itself in impiety. Occurs forty-nine times in Proverbs, viz. vv. 22, 32; 3. 35; 8. 5; 10. 1, 18, 23; 12. 23; 13. 16, 19, 20; 14. 7, 8, 16, 24, 33; 15. 2, 7, 14, 20; 17. 10, 12, 16, 21, 24, 25; 18. 2, 6, 7; 19. 1, 10, 13, 29; 21. 20; 23. 9; 26. 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12; 28. 26; 29. 11, 20; and eighteen times in Ecclesiastes. (3) nabal = a vulgar churl. Occurs only three times in Proverbs: viz. 17. 7, 21; 30. 22; not in Ecclesiastes. despise = have always despised, &c. Illustrations: Cain (Gen. 4. 6-8); Hophni and Phinehas (1 Sam. 2. 12, 25); Nabal (1 Sam. 25. 25); Rehoboam (1 Kings 12. 13); Athenians (Acts 17. 18. 32); Jews and Greeks (1 Cor. 1. 18, 23, 24).
+1:8 | My son. See the Structure (p. 864) for the portions so addressed (1. -6—9. 18; 19. 20-34; 27. 1—29. 27; 30. 1—31. 31). Occurs fifteen times in this member (A), and only in the other corresponding members (D, D, A). hear, &c. Illustrations: Isaac (Gen. 48. 15); Moses (Heb. 11. 23); Samuel (1 Sam. 1. 28; 2. 18; 3. 19-21); Timothy (2 Tim. 1. 5; 3. 15. Acts 16. 1, 2). thy father. The address is educational, this being the duty of the father, corresponding with A, 31. 1-9, as contrasted with "the words of the wise", also addressed to "my son" (19. 20—24. 34; 27. 1—29. 27). thy mother. Cp. 31. 1-9.
+1:9 | they: i. e. instruction and law. ornament = garland. neck. Showing cheerful and willing obedience, in contrast with stiffneckedness (Ex. 32. 9) and pride (Isa. 3. 16). See also Gen. 41. 42.
+1:10 | sinners. Heb. chata'. Ap. 44. i. Consent thou not: Illustrations: Joseph (Gen. 39. 9, 10); prophet (1 Kings 13. 8, 9); Jehoshaphat (1 Kings 22. 49, contrast 2 Chron. 18. 2; 20. 35-37); Joash (2 Chron. 24. 17, 18).
+1:11 | blood. Fig. Metalepsis (Ap. 6), "blood" put for bloodshedding, and then bloodshedding put for the one whose blood was shed. See Isa. 33. 15. the innocent = an innocent one (sing.). without cause. Cp. John 15. 25.
+1:12 | the grave. Heb. sh'ol. Ap. 35. pit. Heb. bor, a hole bored or dug. Hence a dry pit or grave. Cp. Gen. 37. 20.
+1:15 | path. Some codices, with Aram., Sept., Syr., and Vulg., read "paths" (pl.).
+1:16 | their feet = they. Put by Fig. Synecdoche (of the Part), Ap. 6, for the persons who run. Quoted in Rom. 3. 15. evil = mischief. Heb. ra'a'. Ap. 44. viii.
+1:17 | in vain, &c. = it avails not. Fig. Paroemia. Ap. 6. The sight of the net does not deter the birds. They (emphatic) still go on to their capture and death. The next verse requires this sense. So men go on in their evil ways, though they know it is to their own ruin (v. 18).
+1:18 | lives = souls. Heb. nephesh. Ap. 13.
+1:19 | life = soul. Heb. nephesh. Ap. 13. owners. Heb. ba'al, as in v. 17. The "owners" of a soul are like the "owners" of wings, and are caught in their own trap with their eyes open.
+1:20 | 20-33 (Note the Extended Alternation in these verses).
+1:20 | Wisdom. Heb. chokmah. See note on 1. 2. without. The emphasis is on the publicity of her call. streets = open or broad places, especially about the city gates (Deut. 13. 16), or open squares. Gen. 19. 2. Judg. 19. 15, 20. 2 Chron. 29. 4. Ezra 10. 9. Est. 6. 9, 11. Job 29. 7. Ps. 144. 14, &c. Isa. 59. 14, &c. Ezek. 16. 31.
+1:21 | saying. The Ellipsis of this verb has frequently to be supplied. See note on Ps. 109. 5.
+1:22 | love. The second feature. The first was ignorance in v. 7.
+1:23 | Turn, &c. = Turn [and listen to] my reproof. Behold. Fig. Asterismos (Ap. 6), to emphasise the conditional promise. spirit. Heb. ruach. Ap. 9. Put by Fig. Metonymy (of Subject) for all spiritual blessings.
+1:24 | refused: i. e. refused [to hear], vv. 24-33.
+1:26 | I: i.e. I, Wisdom. fear = what you fear. "Fear" put by Fig. Metonymy (of Cause) Ap. 6, for the calamity which produced the fear. Note the Introversion in Heb. of "fear", "desolation", "destruction", "anguish", in vv. 26, 27.
+1:27 | desolation = tempest. destruction = calamity. Jer. 11. 11. Ezek. 8. 18. Hos. 5. 6.
+1:28 | Then, &c. Illustration: Israel (Deut. 1. 45, 46). See also Isa. 1. 15.
+1:29 | For that = Forasmuch as.
+1:31 | Therefore, &c. Illustrations: Israel (Num. 11. 4-6. Ps. 106. 13, 14. Cp. Num. 11. 20-23 and Ps. 106. 15. See also Num. 14. 44, 45). Under Samuel (1 Sam. 8. 7, 19. Cp. 13. 6-23; 31. 1-10). Neglect of Sabbatical year (Ex. 21. 2. Lev. 25. 1-7. Deut. 15. 1, 2. Cp. 2 Chron. 36. 3-21. Jer. 34. 10-22). Saul (1 Sam. 28. 3. Cp. vv. 7, 15-20, and note 1 Chron. 10. 13).
+1:32 | shall slay them. Illustrations: Israel (Deut. 32. 15-25. Hos. 13. 6-8); Babylon (Isa. 47. 7-9); Moab (Jer. 48. 11-15); Sodom (Ezek. 16. 49); Tyre (Ezek. 28. 2, 7).
+1:33 | shall dwell safely. Illustrations: Noah (Gen. 6. 22; 7. 23. Heb. 11. 7); Shadrach, &c. (Dan. 3. 25. Ps. 138. 7); Daniel (Dan. 6. 10, 22. Ps. 119. 10); Christ's sheep (John 10. 28). evil. Heb. ra'a'. Ap. 44. viii.
+2:1 | My son. Note this guide to the Structure on p. 864. words = sayings. Heb. 'imrah. Ap. 73. v. hide = lay up. More than listening = hide as in a treasury. Illustrations: Deut. 6. 6. Ps. 119. 9, 11. Matt. 13. 44. Luke 2. 19, 51; 9. 44.
+2:2 | incline thine ear = hearken. Heb. prick up or point thine ear. Not the same word as in v. 18. wisdom. Heb. chokma. See note on 1. 2. And apply = [then] thou shalt incline or bend thy heart, &c. This is the first step, as v. 5 is the result. understanding = discernment. Heb. binah. Note on "wisdom" (1. 2), No. 2.
+2:3 | Yea = For if. (Heb. ki 'im). If thou goest further and criest and seekest, &c. Then the result is shown in v. 5.
+2:4 | as silver: or money. Probably the reference is to Job 28.
+2:5 | Then. In that case. See notes above. the fear, &c. That is only "the beginning of wisdom", not the end. See note on 1. 7. the LORD. Heb. Jehovah. Ap. 4. II. find. What He has hidden (v. 7). God. Heb. Elohim. Ap. 4. I.
+2:6 | giveth. The cry of v. 3 implies a Giver. Illustrations: Joseph (Gen. 41. 38, 39); Moses (Ex. 4. 12); Solomon (1 Kings 3. 12; 4. 29); Daniel (1. 17; 2. 23); Stephen (Acts 6. 5, 10); Lydia (Acts 16. 14); Paul's prayer (Eph. 1. 17. Col. 1. 9); John (1 John 5. 20). Out of His mouth. A phrase common in the prophets, but only here in Proverbs. cometh. Supply Ellipsis from preceding clause "He giveth".
+2:7 | He layeth up. Same word as "hide" in v. 1. The wicked cannot find. The righteous must dig. It is in safety from the enemy. sound wisdom = something stable. Heb. tushiyah = that which is, or stability. May be so rendered in all its twelve occurrences. Cp. Job 5. 12 (enterprise = anything stable); 6. 13 (wisdom = stability); 11. 6; 12. 16 (wisdom = stability); 26. 3; 30. 22 (substance). Prov. 2. 7; 3. 21; 8. 14 (sound wisdom); 18. 1 (wisdom = all that is). Isa. 28. 29 (working = everything that is). Mic. 6. 9 (the man of wisdom = every one who is or exists). See Ap. 74. buckler. Cp. Pss. 3. 3; 7. 10; 18. 2, 30, 35; 28. 7; 33. 20. Applied to God, as here. uprightly = blamelessly.
+2:8 | He keepeth = for preserving. See note on 4. 23. the paths of judgment = righteous paths. preserveth, &c. Illustrations: David (1 Sam. 25. 32-34; 27. 1. Cp. 2 Sam. 22. 1); Paul (2 Cor. 12. 7-9). saints = favoured ones. Heb. chasidim. The first occurrence in Proverbs of this word which marks a later Jewish sect called chasidim or holy ones.
+2:9 | Then, &c. Another conclusion, as in vv. 2 and 5.
+2:10 | When, &c.: or because. Commencing the particular instructions as to the practical power of wisdom, to keep from evil men (vv. 10-15) and the foreign woman (vv. 16-19); and in the way of good men (vv. 20-22). See Ap. 74. thy soul = thee. Heb. nephesh. Ap. 13.
+2:12 | deliver = pluck, or rescue. evil = evil [man]. Heb. ra'a'. Ap. 44. viii. man. Heb. 'ish. Ap. 14. II. froward = perverse. Heb. occurs nine times in Proverbs (vv. 12, 14; 6. 14; 8. 13; 10. 31, 32; 16. 28, 30; 21. 8); elsewhere only in Deut. 32. 20.
+2:13 | darkness. Put by Fig. Metonymy (of Effect), Ap. 6, for the evil which leads thither. Cp. Rom. 13. 12. Eph. 5. 11.
+2:14 | wicked. Same word as "evil", v. 12.
+2:16 | 2. 16-22 (B2, p. 865). THE FOREIGN WOMAN. strange woman. Heb. zur = apostate to a false religion, of which prostitution formed part. stranger = foreigner. Heb. nakar = foreign woman. Not of Abraham's seed (Gen. 17. 12): ever a snare to Israel.
+2:18 | house. Put by Fig. Metonymy (of Adjunct), Ap. 6, for household. the dead. Heb. R'phaim, who have no resurrection. Cp. Isa. 26. 14 ("deceased"), 19 ("the dead"); and see Ap. 25. This shows that a Canaanite woman is referred to here.
+2:19 | return again. Cp. "rooted out", v. 22, with Isa. 26. 19. take . . . hold = attain to.
+2:21 | dwell in the land. Not be "cast out", as in v. 22. perfect: or blameless.
+2:22 | wicked = lawless. Not the same word as in v. 14. Heb. rasha'. Ap. 44. x. transgressors = traitors, treacherous or faithless ones. Heb. bagad.
+3:1 | 3. 1—4. 27 (A2, p. 865). WISDOM'S CALL. My son. See note on 2. 1. keep = watch, guard. See note on 4. 23.
+3:2 | they. Not the "law" and "commandments" of v. 1, for they are feminine, but the "days" of v. 2 (which are masculine, agreeing with the verb "add", which is masculine also). See Ap. 74. add to thee. This, in the Hiphil = make increase for thee, or cause thee to increase or grow [in wisdom]: i. e. as the days and years lengthen and increase they will add to thy wisdom if thou forget not, &c. So in other passages where wisdom is supposed to promise long life, which it does not. See notes on v. 16; 4. 10; 9. 11; 10. 27.
+3:3 | mercy = lovingkindness, or grace. Bind. Like the phylacteries. Cp. 6. 21; 7. 3; and see Ex. 13. 16.
+3:4 | understanding = insight. Heb. sekel. See note on "wisdom" (1. 2), No. 6. Not the same word as in v. 5. God. Heb. Elohim. Ap. 4. I. man. Heb. 'adam. Ap. 14. I.
+3:5 | Trust = Confide. Heb. batah. Ap. 69. I. the LORD. Heb. Jehovah. Ap. 4. II. with all thine heart. Illustrations: Abraham (Gen. 24. 1-8; cp. Prov. 19. 14); Eleazar (Gen. 24. 12-27); Jephthah (Judg. 11. 11); David (1 Sam. 30. 6-8); Asa (2 Chron. 14. 9-15); Hezekiah (2 Kings 18. 4-7; 19. 14-37); Nehemiah (1. 4-11; 2. 4-8). understanding = discernment. Heb. binah. See note on "wisdom" (1. 2), No. 2.
+3:6 | acknowledge = recognise, or own. direct = rightly divide: i.e. dividing and thus showing what is right or pleasing to God. Heb. yashar. Num. 23. 27. Cp. Judges 14. 3, 7. 1 Sam. 18. 20, 26. Rendered by Sept. orthotomeo, the same word as in 2 Tim. 2. 15.
+3:7 | Be not wise, &c. Illustrations: Ahab (1 Kings 22. 30, 34, 35); Jeroboam (1 Kings 12. 26-33; 13. 33, 34; Asa (1 Kings 15. 19); Ben-hadad (1 Kings 20. 10, 11); quoted Rom. 11. 25; 12. 16. Fear = revere. See note on 1. 7. the LORD. Jehovah (with 'eth) = Jehovah Himself. Ap. 4. II. depart from = shun, or avoid. evil. Heb. ra'a'. Ap. 44. viii.
+3:8 | health = healing. Occurs only here. navel. Put by Fig. Synecdoche (of Part) for the whole body (Ap. 6). But Sept. and Syr., following a different spelling, read "body". marrow = moistening.
+3:9 | Honour . . . substance. This proverb has led to a universal custom. Cp. 1 Tim. 5. 3, 17. Acts 5. 2 ("price" = honour); 19. 19. Illustrations: Abraham (Gen. 14. 20. Heb. 7. 2); Jacob (Gen. 28. 22); David (1 Chron. 29. 1-5, 28); Widow (Mark 12. 41-44); Woman (Mark 14. 3-9); Cornelius (Acts 10. 2, 4); Philippians (4. 15-19).
+3:10 | presses = wine-vats. Heb. yekeb. Not gath; a wine-press. burst out = overflow. new wine. Heb. tirosh. Ap. 27. ii.
+3:11 | despise not = shrink not from. Quoted from Job 1. 20-22, and in Heb. 12. 5, 6. Jas. 5. 17. Cp. Job. 34. 31, 32. One of the passages quoted in the N.T. from Proverbs, viz. 3. 11, 12 (in Heb. 12. 5, 6. Cp. Rev. 3. 19); 3. 34 (Jas. 4. 6); 11. 31 (in 1 Pet. 4. 18); 25. 21, 22 (in Rom. 12 20); 26. 11 (in 2 Pet. 2. 22). Illustrations: David (2 Sam. 15. 25, 26; 16. 10-12; 23. 5); Hezekiah (Isa. 39. 5-8, contrast Ahaz, 2 Chron. 28. 22, and Jehoram, 2 Kings 6. 31-33); Jerusalem (Zeph. 3. 2. Cp. Isa. 1. 5).
+3:12 | whom, &c. Joseph (Gen. 37. 23-36; 39. 20; 40. 23. Cp. Ps. 105. 18); Israel (Deut. 8. 3-5, 15, 16); Jehoshaphat (2 Chron. 20. 35-37); Paul (2 Cor. 12. 7).
+3:13 | Happy = Oh, the blessedness, as in Ps. 1. 1. Note the eight occurrences of this Beatitude in Proverbs: 3. 13; 8. 32, 34 (blessed); 14. 21; 16. 20; 20. 7 (blessed); 28. 14; 29. 18. wisdom. Heb. chokmah. See note on 1. 2. And = yea, or even.
+3:14 | the merchandise of it: i. e. lit., her merchandise.
+3:15 | She. Emphatic = She, in herself. rubies = corals, or pearls.
+3:16 | in her right hand = in her power; "hand" put by Fig. Metonymy (of Cause), Ap. 6, for use as a grand agency for good of all kinds. Not necessarily a long life conferred. See note on v. 2 and Ap. 75. riches, &c. = to be used aright. See Ap. 75.
+3:17 | Her ways, &c. Illustration: Hezekiah (2 Chron. 29. 36; 30. 26. Contrast 2 Chron. 28). Cp. Acts 2. 46; 8. 6; 13. 52. 2 Cor. 8. 2. peace = well-being, or prosperity.
+3:18 | a tree of life. See Gen. 2. 9; 3. 22, 24, and cp. Prov. 11. 30; 13. 12; 15. 4. Rev. 2. 7; 22. 2. 14.
+3:20 | clouds, &c. = skies. dew = night mist. See note on Ps. 133. 3. "Dew" falls only when there are no clouds.
+3:21 | them. Is masculine, and so perhaps refers to the "mercy and truth" of 3. 3. sound wisdom = what is stable. See note on 2. 7.
+3:22 | soul. Heb. nephesh. Ap. 13. neck. Sept. adds, "Yea, it shall be healing to thy flesh; and refreshing to thy bones".
+3:24 | liest down. Sept. reads "sittest".
+3:25 | Be not afraid, &c. Illustrations: Moses (Ex. 14. 13, 14); Rahab (Josh. 6. 24, 25. Heb. 11. 31); Elisha (2 Kings 6. 16, 17); Ebed-melech (Jer. 39. 15-18). the wicked = lawless ones. Heb. rasha'. Ap. 44. x.
+3:26 | thy confidence. Sept. reads "in all thy ways". keep = keep safe. Not the same word as in vv. 1, 21.
+3:27 | Withhold not. Illustrations: Ammonites, &c. (Deut. 23. 3, 4); Nabal (1 Sam. 25. 10, 11; cp. v. 15); Widow (1 Kings 17. 12. 2 Kings 4. 7); Parable (Luke 10. 30-35); Corinthians (2 Cor. 8. 1-11; 9. 1-7). them to whom it is due = the owners thereof. hand. Heb. text reads "hands", but some codices, with two early printed editions and Sept., read "hand" (sing.).
+3:29 | evil. Heb. ra'a'. Ap. 44. viii. securely = confidently, or without suspicion.
+3:30 | If he, &c. (Heb. 'im l'o = verily). Render: "he hath already done thee enough harm".
+3:31 | Envy thou not, &c. = Do not become excited against, &c. Illustrations: Moses (Heb. 11. 25, 26); Jezebel (1 Kings 21. 7-13. Cp. 2 Kings 9. 30-37). Ps. 34. 21. the oppressor = the man (Heb. 'ish) of violence. Ap. 14. II.
+3:32 | froward = those who turn aside. The same word as in 2. 15; not as elsewhere in Proverbs. abomination to the LORD. Note all the things thus declared: 3. 32 (11. 20); 6. 16; 8. 7; 11. 1; 12. 22; 15. 8 (21. 27), 9, 16, 26; 16. 5; 17. 15, 15; 20. 10 (23); 28. 9. secret = secret counsel. What is sealed up from all save those to whom He reveals it.
+3:33 | The curse, &c. Illustrations: Baasha (1 Kings 16. 1-4, 12, 13); Jehoiakim (Jer. 22. 13-19); Coniah (Jer. 22. 24-28); Jehu (2 Kings 19. 8-12. Hos. 1. 4); Hazael (Amos 1. 4); Jeroboam II (Amos 7. 9); Esau (Obad. 18). the wicked = a lawless one (sing.). He blesseth, &c. Illustrations: Abraham (Heb. 11. 12. Contrast Ahab, 2 Kings 10. 1-11); Jacob (Gen. 30. 27); Joseph (Gen. 39. 2, 21); Obed-edom (2 Sam. 6. 11); the widow (2 Kings 4. 2-7). the just = just ones (pl.).
+3:34 | He scorneth, &c. Quoted in Jas. 4. 6. 1 Pet. 5. 5.
+3:35 | shall inherit, &c. Render: "the wise shall inherit glory, but a fool is piling up disgrace". Illustrations: Asaph (Ps. 73. 24); Paul (2 Tim. 4. 8); others (Jas. 1. 12. Dan. 12. 3. John 12. 26). shame, &c. Illustrations: Jeroboam (1 Kings 21. 22. 2 Kings 13. 2, 11; 14. 24; 15. 9, 18, 24, 28). Cp. Prov. 24. 8. fools. Heb. k'sil. See note on 1. 7.
+4:1 | children = sons. instruction = correction, or admonition. know understanding = learn discernment.
+4:3 | son. The Heb. accent (D'chi) emphasises this word to show (1) his own early training (v. 3); (2) those whom he would instruct (vv. 1, 2); (3) his instruction (vv. 5-9). only beloved = unique. in the sight of my mother. A special various reading, called Sevir (Ap. 34), reads "of my mother's sons". So in some codices, with several early printed editions.
+4:4 | Keep = Take heed to. live: i.e. live again, in resurrection life. See note on Lev. 18. 5. Earthly life could be enjoyed without keeping commandments.
+4:5 | Get wisdom: v. 6 tells how to do it. it = her. words = sayings. Heb. 'imrah. See Ap. 73. v.
+4:6 | her: i. e. wisdom. preserve = guard. keep = protect, as one protects the apple of one's eye. See note on v. 23.
+4:7 | Wisdom . . . wisdom. Heb. in four words, "Beginning—wisdom—get—wisdom" = as the principal thing, get wisdom.
+4:8 | when = because. Heb. ki.
+4:9 | A crown = A diadem. glory = beauty: i. e. a beautiful diadem. deliver = deliver fully and freely. Heb. magan (a rare word). Occurs only in Gen. 14. 20, here, and Hos. 11. 8.
+4:10 | my son. See note on 1. 8. sayings. Heb. 'imrah. See Ap. 73. v. the years of thy life shall be many = [my sayings] shall grow greater [through] the years of thy life. The verb denotes increase of size, not merely numbers. See notes on 3. 2, 16; 10. 27. The verb here is masculine, but "years of life" is feminine. The verb therefore refers to "sayings".
+4:11 | taught = directed.
+4:12 | When thou goest: or, as thou walkest; i.e. however hedged in our path seems, it opens out as we go forward. when thou runnest = if thou runnest. To walk is obligatory; to run is optional.
+4:13 | Take fast hold. The Hiphils of this clause are emphatic. let her not go = do not let her go. she = she herself. Emphatic.
+4:14 | Enter not. Note the Fig. Synonymia (Ap. 6) in the verbs of vv. 14, 15. Illustrations: Lot (Gen. 13. 10-13); Solomon (2 Kings 23. 13. Cp. with 1 Kings 11. 5); Jehoshaphat (2 Chron. 18. 1; 21. 6. Cp. with 2 Chron. 19. 2; 22. 2, 3, 10, and Prov. 6. 27, 28). wicked = lawless. Heb. rasha'. Ap. 44. x. evil. Heb. ra'a'. Ap. 44. viii.
+4:15 | Avoid = let that go; referring to v. 14. Note the Fig. Synonymia. Ap. 6. away = on.
+4:16 | For. Heb. 'im l'o = because; i.e. the reason why they sleep not is because they mean mischief, and because they intend an occasion of stumbling.
+4:17 | bread. Put by Fig. Synecdoche (of Part) for food in general. of = obtained. Gen. of Origin. Ap. 17 (2). wickedness = lawlessness. Heb. rasha'. Ap. 44. x. wine. Heb. yayin. Ap. 27. i. of violence = obtained by violence. Gen. of Origin. Ap. 17 (2).
+4:18 | But. Marking the contrast between the growth of wickedness (vv. 16, 17), and the growth of wisdom leading in right paths (vv. 11, 12). the shining light = the dawning of day: advancing and brightening till noon. perfect = stable part, when the sun seems stationary on the meridian. Illustrations: Jacob (Gen. 49. 10, 18. Heb. 11. 21); Nathanael (John 1. 46-51); Eunuch (Acts 8. 27-39); Cornelius (Acts 10. Cp. Prov. 15. 9).
+4:19 | way of the wicked. Illustrations: Korah (Num. 16. 16-19); Ahab (1 Kings 16. 31); Babylon (Isa. 47. 11); Jews (Jer. 5. 19, 25; 44. 15-23. Ezek. 18. 29. Acts 28. 25, 26). as. Some codices, with one early printed edition, read "in".
+4:20 | words. Heb. dabar. Ap. 73. x.
+4:21 | depart = get away from.
+4:22 | health = healing.
+4:23 | Keep . . . with all diligence. Above all that must be guarded. The prep. M (מ) marks the place or person that keeps: the meaning being, guard the heart as the great citadel, for out of it are the source and outgoings of life. Same word as in vv. 6, 13. Not the same word as in vv. 4, 21.
+4:23 | 4. 23-27. Note the Alternation in these verses.
+4:24 | froward. See notes on 2. 12 and 6. 12, the only other examples of frowardness of mouth.
+4:26 | Ponder the path, &c. Illustrations: Abraham (Gen. 24. 1-9. See note on 3. 5, 6); Eleazar (Gen. 24. 5); Joshua (24. 15); Ruth (1. 16-18); David (Ps. 39. 1); Hezekiah (Ps. 119. 50); The good wife (Prov. 31. 27); Daniel (1. 8; 6. 3, 4); contrast Asa (2 Chron. 16. 1-9).
+5:1 | 5. 1-23 (B2, p. 865). THE FOREIGN WOMAN. My son. See note on 1. 8. understanding = discernment.
+5:2 | regard discretion, &c. Heb. infinitive = to guard deep counsels and knowledge. Let them mount guard over thy lips. Cp. Jas. 3. 8: "the tongue can no man tame".
+5:3 | a strange woman. Two words are used for "strange" and "stranger": one, Heb. zur, an apostate Israelite woman gone over to the idolatrous impurities of heathen religion; the other nakar, a purely foreign woman of a similar character. The danger is religious rather than moral. Hence here it is zur. See note on 2. 16. drop as an honeycomb = distil honey. The invitations of religious idolatry suit the tastes of the natural man.
+5:5 | hell = the grave. Heb. sh'ol. Ap. 35.
+5:6 | Lest thou shouldest ponder. Render: So that she findeth not the level path of life; her ways are unstable and she knoweth it not.
+5:7 | children = sons. words = sayings. Heb. 'imrah. Ap 73. v.
+5:8 | door = entrance.
+5:9 | years. Put by Fig. Metonymy (of Adjunct), Ap. 6, for what happens in them.
+5:10 | wealth. Heb. strength: put by Fig. Metonymy (of Cause), Ap. 6, for what is produced by it. labours. Put by Fig. Metonymy (of Cause), Ap. 6, for what is produced by it. a stranger = a foreigner. Heb. nakar. Not the same word as in vv. 3, 17. See note above and on 2. 16.
+5:13 | obeyed = hearkened to.
+5:14 | I was almost in all evil. The Beth Essentiae denotes "in", in the sense of "as" = I soon became as an evil man, &c. See Ap. 75. almost = in a little while. Heb. kim'at. Occurs eighteen times (Gen. 26. 10. 2 Sam. 19. 36. 1 Chron. 16. 19. 2 Chron. 12. 7. Ezra 9. 8. Job 32. 22. Ps. 2. 12; 73. 2; 81. 14; 94. 17; 105. 12; 119. 87. Prov. 5. 14; 10. 20. Song 3. 4. Isa. 1. 9; 26. 20. Ezek. 16. 47). It is rendered "almost" only in Ps. 73. 2, 119. 87, and here, where it may as well be rendered "soon" or "quickly" as in Job 32. 22. Ps. 81. 14; 94. 17 (marg.). It denotes in a little time, as in Ps. 2. 12; 105. 12 (= soon numbered). 2 Chron. 12. 7 (= a little while). Song 3. 4 (= a little while; i.e. scarcely). Isa. 26. 20. evil. Heb. ra'a'. Ap. 44. viii.
+5:16 | Let thy fountains. Sept. reads "Let not thy fountain", &c. This must be the sense from the context. The R.V. obtains it by a question, "Should thy fountain . . . ?". fountains. Plural of emphasis: i. e. thine own wife. Cp. Song 4. 12. And = As or nor [thy]. rivers of waters = divisions of waters. Heb. palgey mayim: i.e. thy garden irrigation channels in the streets. See note on 21. 1. streets = open places.
+5:18 | thy fountain: i. e. thine own wife. Cp. v. 16. rejoice with = get thy joy with. Some codices, with Sept., Syr., and Vulg., read "in" instead of "with".
+5:20 | strange = apostate. Heb. zur. See note on v. 3. stranger = alien or foreigner. Heb. nakar. See note on vv. 3, 10.
+5:21 | man = a man. Heb. 'ish. Ap. 14. II. Illustrations: Cain (Gen. 4. 5, 6); Babel's builders (Gen. 11. 4-7); Sodom (Gen. 18. 21, &c.); Uzzah (2 Sam. 6. 6, 7; 1 Chron. 15. 13. Num. 4. 15); David (2 Sam. 12. 9); Baasha (1 Kings 15. 29. Cp. 16. 7); Ahab (1 Kings 21. 19); Belshazzar (Dan. 5. 22-28); Nathanael (John 1. 48); The Seven Assemblies (Rev. 2. 2, 9, 13, 19; 3. 1, 8, 15). Cp. 1 Sam. 16. 7. the LORD. Heb. Jehovah. Ap. 4. II.
+5:22 | iniquities. Heb. 'avah. Ap. 44. iv. take = trap or entrap him. wicked = a lawless man. Heb. rasha'. Ap. 44. x. he shall be holden. Illustrations: Saul (1 Sam. 18. 8, 9. Cp. 24. 16, 17; 26. 21; 28. 5-20); Jerusalem (Jer. 2. 16-19. Ezek. 22. 31); Ahithophel (2 Sam. 17. 23); Judas (John 12. 6. Matt. 26. 47-49). Cp. Prov. 23. 29, 35. sins. Heb. chata'. Ap. 44. i.
+5:23 | die without instruction. Illustration: Saul (1 Chron. 10. 13, 14).
+6:1 | 6. 1-23 (A3, p. 865). WISDOM'S CALL. My son. See note on 1. 8. if. This word should be supplied at the beginning of each line in v. 2, as well as in v. 1. friend = neighbour. stricken thy hand. Idiom for making a contract. Cp. Job 17. 3. stranger = an apostate. Heb. zur. See note on 5. 3.
+6:2 | words = sayings. Heb. 'imrah. Ap. 73. v.
+6:3 | deliver = rescue.
+6:5 | hand. Aram., Sept., and Syr. read "snare".
+6:8 | in the summer. True of Eastern ants.
+6:11 | poverty = need. There are six words rendered poor or poverty in Proverbs: (1) rush = in want of necessaries of life (6. 11; 10. 4, 15; 13. 7, 8, 18, 23; 14. 20; 17. 5; 18. 23; 19. 1, 7, 22; 22. 2, 7; 24. 34; 28. 3, 6, 19, 27; 29. 13; 30. 8; 31. 7). (2) dal = impoverished, reduced (10. 15; 14. 31; 19. 4, 17; 22. 9, 16, 22, 22; 28. 3, 8, 11, 15; 29. 7, 14). (3) heser = in want (11. 24; 21. 17; 28. 22). (4) 'anah = wretched (14. 21). (5) 'ebyon = destitute, helpless; deficient in will and wealth (14. 31). (6) yarash = dispossessed (20. 13; 23. 21; 30. 9). as one that travelleth = as a highwayman. as an armed man = as a man with a shield. Cp. 24. 33, 34. man. Heb. 'ish. Ap. 14. II.
+6:12 | naughty person. Heb. a man of Belial = a worthless person. Like Anglo-Saxon na (= no, or not) and wiht (= a thing) = a thing of naught: i.e. worthless. wicked. Heb. 'aven. Ap. 44. iii. froward = perverse. Same word as in 4. 24; 11. 20; 17. 20; 22. 5. Not the same as elsewhere in Proverbs.
+6:14 | Frowardness = Deceitfulness. See note on 2. 12. The same word as in 2. 12, 14; 8. 13; 10. 31, 32; 16. 28, 30. Not the same as elsewhere in Proverbs. soweth = casteth forth [as seed].
+6:16 | six things. Epitomising vv. 12-14 (Ap. 10). the LORD. Heb. Jehovah. Ap. 4. II. Yea, seven. Fig. Epanorthosis. Ap. 6. To imply that the list is not exhausted. abomination. See note on 3. 32. unto Him = unto His soul. Heb. nephesh. Ap. 13.
+6:17 | A proud look = eyes lifted up. Fig. Synecdoche (of Part), Ap. 6, put for pride, which is indicated by this act. This is the first, and the others proceed downward; "eyes", "tongue", "hands", "heart", "feet", and then the whole man.
+6:21 | them. This is masc., and cannot refer to the two, above. Does it refer to the "words" and "sayings" of 4. 20?
+6:22 | it = she: referring to the "commandment" or "law" of v. 20, which are fem. sleepest = liest down. talk = commune. Three, the number of Divine completeness (Ap. 10). Not four (as some suppose) and one "dropped out"!
+6:23 | law is light. Fig. Paronomasia (Ap. 6), v torah 'or. In Latin it would be similar: Lex est lux. reproofs of instruction = what is directed. Cp. v. 20. way of life = way to life: i.e. life eternal. See note on Lev. 18. 5.
+6:24 | 6. 24-35 (B3, p. 865). THE FOREIGN WOMAN. evil. Heb. ra'a'. Ap. 44. viii. strange woman = alien, or foreign woman. Heb. nakar. See note on 5. 3.
+6:26 | the . . . life = the soul. Heb. nephesh. Ap. 13.
+6:27 | Can a man . . . ? Fig. Paroemia. Ap. 6. take = shovel up.
+6:30 | despise. Heb. buz (from bazah), is here followed by ל (= L) = for. Render it therefore: "Men will not think it a trifle (or a light matter) for a thief that he should steal: [even] to satisfy", &c. . . . So if he be found, &c. soul. Heb. nephesh. Ap. 13.
+6:32 | But whoso = How much more he who. understanding. Heb. = heart: put by Fig. Metonymy (of Subject), Ap. 6, for understanding.
+6:34 | a man = a strong man. Heb. geber. Ap. 14. IV. Here, it is used of the jealous husband.
+7:1 | 7. 1-4 (A4, p. 865). WISDOM'S CALL. My son. See note on 1. 8. keep = watch. words = sayings. Heb. 'imrah. Ap. 73. v.
+7:2 | live: i.e. live for ever, in resurrection and eternal life. See note on Lev. 18. 5. Illustrations: Adam (Gen. 3. 22, 23); Lot's wife (Gen. 19. 26); Saul (1 Chron. 10. 13); Prophet (1 Kings 13).
+7:3 | Bind them. Cp. 3. 3. Deut. 6. 8; 11. 18. table = tablet.
+7:4 | sister. Cp. Matt. 12. 50. kinswoman = close friend (masc.). Only other occ. Ruth 2. 1, of Boaz.
+7:5 | 7. 5-23 (B4, p. 865). THE FOREIGN WOMAN. (Alternation.) strange = apostate. Heb. zur. See note on 5. 3. stranger = alien, or foreigner. See note on 5. 3. flattereth = maketh smooth.
+7:7 | simple. See note on 1. 4. youths = sons. understanding. Heb. heart. Put by Fig. Metonymy (of Subject), Ap. 6, for understanding. Cp. 6. 32.
+7:8 | street = back street. went = sauntered.
+7:9 | twilight = darkness. A Homonym. See note on 1 Sam. 30. 17. evening = evening of the day.
+7:10 | subtil = hidden. Heb. nazar. Not the same word as in Gen. 3. 1. Same as in Isa. 48. 6.
+7:13 | impudent. Heb. hardened. Put by Fig. Metonymy (of Adjunct), Ap. 6, for boldness.
+7:16 | decked, &c. These words in vv. 16, 17 are rare words appropriately put into the lips of a foreigner.
+7:18 | take our fill = drink deep. loves. Pl. = much love.
+7:19 | goodman = master of the house. Cp. Matt. 24. 43. Luke 12. 39.
+7:20 | the day appointed = the new moon.
+7:21 | her. The A.V. of 1611 omitted "her".
+7:22 | straightway = suddenly. fool. Heb. 'evil. See note on 1. 7.
+7:23 | life = soul. Heb. nephesh. Ap. 13.
+7:24 | children = sons. See the Structure, p. 864.
+7:26 | she hath cast down. Illustrations: Samson (Judg. 16. 4-21); David (2 Sam. 11); Solomon (1 Kings 11. Neh. 13. 26).
+7:27 | hell = the grave. Heb. sh'ol. Ap. 35. chambers = inner chambers. An explanation of Sheol.
+8:1 | 8. 1—9. 12 (A5, p. 865). WISDOM'S CALL. (Simple and Extended Alternation.) wisdom. Heb. chokmah = wisdom personified. Cp. v. 12. See note on 1. 2.
+8:2 | high places = places of vantage. in the places of the paths = in the places where the paths meet.
+8:3 | doors = entrances.
+8:4 | men. Heb. 'ishim. Ap. 14. II. man. Heb. 'adam. Ap. 14. I. All classes.
+8:5 | simple. See note on 1. 4. wisdom. Heb. 'armah. Not the same word as in v. 1 = shrewdness. See note on 1. 2. fools. Heb. k'sil. See note on 1. 7.
+8:6 | excellent. Heb. nagid = a prince, or representative. things. Heb. dabar = words (see Ap. 73. x.). Hence = representative truths.
+8:7 | wickedness = lawlessness. Heb. rasha'. Ap. 44. x.
+8:8 | words = sayings. Heb. 'imrah. Ap. 73. v. froward = twisted, or crafty.
+8:10 | 10-31 (H, above). WISDOM SELF-COMMENDED. (Introversion and Extended Alternation.)
+8:11 | better. Note the seventeen occurrences of this rendering of Heb. tob in Proverbs: 3. 14; 8. 11, 19; 12. 9; 15. 16, 17; 16. 32; 17. 1; 19. 1, 22; 21. 9, 19; 25. 7, 24; 27. 5, 10; 28. 6.
+8:12 | I wisdom dwell. Wisdom personified. Fig. Prosopopoeia. Ap. 6. witty = sagacious. Anglo-Saxon witan, to know; like Greek oida = to know intuitively: not by effort, which is ginosko = to get to know.
+8:13 | The fear, &c. See note on 1. 7. the LORD. Heb. Jehovah. Ap. 4. II. hate. This is far beyond Zophar's mistaken definition of it in Job 28. 28. A man may "depart" from evil from policy, while he loves it in his heart. But to "hate" it comes only from Divine wisdom. By nature men love evil (Jer. 17. 9. Matt. 7. 17; 15. 19. John 3. 19. Rom. 3. 10-18; 8. 7, 8. 1 Cor. 2. 14. Gal. 5. 17. Eph. 2. 2, 3, 12; 4. 17-22. Col. 1. 21. Tit. 3. 3. 1 John 5. 19). evil. Heb. ra'a'. Ap. 44. viii. froward = perverse. mouth. Put by Fig. Synecdoche (of Part), Ap. 6, for the whole man.
+8:14 | sound wisdom. See note on 2. 7. understanding = discernment. See note on 1. 2.
+8:15 | By me kings reign. See Ps. 75. 6, 7. Dan. 2. 21, 47. Rom. 13. 1-7.
+8:16 | judges of the earth. Some codices, with two early printed editions, Aram., Syr., read "righteous judges"; reading zedek, "righteousness", instead of 'erez, "earth". R.V. follows this.
+8:17 | that love me. Illustrations: Joseph (Gen. 37. 2, 13, 16, 17; 39. 3, 9; 41. 38); Samuel (1 Sam. 2. 26; 7. 3-17; cp. Jer. 15. 1); David (1 Sam. 17. 37, 45, 46); Abijah (1 Kings 14. 13); Obadiah (1 Kings 18. 4; cp. vv. 3, 12); Josiah (2 Chron. 34. 1-3, 27, 28); Daniel (1. 6, 8; cp. 9. 23; 10. 11-19).
+8:21 | treasures = treasuries.
+8:22 | 8. 22-31 (J, p. 874). WISDOM PERSONIFIED. (Alternation.) possessed = acquired, implying a definite act, as "constituted". Sept. and Syr. render it "created" (ektise). Cp. the use of the verb in this book (1. 5; 4. 5, 7; 16. 16; 17. 16; 18. 15; 19. 8; 20. 14; 22. 23). Heb. kanah. Occurs eighty-six times in O.T.; rendered "possess" only four times. Cp. "wisdom" (Luke 11. 49). beginning . . . Before. See Col. 1. 15-17; 2. 9. Rev. 3. 14. John 1. 1; 17. 5: "begotten before the world . . . born in the world". Elohim taking creature form in order to create; as He, later, took human form (flesh) to redeem. Hence "creation" and "redemption" combined in Christ (Rev. 4. 11; 5. 9). Man created in His likeness: that in which He appeared to the patriarchs and to Joshua (5. 13) was not temporary, or assumed for the moment, but was permanent. His way. As distinct from His "works" (Ps. 103. 7). Before. To this must be referred Eph. 1. 4, and Col. 1. 17. Three times we have "before the foundation (or disruption, Gen. 1. 2. See note on Matt. 13. 35) of the world" (John 17. 24. Eph. 1. 4, and 1 Pet. 1. 20). Cp. the expression "from (or, since) the foundation of the world", seven times (Matt. 13. 35; 25. 34. Luke 11. 50. Heb. 4. 3; 9. 26. Rev. 13. 8; 17. 8). See note on Matt. 13. 35. The former has to do with the "Church", the latter with the "Kingdom"; the former with God's "purpose", the latter with His "counsels".
+8:23 | 23-29 (P, above). BEFORE CREATION. (Repeated Alternation and Introversion.) set up = founded. Heb. nasak, as in Ps. 2. 6, "set". from everlasting = from the outset of the ages. Cp. Heb. 11. 3.
+8:24 | brought forth. Same root as Job 15. 7; 39. 1. Ps. 29. 9; 51. 5. Isa. 45. 10; 51. 2; 66. 8. Heb. hul. Not the same word as in v. 30.
+8:25 | settled. Cp. Ps. 104. 8.
+8:26 | earth. Heb. 'eretz. the highest part: or, the first atoms or particles. world = the habitable world. Heb. tebel (not 'eretz = earth). The Talmud (Taanith fol. 10A) distinguishes 'eretz as meaning the land of Israel, from the world as meaning the outside lands. Cp. Matt. 2. 20.
+8:27 | compass = a circle, or vault.
+8:28 | clouds = skies, or finer clouds. deep = abyss.
+8:29 | appointed = fixed by statute, or marked out.
+8:30 | I was by = I became beside Him. John 1. 1. See note on "was", Gen. 1. 2. by = close by. as one brought up with Him = as one constantly with Him, or under His constant care. Heb. 'amon, from root 'aman = to be constant or steady, and denoting: (1) The making constant or steady (Ex. 17. 12). (2) The being constant, as a river (Isa. 33. 16. Jer. 15. 18); as a house (2 Sam. 7. 16. Isa. 7. 9); of words (Gen. 42. 20); of a prophet (1 Sam. 3. 20); an allowance (Neh. 11. 23). (3) The stability or faithfulness (Deut. 32. 20. Isa. 65. 16. Jer. 51. 15); hence "Amen", affirming and confirming assent. (4) Of the constant and steady care of a nurse, &c. (Est. 2. 7, 20. 2 Kings 10. 1, 5. Isa. 60. 4; 66. 12. Lam. 4. 5). (5) Of the constant and steady resting of the mind as trusting, relying, or depending upon (Gen. 15. 6; 45. 26. Ex. 4. 5. Deut. 28. 66. Judg. 11. 20). (6) Of the constant, steady hand required in a cunning workman (Song 7. 1 = hands of steadiness, meaning work not hastily done. The R.V. rendering of 8. 30, "a master workman", is made on insufficient ground). Rejoicing. Cp. v. 31.
+8:31 | the habitable part of His earth. Heb. tebel 'arez. See note on "world", v. 26. men. Heb. 'adam. Ap. 14. I. Cp. Gen. 2. 19; 3. 8, 21. Made in His image. Gen. 1. 26, 27.
+8:32 | children = sons. blessed = happy. See note on 3. 13.
+8:35 | findeth life: i. e. resurrection life, and life eternal. Cp. John 3. 36. 1 John 5. 12. See note on Lev. 18. 5. favour = as shown in Rom. 6. 23.
+8:36 | sinneth. Heb. chata'. Ap. 44. i. soul. Heb. nephesh. Ap. 13. love death = live and act so as to lose life. Fig. Metonymy (of Cause), Ap. 6.
+9:1 | Wisdom. Pl. as in 1. 20; 9. 1; and 14. 1.
+9:2 | mingled. Cp. Isa. 5. 22. Not with water but with spices. wine. Heb. yayin. Ap. 27. I.
+9:3 | sent forth her maidens. An Eastern custom. In N.T. the invitation was carried by menservants (Matt. 22. 3. Luke 14. 17). maidens = or young persons (masc. or fem.) Heb. na'ar. she crieth: or, each to cry. highest places. Cp. 1 Sam. 10. 5, 10, &c.
+9:4 | simple. See note on 1. 4. understanding. Heb. "heart". Put by Fig. Metonymy (of Subject), Ap. 6, for understanding.
+9:5 | bread. Put by Fig. Synecdoche (of Part), Ap. 6, for all kinds of food.
+9:6 | Forsake, &c. Illustrations: Moses (Heb. 11. 24-27); Caleb and Joshua (Num. 13. 30-33; 14. 6-9, 38); Rahab (Josh. 2. 9-13; 6. 25. Heb. 11. 31); Ruth (1. 16; 2. 11, 12); Dionysius and Damaris (Acts 17. 34); Ephesians (Acts 19. 19. Eph. 2. 13); members of Nero's household (Phil. 1. 13; 4. 22). foolish = heartless. Heb. p'thi (masc. pl.). Not either of the three words in v. 13 or 1. 7, but the same word as in v. 4. live: i. e. live for ever. See note on Lev. 18. 5.
+9:7 | He that reproveth, &c.: vv. 7-12 not "out of their proper context". See the Structure on p. 874. wicked = lawless. Heb. rasha'. Ap. 44. x.
+9:8 | Reprove not a scorner, &c. Illustrations: Joseph (Gen. 37. 2); the Prophet (2 Chron. 25. 16); Jews (Isa. 36. 21); the Baptist (Matt. 14. 1-10). hate thee. We condemn one who has wronged us, and he condemns us. God's plan is to convict and make the sinner condemn himself. he will love thee. Illustrations: Nathan (2 Sam. 12. Cp. 1 Chron. 3. 5 and 1 Kings 1. 32-34); the two disciples (Luke 24. 25, 29); Peter (John 21. 17); Peter (Gal. 2. 11-14. Cp. 2 Pet. 3. 15).
+9:9 | instruction, or supply "a hint".
+9:10 | the LORD. Heb. Jehovah. Ap. 4. II. the beginning: not the end. See note on 1. 7. wisdom. See note on 1. 2. the knowledge, &c. Not departing from evil from policy, but hating it (8. 13). the holy = the Holy One. (Pl. of majesty.) understanding = discernment. See note on 1. 2.
+9:11 | be multiplied = become great [in importance or usefulness]. Not necessarily "many" in number. shall be increased: i. e. in importance. Not necessarily in number. See note on 3. 16.
+9:13 | 9. 13-18 (B5, p. 865). THE FOOLISH WOMAN. (Alternation and Introversion.) A foolish woman. The contrast is with v. 1. Heb. k'sil. See note on 1. 7. nothing = nothing whatever.
+9:14 | door = entrance.
+9:15 | Who go right, &c. = passing on their way, or [To call them] that go straightforward, &c.
+9:18 | the dead = Rephaim. (No Art.) See Ap. 25. hell = Sheol. Ap. 35.
+10:1 | 10. 1—19. 19 (C, p. 864). PROVERBS BY SOLOMON. FOR ALL. Third Person ("HE", "HIM", "THEY"). (Division.)
+10:1 | 10. 1—15. 32 (U1, above). THE PIOUS AND THE UNGODLY. WITH REFERENCE TO OTHERS. (Division.) For all men; not for any special person, such as "MY SON". See the Structure, p. 864. The proverbs of Solomon. This is the heading of a distinct class of Proverbs marked off by different authorship. All are in two lines, except 19. 7, which has three lines. They are miscellaneous, having self-developing connections, finding their reasons in what follows. A wise son. Illustration: Joseph (Gen. 47. 12. Cp. 48. 2). a foolish son. Heb. k'sil. See note on 1. 7. Illustration: Esau (Gen. 26. 34, 35; 27. 45, 46).
+10:2 | wickedness = lawlessness. Heb. rasha'. Ap. 44. x. profit nothing. Illustrations: Rehoboam (2 Chron. 12. 1-4, 9); Gehazi (2 Kings 5. 20-27. Prov. 21. 6); Nebuchadnezzar (Dan. 4. 31, 33); Belshazzar (Dan. 5); the Rich Fool (Luke 12. 20, 21. Cp. 16. 23, 24). Cp. Prov. 11. 28. righteousness delivereth, &c. Illustrations: Daniel (6. 22-30; 6. 22. Cp. Prov. 13. 6); Noah (Gen. 7. 1. Heb. 11. 7). death. Put by Fig. Metonymy (of Effect), Ap. 6, for the things which lead to death.
+10:3 | The LORD. Heb. Jehovah. Ap. 4. II. will not suffer, &c. Illustrations: Elijah (1 Kings 17); David (2 Sam. 17. 27-29). soul. Heb. nephesh. Ap. 13. the righteous = a righteous one. casteth away = repel, &c. Illustrations: Israel (Judg. 6. 1-4); Samaria (1 Kings 18. 2. 2 Kings 6. 5); Jerusalem (Lam. 5. 10. Zeph. 1. 18); the Chaldeans (Hab. 2. 8). the wicked = lawless ones. Heb. rasha'. Ap. 44. x.
+10:4 | poor = needy. Heb. rush. See note on 6. 11. slack deceitful. As in 12. 24. Ps. 52. 2; 120. 2. Hos. 7. 16. Mic. 6. 12.
+10:5 | gathereth in summer, &c. Illustrations: Isaac (Gen. 18. 19); Joseph (Gen. 47. 12); Timothy (2 Tim. 3. 15. Acts 16. 1, 2). sleepeth in harvest. Cp. 24. 30 34.
+10:6 | Blessings: not simply good things, but good things bestowed by another. head. Put by Fig. Synecdoche (of Part), Ap. 6, for the whole person. the just = a just one. violence, &c.: or, the mouth of lawless ones conceal violence.
+10:7 | The memory = What is remembered of him; not what he remembers; see Ps. 146. 4. Illustrations: Elisha (2 Kings 13. 21); Jehoiada (2 Chron. 24. 15, 16); the woman (Mark 14. 9); Mary (Luke 1. 28, 48); Dorcas (Acts 9. 36, 39. Cp. Prov. 22. 1); Antipas (Rev. 2. 13). the name, &c. Illustrations: Balaam (2 Pet. 2. 15. Jude 11. Rev. 2. 14); Ahaz (2 Chron. 28. 22); Athaliah (2 Chron. 24. 7); Herod (Acts 12. 22, 23. Cp. Ps. 9. 16).
+10:8 | will receive, &c. Illustrations: Abraham (Gen. 22. Heb. 11. 8, 17); David (2 Sam. 7); widow (1 Kings 17. 10-16); Rechabites (Jer. 35. 6-10. Cp. Prov. 23. 22). a prating fool = a fool (Heb. 'evil. See note on 1. 7) of lips: lips put by Fig. Metonymy (of Cause), Ap. 6, for what is spoken by them. Illustrations: Korah, &c. (Num. 16); Diotrephes (3 John 9, 10). Cp. 2 Pet. 2. 10. Jude 10, 13.
+10:9 | uprightly = in integrity.
+10:11 | mouth. Put by Fig. Metonymy (of Cause), Ap. 6, for what is spoken by it.
+10:12 | Hatred stirreth up strifes. Illustrations: Ishmael (Gen. 21. 9-14. Gal. 4. 29); Jews (Acts 13. 50; 14. 2-4; 17. 5, 13). love covereth. The opposite action. Cp. 1 Cor. 13. 4. Illustrations: Joseph (Gen. 40. 15. Cp. 45. 5-8. Prov. 17. 9; 19. 11); David (2 Sam. 1); Paul (Philemon); Christ (Matt. 26. 41. Mark 16. 7. John 20. 25-27; 21. 15-19, &c). sins. Heb. pasha'. Ap. 44. ix.
+10:13 | lips. Put by Fig. Metonymy (of Cause), Ap. 6, for what is spoken by them. understanding. Heb. "heart", put by Fig. Metonymy (of Subject), Ap. 6, for understanding. foolish. Same word as in v. 8.
+10:15 | his strong city. Heb. city of his strength. Fig. Antimereia. Ap. 6. destruction = that which destroys them. Fig. Metonymy (of Effect), Ap. 6. poor = weak. Heb. dal. See note on 6. 11. poverty = rush. See note on 6. 11.
+10:16 | fruit = produce. the wicked = a lawless one. sin. Heb. chata'. Ap. 44. i.
+10:17 | refuseth. Some codices read "hateth". erreth = leadeth astray.
+10:19 | wanteth not sin = lacketh not sin. Illustrations: Job (32. 2; 34. 5, 12; 35. 16; 42. 3); Job's friends (32. 3; 42. 7, 8); the widows (1 Tim. 5. 13). Of the "Twelve", the one who spake most (Peter) erred most (Matt. 16. 22; 26. 74). refraineth = restraineth. Illustrations: Eleazar (Gen. 24. 21. Cp. Prov. 4. 26; 15. 28); Aaron (Lev. 10. 3); Saul (1 Sam. 10. 27. Cp. Prov. 11. 12).
+10:20 | tongue. Put by Fig. Metonymy (of Cause), Ap. 6, for what is spoken by it.
+10:21 | feed = shepherd: i.e. instruct. Illustrations: Job (4. 3, 4; 29. 21, 22); David (Ps. 78. 70-72); Peter (Acts 4. 1-4); Philip (Acts 8. 5-8); Paul and Barnabas (Acts 11. 26; 14. 22-28); Judas and Silas (Acts 15. 32, 33). for = through. wisdom: Heb. "heart", put by Fig. Metonymy (of Subject), Ap. 6, for understanding.
+10:22 | it = itself: i.e. the uttered blessing, like the "words of the wise".
+10:23 | as sport. A.V. of 1611 read "as a sport". But. Supply Fig. Ellipsis (Ap. 6), "But [to exercise] wisdom [is as sport] to a man of understanding". man. Heb. 'ish. Ap. 14. II. understanding . . . wisdom. See note on 1. 2.
+10:24 | the righteous = righteous ones. shall be granted. Illustrations: Hannah (1 Sam. 1. 20); Esther (4. 16; 8. 15-17); Daniel (2. 16-23); Simeon (Luke 2. 25-30).
+10:25 | As the whirlwind passeth, &c. Illustrations: Gen. 7. 21-23 (cp. Matt. 24. 37-39. Luke 17. 26, 27); Elah (1 Kings 16. 7-10); Sennacherib (2 Kings 19. 35-37). an everlasting foundation. Cp. Matt. 7. 24-27.
+10:26 | smoke. In Eastern tents and houses, wood or charcoal fires, and no chimneys.
+10:27 | The fear of the LORD. See note on 1. 7. prolongeth days = increaseth days; not necessarily in number, but in greater value and importance. shortened = cut down, or made little, as in Isa. 50. 2; 59. 1. Mic. 2. 7. Num. 11. 23; 21. 4 (discouraged). Judg. 10. 16 (grieved); 16. 16 (vexed). Job 21. 4 (troubled). Zech. 11. 8 (loathed). Ps. 102. 23, where it refers to affliction, not to continued living.
+10:28 | The hope of the righteous, &c. Illustrations: Abraham (Rom. 4. 18-20); Joseph (Ps. 105. 17-21); Hezekiah (Ps. 126); Daniel (6. 10). hope. Heb. yahal = an unlikely hope. expectation = confidence. Heb. tikvah = a likely hope. Illustrations: Goliath (1 Sam. 17. 44, 51); Athaliah (2 Kings 11. 1-16); Sennacherib (2 Kings 19. 23, 37. 2 Chron. 32. 21); Herod (Matt. 2. 16).
+10:29 | the upright = an upright one. destruction = ruin. Illustrations: Saul (1 Chron. 10. 13, 14. Prov. 11. 3); Jeroboam (1 Kings 14. 7-11. Isa. 50. 11). iniquity. Heb. 'aven. Ap. 44. iii.
+10:30 | removed = moved, or shaken. earth: or land [of promise].
+10:31 | just = righteous, as in vv. 30, 32. bringeth forth: i. e. as a plant. froward. See note on 2. 12. cut out = cut off as unproductive.
+10:32 | frowardness. See note on 2. 12. Here pl. = great perverseness.
+11:1 | 11. 1—15. 33 [For Structure see next page].
+11:1 | 11. 1-31 (X1, p. 879). WITH REFERENCE TO ONE'S NEIGHBOURS. A false balance = False balances. abomination. See note on 3. 32. the LORD. Heb. Jehovah. Ap. 4. II. weight = stone. Put by Fig. Metonymy (of Cause), Ap. 6, for the weight it represents. This proverb is repeated three times (16. 11; 20. 10, 23). Cp. Lev. 19. 36. Deut. 25. 13-15, and Mic. 6. 11. There was a royal standard (2 Sam. 14. 26).
+11:2 | When pride cometh, then, &c. Illustrations: Miriam (Num. 12. 10); Uzziah (2 Chron. 26. 16-21); Nebuchadnezzar (Dan. 4. 30); Moab (Zeph. 2. 8, 10); Nineveh (Zeph. 2. 15). But with the lowly, &c. Illustrations: Joseph (Gen. 41. 16, 38, 39); Daniel (Dan. 2. 20, 21. Cp. Prov. 2. 6). wisdom. See note on 1. 2.
+11:3 | integrity, &c. Illustrations: Joseph (Gen. 39. 4, 22, 23; 50. 25. Heb. 11. 22). the upright = upright ones. perverseness, &c. = slipperiness. Illustrations: Israel (Deut. 1. 43, 44); Balaam (Num. 22. 32; 31. 8); Hophni and Phinehas (1 Sam. 2. 25; 4. 11); Saul (1 Sam. 15. 23); Absalom (2 Sam. 15. 3-6; 18); Ahithophel (2 Sam. 17. 1-3, 23); Ahab (1 Kings 21. 25, 26; 22. 34, 37); Jews (Jer. 34. 8-22); Jerusalem (Ezek. 9. 9, 10). transgressors = traitors. Heb. bagad = faithless to covenant. Not the same word as in 16. 10; 26. 10; 28. 21; but the same as in all other passages in this book.
+11:4 | the day, &c. The day of [God's] wrath. delivereth = rescueth. Heb. nazal here and in v. 9, but not in vv. 8, 9, or 21.
+11:5 | perfect = without blemish or blame. Heb. tamim: used of sacrifices. the wicked . . . wickedness = a lawless one . . . lawlessness. Heb. rasha'. Ap. 44. x. Not the same word as in v. 21.
+11:6 | naughtiness. See note on 6. 12.
+11:7 | man. Heb. 'adam. Ap. 14. I. expectation shall perish. Illustrations: Balaam's (Num. 23. 10; 31. 8); Absalom's (2 Sam. 18. Cp. Prov. 20. 20). Cp. also Job 21. 7-13 and Ps. 73. 19. Luke 12. 16-20. expectation. Heb. kavah. See note on 10. 28.
+11:8 | The righteous = A righteous one. delivered = drawn out, liberated with gentle effort. Heb. chalaz. The same word as in v. 9, but not the same as in vv. 4, 6, and 21. Illustrations: Mordecai and Haman (Est. 7. 9, 10); Daniel and his accusers (Dan. 6. 23, 24); Israel and Egyptians (Ex. 14, and Isa. 43. 3, 4).
+11:9 | mouth. Put by Fig. Metonymy (of Cause), Ap. 6, for what is said by it. the just = righteous ones.
+11:10 | When it goeth well, &c. Illustrations: Hezekiah (2 Chron. 29. 3-36; 30. 26); Nehemiah (Neh. 2; 6. 15; 8. 17); Mordecai (Est. 8. 15, 16). when the wicked perish, &c. Illustrations: Pharaoh (Ex. 15); Sisera (Judg. 5); Athaliah (2 Kings 11. 20). the wicked = wicked ones.
+11:11 | overthrown; or ruined.
+11:12 | wisdom. Heb. "heart", put by Fig. Metonymy (of Subject), Ap. 6, for sense. despiseth = reproacheth: in contrast with the next line. man. Heb. 'ish. Ap. 14. II.
+11:13 | A talebearer = He that goes about talebearing: or, a pedlar in scandal. Cp. Lev. 19. 16. Jas. 1. 26. Illustrations: Doeg (1 Sam. 21. 7; 22. 9, 10. Ps. 52. 2. Cp. Prov. 24. 28); the nobles of Judah (Neh. 6. 17-19). secrets = a secret. spirit. Heb. ruach. Ap. 9.
+11:14 | counsel: or helmsman. multitude of counsellers. Provided they are really "counsellers". safety = salvation.
+11:15 | for a stranger, &c. Christ became surety for His People, and they were "strangers" (Eph. 2. 12); and He smarted for it, blessed be His Name! Heb. zur, an apostate. See note on 5. 3. smart for it = be sore broken. See Ps. 38. 8; 69. 20. is sure = is secure. Heb. batah. Ap. 69. i.
+11:16 | gracious woman. Cp. the woman of Folly (9. 13). And strong men, &c. Sept. and Syr. read, "but the diligent".
+11:17 | merciful man = man of lovingkindness, or grace. his own soul = his own self. Heb. nephesh. Ap. 13. Illustrations: the Kenites (1 Sam. 15. 6. Ecc. 11. 1); David (1 Sam. 30. 11-20); Jonathan (2 Sam. 9. 7; 21. 7); Job (Job 42. 10. Cp. Prov. 13. 2); the Centurion (Luke 7. 2-10); Cornelius (Acts 10. 4. Cp. Prov. 12. 14); the Maltese (Acts 28. 1-10). troubleth, &c. Illustrations: Cain (Gen. 4. 10-12); Joseph's brethren (Gen. 37; 42. 21); Adoni-bezek (Judg. 1. 6, 7); Agag (1 Sam. 15. 33); Haman (Est. 9. 25); Jonah (Jonah 4. 1-3); the miser (Ecc. 4. 8).
+11:18 | worketh, &c. Pharaoh (Ex. 1. 20. Acts 7. 19). Caiaphas (John 11. 49, 50). Cp. Acts 8. 1, 4. deceitful = lie. Heb. sheker. The verb, adjective, and noun are the renderings of eight words in Proverbs: (1) sheker = a lie (11. 18; 20. 17; 31. 30); (2) ramah = cheating (12. 5, 17, 20; 14. 8, 25; 26. 19, 24); (3) shagah = wander, go astray (20. 1); (4) kazab = fraud (23. 3); (5) pathah = delude (24. 28); (6) nashah (26. 26); (7) 'athar. See note on 27. 6; (8) tok. See note on 29. 13. to him . . . a sure reward. Illustrations: Noah (Gen. 6. 22; 7. Heb. 11. 7); Abraham (Heb. 6. 15); Joseph (Gen. 37—41. Cp. Ps. 37. 4-6); Simeon (Luke 2. 25-32. Lam. 3. 25, 26); Paul (2 Cor. 1. 12. 2 Tim. 4. 7, 8).
+11:19 | As righteousness = Thus righteousness. Heb. ken. Sept. and Syr. read Heb. ben, A righteous son. evil. Heb. ra'a'. Ap. 44. viii.
+11:20 | abomination. See note on 3. 32.
+11:21 | hand join in hand. Illustrations: the Babel builders (Gen. 11. 1-9); Korah (Num. 16); the Canaanite kings (Josh. 9. 1, 2); Adoni-zedek (Josh. 10); the Confederacy (Isa. 7. 1-16); the Ten Kingdoms (Rev. 19). wicked. Not the same word as in vv. 5, 23, 31. Heb. ra'a'. Ap. 44. viii. the righteous = righteous ones. be delivered = escape. Not the same word as in vv. 4, 6, 8, 9. Heb. malat = to slip away.
+11:22 | jewel = a nose-jewel, worn by women. See Gen. 24. 47. Isa. 3. 21. fair = beautiful.
+11:23 | Illustrated in vv. 24-31.
+11:24 | poverty = want. Heb. heser. See note on 6. 11.
+11:25 | soul. Heb. nephesh. Ap. 13. made fat = enriched. Illustrations: widow (1 Kings 17. 10, &c.); Shunammite (2 Kings 4. 8, 37); Publius (Acts 28. 7, 8). Cp. Phil. 4. 15.
+11:26 | withholdeth. Different from hoarding it in store as in Egypt (Gen. 41. 34-36; 53-57).
+11:27 | mischief. Heb. ra'a'. Ap. 44. viii.
+11:28 | trusteth = confideth. Heb. batah. Ap. 69. i.
+11:29 | the wind. Heb. ruach. Ap. 9. fool. Heb. 'evil. See note on 1. 7.
+11:30 | winneth = taketh, or catcheth.
+11:31 | shall be recompensed in the earth. This was the promise for that Dispensation (Ps. 37), not for this. See 1 Pet. 4. 18 and Ap. 63. ix. Rightly divide the Dispensations, and all difficulties are removed. the sinner = a sinner. Heb. chata'. Ap. 44. i.
+12:1 | 12. 1-28 (X2, p. 878). WITH REFERENCE TO DOMESTIC AND OTHER VOCATIONS. instruction = discipline, or correction.
+12:2 | the LORD. Heb. Jehovah. Ap. 4. II. man. Heb. 'ish. Ap. 14. II. wicked = lawless. Heb. rasha'. Ap. 44. x. will He condemn: or will pronounce him guilty, as Job 40. 8.
+12:3 | man. Heb. adam. Ap. 14. I. wickedness = lawlessness. Heb. rasha'. Ap. 44. x. the righteous = righteous ones.
+12:4 | virtuous = worthy. See 31. 10 and Ruth 31. 11. crown. Always used of a bridal or royal crown.
+12:5 | thoughts = plans. right = just (as to their character). Illustrations: David (1 Sam. 23. 9; 26. 8-11); Daniel (Dan. 1. 8; 6. 4); Nathanael (John 1. 47). counsels = steerings, or directions. Illustrations: Korah (Num. 16); Jeroboam (1 Kings 12. 28. Cp. v. 26); the prophet of Beth-el (1 Kings 13. 18. Cp. Prov. 11. 9); Sanballat (Neh. 6. 2); Haman (Est. 3. 5, 6, 8); Ishmael (Jer. 40. 14); Herod (Matt. 2. 8, 16); Pharisees (Matt. 22. 15, 16); Judas (John 12. 4-6). the wicked = lawless ones. deceit = deception. Heb. ramah. See note on 11. 18.
+12:6 | words. Heb. dabar. Ap. 73. x. the upright = upright ones.
+12:7 | overthrown. Cp. Gen. 19. 21, 25, 29. 2 Sam. 10. 3. 1 Chron. 19. 3, &c. and are not = there is nothing of them left.
+12:8 | shall be commended. Illustration: Joseph (Gen. 41. 39). wisdom. Heb. sakal. See note on 1. 2. shall be despised. Illustrations: Hophni and Phinehas (1 Sam. 1. 3; 2. 17, 30); Nabal (1 Sam. 25. 2, 17. Cp. Prov. 28. 6); Judah (Jer. 4. 22, 30. Lam. 1. 8); lost son (Luke 15. 15, 16).
+12:9 | He that is despised, and hath = Better to be little noticed and have, &c. better. See note on 8. 11.
+12:10 | regardeth, &c. = knoweth. Illustrations: Jacob (Gen. 33. 13, 14); David (1 Sam. 17. 34, 35). life = soul. Heb. nephesh. Ap. 13. cruel. Illustrations: Nahash (1 Sam. 11. 1, 2); Pilate (Luke 23. 16).
+12:11 | shall be satisfied. Illustrations: Isaac (Gen. 26. 12); Jacob (Gen. 31. 40; 32. 10). he that followeth, &c. Illustrations: Abimelech's followers (Judg. 9. Cp. Prov. 24. 21); Theudas (Acts 5. 36, 37). understanding. Heb. "heart", put by Fig. Metonymy (of Subject), Ap. 6, for sense. Sept. adds: "He that delighteth himself in the drinking of wine shall leave his own stronghold a disgrace."
+12:12 | The wicked = a lawless one. the net. Put by Fig. Metonymy (of Cause), Ap. 6, for what is caught in it. of evil men: i. e. which evil men use. evil. Heb. ra'a'. Ap. 44. viii: not the same word as in vv. 13, 21. yieldeth = giveth [to others]: i. e. instead of taking them as prey.
+12:13 | The wicked = an evil man. Heb. ra'a'. Same word as "evil" in v. 12. transgression. Heb. pasha'. Ap. 44. ix. lips. Put by Fig. Metonymy (of Cause), Ap. 6, for what is spoken by them. Illustrations: Korah (Num. 16. 1-3, 31-35. Ps. 64. 8); the Amalekite (2 Sam. 1. 2-16); Adonijah (1 Kings 2. 23); Daniel's accusers (Dan. 6. 24); Jews (Matt. 27. 25). the just = a righteous one. shall come out, &c. Illustrations: Joshua and Caleb (Num. 14. 10, 24, 30); Esther and her People (Est. 7. 3; 8. 3-17; 9. 25); Peter (Acts 11. 2-18; 12. 3-18).
+12:15 | fool. Heb. 'evil. See note on 1. 7.
+12:16 | is = letteth itself be. presently = immediately, at once, the same day. Illustrations: Jehoram (2 Kings 6. 31); Jezebel (1 Kings 19. 1, 2); Nebuchadnezzar (Dan. 3. 19); synagogue at Nazareth (Luke 4. 28). covereth = concealeth. shame = public ignominy. Fig. Metonymy (of Effect), Ap. 6, put for the affront which causes it. Illustrations: Gideon (Judg. 8. 2, 3. Cp. 8. 1); Hezekiah (Isa. 36. 21. Cp. Prov. 26. 4); David (1 Sam. 17. 29, 30. Cp. v. 28); Saul (1 Sam. 10. 27. Cp. 20. 30-33).
+12:18 | like the piercings, &c. Illustrations: Saul (1 Sam. 20. 30; and 18. 21. Cp. Ps. 57. 4, and Prov. 16. 27); Doeg (1 Sam. 22. 9-19); Jews (John 8. 48); Jeremiah (Lam. 3. 14. Heb. 11. 36). piercings = stabs. Occurs only here. tongue. Put by Fig. Metonymy (of Cause), Ap. 6, for what is spoken by it. is health. Illustrations: Jethro (Ex. 18. 17-26); Abigail (1 Sam. 25. 24-33); the woman (2 Sam. 20. 16); Stephen (Acts 7. 59. Cp. 22. 20).
+12:19 | lip. Put by Fig. Metonymy (of Cause), Ap. 6, for what is spoken. Illustration: Caleb and Joshua (Num. 14. 30, 38). but for a moment. Illustrations: Ahab (1 Kings 22. 30, 37; Hananiah (Jer. 28. 2, 11. Cp. vv. 15-17); Gehazi (2 Kings 5. 22, 25, 27. Prov. 10. 9); Ananias (Acts 5. 5, 10. Prov. 21. 6).
+12:21 | no evil = nothing in vain. Heb. 'aven. Ap. 44. iii. mischief. Heb. ra'a'. Same word as "evil" in vv. 12, 20.
+12:22 | abomination, &c. See note on 3. 32. they that deal truly are, &c. Some codices, with Sept., read "is" (sing.) = he that dealeth, &c.
+12:23 | concealeth knowledge. Illustrations: Samuel (1 Sam. 9. 27. Cp. 10. 16); Nehemiah (Neh. 6. 2, 3). fools. Heb. k'sil. See note on 1. 7. Not the same word as in vv. 15, 16.
+12:24 | shall bear rule. Illustrations: Eleazar (Gen. 24. 2, 10); Joseph (Gen. 39. 4, 22); Jeroboam (1 Kings 11. 28).
+12:25 | Heaviness = Anxiety (fem.). stoop = bowed down. Illustrations: Ezra (Ezra 9. 3—10. 6); Nehemiah (Neh. 1. 4); David (Ps. 40. 12); Jeremiah (Jer. 8. 18). maketh, &c. = maketh [the man] glad [by driving it (fem.), the anxiety (fem.), away].
+12:26 | the righteous = a righteous one. is more excellent than his neighbour = guideth his neighbour. seduceth them = leadeth them astray. The clauses are not "unrelated", nor is the text "corrupt beyond restoration", when properly translated.
+12:27 | roasteth not, &c. = starteth not his game (see the Oxford Gesenius). substance: i.e. that which the diligent man "starts" and obtains is substantial. The proverb is not "humorous".
+12:28 | life: i. e. life eternal. See note on Lev. 18. 5. no death = immortality. Or take nethebah (as in Judg. 5. 6. Isa. 59. 8) as denoting, with derek, no devious winding by-path. In this case we must read 'el, "to", instead of 'al, "no". This avoids the necessity of the italics.
+13:1 | 13. 1-25 (X3, p. 878). WITH REFERENCE TO TEMPORAL AND ETERNAL GOOD. instruction = correction, or discipline.
+13:2 | man. Heb. 'ish. Ap. 14. ii. eat = get his food: "eat" being put by Fig. Metonymy (of Effect), Ap. 6, for what is gained by effort. soul. Heb. nephesh. Ap. 13. transgressors = traitors, faithless ones. Heb. bagad, as in v. 15; 2. 22; 11. 3, 6; 16. 10; 21. 18, &c.
+13:3 | life = soul. Heb. nephesh. Ap. 13.
+13:4 | the diligent = diligent ones.
+13:5 | hateth lying. Illustrations: Joseph (Gen. 46. 31-34); Samuel (1 Sam. 3. 18); Micaiah (1 Kings 22. 13, 14; Prov. 14. 5); Elihu (Job 32. 22); Hezekiah (Ps. 119. 29, 163); David (Ps. 101. 7); Agur (Prov. 30. 8); Jeremiah (Jer. 26. 1-15); John Baptist (Matt. 14. 4). wicked = lawless one. Heb. rasha'. Ap. 44. x. cometh to shame. Illustrations: Jehoram (2 Chron. 21. 18, 19); Gehazi (2 Kings 5. 27. Prov. 20. 17); Jezebel (2 Kings 9. 35); Manasseh (2 Kings 21. 7-13. Prov. 17. 15); Herod (Acts 12. 21-23).
+13:6 | wickedness = lawlessness. Heb. rasha'. Ap. 44. x. overthroweth = subverteth. the sinner = the sin offering. Heb. chata' = sin. Always so rendered in Leviticus. Ap. 43. II. v.
+13:7 | maketh himself rich: i.e. or pretendeth to be rich. Heb. 'ashar. The Hithpael occurs only here. poor = needy. Heb. rush. See note on 6. 11.
+13:8 | ransom = covering. Heb. kopher. the poor, &c.: i.e. poor [becometh he that] heeded not rebuke.
+13:9 | the righteous = righteous ones. lamp . . . put out. May mean that his family or line will become extinct. the wicked = lawless ones.
+13:10 | by pride cometh contention = by pride only cometh, &c. Illustrations: Korah (Num. 16); men of Ephraim (Judg. 12. 1-6); Rehoboam (1 Kings 12); the Apostles (Luke 22. 24). well advised: or modest.
+13:11 | by labour = by the hand: "hand" being put by Fig. Metonymy (of Cause), Ap. 6, for the labour effected by it.
+13:12 | deferred = protracted. maketh . . . sick = enfeebleth. Illustrations: Abraham (Gen. 15. 2, 3); David (Ps. 42. 1-3); the Jews (Lam. 4. 17); the two disciples (Luke 24. 17, 21). a tree of life. See Gen. 2. 9.
+13:13 | the word. Heb. dabar (no Art.). Ap. 73. x. shall be destroyed. Illustrations: the world (Gen. 6. 1 Pet. 3. 20. 2 Pet. 2. 6); Israel (Deut. 28. 15-68); the lord (2 Kings 7. 2, 17-20); Joash (2 Chron. 24. 17-25); Amaziah (2 Chron. 25. 16-27. Prov. 15. 32); the priests and others (2 Chron. 36. 16); Jehoiakim (Jer. 26. 20-24); the Jews (Jer. 44. 17, 27). shall be rewarded. Illustrations: Pharaoh's servants (Ex. 9. 20, 25); Amaziah (2 Chron. 25. 6-11); Ebed-melech (Jer. 39. 15-18). Contrast Josiah (2 Chron. 34. 27, 30) with Jehoiakim his son (Jer. 36. 23-30; 22. 18, 19).
+13:14 | the wise = a wise one.
+13:15 | giveth favour. Illustrations: Abraham (Gen. 23. 10, 11); Joseph (Gen. 39. 2); Joshua (Josh. 6. 27); David (1 Sam. 18. 14); Abigail (1 Sam. 25. 3, 18-34); Daniel (Dan. 1. 8, 9; 6. 3); Samuel (1 Sam. 2. 26. Prov. 22. 1). hard = rough. This meaning may be substituted for its usual rendering "strong". See Gen. 49. 24. Ex. 14. 27. Num. 24. 21. Jer. 5. 15. Amos 5. 24. Mic. 6. 2, &c. Heb. 'eythan.
+13:16 | fool. Heb. k'sil. See note on 1. 7. folly. Heb. 'evil. See note on 1. 7. Illustrations: Balaam (Num. 22. 29, 30); Ahasuerus (Est. 3. 10-15); Herod (Matt. 14. 7. Mark 6. 23).
+13:17 | mischief. Heb. ra'a'. Same word as "evil" in v. 19. Ap. 44. viii. health = healing. Cp. 12. 18.
+13:18 | Poverty. See note on "poor", v. 7.
+13:19 | fools. Heb. k'sil. See note on 1. 7. But some codices, with Sept. and Syr., read "lawless". evil. Heb. ra'a'. Ap. 44. viii.
+13:20 | shall be wise. Illustrations: Uzziah (2 Chron. 26. 5); Joash (2 Chron. 24. 2); Ruth (1. 16); Elisha (2 Kings 2. 9); Andrew (John 1. 40, 41); Nathanael (John 1. 45-51). a companion, &c.: or he that feedeth (or entertaineth) fools shall be bankrupt. shall be destroyed = shall be broken.
+13:22 | good. Fig. Anadiplosis (Ap. 6). Heb. text v. 21 ends with "good", which is repeated at the beginning of v. 22. an inheritance. Not necessarily wealth; but a good name, &c. children's = sons'. Illustrations: Jacob (Gen. 48. 15, 16, 20); Caleb (Num. 14. 24. Josh. 14. 14).
+13:23 | in the tillage of, &c.: i. e. with Jehovah's blessing.
+13:24 | spareth = withholdeth. Illustrations: Eli (1 Sam. 3. 13; 4. 11); David (2 Sam. 13. 39; 14. 25. 1 Kings 1. 6). chasteneth him betimes = carefully seeketh correction (or discipline) for him: or, seeketh early, &c.
+14:1 | 14. 1-35 (X4, p. 878). WITH REFERENCE TO WISE AND FOOLISH, RICH AND POOR, &c. wise. Heb. chokmoth (see note on 1. 2), wisdoms, pl. (with verb in sing.) for emphasis. Fig. Hypallage (Ap. 6) = the true wisdom of women, which is put for the wise woman. The word is pointed as an Adjective by mistake. See notes on 1. 20; 9. 1; 14. 1. buildeth = has built. Preterite tense, implying the outcome of past wisdom. the foolish = a foolish woman. Heb. 'evil. Same word as in vv. 3, 8, 9, 17, 18, 24, 29. Not the same word as in vv. 7, 8, 16, 24. plucketh it down = will tear it down: future, because folly's present course is continuous to the end.
+14:2 | the LORD. Heb. Jehovah. Ap. 4. II. his ways. It may mean Jehovah's ways: i. e. he who turns out of His ways becomes an apostate, like the "strange" woman.
+14:3 | mouth. Put by Fig. Metonymy (of Cause), Ap. 6, for what is spoken by it. of pride. Gen. of Possession, "pride's sceptre". See Ap. 17 (3). On the one side, we have "pride", prating, and punishment; on the other side, prudence, piety, and preservation. lips. Put by Fig. Metonymy (of Cause), Ap. 6, for what is spoken by them. preserve = guard.
+14:4 | oxen. While these were multiplied, horses were prohibited.
+14:5 | A faithful witness, &c. See Matt. 26. 60, 61; Rev. 1. 5.
+14:6 | seeketh = every scorner hath sought repeatedly. Note the past tense. and findeth it not. Illustrations: the Pharisees (John 9. 29. Cp. 7. 52, and 1 Cor. 2. 14); Jews (Acts 13. 41, 45); Athenians (1 Cor. 1. 23; 2. 8). understandeth = is discerning. Illustration: Ethiopian (Acts 8. 27-39).
+14:7 | foolish. Heb. k'sil. See note on 1. 7. Same word as in vv. 16, 33; not the same word as in vv. 1, 3, 9, 17, 18, 29. man. Heb. 'ish. Ap. 14. II. When thou perceivest not = "And acknowledge not". Heb. yada', to know, as in vv. 10, 33, &c.
+14:8 | wisdom. Heb. chokma. See note on 1. 2. the prudent = a prudent one. See note on "subtil", Gen. 3. 1. is to understand. Not to vainly speculate about it, or to pry into the ways of others. deceit = lying. Heb. ramah. See note on 11. 18.
+14:9 | make a mock. The verb is singular, and probably the pl. "fools" means "A great fool makes a mock", &c. sin = guilt. The proper name for the trespass offering. Heb. 'asham (Ap. 44. ii.). Illustrations: the antediluvians (Luke 17. 26, 27. 1 Pet. 3. 20); Abner (2 Sam. 2. 14-17); Haman (Est. 3. 13-15. Prov. 29. 2); the Jews (Isa. 22. 13). the righteous = upright ones. favour. Those who offer the trespass offering, experience the Divine favour.
+14:10 | his own bitterness = the bitterness of his soul (Heb. nephesh. Ap. 13). Illustrations: Hannah (1 Sam. 1. 8-13); Joab (2 Sam. 19. 5-7); the Shunammite (2 Kings 4. 27); Haman (Est. 5. 13); Job (Job 3); Herod (Mark 6. 16). a stranger = an apostate. Heb. zur. See note on 2. 16; 5. 3.
+14:11 | the wicked = lawless ones. Heb. rasha'. Ap. 44. x. See notes on v. 32. tabernacle = tent, or dwelling. Heb. 'ohel. Ap. 40. Put by Fig. Metonymy (of Adjunct), Ap. 6, for the dwellers therein. the upright = upright ones (as in v. 9).
+14:12 | seemeth right = is pleasing. It only "seems" right. Illustrations: Jeroboam (1 Kings 12. 27-33; 14. 7-11. Cp. Prov. 3. 7); Josiah (2 Chron. 35. 20-24); Jews (Acts 13. 50; John 16. 2. Cp. Paul, Phil. 3. 4-7, and 1 Tim. 1. 13). are = is.
+14:13 | is: i. e. may be. Illustrations: Nabal (1 Sam. 25. 36, 37); Solomon (Ecc. 2. 2); Belshazzar (Dan. 5. 1-6, 30); Israelites (Amos 6. 3-7); Babylon (Rev. 18. 7, 8).
+14:14 | filled = satisfied. from himself. Ginsburg thinks, "from his own doings." Cp. Jer. 17. 10.
+14:15 | word: or thing.
+14:16 | evil. Heb. ra'a'. See Ap. 44. viii. rageth = rusheth on. confident. Heb. batah. Ap. 69. i.
+14:17 | wicked devices = deep schemes or intrigues.
+14:18 | the prudent = prudent ones.
+14:19 | The evil = evil ones. Heb. ra'a'. Ap. 44. viii. the righteous = a righteous one.
+14:20 | The poor = A needy one. Heb. rush. See note on 6. 11. the rich = a rich man.
+14:21 | sinneth. Heb. chata'. hath mercy on = is gracious to. the poor = an afflicted one. Heb. 'anah. See note on 6. 11. happy. See note on 3. 13.
+14:22 | mercy = lovingkindness, or grace.
+14:25 | souls. Heb. nephesh. Ap. 13.
+14:26 | the fear of the LORD. See note on 1. 7. strong confidence. Illustrations: Abraham (Gen. 22. 3-10. Heb. 11. 19); David (1 Sam. 30. 6); Hezekiah (2 Chron. 32. 7, 8, 22); Shadrach and others (Dan. 3. 17, 25, 27. Isa. 43. 2); Habakkuk (Hab. 3. 17-19); Peter (Acts 12. 6. Prov. 3. 24); Paul (2 Tim. 4. 6-8). children = sons.
+14:27 | depart from = avoid.
+14:29 | understanding = discernment. Heb. t'bunah. See note on 1. 2. hasty of spirit. Illustrations: Rehoboam (1 Kings 12. Cp. v. 16, above); Jehoram (2 Kings 5. 7); Jonah (Jonah 4. 8, 9); Martha (Luke 10. 40). spirit. Heb. ruach. Ap. 9.
+14:31 | the poor = a weak one. Heb. dal. See note on 6. 11. his Maker. An ancient title found in the book of Job (Job 35. 10), also in Prov. 17. 5; just as we speak of the "Creator". Used here because He is the Maker of the weak as well as the strong. We meet with it again in Isa. 17. 7; 51. 13; 54. 5. Not "confined to the later literature of Judaism". the poor = a humble one. Heb. 'ebyon. See note on 6. 11.
+14:32 | The wicked = A lawless one. Heb. rasha'. Ap. 44. x. driven away in his wickedness = thrust down in his evil-doing. Illustrations: Dathan (Num. 16. 33); Israel (Ex. 32. 28. 1 Cor. 10. 7); Balaam (Num. 31. 8, 10. Rev. 2. 14). Canaanites (Josh. 2. 9; 5. 1; 10. Deut. 9. 5); Hophni and Phinehas (1 Sam. 4. 11); Baal's prophets (1 Kings 18. 40); Belshazzar (Dan. 5. 2-6, 30). wickedness = lawlessness, as above. hath hope in his death. Illustrations: Jacob (Gen. 49. 18); Joseph (Gen. 50. 24, 25. Heb. 11. 22); David (2 Sam. 23. 5. Ps. 17. 15); Stephen (Acts 7. 55, 60); Paul (2 Tim. 4. 6-8); Peter (2 Pet. 1. 14, 16; 3. 13).
+14:33 | But, &c. The verb being fem. may refer to "wisdom". If so we may render "and [even] in the midst of fools will make itself known".
+14:34 | exalteth . . . But, &c. Illustrations: Deut. 4. 6; 28; 1 Kings 9. 7-9; 2 Chron. 15. 3, 5, 6; cp. Josh. 1. 8; 10. 42; 23. 14 with Judg. 1; 2, &c.; cp. 2 Chron. 17. 2-5, 10, 11, and 2 Kings 18. 7 with 2 Kings 16. Cp. the Canaanites (Lev. 18. 24-30); Egypt (Ex. 12. 12. Ezek. 29. 1-15); Amalekites (Ex. 17. 16. 1 Sam. 15); Babylon (Isa. 14. 4-23. Isa. 47. 6-15); Moab (Isa. 16. 6, 7); Tyre (Ezek. 28. 2-8. Isa. 23. 1-9): Nineveh (Zeph. 2. 13-15). people = peoples.
+15:1 | 15. 1-32 (X5, p. 878). WITH REFERENCE TO OTHER RELATIONS IN THE RELIGIOUS SPHERE. turneth away wrath. Illustrations: Aaron (Lev. 10. 16-20); Reubenites (Josh. 22. 15-34); Gideon (Judg. 8. 1-3. Prov. 15. 18); Hannah (1 Sam. 1. 15, 17); Abigail (1 Sam. 25. 23, &c.). grievous = bitter, cutting, violent, &c. Illustrations: the Ephraimites (Judg. 12. 1-4); men of Israel and Judah (2 Sam. 19. 41-43. Prov. 30. 33); Saul and Jonathan (1 Sam. 20. 30-34); Rehoboam (2 Chron. 10. 13-16. Prov. 26. 21); Eliphaz (Job 22. 5, &c.); Paul and Barnabas (Acts 15. 39).
+15:2 | the wise, &c. = wise ones will use.
+15:2 | fools. Heb. k'sil. See note on 1. 7. foolishness. Heb. 'evil. See note on 1. 7.
+15:3 | the LORD. Heb. Jehovah. Ap. 4. II. in every place. Note the different places in the illustrations following: Beholding = taking note, or observing. Illustrations: Adam (Gen. 3. 8, 9); Hagar (Gen. 16. 7, 13); Ethiopian (Acts 8. 29); Abraham (Gen. 22. 11, 15-18); Jacob (Gen. 28. 11-16; 46. 1-4); Joseph (Gen. 39. 21); Achan (Josh. 7. 10-18); Solomon (2 Chron. 7. 1-3, 12-16); David (Ps. 139. 7-13); Asa (2 Chron. 14. 11, 12); Jehoshaphat (2 Chron. 18. 31); Ahab (1 Kings 22. 34, 35); Hezekiah (2 Kings 20. 5, 13-18); Manasseh (2 Chron. 33. 12, 13); Ezekiel (Ezek. 3. 22); Nebuchadnezzar (Dan. 4. 29, 32); Belshazzar (Dan. 5. 5); Jonah (Jonah 2. 10); Nathanael (John 1. 48); Stephen (Acts 7. 55); Peter (Acts 10. 9-16); Herod (Acts 12. 23); Lydia (Acts 16. 13, 14); Paul (Acts 27. 23, 24. 2 Tim. 4. 17); the wedding guests (Matt. 22. 11-13. 1 Cor. 11. 28). the evil = evil ones. Heb. ra'a'. Ap. 44. viii. the good = good ones.
+15:4 | A wholesome tongue = Gentleness of tongue. tree of life. See Gen. 2. 9; 3. 22, 24. Cp. Prov. 3. 18. Ezek. 27. 12. Rev. 22. 2, and notes there. spirit. Heb. ruach. Ap. 9.
+15:5 | A fool. Heb. 'evil. See note on 1. 7. prudent. Sept. adds: "In abounding righteousness is great strength, but the ungodly will perish root and branch."
+15:6 | the righteous = a righteous one. treasure. Heb. "strength", put by Fig. Metonymy (of Cause), Ap. 6, for the treasures procured by it. the wicked = a lawless one. Heb. rasha'. Ap. 44. x. In v. 8 it is plural. Not the same word as in v. 26.
+15:7 | foolish. Heb. k'sil. See note on 1. 7.
+15:8 | the wicked = lawless ones. is an abomination, &c. See note on 3. 32. Illustrations: Cain (Gen. 4. 5. Heb. 11. 4); Saul (1 Sam. 15. 22, 23); Jews (Isa. 1. 11-15; 66. 3). the upright = upright ones.
+15:10 | is grievous, &c. Illustrations: Asa (2 Chron. 16. 10); Jews (John 7. 7; 8. 23, 40).
+15:11 | Hell = the grave. Heb. Sh'ol. Ap. 35. children = sons. men. Heb. 'adam. Ap. 14. I.
+15:12 | loveth not, &c. Illustrations: Ahab (2 Chron. 18. 7. Prov. 17. 4); the Jews (Amos 5. 10); Pharisees (Luke 7. 30); cp. Matt. 3. 7. Prov. 12. 1).
+15:13 | merry = joyful, or glad.
+15:14 | understanding. Heb. binah (1. 2). Same word as in v. 21, but not in v. 32. seeketh knowledge. Illustrations: Solomon (1 Kings 3. 5-10. Prov. 19. 8); Queen of Sheba (1 Kings 10. Matt. 12. 42); Mary (Luke 10. 39); Nicodemus (John 3. 1, 2); the Ethiopian (Acts 8. 28); the Bereans (Acts 17. 11).
+15:15 | afflicted. Heb. 'anah. See note on "poverty", 6. 11. evil = sad. Same word as in v. 3. merry = good.
+15:16 | Better. See note on 8. 11. Illustrations: the shepherds (Luke 2. 20. Cp. Matt. 2. 3); Paul in prison (Phil. 4. 11, 13, 18. 1 Tim. 6. 6). Contrast Ahab in palace (1 Kings 21. 4). Jehovah is a substitute for every good thing, but nothing is a substitute for Him. the fear of the LORD. See note on 1. 7.
+15:18 | man. Heb. 'ish. Ap. 14. II. strife = contention, or discord.
+15:19 | the righteous = upright ones. made plain = a raised road. Illustration: Eleazar (Gen. 24. 12, 26, 27, 52. Ps. 37. 23).
+15:21 | wisdom. Heb. leb = "heart", put by Fig. Metonymy (of Adjunct), Ap. 6, for the knowledge it should possess. See note on 1. 2.
+15:22 | counsellers. But they must be "counsellers". they are. Aram., Sept., and Syr. read "counsel is".
+15:23 | in due season = in its season.
+15:24 | above = upward. the wise = a skilful one. Heb. sakal. See note on 1. 2.
+15:25 | border = landmark. Note the contrast with "house".
+15:26 | the wicked = an evil-doer. Heb. ra'a', same word as "evil" in v. 3. Ap. 44. viii.
+15:27 | gifts = bribes. Cp. 18. 1; 20. 21.
+15:28 | evil. Heb. ra'a'. Ap. 44. viii.
+15:29 | the righteous = righteous ones.
+15:31 | of = tending or leading to. Gen. of Relation. See Ap. 17 (5).
+15:32 | instruction = correction, or discipline. See note on 1. 7. soul. Heb. nephesh. Ap. 13. Illustrations: Dathan (Num. 16. 12-14, 31-33); Zedekiah (2 Chron. 36. 12; Jer. 39. 1-7); Nebuchadnezzar (Dan. 4. 27-33); Belshazzar (Dan. 5. 22-30); Jews (Matt. 23. 34-38); Gadarenes (Luke 8. 37). getteth understanding = possesseth a heart. "Heart" put by Fig. Metonymy (of Subject), Ap. 6, for "sense". Illustrations: Job's friends (Job 42. 7-9); the woman (John 4. 17, &c.); two disciples (Luke 24. 25-32); Paul (Acts 9. 6-22).
+15:33 | wisdom. Heb. chakmah. See note on 1. 2. before honour, &c. Illustrations: Joseph (Gen. 41. 16, 39, 40. Prov. 22. 4); Gideon (Judg. 6. 15); Hananiah (Neh. 7. 2); Daniel (Dan. 2. 30-48); Centurion (Matt. 8. 8, 10); Ephraim (Hos. 13. 1); John Baptist (John 1. 15, 30; 3. 30).
+16:1 | 16. 1—19. 19 (U2, p. 877). THE PIOUS AND UNGODLY WITH REFERENCE TO GOD. THEIR LIFE AND ACTION. (Division.) preparations = arrangements or plans. The Ellipsis (Ap. 6) of the verb in the first clause must be supplied (as it is in the second clause): "To [ל] man [pertain] the plans of his heart; but from [מ] Jehovah [comes] the final decree." Cp. v. 9. May be well rendered "the last word" (cp. v. 4). See Ap. 74. Illustrations: Balaam (Num. 23. 11, 12; 24. 10-13. Josh. 24. 9, 10. Neh. 13. 2). Cp. Jer. 10. 23. man = man. Heb. 'adam. Ap. 14. I. answer. Heb. ma'aneh, from 'anah, which is a word of wide meaning. The noun occurs only eight times (Job 32. 3, 5. Prov. 15. 1, 23; 16. 1, 4; 20. 19. Mic. 3. 7). tongue. Put by Fig. Metonymy (of Cause), Ap. 6, for what is said by it. The silent and secret plans of man's heart are contrasted with the disclosures of the tongue, which come from Jehovah. See note on "Himself", v. 4. tongue. Put by Fig. Metonymy (of Cause), Ap. 6, for what is said by it. the LORD. Heb. Jehovah. Ap. 4. II.
+16:2 | man. Heb. 'ish. Ap. 14. II. clean = pure. own eyes. Cp. 12. 15; 14. 12; 16. 25; 21. 2. Conscience is no safe guide, for it depends on what a man believes. Illustrations: Hazael (2 Kings 8. 13); Jehu (2 Kings 10. 16, 31); the Pharisee (Luke 18. 11-14); Paul (Acts 26. 9; cp. 9. 4. 1 Tim. 1. 13 and Rom. 7. 9). weigheth. With moral and spiritual weights. the spirits = spirits (no Art.). Heb. ruach. Ap. 9.
+16:3 | thoughts = plans. Cp. v. 1. shall be established. Illustrations: Jacob (Gen. 32. 24-30; 46. 1-4); Ruth (Ruth 2. 12); David (1 Sam. 17. 45; 30. 8-19. 2 Sam. 5. 19-25); Ezra (Ezra 8. 21-23, 31, 32). Esther (Est. 4. 14-17; 8. 15-17); Daniel (Dan. 6. 10. Ps. 37. 4-6).
+16:4 | Himself. Same word as "answer" (v. 1) = His decree, or His own end. See note on v. 1. the wicked = a lawless one. Heb. rasha'. Ap. 44. x. evil. Heb. ra'a'. Ap. 44. viii.
+16:5 | abomination, &c. See note on 3. 32. hand . . . hand. Easterns walk thus: Westerns walk arm in arm. unpunished = acquitted, or held innocent.
+16:6 | mercy = lovingkindness, or grace. iniquity. Heb. 'avah. Ap. 44. iv. purged = covered: i. e. by a propitiatory covering. the fear of the LORD. See note on 1. 7.
+16:8 | Better. See note on 8. 11.
+16:9 | deviseth his way. See notes on v. 1. directeth his steps. Illustrations: Joseph's brethren (Gen. 37. 18-28, and 45. 5); Pharaoh's daughter (Ex. 2. 5); Saul (1 Sam. 9. 3, 15, 16; 23. 26-28); Jesse (1 Sam. 16. 8-11; 17. 23, 53); Syrians (2 Kings 5. 2); Zacchaeus (Luke 19. 4, 5, 9); woman (John 4. 7); Saul (Acts 9. 1, &c.); Philemon.
+16:10 | A divine sentence = an oracle. lips. Put by Fig. Metonymy (of Cause), Ap. 6, for what is uttered by them. transgresseth not: or, will not be unfaithful.
+16:11 | work = something made: i. e. His ordinance. Lev. 19. 36. Cp. Prov. 11. 1. The shekel was the shekel "of the sanctuary".
+16:12 | wickedness = lawlessness. Heb. rasha'. Ap. 44. x.
+16:13 | kings. Some codices, with Sept., Aram., and Syr., read "a king". they love, &c., or, kings love the words of uprightness.
+16:14 | messengers, &c. Illustrations: Benaiah (1 Kings 2. 25); Haman (Est. 7. 8-10). pacify it = get it covered.
+16:15 | cloud = heavy cloud, &c. Specially valuable, falling just before harvest.
+16:16 | wisdom. Heb. chakmah. See note on 1. 2. understanding. Heb. binah. See note on 1. 2.
+16:17 | the upright = upright ones. keepeth = guardeth. soul. Heb. nephesh. Ap. 13.
+16:18 | Pride goeth, &c. Illustrations: Asahel (2 Sam. 2. 18-23); Ben-hadad (1 Kings 20. 3, 11, 32); Babylon (Isa. 47. 10, 11); Azariah (Jer. 43. 2-11); Nebuchadnezzar (Dan. 4. 30, 31. Ps. 49. 11, 12); Edom (Obad. 3, 4); Herod Agrippa (Acts 12. 21-23).
+16:19 | lowly = wretched. Heb. 'anah. See note on 6. 11.
+16:20 | trusteth = confideth. Heb. batah. Ap. 69. I. happy. See note on 3. 13.
+16:21 | heart. Put by Fig. Metonymy (of Subject), Ap. 6, for understanding or discernment.
+16:22 | Understanding. Heb. sekel See note on 1. 2. fools . . . folly. Heb. 'evil. See note on 1. 7.
+16:23 | teacheth = maketh wise. Illustrations: Eleazar (Gen. 24. 34-49); Jacob (47. 9); Peter (Acts 3. 12, &c.; 4. 19, &c.); Paul (Acts 13. 16-41; 14. 17; 17. 28; 17; 24. 25; 26. 2-27. Philem. 1 Tim. 1. 12-16).
+16:24 | words = sayings. Heb. 'imrah. Ap. 73. v. health = healing. Cp. 6. 8. bones. Put by Fig. Synecdoche (of Part), Ap. 6, for whole body.
+16:26 | He that laboureth = the soul of him who laboureth. Heb. nephesh. Ap. 13. mouth = appetite. craveth it of him = urgeth him on.
+16:27 | An ungodly man = A man of Belial.
+16:28 | soweth = sendeth forth. Illustrations: Princes of Ammon (2 Sam. 10. 3); Ziba (2 Sam. 16. 3); Chaldeans (Dan. 3. 8-13); Herodias (Mark 6. 19, 20).
+16:31 | hoary head, &c. Illustrations: Jacob (Gen. 47. 9; 48. 1, &c.); Samuel (1 Sam. 12. 2-4; 25. 1); Barzillai (2 Sam. 19. 32, 37); Elisha (2 Kings 13. 14); Jehoiada (2 Chron. 24. 15, 16).
+16:32 | the mighty = a mighty one. than he that taketh a city. Illustration: Jehoshaphat (1 Kings 22. 3, 4. Even if the city had been taken, which it was not).
+16:33 | lot = stone. See next note. lap = bosom (17. 23; 21. 14). The reference is to the bag of the ephod, in which were the two stones by which Jehovah gave true judgment or decision. See notes on Ex. 28. 30. Num. 26. 55. Illustrations: Haman (Est. 3. 7); Jonah (Jonah 1. 7); apostles (Acts 1. 15-26). the whole disposing = its every decision. disposing = judgment. Heb. mishpat, as in Num. 27. 21.
+17:1 | 17. 1-28 (Y2, p. 886). PERSONAL CONTENTMENT AND PEACE. Better. See note on 8. 11. sacrifices = slain beasts. Heb. zebach. Ap. 43. II. xii.
+17:3 | the LORD. Heb. Jehovah. Ap. 4. II. trieth the hearts. Illustrations: Abraham (Gen. 22. 1); Israel (Deut. 8. 2); Hezekiah (2 Chron. 32. 31); Martha and Mary (John 11. 5, 6); young man (Matt. 19. 16-22); woman (Matt. 15. 23-28).
+17:4 | wicked = mischief maker. Heb. ra'a'. Ap. 44. viii. liar. Heb. "lie". Text not "corrupt"; but "lie" is put by Fig. Metonymy (of Effect), Ap. 6, for the man who habitually lies: i. e. a liar is always ready to believe a lie. Illustrations: Ahab (1 Kings 22. 6); Jews (Isa. 30. 9-11. Jer. 5. 30, 31. Mic. 2. 11).
+17:5 | mocketh. Illustrations: princes of Judah (Isa. 3. 14, 15; 10. 1, 2. Jer. 34. 10, 11); rich (Jas. 5. 4). the poor = a needy one. Heb. rush. See note on 6. 11. Maker. See note on 14. 31. unpunished = held guiltless. Illustrations: Tyrians (Ezek. 26. 2-6); Edom (Obad. 10-15).
+17:6 | Children's = Sons'.
+17:7 | speech. Heb. "lip", put by Fig. Metonymy (of Cause), Ap. 6, for what is spoken by it. fool. Heb. nabal. See note on 1. 7. Not the same word as in vv. 10, 12, 16, 24, 25. lips. See above note.
+17:8 | him that hath it = its owner (the bribed, not the briber). prospereth = it sparkles. And he loves to look at it and keep it. Cp. "gift", v. 23.
+17:9 | transgression. Heb. pasha'. Ap. 44. ix. very friends = true friends.
+17:10 | wise man. Heb. binah. See note on 1. 2. fool. Heb. k'sil. See note on 1. 7.
+17:11 | evil = evil worker. Same word as "wicked", v. 4.
+17:12 | a bear = a he-bear (masc. because it is always construed with a masc. verb). her whelps = his mate. man. Heb. 'ish. Ap. 14. II. folly. Heb. 'evil. See note on 1. 7.
+17:14 | beginning of strife. Illustrations: Ephraimites (Judg. 12. 1-6); Abner (2 Sam. 2. 14-17); Rehoboam (2 Chron. 10. 1-16); Jeroboam (2 Chron. 13. 17); the Twelve (Matt. 20. 24). when one letteth out = the letting loose (as by making a breach in a dam). be meddled with = gathereth volume.
+17:15 | justifieth the wicked, &c. Illustrations: the counsellors (Ezra 4. 1-16); Tertullus (Acts 24. 1-9); Ahab and Jezebel (1 Kings 21. 5-24). Note the Fig. Paronomasia (Ap. 6). Mazdik rasha' umarshia' zadik, which may be Englished, "he who wrongs the right and rights the wrong". the wicked = a lawless one. Heb. rasha'. Ap. 44. x. the just = a just one. abomination, &c. See note on 3. 32.
+17:16 | Wherefore is there a price, &c. = Why is this ready money in the hand of a fool to get wisdom when he has no sense? Illustrations: Israel (2 Chron. 30. 10); the Jews (Luke 4. 28); Herod Antipas (Luke 23. 11); Jews (John 5. 40; 8. 45); Athenians (Acts 17. 32, 33); Felix (Acts 24. 25-27); Agrippa (Acts 26. 28). wisdom. Heb. chakmah. See note on 1. 2. heart. Put by Fig. Metonymy (of Subject), Ap. 6, for the sense in it.
+17:17 | loveth at all times. Illustrations: Abraham (Gen. 14. 14. Cp. 13. 11); Joseph (Gen. 45. 5; 50. 21); Moses (Ex. 32. 11-13. Deut. 9. 18, 25-29. Cp. Acts 7. 40); Jonathan (1 Sam. 20. 33); Barzillai (2 Sam. 19. 32); Ahikam (Jer. 26. 24); Ebed-melech (Jer. 38. 7); Paul (Philem. 12, 20); Barnabas (Acts 9. 27); Aristarchus (Acts 19. 29; 20. 4; 27. 2. Philem. 24. Col. 4. 10); Luke (2 Tim. 4. 11); Epaphroditus (Phil. 2. 26).
+17:18 | man. Heb. 'adam. Ap. 14. I. understanding. Heb. "heart", put by Fig. Metonymy (of Cause), Ap. 6, for the understanding in it. See note on 1. 2.
+17:19 | he that exalteth his gate, &c.: i.e. a rich man, who thus proclaimed his wealth (Eastern doors being generally low-pitched and uninviting), courted destruction. This explains 2 Kings 25. 9, where "every great man's house he (Nebuchadnezzar) burnt with fire".
+17:21 | fool. Heb. nabal, as in v. 7.
+17:22 | spirit. Heb. ruach. Ap. 9.
+17:23 | gift = bribe. Cp. v. 8. This is the act of the briber, not the bribed. bosom = lap. See note on 16. 33.
+17:24 | before = is the goal of.
+17:27 | spareth his words. Illustrations: Aaron (Lev. 10. 3); Moses (Num. 16. 4; 20. 6); Samuel (1 Sam. 8. 6-8); Christ (1 Pet. 2. 23). understanding = discerning. Heb. binah. See note on 1. 2. excellent = quiet.
+17:28 | fool. Heb. 'evil, as in vv. 16, 22. See note on 1. 7. understanding = wisdom (i. e. a wise man).
+18:1 | 18. 1-24 (Y3, p. 886). PERSONAL VIRTUES IN SOCIAL LIFE. Through desire, &c. = Seeking his own pleasure, the recluse (or separatist) breaketh forth (or quarreleth) with everything that is stable. intermeddleth = breaketh forth. Heb. gala'. See note on "meddle", 17. 14. all wisdom = everything that is stable. See note on 2. 7.
+18:2 | fool. Heb. k'sil. See note on 1. 7. Same word as in vv. 6, 7; not the same as in v. 13. discover = vent.
+18:3 | the wicked = a lawless one. Heb. rasha'. Ap. 44. x. ignominy = disgrace, or shame (i. e. outward). reproach = reproachfulness.
+18:4 | words. Heb. dabar. Ap. 73. x. man's. Heb. 'ish. Ap. 14. II. wisdom. Heb. chakmah. See note on 1. 2. flowing brook = a gushing torrent. Heb. nahal.
+18:5 | not good. Fig. Tapeinosis (Ap. 6), meaning it is very bad. to accept the person = to show partiality. To. Repeat the Ellipsis: "[It is not good] to". overthrow = turn aside: i. e. pervert. the righteous = a righteous one.
+18:6 | lips. Put by Fig. Metonymy (of Cause), Ap. 6, for what is spoken by them. mouth. See above note. Illustrations: Judg. 8. 4-17; 2 Kings 2. 23, 24; Luke 19. 22.
+18:7 | soul = own self. Heb. nephesh. Ap. 13.
+18:8 | talebearer = whisperer, or tattler. are as wounds = are as dainty morsels: i.e. are greedily swallowed.
+18:9 | a great waster = a master of destruction: i. e. an absolute destroyer.
+18:10 | name = person. See note on Ps. 20. 1. the LORD. Heb. Jehovah. Ap. 4. II. safe = set on high. Illustrations: Job (Job 19. 25, 26); Habakkuk (Hab. 3. 17, 19); Asa (2 Chron. 14. 11); Hezekiah (2 Kings 19. 14-20, 32-35. Isa. 38. 1-8); Apostles (Acts 4. 24-33).
+18:11 | as = [it is] as. conceit = imagination. See note on 25. 11.
+18:12 | is haughty. Illustration: Jezebel (2 Kings 9. 30-33). humility. Cp. 15. 33. Illustration: contrast Goliath (1 Sam. 17. 8-10, 43, 44) with 1 Sam. 17. 45, 47.
+18:13 | before he heareth it. Illustrations: David (2 Sam. 16. 4; 19. 24-30); Ahasuerus (Est. 3. 10. Cp. 8. 5, &c.); Darius (Dan. 6. 9. Cp. 6. 14, 18); magistrates (Acts 16. 37-39).
+18:14 | spirit. Heb. ruach. Ap. 9. sustain, &c. Illustrations: Job (Job 1. 20, 21; 2. 8, 9, 10); Paul (2 Cor. 12. 9. Acts 22. 24. Rom. 5. 3-5); Paul and Silas (Acts 16. 23-25, 37). who can bear? Illustrations: Cain (Gen. 4. 13, 14); Eli's daughter-in-law (1 Sam. 4. 19-22. Cp. Prov. 15. 13); Saul (1 Sam. 28. 20; 2 Sam. 1. 9); Ahithophel (2 Sam. 17. 23); Zimri (1 Kings 16. 18); Pashur (Jer. 20. 4); Judas (Matt. 27. 5).
+18:15 | the prudent = a prudent one. the wise = wise ones.
+18:16 | man's. Heb. 'adam. Ap. 14. I.
+18:17 | first in his own cause. Illustrations: Saul (1 Sam. 15. 13. Cp. v. 26); Ziba (2 Sam. 16. 1-3. Cp. 19. 26); Tertullus (Acts 24. 5, 16. Cp. v. 13).
+18:19 | offended = dealt falsely with.
+18:21 | power. Heb. "hand", put by Fig. Metonymy (of Cause), Ap. 6, for the power put forth by it. the tongue. Illustrations: the ten spies (Num. 14. 36, 37); Doeg (1 Sam. 22. 9, 10); Sennacherib (2 Kings 18. 28, 35; 19. 22-35. 2 Chron. 32. 21); Ammonites (Ezek. 25. 3-7); Sapphira (Acts 5. 5-10); Esther (Est. 7 and 8); Paul (Acts 16. 28-34); the Gospel (Rom. 1. 16. 2 Cor. 2. 16).
+18:22 | a wife. Some codices, Aram., Sept., Syr., and Vulg., read, "a good wife". Cp. 19. 14.
+18:23 | The poor = a needy one. Heb. rush. See note on 6. 11.
+18:24 | A man. A special various reading called sevir reads yesh, instead of 'ish, which means "there is", or "there are" instead of "a man". It occurs three times: here, 2 Sam. 14. 19, and Mic. 6. 10. friends. Heb. re'im = feeders, from ra'ah to feed (Ps. 23. 1, shepherd). must shew himself friendly = who break in pieces. Heb. Hithpolel of ra'a' (Ap. 44. viii.) there is. Heb. yesh, as in preceding line. a friend = a lover (who loves "without cause"). Note the Fig. Paronomasia (Ap. 6) in these words, which may be thus represented in English:— "There are friends who rend us, But there is a lover who is closer than a brother."
+19:1 | 19. 1-19 (Y4, p. 886). PERSONAL CHARACTER, HUMILITY, &c. Better. See note on 8. 11. the poor = a needy one. Heb. rush. See note on 6. 11. Same as in vv. 7, 22; not the same as in vv. 4, 17. he that is. Fig. Ellipsis (Ap. 6), better supplied thus: "Than [the rich that is] perverse", &c. lips. Put by Fig. Metonymy (of Cause), Ap. 6, for what is spoken by them. fool. Heb. k'sil. See note on 1. 7. Same word as in vv. 10, 13, 29; not the same as in v. 3.
+19:2 | soul. Heb. nephesh. Ap. 13. not good. Illustrations: Syrians (1 Kings 20. 28); Jews (Isa. 5. 12, 13); Saul (1 Tim. 1. 13. Acts 26. 11); People and Priests (Hos. 4. 6); Pharisees (Matt. 12. 7); Judah (Hos. 6. 6); Peter (Matt. 16. 22); the rulers (Acts 13. 27. 1 Cor. 2. 8); Job (Job 33. 8, 9; 34. 5, 9, 35; 35. 16; 42. 3, 5, 6); Hezekiah (2 Chron. 32. 31); Peter (Luke 22. 33, 34). hasteth, &c. Illustrations: Joshua (Josh. 9. 15); Saul (1 Sam. 13. 9, 10, 13, 14; 14. 24-45); David (2 Sam. 16. 4); the Prophet (1 Kings 13. 18, 19); Peter (John 18. 10). sinneth. Heb. chata'. Ap. 44. i.
+19:3 | foolishness. Heb. 'evil. See note on 1. 7. Not the same word as in vv. 1, 10, 13, 29. man. Heb. 'adam. Ap. 14. I. perverteth: or subverteth. fretteth against = is angry with. Illustrations: Adam (Gen. 3. 12); Cain (Gen. 4. 13, 14); Jehoram (2 Kings 3. 10, 13; 6. 33); Jonah (Jonah 4. 1, 4, 9); Israel (Num. 14. 2, 3; 20. 2-5; 21. 4-6. Deut. 9. 23, 24). the LORD. Heb. Jehovah. Ap. 4. II.
+19:4 | the poor = a weak one. Heb. dal. See note on 6. 11. Same word as in v. 17; not the same word as in vv. 1, 7, 22.
+19:5 | unpunished = acquitted, or held innocent. speaketh = breatheth forth.
+19:6 | him that giveth gifts. Heb. a man ('ish, Ap. 14. II) of gifts = a generous man.
+19:7 | go far = withdraw. pursueth, &c.: or, seeketh words [of friendship], but there are none.
+19:8 | wisdom. Heb. "heart", put by Fig. Metonymy (of Adjunct), Ap. 6, for the understanding. See note on 1. 2. understanding. Heb. binah. See note on 1. 2.
+19:9 | A false witness, &c. The repetition of v. 5 is needed, and punishment is defined.
+19:10 | Delight = Luxury.
+19:11 | deferreth his anger. Illustrations: Joseph (Gen. 40. 15); Moses (Num. 12); David (1 Sam. 24; 26. 5, &c.); the Prophet (1 Kings 13. 6, &c.).
+19:12 | dew = night mist.
+19:13 | is the calamity = is a great trouble to. Heb. "troubles" (pl.) for great trouble. Fig. Metonymy (of Effect), Ap. 6, put for action of the foolish son which brings it on.
+19:14 | a prudent wife. See 18. 22.
+19:16 | keepeth = guardeth. die = die prematurely.
+19:18 | Chasten = Correct, or discipline. let not, &c. This is not a caution against excess of severity, but against a cruel kindness which ends in death, by withholding seasonable correction.
+19:19 | A man of great wrath = one in a rage (cp. Dan. 11. 44. Cp. 2 Kings 22. 13). shall suffer = suffereth. suffer punishment = incurreth a penalty. Heb. 'onesh = a fine, or indemnity. (Oxford Gesenius). thou deliver = thou rescue him [by paying the penalty] thou must do it continually.
+19:20 | 19. 20—24. 34 [For Structure see next page].
+19:20 | 19. 20—24. 34 (D, p. 864). PROVERBS FOR SOLOMON (22. 17; 24. 23); FOR A PRINCE AND A KING (20. 2, 8, 26; 21. 1). SECOND PERSON. (See below.) (Repeated and Extended Alternation.) D is addressed to "MY SON" (19. 27; 23. 15, 19, 26; 24. 13, 21); and is all in the Second Person: "THOU" (19. 20; 22. 24, 25, 26, 27; 23. 1, 5, 6, 13, 14, 19, 31, 34; 24. 1, 10, 11, 12); "THEE" (22. 19, 20, 21, 27; 23. 7); "THY" (22. 18; 23. 16, 22, 25; 24. 10, 27, 34); "THINE" (23. 12, 15, 17, 18, 19, 33); "THYSELF" (24. 27).
+19:20 | 20-27 (A1, p. 891). CALL TO HEAR. instruction = correction, or discipline.
+19:21 | many devices = many schemes. man's. Heb. 'ish. Ap. 14. II. Nevertheless, &c. Illustrations: Joseph's brethren (Gen. 37. 19, &c. Cp. Ps. 76. 10); Pharaoh (Ex. 1. 10. Cp. Ex. 15); the rulers (Matt. 27. 63-66); Saul (Acts 9. 1, 2. Cp. vv. 3-9, &c.); Herod (Acts 12. 1-3. Cp. vv. 5-19); the forty Jews (Acts 23. 12-15).
+19:22 | man. Heb. 'adam. Ap. 14. I. This word stands in relation to 'ish in v. 21, and to a poor man in next clause = here, the commonest sort of man, or ordinary man. is, &c. = is [measured by] his kindness. better. See note on 8. 11. a liar. Heb. an 'ish [a man of the better sort who is] a liar. This proverb does not "remain a riddle".
+19:23 | The fear of the LORD. See note on 1. 7. life. Heb. pl. implying resurrection and eternal life. evil. Heb. ra'a'. Ap. 44. viii.
+19:24 | bosom = bowl or wide dish. 2 Kings 21. 13. 2 Chron. 35. 13. Cp. Matt. 26. 23.
+19:25 | scorner = scoffer. will beware = will be made wise (note the force of the Hiphil). Illustrations: Israel (Ex. 14. 31); the stubborn (Deut. 21. 21); Gibeonites (Josh. 9. 3); Sergius Paulus (Acts 13. 6-12). reprove = set right. and he will understand knowledge = will cause teaching to be discerned. Cp. 22. 17.
+19:26 | wasteth = preyeth upon.
+19:27 | my son. The presence of this word here and in 23. 15, 19, 26; 24. 13, 21, together with the employment of the second person, shows that these are proverbs for Solomon. See note under Structure above. words = sayings. Heb. 'imrah. Ap. 73. v.
+19:28 | 19. 28—21. 1 (B1, above). PERSONAL CONDUCT. An ungodly witness. Heb. "A witness of Belial": i.e. a false witness. mouth. Put by Fig. Metonymy (of Cause), Ap. 6, for the witness given by it. the wicked = lawless ones. Heb. rasha'. Ap. 44. x. iniquity. Heb. 'aven. Ap. 44. iii.
+20:1 | Wine. Heb. yayin. See Ap. 27. I. is. Fig. Metaphor. Ap. 6. mocker = scoffer. strong drink. Heb. shekar. Ap. 27. IV raging = a brawler. is deceived = erreth. Heb. shagah = to go astray. See note on 11. 18. Not the same word as in v. 17. is not wise. Illustrations: Noah (Gen. 7. 1. Cp. 9. 20, 21); Nabal (1 Sam. 25. 36); Elah (1 Kings 16. 8-10); Ben-hadad (1 Kings 20. 16-21); Ephraim (Isa. 28. 7); Belshazzar, &c. (Dan. 5. Jer. 51. 39, 57); Nineveh (Nah. 1. 10); and probably Nadab and Abihu (Lev. 10. 8, 9).
+20:2 | sinneth = erreth. Heb. chata'. Ap. 44. i. soul. Heb. nephesh. Ap. 13.
+20:3 | man. Heb. 'ish. Ap. 14. II. to cease from strife. Illustrations: Abraham (Gen. 13. 7-9. Cp. Prov. 17. 14); David (1 Sam. 25. 32-34). fool. Heb. 'evil. See note on 1. 7. meddling = breaking out. See notes on 17. 14; 18. 1. The only other occurrences of gala'. Not the same word as in v. 19.
+20:4 | plow. Plowing always done during the early rains. cold = autumn. Put by Fig. Metalepsis, Ap. 6, "cold" put for Autumn, and "Autumn" put for abundance of fruits possessed at that time. Therefore. This word is read in the text in some codices, with five early printed editions.
+20:6 | men. Heb. 'adam. Ap. 14. I. every one. Heb. 'ish 'ish. Ap. 14. II. his own goodness. Illustrations: Absalom (2 Sam. 15. 4); Jehu (2 Kings 10. 16, 31); Scribes, &c. (Matt. 6. 2; 23. 5); the rich young man (Matt. 19. 20, 22).
+20:7 | children = sons. blessed = happy. See note on 3. 13.
+20:8 | evil. Heb. ra'a'. Ap. 44. viii.
+20:9 | can = is able to. I am pure, &c. Illustrations: Job before he learned his lesson (Job 9. 17; 10. 7; 11. 4; 16. 17; 23. 10, 11; 27. 5; 29. 14; 31. 1; cp. 33. 9. But not after, see 42. 5, 6). None of God's own people say this. Not David (2 Sam. 12. 13. Cp. Ps. 51. 1-7); not Psalmist (119. 176); not Ezra (Ezra 9. 6); not Nehemiah (Neh. 9. 33, 34); not Isaiah (Isa. 6. 5, 6); not Daniel (Dan. 9. 8); not Peter (Luke 5. 8); not John (1 John 1. 8); not James (Jas. 3. 2); not Paul (Rom. 7. 18. 1 Tim. 1. 15).
+20:10 | weights . . . measures. Heb. "a stone and a stone, an ephah and an ephah". Ephah put by Fig. Synecdoche (of Species), Ap. 6, for all kinds of weights and measures. There is no word for "divers" = diverse. abomination, &c. Cp. v. 23, and 11. 1; 16. 11, &c. See note on 3. 32, and cp. Deut. 25. 13, &c. the LORD. Heb. Jehovah. Ap. 4. II.
+20:11 | pure = accurate. right = correct.
+20:12 | hearing ear, &c. Illustrations: Moses (Ex. 4. 11); Hagar (Gen. 21. 19); Elisha's servant (2 Kings 6. 17); Lydia (Acts 16. 14).
+20:13 | come to poverty = become dispossessed. Heb. yarash. See note on 6. 11.
+20:14 | naught . . . naught = very bad. Fig. Epizeuxis (Ap. 6), for emphasis.
+20:16 | stranger = apostate. Heb. zur. See notes on 2. 16; 5. 3. pledge of him. Supply Fig. Ellipsis (Ap. 6), "[Who has become security for] a foreign woman." strange woman = foreign woman. Heb. nakar. See notes on 2. 16; 5. 3.
+20:17 | Bread of deceit = Bread gained by deceit. Genitive of Origin. See Ap. 17 (2). Bread. Put by Fig. Synecdoche (of Part), Ap. 6, for all kinds of food. deceit = lying. Heb. sheker. See note on 11. 18. filled with gravel: or grit. See note on Gen. 3. 14, implying utmost disappointment. See Ap. 19.
+20:19 | meddle = mingle, mix thyself up. Not the same word as in v. 3. lips. Put by Fig. Metonymy (of Cause) for the flattery spoken by them (Ap. 6).
+20:20 | curseth = revileth. lamp shall be put out. A Fig. Hypocatastasis (Ap. 6), denoting that he shall die childless.
+20:21 | blessed = happy. See note on 3. 13.
+20:22 | on = for.
+20:23 | abomination, &c. See note on 3. 32.
+20:24 | Man's = A strong man's. Heb. geber. Ap. 14. IV. man = an ordinary man. Heb. 'adam. Ap. 14. I.
+20:25 | devoureth = rashly promises. holy. See note on Ex. 3. 5.
+20:26 | scattereth = winnoweth out. wicked = lawless. Heb. rasha'. Ap. 44. x. the wheel: i.e. of the threshing instrument. Cp. Isa. 28. 27.
+20:27 | spirit = breath. Heb. n'shamah. See Ap. 16. candle = lamp or light. Same word as in v. 20. the belly. Put by Fig. Metalepsis (Ap. 6) for the heart, and the heart for its thoughts.
+20:28 | Mercy = lovingkindness, grace, or favour.
+20:30 | cleanseth away = is cleansing. Supply the Ellipsis (Ap. 6), "[though it be] an evil". evil. Heb. ra'a'. Ap. 44. viii. belly. Supply the Ellipsis from preceding clause, "[though they be an evil]"
+21:1 | the LORD. Heb. Jehovah. Ap. 4. II. the rivers of water. Heb. palgey mayim = the divisions of water [in a garden], from palag, to divide (Gen. 10. 25). The name given to the small channels which divide up an Eastern (walled) garden for purposes of irrigation. See note on "rivers", Ps. 1. 3. There is an Ellipsis in the second clause, and the verb must be supplied thus: The king's heart [is] in the hand of Jehovah, As the palgey mayim [are in the hand of the gardener]. See Ap. 74. He turneth, &c. i. e. Jehovah directeth [the king's heart] whithersoever He will [as the gardener directeth the water with his foot] (Deut. 11. 10), not needing or deigning to use a tool; so easily is it done. Illustrations: Ahab (1 Kings 18. 10. Cp. v. 40); Ahasuerus (Est. 6. 1); Sennacherib (2 Kings 19. 27, 28, and Isa. 10. 5-7); Nebuchadnezzar (Ezek. 29. 16. Jer. 43. 10-12); the Jews (Jer. 32. 28. 2 Kings 24. 3); Cyrus (Ezra 1. 1. Isa. 45. 1); Darius (Ezra 6. 22); Augustus (Luke 2. 1-7. Cp. Mic. 5. 2).
+21:2 | 21. 2—22. 16 (C1, p. 891). PERSONAL CHARACTER. man. Heb. 'ish. Ap. 14. II. pondereth = weigheth, and thus testeth. See all the occurrences of takan, to poise. 1 Sam. 2. 3. 2 Kings 12. 11 ("told"). Job 28. 25. Ps. 75. 3 (bear up). Prov. 16. 2; 21. 2 (pondereth); 24. 12 (pondereth). Isa. 40. 12 (meted), 13 (directed). In Ezekiel the Niphal is rendered "equal": 18. 25, 29; 33. 17, 20.
+21:3 | justice = righteousness. more acceptable, &c. Illustrations: Saul (1 Sam. 13. 10-13; 15. 22); Israel (Jer. 7. 22, 23. Amos 5. 21-24); Judah (Isa. 1. 11-17); Pharisees (Matt. 9. 13). Note the contrast, v. 4.
+21:4 | And. Omit this "And". plowing: or tillage. See Ap. 74. the wicked = lawless ones. Heb. rasha'. Ap. 44. x. sin. Heb. chata'. Ap. 44. i. The special word for the sin offering. Render the verse "A lofty look and a proud heart, [which is] the tillage of the lawless, [is more acceptable to them than] the sin offering." This supply of the Ellipsis (Ap. 6. III) from the preceding verse completes the sense, and shows that the two are strictly related.
+21:5 | thoughts = reckonings, or calculatings. the diligent = a diligent one.
+21:7 | robbery = rapacity. Illustrations: the princes of Judah (Isa. 1. 23, 24); the Jews (Jer. 7. 9-11, 15; 34. 10-22. Mic. 3. 9-12).
+21:8 | The way, &c. Render, "The way of a man laden with guilt is unsteady". Some codices, with Aram. and Syr., read "of a man who is an alien". pure = upright.
+21:9 | better. See note on 8. 11.
+21:10 | soul. Heb. nephesh. Ap. 13. the wicked = a lawless one. evil. Heb. ra'a'. Ap. 44. viii.
+21:11 | scorner = scoffer. instructed = corrected.
+21:12 | wickedness. Heb. ra'a'. Ap. 44. viii, same as "evil" in v. 10.
+21:13 | poor = weak. Heb. dal. See note on 6. 11. heard = answered. Illustrations: the Jews (Zech. 7. 9-14. Jer. 34. 10-22); Parable (Matt. 18. 30-34).
+21:15 | the just = a just one. iniquity. Heb. 'aven. Ap. 44. iii.
+21:16 | man. Heb. 'adam. Ap. 14. I. congregation = assembly. dead = the Rephaim, who have no resurrection. See note on "deceased" and "dead" in Isa. 26. 14, 19, and Ap. 25.
+21:17 | poor = destitute. Heb heser. See note on 6. 11. wine. Heb. yayin. Ap. 27. I.
+21:18 | the righteous = a righteous one. transgressor = traitor.
+21:19 | Than, &c. Supply the Ellipsis thus: Than [in a house, or palace].
+21:20 | foolish. Heb. k'sil. See note on 1. 7. spendeth it up = swalloweth it up.
+21:21 | mercy = lovingkindness, or grace.
+21:22 | casteth down. Illustrations: Joshua (Josh. 6. 3-21; 8. 4-8); wise woman (2 Sam. 20. 16-22. Cp. Ecc. 9. 13-15).
+21:23 | keepeth = guardeth. mouth . . . tongue. Put by Fig. Metonymy (of Cause), Ap. 6, for what is uttered by them. troubles. Some codices, with five early printed editions, Aram., Sept., and Syr., read "trouble" (sing.).
+21:26 | coveteth greedily = craving he craveth. Fig. Polyptoton (Ap. 6), for emphasis.
+21:27 | mind = purpose.
+21:28 | shall perish. Illustrations: Pashur (Jer. 20. 4-6); Hananiah (Jer. 28. 1-4, 10-17); the false prophets (Jer. 29. 21); Shemaiah (Jer. 29. 31, 32); Amaziah (Amos 7. 10-17). speaketh. Supply the Ellipsis (Ap. 6), "speaketh [the truth] evermore."
+21:30 | no wisdom . . . against the LORD. Illustrations: Pharaoh (Ex. 1. 10. See Ap. 23); Balak (Num. 24. 10); Ahaziah (2 Kings 1. 9-17); Sennacherib (2 Chron. 32. 21; Isa. 30. 31); Haman (Est. 5. 11-13; 7. 10).
+21:31 | safety, &c. = to Jehovah [belongeth] the salvation.
+22:1 | name. Note the Ellipsis (Ap. 6), and supply "good" from Ecc. 7. 1.
+22:2 | poor = needy. Heb. rush. See note on 6. 11. Same word as in v. 7. Not the same word as in vv. 9, 16, 22. The LORD. Heb. Jehovah. Ap. 4. II.
+22:3 | evil = mischief. Heb. ra'a'. Ap. 44. viii. simple. See note on 1. 4. are punished = suffer for it, or pay the penalty.
+22:4 | By humility, &c. = The reward of humility [that is] the fear of the Jehovah, will be, &c. the fear of the LORD. See note on 1. 7. life: i.e. resurrection and eternal life. See note on Lev. 18. 5; not necessarily long life on earth.
+22:5 | and. Sept., Syr., and Vulg. read this "and" in the text. froward = perverse. See note on 2. 12, 15; 3. 32. Illustrations: Israel (Judg. 2. 2, 3. Josh. 23. 12, 13; contrast with Josh. 21. 43-45; 24. 31); Ahab (1 Kings 17. 1; 18. 5; 21. 4, 20; 22. 6, 37). soul. Heb. nephesh. Ap. 13.
+22:6 | Train up = Hedge in: i.e. straiten him in, as cattle are guided. in the way he should go = concerning his way. Heb. at the mouth of his way: "mouth" being put by Fig. Metonymy (of Adjunct), Ap. 6, for the opening or beginning of his way. C. H. Spurgeon applied it to "the way you wish you had gone yourself"!
+22:7 | The rich = a rich one. the poor = poor ones. is servant, &c. Illustrations: the widow (2 Kings 4. 1); the Jews (Neh. 5. 3, 5).
+22:8 | iniquity = trickery. Heb. 'aval. Ap. 44. vi. Illustration: Rebekah (Gen. 27. 6-17, 41-46). shall fail. Illustrations: Balak (Num. 24. 10); Solomon (1 Kings 11. 14, 23, and 1 Kings 11. 31, 40); Ahaziah (2 Kings 1. 9-17); Sennacherib (2 Chron. 32. 21. Isa. 30. 31); Haman (Est. 5. 11-13; 7. 10). See note on 21. 30.
+22:9 | the poor = a weak one. Heb. dal. Same word as in vv. 16, 22. Not the same word as in vv. 2, 7. See note on 6. 11.
+22:10 | scorner = scoffer. shall go out. Illustration: Ishmael (Gen. 21. 9-12. Cp. Gal. 4. 29).
+22:11 | He that, &c. Aram., Sept., and Syr., read "Jehovah". pureness of heart = one pure of heart.
+22:12 | preserve = guard. words: or affairs. Heb. dabar. Ap. 73. x. transgressor = traitor. Heb. bagad. Illustrations: Ahithophel (2 Sam. 17. 14); Noadiah (Neh. 6. 14-16); Ezra's opponents (Ezra 3. 3, 13. Cp. ch. 5 and 6); the Sanhedrin (Acts 5. 34).
+22:13 | streets = open places.
+22:14 | strange = apostate. Heb. zur. See notes on 2. 16 and 5. 3.
+22:15 | Foolishness. Heb. 'evil. See note on 1. 7.
+22:17 | 17-21 (A2, p. 891). CALL TO HEAR. words of the wise. See the Structure of the whole book (p. 864). Referring to the wise men by whom Solomon was surrounded, such as Ethan, Heman, Chalcol, and Darda, the sons of Mahol (1 Kings 4. 31). thine. Note the continuation of the second person, "the words of the wise" being addressed to Solomon. heart. Put by Fig. Metonymy (of Subject), Ap. 6, for thoughts and powers. my. Note the writer's personality as being other than Solomon. knowledge = teaching.
+22:19 | trust = confidence. Heb. batah. See Ap. 69. i. be = come to be. thee. Note the emphasis on the second person.
+22:20 | to thee = for thee. See the Structure (p. 891). excellent things. Heb. marg. reads "formerly", or "before". In = With.
+22:21 | words = sayings, or utterances. Heb. 'imrah. See Ap. 73. v. send unto = inquire of. Illustration: the queen of Sheba (1 Kings 10).
+22:22 | 22-29 (B2, p. 891). PERSONAL CONDUCT. the afflicted = a wretched one. Heb. 'ani. See note on 6. 11.
+22:24 | an angry man = a lord, or master, of anger. man. Heb. 'ish. Ap. 14. II.
+22:27 | he: i. e. the usurer.
+22:28 | ancient = age-long. landmark = boundary stone.
+22:29 | Seest thou . . . ? Fig. Erotesis. Ap. 6. man. Heb. 'ish. Ap. 14. II. mean = mean ones: i. e. men who are obscure.
+23:1 | 23. 1-21 (C2, p. 891). PERSONAL CHARACTER. When = Forasmuch as. Taking the act for granted. thou. The second person is continued down to v. 24. Consider = Discern. what: or, who.
+23:2 | And put = Then thou wilt put. a man given, &c. Illustrations: Esau (Gen. 25. 30); Isaac (Gen. 25. 28; 27. 4); those referred to in Phil. 3. 18, 19. appetite = soul. Heb. nephesh. Ap. 13.
+23:3 | dainties = dainty meals. deceitful meat = meat that deceives. Heb. kazah. See note on 11. 18.
+23:4 | Labour not, &c. Illustrations: Lot (Gen. 13. 10, 13); the rich fool (Luke 12. 16-20. Cp. Prov. 10. 16). See Jeremiah's advice (Jer. 45. 5). wisdom. Heb. binah. See note on 1. 2. Not the same word as in vv. 9, 23.
+23:5 | For. This is the reason why "it is gone".
+23:6 | evil. Heb. ra'a'. Ap. 44. viii.
+23:7 | thinketh, &c. = estimates himself. heart = soul. Heb. nephesh. Ap. 13.
+23:9 | fool. Heb. k'sil. See note on 1. 7. he will despise. Illustration: Amaziah (2 Chron. 25. 16). wisdom = intelligence. Heb. sekel. See note on 1. 2. Not the same word as in vv. 4, 23. words = sayings. Heb. millah = discourse.
+23:10 | old landmark = ancient boundary. Cp. 22. 28. fields. Some codices, with Aram., Sept., Syr., and Vulg., read "field" (sing.). fatherless. Put by Fig. Synecdoche (of Species), Ap. 6 for all bereaved ones.
+23:11 | Redeemer = kinsman-redeemer. Heb. ga'al. See note on Ex. 6. 6; 13. 13.
+23:13 | child = youth.
+23:14 | deliver = rescue. soul. Heb. nephesh. Ap. 13. hell = hades. See Ap. 35.
+23:16 | reins = kidneys. Put by Fig. Metonymy (of Adjunct), Ap. 6, for affections and impulses.
+23:17 | sinners. Heb. chata'. Ap. 44. i. the fear of the LORD. See note on 1. 7. the LORD. Heb. Jehovah. Ap. 4. II.
+23:18 | an end = a hereafter, or latter end. expectation. Heb. tikvah. See note on 10. 28.
+23:19 | my son. Note the characteristic of this member D (p. 891).
+23:20 | winebibbers. Heb. yayin (Ap. 27. i) and saba' = drinkers to excess. eaters of flesh = selfish eaters.
+23:21 | poverty = dispossession. Heb. yarash. See note on 6. 11.
+23:22 | 22-25 (A3, p. 891). CALL TO HEAR. Hearken. This determines the Structure (p. 891). thy father. Note this mark of "Proverbs FOR Solomon". See the Structure of D (p. 891).
+23:23 | wisdom. Heb. chakmah. See note on 1. 2. Not the same word as in vv. 4, 8.
+23:24 | the righteous = a just one.
+23:26 | 26-33 (B3, p. 891). PERSONAL CONDUCT. heart. Put by Fig. Metonymy (of Adjunct), Ap. 6, for attention. observe = delight in.
+23:27 | strange = foreign. Heb. nakar. See note on 2. 16; 5. 3. Not the same word as in v. 33.
+23:28 | transgressors = traitors. men. Heb. 'adam. Ap. 14. I.
+23:30 | wine. Heb. yayin. Ap. 27. I. mixed wine. Heb. mimsak. See Ap. 27. VII.
+23:31 | his colour = its sparkle.
+23:33 | strange = apostate. Heb. zur. See note on 2. 16; 5. 3. Not the same word as in v. 27.
+23:34 | midst. Heb. "heart". top = basket: i. e. the look-out basket or cradle on the mast.
+23:35 | felt = knew.
+24:1 | 24. 1-20 (C3, p. 891). PERSONAL CHARACTER. Be not thou envious = Do not get excited. Cp. 23. 17. evil. Heb. ra'a'. Ap. 44. viii. men. Heb. 'enosh. Ap. 14. III.
+24:2 | mischief. Heb. 'amal. Ap. 44. v. Not the same word as in vv. 8 and 16.
+24:3 | wisdom. Heb. chakmah. See note on 1. 2.
+24:4 | chambers = inner chambers.
+24:5 | A wise man, &c. = A strong man [if wise] is strong indeed. Aram., Syr., and Sept. read "[Better] a wise man than a mighty". man. Heb. geber. Ap. 14. IV. a man. Heb. 'ish. Ap. 14. II. increaseth strength. Aram. and Syr. read "than one who is strong".
+24:6 | multitude, &c. But they must all be "counsellors". Cp. 11. 15 and 15. 22.
+24:7 | Wisdom. Heb. pl. = true wisdom. See notes on 1. 20; 9. 1; and cp. 14. 1. is too high = seems to be, or is regarded as coral: i.e. as an ornament costly, and, to him, unattainable. Occurs three times (here, Job 28. 18, and Ezek. 27. 16). fool. Heb. 'evil. See note on 1. 7. openeth not his mouth in the gate: i.e. where the judges sit. A fool is not appointed as a judge.
+24:8 | mischievous person = a genius at plots. Heb. zimmah = plots. Not the same word as in vv. 2 and 16.
+24:9 | thought, &c. Cp. 4. 23. Job 1. 5. Jer. 4. 14. Matt. 9. 3, 4; 15. 19, 20. foolishness = the foolish. Heb. 'evil (v. 7). sin. Heb. chata'. Ap. 44. i. scorner = scoffer. men. Heb. 'adam. Ap. 14. I. Same word as in vv. 12, 30.
+24:10 | If thou faint, &c. Adversity is sent to try our strength; and, if we fail, it is proved to be weakness. Illustrations: Jacob (Gen. 42. 36); David (1 Sam. 27. 1); Elijah (1 Kings 19. 3, 4); Jonah (Jonah 4. 8).
+24:11 | If thou forbear. This is counsel for a ruler or judge, and is FOR Solomon. See the Structure (p. 891). Illustrations: Doeg (1 Sam. 22. 18); Pilate (Luke 23. 22-24). deliver = snatch, or rescue. drawn, &c. = being taken to execution.
+24:12 | knew it not = we knew not of it. soul. Heb. nephesh. Ap. 13.
+24:13 | My son. Confirming the Structure D (p. 891).
+24:14 | cut off. Cp. v. 20 and 23. 18.
+24:15 | wicked = lawless. Heb. rasha'. Ap. 44. x. (sing.), v. 16 (pl.). the righteous = a just one.
+24:16 | just = righteous. the wicked = lawless ones. mischief = calamity. Heb. ra'a'. Ap. 44. viii. Not the same word as in vv. 2 and 8.
+24:17 | Rejoice not. Illustrations: Tyre (Ezek. 26. 2-6); Ammon (Ezek. 25. 6); David (2 Sam. 1. 11, 12). Cp. Ps. 35. 13, 14); Jeremiah (Jer. 9. 1); Edom (Obad. 11-14).
+24:18 | the LORD. Heb. Jehovah. Ap. 4. II. from him. Supply Ellipsis, "from him [to thee]".
+24:19 | Fret not = Chafe not thyself. Cp. Ps. 37. 1, 7, 8. evil men = evil-doers. Cp. Ps. 37. 1, 7, 8. Same word as in v. 8. envious = excited. the wicked = lawless ones.
+24:20 | reward = posterity, or future. candle = lamp. The idiom is used for having no posterity.
+24:21 | 21 (A4, p. 891). CALL TO HEAR. meddle not = mingle not, i.e. have nothing to do with. them that are given to change = with them that make a difference [between a wicked king and a wicked common man].
+24:22 | 22-29 (B4, p. 891). PERSONAL CONDUCT. their: i.e. the king and a common man. calamity = overthrow. ruin = catastrophe. both: i.e. the two who are the subjects of this counsel.
+24:23 | belong to = are [the words of] the wise (pl.). R.V. = are [sayings] of the wise. See the Structure, p. 891, and note on 22. 17.
+24:24 | the wicked. Unto a wicked [king]: i. e. as well as to an ordinary man. wicked = lawless. Heb. rasha'. Ap. 44. x. people = peoples.
+24:25 | rebuke him: i.e. rebuke a wicked king.
+24:26 | kiss his lips = do homage with his lips to him. right = straightforward.
+24:28 | deceive. Heb. pathah. See note on 11. 18.
+24:29 | as = according as.
+24:30 | 30-34 (C4, p. 891). PERSONAL CHARACTER. understanding. Heb. "heart": put by Fig. Metonymy (of Adjunct), Ap. 6, for the discernment coming from it. See note on 1. 2.
+24:31 | lo. Fig. Asterismos. Ap. 6.
+24:32 | saw = gazed. considered it well = set my heart upon it.
+24:34 | poverty = need. Heb. rush. See note on 6. 11. an armed man = a man with a shield.
+25:1 | 25. 1—26. 28 (C, p. 864). PROVERBS BY SOLOMON. THIRD PERSON ("HE", "HIM", "HIS"). (Division.)
+25:1 | 25. 1-28 (D1, above). ADMONITION TO THE FEAR OF GOD. (Division.) of Solomon = by Solomon, as author: i.e. written by him. Characterising this section of the book. the men of Hezekiah. Evidently a special guild of scribes employed in the work of editing and putting together the O.T. books. At the end of each book are three Majuscular letters, Cheth (ח = H), Zayin (ז = Z), and Koph (ק = K), which are the initials of Hezekiah, and his sign-manual, confirming the work done. This tri-grammaton is found in all MSS. and printed editions up to the end of 2 Kings. After the death of Hezekiah it obtains varied forms and additions; subsequent writers and editors having lost the origin and meaning of these three letters, and taken it as a word which means "Be strong", put there for their encouragement. See Ap. 67. men. Heb. 'enosh. Ap. 14. III.
+25:2 | God. Heb. Elohim. Ap. 4. I. Cp. Job 37. 14-24; and 38-41. honour = glory, as in preceding line.
+25:4 | finer = refiner.
+25:5 | Take away, &c. Illustrations: David (1 Kings 2. 5, 6. Cp. v. 46); Asa (1 Kings 15. 13). the wicked = a lawless one. Heb. rasha'. Ap. 44. x.
+25:7 | better. See note on 8. 11.
+25:8 | Go not forth, &c. Illustrations: Gaal (Judg. 9. 26-40); the ten tribes (Josh. 22. 12-34); Abner (2 Sam. 2. 14, 17); Asahel (2 Sam. 2. 18-23); Amaziah (2 Kings 14. 8-14); Josiah (2 Chron. 35. 20-24).
+25:9 | with thy neighbour. Illustrations: Abraham (Gen. 13. 8; 21. 25-32); Jephthah (Judg. 11. 12-27).
+25:10 | shame. A Homonym. Heb. chesed, meaning (1) mercy, or lovingkindness, but also (2) a disgraceful thing. Lev. 20. 14, 17. Job 37. 13. See notes there.
+25:11 | fitly = timely. As we say "on the spur of the moment". apples of gold. The difficulty is not in this expression, for jewellery is evidently intended from the first clause of the next verse. pictures = carved or sculptured work, put by Fig. Metonymy (of Effect), Ap. 6, for imaginative work made from it: i. e. baskets, or dishes. Golden fruit (the Rev. James Niel suggests oranges) in silver salvers would be the height of rarity, which it is the intention of the words to convey. Heb. maskith occurs six times, 18. 11 ("conceit"); Lev. 26. 1. Num. 33. 52. Ps. 73. 7 ("could wish"); Ezek. 8. 12 ("imagery").
+25:12 | obedient = attentive.
+25:13 | in the time of harvest: i. e. most unusual. Cp. 26. 1. The emphasis is on "cold" as being refreshing. soul. Heb. nephesh. Ap. 13.
+25:14 | false = pretended. Illustrations: Zedekiah (1 Kings 22. 11); Hananiah (Jer. 28. 1-4); Shemaiah (Jer. 29. 24-31); false apostles (2 Cor. 11. 13-15. Jude 12). wind. Heb. ruach. Ap. 9.
+25:15 | prince: or judge. persuaded. Cp. Gen. 26. 13-31. tongue. Put by Fig. Metonymy (of Cause), Ap. 6, for what is spoken by it. breaketh the bone: i. e. overcometh obstinacy.
+25:17 | weary = full of.
+25:18 | A man. Heb. 'ish. Ap. 14. II. maul = a mallet, or large wooden hammer, or club. From the Latin malleus.
+25:19 | unfaithful = treacherous. Heb. bagad. See note on "transgressors" (11. 3). foot out of joint = a tottering foot. Illustrations: Micah (Judg. 18. 20); Ben-hadad (2 Kings 8. 8-15. 2 Chron. 28. 20, 21); Israelites (Isa. 30. 1-5); Zedekiah (Jer. 37. 5-7); cp. Ezek. 17. 15; 29. 7; and Prov. 19. 22.
+25:20 | taketh away, &c. = decketh himself out in. Heb. 'adah. See Job 40. 10. Isa. 61. 10. Jer. 4. 30; 31. 4. Ezek. 16. 11, 13; 23. 40. Hos. 2. 13: i.e. he that thinks more of his appearance than his comfort and health. nitre = natron. Now called soda. With any acid it causes strong effervescence. So is he. The point is in the incongruity of the three things named.
+25:21 | If thine enemy be hungry, &c. Quoted in Rom. 12. 20; cp. 1 Sam. 24. 6; 26. 9. Illustrations: Azariah, Berachiah, &c. (2 Chron. 28. 12-15); Elisha (2 Kings 6. 19-23). By the Fig. Synecdoche (of Species), Ap. 6, these examples are put for all similar kinds.
+25:22 | heap, &c. = receive from thine enemy [and place] upon his head. Fig. Ellipsis (Relative), Ap. 6. As hatha = receive, the Ellipsis must be thus supplied: i. e. If thou doest good to one whose burning words (16. 27; 26. 23) thou hast received, they will burn him in another sense. Illustration: David (1 Sam. 24. 16-22). the LORD. Heb. Jehovah. Ap. 4. II.
+25:23 | driveth away = bringeth forth. Heb. hul. an angry countenance. Supply the Ellipsis thus: by adding "[produceth]".
+25:24 | brawling = wrangling.
+25:25 | good news, &c. Illustrations: Jacob (Gen. 45. 25-28); Paul (Col. 1. 3, 4. Eph. 1. 15, 16. Phil. 1. 3-6).
+25:26 | troubled = trampled, or fouled.
+25:28 | spirit. Heb. ruach. Ap. 9.
+26:1 | 26. 1-28 (D2, p. 897). WARNING AGAINST THE SINS OF MEN. snow in summer . . . rain. These are as rare and as exceptional as honour is to a fool. a fool. Heb. k'sil. See note on 1. 7.
+26:2 | by . . . by = for . . . for: or [has cause] for. So the curse, &c. Illustrations: Baalam's (Neh. 13. 2); Goliath's (1 Sam. 17. 43); Shimei's (2 Sam. 16. 5, 12).
+26:3 | the fool's back = the back of fools.
+26:4 | Answer not. The point of v. 3 is that you cannot reason with a fool; v. 4 gives the reason. If you answer not according to his folly, he will think he is wise like yourself. If you do answer him according to his folly, he will think you are a fool like he is: i. e. according to v. 3 you cannot reason with him. These are finely stated facts, not commands. folly. Heb. 'evil. See note on 1. 7.
+26:5 | conceit = eyes.
+26:6 | sendeth a message: or, transacteth business. Cutteth off the feet: i.e. his own feet = renders himself helpless.
+26:7 | legs = clothes; "legs" put by Fig. Metonymy (of Subject), Ap. 6, for the clothes on them. are not equal = are lifted up: i.e. the clothes being lifted up expose the lame legs. So a fool exposes his folly in expounding a parable.
+26:8 | bindeth = bindeth tight: a foolish thing to do.
+26:9 | a drunkard: i. e. insensible to a thorn.
+26:10 | The great God, &c. Render: "A master [workman] formeth all himself aright: but he that hireth a fool, hireth a transgressor [who will spoil the work]." rewardeth. Heb. sakar, to hire.
+26:11 | As a dog, &c. Quoted in 2 Pet. 2. 22. returneth = repeateth. Illustrations: Pharaoh (Ex. 9. 27-34); Ahab (1 Kings 21. 27; 22. 6-8); Herod (Mark 6. 20-27).
+26:12 | man. Heb. 'ish. Ap. 14. II.
+26:13 | a lion = a black lion.
+26:15 | hideth = burieth. bosom = dish, as in 2 Kings 21. 13. Prov. 19. 24. It grieveth him = It is hard for him, or he is too lazy.
+26:16 | men. No Heb. for this word here.
+26:17 | meddleth = vexeth himself.
+26:19 | deceiveth. Heb. ramah. See note on 11. 18. Not the same word as in v. 26.
+26:22 | wounds = self-inflicted wounds. Cp. 18. 8.
+26:23 | Burning lips: i. e. warm professions. wicked. Heb. ra'a'. Ap. 44. viii. silver dross. Fig. Hypallage (Ap. 6). Heb. = silver of dross.
+26:25 | speaketh fair = maketh his voice gracious.
+26:26 | deceit. Heb. nasha'. See note on 11. 18. Not the same word as in vv. 19, 24. congregation = assembly.
+26:27 | shall fall therein. Illustrations: Jacob, who deceived with a kid (Gen. 27. 14), was deceived by a kid (Gen. 37. 31, 32); David and the sword (2 Sam. 11. 14, 15, and 2 Sam. 12. 10); Haman and the gallows (Est. 7. 10; see Ps. 9. 15); Daniel and his accusers (Dan. 6. 4-9, 13, and 24).
+26:28 | hateth, &c.: i. e.:— "Forgiveness to the injured doth belong; They ne'er pardon who have done the wrong."
+27:1 | 27. 1—29. 27 (D, p. 864). "WORDS OF THE WISE". FOR SOLOMON (A KING AND PRINCE, 28. 16; 29. 4, 14). SECOND PERSON. "MY SON" (27. 11). "THYSELF" (27. 1). "THOU" (27. 1, 22, 23). "THY" (27. 10, 23, 26, 27).
+27:1 | Boast not, &c. Cp. Jas. 4. 13-16. thyself . . . thou. Second person, marking the Structure. thou knowest not. Illustrations: Jonathan (1 Sam. 23. 17. Cp. 31. 2); Abner (2 Sam. 3. 9, 10. Cp. 3. 27); Benhadad (1 Kings 20. 3-31. Cp. v. 11); Ahab (1 Kings 22. 26, 27, 34-37); Haman (Est. 5. 12; 7. 1, 10); Nebuchadnezzar (Dan. 4. 30, 31-33); the rich fool (Luke 12. 20).
+27:2 | Let another man praise thee. Illustrations: Centurion (Matt. 8. 10); John (Matt. 11. 11. John 5. 35); Luke (Col. 4. 14. 2 Tim. 4. 11); Epaphroditus (Phil. 2. 25). No Heb. for "man", here. thee . . . thine. Second person, marking the Structure. stranger = one unknown. Heb. nakar. See note on 2. 16; 5. 10.
+27:3 | fool's. Heb. 'evil. See note on 1. 7. them. Should be "they".
+27:4 | envy = jealousy.
+27:6 | Faithful, &c. Illustrations: Nehemiah (Neh. 5. 7-13. Cp. Neh. 6. 2); Jehu (2 Chron. 19. 2-11). deceitful. Heb. 'athar = effusive (i. e. abundant) and empty (as vapour). See note on 11. 18. Cp. Matt. 26. 49.
+27:7 | soul. Heb. nephesh. Ap. 13.
+27:8 | man. Heb. 'ish. Ap. 14. II.
+27:9 | hearty counsel = counsel of the soul. Heb. nephesh. Ap. 13.
+27:10 | thy father's friend. Illustrations: Hiram (1 Kings 5. 1. Cp. v. 12); Mephibosheth (2 Sam. 9. 6, 7. Cp. 21. 7); Rehoboam (1 Kings 12. 6-8); Joash (2 Chron. 24. 17, 18; cp. v. 22). better. See note on 8. 11.
+27:11 | My son. Marking the Structure (p. 899), as being the Words of the Wise, for Solomon.
+27:12 | evil. Heb. ra'a'. Ap. 44. viii. are punished = pay the penalty.
+27:13 | stranger = an apostate. Heb. zur. See note on 2. 16; 5. 3. strange = foreign. See note above.
+27:15 | contentious = wrangling.
+27:16 | wind. Heb. ruach. Ap. 9. And. Supply the Ellipsis, "And [hideth]", &c.
+27:18 | that waiteth . . . honoured. Illustrations: Deborah (Gen. 35. 8); Joseph (Gen. 39. 2-6, 22, 23); Elisha (2 Kings 3. 11); Centurion's servant (Luke 7. 8); disciples (Luke 12. 37); soldier (Acts 10. 7).
+27:19 | man . . . man. Heb. 'adam. Ap. 14. I.
+27:20 | Hell = Sheol. Ap. 35.
+27:21 | for . . . for = trieth . . . trieth. So is, &c. = So doth a man put his praise to the test.
+27:22 | bray = pound, pulverize.
+27:24 | riches. Consisted mainly in flocks and herds.
+27:26 | goats = he goats.
+27:27 | maintenance = life.
+28:1 | 28. 1-28 (E2, p. 899). AGAINST UNSCRUPULOUS DEALING. The wicked flee, &c. = A lawless one flees. Illustrations: Adam (Gen. 3. 8); Joseph's brethren (Gen. 50. 15); the Jews (Lev. 26. 36); Ahab (1 Kings 21. 20); Herod Antipas (Matt. 14. 2. Cp. Prov. 20. 27); Felix (Acts 24. 25). Cp. Eph. 2. 13. the wicked = a lawless one. Heb. rasha'. Ap. 44. x. the righteous = righteous ones. are bold as a lion. Illustrations: Moses (Ex. 32. 20); the prophet (1 Kings 13. 1-10); Elijah (1 Kings 18. 15, 18. 2 Kings 1. 15); Azariah (2 Chron. 26. 17, 18); Nehemiah (Neh. 6. 11); Shadrach, &c. (Dan. 3); Peter and John (Acts 4. 18, 20; 5. 41, 42); Stephen (Acts 7. 51-60); Paul (Acts 20. 22-24). bold = confident. Heb. batah. Ap. 69. i.
+28:2 | transgression. Heb. pasha'. Ap. 44. ix. many: i.e. changes of dynasty in quick succession. a man of understanding, &c., or a man knowing a discerning [man] when he sees him, &c. Cp. Pharaoh and Joseph; or Nebuchadnezzar and Daniel. man. Heb. 'adam. Ap. 14. I.
+28:3 | poor = needy. Same root as in vv. 6, 19, 27. Not the same word as in vv. 3, 8, 11, 15, 22. Heb. rush. See note on 6. 11. man = strong man. Heb. geber. Ap. 14. IV. the poor = weak ones. Heb. dal. See note on "poverty" in 6. 11. Same word as in vv. 8, 11, 15.
+28:4 | praise the wicked = praise a lawless one. Illustrations: Saul (1 Sam. 23. 21); Absalom (2 Sam. 15. 6); Judah's nobles (Neh. 6. 19); false prophets (Jer. 5. 30, 31); Jews (Acts 12. 21-23). contend with them. Illustrations: Nehemiah (Neh. 5. 7-11; 13. 11); John (Matt. 14. 4).
+28:5 | Evil. Heb. ra'a'. Ap. 44. viii. men. Heb. 'enosh. Ap. 14. III. understand not, &c. Illustrations: Israel (Num. 16. 41); Ahab (1 Kings 18. 17); the Lord's enemies (Mark 4. 11, 12. John 5. 44); Pharisees (Luke 11. 42; 18. 9-14; 16. 14). Heb. binah. See note on 1. 2. the LORD. Heb. Jehovah. Ap. 4. II.
+28:6 | Better. See note on 8. 11. the poor = a poor one. uprightness = integrity. Than he . . . ways = Than [he that walketh] in double ways. Heb. 'akash. See v. 18. Cp. Jas. 1. 8. ways = double ways. As in v. 18.
+28:7 | wise = intelligent. Heb. binah. See note on 1. 2. shameth. Cp. 29. 15.
+28:9 | the law = instruction.
+28:10 | the righteous = upright ones. evil. Heb. ra'a'. Ap. 44. viii. pit = a slough or clay pit. Heb. sh'huth.
+28:11 | man. Heb. 'ish. Ap. 14. II. conceit = eyes. the poor = a poor one. Heb. dal. See note on 6. 11.
+28:12 | righteous = upright ones (pl.). the wicked = lawless ones.
+28:13 | He that covereth, &c. Illustrations: Adam (Gen. 3. 12. See Job 31. 33); Cain (Gen. 4. 9); Saul (1 Sam. 15. 19-21). sins = transgressions. Heb. pasha'. Ap. 44. ix. confesseth, &c. Illustrations: David (2 Sam. 12. 13. Ps. 51. 3); Manasseh (2 Chron. 33. 12, 13); Nineveh (Jer. 18. 7, 8. Jonah 3. 5-10. Matt. 12. 41); the lost son (Luke 15. 18-24).
+28:14 | Happy. See note on 3. 13. that feareth alway, &c. Illustrations: Joseph (Gen. 39. 9; 42. 18); Nehemiah (Neh. 5. 15); Job (Job 1. 5). he that hardeneth, &c. Illustrations: Jews (Jer. 8. 12); Gentiles (Rom. 2. 3-5); Herod (Matt. 14. 1-10).
+28:15 | roaring = growling while devouring his prey, not roaring (as he springs upon it).
+28:16 | oppressor, &c. Supply the Relative Ellipsis (Ap. 6), "oppressor [and shall cut short his days]: but", &c., or, it may be the Fig. Aposiopesis (Ap. 6); and = [what of him].
+28:17 | the blood of any person = the blood of a soul. person. Heb. nephesh. Ap. 13. pit = the grave. Heb. bor. no man = none: i. e. A man oppressed with the guilt of murder (cp. Gen. 9. 4, 5) will flee to the pit [of destruction]: let none lay hold on him; there is no occasion for it; he is his own tormentor, and will probably be his own executioner, or will deliver himself up to justice.
+28:18 | perverse. Fig. Ellipsis (Ap. 6) = "perverse [and walketh in double] ways, shall fall in one". See v. 6. fall at once: or fall in one of the two.
+28:19 | vain: or vanities. poverty. Not the same word as v. 22. Heb. rush, as in v. 3.
+28:20 | not be innocent = not go unpunished.
+28:21 | persons. Heb. "faces", put by Fig. Synecdoche (of Part), Ap. 6, for persons. that man = [even] a strong man. transgress. Heb. pasha'. Ap. 44. ix.
+28:22 | poverty. Not the same word as in v. 19. Heb. heser = want.
+28:23 | tongue. Put by Fig. Metonymy (of Cause), Ap. 6, for what is spoken by it.
+28:24 | destroyer = a destroying man. Heb. 'ish. Ap. 14. II.
+28:25 | heart = soul. Heb. nephesh. Ap. 13. trust = confidence. Heb. batah. Ap. 69. i.
+28:26 | his . . . heart, &c. Put by Fig. Synecdoche (of Part), Ap. 6, for himself. Illustrations: Hazael (2 Kings 8. 13); Johanan (Jer. 42. 7-22; 43. 1-7); Peter (Matt. 26. 33, 74); David (2 Sam. 24. 2: cp. v. 10); Absalom (2 Sam. 15. 4). Contrast Solomon (1 Kings 3. 7-9). fool. Heb. k'sil. See note on 1. 7. Cp. Jer. 17. 9.
+29:1 | 29. 1-27 (E3, p. 899). AGAINST STUBBORNNESS AND INSUBORDINATION. often reproved, &c. Illustrations: Antediluvians (Gen. 6. 1 Pet. 3. 20. 2 Pet. 2. 5. Luke 17. 26, 27); Pharaoh (Ex. 7. 13, 14; 8. 15; 10. 1, 20, 27); Ahab (1 Kings 17. 1; 18. 18; 20. 42; 21. 20; 22).
+29:2 | the righteous = righteous ones. in authority = increase, not necessarily in numbers, but in greatness. Cp. v. 16, and see note on 4. 10, and the next clause. the wicked = a lawless one. Heb. rasha'. Ap. 44. x. beareth rule. Some codices, with Aram., Sept., Syr., and Vulg., read the plural here: "bear rule".
+29:3 | wisdom. Heb. chakmah. See note on 1. 2.
+29:4 | he = a man. Heb. 'ish. Ap. 14. II. receiveth gifts = is open to bribes.
+29:5 | man. Heb. geber. Ap. 14. IV. Spreadeth a net, &c. Illustrations: woman of Tekoah (2 Sam. 14. 3, 19, 20, 28, 29); spies (Luke 20. 21). feet = footsteps.
+29:6 | evil. Heb. ra'a'. Ap. 44. viii. man. Heb. 'ish. Ap. 14. II. the righteous = a righteous one.
+29:7 | considereth. Heb. "knoweth", put by Fig. Metonymy (of Cause), Ap. 6, for the result of knowing. Illustrations: Job (Job 29. 13-16. Cp. Ps. 37. 26; 112. 5. Prov. 31. 20); Josiah (Jer. 22. 16). the poor = weak ones. Heb. dal. See note on "poverty", 6. 11. regardeth not to know it: i.e. makes no attempt to know it; or, knowing it, does not consider it. Illustrations: Jews (Jer. 5. 28. Cp. Luke 10. 31, 32).
+29:8 | Scornful men = Scoffers. Heb. "men of scorning". men. Heb. 'enosh. Ap. 14. III. bring a city, &c. Illustrations: Judah (2 Chron. 36. 16-21); rulers (Isa. 28. 14-22; and Matt. 27. 39-43). turn away wrath. Illustrations: Moses (Ex. 32. 10-14) and Aaron (Num. 16. 48); Elijah (Jas. 5. 18). Contrast Sodom (Gen. 18. 32); and Jer. 5. 1. Ezek. 22. 30.
+29:9 | foolish. Heb. 'evil. See note on 1. 7. Not the same word as in vv. 11, 20.
+29:10 | The bloodthirsty = men of bloods. Heb. 'enosh. Ap. 14. III. hate the upright. Illustrations: Ahab (2 Chron. 18. 7); Jezebel (1 Kings 18. 4; 19. 2); Jews (Acts 23. 12); Cain (Gen. 4. 8. Cp. 1 John 3. 12). the upright = upright ones. the just = an honest one. seek his soul: i. e. to preserve it. Illustrations: Jonathan (1 Sam. 19. 2); Obadiah (1 Kings 18. 4); believers (Acts 12. 5); Priscilla and Aquila (Rom. 16. 4). soul = life. Heb. nephesh. Ap. 13.
+29:11 | fool. Heb. k'sil. See note on 1. 7. mind = spirit. Heb. ruach. Put by Fig. Metonymy (of Cause), Ap. 6, for the feeling manifested by it. keepeth it. Illustrations: Abraham (Gen. 22); Joseph (Gen. 42. 7; 44. 18-34); Moses (Ex. 3. 10. Cp. 4. 18); Nathan (2 Sam. 12. 1-6, 7-13).
+29:13 | The poor = a needy man. Heb. rush. See note on 6. 11. the deceitful = a crafty, or an oppressive man, especially a creditor or usurer. Occurs in plural only here, for emphasis. Cp. Ps. 10. 7 ("fraud"); 55. 11, and 72. 14 ("deceit"). Heb. tok. See note on 11. 18. meet together: i.e. unexpectedly; first occurrence Gen. 32. 17. Cp. 33. 8. The LORD. Heb. Jehovah. Ap. 4. II.
+29:14 | the poor = weak ones.
+29:16 | the wicked = wicked ones. multiplied = increased in authority or position. Not necessarily in number. Cp. v. 2, and see note on 4. 10. transgression. Heb. pasha'. Ap. 44. ix. see their fall = see into (the symptoms and causes of) their fall: i. e. fall caused by external circumstances.
+29:18 | no vision, &c. Illustration: Israel (1 Sam. 3. 1. 1 Kings 12. 28-32; 14. 14-16). the = a. happy, &c. See note on 3. 13. Illustrations: Hezekiah (2 Chron. 29); Josiah (2 Chron. 34. 33; 35. 18. Jer. 22. 16).
+29:20 | Seest thou, &c.? Note Fig. Erotesis (Ap. 6), for emphasis. man. Heb. 'ish. Ap. 14. II.
+29:21 | child = youth. become. Some render "aspire to be"; others = become [insolent] like a son. son = offspring.
+29:22 | furious man = a master or lord of wrath. Heb. ba'al = lord.
+29:23 | man's. Heb. 'adam. Ap. 14. I. shall bring him low. Adam and Eve (Gen. 3. 5, 6); Hezekiah (2 Kings 20. 16-18); angels (2 Pet. 2. 4. Jude 6, 7).
+29:23 | uphold the humble. Illustrations: Solomon (1 Kings 3. 7, 9, 11-14); John (John 1. 26, 27; 3. 29, 31); Mary (Luke 1. 38); angels (Isa. 6. 2). the humble = a humble one. spirit. Heb. ruach. Ap. 9.
+29:25 | The fear of man. Refers to the inward feeling of timidity. See note on "fear", 2 Tim. 1. 7. The fear . . . a snare. One of the two great snares. The other is "the praise of man": (John 12. 43. Cp. Rom. 2. 29. John 5. 44). Illustrations: parents (John 9. 22); rulers (John 12. 42); Nicodemus (John 3. 2; 7. 50. Contrast 19. 39); Joseph (John 19. 38); David (1 Sam. 16. 12, 13; 27. 1); Elijah (1 Kings 19. 3, &c.); Peter (Matt. 26. 69-74). putteth his trust = confideth. Heb. batah. Ap. 69. i. safe = set on high.
+29:27 | the just = just ones. the wicked = a lawless one.
+30:1 | 30. 1—31. 31 (A, p. 864). THE WORDS OF AGUR AND LEMUEL, FOR SOLOMON: FOR A PRINCE AND RULER. (Division.)
+30:1 | 30. 1-33 (F1, above). THE WORDS OF AGUR. (Alternation and Introversions.) Agur = I shall fear. Probably a master of assemblies, as in Ecc. 12. 11. Nothing is known of him, but we accept all that was in the Scriptures which the Lord Jesus referred to. We know as little of some of the Minor Prophets. prophecy = oracle, or burden. man. Heb. geber. Ap. 14. IV. Ithiel = El [is] with me. Ap. 4. IV. Ucal = I shall be able.
+30:2 | Surely = [True it is] that. man = an educated man, or peer. Heb. 'ish. Ap. 14. II. understanding. Heb. binah. See note on 1. 2. a man. Heb. 'adam: a commoner. Ap. 14. I.
+30:3 | learned = have been taught; with emphasis on taught. wisdom. Heb. chakmah. See note on 1. 2. Nor have = Nor yet have I. the holy = holy ones: or, the Most Holy One.
+30:4 | Who . . . ? Can it mean that the speaker here is the speaker of ch. 8? viz. the "son" of the last clause of this verse? the wind. Heb. ruach. Ap. 9.
+30:5 | word = saying or utterance. Heb. 'imrah. Ap. 73. v. The only occurrence of this word in Proverbs. GOD. Heb. Eloah. Ap. 4. V. The only occurrence of this title in Proverbs. Occurs forty-one times in Job, four times in Psalms, twelve times in the other books. pure = tried [in a furnace]. Cp. Ps. 12. 6. unto them. Some codices read "unto all them". put their trust = flee for refuge. Heb. hasah. Ap. 69. ii.
+30:6 | Add thou not, &c. A solemn warning based on Deut. 4. 2; 12. 32. Cp. Gal. 1. 8, 9. Rev. 22. 18, 19. reprove thee. Emphatic = send a special reproof unto thee.
+30:7 | Deny = Withhold.
+30:8 | lies = word of falsehood. poverty = need. Heb. rush. See note on 6. 11. Feed me = Cause me to be fed. food convenient = allowance of food. Cp. Job 23. 12.
+30:9 | the LORD. Heb. Jehovah. Ap. 4. II. poor: i. e. from being dispossessed. Heb. yarash. See note on "poverty", 6. 11. take the name, &c. = assaileth Jehovah. Not a reference to the second Commandment. God. Heb. Elohim. Ap. 4. I.
+30:10 | Accuse not a servant = Get not a servant accused. Note the Hiphil here; as in Ps. 101. 5.
+30:11 | 11-31 [For Structure see next page].
+30:11 | 11-31 (K2, p. 903). DECLARATION. (Alternation and Divisions.)
+30:14 | poor = needy. Heb. 'ani. See note on 6. 11. Not the same word as in vv. 8, 9. men. Heb. 'adam. Ap. 14. I.
+30:15 | horseleach. Occurs only here. It is like the "flesh" in man. In the natural and spiritual spheres "the dose has to be increased".
+30:16 | The grave = Sheol. Ap. 35.
+30:17 | despiseth to obey = despiseth obedience to. The ravens, &c. These birds of prey always begin with the eyes of a carcase.
+30:19 | maid. Heb. 'almah. See note on Gen. 24. 43. Refers here probably to seduction.
+30:20 | way = manner, or conduct. Cp. Ps. 119. 9. no wickedness = nothing: or, as we say, "no harm". Heb. 'aven. Ap. 44. III.
+30:22 | fool. Heb. nabal. See note on 1. 7.
+30:23 | is heir to = has dispossessed, or become heiress to.
+30:24 | little upon the earth = earth's little ones. exceeding wise. Heb. "wise, made wise". Fig. Polyptoton. Ap. 6. The Sept. and Vulg. render "wiser than the wise".
+30:25 | a people. So are those "made wise" (2 Tim. 3. 15) who are God's People (Ps. 100. 3). not strong = very weak. Fig. Tapeinosis. So Rom. 5. 6 (cp. Isa. 40. 29; 45. 24. Job 12. 13). prepare = will prepare. Hence 10. 5.
+30:26 | conies. About the size of a rabbit. Inhabit clefts in the rocks; because, having soft feet, they cannot burrow as a rabbit can. So God's people abide in Christ, their Rock. houses . . . rocks = house . . . rock. Heb. singular.
+30:27 | no king. So we have no visible king, yet when "made wise" we see Him Who is invisible (John 14. 19. Cp. 1 Pet. 1. 8). by bands = gathered together. So will God's People. Sept. renders it by keleusmatos = at one word of command. Same word as the assembling shout in 1 Thess. 4. 16. Cp. 1 Cor. 15. 23, "in his own order" or rank.
+30:28 | with her hands. So we, by the hand of faith, shall be found in the palace of the King of kings. kings' palaces = king's palace.
+30:32 | foolishly = stupidly. Heb. nabal. See note on 1. 7. Same word as in v. 22. thought evil = meditated [with evil intent].
+31:1 | 31. 1-31 (F2, p. 903). THE WORDS OF KING LEMUEL, FOR SOLOMON: A PRINCE AND KING. (Division.)
+31:1 | 31. 1-9 (O1, above). WARNINGS. "MY SON" (v. 2). SECOND PERSON. "THY" (vv. 3, 8, 9). (Introversion.) The words, &c. The Heb. dibrey has no governing noun; so one must be understood thus: "[An unnamed one's] words [addressed] to king Lemuel: a burden which his mother [repeatedly] taught him". king Lemuel = to El and for El, a king. Cp. Jedidiah = beloved of Jah (2 Sam. 12. 25). Solomon was the royal seed in the line of Him Who is King of kings and Lord of lords. The Talmud says (Avoth d'Rab. Nathan, c. 39): "Solomon was called by six names: Solomon, Jedidiah, Koheleth, Son of Jakeh, Agur, and Lemuel". prophecy = oracle, oracular utterance, or burden. his mother. Cp. the Structure, A (p. 864).
+31:2 | my son? Cp. the Structure, A (p. 864).
+31:4 | wine. Heb. yayin. Ap. 27. i. strong drink. Heb. shekar. Ap. 27. iv.
+31:6 | of heavy hearts = bitter of soul. Heb. nephesh. Ap. 13.
+31:7 | poverty. Heb. rush. See note on 6. 11.
+31:8 | such as are appointed to destruction. Heb. = sons of destruction. Genitive of Relation, as in Rom. 8. 36. Ap. 17 (5).
+31:9 | the poor = a poor one. Heb. 'ani. See note on Prov. 6. 11. needy = a needy one. Heb. 'ebyon. See note on Prov. 6. 11.
+31:10 | 31. 10-31 (O2, p. 904). THE MODEL WOMAN. (Extended Alternation.) Who can find . . . ? This heading is the Fig. Erotesis. Ap. 6. The twenty-two verses which follow, each begin with the twenty-two successive letters of the Hebrew alphabet. The acrostic cannot be reproduced in English, because the letters of the two alphabets vary in their number, order, and equivalents. This is to emphasise the great lesson King Solomon was to learn. Note the warnings against foreign women (A, p. 865), which, alas! Solomon failed to heed. This is why the book closes with the eulogy of the model Israelitish matron. See the evidence in Ap. 74. virtuous. The English use of this word limits it to one kind of excellence. The meaning of the Hebrew is wider: hayil = strong in all moral qualities. Ruth is the only one so called in the O.T. May it not be that we have here Bathsheba's or Solomon's (and David's) commendation of Ruth?
+31:11 | doth . . . trust in = hath confided in. Heb. batah. Ap. 69. I. no need = no lack. spoil = gain.
+31:12 | evil = mischief. Heb. ra'a'. Ap. 44. viii.
+31:13 | willingly with her hands = with her hands' good will.
+31:15 | meat = [live] prey. Put by Fig. Synecdoche (of Species), Ap. 6, for all kinds of food.
+31:18 | candle = lamp.
+31:20 | the poor = a poor one. Heb. 'ani. See note on "poverty", 6. 11.
+31:21 | is not = will not. scarlet = double change of garments.
+31:23 | known. Fig. Metonymy (of Cause), Ap. 6, for the result of that knowledge; viz. respect from all at the city gate, which includes high and low, rich and poor, peasants, labourers and judges.
+31:25 | she shall rejoice, &c. = she laugheth at the future.
+31:26 | wisdom. Heb. chakmah. See note on 1. 2.
+31:28 | children = sons.
+31:30 | deceitful = Heb. sheker. See note on 11. 18. the LORD. Heb. Jehovah. Ap. 4. II.

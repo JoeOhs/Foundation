@@ -1,0 +1,105 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Malachi
+# Marginal (side) notes, to be read alongside the KJV text.
+#
+# Format:  C:V | TEXT  —  verse 0 = a book-level introductory note
+#          [[heading: TEXT]] — the page's own heading over those notes
+#
+# ---------------------------------------------------------------------
+# Sources and method — as for Hosea (see hosea.notes.txt)
+# ---------------------------------------------------------------------
+# Read from the page scans inside thecompanionbible_202504_pdf/
+# 35. Malachi_text.pdf (printed pp. 1296-1301), one note column and
+# bottom block at a time, then cross-checked against a fresh Tesseract
+# OCR with ocr-check.py. Verse 0 holds Malachi's introduction
+# (p. 1296), one entry per paragraph. Each Structure's heading is kept
+# at the head of the note for its first verse. The small a/b/a/b
+# rendering printed inside the 3:6 note is kept one row per entry.
+# Transliterations are plain ASCII; small capitals are written in
+# capitals; Gothic-letter pronouns are written in plain type. The
+# Hebrew letters Mem and Nun (3:9) are kept in Hebrew type, as printed.
+# "40 x 10" (intro) writes the multiplication sign as x.
+#
+# COMPLETE: all four chapters, every printed note, pp. 1296-1301.
+#
+# Corrections: none.
+# Gap:
+#   - 3:15: a headword before ". Emphatic." is blank in the print
+#     (600 dpi); that fragment is left out rather than guessed.
+# Kept as printed (verified on the scan):
+#   - 1:2 "Esau Jacob's."
+#   - 1:11 '("J" and "J"', 4:2 '"Y" and "Y"': the second letter of
+#     each pair is italic in print.
+#   - 3:1 "behold Fig.", 3:4 "and Note the Fig.", 3:5 "(Ex. 22. 22
+#     Deut." — stops missing in print.
+#
+[[heading: MALACHI]]
+0 | For the CANONICAL order and place of the Prophets, see Ap. 1, and pp. 1206 and 1207.
+0 | For the CHRONOLOGICAL order of the Prophets, see Ap. 77.
+0 | For the Inter-relation of the Prophetic Books, see Ap. 78.
+0 | For the Formulae of Prophetic utterance, see Ap. 82.
+0 | For References to the Pentateuch by the Prophets, see Ap. 92.
+0 | For the Inter-relation of the Minor (or Shorter) Prophets, see pp. 1206 and 1207.
+0 | Malachi is one of the six undated Minor (or Shorter) Prophets. His book shows that the Temple-worship, with its sacrifices, &c., had been fully restored; but the ceremonial formalism and hypocrisy, which culminated in the days of our Lord's ministry, are seen actively at work.
+0 | No sooner were the restraining influences of Ezra and Nehemiah removed, than the corruption began; and went on apace, as evidenced by Mal. 1. 7, 8; 3. 8, &c.
+0 | From the "Restoration" and the First Passover to the birth of Messiah was exactly 400 years, the last great period of Probation (40 x 10; see Ap. 10). It was the great testing-time given to the Nation in the Land.
+0 | If we take the date of Malachi as being 400 years before the anointing of Messiah and the commencement of His Ministry (A.D. 26), then we have, reckoning back from A.D. 26, the year 374 B.C. This gives thirty years from the Restoration to the condition of the Nation described in this prophecy, and twenty-nine clear years from Ezra's last date (1st Nisan, 403 B.C.): a period amply sufficient for the terrible declension of which Malachi speaks. Milner, in his valuable Church History, remarks that great reformations seldom seem to last in their purity more than thirty years.
+0 | If this be so, then Malachi may be dated as about 374 B.C., thirty years after the commencement of the Temple-worship, which marked the beginning of the 400 years till the birth of THE Messenger (John the Baptist), and of THE MESSIAH. (See Ap. 77. 9.)
+1:1 | 1. 1-5 (A1, p. 1296). NATIONAL ELECTION. (Repeated Alternation.) burden. See note on Isa. 13. 1; and cp. Zech. 9. 1; 12. 1, &c. the LORD. Heb. Jehovah. Ap. 4. II. to. Not "concerning". by = by the hand of. Malachi. Heb. = My messenger, relating to the five messengers in this book: see Ap. 10. (1) Malachi himself (1. 1); (2) the true Priest (2. 7); (3) John the Baptist (3. 1-); (4) the Messiah Himself (3. -1-3); (5) Elijah (4. 5). This last prophecy introduces the great fulfilment of Jehovah's prophecy by Moses, the first prophet to Israel, in Deut. 18. 15-19. Cp. Acts 3. 18-26; 7. 37.
+1:2 | I have loved you. Ref. to Pent. (Deut. 7. 8; 10. 15; 33. 3). saith = hath said. Quoted in Rom. 9. 13. Esau Jacob's. Put by Fig. Metonymy (of Adjunct), Ap. 6, for their posterities. Quoted in Rom. 9. 13. saith the LORD = [is] Jehovah's oracle.
+1:3 | dragons = jackals. Cp. Isa. 13. 22; 34. 13. Jer. 9. 11; 10. 22; 49. 33; 51. 37.
+1:4 | impoverished: or, beaten down. saith = hath said. the LORD of hosts. This expression occurs twenty-four times in this prophecy, and gives its character to the whole, as in Zechariah. border: or, territory. wickedness = lawlessness. Heb. rasha'. Ap. 44. x.
+1:6 | 1. 6—4. 6 (A2, p. 1296). NATIONAL REJECTION. (Extended Alternation.) 1. 6—2. 16 (C, above). ISRAEL'S DEEDS REPROVED. (Division.) 1. 6-14 (F1, above). PRIESTS AND PEOPLE. CEREMONIAL. (Alternation.) A son, &c. Ref. to Pent. (Ex. 20. 12), Ap. 92. Note the Fig. Anacoenosis (Ap. 6). An appeal to opponents as having a common interest. Cp. Isa. 5. 4. Luke 11. 19. Acts 4. 19. 1 Cor. 4. 21; 10. 15; 11. 13, 14. Gal. 4. 21. master. The Heb. accents place the chief pause here, where the statement ends on which the appeal is based. if then I, &c. These two appeals are marked off by minor accents. My name: which is again marked off for special emphasis. (1) The argument is based on natural reverence; (2) the breach is shown in the case of Israel (Isa. 41. 8. Hos. 11. 1); (3) the conclusion being that the priests were the guilty cause.
+1:7 | Ye offer, &c. Ref. to Pent. (Deut. 15. 21). Ap. 92. offer = bring nigh. Heb. nagash. Ap. 43. I. ii. is = it [is].
+1:8 | if ye offer the blind, &c. Ref. to Pent. (Lev. 22. 22. Deut. 15. 21). Ap. 92. and sick, is it not = and sick [saying], it is not evil. evil. Heb. ra'a'. Ap. 44. viii.
+1:9 | I pray you, &c. Fig. Irony. Ap. 6. GOD. Heb. El. Ap. 4. IV. this hath been = this hath come to pass. by your means = at your hands. regard = accept.
+1:10 | you. Emph. i.e. you [priests]. offering = a gift-offering. Heb. minchah. Ap. 43. II. iii.
+1:11 | For. See the Structure ("J" and "J", above) for the commentary. Gentiles = nations. heathen = nations, or Gentiles.
+1:12 | it = Me. "Me" was the reading in the primitive text; but the Sopherim state that they altered 'othi (Me) to 'otho (him, or it) out of a (mistaken) sense of reverence. See Ap. 33. Cp. 3. 9; and Ezek. 13. 19. table: i.e. the altar. the LORD* = Jehovah (Ap. 4. II). Heb. Adonai. Ap. 4. VIII (2). But this is one of the 134 places which the Sopherim say they altered Jehovah to "Adonai".
+1:13 | Behold. Fig. Asterismos. Ap. 6. and. Note the Fig. Polysyndeton (Ap. 6). snuffed = puffed. "Snuffed" is an archaism for "sniffed" = complained by snivelling: i.e. pooh-poohed. it = My altar. See note on v. 12. should I accept, &c. Ref. to Pent. (Lev. 22. 20). Ap. 92.
+1:14 | hath. Heb. yesh. See note on Lam. 1. 12.
+2:1 | 2. 1-16 (F2, p. 1297). PRIESTS AND PEOPLE. MORAL. (Division.) 2. 1-9 (K1, above). THE PRIESTS REPROVED (Introversion and Alternation.) priests. See the Structures, above. this commandment. As to reformation.
+2:2 | If ye will not hear. Ref. to Pent. (Lev. 26. 14. Deut. 28. 15). Ap. 92. My name. See note on Ps. 20. 1. the LORD of hosts. See note on 1. 4. saith = hath said. send a curse = send the curse. Ref. to Pent. (Deut. 28. 20). Ap. 92. curse your blessings. Ref. to Pent. (Deut. 28. 2).
+2:3 | Behold. Fig. Asterismos. Ap. 6. corrupt = rebuke; as in 3. 11. Ps. 106. 9. Isa. 17. 13. Heb. ga'ar. Occurs fourteen times. Always rendered "rebuke" except here, and Jer. 29. 27 ("reproved"). dung = refuse; always sacrificial. Occ. seven times. feasts. Put by Fig. Metonymy (of Adjunct), Ap. 6, for the sacrifices offered at the feasts. it: i.e. the refuse.
+2:4 | be = continue.
+2:5 | My covenant was with him. Ref. to Pent. (Num. 25. 10-13. Deut. 33. 8, 9, 10). Ap. 92. I gave them, &c.: I gave this "life" and "peace" to him [Levi] as an awe-inspiring, reverend characteristic; because he stood in awe of Me. There seems to be a distinct ref. to Phineas (see the refs. above). But there seems to be a distinct ref. to Levi also (Ex. 32. 26-29), in the first place, at any rate. Heb. mora' = that which makes awe felt. was afraid before = abased himself.
+2:6 | in his mouth: i.e. for teaching. and iniquity. Heb. 'aval. Ap. 44. iv. from iniquity. Heb. 'avah. Ap. 44. vi.
+2:7 | the priest's lips, &c. This was the first duty of the priests, and was more important than their ceremonial duties. Ref. to Pent. (Lev. 10. 11. Deut. 17. 11; 33. 10). Ap. 92. knowledge: i.e. esp. of the law. they: i.e. the People; according to Deut. 17. 9-11.
+2:8 | corrupted = made void.
+2:9 | People = peoples: i.e. the tribes. according as = because, or, in so far as. been partial = had respect of persons. Cp. Jas. 2. 4. in = in [administering] the law.
+2:10 | 2. 10-16 (K2, above). THE PEOPLE REPROVED. (Repeated Alternation.) Have we not all . . . created us? = [Ye say] Have we not, &c., as in v. 14. Fig. Paroemia. Ap. 6. See John 8. 33, 39, 41, &c. GOD. Heb. El. Ap. 4. IV. treacherously: or, faithlessly. Used of faithlessness to the marriage bond. every man. Heb. 'ish. Ap. 14. II.
+2:11 | Judah, &c. See Jer. 3. 7, 8, 20; 5. 11, &c. holiness = Holy Place, or Sanctuary. the LORD. Heb. Jehovah. Ap. 4. II. which: i.e. the Sanctuary. strange = foreign: i.e. a woman temple-worshipper of a foreign god.
+2:12 | man. Heb. 'ish. Ap. 14. II. the master and the scholar = wakener and answerer. Referring to the Temple watchers (Ps. 134. 1). tabernacles = tents. offereth = bringeth near. Heb. nagash, as in 1. 7, 8, 11; 3. 3. Ap. 43. I. ii. offering = a meal-offering. Heb. minchah. Ap. 43. II. iii.
+2:13 | tears . . . weeping . . . crying out: i.e. of the wronged wives and children.
+2:14 | Wherefore? Supply the Ellipsis: "Wherefore [doth He not accept it]?" companion = consort, or mate.
+2:15 | Modern critics pronounce this as being "a difficult and certainly corrupt passage"; but it is only elliptical. make one? = make [of twain] one flesh? Ref. to Pent. (Gen. 2. 24). Ap. 92. Yet had He, &c. And therefore could have made more than one wife for Adam. spirit. Heb. ruach. Ap. 9. And wherefore one? = And what [did] that one [Abraham] who [was] seeking a seed of (or from) God? Heb. zera' (as in Gen. 21. 12; see note there). The logical Ellipsis must be further supplied: "Was Abraham faithless to Sarah and did he ill-treat her when he took an additional wife? How much more ought ye to be faithful to your wives?" one. Refers to Abraham. See Isa. 51. 2. Ezek. 33. 24. Supply the verb "do", as in Ecc. 2. 12, and as in Judg. 18. 8, from v. 18. take heed = be watchful over. your = your own.
+2:16 | For, &c. = For [as] hating putting away, hath Jehovah, Israel's God, spoken; and [as hating him that] hath carried violence concealed in his clothing, hath Jehovah Sabaioth spoken, therefore, &c. God. Heb. Elohim. Ap. 4. I. saith = hath said. that He hateth, &c. = I hate. putting away = divorce. Ref. to Pent. (Deut. 24. 1). with his garment. Cp. Pss. 73. 6; 109. 18, 29. Prov. 28. 13. Isa. 30. 1.
+2:17 | say = have said. Every one, &c. Some codices read "All who do wrong are", &c. evil = violence. Heb. ra'a'. Ap. 44. viii.
+3:1 | 3. 1-6 (E, p. 1297). JEHOVAH'S MESSENGER. PURGING ALL. (Alternation.) Behold, I will send, &c. = Behold Me sending, &c. Quoted in Matt. 11. 10. Mark 1. 2. Luke 1. 76; 7. 27. Not to that then present generation, but to the "generation" of our Lord's day. See note on Matt. 11. 18. This is the answer to the question "Where?" in 2. 17. My messenger. John the Baptist (Matt. 3. 3; 11. 10. Mark 1. 2, 3. Luke 1. 76; 3. 4; 7. 26, 27. John 1. 23). Cp. Matt. 22. 2, 3. Isa. 40. 3-5. prepare. By removing obstacles from the way. Cp. Isa. 40. 3; 62. 10. the Lord. Heb. ha-'Adon. Ap. 4. VIII (1). This refers to Messiah. Ref. to Pent. (Ex. 23. 20; 33. 14, 16). Ap. 92. suddenly = unexpectedly. behold Fig. Asterismos (Ap. 6), for emphasis. said = hath said. the LORD of hosts. See note on 1. 4.
+3:2 | who may abide . . .? Cp. Joel 2. 11. Fig. Erotesis. Ap. 6. abide = endure. sope = lye; as in Job 9. 30: i.e. water mixed with the ashes of certain plants containing alkali. Cp. Mark 9. 3. Occurs only here, and Jer. 2. 22.
+3:3 | He shall purify. Judgment begins at the house of God. See 1 Pet. 4. 17. offer = bring near. Heb. nagash, as in 1. 7, 8, 11. Ap. 43. I. ii. the LORD. Heb. Jehovah. Ap. 4. II. offering = a gift-offering. Heb. minchah. Ap. 43. II. iii. Not the same word as in v. 8.
+3:4 | Then. When Jehovah shall have sent His messenger (Messiah), and He is accepted. offering. The 1611 edition of the A.V. reads "offerings". Same word as in v. 3. pleasant = acceptable. days of old = age-past times. former = ancient. and Note the Fig. Polysyndeton. Ap. 6.
+3:5 | I will be, &c. Cp. Mic. 1. 2. the sorcerers. Ref. to Pent. (Ex. 22. 18. Deut. 18. 10). Ap. 92. adulterers. Ref. to Pent. (Ex. 20. 14. Lev. 20. 10). Ap. 92. false swearers = them that swear to a falsehood. Ref. to Pent. (Lev. 6. 3-5; 19. 12). Ap. 92. oppress, &c. Ref. to Pent. (Ex. 22. 21. Deut. 24. 14). Ap. 92. the fatherless, &c. Ref. to Pent. (Ex. 22. 22 Deut. 14. 29; 16. 11, 14; 24. 17). Ap. 92. and. See note above. fear = revere.
+3:6 | For, &c. Render, according to the Structure,
+3:6 | a | For I [am] Jehovah;
+3:6 | b | I have not changed;
+3:6 | a | And ye [are] Jacob's sons;
+3:6 | b | Ye have not failed.
+3:6 | I change not. Ref. to Pent. (Num. 23. 19). Ap. 92. Not in Himself, nor in His purpose, to change His dealings on the condition stated.
+3:7 | 3. 7-12 (C, p. 1297). ISRAEL'S DEEDS REPROVED. (Introversion and Alternation.) ordinances = statutes. Heb. hok. Referring to particular ritual observances. Not the same word as in v. 14.
+3:8 | man. Heb. 'adam. Ap. 14. I. rob = defraud. A rare word. Occurs only here, vv. 8, 9; and Prov. 22. 23. God. Heb. Elohim. Ap. 4. I. have robbed = are defrauding. tithes. Ref. to Pent. (Lev. 27. 30-33. Num. 18. 21-32. Deut. 12. 17, &c.; 14. 22-29). Ap. 92. offerings = heave offerings. Lit., in the tithe and the heave offering. Heb. t'rumah. Ap. 43. II. viii. Not the same word as in vv. 3, 4; 1. 10, 11, 13; 2. 12, 13.
+3:9 | are cursed with a curse. The primitive text read, "ye have cursed Me with a curse". The Sopherim say (Ap. 33) that they altered the letter ם (Mem = M) into נ (Nun = N), thus making it passive instead of active, and detaching it from the rest of the sentence. This was done to avoid a supposed irreverence. this whole nation = the nation, the whole of it.
+3:10 | all = the whole; implying that a part had been withheld. meat = prey: i.e. animals for sacrifice. Not put by Fig. Metonymy (of Adjunct), Ap. 6, for food; but put by Fig. Synecdoche (of Species), Ap. 6, for sacrificial animals. open you the windows, &c. Ref. to Pent. (Gen. 7. 11; 8. 2). Ap. 92. pour you out = empty you out.
+3:11 | the devourer = the eater: i.e. the locust. Cp. Joel 1. 4. Amos 4. 9. for your sakes = for you (the Dative of Reference).
+3:12 | a delightsome land. Cp. Isa. 62. 4. Dan. 8. 9.
+3:13 | 3. 13—4. 4 (D, p. 1297). ISRAEL'S WORDS REPROVED. (Alternation.) stout = hard, or bold.
+3:14 | ordinance = charge. Heb. mizvah. Not the same word as in v. 7. Referring to general religious duties. walked mournfully before = gone off mournfully from the presence of Jehovah of hosts.
+3:15 | And now. Cp. 1. 9; 2. 1. they that work wickedness = the workers of lawlessness. wickedness = lawlessness. Heb. rasha'. Ap. 44. x. are set up = prosper, or are successful. Lit. are built up. Put by Fig. Metonymy (of Subject), Ap. 6, for being prospered. Cp. Job 22. 23. Jer. 12. 16. yea = yea, [they, proud ones]. Marking a climax. tempt = have tempted. Same as "prove" in v. 10; but here in a bad sense, as though to challenge or put to the proof.
+3:16 | Then: i.e. when Malachi had spoken thus unto them, and at a time of such apostasy, showing us what is possible and practicable in these like days and "perilous times" which are closing this present Dispensation. feared = revered. spake. As in v. 13. one to another. Each one with his friend. and. Note the Fig. Polysyndeton. Ap. 6. hearkened, and heard. As He heard the groaning of Israel (Ex. 2. 23, 24); Moses, without words (Ex. 14. 15); and Nehemiah (Neh. 2. 4); Hannah, without words (1 Sam. 1. 13); Jeremiah, his breathing (Lam. 3. 55, 56); Jonah, when dying (Jonah 2. 2); the disciples, their thoughts (Luke 24. 15, 38). and a book of remembrance was written. Some codices, with Syr., read "a record was written in a book of remembrance". remembrance. Ref. to Pent. (Ex. 28. 29. Num. 10. 10, the same word). Ap. 92. thought. Precious comfort for those now who cannot speak. We can walk with God (like Enoch, in the darkest days), and think of Him with these God-reverers now, in these similar days.
+3:17 | I make up, &c. = I am preparing. My jewels = A peculiar treasure. Heb. s'gullah = acquired property; hence the word "peculiar" = one's own, and "peculate", to appropriate as one's own; the root being the Latin pecus, cattle, of which property originally consisted, and this from Sanskrit pacu, that which is fastened up, the root being PAK. The Heb. s'gullah occurs only eight times (Ex. 19. 5. Deut. 7. 6; 14. 2; 26. 18. 1 Chron. 29. 3. Ps. 135. 4. Ecc. 2. 8. Mal. 3. 17). Ref. to Pent. (Ex. 19. 5. Deut. 7. 6; 14. 2; 26. 18). Ap. 92. as = according as. man. Heb. 'ish. Ap. 14. II.
+3:18 | the righteous = a righteous one. the wicked = a lawless one. Heb. rasha'. Ap. 44. x.
+4:1 | behold. Fig. Asterismos. Ap. 6. all that do. Heb. = every one who doeth. But some eighty codices, with four early printed editions, Targum, Aram., Sept., Syr., and Vulg., read "all who work". wickedly = lawlessness. Heb. rasha'. Ap. 44. x. saith = hath said. the LORD of hosts. See note on 1. 4. leave. A Homonym. See notes on Gen. 39. 6. Ex. 23. 5.
+4:2 | fear = revere. See the Structure "Y" and "Y", p. 1300. Sun. Here the word "Sun" is fem., as in Gen. 15. 17. Jer. 15. 9. Nah. 3. 17, &c.; and is connected with "righteousness" (which is also fem.), which Messiah, the righteous One, alone can bring. of. In this case "of" would be the Genitive of Apposition. See Ap. 17. 4. wings = beams, or rays. ye. The 1611 edition of the A.V. omits this "ye". grow up = leap for joy, or frisk. as = like.
+4:3 | the wicked = lawless ones. Heb. rasha'. Ap. 44. x. in the day. See Ap. 18. I shall do this = that I am preparing; as in 3. 17.
+4:4 | the law of Moses. Ref. to Pent. (Ex. 20. 3, &c.). Ap. 92. Moses My servant. Ref. to Pent. (Num. 12. 7; see note there). Ap. 92. which I commanded, &c. Ref. to Pent. (Deut. 1. 6; 4. 10). Ap. 92. statutes and judgments. Ref. to Pent. (Deut. 4. 1. See note there). Ap. 92.
+4:5 | Elijah the prophet. Called thus, only here, and in 2 Chron. 21. 12. Elsewhere, always "Elijah the Tishbite", to indicate his own person; but here "Elijah the prophet" because had Israel received Messiah, John the Baptist would have been reckoned as Elijah (see notes on Matt. 17. 9-13. Mark 9. 11-13): and, at His last supper, the wine, representing His blood, would have been (as it will yet be) reckoned as "the blood of the (New) Covenant", as foretold in Jer. 31. 31-34. Heb. 8. 8-13; 10. 15-17; 12. 24). day of the LORD. See note on Isa. 2. 12, 17; 13. 6, &c. the LORD. Heb. Jehovah. Ap. 4. II.
+4:6 | children = sons.

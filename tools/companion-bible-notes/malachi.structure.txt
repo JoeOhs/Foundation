@@ -1,0 +1,139 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Malachi
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/35. Malachi_text.pdf, printed pp. 1296-1301);
+# [[pdf-page:]] is the page of that file each diagram is on. Notation:
+# README.md here. Small-capital words are written in title case.
+#
+# The book Structure's H2 is the Malachi member of the Three Prophets
+# diagram (p. 1206; see hosea.structure.txt).
+#
+# Depth notes: 2. 1-9 (K1) and 3. 7-12 (C) follow the HOCR x positions
+# (M, and U, sit one step right of the O / W above them).
+
+[[diagram: Malachi. The Structure of the Book as a Whole (Division)]]
+[[anchor: Malachi 1:1]]
+[[pdf: 35. Malachi_text.pdf]]
+[[pdf-page: 1]]
+
+H2 |  |
+  A1 |  | 1. 1-5. NATIONAL ELECTION.
+  A2 |  | 1. 6—4. 6. NATIONAL REJECTION.
+
+[[diagram: 1. 1-5 (A1, p. 1296). National Election (Repeated Alternation)]]
+[[anchor: Malachi 1:1-5]]
+[[pdf: 35. Malachi_text.pdf]]
+[[pdf-page: 2]]
+
+A1 |  |
+  A1 | 1, 2- | Words of Jehovah to Israel: of His love.
+    B1 | -2- | Israel's answer.
+  A2 | -2, 3 | Words of Jehovah to Israel: of His love.
+    B2 | 4- | Edom's answer.
+  A3 | -4, 5 | Words of Jehovah to Israel: of His love.
+
+[[diagram: 1. 6—4. 6 (A2, p. 1296). National Rejection (Extended Alternation)]]
+[[anchor: Malachi 1:6]]
+[[pdf: 35. Malachi_text.pdf]]
+[[pdf-page: 2]]
+
+A2 |  |
+  C |  | 1. 6—2. 16. Israel's deeds reproved.
+    D |  | 2. 17. Israel's words reproved.
+      E |  | 3. 1-6. Jehovah's Messenger. Purging all.
+  C |  | 3. 7-12. Israel's deeds reproved.
+    D |  | 3. 13—4. 4. Israel's words reproved.
+      E |  | 4. 5, 6. Jehovah's Messenger. Restoring all.
+
+[[diagram: 1. 6—2. 16 (C, above). Israel's Deeds Reproved (Division)]]
+[[anchor: Malachi 1:6]]
+[[pdf: 35. Malachi_text.pdf]]
+[[pdf-page: 2]]
+
+C |  |
+  F1 |  | 1. 6-14. Priests and People. Ceremonial.
+  F2 |  | 2. 1-16. Priests and People. Moral.
+
+[[diagram: 1. 6-14 (F1, above). Priests and People. Ceremonial (Alternation)]]
+[[anchor: Malachi 1:6-14]]
+[[pdf: 35. Malachi_text.pdf]]
+[[pdf-page: 2]]
+
+F1 |  |
+  G |  |
+    H | 6-10 | Sinful offerings. Priests.
+      J | 11 | Jehovah will yet be honoured by a pure offering.
+  G |  |
+    H | 12-14- | Sinful offerings. People.
+      J | -14 | Jehovah will yet be great among the peoples.
+
+[[diagram: 2. 1-16 (F2, p. 1297). Priests and People. Moral (Division)]]
+[[anchor: Malachi 2:1-16]]
+[[pdf: 35. Malachi_text.pdf]]
+[[pdf-page: 3]]
+
+F2 |  |
+  K1 | 1-9 | The Priests reproved.
+  K2 | 10-16 | The People reproved.
+
+[[diagram: 2. 1-9 (K1, above). The Priests Reproved (Introversion and Alternation)]]
+[[anchor: Malachi 2:1-9]]
+[[pdf: 35. Malachi_text.pdf]]
+[[pdf-page: 3]]
+
+K1 |  |
+  L |  |
+    N | 1, 2- | Commandment given.
+      O | -2-4 | Punishment threatened.
+        M | 5-7 | Covenant with Levi.
+  L |  |
+    N | 8 | Commandment disobeyed.
+      O | 9 | Punishment administered.
+
+[[diagram: 2. 10-16 (K2, above). The People Reproved (Repeated Alternation)]]
+[[anchor: Malachi 2:10-16]]
+[[pdf: 35. Malachi_text.pdf]]
+[[pdf-page: 3]]
+
+K2 |  |
+  P1 | 10, 11 | Judah's treachery.
+    Q1 | 12 | Jehovah's warning.
+  P2 | 13-15- | Judah's treachery.
+    Q2 | -15 | Jehovah's warning.
+  P3 | 16- | Judah's treachery.
+    Q3 | -16 | Jehovah's warning.
+
+[[diagram: 3. 1-6 (E, p. 1297). Jehovah's Messenger. Purging All (Alternation)]]
+[[anchor: Malachi 3:1-6]]
+[[pdf: 35. Malachi_text.pdf]]
+[[pdf-page: 4]]
+
+E |  |
+  R | 1, 2- | His coming.
+    S | -2-4 | The Reason. "For".
+  R | 5 | His coming.
+    S | 6 | The Reason. "For".
+
+[[diagram: 3. 7-12 (C, p. 1297). Israel's Deeds Reproved (Introversion and Alternation)]]
+[[anchor: Malachi 3:7-12]]
+[[pdf: 35. Malachi_text.pdf]]
+[[pdf-page: 5]]
+
+C |  |
+  T |  |
+    V | 7- | Sin. Backsliding.
+      W | -7- | Command. "Return unto Me." Conditional Promise.
+        U | -7 | Israel's reply. "Wherein?"
+  T |  |
+    V | 8, 9 | Sin. Defrauding.
+      W | 10-12 | Command. "Prove Me." Conditional Promise.
+
+[[diagram: 3. 13—4. 4 (D, p. 1297). Israel's Words Reproved (Alternation)]]
+[[anchor: Malachi 3:13]]
+[[pdf: 35. Malachi_text.pdf]]
+[[pdf-page: 5]]
+
+D |  |
+  X |  | 3. 13-15. The Proud. Incrimination.
+    Y |  | 3. 16-18. The Reverers of Jehovah. Remembrance and Blessing.
+  X |  | 4. 1. The Proud. Destruction.
+    Y |  | 4. 2-4. The Reverers of Jehovah. Blessing and Remembrance.

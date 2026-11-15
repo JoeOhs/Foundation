@@ -1,0 +1,1990 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Jeremiah
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/20. Jeremiah_text.pdf, printed pp. 1015-1096);
+# [[pdf-page:]] is the page of that file each diagram is on. Notation:
+# README.md here.
+
+[[diagram: Jeremiah. The Structure of the Book as a Whole (Introversion)]]
+[[anchor: Jeremiah 1:1]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 1]]
+
+A |  | 1. 1-3. INTRODUCTION.
+  B |  | 1. 4-19. JEREMIAH'S COMMISSION GIVEN.
+    C |  | 2. 1—20. 18. PROPHECIES ADDRESSED TO JEWS.
+      D |  | 21. 1—35. 19. HISTORY, &c. JEHOIAKIM. (Not chronological.)
+        E |  | 36. 1-32. BARUCH'S MISSION TO JEHOIAKIM.
+      D |  | 37. 1—45. 5. HISTORY, &c. ZEDEKIAH. (Not chronological.)
+    C |  | 46. 1—51. 64-. PROPHECIES ADDRESSED TO GENTILES.
+  B |  | 51. -64. JEREMIAH'S COMMISSION ENDED.
+A |  | 52. 1-34. CONCLUSION.
+
+[[diagram: 1. 1-3 (A, p. 1015). Introduction (Division)]]
+[[anchor: Jeremiah 1:1-3]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 2]]
+
+A |  |
+  A1 | 1 | The Prophet. His Person.
+  A2 | 2 | The Prophet. His Call. Its time.
+  A3 | 3 | The Prophet. His Ministry. Its duration.
+
+[[diagram: 1. 4-19 (B, p. 1015). Jeremiah's Commission Given (Introversions and Alternations)]]
+[[anchor: Jeremiah 1:4-19]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 2]]
+
+B |  |
+  B |  |
+    C |  |
+      a | 4-7 | Commission given.
+        b | 8- | "Be not afraid".
+[[group: Command]]
+      D |  |
+        c | -8 | "I am with thee".
+          d | 9, 10 | "I have this day", &c.
+[[group: Encouragement]]
+    E |  |
+      e | 11 | Vision (almond tree).
+        f | 12 | Explanation.
+    E |  |
+      e | 13 | Vision (seething pot).
+        f | 14-16 | Explanation.
+[[group: Mission]]
+  B |  |
+    C |  |
+      a | 17- | Commission given.
+        b | -17 | "Be not dismayed".
+[[group: Command]]
+      D |  |
+        d | 18, 19- | "I have this day", &c.
+          c | -19 | "I am with thee".
+[[group: Encouragement]]
+
+[[diagram: 2. 1—20. 18 (C, p. 1015). Prophecies Addressed to Jews. Josiah (Alternation)]]
+[[anchor: Jeremiah 2:1]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 4]]
+
+C |  |
+  F |  | 2. 1—12. 17. Proclamations.
+    G |  | 13. 1—17. 18. Symbols.
+  F |  | 17. 19-27. Proclamations.
+    G |  | 18. 1—20. 18. Symbols.
+
+[[diagram: 2. 1—12. 17 (F, above). Proclamations (Introversions)]]
+[[anchor: Jeremiah 2:1]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 4]]
+
+F |  |
+  H |  | 2. 1—3. 11. To Jerusalem. Espousals.
+    J |  | 3. 12—6. 30. Place. Toward the north.
+    J |  | 7. 1—10. 25. Place. In the Gate of the Temple.
+  H |  | 11. 1—12. 17. To Judah and Jerusalem. Covenant.
+
+[[diagram: 2. 1—3. 11 (H, above). To Jerusalem. Espousals (Introversions)]]
+[[anchor: Jeremiah 2:1]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 4]]
+
+H |  |
+  K |  | 2. 1-3. Espousals.
+    L |  |
+      M |  |
+        O |  | 2. 4-8. Call to hear. Remonstrance. Past.
+          P |  | 2. 9. Pleading. Future.
+            N |  | 2. 10-28. Crimination. Idolatry.
+    L |  |
+      M |  |
+        P |  | 2. 29, 30. Pleading. Future.
+        O |  | 2. 31, 32. Call to see. Remonstrance. Past.
+          N |  | 2. 33-37. Crimination. Idolatry.
+  K |  | 3. 1-11. Adultery.
+
+[[diagram: 3. 12—6. 30 (J, p. 1018). Place. Toward the North (Division)]]
+[[anchor: Jeremiah 3:12]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 6]]
+
+J |  |
+  Q1 |  | 3. 12—4. 2. Israel.
+  Q2 |  | 4. 3—6. 30. Judah.
+
+[[diagram: 3. 12—4. 2 (Q1, above). Israel (Repeated and Extended Alternation)]]
+[[anchor: Jeremiah 3:12]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 6]]
+
+Q1 |  |
+  R1 |  | 3. 12-. Call to return.
+    S1 |  | 3. -12. Reason.
+      T1 |  | 3. 13. Conditions.
+  R2 |  | 3. 14-. Call to return.
+    S2 |  | 3. -14-18. Reason.
+      T2 |  | 3. 19-21. Conditions.
+[[group: Command]]
+  R3 |  | 3. 22-. Call to return.
+    S3 |  | 3. -22-25. Return. Reason.
+      T3 |  | 4. 1, 2. Conditions.
+[[group: Obedience]]
+
+[[diagram: 3. -14-18 (S2, p. 1020). The Reason (Introversion)]]
+[[anchor: Jeremiah 3:14-18]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 7]]
+
+S2 |  |
+  i | -14, 15 | Restoration.
+    k | 16 | The Symbol. No longer the Ark.
+    k | 17 | The Reality. The Throne.
+  i | 18 | Restoration.
+
+[[diagram: 4. 3—6. 30 (Q2, p. 1020). Judah (Repeated Alternation)]]
+[[anchor: Jeremiah 4:3]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 8]]
+
+Q2 |  |
+  U1 |  | 4. 3-31. Warning. Threatenings. Alarm.
+    V1 |  | 5. 1-31. Investigation.
+  U2 |  | 6. 1-9. Warnings. Threatenings. Alarm.
+    V2 |  | 6. 10-21. Investigation.
+  U3 |  | 6. 22-26. Warnings. Threatenings. Alarm.
+    V3 |  | 6. 27-30. Reprobation.
+
+[[diagram: 4. 3-31 (U1, above). Warnings. Threatenings. Alarm (Alternation)]]
+[[anchor: Jeremiah 4:3-31]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 8]]
+
+U1 |  |
+  W | 3, 4 | Call to repentance.
+    X | 5-7 | Alarm.
+  W | 8-18 | Call to repentance.
+    X | 19-31 | Alarm.
+
+[[diagram: 4. 8-18 (W, above). Call to Repentance (Alternation)]]
+[[anchor: Jeremiah 4:8-18]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 8]]
+
+W |  |
+  l | 8- | Call.
+    m | -8-13 | Reason.
+  l | 14 | Call.
+    m | 15-18 | Reason.
+
+[[diagram: 5. 1-31 (V1, p. 1022). Investigation (Repeated Alternation)]]
+[[anchor: Jeremiah 5:1-31]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 9]]
+
+V1 |  |
+  Y1 | 1-5 | Incrimination.
+    Z1 | 6 | Threatening. Invasion. (Fig.)
+  Y2 | 7, 8 | Incrimination.
+    Z2 | 9 | Threatening. Vengeance.
+  Y3 | 10-13 | Incrimination.
+    Z3 | 14-19 | Threatening. Invasion. (Lit.)
+  Y4 | 20-28 | Incrimination.
+    Z4 | 29-31 | Threatening. Vengeance.
+
+[[diagram: 5. 20-28 (Y4, p. 1023). Incrimination (Extended Alternation)]]
+[[anchor: Jeremiah 5:20-28]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 10]]
+
+Y4 |  |
+  n | 20-22- | Call to fear God.
+    o | -22 | On account of His power.
+      p | 23 | Rebellion in heart.
+  n | 24- | Call. Refused.
+    o | -24 | Notwithstanding His bounty.
+      p | 25-28 | Rebellion in acts.
+
+[[diagram: 6. 10-21 (V2, p. 1022). Investigation (Extended Alternation)]]
+[[anchor: Jeremiah 6:10-21]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 11]]
+
+V2 |  |
+  q | 10 | Sin. (Part.) Insensibility.
+    r | 11, 12 | Threatening. Captivity.
+      s | 13-15- | General corruption.
+        t | -15 | Threatening. Fall.
+  q | 16, 17 | Sin. (Part.) Disobedience.
+    r | 18, 19 | Threatening. Retribution.
+      s | 20 | General corruption.
+        t | 21 | Threatening. Fall.
+
+[[diagram: 7. 1—10. 25 (J, p. 1018). Place. In Gate of the Temple (Alternation, and Introversion)]]
+[[anchor: Jeremiah 7:1]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 12]]
+
+J |  |
+  A |  |
+    C |  | 7. 1-28. Exhortation.
+      D |  | 7. 29—8. 13. Call for lamentation.
+        B |  | 8. 14—9. 9. Invasion.
+  A |  |
+    D |  | 9. 10-26. Call for lamentation.
+    C |  | 10. 1-16. Exhortation.
+      B |  | 10. 17-25. Expulsion.
+
+[[diagram: 7. 1-28 (C, above). Exhortation (Alternation)]]
+[[anchor: Jeremiah 7:1-28]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 12]]
+
+C |  |
+  E | 1, 2 | Proclamation.
+    F | 3-26 | Disobedience.
+  E | 27, 28- | Proclamation.
+    F | -28 | Disobedience.
+
+[[diagram: 7. 3-26 (F, p. 1026). Disobedience (Division)]]
+[[anchor: Jeremiah 7:3-26]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 13]]
+
+F |  |
+  G1 | 3-20 | Incrimination. (Shiloh.)
+  G2 | 21-26 | Incrimination. (Egypt.)
+
+[[diagram: 7. 3-20 (G1, above). Incrimination. (Shiloh.) (Repeated Alternation and Introversion)]]
+[[anchor: Jeremiah 7:3-20]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 13]]
+
+G1 |  |
+  H1 | 3- | Ways and Doings.
+    J1 |  |
+      u1 | -3 | Land.
+        v1 | 4 | Temple.
+  H2 | 5 | Ways and Doings.
+    J2 |  |
+      v2 | 6 | Temple.
+      u2 | 7 | Land.
+  H3 | 8, 9 | Ways and Doings.
+    J3 |  |
+      v3 | 10, 11 | Temple.
+      u3 | 12-16 | Land.
+  H4 | 17-19 | Ways and Doings.
+    J4 |  |
+      v4 | 20- | Temple.
+      u4 | -20 | Land.
+
+[[diagram: 7. 21-26 (G2, p. 1027). Incrimination. (Egypt.) (Alternation)]]
+[[anchor: Jeremiah 7:21-26]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 14]]
+
+G2 |  |
+  w | 21, 22 | Command.
+    x | 23, 24 | Disobedience.
+  w | 25 | Command.
+    x | 26 | Disobedience.
+
+[[diagram: 7. 29—8. 13 (D, p. 1026). Call for Lamentation (Repeated Alternation)]]
+[[anchor: Jeremiah 7:29]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 14]]
+
+D |  |
+  K1 |  | 7. 29-31. Incrimination. Pollution of Temple.
+    L1 |  | 7. 32—8. 3. Threatening. Slaughter.
+  K2 |  | 8. 4-9. Incrimination. Impenitence.
+    L2 |  | 8. 10, 11. Threatening. Dispossession.
+  K3 |  | 8. 12-. Incrimination. Effrontery.
+    L3 |  | 8. -12, 13. Threatening. Fall. Cast down.
+
+[[diagram: 7. 32—8. 3 (L1, above). Threatening. (Slaughter.) (Extended Alternation)]]
+[[anchor: Jeremiah 7:32]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 14]]
+
+L1 |  |
+  M |  |
+    y |  | 7. 32-. Cessation of name.
+      z |  | 7. -32. Reason.
+        a |  | 7. 33. Carcases unburned.
+[[group: Temple]]
+  M |  |
+    y |  | 7. 34-. Cessation of joy.
+      z |  | 7. -34. Reason.
+        a |  | 8. 1-3. Bones unburned.
+[[group: Land]]
+
+[[diagram: 8. 4-9 (K2, p. 1028). Incrimination. Impenitence (Repeated Alternation)]]
+[[anchor: Jeremiah 8:4-9]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 15]]
+
+K2 |  |
+  b1 | 4, 5- | Question.
+    c1 | -5-7 | Answer.
+  b2 | 8- | Question.
+    c2 | -8-9- | Answer.
+  b3 | -9 | Question.
+
+[[diagram: 8. 14—9. 9 (B, p. 1026). Invasion (Alternation)]]
+[[anchor: Jeremiah 8:14]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 15]]
+
+B |  |
+  N1 |  | 8. 14-16. The Prophet. Sorrow.
+    O1 |  | 8. 17. Jehovah. Threatening.
+  N2 |  | 8. 18. The Prophet. Sorrow.
+    O2 |  | 8. 19. Jehovah. Threatening.
+  N3 |  | 8. 20—9. 9. The Prophet. Sorrow.
+
+[[diagram: 8. 20—9. 9 (N3, p. 1029). The Prophet. Sorrow (Division)]]
+[[anchor: Jeremiah 8:20]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 16]]
+
+N3 |  |
+  P1 |  | 8. 20—9. 2-. The Prophet's sorrow.
+  P2 |  | 9. -2-9. The reasons for it.
+
+[[diagram: 9. -2-9 (P2, above). The Reasons for the Prophet's Sorrow (Alternation)]]
+[[anchor: Jeremiah 9:2-9]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 16]]
+
+P2 |  |
+  d | -2-6 | Incrimination. Deceit.
+    e | 7 | Threatening. Trial.
+  d | 8 | Incrimination. Deceit.
+    e | 9 | Threatening. Vengeance.
+
+[[diagram: 9. 10-26 (D, p. 1026). Call for Lamentation (Extended Alternation)]]
+[[anchor: Jeremiah 9:10-26]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 16]]
+
+D |  |
+  f | 10 | Lamentation.
+    g | 11 | Threatening. Places.
+      h | 12-14 | The wise. Call.
+        i | 15, 16 | Dispersion among the nations.
+  f | 17-21 | Lamentation.
+    g | 22 | Threatening. Persons.
+      h | 23, 24 | The wise. Exhortation.
+        i | 25, 26 | Dispersion with the nations.
+
+[[diagram: 10. 1-16 (C, p. 1026). Exhortation (Extended Alternation)]]
+[[anchor: Jeremiah 10:1-16]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 18]]
+
+C |  |
+  j | 1-5 | Idolatry.
+    k | 6, 7 | Jehovah the true God.
+      l | 8 | Stupidity of idolaters.
+  j | 9 | Idolatry.
+    k | 10-13 | Jehovah the true God.
+      l | 14-16 | Stupidity of idolaters.
+
+[[diagram: 11. 1—12. 17 (H, p. 1018). Prophecies to Judah and Jerusalem (Alternation)]]
+[[anchor: Jeremiah 11:1]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 19]]
+
+H |  |
+  Q |  | 11. 1-14. Against the People.
+    R |  | 11. 15-17. The beloved People threatened.
+  Q |  | 11. 18—12. 6. Against the men of Anathoth.
+    R |  | 12. 7-17. The beloved People threatened.
+
+[[diagram: 11. 1-14 (Q, above). Prophecies Against the People (Alternation)]]
+[[anchor: Jeremiah 11:1-14]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 19]]
+
+Q |  |
+  m | 1-8- | Covenant disobeyed.
+    n | -8 | Threatening.
+  m | 9, 10 | Covenant broken.
+    n | 11-14 | Threatening.
+
+[[diagram: 11. 18—12. 6 (Q, p. 1033). Prophecies Against the Men of Anathoth (Alternation)]]
+[[anchor: Jeremiah 11:18]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 20]]
+
+Q |  |
+  o |  | 11. 18-20. The prophet. Prayer.
+    p |  | 11. 21-23. Jehovah's answer. Threatening.
+  o |  | 12. 1-4. The prophet. Pleading.
+    p |  | 12. 5, 6. Jehovah's answer. Threatening.
+
+[[diagram: 12. 7-17 (R, p. 1033). The Beloved People Threatened (Division)]]
+[[anchor: Jeremiah 12:7-17]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 20]]
+
+R |  |
+  S1 | 7-13 | The beloved People. Themselves.
+  S2 | 14-17 | The beloved People. Their enemies.
+
+[[diagram: 13. 1—17. 18 (G, p. 1018). Symbols (Alternation)]]
+[[anchor: Jeremiah 13:1]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 21]]
+
+G |  |
+  T |  | 13. 1-27. Symbolical. Girdle. Bottles.
+    U |  | 14. 1—15. 21. Literal. Drought.
+  T |  | 16. 1-21. Symbolical. No wife.
+    U |  | 17. 1-18. Literal. Sin of Judah.
+
+[[diagram: 13. 1-27 (T, above). Symbols. Girdle. Bottles (Division)]]
+[[anchor: Jeremiah 13:1-27]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 21]]
+
+T |  |
+  V1 | 1-11 | The Girdle.
+  V2 | 12-14 | The Bottles.
+  V3 | 15-27 | The Signification.
+
+[[diagram: 13. 1-11 (V1, above). The Girdle (Introversion and Alternation)]]
+[[anchor: Jeremiah 13:1-11]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 21]]
+
+V1 |  |
+  W | 1-7- | The Girdle caused to cleave.
+    X |  |
+      q | -7- | Girdle marred.
+        r | -7 | Girdle useless.
+[[group: Symbol]]
+    X |  |
+      q | 8, 9 | People marred.
+        r | 10 | People useless.
+  W | 11 | The People caused to cleave.
+[[group: Signification]]
+
+[[diagram: 13. 12-14 (V2, p. 1035). The Bottles (Division)]]
+[[anchor: Jeremiah 13:12-14]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 22]]
+
+V2 |  |
+  Y1 | 12 | Symbol. Bottles filled.
+  Y2 | 13, 14 | Signification. People filled.
+
+[[diagram: 13. 15-27 (V3, p. 1035). The Signification (Division)]]
+[[anchor: Jeremiah 13:15-27]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 22]]
+
+V3 |  |
+  Z1 | 15-20 | Pride.
+  Z2 | 21-27 | Punishment.
+
+[[diagram: 13. 15-20 (Z1, above). Pride (Alternation)]]
+[[anchor: Jeremiah 13:15-20]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 22]]
+
+Z1 |  |
+  s | 15-17- | Exhortation.
+    t | -17 | Jehovah's flock.
+  s | 18, 19 | Exhortation.
+    t | 20 | Jehovah's flock.
+
+[[diagram: 13. 21-27 (Z2, above). Punishment (Alternation)]]
+[[anchor: Jeremiah 13:21-27]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 22]]
+
+Z2 |  |
+  u | 21- | Question. "What ...?"
+    v | -21 | Answer. Reason.
+  u | 22- | Question. "Wherefore ...?"
+    v | -22-27 | Answer. Reason.
+
+[[diagram: 14. 1—15. 21 (U, p. 1035). Literal. Drought]]
+[[anchor: Jeremiah 14:1]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 22]]
+
+U |  |
+  A1 |  | 14. 1-6. Mourning of Judah.
+  A2 |  | 14. 7—15. 21. Intercession.
+
+[[diagram: 14. 7—15. 24 (A2, p. 1036). Intercession (Extended Alternation)]]
+[[anchor: Jeremiah 14:7]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 23]]
+
+A2 |  |
+  B |  | 14. 7-9. Deprecation. Jeremiah.
+    C |  | 14. 10-12. Rejection. Jehovah.
+      D |  | 14. 13-18. Prophets. (False.)
+  B |  | 14. 19-22. Deprecation. Jeremiah.
+    C |  | 15. 1-9. Rejection. Jehovah.
+      D |  | 15. 10-21. Prophets. (True.)
+
+[[diagram: 14. 13-18 (D, above). Prophets. (False.) (Division)]]
+[[anchor: Jeremiah 14:13-18]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 23]]
+
+D |  |
+  E1 | 13 | Jeremiah's complaint.
+  E2 | 14-18 | Jehovah's answer. Threatening.
+
+[[diagram: 15. 10-21 (D, p. 1037). Prophets. (True.) (Alternation)]]
+[[anchor: Jeremiah 15:10-21]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 24]]
+
+D |  |
+  w | 10 | Complaint of Jeremiah.
+    x | 11-14 | Promise of Jehovah.
+  w | 15-18 | Complaint of Jeremiah.
+    x | 19-21 | Promise of Jehovah.
+
+[[diagram: 16. 1-21 (T, p. 1035). Symbolical. No Wife (Division)]]
+[[anchor: Jeremiah 16:1-21]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 25]]
+
+T |  |
+  F1 | 1-9 | Symbol. No wife.
+  F2 | 10-21 | Signification.
+
+[[diagram: 16. 1-9 (F1, above). Symbol. No Wife (Repeated Alternation)]]
+[[anchor: Jeremiah 16:1-9]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 25]]
+
+F1 |  |
+  y1 | 1, 2 | Prohibition. Not to marry.
+    z1 | 3, 4 | Reason.
+  y2 | 5- | Prohibition. Not to mourn.
+    z2 | -5-7 | Reason.
+  y3 | 8 | Prohibition. Not to feast.
+    z3 | 9 | Reason.
+
+[[diagram: 16. 10-21 (F2, above). Signification (Alternation)]]
+[[anchor: Jeremiah 16:10-21]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 25]]
+
+F2 |  |
+  a | 10-13 | Threatening. Expulsion.
+    b | 14, 15 | Promise. Restoration. (Israel.)
+  a | 16-18 | Threatening. Pursuit.
+    b | 19-21 | Promise. Restoration. (Gentiles.)
+
+[[diagram: 17. 1-18 (U, p. 1035). Literal. Sin of Judah (Alternation and Introversion)]]
+[[anchor: Jeremiah 17:1-18]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 26]]
+
+U |  |
+  G | 1, 2 | Incrimination.
+    H |  |
+      J | 3, 4 | Threatening.
+      K | 5-8 | Trust. False and True.
+  G | 9, 10 | Incrimination.
+    H |  |
+      K | 11-14 | Trust. False and True.
+      J | 15-18 | Defiance.
+
+[[diagram: 17. 5-8 (K, above). Trust. False and True (Alternation)]]
+[[anchor: Jeremiah 17:5-8]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 26]]
+
+K |  |
+  c | 5 | Curse.
+    d | 6 | Comparison. Heath in desert.
+[[group: False]]
+  c | 7 | Blessing.
+    d | 8 | Comparison. Tree in garden.
+[[group: True]]
+
+[[diagram: 17. 11-14 (K, p. 1040). Trust. False and True (Introversion)]]
+[[anchor: Jeremiah 17:11-14]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 27]]
+
+K |  |
+  e | 11- | Forsaking. Partridge her eggs.
+    f | -11 | False trust.
+    f | 12, 13- | True trust.
+  e | -13, 14 | Forsaking. People their God.
+
+[[diagram: 17. 19-27 (F, p. 1018). Prophecies (Repeated Alternation)]]
+[[anchor: Jeremiah 17:19-27]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 27]]
+
+F |  |
+  g1 | 19-22 | Jehovah. Command.
+    h1 | 23 | Disobedience.
+  g2 | 24-26 | Jehovah. Promise.
+    h2 | 27- | Disobedience.
+  g3 | -27 | Jehovah. Threatening.
+
+[[diagram: 18. 1—20. 18 (G, p. 1018). Symbols (Extended Alternation)]]
+[[anchor: Jeremiah 18:1]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 28]]
+
+G |  |
+  L |  | 18. 1-4. Symbol. Potter's vessel.
+    M |  | 18. 5, 6. Signification. House of Israel.
+      N |  | 18. 7-17. Threatening.
+        O |  | 18. 18. Enemies. Plot.
+          P |  | 18. 19-23. Jeremiah. Prayer.
+  L |  | 19. 1-10. Symbol. Potter's bottle.
+    M |  | 19. 11-13. Signification. People and city.
+      N |  | 19. 14, 15. Threatening.
+        O |  | 20. 1-6. Enemies. Violence.
+          P |  | 20. 7-18. Jeremiah. Prayer.
+
+[[diagram: 18. 7-17 (N, above). Threatening (Division)]]
+[[anchor: Jeremiah 18:7-17]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 28]]
+
+N |  |
+  Q1 | 7-10 | Declaration.
+  Q2 | 11-17 | Application.
+
+[[diagram: 18. 7-10 (Q1, above). Declaration (Alternation)]]
+[[anchor: Jeremiah 18:7-10]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 28]]
+
+Q1 |  |
+  i | 7 | Concerning pulling down.
+    k | 8 | Condition. Repentance.
+  i | 9 | Concerning building up.
+    k | 10 | Condition. Repentance.
+
+[[diagram: 18. 11-17 (Q2, above). Application (Introversion)]]
+[[anchor: Jeremiah 18:11-17]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 28]]
+
+Q2 |  |
+  l | 11 | Threatening.
+    m | 12 | Departure.
+    m | 13-16 | Departure.
+  l | 17 | Execution.
+
+[[diagram: 18. 19-23 (P, p. 1042). Jeremiah. Prayer (Alternation)]]
+[[anchor: Jeremiah 18:19-23]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 29]]
+
+P |  |
+  n | 19, 20 | Complaint.
+    o | 21, 22 | Imprecation.
+  n | 23- | Complaint.
+    o | -23 | Imprecation.
+
+[[diagram: 19. 1-10 (L, p. 1042). The Potter's Bottle (Introversion)]]
+[[anchor: Jeremiah 19:1-10]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 29]]
+
+L |  |
+  p | 1 | Bottle taken.
+    q | 2, 3 | Threatening. (General.)
+      r | 4 | Cause.
+      r | 5 | Cause.
+    q | 6-9 | Threatening. (Particular.)
+  p | 10 | Bottle broken.
+
+[[diagram: 20. 1-6 (O, p. 1042). Enemies. Violence (Introversion)]]
+[[anchor: Jeremiah 20:1-6]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 30]]
+
+O |  |
+  s | 1-3- | Pashur's violence.
+    t | -3, 4 | Pashur and Judah: captives.
+    t | 5 | Pashur and Judah: spoils.
+  s | 6 | Pashur's end.
+
+[[diagram: 20. 7-18 (P, p. 1042). Jeremiah. Prayer (Introversion)]]
+[[anchor: Jeremiah 20:7-18]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 30]]
+
+P |  |
+  R | 7-12 | Complaint.
+    S | 13- | Praise to Jehovah.
+    S | -13 | Praise. Reason for it.
+  R | 14-18 | Complaint.
+
+[[diagram: 20. 7-12 (R, above). Complaint (Introversion)]]
+[[anchor: Jeremiah 20:7-12]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 30]]
+
+R |  |
+  u | 7- | Jehovah. Commission.
+    v | -7, 8 | Jeremiah. Derision of.
+      w | 9- | Jehovah's word. Resolve made.
+      w | -9 | Jehovah's word. Resolve useless.
+    v | 10 | Jeremiah. Conspiracy against.
+  u | 11, 12 | Jeremiah. Support.
+
+[[diagram: 21. 1—35. 19 (D, p. 1015). History, etc. Jehoiakim. (Not Chronological.) (Introversion)]]
+[[anchor: Jeremiah 21:1]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 31]]
+
+D |  |
+  T |  | 21. 1-14. Defeat and Captivity proclaimed.
+    U |  | 22. 1—23. 8. Promise of THE BRANCH.
+      V |  | 23. 9-40. Whirlwind. False Prophets. Rejection.
+        W |  | 24. 1-10. Captives. Remnant. (Fig.)
+          X |  | 25. 1-11. Time. Seventy years.
+            Y |  | 25. 12-38. Nations. The Cup.
+              Z |  | 26. 1-24. Proclamation in Temple.
+            Y |  | 27. 1-22. Nations. Bonds and Yoke.
+          X |  | 28. 1-17. Time. Two years.
+        W |  | 29. 1-32. Captives and Remnant. (Fig.)
+      V |  | 30. 1—31. 40. Whirlwind. Book. Restoration.
+    U |  | 32. 1—33. 26. Promise of THE BRANCH.
+  T |  | 34. 1—35. 19. Defeat and Captivity proclaimed.
+
+[[diagram: 21. 1-14 (T, above). Defeat and Captivity Proclaimed (Alternation)]]
+[[anchor: Jeremiah 21:1-14]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 31]]
+
+T |  |
+  x | 1-7 | To the king.
+    y | 8-10 | To the People of the city.
+  x | 11, 12 | To the king's house.
+    y | 13, 14 | To the People in the city.
+
+[[diagram: 22. 1—23. 8 (U, p. 1045). Promise of the Branch (Division)]]
+[[anchor: Jeremiah 22:1]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 32]]
+
+U |  |
+  A1 |  | 22. 1-30. Individually.
+  A2 |  | 23. 1-8. Collectively.
+
+[[diagram: 22. 1-30 (A1, above). Individually (Alternation)]]
+[[anchor: Jeremiah 22:1-30]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 32]]
+
+A1 |  |
+  B | 1-9 | To Jehoiakim.
+    C | 10-12 | Touching Shallum.
+  B | 13-19 | To Jehoiakim.
+    C | 20-30 | Touching Coniah.
+
+[[diagram: 22. 1-9 (B, above). To Jehoiakim (Alternation)]]
+[[anchor: Jeremiah 22:1-9]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 32]]
+
+B |  |
+  a | 1-3 | Command.
+    b | 4, 5 | Consequence.
+  a | 6, 7 | Address.
+    b | 8, 9 | Consequence.
+
+[[diagram: 23. 1-8 (A2, p. 1046). Collectively (Alternation)]]
+[[anchor: Jeremiah 23:1-8]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 34]]
+
+A2 |  |
+  c | 1, 2 | Shepherds. Woe to false.
+    d | 3 | Restoration. The remnant.
+  c | 4-6 | Shepherd. The true. The BRANCH.
+    d | 7, 8 | Restoration. The Nation.
+
+[[diagram: 23. 9-40 (V, p. 1045). Whirlwind. False Prophets. Rejection (Alternation)]]
+[[anchor: Jeremiah 23:9-40]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 34]]
+
+V |  |
+  e | 9-15 | Incrimination.
+    f | 16-22 | Dehortation.
+  e | 23-29 | Incrimination.
+    f | 30-40 | Threatening.
+
+[[diagram: 24. 1-10 (W, p. 1045). Captives. Remnant. (Figs.) (Alternations)]]
+[[anchor: Jeremiah 24:1-10]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 36]]
+
+W |  |
+  D | 1 | Symbol. Two baskets of figs.
+    E |  |
+      g | 2- | Good figs.
+        h | -2 | Bad figs.
+      g | 3- | Good figs.
+        h | -3 | Bad figs.
+  D | 4 | Signification of Symbol.
+    E |  |
+      i | 5 | Captives. (Good figs.)
+        k | 6, 7 | For their good.
+      i | 8 | Remnant. (Bad figs.)
+        k | 9, 10 | For their evil.
+
+[[diagram: 25. 1-11 (X, p. 1045). Time. Seventy Years (Introversion)]]
+[[anchor: Jeremiah 25:1-11]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 36]]
+
+X |  |
+  n | 1, 2 | Time of the prophecy.
+    o | 3, 4 | Messengers from Jehovah.
+      p | 5-7 | Disobedience. The cause.
+      p | 8 | Disobedience. The consequence.
+    o | 9-11- | Messengers from Babylon.
+  n | -11 | Duration of the prophecy.
+
+[[diagram: 25. 12-38 (Y, p. 1045). Nations. The Cup (Alternation)]]
+[[anchor: Jeremiah 25:12-38]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 37]]
+
+Y |  |
+  q | 12-14 | Literal.
+    r | 15-29 | Symbol. The Cup.
+  q | 30-33 | Literal.
+    r | 34-38 | Symbols. Shepherds and Folds.
+
+[[diagram: 26. 1-24 (Z, p. 1045). Proclamation in the Temple (Alternations)]]
+[[anchor: Jeremiah 26:1-24]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 39]]
+
+Z |  |
+  F | 1-6 | Jeremiah's mission.
+    G |  |
+      H | 7-9 | Opposition.
+        J | 10, 11 | Defence. Princes.
+  F | 12-15 | Jeremiah's message.
+    G |  |
+      H | 16-23 | Contention.
+        J | 24 | Defence. Ahikam.
+
+[[diagram: 26. 1-6 (F, above). Jeremiah's Mission (Introversion)]]
+[[anchor: Jeremiah 26:1-6]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 39]]
+
+F |  |
+  s | 1, 2 | Jehovah's house. Message.
+    t | 3- | Obedience.
+      u | -3 | Promise.
+    t | 4, 5 | Disobedience.
+  s | 6 | Jehovah's house. Message.
+
+[[diagram: 26. 16-24 (G, p. 1053). Contention (Introversion and Alternation)]]
+[[anchor: Jeremiah 26:16-24]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 40]]
+
+G |  |
+  K | 16, 17 | Defenders. Princes.
+[[group: -]]
+    L |  |
+      v | 18 | Case of Micah.
+        w | 19 | Conduct of Hezekiah.
+[[group: Favourable.]]
+    L |  |
+      v | 20 | Case of Urijah.
+        w | 21-23 | Conduct of Jehoiakim.
+[[group: Adverse.]]
+  K | 24 | Defender. Ahikam.
+
+[[diagram: 27. 1-22 (Y, p. 1045). Nations. Bonds and Yokes (Introversion and Alternations)]]
+[[anchor: Jeremiah 27:1-22]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 40]]
+
+Y |  |
+  M |  |
+    x | 1-7- | Nations to serve Babylon.
+      y | -7 | For a limited time.
+    N |  |
+      z1 | 8 | Exhortation. Nations.
+        a1 | 9-11 | Dehortation.
+      z2 | 12, 13 | Exhortation. Zedekiah.
+        a2 | 14, 15 | Dehortation.
+      z3 | 16- | Exhortation. Priests and People.
+        a3 | -16, 17 | Dehortation.
+  M |  |
+    x | 18-22- | Remaining vessels to go to Babylon.
+      y | -22 | For a limited time.
+
+[[diagram: 28. 1-17 (X, p. 1045). Time. Two Years (Alternation)]]
+[[anchor: Jeremiah 28:1-17]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 42]]
+
+X |  |
+  b | 1-4 | Hananiah.
+    c | 5-9 | Jeremiah.
+  b | 10, 11 | Hananiah.
+    c | 12-17 | Jeremiah.
+
+[[diagram: 29. 1-32 (W, p. 1045). Captives and Remnant (Introversion and Repeated Alternation)]]
+[[anchor: Jeremiah 29:1-32]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 43]]
+
+W |  |
+  O | 1-7 | Letter of Jeremiah to the Captivity.
+    P |  |
+      d1 | 8, 9 | Dehortation. False prophets.
+        e1 | 10-14 | Prophecy to captives. Good.
+      d2 | 15 | Dehortation. False prophets.
+        e2 | 16-19 | Prophecy to residue. Evil.
+      d3 | 20-29 | Dehortation. False prophets.
+  O | 30-32 | Message of Jehovah to the Captivity.
+
+[[diagram: 30. 1—31. 40 (V, p. 1045). Book. Restoration (Alternation and Introversion)]]
+[[anchor: Jeremiah 30:1]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 44]]
+
+V |  |
+  Q |  | 30. 1-17. Book.
+    R |  |
+      S |  | 30. 18. City. Rebuilding.
+        T |  | 30. 19—31. 1. People. Restoration.
+  Q |  | 31. 2-26. Vision.
+    R |  |
+      T |  | 31. 27-37. People. Restoration.
+      S |  | 31. 38-40. City. Rebuilding.
+
+[[diagram: 30. 1-17 (Q, above). Book (Alternation)]]
+[[anchor: Jeremiah 30:1-17]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 44]]
+
+Q |  |
+  U | 1, 2 | Words.
+    V | 3 | Restoration. General.
+  U | 4 | Words.
+    V | 5-17 | Restoration. Particular.
+
+[[diagram: 30. 5-17 (V, above). Restoration. Particular (Extended Alternation)]]
+[[anchor: Jeremiah 30:5-17]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 44]]
+
+V |  |
+  f | 5-7- | Tribulation.
+    g | -7-10 | Restoration.
+      h | 11 | Jehovah the Saviour.
+  f | 12-15 | Tribulation.
+    g | 16 | Retaliation.
+      h | 17 | Jehovah the Healer.
+
+[[diagram: 30. 19—31. 1 (T, p. 1058). People. Restoration (Alternation)]]
+[[anchor: Jeremiah 30:19]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 45]]
+
+T |  |
+  i |  | 30. 19-21. Blessings.
+    k |  | 30. 22. People accepted.
+  i |  | 30. 23, 24. Judgment.
+    k |  | 31. 1. People accepted.
+
+[[diagram: 31. 2-26 (Q, p. 1058). Vision (Extended and Repeated Alternation)]]
+[[anchor: Jeremiah 31:2-26]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 46]]
+
+Q |  |
+  l1 | 2-7 | Joy.
+    m1 | 8 | Restoration.
+      n1 | 9 | Sorrow ended.
+  l2 | 10-14 | Joy.
+    m2 | 15-17 | Restoration.
+      n2 | 18-22 | Sorrow ended.
+  l3 | 23 | Blessing.
+    m3 | 24 | Restoration.
+      n3 | 25, 26 | Sorrow ended.
+
+[[diagram: 31. 27-37 (T, p. 1058). People. Restoration (Introversion and Alternation)]]
+[[anchor: Jeremiah 31:27-37]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 47]]
+
+T |  |
+  W | 27 | Seed. Prophecy.
+    X |  |
+      o | 28 | Destruction and renovation.
+        p | 29, 30 | Proverb.
+    X |  |
+      o | 31-33 | Old and New Covenant.
+        p | 34 | Teaching.
+  W | 35-37 | Seed. Fulfilment.
+
+[[diagram: 32. 1—33. 26 (U, p. 1045). Promise of the Branch (Division)]]
+[[anchor: Jeremiah 32:1]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 48]]
+
+U |  |
+  Y1 |  | 32. 1-44. The first "word". Restoration of the Land. (In prison.) Tenth year of Zedekiah.
+  Y2 |  | 33. 1-26. The second "word". Restoration of the People. (In prison.)
+
+[[diagram: 32. 1-44 (Y1, above). The First Word (Division)]]
+[[anchor: Jeremiah 32:1-44]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 48]]
+
+Y1 |  |
+  Z1 | 1-5 | Question of Zedekiah.
+  Z2 | 6-44 | Answer of Jeremiah.
+
+[[diagram: 32. 6-44 (Z2, above). Answer of Jeremiah (Alternation)]]
+[[anchor: Jeremiah 32:6-44]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 48]]
+
+Z2 |  |
+  A | 6-14 | Symbol. Purchase of the field.
+    B | 15 | Signification. Repossession.
+  A | 16-35 | Symbol. Purchase of the field.
+    B | 36-44 | Signification. Repossession.
+
+[[diagram: 32. 6-14 (A, above). Symbol. Purchase of the Field (Alternation)]]
+[[anchor: Jeremiah 32:6-14]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 48]]
+
+A |  |
+  q | 6, 7 | The word of Jehovah. Coming
+    r | 8- | The field. Request.
+  q | -8 | The word of Jehovah. Known.
+    r | 9-14 | The field. Compliance.
+
+[[diagram: 32. 16-35 (A, p. 1062). The Symbol (Alternation and Introversion)]]
+[[anchor: Jeremiah 32:16-35]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 49]]
+
+A |  |
+  C | 16, 17 | Prayer. Omnipotence.
+    D |  |
+      s | 18-23 | Past mercies. Remembered.
+      t | 24, 25 | Invasion.
+  C | 26, 27 | Prayer. Answered. Omnipotence.
+    D |  |
+      t | 28, 29 | Invasion.
+      s | 30-35 | Future judgments. Foretold.
+
+[[diagram: 32. 36-44 (B, p. 1062). Signification. Repossession (Alternation)]]
+[[anchor: Jeremiah 32:36-44]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 50]]
+
+B |  |
+  u | 36 | City.
+    v | 37-41 | Its restoration.
+  u | 42 | People.
+    v | 43, 44 | Their repossession.
+
+[[diagram: 33. 1-26 (Y2, p. 1062). Second Word. Restoration (Division)]]
+[[anchor: Jeremiah 33:1-26]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 50]]
+
+Y2 |  |
+  E1 | 1-14 | The word of Jehovah.
+  E2 | 15-18 | The Branch of Jehovah.
+  E3 | 19-26 | The faithfulness of Jehovah.
+
+[[diagram: 33. 1-14 (E1, above). The Word of Jehovah (Extended and Repeated Alternation)]]
+[[anchor: Jeremiah 33:1-14]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 50]]
+
+E1 |  |
+  w1 | 1-5 | The desolate houses.
+    x1 | 6 | Blessings. Health and cure.
+      y1 | 7-9 | Restoration. "As at the first."
+  w2 | 10 | The desolate cities. (Judah.)
+    x2 | 11- | Blessings. Joy and gladness.
+      y2 | -11 | Restoration. "As at the first."
+  w3 | 12- | The desolate cities. (Judah and Benjamin.)
+    x3 | -12, 13 | Blessings. Peace and quietness.
+      y3 | 14 | Restoration.
+
+[[diagram: 33. 15-18 (E2, p. 1064). The Branch of Jehovah (Alternation)]]
+[[anchor: Jeremiah 33:15-18]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 51]]
+
+E2 |  |
+  a | 15 | The Branch raised up.
+    b | 16 | Blessing. Salvation brought.
+  a | 17 | Heir of David not lacking.
+    b | 18 | Blessing. Worship secured.
+
+[[diagram: 33. 19-26 (E3, p. 1064). The Faithfulness of Jehovah (Repeated Alternation)]]
+[[anchor: Jeremiah 33:19-26]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 52]]
+
+E3 |  |
+  c1 | 19, 20 | Tokens. Day and night.
+    d1 | 21 | Covenant with David.
+  c2 | 22- | Tokens. Stars and sand.
+    d2 | -22 | Seed of David.
+  c3 | 23-25 | Tokens. Day and night.
+    d3 | 26 | Union of Israel and Judah.
+
+[[diagram: 34. 1—35. 19 (T, p. 1045). Defeat and Captivity of Zedekiah Proclaimed (Alternations)]]
+[[anchor: Jeremiah 34:1]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 52]]
+
+T |  |
+  F1 |  | 34. 1-7. Threatening to Zedekiah.
+    G |  |
+      H |  | 34. 8-16. Illustration. (Negative.) Covenant of king and princes broken.
+        J |  | 34. 17-. Incrimination of People.
+  F2 |  | 34. -17-22. Threatening to the nation.
+    G |  |
+      H |  | 35. 1-11. Illustration. (Positive.) Command of Jonadab to Rechabites kept.
+        J |  | 35. 12-16. Incrimination of people.
+  F3 |  | 35. 17-19. Threatening to the nation.
+
+[[diagram: 34. 1-7 (F1, above). Threatening to Zedekiah (Introversion)]]
+[[anchor: Jeremiah 34:1-7]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 52]]
+
+F1 |  |
+  e | 1, 2 | City and cities given to Nebuchadnezzar.
+    f | 3 | Zedekiah. Captivity.
+    f | 4, 5 | Zedekiah. Death.
+  e | 6, 7 | City and cities besieged by Nebuchadnezzar.
+
+[[diagram: 34. 8-16 (H, above). Illustration. (Negative). Covenant of Zedekiah and Princes. Broken (Alternation)]]
+[[anchor: Jeremiah 34:8-16]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 52]]
+
+H |  |
+  g | 8-10 | Covenant of Zedekiah and princes with servants.
+    h | 11 | Breach of the covenant by king and princes.
+  g | 12-15 | Covenant of Jehovah with the nation.
+    h | 16 | Breach of the covenant by the nation.
+
+[[diagram: 34. -17-22 (F2, p. 1066). Threatening of the People (Introversion)]]
+[[anchor: Jeremiah 34:17-22]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 53]]
+
+F2 |  |
+  i | -17 | The people.
+    k | 18-20 | The princes.
+    k | 21 | The king.
+  i | 22 | The people and cities.
+
+[[diagram: 35. 1-11 (H, p. 1066). Illustration. (Positive.) Command of Jonadab to His Sons. Kept (Alternation)]]
+[[anchor: Jeremiah 35:1-11]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 53]]
+
+H |  |
+  l | 1, 2 | Command of Jehovah to Jeremiah.
+    m | 3-5 | Obedience of Jeremiah.
+  l | 6, 7 | Command of Jonadab to Rechabites.
+    m | 8-11 | Obedience of Rechabites.
+
+[[diagram: 35. 12-16 (J, p. 1066). Incrimination of the People (Repeated Alternation)]]
+[[anchor: Jeremiah 35:12-16]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 54]]
+
+J |  |
+  n1 | 12, 13 | Incrimination.
+    o1 | 14- | Obedience of the Rechabites.
+  n2 | -14- | Incrimination.
+    o2 | -14 | Disobedience of the nation.
+  n3 | 15- | Incrimination.
+    o3 | -15 | Disobedience of the nation.
+  n4 | 16- | Incrimination.
+    o4 | -16 | Disobedience of the nation.
+
+[[diagram: 35. 17-19 (F3, p. 1066). Threatening of the Nation (Alternation)]]
+[[anchor: Jeremiah 35:17-19]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 54]]
+
+F3 |  |
+  p | 17- | Threatening to the nation.
+    q | -17 | Cause. Disobedience to Jehovah.
+  p | 18- | Blessing of the Rechabites.
+    q | -18, 19 | Cause. Obedience to Jonadab.
+
+[[diagram: 36. 1-32 (E, p. 1015). Baruch. Mission to Jehoiakim (Introversions and Alternations)]]
+[[anchor: Jeremiah 36:1-32]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 55]]
+
+E |  |
+  K |  |
+    M | 1-3 | Command of Jehovah.
+      N | 4 | Obedience of Jeremiah.
+    M | 5-7 | Command of Jeremiah.
+      N | 8-10 | Obedience of Baruch.
+[[group: The first Scroll.]]
+    L |  |
+      r | 11-13 | Scroll reported to princes.
+        s | 14 | Roll brought.
+          t | 15 | Roll read.
+            u | 16 | Fear.
+              v | 17, 18 | Jeremiah and Baruch.
+                w | 19 | Their concealment.
+    L |  |
+      r | 20 | Scroll reported to the king.
+        s | 21- | Roll brought.
+          t | -21-23 | Roll destroyed.
+            u | 24, 25 | No fear.
+              v | 26- | Jeremiah and Baruch.
+                w | -26 | Their concealment.
+[[group: -]]
+  K |  |
+    O | 27, 28 | Jeremiah. Command.
+      P | 29 | Jehoiakim. Incrimination.
+      P | 30, 31 | Jehoiakim. Threatening.
+    O | 32 | Jeremiah. Obedience.
+[[group: The second Scroll.]]
+
+[[diagram: 37. 1—45. 5 (D, p. 1015). History, etc. Zedekiah (Introversion)]]
+[[anchor: Jeremiah 37:1]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 57]]
+
+D |  |
+  Q |  | 37. 1—38. 28. Jeremiah. Persecution and deliverance.
+    R |  | 39. 1-9. City taken.
+    R |  | 39. 10—44. 30. People taken, and left.
+  Q |  | 45. 1-5. Jeremiah. Prophecy to Baruch. (Sorrow and assurance.)
+
+[[diagram: 37. 1—38. 28 (Q, above). Jeremiah, etc. (Introversion and Alternation)]]
+[[anchor: Jeremiah 37:1]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 57]]
+
+Q |  |
+  S |  |
+    U |  | 37. 1-20. Public message.
+      V |  | 37. 21. In court of the prison.
+[[group: -]]
+    T |  |
+      W |  | 38. 1-6. Accusation.
+      W |  | 38. 7-13. Defence.
+[[group: Persecutors of Jeremiah.]]
+  S |  |
+    U |  | 38. 14-27. Private conference.
+      V |  | 38. 28. In court of the prison.
+
+[[diagram: 37. 1-20 (U, above). Public Message (Alternation and Introversion)]]
+[[anchor: Jeremiah 37:1-20]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 57]]
+
+U |  |
+  X | 1, 2 | Words of Jeremiah. Disobedience.
+    Y |  |
+      x | 3 | Message from Zedekiah to Jeremiah.
+      y | 4 | Jeremiah: not in prison.
+      z | 5 | Departure of Chaldeans.
+  X | 6-10 | Words of Jeremiah. Threatening.
+    Y |  |
+      z | 11-14 | Departure of Chaldeans.
+      y | 15 | Jeremiah in prison.
+      x | 16-20 | Message from Jeremiah to Zedekiah.
+
+[[diagram: 38. 1-13 (T, p. 1071). Persecution of Jeremiah (Extended Alternation)]]
+[[anchor: Jeremiah 38:1-13]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 58]]
+
+T |  |
+  W |  |
+    a | 1-4 | Jeremiah. Accusation by princes.
+      b | 5 | Zedekiah. Permission for imprisonment.
+        c | 6- | The dungeon.
+          d | -6 | Sinking in the mire.
+  W |  |
+    a | 7-9 | Jeremiah. Defence by Ebed-melech.
+      b | 10 | Zedekiah. Command for release.
+        c | 11, 12 | The dungeon.
+          d | 13 | Drawing out of the mire.
+
+[[diagram: 38. 14-27 (U, p. 1071). Private Conference (Introversion)]]
+[[anchor: Jeremiah 38:14-27]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 58]]
+
+U |  |
+  A | 14 | Conference.
+    B | 15 | Jeremiah. Stipulation with king.
+    B | 16 | Jeremiah. King's agreement.
+  A | 17-27 | Conference.
+
+[[diagram: 38. 17-27 (A, p. 1072). Conference (Alternation)]]
+[[anchor: Jeremiah 38:17-27]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 59]]
+
+A |  |
+  e | 17, 18 | Alternatives.
+    f | 19 | Fear of the People. Expressed.
+  e | 20-23 | Alternatives.
+    f | 24-27 | Fear of the princes. Implied.
+
+[[diagram: 39. 1-9 (R, p. 1071). The City Taken (Alternation)]]
+[[anchor: Jeremiah 39:1-9]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 59]]
+
+R |  |
+  g | 1 | Nebuchadnezzar.
+    h | 2 | Taking of the city.
+  g | 3 | Nebuchadnezzar's princes.
+    h | 4-9 | Taking of Zedekiah.
+
+[[diagram: 39. 10—44. 30 (R, p. 1071). The People Taken, and Left (Introversion)]]
+[[anchor: Jeremiah 39:10]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 60]]
+
+R |  |
+  C |  | 39. 10. The poor of the People.
+    D |  | 39. 11-14. Jeremiah. Liberation commanded.
+      E |  | 39. 15-18. Promise to Ebed-melech.
+    D |  | 40. 1-6. Jeremiah. Liberation effected.
+  C |  | 40. 7—44. 30. The poor of the People.
+
+[[diagram: 40. 7—44. 30 (C, p. 1074). The Poor of the People (Division)]]
+[[anchor: Jeremiah 40:7]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 61]]
+
+C |  |
+  F1 |  | 40. 7—41. 15. Under GEDALIAH in the land.
+  F2 |  | 41. 16—43. 7. Under JOHANAN in the land.
+  F3 |  | 43. 8—44. 30. Under JOHANAN in Egypt.
+
+[[diagram: 40. 7—41. 15 (F1, above). Under Gedaliah in the Land (Alternation and Introversion)]]
+[[anchor: Jeremiah 40:7]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 61]]
+
+F1 |  |
+  G |  | 40. 7. Gedaliah. Administration.
+    H |  |
+      J |  | 40. 8. Ishmael's visit.
+        K |  | 40. 9, 10. Invitation of Gedaliah.
+  G |  | 40. 11. Gedaliah. Administration.
+    H |  |
+      K |  | 40. 12. Invitation. Accepted.
+      J |  | 40. 13—41. 15. Ishmael's treachery.
+
+[[diagram: 40. 13—41. 15 (J, above). Ishmael's Treachery (Division)]]
+[[anchor: Jeremiah 40:13]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 61]]
+
+J |  |
+  L1 |  | 40. 13-16. Treachery. Discovered.
+  L2 |  | 41. 1-15. Treachery. Avenged.
+
+[[diagram: 40. 13-16 (L1, above). Treachery. Discovered (Alternation)]]
+[[anchor: Jeremiah 40:13-16]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 61]]
+
+L1 |  |
+  i | 13, 14- | Johanan reveals the plot to Gedaliah.
+    k | -14 | Gedaliah's disbelief.
+  i | 15 | Johanan's advice to Gedaliah.
+    k | 16 | Gedaliah's disapproval.
+
+[[diagram: 41. 1-15 (L2, p. 1075). Treachery. Avenged (Extended Alternation)]]
+[[anchor: Jeremiah 41:1-15]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 62]]
+
+L2 |  |
+  l | 1-9 | Ishmael's treachery.
+    m | 10- | Captives taken.
+      n | -10 | Ammonites.
+  l | 11, 12 | Ishmael's treachery.
+    m | 13, 14 | Captives rescued.
+      n | 15 | Ammonites.
+
+[[diagram: 41. 16—43. 7 (F2, p. 1075). Under Johanan in the Land (Introversion and Alternation)]]
+[[anchor: Jeremiah 41:16]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 62]]
+
+F2 |  |
+  M |  | 41. 16-18. Intention to go to Egypt.
+    N |  |
+      O |  | 42. 1-3. Supplication to Jeremiah.
+        P |  | 42. 4. Jeremiah. Answer promised.
+    N |  |
+      O |  | 42. 5, 6. Supplication to Jeremiah.
+        P |  | 42. 7-22. Jeremiah. Answer given.
+  M |  | 43. 1-7. Intention carried out.
+
+[[diagram: 42. 7-22 (P, p. 1076). Jeremiah. Answer Given (Introversion)]]
+[[anchor: Jeremiah 42:7-22]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 63]]
+
+P |  |
+  Q | 7-9 | Supplication made.
+    R |  |
+      n | 10 | Abiding.
+        o | 11, 12 | Promise.
+    R |  |
+      n | 13, 14 | Departing.
+        o | 15-18 | Warning.
+  Q | 19-22 | Supplication answered.
+
+[[diagram: 42. 19-22 (Q, p. 1077). Supplication. Answered (Introversion)]]
+[[anchor: Jeremiah 42:19-22]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 64]]
+
+Q |  |
+  p | 19- | Prohibition.
+    q | -19 | Admonition.
+      r | 20 | Incrimination.
+    q | 21 | Declaration.
+  p | 22 | Threatening.
+
+[[diagram: 43. 1-7 (M, p. 1076). Intention Carried Out (Alternation)]]
+[[anchor: Jeremiah 43:1-7]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 64]]
+
+M |  |
+  s | 1-3 | Johanan. Contradiction. Words.
+    t | 4 | The People. Disobedience.
+  s | 5, 6 | Johanan. Disobedience. Action.
+    t | 7 | The People. Disobedience.
+
+[[diagram: 43. 8—44. 30 (F3, p. 1075). Under Johanan in Egypt (Introversion and Alternations)]]
+[[anchor: Jeremiah 43:8]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 64]]
+
+F3 |  |
+  S |  |
+    U |  | 43. 8-10. Sign. Great stones.
+      V |  | 43. 11-13. Threatening.
+    T |  |
+      W |  | 44. 1-14-. Idolatry. Declaration.
+        X |  | 44. -14. Escape of remnant.
+    T |  |
+      W |  | 44. 15-27. Idolatry. Discussion.
+        X |  | 44. 28. Escape of remnant.
+  S |  |
+    U |  | 44. 29. Sign. Punishment.
+      V |  | 44. 30. Threatening.
+
+[[diagram: 43. 11-13 (V, p. 1078). Threatening (Alternation)]]
+[[anchor: Jeremiah 43:11-13]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 65]]
+
+V |  |
+  u | 11 | Land of Egypt.
+    v | 12- | Gods of Egypt.
+  u | -12 | Land of Egypt.
+    v | 13 | Gods of Egypt.
+
+[[diagram: 44. 1-14- (W, p. 1078). Idolatry. Declaration (Repeated and Extended Alternation)]]
+[[anchor: Jeremiah 44:1-14]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 65]]
+
+W |  |
+  Y1 | 1, 2 | Infliction. Past. Jehovah, &c.
+    Z |  |
+      w | 3 | Provocation. Incense.
+        x | 4 | Remonstrance.
+          y | 5 | Disregard.
+  Y2 | 6, 7- | Infliction. Past. Jehovah, &c.
+    Z |  |
+      w | -7, 8 | Provocation. Incense.
+        x | 9 | Remonstrance.
+          y | 10 | Disregard.
+  Y3 | 11-14 | Infliction. Future.
+
+[[diagram: 44. 15-27 (W, p. 1078). Idolatry. Discussion (Alternation)]]
+[[anchor: Jeremiah 44:15-27]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 66]]
+
+W |  |
+  a | 15-17- | Answer of the People.
+    b | -17-19 | Reason.
+  a | 20-25 | Answer. Jeremiah's reply.
+    b | 26, 27 | Reason.
+
+[[diagram: 45. 1-5 (Q, p. 1071). Baruch (Repeated Alternation)]]
+[[anchor: Jeremiah 45:1-5]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 67]]
+
+Q |  |
+  c1 | 1, 2 | Word of Jehovah to Baruch.
+    d1 | 3 | What Baruch had said.
+  c2 | 4 | Word of Jehovah to Baruch.
+    d2 | 5- | What Baruch sought.
+  c3 | -5 | Word of Jehovah to Baruch.
+
+[[diagram: 46. 1—51. 64- (C, p. 1015). Prophecies Addressed to Gentiles (Introversion)]]
+[[anchor: Jeremiah 46:1]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 67]]
+
+C |  |
+  A |  | 46. 1-28. Egypt. South.
+    B |  | 47. 1-7. Philistines. West.
+      C |  | 48. 1—49. 6. Moab and Ammon. East and South.
+        D |  | 49. 7-22. Edom. South.
+        D |  | 49. 23-27. Damascus. North.
+      C |  | 49. 28-33. Kedar and Hazor. North.
+    B |  | 49. 34-39. Elam. East.
+  A |  | 50. 1—51. 64-. Babylon. East.
+
+[[diagram: 46. 1-28 (A, above). Egypt (Introversion)]]
+[[anchor: Jeremiah 46:1-28]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 67]]
+
+A |  |
+  E | 1, 2 | Egypt. Proclamation.
+    F | 3-12 | Its overthrow.
+    F | 13-26 | Means employed.
+  E | 27, 28 | Israel. Encouragement.
+
+[[diagram: 46. 3-12 (F, above). Egypt. Its Overthrow (Extended Alternation)]]
+[[anchor: Jeremiah 46:3-12]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 67]]
+
+F |  |
+  e | 3, 4 | Call to battle.
+    f | 5, 6 | Dismay of Egypt.
+      g | 7, 8 | Boast of Egypt.
+  e | 9 | Call to battle.
+    f | 10 | Vengeance of Jehovah.
+      g | 11, 12 | Fall of Egypt.
+
+[[diagram: 46. 13-26 (F, p. 1081). Means Employed (Alternation)]]
+[[anchor: Jeremiah 46:13-26]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 68]]
+
+F |  |
+  G | 13, 14 | Proclamation. Prepare.
+    H | 15-17 | Fall.
+  G | 18, 19 | Proclamation. Prepare.
+    H | 20-26 | Fall.
+
+[[diagram: 46. 20-26 (H, above). Fall of Egypt (Extended Alternation)]]
+[[anchor: Jeremiah 46:20-26]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 68]]
+
+H |  |
+  h | 20 | The north.
+    i | 21 | Mercenaries.
+      k | 22, 23 | Enemies.
+  h | 24 | The North.
+    i | 25 | Multitudes.
+      k | 26 | Enemies.
+
+[[diagram: 46. 27, 28 (E, p. 1081). Israel. Encouragement (Alternation)]]
+[[anchor: Jeremiah 46:27-28]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 69]]
+
+E |  |
+  l | 27- | Encouragement.
+    m | -27 | Reason.
+  l | 28- | Encouragement.
+    m | -28 | Reason.
+
+[[diagram: 47. 1-7 (B, p. 1081). The Philistines (Introversion and Repeated Alternation)]]
+[[anchor: Jeremiah 47:1-7]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 69]]
+
+B |  |
+  J | 1 | The word of the LORD against the Philistines.
+    K1 |  |
+      n1 | 2- | Invasion.
+        o1 | -2 | Effect. Mourning.
+    K2 |  |
+      n2 | 3- | Invasion.
+        o2 | -3 | Effect. Feebleness.
+    K3 |  |
+      n3 | 4 | Invasion.
+        o3 | 5- | Effect. Mourning.
+  J | -5-7 | The sword of the LORD against the Philistines.
+
+[[diagram: 48. 1—49. 6 (C, p. 1081). Moab and Ammon (Division)]]
+[[anchor: Jeremiah 48:1]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 69]]
+
+C |  |
+  L1 |  | 48. 1-47. Moab.
+  L2 |  | 49. 1-6. Ammon.
+[[group: The sons of Lot.]]
+
+[[diagram: 48. 1-47 (L1, above). Moab (Introversion)]]
+[[anchor: Jeremiah 48:1-47]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 69]]
+
+L1 |  |
+  M | 1- | Introduction.
+    N | -1-46 | The present state.
+    N | 47- | The latter state.
+  M | -47 | Conclusion.
+
+[[diagram: 48. -1-46 (N, p. 1083). Moab's (Then) Present State (Introversion and Alternation)]]
+[[anchor: Jeremiah 48:1-46]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 70]]
+
+N |  |
+  O |  |
+    p | -1-5 | Threatening.
+      q | 6-10 | Flight.
+    P | 11-28 | Condition.
+    P | 29-39 | Character.
+  O |  |
+    p | 40-43 | Threatening.
+      q | 44-46 | Flight.
+
+[[diagram: 48. 11-28 (P, above), 29-39 (P, above). Moab's Condition and Character (Extended Alternation and Introversion)]]
+[[anchor: Jeremiah 48:11-39]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 70]]
+
+P |  |
+  Q | 11 | At ease.
+    R |  |
+      T | 12, 13 | Places.
+        U | 14-25 | Judgments.
+          S | 26-28 | Consequences.
+P |  |
+  Q | 29 | In pride.
+    R |  |
+      U | 30, 31 | Judgments.
+      T | 32-36 | Places.
+        S | 37-39 | Consequences.
+
+[[diagram: 48. 14-25 (U, above). Judgments (Extended Alternation)]]
+[[anchor: Jeremiah 48:14-25]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 70]]
+
+U |  |
+  r | 14 | Question.
+    s | 15, 16 | Answer.
+      t | 17, 18 | Lamentation.
+  r | 19 | Question.
+    s | 20- | Answer.
+      t | -20-25 | Lamentation.
+
+[[diagram: 49. 1-6 (L2, p. 1083). Ammon (Division)]]
+[[anchor: Jeremiah 49:1-6]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 72]]
+
+L2 |  |
+  V1 | 1-5 | The former state.
+  V2 | 6 | The latter state.
+
+[[diagram: 49. 1-5 (V1, above). The Former State (Introversion and Alternation)]]
+[[anchor: Jeremiah 49:1-5]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 72]]
+
+V1 |  |
+  W |  |
+    u | 1 | Question. Incrimination.
+      v | 2 | Answer. Threatening.
+    X | 3 | Lamentation.
+  W |  |
+    u | 4 | Question. Incrimination.
+      v | 5 | Answer. Threatening.
+
+[[diagram: 49. 7-22 (D, p. 1081). Edom (Extended Alternation)]]
+[[anchor: Jeremiah 49:7-22]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 72]]
+
+D |  |
+  w | 7 | The procuring cause. Wisdom.
+    x | 8-13 | Desolation.
+      y | 14, 15 | Instrumentality.
+  w | 16 | The procuring cause. Pride.
+    x | 17, 18 | Desolation.
+      y | 19-22 | Instrumentality.
+
+[[diagram: 49. 23-27 (D, p. 1081). Damascus (Introversion)]]
+[[anchor: Jeremiah 49:23-27]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 73]]
+
+D |  |
+  a | 23, 24 | Dismay.
+[[group: -]]
+    b | 25- | City of praise.
+    b | -25 | City of joy.
+[[group: Exclamation.]]
+  a | 26, 27 | Destruction.
+
+[[diagram: 49. 28-33 (C, p. 1081). Kedar and Hazor (Introversion and Alternation)]]
+[[anchor: Jeremiah 49:28-33]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 74]]
+
+C |  |
+  Y |  |
+    c | 28 | Command. Invasion.
+      d | 29 | Property. Tents, &c.
+    Z | 30- | Advice.
+    Z | -30 | Reason.
+  Y |  |
+    c | 31 | Command. Invasion.
+      d | 32, 33 | Property. Camels, &c.
+
+[[diagram: 49. 34-39 (B, p. 1081). Elam (Division)]]
+[[anchor: Jeremiah 49:34-39]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 74]]
+
+B |  |
+  A1 | 34-38 | The former state.
+  A2 | 39 | The latter state.
+
+[[diagram: 49. 34-38 (A1, above). The Former State (Alternation)]]
+[[anchor: Jeremiah 49:34-38]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 74]]
+
+A1 |  |
+  e | 34, 35 | Debilitation.
+    f | 36 | Dispersion.
+  e | 37 | Dismay.
+    f | 38 | Destruction.
+
+[[diagram: 50. 1—51. 64- (A, p. 1081). Babylon (Introversion and Alternations)]]
+[[anchor: Jeremiah 50:1]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 74]]
+
+A |  |
+  B |  | 50. 1. The word of Jehovah to Jeremiah. Declaration.
+    C1 |  |
+      D1 |  | 50. 2, 3. Babylon.
+        E1 |  | 50. 4-7. Israel and Judah.
+    C2 |  |
+      D2 |  | 50. 8-16. Babylon.
+        E2 |  | 50. 17-20. Israel.
+    C3 |  |
+      D3 |  | 50. 21-32. Babylon.
+        E3 |  | 50. 33, 34. Israel and Judah.
+    C4 |  |
+      D4 |  | 50. 35—51. 4. Babylon.
+        E4 |  | 51. 5. Israel and Judah.
+    C5 |  |
+      D5 |  | 51. 6-18. Babylon.
+        E5 |  | 51. 19. Judah. (Portion.)
+    C6 |  |
+      D6 |  | 51. 20-33. Babylon.
+        E6 |  | 51. 34-58. Zion and Jerusalem.
+  B |  | 51. 59-64-. The Word of Jeremiah to Seraiah. Ratification.
+
+[[diagram: 50. 4-7 (E1, p. 1088), 17-20 (E2, p. 1088). Israel and Judah (Introversion)]]
+[[anchor: Jeremiah 50:4-20]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 75]]
+
+C1 |  |
+  E1 |  |
+    g | 4 | Repentance.
+      h | 5 | Return.
+        i | 6, 7 | Sheep. Lost.
+          D2 | 8-16 | Babylon. [See below.]
+C2 |  |
+  E2 |  |
+    i | 17, 18 | Sheep. Scattered.
+    h | 19 | Restoration.
+    g | 20 | Pardon.
+
+[[diagram: 50. 8-16 (D2, p. 1088). Babylon (Introversion and Alternation)]]
+[[anchor: Jeremiah 50:8-16]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 75]]
+
+D2 |  |
+  F | 8 | Removal.
+    G |  |
+      j | 9, 10 | Invasion.
+        k | 11-13 | Cause.
+    G |  |
+      j | 14, 15- | Invasion.
+        k | -15 | Cause.
+  F | 16 | Flight.
+
+[[diagram: 50. 21-32 (D3, p. 1088). Babylon (Alternation)]]
+[[anchor: Jeremiah 50:21-32]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 76]]
+
+D3 |  |
+  l | 21-27- | Invasion.
+    m | -27 | Day of visitation.
+  l | 28-30 | Invasion.
+    m | 31, 32 | Day of visitation.
+
+[[diagram: 50. 35—51. 4 (D4, p. 1088). Babylon (Introversion)]]
+[[anchor: Jeremiah 50:35]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 76]]
+
+D4 |  |
+  n |  | 50. 35-38. Sword and drought.
+    o |  | 50. 39, 40. Depopulation.
+      p |  | 50. 41-43. Invasion. Behold.
+      p |  | 50. 44. Invasion. Behold.
+    o |  | 50. 45, 46. Desolation.
+  n |  | 51. 1-4. Wind and winnowers.
+
+[[diagram: 51. 6-18 (D5, p. 1088). Babylon (Alternation and Introversion)]]
+[[anchor: Jeremiah 51:6-18]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 77]]
+
+D5 |  |
+  H | 6 | Injunction to flee from her.
+    J |  |
+      q | 7 | Idolatry. (Symbolic.)
+        r | 8, 9- | Fall.
+  H | -9, 10 | Injunction to forsake her.
+    J |  |
+      r | 11-16 | Fall.
+      q | 17, 18 | Idolatry. (Literal.)
+
+[[diagram: 51. 20-33 (D6, p. 1088). Babylon (Repeated Alternation)]]
+[[anchor: Jeremiah 51:20-33]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 78]]
+
+D6 |  |
+  s1 | 20-24 | Invasion. Battle-axe.
+    t1 | 25, 26 | Desolation.
+  s2 | 27-29- | Invasion. Standard.
+    t2 | -29 | Desolation.
+  s3 | 30-32 | Invasion. Unassisted.
+    t3 | 33 | Desolation.
+
+[[diagram: 51. 34-58 (E6, p. 1088). Zion and Jerusalem (Extended Alternation)]]
+[[anchor: Jeremiah 51:34-58]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 79]]
+
+E6 |  |
+  K | 34, 35 | Babylon. Zion's incrimination of.
+    L | 36-38 | Zion. Jehovah's advocacy of.
+      M | 39 | Babylon made drunk.
+        N | 40-43 | Inundation.
+  K | 44 | Babylon. Jehovah's judgment of.
+    L | 45-56 | Zion. Jehovah's avengement of.
+      M | 57 | Babylon made drunk.
+        N | 58 | Conflagration.
+
+[[diagram: 51. 45-56 (L, above). Zion. Jehovah's Avengement of (Alternation)]]
+[[anchor: Jeremiah 51:45-56]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 79]]
+
+L |  |
+  u | 45, 46 | Command to go forth from Babylon.
+    v | 47-49 | Judgments on images.
+  u | 50, 51 | Command to go forth from Babylon.
+    v | 52-56 | Judgments on images.
+
+[[diagram: 51. 59-64- (B, p. 1088). Word of Jeremiah to Seraiah. (Ratification.) (Introversion)]]
+[[anchor: Jeremiah 51:59-64]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 80]]
+
+B |  |
+  w | 59, 60 | The book sent.
+    x | 61 | Reading begun.
+      y | 62 | Words spoken.
+    x | 63- | Reading ended.
+  w | -63, 64- | The book sunk.
+
+[[diagram: 52. 1-34 (A, p. 1015). Appendix (Introversion)]]
+[[anchor: Jeremiah 52:1-34]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 80]]
+
+A |  |
+  O | 1-3 | Zedekiah and Nebuchadnezzar.
+    P | 4-27 | Captivity. The great one.
+    P | 28-30 | Captivities. The three lesser.
+  O | 31-34 | Jehoiakim and Evil-Merodach.
+
+[[diagram: 52. 4-27 (P, above). Captivity: The Great (Alternations and Introversion)]]
+[[anchor: Jeremiah 52:4-27]]
+[[pdf: 20. Jeremiah_text.pdf]]
+[[pdf-page: 80]]
+
+P |  |
+  Q |  |
+    a | 4, 5 | Jerusalem besieged.
+      b | 6 | Consequence. Famine.
+    a | 7- | Jerusalem taken.
+      b | -7 | Consequence. Flight.
+    R | 8-11 | Executions at Riblah.
+  Q |  |
+    c | 12-14 | The Temple burned.
+      d | 15 | The poor taken.
+      d | 16 | The poor left.
+    c | 17-23 | The Temple spoiled.
+    R | 24-27 | Executions at Riblah.

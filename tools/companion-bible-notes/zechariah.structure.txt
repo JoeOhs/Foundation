@@ -1,0 +1,414 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Zechariah
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/34. Zechariah_text.pdf, printed pp. 1280-1295);
+# [[pdf-page:]] is the page of that file each diagram is on. Notation:
+# README.md here. Small-capital words are written in title case.
+#
+# The book Structure's J2 is the Zechariah member of the Three Prophets
+# diagram (p. 1206; see hosea.structure.txt).
+#
+# Depth notes:
+#   - 1. 7—6. 15 (C1): the second A's members are printed at the same
+#     steps as the first A's (E, D, C, then B deepest), so they keep those
+#     depths; the jump after the bracket line A is legal. The last B
+#     (6. 9-15) prints at the same x as the first B (HOCR 1561 vs 1562),
+#     three steps right of the C above it; the parser allows one step
+#     after a text line, so it is set one level in (depth 3).
+#   - 6. 9-15 (B): the second T is printed two steps right of the "o"
+#     above it; the parser allows one step after a text line, so it is set
+#     one level in (depth 3).
+#   - 11. 1-17 (C2): depths follow the HOCR x positions (s < t < Q < u < v
+#     in both halves).
+
+[[diagram: Zechariah. The Structure of the Book as a Whole (Introversions)]]
+[[anchor: Zechariah 1:1]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 1]]
+
+J2 |  |
+  A1 |  |
+    B1 |  | 1. 1-6. LITERAL PROPHECY. Dated (the Second Year of Darius).
+      C1 |  | 1. 7—6. 15. PROPHECIES WITH SYMBOLS. Eight Visions.
+    B2 |  | 7. 1—8. 23. LITERAL PROPHECY. Dated (the Fourth Year of Darius).
+  A2 |  |
+    B3 |  | 9. 1—10. 12. LITERAL PROPHECIES. First Burden.
+      C2 |  | 11. 1-17. PROPHECY WITH SYMBOLS.
+    B4 |  | 12. 1—14. 21. LITERAL PROPHECIES. Second Burden.
+
+[[diagram: 1. 7—6. 15 (C1, p. 1280). Prophecies with Symbols (Alternation and Introversion)]]
+[[anchor: Zechariah 1:7]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 2]]
+
+C1 |  |
+  A |  |
+    C |  | 1. 7-17. First Vision. Invisible Agencies. Horses.
+      D |  | 1. 18-21. Second Vision. External enemies. Horns.
+        E |  | 2. 1-13. Third Vision. Jehovah's Purpose. Man, &c.
+          B |  | 3. 1-10. Fourth Vision. Joshua. The Branch.
+  A |  |
+        E |  | 4. 1-14. Fifth Vision. Jehovah's Purpose. Lampstand.
+      D |  | 5. 1-4 and 5-11. Sixth and Seventh Visions. External enemies. Flying Roll, and Ephah.
+    C |  | 6. 1-8. Eighth Vision. Invisible Agencies. Horses.
+      B |  | 6. 9-15. Joshua. The Branch.
+
+[[diagram: 1. 7-17 (C, above). First Vision. Invisible Agencies. Horses (Division)]]
+[[anchor: Zechariah 1:7-17]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 2]]
+
+C |  |
+  F1 | 7, 8 | Vision. Horses and Horsemen.
+  F2 | 9-17 | Signification.
+
+[[diagram: 1. 9-17 (F2, p. 1281). Signification (Alternation)]]
+[[anchor: Zechariah 1:9-17]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 3]]
+
+F2 |  |
+  a | 9- | Question of the prophet.
+    b | -9-11 | Answer of the angel.
+  a | 12 | Question of the angel.
+    b | 13-17 | Answer of Jehovah.
+
+[[diagram: 1. 18-21 (D, p. 1281). Second Vision. External Enemies (Alternations)]]
+[[anchor: Zechariah 1:18-21]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 3]]
+
+D |  |
+  c | 18 | Four Horns.
+    d |  |
+      e | 19- | Question.
+        f | -19 | Answer.
+  c | 20 | Four Smiths.
+    d |  |
+      e | 21- | Question.
+        f | -21 | Answer.
+
+[[diagram: 2. 1-13 (E, p. 1281). Third Vision. Jehovah's Purpose]]
+[[anchor: Zechariah 2:1-13]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 3]]
+
+E |  |
+  G1 | 1, 2 | Symbol. Man with measuring line.
+  G2 | 3-13 | Signification.
+
+[[diagram: 2. 3-13 (G2, above). The Signification (Extended Alternation)]]
+[[anchor: Zechariah 2:3-13]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 3]]
+
+G2 |  |
+  H | 3, 4 | Jerusalem. Security.
+    J | 5 | Reason. Jehovah's presence.
+      K | 6, 7 | Calls to Zion to escape.
+        L | 8, 9 | Reason. Jehovah's love.
+  H | 10- | Zion. Rejoicing.
+    J | -10-12 | Reason. Jehovah's presence. (Cp. J.)
+      K | 13- | Call to enemies to let Zion escape.
+        L | -13 | Reason. Jehovah's interposition.
+
+[[diagram: 3. 1-10 (B, p. 1281). Joshua. The Branch (Division)]]
+[[anchor: Zechariah 3:1-10]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 4]]
+
+B |  |
+  M1 | 1-3 | Symbol. Joshua.
+  M2 | 4-10 | Signification.
+
+[[diagram: 3. 4-10 (M2, above). The Signification (Alternation)]]
+[[anchor: Zechariah 3:4-10]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 4]]
+
+M2 |  |
+  N | 4, 5 | Removal of the iniquity of Joshua.
+    O | 6-8 | Promise of access. The Branch of Jehovah.
+  N | 9 | Removal of the iniquity of the Land.
+    O | 10 | Promise of security. The Word of Jehovah.
+
+[[diagram: 4. 1-14 (E, p. 1281). Jehovah's Purpose (Alternation)]]
+[[anchor: Zechariah 4:1-14]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 5]]
+
+E |  |
+  P |  |
+    g | 1, 2 | The Lampstand.
+      h | 3 | The Two Olive trees.
+[[group: The Sign.]]
+  P |  |
+    g | 4-10 | The House of Jehovah.
+      h | 11-14 | The Two Witnesses.
+[[group: The Signification.]]
+
+[[diagram: 5. 1-11 (D, p. 1281). External Enemies. The Sixth and Seventh Visions (Extended Alternations)]]
+[[anchor: Zechariah 5:1-11]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 6]]
+
+D |  |
+  Q |  |
+    j | 1, 2 | Sixth Vision. The Flying Roll.
+      k | 3- | Signification. The curse.
+        l | -3, 4 | Destination. General. "The whole earth" (v. 3).
+  Q |  |
+    j | 5 | Seventh Vision. The Ephah and Flying Women.
+      k | 6-8 | Signification. Iniquity.
+        l | 9-11 | Destination. Special. "The Land of Shinar."
+
+[[diagram: 6. 1-8 (C, p. 1281). Invisible Agencies. Horses (Alternation)]]
+[[anchor: Zechariah 6:1-8]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 6]]
+
+C |  |
+  R |  |
+    m | 1 | Symbols. Four chariots.
+      n | 2, 3 | Colours. (General.)
+  R |  |
+    m | 4, 5 | Signification. Four spirits. (Angels.)
+      n | 6-8 | Colours. (Particular.)
+
+[[diagram: 6. 9-15 (B, p. 1281). Joshua. The Branch (Alternation and Introversion)]]
+[[anchor: Zechariah 6:9-15]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 7]]
+
+B |  |
+  S |  |
+    o | 9, 10 | Heldai and others.
+      p | 11 | Crowns.
+        T | 12, 13 | The Builder. The Branch.
+  S |  |
+      p | 14- | Crowns.
+    o | -14 | Helem and others.
+      T | 15 | The Builders.
+
+[[diagram: 7. 1—8. 23 (B2, p. 1280). Literal Prophecies. Dated (Alternation)]]
+[[anchor: Zechariah 7:1]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 8]]
+
+B2 |  |
+  U |  | 7. 1-14. Fasts.
+    V |  | 8. 1-17. Restoration of Jerusalem.
+  U |  | 8. 18, 19. Feasts.
+    V |  | 8. 20-23. Accession of Nations.
+
+[[diagram: 7. 1-14 (U, above). Fasts (Division)]]
+[[anchor: Zechariah 7:1-14]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 8]]
+
+U |  |
+  W1 | 1-3 | Question.
+  W2 | 4-14 | Answer.
+
+[[diagram: 7. 4-14 (W2, above). Answer (Extended Alternation)]]
+[[anchor: Zechariah 7:4-14]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 8]]
+
+W2 |  |
+  X | 4-6 | Fasting and Mourning. Formal.
+    Y | 7- | The former prophets.
+      Z | -7 | Disobedience. Prosperity.
+  X | 8-10 | Fasting and Mourning. True.
+    Y | 11, 12- | The former prophets.
+      Z | -12-14 | Disobedience. Adversity.
+
+[[diagram: 8. 1-17 (V, p. 1287). Restoration of Jerusalem (Alternation)]]
+[[anchor: Zechariah 8:1-17]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 9]]
+
+V |  |
+  A | 1-3 | Displeasure and Reconciliation.
+    B | 4-12 | Inhabitants. Privileges.
+  A | 13-15 | Displeasure and Reconciliation.
+    B | 16, 17 | Inhabitants. Duties.
+
+[[diagram: 8. 4-12 (B, above). Inhabitants. Privileges (Alternation)]]
+[[anchor: Zechariah 8:4-12]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 9]]
+
+B |  |
+  C | 4, 5 | Inhabitants. Ages.
+    D | 6 | Address to the Remnant.
+  C | 7, 8 | Inhabitants. Condition.
+    D | 9-12 | Address to the Remnant.
+
+[[diagram: 8. 9-12 (D, above). Address to the Remnant (Alternation)]]
+[[anchor: Zechariah 8:9-12]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 9]]
+
+D |  |
+  q | 9 | Encouragement.
+    r | 10 | Past Adversity.
+  q | 11 | Promise.
+    r | 12 | Future Prosperity.
+
+[[diagram: 8. 20-23 (V, p. 1287). Accession of Nations (Division)]]
+[[anchor: Zechariah 8:20-23]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 10]]
+
+V |  |
+  E1 | 20-22 | To Jehovah's House.
+  E2 | 23 | To Jehovah's People.
+
+[[diagram: 9. 1—10. 12 (B3, p. 1280). Literal Prophecy. The First Burden (Introversion)]]
+[[anchor: Zechariah 9:1]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 10]]
+
+B3 |  |
+  F |  | 9. 1-7. Deliverance from Enemies. Promised.
+    G |  | 9. 8. Jehovah. Israel's Defence.
+      H |  | 9. 9. Zion's King. First Coming. Salvation.
+      H |  | 9. 10, 11. Zion's King. Second Coming. Dominion.
+    G |  | 9. 12-17. Jehovah. Israel's Defence.
+  F |  | 10. 1-12. Deliverance from Enemies. Accomplished.
+
+[[diagram: 10. 1-12 (F, p. 1289). Deliverance from Enemies. Accomplished (Introversion)]]
+[[anchor: Zechariah 10:1-12]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 12]]
+
+F |  |
+  J | 1 | The Flock. The Promise made.
+    K | 2 | False Shepherds. Incrimination.
+    K | 3- | False Shepherds. Punishment.
+  J | -3-12 | The Flock. The Promise fulfilled.
+
+[[diagram: 10. -3-12 (J, above). The Promise Fulfilled (Repeated Alternation)]]
+[[anchor: Zechariah 10:3-12]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 12]]
+
+J |  |
+  L | -3, 4 | Visitation.
+    M | 5 | Victory.
+      N | 6- | Jehovah's Strengthening.
+[[group: House of Judah.]]
+  L | -6-10 | Restoration.
+    M | 11 | Victory.
+      N | 12 | Jehovah's Strengthening.
+[[group: House of Joseph.]]
+
+[[diagram: 11. 1-17 (C2, p. 1280). Prophecy. With Symbols (Introversion with Alternations)]]
+[[anchor: Zechariah 11:1-17]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 12]]
+
+C2 |  |
+  O | 1-3 | Threatening.
+    P |  |
+      s | 4, 5 | Command.
+        t | 6 | Reason.
+          Q |  |
+            u | 7-9 | Flock. Symbol. "Staves" and "Bands".
+              v | 10, 11 | "Beauty". "Cut asunder."
+          Q |  |
+            u | 12, 13 | Flock. Symbol. "Price".
+              v | 14 | "Bands". "Cut asunder".
+    P |  |
+      s | 15 | Command.
+        t | 16 | Reason.
+  O | 17 | Threatening.
+
+[[diagram: 12. 1—14. 21 (B4, p. 1280). Literal Prophecy (Introversion)]]
+[[anchor: Zechariah 12:1]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 14]]
+
+B4 |  |
+  R |  | 12. 1-9. Threatening. Man's day.
+    S |  | 12. 10—13. 5. Israel. Conversion. (Future.)
+      T |  | 13. 6, 7-. My Shepherd. (Sword.)
+      T |  | 13. -7-. My Fellow. (Smitten.)
+    S |  | 13. -7-9. Israel. Purified. (Future.)
+  R |  | 14. 1-21. Threatening. The Lord's day.
+
+[[diagram: 12. 1-9 (R, above). Threatening against Enemies. (Man's Day.) (Introversion)]]
+[[anchor: Zechariah 12:1-9]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 14]]
+
+R |  |
+  U | 1-4 | Nations to be cut off.
+    V | 5 | Jehovah the Defence of Jerusalem's inhabitants.
+      W | 6- | Judah's leaders.
+        X | -6 | Rehabitation of Jerusalem.
+      W | 7 | Judah's tents.
+    V | 8 | Jehovah the Defence of Jerusalem's inhabitants.
+  U | 9 | Nations to be cut off.
+
+[[diagram: 12. 10—13. 5 (S, above). Israel. Conversion. Future (Division)]]
+[[anchor: Zechariah 12:10]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 14]]
+
+S |  |
+  Y1 |  | 12. 10—13. 1. Good bestowed.
+  Y2 |  | 13. 2-5. Evil removed.
+
+[[diagram: 12. 10—13. 1 (Y1, above). Good Bestowed (Division)]]
+[[anchor: Zechariah 12:10]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 14]]
+
+Y1 |  |
+  Z1 |  | 12. 10-14. Spirit of grace poured out.
+  Z2 |  | 13. 1. Fountain opened.
+
+[[diagram: 13. 2-5 (Y2, p. 1293). Evil Removed (Division)]]
+[[anchor: Zechariah 13:2-5]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 15]]
+
+Y2 |  |
+  A1 | 2- | Idols cut off.
+  A2 | -2-5 | False prophets removed.
+
+[[diagram: 14. 1-21 (R, p. 1293). Threatening. Against Enemies. The Lord's Day (Alternation)]]
+[[anchor: Zechariah 14:1-21]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 15]]
+
+R |  |
+  B | 1 | Jehovah's day. Coming.
+    C | 2 | Nations gathered.
+  B | 3-11 | Jehovah's day. Going forth.
+    C | 12-21 | Nations smitten.
+
+[[diagram: 14. 3-11 (B, above). Jehovah. Going Forth (Repeated Alternation)]]
+[[anchor: Zechariah 14:3-11]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 15]]
+
+B |  |
+  D1 | 3 | Jehovah. Going forth.
+    E1 | 4, 5- | Events and Consequences.
+  D2 | -5 | Jehovah. Coming.
+    E2 | 6-8 | Events and Consequences.
+  D3 | 9 | Jehovah. Reigning.
+    E3 | 10, 11 | Events and Consequences.
+
+[[diagram: 14. 12-21 (C, p. 1294). Nations Smitten (Alternation)]]
+[[anchor: Zechariah 14:12-21]]
+[[pdf: 34. Zechariah_text.pdf]]
+[[pdf-page: 16]]
+
+C |  |
+  F | 12-15 | Plague.
+    G | 16 | Worship.
+  F | 17-19 | Plague.
+    G | 20, 21 | Worship.
