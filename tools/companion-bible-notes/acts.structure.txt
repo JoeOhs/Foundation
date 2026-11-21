@@ -1,0 +1,1347 @@
+# The Companion Bible (E. W. Bullinger, 1913) — The Acts of the Apostles
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/40. The Acts_text.pdf, printed pp. 1575-);
+# [[pdf-page:]] is the page of that file each diagram is on. Notation:
+# README.md here. Small-capital words are written in title case.
+# Structure decisions are logged in the header of acts.notes.txt.
+
+[[diagram: The Acts of the Apostles. The Structure of the Book as a Whole (Introversion and Extended Alternation)]]
+[[anchor: Acts 1:1]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 1]]
+
+A |  | 1. 1-3. INTRODUCTION.
+B |  |
+  C |  | 1. 4—2. 13. JERUSALEM. MISSION OF THE HOLY SPIRIT. EQUIPMENT OF THE APOSTLES.
+  D |  | 2. 14—8. 1-. THE MINISTRY OF PETER (WITH OTHERS) TO THE NATION IN JERUSALEM AND IN THE LAND.
+  E |  | 8. -1—11. 30. PETER'S MINISTRY (WITH OTHERS) IN THE LAND OF ISRAEL.
+  F |  | 12. 1-23. JERUSALEM. PETER'S IMPRISONMENT. SUBSEQUENT ABODE (CÆSAREA) AND CLOSE OF MINISTRY.
+B |  |
+  C |  | 12. 24—13. 3. ANTIOCH. MISSION OF THE HOLY SPIRIT. EQUIPMENT OF PAUL AND BARNABAS.
+  D |  | 13. 4—14. 28. THE MINISTRY OF PAUL (WITH OTHERS) TO THE DISPERSION. APART FROM JERUSALEM AND THE TWELVE.
+  E |  | 15. 1—19. 20. PAUL'S MINISTRY IN ASSOCIATION WITH THE TWELVE.
+  F |  | 19. 21—28. 29. EPHESUS AND JERUSALEM. PAUL'S ARREST AND IMPRISONMENT. SUBSEQUENT ABODE (ROME) AND CLOSE OF MINISTRY.
+A |  | 28. 30, 31. CONCLUSION.
+
+[[diagram: 1. 4—2. 13 (C, p. 1575). Jerusalem. Mission of the Holy Spirit. Equipment of the Apostles (Alternations)]]
+[[anchor: Acts 1:4]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 2]]
+
+C |  |
+  A |  |
+    a |  | 1. 4-. Assembled.
+    b |  | 1. -4, 5. Command. Wait.
+    a |  | 1. 6. Come together.
+    b |  | 1. 7, 8. Promise given.
+  B |  | 1. 9-11. Ascension of the Lord.
+  A |  |
+    c |  | 1. 12, 13. Return.
+    d |  | 1. 14. Obedience. Waiting.
+    c |  | 1. 15-26. Assembled.
+    d |  | 2. 1-3. Promise fulfilled.
+  B |  | 2. 4-13. The Descent of the Spirit.
+
+[[diagram: 2. 14—8. 1- (D, p. 1575). The Ministry of Peter (with Others) to the Nation in Jerusalem (Repeated Alternation)]]
+[[anchor: Acts 2:14]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 5]]
+
+D |  |
+  C1 |  | 2. 14-47. Among the brethren.
+  D1 |  | 3. 1—4. 22. Among the people.
+  C2 |  | 4. 23—5. 11. Among the brethren.
+  D2 |  | 5. 12-42. Among the people.
+  C3 |  | 6. 1-7. Among the brethren.
+  D3 |  | 6. 8—8. 1-. Among the people.
+
+[[diagram: 2. 14-47 (C1, above). Among the Brethren (Division)]]
+[[anchor: Acts 2:14-47]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 5]]
+
+C1 |  |
+  E1 | 14-36 | Peter's address.
+  E2 | 37-47 | Results.
+
+[[diagram: 2. 14-36 (E1, above). Peter's Address (Repeated Alternation)]]
+[[anchor: Acts 2:14-36]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 5]]
+
+E1 |  |
+  F1 | 14, 15 | Appeal. Men of Judæa.
+  G1 | 16-21 | Reference to Joel.
+  F2 | 22-24 | Appeal. Men of Israel.
+  G2 | 25-28 | Reference to Ps. 16.
+  F3 | 29-33 | Appeal. Men and Brethren.
+  G3 | 34-36 | Reference to Ps. 110.
+
+[[diagram: 2. 37-47 (E2, p. 1579). Results (Alternation and Introversion)]]
+[[anchor: Acts 2:37-47]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 7]]
+
+E2 |  |
+  H |  |
+    e | 37 | Conviction.
+    f | 38-40 | Apostle's Counsel.
+    g | 41- | Converts.
+    J |  |
+      h | -41 | Souls added.
+      i | 42 | Continuance.
+  H |  |
+    e | 43- | Fear.
+    f | -43 | Apostles' Miracles.
+    g | 44, 45 | Converts.
+    J |  |
+      i | 46, 47- | Continuance.
+      h | -47 | Souls added.
+
+[[diagram: 3. 1—4. 22 (D1, p. 1579). Among the People (Introversion and Alternation)]]
+[[anchor: Acts 3:1]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 7]]
+
+D1 |  |
+  K |  | 3. 1-11. Miracle. Performed.
+  L |  |
+    M1 |  | 3. 12-26. Answer to People.
+    N1 |  | 4. 1-7. Arrest.
+    M2 |  | 4. 8-12. Answer to Rulers.
+    N2 |  | 4. 13-18. Decision.
+    M3 |  | 4. 19-20. Answer to Rulers.
+    N3 |  | 4. 21-. Release.
+  K |  | 4. -21-22. Miracle. Result.
+
+[[diagram: 3. 1-11 (K, above). Miracle. Performed (Introversion)]]
+[[anchor: Acts 3:1-11]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 7]]
+
+K |  |
+  k | 1 | In the Temple.
+  m | 2 | The Beautiful Gate.
+  n | 3-9 | The Lame Man healed.
+  m | 10 | The Beautiful Gate.
+  k | 11 | Solomon's Porch.
+
+[[diagram: 3. 12-26 (M1, p. 1581). Answer to People (Division)]]
+[[anchor: Acts 3:12-26]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 8]]
+
+M1 |  |
+  O1 | 12-16 | Explanation.
+  O2 | 17-26 | Application.
+
+[[diagram: 3. 12-16 (O1, above). Peter's Explanation (Introversion)]]
+[[anchor: Acts 3:12-16]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 8]]
+
+O1 |  |
+  o | 12 | Miracle. Negative. Not by man's power.
+  p | 13- | God glorified His servant Jesus.
+  q | -13 | Ye denied Him.
+  q | 14, 15- | Ye killed Him.
+  p | -15 | God raised Him.
+  o | 16 | Miracle. Positive. By His Name.
+
+[[diagram: 3. 17-26 (O2, p. 1582). Application (Alternation)]]
+[[anchor: Acts 3:17-26]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 9]]
+
+O2 |  |
+  r1 | 17, 18 | Prophecy. Christ's Death.
+  s1 | 19, 20 | Repentance. Pardon. Refreshing.
+  r2 | 21, 22 | Prophecy. Christ's Rule.
+  s2 | 23 | Disobedience. Destruction.
+  r3 | 24, 25 | Prophecy. All blessed in Christ.
+  s3 | 26 | Sin Forsaken. Blessing.
+
+[[diagram: 4. 23—5. 11 (C2, p. 1579). Among the Brethren (Division)]]
+[[anchor: Acts 4:23]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 11]]
+
+C2 |  |
+  P1 |  | 4. 23-31. Return of the Apostles.
+  P2 |  | 4. 32—5. 11. Unity.
+
+[[diagram: 4. 23-31 (P1, above). Return of the Apostles (Introversion)]]
+[[anchor: Acts 4:23-31]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 11]]
+
+P1 |  |
+  Q | 23 | Report.
+  R | 24-30 | Prayer.
+  R | 31- | Answer.
+  Q | -31 | Testimony.
+
+[[diagram: 4. 24-30 (R, above). Prayer (Introversion)]]
+[[anchor: Acts 4:24-30]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 11]]
+
+R |  |
+  t | 24 | God's power. Creation.
+  u | 25- | Word by David.
+  v | -25, 26 | Man's rage predicted.
+  v | 27, 28 | Man's rage accomplished.
+  u | 29 | Word by Apostles.
+  t | 30 | God's power. Healing.
+
+[[diagram: 4. 32—5. 11 (P2, 1585). Unity (Alternation)]]
+[[anchor: Acts 4:32]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 12]]
+
+P2 |  |
+  S |  | 4. 32-. Unity.
+  T |  | 4. -32. Community of goods.
+  S |  | 4. 33. Power and Grace.
+  T |  | 4. 34—5. 11. Community of goods.
+
+[[diagram: 4. 34—5. 11 (T, above). Community of Goods (Division)]]
+[[anchor: Acts 4:34]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 12]]
+
+T |  |
+  U1 |  | 4. 34, 35. General.
+  U2 |  | 4. 36—5. 11. Particular.
+
+[[diagram: 4. 36—5. 11 (U2, above). Particular (Division)]]
+[[anchor: Acts 4:36]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 12]]
+
+U2 |  |
+  V1 |  | 4. 36-37. Devotedness.
+  V2 |  | 5. 1-11. Deceit.
+
+[[diagram: 5. 1-11 (V2, above). Deceit (Extended Alternation)]]
+[[anchor: Acts 5:1-11]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 12]]
+
+V2 |  |
+  W |  |
+    x | 1, 2 | Ananias.
+    y | 3, 4 | Remonstrance.
+    z | 5- | Death.
+    X |  |
+      a | -5 | Fear.
+      b | 6 | Burial.
+  W |  |
+    x | 7, 8 | Sapphira.
+    y | 9 | Remonstrance.
+    z | 10- | Death.
+    X |  |
+      b | -10 | Burial.
+      a | 11 | Fear.
+
+[[diagram: 5. 12-42 (D2, p. 1579). Among the People (Division)]]
+[[anchor: Acts 5:12-42]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 13]]
+
+D2 |  |
+  Y1 | 12-21- | Apostles' Activity.
+  Y2 | -21-42 | Rulers' Opposition.
+
+[[diagram: 5. 12-21- (Y1, above). Apostles' Activity (Repeated Alternation)]]
+[[anchor: Acts 5:12-21]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 13]]
+
+Y1 |  |
+  c1 | 12- | Miracles.
+  d1 | -12 | In the Temple.
+  c2 | 13-16 | Miracles.
+  d2 | 17, 18 | In prison.
+  c3 | 19, 20 | Miracle.
+  d3 | 21- | In the Temple.
+
+[[diagram: 5. -21-42 (Y2, p. 1587). Rulers' Opposition (Repeated Alternation)]]
+[[anchor: Acts 5:21-42]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 14]]
+
+Y2 |  |
+  e1 | -21 | Assembly.
+  f1 | -21-23 | Apostles sent for.
+  e2 | 24, 25 | Alarm.
+  f2 | 26, 27 | Apostles brought.
+  e3 | -27, 28 | Investigation.
+  f3 | 29-32 | Apostles' Answer.
+  e4 | 33 | Murderous Design.
+  f4 | 34 | Apostles excluded.
+  e5 | 35-39 | Wise counsel.
+  f5 | 40-42 | Apostles released.
+
+[[diagram: 6. 1-7 (C3, p. 1579). Among the Brethren (Introversion and Alternation)]]
+[[anchor: Acts 6:1-7]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 16]]
+
+C3 |  |
+  Z | 1 | Disciples multiplied.
+  A |  |
+    g | 2 | Apostles' Work. Negative.
+    h | 3 | Appointment proposed.
+  A |  |
+    g | 4 | Apostles' Work. Positive.
+    h | 5, 6 | Appointment made.
+  Z | 7 | Disciples multiplied.
+
+[[diagram: 6. 8—8. 1 (D3, p. 1579). Among the People (Alternation)]]
+[[anchor: Acts 6:8]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 16]]
+
+D3 |  |
+  B1 |  | 6. 8. Stephen's Miracles.
+  C1 |  | 6. 9. Opposition.
+  B2 |  | 6. 10. Stephen's Wisdom.
+  C2 |  | 6. 11. False Witnesses.
+  B3 |  | 6. 12. Stephen's Arrest.
+  C3 |  | 6. 13, 14. False Witnesses.
+  B4 |  | 6. 15—8. 1. Stephen's Testimony and Martyrdom.
+
+[[diagram: 6. 15—8. 1 (B4, p. 1590). Stephen's Testimony and Death (Introversion)]]
+[[anchor: Acts 6:15]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 17]]
+
+B4 |  |
+  D |  | 6. 15—7. 1. Stephen and the High Priest.
+  E |  |
+    i |  | 7. 2-8. Abraham. The Land promised.
+    j |  | 7. 9-16. Joseph. Persecuted. Delivered.
+    k |  | 7. 17-31. Moses. Type of the Prophet.
+    l |  | 7. 32-34. The Wilderness a Holy Place.
+    m |  | 7. 35-39. Rejection.
+    F |  | 7. 40-43. Tabernacles of Idols.
+    F |  | 7. 44. Jehovah's Tabernacle.
+  E |  |
+    i |  | 7. 45-. Joshua. The Land possessed.
+    j |  | 7. -45, 46. David. Persecuted. Delivered.
+    k |  | 7. 47. Solomon. Type of the King.
+    l |  | 7. 48-50. All Places Holy.
+    m |  | 7. 51-53. Resistance.
+  D |  | 7. 54—8. 1-. Death of Stephen.
+
+[[diagram: 8. -1—11. 30 (E, p. 1575). Ministry of Peter and Others in the Land (Extended Alternation)]]
+[[anchor: Acts 8:1]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 21]]
+
+E |  |
+  F1 |  | 8. -1-3. Persecution in Jerusalem.
+  G1 |  | 8. 4. Believers scattered.
+  H1 |  | 8. 5-40. Ministry at Samaria, &c.
+  F2 |  | 9. 1, 2. Persecution by Saul.
+  G2 |  | 9. 3-19-. Saul converted.
+  H2 |  | 9. -19-22. Ministry at Damascus.
+  F3 |  | 9. 23-30. Persecution of Saul.
+  G3 |  | 9. 31. Assemblies multiplied.
+  H3 |  | 9. 32—10. 48. Ministry at Lydda, &c.
+  F4 |  | 11. 1-17. Dissension in the Assemblies.
+  G4 |  | 11. 18. Peace restored.
+  H4 |  | 11. 19-30. Ministry at Phenice, &c.
+
+[[diagram: 8. 5-40 (H1, above). Ministry at Samaria, &c. (Division)]]
+[[anchor: Acts 8:5-40]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 21]]
+
+H1 |  |
+  I1 | 5-25 | Samaria.
+  I2 | 26-40 | In the South.
+
+[[diagram: 8. 5-25 (I1, above). Samaria (Alternation)]]
+[[anchor: Acts 8:5-25]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 21]]
+
+I1 |  |
+  J |  |
+    n | 5- | Philip.
+    o | -5 | His message.
+    p | 6- | Heed given.
+    q | 6, 7 | Cause.
+    K | 8 | Philip's ministry. Result.
+  J |  |
+    n | 9- | Simon.
+    o | -9 | His message.
+    p | 10, 11- | Heed given.
+    q | -11 | Cause.
+    K | 12-25 | Philip's ministry. Result.
+
+[[diagram: 8. 12-25 (K, p. 1595). Philip's Ministry. Result (Alternation)]]
+[[anchor: Acts 8:12-25]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 22]]
+
+K |  |
+  r | 12 | Baptisms.
+  s | 13 | Simon's baptism.
+  t | 14 | Apostles' visit.
+  r | 15-17 | Holy Spirit given.
+  s | 18-24 | Simon's offer.
+  t | 25 | Apostles' return.
+
+[[diagram: 8. 26-40 (I2, p. 1595). In the South (Alternation)]]
+[[anchor: Acts 8:26-40]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 23]]
+
+I2 |  |
+  u1 | 26 | Philip. The Angel's command.
+  v1 | 27, 28 | The Eunuch. Reading.
+  u2 | 29, 30 | Philip. The Spirit's command.
+  v2 | 31-34 | The Eunuch. Questions.
+  u3 | 35 | Philip. Preaching.
+  v3 | 36-38 | The Eunuch. Baptism.
+  u4 | 39, 40 | Philip. Caught away.
+
+[[diagram: 9. 3-19- (G2, p. 1595). Saul Converted (Extended Alternation)]]
+[[anchor: Acts 9:3-19]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 24]]
+
+G2 |  |
+  L | 3, 4 | Call to Saul.
+  M | 5, 6- | Response.
+  N | -6, 7 | Command. Arise.
+  O | 8- | Obedience.
+  P | -8, 9- | Blindness.
+  Q | -9 | Fasting.
+  L | 10- | Call to Ananias.
+  M | -10 | Response.
+  N | 11-16 | Command. Arise.
+  O | 17- | Obedience.
+  P | -17, 18 | Sight restored.
+  Q | 19- | Fast ended.
+
+[[diagram: 9. 23-30 (F3, p. 1595). Persecution of Saul (Alternation and Introversion)]]
+[[anchor: Acts 9:23-30]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 25]]
+
+F3 |  |
+  R |  |
+    u | 23 | Plot to kill (anaireo).
+    v | 24 | Plot known.
+    x | 25, 26- | Escape to Jerusalem.
+  S |  |
+    y | -26 | Suspicion.
+    z | 27 | Preaching boldly (parrhesiazomai).
+  S |  |
+    y | 28 | Reception.
+    z | 29- | Speaking boldly (parrhesiazomai).
+  R |  |
+    u | -29 | Plot to slay (anaireo).
+    v | 30- | Plot known.
+    x | -30 | Escape to Tarsus.
+
+[[diagram: 9. 32—10. 48 (H3, p. 1595). Ministry at Lydda, &c. (Alternation)]]
+[[anchor: Acts 9:32]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 26]]
+
+H3 |  |
+  T |  | 9. 32-42. Æneas, &c.
+  U |  | 9. 43. Abode (meno).
+  T |  | 10. 1-48-. Cornelius.
+  U |  | 10. -48. Abode (epimeno).
+
+[[diagram: 9. 32-42 (T, above). Æneas, &c. (Alternation)]]
+[[anchor: Acts 9:32-42]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 26]]
+
+T |  |
+  a | 32-34 | Miracle.
+  b | 35 | Result.
+  a | 36-41 | Miracle.
+  b | 42 | Result.
+
+[[diagram: 10. 1-48- (T, p. 1600). Cornelius (Division)]]
+[[anchor: Acts 10:1-48]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 27]]
+
+T |  |
+  V1 | 1-24- | Preparation.
+  V2 | -24-48- | Conference.
+
+[[diagram: 10. 1-24- (V1, above). Preparation (Extended Alternation)]]
+[[anchor: Acts 10:1-24]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 27]]
+
+V1 |  |
+  c | 1-4 | Vision.
+  d | 5, 6 | Command.
+  e | 7, 8- | Obedience.
+  f | -8, 9- | Messengers sent.
+  c | -9-19- | Vision.
+  d | -19, 20 | Command.
+  e | 21, 22 | Obedience.
+  f | 23, 24- | Messengers received.
+
+[[diagram: 10. 24-48- (V2, p. 1601). Conference (Introversion)]]
+[[anchor: Acts 10:24-48]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 29]]
+
+V2 |  |
+  W | -24-27 | Expectation.
+  X | 28, 29 | Peter.
+  Y | 30-33 | Cornelius.
+  X | 34-43 | Peter.
+  W | 44-48- | Realization.
+
+[[diagram: 10. 34-43 (X, above). Peter (Alternation)]]
+[[anchor: Acts 10:34-43]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 29]]
+
+X |  |
+  g1 | 34-38 | The Lord's Life.
+  h1 | 39- | Witnesses.
+  g2 | -39, 40 | The Lord's Death and Resurrection.
+  h2 | 41 | Witnesses.
+  g3 | 42 | The Lord the Judge.
+  h3 | 43 | Witnesses.
+
+[[diagram: 11. 1-17 (F4, p. 1595). Dissension in the Assembly (Introversion)]]
+[[anchor: Acts 11:1-17]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 30]]
+
+F4 |  |
+  i | 1-3 | Peter blamed.
+  k | 4-10 | Peter's Vision.
+  l | 11, 12 | Command.
+  k | 13, 14 | Cornelius' Vision.
+  i | 15-17 | Peter vindicated.
+
+[[diagram: 11. 19-30 (H4, p. 1595). Ministry at Phenice, &c. (Division)]]
+[[anchor: Acts 11:19-30]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 32]]
+
+H4 |  |
+  Z1 | 19-26 | In Spiritual Things.
+  Z2 | 27-30 | In Carnal Things.
+
+[[diagram: 11. 19-26 (Z1, above). In Spiritual Things (Alternation)]]
+[[anchor: Acts 11:19-26]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 32]]
+
+Z1 |  |
+  m1 | 19, 20 | Preaching by Cypriotes, &c.
+  n1 | 21 | Many believers.
+  m2 | 22-24- | Preaching by Barnabas.
+  n2 | -24 | Much people added.
+  m3 | 25, 26 | Preaching by Barnabas and Saul.
+
+[[diagram: 11. 27-30 (Z2, above). In Carnal Things (Alternation)]]
+[[anchor: Acts 11:27-30]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 32]]
+
+Z2 |  |
+  o | 27, 28- | Prophecy of Dearth.
+  p | -28 | Fulfilment.
+  o | 29 | Purpose of Relief.
+  p | 30 | Fulfilment.
+
+[[diagram: 12. 1-23 (F, p. 1575). Jerusalem. Peter's Imprisonment (Introversion)]]
+[[anchor: Acts 12:1-23]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 33]]
+
+F |  |
+  A | 1, 2 | Herod. Persecution.
+  B | 3-19- | Peter. Imprisonment and Release.
+  A | -19-23 | Herod. Judgment and Death.
+
+[[diagram: 12. 3-19- (B, above). Peter. Imprisonment (Introversion and Alternation)]]
+[[anchor: Acts 12:3-19]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 33]]
+
+B |  |
+  C |  |
+    q | 3 | Herod's base policy.
+    r | 4- | Peter guarded.
+  D |  |
+    s | -4 | Intention.
+    t | 5- | Prison.
+    u | -5 | Prayer.
+    v | 6-10- | Deliverance effected.
+    w | -10 | Angel's Departure.
+  D |  |
+    s | 11 | Frustration.
+    t | 12- | House.
+    u | -12 | Prayer.
+    v | 13-17- | Deliverance recounted.
+    w | -17 | Peter's Departure.
+  C |  |
+    r | 18 | Peter missed.
+    q | 19- | Herod's Vengeance.
+
+[[diagram: 13. 4—14. 28 (D, p. 1575). The Ministry of Paul (with Others) to the Dispersion. Apart from Jerusalem and the Twelve (Introversion)]]
+[[anchor: Acts 13:4]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 35]]
+
+D |  |
+  E |  | 13. 4-. Departure from Antioch.
+  F |  | 13. -4-12. Cyprus.
+  G |  | 13. 13. Perga.
+  H |  | 13. 14-50. Antioch (Pisidia).
+  I |  | 13. 51—14. 6-. Iconium.
+  J |  | 14. -6-20-. Lystra.
+  K |  | 14. -20. Derbe.
+  J |  | 14. 21-. Lystra.
+  I |  | 14. -21-. Iconium.
+  H |  | 14. -21-24. Antioch (Pisidia).
+  G |  | 14. 25-. Perga.
+  F |  | 14. -25. Attalia.
+  E |  | 14. 26-28. Return to Antioch.
+
+[[diagram: 13. 14-50 (H, p. 1609). Antioch (Pisidia) (Alternation)]]
+[[anchor: Acts 13:14-50]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 36]]
+
+H |  |
+  L | 14, 15 | Synagogue. First Sabbath.
+  M | 16-41 | Paul. Address.
+  N | 42, 43 | Effect.
+  L | 44, 45 | Synagogue. Second Sabbath.
+  M | 46, 47 | Paul and Barnabas. Appeal.
+  N | 48-50 | Effect.
+
+[[diagram: 13. 16-41 (M, above). Paul. Address (Alternation)]]
+[[anchor: Acts 13:16-41]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 36]]
+
+M |  |
+  x | 16-22 | Israel's History. David raised up (egeire, v. 22).
+  y | 23 | Promise fulfilled (egage).
+  z | 24, 25 | Repentance preached.
+  x | 26-31 | The Lord's Death and Resurrection (egeire, v. 30).
+  y | 32-37 | Promises fulfilled (egeire, v. 37).
+  z | 38-41 | Forgiveness proclaimed.
+
+[[diagram: 13. 51—14. 6- (I, p. 1609). Iconium (Alternation)]]
+[[anchor: Acts 13:51]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 39]]
+
+I |  |
+  a |  | 13. 51—14. 1-. Preaching.
+  b |  | 14. -1. Result.
+  c |  | 14. 2. Opposition.
+  a |  | 14. 3. Preaching.
+  b |  | 14. 4. Result.
+  c |  | 14. 5, 6-. Opposition.
+
+[[diagram: 14. -6-20 (J, p. 1609). Lystra (Alternation and Introversion)]]
+[[anchor: Acts 14:6-20]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 39]]
+
+J |  |
+  O | -6, 7 | Preaching.
+  P |  |
+    d | 8-10 | Miracle. Healing.
+    e | 11-13 | Deification.
+  O | 14-18 | Remonstrance.
+  P |  |
+    e | 19 | Repudiation.
+    d | 20- | Miracle. Resurrection.
+
+[[diagram: 15. 1—19. 20 (E, p. 1575). Paul's Ministry in Association with the Twelve (Introversion)]]
+[[anchor: Acts 15:1]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 41]]
+
+E |  |
+  Q |  | 15. 1-41. Dissension within.
+  R |  | 16. 1-11. Lystra, and extended tour in Asia Minor.
+  S |  | 16. 12-40. Philippi.
+  T |  | 17. 1-14. Thessalonica and Berea.
+  S |  | 17. 15—18. 18-. Athens and Corinth.
+  R |  | 18. -18—19. 12. Ephesus, and extended tour in Asia Minor.
+  Q |  | 19. 13-20. Opposition without.
+
+[[diagram: 15. 1-41 (Q, above). Dissension Within (Division)]]
+[[anchor: Acts 15:1-41]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 41]]
+
+Q |  |
+  U1 | 1-35 | Dissension about Circumcision.
+  U2 | 36-41 | Dissension about Mark.
+
+[[diagram: 15. 1-35 (U1, above). Dissension about Circumcision (Introversion)]]
+[[anchor: Acts 15:1-35]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 41]]
+
+U1 |  |
+  e | 1, 2 | Antioch. Judaizers.
+  f | 3-5 | Appeal to Jerusalem.
+  g | 6-11 | Council. Peter.
+  h | 12 | Paul and Barnabas. Evidence.
+  g | 13-21 | Council. James.
+  f | 22-29 | Answer from Jerusalem.
+  e | 30-35 | Antioch. Progress.
+
+[[diagram: 16. 1-11 (R, p. 1615). Lystra, and Extended Tour in Asia Minor (Introversion)]]
+[[anchor: Acts 16:1-11]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 44]]
+
+R |  |
+  i | 1-3 | Preparation to go forth (exelthein, v. 3).
+  k | 4 | Decrees of Council.
+  l | 5 | Churches prospering.
+  k | 6-9 | Decree of the Spirit.
+  i | 10, 11 | Preparation to go forth (exelthein, v. 10).
+
+[[diagram: 16. 12-40 (S, p. 1615). Philippi (Introversion and Alternation)]]
+[[anchor: Acts 16:12-40]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 46]]
+
+S |  |
+  V | 12 | Abiding in Philippi.
+  W |  |
+    m1 | 13 | Prayer.
+    n1 | 14 | Lydia. Heart opened.
+    o1 | 15 | Result. Hospitality.
+    m2 | 16 | Prayer.
+    n2 | 17, 18 | Damsel. Demon cast out.
+    o2 | 19-24 | Result. Persecution.
+    m3 | 25, 26 | Prayer.
+    n3 | 27-34 | Jailor. Conversion.
+    o3 | 35-39 | Result. Vindication.
+  V | 40 | Departure from Philippi.
+
+[[diagram: 17. 1-14 (T, p. 1615). Thessalonica and Beræa (Extended Alternation)]]
+[[anchor: Acts 17:1-14]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 48]]
+
+T |  |
+  X |  |
+    p | 1 | Thessalonica. Synagogue.
+    q | 2, 3 | Reasoning from the Scriptures.
+    r | 4 | Believers.
+    s | 5-9 | Persecution.
+  X |  |
+    p | 10 | Beræa. Synagogue.
+    q | 11 | Searching the Scriptures.
+    r | 12 | Believers.
+    s | 13, 14 | Persecution.
+
+[[diagram: 17. 15—18. 18- (S, p. 1615). Athens and Corinth (Extended Alternation)]]
+[[anchor: Acts 17:15]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 49]]
+
+S |  |
+  t |  | 17. 15, 16. Athens.
+  u |  | 17. 17. Reasoning.
+  v |  | 17. 18-21. Philosophers. Questioning.
+  w |  | 17. 22-31. Paul's defence.
+  x |  | 17. 32-34. Results.
+  t |  | 18. 1-3. Corinth.
+  u |  | 18. 4, 5. Reasoning and testifying.
+  v |  | 18. 6-. Jews. Opposing.
+  w |  | 18. -6. Paul's repudiation.
+  x |  | 18. 7-18-. Results.
+
+[[diagram: 18. -18—19. 12 (R, p. 1615). Ephesus, and Extended Tour in Asia Minor (Introversion)]]
+[[anchor: Acts 18:18]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 53]]
+
+R |  |
+  Y |  | 18. -18-23. Paul. Ministry at Ephesus and elsewhere.
+  Z |  | 18. 24-28. Apollos. Ministry at Ephesus and in Achaia.
+  Y |  | 19. 1-12. Paul. Ministry at Ephesus.
+
+[[diagram: 18. -18-23 (Y, above). Paul. Ministry at Ephesus, &c. (Alternation)]]
+[[anchor: Acts 18:18-23]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 53]]
+
+Y |  |
+  y | -18 | Leaves Corinth (apotasso).
+  z | 19, 20 | Ministry at Ephesus.
+  y | 21 | Leaves Ephesus (apotasso).
+  z | 22, 23 | Ministry at Cæsarea, &c.
+
+[[diagram: 18. 24-28 (Z, above). Apollos. Ministry at Ephesus, &c. (Division)]]
+[[anchor: Acts 18:24-28]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 53]]
+
+Z |  |
+  A1 | 24-26 | Ephesus.
+  A2 | 27, 28 | Achaia.
+
+[[diagram: 18. 24-26 (A1, above). Ephesus (Alternation)]]
+[[anchor: Acts 18:24-26]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 53]]
+
+A1 |  |
+  a | 24 | Mighty in the Scriptures.
+  b | 25 | Teaching accurately.
+  a | 26- | Speaking boldly.
+  b | -26 | Instructed more accurately,
+
+[[diagram: 19. 1-12 (Y, p. 1627). Paul. Ministry at Ephesus (Introversion)]]
+[[anchor: Acts 19:1-12]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 54]]
+
+Y |  |
+  c | 1- | Paul's arrival at Ephesus.
+  d | -1 | Certain men. Their character. Disciples.
+  e | 2 | Spiritual gifts. Their ignorance of them.
+  f | 3 | What they had received. John's baptism.
+  g | 4, 5 | What Paul said. Paul's description of John's action.
+  g | 6- | What Paul did. Luke's description. Paul's action.
+  f | -6- | What they now received. Spiritual gifts.
+  e | -6 | Spiritual gifts. Their use of them.
+  d | 7 | The men. Their number. About twelve.
+  c | 8-12 | Paul's continuance at Ephesus.
+
+[[diagram: 19. 13-20 (Q, p. 1615). Opposition Without (Division)]]
+[[anchor: Acts 19:13-20]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 55]]
+
+Q |  |
+  B1 | 13-16 | Exorcists.
+  B2 | 17-20 | Results.
+
+[[diagram: 19. 13-16 (B1, above). Exorcists (Alternation)]]
+[[anchor: Acts 19:13-16]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 55]]
+
+B1 |  |
+  h1 | 13- | Exorcists. General.
+  i1 | -13 | Adjuration.
+  h2 | 14 | Exorcists. Special.
+  i2 | 15 | Spirit's answer.
+  h3 | 16 | Exorcists. Discomfiture.
+
+[[diagram: 19. 17-20 (B2, p. 1629). Results (Introversion)]]
+[[anchor: Acts 19:17-20]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 56]]
+
+B2 |  |
+  k | 17 | The Lord's Name magnified.
+  l | 18 | Believers confessing.
+  l | 19 | Magic arts renounced.
+  k | 20 | The Word of God growing.
+
+[[diagram: 19. 21—28 (F, p. 1575). Ephesus and Jerusalem. Paul's Apprehension and Imprisonment. Subsequent Abode (Rome), and Close of His Ministry (Division)]]
+[[anchor: Acts 19:21]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 56]]
+
+F |  |
+  C1 |  | 19. 21—21. 40. Final Ministry and last Missionary Journey.
+  C2 |  | 22. 1—28. 29. Apprehension and Imprisonment.
+
+[[diagram: 19. 21—21. 40 (C1, above). Final Ministry (Introversion)]]
+[[anchor: Acts 19:21]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 56]]
+
+C1 |  |
+  D |  | 19. 21-41. Disturbance at Ephesus.
+  E |  | 20. 1-6. Departure for Macedonia.
+  F |  | 20. 7-12. Troas.
+  G |  | 20. 13-16. Voyage to Miletus.
+  G |  | 20. 17-38. At Miletus.
+  F |  | 21. 1-15-. Journey to Cæsarea.
+  E |  | 21. -15-26. Return to Jerusalem.
+  D |  | 21. 27-40. Disturbance at Jerusalem.
+
+[[diagram: 19. 21-41 (D, above). Disturbance at Ephesus (Introversion and Alternation)]]
+[[anchor: Acts 19:21-41]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 56]]
+
+D |  |
+  m | 21-25- | Assembly summoned.
+  n | -25-27 | Speech of Demetrius.
+  o | 28 | Outcry.
+  H |  |
+    p | 29- | Confusion.
+    q | -29 | Gaius and Aristarchus seized.
+    I | 30- | Paul's purpose.
+    I | -30, 31 | Paul restrained.
+  H |  |
+    p | 32 | Confusion.
+    q | 33 | Alexander put forward.
+  o | 34 | Outcry.
+  n | 35-40 | Town Clerk's speech.
+  m | 41 | Assembly dismissed.
+
+[[diagram: 20. 1-6 (E, p. 1630). Departure for Macedonia (Extended Alternation)]]
+[[anchor: Acts 20:1-6]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 58]]
+
+E |  |
+  r | 1 | Departure.
+  s | 2 | Arrival in Greece.
+  t | 3- | Abode. Three months.
+  r | -3-5 | Return through Macedonia.
+  s | 6- | Arrival at Troas.
+  t | -6 | Abode. Seven days.
+
+[[diagram: 20. 7-12 (F, p. 1630). Troas (Introversion)]]
+[[anchor: Acts 20:7-12]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 59]]
+
+F |  |
+  u | 7, 8 | Preaching.
+  v | 9 | Eutychus dead.
+  v | 10 | Eutychus restored.
+  u | 11, 12 | Breaking bread, and converse.
+
+[[diagram: 20. 17-38 (G, p. 1630). At Miletus (Introversion and Alternation)]]
+[[anchor: Acts 20:17-38]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 60]]
+
+G |  |
+  w | 17 | Summons.
+  x | 18-21 | Paul's conduct and testimony.
+  K |  |
+    y | 22-25 | His future.
+    z | 26, 27 | His faithfulness.
+    a | 28 | Charge.
+  K |  |
+    y | 29-31- | The future of the Ephesians.
+    z | -31 | Paul's earnestness.
+    a | 32 | Commendation.
+  x | 33-35 | Paul's character and conduct.
+  w | 36-38 | Leave-taking.
+
+[[diagram: 21. 1-15- (F, p. 1630). Journey to Cæsarea (Alternation)]]
+[[anchor: Acts 21:1-15]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 61]]
+
+F |  |
+  L | 1-3 | Journey to Tyre.
+  M | 4 | Prophetic warning.
+  N | 5, 6 | Departure.
+  L | 7-9 | Journey to Cæsarea.
+  M | 10-14 | Prophetic warning.
+  N | 15- | Departure.
+
+[[diagram: 21. 10-14 (M, p. 1635). Prophetic Warning (Alternation)]]
+[[anchor: Acts 21:10-14]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 62]]
+
+M |  |
+  b | 10, 11 | Agabus. Prediction.
+  c | 12 | Disciples. Entreaty.
+  b | 13 | Paul. Devotion.
+  c | 14 | Disciples. Submission.
+
+[[diagram: 21. -15-26 (E, p. 1630). Return to Jerusalem (Introversion)]]
+[[anchor: Acts 21:15-26]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 63]]
+
+E |  |
+  d | -15-18 | Paul and his companions enter the assembly (eiseei).
+  e | 19 | God's work among the Gentiles.
+  f | 20 | Zealous of the law.
+  g | 21, 22 | Suspicion of Paul.
+  g | 23, 24- | To remove suspicion.
+  f | -24 | Keeping the law.
+  e | 25 | Ordinances for the Gentiles.
+  d | 26 | Paul and the seven men enter the Temple (eiseei).
+
+[[diagram: 21. 27-40 (D, p. 1630). Disturbance at Jerusalem (Extended Alternation)]]
+[[anchor: Acts 21:27-40]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 64]]
+
+D |  |
+  h1 | 27 | Riot.
+  i1 | 28, 29 | Charge.
+  k1 | 30 | Paul seized.
+  h2 | 31, 32 | Chief captain interposes.
+  i2 | 33, 34 | Inquiry as to charge.
+  k2 | 35, 36 | Violence of people.
+  h3 | 37 | Chief captain appealed to.
+  i3 | 38, 39 | Inquiry about Paul.
+  k3 | 40 | Silence of people.
+
+[[diagram: 22. 1—28. 29 (C2, p. 1630). Apprehension and Imprisonment (Introversion and Division)]]
+[[anchor: Acts 22:1]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 65]]
+
+C2 |  |
+  O |  | 22. 1—23. 22. Paul and the Jews in Jerusalem. Two addresses.
+  P |  | 23. 23-35. Journey to Cæsarea.
+  Q1 |  | 24. 1-27. Paul and Felix.
+  Q2 |  | 25. 1-12. Paul and Festus.
+  Q3 |  | 25. 13—26. 32. Paul and Agrippa.
+  P |  | 27. 1—28. 16. Journey to Rome.
+  O |  | 28. 17-29. Paul and the Jews in Rome. Two addresses.
+
+[[diagram: 22. 1—23. 22 (O, above). Paul and the Jews in Jerusalem, &c. (Alternation)]]
+[[anchor: Acts 22:1]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 65]]
+
+O |  |
+  R |  | 22. 1-21. Paul's defence.
+  S |  | 22. 22-30. Events following.
+  R |  | 23. 1-10. Paul's defence.
+  S |  | 23. 11-22. Events following.
+
+[[diagram: 22. 1-21 (R, above). Paul's Defence (Alternation)]]
+[[anchor: Acts 22:1-21]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 65]]
+
+R |  |
+  l | 1-5 | A zealous Jew.
+  m | 6-10 | Revelation from the Lord.
+  l | 11-16 | A chosen vessel.
+  m | 17-21 | Revelation from the Lord.
+
+[[diagram: 22. 22-30 (S, p. 1639). Events Following (Introversion)]]
+[[anchor: Acts 22:22-30]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 67]]
+
+S |  |
+  n | 22, 23 | Paul before the people.
+  o | 24 | Torture ordered.
+  p | 25, 26 | Rights claimed.
+  p | 27, 28 | Rights admitted.
+  o | 29 | Torture abandoned.
+  n | 30 | Paul before the Council.
+
+[[diagram: 23. 1-10 (R, p. 1639). Paul's Defence (Alternation)]]
+[[anchor: Acts 23:1-10]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 68]]
+
+R |  |
+  q | 1 | Paul's life.
+  r | 5 | Dispute with High Priest.
+  q | 6 | Paul's faith.
+  r | 7-10 | Dispute between the sects.
+
+[[diagram: 23. 11-22 (S, p. 1639). Events Following (Alternation)]]
+[[anchor: Acts 23:11-22]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 68]]
+
+S |  |
+  s | 11 | Comfort from the Lord.
+  t | 12-15 | Conspiracy formed.
+  s | 16-19 | Consideration from the chief captain.
+  t | 20-22 | Conspiracy revealed.
+
+[[diagram: 23. 23-35 (P, p. 1639). Journey to Cæsarea (Introversion)]]
+[[anchor: Acts 23:23-35]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 70]]
+
+P |  |
+  u | 23, 24 | Chief captain. Orders.
+  v | 25-30 | Letter written.
+  w | 31, 32 | Journey.
+  v | 33, 34 | Letter received.
+  u | 35 | Felix. Orders.
+
+[[diagram: 24. 1-27 (Q1, p. 1639). Paul and Felix (Introversion and Alternation)]]
+[[anchor: Acts 24:1-27]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 71]]
+
+Q1 |  |
+  T | 1 | Felix. On the judgment seat.
+  U |  |
+    V | 2-4 | Tertullus. Introduction.
+    W | 5-9 | His charges.
+    V | 10 | Paul. Introduction.
+    W | 11-21 | His defence.
+  T | 22-27 | Felix. Decision.
+
+[[diagram: 24. 11-21 (W, p. 1645). Defence (Extended Alternation)]]
+[[anchor: Acts 24:11-21]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 72]]
+
+W |  |
+  x | 11 | Admission.
+  y | 12, 13 | Repudiation.
+  z | 14-16 | Confession. Resurrection.
+  x | 17, 18- | Admission.
+  y | -18-20 | Repudiation.
+  z | 21 | Confession. Resurrection.
+
+[[diagram: 24. 22-27 (T, p. 1645). Felix. Decision (Alternation)]]
+[[anchor: Acts 24:22-27]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 72]]
+
+T |  |
+  a | 22 | Adjournment.
+  b | 23 | Paul in custody.
+  a | 24-26 | Conferences.
+  b | 27 | Paul in bonds.
+
+[[diagram: 25. 1-12 (Q2, p. 1639). Paul and Festus (Repeated Alternation)]]
+[[anchor: Acts 25:1-12]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 73]]
+
+Q2 |  |
+  c1 | 1 | Festus. At Jerusalem.
+  d1 | 2, 3 | Paul. Plot against, by Jews.
+  c2 | 4 | Festus. Offer to judge.
+  d2 | 5 | Paul. His accusers.
+  c3 | 6 | Festus. On the judgment seat.
+  d3 | 7, 8 | Paul. Accusers refuted.
+  c4 | 9 | Festus. Offer to Paul.
+  d4 | 10, 11 | Paul. Appeal to Cæsar.
+  c5 | 12 | Festus. Decision.
+
+[[diagram: 25. 13—26. 32 (Q3, p. 1639). Paul and Agrippa (Alternation and Introversion)]]
+[[anchor: Acts 25:13]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 74]]
+
+Q3 |  |
+  X |  | 25. 13-21. Festus consults Agrippa.
+  Y |  | 25. 22. Agrippa desires to hear Paul.
+  Z |  |
+    A |  | 25. 23-. Court convened.
+    B |  | 25. -23. Paul brought to the bar.
+  X |  | 25. 24-27. Festus opens the case.
+  Y |  | 26. 1-. Agrippa calls on Paul for his defence.
+  Z |  |
+    B |  | 26. -1-29. Paul's defence.
+    A |  | 26. 30-32. Court rises.
+
+[[diagram: 25. 13-21 (X, above). Festus Consults Agrippa (Alternation)]]
+[[anchor: Acts 25:13-21]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 74]]
+
+X |  |
+  e | 13-15 | The Jews' request.
+  f | 16 | Festus' reply.
+  e | 17-19 | The Jews' charges.
+  f | 20, 21 | Festus' decision.
+
+[[diagram: 26. -1-29 (B, p. 1648). Paul's Defence (Introversion)]]
+[[anchor: Acts 26:1-29]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 76]]
+
+B |  |
+  C | -1-8 | Introduction.
+  D | 9-23 | Statement.
+  C | 24-29 | Conclusion.
+
+[[diagram: 26. -1-8 (C, above). Introduction (Introversion)]]
+[[anchor: Acts 26:1-8]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 76]]
+
+C |  |
+  g | -1-3 | Appeal to Agrippa's knowledge.
+  h | 4, 5 | Paul's life.
+  h | 6, 7 | Paul's hope.
+  g | 8 | Appeal to Agrippa's reason.
+
+[[diagram: 26. 9-23 (D, p. 1650). Statement (Extended Alternation and Introversion)]]
+[[anchor: Acts 26:9-23]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 77]]
+
+D |  |
+  E | 9 | Opposition.
+  F |  |
+    i | 10, 11 | Persecution. Jerusalem, &c.
+    k | 12 | Persecution. Damascus.
+  G | 13-15 | Jesus the Persecuted.
+  H | 16- | Stand (Gr. histemi).
+  J | -16 | Witness.
+  K |  |
+    l | 17 | The People and the Gentiles.
+    m | 18 | Light.
+  E | 19 | Obedience.
+  F |  |
+    k | 20- | Preaching. Damascus.
+    i | -20 | Preaching. Jerusalem, &c.
+  G | 21 | Paul the persecuted.
+  H | 22- | Continue (Gr. histemi).
+  J | -22, 23- | Witness.
+  K |  |
+    m | -23- | Light.
+    l | -23 | The People and the Gentiles.
+
+[[diagram: 26. 24-29 (C, p. 1650). Conclusion (Introversion and Alternation)]]
+[[anchor: Acts 26:24-29]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 78]]
+
+C |  |
+  L |  |
+    n | 24 | Festus interposes.
+    o | 25 | Paul's reply.
+  M | 26 | Agrippa's knowledge challenged.
+  M | 27 | Agrippa's belief challenged.
+  L |  |
+    n | 28 | Agrippa interposes.
+    o | 29 | Paul's reply.
+
+[[diagram: 27. 1—28. 16 (P, p. 1639). Journey to Rome (Division)]]
+[[anchor: Acts 27:1]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 79]]
+
+P |  |
+  N1 |  | 27. 1-44. Cæsarea to Melita.
+  N2 |  | 28. 1-16. Melita to Rome.
+
+[[diagram: 27. 1-44 (N1, above). Cæsarea to Melita (Alternation)]]
+[[anchor: Acts 27:1-44]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 79]]
+
+N1 |  |
+  O | 1-3 | Julius treats Paul kindly.
+  P | 4-41 | Voyage and tempest.
+  O | 42, 43 | Julius saves Paul.
+  P | 44 | All escape to land.
+
+[[diagram: 27. 4-41 (P, above). Voyage and Tempest (Alternation)]]
+[[anchor: Acts 27:4-41]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 79]]
+
+P |  |
+  p1 | 4-8 | Sidon to Fair Havens.
+  q1 | 9, 10 | Paul. Admonition.
+  p2 | 11-20 | To Clauda. Tempest-driven.
+  q2 | 21-26 | Paul. Encouragement.
+  p3 | 27-29 | Drawing near to land.
+  q3 | 30, 31 | Paul. Warning.
+  p4 | 32 | The boat abandoned.
+  q4 | 33-38 | Paul. Encouragement.
+  p5 | 39-41 | The ship aground.
+
+[[diagram: 28. 1-16 (N2, p. 1653). Melita to Rome (Division)]]
+[[anchor: Acts 28:1-16]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 83]]
+
+N2 |  |
+  Q1 | 1-10 | Sojourn at Melita.
+  Q2 | 11-16 | Journey to Rome.
+
+[[diagram: 28. 1-10 (Q1, above). Sojourn at Melita (Introversion and Alternation)]]
+[[anchor: Acts 28:1-10]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 83]]
+
+Q1 |  |
+  R | 1 | Arrival.
+  S |  |
+    r1 | 2 | Hospitality.
+    s1 | 3-6 | Miracle.
+    r2 | 7 | Hospitality.
+    s2 | 8, 9 | Miracles.
+    r3 | 10- | Hospitality.
+  R | -10 | Departure.
+
+[[diagram: 28. 11-16 (Q2, p. 1657). Journey to Rome (Introversion)]]
+[[anchor: Acts 28:11-16]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 84]]
+
+Q2 |  |
+  t | 11-13 | Departure for Rome.
+  u | 14 | Brethren. Puteoli.
+  u | 15 | Brethren. Appii Forum.
+  t | 16 | Arrival at Rome.
+
+[[diagram: 28. 17-29 (O, p. 1639). Paul and the Jews in Rome. Two Addresses (Division)]]
+[[anchor: Acts 28:17-29]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 84]]
+
+O |  |
+  T1 | 17-22 | First meeting.
+  T2 | 23-29 | Second meeting.
+
+[[diagram: 28. 17-22 (T1, above). First Meeting (Extended Alternation)]]
+[[anchor: Acts 28:17-22]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 84]]
+
+T1 |  |
+  v | 17- | Call.
+  w | -17 | Law and customs of Israel not violated.
+  x | 18 | Romans find no capital charge.
+  y | 19 | Jews speak against (antilego) Paul's release.
+  v | 20- | Call.
+  w | -20 | Hope of Israel.
+  x | 21 | Jews receive no complaints.
+  y | 22 | The sect everywhere spoken against (antilego).
+
+[[diagram: 28. 23-29 (T2, p. 1658). Second Meeting]]
+[[anchor: Acts 28:23-29]]
+[[pdf: 40. The Acts_text.pdf]]
+[[pdf-page: 85]]
+
+T2 |  |
+  U |  |
+    z | 23- | Jews assemble.
+    a | -23 | Paul expounds.
+  V | 24-25- | Result. Disputation.
+  U |  |
+    a | -25-28 | Paul warns.
+    z | 29- | Jews depart.
+  V | -29 | Result. Reasoning.

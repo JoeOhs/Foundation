@@ -265,13 +265,18 @@ function scanLocalVerses(text: string, out: Match[], context: { book: string; ch
     // note's own. Not across "and": "2 Chron. 5. 9, and see 9. 21" in a
     // 1 Kings note means 1 Kings 9. 21. Across a full stop only inside a
     // bracket that book's reference opened: "(Dan. 9. 1. Cp. 6. 1)" is
-    // Daniel 6. 1, but "Ex. 17. 16. Cp. 3. 1" in Esther is Esther 3. 1.
+    // Daniel 6. 1, but "Ex. 17. 16. Cp. 3. 1" in Esther is Esther 3. 1 —
+    // and so is a bracket opened by prose: "(Gr. apologeomai. Occ. ...
+    // 2 Cor. 12. 19. Cp. 22. 1)" in Acts is Acts 22. 1.
     const cueAt = m.index;
     const open = text.lastIndexOf('(', cueAt);
+    const opener = open >= 0 && !text.slice(open, cueAt).includes(')')
+      ? out.find((x) => x.ref.kind === 'scripture' && /^\(\s*$/.test(text.slice(open, x.start)))
+      : undefined;
     const prev = out.find((x) => x.ref.kind === 'scripture' && x.end <= cueAt
       && (/^[,;]?\s*\(?$/.test(text.slice(x.end, cueAt))
-        || (/^\.\s*$/.test(text.slice(x.end, cueAt)) && open >= 0 && open < x.start
-          && !text.slice(open, cueAt).includes(')'))));
+        || (/^\.\s*$/.test(text.slice(x.end, cueAt)) && opener !== undefined
+          && opener.ref.kind === 'scripture' && x.ref.book === opener.ref.book)));
     const book = prev && prev.ref.kind === 'scripture' ? prev.ref.book : (bookNamedInProse(text, cueAt, out) ?? context.book);
     out.push({
       start,

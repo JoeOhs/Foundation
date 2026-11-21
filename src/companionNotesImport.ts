@@ -256,7 +256,7 @@ async function insertBookDiagrams(
 // Bump when a release adds books. An install from an earlier release gains
 // the new ones in place; the books it already has, and every highlight, link
 // and note on them, are left exactly as they are.
-const BOOKS_FLAG = 'companion-notes-books-gospels';
+const BOOKS_FLAG = 'companion-notes-books-acts';
 
 export async function addCompanionNotesBooks(): Promise<void> {
   if ((await getMeta(BOOKS_FLAG)) !== null) return;
