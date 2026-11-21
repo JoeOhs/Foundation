@@ -1,0 +1,1596 @@
+# The Companion Bible (E. W. Bullinger, 1913) — John
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/39. John_text.pdf, printed pp. 1510-);
+# [[pdf-page:]] is the page of that file each diagram is on. Notation:
+# README.md here. Small-capital words are written in title case.
+#
+# The book Structure's C block carries two braces: PROCLAIMED / REJECTED
+# on each pair, and one outer brace over all four, "THE FOURFOLD MINISTRY
+# OF THE LORD". The notation has one brace per line, so the inner two are
+# kept and the outer one is recorded here only.
+
+[[diagram: John. The Structure of the Book as a Whole. "Behold your God" (Isa. 40. 9) (Introversion)]]
+[[anchor: John 1:1]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 1]]
+
+B2 |  |
+  A |  | 1. 1-28. THE FORERUNNER.
+    B |  | 1. 29-34. THE BAPTISM: WITH WATER.
+[[group: -]]
+      C |  |
+        D |  | 1. 35—4. 54. THE KINGDOM
+          E |  | 5. 1—6. 71. THE KING
+[[group: PROCLAIMED.]]
+          E |  | 7. 1—11. 54-. THE KING
+        D |  | 11. -54—18. 1. THE KINGDOM
+[[group: REJECTED.]]
+    B |  | 18. 2—20. 31. THE BAPTISM: OF SUFFERING (DEATH, BURIAL, AND RESURRECTION).
+  A |  | 21. 1-25. THE SUCCESSORS.
+
+[[diagram: 1. 1-28 (A, p. 1510). The Forerunner (Repeated Alternation and Introversion)]]
+[[anchor: John 1:1-28]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 3]]
+
+A |  |
+  A1 |  |
+[[group: -]]
+    C1 | 1-3 | God.
+    D1 |  |
+      E1 | 4 | Life.
+      F1 | 5 | Reception.
+[[group: The Word.]]
+    B1 |  |
+[[group: -]]
+      G1 | 6 | Mission.
+      H1 | 7, 8 | Witness.
+[[group: John Baptist.]]
+  A2 |  |
+    D2 |  |
+[[group: -]]
+      E2 | 9 | Light.
+      F2 | 10-13 | Reception.
+    C2 | 14 | Man.
+[[group: The Word.]]
+    B2 |  |
+[[group: -]]
+      H2 | 15- | Witness.
+      G2 | -15 | Mission.
+[[group: John Baptist.]]
+  A3 |  |
+    D3 |  |
+[[group: -]]
+      E3 | 16- | Fullness.
+      F3 | -16, 17 | Reception.
+    C3 | 18 | Revealer of the Father.
+[[group: The Word.]]
+    B3 |  |
+[[group: -]]
+      G3 | 19- | Mission.
+      H3 | -19-28 | Record.
+[[group: John Baptist.]]
+
+[[diagram: 1. -19-28 (H3, p. 1512). John's Record (Alternation)]]
+[[anchor: John 1:19-28]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 5]]
+
+H3 |  |
+  J | -19-23 | Inquiries and Answers. "Who?"
+    K | 24 | Evangelist's parenthesis.
+  J | 25-27 | Inquiries and Answers. "Why?"
+    K | 28 | Evangelist's parenthesis.
+
+[[diagram: 1. 29-34 (B, p. 1510). Baptism: With Water (Repeated and Extended Alternations)]]
+[[anchor: John 1:29-34]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 5]]
+
+B |  |
+  L1 | 29, 30 | John's witness. "The Lamb of God".
+    M |  |
+      a | 31- | "I knew Him not".
+        b | -31- | John's baptism. Purpose stated.
+          c | -31 | Nature of it. "Water".
+  L2 | 32 | John's witness. "The Spirit".
+    M |  |
+      a | 33- | "I knew Him not".
+        b | -33- | Christ's baptism. Sign given.
+          c | -33 | Nature of it. "Spirit".
+  L3 | 34 | John's witness. "The Son of God".
+
+[[diagram: 1. 35—4. 54 (D, p. 1510). The First Period of the Lord's Ministry. Subject: The Proclamation of the Kingdom (Introversion)]]
+[[anchor: John 1:35]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 6]]
+
+D |  |
+  N |  | 1. 35—2. 12. Galilee.
+    O |  | 2. 13—3. 21. Jerusalem.
+    O |  | 3. 22—4. 3-. Judea.
+  N |  | 4. -3-54. Samaria and Galilee.
+
+[[diagram: 1. 35—2. 12 (N, above). Galilee (Division)]]
+[[anchor: John 1:35]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 6]]
+
+N |  |
+  P1 |  | 1. 35-51. The first Call. Manifestation of the Lord's grace.
+  P2 |  | 2. 1-12. The first Sign. Manifestation of the Lord's glory.
+
+[[diagram: 1. 35-51 (P1, above). The First Call. Manifestation of the Lord's Grace (Alternations)]]
+[[anchor: John 1:35-51]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 6]]
+
+P1 |  |
+  Q |  |
+    d1 | 35-39 | Call of Andrew. "The next day".
+      e1 | 40 | Parenthetic explanation.
+    d2 | 41, 42- | Call of Simon.
+      R | -42 | Characteristic.
+  Q |  |
+    d3 | 43 | Call of Philip. "The next day".
+      e2 | 44 | Parenthetic explanation.
+    d4 | 45, 46 | Call of Nathanael.
+      R | 47-51 | Characteristic.
+
+[[diagram: 2. 1-12 (P2, p. 1515). The First Sign. Manifestation of the Lord's Glory (Introversions)]]
+[[anchor: John 2:1-12]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 7]]
+
+P2 |  |
+  S | 1, 2 | The Sign. Occasion.
+    T |  |
+      f | 3, 4 | Need. Manifested.
+        g | 5 | Servants. Mary's direction.
+          U | 6 | The vessels.
+    T |  |
+      g | 7, 8 | Servants. The Lord's command.
+      f | 9, 10 | Need. Supplied.
+  S | 11, 12 | The Sign. Explanation.
+
+[[diagram: 2. 13—3. 21 (O, p. 1515). Jerusalem (Alternation)]]
+[[anchor: John 2:13]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 8]]
+
+O |  |
+  V |  | 2. 13. Passover at hand.
+    W |  | 2. 14-22. Event. Cleansing of the Temple.
+  V |  | 2. 23-25. Passover arrived.
+    W |  | 3. 1-21. Event. Colloquy with Nicodemus.
+
+[[diagram: 2. 14-22 (W, above). Event. Cleansing of the Temple (Alternation)]]
+[[anchor: John 2:14-22]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 8]]
+
+W |  |
+  h | 14-16 | Driving out. Action.
+    i | 17 | Disciples. Remembrance of Scripture.
+  h | 18-21 | Driving out. Questioned.
+    i | 22 | Disciples. Remembrance of Scripture.
+
+[[diagram: 3. 1-21 (W, p. 1517). Event. Colloquy with Nicodemus (Repeated Alternation)]]
+[[anchor: John 3:1-21]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 9]]
+
+W |  |
+  X1 | 1, 2 | Nicodemus. Admission.
+    Y1 | 3 | The Lord. Answer. Stated.
+  X2 | 4 | Nicodemus. Question. "How?"
+    Y2 | 5-8 | The Lord. Answer. Repeated.
+  X3 | 9 | Nicodemus. Question. "How?".
+    Y3 | 10-21 | The Lord. Answer. Confirmed.
+
+[[diagram: 3. 5-8 (Y2, above). The Lord. Answer. Repetition (Alternation)]]
+[[anchor: John 3:5-8]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 9]]
+
+Y2 |  |
+  j | 5 | Reference to question.
+    k | 6 | Explanation.
+  j | 7 | Reference to question.
+    k | 8 | Illustration.
+
+[[diagram: 3. 10-21 (Y3, p. 1518). The Lord. Answer. Confirmed (Alternation)]]
+[[anchor: John 3:10-21]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 10]]
+
+Y3 |  |
+  A | 10 | Expostulation. Ignorance.
+    B | 11 | Testimony. The Lord's.
+  A | 12 | Expostulation. Unbelief.
+    B | 13-21 | Testimony. The Evangelist's.
+
+[[diagram: 3. 13-21 (B, above). Testimony. The Evangelist's (Division)]]
+[[anchor: John 3:13-21]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 10]]
+
+B |  |
+  C1 | 13-17 | Salvation.
+  C2 | 18-21 | Condemnation.
+
+[[diagram: 3. 13-17 (C1, above). Salvation (Extended Alternation)]]
+[[anchor: John 3:13-17]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 10]]
+
+C1 |  |
+  D |  |
+    l | 13 | The Son of Man. His Person.
+      m | 14 | His lifting up. His death.
+        n | 15 | Belief. Life through Him.
+  D |  |
+    l | 16 | The only-begotten Son.
+      m | 17- | His mission.
+        n | -17 | Belief. Salvation through Him.
+
+[[diagram: 3. 18-21 (C2, 1519). Condemnation (Repeated Alternation)]]
+[[anchor: John 3:18-21]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 11]]
+
+C2 |  |
+  o1 | 18- | Believeth. Positive.
+    p1 | -18 | Believeth not. Negative.
+  o2 | 19 | Loving darkness. Positive and reason.
+    p2 | 20 | Not coming to the Light. Negative and reason.
+  o3 | 21 | Doing truth. Positive and reason.
+
+[[diagram: 3. 22—4. 2 (O, p. 1515). Judæa (Introversion)]]
+[[anchor: John 3:22]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 11]]
+
+O |  |
+  E |  | 3. 22-. Coming into Judæa.
+    F |  | 3. -22. The Lord. Baptizing.
+      G |  | 3. 23, 24. John. Baptizing.
+      G |  | 3. 25-36. John's disciples. Controversy.
+    F |  | 4. 1, 2. The Lord. Baptizing.
+  E |  | 4. 3-. Departing from Judæa.
+
+[[diagram: 3. 25-36 (G, above). John Baptist's Disciples. Controversy (Division)]]
+[[anchor: John 3:25-36]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 11]]
+
+G |  |
+  H1 | 25, 26 | The questioning.
+  H2 | 27-36 | The answer.
+
+[[diagram: 3. 27-36 (H2, above). John's Answer (Alternations)]]
+[[anchor: John 3:27-36]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 11]]
+
+H2 |  |
+  J | 27 | God the Giver of all to men.
+    K |  |
+      q | 28 | Contrast.
+        r | 29 | His voice.
+      q | 30 | Contrast.
+        r | 31-34 | His words.
+  J | 35 | God the Giver of all to Messiah.
+    K |  |
+      s | 36- | Belief on the Son.
+        t | -36- | Consequence. Everlasting life.
+      s | -36- | Rebellion against the Son.
+        t | -36 | Consequence. Abiding wrath.
+
+[[diagram: 4. -3-54 (N, p. 1515). Galilee (Division)]]
+[[anchor: John 4:3-54]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 12]]
+
+N |  |
+  L1 | -3-27- | The woman of Samaria.
+  L2 | -27-42 | The Disciples and the Samaritans.
+  L3 | 43-54 | The second sign.
+
+[[diagram: 4. -3-27- (L1, above). The Woman of Samaria (Division)]]
+[[anchor: John 4:3-27]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 12]]
+
+L1 |  |
+  M1 | -3-7- | The Circumstances.
+  M2 | -7-27- | The Colloquy.
+
+[[diagram: 4. -7-27- (M2, above). The Colloquy (Introversion and Repeated Alternation)]]
+[[anchor: John 4:7-27]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 12]]
+
+M2 |  |
+  N |  |
+    u | -7 | The Lord. Request. I.
+      v | 8 | Disciples. Gone away.
+  O |  |
+    w1 | 9 | The woman. "How?"
+      x1 | 10 | The Lord. "If thou knewest." II.
+    w2 | 11, 12 | The woman. "Whence?"
+      x2 | 13, 14 | The Lord. "I will give." III.
+    w3 | 15 | The woman. "Give me."
+      x3 | 16 | The Lord. "Go, call." IV.
+    w4 | 17- | The woman. "I have no husband."
+      x4 | -17, 18 | The Lord. "Well said." V.
+    w5 | 19, 20 | The woman. "Where to worship."
+      x5 | 21-24 | The Lord. "Believe Me." VI.
+    w6 | 25 | The woman. "Messiah cometh."
+  N |  |
+    u | 26 | The Lord. Declaration. "I am He." VII.
+      v | 27- | Disciples. Come back.
+
+[[diagram: 4. -27-42 (L2, p. 1521). The Disciples and the Samaritans (Extended Alternation and Introversion)]]
+[[anchor: John 4:27-42]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 14]]
+
+L2 |  |
+  P | -27 | The disciples. Marvelling. Silent.
+    Q | 28 | The city. The woman.
+      R | 29- | Her testimony.
+        S |  |
+          y | -29 | "Is not this the Messiah?"
+          z | 30 | Samaritans. Coming.
+  P | 31-38 | The disciples. Instructed. Silenced.
+    Q | 39- | The city. The men.
+      R | -39 | Her testimony.
+        S |  |
+          z | 40, 41 | Samaritans. Believing.
+          y | 42 | This is indeed the Messiah.
+
+[[diagram: 4. 43-54 (L3, p. 1521). The Second Sign (Introversion and Alternation)]]
+[[anchor: John 4:43-54]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 15]]
+
+L3 |  |
+  T | 43-46- | Departure from Judæa to Galilee.
+    U |  |
+      V |  |
+        a | -46, 47 | The father. Request.
+          b | 48 | The Lord. Answer.
+        a | 49 | The father. Request.
+          b | 50- | The Lord. Answer.
+      W | -50 | Belief.
+    U |  |
+      V |  |
+        c | 51- | The father. Return.
+          d | -51 | Servants' report.
+        c | 52- | The father. Inquiry.
+          d | -52 | Servants' reply.
+      W | 53 | Belief.
+  T | 54 | Departure from Judæa to Galilee.
+
+[[diagram: 5. 1—6. 71 (E, p. 1510). The Second Period of the Lord's Ministry. Subject: The Proclamation of the King (Division)]]
+[[anchor: John 5:1]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 15]]
+
+E |  |
+  X1 |  | 5. 1-47. In Jerusalem.
+  X2 |  | 6. 1-71. In Galilee.
+
+[[diagram: 5. 1-47 (X1, above). In Jerusalem (Division)]]
+[[anchor: John 5:1-47]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 15]]
+
+X1 |  |
+  Y1 | 1-15 | The Third Sign. The impotent Man.
+  Y2 | 16-47 | Consequent Conspiracy of, and Colloquy with, the Jews.
+
+[[diagram: 5. 1-15 (Y1, above). The Third Sign. The Impotent Man (Division)]]
+[[anchor: John 5:1-15]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 15]]
+
+Y1 |  |
+  Z1 | 1-7 | The occasion.
+  Z2 | 8-15 | The sign.
+
+[[diagram: 5. 1-7 (Z1, above). The Occasion (Division)]]
+[[anchor: John 5:1-7]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 15]]
+
+Z1 |  |
+  e1 | 1 | The time.
+  e2 | 2 | The place.
+  e3 | 3, 4 | The people.
+  e4 | 5-7 | The man.
+
+[[diagram: 5. 8-15 (Z2, p. 1524). The Sign (Alternation)]]
+[[anchor: John 5:8-15]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 16]]
+
+Z2 |  |
+  A | 8-11 | The Lord: seeking, and healing.
+    B | 12, 13 | The Jews. Question asked.
+  A | 14 | The Lord: finding, and saving.
+    B | 15 | The Jews. Question answered.
+
+[[diagram: 5. 8-11 (A, above). The Lord: Seeking and Healing (Introversion)]]
+[[anchor: John 5:8-11]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 16]]
+
+A |  |
+  f | 8 | "Take up thy bed and walk" (saith).
+    g | 9- | "The man was made whole."
+      h | -9- | "And took up his bed and walked."
+        i | -9 | "On the same day was the sabbath."
+        i | 10- | "It is the sabbath day."
+      h | -10 | "Not lawful to carry thy bed."
+    g | 11- | "He that made me whole" (said).
+  f | -11 | "Take up thy bed and walk."
+
+[[diagram: 5. 16-47 (Y2, p. 1524). Consequences. Conspiracy of, and Colloquy with, the Jews (Alternation)]]
+[[anchor: John 5:16-47]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 17]]
+
+Y2 |  |
+  C | 16 | Conspiracy. Made.
+    D | 17 | Defence. The Father and the Son.
+  C | 18 | Conspiracy. Increased.
+    D | 19-47 | Defence. The Father and the Son.
+
+[[diagram: 5. 19-47 (D, above). Defence. The Father and the Son (Alternation)]]
+[[anchor: John 5:19-47]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 17]]
+
+D |  |
+  E | 19, 20 | The Son's works are the Father's.
+    F | 21-29 | Proof. Communication.
+  E | 30 | The Son's works are the Father's.
+    F | 31-47 | Proof. Witnesses.
+
+[[diagram: 5. 21-29 (F, above). Proof. Communication (Introversion)]]
+[[anchor: John 5:21-29]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 17]]
+
+F |  |
+  G | 21 | Concerning quickening and resurrection.
+    H | 22, 23 | Concerning judgment.
+    H | 24 | Concerning judgment.
+  G | 25-29 | Concerning quickening and resurrection.
+
+[[diagram: 5. 25-29 (G, above). Concerning Quickening and Resurrection (Alternation)]]
+[[anchor: John 5:25-29]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 17]]
+
+G |  |
+  j | 25, 26 | Resurrection.
+    k | 27 | Judgment.
+  j | 28, 29- | Resurrection.
+    k | -29 | Judgment.
+
+[[diagram: 5. 31-47 (F, p. 1526). Proof, Witnesses (Introversion)]]
+[[anchor: John 5:31-47]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 18]]
+
+F |  |
+  J | 31-35 | The witness of John.
+    K | 36-38 | The Father's witness.
+      L | 39, 40 | The testimony of Scripture.
+    K | 41-44 | The Father's witness.
+  J | 45-47 | The witness of Moses.
+
+[[diagram: 6. 1-71 (X2, p. 1524). In Galilee (Division)]]
+[[anchor: John 6:1-71]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 19]]
+
+X2 |  |
+  M1 | 1-15 | The Fourth Sign. (The Feeding of the 5,000.)
+  M2 | 16-25 | The Fifth Sign. (The Walking on the Sea.)
+  M3 | 26-71 | The Signification of the Fourth and Fifth Signs.
+
+[[diagram: 6. 1-15 (M1, above). The Fourth Sign (Introversions and Alternation)]]
+[[anchor: John 6:1-15]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 19]]
+
+M1 |  |
+  N |  |
+    P |  |
+      f | 1, 2- | Crowd. Following.
+        g | -2 | Signs seen.
+    Q | 3, 4 | Departure to the mountain.
+  O | 5-13 | The Fourth Sign. (The Feeding of the 5,000.)
+  N |  |
+    P |  |
+        g | 14- | Sign seen.
+      f | -14 | Crowd. Confession.
+    Q | 15 | Departure to the mountain.
+
+[[diagram: 6. 5-13 (O, above). The Fourth Sign. (The Feeding of the 5,000.) (Alternation)]]
+[[anchor: John 6:5-13]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 19]]
+
+O |  |
+  R | 5 | Question to Philip.
+    S | 6 | Sign purposed.
+  R | 7-9 | Answer of Philip.
+    S | 10-13 | Sign performed.
+
+[[diagram: 6. 10-13 (S, above). Sign Performed (Alternation)]]
+[[anchor: John 6:10-13]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 19]]
+
+S |  |
+  T | 10 | Command to sit down.
+    U | 11 | Distribution.
+  T | 12 | Command to gather.
+    U | 13 | Gathering.
+
+[[diagram: 6. 16-25 (M2, p. 1528). The Fifth Sign (Introversion and Alternations)]]
+[[anchor: John 6:16-25]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 20]]
+
+M2 |  |
+  V |  |
+    j | 16 | At the sea. Disciples.
+      k | 17- | A boat (ploion).
+  W |  |
+    l | -17 | The Lord absent.
+      m | 18 | Sudden danger.
+  X |  |
+    n | 19- | The Lord seen.
+      o | -19 | "They were afraid."
+  X |  |
+    n | 20- | The Lord heard.
+      o | -20 | "Be not afraid."
+  W |  |
+    l | 21- | The Lord present.
+      m | -21 | The sudden safety.
+  V |  |
+    j | 22-24- | At the sea. Crowd.
+      k | -24, 25 | The boats (ploiaria).
+
+[[diagram: 6. 26-71 (M3, p. 1528). The Signification of the Fourth and Fifth Signs. Colloquies (Division)]]
+[[anchor: John 6:26-71]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 21]]
+
+M3 |  |
+  Z1 | 26-36 | With unbelievers.
+  Z2 | 37-59 | With believers.
+  Z3 | 60-71 | With disciples.
+
+[[diagram: 6. 26-36 (Z1, above). Colloquy with Unbelievers (Alternation)]]
+[[anchor: John 6:26-36]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 21]]
+
+Z1 |  |
+  A | 26, 27 | Bread: earthly.
+    B | 28, 29 | Belief.
+  A | 30-35 | Bread: heavenly.
+    B | 36 | Unbelief.
+
+[[diagram: 6. 30-35 (A, above). Bread: Heavenly (Alternation)]]
+[[anchor: John 6:30-35]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 21]]
+
+A |  |
+  C | 30, 31 | Request of Jews for sign.
+    D | 32, 33 | Answer. Bread from heaven.
+  C | 34 | Request of Disciples for thing signified.
+    D | 35 | Answer. Bread of life.
+
+[[diagram: 6. 37-59 (Z2, p. 1530). Colloquy with Believers (Alternation)]]
+[[anchor: John 6:37-59]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 22]]
+
+Z2 |  |
+[[group: -]]
+  E | 37-40 | The Father. His will.
+    F | 41, 42 | The Lord. Bread from heaven. Jews murmuring.
+  E | 43-47 | The Father. His action.
+    F | 48-59 | The Lord. Bread of life. Jews murmuring.
+[[group: The Signification of the Fourth Sign.]]
+
+[[diagram: 6. 48-59 (F, above). The Lord. Bread of Life (Introversion)]]
+[[anchor: John 6:48-59]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 22]]
+
+F |  |
+  p | 48-51- | The Sign.
+    q | -51 | The Signification.
+      r | 52 | The Jews. Contention.
+    q | 53-57 | The Signification.
+  p | 58, 59 | The Sign.
+
+[[diagram: 6. 60-71 (Z3, p. 1530). Colloquy: with Disciples]]
+[[anchor: John 6:60-71]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 23]]
+
+Z3 |  |
+  G |  |
+    s | 60 | Disciples. Murmuring.
+      t | 61-63 | The Lord's expostulation.
+        u | 64, 65 | Some unbelievers. One betrayer.
+  G |  |
+    s | 66 | Disciples. Defection.
+      t | 67-69 | The Lord's expostulation.
+        u | 70, 71 | Twelve chosen. One betrayer.
+
+[[diagram: 7. 1—11. 54- (E, p. 1510). The Third Portion of the Lord's Ministry. Subject: The Rejection of the King (Division)]]
+[[anchor: John 7:1]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 24]]
+
+E |  |
+  H1 |  | 7. 1-10. In Galilee.
+  H2 |  | 7. 11—11. 54-. In Jerusalem.
+
+[[diagram: 7. 1-10 (H1, above). In Galilee (Alternation)]]
+[[anchor: John 7:1-10]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 24]]
+
+H1 |  |
+  J | 1 | Galilee. Walk in.
+    K | 2-8 | Feast of Tabernacles.
+  J | 9 | Galilee. Continuance in.
+    K | 10 | Feast of Tabernacles.
+
+[[diagram: 7. 2-8 (K, above). Feast of Tabernacles (Introversion)]]
+[[anchor: John 7:2-8]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 24]]
+
+K |  |
+  L | 2-4 | The Lord's brethren. Their advice given.
+    M | 5 | Parenthetic remark concerning them.
+  L | 6-8 | The Lord's brethren. Their advice rejected.
+
+[[diagram: 7. 6-8 (L, above). The Lord's Brethren: Their Advice Rejected (Introversions)]]
+[[anchor: John 7:6-8]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 24]]
+
+L |  |
+  N |  |
+    v | 6- | Himself.
+      w | -6 | His brethren.
+        O | 7- | Brethren: not hated.
+        O | -7 | Himself: hated.
+  N |  |
+    w | 8- | His brethren.
+    v | -8 | Himself.
+
+[[diagram: 7. 11—11. 54- (H2, p. 1533). In Jerusalem (Alternation)]]
+[[anchor: John 7:11]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 25]]
+
+H2 |  |
+  P |  | 7. 11—8. 59. At the Feast of Tabernacles.
+    Q |  | 9. 1—10. 21. Subsequent events.
+  P |  | 10. 22-38. At the Feast of Dedication.
+    Q |  | 10. 39—11. 54-. Subsequent events.
+
+[[diagram: 7. 11—8. 59 (P, above). At the Feast of Tabernacles (Repeated Alternations)]]
+[[anchor: John 7:11]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 25]]
+
+P |  |
+  R1 |  | 7. 11-13. The Lord. Immune.
+    S1 |  | 7. 14-30-. Colloquy with Jews.
+  R2 |  | 7. -30, 31. The Lord. Immune.
+    S2 |  | 7. 32-43. Colloquy with Pharisees and others.
+  R3 |  | 7. 44—8. 1. The Lord. Immune.
+    S3 |  | 8. 2-20-. Colloquy with Scribes and Pharisees.
+  R4 |  | 8. -20. The Lord. Immune.
+    S4 |  | 8. 21-59-. Colloquy with Scribes and Pharisees.
+  R5 |  | 8. -59. The Lord. Immune.
+
+[[diagram: 7. 14-30- (S1, above). Colloquy with Jews (Repeated Alternation)]]
+[[anchor: John 7:14-30]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 25]]
+
+S1 |  |
+  T1 | 14 | The Lord. Teaching.
+    U1 | 15 | Jews. Marvel.
+  T2 | 16-19 | The Lord. Answer.
+    U2 | 20 | Jews. Accusation.
+  T3 | 21-24 | The Lord. Answer.
+    U3 | 25-27 | Jews. Objection.
+  T4 | 28, 29 | The Lord. Answer.
+    U4 | 30 | Jews. Action.
+
+[[diagram: 7. 32-43 (S2, p. 1534). Colloquy with Pharisees and Others (Repeated Alternation)]]
+[[anchor: John 7:32-43]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 26]]
+
+S2 |  |
+  V1 | 32 | Pharisees. Among themselves.
+    W1 | 33, 34 | The Lord. Answering their thoughts.
+  V2 | 35, 36 | Jews. Among themselves.
+    W2 | 37-39 | The Lord. Anticipating the people's thoughts.
+  V3 | 40-43 | The people. Among themselves.
+
+[[diagram: 7. 44—8. 1 (R3, p. 1534). The Lord. Immune (Introversion and Repeated Alternation)]]
+[[anchor: John 7:44]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 27]]
+
+R3 |  |
+  X | 44 | The Lord. Immune.
+    Y1 |  |
+      x1 | 45- | Return of officers.
+        y1 | -45 | Pharisees' Question.
+      x2 | 46 | Answer of officers.
+        y2 | 47-49 | Pharisees' Question.
+      x3 | 50, 51 | Protest of Nicodemus.
+        y3 | 52 | Pharisees' Question.
+  X |  | 7. 53; 8. 1. The Lord. Immune.
+
+[[diagram: 8. 2-20- (S3, p. 1534). Colloquy with Scribes and Pharisees (Introversion)]]
+[[anchor: John 8:2-20]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 27]]
+
+S3 |  |
+  A | 2 | Place. The Temple.
+    B | 3-11 | Scribes and Pharisees. Temptation.
+    B | 12-19 | Scribes and Pharisees. Their rebuke.
+  A | -20 | Place. The Temple.
+
+[[diagram: 8. 3-11 (B, above). Scribes and Pharisees. Temptation (Alternation)]]
+[[anchor: John 8:3-11]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 27]]
+
+B |  |
+  C | 3 | The woman brought.
+    D | 4-9- | Condemned.
+  C | -9 | The woman left.
+    D | 10, 11 | Uncondemned.
+
+[[diagram: 8. 4-9- (D, p. 1536). Condemned (Introversion and Alternation)]]
+[[anchor: John 8:4-9]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 28]]
+
+D |  |
+  E | 4 | Accusation.
+    F |  |
+      a | 5, 6- | Question asked.
+        b | -6 | The Lord. Inattention.
+    F |  |
+      a | 7 | Question answered.
+        b | 8 | The Lord. Inattention.
+  E | 9- | Conviction.
+
+[[diagram: 8. 12-19 (B, p. 1536). Scribes and Pharisees. Their Rebuke (Repeated Alternation)]]
+[[anchor: John 8:12-19]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 28]]
+
+B |  |
+  G1 | 12 | The Lord. Declaration.
+    H1 | 13 | Pharisees. Objection.
+  G2 | 14-18 | The Lord. Refutation.
+    H2 | 19- | Pharisees. Question.
+  G3 | -19 | The Lord. Rebuke.
+
+[[diagram: 8. 21-59- (S4, p. 1534). Colloquy with Scribes and Pharisees (Repeated Alternation)]]
+[[anchor: John 8:21-59]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 29]]
+
+S4 |  |
+  c1 | 21 | The Lord. Declaration. "I go".
+    d1 | 22 | The Jews. Misconception.
+  c2 | 23, 24 | The Lord. Declaration.
+    d2 | 25- | The Jews. Question.
+  c3 | -25, 26 | The Lord. Declaration.
+    d3 | 27 | The Jews. Not understanding.
+  c4 | 28, 29 | The Lord. Declaration.
+    d4 | 30 | The Jews. Result. Many believing.
+  c5 | 31, 32 | The Lord. Promise.
+    d5 | 33 | The Jews. Assertion.
+  c6 | 34-38 | The Lord. Denial.
+    d6 | 39- | The Jews. Assertion.
+  c7 | -39-41- | The Lord. Counter Assertion.
+    d7 | -41 | The Jews. Denial.
+  c8 | 42-47 | The Lord. Accusation.
+    d8 | 48 | The Jews. Counter Accusation.
+  c9 | 49-51 | The Lord. Denial and Declaration.
+    d9 | 52, 53 | The Jews. Accusation and Question.
+  c10 | 54-56 | The Lord. Counter Accusation.
+    d10 | 57 | The Jews. Assertion and Question.
+  c11 | 58 | The Lord. Revelation.
+    d11 | 59- | The Jews. Hostility.
+
+[[diagram: 8. 47. He that, &c. (Introversion)]]
+[[anchor: John 8:47]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 30]]
+
+e |  |
+  f |  | He that is of God
+    g |  | heareth God's words:
+    g |  | ye therefore hear them not,
+  f |  | because ye are not of God.
+
+[[diagram: 9. 1—10. 21 (Q, p. 1534). Subsequent Events (Alternation)]]
+[[anchor: John 9:1]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 31]]
+
+Q |  |
+  J |  | 9. 1-38. The Sixth Sign.
+    K |  | 9. 39-41. Charge of the Lord against Pharisees.
+  J |  | 10. 1-18. Signification of the Sign.
+    K |  | 10. 19-21. Charge of the Jews against the Lord.
+
+[[diagram: 9. 1-38 (J, above). The Sixth Sign (Alternations)]]
+[[anchor: John 9:1-38]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 31]]
+
+J |  |
+  L | 1, 2 | The Sign. Occasion.
+    M | 3-5 | The Purpose of the Sign.
+  L | 6, 7 | The Sign. Wrought.
+    M | 8-38 | The Consequence of the Sign.
+
+[[diagram: 9. 8-38 (M, p. 1540). The Consequence of the Sign (Introversion)]]
+[[anchor: John 9:8-38]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 32]]
+
+M |  |
+  N | 8-12 | The neighbours and the man.
+    O | 13-17 | The Pharisees and the man.
+      P | 18-23 | The parents and the man.
+    O | 24-34 | The Pharisees and the man.
+  N | 35-38 | The Lord and the man.
+
+[[diagram: 10. 1-18 (J, p. 1540). Signification of the Sign (Introversion and Extended Alternation)]]
+[[anchor: John 10:1-18]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 33]]
+
+J |  |
+  Q |  |
+    S | 1- | The Door.
+      T | -1 | The Thief and Robber.
+        U | 2-5 | The Shepherd.
+[[group: The Parable.]]
+  R | 6 | Parable heard, but not understood.
+[[group: -]]
+  Q |  |
+    S | 7-9 | The Door.
+      T | 10 | Thieves and Robbers.
+        U | 11-18 | The Good Shepherd.
+[[group: The Interpretation.]]
+
+[[diagram: 10. 11-18 (U, p. 1542). The Good Shepherd (Alternation)]]
+[[anchor: John 10:11-18]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 34]]
+
+U |  |
+  V | 11 | Laying down His life.
+    W | 12 | Other shepherds.
+      X | 14, 15 | His and His Father's knowledge.
+    W | 16 | Other sheep.
+  V | 17, 18 | Laying down His life.
+
+[[diagram: 10. 14, 15 (X, above). His and His Father's Knowledge (Introversion)]]
+[[anchor: John 10:14-15]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 34]]
+
+X |  |
+  h | 14- | I am the good shepherd,
+    i | -14- | and know My sheep,
+      k | -14 | and am known of Mine.
+      k | 15- | As the Father knoweth Me,
+    i | -15- | even so know I the Father:
+  h | -15 | and I lay down My life for the sheep.
+
+[[diagram: 10. 22-38 (P, p. 1534). At the Feast of Dedication (Repeated Alternation)]]
+[[anchor: John 10:22-38]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 35]]
+
+P |  |
+  l1 | 22-24 | The Jews. Question.
+    m1 | 25-30 | The Lord. Answer.
+  l2 | 31 | The Jews. Stoning.
+    m2 | 32 | The Lord. Answer.
+  l3 | 33 | The Jews. Stoning.
+    m3 | 34-38 | The Lord. Answer.
+
+[[diagram: 10. 39—11. 54- (Q, p. 1534). Subsequent Events (Introversion and Alternation)]]
+[[anchor: John 10:39]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 35]]
+
+Q |  |
+  Y |  |
+    A |  | 10. 39. Desire to take Him.
+      B |  | 10. 40-42. The Lord escapes.
+  Z |  | 11. 1-46. The Seventh Sign. The Raising of Lazarus.
+  Y |  |
+    A |  | 11. 47-53. Counsel to take Him.
+      B |  | 11. 54-. The Lord escapes.
+
+[[diagram: 11. 1-46 (Z, p. 1544). The Seventh Sign. The Raising of Lazarus (Extended Alternation)]]
+[[anchor: John 11:1-46]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 36]]
+
+Z |  |
+  C | 1, 2 | The Sign. Occasion.
+    D | 3-5 | The purpose. The glory of God.
+  C | 6-44 | The Sign. Performance.
+    D | 45, 46 | The Consequences. Belief of some and opposition of others.
+
+[[diagram: 11. 6-44 (C, above). The Sign. Performance (Division)]]
+[[anchor: John 11:6-44]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 36]]
+
+C |  |
+  E1 | 6-16 | Departure of the Lord.
+  E2 | 17-44 | Arrival of the Lord.
+
+[[diagram: 11. 6-16 (E1, above). Departure, etc. (Extended Alternation)]]
+[[anchor: John 11:6-16]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 36]]
+
+E1 |  |
+  F |  |
+    G | 6 | Days (lit.). Abode.
+      H | 7 | The Lord's proposal. "Let us go."
+        J | 8 | Disciples. Dissuasion.
+  F |  |
+    G | 9, 10 | Day (fig.). Work.
+      H | 11-15 | The Lord's proposal. "Let us go."
+        J | 16 | Disciples. Acquiescence.
+
+[[diagram: 11. 17-44 (E2, p. 1545). The Arrival, etc. (Extended Alternation)]]
+[[anchor: John 11:17-44]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 37]]
+
+E2 |  |
+  K |  |
+    L | 17, 18 | Arrival near Bethany.
+      M | 19 | The Jews present.
+        N | 20-22 | Martha.
+          O | 23-27 | Resurrection. Promise.
+  K |  |
+    L | 28-30 | Arrival near Bethany.
+      M | 31 | The Jews present.
+        N | 32 | Mary.
+          O | 33-44 | Resurrection. Performance.
+
+[[diagram: 11. 23-27 (O, above). The Lord's Promise (Alternation)]]
+[[anchor: John 11:23-27]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 37]]
+
+O |  |
+  P | 23 | The Lord's promise (Lazarus).
+    Q | 24 | Martha (knowledge).
+  P | 25, 26- | The Lord's promise (all believers).
+    Q | -26, 27 | Martha (belief).
+
+[[diagram: 11. 25, 26- (P, above). The Lord's Promise (Alternation)]]
+[[anchor: John 11:25-26]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 37]]
+
+P |  |
+  R | 25- | Resurrection "I am", &c.
+    S | -25- | Life.
+[[group: Declaration concerning Himself.]]
+  R | -25 | Resurrection for dead saints.
+    S | 26- | Life for living ones.
+[[group: Declaration concerning His own.]]
+
+[[diagram: 11. 33-44 (O, p. 1546). Resurrection. Performance (Alternations)]]
+[[anchor: John 11:33-44]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 38]]
+
+O |  |
+  T1 |  |
+    n | 33, 34- | The Lord. Groaning.
+      o | -34 | The Jews. Answer.
+    n | 35 | The Lord. Weeping.
+      o | 36 | The Jews. Remark.
+        U | 37 | What some said.
+  T2 |  |
+    p | 38- | The Lord. Groaning.
+      q | -38 | The grave described.
+    p | 39- | The Lord. Command.
+      q | -39 | The dead described.
+        U | 40 | What the Lord said.
+  T3 |  |
+    r | 41- | Lazarus. Dead.
+      s | -41, 42 | The Lord. Request.
+    r | 43, 44- | Lazarus. Called.
+      s | -44 | The Lord. Command.
+
+[[diagram: 11. 47-53 (A, p. 1544). Counsel to Take Him (Alternation)]]
+[[anchor: John 11:47-53]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 39]]
+
+A |  |
+  V | 47- | The Chief Priests. Council.
+    W | -47, 48 | Consultation.
+  V | 49- | The High Priest (Caiaphas).
+    W | -49-53 | Decision.
+
+[[diagram: 11. -54—18. 1 (D, p. 1510). The Ministry. Fourth Period (Alternation)]]
+[[anchor: John 11:54]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 39]]
+
+D |  |
+  X1 |  | 11. -54. Departure. Ephraim.
+    Y1 |  | 11. 55—12. 19. Hostility manifested.
+      Z1 |  | 12. 20-36-. Greeks. The hour come. Glorification.
+  X2 |  | 12. -36. Departure. Concealment.
+    Y2 |  | 12. 37-50. Hostility explained.
+      Z2 |  | 13. 1—17. 26. Disciples. The hour come. Glorification.
+  X3 |  | 18. 1. Departure. Gethsemane.
+
+[[diagram: 11. 55—12. 19 (Y1, above). Hostility Manifested (Alternation)]]
+[[anchor: John 11:55]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 39]]
+
+Y1 |  |
+  A1 |  | 11. 55, 56. Passover. People. Concourse.
+    B1 |  | 11. 57. Hostility. Chief Priests' command.
+  A2 |  | 12. 1-9. Passover. Bethany. Anointing.
+    B2 |  | 10, 11. Hostility. Chief Priests' counsel.
+  A3 |  | 12-18. Passover. People. Meeting.
+    B3 |  | 19. Hostility. Chief Priests' perplexity.
+
+[[diagram: 12. 1-9 (A2, p. 1548). Bethany (Introversion and Alternation)]]
+[[anchor: John 12:1-9]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 40]]
+
+A2 |  |
+  C | 1, 2 | The Lord and Lazarus (ek nekron).
+    D |  |
+      E | 3 | The Anointing. Act.
+        F | 4-6 | Objection. Made.
+    D |  |
+      E | 7 | The Anointing. Purpose.
+        F | 8 | Objection. Refuted.
+  C | 9 | The Lord and Lazarus (ek nekron).
+
+[[diagram: 12. 12-18 (A3, p. 1548). Passover. People. Meeting (Introversion and Alternation)]]
+[[anchor: John 12:12-18]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 40]]
+
+A3 |  |
+  G |  |
+    J | 12, 13- | People. Meeting.
+      K | -13 | Praise.
+        H | 14 | Entry. The Act.
+        H | 15, 16 | Entry. The Prophecy.
+  G |  |
+    K | 17 | Testimony.
+    J | 18 | People. Reason of Meeting.
+
+[[diagram: 12. 20—36- (Z1, p. 1548). Greeks. The Hour Come. Glorification (Alternation)]]
+[[anchor: John 12:20-36]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 41]]
+
+Z1 |  |
+  L | 20-23- | The hour is come.
+    M | -23 | Glorification.
+      N | 24 | Death.
+        O | 25, 26 | Words to Disciples.
+  L | 27 | The hour is come.
+    M | 28-31 | Glorification.
+      N | 32, 33 | Death.
+        O | 34-36 | Words to people.
+
+[[diagram: 12. 37-50 (Y2, p. 1548). Hostility Explained (Division)]]
+[[anchor: John 12:37-50]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 42]]
+
+Y2 |  |
+  P1 | 37-43 | Unbelief and Belief. John's Explanation.
+  P2 | 44-50 | Belief and Unbelief. The Lord's Explanation.
+
+[[diagram: 12. 37-43 (P1, above). Unbelief and Belief (Introversion and Repeated Alternation)]]
+[[anchor: John 12:37-43]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 42]]
+
+P1 |  |
+  Q | 37 | Unbelief.
+    R |  |
+      t1 | 38 | Isaiah. Citation.
+        u1 | 39- | Consequence.
+      t2 | -39, 40- | Isaiah. Citation.
+        u2 | -40 | Consequence.
+      t3 | 41 | Isaiah. Occasion.
+  Q | 42, 43 | Belief.
+
+[[diagram: 12. 44-50 (P2, p. 1551). Belief and Unbelief (Repeated Alternation)]]
+[[anchor: John 12:44-50]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 43]]
+
+P2 |  |
+  S1 | 44, 45 | Belief in the Son.
+    T1 | 46 | Blessing.
+  S2 | 47- | Non-belief in the Son.
+    T2 | -47 | Judgment, not of the Son.
+  S3 | 48- | Rejection of the Son.
+    T3 | -48 | Judgment by the Father.
+  S4 | 49, 50 | Rejection of the Father.
+
+[[diagram: 13. 1—17. 26 (Z2, p. 1548). Disciples. The Hour Come. Glorification (Division)]]
+[[anchor: John 13:1]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 43]]
+
+Z2 |  |
+  U1 |  | 13. 1—16. 33. The Lord. Communication to His Disciples.
+  U2 |  | 17. 1-26. The Lord. Prayer to the Father.
+
+[[diagram: 13. 1—16. 33 (U1, above). Communication to His Disciples (Alternation)]]
+[[anchor: John 13:1]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 43]]
+
+U1 |  |
+  V |  | 13. 1-38. Cleansing. Washing.
+    W |  | 14. 1-31. Return to the Father.
+  V |  | 15. 1—16. 4. Cleansing. Pruning.
+    W |  | 16. 5-33. Return to the Father.
+
+[[diagram: 13. 1-38 (V, p. 1552). Cleansing. Washing (Alternation and Introversion)]]
+[[anchor: John 13:1-38]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 44]]
+
+V |  |
+  X |  |
+    v | 1- | The Hour come.
+      w | -1- | Return to the Father.
+        x | -1 | Love to His Disciples.
+          y | 2 | Judas. Betrayal.
+  Y1 |  |
+    z1 | 3-10- | Washing. Act.
+      a1 | -10, 11 | The Traitor. Knowledge.
+  Y2 |  |
+    z2 | 12-17 | Washing. Example.
+      a2 | 18, 19 | The Traitor. Communication.
+  Y3 |  |
+    z3 | 20 | Reception.
+      a3 | 21-30 | The Traitor. Revelation.
+  X |  |
+    v | 31, 32 | The Hour come.
+      w | 33 | Return to the Father.
+        x | 34, 35 | Disciples. Love to one another.
+          y | 36-38 | Peter. Denial.
+
+[[diagram: 14. 1-31 (W, p. 1552). Return to the Father (Alternation)]]
+[[anchor: John 14:1-31]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 46]]
+
+W |  |
+  Z1 |  |
+    B1 | 1 | Comfort. Coming again.
+      C1 | 2-7 | Return to the Father. Purpose.
+        A1 |  |
+          D1 | 8-11 | Question and Answer. Manifestation.
+            E1 | 12-17 | Communications.
+  Z2 |  |
+    B2 | 18 | Comfort. Coming again.
+      C2 | 19-21 | Return to the Father. Promise.
+        A2 |  |
+          D2 | 22-24 | Question and Answer. Manifestation.
+            E2 | 25-27- | Communications.
+  Z3 |  |
+    B3 | -27, 28- | Comfort. Coming again.
+      C3 | -28-31 | Return to the Father.
+
+[[diagram: 15. 1—16. 4 (V, p. 1552). Cleansing. Pruning (Division)]]
+[[anchor: John 15:1]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 48]]
+
+V |  |
+  F1 |  | 15. 1-17. Love manifested and commanded.
+  F2 |  | 15. 18—16. 4. Hatred foretold and experienced.
+
+[[diagram: 15. 1-17 (F1, above). Love Manifested and Commanded (Alternation)]]
+[[anchor: John 15:1-17]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 48]]
+
+F1 |  |
+  G1 |  |
+    b | 1-3 | The Vine and its branches. Pruning.
+      c | 4 | Fruitfulness.
+    b | 5- | The Vine and its branches. Abiding.
+      c | -5-7 | Fruitfulness.
+        H1 | 8 | Purpose. The Father glorified.
+  G2 |  |
+    d | 9- | The Father's love to the Son.
+      e | -9- | The Son's love to Disciples.
+    d | -9, 10- | Disciples abiding in Son's love.
+      e | -10 | Son abiding in Father's love.
+        H2 | 11 | Purpose. Joy.
+  G3 |  |
+    f | 12- | Command. Love one another.
+      g | -12, 13 | Example.
+    f | 14 | Commands for friends.
+      g | 15, 16 | Proof of friendship.
+        H3 | 17 | Purpose. Love one another.
+
+[[diagram: 15. 18—16. 4 (F2, p. 1557). Hatred Foretold and Experienced (Introversion and Alternation)]]
+[[anchor: John 15:18]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 50]]
+
+F2 |  |
+  J |  |
+    h |  | 15. 18-20. The World's hatred to Disciples.
+      i |  | 15. 21. Reason.
+    h |  | 15. 22-24. The World's hatred to Christ.
+      i |  | 15. 25. Reason.
+  K |  |
+    l1 |  | 15. 26. The Spirit's testimony.
+    l2 |  | 15. 27. The Disciples' testimony.
+    l3 |  | 16. 1. The Lord's warning.
+  J |  |
+    j |  | 16. 2. The World's hatred manifested.
+      k |  | 16. 3. Reason.
+    j |  | 16. 4-. The World's hatred foretold.
+      k |  | 16. -4. Reason.
+
+[[diagram: 16. 5-33 (W, p. 1552). Return to the Father (Alternation)]]
+[[anchor: John 16:5-33]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 51]]
+
+W |  |
+  L | 5- | Return to the Father.
+[[group: -]]
+    M |  |
+      N | -5, 6 | Disciples. Silence and Sorrow.
+        O | 7 | Promise of Holy Spirit to Disciples.
+      N | 8-11 | Mission of Holy Spirit to the World.
+        O | 12-15 | Mission of Holy Spirit to the Disciples.
+[[group: Explanations.]]
+  L | 16 | Return to the Father.
+[[group: -]]
+    M |  |
+      P | 17, 18 | Disciples. Inquiry.
+        Q | 19-28 | The Lord's Answer.
+      P | 29, 30 | Disciples. Certainty.
+        Q | 31-33 | The Lord's Answer.
+[[group: Explanations.]]
+
+[[diagram: 16. 19-28 (Q, p. 1560). The Lord's Answer (Introversion)]]
+[[anchor: John 16:19-28]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 52]]
+
+Q |  |
+  R | 19-22 | Departure and Return.
+    S | 23, 24 | Their prayer in that day.
+      T | 25- | Speaking no longer in proverbs. (Neg.)
+      T | -25 | Speaking plainly. (Pos.)
+    S | 26, 27 | Their prayer at that day.
+  R | 28 | First Coming and Departure.
+
+[[diagram: 17. 1-26 (U2, p. 1552). The Lord's Prayer to the Father (Introversion and Alternation)]]
+[[anchor: John 17:1-26]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 53]]
+
+U2 |  |
+  V |  |
+    Y | 1-5 | The Glorification of the Son.
+      Z |  |
+        m | 6 | I have manifested Thy name.
+          n | 7, 8 | The Son sent by the Father and recognized.
+  W | 9-11 | Disciples. One "as We are".
+  X |  |
+    A | 12 | "I kept them."
+      B |  |
+        o | 13 | Purpose of the Lord's words.
+          p | 14- | Thy Word given.
+            q | -14 | They not of the world.
+  X |  |
+    A | 15 | "Thou . . . keep them."
+      B |  |
+        q | 16 | They not of the world.
+        p | 17 | Thy Word. Truth.
+        o | 18, 19 | Purpose of the Lord's work.
+  W | 20-23 | Disciples. Those who believe through them. One "as We are".
+  V |  |
+    Y | 24 | The glory of the Son.
+      Z |  |
+        n | 25 | The Son sent by the Father recognized.
+        m | 26 | I have declared Thy name.
+
+[[diagram: 17. 1-5 (Y, above). The Glorification of the Son (Introversion)]]
+[[anchor: John 17:1-5]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 53]]
+
+Y |  |
+  r | 1- | Glorification of the Son by the Father.
+    s | -1 | Glorification of the Father by the Son.
+      t | 2 | Eternal Life. A Gift.
+      t | 3 | Eternal Life. Its purpose.
+    s | 4 | Glorification of the Father by the Son.
+  r | 5 | Glorification of the Son by the Father.
+
+[[diagram: 17. 20-23 (W, p. 1562). Disciples. Those Who Believe through Them. One "As We Are" (Extended Alternation)]]
+[[anchor: John 17:20-23]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 54]]
+
+W |  |
+  u | 20, 21- | Unity.
+    v | -21- | Comparison.
+      w | -21- | Unity.
+        x | -21 | Purpose.
+  u | 22- | Unity.
+    v | -22 | Comparison.
+      w | 23- | Unity.
+        x | -23 | Purpose.
+
+[[diagram: 18. 1—20. 31 (B, p. 1510). Death, Burial, and Resurrection (Division)]]
+[[anchor: John 18:1]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 55]]
+
+B |  |
+  A1 |  | 18. 1—19. 30. Death. Events leading up to it.
+  A2 |  | 19. 31-42. Burial.
+  A3 |  | 20. 1-31. Resurrection.
+
+[[diagram: 18. 1—19. 30 (A1, above). Death (Introversion)]]
+[[anchor: John 18:1]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 55]]
+
+A1 |  |
+  B |  | 18. 1-11. The Arrest.
+    C |  | 18. 12-27. Trial before Annas.
+    C |  | 18. 28—19. 16. Trial before Pilate.
+  B |  | 19. 17-30. The Crucifixion.
+
+[[diagram: 18. 1-11 (B, above). The Arrest (Division)]]
+[[anchor: John 18:1-11]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 55]]
+
+B |  |
+  y | 1-3 | Judas. Treachery.
+    z | 4-9 | The Lord. Avowal.
+  y | 10 | Peter. Zeal.
+    z | 11 | The Lord. Resignation.
+
+[[diagram: 18. 12-27 (C, p. 1564). Trial before Annas and Caiaphas (Alternation)]]
+[[anchor: John 18:12-27]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 56]]
+
+C |  |
+  D | 12-14 | The Lord led away to Annas.
+    E | 15-18 | Peter. Denial.
+  D | 19-24 | The Lord examined by Annas.
+    E | 25-27 | Peter. Denial.
+
+[[diagram: 18. 28—19. 16 (C, p. 1564). Trial before Pilate (Alternation)]]
+[[anchor: John 18:28]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 57]]
+
+C |  |
+  F |  |
+    H1 |  | 18. 28-32. Pilate and the Jews.
+      J |  | 18. 33-38-. Examination by Pilate.
+    H2 |  | 18. -38-40. Pilate. Release proposed.
+      G |  | 19. 1-3. Scourging.
+  F |  |
+    H3 |  | 19. 4-7. Pilate and the Jews. No fault.
+      J |  | 19. 8-11. Further examination.
+    H4 |  | 19. 12-14. Pilate. Release sought.
+      G |  | 19. 15, 16. Deliverance to death.
+
+[[diagram: 19. 17-30 (B, p. 1564). Crucifixion (Introversion)]]
+[[anchor: John 19:17-30]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 58]]
+
+B |  |
+  K | 17 | Delivered to death.
+    L |  |
+      b | 18 | Fellow-sufferers.
+        c | 19-22 | Discussion. Pilate and the Jews.
+        c | 23, 24 | Discussion. The soldiers.
+      b | 25-27 | Fellow-sufferers.
+    L |  |
+      d | 28 | Saying. "I thirst."
+        e | 29 | Vinegar. Given.
+        e | 30- | Vinegar. Received.
+      d | -30- | Saying. "It is finished."
+  K | -30 | Death.
+
+[[diagram: 19. 31-42 (A2, p. 1564). Burial (Alternation)]]
+[[anchor: John 19:31-42]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 59]]
+
+A2 |  |
+  M | 31 | Removal of bodies proposed.
+    N | 32-37 | Bodies dishonoured.
+  M | 38, 39 | Removal of the Body effected.
+    N | 40-42 | The Body honoured.
+
+[[diagram: 20. 1-31 (A3, p. 1564). Resurrection (Division)]]
+[[anchor: John 20:1-31]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 60]]
+
+A3 |  |
+  O1 | 1-18 | Events. Morning.
+  O2 | 19-31 | Events. Evening.
+
+[[diagram: 20. 1-18 (O1, above). Events. Morning (Introversion)]]
+[[anchor: John 20:1-18]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 60]]
+
+O1 |  |
+  P | 1, 2 | Report of Mary.
+    Q | 3-10 | Peter and John.
+  P | 11-17 | Mary alone.
+    Q | 18 | Report of Mary.
+
+[[diagram: 20. 19-31 (O2, p. 1570). Events. Evening (Alternation)]]
+[[anchor: John 20:19-31]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 61]]
+
+O2 |  |
+  R | 19-23 | Appearance to the Ten.
+    S | 24, 25 | Belief that rests on sight.
+  R | 26-29 | Appearance to the Eleven.
+    S | 30, 31 | Belief that rests on the Word.
+
+[[diagram: 20. 19-23 (R, above). Appearance, etc. (Alternation)]]
+[[anchor: John 20:19-23]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 61]]
+
+R |  |
+  f | 19 | Peace.
+    g | 20 | Gladness.
+  f | 21 | Peace.
+    g | 22, 23 | Power.
+
+[[diagram: 21. 1-25 (A, p. 1510). The Successors (Alternation)]]
+[[anchor: John 21:1-25]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 62]]
+
+A |  |
+  T1 | 1 | Manifestation of the Lord.
+    U | 2-13 | Miracle.
+  T2 | 14 | Manifestation of the Lord.
+    U | 15-23 | Ministry.
+  T3 | 24, 25 | Witness to the Lord.
+
+[[diagram: 21. 2-13 (U, above). Miracle (Division)]]
+[[anchor: John 21:2-13]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 62]]
+
+U |  |
+  V1 | 2-6 | Appearance of the Lord. Unknown.
+  V2 | 7-13 | Appearance of the Lord. Known.
+
+[[diagram: 21. 2-6 (V1, above). Appearance, &c. (Alternation and Introversion)]]
+[[anchor: John 21:2-6]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 62]]
+
+V1 |  |
+  X | 2 | Disciples. Alone.
+    Y |  |
+      h | 3- | Fishing.
+      i | -3 | Failure. "Nothing."
+  X | 4 | Disciples. The Lord present.
+    Y |  |
+      i | 5 | Failure. "No meat."
+      h | 6 | Fishing.
+
+[[diagram: 21. 7-13 (V2, p. 1572). Appearance, &c. (Alternation and Introversion)]]
+[[anchor: John 21:7-13]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 63]]
+
+V2 |  |
+  Z |  |
+    k | 7 | Recognition by John.
+    l | 8 | Fish caught.
+    A | 9 | Provision made.
+  Z |  |
+    l | 10, 11 | Fish brought.
+    k | 12 | Recognition by all.
+    A | 13 | Provision enjoyed.
+
+[[diagram: 21. 15-23 (U, p. 1572). Ministry (Division)]]
+[[anchor: John 21:15-23]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 64]]
+
+U |  |
+  B1 | 15-19 | The future of Peter.
+  B2 | 20-23 | The future of John.
+
+[[diagram: 21. 15-19 (B1, above). The Future of Peter (Repeated Alternation)]]
+[[anchor: John 21:15-19]]
+[[pdf: 39. John_text.pdf]]
+[[pdf-page: 64]]
+
+B1 |  |
+  C1 | 15- | Question.
+    D1 | -15 | Command.
+  C2 | 16- | Question.
+    D2 | -16 | Command.
+  C3 | 17- | Question.
+    D3 | -17 | Command.
+  C4 | 18, 19- | Prediction.
+    D4 | -19 | Command.

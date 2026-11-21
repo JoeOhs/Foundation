@@ -1,0 +1,1556 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Mark
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/37. Mark_text.pdf, printed pp. 1381-);
+# [[pdf-page:]] is the page of that file each diagram is on. Notation:
+# README.md here. Small-capital words are written in title case.
+#
+# The book Structure's D block carries two braces: PROCLAIMED / REJECTED
+# on each pair, and one outer brace over all four, "THE FOURFOLD MINISTRY
+# OF THE LORD". The notation has one brace per line, so the inner two are
+# kept and the outer one is recorded here only.
+
+[[diagram: Mark. The Structure of the Book as a Whole. "Behold My Servant" (Isa. 42. 1) (Introversion)]]
+[[anchor: Mark 1:1]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 1]]
+
+B1 |  |
+  A |  | 1. 1-8. THE FORERUNNER.
+    B |  | 1. 9-11. THE BAPTISM: WITH WATER.
+      C |  | 1. 12, 13. THE TEMPTATION: IN THE WILDERNESS.
+[[group: -]]
+        D |  |
+          E |  | 1. 14-20. THE KINGDOM
+            F |  | 1. 21—8. 30. THE KING
+[[group: PROCLAIMED.]]
+            F |  | 8. 31—10. 52. THE KING
+          E |  | 11. 1—14. 25. THE KINGDOM
+[[group: REJECTED.]]
+      C |  | 14. 26-42. THE AGONY: IN THE GARDEN.
+    B |  | 14. 43—16. 14. THE BAPTISM: OF SUFFERING (DEATH, BURIAL, AND RESURRECTION).
+  A |  | 16. 15-20. THE SUCCESSORS.
+
+[[diagram: 1. 1-8 (A, p. 1381). The Forerunner (Introversion)]]
+[[anchor: Mark 1:1-8]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 2]]
+
+A |  |
+  A | 1-3 | Prophecy. By God, of John.
+    B | 4, 5 | John. His mission.
+    B | 6 | John. His person.
+  A | 7, 8 | Prophecy. By John, of Christ.
+
+[[diagram: 1. 9-11 (B, p. 1381). The Baptism: with Water (Introversion)]]
+[[anchor: Mark 1:9-11]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 2]]
+
+B |  |
+  C | 9 | The Lord. His coming to John.
+    D | 10- | Seen. The heavens opening.
+    D | -10 | Seen. The Dove descending.
+  C | 11 | The Lord. The Voice coming to Him.
+
+[[diagram: 1. 12, 13 (C, p. 1381). The Temptation: in the Wilderness (Introversion)]]
+[[anchor: Mark 1:12-13]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 3]]
+
+C |  |
+  E | 12 | The Spirit. Compulsion.
+    F | 13- | Satan. Temptations.
+    F | -13- | Wild beasts. Companionship.
+  E | -13 | The Angels. Ministration.
+
+[[diagram: 1. 14—14. 25 (D, p. 1381). The Lord's Fourfold Ministry (See Ap. 119) (Introversion)]]
+[[anchor: Mark 1:14]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 3]]
+
+D |  |
+  E |  | 1. 14-20. The First Period. Subject: The Proclamation of The Kingdom.
+    F |  | 1. 21—8. 30. The Second Period. Subject: The Proclamation of The King. His Person.
+    F |  | 8. 31—10. 52. The Third Period. Subject: The Rejection of The King.
+  E |  | 11. 1—14. 25. The Fourth Period. Subject: The Rejection of The Kingdom.
+
+[[diagram: 1. 14-20 (E, above). The First Period of the Ministry. The Kingdom Proclaimed (Division)]]
+[[anchor: Mark 1:14-20]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 3]]
+
+E |  |
+  G1 | 14, 15 | The Proclamation of the Kingdom.
+  G2 | 16-20 | The Calling of Four Disciples.
+
+[[diagram: 1. 16-20 (G2, above). The Calling of Four Disciples (Extended Alternation)]]
+[[anchor: Mark 1:16-20]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 3]]
+
+G2 |  |
+  a | 16 | Two brethren. Simon and Andrew.
+    b | 17 | Their call.
+      c | 18 | Their obedience.
+  a | 19 | Two brethren. James and John.
+    b | 20- | Their call.
+      c | -20 | Their obedience.
+
+[[diagram: 1. 21—8. 30 (F, above). The Second Period of the Lord's Ministry: the Proclamation of the King. His Person (See Ap. 119) (Repeated Alternation)]]
+[[anchor: Mark 1:21]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 3]]
+
+F |  |
+  H1 |  | 1. 21—2. 12. Teaching and Miracles.
+    J1 |  | 2. 13-22. Call of Levi.
+  H2 |  | 2. 23—3. 12. Teaching and Miracles.
+    J2 |  | 3. 13-19-. Calling of the Twelve.
+  H3 |  | 3. -19—6. 6. Teaching and Miracles.
+    J3 |  | 6. 7-30. Mission of the Twelve.
+  H4 |  | 6. 31—8. 30. Teaching and Miracles.
+
+[[diagram: 1. 21—2. 12 (H1, above). Teaching and Miracles (Repeated Alternation)]]
+[[anchor: Mark 1:21]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 3]]
+
+H1 |  |
+  K1 |  | 1. 21, 22. Teaching. With authority as Lord.
+    L1 |  | 1. 23-34. Miracles: Unclean spirit (23-28); Fever (29-31); Many (32-34).
+  K2 |  | 1. 35-39. Teaching, and exercising authority.
+    L2 |  | 1. 40-45. Miracle: The Leper.
+  K3 |  | 2. 1, 2. Teaching. The Word of God.
+    L3 |  | 2. 3-12. Miracle: Palsy, and Divine Act. Forgiveness of sins.
+
+[[diagram: 2. 13-22 (J1, p. 1383). The Call of Levi (Division)]]
+[[anchor: Mark 2:13-22]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 5]]
+
+J1 |  |
+  M1 | 13, 14 | The Lord's Call.
+  M2 | 15-22 | Levi's feast.
+
+[[diagram: 2. 15-22 (M2, p. 1385). Levi's Feast (Alternation)]]
+[[anchor: Mark 2:15-22]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 6]]
+
+M2 |  |
+  d | 15, 16 | Question of Pharisees.
+    e | 17 | Answer. Proverb.
+  d | 18 | Question of John's disciples.
+    e | 19-22 | Answer. Proverbs.
+
+[[diagram: 2. 23—3. 12 (H2, p. 1383). Teaching and Miracles (Division)]]
+[[anchor: Mark 2:23]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 6]]
+
+H2 |  |
+  N1 |  | 2. 23-28. Teaching.
+  N2 |  | 3. 1-12. Miracles.
+[[group: "Lord of the Sabbath."]]
+
+[[diagram: 2. 23-28 (N1, above). Teaching (Introversion)]]
+[[anchor: Mark 2:23-28]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 6]]
+
+N1 |  |
+  f | 23- | The Sabbath Day.
+    g | -23 | Disciples. Action of.
+    g | 24 | Disciples. Objection to.
+  f | 25-28 | The Sabbath Day.
+
+[[diagram: 3. 1-12 (N2, p. 1386). Miracle (Introversion)]]
+[[anchor: Mark 3:1-12]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 7]]
+
+N2 |  |
+  O | 1 | Miracle of the hand withered.
+    P | 2 | Enemies watching.
+      Q | 3-5 | The hand healed.
+    P | 6 | Enemies plotting.
+  O | 7-12 | Miracles. Many.
+
+[[diagram: 3. 7-12 (O, above). Miracles. Many (Alternation)]]
+[[anchor: Mark 3:7-12]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 7]]
+
+O |  |
+  h | 7- | The Sea. Withdrawal to.
+    i | -7, 8 | Multitudes following.
+  h | 9- | The Ship. Order concerning.
+    i | -9-12 | Multitudes healed.
+
+[[diagram: 3. 13-19- (J2, p. 1383). The Mission of the Twelve (Introversion)]]
+[[anchor: Mark 3:13-19]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 8]]
+
+J2 |  |
+  j | 13 | The Twelve. Their Calling.
+[[group: -]]
+    k | 14- | To be with Him.
+    k | -14, 15 | To be sent forth.
+[[group: The purpose.]]
+  j | 16-19- | The Twelve. Their naming.
+
+[[diagram: 3. -19—6. 6 (H3, p. 1383). Teaching and Miracles (Introversion)]]
+[[anchor: Mark 3:19]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 8]]
+
+H3 |  |
+  R |  | 3. -19—4. 34. Teaching.
+    S |  | 4. 35—5. 43. Miracles.
+  R |  | 6. 1-6. Teaching.
+
+[[diagram: 3. -19—4. 34 (R, p. 1388). Teaching (Extended Alternation)]]
+[[anchor: Mark 3:19]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 8]]
+
+R |  |
+  T |  | 3. -19. Place. In the house.
+    U |  | 3. 20. Concourse.
+      V |  | 3. 21-33. The Lord with friends and enemies.
+  T |  | 4. 1-. Place. By the seaside.
+    U |  | 4. -1. Concourse.
+      V |  | 4. 2-34. The Lord with His disciples.
+
+# 3.21-33: the last Z prints two steps right of h; set one level in.
+[[diagram: 3. 21-33 (U, above). The Lord with Friends and Enemies (Introversions and Alternation)]]
+[[anchor: Mark 3:21-35]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 8]]
+
+V |  |
+  W |  |
+    Y |  |
+      h | 21- | His kinsfolk. Hearing report.
+        i | -21- | Their setting out. Object.
+          Z | -21 | Their disparagement of Him.
+[[group: -]]
+            X |  |
+              j | 22- | First charge.
+                k | -22 | Second charge.
+[[group: The Scribes: their charge.]]
+            X |  |
+                k | 23-27 | Second charge.
+              j | 28-30 | First charge.
+[[group: The Lord: His reply.]]
+  W |  |
+    Y |  |
+        i | 31- | Their arrival.
+      h | -31, 32 | His kinsfolk. Sending message.
+        Z | 33-35 | His disparagement of them.
+
+# 4.2-34: the last B prints two steps right of C; set one level in.
+[[diagram: 4. 2-34 (U, p. 1388). The Lord with His Disciples (Alternation and Introversion)]]
+[[anchor: Mark 4:2-34]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 9]]
+
+V |  |
+  A |  |
+    C | 2 | Parabolic instruction.
+      D | 3-9 | Parable. The Sower.
+        B | 10-25 | Alone with disciples. Expounding.
+  A |  |
+      D | 26-32 | Parable. The Seeds.
+    C | 33, 34- | Parabolic instruction.
+# B is printed two steps right of C here (level with the first B); set one level in
+      B | -34 | Alone with disciples. Expounding.
+
+[[diagram: 4. 3-9 (D, above). Parable. The Sower (Introversion)]]
+[[anchor: Mark 4:3-9]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 9]]
+
+D |  |
+  l | 3- | Call to hearken.
+    m | -3-8 | The Parable.
+  l | 9 | Call to hearken.
+
+[[diagram: 4. 10-25 (B, p. 1389). Alone with Disciples. Answering (Introversion and Alternation)]]
+[[anchor: Mark 4:10-25]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 10]]
+
+B |  |
+  E |  |
+    n | 10, 11 | Hearers. Discrimination.
+      o | 12, 13 | Hearing and not understanding.
+        F | 14-20 | Interpretation of Parable.
+  E |  |
+    n | 21, 22 | Teachers. Discrimination.
+      o | 23-25 | Hearing and understanding.
+
+[[diagram: 4. 26-32 (D, p. 1389). Parables. The Seeds (Extended Alternation)]]
+[[anchor: Mark 4:26-32]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 11]]
+
+D |  |
+  G |  |
+    p | 26- | The kingdom of God.
+      q | -26-28 | Seeds. General.
+        r | 29 | Fruit brought forth.
+[[group: The seed growing secretly.]]
+  G |  |
+    p | 30 | The kingdom of God.
+      q | 31 | Seed. Particular.
+        r | 32 | The tree grown up.
+[[group: The mustard seed.]]
+
+[[diagram: 4. 35—5. 43 (S, p. 1388). Miracles (Introversion and Alternation)]]
+[[anchor: Mark 4:35]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 11]]
+
+S |  |
+  H |  |
+    L |  | 4. 35, 36. Departure to east side.
+      M |  | 4. 37-41. Miracle. Tempest stilled.
+        J |  |
+          N |  | 5. 1. Landing.
+            O |  | 5. 2-10. Miracle. Demoniac.
+              K |  | 5. 11-13. The Swine. Demons. First Prayer.
+              K |  | 5. 14-17. The inhabitants. Second Prayer.
+        J |  |
+          N |  | 5. 18-. Embarkation.
+            O |  | 5. -18-20. Miracle. Demoniac. Third Prayer.
+  H |  |
+    L |  | 5. 21. Return to west side.
+      M |  | 5. 22-43. Miracles: Jairus' daughter, and Woman.
+
+[[diagram: 4. 37-41 (M, above). Miracle. Tempest Stilled (Alternation)]]
+[[anchor: Mark 4:37-41]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 11]]
+
+M |  |
+  s | 37, 38- | Storm arising.
+    t | -38 | Disciples alarmed.
+  s | 39 | Storm calmed.
+    t | 40, 41 | Disciples reproved.
+
+[[diagram: 5. 2-10 (O, p. 1391). Miracle. The Demoniac (Introversion)]]
+[[anchor: Mark 5:2-10]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 12]]
+
+O |  |
+  u | 2 | The meeting.
+    v | 3- | Abode. Among the tombs.
+      w | -3 | None could bind him.
+        x | 4- | Fetters often used.
+          y | -4- | And chains also.
+          y | -4- | But chains broken.
+        x | -4- | Fetters broken in pieces.
+      w | -4 | None could tame him.
+    v | 5 | Abode. Among the tombs.
+  u | 6-10 | The meeting.
+
+[[diagram: 5. 6-10 (u, above). The Meeting (Introversion)]]
+[[anchor: Mark 5:6-10]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 12]]
+
+u |  |
+  a | 6, 7 | Worship.
+    b | 8 | Unclean spirit. Command.
+    b | 9 | Unclean spirit. Name.
+  a | 10 | Prayer.
+
+[[diagram: 5. 11-13 (K, p. 1391). The Swine (Introversion)]]
+[[anchor: Mark 5:11-13]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 12]]
+
+K |  |
+  c | 11 | Swine feeding.
+    d | 12, 13- | The demons. Prayer made.
+    d | -13- | The demons. Prayer answered.
+  c | -13 | Swine choked.
+
+[[diagram: 5. 14-17 (K, p. 1391). The Inhabitants. Prayer (Alternation)]]
+[[anchor: Mark 5:14-17]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 12]]
+
+K |  |
+  e | 14- | Report of the swineherds.
+    f | -14, 15 | Citizens. Observation made.
+  e | 16 | Report of the hearers.
+    f | 17 | Citizens. Prayer made.
+
+[[diagram: 5. 22-43 (M, p. 1391). Miracles (Alternations)]]
+[[anchor: Mark 5:22-43]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 13]]
+
+M |  |
+  P |  |
+    g | 22 | Jairus.
+      h | 23 | His assurance expressed.
+[[group: -]]
+        Q |  |
+          i | 24 | The throng.
+            k | 25-28 | The Woman's action.
+              l | 29 | The Lord. Miracle.
+          i | 30-32 | The throng.
+            k | 33 | The Woman's confession.
+              l | 34 | The Lord. Approval.
+[[group: The Woman.]]
+  P |  |
+    g | 35 | Jairus. Messengers from house.
+      h | 36 | His encouragement received.
+[[group: -]]
+        Q |  |
+          m | 37 | Those accompanying. Apostles.
+            n | 38, 39- | Into the house.
+              o | -39 | The Lord. Declaration.
+                p | 40- | Derision.
+          m | -40- | Those accompanying. Relations.
+            n | -40 | Into the chamber.
+              o | 41, 42- | The Lord. Miracle.
+                p | -42, 43 | Astonishment.
+[[group: Jairus's daughter.]]
+
+[[diagram: 6. 1-6 (R, p. 1388). Teaching (Introversion and Alternation)]]
+[[anchor: Mark 6:1-6]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 14]]
+
+R |  |
+  R |  |
+    q | 1 | His own country.
+      r | 2- | Teaching. (Positive.)
+        S |  |
+          s | -2 | Astonished.
+            t | 3- | His kindred.
+          s | -3 | Stumbled.
+  R |  |
+    q | 4 | His own country.
+      r | 5, 6 | Mighty works. (Negative.)
+
+[[diagram: 6. 7-30 (J3, p. 1383). Mission of the Twelve Begun, and John's Ended (Introversion and Alternation)]]
+[[anchor: Mark 6:7-30]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 15]]
+
+J3 |  |
+  T | 7-13 | Mission of the Twelve begun.
+[[group: -]]
+    U | 14 | Herod hears of the Lord.
+      V | 15 | John. Opinion of others.
+      V | 16 | John. Opinion of Herod.
+    U | 17-29 | Herod beheads John.
+[[group: Mission of John ended.]]
+  T | 30 | Mission of the Twelve reported.
+
+[[diagram: 6. 7-13 (T, above). Mission of the Twelve Begun (Introversions)]]
+[[anchor: Mark 6:7-13]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 15]]
+
+T |  |
+  W |  |
+    u | 7- | The Twelve called and sent.
+      v | -7 | Authority given.
+[[group: -]]
+        X |  |
+          w | 8, 9 | Journey:
+            x | 10 | Reception:
+        X |  |
+            x | 11- | Rejection:
+          w | -11 | Departure:
+[[group: Instructions.]]
+  W |  |
+    u | 12 | The Twelve going and proclaiming.
+      v | 13 | Authority exercised.
+
+[[diagram: 6. 17-29 (U, above). Herod Beheads John (Introversions)]]
+[[anchor: Mark 6:17-29]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 15]]
+
+U |  |
+  Y |  |
+    y | 17- | Herod. Apprehension of John.
+      z | -17, 18 | Reason. For the sake of Herodias.
+        Z |  |
+          a | 19 | Herodias's quarrel.
+            b | 20 | Her failure.
+        Z |  |
+            b | 21-23 | Her opportunity.
+          a | 24, 25 | Herodias's quarrel.
+  Y |  |
+      z | 26 | Reason. For the sake of his promise.
+    y | 27-29 | Herod. Execution of John.
+
+[[diagram: 6. 31—8. 30 (H4, p. 1383). Teaching and Miracles (Repeated Alternation)]]
+[[anchor: Mark 6:31]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 16]]
+
+H4 |  |
+  A1 |  | 6. 31-34. Teaching. Multitudes.
+    B1 |  | 6. 35-56. Miracles.
+  A2 |  | 7. 1-23. Teaching. Pharisees.
+    B2 |  | 7. 24—8. 9. Miracles.
+  A3 |  | 8. 10-21. Teaching. Pharisees.
+    B3 |  | 8. 22-26. Miracle.
+  A4 |  | 8. 27-30. Teaching. Disciples.
+
+[[diagram: 6. 31-34 (A1, above). Teaching. Multitudes (Repeated Alternation)]]
+[[anchor: Mark 6:31-34]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 16]]
+
+A1 |  |
+  y1 | 31- | Concourse. Proposal.
+    z1 | -31 | Reason of Proposal.
+  y2 | 32 | Concourse. Proposal attempted.
+    z2 | 33 | Reason of Failure.
+  y3 | 34 | Concourse. Teaching.
+
+[[diagram: 6. 35-56 (B1, above). Miracles (Alternations)]]
+[[anchor: Mark 6:35-56]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 16]]
+
+B1 |  |
+  C1 | 35-44 | Miracle. Feeding the Five Thousand.
+    D1 |  |
+      a | 45 | Departure.
+        b | 46, 47 | Alone.
+  C2 | 48-52 | Miracle. Walking on the Sea.
+    D2 |  |
+      a | 53 | Departure.
+        b | 54 | Recognized.
+  C3 | 55, 56 | Miracles. Many.
+
+[[diagram: 6. 35-44 (C1, above). Miracle. Feeding the Five Thousand (Repeated Alternation)]]
+[[anchor: Mark 6:35-44]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 16]]
+
+C1 |  |
+  c1 | 35, 36 | Disciples. "Send them away to buy."
+    d1 | 37- | The Lord. "Give ye."
+  c2 | -37, 38 | Disciples. "Shall we buy?"
+    d2 | 39-42 | The Lord. "Gave them".
+  c3 | 43, 44 | Disciples. Gathering up twelve baskets.
+
+[[diagram: 6. 48-52 (C2, p. 1396). Miracle. Walking on the Sea (Alternation)]]
+[[anchor: Mark 6:48-52]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 17]]
+
+C2 |  |
+  e | 48- | The wind contrary.
+    f | 48-51- | Miracle. Wrought.
+  e | -51- | The wind. Ceased.
+    f | -51, 52 | Miracle. Effect.
+
+[[diagram: 7. 1-23 (A2, p. 1396). Teaching. Pharisees (Division)]]
+[[anchor: Mark 7:1-23]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 18]]
+
+A2 |  |
+  E1 | 1-13 | Pharisees. Condemnation.
+  E2 | 14-16 | People. Proclamation.
+  E3 | 17-23 | Disciples. Instruction.
+
+[[diagram: 7. 1-13 (E1, above). Pharisees. Condemnation (Introversion)]]
+[[anchor: Mark 7:1-13]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 18]]
+
+E1 |  |
+  g | 1, 2 | Cavil of Pharisees. Made.
+    h | 3, 4 | Their Question. Reason.
+    h | 5 | Their Question. Asked.
+  g | 6-13 | Cavil of Pharisees. Answered.
+
+[[diagram: 7. 14-16 (E2, above). People. Proclamation (Introversion)]]
+[[anchor: Mark 7:14-16]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 18]]
+
+E2 |  |
+  i | 14 | Call to hearken.
+    k | 15- | Defilement is not from without.
+    k | -15 | Defilement is from within.
+  i | 16 | Call to hearken.
+
+[[diagram: 7. 17-23 (E3, p. 1398). Disciples. Instruction (Introversion and Alternation)]]
+[[anchor: Mark 7:17-23]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 19]]
+
+E3 |  |
+  F | 17 | Question asked.
+    G |  |
+      l | 18 | Defilement is not from without.
+        m | 19 | Reason.
+    G |  |
+      l | 20 | Defilement is from within.
+        m | 21, 22 | Reason.
+  F | 23 | Question answered.
+
+[[diagram: 7. 24—8. 9 (B2, p. 1396). Miracles (Repeated Alternation)]]
+[[anchor: Mark 7:24]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 19]]
+
+B2 |  |
+  H1 |  | 7. 24. Place.
+    J1 |  | 7. 25-30. Miracle. Syrophenician Woman.
+  H2 |  | 7. 31. Place.
+    J2 |  | 7. 32-37. Miracle. Deaf and Dumb Man.
+  H3 |  | 8. 1. Time and Place.
+    J3 |  | 8. 2-9. Miracle. Feeding the Four Thousand.
+
+[[diagram: 7. 25-30 (J1, above). Miracle. The Syrophenician Woman (Repeated Alternation)]]
+[[anchor: Mark 7:25-30]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 19]]
+
+J1 |  |
+  n1 | 25, 26 | The Woman. Coming.
+    o1 | 27 | The Lord. Delay.
+  n2 | 28 | The Woman. Understanding.
+    o2 | 29 | The Lord. Healing.
+  n3 | 30 | The Woman. Returning.
+
+[[diagram: 7. 32-37 (J2, p. 1399). Miracle. The Deaf and Dumb Man (Repeated Alternation)]]
+[[anchor: Mark 7:32-37]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 20]]
+
+J2 |  |
+  p | 32 | The people. Beseeching.
+    q | 33-35 | Compliance.
+  p | 36- | The people. Enjoined.
+    q | -36, 37 | Non-compliance, and astonishment.
+
+[[diagram: 8. 2-9 (J3, p. 1399). Miracle. Feeding the Four Thousand (Repeated Alternation)]]
+[[anchor: Mark 8:2-9]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 20]]
+
+J3 |  |
+  r1 | 2, 3 | The Lord. Compassion.
+    s1 | 4 | Disciples. Question.
+  r2 | 5- | The Lord. Question.
+    s2 | -5 | Disciples. Answer.
+  r3 | 6, 7 | The Lord. Miracle.
+    s3 | 8, 9 | People. Filled.
+
+[[diagram: 8. 10-21 (A3, p. 1396). Teaching. Pharisees and Disciples (Alternations)]]
+[[anchor: Mark 8:10-21]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 21]]
+
+A3 |  |
+  K | 10 | Departure to Dalmanutha.
+[[group: -]]
+    L |  |
+      t | 11- | The Lord. Questioned.
+        u | -11 | Pharisees. Sign sought.
+      t | 12- | The Lord. Troubled.
+        u | -12 | Pharisees. Sign refused.
+[[group: Pharisees.]]
+  K | 13 | Return to the other side.
+[[group: -]]
+    L |  |
+      v | 14 | Disciples. Forgetfulness.
+        w | 15 | Leaven. Warning.
+      v | 16 | Disciples. Reasoning.
+        w | 17-21 | Leaven. Instruction.
+[[group: Disciples.]]
+
+[[diagram: 8. 22-26 (B3, p. 1396). Miracle. Blind Man (Introversion and Alternation)]]
+[[anchor: Mark 8:22-26]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 21]]
+
+B3 |  |
+  M |  |
+    x | 22 | Blind man brought.
+      y | 23- | Town (Bethsaida) avoided.
+        N |  |
+          z | -23 | First application.
+            a | 24 | Partial restoration.
+        N |  |
+          z | 25- | Second application.
+            a | -25 | Perfect restoration.
+  M |  |
+    x | 26- | Blind man dismissed.
+      y | -26 | Town (Bethsaida) to be avoided.
+
+[[diagram: 8. 27-30 (A4, p. 1396). Teaching (Repeated Alternation)]]
+[[anchor: Mark 8:27-30]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 22]]
+
+A4 |  |
+  b1 | 27 | The Lord. Question: "Who say men?"
+    c1 | 28 | Disciples. Answer.
+  b2 | 29- | The Lord. Question: "Who say ye?"
+    c2 | -29 | Disciples. Answer (Peter).
+  b3 | 30 | The Lord. Charge.
+
+[[diagram: 8. 31—10. 52 (F, p. 1381). The Third Period of the Lord's Ministry: the Rejection of the King (Introversion and Alternations)]]
+[[anchor: Mark 8:31]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 22]]
+
+F |  |
+  O |  |
+    R |  | 8. 31—9. 13. Sufferings. First Announcement.
+      S |  | 9. 14-29. Miracle. Demoniac.
+        P |  |
+          T |  | 9. 30-32. Sufferings. Second Announcement.
+            U |  | 9. 33-50. Discipleship.
+              Q |  |
+                V |  | 10. 1-12. Question. Pharisees.
+                  W |  | 10. 13-16. Discipleship.
+              Q |  |
+                V |  | 10. 17-25. Question. Rich young man.
+                  W |  | 10. 26-31. Discipleship.
+        P |  |
+          T |  | 10. 32-34. Sufferings. Third Announcement.
+            U |  | 10. 35-44. Discipleship.
+  O |  |
+    R |  | 10. 45. Sufferings. Fourth Announcement.
+      S |  | 10. 46-52. Miracle. Blind man.
+
+[[diagram: 8. 31—9. 13 (R, above). Sufferings. First Announcement (Division)]]
+[[anchor: Mark 8:31]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 22]]
+
+R |  |
+  X1 |  | 8. 31—9. 1. Sufferings and glory. Foretold.
+  X2 |  | 9. 2-10. Sufferings and glory. Foreshown.
+  X3 |  | 9. 11-13. Sufferings and glory. Explained.
+
+[[diagram: 8. 31—9. 1 (X1, above). Sufferings and Glory. Foretold (Introversion and Alternation)]]
+[[anchor: Mark 8:31]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 22]]
+
+X1 |  |
+  Y |  |
+    d |  | 8. 31-. Sufferings.
+      e |  | 8. -31. Glory.
+[[group: His own.]]
+        Z |  | 8. 32. Peter. Rebukes the Lord.
+        Z |  | 8. 33. Peter. Rebuked by the Lord.
+[[group: -]]
+  Y |  |
+    d |  | 8. 34-38-. Sufferings.
+      e |  | 8. -38—9. 1. Glory.
+[[group: His disciples.]]
+
+[[diagram: 9. 2-10 (X2, p. 1402). Sufferings and Glory. Foreshown (Introversion)]]
+[[anchor: Mark 9:2-10]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 23]]
+
+X2 |  |
+  f | 2- | Ascent. Disciples taken up.
+    g | -2-4 | Vision. The Lord, Moses, and Elijah.
+      h | 5, 6 | Voice of Peter.
+      h | 7 | Voice of the Father.
+    g | 8 | Vision ended. The Lord alone.
+  f | 9, 10 | Descent. Disciples charged.
+
+[[diagram: 9. 11-13 (X3, p. 1402). Sufferings and Glory. Explained (Introversion and Alternation)]]
+[[anchor: Mark 9:11-13]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 23]]
+
+X3 |  |
+  A | 11 | What the Scribes were saying.
+    B |  |
+      i | 12- | The Lord. Admission.
+        k | -12 | Prophecy concerning Himself.
+    B |  |
+      i | 13- | The Lord. Addition.
+        k | -13- | Prophecy concerning Elijah.
+  A | -13 | What is written in the Scripture.
+
+[[diagram: 9. 14-29 (S, p. 1402). Miracle. Demoniac (Introversion and Alternations)]]
+[[anchor: Mark 9:14-29]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 24]]
+
+S |  |
+  C |  |
+    l | 14-16 | Inquiry by the Lord. Of the Scribes.
+      m | 17, 18 | Inability of Disciples. Complaint.
+        D |  |
+          n1 | 19 | The Lord. Complaint and Command.
+            o1 | 20 | Father. Obedience.
+          n2 | 21- | The Lord. Question.
+            o2 | -21, 22 | Father. Answer.
+          n3 | 23 | The Lord. Question.
+            o3 | 24 | Father. Answer.
+          n4 | 25-27 | The Lord. Miracle.
+  C |  |
+    l | 28 | Inquiry by the Disciples. Of the Lord.
+      m | 29 | Inability of Disciples. Explained.
+
+[[diagram: 9. 33-50 (U, p. 1402). Discipleship (Introversion and Alternation)]]
+[[anchor: Mark 9:33-50]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 25]]
+
+U |  |
+  E |  |
+    G | 33 | Event. Disciples. Disputing.
+      H | 34 | Silence and Reason.
+        F | 35 | Instruction.
+        F | 36, 37 | Illustration.
+  E |  |
+    G | 38 | Event. A disciple rebuking.
+      H | 39-50 | Speech. Answer and Reason.
+
+[[diagram: 9. 39-50 (H, above). Speech. Answer and Reason (Introversion and Alternation)]]
+[[anchor: Mark 9:39-50]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 25]]
+
+H |  |
+  J |  |
+    p | 39, 40 | General.
+      q | 41, 42 | Particular.
+[[group: -]]
+        K1 | 43, 44 | Hand.
+        K2 | 45, 46 | Foot.
+        K3 | 47, 48 | Eye.
+[[group: Stumbling-blocks.]]
+  J |  |
+    p | 49, 50- | General.
+      q | -50 | Particular.
+
+[[diagram: 10. 1-12 (V, p. 1402). Question. Pharisees (Introversion)]]
+[[anchor: Mark 10:1-12]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 26]]
+
+V |  |
+  L | 1 | The Lord. Teaching.
+    M | 2- | Question of Pharisees.
+      N | -2 | Temptation.
+        O | 3 | What did Moses say?
+        O | 4 | What Moses said.
+      N | 5-9 | Confutation.
+    M | 10 | Question of Disciples.
+  L | 11, 12 | The Lord. Teaching.
+
+[[diagram: 10. 13-16 (W, p. 1402). Discipleship. Children Brought (Introversion)]]
+[[anchor: Mark 10:13-16]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 26]]
+
+W |  |
+  r | 13- | Request. Made.
+    s | -13 | Rebuke of Disciples.
+    s | 14, 15 | Encouragement of the Lord.
+  r | 16 | Request. Complied with.
+
+[[diagram: 10. 17-24 (V, p. 1402). Question. The Rich Young Man (Introversion and Alternation)]]
+[[anchor: Mark 10:17-24]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 27]]
+
+V |  |
+  P |  |
+    t | 17 | Question of one to the Lord.
+      u | 18 | Question of the Lord.
+        Q |  |
+          v | 19 | Answer of the Lord. "Do all."
+            w | 20 | Young man. Response.
+        Q |  |
+          v | 21 | Answer of the Lord. Do these.
+            w | 22 | Young man. Effect.
+  P |  |
+      u | 23 | Comment of the Lord.
+    t | 24 | Answer of the Lord to Disciples.
+
+[[diagram: 10. 26-31 (W, p. 1402). Discipleship (Alternation)]]
+[[anchor: Mark 10:26-31]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 27]]
+
+W |  |
+  x | 26 | Disciples. Question: "Who?" asked.
+    y | 27 | The Lord. Answer: Possible and Impossible.
+  x | 28 | Disciples. Question: [What?] (implied).
+    y | 29-31 | The Lord's Answer.
+
+[[diagram: 10. 32-34 (T, p. 1402). Sufferings. Third Announcement (Alternation)]]
+[[anchor: Mark 10:32-34]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 27]]
+
+T |  |
+  a | 32- | Jerusalem.
+    b | -32 | Announcement.
+  a | 33- | Jerusalem.
+    b | -33, 34 | Announcement.
+
+[[diagram: 10. 35-44 (U, p. 1402). Discipleship (Repeated Alternation)]]
+[[anchor: Mark 10:35-44]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 28]]
+
+U |  |
+  c1 | 35 | Disciples. Request of Two.
+    d1 | 36 | The Lord. Inquiry.
+  c2 | 37 | Disciples. Definition by the Two.
+    d2 | 38 | The Lord. Answer and Question.
+  c3 | 39- | Disciples. Answer of the Two.
+    d3 | -39, 40 | The Lord. Answer. Non-compliance.
+  c4 | 41 | Disciples. The Ten. Indignation.
+    d4 | 42 | The Lord. Teaching and Illustration.
+
+[[diagram: 10. 46-52 (S, p. 1402). Miracle. Blind Man (Introversion)]]
+[[anchor: Mark 10:46-52]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 28]]
+
+S |  |
+  e | 46 | Blind man sitting by the way.
+    f | 47, 48 | Request for healing.
+      g | 49- | Command.
+        h | -49- | Encouragement from the Lord.
+        h | -49 | Encouragement from the people.
+      g | 50 | Obedience.
+    f | 51, 52- | Compliance and healing.
+  e | -52 | Blind man following in the way.
+
+[[diagram: 11. 1—14. 25 (E, p. 1381). The Fourth Period of the Lord's Ministry. Rejection of the Kingdom (Repeated Introversions)]]
+[[anchor: Mark 11:1]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 29]]
+
+E |  |
+  R1 |  |
+    S1 |  | 11. 1-7. Bethphage. Arrival. Without.
+[[group: -]]
+      T1 |  | 11. 8-11-. In Jerusalem. Entry.
+      T2 |  | 11. -11-. In the Temple. Observation.
+[[group: Within.]]
+    S2 |  | 11. -11. Bethany. Arrival. Without.
+  R2 |  |
+    S3 |  | 11. 12-14. Bethany. Return from. Without.
+[[group: -]]
+      T3 |  | 11. 15-. In Jerusalem.
+      T4 |  | 11. -15-18. In the Temple. Cleansing.
+[[group: Within.]]
+    S4 |  | 11. 19. Out of the City. Bethany. Without.
+  R3 |  |
+    S5 |  | 11. 20-26. Bethany. Return from. Without.
+[[group: -]]
+      T5 |  | 11. 27-. In Jerusalem.
+      T6 |  | 11. -27—12. 44. In the Temple.
+[[group: Within.]]
+    S6 |  | 13. 1—14. 25. Return to Bethany.
+
+[[diagram: 11. 1-7 (S1, above). Bethphage. Arrival (Introversion)]]
+[[anchor: Mark 11:1-7]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 29]]
+
+S1 |  |
+  i | 1 | The Two Disciples. Mission.
+    k | 2, 3 | Command.
+    k | 4-6 | Obedience.
+  i | 7 | The Two Disciples. Return.
+
+[[diagram: 11. 8-11- (T1, p. 1409). In Jerusalem. Entry (Introversion)]]
+[[anchor: Mark 11:8-11]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 30]]
+
+T1 |  |
+  l | 8 | Action. The Multitude.
+    m | 9 | Cry. The King.
+    m | 10 | Cry. The Kingdom.
+  l | 11- | Action. The Lord.
+
+[[diagram: 11. -15-18 (T4, p. 1409). In the Temple (Introversion)]]
+[[anchor: Mark 11:15-18]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 30]]
+
+T4 |  |
+  n | -15, 16 | Action of the Lord.
+    o | 17- | Teaching. What the Temple was for.
+    o | -17 | Incrimination. What it had become.
+  n | 18 | Action of the Rulers.
+
+[[diagram: 11. 20-26 (S5, p. 1409). Bethany. Return From (Introversion)]]
+[[anchor: Mark 11:20-26]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 30]]
+
+S5 |  |
+  p | 20 | Fig-tree withered. Nation cut off.
+    q | 21 | The Lord's word remembered.
+      r | 22 | God the only source of restoration.
+    q | 23, 24 | The Lord's word to be believed.
+  p | 25, 26 | National blessing dependent on national repentance and forgiveness.
+
+[[diagram: 11. -27—13. 2 (T6, p. 1409). In the Temple (Introversion and Alternation)]]
+[[anchor: Mark 11:27]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 31]]
+
+T6 |  |
+  U |  | 11. -27-33. Authority questioned.
+    V |  |
+      W |  | 12. 1-11. Teaching. Parable.
+        X |  | 12. 12. Enemies. Conspiracy.
+          Y1 |  | 12. 13-17. Question. Pharisees, &c. Political.
+          Y2 |  | 12. 18-27. Question. Sadducees. Doctrinal.
+          Y3 |  | 12. 28-34. Question. A Scribe. Moral.
+    V |  |
+      W |  | 12. 35-37. Teaching. Question.
+        X |  | 12. 38-40. Enemies. Condemnation.
+  U |  | 12. 41-44. Authority exercised.
+
+[[diagram: 11. -27-33 (U, above). Authority Questioned (Introversion)]]
+[[anchor: Mark 11:27-33]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 31]]
+
+U |  |
+  A | -27, 28 | Enemies' question. Asked.
+    B | 29, 30 | The Lord's question. In answer.
+      C | 31, 32 | Enemies' reasoning.
+    B | 33- | The Lord's question unanswered.
+  A | -33 | Enemies' question. Unanswered.
+
+[[diagram: 12. 1-11 (W, above). Teaching. Parable of the Vineyard (Introversion)]]
+[[anchor: Mark 12:1-11]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 31]]
+
+W |  |
+  D | 1- | The Lord. Teaching.
+    E | -1 | Vineyard. Hired to husbandmen.
+      F | 2-8 | Conduct of husbandmen.
+    E | 9 | Vineyard. Given to others.
+  D | 10, 11 | The Lord. Application.
+
+[[diagram: 12. 2-8 (F, p. 1411). Conduct of Husbandmen (Repeated Alternation)]]
+[[anchor: Mark 12:2-8]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 32]]
+
+F |  |
+  p1 | 2 | A servant sent.
+    q1 | 3 | His treatment.
+  p2 | 4- | Another servant sent.
+    q2 | -4 | His treatment.
+  p3 | 5- | Another servant sent.
+    q3 | -5- | His treatment.
+  p4 | -5- | "Many others" sent.
+    q4 | -5 | Their treatment.
+  p5 | 6 | The only Son sent.
+    q5 | 7, 8 | His treatment.
+
+[[diagram: 12. 13-17 (Y1, p. 1411). Question of the Pharisees. (Political.) (Introversion)]]
+[[anchor: Mark 12:13-17]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 32]]
+
+Y1 |  |
+  r | 13 | Their design planned.
+    s | 14, 15- | Question re Tribute.
+      t | -15 | Request of the Lord.
+      t | 16- | Request complied with.
+    s | -16 | Question and Answer re Tribute.
+  r | 17 | Their design defeated.
+
+[[diagram: 12. 18-27 (Y2, p. 1411). Question of the Sadducees (Doctrinal) (Alternation)]]
+[[anchor: Mark 12:18-27]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 33]]
+
+Y2 |  |
+  G | 18 | Their error. Denial of Resurrection.
+    H | 19-23 | The Doctrine questioned.
+  G | 24 | Their error. Ignorance of Scripture.
+    H | 25-27 | The Doctrine proved.
+
+[[diagram: 12. 28-34 (Y3, p. 1411). Question of a Scribe. (Moral.) (Introversion)]]
+[[anchor: Mark 12:28-34]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 33]]
+
+Y3 |  |
+  u | 28- | Perception of the Lord by the Scribe.
+    v | -28 | Scribe. Inquiry.
+      w | 29, 30 | The Lord. Answer. The First Com.
+      w | 31 | The Lord. Answer. The Second Com.
+    v | 32, 33 | Scribe. Conviction.
+  u | 34 | Perception of the Scribe by the Lord.
+
+[[diagram: 12. 35-37 (W, p. 1411). Teaching. Question (Introversion)]]
+[[anchor: Mark 12:35-37]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 34]]
+
+W |  |
+  x | 35- | The Lord. Teaching. The Place.
+    y | -35 | His question re Scribes' teaching.
+      z | 36 | The Holy Spirit's Words.
+    y | 37- | His question re Scribes' teaching.
+  x | -37 | The Lord. Teaching. The People.
+
+[[diagram: 12. 38-40 (X, p. 1411). Enemies. Condemnation (Introversion)]]
+[[anchor: Mark 12:38-40]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 34]]
+
+X |  |
+  a | 38- | Warning.
+    b | -38, 39 | Enemies. Character.
+    b | 40- | Enemies. Actions.
+  a | -40 | Condemnation.
+
+[[diagram: 12. 41-44 (U, p. 1411). Authority Exercised (Alternation)]]
+[[anchor: Mark 12:41-44]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 34]]
+
+U |  |
+  c | 41 | The many, casting in.
+    d | 42 | The widow. Her act.
+    d | 43 | The widow. The Lord's commendation.
+  c | 44 | The many and the widow.
+
+[[diagram: 13. 1—14. 25 (S6, p. 1409). Return to Bethany (Division)]]
+[[anchor: Mark 13:1]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 35]]
+
+S6 |  |
+  J1 |  | 13. 1-37. On leaving the Temple. The second great Prophecy on the Mount of Olives.
+  J2 |  | 14. 1-25. On arrival at Bethany. The second Supper and second Anointing.
+
+[[diagram: 13. 1-37 (J1, above). On Leaving the Temple (Alternation)]]
+[[anchor: Mark 13:1-37]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 35]]
+
+J1 |  |
+  K | 1 | The Disciples' remark.
+    L | 2 | The Lord's reply. Prediction.
+  K | 3, 4 | The Disciples' Two Questions.
+    L | 5-37 | The Lord's reply. Prophecy.
+
+[[diagram: 13. 3, 4 (K, above). The Disciples' Two Questions (Division)]]
+[[anchor: Mark 13:3-4]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 35]]
+
+K |  |
+  M1 | 3, 4- | "When shall these things be?" (pote).
+  M2 | -4 | "What shall be the sign?" (ti).
+
+[[diagram: 13. 5-37 (L, above). The Lord's Reply. Prophecy (Division)]]
+[[anchor: Mark 13:5-37]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 35]]
+
+L |  |
+  N1 | 5-7 | Answer to the first Question (M1).
+  N2 | 8-37 | Answer to the second Question (M2).
+
+[[diagram: 13. 5-7 (N1, above). Answer to the First Question (Alternation)]]
+[[anchor: Mark 13:5-7]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 35]]
+
+N1 |  |
+  e | 5 | Warning. "Be not deceived."
+    f | 6 | Reason. Things seen.
+  e | 7- | Warning. "Be ye not troubled."
+    f | -7 | Reason. Things heard.
+
+[[diagram: 13. 8-37 (N2, above). Answer to the Second Question (Division)]]
+[[anchor: Mark 13:8-37]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 35]]
+
+N2 |  |
+  O1 | 8-27 | Prophecy. Instruction.
+  O2 | 28-37 | Parables. Warnings.
+
+[[diagram: 13. 8-27 (O1, above). Prophecy. Instruction (Introversion)]]
+[[anchor: Mark 13:8-27]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 35]]
+
+O1 |  |
+  P | 8-13 | Time. Beginning.
+    Q | 14-20 | Sign. The Abomination of desolation. Flight.
+    Q | 21-23 | Sign. False Christs. Disbelief.
+  P | 24-27 | Time. The end.
+
+[[diagram: 13. 8-13 (P, above). Time. Beginning (Introversion)]]
+[[anchor: Mark 13:8-13]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 35]]
+
+P |  |
+  g | 8 | The beginning.
+    h | 9- | Persecution.
+      i | -9, 10 | Testimony and Reason.
+    h | 11-13- | Persecution.
+  g | -13 | The end.
+
+[[diagram: 13. 14-20 (Q, p. 1415). Sign. The Abomination, etc. Flight (Alternation)]]
+[[anchor: Mark 13:14-20]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 36]]
+
+Q |  |
+  j | 14-17 | Flight.
+    k | 18 | Commiseration.
+  j | 19 | Flight.
+    k | 20 | Commiseration.
+
+[[diagram: 13. 21-23 (Q, p. 1415). Sign. The False Christ (Alternation)]]
+[[anchor: Mark 13:21-23]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 36]]
+
+Q |  |
+  l | 21- | False Christs.
+    m | -21 | Warning. Believe not.
+  l | 22 | False Christs.
+    m | 23 | Warning. Take ye heed.
+
+[[diagram: 13. 24-27 (P, p. 1415). Time. The End (Introversion)]]
+[[anchor: Mark 13:24-27]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 36]]
+
+P |  |
+  n | 24, 25 | Signs in heaven.
+    o | 26 | The coming of the Son of man.
+    o | 27- | The sending of His angels.
+  n | -27 | Signs on earth.
+
+[[diagram: 13. 28-37 (O2, p. 1415). Parables. Warning (Alternations)]]
+[[anchor: Mark 13:28-37]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 37]]
+
+O2 |  |
+  R |  |
+    p | 28 | Parable. The Fig-tree.
+      q | 29- | Application.
+        r | -29 | Nearness.
+          S | 30-33 | Watch.
+  R |  |
+    p | 34 | Parable. The Householder.
+      q | 35 | Application.
+        r | 36 | Suddenness.
+          S | 37 | Watch!
+
+[[diagram: 14. 1-25 (J2, p. 1415). Arrival at Bethany (Introversion)]]
+[[anchor: Mark 14:1-25]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 37]]
+
+J2 |  |
+  T | 1- | Two days before the Passover.
+    U | -1, 2 | Conspiracy of the Rulers.
+      V | 3-9 | The second Supper, and second Anointing.
+    U | 10, 11 | Conspiracy of Judas.
+  T | 12-25 | One day before the Passover.
+
+[[diagram: 14. 3-9 (V, above). The Second Supper, and Second Anointing (Introversion and Alternation)]]
+[[anchor: Mark 14:3-9]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 37]]
+
+V |  |
+  W | 3- | The Feast.
+    X | -3 | The woman.
+      Y |  |
+        s | 4 | Indignation. Some.
+          t | 5 | Reason.
+      Y |  |
+        s | 6 | Reprehension. The Lord.
+          t | 7 | Reason.
+    X | 8 | The woman.
+  W | 9 | The Prophecy.
+
+[[diagram: 14. 12-25 (T, p. 1417). One Day Before the Passover (Division)]]
+[[anchor: Mark 14:12-25]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 38]]
+
+T |  |
+  Z1 | 12-16 | Preparation.
+  Z2 | 17-21 | Prediction.
+  Z3 | 22-25 | Celebration.
+
+[[diagram: 14. 12-16 (Z1, above). Preparation (Introversion)]]
+[[anchor: Mark 14:12-16]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 38]]
+
+Z1 |  |
+  u | 12 | Preparation. Inquiry.
+    v | 13-15 | Directions. Given.
+    v | 16- | Directions. Carried out.
+  u | -16 | Preparation effected.
+
+[[diagram: 14. 17-21 (Z2, above). Prediction (Introversion)]]
+[[anchor: Mark 14:17-21]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 38]]
+
+Z2 |  |
+  w | 17, 18 | Betrayal. The first Prediction.
+    x | 19 | Question of the Disciples.
+    x | 20 | Answer of the Lord.
+  w | 21 | Betrayal. The second Prediction.
+
+[[diagram: 14. 26-42 (C, p. 1381). The Agony (Division)]]
+[[anchor: Mark 14:26-42]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 39]]
+
+C |  |
+  A1 | 26-31 | The Mount of Olives.
+  A2 | 32-42 | Gethsemane.
+
+[[diagram: 14. 26-31 (A1, above). The Mount of Olives (Alternation)]]
+[[anchor: Mark 14:26-31]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 39]]
+
+A1 |  |
+  y | 26-28 | The stumbling of all.
+    z | 29 | Peter's disclaimer.
+  y | 30 | The denial of one.
+    z | 31 | Peter's vehement disclaimer.
+
+[[diagram: 14. 32-42 (A2, above). Gethsemane (Introversion)]]
+[[anchor: Mark 14:32-42]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 39]]
+
+A2 |  |
+  a | 32- | Departure.
+    b | -32-34 | Purpose stated.
+    b | 35-41 | Purpose effected.
+  a | 42 | Departure.
+
+[[diagram: 14. 35-41 (b, p. 1419). Purpose Effected (Division)]]
+[[anchor: Mark 14:35-41]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 40]]
+
+b |  |
+  c1 | 35-38 | The First Prayer.
+  c2 | 39, 40 | The Second Prayer.
+  c3 | 41 | The Third Prayer.
+
+[[diagram: 14. 43—16. 14 (B, p. 1381). The Baptism of Sufferings (Division)]]
+[[anchor: Mark 14:43]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 40]]
+
+B |  |
+  B1 |  | 14. 43—15. 39. Death.
+  B2 |  | 15. 40—16. 8. Burial.
+  B3 |  | 16. 9-13. Resurrection.
+
+[[diagram: 14. 43—15. 39 (B1, above). Death (Introversions and Alternations)]]
+[[anchor: Mark 14:43]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 40]]
+
+B1 |  |
+  C |  | 14. 43. The Arrival of Judas.
+    D |  |
+      E |  |
+        G |  |
+          J |  | 14. 44-52. Conspiracy. (Judas.)
+            K |  | 14. 53. The Lord led to Caiaphas.
+              H |  | 14. 54. Peter. Following.
+                F |  |
+                  L |  | 14. 55-64. The Lord before Caiaphas.
+                    M |  | 14. 65. Personal abuse.
+    D |  |
+      E |  |
+              H |  | 14. 66-72. Peter. Denial.
+        G |  |
+          J |  | 15. 1-. Conspiracy. (Rulers.)
+            K |  | 15. -1. The Lord led to Pilate.
+# F is printed two steps right of K here (level with the first F); set one level in
+              F |  |
+                L |  | 15. 2-15. The Lord before Pilate.
+                  M |  | 15. 16-23. Personal abuse.
+  C |  | 15. 24-39. The Crucifixion of the Lord.
+
+[[diagram: 14. 44-52 (J, above). Conspiracy. (Judas.) (Introversion)]]
+[[anchor: Mark 14:44-52]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 40]]
+
+J |  |
+  N |  |
+    P | 44-46 | Betrayal. By one.
+      Q | 47 | The zeal of one. Peter defending.
+        O | 48 | The Lord. Appeal to multitude.
+        O | 49 | The Lord. Reason of the Appeal.
+  N |  |
+    P | 50 | Desertion. By all.
+      Q | 51, 52 | The zeal of one. Lazarus following.
+
+[[diagram: 14. 55-64 (L, p. 1420). The Lord Before Caiaphas (Alternation)]]
+[[anchor: Mark 14:55-64]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 41]]
+
+L |  |
+  R | 55-59 | Witnesses sought.
+    S | 60-62 | Examination.
+  R | 63 | Witnesses superseded.
+    S | 64 | Condemnation.
+
+[[diagram: 14. 60-62 (S, above). Examination (Alternation)]]
+[[anchor: Mark 14:60-62]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 41]]
+
+S |  |
+  d | 60 | Question of High Priest.
+    e | 61- | The Lord. Silent.
+  d | -61 | Adjuration of High Priest.
+    e | 62 | The Lord. Assent.
+
+[[diagram: 14. 66-72 (H, p. 1420). Peter. Denials (Repeated Alternation)]]
+[[anchor: Mark 14:66-72]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 42]]
+
+H |  |
+  f1 | 66-68- | Peter. Denial.
+    g1 | -68 | A cock crowing.
+  f2 | 69-71 | Peter. Denials.
+    g2 | 72- | A cock crowing.
+  f3 | -72 | Peter. Repentance.
+
+[[diagram: 15. 2-15 (L, p. 1420). The Lord Before Pilate (Introversion)]]
+[[anchor: Mark 15:2-15]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 42]]
+
+L |  |
+  h | 2-5 | Pilate and the Lord.
+    i | 6-13 | Pilate and the People.
+    i | 14- | Pilate and the Multitude.
+  h | -14, 15 | Pilate and the Lord.
+
+[[diagram: 15. 16-23 (M, p. 1420). Personal Abuse (Alternation)]]
+[[anchor: Mark 15:16-23]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 43]]
+
+M |  |
+  j | 16 | Place. Praetorium.
+    k | 17-21 | Treatment. Mockery.
+  j | 22 | Place. Golgotha.
+    k | 23 | Treatment. Bitter draught.
+
+[[diagram: 15. 24-39 (C, p. 1420). The Crucifixion (Introversion and Alternation)]]
+[[anchor: Mark 15:24-39]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 43]]
+
+C |  |
+  T |  |
+    l | 24 | The soldiers. Parting of garments.
+      m | 25 | Time. Event at third hour (9 a.m.).
+        U |  |
+          n | 26 | The Indictment.
+            o | 27, 28 | The two Robbers. Brought.
+        U |  |
+          n | 29-32- | The Indictment.
+            o | -32 | The two Robbers. Reviling.
+  T |  |
+      m | 33-38 | Time. Events at sixth and ninth hours (noon to 3 p.m.).
+    l | 39 | A soldier.
+
+[[diagram: 15. 40—16. 8 (B2, p. 1420). The Burial (Alternations and Introversion)]]
+[[anchor: Mark 15:40]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 45]]
+
+B2 |  |
+  V |  |
+    p |  | 15. 40, 41. Women. Several.
+      q |  | 15. 42. Before the High Sabbath.
+        W |  |
+          X |  | 15. 43-45. The Body obtained.
+            Y |  |
+              r |  | 15. 46-. Fine linen bought.
+                s |  | 15. -46-. Laid in the sepulchre.
+                t |  | 15. -46. The stone rolled to the door.
+  V |  |
+    p |  | 15. 47. Women. Two.
+      q |  | 16. 1-. After the High Sabbath.
+        W |  |
+            Y |  |
+              r |  | 16. -1. Spices bought.
+                s |  | 16. 2. Came to the sepulchre.
+                t |  | 16. 3, 4. The stone rolled away from the door.
+          X |  | 16. 5-8. The Body sought.
+
+[[diagram: 16. 9-13 (B3, p. 1420). Resurrection (Repeated Alternation)]]
+[[anchor: Mark 16:9-13]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 46]]
+
+B3 |  |
+  u | 9 | His appearance to Mary.
+    v | 10 | Her report.
+      w | 11 | Disciples' unbelief.
+  u | 12 | His appearance to two disciples.
+    v | 13- | Their report.
+      w | -13 | Disciples' unbelief.
+
+[[diagram: 16. 14-20 (A, p. 1381). The Successors (Alternation)]]
+[[anchor: Mark 16:14-20]]
+[[pdf: 37. Mark_text.pdf]]
+[[pdf-page: 46]]
+
+A |  |
+  Z | 14 | After the Lord had risen.
+    A | 15-18 | Commission.
+  Z | 19 | After the Lord had ascended.
+    A | 20 | Obedience.

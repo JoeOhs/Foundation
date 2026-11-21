@@ -1458,11 +1458,12 @@ running list of what's done and what's next, not a commitment.
   itself (as opposed to the Appendixes above). Installs from the Library's
   "Reference works" section as a single `commentary` source containing one
   `books` row per transcribed book — the whole **Old Testament**, Genesis
-  to Malachi (39 books) — as one add-on, listed with the Appendixes under
-  Library → Add-ons. Philemon is transcribed but held out of the shipped
-  bundle (`build.mjs --books=…`) until a New Testament release. An install
-  from the earlier Torah-only release gains the other 34 books in place on
-  startup (`addCompanionNotesBooks`, once per release flag), so its
+  to Malachi (39 books), and the **four Gospels**, Matthew to John — as one
+  add-on, listed with the Appendixes under Library → Add-ons. Philemon is
+  transcribed but held out of the shipped bundle (`build.mjs --books=…`)
+  until the rest of the New Testament is done. An install from an earlier
+  release gains the books it lacks in place on startup
+  (`addCompanionNotesBooks`, once per release flag), so its
   annotations survive; "Reinstall / repair" would delete them. Two content
   shapes share it:
   - *Structure diagrams* — Bullinger's nested outlines, stored as **data**

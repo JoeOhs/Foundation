@@ -1,0 +1,2177 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Matthew
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/36. Matthew_text.pdf, printed pp. 1304-);
+# [[pdf-page:]] is the page of that file each diagram is on. Notation:
+# README.md here. Small-capital words are written in title case.
+#
+# The Inter-relation of the Four Gospels (p. 1304) prints at the head of
+# Matthew, the first of them, and is kept here; its footnotes are with
+# Matthew's introductory notes.
+#
+# The book Structure's E block carries two braces: PROCLAIMED / REJECTED
+# on each pair, and one outer brace over all four, "THE FOURFOLD MINISTRY
+# OF THE LORD". The notation has one brace per line, so the inner two are
+# kept and the outer one is written in the E line's header here.
+
+[[diagram: The Inter-relation of the Four Gospels. Their Structure as a Whole (Alternation)]]
+[[anchor: Matthew 1:1]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 2]]
+
+A1 |  | MATTHEW. The Lord presented as Jehovah's KING. "Behold THY KING" (Zech. 9. 9). "Behold . . . I will raise unto David a Righteous BRANCH,‡ and a KING shall reign and prosper" (Jer. 23. 5, 6; 33. 15). Hence the royal genealogy is required from Abraham and David downward (1. 1-17): and He is presented as what He is—before Man (relatively)—the highest earthly position, the King.
+  B1 |  | MARK. The Lord presented as Jehovah's SERVANT. "Behold MY SERVANT" (Isa. 42. 1). "Behold, I will bring forth My Servant THE BRANCH"‡ (Zech. 3. 8). Hence NO genealogy is required: and He is presented as what He is—before God (relatively)—the lowest earthly position, the ideal Servant.
+A2 |  | LUKE. The Lord presented as Jehovah's MAN. "Behold THE MAN Whose name is THE BRANCH"‡ (Zech. 6. 12). Hence the human genealogy is required upward to Adam (Luke 3. 23-38): and He is presented as what He is—before Man (intrinsically)—the ideal man.
+  B2 |  | JOHN. The Lord presented as JEHOVAH HIMSELF. "Behold YOUR GOD" (Isa. 40. 9). "In that day shall Jehovah's BRANCH‡ (i.e. Messiah) be beautiful and glorious" (Isa. 4. 2). Hence NO genealogy is required; and He is presented as what He is—before God (intrinsically)—Divine.
+
+[[diagram: Matthew. The Structure of the Book as a Whole (Introversion)]]
+[[anchor: Matthew 1:1]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 3]]
+
+H1 |  |
+  A |  | 1. 1—2. 23. PRE-MINISTERIAL.
+    B |  | 3. 1-4. THE FORERUNNER.
+      C |  | 3. 5-17. THE BAPTISM: WITH WATER.
+        D |  | 4. 1-11. THE TEMPTATION: IN THE WILDERNESS.
+[[group: -]]
+          E |  |
+            F |  | 4. 12—7. 29. THE KINGDOM
+              G |  | 8. 1—16. 20. THE KING
+[[group: PROCLAIMED.]]
+              G |  | 16. 21—20. 34. THE KING
+            F |  | 21. 1—26. 35. THE KINGDOM
+[[group: REJECTED.]]
+        D |  | 26. 36-46. THE AGONY: IN THE GARDEN.
+      C |  | 26. 47—28. 15. THE BAPTISM: OF SUFFERING (DEATH, BURIAL, AND RESURRECTION, 20. 22).
+    B |  | 28. 16-18. THE SUCCESSORS.
+  A |  | 28. 19, 20. POST-MINISTERIAL.
+
+[[diagram: 1. 1—2. 23 (A, p. 1305). Pre-ministerial (Alternation)]]
+[[anchor: Matthew 1:1]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 5]]
+
+A |  |
+  A |  | 1. 1-17. Concerning others. Ancestors.
+    B |  | 1. 18-25. Concerning Jesus Christ. Birth in the Land.
+  A |  | 2. 1-12. Concerning others. The Wise Men.
+    B |  | 2. 13-23. Concerning Jesus Christ. Flight from the Land.
+
+[[diagram: 1. 1-17 (A, above). Concerning Others. Ancestors (Introversion)]]
+[[anchor: Matthew 1:1-17]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 5]]
+
+A |  |
+  C |  |
+    a | 1- | Jesus Christ.
+      b | -1- | David.
+        c | -1 | Abraham.
+[[group: In Sum. Ascent.]]
+          D | 2-6- | The Lay Ancestors: Abraham to David (1 Sam. 16. 13). Fourteen Generations (v. 17).
+            E | -6-11 | The Royal, or Crowned, Ancestors: David (2 Sam. 5. 3-5) to Josiah. Fourteen Generations (v. 17).
+          D | 12-16 | The Lay Ancestors: Jeconiah to Christ. Fourteen Generations (v. 17).
+[[group: In Detail.]]
+  C |  |
+        c | 17- | Abraham.
+      b | -17- | David.
+    a | -17 | Jesus Christ.
+[[group: In Sum. Descent.]]
+
+[[diagram: 1. 18-25 (B, p. 1307). Concerning Jesus Christ. His Birth (Introversion)]]
+[[anchor: Matthew 1:18-25]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 6]]
+
+B |  |
+  F | 18, 19 | Begetting.
+    G | 20 | The angel of Jehovah.
+      H | 21 | Prophecy delivered.
+      H | 22, 23 | Prophecy quoted.
+    G | 24 | The angel of Jehovah.
+  F | 25 | Birth.
+
+[[diagram: 2. 1-12 (A, p. 1307). Concerning Others. The Wise Men (Introversion and Alternation)]]
+[[anchor: Matthew 2:1-12]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 7]]
+
+A |  |
+  J | 1 | The Wise Men. Arrival.
+    K | 2 | The Star. Notification.
+      L | 3 | Herod hears of the Wise Men.
+        M |  |
+          d | 4 | His Question to Rulers. "Where?"
+            e | 5, 6 | Their Answer.
+        M |  |
+          d | 7- | His Question to the Wise Men. "What Time?"
+            e | -7, 8 | Their Mission.
+      L | 9- | Wise Men hear Herod.
+    K | -9-11 | The Star. Guiding.
+  J | 12 | The Wise Men. Departure.
+
+# 2. 13-23: O2 prints at O1's x, several steps right of N2; set one level
+# in under N2, since the parser allows only one step after a text line.
+[[diagram: 2. 13-23 (B, p. 1307). Concerning Jesus Christ. Flight from the Land (Repeated and Extended Alternation)]]
+[[anchor: Matthew 2:13-23]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 8]]
+
+B |  |
+  N1 |  |
+    f | 13- | The Angel.
+      g | -13 | His Command to Joseph.
+        h | 14 | Joseph's Obedience.
+          i | 15- | Christ's abode. Egypt.
+[[group: Event.]]
+            O1 | -15 | Prophecy fulfilled.
+[[group: -]]
+  N2 | 16 | Herod's wrath and crime. Event.
+    O2 | 17, 18 | Prophecy fulfilled.
+[[group: -]]
+  N3 |  |
+    f | 19 | The Angel.
+      g | 20 | His Command.
+        h | 21 | Joseph's Obedience.
+          i | 22, 23- | Christ's abode. Nazareth.
+[[group: Event.]]
+            O3 | -23 | Prophecy fulfilled.
+
+[[diagram: 3. 1-4 (B, p. 1305). The Forerunner (Introversion and Alternation)]]
+[[anchor: Matthew 3:1-4]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 10]]
+
+B |  |
+  P | 1- | John. Time.
+    Q |  |
+      j | -1 | His Proclamation.
+        k | 2 | Subject. Repentance.
+          R | 3- | Isaiah.
+    Q |  |
+      j | -3- | His cry.
+        k | -3 | Subject. Preparation.
+  P | 4 | John. Manner.
+
+[[diagram: 3. 5-17 (C, p. 1305). Baptism (Introversion and Alternation)]]
+[[anchor: Matthew 3:5-17]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 10]]
+
+C |  |
+  S |  |
+    l | 5 | The Coming of the People to John.
+      m | 6 | Their Baptism.
+        T | 7-9 | John's Warning.
+        T | 10-12 | John's Threatening.
+  S |  |
+    l | 13 | The Coming of Messiah to John.
+      m | 14-17 | His Baptism.
+
+[[diagram: 3. 10-12 (T, above). John's Threatening (Introversion)]]
+[[anchor: Matthew 3:10-12]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 10]]
+
+T |  |
+  n | 10 | Warning. The "Ax" and the "Fire".
+    o | 11- | John's Baptism.
+      p | -11- | Christ and John.
+    o | -11 | Christ's Baptism.
+  n | 12 | Warning. The "Fan" and the "Fire".
+
+[[diagram: 4. 1-11 (D, p. 1305). The Temptation (Introversion)]]
+[[anchor: Matthew 4:1-11]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 11]]
+
+D |  |
+  U | 1-3- | Before the Temptation.
+    V | -3-10 | The Separate Temptations.
+  U | 11 | After the Temptation.
+
+[[diagram: 4. -3-10 (V, p. 1313). The Separate Temptations (Repeated and Extended Alternations)]]
+[[anchor: Matthew 4:3-10]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 12]]
+
+V |  |
+  W1 |  |
+    q1 | -3 | Temptation. "If Thou be".
+      r1 | 4- | Answer. "It is written".
+        s1 | -4 | Scripture. Deut. 8. 3.
+  W2 |  |
+    q2 | 5, 6 | Temptation. "If Thou be".
+      r2 | 7- | Answer. "It is written".
+        s2 | -7 | Scripture. Deut. 6. 16.
+  W3 |  |
+    q3 | 8, 9 | Temptation. "If Thou wilt".
+      r3 | 10- | Answer. "It is written".
+        s3 | -10 | Scripture. Deut. 6. 13; 10. 20.
+
+[[diagram: 4. 12—26. 35 (E, p. 1305). The Lord's Fourfold Ministry (Introversion)]]
+[[anchor: Matthew 4:12]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 13]]
+
+E |  |
+  F |  | 4. 12—7. 29. THE FIRST PERIOD. Subject: The Proclamation of The Kingdom, and Call to Repentance (4. 17). "Sermon on the Mount" unnamed (5. 1—7. 29). The Laws of the Kingdom.
+    G |  | 8. 1—16. 20. THE SECOND PERIOD. Subject: The Proclamation of The King. His Person as "Lord" (8. 2, 6, 8) and "Man" (8. 20). Miracles of Creation, manifesting His Deity; and of Compassion, declaring His Humanity.
+    G |  | 16. 21—20. 34. THE THIRD PERIOD. Subject: The Rejection of The King. Parabolic Miracles (Lunatic, 17. 14; Blind men, 20. 30-34).
+  F |  | 21. 1—26. 35. THE FOURTH PERIOD. Subject: The Rejection of The Kingdom. Parables and Teaching as to the coming change of Dispensation, while the Kingdom should be in abeyance. The Sermon on the Mount (Olives), 24. 1—25. 46. Miracles: Parabolic and Prophetic: Lazarus (John 11), and the withered Fig-tree (Mark 11. 12-14, 20, 21).
+
+# 4.12-7.29: the second Z prints two steps right of t; set one level in.
+[[diagram: 4. 12—7. 29 (F, above). The First Period of the Ministry. Proclamation of the Kingdom (Extended Alternation and Introversion)]]
+[[anchor: Matthew 4:12]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 13]]
+
+F |  |
+  X |  | 4. 12-15. The Lord. Departure to Galilee.
+    Y |  |
+      t |  | 4. 16. Depth of the great darkness. The People sitting in it.
+        u |  | 4. 17. The Kingdom proclaimed. Words.
+          Z |  | 4. 18-22. Disciples called.
+  X |  | 4. 23-. The Lord. Going about Galilee.
+    Y |  |
+        u |  | 4. -23. The Kingdom proclaimed. Works.
+      t |  | 4. 24, 25. Fame of the "Great Light". The People following it.
+        Z |  | 5. 1—7. 29. Disciples taught.
+
+[[diagram: 4. 18-22 (Z, above). Disciples Called (Extended Alternation)]]
+[[anchor: Matthew 4:18-22]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 13]]
+
+Z |  |
+  A |  |
+    v | 18 | Two Brethren (Peter and Andrew).
+      w | 19 | Their Call.
+        x | 20 | Their Obedience.
+  A |  |
+    v | 21- | Two Brethren (James and John).
+      w | -21 | Their Call.
+        x | 22 | Their Obedience.
+
+[[diagram: 5. 1—7. 29 (Z, p. 1315). Disciples Taught. "The Sermon on the Mount" (Introversion)]]
+[[anchor: Matthew 5:1]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 14]]
+
+Z |  |
+  B |  | 5. 1-2. Introduction.
+    C |  | 5. 3-12. Characters. True Happiness.
+      D |  | 5. 13-16. True Disciples.
+        E |  | 5. 17—7. 12. The Kingdom. Its Laws.
+        E |  | 7. 13, 14. The Kingdom. Entrance into it.
+      D |  | 7. 15-23. False Teachers.
+    C |  | 7. 24-27. Characters. True Wisdom.
+  B |  | 7. 28, 29. Conclusion.
+
+[[diagram: 5. 3-12 (C, above). Characters (Introversion)]]
+[[anchor: Matthew 5:3-12]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 14]]
+
+C |  |
+  a | 3 | Heirs of the Kingdom.
+    b | 4 | Mourners. Reward for Mourners.
+      c | 5 | Inheritance. Earthly.
+        d | 6 | True righteousness.
+        d | 7 | Fruits of righteousness.
+      c | 8 | Inheritance. Heavenly.
+    b | 9 | Peacemakers. Reward for Peacemakers.
+  a | 10-12 | Heirs of the Kingdom.
+
+[[diagram: 5. 13-16 (D, p. 1316). True Disciples (Alternation)]]
+[[anchor: Matthew 5:13-16]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 15]]
+
+D |  |
+  e | 13 | In the earth. Salt.
+    f | 14- | The Light.
+  e | -14 | In the earth. A City.
+    f | 15, 16 | A Lamp.
+
+[[diagram: 5. 17—7. 12 (E, p. 1316). The Kingdom (the Laws of It) (Introversion)]]
+[[anchor: Matthew 5:17]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 15]]
+
+E |  |
+  F |  | 5. 17-20. They fulfil the Law and the Prophets.
+    G |  | 5. 21-48. They transcend the Law of Moses.
+    G |  | 6. 1—7. 11. They excel the Tradition of the Elders.
+  F |  | 7. 12. They fulfil the Law and the Prophets.
+
+[[diagram: 5. 21-48 (G, above). They Transcend the Law of Moses (Division)]]
+[[anchor: Matthew 5:21-48]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 15]]
+
+G |  |
+  H1 | 21-26 | The Law of Murder. Com. VI.
+  H2 | 27-32 | The Law of Adultery. Com. VII.
+  H3 | 33-37 | The Law of Perjury. Com. III.
+  H4 | 38-42 | The Law of Retaliation. (Ex. 21. 25. Lev. 24. 20. Deut. 19. 21.)
+  H5 | 43-48 | The Law of Love. (Lev. 19. 18.)
+
+[[diagram: 6. 1—7. 11 (G, p. 1317). They Excel the Tradition of the Elders (Division)]]
+[[anchor: Matthew 6:1]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 17]]
+
+Int. |  | 6. 1. Introduction.
+G |  |
+  J1 |  | 6. 2-4. As to Almsgiving.
+  J2 |  | 6. 5-15. As to Prayer.
+  J3 |  | 6. 16-18. As to Fasting.
+  J4 |  | 6. 19-24. As to Riches.
+  J5 |  | 6. 25—7. 11. As to Cares, &c.
+
+[[diagram: 8. 1—16. 13 (G, p. 1315). The Second Period of the Ministry. Proclamation of the King (Introversion and Alternations)]]
+[[anchor: Matthew 8:1]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 21]]
+
+G |  |
+  L |  | 8. 1—9. 38. The Lord. His Person. Proclaimed as "Lord" and "Son of Man". Witness and Evidences begun. Miracles and Calls.
+  M |  |
+    N |  | 10. 1-42. Mission of the Twelve begun.
+    O |  |
+      P1 |  |
+        R1 |  | 11. 1, 2. Miracles.
+          S1 |  | 11. 3-6. Effects.
+            Q1 |  |
+              T1 |  | 11. 7-30. Teaching.
+                U1 |  | 12. 1-8. Results. Opposition of Pharisees.
+      P2 |  |
+        R2 |  | 12. 9-13. Miracles.
+          S2 |  | 12. 14-50. Effects.
+            Q2 |  |
+              T2 |  | 13. 1-53. Teaching.
+                U2 |  | 13. 54-58. Results. Opposition of His own kindred.
+  M |  |
+    N |  | 14. 1-12. Mission of John Baptist ended.
+    O |  |
+      P3 |  |
+        R3 |  | 14. 13-36. Miracles.
+          S3 |  | 15. 1, 2. Effects.
+            Q3 |  |
+              T3 |  | 15. 3-11. Teaching.
+                U3 |  | 15. 12-20. Result. Opposition of Pharisees.
+      P4 |  |
+        R4 |  | 15. 21-39. Miracles.
+          S4 |  | 16. 1-4. Effect.
+            Q4 |  |
+              T4 |  | 16. 5-12. Teaching.
+                U4 |  | 16. 13-16. Result. Opposition complete.
+  L |  | 16. 17-20. The Lord, Messiah. Declared. Witness and Evidences ended.
+
+[[diagram: 8. 5-13 (B1, p. 1324). The Palsy (Introversion)]]
+[[anchor: Matthew 8:5-13]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 21]]
+
+B1 |  |
+  i | 5-7 | Servant sick.
+    k | 8, 9 | Word. Sufficiency.
+      l | 10-12 | The Divine Command.
+    k | 13- | Word. Efficacy.
+  i | -13 | Servant healed.
+
+[[diagram: 8. 1—9. 38 (L, p. 1323). The Lord. His Person. Proclaimed as "Lord" and "Son of Man" (8. 20). Miracles and Calls (Repeated and Extended Alternations and Introversions)]]
+[[anchor: Matthew 8:1]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 22]]
+
+L |  |
+  V1 |  |
+    A1 |  | 8. 1-4. The Leper.
+      B1 |  | 8. 5-13. The Palsy.
+        C1 |  | 8. 14, 15. The Fever.
+          D1 |  | 8. 16. Many.
+[[group: 8. 1-16. Four Miracles.]]
+            W1 |  |
+              X1 |  | 8. 17. Testimony. (Isaiah.)
+                Y1 |  | 8. 18-22. Disciples. Waverers.
+[[group: -]]
+  V2 |  |
+    A2 |  | 8. 23-27. The Storm.
+      B2 |  | 8. 28-31. Two Demoniacs.
+        C2 |  | 8. 32-34. The Swine.
+          D2 |  | 9. 1-8. The Palsy.
+[[group: 8. 23—9. 8. Four Miracles.]]
+            W2 |  |
+                Y2 |  | 9. 9. Disciple. True. (Matthew.)
+              X2 |  | 9. 10-17. Testimony. (People.)
+[[group: -]]
+  V3 |  |
+    A3 |  | 9. 18-26. Two Women.
+      B3 |  | 9. 27-31. Two Blind Men.
+        C3 |  | 9. 32-34. Dumb demon.
+          D3 |  | 9. 35. Many.
+[[group: 9. 18-35. Four Miracles]]
+            W3 |  |
+              X3 |  | 9. 36, 37. Testimony. (His own.)
+                Y3 |  | 9. 38. Disciples. Prayer for.
+
+[[diagram: 8. 18-22 (Y1, above). Disciples. Waverers (Alternation)]]
+[[anchor: Matthew 8:18-22]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 22]]
+
+Y1 |  |
+  m | 18, 19 | A Scribe. Forwardness.
+    n | 20 | Discouragement.
+  m | 21 | A Disciple. Backwardness.
+    n | 22 | Encouragement.
+
+[[diagram: 8. 23-27 (A2, p. 1324). The Storm (Introversion)]]
+[[anchor: Matthew 8:23-27]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 23]]
+
+A2 |  |
+  o | 23, 24- | Tempest arising.
+    p | -24 | The Lord asleep.
+      q | 25 | Disciples awakening Him.
+      q | 26- | Disciples reproached by Him.
+    p | -26- | The Lord arising.
+  o | -26 | Tempest calmed.
+
+[[diagram: 9. 1-8 (D2, p. 1324). The Palsy (Introversion)]]
+[[anchor: Matthew 9:1-8]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 23]]
+
+D2 |  |
+  r | 1, 2- | Palsied Man brought.
+    s | -2 | Forgiveness declared.
+      t | 3 | Scribes. Evil thoughts entertained.
+      t | 4 | Scribes. Evil thoughts challenged.
+    s | 5, 6 | Forgiveness. Power claimed.
+  r | 7, 8 | Palsied Man healed.
+
+[[diagram: 9. 10-17 (X2, p. 1324). Testimony. Two Questions (Extended Alternation)]]
+[[anchor: Matthew 9:10-17]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 24]]
+
+X2 |  |
+  t | 10, 11 | Question of Pharisees to His disciples.
+[[group: -]]
+    u | 12 | Proverb.
+      v | 13 | Application.
+[[group: Answer.]]
+  t | 14 | Question of John's disciples to Him.
+[[group: -]]
+    u | 15 | Proverb.
+      v | 16, 17 | Application.
+[[group: Answer.]]
+
+[[diagram: 9. 18-26 (A3, p. 1324). Two Women (Introversion)]]
+[[anchor: Matthew 9:18-26]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 25]]
+
+A3 |  |
+  w | 18, 19 | The Ruler's daughter. Dead.
+    x | 20, 21 | The Woman's faith. Exercised.
+    x | 22 | The Woman's faith. Rewarded.
+  w | 23-26 | The Ruler's daughter. Raised.
+
+[[diagram: 9. 27-31 (B3, p. 1324). Two Blind Men (Introversion)]]
+[[anchor: Matthew 9:27-31]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 25]]
+
+B3 |  |
+  y | 27 | Blind men. Their prayer.
+    z | 28-30- | The Lord. Compliance.
+    z | -30 | The Lord. Command.
+  y | 31 | Blind men. Their disobedience.
+
+[[diagram: 10. 1-42 (N, p. 1323). Mission of the Twelve (Begun) (Extended Alternation and Introversion)]]
+[[anchor: Matthew 10:1-42]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 26]]
+
+N |  |
+  E | 1-4 | Mission.
+    F | 5, 6 | Injunctions.
+      G |  |
+        H | 7-13 | Their reception.
+          J | 14, 15 | Their rejection.
+  E | 16- | Mission.
+    F | -16, 17- | Injunctions.
+      G |  |
+        J | -17-39 | Their rejection.
+          H | 40-42 | Their reception.
+
+[[diagram: 10. -17-39 (J, p. 1328). Their Rejection (Alternation)]]
+[[anchor: Matthew 10:17-39]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 27]]
+
+J |  |
+  K | -17-23 | Enmity.
+    L | 24-33 | Encouragement.
+  K | 34-36 | Enmity.
+    L | 37-39 | Encouragement.
+
+[[diagram: -17-23 (K, above). Enmity (Repeated Alternation)]]
+[[anchor: Matthew 10:17-23]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 27]]
+
+K |  |
+  a1 | -17, 18 | Enmity. Men.
+    b1 | 19, 20 | Promise. Defence.
+  a2 | 21-22- | Enmity. Brethren.
+    b2 | -22 | Promise. Endurance.
+  a3 | 23- | Enmity. Men.
+    b3 | -23 | Promise. Endurance.
+
+[[diagram: 10. 24-33 (L, above). Encouragement (Repeated Alternation)]]
+[[anchor: Matthew 10:24-33]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 27]]
+
+L |  |
+  c1 | 24, 25 | Encouragement.
+    d1 | 26 | "Fear not".
+  c2 | 27 | Encouragement.
+    d2 | 28 | "Fear not".
+  c3 | 29, 30 | Encouragement.
+    d3 | 31 | "Fear not".
+  c4 | 32, 33 | Encouragement.
+
+[[diagram: 11. 7-30 (T1, p. 1323). Teaching (Repeated Alternation)]]
+[[anchor: Matthew 11:7-30]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 29]]
+
+T1 |  |
+  M1 | 7-9 | Ministry of John.
+    N1 | 10 | Word of God. Fulfilment of "Messenger".
+  M2 | 11-13 | Ministry of John.
+    N2 | 14, 15 | Word of God. Fulfilment of Elijah.
+  M3 | 16-24 | Ministry of Messiah.
+    N3 | 25-30 | Will of God. Rest in.
+
+[[diagram: 11. 25-30 (N3, p. 1331). The Will of God. Rest In (Division)]]
+[[anchor: Matthew 11:25-30]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 30]]
+
+N3 |  |
+  O1 | 25-27 | Rest. Christ's rest: found.
+  O2 | 28-30 | Rest. Our rest: given and found.
+
+[[diagram: 11. 28-30 (O2, above). Rest. Ours. Given and Found (Introversion)]]
+[[anchor: Matthew 11:28-30]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 30]]
+
+O2 |  |
+  P | 28- | Our burden heavy.
+    Q | -28 | His rest given.
+      R | 29- | Command. "Take", &c.
+      R | -29- | Command. Reason, "for".
+    Q | -29 | Our rest found.
+  P | 30 | His burden light.
+
+[[diagram: 12. 9-13 (R2, p. 1323). Miracles (Introversion)]]
+[[anchor: Matthew 12:9-13]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 31]]
+
+R2 |  |
+  e | 9, 10- | Withered hand.
+    f | -10- | Question of the enemies.
+      g | -10 | Purpose. Accusation.
+    f | 11, 12 | Questions of the Lord.
+  e | 13 | Withered hand.
+
+[[diagram: 12. 14-50 (S2, p. 1323). Effects (Introversion)]]
+[[anchor: Matthew 12:14-50]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 31]]
+
+S2 |  |
+  S | 14 | Proposed destruction of the Lord by enemies.
+    T | 15-21 | The Word of God. Fulfilled.
+      U | 22 | Miracle (demoniac) wrought.
+      U | 23-37 | Miracle. Consequences.
+    T | 38-45 | The Word of God. Better than a sign.
+  S | 46-50 | Proposed capture by kindred.
+
+[[diagram: 12. 23-37 (U, p. 1333). Miracle. Consequences (Division)]]
+[[anchor: Matthew 12:23-37]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 32]]
+
+U |  |
+  V1 | 23 | People. Amazement.
+  V2 | 24-37 | Pharisees. Blasphemy.
+
+[[diagram: 12. 24-37 (V2, above). Pharisees. Blasphemy (Division)]]
+[[anchor: Matthew 12:24-37]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 32]]
+
+V2 |  |
+  W1 | 24-30 | Confutation.
+  W2 | 31-37 | Condemnation.
+
+[[diagram: 12. 24-30 (W1, above). Confutation (Alternation)]]
+[[anchor: Matthew 12:24-30]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 32]]
+
+W1 |  |
+  h | 24-26 | Illustration. Divided kingdom.
+    i | 27, 28 | Application.
+  h | 29 | Illustration. Strong man's house.
+    i | 30 | Application.
+
+[[diagram: 12. 31-37 (W2, above). Condemnation (Introversion)]]
+[[anchor: Matthew 12:31-37]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 32]]
+
+W2 |  |
+  X | 31, 32 | Words. Forgiven and unforgiven.
+    Y | 33 | Illustration. Trees.
+      Z | 34- | Expostulation.
+      Z | -34 | Reason.
+    Y | 35 | Illustration. Characters.
+  X | 36, 37 | Words. Justified and condemned.
+
+[[diagram: 12. 38-45 (T, p. 1333). The Word of God. Better than a Sign (Alternation)]]
+[[anchor: Matthew 12:38-45]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 33]]
+
+T |  |
+  A | 38-40 | Sign given. Asked for. (Historic.)
+    B | 41, 42 | Application.
+  A | 43-45- | Sign given. Unasked. (Experimental.)
+    B | -45 | Application.
+
+[[diagram: 12. 41, 42 (B, above). Application (Extended Alternation)]]
+[[anchor: Matthew 12:41-42]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 33]]
+
+B |  |
+  j | 41- | Persons. Ninevites ("rise").
+    k | -41- | Reason. Proclamation of Jonah.
+      l | -41 | Greater reason.
+  j | 42- | Person. Queen of the South ("rise").
+    k | -42- | Reason. Wisdom of Solomon.
+      l | -42 | Greater reason.
+
+[[diagram: 12. 43-45- (A, p. 1335). Sign Given. Unasked (Extended Alternation)]]
+[[anchor: Matthew 12:43-45]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 34]]
+
+A |  |
+  m | 43- | The going out of an unclean spirit.
+    n | -43 | Action. Seeking rest.
+      o | 44- | Return. Purposed.
+        p | -44 | Condition of house.
+  m | 45- | The going out of an unclean spirit.
+    n | -45- | Action. Seeking other spirits.
+      o | -45- | Return. Effected.
+        p | -45 | Condition of house.
+
+[[diagram: 12. 46-50 (S, p. 1333). Proposed Capture by Kindred (Introversion and Alternation)]]
+[[anchor: Matthew 12:46-50]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 34]]
+
+S |  |
+  C |  |
+    q | 46 | Mother and brethren. (Natural.) "Without".
+      r | 47 | Their will. Reported (Mark 3. 21-31).
+        D | 48 | The Lord's Question.
+  C |  |
+    q | 49 | Mother and brethren. (Spiritual.) "Within".
+      r | 50 | God's will. Declared.
+
+[[diagram: 13. 1-53 (T2, p. 1323). Teaching (Alternation and Introversion)]]
+[[anchor: Matthew 13:1-53]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 34]]
+
+T2 |  |
+  E1 | 1, 2 | Place. Departure. "Out of the house".
+    F |  |
+      G | 3-9 | ONE Parable. (The Sower.)
+        H | 10-23 | Question of Disciples. Answer not understood.
+          J | 24-33 | THREE Parables. "Another", "Another", "Another".
+            K | 34, 35 | Multitudes.
+  E2 | 36- | Place. Departure. "Into the house".
+    F |  |
+            K | -36-43 | Disciples.
+          J | 44-50 | THREE Parables. "Again", "Again", "Again".
+        H | 51 | Question to Disciples. Answer understood.
+      G | 52 | ONE Parable. (The Scribe.)
+  E3 | 53 | Place. Departure. "Thence".
+
+[[diagram: 13. 10-23 (H, p. 1336). Question of Disciples (Division)]]
+[[anchor: Matthew 13:10-23]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 35]]
+
+H |  |
+  L1 | 10-17 | Colloquy.
+  L2 | 18-23 | Interpretation of Parable.
+
+[[diagram: 13. 10-17 (L1, above). Colloquy (Alternation)]]
+[[anchor: Matthew 13:10-17]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 35]]
+
+L1 |  |
+  M | 10 | Question of Disciples. Put.
+    N | 11, 12 | Answer. Reason. "Because".
+  M | 13- | Question of Disciples. Answered.
+    N | -13-17 | Answer. Reason. "Because".
+
+[[diagram: 13. -13-17 (N, above). Answer. Reason (Alternation)]]
+[[anchor: Matthew 13:13-17]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 35]]
+
+N |  |
+  s | -13 | Condition of the People. Apathy.
+    t | 14, 15 | Prophet. Isaiah. Foreseen.
+  s | 16 | Condition of Disciples. Happy.
+    t | 17 | Prophets. Desired to see and hear.
+
+# 13. 18-23 prints its root letter as "L'"; the heading names it L2.
+[[diagram: 13. 18-23 (L2, above). Interpretation of the Sower (Introversion and Alternation)]]
+[[anchor: Matthew 13:18-23]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 35]]
+
+L2 |  |
+  O |  |
+    u | 18, 19- | Interpretation.
+      v | -19 | Wayside.
+      v | 20- | Stony ground.
+    u | -20, 21 | Interpretation.
+  O |  |
+    w | 22- | Thorns.
+      x | -22 | Interpretation.
+    w | 23- | Good ground.
+      x | -23 | Interpretation.
+
+[[diagram: 13. 36-43 (K, p. 1336). Disciples (Alternation)]]
+[[anchor: Matthew 13:36-43]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 37]]
+
+K |  |
+  y | 36- | Disciples come.
+    z | -36 | Explanation requested.
+  y | 37- | The Lord's answer.
+    z | -37-43 | Explanation given (vv. -37-39). Application made (vv. 40-43).
+
+[[diagram: 13. 54-58 (U2, p. 1323). Results. Opposition of His own Kindred (Introversion and Alternation)]]
+[[anchor: Matthew 13:54-58]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 38]]
+
+U2 |  |
+  P |  |
+    a | 54- | "His own country."
+    b | -54- | His words.
+      Q | -54- | Effect of His teaching. "Astonished".
+        R | -54 | Question. "Whence", &c.
+          S |  |
+            c | 55- | Father. (Male.)
+            d | -55- | Mother. (Female.)
+          S |  |
+            c | -55 | Brethren. (Males.)
+            d | 56- | Sisters. (Females.)
+        R | -56 | Question. "Whence", &c.
+      Q | 57- | Effect of His teaching. "Offended".
+  P |  |
+    a | -57 | "His own country."
+    b | 58 | "His works."
+
+[[diagram: 14. 1-12 (N, p. 1323). Mission of John Baptist ended (Introversion)]]
+[[anchor: Matthew 14:1-12]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 38]]
+
+N |  |
+  T | 1, 2 | Herod hearing of John.
+    U | 3-11 | John's death.
+    U | 12- | John's burial.
+  T | -12 | Jesus hearing of Herod.
+
+[[diagram: 14. 3-11 (U, above). John's Death (Introversion and Alternations)]]
+[[anchor: Matthew 14:3-11]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 38]]
+
+U |  |
+  V |  |
+    e | 3 | Herod's imprisonment of John (from enmity).
+      f | 4 | Reason. John's reproof.
+    e | 5- | Herod's imprisonment of John (from fear).
+      f | -5 | Reason. People's opinion.
+[[group: John's death desired.]]
+      W | 6 | Opportunity given.
+[[group: -]]
+  V |  |
+    g | 7 | Herod's promise to Herodias. Made.
+      h | 8 | John's head asked.
+    g | 9, 10 | Herod's promise to Herodias. Kept.
+      h | 11 | John's head given.
+[[group: John's death effected.]]
+
+[[diagram: 14. 13-36 (R3, p. 1323). Miracles (Alternations and Introversion)]]
+[[anchor: Matthew 14:13-36]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 39]]
+
+R3 |  |
+  X | 13- | Departure from the people.
+    Y |  |
+      Z |  |
+        i | -13 | Concourse.
+          k | 14 | Many Miracles.
+            A | 15-21 | One Miracle. Feeding the Five Thousand.
+  X | 22, 23 | Departure from the people.
+    Y |  |
+            A | 24-33 | One Miracle. Walking on the Sea.
+      Z |  |
+        i | 34, 35- | Concourse.
+          k | -35-36 | Many Miracles.
+
+[[diagram: 14. 15-21 (A, above). One Miracle. Feeding the Five Thousand (Introversion)]]
+[[anchor: Matthew 14:15-21]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 39]]
+
+A |  |
+  l | 15 | Multitudes. Hungry.
+    m | 16 | "Give ye them".
+      n | 17 | Supply. Insufficient.
+      n | 18, 19- | Supply. Sufficient.
+    m | -19 | "He gave".
+  l | 20, 21 | Multitudes. Filled.
+
+[[diagram: 14. 24-33 (A, above). One Miracle. Walking on the Sea (Extended Alternation)]]
+[[anchor: Matthew 14:24-33]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 39]]
+
+A |  |
+  B | 24- | The ship.
+    C | -24 | The wind. Contrary.
+      D | 25-31 | The miracle. Wrought.
+  B | 32- | The ship.
+    C | -32 | The wind. Ceased.
+      D | 33 | The miracle. Effect.
+
+[[diagram: 14. 25-31 (D, p. 1341). The Miracle Wrought (Extended Alternation)]]
+[[anchor: Matthew 14:25-31]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 40]]
+
+D |  |
+  o | 25 | The Lord walking on the sea.
+    p | 26 | Disciples troubled.
+      q | 27 | Be not afraid.
+  o | 28, 29 | Peter essaying to walk, &c.
+    p | 30 | Peter afraid.
+      q | 31 | Wherefore didst thou doubt?
+
+[[diagram: 15. 3-11 (T3, p. 1323). Teaching (Extended Alternation)]]
+[[anchor: Matthew 15:3-11]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 40]]
+
+T3 |  |
+  r | 3 | Pharisees. Transgression.
+    s | 4 | God's Commandment.
+      t | 5, 6 | "Ye say".
+  r | 7 | Pharisees. Hypocrisy.
+    s | 8, 9 | God's Word.
+      t | 10, 11 | "I say".
+
+[[diagram: 15. 12-20 (U3, p. 1323). Result. Opposition of the Pharisees (Alternation)]]
+[[anchor: Matthew 15:12-20]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 41]]
+
+U3 |  |
+  u | 12 | Disciples. Report. Opposition of Pharisees.
+    v | 13, 14 | The Lord. Explanation of opposition.
+  u | 15 | Disciples. Peter's request.
+    v | 16-20 | The Lord. Explanation of statement.
+
+[[diagram: 15. 21-39 (R4, p. 1323). Miracles (Repeated Alternation)]]
+[[anchor: Matthew 15:21-39]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 41]]
+
+R4 |  |
+  E1 | 21 | Departure.
+    F1 | 22-28 | Miracle. Woman of Canaan.
+  E2 | 29 | Departure.
+    F2 | 30-38 | Miracle. The Four Thousand.
+  E3 | 39 | Departure.
+
+[[diagram: 15. 22-28 (F1, above). Miracle. Woman of Canaan (Repeated Alternation)]]
+[[anchor: Matthew 15:22-28]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 41]]
+
+F1 |  |
+  w1 | 22 | Woman. Her Prayer. "Have mercy".
+    x1 | 23- | The Lord. No answer. No claim.
+  w2 | -23 | Woman. Disciples' prayer. "Send her away."
+    x2 | 24 | The Lord. Answer. Explanation of silence.
+  w3 | 25 | Woman. Prayer. "Lord, help."
+    x3 | 26 | The Lord. Answer delayed.
+  w4 | 27 | Woman. Plea. Confession. I have no claim.
+    x4 | 28 | The Lord. Answer. Healing given.
+
+[[diagram: 16. 1-4 (S4, p. 1323). Effects (Introversion)]]
+[[anchor: Matthew 16:1-4]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 42]]
+
+S4 |  |
+  y | 1 | Sign desired.
+    z | 2, 3- | Discernment. (Positive.)
+    z | -3 | Discernment. (Negative.)
+  y | 4 | Sign refused.
+
+[[diagram: 16. 5-12 (T4, p. 1323). Teaching (Alternation)]]
+[[anchor: Matthew 16:5-12]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 43]]
+
+T4 |  |
+  a | 5 | Bread. Forgetfulness.
+    b | 6 | Leaven. Warning.
+  a | 7-10 | Bread. Remembrance.
+    b | 11, 12 | Leaven. Instruction.
+
+[[diagram: 16. 13-16 (U4, p. 1323). Result. Opposition Completed (Alternation)]]
+[[anchor: Matthew 16:13-16]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 43]]
+
+U4 |  |
+  c | 13 | Question. Who say men?
+    d | 14 | Answer of Disciples.
+  c | 15 | Question. Who say ye?
+    d | 16 | Answer of Peter.
+
+[[diagram: 16. 17-20 (L, p. 1323). Jesus. The Messiah Declared. Witness and Evidences. Ended (Introversion)]]
+[[anchor: Matthew 16:17-20]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 43]]
+
+L |  |
+  e | 17 | Divine revelation.
+    f | 18- | The Foundation itself. Peter's Confession.
+    f | -18, 19 | The Foundation. To be built on.
+  e | 20 | Divine Injunction.
+
+[[diagram: 16. 21—20. 34 (G, p. 1305). The Third Period of the Ministry. The Rejection of the King (Introversion and Alternation)]]
+[[anchor: Matthew 16:21-21]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 44]]
+
+G |  |
+  G |  |
+    K |  | 16. 21—17. 13. Sufferings. First Announcement.
+      L |  | 17. 14-21. Miracle. The lunatic son.
+      H |  |
+        M |  | 17. 22, 23. Sufferings. Second Announcement.
+          N |  | 17. 24-27. Gentiles. Authority. Sons free.
+          J |  |
+            O1 |  | 18. 1-35. Discipleship. Little child.
+              P1 |  | 19. 1-12. Pharisees. Question.
+            O2 |  | 19. 13-15. Discipleship. Little children.
+              P2 |  | 19. 16-26. Certain man. Question.
+            O3 |  | 19. 27—20. 16. Discipleship. Rewards.
+      H |  |
+        M |  | 20. 17-19. Sufferings. Third Announcement.
+          N |  | 20. 20-27. Gentiles. Authority. Brethren free.
+  G |  |
+    K |  | 20. 28. Sufferings. Fourth Announcement.
+      L |  | 20. 29-34. Miracle. Blind man.
+
+[[diagram: 16. 21—17. 13 (K, above). Sufferings. First Announcement (Division)]]
+[[anchor: Matthew 16:21-21]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 44]]
+
+K |  |
+  Q1 |  | 16. 21-28. The Sufferings and Glory. Foretold.
+  Q2 |  | 17. 1-9. The Glory. Foreshown. (The Transfiguration.)
+  Q3 |  | 17. 10-13. The Sufferings and Glory. Explained.
+
+[[diagram: 16. 21-28 (Q1, above). The Sufferings and Glory. Foretold (Introversion and Alternation)]]
+[[anchor: Matthew 16:21-28]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 44]]
+
+Q1 |  |
+  R |  |
+    g | 21- | Sufferings.
+      h | -21 | Glory. Resurrection.
+[[group: His Own.]]
+        S | 22 | Peter's rebuke of the Lord.
+        S | 23 | Peter rebuked by the Lord.
+[[group: -]]
+  R |  |
+    g | 24-26 | Sufferings.
+      h | 27, 28 | Glory. Kingdom.
+[[group: His Disciple.]]
+
+[[diagram: 17. 1-9 (Q2, p. 1346). The Glory Foreshown. The Transfiguration (Introversion and Alternations)]]
+[[anchor: Matthew 17:1-9]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 45]]
+
+Q2 |  |
+  T |  |
+    i | 1- | The Ascent.
+      k | -1 | Disciples taken up.
+      U |  |
+        l | 2 | The Vision.
+          m | 3 | The Lord. Accompanied.
+            V | 4 | Voice. Peter's.
+            V | 5 | Voice. The Father's.
+      U |  |
+        l | 6, 7 | The Vision. Ended.
+          m | 8 | The Lord. Alone.
+  T |  |
+    i | 9- | The Descent.
+      k | -9 | Disciples. Charged.
+
+[[diagram: 17. 10-13 (Q3, p. 1346). The Sufferings and Glory. Explained (Introversion)]]
+[[anchor: Matthew 17:10-13]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 46]]
+
+Q3 |  |
+  n | 10 | Disciples. Question, re Elijah.
+    o | 11 | The Lord. Admission.
+    o | 12 | The Lord. Addition.
+  n | 13 | Disciples. Explanation, re John the Baptist.
+
+[[diagram: 17. 14-21 (L, p. 1346). Miracle. The Lunatic Son (Extended Alternation)]]
+[[anchor: Matthew 17:14-21]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 46]]
+
+L |  |
+  p | 14, 15 | Request made.
+    q | 16 | Disciples' inability. Complaint.
+      r | 17- | Unbelief. Deplored.
+  p | -17, 18 | Request granted.
+    q | 19 | Disciples' inability. Inquiry.
+      r | 20, 21 | Unbelief. Explained.
+
+[[diagram: 17. 24-27 (N, p. 1346). Gentiles. Authority. Sons Free (Introversion)]]
+[[anchor: Matthew 17:24-27]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 46]]
+
+N |  |
+  s | 24 | Tribute inquired about.
+    t | 25 | Their own exempted.
+      u | 26- | But of foreigners.
+    t | -26 | Their own free.
+  s | 27 | Tribute paid.
+
+[[diagram: 18. 1-35 (O1, p. 1346). Discipleship. Little Child (Repeated Alternation)]]
+[[anchor: Matthew 18:1-35]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 47]]
+
+O1 |  |
+  W1 | 1-6 | Instruction. Humility.
+    X1 | 7-9 | Offences. One's self.
+  W2 | 10-14 | Instruction. Humility.
+    X2 | 15-20 | Offences. Brethren.
+  W3 | 21, 22 | Instruction. Forgiveness.
+    X3 | 23-34 | Offences. Fellow-servants.
+  W4 | 35 | Application.
+
+[[diagram: 18. 23-34 (X3, p. 1349). Offence. Fellow-servants (Extended and Repeated Alternation)]]
+[[anchor: Matthew 18:23-34]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 48]]
+
+X3 |  |
+  Y1 |  |
+    v1 | 23-25 | Action of King. Debt owing.
+      w1 | 26 | Appeal for delay. Granted.
+        x1 | 27 | Conduct. Compliance.
+  Y2 |  |
+    v2 | 28 | Action of Servant. Debt demanded.
+      w2 | 29 | Appeal for delay. Refused.
+        x2 | 30 | Conduct. Non-compliance.
+  Y3 |  |
+    v3 | 31 | Action of Servant. Reported.
+      w3 | 32, 33 | Appeals. Contrasted.
+        x3 | 34 | Conduct. Punished.
+
+[[diagram: 19. 1-12 (P1, p. 1346). Pharisees. Question (Introversion and Alternation)]]
+[[anchor: Matthew 19:1-12]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 49]]
+
+P1 |  |
+  A | 1, 2 | The Cause. Miracles wrought.
+    B |  |
+      y | 3 | Inquiry. To tempt.
+        z | 4-6 | Answer. Original purpose.
+    B |  |
+      y | 7 | Inquiry. To tempt further.
+        z | 8, 9 | Answer. Mosaic sufferance.
+  A | 10-12 | The Consequence. Disciples instructed.
+
+[[diagram: 19. 13-15 (O2, p. 1346). Discipleship. Little Children (Introversion)]]
+[[anchor: Matthew 19:13-15]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 50]]
+
+O2 |  |
+  a | 13- | Request for His hands to be laid.
+    b | -13 | Rebuked by Disciples.
+    b | 14 | Encouraged by Christ.
+  a | 15 | Request granted.
+
+[[diagram: 19. 16-26 (P2, p. 1346). A Certain Man. Question (Repeated Alternation)]]
+[[anchor: Matthew 19:16-26]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 50]]
+
+P2 |  |
+  c1 | 16 | Young Man. Question. "What?" &c.
+    d1 | 17 | The Lord. Answer. "Keep", &c.
+  c2 | 18- | Young Man. Question. "Which?"
+    d2 | -18, 19 | The Lord. Answer. All. (Tenth omitted.)
+  c3 | 20 | Young Man. Question. "What?" &c.
+    d3 | 21 | The Lord. Answer. The Tenth enforced.
+  c4 | 22 | Young Man. Went away.
+    d4 | 23, 24 | The Lord. Application.
+  c5 | 25 | Disciples. Question. "Who then?" &c.
+    d5 | 26 | The Lord. Answer. God.
+
+[[diagram: 19. 27—20. 16 (O3, p. 1346). Discipleship. Rewards (Extended and Repeated Alternation with Introversion)]]
+[[anchor: Matthew 19:27-30]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 51]]
+# D3 is printed in line with D1 and D2 (two steps right of e3); set one level in, under e3.
+
+O3 |  |
+  C1 |  |
+    e1 |  | 19. 27. The first chosen (John 15. 16). The Twelve. Inquiry. "We".
+      f1 |  | 19. 28. Agreement with them. Twelve thrones.
+        g1 |  | 19. 29. Others.
+          D1 |  | 19. 30. Prophecy. First, last; last, first.
+  C2 |  |
+    e2 |  | 20. 1. The servants first hired. The Twelve. The Parable.
+      f2 |  | 20. 2. Agreement with them.
+        g2 |  | 20. 3-7. Others. (Third, sixth, ninth, and eleventh hours.)
+          D2 |  | 20. 8. Prophecy fulfilled.
+  C3 |  |
+        g3 |  | 20. 9. Others. The last called. Rewarded first.
+      f3 |  | 20. 10. Agreement with the first chosen.
+    e3 |  | 20. 11-15. The first chosen. Their complaint.
+      D3 |  | 20. 16. Prophecy fulfilled. The "many" are first (in order). The few are last (in order).
+
+[[diagram: 20. 20-27 (N, p. 1346). Gentiles. Authority. Brethren Free (Introversion)]]
+[[anchor: Matthew 20:20-27]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 52]]
+
+N |  |
+  h | 20, 21 | Pre-eminence sought for two brethren.
+    i | 22, 23 | Pre-eminence. Refusal.
+      k | 24 | Indignation of the ten.
+    i | 25, 26- | Pre-eminence. Instruction. For Gentiles, not for brethren.
+  h | -26, 27 | True pre-eminence defined.
+
+[[diagram: 20. 29-34 (L, p. 1346). Miracle. Two Blind Men (Introversion)]]
+[[anchor: Matthew 20:29-34]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 53]]
+
+L |  |
+  l | 29, 30- | The two blind men. Sitting.
+    m | -30 | Request, and cry for healing.
+      n | 31 | Rebuke of multitude.
+      n | -31 | Rebuke useless.
+    m | 32-34- | Request granted. Healing given.
+  l | -34 | The two blind men. Following.
+
+[[diagram: 21. 1—26. 35 (F, p. 1305). The Fourth Period. The Kingdom Rejected (Repeated and Extended Alternation)]]
+[[anchor: Matthew 21:1-1]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 53]]
+
+F |  |
+  E1 |  | 21. 1-7. Bethphage. Arrival and Departure.
+    F1 |  | 21. 8-11. Jerusalem. The first entry into.
+      G1 |  | 21. 12-16. In the temple. Cleansing.
+  E2 |  | 21. 17. Bethany. Return to.
+    F2 |  | 21. 18-22. Jerusalem. Return to.
+      G2 |  | 21. 23—25. 46. In the temple and on Olivet. Prediction.
+  E3 |  | 26. 1-17-. Bethany. Return to.
+    F3 |  | 26. -17-29. Jerusalem. The Last Supper.
+      G3 |  | 26. 30-35. In the Mount of Olives. Prediction.
+
+[[diagram: 21. 1-7 (E1, above). Bethphage. Arrival and Departure (Introversion)]]
+[[anchor: Matthew 21:1-7]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 53]]
+
+E1 |  |
+  o | 1 | Mission of Two Disciples. Begun.
+    p | 2, 3 | Commission given.
+      q | 4, 5 | Fulfilment of Prophecy.
+    p | 6 | Commission carried out.
+  o | 7 | Mission of Two Disciples. Ended.
+
+[[diagram: 21. 8-11 (F1, p. 1355). Jerusalem. First Entry (Introversion)]]
+[[anchor: Matthew 21:8-11]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 54]]
+
+F1 |  |
+  r | 8 | Action.
+    s | 9 | Cry. Made.
+    s | 10 | Cry. Effect.
+  r | 11 | Action.
+
+[[diagram: 21. 12-16 (G1, p. 1355). In the Temple. Cleansing (Alternation)]]
+[[anchor: Matthew 21:12-16]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 54]]
+
+G1 |  |
+  t | 12 | Miracle. Cleansing.
+    u | 13 | Scripture fulfilled.
+  t | 14-16- | Miracle. Healing.
+    u | -16 | Scripture fulfilled.
+
+[[diagram: 21. 18-22 (F2, p. 1355). Jerusalem. Return to (Introversion)]]
+[[anchor: Matthew 21:18-22]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 54]]
+
+F2 |  |
+  v | 18, 19- | Words of the Lord. Curse.
+    w | -19 | Miracle. Fig-tree withered.
+    w | 20 | Miracle. Marvel of Disciples.
+  v | 21, 22 | Words of the Lord. Faith.
+
+[[diagram: 21. 23—25. 46 (G2, p. 1355). In the Temple. Teaching (Alternation)]]
+[[anchor: Matthew 21:23-23]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 55]]
+
+G2 |  |
+  H |  | 21. 23—22. 46. Priests and Elders. Controversy.
+    J |  | 23. 1-12. Teaching. Crowds and Disciples. Moral.
+  H |  | 23. 13-39. Scribes and Pharisees. Denunciation.
+    J |  | 24. 1—25. 46. Teaching. Disciples. Prophetic.
+
+[[diagram: 21. 23—22. 46 (H, above). Priests and Elders. Controversy in Temple (Introversion)]]
+[[anchor: Matthew 21:23-23]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 55]]
+
+H |  |
+  K |  | 21. 23-27. Questions. Chief Priests and Elders.
+    L |  | 21. 28-44. Parables. Two Sons and Vineyard.
+      M |  | 21. 45. Conviction.
+      M |  | 21. 46. Conspiracy.
+    L |  | 22. 1-14. Parable. Marriage of King's Son.
+  K |  | 22. 15-46. Questions. Pharisees and Sadducees.
+
+[[diagram: 21. 23-27 (K, above). Questions. Chief Priests and Elders (Introversion)]]
+[[anchor: Matthew 21:23-27]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 55]]
+
+K |  |
+  x | 23 | Their question. Put.
+    y | 24, 25- | His question. Put.
+      z | -25, 26- | Their reasoning.
+      z | -26 | Their reason.
+    y | 27- | His question. Unanswered.
+  x | -27 | Their question. Answered.
+
+[[diagram: 21. 28-44 (L, above). Parables (Division)]]
+[[anchor: Matthew 21:28-44]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 55]]
+
+L |  |
+  N1 | 28-32 | The Two Sons. Disobedience.
+  N2 | 33-44 | The Husbandmen. Rebellion.
+
+[[diagram: 21. 28-32 (N1, above). The Two Sons. Disobedience (Repeated Alternation)]]
+[[anchor: Matthew 21:28-32]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 55]]
+
+N1 |  |
+  a1 | 28- | Appeal for opinion.
+    b1 | -28-30 | The Two Sons. Contrasted.
+  a2 | 31- | Appeal for decision.
+    b2 | -31- | The Two Sons. Answer.
+  a3 | -31, 32 | Application.
+
+[[diagram: 21. 33-44 (N2, p. 1357). The Husbandmen. Rebellion (Alternation)]]
+[[anchor: Matthew 21:33-44]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 56]]
+
+N2 |  |
+  O | 33-41 | The Parable. Given.
+    P | 42 | The Scripture cited (Ps. 118. 22).
+  O | 43 | The Parable. Its application.
+    P | 44 | The Scripture cited (Isa. 8. 14).
+
+[[diagram: 21. 33-41 (O, above). The Parable Given (Alternation)]]
+[[anchor: Matthew 21:33-41]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 56]]
+
+O |  |
+  c | 33 | The Owner making His Vineyard.
+    d | 34-39 | The Husbandmen. Conduct.
+  c | 40 | The Owner coming to His Vineyard.
+    d | 41 | The Husbandmen. Judgment.
+
+[[diagram: 22. 1-14 (L, p. 1357). Parables. Marriage of King's Son (Division)]]
+[[anchor: Matthew 22:1-14]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 57]]
+
+L |  |
+  Q1 | 1-7 | The bidden Guests.
+  Q2 | 8-14 | The substituted Guests.
+
+[[diagram: 22. 1-7 (Q1, above). The Bidden Guests (Alternation)]]
+[[anchor: Matthew 22:1-7]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 57]]
+
+Q1 |  |
+  e | 1-3- | Call to those bidden. First call.
+    f | -3 | Servants sent. Refused.
+  e | 4 | Call to those bidden. Second call.
+    f | 5-7 | Servants sent. Ill treated.
+
+[[diagram: 22. 8-14 (Q2, above). The Substituted Guests (Introversion)]]
+[[anchor: Matthew 22:8-14]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 57]]
+
+Q2 |  |
+  g | 8 | The bidden Guests. Not worthy.
+    h | 9 | Other Guests to be substituted.
+    h | 10 | Other Guests substituted.
+  g | 11-14 | The intruding Guest. Detected.
+
+[[diagram: 22. 15-46 (K, p. 1357). Questions. Pharisees and Sadducees (Alternation)]]
+[[anchor: Matthew 22:15-46]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 57]]
+
+K |  |
+  R | 15-22 | The Pharisees' Question. Civil.
+    S | 23-33 | The Sadducees' Question. Religious.
+  R | 34-40 | The Pharisee's Question. Moral.
+    S | 41-46 | The Lord's Question and Answer.
+
+[[diagram: 22. 15-22 (R, p. 1359). The Pharisees' Question (Introversion and Alternation)]]
+[[anchor: Matthew 22:15-22]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 58]]
+
+R |  |
+  T | 15 | Counsel taken.
+    U | 16, 17 | Their Question as to Tribute.
+[[group: -]]
+      V |  |
+        i | 18, 19- | His demand.
+          k | -19 | Their compliance.
+      V |  |
+        i | 20 | His Question.
+          k | 21- | Their Reply.
+[[group: The Argument.]]
+    U | -21 | Their Question answered.
+  T | 22 | Departure taken.
+
+[[diagram: 22. 23-33 (S, p. 1359). The Sadducees' Question (Alternation)]]
+[[anchor: Matthew 22:23-33]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 58]]
+
+S |  |
+  l | 23 | Sadducees' error. Denial of Resurrection.
+    m | 24-28 | Resurrection. Questioned.
+  l | 29 | Sadducees' error. Ignorance of Scripture.
+    m | 30-33 | Resurrection. Proved.
+
+[[diagram: 22. 34-40 (R, p. 1359). The Pharisees' Question (Introversion)]]
+[[anchor: Matthew 22:34-40]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 59]]
+
+R |  |
+  n | 34-36 | The Great Commandment. Question.
+[[group: -]]
+    o | 37, 38 | Answer. The First: Love of God.
+    o | 39 | Answer. The Second: Love of Neighbour.
+[[group: Severally.]]
+  n | 40 | The Great Commandment. Jointly.
+
+[[diagram: 22. 41-46 (S, p. 1359). The Lord's Question and Answer (Introversion)]]
+[[anchor: Matthew 22:41-46]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 59]]
+
+S |  |
+  W |  |
+    p | 41, 42- | His Question: "Whose Son is Messiah?"
+      q | -42 | Their Answer: "The Son of David."
+        X | 43, 44 | David's Words.
+  W |  |
+    p | 45 | His Question: "How is He his Son?"
+      q | 46 | Their Answer: not given.
+
+[[diagram: 23. 1-12 (J, p. 1357). Teaching. In the Temple. Multitudes and Disciples. (Moral.) (Repeated Alternation)]]
+[[anchor: Matthew 23:1-12]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 59]]
+
+J |  |
+  r1 | 1, 2 | Self-exaltation. Scribes. (Session.)
+    s1 | 3, 4 | "Do not ye" what they bid.
+  r2 | 5-7 | Self-exaltation. Scribes. (Works.)
+    s2 | 8-11 | "Be not ye" like them.
+  r3 | 12 | Self-exaltation. Scribes. (Application.)
+
+[[diagram: 23. 13-39 (H, p. 1357). Scribes and Pharisees (Division)]]
+[[anchor: Matthew 23:13-39]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 60]]
+
+H |  |
+  Y1 | 13-33 | Denunciation. The Eight Woes.
+  Y2 | 34-39 | Prophecy.
+
+[[diagram: 13-33 (Y1, above). Denunciation. The Eight Woes (Introversion)]]
+[[anchor: Matthew 23:13-33]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 60]]
+
+Y1 |  |
+  A | 13-15 | Their treatment of the living.
+    B | 16-22 | False swearing.
+      C | 23 | Hypocrites.
+      C | 24 | Blind guides.
+    B | 25-28 | False cleansing.
+  A | 29-33 | Their treatment of the dead.
+
+[[diagram: 13-15 (A, above). Their Treatment of the Living (Introversion)]]
+[[anchor: Matthew 23:13-15]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 60]]
+
+A |  |
+  t | 13 | Proselytes. The honest hindered.
+    u | 14- | Incrimination.
+    u | -14 | Condemnation.
+  t | 15 | Proselytes. Those made, made worse.
+
+[[diagram: 23. 34-39 (Y2, p. 1362). Prophecy (Extended Alternation)]]
+[[anchor: Matthew 23:34-39]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 61]]
+
+Y2 |  |
+  v | 34 | Prophets. Future sending.
+    w | 35 | Result.
+      x | 36 | "I say unto you".
+  v | 37 | Prophets. Past sending.
+    w | 38 | Result.
+      x | 39 | "I say unto you".
+
+[[diagram: 24. 1—25. 26 (J, p. 1357). Teaching. Disciples. Prophetic (Extended Alternation)]]
+[[anchor: Matthew 24:1-1]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 62]]
+
+J |  |
+  D |  | 24. 1-. Place. Departure from the Temple.
+    E |  | 24. -1. Disciples come to show.
+      F |  | 24. 2. Prophecy. General.
+  D |  | 24. 3-. Place. Arrival at the Mount of Olives.
+    E |  | 24. -3. Disciples come to ask.
+      F |  | 24. 4—25. 26. Prophecy. Particular.
+
+[[diagram: -3 (E, above). Disciples Come to Ask (Division)]]
+[[anchor: Matthew 24:3-3]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 62]]
+
+E |  |
+  G1 | -3- | First Question: WHEN shall these things (v. 2) be?
+  G2 | -3- | Second Question: WHAT the sign of Thy Parousia?
+  G3 | -3 | Third Question: WHAT [the sign] of the consummation of the Age?
+
+[[diagram: 24. 4—25. 26 (F, above). Prophecy. Particular (Division)]]
+[[anchor: Matthew 24:4-4]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 62]]
+
+F |  |
+  H1 |  | 24. 4-6. Answer to the First Question.
+  H2 |  | 24. 7-28. Answer to the Second Question.
+  H3 |  | 24. 29—25. 26. Answer to the Third Question.
+
+[[diagram: 24. 4-6 (H1, above). Answer to the First Question (Introversion)]]
+[[anchor: Matthew 24:4-6]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 62]]
+# Printed under the heading: "Read with Mark 13. 5-7. Luke 21. 8, 9." (kept in the 24:4 note).
+
+H1 |  |
+  y | 4 | Warning. The beginning.
+[[group: -]]
+    z | 5 | Many Antichrists.
+    z | 6- | Rumours of Wars.
+[[group: First Sign.]]
+  y | -6 | Warning. Not the end.
+
+[[diagram: 24. 7-28 (H2, p. 1364). Answer to the Second Question (Alternation)]]
+[[anchor: Matthew 24:7-28]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 63]]
+
+H2 |  |
+  J | 7, 8 | The Tribulation. The birth-pangs. Read this with Mark 13. 8, and Luke 21. 10, 11.
+[[group: -]]
+    K | 9-14 | Tribulation. General.
+  J | 15-20 | The Second Sign.
+    K | 21-28 | The Great Tribulation.
+[[group: Read this with Mark 13. 9-23, not Luke 21.]]
+
+[[diagram: 24. 9-14 (K, above). Tribulation. General (Introversion)]]
+[[anchor: Matthew 24:9-14]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 63]]
+
+K |  |
+  a | 9 | Proclamation. The Gospel of the Kingdom.
+    b | 10 | Consequences. Stumbling.
+      c | 11- | False Prophets. Arising.
+      c | -11 | False Prophets. Deception.
+    b | 12 | Consequence. Coldness.
+  a | 13, 14 | Promise. The Gospel of the Kingdom.
+
+[[diagram: 24. 15-20 (J, above). The Second Sign (Alternation)]]
+[[anchor: Matthew 24:15-20]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 63]]
+
+J |  |
+  d | 15 | Warning. The Second Sign.
+    e | 16-18 | Direction. Flight.
+  d | 19 | Commiseration.
+    e | 20 | Direction. Prayer and Flight.
+
+[[diagram: 24. 21-28 (K, above). The Great Tribulation (Introversion)]]
+[[anchor: Matthew 24:21-28]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 63]]
+
+K |  |
+  f | 21, 22 | The Great Tribulation. Beginning.
+    g | 23 | Warning. "If they shall say".
+      h | 24- | False Messiahs and false prophets.
+      h | -24 | Their object.
+    g | 25, 26 | Warning. "If they shall say".
+  f | 27, 28 | The Great Tribulation. The End.
+
+[[diagram: 24. 29—25. 46 (H3, p. 1364). The Answer to the Third Question (Introversion and Alternations)]]
+[[anchor: Matthew 24:29-29]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 64]]
+
+H3 |  |
+  L |  |
+    N |  | 24. 29, 30. The Son of man. Shining forth. The Third Sign.
+      O |  | 24. 31. The gathering of the elect (Israel).
+[[group: -]]
+        M |  |
+          P |  | 24. 32-41. Parables and Type. The Fig-tree, and Noah.
+            Q |  | 24. 42-44. Warning. "Watch therefore".
+              R |  | 24. 45-51. Servants. Parable.
+[[group: General.]]
+        M |  |
+          P |  | 25. 1-12. Parable. The Ten Virgins.
+            Q |  | 25. 13. Warning. "Watch therefore".
+              R |  | 25. 14-30. Servants. Parable.
+[[group: Particular.]]
+  L |  |
+    N |  | 25. 31. The Son of man. On His throne.
+      O |  | 25. 32-46. The gathering of the nations (Gentiles).
+
+[[diagram: 24. 29-30 (N, above). The Son of Man. Shining Forth. The Third Sign (Alternation)]]
+[[anchor: Matthew 24:29-30]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 64]]
+# Printed under the heading: "Read this with Mark 13. 24-27. Luke 21. 25-28." (kept in the 24:29 note).
+
+N |  |
+  i | 29 | Heaven. Sun darkened.
+    k | 30- | The Son of man. The Third Sign.
+  i | -30- | Earth. Mourning.
+    k | -30 | The Son of man. Himself.
+
+[[diagram: 24. 32-41 (P, above). Parables and Type (Extended Alternation)]]
+[[anchor: Matthew 24:32-41]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 64]]
+
+P |  |
+  l | 32 | Parable. The Fig-tree.
+    m | 33 | The application.
+      n | 34 | Time. Nearness.
+        o | 35, 36 | Divine certainty. Creature ignorance.
+  l | 37 | Type. The days of Noah.
+    m | 38 | The application.
+      n | 39- | Time. Suddenness.
+        o | -39-41 | Divine certainty. Creature ignorance.
+
+[[diagram: 24. 42-44 (Q, p. 1366). Warning. "Watch Therefore" (Introversion)]]
+[[anchor: Matthew 24:42-44]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 65]]
+
+Q |  |
+  S |  |
+    p | 42- | Warning. "Watch".
+      q | -42 | Reason.
+[[group: -]]
+        T | 43- | Thief. Knowledge of.
+        T | -43 | Thief. Action against.
+[[group: Comparison.]]
+  S |  |
+    p | 44- | Warning. "Be ready".
+      q | -44 | Reason.
+
+[[diagram: 24. 45-51 (R, p. 1366). Servants. Parable (Extended Alternation)]]
+[[anchor: Matthew 24:45-51]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 65]]
+
+R |  |
+  r | 45- | The faithful and wise servant.
+    s | -45 | His duties performed.
+      t | 46 | His lord's coming.
+        u | 47 | His reward.
+  r | 48 | The evil servant.
+    s | 49 | His duties neglected.
+      t | 50 | His lord's coming.
+        u | 51 | His punishment.
+
+[[diagram: 25. 1-12 (P, p. 1366). Parable. The Ten Virgins (Introversion and Alternations)]]
+[[anchor: Matthew 25:1-12]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 66]]
+
+P |  |
+  U |  |
+    W |  |
+      v | 1, 2 | The ten.
+        w | 3 | The five foolish.
+          x | 4 | The five wise.
+            X |  |
+              y | 5- | The Bridegroom tarrying.
+                z | -5 | The ten sleeping ones.
+                  V | 6- | The Cry.
+                  V | -6 | The Call.
+  U |  |
+    W |  |
+      v | 7 | The ten.
+        w | 8 | The five foolish.
+          x | 9 | The five wise.
+            X |  |
+              y | 10 | The Bridegroom coming.
+                z | 11, 12 | The five foolish ones.
+
+[[diagram: 25. 14-30 (R, p. 1366). Servants. Parable. The Master (Alternation)]]
+[[anchor: Matthew 25:14-30]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 66]]
+
+R |  |
+  Y | 14, 15 | The Master. Departure. Commission.
+    Z | 16-18 | Servants. Conduct. Described.
+  Y | 19 | The Master. Return. Reckoning.
+    Z | 20-30 | Servants. Conduct. Judged.
+
+[[diagram: 25. 20-30 (Z, p. 1368). Servants. Conduct. Judged (Repeated and Extended Alternation)]]
+[[anchor: Matthew 25:20-30]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 67]]
+
+Z |  |
+  A1 |  |
+    a1 | 20 | Reckoning.
+      b1 | 21- | Commendation.
+        c1 | -21 | Reward.
+  A2 |  |
+    a2 | 22 | Reckoning.
+      b2 | 23- | Commendation.
+        c2 | -23 | Reward.
+  A3 |  |
+    a3 | 24, 25 | Reckoning.
+      b3 | 26, 27 | Condemnation.
+        c3 | 28-30 | Punishment.
+
+[[diagram: 25. 32-46 (O, p. 1366). The Gathering of the Nations (Gentiles) (Introversion and Extended Alternation)]]
+[[anchor: Matthew 25:32-46]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 67]]
+
+O |  |
+  B | 32 | The Gathering.
+    C |  |
+      d | 33 | Stationing.
+        e | 34 | Right hand. Blessed.
+          f | 35, 36 | Reason.
+            g | 37-39 | Inquiry.
+              h | 40 | Answer.
+    C |  |
+      d | 41- | Stationing.
+        e | -41 | Left hand. Cursed.
+          f | 42, 43 | Reason.
+            g | 44 | Inquiry.
+              h | 45 | Answer.
+  B | 46 | The Separation.
+
+[[diagram: 26. 1-35 (E3, p. 1355). Bethany. Return to (Introversion)]]
+[[anchor: Matthew 26:1-35]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 68]]
+
+E3 |  |
+  D | 1, 2 | The Passover. Two days before.
+    E | 3-5 | Conspiracy of Chief Priests, Scribes, and Elders.
+      F | 6-13 | The second Anointing.
+    E | 14-16 | Conspiracy of Judas Iscariot.
+  D | 17-35 | The Passover. One day before.
+
+[[diagram: 26. 6-13 (F, above). The Second Anointing (Introversion and Alternation)]]
+[[anchor: Matthew 26:6-13]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 68]]
+
+F |  |
+  G | 6, 7 | The woman. Historic.
+    H |  |
+      i | 8 | Indignation.
+        k | 9 | Reasoning.
+    H |  |
+      i | 10 | Reprehension.
+        k | 11 | Reasoning.
+  G | 12, 13 | The woman. Prophetic.
+
+[[diagram: 26. -17-29 (F3, p. 1355). Jerusalem. The Last Supper (Division)]]
+[[anchor: Matthew 26:17-29]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 69]]
+
+F3 |  |
+  K1 | -17-19 | The preparation.
+  K2 | 20-25 | The Supper. Prediction. Betrayal.
+  K3 | 26-29 | The New Covenant.
+
+[[diagram: -17-19 (K1, above). The Preparation (Introversion)]]
+[[anchor: Matthew 26:17-19]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 69]]
+
+K1 |  |
+  l | -17 | Preparation. Inquiry.
+    m | 18 | Command.
+    m | 19- | Obedience.
+  l | -19 | Preparation. Effected.
+
+[[diagram: 20-25 (K2, above). The Supper. Prediction. Betrayal (Extended Alternation)]]
+[[anchor: Matthew 26:20-25]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 69]]
+
+K2 |  |
+  n | 20, 21 | Prediction. Betrayal.
+    o | 22 | Question of all.
+      p | 23 | Answer.
+  n | 24 | Prediction.
+    o | 25- | Question of one.
+      p | -25 | Answer.
+
+[[diagram: 26. 30-35 (G3, p. 1355). The First Prediction of Peter's Denials (Alternation)]]
+[[anchor: Matthew 26:30-35]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 70]]
+
+G3 |  |
+  q | 30-32 | The Stumbling of all.
+    r | 33 | The disclaimer of Peter.
+  q | 34 | The Denial of one.
+    r | 35 | The disclaimer of all.
+
+[[diagram: 26. 36-46 (D, p. 1305). The Agony (Introversion)]]
+[[anchor: Matthew 26:36-46]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 70]]
+
+D |  |
+  J | 36- | Arrival.
+    K | -36-38 | Purpose. Stated.
+    K | 39-45 | Purpose. Effected.
+  J | 46 | Departure.
+
+[[diagram: 26. 47—28. 15 (C, p. 1305). The Baptism of Suffering (20. 22, 23) (Division)]]
+[[anchor: Matthew 26:47-47]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 71]]
+
+C |  |
+  L1 |  | 26. 47—27. 34. The Betrayal.
+  L2 |  | 27. 35-54. The Crucifixion.
+  L3 |  | 27. 55-66. The Burial.
+  L4 |  | 28. 1-15. The Resurrection.
+
+[[diagram: 26. 47—27. 54 (L1, above). The Betrayal (Introversions and Alternations)]]
+[[anchor: Matthew 26:47-47]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 71]]
+# In the second half O is printed in line with the first O (three steps right of P);
+# set one level in, under P, with S and T one level below it.
+
+L1 |  |
+  M |  |
+    N |  |
+      P |  | 26. 47-56. Judas. Treachery.
+        Q |  | 26. 57. The Lord. Led to Caiaphas.
+          R |  | 26. 58. Peter. Following.
+            O |  |
+              S |  | 26. 59-66. The Lord before Caiaphas.
+              T |  | 26. 67, 68. Personal abuse.
+  M |  |
+    N |  |
+          R |  | 26. 69-75. Peter. Denial.
+        Q |  | 27. 1, 2. The Lord. Delivered to Pilate.
+      P |  | 27. 3-10. Judas. Remorse.
+        O |  |
+          S |  | 27. 11-26. The Lord before Pilate.
+          T |  | 27. 27-34. Personal abuse.
+
+[[diagram: 26. 47-56 (P, above). Judas. Treachery (Alternation)]]
+[[anchor: Matthew 26:47-56]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 71]]
+
+P |  |
+  U | 47 | Judas with the crowd.
+    V | 48-54 | Acts of two disciples. Treachery and zeal.
+  U | 55, 56- | The Lord to the multitudes.
+    V | -56 | Act of all the disciples. Desertion.
+
+[[diagram: 26. 59-66 (S, p. 1373). The Lord before Caiaphas (Alternation)]]
+[[anchor: Matthew 26:59-66]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 72]]
+
+S |  |
+  W | 59-61 | False witnesses. Sought.
+    X | 62-64 | Examination.
+  W | 65-66- | False witnesses. Superseded.
+    X | -66 | Condemnation.
+
+[[diagram: 26. 62-64 (X, above). Examination (Alternation)]]
+[[anchor: Matthew 26:62-64]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 72]]
+
+X |  |
+  s | 62 | Question.
+    t | 63 | Silence.
+  s | -63 | Adjuration.
+    t | 64 | Speech. Answer.
+
+[[diagram: 26. 69-75 (R, p. 1373). Peter. Denial (Repeated Alternation)]]
+[[anchor: Matthew 26:69-75]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 72]]
+
+R |  |
+  Y1 | 69-74- | Peter. Three denials.
+    Z1 | -74 | A cock crowing.
+  Y2 | 75- | Peter. Denial. Remembered.
+    Z2 | -75- | A cock crowing. (The word of the Lord.)
+  Y3 | -75 | Peter. Repentance.
+
+[[diagram: 26. 69-74- (Y1, above). Peter. Three Denials (Repeated Alternation)]]
+[[anchor: Matthew 26:69-74]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 72]]
+
+Y1 |  |
+  u1 | 69 | First challenge. A maid.
+    v1 | 70 | First denial.
+  u2 | 71 | Second challenge. Another [maid].
+    v2 | 72 | Second denial.
+  u3 | 73 | Third challenge. Bystanders.
+    v3 | 74- | Third denial.
+
+[[diagram: 27. 3-10 (P, p. 1373). Judas. Remorse (Alternations)]]
+[[anchor: Matthew 27:3-10]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 73]]
+# A second-level brace "Money spent." encloses both "Fulfilment." and "Prophecy.";
+# nested braces are not representable, so it is recorded here only.
+
+P |  |
+  A |  |
+    w | 3 | Remorse.
+      x | 4 | Confession.
+    w | 5- | Restoration.
+      x | -5 | Suicide.
+[[group: Money returned.]]
+  A |  |
+    y | 6 | Price of blood.
+      z | 7, 8 | Purchase.
+[[group: Fulfilment.]]
+    y | 9 | Price of blood.
+      z | 10 | Purchase.
+[[group: Prophecy.]]
+
+[[diagram: 27. 11-26 (S, p. 1373). The Lord before Pilate (Introversion and Alternation)]]
+[[anchor: Matthew 27:11-26]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 74]]
+
+S |  |
+  B | 11- | The Lord before the Governor.
+    C |  |
+      D1 | -11- | Pilate. Question.
+        E1 | -11 | The Lord. Answer.
+      D2 | 12- | Rulers. Accusation.
+        E2 | -12 | The Lord. Silence.
+      D3 | 13 | Pilate. Question of the Lord.
+        E3 | 14 | The Lord. Silence.
+      D4 | 15-25 | Pilate. Remonstrance with the People.
+  B | 26 | The Lord delivered by the Governor.
+
+[[diagram: 27. 15-25 (D4, above). Pilate. Remonstrance with the People (Repeated Alternation)]]
+[[anchor: Matthew 27:15-25]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 74]]
+
+D4 |  |
+  F |  |
+    a | 15, 16 | Release of one. Customary.
+      b | 17, 18 | Question as to preference.
+        c | 19 | Advice of Pilate's wife to Pilate.
+[[group: Custom existing.]]
+  F |  |
+    a | 20 | Release of Barabbas. Persuasion.
+      b | 21-23 | Question as to preference.
+        c | 24, 25 | Advice of Pilate to the people.
+[[group: Custom acted on.]]
+
+[[diagram: 27. 27-34 (T, p. 1373). Personal Abuse (Alternation)]]
+[[anchor: Matthew 27:27-34]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 74]]
+
+T |  |
+  G | 27 | Place. Praetorium.
+    H | 28-32 | Treatment. Crown and Cross.
+  G | 33 | Place. Golgotha.
+    H | 34 | Treatment. The bitter cup.
+
+[[diagram: 27. 28-32 (H, p. 1376). Treatment (Alternation)]]
+[[anchor: Matthew 27:28-32]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 75]]
+
+H |  |
+  d | 28 | Clothing. Changed.
+    e | 29, 30 | Crown and Sceptre.
+  d | 31 | Clothing. Re-changed.
+    e | 32 | Cross.
+
+[[diagram: 27. 35-54 (L2, p. 1373). The Crucifixion (Division)]]
+[[anchor: Matthew 27:35-54]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 75]]
+
+L2 |  |
+  J1 | 35-37 | The parting of the garments.
+  J2 | 38-44 | After the parting of the garments.
+  J3 | 45-54 | The three hours' darkness.
+
+[[diagram: 27. 35-37 (J1, above). The Parting of the Garments (Alternation)]]
+[[anchor: Matthew 27:35-37]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 75]]
+
+J1 |  |
+  f | 35- | The crucifixion.
+    g | -35 | God's writing fulfilled.
+  f | 36 | The watching.
+    g | 37 | Man's writing put up.
+
+[[diagram: 27. 38-44 (J2, above). After the Parting of the Garments (Introversion)]]
+[[anchor: Matthew 27:38-44]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 75]]
+
+J2 |  |
+  h | 38 | The two lestai (robbers). Brought.
+    i | 39, 40 | The Reviling of the Passers-by
+    i | 41-43 | The Mocking of the Rulers.
+  h | 44 | The two lestai (robbers). Reviling.
+
+# 27.45-54: the printed L members sit between l and m; set at l's depth.
+[[diagram: 27. 45-54 (J3, p. 1377). The Three Hours' Darkness (Alternation and Introversion)]]
+[[anchor: Matthew 27:45-54]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 76]]
+
+J3 |  |
+  K |  |
+    l | 45 | Sign in heaven. Darkness.
+      m | 46 | Cry. "Eli, Eli".
+    L | 47-49 | Misunderstanding of Bystanders.
+  K |  |
+      m | 50 | Cry. Repeated.
+    l | 51-53 | Signs on earth. Veil, earthquake, &c.
+    L | 54 | Understanding of Centurion and others.
+
+[[diagram: 27. 47-49 (L, above). Misunderstanding of Bystanders (Introversion)]]
+[[anchor: Matthew 27:47-49]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 76]]
+
+L |  |
+  n | 47 | The Call, 'Eli, 'Eli. Misunderstood.
+    o | 48 | Giving to drink.
+  n | 49 | The Response. Waited for.
+
+# 27.55-28.15: the page labels the two members L3 and L4; kept as printed.
+[[diagram: 27. 55-28. 15 (L3, p. 1373). Burial and Resurrection (Division)]]
+[[anchor: Matthew 27:55-55]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 77]]
+
+L3 |  |
+  M1 |  | 27. 55-66. Burial.
+L4 |  |
+  M2 |  | 28. 1-15. Resurrection.
+
+[[diagram: 27. 55-66 (M1, above). Burial (Alternations)]]
+[[anchor: Matthew 27:55-66]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 77]]
+
+M1 |  |
+  N | 55, 56 | The Women. Mary and the others.
+  O |  |
+    p | 57 | Joseph of Arimathaea.
+      q | 58- | His application to Pilate.
+        r | -58 | Pilate's compliance.
+          s | 59, 60 | Tomb. Body placed.
+M2 |  |
+  N | 61 | The Women. Mary and the others.
+  O |  |
+    p | 62 | Chief Priests and Pharisees.
+      q | 63, 64 | Their application to Pilate.
+        r | 65 | Pilate's compliance.
+          s | 66 | Tomb secured.
+
+[[diagram: 28. 1-15 (L4, above). Resurrection (Alternation)]]
+[[anchor: Matthew 28:1-15]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 77]]
+
+L4 |  |
+  P | 1 | The Women. Seeing.
+    Q | 2-4 | Events at the Sepulchre.
+  P | 5-10 | The Women. Seeking.
+    Q | 11-15 | Events in the city.
+
+[[diagram: 28. 2-4 (Q, p. 1379). Events at the Sepulchre (Introversion)]]
+[[anchor: Matthew 28:2-4]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 78]]
+
+Q |  |
+  t | 2- | Effect. Earthquake.
+[[group: -]]
+    u | -2 | Cause. Action.
+    u | 3 | Cause. Appearance.
+[[group: The Angel.]]
+  t | 4 | Effect. Terror of the Watch.
+
+[[diagram: 28. 5-10 (P, p. 1379). The Women. Seeking (Introversion and Alternation)]]
+[[anchor: Matthew 28:5-10]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 78]]
+
+P |  |
+  R |  |
+    v | 5, 6 | Words of the angel.
+      w | 7 | Their Commission.
+[[group: -]]
+        S |  |
+          x | 8- | Their departure.
+          y | -8 | Their mission.
+[[group: The Women.]]
+  R |  |
+    v | 9, 10- | Words of the Lord.
+      w | -10 | His Commission.
+
+[[diagram: 28. 11-15 (Q, p. 1379). Events in the City (Alternation)]]
+[[anchor: Matthew 28:11-15]]
+[[pdf: 36. Matthew_text.pdf]]
+[[pdf-page: 78]]
+
+Q |  |
+  z | 11 | The Watch. Their report.
+    a | 12 | Bribe offered.
+  z | 13, 14 | The Watch. Report falsified.
+    a | 15 | Bribe accepted.

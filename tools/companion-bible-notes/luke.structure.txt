@@ -1,0 +1,2874 @@
+# The Companion Bible (E. W. Bullinger, 1913) — Luke
+# Structure diagrams, transcribed from the page scans (the images inside
+# thecompanionbible_202504_pdf/38. Luke_text.pdf, printed pp. 1427-);
+# [[pdf-page:]] is the page of that file each diagram is on. Notation:
+# README.md here. Small-capital words are written in title case.
+#
+# The book Structure's E block carries two braces: PROCLAIMED / REJECTED
+# on each pair, and one outer brace over all four, "THE FOURFOLD MINISTRY
+# OF THE LORD". The notation has one brace per line, so the inner two are
+# kept and the outer one is recorded here only.
+
+[[diagram: Luke. The Structure of the Book as a Whole. "Behold the Man" (Zech. 6. 12) (Introversion)]]
+[[anchor: Luke 1:1]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 1]]
+
+B2 |  |
+  A |  | 1. 1—2. 52. PRE-MINISTERIAL. THE DESCENSION.
+    B |  | 3. 1-20. THE FORERUNNER.
+      C |  | 3. 21-38. THE BAPTISM: WITH WATER.
+        D |  | 4. 1-14-. THE TEMPTATION: IN THE WILDERNESS.
+[[group: -]]
+          E |  |
+            F |  | 4. -14—5. 11. THE KINGDOM
+              G |  | 5. 12—9. 21. THE KING
+[[group: PROCLAIMED.]]
+              G |  | 9. 22—18. 43. THE KING
+            F |  | 19. 1—22. 38. THE KINGDOM
+[[group: REJECTED.]]
+        D |  | 22. 39-46. THE AGONY: IN THE GARDEN.
+      C |  | 22. 47—24. 12. THE BAPTISM: OF SUFFERING (DEATH, BURIAL, AND RESURRECTION).
+    B |  | 24. 13-49. THE SUCCESSORS.
+  A |  | 24. 50-53. POST-MINISTERIAL. THE ASCENSION.
+
+[[diagram: 1. 1—2. 52 (A, p. 1427). Pre-Ministerial. The Descension (Division)]]
+[[anchor: Luke 1:1]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 3]]
+
+A |  |
+  A1 |  | 1. 1-4. Introduction.
+  A2 |  | 1. 5—2. 5. Pre-Natal.
+  A3 |  | 2. 6-52. Pre-Ministerial.
+
+[[diagram: 1. 1-4 (A1, above). Introduction (Alternations and Introversions)]]
+[[anchor: Luke 1:1-4]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 3]]
+
+A1 |  |
+  B | 1- | Other writers. Many.
+[[group: -]]
+  C |  |
+    D |  |
+      a | -1- | Their undertaking. To draw up.
+        b | -1- | Their object. Declaration.
+          c | -1 | Their matter. Things believed.
+[[group: Their writing.]]
+            E |  |
+              d | 2- | Recipients. "Us".
+                e | -2 | Authority. Eye-witnesses.
+[[group: Its delivery.]]
+  B | 3- | The writer. One (Luke).
+[[group: -]]
+  C |  |
+            E |  |
+                e | -3- | Authority. Revelation.
+              d | -3- | Recipient. "Thee".
+[[group: Its delivery.]]
+    D |  |
+      a | -3 | Luke's undertaking. To write.
+      b | 4- | His object. To give knowledge.
+      c | -4 | His matter. Things taught.
+[[group: Luke's writing.]]
+
+[[diagram: 1. 5—2. 5 (A2, p. 1429). Pre-Natal (Alternation)]]
+[[anchor: Luke 1:5]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 4]]
+
+A2 |  |
+  F |  | 1. 5-25. John. Conception.
+    G |  | 1. 26-56. The Holy Family.
+  F |  | 1. 57-80. John. Circumcision.
+    G |  | 2. 1-5. The Holy Family.
+
+[[diagram: 1. 5-25 (F, above). John. Conception (Introversions and Alternations)]]
+[[anchor: Luke 1:5-25]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 4]]
+
+F |  |
+  H |  |
+    f | 5-7 | Barrenness. Experienced.
+      g | 8, 9 | Ministration of Zacharias.
+      J |  |
+        h | 10 | The people. Praying.
+          i | 11 | The Vision.
+            K |  |
+              j | 12 | Zacharias. Trouble.
+                k | 13-17 | Angel. Promise.
+            K |  |
+              j | 18 | Zacharias. Doubt.
+                k | 19, 20 | Angel. Penalty.
+      J |  |
+        h | 21 | The people. Marvelling.
+          i | 22 | The Vision.
+  H |  |
+      g | 23 | Ministration of Zacharias.
+    f | 24, 25 | Barrenness. Removed.
+
+[[diagram: 1. 26-56 (G, p. 1430). The Holy Family (Division)]]
+[[anchor: Luke 1:26-56]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 5]]
+
+G |  |
+  L1 | 26-38 | Visit of Gabriel to Mary.
+  L2 | 39-56 | Visit of Mary to Elisabeth.
+
+[[diagram: 1. 26-38 (L1, above). Visit of Gabriel to Mary (Introversion, and Repeated Alternation)]]
+[[anchor: Luke 1:26-38]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 5]]
+
+L1 |  |
+  M | 26-28- | Mission of the Angel.
+    N1 |  |
+      l1 | -28 | Angel. Salutation.
+        m1 | 29 | Mary. Troubled.
+    N2 |  |
+      l2 | 30-33 | Angel. Promise.
+        m2 | 34 | Mary. Inquiry.
+    N3 |  |
+      l3 | 35-37 | Angel. Answer.
+        m3 | 38- | Mary. Content.
+  M | -38 | Departure of the Angel.
+
+[[diagram: 1. 39-56 (L2, p. 1431). Visit of Mary to Elisabeth (Introversion)]]
+[[anchor: Luke 1:39-56]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 6]]
+
+L2 |  |
+  O | 39, 40 | Mary. Journey.
+    P | 41-45 | Blessing of Mary.
+    P | 46-55 | Hymn of Mary.
+  O | 56 | Mary. Return.
+
+[[diagram: 1. 41-45 (P, above). Blessing of Mary (Introversions)]]
+[[anchor: Luke 1:41-45]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 6]]
+
+P |  |
+  Q |  |
+    n1 | 41- | Hearing.
+      o1 | -41 | Exultation of Babe.
+    n2 | 42- | Speaking.
+  Q |  |
+    n3 | -42, 43 | Benediction.
+      o2 | 44 | Exultation of Babe.
+    n4 | 45 | Beatitude.
+
+[[diagram: 1. 46-55 (P, above). Hymn of Mary (Alternation)]]
+[[anchor: Luke 1:46-55]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 6]]
+
+P |  |
+  R | 46-49 | Favours to herself. Condescension.
+    S | 50 | Mercy to all that fear Him.
+  R | 51-53 | Favours to others. Discrimination.
+    S | 54, 55 | Mercy remembered to Israel.
+
+[[diagram: 1. 46-49 (R, above). Favours to Herself (Alternation)]]
+[[anchor: Luke 1:46-49]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 6]]
+
+R |  |
+  p | 46, 47 | Mary rejoicing.
+    q | 48- | Reason.
+  p | -48 | All rejoicing.
+    q | 49 | Reason.
+
+[[diagram: 1. 57-80 (F, p. 1430). John (Division)]]
+[[anchor: Luke 1:57-80]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 7]]
+
+F |  |
+  T1 | 57-63 | John. Birth and Circumcision.
+  T2 | 64-79 | Zacharias. Prophecy: Fulfilled and Renewed.
+  T3 | 80 | John. Growth till manifestation.
+
+[[diagram: 1. 57-63 (T1, above). John. Birth and Circumcision (Alternation)]]
+[[anchor: Luke 1:57-63]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 7]]
+
+T1 |  |
+  U | 57 | John. Birth.
+    V | 58 | Neighbours. Congratulations.
+  U | 59-63- | John. Circumcision.
+    V | -63 | Neighbours. Wonder.
+
+[[diagram: 1. 59-63 (U, above). John. Circumcision (Alternation)]]
+[[anchor: Luke 1:59-63]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 7]]
+
+U |  |
+  r | 59 | Neighbours. Name Zacharias.
+    s | 60 | Mother. "John".
+  r | 61 | Neighbours. Name Zacharias.
+    s | 62, 63 | Father. "John".
+
+[[diagram: 1. 64-79 (T2, above). Zacharias. Prophecy: Fulfilled and Renewed (Division)]]
+[[anchor: Luke 1:64-79]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 7]]
+
+T2 |  |
+  W1 | 64-67 | Prophecy. Given of Zacharias.
+  W2 | 68-79 | Prophecy. Given by Zacharias.
+
+[[diagram: 1. 68-79 (W2, p. 1433). Prophecy. Given by Zacharias (Introversion)]]
+[[anchor: Luke 1:68-79]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 8]]
+
+W2 |  |
+  t | 68 | Visitation.
+    u | 69 | Salvation.
+      v | 70 | Prophets.
+        w | 71 | Enemies.
+          x | 72 | The Covenant.
+          x | 73 | The Covenant.
+        w | 74, 75 | Enemies.
+      v | 76 | Prophet.
+    u | 77 | Salvation.
+  t | 78, 79 | Visitation.
+
+[[diagram: 2. 6-52 (A3, p. 1429). Pre-Ministerial (Repeated Alternation)]]
+[[anchor: Luke 2:6-52]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 9]]
+
+A3 |  |
+  X1 | 6, 7 | The Holy Child. Birth.
+    Y1 | 8-20 | Attestations. (Heavenly.)
+  X2 | 21-24 | The Holy Child. Presentation.
+    Y2 | 25-38 | Attestations. (Earthly.)
+  X3 | 39-52 | The Holy Child. Growth.
+
+[[diagram: 2. 8-15 (Y1, above). Attestations. (Heavenly.) (Alternation)]]
+[[anchor: Luke 2:8-20]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 9]]
+
+Y1 |  |
+  A | 8-15 | Angelic Message. Given.
+    B | 16 | The Shepherds. Departure.
+  A | 17-19 | Angelic Message. Reported.
+    B | 20 | The Shepherds. Return.
+
+[[diagram: 2. 8-15 (A, above). Angelic Message (Introversion and Alternation)]]
+[[anchor: Luke 2:8-15]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 9]]
+
+A |  |
+  C | 8 | The Shepherds. Watch.
+    D |  |
+      E | 9 | One Angel.
+        F | 10-12 | His Message. News.
+    D |  |
+      E | 13 | The Heavenly Host.
+        F | 14 | Their Message. Praise.
+  C | 15 | The Shepherds. Resolve.
+
+[[diagram: 2. 10-12 (F, p. 1435). His Message. News (Introversion, in the order of the Greek words)]]
+[[anchor: Luke 2:10-12]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 10]]
+
+F |  |
+  y | 10 | The Announcement.
+    z | 11- | The Time.
+[[group: -]]
+      a1 | -11- | A Saviour.
+      a2 | -11- | Christ.
+      a3 | -11 | The Lord.
+[[group: The Gospel. A Person.]]
+    z | -11- | The Place.
+  y | 12 | The Sign.
+
+[[diagram: 14. (F, p. 1435). Their Message. Praise (Alternation and Introversion, according to the Greek)]]
+[[anchor: Luke 2:14]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 10]]
+
+F |  |
+  G |  |
+    b | 14- | Glory.
+      c | -14- | Sphere: "in the Highest".
+        H | -14- | To God.
+  G |  |
+      c | -14- | Sphere: "on Earth".
+    b | -14- | Peace.
+      # printed one step further in (level with the first H); set one level in
+      H | -14 | [From God] among [favoured] men.
+
+[[diagram: 2. 25-38 (Y2, p. 1435). Attestations. (Earthly.) (Alternation)]]
+[[anchor: Luke 2:25-38]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 10]]
+
+Y2 |  |
+  I | 25-27 | Simeon.
+    J | 28-35 | His testimony.
+  I | 36, 37 | Anna.
+    J | 38 | Her testimony.
+
+[[diagram: 2. 39-52 (X3, p. 1435). The Holy Child. Growth (Introversion and Alternation)]]
+[[anchor: Luke 2:39-52]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 11]]
+
+X3 |  |
+  K |  |
+    d | 39 | Return to Galilee.
+      e | 40 | The Lord. Growth.
+        L | 41-50 | The Feast of the Passover.
+  K |  |
+    d | 51 | Return to Nazareth.
+      e | 52 | The Lord. Increase.
+
+[[diagram: 2. 41-50 (L, p. 1437). The Feast of the Passover (Extended Alternations)]]
+[[anchor: Luke 2:41-50]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 12]]
+
+L |  |
+  M |  |
+    P | 41, 42 | Parents at Jerusalem.
+      Q | 43 | The Child. Tarrying behind.
+        R | 44-46- | Parents' search.
+          N | -46 | The Child. Employment.
+            O | 47 | Effect. Astonishment.
+  M |  |
+    P | 48- | Parents at Jerusalem.
+      Q | -48- | The Child. Questioned.
+        R | -48, 49- | Parents. Search.
+          N | -49 | The Child. Employment.
+            O | 50 | Effect. Unintelligent.
+
+[[diagram: 2. 44-46- (R, above). Parents' Search (Alternations)]]
+[[anchor: Luke 2:44-46]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 12]]
+
+R |  |
+  S |  |
+    f | 44- | Journey from Jerusalem.
+      g | -44 | Search.
+        T | 45- | Unsuccessful.
+  S |  |
+    f | -45- | Journey back to Jerusalem.
+      g | -45, 46- | Search.
+        T | -46- | Successful.
+
+[[diagram: 3. 1-20 (B, p. 1427). The Forerunner (Introversion and Alternation)]]
+[[anchor: Luke 3:1-20]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 12]]
+
+B |  |
+  U | 1, 2- | Herod the Tetrarch.
+    V |  |
+      W | -2 | The Word of God. Coming to John.
+        X | 3 | John proclaiming.
+    V |  |
+      W | 4-6 | The Word of God fulfilled by John.
+        X | 7-18 | John proclaiming.
+  U | 19, 20 | Herod the Tetrarch.
+
+[[diagram: 3. 7-18 (X, p. 1438). John Proclaiming (Introversion and Alternations: Extended and Repeated)]]
+[[anchor: Luke 3:7-18]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 13]]
+
+X |  |
+  Y |  |
+    h | 7, 8 | The people. Baptism.
+      i | 9- | The Axe.
+        k | -9 | The Trees.
+          Z |  |
+            l1 | 10 | The people. Question.
+              m1 | 11 | John's answer.
+            l2 | 12 | The publicans. Question.
+              m2 | 13 | John's answer.
+            l3 | 14- | The soldiers. Question.
+              m3 | -14 | John's answer.
+  Y |  |
+    h | 15, 16 | The people. Baptism.
+      i | 17- | The Fan.
+        k | -17, 18 | The Wheat and Chaff.
+
+[[diagram: 3. 21-38 (C, p. 1427). The Baptism. With Water (Alternation)]]
+[[anchor: Luke 3:21-38]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 14]]
+
+C |  |
+  A | 21- | The Baptism of the Lord.
+    B | -21, 22 | Genealogy. Divine.
+  A | 23- | The Age of the Lord.
+    B | -23-38 | Genealogy. Human.
+
+[[diagram: 4. 1-14- (D, p. 1427). The Temptation (Introversion and Alternations)]]
+[[anchor: Luke 4:1-14]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 15]]
+
+D |  |
+  C |  |
+    n | 1 | Return from Jordan, filled with pneuma hagion.
+      o | 2- | Time. Duration.
+        D1 |  |
+          p1 | -2 | The Occasion. Hunger.
+            q1 | 3 | The First Temptation.
+              r1 | 4 | The Answer.
+        D2 |  |
+          p2 | 5 | The Occasion. Vision.
+            q2 | 6, 7 | The Second Temptation.
+              r2 | 8 | The Answer.
+        D3 |  |
+          p3 | 9- | The Occasion. Station.
+            q3 | -9-11 | The Third Temptation.
+              r3 | 12 | The Answer.
+  C |  |
+      o | 13 | Time. Intermission.
+    n | 14- | Return in the power of the Spirit.
+
+[[diagram: 4. -14—22. 38 (E, p. 1427). The Lord's Fourfold Ministry (Introversion)]]
+[[anchor: Luke 4:14]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 16]]
+
+E |  |
+  F |  | 4. -14—5. 11. The First Period. Subject: The Kingdom. Its Proclamation.
+    G |  | 5. 12—9. 21. The Second Period. Subject: The King. Proclaimed. His Person. Teaching and Miracles.
+    G |  | 9. 22—18. 43. The Third Period. Subject: the Rejection of The King.
+  F |  | 19. 1—22. 38. The Fourth Period. Subject: the Rejection of The Kingdom. Parables, revealing the coming change of dispensation in which the Kingdom would be in Abeyance.
+
+[[diagram: 4. -14—5. 11 (F, above). The First Period of the Ministry. Proclamation of the Kingdom (Division)]]
+[[anchor: Luke 4:14]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 16]]
+
+F |  |
+  E1 |  | 4. -14-30. Nazareth. Proclamation.
+  E2 |  | 4. 31-44. Capernaum. Miracles.
+  E3 |  | 5. 1-11. Gennesaret. Call of Peter.
+
+[[diagram: 4. -14-30 (E1, above). Nazareth. Proclamation (Introversion)]]
+[[anchor: Luke 4:14-30]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 16]]
+
+E1 |  |
+  F | -14, 15 | Return to Galilee.
+    G | 16-27 | Proclamation.
+    G | 28, 29 | Rejection.
+  F | 30 | Departure from Nazareth.
+
+[[diagram: 4. 16-27 (G, above). Proclamation (Repeated Alternation)]]
+[[anchor: Luke 4:16-27]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 16]]
+
+G |  |
+  H1 | 16-20- | Prophecy. Given.
+    J1 | -20 | Effect. Attention.
+  H2 | 21 | Prophecy. Fulfilment.
+    J2 | 22 | Effect. Wonder.
+  H3 | 23-27 | Prophecy. Application.
+
+[[diagram: 4. 16-20- (H1, above). Prophecy. Given (Alternation)]]
+[[anchor: Luke 4:16-20]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 16]]
+
+H1 |  |
+  K | 16 | Reading. Intention.
+    L | 17 | Book given.
+  K | 18, 19 | Reading. Act.
+    L | 20- | Book returned.
+
+[[diagram: 4. 23-27 (H3, p. 1442). Prophecy. Application (Division)]]
+[[anchor: Luke 4:23-27]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 17]]
+
+H3 |  |
+  M1 | 23, 24 | Declaration.
+  M2 | 25-27 | Illustration.
+
+[[diagram: 4. 25-27 (M2, above). Illustration (Alternation)]]
+[[anchor: Luke 4:25-27]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 17]]
+
+M2 |  |
+  s | 25 | Israel.
+    t | 26 | Sidon.
+[[group: Widows.]]
+  s | 27- | Israel.
+    t | -27 | Syria.
+[[group: Lepers.]]
+
+[[diagram: 4. 31-44 (E2, p. 1442). Capernaum. Miracles (Introversion and Alternation)]]
+[[anchor: Luke 4:31-44]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 18]]
+
+E2 |  |
+  N | 31 | The Lord's fame.
+    O |  |
+      u | 32- | Its Effect. Astonishment.
+        v | -32 | Reason. Power.
+          P | 33-35 | Miracle. Demoniac.
+    O |  |
+      u | 36- | Its Effect. Amazement.
+        v | -36 | Reason. Authority.
+  N | 37 | The Lord's teaching.
+    # printed level with the first P (four steps past N); set one level in
+    P | 38-44 | Miracles. Various.
+
+[[diagram: 4. 38-44 (P, above). Miracles. Various (Alternation)]]
+[[anchor: Luke 4:38-44]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 18]]
+
+P |  |
+  w | 38 | Place. Simon's house.
+    x | 39-41 | Miracle.
+  w | 42 | Place. Desert.
+    x | 43, 44 | Proclamation.
+
+[[diagram: 5. 1-11 (E3, p. 1442). Gennesaret (Introversion)]]
+[[anchor: Luke 5:1-11]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 19]]
+
+E3 |  |
+  y | 1 | People. "Pressed upon Him."
+    z | 2, 3 | Ships. Standing.
+      a | 4-7 | Miracle.
+      a | 8-10 | Effects.
+    z | 11- | Ships. Landing.
+  y | -11 | Disciples. "Followed Him."
+
+[[diagram: 5. 12—9. 21 (G, p. 1427). The Second Period of the Lord's Ministry. Proclamation of the King (Repeated Alternation)]]
+[[anchor: Luke 5:12]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 20]]
+
+G |  |
+  Q1 |  | 5. 12-26. Tour. Miracles.
+    R1 |  | 5. 27-39. Disciples. Call of Levi.
+  Q2 |  | 6. 1-11. Tour. Sabbaths.
+    R2 |  | 6. 12-16. Disciples. Call of the Twelve.
+  Q3 |  | 6. 17—8. 56. Tour. Healing and Teaching.
+    R3 |  | 9. 1-10-. Disciples. Mission of the Twelve, and return.
+  Q4 |  | 9. -10-17. Tour. Miracle.
+    R4 |  | 9. 18-21. Disciples. Confession of Messiah.
+
+[[diagram: 5. 12-26 (Q1, above). Tour. Miracles (Extended Alternation and Introversion)]]
+[[anchor: Luke 5:12-26]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 20]]
+
+Q1 |  |
+  S | 12- | A certain city.
+    T |  |
+      U | -12-15 | Miracle. Leper. "Lord".
+        V | 16 | Prayer.
+  S | 17- | A certain day.
+    T |  |
+        V | -17 | Teaching.
+      U | 18-26 | Miracle. Paralytic. "Son of man".
+
+[[diagram: 5. 18-26 (U, above). Miracle. The Paralytic (Alternation and Introversion)]]
+[[anchor: Luke 5:18-26]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 20]]
+
+U |  |
+  W |  |
+    b | 18, 19 | The Paralytic. Brought.
+      c | 20 | Forgiveness. Declared.
+        X | 21 | Effect. Enemies Reasoning.
+  W |  |
+      c | 22-24 | Forgiveness. Bestowed.
+    b | 25 | The Paralytic. Healed.
+      # printed level with the first X (two steps past b); set one level in
+      X | 26 | Effect. People Glorifying.
+
+[[diagram: 5. 27-39 (R1, p. 1446). Disciples. Call of Levi (Alternation)]]
+[[anchor: Luke 5:27-39]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 21]]
+
+R1 |  |
+  Y | 27 | Levi. His call.
+    Z | 28 | His obedience.
+  Y | 29 | Levi. His feast.
+    Z | 30-39 | His instruction.
+
+[[diagram: 5. 30-39 (Z, above). His Instruction (Alternation)]]
+[[anchor: Luke 5:30-39]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 21]]
+
+Z |  |
+  A | 30 | Scribes and Pharisees. Question.
+    B | 31, 32 | The Lord's Answer.
+  A | 33 | Scribes and Pharisees. Question.
+    B | 34-39 | The Lord's Answer.
+
+[[diagram: 5. 34-39 (B, above). The Lord's Answer (Division)]]
+[[anchor: Luke 5:34-39]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 21]]
+
+B |  |
+  C1 | 34, 35 | The Sons of the Bridechamber.
+  C2 | 36 | Old and New Garments.
+  C3 | 37, 38 | Old and New Wine-skins.
+  C4 | 39 | Old and New Wine.
+
+[[diagram: 6. 1-11 (Q2, p. 1446). Tour. Sabbaths (Division)]]
+[[anchor: Luke 6:1-11]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 22]]
+
+Q2 |  |
+  D1 | 1-5 | One Sabbath. The Corn-fields.
+  D2 | 6-11 | Another Sabbath. The Synagogue.
+
+[[diagram: 6. 6-11 (D2, above). Another Sabbath. The Synagogue (Repeated and Extended Alternation)]]
+[[anchor: Luke 6:6-11]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 22]]
+
+D2 |  |
+  E |  |
+    d | 6 | Withered hand.
+      e | 7- | Enemies. Watching.
+        f | -7 | Purposed Accusation.
+  E |  |
+    d | 8-10 | Withered hand. Healed.
+      e | 11- | Enemies. Madness.
+        f | -11 | Purposed Machination.
+
+[[diagram: 6. 12-16 (R2, p. 1446). Disciples. Call of the Twelve (Alternation)]]
+[[anchor: Luke 6:12-16]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 22]]
+
+R2 |  |
+  F | 12- | Time. Night.
+    G | -12 | Act. Prayer.
+  F | 13 | Time. Days.
+    G | 14-16 | Act. Calling of the Twelve.
+
+[[diagram: 6. 17—8. 56 (Q3, p. 1446). Tour. Healing and Teaching (Introversions)]]
+[[anchor: Luke 6:17]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 23]]
+
+Q3 |  |
+  H |  |
+    K1 |  | 6. 17-19. Works. Healing.
+      L |  | 6. 20-49. Teaching.
+    K2 |  | 7. 1-17. Works. Miracles.
+      # the two J lines are printed one step past L (two past K2); set one level in
+      J |  | 7. 18-35. Concerning John.
+      J |  | 7. 36-47. Concerning the Pharisees.
+  H |  |
+    K3 |  | 7. 48-50. Work. Forgiveness.
+      L |  | 8. 1-21. Teaching.
+    K4 |  | 8. 22-56. Works. Miracles.
+
+[[diagram: 6. 20-49 (L, above). Teaching (Introversion and Alternation)]]
+[[anchor: Luke 6:20-49]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 23]]
+
+L |  |
+  M | 20-26 | Blessing and Woe.
+    N |  |
+      O | 27-38 | Discipleship.
+        P | 39 | Parable.
+    N |  |
+      O | 40 | Discipleship.
+        P | 41-45 | Parable.
+  M | 46-49 | Blessing and Woe. (Stability and Instability.)
+
+[[diagram: 6. 20-26 (M, above). Blessing and Woe (Extended Alternation)]]
+[[anchor: Luke 6:20-26]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 23]]
+
+M |  |
+  g | 20 | Poor.
+    h | 21- | Hungry.
+      i | -21 | Weepers.
+        j | 22, 23 | Hated, &c.
+[[group: Blessings.]]
+  g | 24 | Rich.
+    h | 25- | Full.
+      i | -25 | Laughers.
+        j | 26 | Praised.
+[[group: Woes.]]
+
+[[diagram: 6. 27-38 (O, above). Discipleship (Introversion)]]
+[[anchor: Luke 6:27-38]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 23]]
+
+O |  |
+  R | 27-36 | Positive.
+    S | 37 | Negative.
+  R | 38 | Positive.
+
+[[diagram: 6. 27-36 (R, above). Positive (Extended Alternation and Introversion)]]
+[[anchor: Luke 6:27-36]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 23]]
+
+R |  |
+  T |  |
+    k | 27- | Love to enemies.
+      l | -27-29 | Do good.
+        m | 30 | Give.
+[[group: Command.]]
+          U |  |
+            n | 31 | Rule. Human.
+              o | 32-34 | Reasons.
+[[group: -]]
+  T |  |
+    k | 35- | Love to enemies.
+      l | -35- | Do good.
+        m | -35- | Lend.
+[[group: Command.]]
+          U |  |
+              o | -35 | Reason.
+            n | 36 | Rule. Divine.
+
+[[diagram: 7. 1-17 (K2, p. 1449). Works. Miracles (Division)]]
+[[anchor: Luke 7:1-17]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 25]]
+
+K2 |  |
+  V1 | 1-10 | The Centurion's Servant healed.
+  V2 | 11-17 | The Widow's Son raised.
+
+[[diagram: 7. 1-10 (V1, above). The Centurion's Servant Healed (Introversion and Repeated Alternations)]]
+[[anchor: Luke 7:1-10]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 25]]
+
+V1 |  |
+  W | 1, 2 | The Servant dying.
+    X1 |  |
+      p1 | 3 | Centurion hears and sends.
+        q1 | 4, 5 | The Elders praise.
+    X2 |  |
+      p2 | 6- | Centurion comes.
+        q2 | -6-8 | His own dispraise.
+    X3 |  |
+      p3 | 9- | The Lord hears the Centurion.
+        q3 | -9 | The Lord's praise.
+  W | 10 | The Servant healed.
+
+[[diagram: 7. 11-17 (V2, p. 1451). The Widow's Son Raised (Introversions and Alternations)]]
+[[anchor: Luke 7:11-17]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 26]]
+
+V2 |  |
+  Y |  |
+    r | 11- | The Lord. Entering into Nain.
+      s | -11 | The people with the Lord.
+        Z |  |
+          t | 12- | The dead man.
+            u | -12 | His mother.
+          A |  |
+[[group: -]]
+            v | 13- | Compassion.
+              w | -13 | Words.
+[[group: To the Mother.]]
+          A |  |
+[[group: -]]
+            v | 14- | Acts.
+              w | -14 | Words.
+[[group: To her Son.]]
+        Z |  |
+          t | 15- | The dead man.
+            u | -15 | The mother.
+  Y |  |
+      s | 16 | The people with the Lord.
+    r | 17 | The Lord. His praise going out from Nain.
+
+[[diagram: 7. 18-35 (J, p. 1449). Concerning John (Division)]]
+[[anchor: Luke 7:18-35]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 26]]
+
+J |  |
+  B1 | 18-23 | John's Second Mission concerning the Lord.
+  B2 | 24-35 | The Lord's testimony concerning John.
+
+[[diagram: 7. 18-23 (B1, above). John's Second Mission Concerning the Lord (Alternation)]]
+[[anchor: Luke 7:18-23]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 26]]
+
+B1 |  |
+  x | 18 | Disciples of John. Report to him.
+    y | 19 | John. Question sent to the Lord.
+  x | 20 | Disciples of John. Report to the Lord.
+    y | 21-23 | John. Answer sent to John.
+
+[[diagram: 7. 24-35 (B2, p. 1452). The Lord's Testimony Concerning John (Introversion)]]
+[[anchor: Luke 7:24-35]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 27]]
+
+B2 |  |
+  C |  |
+[[group: -]]
+    a | 24-28 | Commendation of John.
+      b | 29 | Effect on the People.
+[[group: People.]]
+  C |  |
+[[group: -]]
+      b | 30 | Effect on the Pharisees.
+    a | 31-35 | Crimination of Pharisees.
+[[group: Pharisees.]]
+
+[[diagram: 7. 36-50 (J, p. 1449). Concerning the Pharisees (Introversion and Repeated Alternation)]]
+[[anchor: Luke 7:36-49]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 27]]
+
+J |  |
+  D |  |
+    F1 | 36 | The Pharisee.
+      G1 | 37, 38 | The Woman.
+    F2 | 39 | The Pharisee.
+[[group: -]]
+      # E is printed two steps past F2; set one level in
+      E |  |
+        H |  |
+          c | 40- | Proposal.
+            d | -40 | Assent.
+              J | 41-42 | Parable.
+        H |  |
+          c | 43- | Supposition.
+            d | -43 | Confirmation.
+[[group: The Lord.]]
+  D |  |
+    F3 | 44-46 | The Pharisee.
+      G2 | 47, 48 | The Woman.
+    F4 | 49 | The Pharisees.
+
+[[diagram: 8. 1-21 (L, p. 1449). Teaching (Alternation)]]
+[[anchor: Luke 8:1-21]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 28]]
+
+L |  |
+  K | 1- | Proclaiming.
+    L | -1-3 | Comparing.
+  K | 4-18 | Teaching.
+    L | 19-21 | Kindred.
+
+[[diagram: 8. 4-18 (K, p. 1454). Teaching (Introversion and Alternations)]]
+[[anchor: Luke 8:4-18]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 29]]
+
+K |  |
+  M |  |
+[[group: -]]
+    e | 4-8- | Parable. Sower.
+      f | -8 | Call to hear.
+[[group: The Lord.]]
+      N |  |
+[[group: -]]
+        g | 9 | Question.
+          h | 10 | Answer.
+[[group: The Disciples.]]
+  M |  |
+[[group: -]]
+    e | 11-15 | Parable. Interpretation.
+      f | 16-18 | Caution to hearers.
+[[group: The Lord.]]
+
+[[diagram: 8. 22-56 (K4, p. 1449). Works (Alternation and Introversion)]]
+[[anchor: Luke 8:22-56]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 30]]
+
+K4 |  |
+  O | 22-39 | Two Miracles.
+    P |  |
+      i | 40- | The Lord. Returned.
+        k | -40 | Effect. Waiting.
+  O | 41-55 | Two Miracles.
+    P |  |
+        k | 56- | Effect. Astonishment.
+      i | -56 | The Lord. Charge.
+
+[[diagram: 8. 22-39 (O, above). Two Miracles (Division)]]
+[[anchor: Luke 8:22-39]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 30]]
+
+O |  |
+  Q1 | 22-26 | The Tempest stilled.
+  Q2 | 27-39 | The Demoniac healed.
+
+[[diagram: 8. 22-26 (Q1, above). The Tempest Stilled (Introversions and Alternations)]]
+[[anchor: Luke 8:22-26]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 30]]
+
+Q1 |  |
+  R |  |
+    l | 22- | Departure.
+      m | -22- | Words of the Lord.
+        n | -22 | Effect. Obedience.
+          S |  |
+            o | 23- | The Lord asleep.
+              p | -23- | Storm. Dangerous.
+                q | -23 | Disciples. Jeopardy.
+          S |  |
+            o | 24- | The Lord awakened.
+              p | -24 | Storm rebuked.
+                q | 25- | Disciples. Rebuked.
+  R |  |
+        n | -25 | Effect. Wonder.
+      m | -25 | Words of the Disciples.
+    l | 26 | Arrival.
+
+[[diagram: 8. 27-39 (Q2, p. 1456). The Demoniac Healed (Introversion and Alternation)]]
+[[anchor: Luke 8:27-39]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 31]]
+
+Q2 |  |
+  T |  |
+    V | 27-32- | Demons. Petition.
+      W | -32, 33 | Answer. Consent.
+        U |  |
+          X | 34-37- | People. Petition.
+            Y | -37 | Answer. Consent.
+  T |  |
+    V | 38- | Demoniac. Petition.
+      W | -38, 39 | Answer. Refusal.
+
+[[diagram: 8. 27-32- (V, above). Demons. Petition (Introversion and Alternation)]]
+[[anchor: Luke 8:27-32]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 31]]
+
+V |  |
+  A |  |
+    r | 27 | Demons. Description.
+      s | 28 | Their petition.
+        B | 29- | Reason. The Lord's command.
+        B | -29 | Reason. The Man's condition.
+  A |  |
+    r | 30 | Demons. Name.
+      s | 31, 32- | Their petition.
+
+[[diagram: 8. 34-37- (X, above). People. Petition (Introversion and Alternation)]]
+[[anchor: Luke 8:34-37]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 31]]
+
+X |  |
+  C |  |
+    t | 34- | The Swineherds.
+      u | -34 | Their report.
+        D | 35 | The Citizens. Fear.
+  C |  |
+    t | 36- | The Swineherds.
+      u | -36 | Their report.
+        D | 37- | The Citizens. Request.
+
+[[diagram: 8. 41-55 (O, p. 1456). Two Miracles (Alternations, Simple and Extended)]]
+[[anchor: Luke 8:41-55]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 32]]
+
+O |  |
+  F |  |
+    v | 41 | Ruler of Synagogue. Appeal.
+      w | 42- | Daughter dying.
+[[group: -]]
+        G1 |  |
+          x1 | -42 | The Throng.
+            y1 | 43, 44- | The Woman. Action.
+              z1 | -44 | Healing effected.
+        G2 |  |
+          x2 | 45, 46 | The Throng.
+            y2 | 47 | The Woman. Confession.
+              z2 | 48 | Healing confirmed.
+[[group: The Woman.]]
+  F |  |
+    v | 49- | Ruler of Synagogue. Messenger.
+      w | -49 | Daughter dead.
+[[group: -]]
+        G3 |  |
+          x3 | 50 | Belief.
+            y3 | 51 | Admission.
+              z3 | 52 | Miracle assured.
+        G4 |  |
+          x4 | 53 | Unbelief.
+            y4 | 54 | Exclusion.
+              z4 | 55 | Miracle effected.
+[[group: The Maid.]]
+
+[[diagram: 9. 1-10- (R3, p. 1446). Disciples. Mission of the Twelve, and Return (Introversion and Alternation)]]
+[[anchor: Luke 9:1-10]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 32]]
+
+R3 |  |
+  J | 1-6 | The Twelve. Sent out.
+    K |  |
+      a | 7- | Herod. What he heard.
+        b | -7- | Perplexity.
+          L | -7, 8 | Reason.
+    K |  |
+      a | 9- | Herod. What he said.
+        b | -9 | Curiosity.
+  J | 10- | The Twelve. Return.
+
+[[diagram: 9. 1-6 (J, p. 1458). The Twelve. Sent Out (Introversions and Alternation)]]
+[[anchor: Luke 9:1-6]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 33]]
+
+J |  |
+  M |  |
+    c | 1- | The Call.
+      d | -1, 2 | Power given.
+[[group: -]]
+        N |  |
+          e | 3 | Preparation.
+            f | 4 | Reception.
+          e | 5 | Rejection.
+[[group: Directions.]]
+  M |  |
+    c | 6- | The Departure.
+      d | -6 | Power exercised.
+
+[[diagram: 9. -10-17 (Q4, p. 1446). Tour. Miracle (Alternation)]]
+[[anchor: Luke 9:10-17]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 33]]
+
+Q4 |  |
+  O | -10 | The Twelve. Retirement.
+    P | 11 | The People. Taught.
+  O | 12, 13 | The Twelve. Colloquy.
+    P | 14-17 | The People. Fed.
+
+[[diagram: 9. 18-21 (R4, p. 1446). Disciples. Confession of Messiah (Repeated Alternation)]]
+[[anchor: Luke 9:18-21]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 34]]
+
+R4 |  |
+  g1 | 18 | The Lord. Question.
+    h1 | 19 | Disciples. Answer.
+  g2 | 20- | The Lord. Question.
+    h2 | -20 | Peter. Answer.
+  g3 | 21 | The Lord. Charge.
+
+[[diagram: 9. 22-36 (L, p. 1461). Sufferings. First Announcement (Division)]]
+[[anchor: Luke 9:22-36]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 34]]
+
+L |  |
+  P1 | 22-27 | The Sufferings and Glory. Foretold.
+  P2 | 28-36 | The Sufferings and Glory. Foreshown.
+
+[[diagram: 9. 22—18. 43 (G, p. 1427). The Third Period of the Lord's Ministry. The Rejection of the King (Introversion and Alternations)]]
+[[anchor: Luke 9:22]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 35]]
+
+G |  |
+  A |  |
+    L |  | 9. 22-36. Sufferings. First Announcement.
+      M |  | 9. 37-43-. Miracle. Lunatic son.
+        B |  |
+          N |  | 9. -43-45. Sufferings. Second Announcement.
+            O |  | 9. 46-62. Disciples instructed as to the then present.
+              C |  | 10. 1-24. The Kingdom nigh.
+                D |  | 10. 25-37. Demand of Lawyer.
+                  E |  | 10. 38-42. Journey.
+                    F |  | 11. 1-13. Disciples. Request. Prayer.
+                      G |  | 11. 14—13. 9. Miracles, &c.
+                        H |  | 13. 10-17. Place. Synagogue. Sabbath. Miracle.
+                          J |  | 13. 18-21. The Kingdom. Likeness.
+                          J |  | 13. 22-35. The Kingdom. Entrance.
+                        H |  | 14. 1-24. Place. Pharisee's house. Sabbath. Miracle.
+                      G |  | 14. 25—17. 4. Parables.
+                    F |  | 17. 5-10. Disciples. Request. Faith.
+                  E |  | 17. 11-19. Journey.
+                D |  | 17. 20-. Demand of Pharisees.
+              C |  | 17. -20-24. The Kingdom nigh.
+        B |  |
+          N |  | 17. 25. Sufferings. Third Announcement.
+            O |  | 17. 26—18. 30. Disciples instructed as to the future.
+  A |  |
+    L |  | 18. 31-34. Sufferings: Fourth Announcement.
+      M |  | 18. 35-43. Miracle. The Blind Man.
+
+[[diagram: 9. 37-43- (M, above). Miracle. The Lunatic Son (Introversions)]]
+[[anchor: Luke 9:37-43]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 35]]
+
+M |  |
+  Q |  |
+    i | 37 | Much People met the Lord.
+      k | 38 | The Father. Plea for his Son.
+        R |  |
+          T |  |
+            l | 39 | Lunatic's seizure.
+              m | 40- | Father besought Disciples.
+                U | -40 | Inability of Disciples.
+                  S | 41- | Reproof of Unbelief.
+        R |  |
+          T |  |
+              m | -41 | Father commanded to bring.
+            l | 42- | Lunatic's seizure.
+              # printed two steps past l (level with the first U); set one level in
+              U | -42- | Ability of the Lord.
+  Q |  |
+      k | -42 | The Father. Son delivered.
+    i | 43- | All the People amazed.
+
+[[diagram: 9. 46-62 (O, p. 1461). Disciples. Instructed as to the Present (Division)]]
+[[anchor: Luke 9:46-62]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 36]]
+
+O |  |
+  V1 | 46-48 | Re Humility. All the Disciples.
+  V2 | 49, 50 | Re Fellowship. One (John).
+  V3 | 51-56 | Re Forbearance. Two (James and John).
+  V4 | 57-62 | Re Discipleship. Three (unnamed).
+
+[[diagram: 9. 46-48 (V1, above). Re Humility. All the Disciples (Introversion)]]
+[[anchor: Luke 9:46-48]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 36]]
+
+V1 |  |
+  n | 46 | Reasoning.
+    o | 47 | Child taken.
+    o | 48- | Child received.
+  n | -48 | Reasoning.
+
+[[diagram: 9. 49, 50 (V2, above). Re Fellowship. One (John) (Alternation)]]
+[[anchor: Luke 9:49-50]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 36]]
+
+V2 |  |
+  p | 49- | Prohibition. Positive.
+    q | -49 | Reason. "Because."
+  p | 50- | Prohibition. Negative.
+    q | -50 | Reason. "For."
+
+[[diagram: 9. 51-56 (V3, above). Re Forbearance (Alternation)]]
+[[anchor: Luke 9:51-56]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 36]]
+
+V3 |  |
+  r | 51 | The Lord. Purpose. "His face set."
+    s | 52 | Disciples. Mission.
+  r | 53 | The Lord. Purpose. "His face set."
+    s | 54-56 | Disciples. Resentment rebuked.
+
+[[diagram: 9. 57-62 (V4, p. 1462). Re Discipleship. Three (Unnamed) (Repeated Alternation)]]
+[[anchor: Luke 9:57-62]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 37]]
+
+V4 |  |
+  t1 | 57 | Forwardness.
+    u1 | 58 | Discouragement.
+  t2 | 59 | Backwardness.
+    u2 | 60 | Encouragement.
+  t3 | 61 | Undecidedness.
+    u3 | 62 | Reproof.
+
+[[diagram: 10. 1-24 (C, p. 1461). The Kingdom Nigh (Introversion and Repeated Alternation)]]
+[[anchor: Luke 10:1-24]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 37]]
+
+C |  |
+  W | 1, 2 | The Seventy. Sent.
+    X | 3, 4 | The Disciples' danger.
+      Y |  |
+        v1 | 5-9- | Houses and Cities. Entrance.
+          w1 | -9 | Message: Kingdom nigh.
+        v2 | 10, 11- | Cities. Rejection.
+          w2 | -11 | Message: Kingdom nigh.
+        v3 | 12-15 | Cities. Retribution.
+    X | 16 | The Disciples' danger.
+  W | 17-24 | The Seventy. Return.
+
+[[diagram: 10. 17-24 (W, p. 1463). The Seventy. Return (Division)]]
+[[anchor: Luke 10:17-24]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 38]]
+
+W |  |
+  Z1 | 17-20 | The Joy of the Seventy.
+  Z2 | 21-24 | The Joy of the Lord.
+
+[[diagram: 10. 17-20 (Z1, above). The Joy of the Seventy (Alternation)]]
+[[anchor: Luke 10:17-20]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 38]]
+
+Z1 |  |
+  x | 17- | Joy. Manifestation.
+    y | -17-19 | Cause. Subjection of Spirits.
+  x | 20- | Joy. Dehortation.
+    y | -20 | Cause. Names written in heaven.
+
+[[diagram: 10. 21-24 (Z2, above). The Joy of the Lord (Division)]]
+[[anchor: Luke 10:21-24]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 38]]
+
+Z2 |  |
+  A1 | 21- | Thanksgiving. Expressed.
+  A2 | -21-24 | Thanksgiving. Cause: Revelation.
+
+[[diagram: 10. -21-24 (A2, above). Thanksgiving. Cause: Revelation (Introversions)]]
+[[anchor: Luke 10:21-24]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 38]]
+
+A2 |  |
+  B |  |
+[[group: -]]
+    a | -21- | Things hidden. (Neg.)
+      b | -21 | Things revealed. (Pos.)
+[[group: Recipients.]]
+        C | 22- | Revelation. By the Father.
+        C | -22 | Revelation. By the Son.
+  B |  |
+[[group: -]]
+      b | 23 | Things revealed. (Pos.)
+    a | 24 | Things hidden. (Neg.)
+[[group: Recipients.]]
+
+[[diagram: 10. 25-37 (D, p. 1461). Demand of Lawyer (Division)]]
+[[anchor: Luke 10:25-37]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 39]]
+
+D |  |
+  E1 | 25-28 | His first demand. "What?", &c.
+  E2 | 29-37 | His second demand. "Who?", &c.
+
+[[diagram: 10. 25-28 (E1, above). His First Demand. What? (Alternation)]]
+[[anchor: Luke 10:25-28]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 39]]
+
+E1 |  |
+  c | 25 | The Lawyer. Question: "What shall I do?"
+    d | 26 | The Lord. Answered by two other Questions: "What? ... How?"
+  c | 27 | The Lawyer. Answer.
+    d | 28 | The Lord. Answer.
+
+[[diagram: 10. 29-37 (E2, above). His Second Demand. Who? (Introversion and Repeated Alternation)]]
+[[anchor: Luke 10:29-37]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 39]]
+
+E2 |  |
+  F | 29- | Self-justification.
+    G | -29 | Question of the Lawyer. "Who?"
+      H | 30- | The Traveller. Left for Death.
+        J1 |  |
+          c1 | 31- | The Priest.
+            d1 | -31 | His conduct.
+        J2 |  |
+          c2 | 32- | The Levite.
+            d2 | -32 | His conduct.
+        J3 |  |
+          c3 | 33- | The Samaritan.
+            d3 | -33, 34 | His conduct.
+      H | 35 | The Traveller. Left for Life.
+    G | 36 | Question of the Lord. "Which?"
+  F | 37 | Self-condemnation.
+
+[[diagram: 10. -33, 34 (d3, above). The Samaritan's Conduct (Introversion)]]
+[[anchor: Luke 10:33-34]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 39]]
+
+d3 |  |
+  e | -33 | His feeling. Compassion.
+    f | 34- | His conduct. Help.
+  e | -34 | His feeling. Thoughtful care.
+
+[[diagram: 10. 38-42 (E, p. 1461). Journey (Alternation)]]
+[[anchor: Luke 10:38-42]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 40]]
+
+E |  |
+  K1 | 38- | Martha.
+    L1 | -38 | Her reception of the Lord.
+  K2 | 39- | Mary.
+    L2 | -39 | Her listening to the Lord.
+  K3 | 40- | Martha.
+    L3 | -40-42 | Her colloquy with the Lord.
+
+[[diagram: 10. -40-42 (L3, above). Martha. Her Colloquy with the Lord (Extended Alternation)]]
+[[anchor: Luke 10:40-42]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 40]]
+
+L3 |  |
+  M |  |
+    g | -40 | Carefulness.
+      h | -40- | Complaint of Mary.
+        i | -40 | Request.
+  M |  |
+[[group: -]]
+    g | 41 | Carefulness.
+      h | 42- | Approbation of Mary.
+        i | -42 | Refusal.
+[[group: The Lord.]]
+
+[[diagram: 11. 1-13 (F, p. 1461). Disciples. Request. Prayer (Alternation)]]
+[[anchor: Luke 11:1-13]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 40]]
+
+F |  |
+  N | 1- | Occasion. The Lord praying.
+    O | -1- | Request made.
+  N | -1 | Precedent. John's teaching.
+    O | 2-13 | Request complied with.
+
+[[diagram: 11. 2-13 (O, above). Request. Complied With (Division)]]
+[[anchor: Luke 11:2-13]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 40]]
+
+O |  |
+  P1 | 2-4 | Example.
+  P2 | 5-13 | Illustration. Parable.
+
+[[diagram: 11. 5-13 (P2, p. 1466). Illustration. Parable (Alternation)]]
+[[anchor: Luke 11:5-13]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 41]]
+
+P2 |  |
+  j | 5-8 | The Friend.
+    k | 9, 10 | Application.
+  j | 11, 12 | The Father.
+    k | 13 | Application.
+
+[[diagram: 11. 14—13. 9 (G, p. 1461). Miracles, &c. (Introversion and Alternations)]]
+[[anchor: Luke 11:14]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 41]]
+
+G |  |
+  Q |  | 11. 14-. Miracle. The Dumb Man.
+    R |  | 11. -14-36. The evil generation.
+      S |  |
+        T |  | 11. 37. Occasion. In the Pharisee's house.
+        U |  | 11. 38-54. Colloquies.
+      S |  |
+        T |  | 12. 1-. Occasion. The Multitudes without.
+        U |  | 12. -1-59. Addresses.
+    R |  | 13. 1-5. The evil generation.
+  Q |  | 13. 6-9. Parable. The Fig-tree.
+
+[[diagram: 11. -14-36 (R, above). The Evil Generation (Extended Alternation)]]
+[[anchor: Luke 11:14-36]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 41]]
+
+R |  |
+  V | -14 | Wonder of the People.
+    W | 15, 16 | The evil Generation. Manifested.
+      X | 17-26 | The Lord's answer to their thoughts.
+  V | 27, 28 | Exclamation of the Woman.
+    W | 29- | The evil Generation. Exposed.
+      X | -29-36 | The Lord's answer to their words (v. 16).
+
+[[diagram: 11. 17-26 (X, above). The Lord's Answer to Their Thoughts (Division)]]
+[[anchor: Luke 11:17-26]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 41]]
+
+X |  |
+  Y1 | 17-23 | Confutation. Illustrations.
+  Y2 | 24-26 | Recrimination. Parable.
+
+[[diagram: 11. 17-23 (Y1, above). Confutation. Illustrations (Alternation)]]
+[[anchor: Luke 11:17-23]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 41]]
+
+Y1 |  |
+  l | 17, 18 | The divided Kingdom.
+    m | 19, 20 | Application.
+  l | 21, 22 | The strong man's house.
+    m | 23 | Application.
+
+[[diagram: 11. 24-26 (Y2, p. 1467). Recrimination. Parable (Extended Alternation)]]
+[[anchor: Luke 11:24-26]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 42]]
+
+Y2 |  |
+  n | 24- | Departure.
+    o | -24- | Search. For rest.
+      p | -24 | Return.
+        q | 25 | Condition.
+  n | 26- | Departure.
+    o | -26- | Search. For other spirits.
+      p | -26- | Return.
+        q | -26 | Condition.
+
+[[diagram: 11. -29-36 (X, p. 1467). The Lord's Answer to Their Thoughts (Division)]]
+[[anchor: Luke 11:29-36]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 42]]
+
+X |  |
+  Z1 | -29 | The Sign. Jonah.
+  Z2 | 30-32 | The Signification. The Lord.
+  Z3 | 33-36 | Illustration and Application.
+
+[[diagram: 11. 30-32 (Z2, above). The Signification. The Son of Man (Repeated Alternation)]]
+[[anchor: Luke 11:30-32]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 42]]
+
+Z2 |  |
+  r1 | 30- | Jonah the prophet.
+    s1 | -30 | The Son of man.
+  r2 | 31- | The Queen of the South.
+    s2 | -31 | The Son of man.
+  r3 | 32- | The Men of Nineveh.
+    s3 | -32 | The Son of man.
+
+[[diagram: 11. 33-36 (Z3, p. 1468). Illustration and Application (Division)]]
+[[anchor: Luke 11:33-36]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 43]]
+
+Z3 |  |
+  A1 | 33 | Illustration. Lamp in the house.
+  A2 | 34-36 | Application. Eye in the body.
+
+[[diagram: 11. 34-36 (A2, above). Application. The Eye in the Body (Introversion and Alternations)]]
+[[anchor: Luke 11:34-36]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 43]]
+
+A2 |  |
+  B | 34- | The Lamp.
+    C |  |
+      t | -34- | The eye (eyesight).
+        u | -34- | The body.
+      t | -34- | The eye (eyesight).
+        u | -34 | The body.
+    C |  |
+      v | 35 | Darkness.
+        w | -36- | Light.
+      v | -36- | Darkness.
+        w | -36- | Light.
+  B | -36 | The Lamp.
+
+[[diagram: 11. 38-54 (U, p. 1467). Colloquies (Division)]]
+[[anchor: Luke 11:38-54]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 43]]
+
+U |  |
+  D1 | 38-52 | Particular.
+  D2 | 53, 54 | General.
+
+[[diagram: 11. 38-52 (D1, above). Particular (Alternation)]]
+[[anchor: Luke 11:38-52]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 43]]
+
+D1 |  |
+  E |  |
+    F | 38 | The Pharisee offended.
+      G | 39-44 | The Lord's answer.
+  E |  |
+    F | 45 | The Lawyer offended.
+      G | 46-52 | The Lord's answer.
+
+[[diagram: 11. 39-44 (G, above). The Lord's Answer to the Pharisee (Introversion)]]
+[[anchor: Luke 11:39-44]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 43]]
+
+G |  |
+  x | 39-41 | Self-deception. Concealed wickedness.
+    y | 42 | Woe. Inconsistency. Tithing.
+    y | 43 | Woe. Pride. Uppermost seats.
+  x | 44 | Self-deception. Concealed defilement.
+
+[[diagram: 11. 46-52 (G, p. 1469). The Lord's Answer to the Lawyer (Introversions)]]
+[[anchor: Luke 11:46-52]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 44]]
+
+G |  |
+  H |  |
+    a | 46- | Others laden. (Positive.)
+      b | -46 | Themselves not helping. (Negative.)
+        J | 47, 48 | Superstition.
+        J | 49-51 | Persecution.
+  H |  |
+      b | 52- | Themselves not entering. (Negative.)
+    a | -52 | Others hindered. (Positive.)
+
+[[diagram: 12. -1-59 (U, p. 1467). Addresses (Alternation)]]
+[[anchor: Luke 12:1-59]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 45]]
+
+U |  |
+  K | -1-12 | To the Disciples.
+    L | 13-21 | To the People.
+  K | 22-53 | To the Disciples.
+    L | 54-59 | To the People.
+
+[[diagram: 12. -1-12 (K, above). To the Disciples (Alternation)]]
+[[anchor: Luke 12:1-12]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 45]]
+
+K |  |
+  c | -1-3 | Hypocrisy.
+    d | 4-7 | Persecution.
+  c | 8-10 | Open Confession.
+    d | 11, 12 | Persecution.
+
+[[diagram: 12. 13-21 (L, above). To the People (Introversion)]]
+[[anchor: Luke 12:13-21]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 45]]
+
+L |  |
+  e | 13, 14 | A Man's request. Made.
+    f | 15 | Covetousness. Warning.
+    f | 16-20 | Covetousness. Parable.
+  e | 21 | The Man's request. Application.
+
+[[diagram: 12. 22-53 (K, p. 1471). To the Disciples (Alternation)]]
+[[anchor: Luke 12:22-53]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 46]]
+
+K |  |
+  O | 22-31 | Solicitude. Discouraged.
+    P | 32 | Fear of Man. Discouraged.
+[[group: Negative.]]
+  O | 33, 34 | Liberality. Encouraged.
+    P | 35-53 | Watchfulness for the Lord.
+[[group: Positive.]]
+
+[[diagram: 12. 22-31 (O, above). Solicitude. Discouraged (Introversion and Alternation)]]
+[[anchor: Luke 12:22-31]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 46]]
+
+O |  |
+  Q | 22, 23 | Solicitude. Dehortation.
+    R |  |
+      g | 24- | Ravens.
+        h | -24-26 | Application.
+    R |  |
+      g | 27 | Lilies.
+        h | 28 | Application.
+  Q | 29-31 | Solicitude. Dehortation.
+
+[[diagram: 12. 35-53 (P, p. 1472). Watchfulness for the Lord (Alternation)]]
+[[anchor: Luke 12:35-53]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 47]]
+
+P |  |
+  S | 35-48 | His Servants.
+    T | 49 | Effect of His coming. Fire.
+  S | 50 | His own sufferings.
+    T | 51-53 | Effect of His coming. Sword.
+
+[[diagram: 12. 35-48 (S, above). His Servants (Introversion)]]
+[[anchor: Luke 12:35-48]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 47]]
+
+S |  |
+  U | 35-38 | Watchfulness.
+    V | 39, 40 | Parable. Thief.
+      W | 41 | Peter's question.
+    V | 42-46 | Parable. Servants.
+  U | 47, 48 | Preparedness.
+
+[[diagram: 12. 42-46 (V, above). Parable. Servants (Extended Alternation)]]
+[[anchor: Luke 12:42-46]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 47]]
+
+V |  |
+  i | 42- | The Steward. Faithful and wise.
+    k | -42 | Servants. Well-treated.
+      l | 43 | The Lord's coming.
+        m | 44 | His reward.
+  i | 45- | The Steward. Evil.
+    k | -45 | Servants. Ill-treated.
+      l | 46- | The Lord's enemy.
+        m | -46 | His punishment.
+
+[[diagram: 13. 1-5 (R, p. 1467). The Evil Generation (Extended Alternation)]]
+[[anchor: Luke 13:1-5]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 48]]
+
+R |  |
+  Y |  |
+    n | 1 | Human inflictions.
+      o | 2 | "Suppose ye?"
+        p | 3- | Nay.
+          q | -3 | Warning to that generation.
+  Y |  |
+    n | 4- | Natural infliction.
+      o | -4 | "Suppose ye?"
+        p | 5- | Nay.
+          q | -5 | Warning to that generation.
+
+[[diagram: 13. 6-9 (Q, p. 1467). Parable. The Fig-Tree (Alternation)]]
+[[anchor: Luke 13:6-9]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 49]]
+
+Q |  |
+  r | 6, 7- | Owner to vine-dresser.
+    s | -7 | Order. "Cut it down."
+  r | 8, 9- | Vine-dresser to owner.
+    s | -9 | Order. Postponed.
+
+[[diagram: 13. 10-17 (H, p. 1461). Place. Synagogue. Miracle]]
+[[anchor: Luke 13:10-17]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 49]]
+
+H |  |
+  t | 10- | Place. Synagogue. Woman.
+    u | -10 | The Sabbath.
+      v | 11 | Condition of Woman. Bound.
+        w | 12 | Loosing.
+          x | 13 | Effect. God glorified.
+  t | 14- | Place. Synagogue. Ruler.
+    u | -14 | The Sabbath.
+      v | 15 | Condition of Cattle. Bound.
+        w | 16 | Loosing.
+          x | 17 | Effect. Adversaries ashamed.
+
+[[diagram: 13. 18-21 (J, p. 1461). The Kingdom. Likeness (Alternation)]]
+[[anchor: Luke 13:18-21]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 50]]
+
+J |  |
+  y | 18 | Question. "What is it like?"
+    z | 19 | Answer. Mustard-seed.
+  y | 20 | Question. "What is it like?"
+    z | 21 | Answer. Leaven.
+
+[[diagram: 13. 22-35 (J, p. 1461). The Kingdom. Entrance into It (Introversion)]]
+[[anchor: Luke 13:22-35]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 50]]
+
+J |  |
+  Z | 22 | Jerusalem. Journeying toward it.
+    A | 23-30 | The Kingdom. Individual entrance.
+    A | 31-33 | The King. Personal. Departure.
+  Z | 34, 35 | Jerusalem. Apostrophe to it.
+
+[[diagram: 13. 23-30 (A, above). The Kingdom. Individual Entrance (Introversion)]]
+[[anchor: Luke 13:23-30]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 50]]
+
+A |  |
+  a | 23 | Question.
+    b | 24 | Explanation. Many will seek.
+      c | 25-28 | Reasons.
+    b | 29 | Explanation. Many will enter.
+  a | 30 | Answer.
+
+[[diagram: 13. 31-33 (A, p. 1476). The King. Personal. Departure (Alternation)]]
+[[anchor: Luke 13:31-33]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 51]]
+
+A |  |
+  d | 31- | Pharisees. Advice given.
+    e | -31 | Their reason.
+  d | 32, 33- | Pharisees. Advice rejected.
+    e | -33 | The Lord's reason.
+
+[[diagram: 14. 1-24 (H, p. 1461). Place. Pharisee's House (Alternation)]]
+[[anchor: Luke 14:1-24]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 51]]
+
+H |  |
+  B | 1-6 | Healing.
+    C | 7-11 | Parable. Marriage Feast.
+  B | 12-14 | Teaching.
+    C | 15-24 | Parable. The Great Supper.
+
+[[diagram: 14. 1-6 (B, above). Healing (Extended Alternation)]]
+[[anchor: Luke 14:1-6]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 51]]
+
+B |  |
+  f | 1, 2 | Man with dropsy.
+    g | 3 | Question of the Lord.
+      h | 4- | Inability to answer.
+  f | -4 | Man healed.
+    g | 5 | Question of the Lord.
+      h | 6 | Inability to answer.
+
+[[diagram: 14. 7-11 (C, p. 1477). Parable. Marriage Feast (Introversion and Extended Alternation)]]
+[[anchor: Luke 14:7-11]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 52]]
+
+C |  |
+  E | 7 | Occasion.
+    F |  |
+      i | 8 | Dehortation. Highest place.
+        k | 9- | Humiliation.
+          l | -9 | Shame.
+    F |  |
+      i | 10- | Exhortation. Lowest place.
+        k | -10- | Exaltation.
+          l | -10 | Honour.
+  E | 11 | Application.
+
+[[diagram: 14. 12-14 (B, p. 1477). Teaching (Extended Alternation)]]
+[[anchor: Luke 14:12-14]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 52]]
+
+B |  |
+  G |  |
+    m | 12- | Occasion. Dinner or Supper.
+      n | -12- | Guests. Dehortation.
+        o | -12 | Recompense. Human.
+  G |  |
+    m | 13- | Occasion. Feast.
+      n | -13 | Guests. Exhortation.
+        o | 14 | Recompense. Divine.
+
+[[diagram: 14. 15-24 (C, p. 1477). Parable. The Great Supper (Introversion and Alternation)]]
+[[anchor: Luke 14:15-24]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 52]]
+
+C |  |
+  H | 15-20 | First guests invited.
+    J |  |
+      p | 21- | Servant. First report.
+        q | -21 | Other guests to be "brought in".
+    J |  |
+      p | 22 | Servant. Second report.
+        q | 23 | Other guests to be constrained.
+  H | 24 | First guests rejected.
+
+[[diagram: 14. 15-20 (H, above). The First Guests (Alternation)]]
+[[anchor: Luke 14:15-20]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 52]]
+
+H |  |
+  r | 15, 16- | Supper prepared.
+    s | -16 | Guests invited.
+  r | 17 | Supper ready.
+    s | 18 | Guests beg off.
+
+[[diagram: 14. 25—17. 4 (G, p. 1461). Parables (Introversion and Alternation)]]
+[[anchor: Luke 14:25]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 53]]
+
+G |  |
+  K |  |
+    M |  | 14. 25. Occasion. Concourse of people.
+      N |  | 14. 26-35-. Teaching.
+        L |  | 14. -35. Dispensational call.
+  K |  |
+    M |  | 15. 1. Occasion. Concourse of people.
+      N |  | 15. 2—17. 4. Teaching.
+
+[[diagram: 14. 26-35- (N, above). Teaching (Alternation)]]
+[[anchor: Luke 14:26-35]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 53]]
+
+N |  |
+  O | 26, 27 | Discipleship.
+    P | 28-32 | Parable.
+  O | 33 | Discipleship.
+    P | 34, 35- | Parable.
+
+[[diagram: 14. 26, 27 (O, above). Discipleship (Alternation)]]
+[[anchor: Luke 14:26-27]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 53]]
+
+O |  |
+  t | 26- | Alternatives.
+    u | -26 | Condition.
+  t | 27- | Alternatives.
+    u | -27 | Condition.
+
+[[diagram: 15. 2—17. 4 (N, above). Teaching (Alternations)]]
+[[anchor: Luke 15:2]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 53]]
+
+N |  |
+  Q |  | 15. 2. Pharisees. Murmuring.
+    R |  |
+      S |  | 15. 3-32. Address to Pharisees.
+        T |  | 16. 1-13. Address to Disciples.
+  Q |  | 16. 14. Pharisees. Derision.
+    R |  |
+      S |  | 16. 15-31. Address to Pharisees.
+        T |  | 17. 1-4. Address to Disciples.
+
+[[diagram: 15. 3-32 (S, p. 1479). Address to Pharisees (Repeated Alternation)]]
+[[anchor: Luke 15:3-32]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 54]]
+
+S |  |
+  U1 |  |
+    V1 | 3-6 | The Hundred Sheep.
+    W1 | 7 | Application.
+  U2 |  |
+    V2 | 8, 9 | The Ten Drachmas.
+    W2 | 10 | Application.
+  U3 |  |
+    V3 | 11-24 | The Two Sons.
+    W3 | 25-32 | Application.
+
+[[diagram: 15. 3-6 (V1). The 100. The Hundred (Extended Alternation)]]
+[[anchor: Luke 15:3-6]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 54]]
+
+V1 |  |
+  v1 | 3, 4- | The Sheep.
+    w1 | -4- | One lost.
+      x1 | -4 | Sought.
+        y1 | 5 | Found.
+          z1 | 6 | Joy.
+
+[[diagram: 15. 8, 9 (V2). The 10. The Ten (Extended Alternation)]]
+[[anchor: Luke 15:8-9]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 54]]
+
+V2 |  |
+  v2 | 8- | The Drachmas.
+    w2 | -8- | One lost.
+      x2 | -8 | Sought.
+        y2 | 9- | Found.
+          z2 | -9 | Joy.
+
+[[diagram: 15. 11-24 (V3). The 2. The Two (Extended Alternation)]]
+[[anchor: Luke 15:11-24]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 54]]
+
+V3 |  |
+  v3 | 11 | The Sons.
+    w3 | 12-16 | One lost.
+      x3 | 17-20- | Sought.
+        y3 | -20-22 | Found.
+          z3 | 23, 24 | Joy.
+
+[[diagram: 15. 11-32 (U3, above). The Two Sons (Extended Alternation)]]
+[[anchor: Luke 15:11-32]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 54]]
+
+U3 |  |
+  V3 |  |
+    a | 12-16 | The younger son (cp. V3, above).
+      b | 17-20- | His penitence.
+        c | -20 | His father's compassion.
+          d | 21 | The younger son's confession.
+            e | 22, 23 | The father's gifts.
+              f | 24 | The reason. "For", &c.
+  W3 |  |
+    a | 25, 27 | The elder brother.
+      b | 28- | His anger.
+        c | -28 | The father's entreaty.
+          d | 29, 30 | The elder son's complaint.
+            e | 31-32- | The father's gifts.
+              f | -32 | The reason. "For", &c.
+
+[[diagram: 16. 1-13 (T, p. 1479). Address to Disciples (Alternation)]]
+[[anchor: Luke 16:1-13]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 56]]
+
+T |  |
+  Y | 1-8- | Parable. The Unjust Steward.
+    Z | -8-12 | Application: re "Mammon".
+  Y | 13- | Illustration. Two Masters.
+    Z | -13 | Application: re "Mammon".
+
+[[diagram: 16. 1-8- (Y, above). Parable. The Unjust Steward (Introversion)]]
+[[anchor: Luke 16:1-8]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 56]]
+
+Y |  |
+  g | 1, 2 | His master's requirement.
+    h | 3, 4- | The steward's unjust resolution.
+      i | -4 | Its object. Subsequent reception.
+    h | 5-7 | The steward's unjust action.
+  g | 8 | His master's approbation.
+
+[[diagram: 16. -8-12 (Z, above). Application: re Mammon (Introversion)]]
+[[anchor: Luke 16:8-12]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 56]]
+
+Z |  |
+  j | -8 | Christ's judgment.
+    k | 9- | Do I say? What the steward's master said?
+      l | -9 | Object. Subsequent reception.
+    k | 10 | [Nay, I say], "He that is faithful", &c.
+  j | 11, 12 | Christ's judgment.
+
+[[diagram: 16. 15-31 (S, p. 1479). Address to the Pharisees (Alternation)]]
+[[anchor: Luke 16:15-31]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 57]]
+
+S |  |
+  A | 15 | What the Pharisees esteemed (God's abomination).
+    B | 16, 17 | The Law and the Prophets. Proclaimed.
+  A | 18-30 | What the Pharisees taught (God's abomination).
+    B | 31 | Moses and the Prophets. Not believed.
+
+[[diagram: 16. 18-30 (A, above). What the Pharisees Taught (Division)]]
+[[anchor: Luke 16:18-30]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 57]]
+
+A |  |
+  C1 | 18 | Concerning divorce ("the Law").
+  C2 | 19-30 | Concerning the dead (v. 31) ("the Prophets").
+
+[[diagram: 17. 1-4 (T, p. 1479). Address to Disciples (Division)]]
+[[anchor: Luke 17:1-4]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 58]]
+
+T |  |
+  D1 | 1, 2 | Stumbling-blocks introduced.
+  D2 | 3, 4 | Introducers to be rebuked.
+
+[[diagram: 17. 5-10 (F, p. 1461). Apostles' Request (Division)]]
+[[anchor: Luke 17:5-10]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 59]]
+
+F |  |
+  E1 | 5 | Request. Faith.
+  E2 | 6-10 | Answer. Faith and Duty.
+
+[[diagram: 17. 6-10 (E2, above). Answer. Faith and Duty (Alternation)]]
+[[anchor: Luke 17:6-10]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 59]]
+
+E2 |  |
+  m | 6- | Hypothesis.
+    n | -6 | Result.
+  m | 7-9 | Fact.
+    n | 10 | Application.
+
+[[diagram: 17. 11-19 (E, p. 1461). Journey (Division)]]
+[[anchor: Luke 17:11-19]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 59]]
+
+E |  |
+  F1 | 11-13 | The Ten Lepers.
+  F2 | 14-19 | Their healing.
+
+[[diagram: 17. 14-19 (F2, above). The Healing of the Ten Lepers (Introversion and Alternation)]]
+[[anchor: Luke 17:14-19]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 59]]
+
+F2 |  |
+  G | 14- | Command. "Go."
+    H |  |
+      o | -14 | Cleansing.
+        p | 15, 16 | Return of one.
+    H |  |
+      o | 17 | Cleansing.
+        p | 18 | Return of the one.
+  G | 19 | Command. "Arise, Go."
+
+[[diagram: 17. -20-24 (C, p. 1461). The Kingdom Nigh (Extended Alternation)]]
+[[anchor: Luke 17:20-24]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 60]]
+
+C |  |
+  J |  |
+    q | -20 | It comes not by hostile watching. (Neg.)
+      r | 21- | Nor by saying, "Lo here!" &c. (Neg.)
+        s | -21 | Reason. It is here among you. (Pos.)
+  J |  |
+    q | 22 | It shall not be seen by unhostile desiring. (Neg.)
+      r | 23 | Nor by saying, "See here", &c. (Neg.)
+        s | 24 | Reason. It will come suddenly. (Pos.)
+
+[[diagram: 17. 26—18. 30 (O, p. 1461). Disciples Instructed as to the Past (Introversion)]]
+[[anchor: Luke 17:26]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 60]]
+
+O |  |
+  K |  | 17. 26-37. The coming of the King. Sudden.
+    L |  | 18. 1-14. Discipleship. Character. Two Parables.
+    L |  | 18. 15-27. Discipleship. Character. Two Examples.
+  K |  | 18. 28-30. The rewards of the King. Manifold.
+
+[[diagram: 17. 26-37 (K, above). The Coming of the King, etc. (Alternation)]]
+[[anchor: Luke 17:26-37]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 60]]
+
+K |  |
+  M | 26-29 | Suddenness. Illustration.
+    N | 30 | That day.
+  M | 31-33 | Suddenness. Direction.
+    N | 34 | That night.
+
+[[diagram: 18. 1-14 (L, p. 1486). Discipleship. Character, etc. Two Parables (Extended Alternation)]]
+[[anchor: Luke 18:1-14]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 61]]
+
+L |  |
+  O | 1 | First Parable. Perseverance in Prayer.
+    P |  |
+[[group: -]]
+      t | 2 | The unjust judge.
+        u | 3 | The widow. Plaint.
+      t | 4 | The unjust judge.
+        u | 5 | The widow. Redress.
+[[group: Righteous Vindication.]]
+        Q | 6-8 | Application re the Kingdom.
+  O | 9 | Second Parable. Self- and true righteousness.
+    P |  |
+[[group: -]]
+      v | 10- | Pharisee.
+        w | -10 | Publican.
+      v | 11, 12 | Pharisee.
+        w | 13 | Publican.
+[[group: Righteous Justification.]]
+        Q | 14 | Application re Kingdom.
+
+[[diagram: 18. 15-27 (L, p. 1486). Discipleship. Character. Two Examples (Alternation)]]
+[[anchor: Luke 18:15-27]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 62]]
+
+L |  |
+  R | 15, 16 | Infants brought.
+    S | 17 | Application.
+  R | 18-23 | Ruler comes.
+    S | 24-27 | Application.
+
+[[diagram: 18. 15, 16 (R, above). Infants Brought (Alternation)]]
+[[anchor: Luke 18:15-16]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 62]]
+
+R |  |
+  x | 15- | Infants brought.
+    y | -15 | Rebuke.
+  x | 16- | Infants called.
+    y | -16 | Approbation.
+
+[[diagram: 18. 28-30 (K, p. 1486). The Rewards of the Kingdom (Alternation)]]
+[[anchor: Luke 18:28-30]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 63]]
+
+K |  |
+  a | 28, 29- | All forsaken.
+    b | -29 | For the kingdom's sake.
+  a | 30- | More received.
+    b | -30 | In the coming age.
+
+[[diagram: 18. 35-43 (M, p. 1461). Miracle. The Blind Man (Alternation)]]
+[[anchor: Luke 18:35-43]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 63]]
+
+M |  |
+  T | 35 | The blind man. Sitting.
+    U | 36, 37 | The multitudes. Reply.
+  T | 38-43- | The blind man. Healed.
+    U | -43 | The multitude. Praising God.
+
+[[diagram: 18. 38-43 (T, above). The Blind Man. Healed (Alternation)]]
+[[anchor: Luke 18:38-43]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 63]]
+
+T |  |
+  W | 38 | The blind man. His cry.
+    X | 39- | Multitude. Rebuke him.
+  W | -39 | The blind man. Cry increased.
+    X | 40-43 | Multitude. Ignored.
+
+[[diagram: 18. 40-43- (X, above). Multitude Ignored. Blind Man Healed (Alternation)]]
+[[anchor: Luke 18:40-43]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 63]]
+
+X |  |
+  Y | 40, 41- | The Lord's Command and Question.
+    Z | -41 | The blind man. Answer.
+  Y | 42 | The Lord's Word.
+    Z | 43- | The blind man. Healed.
+
+[[diagram: 19. 1—22. 38 (F, p. 1427). The Fourth Period of the Lord's Ministry. The Rejection of the Kingdom (Repeated Alternation)]]
+[[anchor: Luke 19:1]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 64]]
+
+F |  |
+  A1 |  | 19. 1. Place. Jericho to Jerusalem.
+    B1 |  | 19. 2-10. Event. Calling of Zacchæus.
+  A2 |  | 19. 11. Place. Approaching Jerusalem.
+    B2 |  | 19. 12-27. Event. Parable.
+  A3 |  | 19. 28, 29-. Place. Ascending to Jerusalem.
+    B3 |  | 19. -29-35. Event. Mission of the Two.
+  A4 |  | 19. 36, 37-. Place. Descending to Jerusalem.
+    B4 |  | 19. -37-44. Events. Progress, &c.
+  A5 |  | 19. 45-. Place. Jerusalem. The Temple.
+    B5 |  | 19. -45, 46. Event. Cleansing of the Temple.
+  A6 |  | 19. 47-. Place. Temple. Teaching.
+    B6 |  | 19. -47, 48. Event. Conspiracy.
+  A7 |  | 20. 1-. Place. Temple.
+    B7 |  | 20. -1-47. Event. Confutation of Enemies.
+  A8 |  | 21. 1-. Place. Temple. Treasury.
+    B8 |  | 21. -1-4. Event. The poor widow.
+  A9 |  | 21. 5-. Place. Temple. Remaining in.
+    B9 |  | 21. -5-36. Event. Prophetic Discourse.
+  A10 |  | 21. 37, 38. Place. Temple and Abode.
+    B10 |  | 22. 1-38. Event. The Last Passover.
+
+[[diagram: 19. 2-10 (B1, above). Event. Calling of Zacchæus (Extended Alternation)]]
+[[anchor: Luke 19:2-10]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 64]]
+
+B1 |  |
+  c | 2-4 | Zacchæus. Expectation.
+    d | 5, 6 | The Lord. Detection.
+      e | 7 | Enemies. Objection.
+  c | 8 | Zacchæus. Protestation.
+    d | 9- | The Lord. Declaration.
+      e | -9, 10 | Enemies. Vindication.
+
+[[diagram: 19. 12-27 (B2, p. 1490). Event. Parable. (The Nobleman.) (Extended Alternation)]]
+[[anchor: Luke 19:12-27]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 65]]
+
+B2 |  |
+  C |  |
+    F | 12- | Nobleman. Departure.
+      G | -12 | His object purposed.
+    D |  |
+      H | 13- | Servants. Commissioned.
+        J | -13 | Their duty.
+      E |  |
+        K | 14- | Citizens. Hatred.
+          L | -14 | Their message.
+  C |  |
+    F | 15- | Nobleman. Return.
+      G | -15- | His object attained.
+    D |  |
+      H | -15 | Servants. Summoned.
+        J | 16-26 | Their reckoning.
+      E |  |
+        K | 27- | Citizens. Hatred.
+          L | -27 | Their execution.
+
+[[diagram: 19. 16-26 (J, above). Their Reckoning (Repeated Alternation)]]
+[[anchor: Luke 19:16-26]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 65]]
+
+J |  |
+  M1 | 16 | First Servant. Gain. Ten pounds.
+    N1 | 17 | Commendation and Reward.
+  M2 | 18 | Second Servant. Gain. Five pounds.
+    N2 | 19 | Reward.
+  M3 | 20 | Another Servant. Nothing.
+    N3 | 21-26 | Censure and Punishment.
+
+[[diagram: 19. 21-26 (N3, above). Censure and Punishment (Alternation)]]
+[[anchor: Luke 19:21-26]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 65]]
+
+N3 |  |
+  f | 21 | The servant's excuse.
+    g | 22, 23 | The nobleman's retort.
+  f | 24, 25 | The servant's punishment.
+    g | 26 | The nobleman's reply.
+
+[[diagram: 19. -29-35 (B3, p. 1490). Event. Mission of the Two Disciples (Extended Alternation and Introversion)]]
+[[anchor: Luke 19:29-35]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 66]]
+
+B3 |  |
+  O |  |
+    P | -29 | Two disciples sent.
+      Q | 30- | Ye shall find.
+        R | -30- | Loose him.
+          S |  |
+            T | -30 | And bring him.
+              U |  |
+                h | 31- | If any object.
+                  i | -31 | "The Lord hath need", &c.
+  O |  |
+    P | 32- | Two disciples go.
+      Q | -32 | They find as was said.
+        R | 33- | They loose the colt.
+          S |  |
+              U |  |
+                h | -33 | The owners' objection.
+                  i | 34 | "The Lord hath need", &c.
+            T | 35 | They bring him.
+
+[[diagram: 19. -37-44 (B4, p. 1490). Events. Progress (Division)]]
+[[anchor: Luke 19:37-44]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 66]]
+
+B4 |  |
+  V1 | -37, 38 | Crowds. Acclamation.
+  V2 | 39, 40 | Enemies. Objection.
+  V3 | 41-44 | Jerusalem. Commiseration.
+
+[[diagram: 19. 41-44 (V3, p. 1492). Jerusalem. Commiseration (Introversion)]]
+[[anchor: Luke 19:41-44]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 67]]
+
+V3 |  |
+  j | 41, 42- | "If thou hadst known".
+    k | -42- | Jerusalem's day of grace.
+      l | -42 | Consequence. Now hidden.
+    k | 43, 44- | Jerusalem's day of recompense.
+  j | -44 | "Thou knewest not".
+
+[[diagram: 20. -1-47 (B7, p. 1490). Events. Confutation (Introversions)]]
+[[anchor: Luke 20:1-47]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 67]]
+
+B7 |  |
+  W |  |
+    X1 | -1-8 | Enemies. First attack. Authority.
+      Y | 9-18 | Parable against them.
+    X2 | 19-26 | Enemies. Second attack. Tribute money.
+  W |  |
+    X3 | 27-40 | Enemies. Third attack. Resurrection.
+      Y | 41-44 | Dilemma for them.
+    X4 | 45-47 | Enemies. Disciples warned against them.
+
+[[diagram: 20. -1-8 (X1, above). Enemies. First Attack. Authority (Repeated Alternation)]]
+[[anchor: Luke 20:1-8]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 67]]
+
+X1 |  |
+  m1 | -1, 2 | Enemies. Question. The Lord's authority.
+    n1 | 3, 4 | The Lord's Question in reply.
+  m2 | 5, 6 | Enemies. Reasoning.
+    n2 | 7 | The Lord's Question unanswered.
+  m3 | 8 | Enemies. Answer declined.
+
+[[diagram: 20. 9-18 (Y, p. 1493). Parable against Enemies (Repeated Alternation)]]
+[[anchor: Luke 20:9-18]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 68]]
+
+Y |  |
+  o1 | 9 | Proprietor of Vineyard. Action.
+    p1 | 10-15- | Husbandmen. Conduct.
+  o2 | -15 | Proprietor of Vineyard. Question.
+    p2 | 16 | Husbandmen. Destruction.
+  o3 | 17, 18 | Proprietor (the Lord). Application.
+
+[[diagram: 20. 19-26 (X2, p. 1493). Enemies. Second Attack. Tribute Money (Repeated Alternation)]]
+[[anchor: Luke 20:19-26]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 69]]
+
+X2 |  |
+  q1 | 19, 20 | Conspiracy made.
+    r1 | 21, 22 | Their question.
+  q2 | 23 | Conspiracy perceived.
+    r2 | 24 | The Lord's question.
+  q3 | 25, 26 | Conspiracy silenced.
+
+[[diagram: 20. 27-40 (X3, p. 1493). Enemies. Third Attack. Resurrection (Introversion and Extended Alternation)]]
+[[anchor: Luke 20:27-40]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 69]]
+
+X3 |  |
+  A | 27 | Sadducees. Questioning.
+    B |  |
+      s | 28 | Statement of Moses.
+        t | 29-31 | Hypothetical case.
+          u | 32, 33 | Death and Resurrection.
+    B |  |
+      s | 34- | Statement of the Lord.
+        t | -34-36 | The true case.
+          u | 37, 38 | Death and Resurrection.
+  A | 39, 40 | Sadducees. Silenced.
+
+[[diagram: 20. 41-44 (Y, p. 1493). Dilemma for Them (Introversion)]]
+[[anchor: Luke 20:41-44]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 70]]
+
+Y |  |
+  v | 41 | The Lord's question. "How?"
+    w | 42, 43 | The Scripture.
+    w | 44- | The Inference.
+  v | -44 | The Lord's question. "How?"
+
+[[diagram: 21. -1-4 (B8, p. 1490). Event. The Poor Widow]]
+[[anchor: Luke 21:1-4]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 70]]
+
+B8 |  |
+  C |  |
+[[group: -]]
+    x | -1 | Rich men.
+    y | 2 | Poor widow.
+[[group: Their acts.]]
+      D | 3 | Declaration of the Lord.
+  C |  |
+[[group: -]]
+    x | 4- | Rich men.
+    y | -4 | Poor widow.
+[[group: His words.]]
+
+[[diagram: 21. -5-36 (B9, p. 1490). Event. Prophetic Discourse (Alternation)]]
+[[anchor: Luke 21:5-36]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 70]]
+
+B9 |  |
+  E | -5 | Remark of some, re Temple.
+    F | 6 | The Lord's answer. Its destruction.
+  E | 7 | Question of some. "When?", "What Sign?"
+    F | 8-36 | The Lord's answer.
+
+[[diagram: 21. 8-36 (F, p. 1496). The Lord's Answer (Introversion)]]
+[[anchor: Luke 21:8-36]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 71]]
+
+F |  |
+  G | 8 | Warning.
+    H | 9-28 | Prophecy.
+    H | 29-33 | Illustration (Fig-tree).
+  G | 34-36 | Warning.
+
+[[diagram: 21. 9-28 (H, above). Prophecy (Repeated Alternation)]]
+[[anchor: Luke 21:9-28]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 71]]
+
+H |  |
+  J1 |  |
+    K1 | 9- | The first things.
+      L1 | -9 | Time. End not yet (then).
+  J2 |  |
+    K2 | 10, 11 | The last things. Tribulation.
+      L2 | 12-24 | Time. Before these last (vv. 10, 11).
+  J3 |  |
+    K3 | 25-27 | The last things. Great Tribulation. (Details of vv. 10, 11.)
+      L3 | 28 | Time. Israel's redemption nigh.
+
+[[diagram: 21. 25-27 (K3, p. 1497). The Last Things (Introversion)]]
+[[anchor: Luke 21:25-27]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 72]]
+
+K3 |  |
+  a | 25 | Signs. In Heaven and Earth.
+    b | 26- | Earth.
+    b | -26 | Heaven.
+  a | 27 | Signification.
+
+[[diagram: 21. 29-33 (H, p. 1497). Illustration. Fig Tree (Introversion and Alternation)]]
+[[anchor: Luke 21:29-33]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 72]]
+
+H |  |
+  M | 29 | Sign. Fig tree and all the trees.
+    N |  |
+      c | 30- | Shooting forth of leaves.
+        d | -30 | Inference. Summer near.
+    N |  |
+      c | 31- | Events. "These things" (vv. 25-28).
+        d | -31 | Inference. Kingdom nigh.
+  M | 32, 33 | Signification. "These things" (vv. 9 and 12-24).
+
+[[diagram: 22. 1-38 (B10, p. 1490). Event. The Last Passover (Division)]]
+[[anchor: Luke 22:1-38]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 73]]
+
+B10 |  |
+  O1 | 1-7 | The Feast. Nigh.
+  O2 | 8-13 | The Feast. Prepared.
+  O3 | 14-20 | The Feast. Partaken of.
+  O4 | 21-38 | The Feast. Events following.
+
+[[diagram: 22. 1-7 (O1, above). The Feast. Nigh (Introversion)]]
+[[anchor: Luke 22:1-7]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 73]]
+
+O1 |  |
+  e | 1 | The Feast nigh.
+    f | 2 | Conspiracy of chief priests and scribes.
+    f | 3-6 | Subornation of Judas.
+  e | 7 | The Feast arrived.
+
+[[diagram: 22. 8-13 (O2, above). The Feast. Prepared (Introversion)]]
+[[anchor: Luke 22:8-13]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 73]]
+
+O2 |  |
+  g | 8 | Command. Make ready.
+    h | 9 | Their question. "Where?"
+    h | 10-12 | His answer.
+  g | 13 | Obedience. Made ready.
+
+[[diagram: 22. 14-20 (O3, p. 1499). The Feast. Partaken Of (Repeated Alternation)]]
+[[anchor: Luke 22:14-20]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 74]]
+
+O3 |  |
+  P1 |  |
+    i1 | 14, 15 | Desire.
+      k1 | 16 | The reason.
+  P2 |  |
+    i2 | 17 | The Cup.
+      k2 | 18 | The reason.
+  P3 |  |
+    i3 | 19- | The Bread.
+      k3 | -19 | The reason.
+  P4 |  |
+    i4 | 20- | The Cup.
+      k4 | -20 | The Signification.
+
+[[diagram: 22. 21-38 (O4, p. 1499). The Feast. Events Following (Alternation)]]
+[[anchor: Luke 22:21-38]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 74]]
+
+O4 |  |
+  Q | 21-23 | Prediction. Betrayal. (Judas.)
+    R | 24-30 | Kingdom. Establishment anticipated.
+  Q | 31-34 | Prediction. Denial. (Peter.)
+    R | 35-38 | Kingdom. Rejection anticipated.
+
+[[diagram: 22. 35-38 (R, p. 1500). Kingdom. Rejection Anticipated (Alternation)]]
+[[anchor: Luke 22:35-38]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 75]]
+
+R |  |
+  l | 35 | Time past. Directions connected with the Proclamation.
+    m | 36 | Time present. New directions given. The former abrogated.
+  l | 37 | Time past. Reasons for old directions.
+    m | 38 | Time present. New directions obeyed.
+
+[[diagram: 22. 39-46 (D, p. 1427). The Agony (Introversion)]]
+[[anchor: Luke 22:39-46]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 75]]
+
+D |  |
+  S | 39, 40 | Prayer. Disciples exhorted to.
+    T | 41- | Disciples. Withdrawal from.
+      U | -41, 42 | Prayer to His Father.
+        V | 43 | Angelic ministrant.
+      U | 44 | Prayer to His Father.
+    T | 45 | Disciples. Return to.
+  S | 46 | Prayer. Disciples exhorted to.
+
+[[diagram: 22. 47—24. 12 (C, p. 1427). The Baptism of Suffering (Division)]]
+[[anchor: Luke 22:47]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 76]]
+
+C |  |
+  W1 |  | 22. 47—23. 49. Death, and Events leading up to.
+  W2 |  | 23. 50-56. Burial.
+  W3 |  | 24. 1-12. Resurrection.
+
+[[diagram: 22. 47—23. 49 (W1, above). Death, and Events Leading Up to It (Introversion)]]
+[[anchor: Luke 22:47]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 76]]
+
+W1 |  |
+  X |  | 22. 47-65. Conspiracy. Effected.
+    Y |  | 22. 66—23. 23. Led away to trial.
+      Z |  | 23. 24, 25. Pilate's sentence.
+    Y |  | 23. 26-32. Led away to death.
+  X |  | 23. 33-49. Conspiracy. Completed.
+
+[[diagram: 22. 47-65 (X, above). Conspiracy. Effected (Alternation)]]
+[[anchor: Luke 22:47-65]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 76]]
+
+X |  |
+  A | 47-54- | Judas. Treachery and arrest.
+    B | -54- | In the high priest's house.
+  A | -54-62 | Peter. Denials.
+    B | 63-65 | In the high priest's house.
+
+[[diagram: 22. 47-54- (A, above). Judas. Treachery and Arrest (Introversion and Alternation)]]
+[[anchor: Luke 22:47-54]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 76]]
+
+A |  |
+  C | 47 | Betrayal.
+    D | 48 | The Lord. Remonstrance to the Betrayer.
+      E |  |
+        n | 49 | Interposition by Disciples.
+          o | 50 | Ear smitten.
+      E |  |
+        n | 51- | Interposition by the Lord.
+          o | -51 | Ear healed.
+    D | 52, 53 | The Lord. Remonstrance to the Captors.
+  C | 54- | Arrested.
+
+[[diagram: 22. -54-62 (A, above). Peter. Denials (Division)]]
+[[anchor: Luke 22:54-62]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 76]]
+
+A |  |
+  F1 | -54-60- | Peter's Fall.
+  F2 | -60-62 | Peter's Repentance.
+
+[[diagram: 22. -54-60- (F1, above). Peter's Fall (Repeated Alternation)]]
+[[anchor: Luke 22:54-60]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 76]]
+
+F1 |  |
+  p1 | -54, 55 | Peter following.
+    q1 | 56 | Recognition by a maid.
+  p2 | 57 | Peter's denial.
+    q2 | 58- | Recognition by another.
+  p3 | -58 | Peter's denial.
+    q3 | 59 | Recognition by another.
+  p4 | 60 | Peter's denial.
+
+[[diagram: 22. -60-62 (F2, p. 1502). Peter's Repentance (Alternation)]]
+[[anchor: Luke 22:60-62]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 77]]
+
+F2 |  |
+  r | -60 | Event. A cock crowing.
+    s | 61- | The Lord's look.
+  r | -61- | Event. A cock crowing.
+    s | -61, 62 | The Lord's word.
+
+[[diagram: 22. 66—23. 23 (Y, p. 1502). Led Away to Trials (Repeated Alternation)]]
+[[anchor: Luke 22:66]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 77]]
+
+Y |  |
+  G1 |  | 22. 66. Led before the Sanhedrin.
+    H1 |  | 22. 67-71. Examination.
+  G2 |  | 23. 1. Led before Pilate.
+    H2 |  | 23. 2-6. Examination.
+  G3 |  | 23. 7. Sent to Herod.
+    H3 |  | 23. 8-11-. Examination.
+  G4 |  | 23. -11, 12. Sent back to Pilate.
+    H4 |  | 23. 13-23. Compromise proposed.
+
+[[diagram: 23. 8-11- (H3, p. 1503). Examination before Herod (Introversion)]]
+[[anchor: Luke 23:8-11]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 78]]
+
+H3 |  |
+  t | 8 | Herod. Curiosity.
+    u | 9- | Questioning by Herod.
+      v | -9 | The Lord. Silence.
+    u | 10 | Accusation of chief priests and scribes.
+  t | 11- | Herod. Carelessness.
+
+[[diagram: 23. 13-23 (H4, p. 1503). Compromise Proposed (Repeated Alternation)]]
+[[anchor: Luke 23:13-23]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 78]]
+
+H4 |  |
+  w1 | 13-17 | Pilate's first appeal. "No fault", vv. 4, 14.
+    x1 | 18, 19 | Demand for the Lord's death (first).
+  w2 | 20 | Pilate's second appeal.
+    x2 | 21 | Demand for the Lord's death (second).
+  w3 | 22 | Pilate's third appeal. "No cause of death".
+    x3 | 23 | Demand for the Lord's death (third).
+
+[[diagram: 23. 26-32 (Y, p. 1502). Led Away to Death (Alternation)]]
+[[anchor: Luke 23:26-32]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 78]]
+
+Y |  |
+  y | 26 | The Lord. Led away.
+    z | 27 | Others. Following.
+  y | 28-31 | The Lord. Final warning.
+    z | 32 | Others. Led with Him.
+
+[[diagram: 23. 33-49 (X, p. 1502). Conspiracy Completed (Alternation and Introversion)]]
+[[anchor: Luke 23:33-49]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 79]]
+
+X |  |
+  J |  |
+    a | 33- | Crucifixion. Accompanying facts.
+    b | -33 | The two malefactors. Led with the Lord.
+  K |  |
+    c | 34- | The Lord's prayer.
+    d | -34-38 | Spectators.
+  J |  |
+    b | 39-43 | The two malefactors. Crucified.
+    a | 44, 45 | Crucifixion. Accompanying events.
+  K |  |
+    c | 46 | The Lord's cry.
+    d | 47-49 | Spectators.
+
+[[diagram: 23. 50-56 (W2, p. 1502). Burial (Alternation and Introversion)]]
+[[anchor: Luke 23:50-56]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 80]]
+
+W2 |  |
+  L |  |
+    N | 50-52 | Joseph.
+    O |  |
+      e | 53- | The body honoured.
+      f | -53 | The body laid.
+  M | 54 | Time. The high Sabbath drew on.
+  L |  |
+    N | 55- | The women.
+    O |  |
+      f | -55 | The body laid. Beheld.
+      e | 56- | The body to be further honoured.
+  M | -56 | Time. The high Sabbath. Rest.
+
+[[diagram: 24. 1-12 (W3, p. 1502). Resurrection (Extended Alternation and Introversion)]]
+[[anchor: Luke 24:1-12]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 80]]
+
+W3 |  |
+  P | 1 | The women. Return to the Sepulchre.
+    Q | 2-4- | Perplexity experienced.
+      R |  |
+        g | -4-6 | The Lord not there.
+        h | 7, 8 | The Lord's words not believed.
+  P | 9, 10- | Women. Return to the Apostles.
+    Q | 10 | Perplexity reported.
+      R |  |
+        h | 11 | The women's words not believed.
+        g | 12 | The Lord not there.
+
+[[diagram: 24. 13-49 (B, p. 1427). The Successors (Division)]]
+[[anchor: Luke 24:13-49]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 81]]
+
+B |  |
+  S1 | 13-32 | Journey to Emmaus.
+  S2 | 33-49 | Return to Jerusalem.
+
+[[diagram: 24. 13-32 (S1, above). Journey to Emmaus (Extended Alternation)]]
+[[anchor: Luke 24:13-32]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 81]]
+
+S1 |  |
+  T |  |
+    U | 13 | The village. Journeyed to.
+      V | 14, 15 | On the way thither.
+        W | 16 | Their eyes holden.
+          X | 17-27 | The Lord's instruction.
+  T |  |
+    U | 28 | The village. Reached.
+      V | 29, 30 | Within the house.
+        W | 31 | Their eyes opened.
+          X | 32 | The Lord's disappearance.
+
+[[diagram: 24. 17-27 (X, above). The Lord's Instruction (Alternation)]]
+[[anchor: Luke 24:17-27]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 81]]
+
+X |  |
+  Y | 17 | Question of the Lord. "What manner?"
+    Z | 18 | Answer of Cleopas.
+  Y | 19- | Question of the Lord. "What things?"
+    Z | -19-27 | Answer of Cleopas.
+
+[[diagram: 24. 33-49 (S2, p. 1507). Return to Jerusalem (Alternation)]]
+[[anchor: Luke 24:33-49]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 82]]
+
+S2 |  |
+  A | 33 | The eleven and others.
+    B | 34, 35 | The Lord. His doings. Reported.
+  A | 36- | The eleven. The Lord in the midst.
+    B | -36-49 | The Lord. His words.
+
+[[diagram: 24. -36-49 (B, p. 1508). The Lord. His Words (Alternation)]]
+[[anchor: Luke 24:36-49]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 83]]
+
+B |  |
+  C | -36-43 | Proof. As to the past.
+    D | 44-48 | Instruction.
+  C | 49- | Promise. As to the future.
+    D | -49 | Command.
+
+[[diagram: 24. -36-43 (C, above). Proof. As to the Past (Alternations)]]
+[[anchor: Luke 24:36-43]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 83]]
+
+C |  |
+  E | -36, 37 | Feelings. Terror and fright.
+    F |  |
+      i | 38 | Question. "Why?"
+        k | 39, 40 | The Lord's answer.
+  E | 41- | Feelings. Joy and wonder.
+    F |  |
+      i | -41 | Question. "Have ye?", &c.
+        k | 42, 43 | Their answer.
+
+[[diagram: 24. 44-48 (D, above). Instruction (Alternation and Introversion)]]
+[[anchor: Luke 24:44-48]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 83]]
+
+D |  |
+  G |  |
+    l | 44- | Words. Past.
+      m | -44 | To be fulfilled.
+        H | 45 | The Scripture understood.
+  G |  |
+    m | 46 | Fulfilled.
+    l | 47 | Words. Present.
+      H | 48 | The Scriptures testified.
+
+[[diagram: 24. 50-53 (A, p. 1427). Post Ministerial (Introversions)]]
+[[anchor: Luke 24:50-53]]
+[[pdf: 38. Luke_text.pdf]]
+[[pdf-page: 83]]
+
+A |  |
+  J | 50- | Led out to Bethany.
+    K |  |
+      n | -50 | His blessing them.
+      o | 51- | He is separated.
+    K |  |
+      o | -51 | He is carried up.
+      n | 52- | Their worship of Him.
+  J | 52, 53 | Return to Jerusalem.
